@@ -1,0 +1,1402 @@
+
+
+
+
+线性代数 - 维基百科，自由的百科全书
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+线性代数
+
+维基百科，自由的百科全书
+
+
+
+跳到导航
+跳到搜索
+此條目需要精通或熟悉相关主题的编者参与及协助编辑。 (2012年1月1日)請邀請適合的人士改善本条目。更多的細節與詳情請參见討論頁。
+
+  「线代」重定向至此。關於在线代理，請見「网页代理」。
+ 三維歐氏空間R3是一個向量空間，而通過原點的線及平面是R3的向量子空間
+
+
+线性代数
+
+
+
+
+
+
+
+A
+
+=
+
+
+[
+
+
+
+1
+
+
+2
+
+
+
+
+3
+
+
+4
+
+
+
+]
+
+
+
+
+{\displaystyle \mathbf {A} ={\begin{bmatrix}1&2\\3&4\end{bmatrix}}}
+
+
+
+
+
+向量 · 向量空间  · 行列式  · 矩阵
+
+
+
+
+
+
+
+向量
+
+
+
+标量 · 向量 · 向量空间 · 向量投影 · 外积（向量积） · 内积（数量积）
+
+
+
+
+
+矩阵与行列式
+
+
+
+矩阵 · 行列式 · 线性方程组 · 秩 · 核 · 迹 · 單位矩陣 · 初等矩阵 · 方块矩阵 · 分块矩阵 · 三角矩阵 · 非奇异方阵 · 转置矩阵 · 逆矩阵 · 对角矩阵 · 可对角化矩阵 · 对称矩阵 · 反对称矩阵 · 正交矩阵 · 幺正矩阵 · 埃尔米特矩阵 · 反埃尔米特矩阵 · 正规矩阵 · 伴随矩阵 · 余因子矩阵 · 共轭转置 · 正定矩阵 · 幂零矩阵 · 矩阵分解 （LU分解 · 奇异值分解 · QR分解 · 极分解 · 特征分解）  · 子式和余子式 · 拉普拉斯展開 · 克罗内克积
+
+
+
+
+
+线性空间与线性变换
+
+
+
+线性空间 · 线性变换 · 线性子空间 · 线性生成空间 · 基 · 线性映射 · 线性投影 · 线性无关 · 线性组合 · 线性泛函 · 行空间与列空间 · 对偶空间 · 正交 · 特征向量 · 最小二乘法 · 格拉姆-施密特正交化
+
+
+
+
+
+查论编
+
+线性代数（英語：linear algebra）是关于向量空间和线性映射的一个数学分支。它包括对线、面和子空间的研究，同时也涉及到所有的向量空间的一般性质。
+坐标满足线性方程的点集形成n维空间中的一个超平面。n个超平面相交于一点的条件是线性代数研究的一个重要焦点。此项研究源于包含多个未知数的线性方程组。这样的方程组可以很自然地表示为矩阵和向量的形式。[1][2]
+线性代数既是纯数学也是应用数学的核心。例如，放宽向量空间的公理就产生抽象代数，也就出现若干推广。泛函分析研究无穷维情形的向量空间理论。线性代数与微积分结合，使得微分方程线性系统的求解更加便利。线性代数的理论已被泛化为算子理论（英语：Operator theory）。
+线性代数的方法还用在解析几何、工程、物理、自然科学、計算機科學、计算机动画和社会科学（尤其是经济学）中。由于线性代数是一套完善的理论，非线性数学模型通常可以被近似为一般線性模型。
+
+目录
+
+1 历史
+2 基本介绍
+3 研究范围
+
+3.1 向量空间
+3.2 线性变换
+3.3 子空间
+3.4 矩阵理论
+3.5 特征值和特征向量
+3.6 内积空间
+
+
+4 相关定理
+5 一般化和相关主题
+6 注解
+7 参见
+8 拓展阅读
+9 外部链接
+
+9.1 在线资源
+9.2 在线书籍
+
+
+
+
+历史[编辑]
+ 帕萨（土耳其語：Hüseyin Tevfik Paşa）的《线性代数》
+线性代数的研究最初出现于对行列式的研究上。行列式当时被用来求解线性方程组。莱布尼茨在1693年使用行列式。随后，加布里尔·克拉默在1750年推导出求解线性方程组的克萊姆法則。然后，高斯利用高斯消元法发展出求解线性系统的理论。这也被列为大地测量学的一项进展。[3][4]
+现代线性代数的历史可以上溯到19世纪中期的英国。1843年，哈密顿发现四元数。1844年，赫爾曼·格拉斯曼发表他的著作《线性外代数》（Die lineare Ausdehnungslehre），包括今日线性代数的一些主题。1848年，詹姆斯·西爾維斯特引入矩阵（matrix），该词是“子宫”的拉丁语。阿瑟·凯莱在研究线性变换时引入矩阵乘法和转置的概念。很重要的是，凯莱使用一个字母来代表一个矩阵，因此将矩阵当做了聚合对象。他也意识到矩阵和行列式之间的联系。[3]
+不過除了這些早期的文献以外．线性代数主要是在二十世纪发展的。在抽象代数的环论开发之前，矩阵只有模糊不清的定義。随着狭义相对论的到来，很多开拓者發現线性代数的微妙。进一步的，解偏微分方程的克莱姆法则的例行应用导致大学的标准教育中包括线性代数。例如，E.T. Copson写到：
+
+
+
+“
+
+当我在1922年到爱丁堡做年轻的讲师的时候，我惊奇的发现不同于牛津的课程。这里包括我根本就不知道的主题如勒貝格积分、矩阵论、数值分析、黎曼几何...
+
+”
+
+
+——E.T. Copson，《偏微分方程》前言, 1973
+
+1882年，Hüseyin Tevfik Pasha（英语：Hüseyin Tevfik Pasha）(TR（土耳其語：Hüseyin Tevfik Paşa）)写了一本书，名为《Linear Algebra》(线性代数)。[5][6]第一次现代化精确定义向量空间是在1888年，由朱塞佩·皮亞諾提出。在1888年，弗兰西斯·高尔顿还发起相关系数的应用。经常有多于一个随机变量出现并且它们可以互相关。在多变元随机变量的统计分析中，相关矩阵是自然的工具。所以这种随机向量的统计研究帮助矩阵用途的开发。到1900年，一种有限维向量空间的线性变换理论被提出。在20世纪上半叶，许多前几世纪的想法和方法被总结成抽象代数，线性代数第一次有了它的现代形式。矩阵在量子力学、狭义相对论和统计学上的应用帮助线性代数的主题超越纯数学的范畴。计算机的发展导致更多地研究致力于有关高斯消元法和矩阵分解的有效算法上。线性代数成为数字模拟和模型的基本工具。[3]
+
+基本介绍[编辑]
+线性代数起源于对二维和三维直角坐标系的研究。在这里，一个向量是一个有方向的线段，由长度和方向同时表示。这样向量可以用来表示物理量，比如力，也可以和标量做加法和乘法。这就是实数向量空间的第一个例子。
+现代线性代数已经扩展到研究任意或无限维空间。一个维数为
+
+
+
+n
+
+
+{\displaystyle n}
+
+的向量空间叫做
+
+
+
+n
+
+
+{\displaystyle n}
+
+维空间。在二维和三维空间中大多数有用的结论可以扩展到这些高维空间。尽管许多人不容易想象
+
+
+
+n
+
+
+{\displaystyle n}
+
+维空间中的向量，这样的向量（即n元组）用来表示数据非常有效。由于作为n元组，向量是
+
+
+
+n
+
+
+{\displaystyle n}
+
+个元素的“有序”列表，大多数人可以在这种框架中有效地概括和操纵数据。比如，在经济学中可以使用8维向量来表示8个国家的国民生产总值（GNP）。当所有国家的顺序排定之后，比如（中国，美国，英国，法国，德国，西班牙，印度，澳大利亚），可以使用向量
+
+
+
+(
+
+v
+
+1
+
+
+,
+
+v
+
+2
+
+
+,
+
+v
+
+3
+
+
+,
+
+v
+
+4
+
+
+,
+
+v
+
+5
+
+
+,
+
+v
+
+6
+
+
+,
+
+v
+
+7
+
+
+,
+
+v
+
+8
+
+
+)
+
+
+{\displaystyle (v_{1},v_{2},v_{3},v_{4},v_{5},v_{6},v_{7},v_{8})}
+
+显示这些国家某一年各自的GNP。这里，每个国家的GNP都在各自的位置上。
+作为证明定理而使用的纯抽象概念，向量空间（线性空间）属于抽象代数的一部分，而且已经非常好地融入这个领域。一些显著的例子有：不可逆线性映射或矩阵的群，向量空间的线性映射的環。
+线性代数也在数学分析中扮演重要角色，特别在向量分析中描述高阶导数，研究张量积和可交换映射等领域。
+向量空间是在域上定义的，比如实数域或复数域。线性算子将线性空间的元素映射到另一个线性空间（也可以是同一个线性空间），保持向量空间上加法和标量乘法的一致性。所有这种变换组成的集合本身也是一个向量空间。如果一个线性空间的基是确定的，所有线性变换都可以表示为一个数表，称为矩阵。对矩阵性质和矩阵算法的深入研究（包括行列式和特征向量）也被认为是线性代数的一部分。
+我们可以简单地说数学中的线性问题——-那些表现出线性的问题——是最容易被解决的。比如微分学研究很多函数线性近似的问题。在实践中与非线性问题的差异是很重要的。
+線性代數方法是指使用线性观点看待问题，并用线性代数的语言描述它、解决它（必要时可使用矩阵运算）的方法。這是数学與工程學中最主要的应用之一。
+
+研究范围[编辑]
+向量空间[编辑]
+主条目：向量空间
+向量空间是线性代数的主要结构。域
+
+
+
+F
+
+
+{\displaystyle F}
+
+上的向量空间是集合
+
+
+
+V
+
+
+{\displaystyle V}
+
+再加上两个二元运算。
+
+
+
+V
+
+
+{\displaystyle V}
+
+的元素叫做向量而
+
+
+
+F
+
+
+{\displaystyle F}
+
+的元素叫做标量。第一个运算，向量加法，取任意两个向量
+
+
+
+v
+
+
+{\displaystyle v}
+
+和
+
+
+
+w
+
+
+{\displaystyle w}
+
+，然后输出第三个向量
+
+
+
+v
++
+w
+
+
+{\displaystyle v+w}
+
+。第二个运算，向量乘法，取任意标量
+
+
+
+a
+
+
+{\displaystyle a}
+
+和任意向量
+
+
+
+v
+
+
+{\displaystyle v}
+
+并输出新向量
+
+
+
+a
+v
+
+
+{\displaystyle av}
+
+。从第一个例子来看，其中乘法是以标量
+
+
+
+a
+
+
+{\displaystyle a}
+
+将向量
+
+
+
+v
+
+
+{\displaystyle v}
+
+缩放后完成的，这种乘法叫做
+
+
+
+v
+
+
+{\displaystyle v}
+
+数乘
+
+
+
+a
+
+
+{\displaystyle a}
+
+。向量空间内的加法和乘法运算满足下列公理。[7]在下表中，令
+
+
+
+u
+,
+v
+
+
+{\displaystyle u,v}
+
+和
+
+
+
+w
+
+
+{\displaystyle w}
+
+为
+
+
+
+V
+
+
+{\displaystyle V}
+
+中的任意向量，
+
+
+
+a
+
+
+{\displaystyle a}
+
+和
+
+
+
+b
+
+
+{\displaystyle b}
+
+为
+
+
+
+F
+
+
+{\displaystyle F}
+
+中的标量。
+
+
+
+公理
+意义
+
+
+加法结合律
+
+
+
+
+u
++
+
+(
+
+v
++
+w
+
+)
+
+=
+
+(
+
+u
++
+v
+
+)
+
++
+w
+
+
+{\displaystyle u+\left(v+w\right)=\left(u+v\right)+w}
+
+
+
+
+加法交换律
+
+
+
+
+u
++
+v
+=
+v
++
+u
+
+
+{\displaystyle u+v=v+u}
+
+
+
+
+加法的單位元
+存在元素
+
+
+
+0
+∈
+V
+
+
+{\displaystyle 0\in V}
+
+，称作零向量，使得对所有
+
+
+
+v
+∈
+V
+
+
+{\displaystyle v\in V}
+
+，都有
+
+
+
+v
++
+0
+=
+v
+
+
+{\displaystyle v+0=v}
+
+。
+
+
+加法的逆元素
+对每个
+
+
+
+v
+∈
+V
+
+
+{\displaystyle v\in V}
+
+，存在一元素
+
+
+
+−
+v
+∈
+V
+
+
+{\displaystyle -v\in V}
+
+，称作
+
+
+
+v
+
+
+{\displaystyle v}
+
+的相反数，使得
+
+
+
+v
++
+(
+−
+v
+)
+=
+0
+
+
+{\displaystyle v+(-v)=0}
+
+
+
+
+相对于向量加法的数乘分配律  
+
+
+
+
+a
+
+(
+
+u
++
+v
+
+)
+
+=
+a
+u
++
+a
+v
+
+
+{\displaystyle a\left(u+v\right)=au+av}
+
+
+
+
+相对于域加法的数乘分配律
+
+
+
+
+
+(
+
+a
++
+b
+
+)
+
+v
+=
+a
+v
++
+b
+v
+
+
+{\displaystyle \left(a+b\right)v=av+bv}
+
+
+
+
+数乘与域乘法的相容性
+
+
+
+
+a
+
+(
+
+b
+v
+
+)
+
+=
+
+(
+
+a
+b
+
+)
+
+v
+
+
+{\displaystyle a\left(bv\right)=\left(ab\right)v}
+
+ [nb 1]
+
+
+数乘的单位元
+
+
+
+
+1
+v
+=
+v
+
+
+{\displaystyle 1v=v}
+
+，其中1表示
+
+
+
+F
+
+
+{\displaystyle F}
+
+内的乘法单位。
+
+一般向量空间
+
+
+
+V
+
+
+{\displaystyle V}
+
+可能有不同性质的元素，例如，函数、多项式、向量或矩阵。线性代数关注的是所有向量空间的共同性质。
+
+线性变换[编辑]
+参见：线性变换
+子空间[编辑]
+参见：線性子空間
+矩阵理论[编辑]
+参见：矩阵理论
+矩阵是一个矩形的数学方阵。一个方阵可看作两个矢量空间的线性变阵，故矩阵理论可当作线性代数的一个分枝。
+在图论，每一个加上标示图对应唯一的非负矩阵，称为邻接矩阵。
+排列矩阵是排列的矩阵表达式，在组合数学极为重要。
+正定矩阵及半正定矩阵可用来寻找实数函数的极大值或极小值。
+任意环矩阵亦非常重要。举例说，多项式环的矩阵用于控制理论。
+另外，不同的矩阵环经常是提供数学上反例的素材。
+
+特征值和特征向量[编辑]
+一般情况下，线性变换可能相当复杂。一些低维的例子，让我们领会不同的类型。一般的
+
+
+
+n
+
+
+{\displaystyle n}
+
+维变换
+
+
+
+T
+
+
+{\displaystyle T}
+
+的一个技巧是找到在
+
+
+
+T
+
+
+{\displaystyle T}
+
+下的不变集——特征线。如果
+
+
+
+v
+
+
+{\displaystyle v}
+
+是一个非零向量，使得
+
+
+
+T
+v
+
+
+{\displaystyle Tv}
+
+为
+
+
+
+v
+
+
+{\displaystyle v}
+
+的标量倍，那么通过0和
+
+
+
+v
+
+
+{\displaystyle v}
+
+的直线就是在
+
+
+
+T
+
+
+{\displaystyle T}
+
+下的不变集，而
+
+
+
+v
+
+
+{\displaystyle v}
+
+被称为特征向量。使得
+
+
+
+T
+v
+−
+λ
+v
+
+
+{\displaystyle Tv-\lambda v}
+
+的标量
+
+
+
+λ
+
+
+{\displaystyle \lambda }
+
+叫做
+
+
+
+T
+
+
+{\displaystyle T}
+
+的特征值。
+要求一个特征向量或特征值，我们注意到
+
+
+
+
+
+T
+v
+−
+λ
+v
+=
+(
+T
+−
+λ
+
+
+I
+
+)
+v
+=
+0
+,
+
+
+{\displaystyle Tv-\lambda v=(T-\lambda \,{\text{I}})v=0,}
+
+
+其中
+
+
+
+I
+
+
+{\displaystyle I}
+
+是单位矩阵。为使该方程存在非平凡解，
+
+
+
+det
+
+(
+
+T
+−
+λ
+I
+
+)
+
+=
+0
+
+
+{\displaystyle \det \left(T-\lambda I\right)=0}
+
+。行列式是一个多项式，所以在域
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+内不保证存在特征值。
+
+内积空间[编辑]
+参见：内积空间
+相关定理[编辑]
+每一个线性空间都有一个基。[8]
+对一个n阶方阵
+
+
+
+A
+
+
+{\displaystyle A}
+
+，如果存在一个
+
+
+
+n
+
+
+{\displaystyle n}
+
+阶方阵
+
+
+
+B
+
+
+{\displaystyle B}
+
+使
+
+
+
+A
+B
+=
+B
+A
+=
+I
+
+
+{\displaystyle AB=BA=I}
+
+（I是单位矩阵），则
+
+
+
+A
+
+
+{\displaystyle A}
+
+为非奇异方阵[9]。
+一个方阵非奇异当且仅当它的行列式不为零。
+一个方阵非奇异当且仅当它代表的线性变换是个自同构。
+一个矩阵半正定当且仅当它的每个特征值大于或等于零。
+一个矩阵正定当且仅当它的每个特征值都大于零。
+一般化和相关主题[编辑]
+线性代数是一个成功的理论，其方法已被应用于数学的其他分支。模论就是将线性代数中的标量的域用环替代，並进行研究，像線性無關、线性生成空间、基底、秩等概念仍然可以適用。不過許多線性代數中的定理在模论中不成立，例如不是所有的模都有基底（有基底的模稱為自由模），自由模的秩不唯一，不是所有模中的線性獨立的子集都可以延伸成為基底，也不是所有模生成空间的子集都包括基底。
+多重线性代数推广线性代数的方法。和线性代数一样也是建立在向量的概念上，发展向量空间的理论。在应用上，出现许多类型的张量。
+在算子的谱理论中，通过数学分析，可以控制无限维矩阵。泛函分析混合线性代数和数学分析中的方式，研究許多不同函數空間，例如Lp空间。
+
+注解[编辑]
+
+
+^ Strang, Gilbert, Linear Algebra and Its Applications 4th, Brooks Cole, July 19, 2005, ISBN 978-0-03-010567-8 
+
+^ Weisstein, Eric. Linear Algebra. From MathWorld--A Wolfram Web Resource. Wolfram.   [16 April 2012]. （原始内容存档于2021-02-09）. 
+
+^ 3.0 3.1 3.2 Vitulli, Marie. A Brief History of Linear Algebra and Matrix Theory. Department of Mathematics. University of Oregon.   [2012-01-24]. （原始内容存档于2012-09-10）. 
+
+^ O'Connor J J  and Robertson E F. Matrices and determinants. School of Mathematical and Computational Sciences, University of St Andrews.   [2013-10-14]. （原始内容存档于2015-03-08）. 
+
+^ Hussein Tevfik. Linear Algebra. A.H. Boyajian. 1882  [2013-10-13]. 
+
+^ Gert Schubring. HÜSEYİN TEVFİK PASHA – THE INVENTOR OF‘LINEAR ALGEBRA’. 2007  [2013-10-14]. （原始内容存档于2014-03-16）. 
+
+^ Roman 2005, ch. 1, p. 27
+
+^ 对于有限生成的向量空间存在一个基是直接了当的，但是在完全一般性的情况下，它逻辑上等价于选择公理。
+
+^ 段正敏、王汉明. 线性代数. 北京: 清华大学出版社有限公司. 2006: p66  [2013-10-21]. ISBN 7302123500. （原始内容存档于2013-10-21）.  引文格式1维护：冗余文本 (link)
+
+
+
+
+^ This axiom is not asserting the associativity of an operation, since there are two operations in question, scalar multiplication: bv; and field multiplication: ab.
+
+
+参见[编辑]
+数值线性代数
+特征向量
+基础矩阵
+線性回歸
+單純形法
+线性规划
+变换矩阵
+拓展阅读[编辑]
+
+Beezer, Rob, A First Course in Linear Algebra （页面存档备份，存于互联网档案馆）, licensed under GFDL.
+Fearnley-Sander, Desmond, Hermann Grassmann and the Creation of Linear Algebra, American Mathematical Monthly 86 (1979), pp. 809–817.
+Grassmann, Hermann, Die lineale Ausdehnungslehre ein neuer Zweig der Mathematik: dargestellt und durch Anwendungen auf die übrigen Zweige der Mathematik, wie auch auf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erläutert, O. Wigand, Leipzig, 1844.
+Jim Hefferon: Linear Algebra （页面存档备份，存于互联网档案馆）（Online textbook）
+Edwin H. Connell: Elements of Abstract and Linear Algebra （页面存档备份，存于互联网档案馆）（Online textbook）
+
+外部链接[编辑]
+在线资源[编辑]
+朝陽科技大學線性代數講義 （页面存档备份，存于互联网档案馆）（繁體中文）
+同济大学线性代数精品课程（简体中文）
+MIT Linear Algebra Video Lectures （页面存档备份，存于互联网档案馆）, a series of 34 recorded lectures by professor Gilbert Strang (Spring 2010)（英文）
+Linear Algebra Toolkit （页面存档备份，存于互联网档案馆）.
+Linear Algebra Workbench （页面存档备份，存于互联网档案馆）: multiply and invert matrices, solve systems, eigenvalues etc.
+Hazewinkel, Michiel (编), Linear algebra, 数学百科全书, Springer, 2001, ISBN 978-1-55608-010-4 
+Linear Algebra （页面存档备份，存于互联网档案馆） on MathWorld.
+Linear Algebra overview （页面存档备份，存于互联网档案馆） and notation summary （页面存档备份，存于互联网档案馆） on PlanetMath.
+Matrix and Linear Algebra Terms （页面存档备份，存于互联网档案馆） on Earliest Known Uses of Some of the Words of Mathematics
+Linear Algebra by Elmer G. Wiens. Interactive web pages for vectors, matrices, linear equations, etc.
+Linear Algebra Solved Problems: Interactive forums for discussion of linear algebra problems, from the lowest up to the hardest level (Putnam).
+Linear Algebra for Informatics. José Figueroa-O'Farrill, University of Edinburgh
+Essence of linear algebra （页面存档备份，存于互联网档案馆），3Blue1Brown的关于线性代数基础的视频演示，重点介绍向量、矩阵及线性代数理解方面的总结。
+在线书籍[编辑]
+Linear Algebra by Jim Hefferon （页面存档备份，存于互联网档案馆）: A free textbook with exercises and a solutions guide written by a professor at Saint Michael's College.（英文）
+Online Notes / Linear Algebra Paul Dawkins, Lamar University（英文）
+Matthews, Keith, Elementary Linear Algebra textbook with solutions （页面存档备份，存于互联网档案馆）（英文）
+Treil, Sergei, Linear Algebra Done Wrong （页面存档备份，存于互联网档案馆）（英文）
+查论编数学（数学领域）
+历史
+纲要（英语：Outline of mathematics）
+符号表
+数学基础
+范畴论
+集合论
+数理逻辑
+数学哲学
+代数
+抽象代数
+初等代數
+线性代数
+多重线性代数
+泛代数
+数学分析
+微积分
+实变函数
+复变函数
+微分方程
+泛函分析
+調和分析
+离散数学
+组合数学
+图论
+序理论
+博弈论
+几何学
+代数几何
+解析几何
+微分几何
+离散几何学
+欧几里得几何
+非欧几里得几何
+有限几何学
+数论
+算术
+代數數論
+解析数论
+几何数论
+算术几何
+丢番图几何
+拓扑学
+代数拓扑
+微分拓扑
+几何拓扑
+统计学
+测度与概率
+数理统计学
+数据科学
+统计推断
+迴歸分析
+统计学习理论
+机器学习
+人工智能
+数据结构与算法
+计算数学
+计算机科学
+计算理论
+数值分析
+最优化
+计算机代数
+应用数学
+控制论
+信息论
+计算化学
+数理生物学
+数理经济学
+计量经济学
+數理金融學
+数学心理学
+数学物理学
+生物統計學
+其它
+数学史
+娱乐数学
+数学与艺术（英语：Mathematics and art）
+数学教育
+注释
+数学的领域也可根据“MSC分类标准”或“中国学科分类国家标准”进行分类。
+
+ 分类
+ 主题
+共享资源
+专题
+
+查论编线性代数的相关概念重要概念
+标量
+向量
+向量空间
+向量子空间
+线性生成空间
+线性映射
+投影
+線性無關
+线性组合
+基
+標記
+列空间
+行空间
+零空间
+对偶空间
+正交
+特征值
+特征向量
+数量积
+内积空间
+点乘
+轉置
+格拉姆-施密特正交化
+线性方程组
+克萊姆法則
+矩阵
+矩阵
+矩陣乘法
+矩阵分解
+行列式
+子式和余子式
+矩阵的秩
+克萊姆法則
+逆矩阵
+高斯消去法
+线性变换
+分块矩阵
+数值线性代数
+浮点数
+数值稳定性
+基础线性代数程序集
+稀疏矩阵
+
+规范控制 
+BNE: XX527736
+BNF: cb11937509n (data)
+FAST: 804946
+GND: 4035811-2
+LCCN: sh85003441
+LNB: 000082525
+NDL: 00570681
+NKC: ph122353
+
+
+
+
+
+取自“https://zh.wikipedia.org/w/index.php?title=线性代数&oldid=72938747”
+分类：​線性代數高等教育隐藏分类：​引文格式1维护：冗余文本自2012年1月需要专业人士关注的页面含有英語的條目使用抬升式引用的條目包含BNE标识符的维基百科条目包含BNF标识符的维基百科条目包含FAST标识符的维基百科条目包含GND标识符的维基百科条目包含LCCN标识符的维基百科条目包含LNB标识符的维基百科条目包含NDL标识符的维基百科条目包含NKC标识符的维基百科条目
+
+
+
+导航菜单
+
+
+
+个人工具
+
+
+没有登录讨论贡献创建账号登录
+
+
+
+
+
+命名空间
+
+
+条目讨论
+
+
+
+
+
+不转换
+
+
+不转换简体繁體大陆简体香港繁體澳門繁體大马简体新加坡简体臺灣正體
+
+
+
+
+
+
+查看
+
+
+阅读编辑查看历史
+
+
+
+
+
+更多
+
+
+
+
+
+
+
+
+搜索
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+导航
+
+
+首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+
+
+
+
+帮助
+
+
+帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+
+
+
+
+工具
+
+
+链入页面相关更改上传文件特殊页面固定链接页面信息引用本页维基数据项目
+
+
+
+
+打印/导出
+
+
+下载为PDF打印页面
+
+
+
+
+在其他项目中
+
+
+维基共享资源维基教科书维基学院
+
+
+
+
+其他语言
+
+
+AfrikaansAlemannischAragonésالعربيةAsturianuAzərbaycancaБашҡортсаБеларускаяБеларуская (тарашкевіца)БългарскиবাংলাBosanskiCatalàکوردیČeštinaЧӑвашлаCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisNordfriisk贛語Kriyòl gwiyannenGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaÍslenskaItaliano日本語PatoisქართულიҚазақша한국어LatinaЛезгиLingua Franca NovaLombardLietuviųLatviešuМакедонскиമലയാളംBahasa MelayuNederlandsNorsk nynorskNorsk bokmålOccitanPolskiPiemontèisPortuguêsRomânăРусскийSicilianuScotsSrpskohrvatski / српскохрватскиSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaKiswahiliதமிழ்ТоҷикӣไทยTagalogTürkçeУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWinaray吴语ייִדישYorùbáBân-lâm-gú粵語
+编辑链接
+
+
+
+
+
+
+ 本页面最后修订于2022年7月28日 (星期四) 08:39。
+本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。（请参阅使用条款）
+Wikipedia®和维基百科标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的非营利慈善机构。
+
+
+隐私政策
+关于维基百科
+免责声明
+手机版视图
+开发者
+统计
+Cookie声明
+
+
+
+
+
+
+
+
+
+

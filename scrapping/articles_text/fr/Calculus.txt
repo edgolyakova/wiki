@@ -1,0 +1,912 @@
+
+
+
+
+Calcul infinitésimal — Wikipédia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aller au contenu
+
+
+
+
+
+Afficher / masquer la barre latérale
+
+
+
+
+
+
+
+
+
+
+
+
+Rechercher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Créer un compte
+
+
+
+
+
+Outils personnels
+
+
+ Créer un compte
+ Se connecter
+
+
+		Pages pour les contributeurs déconnectés en savoir plus
+
+
+DiscussionContributions
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+AccueilPortails thématiquesArticle au hasardContact
+
+
+
+
+Contribuer
+
+
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+
+
+
+
+Outils
+
+
+Pages liéesSuivi des pages liéesTéléverser un fichierPages spécialesLien permanentInformations sur la pageCiter cette pageÉlément Wikidata
+
+
+
+
+Imprimer / exporter
+
+
+Créer un livreTélécharger comme PDFVersion imprimable
+
+
+
+
+Dans d’autres projets
+
+
+Wikimedia CommonsWikiversité
+
+
+
+
+Langues
+
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Sommaire
+				déplacer vers la barre latérale
+masquer
+
+
+
+
+
+Début
+
+
+
+
+
+1Historique
+
+
+
+
+
+
+
+2Principes
+
+
+					Afficher / masquer la sous-section Principes
+				
+
+
+
+
+2.1Bases
+
+
+
+
+
+
+
+2.2Théorème fondamental de l'analyse
+
+
+
+
+
+
+
+
+
+3Branches
+
+
+					Afficher / masquer la sous-section Branches
+				
+
+
+
+
+3.1Calcul différentiel
+
+
+
+
+
+
+
+3.2Calcul intégral
+
+
+
+
+
+
+
+
+
+4Applications
+
+
+
+
+
+
+
+5Notes et références
+
+
+
+
+
+
+
+6Voir aussi
+
+
+					Afficher / masquer la sous-section Voir aussi
+				
+
+
+
+
+6.1Bibliographie
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Basculer la table des matières
+					
+Calcul infinitésimal
+
+
+
+91 langues
+
+
+አማርኛAragonésالعربيةمصرىAsturianuBikol CentralবাংলাBosanskiCatalàکوردیČeštinaЧӑвашлаCymraegDanskDeutschZazakiΕλληνικάEnglishEsperantoEspañolEuskaraفارسیSuomiGaeilge贛語Galegoગુજરાતી客家語/Hak-kâ-ngîעבריתहिन्दीFiji HindiHrvatskiInterlinguaBahasa IndonesiaIdoÍslenskaItaliano日本語PatoisJawaქართული한국어LatinaLingua Franca NovaLimburgsLietuviųLatviešuMadhurâMinangkabauМакедонскиമലയാളംМонголमराठीBahasa Melayuမြန်မာဘာသာNederlandsNorsk nynorskOccitanਪੰਜਾਬੀPolskiپنجابیPortuguêsRuna SimiRomânăРусскийСаха тылаScotsSrpskohrvatski / српскохрватскиසිංහලSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSiSwatiSvenskaதமிழ்తెలుగుไทยTagalogTürkçeУкраїнськаاردوVènetoTiếng ViệtWinaray吴语ייִדיש中文文言Bân-lâm-gú粵語
+Modifier les liens
+
+
+
+
+
+
+
+
+
+ArticleDiscussion
+
+
+
+
+
+français
+
+
+
+
+
+
+
+
+
+
+
+LireModifierModifier le codeVoir l’historique
+
+
+
+
+
+
+
+Plus
+
+
+LireModifierModifier le codeVoir l’historique
+
+
+
+
+
+
+
+
+
+
+Un article de Wikipédia, l'encyclopédie libre.
+
+
+Le calcul infinitésimal (ou calcul différentiel et intégral) est une branche des mathématiques, développée à partir de l'algèbre et de la géométrie, qui implique deux idées majeures complémentaires :
+
+Le calcul différentiel, qui établit une relation entre les variations de plusieurs fonctions, ainsi que la notion de dérivée. La vitesse, l'accélération, et les pentes des courbes des fonctions mathématiques en un point donné peuvent toutes être décrites sur une base symbolique commune, les taux de variation, l'optimisation et les taux liés.
+Le calcul intégral, qui développe l'idée d'intégration, les techniques d'intégration, fait intervenir le concept d'aire sous-tendue par le graphe d'une fonction, inclut des notions connexes comme le volume, les suites et séries.
+Ces deux concepts définissent des opérations inverses au sens précis défini par les théorèmes fondamentaux du calcul infinitésimal. Ceci veut dire qu'ils ont une priorité équivalente. Cependant l'approche pédagogique habituelle commence par le calcul différentiel.
+
+
+Historique[modifier | modifier le code]
+Article détaillé : Histoire du calcul infinitésimal.
+Le développement du calcul infinitésimal est attribué à Archimède, Fermat, Leibniz et Newton. Cependant, lorsque le calcul infinitésimal a été initialement développé, une controverse fut soulevée sur qui en avait la paternité entre Leibniz et Newton, occultant auprès du grand public l'apport de Fermat. L'algorithme du passage à la limite pour calculer la tangente à une courbe est en effet une invention de Fermat (méthode des maxima et minima[1]) en 1636 et était public dès 1667, car rapporté par Huygens à l'Académie des sciences. Les évolutions ultérieures, de Leibniz et Newton (qui étaient en rapport avec Huygens), portent sur les notations. La contribution majeure de Leibniz fut sans conteste son système de notation.
+La controverse fut cependant malheureuse car elle a divisé pendant de nombreuses années les mathématiciens anglophones et ceux du reste de l'Europe. Cela a retardé le progrès de l'analyse (mathématiques basées sur le calcul infinitésimal) en Grande-Bretagne pendant longtemps. La terminologie et les notations de Newton étaient clairement moins flexibles que celles de Leibniz. Elles furent malgré tout conservées jusqu'au début du XIXe siècle lorsque le travail de l'Analytical Society introduisit avec succès la notation de Leibniz en Grande-Bretagne.
+Barrow, Descartes, Huygens et Wallis contribuèrent également dans une moindre mesure au développement du calcul infinitésimal.
+Kowa Seki, un mathématicien japonais contemporain de Leibniz et Newton, a aussi énoncé quelques principes fondamentaux du calcul intégral. Cependant la coupure des contacts avec l'Extrême-Orient à cette époque ne permit pas la diffusion de ses travaux en Europe.
+La justification première du développement du calcul différentiel était de trouver une solution du « problème de la tangente ».
+
+Principes[modifier | modifier le code]
+Bases[modifier | modifier le code]
+Les bases conceptuelles du calcul infinitésimal incluent les notions de fonctions, limites, suites infinies, séries infinies et continuité. Ces outils incluent les techniques de manipulation symbolique associées à l'algèbre élémentaire et l'induction mathématique.
+La version moderne du calcul infinitésimal, appelée « analyse réelle », consiste en une dérivation rigoureuse des résultats du calcul infinitésimal ainsi qu'en généralisations comme la théorie de la mesure et l'analyse fonctionnelle.
+
+Théorème fondamental de l'analyse[modifier | modifier le code]
+Article détaillé : Théorème fondamental de l'analyse.
+Le théorème fondamental de l'analyse montre que la différentiation et l'intégration sont, dans un certain sens, des opérations inverses. C'est cette « découverte » par Newton et Leibniz qui est à l'origine de l'explosion des résultats analytiques. Ce lien nous permet de retrouver la variation totale d'une fonction sur un intervalle à partir de sa variation instantanée, en intégrant cette dernière. Le théorème fondamental nous donne aussi une méthode pour calculer beaucoup d'intégrales définies de façon algébrique, sans passer réellement à la limite, en trouvant la primitive. Il nous permet aussi de résoudre certaines équations différentielles. Une équation différentielle est une équation qui lie une fonction à ses dérivées. Les équations différentielles sont fondamentales en sciences.
+
+Branches[modifier | modifier le code]
+Calcul différentiel[modifier | modifier le code]
+Articles détaillés : Différentielle et Dérivée.
+Le calcul différentiel consiste à trouver les taux de variation instantanés (ou dérivées) de la valeur d'une fonction par rapport aux variations du (des) paramètre(s) de celle-ci. Ce concept est au cœur de nombreux problèmes de physique. Par exemple, la théorie de base des circuits électriques est formulée en termes d'équations différentielles pour décrire les systèmes oscillants.
+La dérivée d'une fonction permet de trouver ses extrema (minima et maxima) en étudiant ses variations. Une autre application du calcul différentiel est la méthode de Newton, un algorithme qui permet de trouver les zéros d'une fonction en l'approchant localement par ses tangentes. Ceci n'est qu'un très bref aperçu des nombreuses applications du calcul infinitésimal dans des problèmes qui, à première vue, ne sont pas formulés en ces termes.
+Certains attribuent à Fermat la paternité du calcul différentiel.
+
+Calcul intégral[modifier | modifier le code]
+Article détaillé : Intégration (mathématiques).
+Le calcul intégral étudie les méthodes permettant de trouver l'intégrale d'une fonction. Elle peut être définie comme la limite de la somme de termes qui correspondent chacun à la surface d'une fine bandelette sous-tendue par le graphe de la fonction. Ainsi définie, l'intégration donne un moyen effectif de calculer l'aire sous une courbe ainsi que la surface et le volume de solides comme la sphère ou le cône.
+
+Applications[modifier | modifier le code]
+Pour rendre concrètes ces notions, on considère dans le plan (xOy) un rectangle de côtés x et y dont deux points opposés sont O et M(x,y). Sa surface est égale à xy et dépend des coordonnées x et y du point M. En suivant une démarche intuitive, on convient de noter par dx une très petite variation de la variable x. Lorsqu'on fait subir au point M un déplacement très faible, la surface va changer et on peut écrire que S + dS = (x + dx)×(y + dy) = xy + x dy + y dx + dx dy,
+et on en déduit facilement que dS = x dy + y dx + dx dy.
+Une simple application numérique où x et y seraient des mètres et dx et dy des centimètres illustre que dx dy est négligeable par rapport aux autres grandeurs.
+On peut donner un statut mathématique précis aux notations dx et dy (qui sont des formes différentielles), et à la quantité dx dy qui est alors du second ordre. Le calcul précédent est en fait un calcul de développement limité à l'ordre 1, faisant intervenir les dérivées premières de la fonction xy par rapport aux deux variables.
+On écrit donc :  
+
+
+
+
+
+d
+S
+=
+(
+x
++
+d
+x
+)
+⋅
+(
+y
++
+d
+y
+)
+−
+x
+⋅
+y
+=
+y
+⋅
+d
+x
++
+x
+⋅
+d
+y
++
+d
+x
+⋅
+d
+y
+=
+(
+y
+,
+x
+)
+⋅
+(
+d
+x
+,
+d
+y
+)
++
+d
+x
+⋅
+d
+y
+=
+
+
+∇
+→
+
+
+S
+⋅
+
+
+
+d
+O
+M
+
+→
+
+
++
+d
+x
+⋅
+d
+y
+
+
+{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=(y,x)\cdot (dx,dy)+dx\cdot dy={\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}+dx\cdot dy}
+
+
+
+
+
+
+
+
+∇
+→
+
+
+S
+⋅
+
+
+
+d
+O
+M
+
+→
+
+
+=
+(
+y
+
+
+
+i
+→
+
+
+
++
+x
+
+
+
+j
+→
+
+
+
+)
+⋅
+(
+d
+x
+
+
+
+i
+→
+
+
+
++
+d
+y
+
+
+
+j
+→
+
+
+
+)
+=
+
+(
+
+
+
+
+∂
+(
+x
+y
+)
+
+
+∂
+x
+
+
+
+
+
+
+i
+→
+
+
+
++
+
+
+
+∂
+(
+x
+y
+)
+
+
+∂
+y
+
+
+
+
+
+
+j
+→
+
+
+
+
+)
+
+⋅
+(
+d
+x
+
+
+
+i
+→
+
+
+
++
+d
+y
+
+
+
+j
+→
+
+
+
+)
+
+
+{\displaystyle {\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}=(y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=\left({\frac {\partial (xy)}{\partial x}}{\vec {i}}+{\frac {\partial (xy)}{\partial y}}{\vec {j}}\right)\cdot (dx{\vec {i}}+dy{\vec {j}})}
+
+
+Toutes ces égalités sont différentes façons d'écrire un produit scalaire de deux vecteurs :
+
+
+
+
+
+d
+S
+=
+(
+x
++
+d
+x
+)
+⋅
+(
+y
++
+d
+y
+)
+−
+x
+⋅
+y
+=
+y
+⋅
+d
+x
++
+x
+⋅
+d
+y
++
+d
+x
+⋅
+d
+y
+=
+
+
+
+g
+r
+a
+d
+
+→
+
+
+(
+x
+y
+)
+⋅
+
+
+
+d
+O
+M
+
+→
+
+
++
+d
+x
+⋅
+d
+y
+=
+
+
+∇
+→
+
+
+(
+x
+y
+)
+⋅
+
+
+
+d
+O
+M
+
+→
+
+
++
+d
+x
+⋅
+d
+y
+
+
+{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=\mathrm {\overrightarrow {\mathrm {grad} }} (xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy={\overrightarrow {\nabla }}(xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy}
+
+ où 
+
+
+
+
+
+
+g
+r
+a
+d
+
+→
+
+
+(
+x
+y
+)
+=
+(
+y
+,
+x
+)
+
+
+{\displaystyle {\overrightarrow {\mathrm {grad} }}(xy)=(y,x)}
+
+
+L'intérêt de l'introduction de ces vecteurs pour exprimer la variation d'une fonction de plusieurs paramètres est de visualiser le fait que la fonction va varier le plus dans la direction du vecteur gradient et qu'elle ne va pas varier pour tout changement des paramètres dans une direction perpendiculaire au gradient.
+
+
+
+
+
+(
+y
+
+
+
+i
+→
+
+
+
++
+x
+
+
+
+j
+→
+
+
+
+)
+⋅
+(
+d
+x
+
+
+
+i
+→
+
+
+
++
+d
+y
+
+
+
+j
+→
+
+
+
+)
+=
+0
+
+
+{\displaystyle (y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=0}
+
+ pour 
+
+
+
+y
+d
+x
++
+x
+d
+y
+=
+0
+
+
+{\displaystyle ydx+xdy=0}
+
+ dans notre exemple du rectangle.
+Le développement et l'utilisation du calcul infinitésimal a eu des conséquences importantes dans pratiquement tous les domaines. Il est à la base de beaucoup de sciences, notamment la physique. Presque toutes les techniques et technologies modernes font un usage fondamental du calcul infinitésimal.
+Celui-ci s'est étendu avec les équations différentielles, le calcul vectoriel, le calcul des variations, l'analyse complexe, ou la géométrie différentielle.
+
+Notes et références[modifier | modifier le code]
+(en) Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Calculus » (voir la liste des auteurs).
+
+↑ Cf. Jean-Marie Duhamel, Mémoire sur la méthode des maxima et minima de Fermat et sur les méthodes des tangentes de Fermat et Descartes, Gauthier-Villars, 1864 (lire en ligne).
+
+
+
+Voir aussi[modifier | modifier le code]
+
+Sur les autres projets Wikimedia :
+
+Calcul différentiel, sur Wikiversity
+
+
+Bibliographie[modifier | modifier le code]
+(en) Robert A. Adams, Calculus: A Complete Course, 1999  (ISBN 0-201-39607-6)
+(en) Donald J. Albers, Richard D. Anderson et Don O. Loftsgaarden, Undergraduate Programs in the Mathematics and Computer Sciences: The 1985-1986 Survey, coll. « MAA Notes » (n° 7), 1986
+Gustave Bessière,  Le calcul intégral facile et attrayant, 3e éd., 1931, Paris, Dunod
+Jean-Marc Garnier, Calcul infinitésimal, Ellipses, 2015
+(en) George A. Osborne, Differential and Integral Calculus with Examples and Applications, Boston, D. C. Heath and Co. (en), 1906 (lire en ligne)
+(en) Clifford Pickover, Calculus and Pizza: A Math Cookbook for the Hungry Mind, John Wiley & Sons, 2003  (ISBN 0-471-26987-5)
+(en) Michael Spivak, Calculus, Cambridge University Press, 2006  (ISBN 978-0-521-86744-3), [lire en ligne], 1re éd. 1967
+(en) Lynn Arthur Steen (éd.), Calculus for a New Century: A Pump, Not a Filter, A National Colloquium, MAA, Stony Brook, NY, 1988  (ISBN 978-0-88385058-9), [lire en ligne]
+(en) Silvanus P. Thompson et Martin Gardner, Calculus Made Easy, St. Martin's Press, 1998  (ISBN 0-312-18548-0)
+
+
+v · mGottfried Wilhelm Leibniz (1646-1716)
+ 
+Philosophie
+Principes : Principe du meilleur · Principe du prédicat inhérent au sujet · Principe de contradiction · Principe de raison suffisante · Principe d'identité des indiscernables · Principe de continuitéConcepts : Monade · Caractéristique universelle · Calculus ratiocinator · Mathesis universalis
+ 
+Mathématiques
+Calcul infinitésimal · Formule de Leibniz · Notation de Leibniz · Théorème de Leibniz · Algèbre de Leibniz · Règle de Leibniz · Fonction de Leibniz
+ 
+Théologie
+Théodicée · Meilleur des mondes possibles
+ 
+Œuvres
+De arte combinatoria (1666) · Discours de métaphysique (1686) · Nouveaux Essais sur l'entendement humain (1704) · Essais de Théodicée (1710) · Monadologie (1714)
+ 
+Personnalités liées
+Friedrich Leibnütz (père) · Jakob Thomasius (professeur) · Erhard Weigel (professeur) · Christian Wolff (disciple)
+ 
+
+ Portail de l'analyse  
+
+
+
+
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Calcul_infinitésimal&oldid=197183680 ».
+Catégories : CalculIsaac NewtonGottfried Wilhelm LeibnizCatégories cachées : Article contenant un appel à traduction en anglaisPortail:Analyse/Articles liésProjet:Mathématiques/ArticlesPortail:Sciences/Articles liésArticle de qualité en indonésienArticle de qualité en javanais
+
+
+
+
+
+
+ La dernière modification de cette page a été faite le 23 septembre 2022 à 16:13.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+
+
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)
+
+
+
+
+
+
+
+
+
+
+
+
+

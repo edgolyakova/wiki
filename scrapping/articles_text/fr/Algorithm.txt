@@ -1,0 +1,650 @@
+
+
+
+
+Algorithme — Wikipédia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aller au contenu
+
+
+
+
+
+Afficher / masquer la barre latérale
+
+
+
+
+
+
+
+
+
+
+
+
+Rechercher
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Créer un compte
+
+
+
+
+
+Outils personnels
+
+
+ Créer un compte
+ Se connecter
+
+
+		Pages pour les contributeurs déconnectés en savoir plus
+
+
+DiscussionContributions
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+AccueilPortails thématiquesArticle au hasardContact
+
+
+
+
+Contribuer
+
+
+Débuter sur WikipédiaAideCommunautéModifications récentesFaire un don
+
+
+
+
+Outils
+
+
+Pages liéesSuivi des pages liéesTéléverser un fichierPages spécialesLien permanentInformations sur la pageCiter cette pageÉlément Wikidata
+
+
+
+
+Imprimer / exporter
+
+
+Créer un livreTélécharger comme PDFVersion imprimable
+
+
+
+
+Dans d’autres projets
+
+
+Wikimedia CommonsWikilivresWikiversité
+
+
+
+
+Langues
+
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				Sommaire
+				déplacer vers la barre latérale
+masquer
+
+
+
+
+
+Début
+
+
+
+
+
+1Définition générale
+
+
+					Afficher / masquer la sous-section Définition générale
+				
+
+
+
+
+1.1Quelques définitions connexes
+
+
+
+
+
+
+
+
+
+2Algorithmes numériques
+
+
+
+
+
+
+
+3Algorithmes non numériques
+
+
+
+
+
+
+
+4Algorithmes dans la vie quotidienne
+
+
+
+
+
+
+
+5Nouveaux enjeux, éthiques liés à l'intelligence artificielle
+
+
+
+
+
+
+
+6Critiques
+
+
+
+
+
+
+
+7Éthique des algorithmes
+
+
+
+
+
+
+
+8Notes et références
+
+
+
+
+
+
+
+9Annexes
+
+
+					Afficher / masquer la sous-section Annexes
+				
+
+
+
+
+9.1Articles connexes
+
+
+
+
+
+
+
+9.2Liens externes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Basculer la table des matières
+					
+Algorithme
+
+
+
+120 langues
+
+
+AfrikaansAlemannischአማርኛAragonésالعربيةمصرىঅসমীয়াAsturianuAzərbaycancaتۆرکجهБашҡортсаBikol CentralБеларускаяБеларуская (тарашкевіца)БългарскиবাংলাBrezhonegBosanskiCatalàکوردیČeštinaСловѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟCymraegDanskDeutschZazakiΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFøroysktNordfriiskGaeilgeKriyòl gwiyannenGalegoעבריתहिन्दीHrvatskiMagyarՀայերենInterlinguaBahasa IndonesiaIlokanoIdoÍslenskaItaliano日本語ქართულიQaraqalpaqshaGĩkũyũҚазақшаಕನ್ನಡ한국어KurdîКыргызчаLatinaLëtzebuergeschLingua Franca NovaLombardລາວLietuviųLatviešuОлык марийМакедонскиമലയാളംМонголमराठीBahasa MelayuMirandésမြန်မာဘာသာनेपालीनेपाल भाषाNederlandsNorsk nynorskNorsk bokmålOccitanOromooਪੰਜਾਬੀPolskiپنجابیPortuguêsRomânăРусскийРусиньскыйСаха тылаSarduSicilianuScotsSrpskohrvatski / српскохрватскиසිංහලSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSundaSvenskaKiswahiliதமிழ்తెలుగుТоҷикӣไทยTagalogTürkçeТатарча/tatarçaУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWalonWinaray吴语ייִדיש中文Bân-lâm-gú粵語
+Modifier les liens
+
+
+
+
+
+
+
+
+
+ArticleDiscussion
+
+
+
+
+
+français
+
+
+
+
+
+
+
+
+
+
+
+LireModifierModifier le codeVoir l’historique
+
+
+
+
+
+
+
+Plus
+
+
+LireModifierModifier le codeVoir l’historique
+
+
+
+
+
+
+
+
+
+
+Un article de Wikipédia, l'encyclopédie libre.
+
+
+ Algorithme de découpe d'un polygone quelconque en triangles (triangulation).
+Un algorithme est une suite finie et non ambiguë d'instructions et d’opérations permettant de résoudre une classe de problèmes[1].
+Le mot algorithme vient d'Al-Khwârizmî (en arabe : الخوارزمي)[2], nom d'un mathématicien persan du IXe siècle.
+Le domaine qui étudie les algorithmes est appelé l'algorithmique. On retrouve aujourd'hui des algorithmes dans de nombreuses applications telles que le fonctionnement des ordinateurs[3], la cryptographie, le routage d'informations, la planification et l'utilisation optimale des ressources, le traitement d'images, le traitement de textes, la bio-informatique, etc.
+
+
+Définition générale[modifier | modifier le code]
+Un algorithme est une méthode générale pour résoudre un type de problèmes. Il est dit correct lorsque, pour chaque instance du problème, il se termine en produisant la bonne sortie, c'est-à-dire qu'il résout le problème posé.
+L'efficacité d'un algorithme est mesurée notamment par :
+
+sa durée de calcul ;
+sa consommation de mémoire vive (en partant du principe que chaque instruction a un temps d'exécution constant) ;
+la précision des résultats obtenus (par exemple avec l'utilisation de méthodes probabilistes) ;
+sa scalabilité (son aptitude à être efficacement parallélisé) ;
+etc.
+Les ordinateurs sur lesquels s'exécutent ces algorithmes ne sont pas infiniment rapides, car le temps de machine reste une ressource limitée, malgré une augmentation constante des performances des ordinateurs. Un algorithme sera donc dit performant s'il utilise avec parcimonie les ressources dont il dispose, c'est-à-dire le temps CPU, la mémoire vive et (objet de recherches récentes) la consommation électrique. L’analyse de la complexité algorithmique permet de prédire l'évolution en temps calcul nécessaire pour amener un algorithme à son terme, en fonction de la quantité de données à traiter.
+
+Quelques définitions connexes[modifier | modifier le code]
+Donald Knuth (1938-) liste, comme prérequis d'un algorithme, cinq propriétés[4] :
+
+finitude : « un algorithme doit toujours se terminer après un nombre fini d’étapes » ;
+définition précise : « chaque étape d'un algorithme doit être définie précisément, les actions à transposer doivent être spécifiées rigoureusement et sans ambiguïté pour chaque cas » ;
+entrées : « quantités qui lui sont données avant qu'un algorithme ne commence. Ces entrées sont prises dans un ensemble d'objets spécifié » ;
+sorties : « quantités ayant une relation spécifiée avec les entrées » ;
+rendement : « toutes les opérations que l'algorithme doit accomplir doivent être suffisamment basiques pour pouvoir être en principe réalisées dans une durée finie par un homme utilisant un papier et un crayon ».
+George Boolos (1940-1996), philosophe et mathématicien, propose la définition suivante[5] :
+
+« Des instructions explicites pour déterminer le nième membre d'un ensemble, pour n un entier arbitrairement grand. De telles instructions sont données de façon bien explicite, sous une forme qui puisse être utilisée par une machine à calculer ou par un humain qui est capable de transposer des opérations très élémentaires en symboles. »
+Gérard Berry (1948-), chercheur en science informatique, en donne la définition grand public suivante[6] :
+
+« Un algorithme, c’est tout simplement une façon de décrire dans ses moindres détails comment procéder pour faire quelque chose[7]. Il se trouve que beaucoup d’actions mécaniques, toutes probablement, se prêtent bien à une telle décortication. Le but est d’évacuer la pensée du calcul, afin de le rendre exécutable par une machine numérique (ordinateur…). On ne travaille donc qu’avec un reflet numérique du système réel avec qui l’algorithme interagit. »
+Algorithmes numériques[modifier | modifier le code]
+Les algorithmes sont des objets historiquement dédiés à la résolution de problèmes arithmétiques, comme la multiplication de deux nombres. Ils ont été formalisés bien plus tard avec l'avènement de la logique mathématique et l'émergence des machines qui permettaient de les mettre en œuvre, à savoir les ordinateurs.
+
+Algorithmes non numériques[modifier | modifier le code]
+La plupart des algorithmes ne sont pas numériques.
+On peut distinguer :
+
+des algorithmes généralistes qui s'appliquent à toute donnée numérique ou non numérique : par exemple les algorithmes liés au chiffrement, ou qui permettent de les mémoriser ou de les transmettre ;
+des algorithmes dédiés à un type de données particulier (par exemple ceux liés au traitement d'images).
+Voir aussi : Liste de sujets généraux sur les algorithmes (en)
+
+Algorithmes dans la vie quotidienne[modifier | modifier le code]
+ Carte perforée pour le tissage, Centre de Documentació i Museu Tèxtil. On remarquera la similitude avec celles utilisées pour représenter des algorithmes informatiques.
+L'algorithmique intervient de plus en plus dans la vie quotidienne[8].
+
+Une recette de cuisine peut être réduite à un algorithme si on peut réduire sa spécification aux éléments constitutifs :
+des entrées (les ingrédients, le matériel utilisé) ;
+des instructions élémentaires simples (frire, flamber, rissoler, braiser, blanchir, etc.) dont les exécutions dans un ordre précis amènent au résultat voulu ;
+un résultat : le plat préparé.
+Cependant, les recettes de cuisine ne sont en général pas présentées rigoureusement sous forme non ambiguë : il est d'usage d'y employer des termes vagues laissant une liberté d'appréciation à l'exécutant[9] alors qu'un algorithme non probabiliste stricto sensu doit être précis et sans ambiguïté.
+Le tissage, surtout tel qu'il a été automatisé par le métier Jacquard, est une activité que l'on peut dire algorithmique.
+Un casse-tête, comme le cube Rubik, peut être résolu de façon systématique par un algorithme qui mécanise sa résolution[10].
+En sport, l'exécution de séquences répondant à des finalités d'attaque, de défense, de progression, correspond à des algorithmes (dans un sens assez lâche du terme). Voir en particulier l'article tactique (football).
+En soins infirmiers, le jugement clinique est assimilable à un algorithme. Le jugement clinique désigne l'ensemble des procédés cognitifs et métacognitifs qui aboutissent au diagnostic infirmier. Il met en jeu des processus de pensée et de prise de décision dans le but d’améliorer l’état de santé et le bien-être des personnes que les soignants accompagnent[11].
+Un code juridique, qui décrit un ensemble de procédures applicables à un ensemble de cas, est un algorithme.
+Les progrès de ce qu'on appelle l'intelligence artificielle s'appuient sur un algorithmique de plus en plus complexe qui devient l'un des rouages cachés du Web 2.0 et des grands réseaux sociaux.
+
+Nouveaux enjeux, éthiques liés à l'intelligence artificielle[modifier | modifier le code]
+À partir des années 2000, ce qui est appelé « algorithmique » est un ensemble de « boîtes noires » (autrement dit de processus informatiques dont on ne sait pas ce qu'il y a à l'intérieur) qui exploitent et influencent les comportements inconscients des consommateurs, et des électeurs.
+Au milieu des années 2010 la plate-forme logicielle Ripon permet secrètement l'élection de Donald Trump. Elle le fait grâce à une intelligence artificielle s'appuyant sur des logiciels issus de la guerre psychologique telle que développée en Afghanistan, et désormais nourrie du big data disponible sur l'Internet, et en particulier de données personnelles piratées dans plusieurs dizaines de millions de comptes Facebook. Ce piratage a été réalisé par Cambridge analytica au Royaume-Uni (devenu Emerdata en aout 2017) sur la plate-forme Facebook insuffisamment protégée. Les données ont été analysées et utilisées par sa société-sœur canadienne, Aggregate IQ, sous le contrôle du groupe SCL (leur société-mère)[12] via Ripon. Cette plateforme Ripon ayant été conçue pour produire des profils psychographiques et des processus d'utilisation dans des campagnes électorales microciblées. Ces campagnes visaient à influer sur les émotions des électeurs, pour modifier leurs intentions de vote, ou les inciter à rester ou devenir abstentionnistes[13],[14],[15].
+Ces processus plus ou moins frauduleux (la législation de protection des individus sur l'Internet étant encore émergente) seront découvertes tardivement, dans le cadre du scandale Facebook-Cambridge Analytica/Aggregate IQ, après que ces outils aient conduits à l'élection de D. Trump, puis au Brexit[16],[17] et qu'ils aient influencé au moins une vingtaine d'élections ou de référendums dans le monde. Dans les années 2010, les lanceurs d'alertes comme le canadien Christopher Wylie, Carole Cadwalladr, Shahmir Sanni, Brittany Kaiser, David Caroll[18], des journalistes comme Carole Cadwalladr et des ONG telles que AlgorithmWatch alertent sur les dérives éthiques qu'ils constatent dans l'usage malhonnête des algorithmes.
+
+Critiques[modifier | modifier le code]
+Dans la vie quotidienne, un glissement de sens s'est opéré, ces dernières années, dans le concept d'« algorithme » qui devient à la fois plus réducteur, puisque ce sont pour l'essentiel des algorithmes de gestion du big data, et d'autre part plus universel en ce sens qu'il intervient dans tous les domaines du comportement quotidien[19]. La famille des algorithmes dont il est question effectue des calculs à partir de grandes masses de données (les big data). Ils réalisent des classements, sélectionnent des informations et en déduisent un profil, en général de consommation, qui est ensuite utilisé ou exploité commercialement. Les implications sont nombreuses et touchent les domaines les plus variés[20]. Mais les libertés individuelles et collectives pourraient être finalement mises en péril[21], comme le montre la mathématicienne américaine Cathy O'Neil dans le livre Weapons of Math Destruction, publié en 2016 et sorti en français en 2018 sous le titre Algorithmes : la bombe à retardement (aux éditions Les Arènes).
+
+
+« Aujourd’hui, les modèles mathématiques et les algorithmes prennent des décisions majeures, servent à classer et catégoriser les personnes et les institutions, influent en profondeur sur le fonctionnement des États sans le moindre contrôle extérieur. Et avec des effets de bords incontrôlables. […] Il s’agit d’un pouvoir utilisé contre les gens. Et pourquoi ça marche ? Parce que les gens ne connaissent pas les maths, parce qu’ils sont intimidés. C’est cette notion de pouvoir et de politique qui m’a fait réaliser que j’avais déjà vu ça quelque part. La seule différence entre les modèles de risque en finances et ce modèle de plus-value en science des données, c’est que, dans le premier cas, en 2008, tout le monde a vu la catastrophe liée à la crise financière. Mais, dans le cas des profs, personne ne voit l’échec. Ça se passe à un niveau individuel. Des gens se font virer en silence, ils se font humilier, ils ont honte d’eux[22]. »
+
+
+Dans cet ouvrage, l'auteure alerte le lecteur sur les décisions majeures que nous déléguons aujourd'hui aux algorithmes dans des domaines aussi variés que l'éducation, la santé, l'emploi et la justice, sous prétexte qu'ils sont neutres et objectifs, alors que, dans les faits, ils donnent lieu à « des choix éminemment subjectifs, des opinions, voire des préjugés insérés dans des équations mathématiques »[23].
+L'opacité des algorithmes est l'une des raisons principales de ces critiques. Une meilleure information sur leur mode de fonctionnement spécifique permettrait de rendre plus clair le « contrat social passé entre les internautes et les calculateurs »[24]. La description pour chaque algorithme de son propre principe de classement de l'information aide l'utilisateur à mieux comprendre les choix proposés par l'algorithme et les résultats obtenus[25].
+
+Éthique des algorithmes[modifier | modifier le code]
+Les philosophes Wendell Wallach et Colin Allen ont soulevé des questions liées à l'implantation par les programmeurs de règles morales dans les algorithmes d'intelligence artificielle : « Aujourd'hui, les systèmes [automatiques] s'approchent d'un niveau de complexité qui, selon nous, exige qu'ils prennent eux-mêmes des décisions morales […]. Cela va élargir le cercle des agents moraux au-delà des humains à des systèmes artificiellement intelligents, que nous appellerons des agents moraux artificiels »[26]. Dans son livre Faire la morale aux robots : une introduction à l'éthique des algorithmes, Martin Gibert met en évidence le rôle de la programmation dans l'éthique des robots, en traitant plus précisément des enjeux moraux liés à la construction des algorithmes. Il définit un algorithme comme « rien de plus qu'une suite d'instructions – ou de règles – pour parvenir à un objectif donné ». L'éthique des algorithmes poserait donc une question : « Quelles règles implanter dans les robots, et comment le faire ? »[27]. Gibert souligne notamment l'ambiguïté de ces agents moraux artificiels :
+
+
+« Les agents moraux artificiels (AMA) ne sont pas cependant des agents moraux au sens fort du terme. Contrairement aux humains, ils ne semblent pas imputables [sic] de leurs actes. Ils n'ont toutefois pas besoin de l'être pour prendre des décisions moralement significatives et soulever tout un tas de questions en éthique des algorithmes[27]. »
+
+
+Notes et références[modifier | modifier le code]
+
+↑ La notion de problème peut être vue dans un sens large, il peut s'agir d'une tâche à effectuer, comme trier des objets, assigner des ressources, transmettre des informations, traduire un texte, etc.
+
+Il reçoit des données (les entrées), par exemple les objets à trier, la description des ressources à assigner, des besoins à couvrir, un texte à traduire, les informations à transmettre et l'adresse du destinataire, etc., et fournit éventuellement des données (la sortie), par exemple les objets triés, les associations ressource-besoin, un compte-rendu de transmission, la traduction du texte, etc.
+
+↑ Patrice Hernert, Les algorithmes, Paris, Presses universitaires de France, coll. « Que sais-je ? », 2002, 128 p. (ISBN 978-2-13-053180-7, OCLC 300211244), p. 5.
+
+↑ En particulier dans les systèmes d'exploitation et la compilation
+
+↑ (en) Donald E. Knuth, Algorithmes, Stanford, CSLI Publications, 2011, 510 p. (ISBN 978-1-57586-620-8).
+
+↑ Boolos and Jeffrey 1974,1999:19
+
+↑ Un petit condensé d'histoire de l'informatique, web-série didactique.
+
+↑ Philippe Flajolet, Étienne Parizot, « Qu'est ce qu'un algorithme ? », interstices.fr, 2004.
+
+↑ Voir l'article (en) Jeanette M. Wing, « Computational thinking », Communications of the ACM, vol. 49, no 3,‎ 2006, p. 33 (DOI 10.1145/1118178.1118215, lire en ligne) traduit en français comme La pensée informatique et le livre de Gilles Dowek, Les Métamorphoses du calcul : une étonnante histoire de mathématiques, Paris, Édition Le Pommier, coll. « Essais », 2007, 223 p. (ISBN 978-2-7465-0324-3).
+
+↑ Hervé This Cours de gastronomie moléculaire, tome 1 : Science, technologie, technique… culinaires : quelles relations? , (2009) Éditions Quae/Belin.
+
+↑ Laurent Théry, « Résoudre le Mini-Rubik’s Cube », Interstices,‎ 24 décembre 2009 (lire en ligne)
+
+↑ Marc Nagels, « Le raisonnement clinique : un attracteur étrange », sur 17marsconseil.fr, 14 juillet 2016 (consulté le 17 juillet 2016)
+
+↑ House of Commons ; Digital, Culture, Media and Sport Committee (2019) Disinformation and ‘fake news’: Final Report ; Eighth Report of Session 2017–19 ; Report, together with formal minutes relating to the report ; rapport commandé par la Chambre des Communes, Ref HC 1791, publié le 18 février 2019, imprimé le 14 février 2019 pour le Gouvernement britannique. Voir notamment paragraphes 149 et 162.
+
+↑ (en) Matthew Rosenberg, Nicholas Confessore et Carole Cadwalladr, « How Trump Consultants Exploited the Facebook Data of Millions » [archive du 17 mars 2018], The New York Times, 17 mars 2018
+
+↑ (en) Emma Graham-Harrison et Carole Cadwalladr, « Revealed: 50 million Facebook profiles harvested for Cambridge Analytica in major data breach » [archive du 18 mars 2018], sur theguardian.com, 17 mars 2018
+
+↑ « Putin's asummetric assault on democracy in Russia and Europe : implications for US National security », sur govinfo.gov (consulté le 19 mars 2021)
+
+↑ « "Sans Cambridge Analytica, il n'y aurait pas eu de Brexit", affirme le lanceur d'alerte Christopher Wylie », sur francetvinfo.fr, 28 mars 2018 (consulté le 28 mars 2018)
+
+↑ House of Commons ; Digital, Culture, Media and Sport Committee (2019) Disinformation and ‘fake news’: Final Report ; Eighth Report of Session 2017–19 ; Report, together with formal minutes relating to the report ; rapport commandé par la Chambre des Communes, Ref HC 1791, publié le 18 février 2019, imprimé le 14 février 2019 pour le Gouvernement britannique. Voir notamment le paragraphe 153.
+
+↑ (en) « Whistleblower says Canadian company worked on software to find Republican voters », sur Reuters, 27 mars 2018 (consulté le 19 mars 2021)
+
+↑ Dominique Cardon, A quoi rêvent les algorithmes : nos vies à l'heure des big data, Édition du Seuil, coll. « La République des Idées », 2015, 108 p. (ISBN 978-2-02-127996-2).
+
+↑ Colloque « Gouvernance des algorithmes » du 1er février 2016.
+
+↑ Francis Donnat, L'intelligence artificielle, une menace pour la vie privée ?, Revue Pouvoirs n° 170, Seuil, septembre 2019, 210 p. (ISBN 978-2-02-140678-8), p. 95
+
+↑ Libération du 17.11.2018, Cathy O’Neil : « Les algorithmes créent leur propre réalité » [1]
+
+↑ « “Les algorithmes sont une arme de domination sociale” », Bibliobs,‎ 2 décembre 2018 (lire en ligne, consulté le 3 décembre 2018)
+
+↑ Dominique Cardon, La toile que nous voulons, Bernard Stiegler, p. 23-43
+
+↑ Karine Mauvilly, Cyber-minimalisme, Seuil, 2019 (ISBN 2021402614), p. 209
+
+↑ Wendell Wallach, Colin Allen, « Moral Machines : Teaching Robots Right from Wrong », Oxford University Press,‎ 2010
+
+↑ a et b Martin Gibert, Faire la morale aux robots : une introduction à l'éthique des algorithmes (ISBN 978-2-89759-517-3, 2-89759-517-5 et 978-2-89759-518-0, OCLC 1146545412).
+
+
+
+Annexes[modifier | modifier le code]
+
+Sur les autres projets Wikimedia :
+
+algorithme, sur le Wiktionnaire
+
+
+Articles connexes[modifier | modifier le code]
+Analyse de la complexité des algorithmes
+Algorithmique
+Correction d'un algorithme
+Biais algorithmique
+Régulation des algorithmes
+Liens externes[modifier | modifier le code]
+Notices d'autorité : Bibliothèque nationale de France (données) Bibliothèque du Congrès Gemeinsame Normdatei Bibliothèque nationale de la Diète Bibliothèque nationale d’Espagne Bibliothèque nationale d’Israël Bibliothèque nationale tchèque 
+Notices dans des dictionnaires ou encyclopédies généralistes : Brockhaus Enzyklopädie Enciclopedia italiana Enciclopedia De Agostini Encyclopædia Britannica Encyclopédie de l'Ukraine moderne Encyclopédie Treccani Gran Enciclopèdia Catalana Hrvatska Enciklopedija Swedish Nationalencyklopedin Store norske leksikon 
+Ressource relative à la santé : (en) Medical Subject Headings 
+Qu’est-ce qu'un algorithme ? par Philippe Flajolet et Étienne Parizot sur la revue en ligne Interstices
+Définition du terme « algorithme » par des savants
+
+
+v · mInformatique théorique
+ 
+Codage
+
+Codage de l'information
+Compression de données
+Chiffrement
+Cryptanalyse
+Cryptographie
+Théorie de l'information
+
+ 
+Modèles de calcul
+
+Calculabilité
+Décidabilité et indécidabilité
+Ensemble récursif
+Problème de l'arrêt
+Ensemble récursivement énumérable
+Machine de Turing
+Thèse de Church
+Automate cellulaire
+Réseau de neurones artificiels
+Réduction polynomiale
+Problème NP-complet
+Principe de Church-Turing-Deutsch
+
+ 
+Algorithmique
+
+Algorithmique
+Algorithme glouton
+Algorithme probabiliste
+Algorithme génétique
+Complexité algorithmique
+Analyse d'algorithme
+Diviser pour régner
+Heuristique
+Programmation dynamique
+Géométrie algorithmique
+Algorithmes de tri
+Algorithmique du texte
+Exploration de données
+Science des données
+Apprentissage profond
+Test de primalité
+Structure de données
+Arbre enraciné
+Concurrence
+Parallélisme
+
+ 
+Syntaxe
+
+Réécriture
+Compilation
+Expression régulière
+Grammaire formelle
+Langage rationnel
+Ensemble rationnel
+Théorie des langages
+Théorie des automates
+Automate fini
+Automate sur les mots infinis
+Automate d'arbres
+Automate à pile
+Hiérarchie de Chomsky
+Linguistique informatique
+
+ 
+Sémantique
+
+Interprétation abstraite
+Méthodes formelles
+Vérification de modèles
+Sémantique des langages de programmation
+Sémantique dénotationnelle
+Sémantique axiomatique
+Sémantique opérationnelle
+
+ 
+Logique mathématique
+
+Assistant de preuve
+Calcul des prédicats
+Correspondance de Curry-Howard
+Fonction récursive
+Lambda-calcul
+Théorèmes d'incomplétude de Gödel
+Théorie des types
+
+ 
+Mathématiques discrètes
+
+Combinatoire
+Algorithme du simplexe
+Optimisation combinatoire
+Théorie des graphes
+Algorithmes de la théorie des graphes
+Recherche opérationnelle
+Théorie de la décision
+Analyse numérique
+
+ 
+
+ Portail de l'informatique théorique  
+
+
+
+
+Ce document provient de « https://fr.wikipedia.org/w/index.php?title=Algorithme&oldid=197331176 ».
+Catégorie : AlgorithmiqueCatégories cachées : Article contenant un lien mortArticle contenant un appel à traduction en anglaisArticle de Wikipédia avec notice d'autoritéPage utilisant P5019Page utilisant P4223Page utilisant P6706Page utilisant P1417Page utilisant P4613Page utilisant P3365Page utilisant P1296Page utilisant P7982Page utilisant P3222Page utilisant P4342Page pointant vers des bases externesPage pointant vers des dictionnaires ou encyclopédies généralistesPage utilisant P486Page pointant vers des bases relatives à la santéPortail:Informatique théorique/Articles liésPortail:Informatique/Articles liésProjet:Mathématiques/ArticlesBon article en ukrainienArticle de qualité en tatar
+
+
+
+
+
+
+ La dernière modification de cette page a été faite le 28 septembre 2022 à 21:54.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer. Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques. En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+
+
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)
+
+
+
+
+
+
+
+
+
+
+
+
+

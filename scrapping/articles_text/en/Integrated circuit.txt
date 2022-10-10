@@ -1,0 +1,1995 @@
+
+
+
+
+Integrated circuit - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Integrated circuit
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Electronic circuit formed on a small, flat piece of semiconductor material
+"Silicon chip" redirects here. For the electronics magazine, see Silicon Chip.
+"Microchip" redirects here. For other uses, see Microchip (disambiguation).
+
+
+ Integrated circuit from an EPROM memory microchip
+An integrated circuit or monolithic integrated circuit (also referred to as an IC, a chip, or a microchip) is a set of electronic circuits on one small flat piece (or "chip") of semiconductor material, usually silicon. Large numbers of tiny MOSFETs (metal–oxide–semiconductor field-effect transistors) integrate into a small chip. This results in circuits that are orders of magnitude smaller, faster, and less expensive than those constructed of discrete electronic components. The IC's mass production capability, reliability, and building-block approach to integrated circuit design has ensured the rapid adoption of standardized ICs in place of designs using discrete transistors. ICs are now used in virtually all electronic equipment and have revolutionized the world of electronics. Computers, mobile phones and other home appliances are now inextricable parts of the structure of modern societies, made possible by the small size and low cost of ICs such as modern computer processors and microcontrollers.
+Very-large-scale integration was made practical by technological advancements in metal–oxide–silicon (MOS) semiconductor device fabrication. Since their origins in the 1960s, the size, speed, and capacity of chips have progressed enormously, driven by technical advances that fit more and more MOS transistors on chips of the same size – a modern chip may have many billions of MOS transistors in an area the size of a human fingernail. These advances, roughly following Moore's law, make the computer chips of today possess millions of times the capacity and thousands of times the speed of the computer chips of the early 1970s.
+ICs have two main advantages over discrete circuits: cost and performance. The cost is low because the chips, with all their components, are printed as a unit by photolithography rather than being constructed one transistor at a time. Furthermore, packaged ICs use much less material than discrete circuits. Performance is high because the IC's components switch quickly and consume comparatively little power because of their small size and proximity. The main disadvantage of ICs is the high cost of designing them and fabricating the required photomasks. This high initial cost means ICs are only commercially viable when high production volumes are anticipated.
+
+Contents
+
+1 Terminology
+2 History
+
+2.1 First integrated circuits
+2.2 TTL integrated circuits
+2.3 MOS integrated circuits
+
+
+3 Design
+4 Types
+5 Manufacturing
+
+5.1 Fabrication
+5.2 Packaging
+
+
+6 Intellectual property
+7 Generations
+
+7.1 Small-scale integration (SSI)
+7.2 Medium-scale integration (MSI)
+7.3 Large-scale integration (LSI)
+7.4 Very-large-scale integration (VLSI)
+7.5 ULSI, WSI, SoC and 3D-IC
+
+
+8 Silicon labeling and graffiti
+9 ICs and IC families
+10 See also
+11 References
+12 Further reading
+13 External links
+
+
+Terminology[edit]
+An integrated circuit is defined as:[1] A circuit in which all or some of the circuit elements are inseparably associated and electrically interconnected so that it is considered to be indivisible for the purposes of construction and commerce. Circuits meeting this definition can be constructed using many different technologies, including thin-film transistors, thick-film technologies, or hybrid integrated circuits. However, in general usage integrated circuit has come to refer to the single-piece circuit construction originally known as a monolithic integrated circuit, often built on a single piece of silicon.[2][3]
+History[edit]
+ Jack Kilby's original hybrid integrated circuit from 1958. This was the first integrated circuit, and was made from germanium.
+An early attempt at combining several components in one device (like modern ICs) was the Loewe 3NF vacuum tube from the 1920s. Unlike ICs, it was designed with the purpose of tax avoidance, as in Germany, radio receivers had a tax that was levied depending on how many tube holders a radio receiver had. It allowed radio receivers to have a single tube holder.
+Early concepts of an integrated circuit go back to 1949, when German engineer Werner Jacobi[4] (Siemens AG)[5] filed a patent for an integrated-circuit-like semiconductor amplifying device[6] showing five transistors on a common substrate in a three-stage amplifier arrangement. Jacobi disclosed small and cheap hearing aids as typical industrial applications of his patent. An immediate commercial use of his patent has not been reported.
+Another early proponent of the concept was Geoffrey Dummer (1909–2002), a radar scientist working for the Royal Radar Establishment of the British Ministry of Defence. Dummer presented the idea to the public at the Symposium on Progress in Quality Electronic Components in Washington, D.C. on 7 May 1952.[7] He gave many symposia publicly to propagate his ideas and unsuccessfully attempted to build such a circuit in 1956. Between 1953 and 1957, Sidney Darlington and Yasuo Tarui (Electrotechnical Laboratory) proposed similar chip designs where several transistors could share a common active area, but there was no electrical isolation to separate them from each other.[4]
+The monolithic integrated circuit chip was enabled by the inventions of the planar process by Jean Hoerni and p–n junction isolation by Kurt Lehovec. Hoerni's invention was built on Mohamed M. Atalla's work on surface passivation, as well as Fuller and Ditzenberger's work on the diffusion of boron and phosphorus impurities into silicon, Carl Frosch and Lincoln Derick's work on surface protection, and Chih-Tang Sah's work on diffusion masking by the oxide.[8]
+
+First integrated circuits[edit]
+Main article: Invention of the integrated circuit
+See also: Planar process, p–n junction isolation, and Surface passivation
+ Robert Noyce invented the first monolithic integrated circuit in 1959. The chip was made from silicon.
+A precursor idea to the IC was to create small ceramic substrates (so-called micromodules),[9] each containing a single miniaturized component. Components could then be integrated and wired into a bidimensional or tridimensional compact grid. This idea, which seemed very promising in 1957, was proposed to the US Army by Jack Kilby[9] and led to the short-lived Micromodule Program (similar to 1951's Project Tinkertoy).[9][10][11] However, as the project was gaining momentum, Kilby came up with a new, revolutionary design: the IC.
+Newly employed by Texas Instruments, Kilby recorded his initial ideas concerning the integrated circuit in July 1958, successfully demonstrating the first working example of an integrated circuit on 12 September 1958.[12] In his patent application of 6 February 1959,[13] Kilby described his new device as "a body of semiconductor material … wherein all the components of the electronic circuit are completely integrated".[14] The first customer for the new invention was the US Air Force.[15] Kilby won the 2000 Nobel Prize in physics for his part in the invention of the integrated circuit.[16] However, Kilby's invention was a hybrid integrated circuit (hybrid IC), rather than a monolithic integrated circuit (monolithic IC) chip.[17] Kilby's IC had external wire connections, which made it difficult to mass-produce.[18]
+Half a year after Kilby, Robert Noyce at Fairchild Semiconductor invented the first true monolithic IC chip.[19][18] It was a new variety of integrated circuit, more practical than Kilby's implementation. Noyce's design was made of silicon, whereas Kilby's chip was made of germanium. Noyce's monolithic IC put all components on a chip of silicon and connected them with copper lines.[18] Noyce's monolithic IC was fabricated using the planar process, developed in early 1959 by his colleague Jean Hoerni. Modern IC chips are based on Noyce's monolithic IC,[19][18] rather than Kilby's hybrid IC.[17]
+NASA's Apollo Program was the largest single consumer of integrated circuits between 1961 and 1965.[20]
+
+TTL integrated circuits[edit]
+Main article: Transistor–transistor logic
+Transistor–transistor logic (TTL) was developed by James L. Buie in the early 1960s at TRW Inc. TTL became the dominant integrated circuit technology during the 1970s to early 1980s.[21]
+Dozens of TTL integrated circuits were a standard method of construction for the processors of minicomputers and mainframe computers. Computers such as IBM 360 mainframes, PDP-11 minicomputers and the desktop Datapoint 2200 were built from bipolar integrated circuits,[22] either TTL or the even faster emitter-coupled logic (ECL).
+
+MOS integrated circuits[edit]
+Further information: MOSFET applications § MOS integrated circuit
+See also: List of semiconductor scale examples, Mixed-signal integrated circuit, Moore's law, Three-dimensional integrated circuit, Transistor count, and Very Large Scale Integration
+Nearly all modern IC chips are metal–oxide–semiconductor (MOS) integrated circuits, built from MOSFETs (metal–oxide–silicon field-effect transistors).[23] The MOSFET (also known as the MOS transistor), which was invented by Mohamed M. Atalla and Dawon Kahng at Bell Labs in 1959,[24] made it possible to build high-density integrated circuits.[25] In contrast to bipolar transistors which required a number of steps for the p–n junction isolation of transistors on a chip, MOSFETs required no such steps but could be easily isolated from each other.[26] Its advantage for integrated circuits was pointed out by Dawon Kahng in 1961.[27] The list of IEEE milestones includes the first integrated circuit by Kilby in 1958,[28] Hoerni's planar process and Noyce's planar IC in 1959, and the MOSFET by Atalla and Kahng in 1959.[29]
+The earliest experimental MOS IC to be fabricated was a 16-transistor chip built by Fred Heiman and Steven Hofstein at RCA in 1962.[30] General Microelectronics later introduced the first commercial MOS integrated circuit in 1964,[31] a 120-transistor shift register developed by Robert Norman.[30] By 1964, MOS chips had reached higher transistor density and lower manufacturing costs than bipolar chips. MOS chips further increased in complexity at a rate predicted by Moore's law, leading to large-scale integration (LSI) with hundreds of transistors on a single MOS chip by the late 1960s.[32]
+Following the development of the self-aligned gate (silicon-gate) MOSFET by Robert Kerwin, Donald Klein and John Sarace at Bell Labs in 1967,[33] the first silicon-gate MOS IC technology with self-aligned gates, the basis of all modern CMOS integrated circuits, was developed at Fairchild Semiconductor by Federico Faggin in 1968.[34] The application of MOS LSI chips to computing was the basis for the first microprocessors, as engineers began recognizing that a complete computer processor could be contained on a single MOS LSI chip. This led to the inventions of the microprocessor and the microcontroller by the early 1970s.[32] During the early 1970s, MOS integrated circuit technology enabled the very large-scale integration (VLSI) of more than 10,000 transistors on a single chip.[35]
+At first, MOS-based computers only made sense when high density was required, such as aerospace and pocket calculators. Computers built entirely from TTL, such as the 1970 Datapoint 2200, were much faster and more powerful than single-chip MOS microprocessors such as the 1972 Intel 8008 until the early 1980s.[22]
+Advances in IC technology, primarily smaller features and larger chips, have allowed the number of MOS transistors in an integrated circuit to double every two years, a trend known as Moore's law. Moore originally stated it would double every year, but he went on to change the claim to every two years in 1975.[36] This increased capacity has been used to decrease cost and increase functionality. In general, as the feature size shrinks, almost every aspect of an IC's operation improves. The cost per transistor and the switching power consumption per transistor goes down, while the memory capacity and speed go up, through the relationships defined by Dennard scaling (MOSFET scaling).[37] Because speed, capacity, and power consumption gains are apparent to the end user, there is fierce competition among the manufacturers to use finer geometries. Over the years, transistor sizes have decreased from tens of microns in the early 1970s to 10 nanometers in 2017[38] with a corresponding million-fold increase in transistors per unit area. As of 2016, typical chip areas range from a few square millimeters to around 600 mm2, with up to 25 million transistors per mm2.[39]
+The expected shrinking of feature sizes and the needed progress in related areas was forecast for many years by the International Technology Roadmap for Semiconductors (ITRS). The final ITRS was issued in 2016, and it is being replaced by the International Roadmap for Devices and Systems.[40]
+Initially, ICs were strictly electronic devices. The success of ICs has led to the integration of other technologies, in an attempt to obtain the same advantages of small size and low cost. These technologies include mechanical devices, optics, and sensors.
+
+Charge-coupled devices, and the closely related active-pixel sensors, are chips that are sensitive to light. They have largely replaced photographic film in scientific, medical, and consumer applications. Billions of these devices are now produced each year for applications such as cellphones, tablets, and digital cameras. This sub-field of ICs won the Nobel Prize in 2009.[41]
+Very small mechanical devices driven by electricity can be integrated onto chips, a technology known as microelectromechanical systems. These devices were developed in the late 1980s[42] and are used in a variety of commercial and military applications. Examples include DLP projectors, inkjet printers, and accelerometers and MEMS gyroscopes used to deploy automobile airbags.
+Since the early 2000s, the integration of optical functionality (optical computing) into silicon chips has been actively pursued in both academic research and in industry resulting in the successful commercialization of silicon based integrated optical transceivers combining optical devices (modulators, detectors, routing) with CMOS based electronics.[43] Photonic integrated circuits that use light are also being developed, using the emerging field of physics known as photonics.
+Integrated circuits are also being developed for sensor applications in medical implants or other bioelectronic devices.[44] Special sealing techniques have to be applied in such biogenic environments to avoid corrosion or biodegradation of the exposed semiconductor materials.[45]
+As of 2018[update], the vast majority of all transistors are MOSFETs fabricated in a single layer on one side of a chip of silicon in a flat two-dimensional planar process. Researchers have produced prototypes of several promising alternatives, such as:
+
+various approaches to stacking several layers of transistors to make a three-dimensional integrated circuit (3DIC), such as through-silicon via, "monolithic 3D",[46] stacked wire bonding,[47] and other methodologies.
+transistors built from other materials: graphene transistors, molybdenite transistors, carbon nanotube field-effect transistor, gallium nitride transistor, transistor-like nanowire electronic devices, organic field-effect transistor, etc.
+fabricating transistors over the entire surface of a small sphere of silicon.[48][49]
+modifications to the substrate, typically to make "flexible transistors" for a flexible display or other flexible electronics, possibly leading to a roll-away computer.
+As it becomes more difficult to manufacture ever smaller transistors, companies are using multi-chip modules, three-dimensional integrated circuits, package on package, High Bandwidth Memory and through-silicon vias with die stacking to increase performance and reduce size, without having to reduce the size of the transistors. Such techniques are collectively known as advanced packaging.[50] Advanced packaging is mainly divided into 2.5D and 3D packaging. 2.5D describes approaches such as multi-chip modules while 3D describes approaches where dies are stacked in one way or another, such as package on package and high bandwidth memory. All approaches involve 2 or more dies in a single package.[51][52][53][54][55] Alternatively, approaches such as 3D NAND stack multiple layers on a single die.
+
+Design[edit]
+Main articles: Electronic design automation, Hardware description language, and Integrated circuit design
+ Virtual detail of an integrated circuit through four layers of planarized copper interconnect, down to the polysilicon (pink), wells (greyish), and substrate (green)The cost of designing and developing a complex integrated circuit is quite high, normally in the multiple tens of millions of dollars.[56][57] Therefore, it only makes economic sense to produce integrated circuit products with high production volume, so the non-recurring engineering (NRE) costs are spread across typically millions of production units.
+Modern semiconductor chips have billions of components, and are too complex to be designed by hand. Software tools to help the designer are essential. Electronic design automation (EDA), also referred to as electronic computer-aided design (ECAD),[58] is a category of software tools for designing electronic systems, including integrated circuits. The tools work together in a design flow that engineers use to design and analyze entire semiconductor chips.
+
+Types[edit]
+ A-to-D converter IC in a DIP
+Integrated circuits can be broadly classified into analog,[59] digital[60] and mixed signal,[61] consisting of analog and digital signaling on the same IC.
+Digital integrated circuits can contain billions[39] of logic gates, flip-flops, multiplexers, and other circuits in a few square millimeters. The small size of these circuits allows high speed, low power dissipation, and reduced manufacturing cost compared with board-level integration. These digital ICs, typically microprocessors, DSPs, and microcontrollers, use boolean algebra to process "one" and "zero" signals.
+
+ The die from an Intel 8742, an 8-bit NMOS microcontroller that includes a CPU running at 12 MHz, 128 bytes of RAM, 2048 bytes of EPROM, and I/O in the same chip
+Among the most advanced integrated circuits are the microprocessors or "cores", used in personal computers, cell-phones, microwave ovens, etc. Several cores may be integrated together in a single IC or chip. Digital memory chips and application-specific integrated circuits (ASICs) are examples of other families of integrated circuits.
+In the 1980s, programmable logic devices were developed. These devices contain circuits whose logical function and connectivity can be programmed by the user, rather than being fixed by the integrated circuit manufacturer. This allows a chip to be programmed to do various LSI-type functions such as logic gates, adders and registers. Programmability comes in various forms – devices that can be programmed only once, devices that can be erased and then re-programmed using UV light, devices that can be (re)programmed using flash memory, and field-programmable gate arrays (FPGAs) which can be programmed at any time, including during operation. Current FPGAs can (as of 2016) implement the equivalent of millions of gates and operate at frequencies up to 1 GHz.[62]
+Analog ICs, such as sensors, power management circuits, and operational amplifiers (op-amps), process continuous signals, and perform analog functions such as amplification, active filtering, demodulation, and mixing.
+ICs can combine analog and digital circuits on a chip to create functions such as analog-to-digital converters and digital-to-analog converters. Such mixed-signal circuits offer smaller size and lower cost, but must account for signal interference. Prior to the late 1990s, radios could not be fabricated in the same low-cost CMOS processes as microprocessors. But since 1998, radio chips have been developed using RF CMOS processes. Examples include Intel's DECT cordless phone, or 802.11 (Wi-Fi) chips created by Atheros and other companies.[63]
+Modern electronic component distributors often further sub-categorize integrated circuits:
+
+Digital ICs are categorized as logic ICs (such as microprocessors and microcontrollers), memory chips (such as MOS memory and floating-gate memory), interface ICs (level shifters, serializer/deserializer, etc.), power management ICs, and programmable devices.
+Analog ICs are categorized as linear integrated circuits and RF circuits (radio frequency circuits).
+Mixed-signal integrated circuits are categorized as data acquisition ICs (including A/D converters, D/A converters, digital potentiometers), clock/timing ICs, switched capacitor (SC) circuits, and RF CMOS circuits.
+Three-dimensional integrated circuits (3D ICs) are categorized into through-silicon via (TSV) ICs and Cu-Cu connection ICs.
+Manufacturing[edit]
+This section needs additional citations for verification. Please help improve this article by adding citations to reliable sources. Unsourced material may be challenged and removed.Find sources: "Integrated circuit" – news · newspapers · books · scholar · JSTOR (May 2022) (Learn how and when to remove this template message)
+Fabrication[edit]
+Main article: Semiconductor fabrication
+ Rendering of a small standard cell with three metal layers (dielectric has been removed). The sand-colored structures are metal interconnect, with the vertical pillars being contacts, typically plugs of tungsten. The reddish structures are polysilicon gates, and the solid at the bottom is the crystalline silicon bulk.
+ Schematic structure of a CMOS chip, as built in the early 2000s. The graphic shows LDD-MISFET's on an SOI substrate with five metallization layers and solder bump for flip-chip bonding. It also shows the section for FEOL (front-end of line), BEOL (back-end of line) and first parts of back-end process.
+The semiconductors of the periodic table of the chemical elements were identified as the most likely materials for a solid-state vacuum tube. Starting with copper oxide, proceeding to germanium, then silicon, the materials were systematically studied in the 1940s and 1950s. Today, monocrystalline silicon is the main substrate used for ICs although some III-V compounds of the periodic table such as gallium arsenide are used for specialized applications like LEDs, lasers, solar cells and the highest-speed integrated circuits. It took decades to perfect methods of creating crystals with minimal defects in semiconducting materials' crystal structure.
+Semiconductor ICs are fabricated in a planar process which includes three key process steps –  photolithography, deposition (such as chemical vapor deposition), and etching. The main process steps are supplemented by doping and cleaning. More recent or high-performance ICs may instead use multi-gate FinFET or GAAFET transistors instead of planar ones, starting at the 22 nm node (Intel) or 16/14 nm nodes.[64]
+Mono-crystal silicon wafers are used in most applications (or for special applications, other semiconductors such as gallium arsenide are used). The wafer need not be entirely silicon. Photolithography is used to mark different areas of the substrate to be doped or to have polysilicon, insulators or metal (typically aluminium or copper) tracks deposited on them. Dopants are impurities intentionally introduced to a semiconductor to modulate its electronic properties. Doping is the process of adding dopants to a semiconductor material.
+
+
+Integrated circuits are composed of many overlapping layers, each defined by photolithography, and normally shown in different colors. Some layers mark where various dopants are diffused into the substrate (called diffusion layers), some define where additional ions are implanted (implant layers), some define the conductors (doped polysilicon or metal layers), and some define the connections between the conducting layers (via or contact layers). All components are constructed from a specific combination of these layers.
+In a self-aligned CMOS process, a transistor is formed wherever the gate layer (polysilicon or metal) crosses a diffusion layer.[65]: p.1 (see Fig. 1.1) 
+Capacitive structures, in form very much like the parallel conducting plates of a traditional electrical capacitor, are formed according to the area of the "plates", with insulating material between the plates. Capacitors of a wide range of sizes are common on ICs.
+Meandering stripes of varying lengths are sometimes used to form on-chip resistors, though most logic circuits do not need any resistors. The ratio of the length of the resistive structure to its width, combined with its sheet resistivity, determines the resistance.
+More rarely, inductive structures can be built as tiny on-chip coils, or simulated by gyrators.
+Since a CMOS device only draws current on the transition between logic states, CMOS devices consume much less current than bipolar junction transistor devices.
+A random-access memory is the most regular type of integrated circuit; the highest density devices are thus memories; but even a microprocessor will have memory on the chip. (See the regular array structure at the bottom of the first image.[which?]) Although the structures are intricate – with widths which have been shrinking for decades – the layers remain much thinner than the device widths. The layers of material are fabricated much like a photographic process, although light waves in the visible spectrum cannot be used to "expose" a layer of material, as they would be too large for the features. Thus photons of higher frequencies (typically ultraviolet) are used to create the patterns for each layer. Because each feature is so small, electron microscopes are essential tools for a process engineer who might be debugging a fabrication process.
+Each device is tested before packaging using automated test equipment (ATE), in a process known as wafer testing, or wafer probing. The wafer is then cut into rectangular blocks, each of which is called a die. Each good die (plural dice, dies, or die) is then connected into a package using aluminium (or gold) bond wires which are thermosonically bonded[66] to pads, usually found around the edge of the die. Thermosonic bonding was first introduced by A. Coucoulas which provided a reliable means of forming these vital electrical connections to the outside world. After packaging, the devices go through final testing on the same or similar ATE used during wafer probing. Industrial CT scanning can also be used. Test cost can account for over 25% of the cost of fabrication on lower-cost products, but can be negligible on low-yielding, larger, or higher-cost devices.
+As of 2016[update], a fabrication facility (commonly known as a semiconductor fab) can cost over US$8 billion to construct.[67] The cost of a fabrication facility rises over time because of increased complexity of new products; this is known as Rock's law. Such a facility features:
+
+The wafers up to 300 mm in diameter (wider than a common dinner plate).
+As of 2016[update], 14 nm transistors.[68][needs update]
+Copper interconnects where copper wiring replaces aluminum for interconnects.
+Low-κ dielectric insulators.
+Silicon on insulator (SOI).
+Strained silicon in a process used by IBM known as Strained silicon directly on insulator (SSDOI).
+Multigate devices such as tri-gate transistors.
+ICs can be manufactured either in-house by integrated device manufacturers (IDMs) or using the foundry model. IDMs are vertically integrated companies (like Intel and Samsung) that design, manufacture and sell their own ICs, and may offer design and/or manufacturing (foundry) services to other companies (the latter often to fabless companies). In the foundry model, fabless companies (like Nvidia) only design and sell ICs and outsource all manufacturing to pure play foundries such as TSMC. These foundries may offer IC design services.
+
+Packaging[edit]
+Main article: Integrated circuit packaging
+ A Soviet MSI nMOS chip made in 1977, part of a four-chip calculator set designed in 1970[69]
+The earliest integrated circuits were packaged in ceramic flat packs, which continued to be used by the military for their reliability and small size for many years. Commercial circuit packaging quickly moved to the dual in-line package (DIP), first in ceramic and later in plastic, which is commonly cresol-formaldehyde-novolac. In the 1980s pin counts of VLSI circuits exceeded the practical limit for DIP packaging, leading to pin grid array (PGA) and leadless chip carrier (LCC) packages. Surface mount packaging appeared in the early 1980s and became popular in the late 1980s, using finer lead pitch with leads formed as either gull-wing or J-lead, as exemplified by the small-outline integrated circuit (SOIC) package – a carrier which occupies an area about 30–50% less than an equivalent DIP and is typically 70% thinner. This package has "gull wing" leads protruding from the two long sides and a lead spacing of 0.050 inches.
+In the late 1990s, plastic quad flat pack (PQFP) and thin small-outline package (TSOP) packages became the most common for high pin count devices, though PGA packages are still used for high-end microprocessors.
+Ball grid array (BGA) packages have existed since the 1970s. Flip-chip Ball Grid Array packages, which allow for a much higher pin count than other package types, were developed in the 1990s. In an FCBGA package, the die is mounted upside-down (flipped) and connects to the package balls via a package substrate that is similar to a printed-circuit board rather than by wires. FCBGA packages allow an array of input-output signals (called Area-I/O) to be distributed over the entire die rather than being confined to the die periphery. BGA devices have the advantage of not needing a dedicated socket but are much harder to replace in case of device failure.
+Intel transitioned away from PGA to land grid array (LGA) and BGA beginning in 2004, with the last PGA socket released in 2014 for mobile platforms. As of 2018[update], AMD uses PGA packages on mainstream desktop processors,[70] BGA packages on mobile processors,[71] and high-end desktop and server microprocessors use LGA packages.[72]
+Electrical signals leaving the die must pass through the material electrically connecting the die to the package, through the conductive traces (paths) in the package, through the leads connecting the package to the conductive traces on the printed circuit board. The materials and structures used in the path these electrical signals must travel have very different electrical properties, compared to those that travel to different parts of the same die. As a result, they require special design techniques to ensure the signals are not corrupted, and much more electric power than signals confined to the die itself.
+When multiple dies are put in one package, the result is a system in package, abbreviated SiP. A multi-chip module (MCM), is created by combining multiple dies on a small substrate often made of ceramic. The distinction between a large MCM and a small printed circuit board is sometimes fuzzy.
+Packaged integrated circuits are usually large enough to include identifying information. Four common sections are the manufacturer's name or logo, the part number, a part production batch number and serial number, and a four-digit date-code to identify when the chip was manufactured. Extremely small surface-mount technology parts often bear only a number used in a manufacturer's lookup table to find the integrated circuit's characteristics.
+The manufacturing date is commonly represented as a two-digit year followed by a two-digit week code, such that a part bearing the code 8341 was manufactured in week 41 of 1983, or approximately in October 1983.
+
+Intellectual property[edit]
+Main article: Integrated circuit layout design protection
+The possibility of copying by photographing each layer of an integrated circuit and preparing photomasks for its production on the basis of the photographs obtained is a reason for the introduction of legislation for the protection of layout designs. The US Semiconductor Chip Protection Act of 1984 established intellectual property protection for photomasks used to produce integrated circuits.[73]
+A diplomatic conference held at Washington, D.C. in 1989 adopted a Treaty on Intellectual Property in Respect of Integrated Circuits,[74] also called the Washington Treaty or IPIC Treaty. The treaty is currently not in force, but was partially integrated into the TRIPS agreement.[75]
+There are several United States patents connected to the integrated circuit, which include patents by J.S. Kilby US3,138,743, US3,261,081, US3,434,015 and by R.F. Stewart US3,138,747.
+National laws protecting IC layout designs have been adopted in a number of countries, including Japan,[76] the EC,[77] the UK, Australia, and Korea. The UK enacted the Copyright, Designs and Patents Act, 1988, c. 48, § 213, after it initially took the position that its copyright law fully protected chip topographies. See British Leyland Motor Corp. v. Armstrong Patents Co.
+Criticisms of inadequacy of the UK copyright approach as perceived by the US chip industry are summarized in further chip rights developments.[78]
+Australia passed the Circuit Layouts Act of 1989 as a sui generis form of chip protection.[79] Korea passed the Act Concerning the Layout-Design of Semiconductor Integrated Circuits in 1992.[80]
+
+Generations[edit]
+See also: List of semiconductor scale examples, MOS integrated circuit, and Transistor count
+In the early days of simple integrated circuits, the technology's large scale limited each chip to only a few transistors, and the low degree of integration meant the design process was relatively simple. Manufacturing yields were also quite low by today's standards. As metal–oxide–semiconductor (MOS) technology progressed, millions and then billions of MOS transistors could be placed on one chip,[81] and good designs required thorough planning, giving rise to the field of electronic design automation, or EDA.
+Some SSI and MSI chips, like discrete transistors, are still mass-produced, both to maintain old equipment and build new devices that require only a few gates. The 7400 series of TTL chips, for example, has become a de facto standard and remains in production.
+
+
+
+Acronym
+Name
+Year
+Transistor count[82]
+Logic gates number[83]
+
+
+SSI
+small-scale integration
+1964
+1 to 10
+1 to 12
+
+
+MSI
+medium-scale integration
+1968
+10 to 500
+13 to 99
+
+
+LSI
+large-scale integration
+1971
+500 to 20 000
+100 to 9999
+
+
+VLSI
+very large-scale integration
+1980
+20 000 to 1 000 000
+10 000 to 99 999
+
+
+ULSI
+ultra-large-scale integration
+1984
+1 000 000 and more
+100 000 and more
+
+Small-scale integration (SSI) [edit]
+The first integrated circuits contained only a few transistors. Early digital circuits containing tens of transistors provided a few logic gates, and early linear ICs such as the Plessey SL201 or the Philips TAA320 had as few as two transistors. The number of transistors in an integrated circuit has increased dramatically since then. The term "large scale integration" (LSI) was first used by IBM scientist Rolf Landauer when describing the theoretical concept;[84] that term gave rise to the terms "small-scale integration" (SSI), "medium-scale integration" (MSI), "very-large-scale integration" (VLSI), and "ultra-large-scale integration" (ULSI). The early integrated circuits were SSI.
+SSI circuits were crucial to early aerospace projects, and aerospace projects helped inspire development of the technology. Both the Minuteman missile and Apollo program needed lightweight digital computers for their inertial guidance systems. Although the Apollo Guidance Computer led and motivated integrated-circuit technology,[85] it was the Minuteman missile that forced it into mass-production. The Minuteman missile program and various other United States Navy programs accounted for the total $4 million integrated circuit market in 1962, and by 1968, U.S. Government spending on space and defense still accounted for 37% of the $312 million total production.
+The demand by the U.S. Government supported the nascent integrated circuit market until costs fell enough to allow IC firms to penetrate the industrial market and eventually the consumer market. The average price per integrated circuit dropped from $50.00 in 1962 to $2.33 in 1968.[86] Integrated circuits began to appear in consumer products by the turn of the 1970s decade. A typical application was FM inter-carrier sound processing in television receivers.
+The first application MOS chips were small-scale integration (SSI) chips.[87] Following Mohamed M. Atalla's proposal of the MOS integrated circuit chip in 1960,[88] the earliest experimental MOS chip to be fabricated was a 16-transistor chip built by Fred Heiman and Steven Hofstein at RCA in 1962.[30] The first practical application of MOS SSI chips was for NASA satellites.[87]
+
+Medium-scale integration (MSI) [edit]
+The next step in the development of integrated circuits introduced devices which contained hundreds of transistors on each chip, called "medium-scale integration" (MSI).
+MOSFET scaling technology made it possible to build high-density chips.[25] By 1964, MOS chips had reached higher transistor density and lower manufacturing costs than bipolar chips.[32]
+In 1964, Frank Wanlass demonstrated a single-chip 16-bit shift register he designed, with a then-incredible 120 MOS transistors on a single chip.[87][89] The same year, General Microelectronics introduced the first commercial MOS integrated circuit chip, consisting of 120 p-channel MOS transistors.[31] It was a 20-bit shift register, developed by Robert Norman[30] and Frank Wanlass.[90] MOS chips further increased in complexity at a rate predicted by Moore's law, leading to chips with hundreds of MOSFETs on a chip by the late 1960s.[32]
+
+Large-scale integration (LSI) [edit]
+Further development, driven by the same MOSFET scaling technology and economic factors, led to "large-scale integration" (LSI) by the mid-1970s, with tens of thousands of transistors per chip.[91]
+The masks used to process and manufacture SSI, MSI and early LSI and VLSI devices (such as the microprocessors of the early 1970s) were mostly created by hand, often using Rubylith-tape or similar.[92] For large or complex ICs (such as memories or processors), this was often done by specially hired professionals in charge of circuit layout, placed under the supervision of a team of engineers, who would also, along with the circuit designers, inspect and verify the correctness and completeness of each mask.
+Integrated circuits such as 1K-bit RAMs, calculator chips, and the first microprocessors, that began to be manufactured in moderate quantities in the early 1970s, had under 4,000 transistors. True LSI circuits, approaching 10,000 transistors, began to be produced around 1974, for computer main memories and second-generation microprocessors.
+
+Very-large-scale integration (VLSI)[edit]
+Main article: Very-large-scale integration
+ Upper interconnect layers on an Intel 80486DX2 microprocessor die
+"Very-large-scale integration" (VLSI) is a development started with hundreds of thousands of transistors in the early 1980s, and, as of 2016, transistor counts continue to grow beyond ten billion transistors per chip.
+Multiple developments were required to achieve this increased density. Manufacturers moved to smaller MOSFET design rules and cleaner fabrication facilities. The path of process improvements was summarized by the International Technology Roadmap for Semiconductors (ITRS), which has since been succeeded by the International Roadmap for Devices and Systems (IRDS). Electronic design tools improved, making it practical to finish designs in a reasonable time. The more energy-efficient CMOS replaced NMOS and PMOS, avoiding a prohibitive increase in power consumption. The complexity and density of modern VLSI devices made it no longer feasible to check the masks or do the original design by hand. Instead, engineers use EDA tools to perform most functional verification work.[93]
+In 1986, one-megabit random-access memory (RAM) chips were introduced, containing more than one million transistors. Microprocessor chips passed the million-transistor mark in 1989, and the billion-transistor mark in 2005.[94] The trend continues largely unabated, with chips introduced in 2007 containing tens of billions of memory transistors.[95]
+
+ULSI, WSI, SoC and 3D-IC[edit]
+Further information: Wafer-scale integration, System on a chip, and Three-dimensional integrated circuit
+To reflect further growth of the complexity, the term ULSI that stands for "ultra-large-scale integration" was proposed for chips of more than 1 million transistors.[96]
+Wafer-scale integration (WSI) is a means of building very large integrated circuits that uses an entire silicon wafer to produce a single "super-chip". Through a combination of large size and reduced packaging, WSI could lead to dramatically reduced costs for some systems, notably massively parallel supercomputers. The name is taken from the term Very-Large-Scale Integration, the current state of the art when WSI was being developed.[97]
+A system-on-a-chip (SoC or SOC) is an integrated circuit in which all the components needed for a computer or other system are included on a single chip. The design of such a device can be complex and costly, and whilst performance benefits can be had from integrating all needed components on one die, the cost of licensing and developing a one-die machine still outweigh having separate devices. With appropriate licensing, these drawbacks are offset by lower manufacturing and assembly costs and by a greatly reduced power budget: because signals among the components are kept on-die, much less power is required (see Packaging).[98] Further, signal sources and destinations are physically closer on die, reducing the length of wiring and therefore latency, transmission power costs and waste heat from communication between modules on the same chip. This has led to an exploration of so-called Network-on-Chip (NoC) devices, which apply system-on-chip design methodologies to digital communication networks as opposed to traditional bus architectures.
+A three-dimensional integrated circuit (3D-IC) has two or more layers of active electronic components that are integrated both vertically and horizontally into a single circuit. Communication between layers uses on-die signaling, so power consumption is much lower than in equivalent separate circuits. Judicious use of short vertical wires can substantially reduce overall wire length for faster operation.[99]
+
+Silicon labeling and graffiti[edit]
+To allow identification during production, most silicon chips will have a serial number in one corner. It is also common to add the manufacturer's logo. Ever since ICs were created, some chip designers have used the silicon surface area for surreptitious, non-functional images or words. These are sometimes referred to as chip art, silicon art, silicon graffiti or silicon doodling.[citation needed]
+
+ICs and IC families[edit]
+The 555 timer IC
+The Operational amplifier
+7400-series integrated circuits
+4000-series integrated circuits, the CMOS counterpart to the 7400 series (see also: 74HC00 series)
+Intel 4004, generally regarded as the first commercially available microprocessor, which led to the famous 8080 CPU and then the IBM PC's 8088, 80286, 486 etc.
+The MOS Technology 6502 and Zilog Z80 microprocessors, used in many home computers of the early 1980s
+The Motorola 6800 series of computer-related chips, leading to the 68000 and 88000 series (used in some Apple computers and in the 1980s Commodore Amiga series)
+The LM-series of analog integrated circuits
+See also[edit]
+
+
+Electronics portal
+Physics portal
+Technology portal
+Telecommunication portal
+Engineering portal
+History of science portal
+Companies portal
+Computer programming portal
+Amiga/Selected biography portal
+Telephones portal
+Chipset
+CHIPS and Science Act
+Integrated injection logic
+Ion implantation
+Microelectronics
+Monolithic microwave integrated circuit
+Multi-threshold CMOS
+Silicon-germanium
+Sound chip
+SPICE
+Chip carrier
+Dark silicon
+Integrated passive devices
+High-temperature operating life
+Thermal simulations for integrated circuits
+Heat generation in integrated circuits
+References[edit]
+
+
+^ "Integrated circuit (IC)". JEDEC.
+
+^ Wylie, Andrew (2009). "The first monolithic integrated circuits". Retrieved 14 March 2011. Nowadays when people say 'integrated circuit' they usually mean a monolithic IC, where the entire circuit is constructed in a single piece of silicon.
+
+^ Horowitz, Paul; Hill, Winfield (1989). The Art of Electronics (2nd ed.). Cambridge University Press. p. 61. ISBN 978-0-521-37095-0. Integrated circuits, which have largely replaced circuits constructed from discrete transistors, are themselves merely arrays of transistors and other components built from a single chip of semiconductor material.
+
+^ a b "Who Invented the IC?". @CHM Blog. Computer History Museum. 20 August 2014.
+
+^ "Integrated circuits help Invention". Integratedcircuithelp.com. Retrieved 13 August 2012.
+
+^ DE 833366  W. Jacobi/SIEMENS AG: "Halbleiterverstärker" priority filing on 14 April 1949, published on 15 May 1952.
+
+^ "The Hapless Tale of Geoffrey Dummer" Archived 11 May 2013 at the Wayback Machine (n.d.) (HTML), Electronic Product News, accessed 8 July 2008.
+
+^ Saxena, Arjum (2009). Invention of Integrated Circuits: Untold Important Facts. World Scientific. pp. 95–103.
+
+^ a b c Rostky, George. "Micromodules: the ultimate package". EE Times. Archived from the original on 7 January 2010. Retrieved 23 April 2018.
+
+^ "The RCA Micromodule". Vintage Computer Chip Collectibles, Memorabilia & Jewelry. Retrieved 23 April 2018.
+
+^ Dummer, G.W.A.; Robertson, J. Mackenzie (16 May 2014). American Microelectronics Data Annual 1964–65. Elsevier. pp. 392–397, 405–406. ISBN 978-1-4831-8549-1.
+
+^ The Chip that Jack Built, (c. 2008), (HTML), Texas Instruments, Retrieved 29 May 2008.
+
+^ Kilby, Jack S. "Miniaturized Electronic Circuits", U.S. Patent 3,138,743, filed 6 February 1959, issued 23 June 1964.
+
+^ Winston, Brian (1998). Media Technology and Society: A History: From the Telegraph to the Internet. Routledge. p. 221. ISBN 978-0-415-14230-4.
+
+^ "Texas Instruments – 1961 First IC-based computer". Ti.com. Retrieved 13 August 2012.
+
+^ "The Nobel Prize in Physics 2000", nobelprize.org (10 October 2000)
+
+^ a b Saxena, Arjun N. (2009). Invention of Integrated Circuits: Untold Important Facts. World Scientific. p. 140. ISBN 9789812814456.
+
+^ a b c d "Integrated circuits". NASA. Retrieved 13 August 2019.
+
+^ a b "1959: Practical Monolithic Integrated Circuit Concept Patented". Computer History Museum. Retrieved 13 August 2019.
+
+^ Hall, 
+Eldon C. (1996).
+"Journey to the Moon: The History of the Apollo Guidance Computer". American Institute of Aeronautics and Astronautics. pp. 18–19. ISBN 9781563471858
+
+^ "Computer Pioneers – James L. Buie". IEEE Computer Society. Retrieved 25 May 2020.
+
+^ a b Ken Shirriff. "The Texas Instruments TMX 1795: the (almost) first, forgotten microprocessor". 2015.
+
+^ Kuo, Yue (1 January 2013). "Thin Film Transistor Technology—Past, Present, and Future" (PDF). The Electrochemical Society Interface. 22 (1): 55–61. Bibcode:2013ECSIn..22a..55K. doi:10.1149/2.F06131if.
+
+^ "1960: Metal Oxide Semiconductor (MOS) Transistor Demonstrated". Computer History Museum.
+
+^ a b Laws, David (4 December 2013). "Who Invented the Transistor?". Computer History Museum.
+
+^ Bassett, Ross Knox (2002). To the Digital Age: Research Labs, Start-up Companies, and the Rise of MOS Technology. Johns Hopkins University Press. pp. 53–4. ISBN 978-0-8018-6809-2.
+
+^ Bassett, Ross Knox (2007). To the Digital Age: Research Labs, Start-up Companies, and the Rise of MOS Technology. Johns Hopkins University Press. pp. 22–25. ISBN 9780801886393.
+
+^ "Milestones:First Semiconductor Integrated Circuit (IC), 1958". IEEE Global History Network. IEEE. Retrieved 3 August 2011.
+
+^ "Milestones:List of IEEE Milestones – Engineering and Technology History Wiki". ethw.org. 9 December 2020.
+
+^ a b c d "Tortoise of Transistors Wins the Race – CHM Revolution". Computer History Museum. Retrieved 22 July 2019.
+
+^ a b "1964 – First Commercial MOS IC Introduced". Computer History Museum.
+
+^ a b c d Shirriff, Ken (30 August 2016). "The Surprising Story of the First Microprocessors". IEEE Spectrum. Institute of Electrical and Electronics Engineers. 53 (9): 48–54. doi:10.1109/MSPEC.2016.7551353. S2CID 32003640.
+
+^ "1968: Silicon Gate Technology Developed for ICs". Computer History Museum. Retrieved 22 July 2019.
+
+^ "1968: Silicon Gate Technology Developed for ICs". The Silicon Engine. Computer History Museum. Retrieved 13 October 2019.
+
+^ Hittinger, William C. (1973). "Metal–Oxide–Semiconductor Technology". Scientific American. 229 (2): 48–59. Bibcode:1973SciAm.229b..48H. doi:10.1038/scientificamerican0873-48. JSTOR 24923169.
+
+^ Kanellos, Michael (11 February 2003). "Moore's Law to roll on for another decade". CNET.
+
+^ Davari, Bijan, Robert H. Dennard, and Ghavam G. Shahidi (1995). "CMOS scaling for high performance and low power-the next ten years" (PDF). Proceedings of the IEEE. Vol. 83, no. 4. pp. 595–606.{{cite news}}:  CS1 maint: multiple names: authors list (link)
+
+^ "Qualcomm and Samsung Collaborate on 10nm Process Technology for the Latest Snapdragon 835 Mobile Processor". news.samsung.com. Retrieved 11 February 2017.
+
+^ a b "Inside Pascal: NVIDIA's Newest Computing Platform". 5 April 2016..  15,300,000,000 transistors in 610 mm2.
+
+^ "International Roadmap for Devices and Systems" (PDF). IEEE. 2016.
+
+^ The Nobel Prize in Physics 2009, Nobel Foundation, 6 October 2009, retrieved 6 October 2009.
+
+^ Fujita, H. (1997). A decade of MEMS and its future. Tenth Annual International Workshop on Micro Electro Mechanical Systems. doi:10.1109/MEMSYS.1997.581729.
+
+^ Narasimha, A.;  et al. (2008). "A 40-Gb/s QSFP optoelectronic transceiver in a 0.13 µm CMOS silicon-on-insulator technology". Proceedings of the Optical Fiber Communication Conference (OFC): OMK7.
+
+^ Birkholz, M.; Mai, A.; Wenger, C.; Meliani, C.; Scholz, R. (2016). "Technology modules from micro- and nano-electronics for the life sciences". WIREs Nanomed. Nanobiotech. 8 (3): 355–377. doi:10.1002/wnan.1367. PMID 26391194.
+
+^ Graham, Anthony H. D.; Robbins, Jon; Bowen, Chris R.; Taylor, John (2011). "Commercialisation of CMOS Integrated Circuit Technology in Multi-Electrode Arrays for Neuroscience and Cell-Based Biosensors". Sensors. 11 (5): 4943–4971. Bibcode:2011Senso..11.4943G. doi:10.3390/s110504943. PMC 3231360. PMID 22163884.
+
+^ Or-Bach, Zvi (December 23, 2013). "Why SOI is the Future Technology of Semiconductors". semimd.com Archived 29 November 2014 at the Wayback Machine.
+2013.
+
+^ 
+"Samsung’s Eight-Stack Flash Shows up in Apple’s iPhone 4". sst.semiconductor-digest.com. 
+September 13, 2010.
+
+^ Yamatake Corporation (2002). "Spherical semiconductor radio temperature sensor". Nature Interface. 7: 58–59. Archived from the original on 7 January 2009.
+
+^ 
+Takeda, Nobuo, MEMS applications of Ball Semiconductor Technology (PDF), archived from the original (PDF) on 1 January 2015
+
+^ "Advanced Packaging".
+
+^ "2.5D". Semiconductor Engineering.
+
+^ "3D ICs". Semiconductor Engineering.
+
+^ Wikichip (2018) Chiplet. wikichip.org cites IEDM 2017, Dr. Lisa Su accessdate=2019-05-26
+
+^ "To Keep Pace With Moore's Law, Chipmakers Turn to 'Chiplets'". Wired. 11 June 2018.
+
+^ Schodt, Christopher (April 16, 2019)  Upscaled: This is the year of the CPU ‘chiplet’. End Gadget
+
+^ LaPedus, Mark (16 April 2015). "FinFET Rollout Slower Than Expected". Semiconductor Engineering.
+
+^ Basu, Joydeep (9 October 2019). "From Design to Tape-out in SCL 180 nm CMOS Integrated Circuit Fabrication Technology". IETE Journal of Education. 60 (2): 51–64. arXiv:1908.10674. doi:10.1080/09747338.2019.1657787. S2CID 201657819.
+
+^ "About the EDA Industry". Electronic Design Automation Consortium. Archived from the original on 2 August 2015. Retrieved 29 July 2015.
+
+^ Gray, Paul R.; Hurst, Paul J.; Lewis, Stephen H.; Meyer, Robert G. (2009). Analysis and Design of Analog Integrated Circuits. Wiley. ISBN 978-0-470-24599-6.
+
+^ Rabaey, Jan M.; Chandrakasan, Anantha; Nikolic, Borivoje (2003). Digital Integrated Circuits (2nd ed.). Pearson. ISBN 978-0-13-090996-1.
+
+^ Baker, Jacob (2008). CMOS: Mixed-Signal Circuit Design. Wiley. ISBN 978-0-470-29026-2.
+
+^ "Stratix 10 Device Overview" (PDF). Altera. 12 December 2015.
+
+^ Nathawad, L.; Zargari, M.; Samavati, H.; Mehta, S.; Kheirkhaki, A.; Chen, P.; Gong, K.; Vakili-Amini, B.; Hwang, J.; Chen, M.; Terrovitis, M.; Kaczynski, B.; Limotyrakis, S.; Mack, M.; Gan, H.; Lee, M.; Abdollahi-Alibeik, B.; Baytekin, B.; Onodera, K.; Mendis, S.; Chang, A.; Jen, S.; Su, D.; Wooley, B. "20.2: A Dual-band CMOS MIMO Radio SoC for IEEE 802.11n Wireless LAN" (PDF). IEEE Entity Web Hosting. IEEE. Retrieved 22 October 2016.
+
+^ Hsu, Chi-Ping (January 17, 2013). 16nm/14nm FinFETs: Enabling The New Electronics Frontier. Electronic Design
+
+^ Mead, Carver A.; Conway, Lynn (1980) Introduction to VLSI Systems Reading, Mass.: Addison-Wesley: ISBN 2-201-04358-0
+
+^  "Hot Work Ultrasonic Bonding – A Method Of Facilitating Metal Flow By Restoration Processes", Proc. 20th IEEE Electronic Components Conf. Washington, D.C., May 1970, pp. 549–556.]
+
+^ Chafkin, Max; King, Ian (9 June 2016). "How Intel Makes a Chip". Bloomburg Businessweek.
+
+^ Lapedus, Mark (21 May 2015). "10 nm Fab Watch". Semiconductor Engineering.
+
+^ "145 series ICs (in Russian)". Retrieved 22 April 2012.
+
+^ Moammer, Khalid (16 September 2016). "AMD Zen CPU & AM4 Socket Pictured, Launching February 2017 – PGA Design With 1331 Pins Confirmed". Wccftech. Retrieved 20 May 2018.
+
+^ "Ryzen 5 2500U – AMD – WikiChip". wikichip.org. Retrieved 20 May 2018.
+
+^ Ung, Gordon Mah (30 May 2017). "AMD's 'TR4' Threadripper CPU socket is gigantic". PCWorld. Retrieved 20 May 2018.
+
+^ "Federal Statutory Protection for Mask Works" (PDF). United States Copyright Office. United States Copyright Office. Retrieved 22 October 2016.
+
+^ "Washington Treaty on Intellectual Property in Respect of Integrated Circuits". www.wipo.int.
+
+^ On 1 January 1995, the Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPs) (Annex 1C to the World Trade Organization (WTO) Agreement), went into force. Part II, section 6 of TRIPs protects semiconductor chip products and was the basis for Presidential Proclamation No. 6780, 23 March 1995, under SCPA § 902(a)(2), extending protection to all present and future WTO members.
+
+^ Japan was the first country to enact its own version of the SCPA, the Japanese "Act Concerning the Circuit Layout of a Semiconductor Integrated Circuit" of 1985.
+
+^ In 1986 the EC promulgated a directive requiring its members to adopt national legislation for the protection of semiconductor topographies. Council Directive 1987/54/EEC of 16 December 1986 on the Legal Protection of Topographies of Semiconductor Products, art. 1(1)(b), 1987 O.J. (L 24) 36.
+
+^ Stern, Richard (1985). "MicroLaw". IEEE Micro. 5 (4): 90–92. doi:10.1109/MM.1985.304489.
+
+^ Radomsky, Leon (2000). "Sixteen Years after the Passage of the U.S. Semiconductor Chip Protection Act: Is International Protection Working". Berkeley Technology Law Journal. 15: 1069. Retrieved 13 September 2022.
+
+^ Kukkonen, Carl A. III (1997–1998). "The Need to Abolish Registration for Integrated Circuit Topographies under Trips". IDEA -- the Journal of Law and Technology. 38: 126. Retrieved 13 September 2022.
+
+^ Peter Clarke, Intel enters billion-transistor processor era, EE Times, 14 October 2005 Archived 10 May 2013 at the Wayback Machine
+
+^ Dalmau, M.   
+Les Microprocesseurs. IUT de Bayonne
+
+^ Bulletin de la Société fribourgeoise des sciences naturelles, Volumes 62 à 63 (in French). 1973.
+
+^ Safir, Ruben (March 2015). "System on Chip – Integrated Circuits". NYLXS Journal. ISBN 9781312995512.
+
+^ Mindell, David A. (2008). Digital Apollo: Human and Machine in Spaceflight. The MIT Press. ISBN 978-0-262-13497-2.
+
+^ Ginzberg, Eli (1976). Economic impact of large public programs: the NASA Experience. Olympus Publishing Company. p. 57. ISBN 978-0-913420-68-3.
+
+^ a b c Johnstone, Bob (1999). We were burning: Japanese entrepreneurs and the forging of the electronic age. Basic Books. pp. 47–48. ISBN 978-0-465-09118-8.
+
+^ Moskowitz, Sanford L. (2016). Advanced Materials Innovation: Managing Global Technology in the 21st century. John Wiley & Sons. pp. 165–167. ISBN 9780470508923.
+
+^ Boysel, Lee (12 October 2007). "Making Your First Million (and other tips for aspiring entrepreneurs)". U. Mich. EECS Presentation / ECE Recordings.
+
+^ Kilby, J. S. (2007). "Miniaturized electronic circuits [US Patent No. 3,138, 743]". IEEE Solid-State Circuits Society Newsletter. 12 (2): 44–54. doi:10.1109/N-SSC.2007.4785580.
+
+^ Hittinger, William C. (1973). "Metal-Oxide-Semiconductor Technology". Scientific American. 229 (2): 48–59. Bibcode:1973SciAm.229b..48H. doi:10.1038/scientificamerican0873-48. JSTOR 24923169.
+
+^ Kanellos, Michael (16 January 2002). "Intel's Accidental Revolution". CNET.
+
+^ O'Donnell, C.F. (1968). "Engineering for systems using large scale integration" (PDF). Afips 1968: 870. doi:10.1109/AFIPS.1968.93.
+
+^ Clarke, Peter (14 October 2005). "Intel enters billion-transistor processor era". EETimes.com. Retrieved 23 May 2022.
+
+^ "Samsung First to Mass Produce 16Gb NAND Flash Memory". phys.org. 30 April 2007. Retrieved 23 May 2022.
+
+^ Meindl, J.D. (1984). "Ultra-large scale integration". IEEE Transactions on Electron Devices. 31 (11): 1555–1561. Bibcode:1984ITED...31.1555M. doi:10.1109/T-ED.1984.21752. S2CID 19237178.
+
+^ Shanefield, Daniel (1985). "Wafer scale integration". google.com/patents. Retrieved 21 September 2014.
+
+^ Klaas, Jeff (2000). "System-on-a-chip". google.com/patents. Retrieved 21 September 2014.
+
+^ Topol, A.W.; Tulipe, D.C.La; Shi, L; et., al (2006). "Three-dimensional integrated circuits". IBM Journal of Research and Development. 50 (4.5): 491–506. doi:10.1147/rd.504.0491. S2CID 18432328.
+
+
+Further reading[edit]
+Veendrick, H.J.M. (2017). Nanometer CMOS ICs, from Basics to ASICs. Springer. ISBN 978-3-319-47595-0. OCLC 990149326.
+Baker, R.J. (2010). CMOS: Circuit Design, Layout, and Simulation (3rd ed.). Wiley-IEEE. ISBN 978-0-470-88132-3. OCLC 699889340.
+Marsh, Stephen P. (2006). Practical MMIC design. Artech House. ISBN 978-1-59693-036-0. OCLC 1261968369.
+Camenzind, Hans (2005). Designing Analog Chips (PDF). Virtual Bookworm. ISBN 978-1-58939-718-7. OCLC 926613209. Archived from the original (PDF) on 12 June 2017. Hans Camenzind invented the 555 timer
+Hodges, David; Jackson, Horace; Saleh, Resve (2003). Analysis and Design of Digital Integrated Circuits. McGraw-Hill. ISBN 978-0-07-228365-5. OCLC 840380650.
+Rabaey, J.M.; Chandrakasan, A.; Nikolic, B. (2003). Digital Integrated Circuits (2nd ed.). Pearson. ISBN 978-0-13-090996-1. OCLC 893541089.
+Mead, Carver; Conway, Lynn (1991). Introduction to VLSI systems. Addison Wesley Publishing Company. ISBN 978-0-201-04358-7. OCLC 634332043.
+External links[edit]
+ Media related to Integrated circuits at Wikimedia Commons
+The first monolithic integrated circuits
+A large chart listing ICs by generic number including access to most of the datasheets for the parts.
+The History of the Integrated Circuit
+IC Die Photography – A gallery of integrated circuit die photographs
+vteProcessor technologiesModels
+Abstract machine
+Stored-program computer
+Finite-state machine
+with datapath
+Hierarchical
+Deterministic finite automaton
+Queue automaton
+Cellular automaton
+Quantum cellular automaton
+Turing machine
+Alternating Turing machine
+Universal
+Post–Turing
+Quantum
+Nondeterministic Turing machine
+Probabilistic Turing machine
+Hypercomputation
+Zeno machine
+Belt machine
+Stack machine
+Register machines
+Counter
+Pointer
+Random-access
+Random-access stored program
+Architecture
+Microarchitecture
+Von Neumann
+Harvard
+modified
+Dataflow
+Transport-triggered
+Cellular
+Endianness
+Memory access
+NUMA
+HUMA
+Load–store
+Register/memory
+Cache hierarchy
+Memory hierarchy
+Virtual memory
+Secondary storage
+Heterogeneous
+Fabric
+Multiprocessing
+Cognitive
+Neuromorphic
+Instruction setarchitecturesTypes
+Orthogonal instruction set
+CISC
+RISC
+Application-specific
+EDGE
+TRIPS
+VLIW
+EPIC
+MISC
+OISC
+NISC
+ZISC
+VISC architecture
+Quantum computing
+Comparison
+Addressing modes
+Instructionsets
+Motorola 68000 series
+VAX
+PDP-11
+x86
+ARM
+Stanford MIPS
+MIPS
+MIPS-X
+Power
+POWER
+PowerPC
+Power ISA
+Clipper architecture
+SPARC
+SuperH
+DEC Alpha
+ETRAX CRIS
+M32R
+Unicore
+Itanium
+OpenRISC
+RISC-V
+MicroBlaze
+LMC
+System/3x0
+S/360
+S/370
+S/390
+z/Architecture
+Tilera ISA
+VISC architecture
+Epiphany architecture
+Others
+ExecutionInstruction pipelining
+Pipeline stall
+Operand forwarding
+Classic RISC pipeline
+Hazards
+Data dependency
+Structural
+Control
+False sharing
+Out-of-order
+Scoreboarding
+Tomasulo algorithm
+Reservation station
+Re-order buffer
+Register renaming
+Wide-issue
+Speculative
+Branch prediction
+Memory dependence prediction
+ParallelismLevel
+Bit
+Bit-serial
+Word
+Instruction
+Pipelining
+Scalar
+Superscalar
+Task
+Thread
+Process
+Data
+Vector
+Memory
+Distributed
+Multithreading
+Temporal
+Simultaneous
+Hyperthreading
+Speculative
+Preemptive
+Cooperative
+Flynn's taxonomy
+SISD
+SIMD
+Array processing (SIMT)
+Pipelined processing
+Associative processing
+SWAR
+MISD
+MIMD
+SPMD
+Processorperformance
+Transistor count
+Instructions per cycle (IPC)
+Cycles per instruction (CPI)
+Instructions per second (IPS)
+Floating-point operations per second (FLOPS)
+Transactions per second (TPS)
+Synaptic updates per second (SUPS)
+Performance per watt (PPW)
+Cache performance metrics
+Computer performance by orders of magnitude
+Types
+Central processing unit (CPU)
+Graphics processing unit (GPU)
+GPGPU
+Vector
+Barrel
+Stream
+Tile processor
+Coprocessor
+PAL
+ASIC
+FPGA
+FPOA
+CPLD
+Multi-chip module (MCM)
+System in a package (SiP)
+Package on a package (PoP)
+By application
+Embedded system
+Microprocessor
+Microcontroller
+Mobile
+Notebook
+Ultra-low-voltage
+ASIP
+Soft microprocessor
+Systemson chip
+System on a chip (SoC)
+Multiprocessor (MPSoC)
+Programmable (PSoC)
+Network on a chip (NoC)
+Hardwareaccelerators
+Coprocessor
+AI accelerator
+Graphics processing unit (GPU)
+Image processor
+Vision processing unit (VPU)
+Physics processing unit (PPU)
+Digital signal processor (DSP)
+Tensor Processing Unit (TPU)
+Secure cryptoprocessor
+Network processor
+Baseband processor
+
+Word size
+1-bit
+4-bit
+8-bit
+12-bit
+15-bit
+16-bit
+24-bit
+32-bit
+48-bit
+64-bit
+128-bit
+256-bit
+512-bit
+bit slicing
+others
+variable
+Core count
+Single-core
+Multi-core
+Manycore
+Heterogeneous architecture
+Components
+Core
+Cache
+CPU cache
+Scratchpad memory
+Data cache
+Instruction cache
+replacement policies
+coherence
+Bus
+Clock rate
+Clock signal
+FIFO
+Functionalunits
+Arithmetic logic unit (ALU)
+Address generation unit (AGU)
+Floating-point unit (FPU)
+Memory management unit (MMU)
+Load–store unit
+Translation lookaside buffer (TLB)
+Branch predictor
+Branch target predictor
+Integrated memory controller (IMC)
+Memory management unit
+Instruction decoder
+Logic
+Combinational
+Sequential
+Glue
+Logic gate
+Quantum
+Array
+Registers
+Processor register
+Status register
+Stack register
+Register file
+Memory buffer
+Memory address register
+Program counter
+Control unit
+Hardwired control unit
+Instruction unit
+Data buffer
+Write buffer
+Microcode ROM
+Horizontal microcode
+Counter
+Datapath
+Multiplexer
+Demultiplexer
+Adder
+Multiplier
+CPU
+Binary decoder
+Address decoder
+Sum-addressed decoder
+Barrel shifter
+Circuitry
+Integrated circuit
+3D
+Mixed-signal
+Power management
+Boolean
+Digital
+Analog
+Quantum
+Switch
+
+Powermanagement
+PMU
+APM
+ACPI
+Dynamic frequency scaling
+Dynamic voltage scaling
+Clock gating
+Performance per watt (PPW)
+Related
+History of general-purpose CPUs
+Microprocessor chronology
+Processor design
+Digital electronics
+Hardware security module
+Semiconductor device fabrication
+Tick–tock model
+Pin grid array
+Chip carrier
+
+vteDigital electronicsComponents
+Transistor
+Resistor
+Inductor
+Capacitor
+Printed electronics
+Printed circuit board
+Electronic circuit
+Flip-flop
+Memory cell
+Combinational logic
+Sequential logic
+Logic gate
+Boolean circuit
+Integrated circuit (IC)
+Hybrid integrated circuit (HIC)
+Mixed-signal integrated circuit
+Three-dimensional integrated circuit (3D IC)
+Emitter-coupled logic (ECL)
+Erasable programmable logic device (EPLD)
+Macrocell array
+Programmable logic array (PLA)
+Programmable logic device (PLD)
+Programmable Array Logic (PAL)
+Generic array logic (GAL)
+Complex programmable logic device (CPLD)
+Field-programmable gate array (FPGA)
+Field-programmable object array (FPOA)
+Application-specific integrated circuit (ASIC)
+Tensor Processing Unit (TPU)
+Theory
+Digital signal
+Boolean algebra
+Logic synthesis
+Logic in computer science
+Computer architecture
+Digital signal
+Digital signal processing
+Circuit minimization
+Switching circuit theory
+Gate equivalent
+Design
+Logic synthesis
+Place and route
+Placement
+Routing
+Register-transfer level
+Hardware description language
+High-level synthesis
+Formal equivalence checking
+Synchronous logic
+Asynchronous logic
+Finite-state machine
+Hierarchical state machine
+Applications
+Computer hardware
+Hardware acceleration
+Digital audio
+radio
+Digital photography
+Digital telephone
+Digital video
+cinematography
+television
+Electronic literature
+Design issues
+Metastability
+Runt pulse
+
+vteElectronicsBranches
+Analog electronics
+Digital electronics
+Electronic instrumentation
+Electronics engineering
+Microelectronics
+Optoelectronics
+Power electronics
+Printed electronics
+Semiconductor
+Schematic capture
+Thermal management
+Advancedtopics
+2020s in computing
+Atomtronics
+Bioelectronics
+List of emerging electronics
+Failure of electronic components
+Flexible electronics
+Low-power electronics
+Molecular electronics
+Nanoelectronics
+Organic electronics
+Photonics
+Piezotronics
+Quantum electronics
+Spintronics
+Electronicequipment
+Air conditioner
+Central heating
+Clothes dryer
+Computer/Notebook
+Camera
+Dishwasher
+Freezer
+Home robot
+Home cinema
+Home theater PC
+Information technologies
+Cooker
+Microwave oven
+Mobile phone
+Networking hardware
+Portable media player
+Radio
+Refrigerator
+Robotic vacuum cleaner
+Tablet
+Telephone
+Television
+Water heater
+Video game console
+Washing machine
+Applications
+Audio electronics
+Automotive electronics
+Avionics
+Control system
+Data acquisition
+e-book
+e-health
+Electronics industry
+Electronic warfare
+Embedded system
+Home appliance
+Home automation
+Integrated circuit
+Home appliance
+Consumer electronics
+Major appliance
+Small appliance
+Microwave technology
+Military electronics
+Multimedia
+Nuclear electronics
+Open hardware
+Radar and Radionavigation
+Radio electronics
+Terahertz technology
+Video hardware
+Wired and Wireless Communications
+
+vteElectronic componentsSemiconductordevicesMOS transistors
+Transistor
+NMOS
+PMOS
+BiCMOS
+BioFET
+Chemical field-effect transistor (ChemFET)
+Complementary MOS (CMOS)
+Depletion-load NMOS
+Fin field-effect transistor (FinFET)
+Floating-gate MOSFET (FGMOS)
+Insulated-gate bipolar transistor (IGBT)
+ISFET
+LDMOS
+MOS field-effect transistor (MOSFET)
+Multi-gate field-effect transistor (MuGFET)
+Power MOSFET
+Thin-film transistor (TFT)
+VMOS
+UMOS
+Other transistors
+Bipolar junction transistor (BJT)
+Darlington transistor
+Diffused junction transistor
+Field-effect transistor (FET)
+Junction Gate FET (JFET)
+Organic FET (OFET)
+Light-emitting transistor (LET)
+Organic LET (OLET)
+Pentode transistor
+Point-contact transistor
+Programmable unijunction transistor (PUT)
+Static induction transistor (SIT)
+Tetrode transistor
+Unijunction transistor (UJT)
+Diodes
+Avalanche diode
+Constant-current diode (CLD, CRD)
+Gunn diode
+Laser diode (LD)
+Light-emitting diode (LED)
+Organic light-emitting diode (OLED)
+Photodiode
+PIN diode
+Schottky diode
+Step recovery diode
+Zener diode
+Other devices
+Printed electronics
+Printed circuit board
+DIAC
+Heterostructure barrier varactor
+Integrated circuit (IC)
+Hybrid integrated circuit
+Memistor
+Memristor
+Memtransistor
+Trancitor
+Memory cell
+Mixed-signal integrated circuit
+MOS integrated circuit (MOS IC)
+Organic semiconductor
+Photodetector
+Quantum circuit
+RF CMOS
+Silicon controlled rectifier (SCR)
+Solaristor
+Static induction thyristor (SITh)
+Three-dimensional integrated circuit (3D IC)
+Thyristor
+TRIAC
+Varicap
+Voltage regulators
+Linear regulator
+Low-dropout regulator
+Switching regulator
+Buck
+Boost
+Buck–boost
+Split-pi
+Ćuk
+SEPIC
+Charge pump
+Switched capacitor
+Vacuum tubes
+Acorn tube
+Audion
+Beam tetrode
+Barretter
+Compactron
+Diode
+Fleming valve
+Nonode
+Nuvistor
+Pentagrid (Hexode, Heptode, Octode)
+Pentode
+Photomultiplier
+Phototube
+Tetrode
+Triode
+Vacuum tubes (RF)
+Backward-wave oscillator (BWO)
+Cavity magnetron
+Crossed-field amplifier (CFA)
+Gyrotron
+Inductive output tube (IOT)
+Klystron
+Maser
+Sutton tube
+Traveling-wave tube (TWT)
+X-ray tube
+Cathode-ray tubes
+Beam deflection tube
+Charactron
+Iconoscope
+Magic eye tube
+Monoscope
+Selectron tube
+Storage tube
+Trochotron
+Video camera tube
+Williams tube
+Gas-filled tubes
+Cold cathode
+Crossatron
+Dekatron
+Ignitron
+Krytron
+Mercury-arc valve
+Neon lamp
+Nixie tube
+Thyratron
+Trigatron
+Voltage-regulator tube
+Adjustable
+Potentiometer
+digital
+Variable capacitor
+Varicap
+Passive
+Connector
+audio and video
+electrical power
+RF
+Electrolytic detector
+Ferrite
+Antifuse
+Fuse
+resettable
+eFUSE
+Resistor
+Switch
+Thermistor
+Transformer
+Varistor
+Wire
+Wollaston wire
+Reactive
+Capacitor
+types
+Ceramic resonator
+Crystal oscillator
+Inductor
+Parametron
+Relay
+reed relay
+mercury relay
+
+vteSemiconductor packagesSingle diode
+DO-204 (DO-7 / DO-35 / DO-41)
+DO-213 (MELF / SOD-80 / LL34)
+DO-214 (SMA / SMB / SMC)
+SOD (SOD-123 / SOD-323 / SOD-523 / SOD-923)
+3...5-pin
+SOT / TSOT
+TO-3 (TH / Panel)
+TO-5 (TH)
+TO-8 (TH)
+TO-18 (TH)
+TO-39 (TH)
+TO-66 (TH / Panel)
+TO-92 (TH)
+TO-126 (TH / Panel)
+TO-202 (TH / Panel)
+TO-220 (TH / Panel)
+TO-247 (TH / Panel)
+TO-251 (IPAK) (SMT)
+TO-252 (DPAK) (SMT)
+TO-262 (I2PAK) (SMT)
+TO-263 (D2PAK) (SMT)
+TO-268 (D3PAK) (SMT)
+TO-273 (Super-220) (SMT)
+TO-274 (Super-247) (SMT)
+Single row
+SIP / SIL
+Dual row
+DFN
+DIP / DIL
+Flat Pack
+MSOP
+SO / SOIC
+SOP / SSOP
+TSOP / HTSOP
+TSSOP / HTSSOP
+ZIP
+Quad row
+LCC
+QIP / QIL
+PLCC
+QFN
+QFP
+QUIP / QUIL
+Grid array
+BGA
+eWLB
+LGA
+PGA
+Wafer
+COB
+COF
+COG
+CSP
+Flip Chip
+PoP
+QP
+UICC
+WL-CSP / WLP
+Related topics
+Electronic packaging
+Integrated circuit packaging
+List of integrated circuit packaging types
+Printed circuit board
+Surface-mount technology
+Through-hole technology
+It is relatively common to find packages that contain other components than their designated ones, such as diodes or voltage regulators in transistor packages, etc.
+vteTechnology and related conceptsMajor technologiesNecessities
+Agriculture
+Domestication
+Grafting
+Working animal
+Clothing
+Sewing machine
+Cooking
+Beer
+Bread
+Cheese
+Milling
+Wine
+Food storage
+Pottery
+Sanitation
+Plumbing
+Toilet
+Tool
+Blade
+Hammer
+Plough
+Wedge
+Weapon
+Gun
+Social
+Accounting
+Calculation
+Abacus
+Calendar
+Cryptography
+Lock and key
+Money
+Banknote
+Coin
+Musical instrument
+Phonograph
+Toy
+Game
+Video game
+Writing
+Book
+Map
+Printing press
+Typewriter
+Construction
+Aqueduct
+Canal
+Irrigation
+Arch
+Bridge
+Building
+Fortification
+Foundation
+Scaffolding
+Tower
+Dam
+Caisson
+Road
+Tunnel
+Transport
+Aircraft
+Aerostat
+Airplane
+Compass
+Elevator
+Horseback riding
+Stirrup
+Jet engine
+Rocket
+Motor vehicle
+Railroad
+Train
+Scuba set
+Spacecraft
+Satellite
+Space station
+Space suit
+Watercraft
+Sailing
+Ship
+Submarine
+Manufacturing
+3D printing
+Carpentry
+Casting
+Injection moulding
+Lost-wax casting
+Mass production
+Assembly line
+Interchangeable parts
+Machine tool
+Welding
+Simple machine
+Axle
+Bearing
+Ball bearing
+Belt
+Chain
+Lever
+Catapult
+Crane
+Shadoof
+Linkage
+Cam
+Clutch
+Four-bar linkage
+Piston
+Rack and pinion
+Pendulum
+Screw
+Archimedes' screw
+Propeller
+Spring
+Valve
+Wheel
+Block and tackle
+Flywheel
+Gear
+Potter's wheel
+Pulley
+Wing
+Machinery
+Agricultural machinery
+Appliance
+Dishwasher
+Washing machine
+Engine
+Electric motor
+Internal combustion
+Turbine
+Waterwheel
+Windmill
+Heavy equipment
+Hydraulics
+Cylinder
+Manifold
+Pump
+Mechanism
+Clock
+Differential
+Epicyclic gearing
+Gimbal
+Gyroscope
+Whippletree
+MEMS
+Pneumatics
+Compressor
+Jackhammer
+Rivet gun
+Vacuum pump
+Robotics
+Arm
+Leg
+Energy
+Fire
+Charcoal
+Oven
+Energy storage
+Battery
+Geothermal power
+Heat exchanger
+Heat pump
+Nuclear power
+Nuclear weapon
+Oil drilling
+Fracking
+Refrigeration
+Air conditioning
+Refrigerator
+Solar power
+Photovoltaics
+Material
+Cement
+Concrete
+Ceramic
+Brick
+Chipped stone
+Glass
+Masonry
+Metallurgy
+Aluminum
+Bronze
+Ironworking
+Steel
+Nanomaterials
+Paper
+Plastic
+Rammed earth
+Recycling
+Rubber
+Vulcanization
+Textile
+Loom
+Spinning wheel
+Biotechnology
+Birth control
+Blood transfusion
+Dentistry
+Genetic engineering
+CRISPR gene editing
+Genetic testing
+PCR
+Hospital
+Medical imaging
+Medication
+Anesthesia
+Antibiotic
+Prosthesis
+Surgery
+Vaccine
+Chemical
+Detergent
+Soap
+Dye
+Explosive
+Dynamite
+Fireworks
+Gunpowder
+TNT
+Fertilizer
+Haber process
+Laboratory glassware
+Pesticide
+Pigment
+Separation
+Chromatography
+Distillation
+Filtration
+Spectrometer
+Synthesis
+Electromagnetism
+Electromagnet
+Laser
+Optical disc
+Lens
+Eyeglasses
+Magnetic storage
+Microwave oven
+Mirror
+Optical fiber
+Optical instrument
+Microscope
+Telescope
+Photography
+Camera
+Motion picture
+Radar
+Telecommunications
+Mobile phone
+Radio
+Telegraph
+Telephone
+Television
+Electricity
+Circuit
+AC
+Circuit breaker
+DC
+Electrical grid
+Fuse
+Generator
+Switch
+Transformer
+Electric light
+Fluorescent
+Incandescent
+LED
+Neon
+Electronics
+Capacitor
+Circuit board
+Resistor
+Inductor
+Vacuum tube
+Lightning rod
+Multimeter
+Oscilloscope
+Semiconductor
+Diode
+Integrated circuit
+Transistor
+Superconductor
+Computer
+Artificial intelligence
+Hardware
+CPU
+GPU
+Modem
+Motherboard
+Mouse
+RAM
+Router
+Storage
+Touchscreen
+Networking
+Client–server model
+Email
+Internet
+Peer-to-peer
+Social media
+World Wide Web
+Programming language
+Software
+Compiler
+Database
+GUI
+Graphics software
+Operating system
+Spreadsheet
+Web browser
+Word processor
+PerspectivesCriticism
+Appropriate technology
+Low technology
+Luddite
+Neo-Luddism
+Precautionary principle
+Ecotechnology
+Environmental technology
+Clean technology
+Sustainable design
+Sustainable engineering
+Policy & politics
+Government by algorithm
+Intellectual property
+Patent
+Trade secret
+Persuasive technology
+Science policy
+Strategy of Technology
+Technology assessment
+Technorealism
+Progressivism
+Futures studies
+Technology forecasting
+Technological utopianism
+Technocracy movement
+Technological singularity
+Transhumanism
+Studies
+Diffusion of innovations
+Technology transfer
+History
+Timeline of historic inventions
+Philosophy
+Social construction of technology
+Technological determinism
+Technology acceptance model
+Related conceptsApplied science
+Agronomy
+Architecture
+Construction
+Engineering
+Forensics
+Forestry
+Logistics
+Medicine
+Mining
+Navigation
+Surveying
+Innovation
+Design
+High tech
+Invention
+Mature technology
+Research and development
+Technological convergence
+Technology lifecycle
+
+ Category
+ Outline
+ Portal
+
+vteComputer scienceNote: This template roughly follows the 2012 ACM Computing Classification System.Hardware
+Printed circuit board
+Peripheral
+Integrated circuit
+Very Large Scale Integration
+Systems on Chip (SoCs)
+Energy consumption (Green computing)
+Electronic design automation
+Hardware acceleration
+Computer systems organization
+Computer architecture
+Embedded system
+Real-time computing
+Dependability
+Networks
+Network architecture
+Network protocol
+Network components
+Network scheduler
+Network performance evaluation
+Network service
+Software organization
+Interpreter
+Middleware
+Virtual machine
+Operating system
+Software quality
+Software notations and tools
+Programming paradigm
+Programming language
+Compiler
+Domain-specific language
+Modeling language
+Software framework
+Integrated development environment
+Software configuration management
+Software library
+Software repository
+Software development
+Control variable
+Software development process
+Requirements analysis
+Software design
+Software construction
+Software deployment
+Software engineering
+Software maintenance
+Programming team
+Open-source model
+Theory of computation
+Model of computation
+Formal language
+Automata theory
+Computability theory
+Computational complexity theory
+Logic
+Semantics
+Algorithms
+Algorithm design
+Analysis of algorithms
+Algorithmic efficiency
+Randomized algorithm
+Computational geometry
+Mathematics of computing
+Discrete mathematics
+Probability
+Statistics
+Mathematical software
+Information theory
+Mathematical analysis
+Numerical analysis
+Theoretical computer science
+Information systems
+Database management system
+Information storage systems
+Enterprise information system
+Social information systems
+Geographic information system
+Decision support system
+Process control system
+Multimedia information system
+Data mining
+Digital library
+Computing platform
+Digital marketing
+World Wide Web
+Information retrieval
+Security
+Cryptography
+Formal methods
+Security services
+Intrusion detection system
+Hardware security
+Network security
+Information security
+Application security
+Human–computer interaction
+Interaction design
+Social computing
+Ubiquitous computing
+Visualization
+Accessibility
+Concurrency
+Concurrent computing
+Parallel computing
+Distributed computing
+Multithreading
+Multiprocessing
+Artificial intelligence
+Natural language processing
+Knowledge representation and reasoning
+Computer vision
+Automated planning and scheduling
+Search methodology
+Control method
+Philosophy of artificial intelligence
+Distributed artificial intelligence
+Machine learning
+Supervised learning
+Unsupervised learning
+Reinforcement learning
+Multi-task learning
+Cross-validation
+Graphics
+Animation
+Rendering
+Image manipulation
+Graphics processing unit
+Mixed reality
+Virtual reality
+Image compression
+Solid modeling
+Applied computing
+E-commerce
+Enterprise software
+Computational mathematics
+Computational physics
+Computational chemistry
+Computational biology
+Computational social science
+Computational engineering
+Computational healthcare
+Digital art
+Electronic publishing
+Cyberwarfare
+Electronic voting
+Video games
+Word processing
+Operations research
+Educational technology
+Document management
+
+ Category
+ Outline
+WikiProject
+ Commons
+
+vteWafer bonding techniques used in ICs, MEMS, and NEMSSubstrate bonding
+Direct bonding
+Plasma-activated bonding
+Anodic bonding
+Eutectic bonding
+Glass frit bonding
+Adhesive bonding
+Thermocompression bonding
+Transient liquid phase diffusion bonding
+Surface activated bonding
+Connections
+Compliant bonding
+Wire bonding
+Ball bonding
+Thermosonic bonding
+Tape-automated bonding (TAB)
+See also
+Wafer bond characterization
+
+vteInterface chips from MOS Technology and second source/clone vendors
+6520 PIA
+6522 VIA
+6523 TPI
+6525 TPI
+6526 CIA
+6529 SPI
+6530 RRIOT
+6532 RIOT
+6551 ACIA
+
+vteVideo/sound chips from MOS Technology and second source/clone vendors
+6545 CRTC
+6560 VIC
+6567 VIC-II
+6581 SID
+7360 TED
+8563 VDC
+8568 VDC
+
+Authority control: National libraries 
+France (data)
+Ukraine
+Germany
+Israel
+United States
+Japan
+Czech Republic
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Integrated_circuit&oldid=1114623771"
+Categories: Integrated circuits1949 in computing20th-century inventionsAmerican inventionsComputer-related introductions in 1949Digital electronicsDiscovery and invention controversiesGerman inventionsSemiconductor devicesHidden categories: Webarchive template wayback linksCS1 maint: multiple names: authors listCS1 French-language sources (fr)Articles with short descriptionShort description matches WikidataUse dmy dates from October 2020Articles containing potentially dated statements from 2018All articles containing potentially dated statementsArticles needing additional references from May 2022All articles needing additional referencesAll articles with specifically marked weasel-worded phrasesArticles with specifically marked weasel-worded phrases from October 2018Articles containing potentially dated statements from 2016Wikipedia articles in need of updating from October 2018All Wikipedia articles in need of updatingAll articles with unsourced statementsArticles with unsourced statements from December 2020Commons category link is on WikidataArticles with BNF identifiersArticles with EMU identifiersArticles with GND identifiersArticles with J9U identifiersArticles with LCCN identifiersArticles with NDL identifiersArticles with NKC identifiers
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+AfrikaansAlemannischالعربيةAsturianuAzərbaycancaবাংলাBân-lâm-gúБеларускаяБеларуская (тарашкевіца)БългарскиBosanskiCatalàČeštinaCymraegDanskالدارجةDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGaeilgeGalego贛語한국어Հայերենहिन्दीHrvatskiIdoBahasa IndonesiaÍslenskaItalianoעבריתಕನ್ನಡქართულიҚазақшаKreyòl ayisyenLatinaLatviešuLietuviųMagyarМакедонскиMalagasyമലയാളംBahasa MelayuMinangkabauမြန်မာဘာသာNederlandsनेपाली日本語Norsk bokmålNorsk nynorskОлык марийOʻzbekcha/ўзбекчаਪੰਜਾਬੀپښتوPatoisPolskiPortuguêsRomânăРусскийShqipසිංහලSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்ไทยTürkçeУкраїнськаاردوئۇيغۇرچە / UyghurcheTiếng ViệtWinaray吴语粵語中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 7 October 2022, at 12:36 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

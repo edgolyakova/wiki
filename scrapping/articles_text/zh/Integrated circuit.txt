@@ -1,0 +1,577 @@
+
+
+
+
+集成电路 - 维基百科，自由的百科全书
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+集成电路
+
+维基百科，自由的百科全书
+
+
+
+跳到导航
+跳到搜索
+本條目存在以下問題，請協助改善本條目或在討論頁針對議題發表看法。
+
+此條目翻譯品質不佳。 (2019年5月7日)翻譯者可能不熟悉中文或原文語言，也可能使用了機器翻譯。請協助翻譯本條目或重新編寫，并注意避免翻译腔的问题。明顯拙劣的翻譯請改掛{{d|G13}}提交刪除。
+此條目需要补充更多来源。 (2018年5月7日)请协助補充多方面可靠来源以改善这篇条目，无法查证的内容可能會因為异议提出而移除。致使用者：请搜索一下条目的标题（来源搜索："集成电路" — 网页、新闻、书籍、学术、图像），以检查网络上是否存在该主题的更多可靠来源（判定指引）。
+
+
+「integrated circuit」的各地常用譯名中国大陸集成电路 臺灣積體電路 港澳集成電路 日韓集積回路
+「chip」的各地常用譯名中国大陸晶片 臺灣晶片 港澳晶片 
+ 英特爾486DX2處理器的積體電路於電子顯微鏡下
+集成电路（英語：integrated circuit，縮寫作 IC；德語：integrierter Schaltkreis），或称微電路（microcircuit）、微芯片（microchip）、晶片（chip），在電子學中是一種將電路（主要包括半導體裝置，也包括被動元件等）集中製造在半導體晶圓表面上的小型化方式。
+前述將電路製造在半導體晶片表面上的積體電路，又稱薄膜（thin-film）積體電路。另有一種厚膜（英语：Thick film technology）（thick-film）集成电路（英语：hybrid integrated circuit）（hybrid integrated circuit）[1][註 1]是由独立半导体设备和被动元件集成到基板或线路板所构成的小型化电路[註 2]。
+從1949年到1957年，維爾納·雅各比（英语：Werner Jacobi）、傑佛理·杜莫（英语：Jeffrey Dummer）、西德里·達林頓（英语：Sidney Darlington）、樽井康夫（日语：樽井康夫）都開發出了原型，現代的積體電路則是由傑克·基爾比在1958年發明，並因此榮獲2000年諾貝爾物理獎。同時間發展出近代實用的積體電路的羅伯特·諾伊斯，卻早在1990年就過世。
+
+目录
+
+1 介绍
+2 集成电路的发展
+3 集成电路的普及
+4 分类
+5 制造
+
+5.1 封装
+
+
+6 報刊
+7 注释
+8 参考文献
+9 延伸閱讀
+10 外部链接
+11 参见
+
+
+介绍[编辑]
+電晶體發明並大量生產之後，各式固態半導體元件如二極體、電晶體等大量使用，取代了真空管在電路中的功能與角色。到了20世纪中後期半导体制造技术进步，便使集成电路成为可能。相对于手工组装电路使用個別的分立电子元件，積體電路可以把很大数量的微晶体管集成到一个小芯片，是一个巨大的进步。集成电路的规模生产能力、可靠性，电路设计的模块化方法确保了快速采用标准化集成电路代替了设计使用离散晶体管。
+集成电路对于离散晶体管有两个主要优势：成本和性能。成本低是由于芯片把所有的元件通过照相平版技术，作为一个单位印刷，而不是在一个时间只制作一个晶体管。性能高是由于元件快速开关，消耗更低能量，因为元件很小且彼此靠近。2006年，芯片面积从几平方毫米到350 mm²，每mm²可以达到一百万个晶体管。
+第一個集成電路雛形是由傑克·基爾比於1958年完成的，其中包括一個雙極性晶體管，三個電阻和一個電容器，相較於現今科技的尺寸來講，體積相當龐大。
+
+ 電子顯微鏡下碳纳米管微電腦晶片體的場效應畫面
+根據一個芯片上集成的微電子器件的數量，集成電路可以分為以下幾類：
+
+小型積體電路（SSI英文全名為Small Scale Integration）逻辑门10個以下或 電晶體100個以下。
+中型積體電路（MSI英文全名為Medium Scale Integration）逻辑门11~100個或 電晶體101~1k個。
+大型積體電路（LSI英文全名為Large Scale Integration）逻辑门101~1k個或 電晶體1,001~10k個。
+超大型積體電路（VLSI英文全名為Very large scale integration）逻辑门1,001~10k個或 電晶體10,001~100k個。
+極大型積體電路（ULSI英文全名為Ultra Large Scale Integration）逻辑门10,001~1M個或 電晶體100,001~10M個。
+GSI（英文全名為Giga Scale Integration）逻辑门1,000,001個以上或電晶體10,000,001個以上。
+而根據處理信号的不同，可以分為模拟集成电路、数字集成电路、和兼具類比與數位的混合訊號積體電路。
+
+集成电路的发展[编辑]
+最先进的集成电路是微处理器或多核处理器的核心，可以控制一切電路，從數字微波爐、手機到電腦。記憶體和特定應用積體電路是其他集成电路家族的例子，对于现代信息社会非常重要。虽然设计开发一个复杂集成电路的成本非常高，但是当成本分散到数以百万计的产品上时，每个集成電路的成本便能最小化。集成電路的性能很高，因为小尺寸带来短路径，使得低功率逻辑电路可以在快速开关速度应用。
+这些年来，集成电路持续向更小的外型尺寸发展，使得每个芯片可以封装更多的电路。这样增加了每单位面积容量，可以降低成本和增加功能－见摩尔定律，集成电路中的晶体管数量，每1.5年增加一倍。总之，随着外形尺寸缩小，几乎所有的指标改善了－单位成本和开关功率消耗下降，速度提高。但是，集成纳米级别设备的IC不是没有问题，主要是洩漏电流。因此，对于最终用户的速度和功率消耗增加非常明显，制造商面临使用更好几何学的尖锐挑战。这个过程和在未来几年所期望的进步，在半导体国际技术路线图中有很好的描述。
+
+集成电路的普及[编辑]
+仅仅在其开发后半个世纪，集成电路变得无处不在，电脑、手机和其他数字电器成为现代社会结构不可缺少的一部分。这是因为，现代计算、交流、制造和交通系统，包括互联网，全都依赖于集成电路的存在。甚至有很多学者认为集成电路带来的數位革命是人类历史中最重要的事件。IC的成熟將會帶來科技的大躍進，不論是在設計的技術上，或是半導體的製程突破，兩者都是息息相關。
+
+分类[编辑]
+ 加以顏色標示的積體電路內部單元構成實例，四層銅平面作電路連接，之下是多晶矽（粉紅）、阱（灰）、與基片（綠）
+集成电路的分類方法很多，依照電路屬類比或數位，可以分为：類比積體電路、數位積體電路和混合訊號積體電路（類比和數位在一个芯片上）。
+數位積體電路可以包含任何东西，在几平方毫米上有从几千到百万的逻辑门、正反器、多工器和其他电路。这些电路的小尺寸使得与板级集成相比，有更高速度，更低功耗（参见低功耗设计）并降低了制造成本。这些数字IC，以微处理器、数字信号处理器和微控制器为代表，工作中使用二进制，处理1和0信号。
+類比積體電路有，例如传感器、电源控制电路和运放，处理類比訊號。完成放大、滤波、解调、混频的功能等。通过使用专家所設計、具有良好特性的類比積體電路，减轻了电路设计师的重担，不需凡事再由基礎的一個個電晶體處設計起。
+集成电路可以把類比和數位电路集成在一个单芯片上，以做出如類比數位轉換器和數位類比轉換器等器件。这种电路提供更小的尺寸和更低的成本，但是对于信号冲突必须小心。
+
+制造[编辑]
+参见：半导体器件制造和集成电路设计
+从1930年代开始，元素周期表化学元素中的半导体被諸如贝尔实验室威廉·肖克利（William Shockley）的研究者认为是最適合做固态真空管的原料。這些原料在1940至50年代被系統地研究，从氧化铜開始，然後到锗，再到硅。現今，单晶硅是集成电路的主要基层，尽管元素週期表中的一些III-V价化合物（比如砷化镓）有特殊用途，例如发光二极管、激光、太阳能电池和最高速集成电路。發現无缺陷晶体的製造方法需要数十年的时间。
+半导体集成电路製程，包括以下步骤，並重複使用：
+
+光刻
+刻蚀
+薄膜(化学气相沉积或物理氣相沉積）
+掺杂（热扩散或离子注入）
+化学机械平坦化CMP
+使用单晶硅晶圆（或III-V族，如砷化镓）用作基层，然後使用光刻、掺杂、CMP等技術製成MOSFET或BJT等元件，再利用薄膜和CMP技術製成導線，如此便完成晶片製作。因產品效能需求及成本考量，導線可分為鋁製程（以濺鍍為主）和銅製程（英语：Copper interconnect）（以電鍍為主參見Damascene（英语：Damascene））。[2][3][4]主要的製程技術可以分為以下幾大類：黃光微影、蝕刻、擴散、薄膜、平坦化製成、金屬化製成。
+IC由很多重叠的层组成，每层由影像技术定义，通常用不同的颜色表示。一些层标明在哪里不同的掺杂剂扩散进基层（成为扩散层），一些定义哪里额外的离子灌输（灌输层），一些定义导体（多晶硅或金属层），一些定义传导层之间的连接（过孔或接触层）。所有的元件由这些层的特定组合构成。
+
+在一个自排列（CMOS）过程中，所有门层（多晶硅或金属）穿过扩散层的地方形成晶体管。
+电阻结构，电阻结构的长宽比，结合表面电阻系数，决定电阻。
+电容结构，由于尺寸限制，在IC上只能产生很小的电容。
+更为少见的电感结构，可以制作芯片载电感或由回旋器模拟。
+因为CMOS设备只引导电流在逻辑门之间转换，CMOS设备比双极型元件（如双极性晶体管）消耗的电流少很多，也是現在主流的元件。透過電路的設計，将多顆的電晶體管畫在矽晶圓上，就可以畫出不同作用的集成电路。
+随机存取存储器是最常见类型的集成电路，所以密度最高的设备是記憶體，但即使是微处理器上也有存储器。尽管结构非常复杂－几十年来芯片宽度一直减少－但集成电路的层依然比宽度薄很多。元件层的制作非常像照相过程。虽然可见光谱中的光波不能用来曝光元件层，因为他们太大了。高频光子（通常是紫外线）被用来创造每层的图案。因为每个特征都非常小，对于一个正在调试制造过程的过程工程师来说，电子显微镜是必要工具。
+在使用自动测试设备（ATE）包装前，每个设备都要进行测试。测试过程称为晶圆测试或晶圆探通。晶圆被切割成矩形块，每个被称为晶片（“die”）。每个好的die被焊在“pads”上的铝线或金线，连接到封装内，pads通常在die的边上。封装之后，设备在晶圆探通中使用的相同或相似的ATE上进行终检。测试成本可以达到低成本产品的制造成本的25％，但是对于低产出，大型和/或高成本的设备，可以忽略不计。
+在2005年，一个制造厂（通常称为半导体工厂（英语：Semiconductor fabrication plant），常簡稱fab，指fabrication facility）建设费用要超过10亿美元，因为大部分操作是自动化的。
+
+封装[编辑]
+ 2019年AMD公司Ryzen5-3600處理器的積體電路未封裝狀態，內部結構可見。
+最早的集成電路使用陶瓷扁平封裝，这種封装很多年来因為可靠性和小尺寸繼續被軍方使用。商用電路封装很快轉變到雙列直插封裝，簡單來說，即開始是陶瓷，之後是塑料。1980年代，VLSI电路的針腳超過了DIP封装的應用限制，最後導致插針網格陣列和芯片載體的出现。
+表面贴着封装在1980年代初期出现，該年代后期开始流行。它的針腳使用更细的間距，引脚形状為海鷗翼型或J型。以Small-Outline Integrated Circuit（英语：Small-Outline Integrated Circuit）（SOIC）为例，比相等的DIP面积少30－50%，厚度少70%。这种封装在两个長邊有海鷗翼型引脚突出，引脚間距为0.05英寸。
+Small-Outline Integrated Circuit（SOIC）和PLCC封装。1990年代，尽管PGA封装依然经常用于高端微处理器。PQFP和thin small-outline package（英语：thin small-outline package）（TSOP）成为高引脚数设备的通常封装。Intel和AMD的高端微处理器现在从PGA（Pine Grid Array）封装转到了平面网格阵列封装（Land Grid Array，LGA）封装。
+球柵陣列封裝封装从1970年代开始出现，1990年代开发了比其他封装有更多管脚数的覆晶球柵陣列封裝封装。在FCBGA封装中，晶片被上下翻转（flipped）安装，通过与PCB相似的基层而不是线与封装上的焊球连接。FCBGA封装使得输入输出信号阵列（称为I/O区域）分布在整个晶片的表面，而不是限制于晶片的外围。如今的市場，封裝也已經是獨立出來的一環，封裝的技術也會影响到產品的品質及良率。
+
+報刊[编辑]
+2014年9月12日，科技新報（TechNews）發表《積體電路發明56週年紀念——誕生之路》一文，向大眾簡介「積體電路」興起過程。[5]
+注释[编辑]
+
+^  混合信號積體電路（mixed signal）是指混合數位與類比功能，與混成（hybrid）積體電路不同[1]
+
+^ 非系統單晶片
+
+
+参考文献[编辑]
+引用
+
+
+^ 1.0 1.1 拼合積體電路 hybrid integrated circuit （页面存档备份，存于互联网档案馆）、併合積體電路 hybrid integrated circuit - 2003年6月《資訊與通信術語辭典》 （页面存档备份，存于互联网档案馆），國家教育研究院
+
+^ 存档副本.   [2014-09-20]. （原始内容存档于2010-12-04）. 
+
+^ 存档副本.   [2014-09-20]. （原始内容存档于2014-08-17）. 
+
+^ 存档副本.   [2014-09-20]. （原始内容存档于2021-02-07）. 
+
+^ 積體電路發明 56 週年紀念——誕生之路. TechNews 科技新報. 2014年9月12日  [2014年9月13日]. （原始内容存档于2021年2月7日） （中文）. 
+
+
+延伸閱讀[编辑]
+
+The first monolithic integrated circuits
+Who invented the IC? （页面存档备份，存于互联网档案馆）
+Baker, R. J. CMOS: Circuit Design, Layout, and Simulation, Third Edition. Wiley-IEEE. 2010. ISBN 978-0-470-88132-3.  http://cmosedu.com/ （页面存档备份，存于互联网档案馆）
+Hodges, David; Jackson, Horace; Saleh, Resve. Analysis and Design of Digital Integrated Circuits. McGraw-Hill Science/Engineering/Math. 2003. ISBN 978-0-07-228365-5. 
+Klar, Heinrich; Noll, Tobias. Integrierte Digitale Schaltungen: Vom Transistor zur optimierten Logikschaltung. Springer Vieweg. 2015. ISBN 978-3-540-40600-6. 
+Rabaey, J. M.; Chandrakasan, A.; Nikolic, B. Digital Integrated Circuits 2nd. 2003. ISBN 0-13-090996-3. 
+Mead, Carver; Conway, Lynn. Introduction to VLSI systems. Addison Wesley Publishing Company. 1980. ISBN 978-0-201-04358-7. 
+Veendrick, H. J. M. Nanometer CMOS ICs, from Basics to ASICs. Springer. 2008: 770. ISBN 978-1-4020-8332-7.  http://springer.com/cn/book/9781402083327?referer=springer.com
+Arjun N. Saxena. Invention of Integrated Circuits: Untold Important Facts. World Scientific. 2009. ISBN 978-981-281-446-3. 
+Veendrick, H.J.M. Bits on Chips. 2011: 253. ISBN 978-1-61627-947-9. https://openlibrary.org/works/OL15759799W/Bits_on_Chips/ （页面存档备份，存于互联网档案馆）
+
+外部链接[编辑]
+
+
+
+维基文库中相关的原始文献：積體電路電路布局保護法
+
+
+
+维基共享资源中相关的多媒体资源：集成电路
+一般
+a large chart listing ICs by generic number （页面存档备份，存于互联网档案馆） including access to most of the datasheets for the parts.
+Marsh, Stephen P. Practical MMIC design. Artech House. 2006. ISBN 978-1-59693-036-0. 
+Introduction to Circuit Boards and Integrated Circuits 6/21/2011
+The History of the Integrated Circuit （页面存档备份，存于互联网档案馆） at Nobelprize.org
+專利
+US3,138,743 – Miniaturized electronic circuit – J. S. Kilby
+US3,138,747 – Integrated semiconductor circuit device – R. F. Stewart
+US3,261,081 – Method of making miniaturized electronic circuits – J. S. Kilby
+US3,434,015 – Capacitor for miniaturized electronic circuits or the like – J. S. Kilby
+集成電路模具製造
+IC Die Photography （页面存档备份，存于互联网档案馆） – A gallery of IC die photographs
+Zeptobars （页面存档备份，存于互联网档案馆） – Yet another gallery of IC die photographs
+YouTube上的Silicon Chip Wafer Fab Mailbag –  A look at some equipment and wafers used in the manufacturing of silicon chip wafers
+参见[编辑]
+
+
+电子学主题
+信息技术主题
+工程主题
+印刷電路板
+CPU
+GPU
+
+查论编数字电路概念
+数字信号
+布尔代数
+開關
+组合逻辑电路
+时序逻辑电路
+同步
+異步
+真值表
+卡诺图
+有限状态机
+米利机
+摩尔机
+硬件模块
+邏輯閘
+与
+或
+非
+同
+与非
+或非
+异或
+同或
+蘊含
+TTL
+74190
+CMOS
+加法器
+乘法器
+编码器
+译码器
+数据选择器
+锁存器
+寄存器
+触发器
+RS
+D
+JK
+T
+儲存裝置
+ROM
+RAM
+類比數位轉換器
+數位類比轉換器
+IC、VLSI
+定制程度（半、全）
+PLD
+PAL
+PLA
+GAL
+CPLD
+FPGA
+ASIC
+设计
+验证
+电子设计自动化（EDA）
+硬件描述语言
+Verilog
+VHDL
+逻辑综合
+硬件验证语言
+SystemVerilog
+
+查论编数字系统组件逻辑门 · 数字电路 · 集成电路 (IC)理论布尔逻辑 · 數位訊號處理 · 计算机系统结构应用數位音訊 · 數位摄影 · 数字视频
+查论编電子元件半导体器件
+雪崩二極管
+晶体管
+四極電晶體（英语：Tetrode transistor）
+五極電晶體（英语：Pentode transistor）
+電解存儲器（英语：Memistor）
+憶阻器
+双极性晶体管（BJT）
+FinFET
+互補式金屬氧化物半導體
+金屬氧化物半導體場效電晶體（MOSFET）
+接面場效電晶體（JFET）
+场效应管（FET）
+量子線路
+定電流二極體（英语：Constant-current diode）（CLD、CRD）
+達靈頓電晶體
+觸發二極體（英语：DIAC）
+二極管
+Heterostructure barrier varactor（英语：Heterostructure barrier varactor）
+絕緣柵雙極晶體管（IGBT）
+集成电路（IC）
+發光二極管（LED）
+光感測器
+光电二极管
+PIN型二极管
+肖特基二极管
+矽控整流器（SCR）
+晶閘管
+雪崩二極管
+雙向晶闸管
+單接合面電晶體（UJT）
+變容二極體
+齊納二極體
+稳压器
+線性電壓調節器
+低壓差穩壓器
+開關穩壓器
+降压变换器
+升壓變換器
+降壓-升壓變換器
+Split-pi
+Ćuk变换器
+SEPIC变换器
+電荷泵
+開關電容
+真空管
+橡實管（英语：Acorn tube）
+三極真空管（英语：Audion）
+束射四極管（英语：Beam tetrode）
+熱線檢流計（英语：Hot wire barretter）
+緊密管（英语：Compactron）
+真空二極體
+弗萊明管（英语：Fleming valve）
+九極管（英语：Nonode）
+小型抗震管（英语：Nuvistor）
+五柵變頻管（英语：Pentagrid converter）（六極管、七極管、八極管）
+五极管
+光电倍增管
+光电管
+四极管
+三極管
+真空管（RF）
+後進波振盪器（英语：Backward-wave oscillator）（BWO）
+多腔磁控管
+交叉場放大器（英语：Crossed-field amplifier）（CFA）
+迴旋管
+感應輸出管（英语：Inductive output tube）（IOT）
+調速管（英语：Klystron）
+激微波
+回復式調速管（英语：Sutton tube）
+行波管（TWT）
+阴极射线管
+電子束偏轉管（英语：Beam deflection tube）
+顯像管
+光電攝像管（英语：Iconoscope）
+幻眼管
+單像管（英语：Monoscope）
+选数管
+儲存管（英语：Storage tube）
+多級電子計數管
+摄像管
+威廉姆斯管
+充氣管（英语：Gas-filled tube）
+冷阴极荧光灯管
+Crossatron（英语：Crossatron）
+冷阴极计数管
+引燃管
+弧光放電充氣管（英语：Krytron）
+汞弧閥（英语：Mercury-arc valve）
+氖灯
+数码管
+閘流管（英语：Thyratron）
+觸發管（英语：Trigatron）
+調壓管（英语：Voltage-regulator tube）
+可變式元件
+電位器
+數位式
+可變電容器（英语：Variable capacitor）
+變容二極體
+被動元件
+連接器
+音頻與視頻（英语：Audio and video interfaces and connectors）
+電源
+RF（英语：RF connector）
+電解檢測器（英语：Electrolytic detector）
+鐵氧體磁芯
+保險絲
+可復式保險絲
+電阻器
+開關
+热敏电阻
+變壓器
+壓敏電阻
+金屬線
+弗拉斯頓線（英语：Wollaston wire）
+电抗
+电容器
+陶瓷諧振器（英语：Ceramic resonator）
+晶體振盪器（英语：Crystal oscillator）
+电感元件
+變抗管（英语：Parametron）
+继电器
+舌簧繼電器（英语：reed relay）
+水銀開關
+
+规范控制 
+BNF: cb11931204n (data)
+GND: 4027242-4
+LCCN: sh85067117
+NDL: 00572448
+NKC: ph114781
+
+
+
+
+
+取自“https://zh.wikipedia.org/w/index.php?title=集成电路&oldid=73731714”
+分类：​集成電路電子元件电子工程自動控制IEEE里程碑隐藏分类：​自2019年5月粗劣翻译自2018年5月需补充来源的条目拒绝当选首页新条目推荐栏目的条目含有多个问题的条目含有日語的條目含有英語的條目含有德語的條目包含BNF标识符的维基百科条目包含GND标识符的维基百科条目包含LCCN标识符的维基百科条目包含NDL标识符的维基百科条目包含NKC标识符的维基百科条目
+
+
+
+导航菜单
+
+
+
+个人工具
+
+
+没有登录讨论贡献创建账号登录
+
+
+
+
+
+命名空间
+
+
+条目讨论
+
+
+
+
+
+不转换
+
+
+不转换简体繁體大陆简体香港繁體澳門繁體大马简体新加坡简体臺灣正體
+
+
+
+
+
+
+查看
+
+
+阅读编辑查看历史
+
+
+
+
+
+更多
+
+
+
+
+
+
+
+
+搜索
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+导航
+
+
+首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+
+
+
+
+帮助
+
+
+帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+
+
+
+
+工具
+
+
+链入页面相关更改上传文件特殊页面固定链接页面信息引用本页维基数据项目
+
+
+
+
+打印/导出
+
+
+下载为PDF打印页面
+
+
+
+
+在其他项目中
+
+
+维基共享资源
+
+
+
+
+其他语言
+
+
+AfrikaansAlemannischالعربيةالدارجةAsturianuAzərbaycancaБеларускаяБеларуская (тарашкевіца)БългарскиবাংলাBosanskiCatalàČeštinaCymraegDanskDeutschΕλληνικάEnglishEsperantoEspañolEestiEuskaraفارسیSuomiFrançaisGaeilge贛語Galegoעבריתहिन्दीHrvatskiKreyòl ayisyenMagyarՀայերենBahasa IndonesiaIdoÍslenskaItaliano日本語PatoisქართულიҚазақшаಕನ್ನಡ한국어LatinaLietuviųLatviešuMalagasyОлык марийMinangkabauМакедонскиമലയാളംBahasa Melayuမြန်မာဘာသာनेपालीNederlandsNorsk nynorskNorsk bokmålਪੰਜਾਬੀPolskiپښتوPortuguêsRomânăРусскийSrpskohrvatski / српскохрватскиසිංහලSimple EnglishSlovenčinaSlovenščinaShqipСрпски / srpskiSvenskaதமிழ்ไทยTagalogTürkçeئۇيغۇرچە / UyghurcheУкраїнськаاردوOʻzbekcha/ўзбекчаTiếng ViệtWinaray吴语Bân-lâm-gú粵語
+编辑链接
+
+
+
+
+
+
+ 本页面最后修订于2022年9月19日 (星期一) 05:50。
+本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。（请参阅使用条款）
+Wikipedia®和维基百科标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的非营利慈善机构。
+
+
+隐私政策
+关于维基百科
+免责声明
+手机版视图
+开发者
+统计
+Cookie声明
+
+
+
+
+
+
+
+
+
+

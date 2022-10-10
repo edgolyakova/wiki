@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Algèbre générale — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"abac5f03-64a3-40d1-9582-c09eba0b8743","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algèbre_générale","wgTitle":"Algèbre générale","wgCurRevisionId":185027644,"wgRevisionId":185027644,"wgArticleId":9,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Portail:Algèbre/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Algèbre générale"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Algèbre_générale","wgRelevantArticleId":9,"wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":4000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q159943","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready",
+"ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Algèbre générale — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Algèbre_générale rootpage-Algèbre_générale skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Alg%C3%A8bre+g%C3%A9n%C3%A9rale" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Alg%C3%A8bre+g%C3%A9n%C3%A9rale" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Alg%C3%A8bre+g%C3%A9n%C3%A9rale" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;oldid=185027644" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;id=185027644&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q159943" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Alg%C3%A8bre+g%C3%A9n%C3%A9rale"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Abstract_algebra" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Histoire">
+<a class="sidebar-toc-link" href="#Histoire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Histoire</div>
+</a>
+<button aria-controls="toc-Histoire-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Histoire
+				</button>
+<ul class="sidebar-toc-list" id="toc-Histoire-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Algèbre_moderne">
+<a class="sidebar-toc-link" href="#Algèbre_moderne">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.1</span>Algèbre moderne</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Algèbre_moderne-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Applications">
+<a class="sidebar-toc-link" href="#Applications">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Applications</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Applications-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Bases">
+<a class="sidebar-toc-link" href="#Bases">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Bases</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bases-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Structures_algébriques">
+<a class="sidebar-toc-link" href="#Structures_algébriques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Structures algébriques</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Structures_algébriques-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Algèbre générale</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 73 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-73 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">73 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D9%85%D8%AC%D8%B1%D8%AF" hreflang="ar" lang="ar" title="جبر مجرد — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/%C3%81lxebra_astrauta" hreflang="ast" lang="ast" title="Álxebra astrauta — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%94%D3%A9%D0%B9%D3%A9%D0%BC_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ba" lang="ba" title="Дөйөм алгебра — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be" lang="be" title="Абстрактная алгебра — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D1%8C%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Абстрактная альгебра — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="bg" lang="bg" title="Абстрактна алгебра — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%AE%E0%A7%82%E0%A6%B0%E0%A7%8D%E0%A6%A4_%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" hreflang="bn" lang="bn" title="বিমূর্ত বীজগণিত — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Apstraktna_algebra" hreflang="bs" lang="bs" title="Apstraktna algebra — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/%C3%80lgebra_abstracta" hreflang="ca" lang="ca" title="Àlgebra abstracta — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AC%DB%95%D8%A8%D8%B1%DB%8C_%D9%BE%DB%95%D8%AA%DB%8C" hreflang="ckb" lang="ckb" title="جەبری پەتی — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Abstraktn%C3%AD_algebra" hreflang="cs" lang="cs" title="Abstraktní algebra — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9F%C4%95%D1%82%C4%95%D0%BC%C4%95%D1%88%D0%BB%D0%B5_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="cv" lang="cv" title="Пĕтĕмĕшле алгебра — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Algebra_haniaethol" hreflang="cy" lang="cy" title="Algebra haniaethol — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Abstrakt_algebra" hreflang="da" lang="da" title="Abstrakt algebra — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Abstrakte_Algebra" hreflang="de" lang="de" title="Abstrakte Algebra — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%91%CF%86%CE%B7%CF%81%CE%B7%CE%BC%CE%AD%CE%BD%CE%B7_%CE%AC%CE%BB%CE%B3%CE%B5%CE%B2%CF%81%CE%B1" hreflang="el" lang="el" title="Αφηρημένη άλγεβρα — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Abstract_algebra" hreflang="en" lang="en" title="Abstract algebra — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Abstrakta_algebro" hreflang="eo" lang="eo" title="Abstrakta algebro — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/%C3%81lgebra_abstracta" hreflang="es" lang="es" title="Álgebra abstracta — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/%C3%9Cldalgebra" hreflang="et" lang="et" title="Üldalgebra — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aljebra_abstraktu" hreflang="eu" lang="eu" title="Aljebra abstraktu — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D9%85%D8%AC%D8%B1%D8%AF" hreflang="fa" lang="fa" title="جبر مجرد — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Abstrakti_algebra" hreflang="fi" lang="fi" title="Abstrakti algebra — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/%C3%81lxebra_abstracta" hreflang="gl" lang="gl" title="Álxebra abstracta — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%94_%D7%9E%D7%95%D7%A4%D7%A9%D7%98%D7%AA" hreflang="he" lang="he" title="אלגברה מופשטת — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%AE%E0%A5%82%E0%A4%B0%E0%A5%8D%E0%A4%A4_%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="hi" lang="hi" title="अमूर्त बीजगणित — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Osnovna_algebra" hreflang="hr" lang="hr" title="Osnovna algebra — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Absztrakt_algebra" hreflang="hu" lang="hu" title="Absztrakt algebra — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B1%D5%A2%D5%BD%D5%BF%D6%80%D5%A1%D5%AF%D5%BF_%D5%B0%D5%A1%D5%B6%D6%80%D5%A1%D5%B0%D5%A1%D5%B7%D5%AB%D5%BE" hreflang="hy" lang="hy" title="Աբստրակտ հանրահաշիվ — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Algebra_abstracte" hreflang="ia" lang="ia" title="Algebra abstracte — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Aljabar_abstrak" hreflang="id" lang="id" title="Aljabar abstrak — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Abstrakta_algebro" hreflang="io" lang="io" title="Abstrakta algebro — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Hrein_algebra" hreflang="is" lang="is" title="Hrein algebra — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Algebra_astratta" hreflang="it" lang="it" title="Algebra astratta — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0%E5%AD%A6" hreflang="ja" lang="ja" title="抽象代数学 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%91%E1%83%A1%E1%83%A2%E1%83%A0%E1%83%90%E1%83%A5%E1%83%A2%E1%83%A3%E1%83%9A%E1%83%98_%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%90" hreflang="ka" lang="ka" title="აბსტრაქტული ალგებრა — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%86%E0%B2%A7%E0%B3%81%E0%B2%A8%E0%B2%BF%E0%B2%95_%E0%B2%AC%E0%B3%80%E0%B2%9C%E0%B2%97%E0%B2%A3%E0%B2%BF%E0%B2%A4" hreflang="kn" lang="kn" title="ಆಧುನಿಕ ಬೀಜಗಣಿತ — kannada"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%B6%94%EC%83%81%EB%8C%80%EC%88%98%ED%95%99" hreflang="ko" lang="ko" title="추상대수학 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Algebra_abstracta" hreflang="la" lang="la" title="Algebra abstracta — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Abstrak%C4%8Dioji_algebra" hreflang="lt" lang="lt" title="Abstrakčioji algebra — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Abstrakt%C4%81_algebra" hreflang="lv" lang="lv" title="Abstraktā algebra — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%AE%E0%B5%82%E0%B5%BC%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%AC%E0%B5%80%E0%B4%9C%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="അമൂർത്തബീജഗണിതം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Algebra_abstrak" hreflang="ms" lang="ms" title="Algebra abstrak — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a class="interlanguage-link-target" href="https://mt.wikipedia.org/wiki/Al%C4%A1ebra_astratta" hreflang="mt" lang="mt" title="Alġebra astratta — maltais"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%81%E1%80%B1%E1%80%90%E1%80%BA%E1%80%9E%E1%80%85%E1%80%BA%E1%80%A1%E1%80%80%E1%80%B9%E1%80%81%E1%80%9B%E1%80%AC%E1%80%9E%E1%80%84%E1%80%BA%E1%80%B9%E1%80%81%E1%80%BB%E1%80%AC" hreflang="my" lang="my" title="ခေတ်သစ်အက္ခရာသင်္ချာ — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Abstracte_algebra" hreflang="nl" lang="nl" title="Abstracte algebra — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Abstrakt_algebra" hreflang="nn" lang="nn" title="Abstrakt algebra — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Abstrakt_algebra" hreflang="nb" lang="nb" title="Abstrakt algebra — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Alg%C3%A8bra_abstracha" hreflang="oc" lang="oc" title="Algèbra abstracha — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Algebra_abstrakcyjna" hreflang="pl" lang="pl" title="Algebra abstrakcyjna — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/%C3%81lgebra_abstrata" hreflang="pt" lang="pt" title="Álgebra abstrata — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Algebr%C4%83_abstract%C4%83" hreflang="ro" lang="ro" title="Algebră abstractă — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D1%89%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ru" lang="ru" title="Общая алгебра — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Abstract_algebra" hreflang="sco" lang="sco" title="Abstract algebra — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Apstraktna_algebra" hreflang="sh" lang="sh" title="Apstraktna algebra — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%BA%E0%B7%94%E0%B6%9A%E0%B7%8A%E0%B6%AD_%E0%B7%80%E0%B7%93%E0%B6%A2_%E0%B6%9C%E0%B6%AB%E0%B7%92%E0%B6%AD%E0%B6%BA" hreflang="si" lang="si" title="වියුක්ත වීජ ගණිතය — cingalais"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Abstract_algebra" hreflang="en-simple" lang="en-simple" title="Abstract algebra — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Abstraktn%C3%A1_algebra" hreflang="sk" lang="sk" title="Abstraktná algebra — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Abstraktna_algebra" hreflang="sl" lang="sl" title="Abstraktna algebra — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Algjebra_abstrakte" hreflang="sq" lang="sq" title="Algjebra abstrakte — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%90%D0%BF%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="sr" lang="sr" title="Апстрактна алгебра — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Abstrakt_algebra" hreflang="sv" lang="sv" title="Abstrakt algebra — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B8%8A%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%99%E0%B8%B2%E0%B8%A1%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1" hreflang="th" lang="th" title="พีชคณิตนามธรรม — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Alhebrang_basal" hreflang="tl" lang="tl" title="Alhebrang basal — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Soyut_cebir" hreflang="tr" lang="tr" title="Soyut cebir — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D1%82%D1%80%D0%B0%D0%BA%D1%82%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="uk" lang="uk" title="Абстрактна алгебра — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%AA%D8%AC%D8%B1%DB%8C%D8%AF%DB%8C_%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D8%A7" hreflang="ur" lang="ur" title="تجریدی الجبرا — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_tr%E1%BB%ABu_t%C6%B0%E1%BB%A3ng" hreflang="vi" lang="vi" title="Đại số trừu tượng — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" hreflang="wuu" lang="wuu" title="抽象代数 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a class="interlanguage-link-target" href="https://xh.wikipedia.org/wiki/I-Abstract_algebra" hreflang="xh" lang="xh" title="I-Abstract algebra — xhosa"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%90%D7%91%D7%A1%D7%98%D7%A8%D7%90%D7%A7%D7%98%D7%A2_%D7%90%D7%9C%D7%92%D7%A2%D7%91%D7%A8%D7%A2" hreflang="yi" lang="yi" title="אבסטראקטע אלגעברע — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" hreflang="zh" lang="zh" title="抽象代数 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B8" hreflang="yue" lang="yue" title="抽象代數 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q159943#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Alg%C3%A8bre_g%C3%A9n%C3%A9rale" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a class="mw-disambig" href="/wiki/Alg%C3%A8bre_(homonymie)" title="Algèbre (homonymie)">Algèbre (homonymie)</a>.
+</p>
+</div></div>
+<p>L'<b><a href="/wiki/Alg%C3%A8bre" title="Algèbre">algèbre</a> générale</b>, ou <b>algèbre abstraite</b>, est la branche des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a> qui porte principalement sur l'étude des <a href="/wiki/Structure_alg%C3%A9brique" title="Structure algébrique">structures algébriques</a> et de leurs relations. L'appellation <i>algèbre générale</i> s'oppose à celle d'<i><a class="mw-redirect" href="/wiki/Alg%C3%A8bre_(math%C3%A9matiques_%C3%A9l%C3%A9mentaires)" title="Algèbre (mathématiques élémentaires)">algèbre élémentaire</a></i> ; cette dernière enseigne le <a href="/wiki/Calcul_alg%C3%A9brique" title="Calcul algébrique">calcul algébrique</a>, c'est-à-dire les règles de manipulation des <a class="mw-redirect" href="/wiki/%C3%89quation_alg%C3%A9brique" title="Équation algébrique">formules</a> et des <a class="mw-redirect" href="/wiki/Expressions_alg%C3%A9briques" title="Expressions algébriques">expressions algébriques</a>.
+</p><p>Historiquement, les structures algébriques sont apparues dans différents domaines des mathématiques, et n'y ont pas été étudiées séparément. C'est pourquoi l'algèbre générale possède beaucoup de connexions avec toutes les branches des mathématiques.
+</p><p>L'étude des structures algébriques peut être faite de manière abstraite, mais unifiée dans le cadre de l'<a href="/wiki/Alg%C3%A8bre_universelle" title="Algèbre universelle">algèbre universelle</a>.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Histoire">Histoire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=1" title="Modifier la section : Histoire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=1" title="Modifier la section : Histoire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Comme dans d'autres parties des mathématiques, des problèmes et des exemples concrets ont joué un rôle important dans le développement de l'algèbre abstraite. Jusqu'à la fin du <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle, beaucoup - ou plus - de ces problèmes étaient en quelque sorte liés à la théorie des <a class="mw-redirect" href="/wiki/%C3%89quation_alg%C3%A9brique" title="Équation algébrique">équations algébriques</a>. Les principaux thèmes sont les suivants:
+</p>
+<ul><li>Résolution de systèmes d'<a href="/wiki/%C3%89quation_lin%C3%A9aire" title="Équation linéaire">équations linéaires</a>, ce qui a conduit à l'<a href="/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="Algèbre linéaire">algèbre linéaire</a></li>
+<li>Tentatives de trouver des formules aux solutions d'<a href="/wiki/%C3%89quation_polynomiale" title="Équation polynomiale">équations polynomiales</a> générales de degré supérieur qui ont abouti à la découverte de <a href="/wiki/Groupe_de_Galois" title="Groupe de Galois">groupes</a> comme des manifestations abstraites de <a href="/wiki/Sym%C3%A9trie" title="Symétrie">symétrie</a></li>
+<li>Études arithmétiques des formes de degré quadratique supérieur et des <a href="/wiki/%C3%89quation_diophantienne" title="Équation diophantienne">équations diophantiennes</a>, qui ont produit directement les notions d'un <a href="/wiki/Anneau_(math%C3%A9matiques)" title="Anneau (mathématiques)">anneau</a> et <a class="mw-redirect" href="/wiki/Id%C3%A9al_(math%C3%A9matiques)" title="Idéal (mathématiques)">idéal</a>.</li></ul>
+<h3><span id="Alg.C3.A8bre_moderne"></span><span class="mw-headline" id="Algèbre_moderne">Algèbre moderne</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=2" title="Modifier la section : Algèbre moderne">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=2" title="Modifier la section : Algèbre moderne">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>La fin du <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle et le début du <abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle a connu un énorme changement dans la méthodologie des mathématiques. L'algèbre abstraite a émergé autour du début du <abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle, sous le nom d'<i>algèbre moderne</i>. Son étude faisait partie de l'entraînement pour plus de <a class="new" href="/w/index.php?title=Rigueur_intellectuelle&amp;action=edit&amp;redlink=1" title="Rigueur intellectuelle (page inexistante)">rigueur intellectuelle</a> en mathématiques. Les définitions officielles de certaines <a href="/wiki/Structure_alg%C3%A9brique" title="Structure algébrique">structures algébriques</a> ont émergé au <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle.
+</p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=3" title="Modifier la section : Applications">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=3" title="Modifier la section : Applications">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>En raison de sa généralité, l'algèbre abstraite est utilisée dans de nombreux domaines des mathématiques et de la science. Par exemple, la <a href="/wiki/Topologie_alg%C3%A9brique" title="Topologie algébrique">topologie algébrique</a> utilise des objets algébriques pour son étude. La <a href="/wiki/Th%C3%A9orie_alg%C3%A9brique_des_nombres" title="Théorie algébrique des nombres">théorie algébrique des nombres</a> étudie divers anneaux numériques qui généralisent l'ensemble des entiers. En utilisant la théorie des nombres algébriques, <a href="/wiki/Andrew_Wiles" title="Andrew Wiles">Andrew Wiles</a> a prouvé le <a href="/wiki/Dernier_th%C3%A9or%C3%A8me_de_Fermat" title="Dernier théorème de Fermat">dernier théorème de Fermat</a>.
+</p>
+<h2><span class="mw-headline" id="Bases">Bases</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=4" title="Modifier la section : Bases">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=4" title="Modifier la section : Bases">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Th%C3%A9orie_des_ensembles" title="Théorie des ensembles">Théorie des ensembles</a>
+<ul><li><a href="/wiki/Ensemble" title="Ensemble">Notion d'ensemble</a></li>
+<li><a class="mw-redirect" href="/wiki/Sous-ensemble" title="Sous-ensemble">Sous-ensemble</a></li>
+<li><a class="mw-redirect" href="/wiki/Op%C3%A9rations_sur_les_ensembles" title="Opérations sur les ensembles">Opérations sur les ensembles</a></li>
+<li><a href="/wiki/Produit_cart%C3%A9sien" title="Produit cartésien">Produit cartésien</a></li></ul></li>
+<li>Correspondances et relations
+<ul><li><a href="/wiki/Relation_binaire" title="Relation binaire">Relation binaire</a></li>
+<li><a class="mw-redirect" href="/wiki/Fonction_et_application" title="Fonction et application">Fonctions et applications</a></li></ul></li>
+<li><a href="/wiki/Loi_de_composition" title="Loi de composition">Loi de composition</a>
+<ul><li><a href="/wiki/Loi_de_composition_interne" title="Loi de composition interne">Loi interne</a></li></ul></li></ul>
+<h2><span id="Structures_alg.C3.A9briques"></span><span class="mw-headline" id="Structures_algébriques">Structures algébriques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=5" title="Modifier la section : Structures algébriques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=5" title="Modifier la section : Structures algébriques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Structure_alg%C3%A9brique" title="Structure algébrique">Structure algébrique</a>.</div></div>
+<ul><li><a class="mw-redirect" href="/wiki/Magma_(math%C3%A9matiques)" title="Magma (mathématiques)">Magma</a></li>
+<li><a href="/wiki/Demi-groupe" title="Demi-groupe">Demi-groupe</a> (ou semi-groupe)</li>
+<li><a href="/wiki/Quasigroupe" title="Quasigroupe">Quasigroupe</a></li>
+<li><a href="/wiki/Mono%C3%AFde" title="Monoïde">Monoïde</a></li>
+<li><a href="/wiki/Groupe_(math%C3%A9matiques)" title="Groupe (mathématiques)">Groupe</a></li>
+<li><a href="/wiki/Anneau_unitaire" title="Anneau unitaire">Anneau</a></li>
+<li><a href="/wiki/Module_sur_un_anneau" title="Module sur un anneau">Module</a></li>
+<li><a href="/wiki/Corps_(math%C3%A9matiques)" title="Corps (mathématiques)">Corps</a></li>
+<li><a href="/wiki/Corps_commutatif" title="Corps commutatif">Corps commutatif</a></li>
+<li><a href="/wiki/Espace_vectoriel" title="Espace vectoriel">Espace vectoriel</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="Algèbre linéaire">Algèbre linéaire</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_sur_un_anneau" title="Algèbre sur un anneau">Algèbre sur un anneau</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_sur_un_corps" title="Algèbre sur un corps">Algèbre sur un corps</a></li>
+<li><a href="/wiki/Op%C3%A9rade" title="Opérade">Opérade</a></li></ul>
+<h2><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;veaction=edit&amp;section=6" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;action=edit&amp;section=6" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/%C3%89variste_Galois" title="Évariste Galois">Évariste Galois</a> et <a href="/wiki/Niels_Henrik_Abel" title="Niels Henrik Abel">Niels Henrik Abel</a> (mathématiciens ayant fourni un travail majeur pour la construction de l'algèbre)</li>
+<li><a href="/wiki/Emmy_Noether" title="Emmy Noether">Emmy Noether</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_codes" title="Théorie des codes">Théorie des codes</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_groupes" title="Théorie des groupes">Théorie des groupes</a></li></ul>
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Domaines_des_math%C3%A9matiques" title="Modèle:Palette Domaines des mathématiques"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Domaines_des_math%C3%A9matiques&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Domaines des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a></div></th>
+</tr> <tr>
+<td class="navbox-list" colspan="2" style="text-align:center;;"><div class="liste-horizontale">
+<ul><li><a href="/wiki/Alg%C3%A8bre" title="Algèbre">Algèbre</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_commutative" title="Algèbre commutative">Algèbre commutative</a></li>
+<li><a href="/wiki/Homologie_et_cohomologie" title="Homologie et cohomologie">Algèbre homologique</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="Algèbre linéaire">Algèbre linéaire</a></li>
+<li><a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">Analyse</a></li>
+<li><a href="/wiki/Analyse_r%C3%A9elle" title="Analyse réelle">Analyse réelle</a></li>
+<li><a href="/wiki/Analyse_complexe" title="Analyse complexe">Analyse complexe</a></li>
+<li><a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">Analyse fonctionnelle</a></li>
+<li><a href="/wiki/Analyse_num%C3%A9rique" title="Analyse numérique">Analyse numérique</a></li>
+<li><a href="/wiki/Calculateur_quantique" title="Calculateur quantique">Calcul quantique</a></li>
+<li><a href="/wiki/Combinatoire" title="Combinatoire">Combinatoire</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">Géométrie</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_alg%C3%A9brique" title="Géométrie algébrique">Géométrie algébrique</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_diff%C3%A9rentielle" title="Géométrie différentielle">Géométrie différentielle</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_non_commutative" title="Géométrie non commutative">Géométrie non commutative</a></li>
+<li><a href="/wiki/Optimisation_(math%C3%A9matiques)" title="Optimisation (mathématiques)">Optimisation</a></li>
+<li><a href="/wiki/Physique_math%C3%A9matique" title="Physique mathématique">Physique mathématique</a></li>
+<li><a href="/wiki/Probabilit%C3%A9" title="Probabilité">Probabilités</a></li>
+<li><a href="/wiki/Statistique" title="Statistique">Statistiques</a></li>
+<li><a class="mw-redirect" href="/wiki/Syst%C3%A8mes_dynamiques" title="Systèmes dynamiques">Systèmes dynamiques</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">Théorie des nombres</a></li>
+<li><a href="/wiki/Th%C3%A9orie_de_Galois" title="Théorie de Galois">Théorie de Galois</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_groupes" title="Théorie des groupes">Théorie des groupes</a></li>
+<li><a href="/wiki/Topologie" title="Topologie">Topologie</a></li>
+<li><a href="/wiki/Topologie_alg%C3%A9brique" title="Topologie algébrique">Topologie algébrique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail de l’algèbre"><img alt="icône décorative" class="noviewer" data-file-height="210" data-file-width="210" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/24px-Arithmetic_symbols.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/36px-Arithmetic_symbols.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/48px-Arithmetic_symbols.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail:Algèbre">Portail de l’algèbre</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1354
+Cached time: 20221010215309
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.080 seconds
+Real time usage: 0.127 seconds
+Preprocessor visited node count: 1180/1000000
+Post‐expand include size: 15963/2097152 bytes
+Template argument size: 3683/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+Lua time usage: 0.024/10.000 seconds
+Lua memory usage: 1594717/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   97.179      1 -total
+ 46.50%   45.191      1 Modèle:Portail
+ 26.04%   25.305      1 Modèle:Voir_homonymes
+ 24.71%   24.016      1 Modèle:Méta_bandeau_de_note
+ 23.16%   22.505      1 Modèle:Méta_bandeau
+ 22.29%   21.658      1 Modèle:Catégorisation_badges
+ 14.45%   14.043      1 Modèle:Suivi_des_biographies
+ 12.74%   12.376      1 Modèle:Palette_Domaines_des_mathématiques
+ 10.97%   10.665      1 Modèle:Méta_palette_de_navigation
+  9.33%    9.064      5 Modèle:S-
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:9-0!canonical and timestamp 20221010215309 and revision id 185027644.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Algèbre_générale&amp;oldid=185027644">https://fr.wikipedia.org/w/index.php?title=Algèbre_générale&amp;oldid=185027644</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Alg%C3%A8bre_g%C3%A9n%C3%A9rale" title="Catégorie:Algèbre générale">Algèbre générale</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Portail:Alg%C3%A8bre/Articles_li%C3%A9s" title="Catégorie:Portail:Algèbre/Articles liés">Portail:Algèbre/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 28 juillet 2021 à 15:39.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Alg%C3%A8bre_g%C3%A9n%C3%A9rale&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.080","walltime":"0.127","ppvisitednodes":{"value":1180,"limit":1000000},"postexpandincludesize":{"value":15963,"limit":2097152},"templateargumentsize":{"value":3683,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%   97.179      1 -total"," 46.50%   45.191      1 Modèle:Portail"," 26.04%   25.305      1 Modèle:Voir_homonymes"," 24.71%   24.016      1 Modèle:Méta_bandeau_de_note"," 23.16%   22.505      1 Modèle:Méta_bandeau"," 22.29%   21.658      1 Modèle:Catégorisation_badges"," 14.45%   14.043      1 Modèle:Suivi_des_biographies"," 12.74%   12.376      1 Modèle:Palette_Domaines_des_mathématiques"," 10.97%   10.665      1 Modèle:Méta_palette_de_navigation","  9.33%    9.064      5 Modèle:S-"]},"scribunto":{"limitreport-timeusage":{"value":"0.024","limit":"10.000"},"limitreport-memusage":{"value":1594717,"limit":52428800}},"cachereport":{"origin":"mw1354","timestamp":"20221010215309","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Alg\u00e8bre g\u00e9n\u00e9rale","url":"https:\/\/fr.wikipedia.org\/wiki\/Alg%C3%A8bre_g%C3%A9n%C3%A9rale","sameAs":"http:\/\/www.wikidata.org\/entity\/Q159943","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q159943","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-02-20T20:11:08Z","dateModified":"2021-07-28T13:39:54Z","headline":"branche des math\u00e9matiques portant sur les structures alg\u00e9briques et leurs relations"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Alg\u00e8bre g\u00e9n\u00e9rale","url":"https:\/\/fr.wikipedia.org\/wiki\/Alg%C3%A8bre_g%C3%A9n%C3%A9rale","sameAs":"http:\/\/www.wikidata.org\/entity\/Q159943","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q159943","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2002-02-20T20:11:08Z","dateModified":"2021-07-28T13:39:54Z","headline":"branche des math\u00e9matiques portant sur les structures alg\u00e9briques et leurs relations"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":260,"wgHostname":"mw1354"});});</script>
+</body>
+</html>

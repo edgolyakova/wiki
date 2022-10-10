@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Fonction (mathématiques) — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"abc3fe38-a940-4b16-bfcf-e74be9a730ef","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Fonction_(mathématiques)","wgTitle":"Fonction (mathématiques)","wgCurRevisionId":190316899,"wgRevisionId":190316899,"wgArticleId":1325780,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Portail:Analyse/Articles liés","Projet:Mathématiques/Articles","Portail:Sciences/Articles liés","Analyse (mathématiques)","Objet mathématique","Fonction mathématique"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":
+"Fonction_(mathématiques)","wgRelevantArticleId":1325780,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q11348","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready",
+"site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch",
+"ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.page.gallery.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/1200px-Diagramme_de_fonction.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="750" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/800px-Diagramme_de_fonction.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="500" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/640px-Diagramme_de_fonction.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="400" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Fonction (mathématiques) — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Fonction_(math%C3%A9matiques)" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Fonction_(math%C3%A9matiques)" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Fonction_mathématiques rootpage-Fonction_mathématiques skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Fonction+%28math%C3%A9matiques%29" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Fonction+%28math%C3%A9matiques%29" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Fonction+%28math%C3%A9matiques%29" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Fonction_(math%C3%A9matiques)" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Fonction_(math%C3%A9matiques)" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;oldid=190316899" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Fonction_%28math%C3%A9matiques%29&amp;id=190316899&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11348" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Fonction+%28math%C3%A9matiques%29"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Fonction_%28math%C3%A9matiques%29&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Functions_(mathematics)" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Application_(math%C3%A9matiques)" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Vocabulaire_et_notations">
+<a class="sidebar-toc-link" href="#Vocabulaire_et_notations">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Vocabulaire et notations</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Vocabulaire_et_notations-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Étude">
+<a class="sidebar-toc-link" href="#Étude">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Étude</div>
+</a>
+<button aria-controls="toc-Étude-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Étude
+				</button>
+<ul class="sidebar-toc-list" id="toc-Étude-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Typologie">
+<a class="sidebar-toc-link" href="#Typologie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.1</span>Typologie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Typologie-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Représentation_graphique">
+<a class="sidebar-toc-link" href="#Représentation_graphique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.2</span>Représentation graphique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Représentation_graphique-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Modes_de_définition">
+<a class="sidebar-toc-link" href="#Modes_de_définition">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Modes de définition</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Modes_de_définition-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Analyse">
+<a class="sidebar-toc-link" href="#Analyse">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Analyse</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Analyse-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Image_directe_et_image_réciproque">
+<a class="sidebar-toc-link" href="#Image_directe_et_image_réciproque">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Image directe et image réciproque</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Image_directe_et_image_réciproque-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Historique_de_la_notion">
+<a class="sidebar-toc-link" href="#Historique_de_la_notion">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Historique de la notion</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Historique_de_la_notion-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.1</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.2</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Fonction (mathématiques)</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 114 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-114 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">114 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Funksie" hreflang="af" lang="af" title="Funksie — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Funktion_(Mathematik)" hreflang="gsw" lang="gsw" title="Funktion (Mathematik) — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8A%A0%E1%88%B5%E1%88%A8%E1%8A%AB%E1%89%A2" hreflang="am" lang="am" title="አስረካቢ — amharique"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Funci%C3%B3n_matematica" hreflang="an" lang="an" title="Función matematica — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AF%D8%A7%D9%84%D8%A9" hreflang="ar" lang="ar" title="دالة — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Funci%C3%B3n_matem%C3%A1tica" hreflang="ast" lang="ast" title="Función matemática — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Funksiya_(riyaziyyat)" hreflang="az" lang="az" title="Funksiya (riyaziyyat) — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="ba" lang="ba" title="Функция (математика) — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%8B%D1%8F_(%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0)" hreflang="be" lang="be" title="Функцыя (матэматыка) — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%8B%D1%8F_(%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0)" hreflang="be-tarask" lang="be-tarask" title="Функцыя (матэматыка) — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F" hreflang="bg" lang="bg" title="Функция — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%AB%E0%A4%82%E0%A4%95%E0%A5%8D%E0%A4%B6%E0%A4%A8_(%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4)" hreflang="bh" lang="bh" title="फंक्शन (गणित) — Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%85%E0%A6%AA%E0%A7%87%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%95_(%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4)" hreflang="bn" lang="bn" title="অপেক্ষক (গণিত) — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Funkcija_(matematika)" hreflang="bs" lang="bs" title="Funkcija (matematika) — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Funci%C3%B3" hreflang="ca" lang="ca" title="Funció — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D9%81%D8%A7%D9%86%DA%A9%D8%B4%D9%86_(%D9%85%D8%A7%D8%AA%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)" hreflang="ckb" lang="ckb" title="فانکشن (ماتماتیک) — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Funkce_(matematika)" hreflang="cs" lang="cs" title="Funkce (matematika) — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="cv" lang="cv" title="Функци (математика) — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Ffwythiant" hreflang="cy" lang="cy" title="Ffwythiant — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Funktion_(matematik)" hreflang="da" lang="da" title="Funktion (matematik) — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Funktion_(Mathematik)" hreflang="de" lang="de" title="Funktion (Mathematik) — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%A3%CF%85%CE%BD%CE%AC%CF%81%CF%84%CE%B7%CF%83%CE%B7" hreflang="el" lang="el" title="Συνάρτηση — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Function_(mathematics)" hreflang="en" lang="en" title="Function (mathematics) — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Funkcio_(matematiko)" hreflang="eo" lang="eo" title="Funkcio (matematiko) — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Funci%C3%B3n_(matem%C3%A1tica)" hreflang="es" lang="es" title="Función (matemática) — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Funktsioon_(matemaatika)" hreflang="et" lang="et" title="Funktsioon (matemaatika) — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Funtzio_(matematika)" hreflang="eu" lang="eu" title="Funtzio (matematika) — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AA%D8%A7%D8%A8%D8%B9_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="fa" lang="fa" title="تابع (ریاضیات) — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Funktio" hreflang="fi" lang="fi" title="Funktio — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fj mw-list-item"><a class="interlanguage-link-target" href="https://fj.wikipedia.org/wiki/Cakacaka_(fika)" hreflang="fj" lang="fj" title="Cakacaka (fika) — fidjien"><span>Na Vosa Vakaviti</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Funksj%C3%B3n" hreflang="fo" lang="fo" title="Funksjón — féroïen"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Funksioon" hreflang="frr" lang="frr" title="Funksioon — frison du Nord"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Feidhm_(matamaitic)" hreflang="ga" lang="ga" title="Feidhm (matamaitic) — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E5%87%BD%E6%95%B8" hreflang="gan" lang="gan" title="函數 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Fonksyon_(mat%C3%A9matik)" hreflang="gcr" lang="gcr" title="Fonksyon (matématik) — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Funci%C3%B3n" hreflang="gl" lang="gl" title="Función — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-hak mw-list-item"><a class="interlanguage-link-target" href="https://hak.wikipedia.org/wiki/H%C3%A0m-su" hreflang="hak" lang="hak" title="Hàm-su — hakka"><span>客家語/Hak-kâ-ngî</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%94" hreflang="he" lang="he" title="פונקציה — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%AB%E0%A4%B2%E0%A4%A8" hreflang="hi" lang="hi" title="फलन — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Funkcija_(matematika)" hreflang="hr" lang="hr" title="Funkcija (matematika) — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/F%C3%BCggv%C3%A9ny_(matematika)" hreflang="hu" lang="hu" title="Függvény (matematika) — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%96%D5%B8%D6%82%D5%B6%D5%AF%D6%81%D5%AB%D5%A1_(%D5%B4%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1)" hreflang="hy" lang="hy" title="Ֆունկցիա (մաթեմատիկա) — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Function_(mathematica)" hreflang="ia" lang="ia" title="Function (mathematica) — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Fungsi_(matematika)" hreflang="id" lang="id" title="Fungsi (matematika) — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Funciono" hreflang="io" lang="io" title="Funciono — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Fall_(st%C3%A6r%C3%B0fr%C3%A6%C3%B0i)" hreflang="is" lang="is" title="Fall (stærðfræði) — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Funzione_(matematica)" hreflang="it" lang="it" title="Funzione (matematica) — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-iu mw-list-item"><a class="interlanguage-link-target" href="https://iu.wikipedia.org/wiki/%E1%93%80%E1%93%B4%E1%90%85%E1%93%AF%E1%95%86%E1%93%82%E1%95%86%E1%94%AD%E1%91%A6_%E1%90%83%E1%93%9A%E1%92%8C%E1%96%95%E1%93%82%E1%96%83%E1%95%90%E1%93%82%E1%96%8F%E1%92%83" hreflang="iu" lang="iu" title="ᓀᓴᐅᓯᕆᓂᕆᔭᑦ ᐃᓚᒌᖕᓂᖃᕐᓂᖏᒃ — inuktitut"><span>ᐃᓄᒃᑎᑐᑦ/inuktitut</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E9%96%A2%E6%95%B0_(%E6%95%B0%E5%AD%A6)" hreflang="ja" lang="ja" title="関数 (数学) — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Fongshan_(matimatix)" hreflang="jam" lang="jam" title="Fongshan (matimatix) — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a class="interlanguage-link-target" href="https://jbo.wikipedia.org/wiki/fancu" hreflang="jbo" lang="jbo" title="fancu — lojban"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%A4%E1%83%A3%E1%83%9C%E1%83%A5%E1%83%AA%E1%83%98%E1%83%90_(%E1%83%9B%E1%83%90%E1%83%97%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90)" hreflang="ka" lang="ka" title="ფუნქცია (მათემატიკა) — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kab mw-list-item"><a class="interlanguage-link-target" href="https://kab.wikipedia.org/wiki/Tas%C9%A3ent_(tusnakt)" hreflang="kab" lang="kab" title="Tasɣent (tusnakt) — kabyle"><span>Taqbaylit</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/K%C9%A9lab%C9%A9m" hreflang="kbp" lang="kbp" title="Kɩlabɩm — Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="kk" lang="kk" title="Функция (математика) — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%ED%95%A8%EC%88%98" hreflang="ko" lang="ko" title="함수 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Functio" hreflang="la" lang="la" title="Functio — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Funktioun_(Mathematik)" hreflang="lb" lang="lb" title="Funktioun (Mathematik) — luxembourgeois"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Fonzion_(matematega)" hreflang="lmo" lang="lmo" title="Fonzion (matematega) — lombard"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a class="interlanguage-link-target" href="https://lo.wikipedia.org/wiki/%E0%BA%95%E0%BA%B3%E0%BA%A5%E0%BA%B2_(%E0%BA%84%E0%BA%B0%E0%BA%99%E0%BA%B4%E0%BA%94%E0%BA%AA%E0%BA%B2%E0%BA%94)" hreflang="lo" lang="lo" title="ຕຳລາ (ຄະນິດສາດ) — lao"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Funkcija_(matematika)" hreflang="lt" lang="lt" title="Funkcija (matematika) — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Funkcija" hreflang="lv" lang="lv" title="Funkcija — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%98%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="mk" lang="mk" title="Функција (математика) — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%AB%E0%B4%99%E0%B5%8D%E0%B4%B7%E0%B5%BB" hreflang="ml" lang="ml" title="ഫങ്ഷൻ — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA)" hreflang="mn" lang="mn" title="Функц (математик) — mongol"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%AB%E0%A4%B2_(%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4)" hreflang="mr" lang="mr" title="फल (गणित) — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Fungsi" hreflang="ms" lang="ms" title="Fungsi — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a class="interlanguage-link-target" href="https://mt.wikipedia.org/wiki/Funzjonijiet_(matematika)" hreflang="mt" lang="mt" title="Funzjonijiet (matematika) — maltais"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%96%E1%80%94%E1%80%BA%E1%80%9B%E1%80%BE%E1%80%84%E1%80%BA" hreflang="my" lang="my" title="ဖန်ရှင် — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Afbillen_(Mathematik)" hreflang="nds" lang="nds" title="Afbillen (Mathematik) — bas-allemand"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Functie_(wiskunde)" hreflang="nl" lang="nl" title="Functie (wiskunde) — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Matematisk_funksjon" hreflang="nn" lang="nn" title="Matematisk funksjon — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Funksjon_(matematikk)" hreflang="nb" lang="nb" title="Funksjon (matematikk) — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Aplicacion_(matematicas)" hreflang="oc" lang="oc" title="Aplicacion (matematicas) — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%AB%E0%A9%B0%E0%A8%95%E0%A8%B8%E0%A8%BC%E0%A8%A8_(%E0%A8%B9%E0%A8%BF%E0%A8%B8%E0%A8%BE%E0%A8%AC)" hreflang="pa" lang="pa" title="ਫੰਕਸ਼ਨ (ਹਿਸਾਬ) — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Funkcja" hreflang="pl" lang="pl" title="Funkcja — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Fonsion" hreflang="pms" lang="pms" title="Fonsion — piémontais"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%81%D9%86%DA%A9%D8%B4%D9%86" hreflang="pnb" lang="pnb" title="فنکشن — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_(matem%C3%A1tica)" hreflang="pt" lang="pt" title="Função (matemática) — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Kinraysuyu" hreflang="qu" lang="qu" title="Kinraysuyu — quechua"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Func%C8%9Bie" hreflang="ro" lang="ro" title="Funcție — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="ru" lang="ru" title="Функция (математика) — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F._%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_%D1%87%D1%8D%D1%80%D1%87%D0%B8%D1%82%D1%8D,_%D1%81%D1%83%D0%BE%D0%BB%D1%82%D0%B0%D0%BB%D0%B0%D1%80%D1%8B%D0%BD_%D1%82%D2%AF%D0%BC%D1%81%D1%8D%D1%8D%D0%BD%D1%8D" hreflang="sah" lang="sah" title="Функция. Функция чэрчитэ, суолталарын түмсээнэ — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Funzioni" hreflang="scn" lang="scn" title="Funzioni — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Function_(mathematics)" hreflang="sco" lang="sco" title="Function (mathematics) — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Funkcija" hreflang="sh" lang="sh" title="Funkcija — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Function_(mathematics)" hreflang="en-simple" lang="en-simple" title="Function (mathematics) — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Zobrazenie_(matematika)" hreflang="sk" lang="sk" title="Zobrazenie (matematika) — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Funkcija_(matematika)" hreflang="sl" lang="sl" title="Funkcija (matematika) — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Murimo_(Masvomhu)" hreflang="sn" lang="sn" title="Murimo (Masvomhu) — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%98%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="sr" lang="sr" title="Функција (математика) — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Fungsi_(matematika)" hreflang="su" lang="su" title="Fungsi (matematika) — soundanais"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Funktion" hreflang="sv" lang="sv" title="Funktion — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Namba_tegemezi" hreflang="sw" lang="sw" title="Namba tegemezi — swahili"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-szl mw-list-item"><a class="interlanguage-link-target" href="https://szl.wikipedia.org/wiki/Funkcyjo" hreflang="szl" lang="szl" title="Funkcyjo — silésien"><span>Ślůnski</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%9A%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%AA%E0%AF%81" hreflang="ta" lang="ta" title="சார்பு — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%9F%E0%B8%B1%E0%B8%87%E0%B8%81%E0%B9%8C%E0%B8%8A%E0%B8%B1%E0%B8%99_(%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C)" hreflang="th" lang="th" title="ฟังก์ชัน (คณิตศาสตร์) — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Punsiyon_(matematika)" hreflang="tl" lang="tl" title="Punsiyon (matematika) — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Fonksiyon" hreflang="tr" lang="tr" title="Fonksiyon — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="tt" lang="tt" title="Функция (математика) — tatar"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-udm mw-list-item"><a class="interlanguage-link-target" href="https://udm.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="udm" lang="udm" title="Функция (математика) — oudmourte"><span>Удмурт</span></a></li><li class="interlanguage-link interwiki-ug mw-list-item"><a class="interlanguage-link-target" href="https://ug.wikipedia.org/wiki/%D9%81%DB%87%D9%86%D9%83%D8%B3%D9%89%D9%8A%DB%95" hreflang="ug" lang="ug" title="فۇنكسىيە — ouïghour"><span>ئۇيغۇرچە / Uyghurche</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D1%96%D1%8F_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="uk" lang="uk" title="Функція (математика) — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%AA%D9%81%D8%A7%D8%B9%D9%84_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="ur" lang="ur" title="تفاعل (ریاضیات) — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Funksiya_(matematika)" hreflang="uz" lang="uz" title="Funksiya (matematika) — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/H%C3%A0m_s%E1%BB%91" hreflang="vi" lang="vi" title="Hàm số — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Funsiyon_(matematika)" hreflang="war" lang="war" title="Funsiyon (matematika) — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%87%BD%E6%95%B0" hreflang="wuu" lang="wuu" title="函数 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F" hreflang="xal" lang="xal" title="Функция — kalmouk"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A4%D7%95%D7%A0%D7%A7%D7%A6%D7%99%D7%A2" hreflang="yi" lang="yi" title="פונקציע — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E5%87%BD%E6%95%B0" hreflang="zh" lang="zh" title="函数 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E6%98%A0%E5%B0%84" hreflang="lzh" lang="lzh" title="映射 — Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/H%C3%A2m-s%C3%B2%CD%98" hreflang="nan" lang="nan" title="Hâm-sò͘ — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%87%BD%E6%95%B8" hreflang="yue" lang="yue" title="函數 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11348#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Fonction_(math%C3%A9matiques)" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Fonction_(math%C3%A9matiques)" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Fonction_(math%C3%A9matiques)"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Fonction_(math%C3%A9matiques)"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a class="mw-disambig" href="/wiki/Fonction" title="Fonction">Fonction</a>.
+</p>
+</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Diagramme_de_fonction.svg"><img alt="" class="thumbimage" data-file-height="320" data-file-width="512" decoding="async" height="138" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/220px-Diagramme_de_fonction.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/330px-Diagramme_de_fonction.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/91/Diagramme_de_fonction.svg/440px-Diagramme_de_fonction.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Diagramme_de_fonction.svg" title="Agrandir"></a></div>Diagramme de calcul pour la fonction <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\frac {2x-1}{x+3}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mi>x</mi>
+<mo>+</mo>
+<mn>3</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\frac {2x-1}{x+3}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto {\frac {2x-1}{x+3}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/367e1c84f662f638a8fc5e7243266add92284d1a" style="vertical-align: -2.005ex; width:12.275ex; height:5.343ex;"/></span></div></div></div>
+<p>En <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>, une <b>fonction</b> permet de définir un résultat (le plus souvent <a href="/wiki/Fonction_num%C3%A9rique" title="Fonction numérique">numérique</a>) pour chaque valeur d’un <a href="/wiki/Ensemble" title="Ensemble">ensemble</a> appelé <i>domaine</i>. Ce résultat peut être obtenu par une suite de <a class="mw-redirect" href="/wiki/Op%C3%A9ration_arithm%C3%A9tique" title="Opération arithmétique">calculs arithmétiques</a> ou par une liste de valeurs, notamment dans le cas de relevé de mesures physiques, ou encore par d’autres procédés comme les résolutions d’<a href="/wiki/%C3%89quation" title="Équation">équations</a> ou les passages à la <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limite</a>. Le calcul effectif du résultat ou son approximation repose éventuellement sur l’élaboration de <a href="/wiki/Routine_(informatique)" title="Routine (informatique)">fonction informatique</a>.
+</p><p>Dans l’enseignement scolaire, le terme « fonction » concerne spécifiquement les <a href="/wiki/Fonction_r%C3%A9elle_d%27une_variable_r%C3%A9elle" title="Fonction réelle d'une variable réelle">fonctions réelles d’une variable réelle</a>. De nombreuses <a href="/wiki/Liste_de_fonctions_num%C3%A9riques" title="Liste de fonctions numériques">fonctions dites usuelles</a> sont ainsi définies comme les <a href="/wiki/Fonction_affine" title="Fonction affine">fonctions affines</a>, la <a href="/wiki/Racine_carr%C3%A9e" title="Racine carrée">racine carrée</a> ou l’<a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">exponentielle</a>, et peuvent être combinées à l’aide des opérations arithmétiques, de la <a href="/wiki/Composition_de_fonctions" title="Composition de fonctions">composition</a> ou de la définition par morceaux.
+</p><p>Ces fonctions satisfont <a href="/wiki/Lexique_de_propri%C3%A9t%C3%A9s_de_fonctions" title="Lexique de propriétés de fonctions">diverses propriétés</a> portant sur la régularité, les variations, l’intégrabilité...
+</p><p>En <a href="/wiki/Th%C3%A9orie_des_ensembles" title="Théorie des ensembles">théorie des ensembles</a>, une fonction ou <a href="/wiki/Application_(math%C3%A9matiques)" title="Application (mathématiques)">application</a> est une <a href="/wiki/Relation_binaire" title="Relation binaire">relation</a> entre deux ensembles pour laquelle chaque élément du premier est en relation avec un unique élément du second<sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>. Parfois, on distingue la notion de fonction en affaiblissant la condition comme suit : chaque élément du premier ensemble est en relation avec <i>au plus</i> un élément du second. 
+</p><p>En <a href="/wiki/Th%C3%A9orie_des_types" title="Théorie des types">théorie des types</a>, une fonction est la description de la méthode pour obtenir le résultat à partir de ses paramètres.   Autrement dit une fonction est l'algorithme  qui permet de la calculer.
+</p><p>Le terme de fonction s'utilise parfois pour des extensions de la notion comme les <a href="/wiki/Espace_Lp" title="Espace Lp">classes de fonctions <i>p</i>-intégrables</a> ou les <a href="/wiki/Distribution_(math%C3%A9matiques)" title="Distribution (mathématiques)">distributions</a> telle la <a class="mw-redirect" href="/wiki/Fonction_de_Dirac" title="Fonction de Dirac">fonction de Dirac</a>.
+</p>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Articles détaillés : <a href="/wiki/Liste_de_fonctions_num%C3%A9riques" title="Liste de fonctions numériques">Liste de fonctions numériques</a> et <a href="/wiki/Lexique_de_propri%C3%A9t%C3%A9s_de_fonctions" title="Lexique de propriétés de fonctions">Lexique de propriétés de fonctions</a>.</div></div>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Vocabulaire_et_notations">Vocabulaire et notations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=1" title="Modifier la section : Vocabulaire et notations">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=1" title="Modifier la section : Vocabulaire et notations">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Par défaut, une fonction est souvent notée <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f}</annotation>
+</semantics>
+</math></span><img alt="f" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/132e57acb643253e7810ee9702d9581f159a1c61" style="vertical-align: -0.671ex; width:1.279ex; height:2.509ex;"/></span> ou <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span>, et si d'autres notations de fonctions sont nécessaires au sein d'un même raisonnement, on utilise en général les lettres suivantes dans l'alphabet latin, voire dans l'<a href="/wiki/Alphabet_grec" title="Alphabet grec">alphabet grec</a> en commençant par <a href="/wiki/Phi" title="Phi"><i>φ</i></a> ou <a href="/wiki/Psi_(lettre_grecque)" title="Psi (lettre grecque)"><i>ψ</i></a>.
+</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:auto;">
+<div style="border:1px solid #ccc; padding:0.5em; text-align:center; background-color:#fff;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(7)={\frac {2\times 7-1}{7+3}}={\frac {13}{10}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mn>7</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mo>×<!-- × --></mo>
+<mn>7</mn>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mn>7</mn>
+<mo>+</mo>
+<mn>3</mn>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>13</mn>
+<mn>10</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(7)={\frac {2\times 7-1}{7+3}}={\frac {13}{10}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(7)={\frac {2\times 7-1}{7+3}}={\frac {13}{10}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/14b997e067b8ca8e2eede997939fe10d30176bf5" style="vertical-align: -2.005ex; width:23.613ex; height:5.343ex;"/></span></div>
+<div class="thumbcaption">Calcul de la valeur en 7 de la fonction<br/> définie par l’expression <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(x)={\frac {2x-1}{x+3}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mi>x</mi>
+<mo>+</mo>
+<mn>3</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(x)={\frac {2x-1}{x+3}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(x)={\frac {2x-1}{x+3}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c3a2879b870d08f4a8acbd8dc0db7ba0284f12c8" style="vertical-align: -2.005ex; width:14.847ex; height:5.343ex;"/></span></div>
+</div>
+</div>
+<p>Une fonction est souvent définie par son <i><a href="/wiki/Expression_(math%C3%A9matiques)" title="Expression (mathématiques)">expression</a></i>, dépendant en général d’une ou plusieurs <i><a href="/wiki/Variable_(math%C3%A9matiques)" title="Variable (mathématiques)">variables</a></i>, le plus souvent <span class="texhtml mvar" style="font-style:italic;">x</span> ou <span class="texhtml mvar" style="font-style:italic;">t</span>. En remplaçant les variables par des valeurs explicites dans l’expression, on obtient une <i>valeur</i> de la fonction.
+</p><p>Dans le cadre de l’<a href="/wiki/Analyse_r%C3%A9elle" title="Analyse réelle">analyse réelle</a>, les fonctions ont des variables <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">réelles</a>, mais certaines valeurs réelles ne peuvent être employées dans l’expression et sont appelées <i>valeurs interdites</i>. C’est le cas par exemple de <a href="/wiki/Z%C3%A9ro" title="Zéro">zéro</a> pour la <a href="/wiki/Fonction_inverse" title="Fonction inverse">fonction inverse</a>, car on ne peut pas <a href="/wiki/Division" title="Division">diviser</a> par zéro. Par défaut, on considère souvent que la fonction est définie partout en dehors des valeurs interdites. Cependant, on peut aussi spécifier un <i><a class="mw-redirect" href="/wiki/Domaine_de_d%C3%A9finition" title="Domaine de définition">domaine de définition</a></i> qui rassemble toutes les valeurs possibles pour les variables (assimilé à l’<i><a class="mw-redirect" href="/wiki/Ensemble_de_d%C3%A9part" title="Ensemble de départ">ensemble de départ</a></i> ou <i>source</i> pour une <a href="/wiki/Application_(math%C3%A9matiques)" title="Application (mathématiques)">application</a>) et un <i><a href="/wiki/Ensemble_d%27arriv%C3%A9e" title="Ensemble d'arrivée">ensemble d'arrivée</a></i> (<i>but</i>) qui contient toutes les valeurs possibles de la fonction.
+</p>
+<div class="thumb tright">
+<div class="thumbinner" style="width:auto;">
+<div style="border:1px solid #ccc; padding:0.5em; text-align:center; background-color:#fff;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{array}{ccc}\mathbb {R} ^{*}&amp;\to &amp;\mathbb {R} \\x&amp;\mapsto &amp;{\frac {1}{x}}\end{array}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="center center center" columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+</mtd>
+<mtd>
+<mo stretchy="false">→<!-- → --></mo>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+<mtd>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>x</mi>
+</mfrac>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{array}{ccc}\mathbb {R} ^{*}&amp;\to &amp;\mathbb {R} \\x&amp;\mapsto &amp;{\frac {1}{x}}\end{array}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\begin{array}{ccc}\mathbb {R} ^{*}&amp;\to &amp;\mathbb {R} \\x&amp;\mapsto &amp;{\frac {1}{x}}\end{array}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3ab2a822e2853bf7bdf77a718c00073931489496" style="vertical-align: -2.838ex; width:12.229ex; height:6.843ex;"/></span></div>
+<div class="thumbcaption">Notation standard pour la <a href="/wiki/Fonction_inverse" title="Fonction inverse">fonction inverse</a>.</div>
+</div>
+</div>
+<p>Ces informations peuvent être résumées par un diagramme comme suit, où la flèche entre les ensembles source et but est une simple <a href="/wiki/Table_de_symboles_math%C3%A9matiques#Flèches" title="Table de symboles mathématiques"><i>flèche vers la droite</i> (→)</a>, tandis que celle entre la variable et l’expression est <a href="/wiki/Table_de_symboles_math%C3%A9matiques#Flèches" title="Table de symboles mathématiques"><i>munie d’un taquet</i> (↦)</a> :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{array}{ccc}\mathrm {source} &amp;\to &amp;\mathrm {but} \\\mathrm {variable(s)} &amp;\mapsto &amp;\mathrm {expression} \end{array}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="center center center" columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">s</mi>
+<mi mathvariant="normal">o</mi>
+<mi mathvariant="normal">u</mi>
+<mi mathvariant="normal">r</mi>
+<mi mathvariant="normal">c</mi>
+<mi mathvariant="normal">e</mi>
+</mrow>
+</mtd>
+<mtd>
+<mo stretchy="false">→<!-- → --></mo>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">b</mi>
+<mi mathvariant="normal">u</mi>
+<mi mathvariant="normal">t</mi>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">v</mi>
+<mi mathvariant="normal">a</mi>
+<mi mathvariant="normal">r</mi>
+<mi mathvariant="normal">i</mi>
+<mi mathvariant="normal">a</mi>
+<mi mathvariant="normal">b</mi>
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">e</mi>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">s</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mtd>
+<mtd>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">e</mi>
+<mi mathvariant="normal">x</mi>
+<mi mathvariant="normal">p</mi>
+<mi mathvariant="normal">r</mi>
+<mi mathvariant="normal">e</mi>
+<mi mathvariant="normal">s</mi>
+<mi mathvariant="normal">s</mi>
+<mi mathvariant="normal">i</mi>
+<mi mathvariant="normal">o</mi>
+<mi mathvariant="normal">n</mi>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{array}{ccc}\mathrm {source} &amp;\to &amp;\mathrm {but} \\\mathrm {variable(s)} &amp;\mapsto &amp;\mathrm {expression} \end{array}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\begin{array}{ccc}\mathrm {source} &amp;\to &amp;\mathrm {but} \\\mathrm {variable(s)} &amp;\mapsto &amp;\mathrm {expression} \end{array}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/11d9a1de5a41d38192dd53bf9f74f672bc404ff8" style="vertical-align: -2.505ex; width:28.959ex; height:6.176ex;"/></span></dd></dl>
+<p>ou, pour une fonction <span class="texhtml mvar" style="font-style:italic;">f</span> définie sur un ensemble <span class="texhtml mvar" style="font-style:italic;">E</span> à valeurs dans un ensemble <span class="texhtml mvar" style="font-style:italic;">F</span> :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{array}{ccc}E&amp;\to &amp;F\\x&amp;\mapsto &amp;f(x)\end{array}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="center center center" columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<mi>E</mi>
+</mtd>
+<mtd>
+<mo stretchy="false">→<!-- → --></mo>
+</mtd>
+<mtd>
+<mi>F</mi>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+<mtd>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+</mtd>
+<mtd>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{array}{ccc}E&amp;\to &amp;F\\x&amp;\mapsto &amp;f(x)\end{array}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\begin{array}{ccc}E&amp;\to &amp;F\\x&amp;\mapsto &amp;f(x)\end{array}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/44651e95504c51a5aee8c8bd84c34f8fcfd72ff3" style="vertical-align: -2.505ex; width:13.914ex; height:6.176ex;"/></span></dd></dl>
+<p>Une fonction peut être définie par plusieurs expressions valables sur des domaines <a href="/wiki/Ensembles_disjoints" title="Ensembles disjoints">disjoints</a>, comme la fonction <a href="/wiki/Valeur_absolue" title="Valeur absolue">valeur absolue</a> :
+<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto \left\{{\begin{array}{cl}x&amp;\mathrm {si} \ x\geq 0\\-x&amp;\mathrm {si} \ x&lt;0\end{array}}\right.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow>
+<mo>{</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="center left" columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">s</mi>
+<mi mathvariant="normal">i</mi>
+</mrow>
+<mtext> </mtext>
+<mi>x</mi>
+<mo>≥<!-- ≥ --></mo>
+<mn>0</mn>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mo>−<!-- − --></mo>
+<mi>x</mi>
+</mtd>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">s</mi>
+<mi mathvariant="normal">i</mi>
+</mrow>
+<mtext> </mtext>
+<mi>x</mi>
+<mo>&lt;</mo>
+<mn>0</mn>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<mo fence="true" stretchy="true" symmetric="true"></mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto \left\{{\begin{array}{cl}x&amp;\mathrm {si} \ x\geq 0\\-x&amp;\mathrm {si} \ x&lt;0\end{array}}\right.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto \left\{{\begin{array}{cl}x&amp;\mathrm {si} \ x\geq 0\\-x&amp;\mathrm {si} \ x&lt;0\end{array}}\right.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5a0733ad7c585bfca0325bcfee9c4b6009bdee99" style="vertical-align: -2.505ex; width:20.633ex; height:6.176ex;"/></span>
+</p><p>Le domaine de définition d’une fonction <span class="texhtml mvar" style="font-style:italic;">f</span> est classiquement noté <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\mathcal {D}}_{f}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">D</mi>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>f</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\mathcal {D}}_{f}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\mathcal {D}}_{f}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/61165a643dd538d5d9106bb0bb6ca8d0d3d9e15c" style="vertical-align: -1.005ex; width:2.928ex; height:2.843ex;"/></span>. L'<i><a href="/wiki/Image_d%27une_application" title="Image d'une application">ensemble image</a></i>, c'est-à-dire l'ensemble des valeurs possibles pour le résultat, est alors noté <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \operatorname {im} (f)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>im</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>f</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \operatorname {im} (f)}</annotation>
+</semantics>
+</math></span><img alt="\operatorname {im} (f)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d81272f637ebd155af124d31001570170a3d8112" style="vertical-align: -0.838ex; width:5.671ex; height:2.843ex;"/></span> ou <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f({\mathcal {D}}_{f})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">D</mi>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>f</mi>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f({\mathcal {D}}_{f})}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f({\mathcal {D}}_{f})}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dbd1a7a62e86c26602fc9365b49bf8d38b0ec831" style="vertical-align: -1.005ex; width:6.016ex; height:3.009ex;"/></span>, et par définition <a href="/wiki/Inclusion_(math%C3%A9matiques)" title="Inclusion (mathématiques)">inclus</a> dans l’ensemble but.
+Étant donné une valeur <span class="texhtml mvar" style="font-style:italic;">x</span> dans le domaine de définition, et <span class="texhtml mvar" style="font-style:italic;">y</span> un élément de l’ensemble but tel que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=f(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=f(x)}</annotation>
+</semantics>
+</math></span><img alt="y=f(x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2311a6a75c54b0ea085a381ba472c31d59321514" style="vertical-align: -0.838ex; width:8.672ex; height:2.843ex;"/></span>, on dit que <span class="texhtml mvar" style="font-style:italic;">y</span> est l’(unique) <i>image</i> de <span class="texhtml mvar" style="font-style:italic;">x</span> et que <span class="texhtml mvar" style="font-style:italic;">x</span> est un <i>antécédent</i> de <span class="texhtml mvar" style="font-style:italic;">y</span>. Par exemple, 9 est l'image de 3 par la <a href="/wiki/Fonction_carr%C3%A9" title="Fonction carré">fonction carré</a>, et 3 est donc un antécédent de 9 (mais ce n'est pas le seul, puisque −3 est aussi un antécédent de 9).
+</p>
+<h2><span id=".C3.89tude"></span><span class="mw-headline" id="Étude">Étude</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=2" title="Modifier la section : Étude">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=2" title="Modifier la section : Étude">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Typologie">Typologie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=3" title="Modifier la section : Typologie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=3" title="Modifier la section : Typologie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les méthodes d'analyse des fonctions diffèrent selon la nature de la variable et du résultat. On distingue notamment :
+</p>
+<ul><li>les <a href="/wiki/Fonction_r%C3%A9elle_d%27une_variable_r%C3%A9elle" title="Fonction réelle d'une variable réelle">fonctions réelles d’une variable réelle</a></li>
+<li>les <a href="/wiki/Fonction_de_plusieurs_variables" title="Fonction de plusieurs variables">fonctions réelles de plusieurs variables réelles</a></li>
+<li>les fonctions <a href="/wiki/Fonction_holomorphe" title="Fonction holomorphe">holomorphes</a> et <a href="/wiki/Fonction_m%C3%A9romorphe" title="Fonction méromorphe">méromorphes</a> à variables et valeurs <a href="/wiki/Nombre_complexe" title="Nombre complexe">complexes</a></li>
+<li>les fonctions à variables et valeurs <a href="/wiki/Vecteur" title="Vecteur">vectorielles</a>, étudiées le plus souvent comme <a href="/wiki/Arc_param%C3%A9tr%C3%A9" title="Arc paramétré">arcs</a> et <a href="/wiki/Surface_(g%C3%A9om%C3%A9trie_analytique)" title="Surface (géométrie analytique)">surfaces paramétrées</a> ou comme <a class="mw-redirect" href="/wiki/Champ_vectoriel" title="Champ vectoriel">champ vectoriels</a></li>
+<li>les <a class="mw-redirect" href="/wiki/Fonction_diff%C3%A9rentiable" title="Fonction différentiable">fonctions différentiables</a> définies sur des <a href="/wiki/Vari%C3%A9t%C3%A9_diff%C3%A9rentielle" title="Variété différentielle">variétés différentielles</a> à valeurs numériques ou dans d’autres variétés</li>
+<li>les <a href="/wiki/Fonction_arithm%C3%A9tique" title="Fonction arithmétique">fonctions arithmétiques</a> à variable entière et à valeurs complexes</li>
+<li>les <a href="/wiki/Fonction_bool%C3%A9enne" title="Fonction booléenne">fonctions booléennes</a> à variables et valeurs dans l’<a href="/wiki/Alg%C3%A8bre_de_Boole_(structure)" title="Algèbre de Boole (structure)">algèbre de Boole</a></li>
+<li>les <a class="mw-redirect" href="/wiki/Fonction_al%C3%A9atoire" title="Fonction aléatoire">fonctions aléatoires</a> (ou processus stochastiques) dont les valeurs sont des <a href="/wiki/Variable_al%C3%A9atoire" title="Variable aléatoire">variables aléatoires</a></li>
+<li>les <a href="/wiki/Fonction_cardinale" title="Fonction cardinale">fonctions cardinales</a> dont les valeurs sont des <a href="/wiki/Nombre_cardinal" title="Nombre cardinal">nombres cardinaux</a></li></ul>
+<h3><span id="Repr.C3.A9sentation_graphique"></span><span class="mw-headline" id="Représentation_graphique">Représentation graphique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=4" title="Modifier la section : Représentation graphique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=4" title="Modifier la section : Représentation graphique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:312px;"><a class="image" href="/wiki/Fichier:Courbe-fonction.png"><img alt="" class="thumbimage" data-file-height="1516" data-file-width="2103" decoding="async" height="223" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Courbe-fonction.png/310px-Courbe-fonction.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Courbe-fonction.png/465px-Courbe-fonction.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Courbe-fonction.png/620px-Courbe-fonction.png 2x" width="310"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Courbe-fonction.png" title="Agrandir"></a></div>Représentation graphique d’une fonction <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f}</annotation>
+</semantics>
+</math></span><img alt="f" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/132e57acb643253e7810ee9702d9581f159a1c61" style="vertical-align: -0.671ex; width:1.279ex; height:2.509ex;"/></span> définie sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} \setminus \{-3\}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mo class="MJX-variant">∖<!-- ∖ --></mo>
+<mo fence="false" stretchy="false">{</mo>
+<mo>−<!-- − --></mo>
+<mn>3</mn>
+<mo fence="false" stretchy="false">}</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} \setminus \{-3\}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {R} \setminus \{-3\}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/efa12b0007cb53401219be16a7a8d3a7f25d3ff8" style="vertical-align: -0.838ex; width:9.168ex; height:2.843ex;"/></span> par :<center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(x)={\frac {2x-1}{x+3}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mi>x</mi>
+<mo>+</mo>
+<mn>3</mn>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(x)={\frac {2x-1}{x+3}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(x)={\frac {2x-1}{x+3}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c3a2879b870d08f4a8acbd8dc0db7ba0284f12c8" style="vertical-align: -2.005ex; width:14.847ex; height:5.343ex;"/></span>.</center> La courbe (bleue) est séparée en deux composantes par une droite verticale asymptote (rouge) d’équation <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x=-3}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mn>3</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x=-3}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x=-3}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a0f2b353db7dfc28d1d80b789ffc2e4a63c3a2a0" style="vertical-align: -0.505ex; width:7.399ex; height:2.343ex;"/></span>.</div></div></div>
+<p>L’ensemble des couples <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (x,f(x))}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (x,f(x))}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle (x,f(x))}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b21dd0c5c5815bc0516f679f631fd588ceb458d6" style="vertical-align: -0.838ex; width:8.59ex; height:2.843ex;"/></span> définit le <i>graphe</i> de la fonction. Dans le cas d’une <a href="/wiki/Fonction_r%C3%A9elle_d%27une_variable_r%C3%A9elle" title="Fonction réelle d'une variable réelle">fonction réelle d'une variable réelle</a>, ce graphe est inclus dans le plan <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{2}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} ^{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e150115ab9f63023215109595b76686a1ff890fd" style="vertical-align: -0.338ex; width:2.732ex; height:2.676ex;"/></span> et se présente comme une <a href="/wiki/Courbe" title="Courbe">courbe</a> appelée <a class="mw-redirect" href="/wiki/Courbe_repr%C3%A9sentative" title="Courbe représentative">courbe représentative</a>, sur laquelle on peut faire figurer les <a class="mw-redirect" href="/wiki/Extremum_local" title="Extremum local">extrema locaux</a>, certaines <a href="/wiki/Tangente_(g%C3%A9om%C3%A9trie)" title="Tangente (géométrie)">tangentes</a> ou demi-tangentes, les <a href="/wiki/Asymptote" title="Asymptote">asymptotes</a> et mettre en évidence les <a href="/wiki/Variations_d%27une_fonction" title="Variations d'une fonction">variations</a> et les zones de <a href="/wiki/Fonction_convexe" title="Fonction convexe">convexité</a> ou <a href="/wiki/Fonction_concave" title="Fonction concave">concavité</a>. Cette représentation permet aussi de visualiser les points d’annulation ou <a href="/wiki/Z%C3%A9ro_d%27une_fonction" title="Zéro d'une fonction">zéros</a> de la fonction, son <a href="/wiki/Signe_(arithm%C3%A9tique)" title="Signe (arithmétique)">signe</a>, et éventuellement une <a href="/wiki/Majorant_ou_minorant" title="Majorant ou minorant">majoration ou minoration</a>, sa <a href="/wiki/Parit%C3%A9_d%27une_fonction" title="Parité d'une fonction">parité</a> et sa <a href="/wiki/Fonction_p%C3%A9riodique" title="Fonction périodique">périodicité</a>.
+</p><p>Une fonction définie par une liste de valeurs numériques peut être représentée par un <a href="/wiki/Nuage_de_points" title="Nuage de points">nuage de points</a>, une <a href="/wiki/Ligne_polygonale" title="Ligne polygonale">courbe polygonale</a> ou un <a class="mw-redirect" href="/wiki/Diagramme_en_barres" title="Diagramme en barres">diagramme en barres</a>.
+</p><p>Pour une fonction réelle de deux variables, le graphe correspond en général à une <a href="/wiki/Surface_(g%C3%A9om%C3%A9trie_analytique)" title="Surface (géométrie analytique)">surface</a> dans l’espace <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{3}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{3}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} ^{3}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f936ddf584f8f3dd2a0ed08917001b7a404c10b5" style="vertical-align: -0.338ex; width:2.732ex; height:2.676ex;"/></span>, sur laquelle on peut faire apparaitre des <a href="/wiki/Ligne_de_niveau" title="Ligne de niveau">lignes de niveau</a>, en utilisant éventuellement un code couleur pour mettre en évidence le relief.
+</p><p>Pour une <a href="/wiki/Fonction_%C3%A0_valeurs_vectorielles" title="Fonction à valeurs vectorielles">fonction vectorielle</a> ou <a href="/wiki/Fonction_holomorphe" title="Fonction holomorphe">holomorphe</a>, on peut représenter un <a class="mw-redirect" href="/wiki/Champ_de_vecteur" title="Champ de vecteur">champ de vecteur</a> ou utiliser la <a href="/wiki/Coloration_de_r%C3%A9gions" title="Coloration de régions">coloration de régions</a>.
+</p>
+<ul class="gallery mw-gallery-traditional" style="text:align-center">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/Fichier:NotMap2.png" title="Diagramme sagittal d’une fonction partielle"><img alt="Diagramme sagittal d’une fonction partielle" data-file-height="200" data-file-width="200" decoding="async" height="120" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/NotMap2.png/120px-NotMap2.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/NotMap2.png/180px-NotMap2.png 1.5x, //upload.wikimedia.org/wikipedia/commons/8/85/NotMap2.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p><a href="/wiki/Diagramme_sagittal" title="Diagramme sagittal">Diagramme sagittal</a> d’une fonction partielle
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:39px auto;"><a class="image" href="/wiki/Fichier:Population_Density_1881-2011_of_Hunsonby.png" title="Courbe polygonale représentant une fonction définie par une série chronologique"><img alt="Courbe polygonale représentant une fonction définie par une série chronologique" data-file-height="289" data-file-width="480" decoding="async" height="72" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Population_Density_1881-2011_of_Hunsonby.png/120px-Population_Density_1881-2011_of_Hunsonby.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Population_Density_1881-2011_of_Hunsonby.png/180px-Population_Density_1881-2011_of_Hunsonby.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/af/Population_Density_1881-2011_of_Hunsonby.png/240px-Population_Density_1881-2011_of_Hunsonby.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>Courbe polygonale représentant une fonction définie par une série chronologique
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:26.5px auto;"><a class="image" href="/wiki/Fichier:Graph_of_function_of_2_variables.png" title="Surface représentative d’une fonction de 2 variables"><img alt="Surface représentative d’une fonction de 2 variables" data-file-height="447" data-file-width="551" decoding="async" height="97" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Graph_of_function_of_2_variables.png/120px-Graph_of_function_of_2_variables.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Graph_of_function_of_2_variables.png/180px-Graph_of_function_of_2_variables.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Graph_of_function_of_2_variables.png/240px-Graph_of_function_of_2_variables.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>Surface représentative d’une fonction de 2 variables
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:35px auto;"><a class="image" href="/wiki/Fichier:Champ_vecteurs_python_matplotlib.svg" title="Champ de vecteurs dans le plan"><img alt="Champ de vecteurs dans le plan" data-file-height="360" data-file-width="540" decoding="async" height="80" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Champ_vecteurs_python_matplotlib.svg/120px-Champ_vecteurs_python_matplotlib.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Champ_vecteurs_python_matplotlib.svg/180px-Champ_vecteurs_python_matplotlib.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Champ_vecteurs_python_matplotlib.svg/240px-Champ_vecteurs_python_matplotlib.svg.png 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>Champ de vecteurs dans le plan
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:15px auto;"><a class="image" href="/wiki/Fichier:Complex_zeta.jpg" title="Coloration de régions pour la fonction complexe zêta de Riemann"><img alt="Coloration de régions pour la fonction complexe zêta de Riemann" data-file-height="820" data-file-width="821" decoding="async" height="120" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Complex_zeta.jpg/120px-Complex_zeta.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Complex_zeta.jpg/180px-Complex_zeta.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Complex_zeta.jpg/240px-Complex_zeta.jpg 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>Coloration de régions pour la fonction complexe zêta de Riemann
+</p>
+</div>
+</div></li>
+</ul>
+<h2><span id="Modes_de_d.C3.A9finition"></span><span class="mw-headline" id="Modes_de_définition">Modes de définition</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=5" title="Modifier la section : Modes de définition">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=5" title="Modifier la section : Modes de définition">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:auto;">
+<div style="border:1px solid #ccc; padding:0.5em; text-align:center; background-color:#fff;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \exp(x)=\lim _{n\to +\infty }\left(1+{\frac {x}{n}}\right)^{n}=\sum _{n=0}^{+\infty }{\frac {x^{n}}{n!}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>exp</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<munder>
+<mo form="prefix" movablelimits="true">lim</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo stretchy="false">→<!-- → --></mo>
+<mo>+</mo>
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munder>
+<msup>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mn>1</mn>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>x</mi>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mrow>
+<mi>n</mi>
+<mo>!</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \exp(x)=\lim _{n\to +\infty }\left(1+{\frac {x}{n}}\right)^{n}=\sum _{n=0}^{+\infty }{\frac {x^{n}}{n!}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \exp(x)=\lim _{n\to +\infty }\left(1+{\frac {x}{n}}\right)^{n}=\sum _{n=0}^{+\infty }{\frac {x^{n}}{n!}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/897c4a1134e5813e670bb150150cd095dab6e15e" style="vertical-align: -3.005ex; width:36.18ex; height:7.176ex;"/></span>
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \exp(x)=y\iff \ln(y)=x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>exp</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>y</mi>
+<mspace width="thickmathspace"></mspace>
+<mo stretchy="false">⟺<!-- ⟺ --></mo>
+<mspace width="thickmathspace"></mspace>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \exp(x)=y\iff \ln(y)=x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \exp(x)=y\iff \ln(y)=x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e976e86d174f5f976b5a40ad0d80e42852084252" style="vertical-align: -0.838ex; width:27.175ex; height:2.843ex;"/></span>
+</p>
+<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left\{{\begin{array}{l}\exp '=\exp \\\exp(0)=1\end{array}}\right.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>{</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="left" columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<msup>
+<mi>exp</mi>
+<mo>′</mo>
+</msup>
+<mo>=</mo>
+<mi>exp</mi>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>exp</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>1</mn>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+<mo fence="true" stretchy="true" symmetric="true"></mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left\{{\begin{array}{l}\exp '=\exp \\\exp(0)=1\end{array}}\right.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \left\{{\begin{array}{l}\exp '=\exp \\\exp(0)=1\end{array}}\right.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e120f5b5546f1857a7ebb833e97689c62e424b62" style="vertical-align: -2.505ex; width:13.383ex; height:6.176ex;"/></span></div>
+<div class="thumbcaption">Quatre définitions équivalentes de la fonction exponentielle</div>
+</div>
+</div>
+<p>Une fonction peut être définie point par point par une expression explicite faisant intervenir d’autres <a href="/wiki/Fonction_de_r%C3%A9f%C3%A9rence" title="Fonction de référence">fonctions de référence</a>, des <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limites</a> ou d’autres procédés <a href="/wiki/Algorithme" title="Algorithme">algorithmiques</a>. Il peut s’agir par exemple de la <a class="mw-redirect" href="/wiki/Fonction_r%C3%A9ciproque" title="Fonction réciproque">réciproque</a> d’une autre fonction. Une même fonction peut d’ailleurs être définie par des formules différentes dont on montre l’égalité, comme dans le cas de la <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">fonction exponentielle</a>.
+</p><p>Une fonction peut aussi être définie globalement par une <a href="/wiki/%C3%89quation" title="Équation">équation</a> ou un <a href="/wiki/Syst%C3%A8me_d%27%C3%A9quations" title="Système d'équations">système d'équations</a>. En particulier, on définit une <a href="/wiki/Fonction_implicite" title="Fonction implicite">fonction implicite</a> si l’ensemble des solutions d’une équation à deux inconnues <span class="texhtml mvar" style="font-style:italic;">x</span> et <span class="texhtml mvar" style="font-style:italic;">y</span> peut correspondre au graphe d’une fonction, c’est-à-dire si pour toute valeur de <span class="texhtml mvar" style="font-style:italic;">x</span> il existe au plus une solution de la forme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (x,y)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (x,y)}</annotation>
+</semantics>
+</math></span><img alt="(x,y)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/41cf50e4a314ca8e2c30964baa8d26e5be7a9386" style="vertical-align: -0.838ex; width:5.328ex; height:2.843ex;"/></span>. Une fonction peut aussi être définie <i>de proche en proche</i> par une <a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équation différentielle</a> voire une <a href="/wiki/%C3%89quation_aux_d%C3%A9riv%C3%A9es_partielles" title="Équation aux dérivées partielles">équation aux dérivées partielles</a>, ou par <a href="/wiki/D%C3%A9finition_par_r%C3%A9currence" title="Définition par récurrence">récurrence</a> dans le cas d’une <a href="/wiki/Fonction_arithm%C3%A9tique" title="Fonction arithmétique">fonction arithmétique</a>.
+</p><p>On peut encore définir une fonction sur un ensemble <a href="/wiki/Partie_dense" title="Partie dense">dense</a> dans un autre et étendre la définition par <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continuité</a>. Ce procédé permet notamment de justifier l’existence de la <a href="/wiki/Courbe_de_Peano" title="Courbe de Peano">courbe de Peano</a> et d’autres fonctions <a href="/wiki/Fonction_continue_nulle_part_d%C3%A9rivable" title="Fonction continue nulle part dérivable">continues mais nulle part dérivable</a>. Il peut être utilisé aussi pour définir des fonctions sur un <a href="/wiki/Nombre_p-adique" title="Nombre p-adique">corps de nombres <span class="texhtml mvar" style="font-style:italic;">p</span>-adiques</a>.
+</p><p>Tous ces procédés de détermination mathématique s’accompagnent de problèmes de calcul effectif, qui s’étudient dans le cadre de l’<a href="/wiki/Analyse_num%C3%A9rique" title="Analyse numérique">analyse numérique</a>.
+</p>
+<h2><span class="mw-headline" id="Analyse">Analyse</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=6" title="Modifier la section : Analyse">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=6" title="Modifier la section : Analyse">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>L’<a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">analyse mathématique</a> s’entend le plus souvent dans l’étude d’une <a href="/wiki/Fonction_num%C3%A9rique" title="Fonction numérique">fonction numérique</a>, avec la recherche de son <a href="/wiki/Signe_(arithm%C3%A9tique)" title="Signe (arithmétique)">signe</a> et de ses <a href="/wiki/Variations_d%27une_fonction" title="Variations d'une fonction">variations</a>, la détermination d’éventuels <a href="/wiki/Majorant_ou_minorant" title="Majorant ou minorant">majorant ou minorant</a>, <a href="/wiki/Point_fixe" title="Point fixe">points fixes</a> et <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limites</a>, voire le calcul de son <a class="mw-redirect" href="/wiki/Int%C3%A9grale_(math%C3%A9matiques)" title="Intégrale (mathématiques)">intégrale</a>.
+</p><p>Plus généralement, on peut essayer de déterminer si une fonction est <i><a href="/wiki/Injection_(math%C3%A9matiques)" title="Injection (mathématiques)">injective</a></i>, c’est-à-dire si tout élément de l’ensemble d’arrivée a au plus un antécédent. Dans ce cas, on s’intéresse à la détermination de l’<a class="mw-redirect" href="/wiki/Ensemble_image" title="Ensemble image">ensemble image</a>, car la fonction admet alors une <a class="mw-redirect" href="/wiki/Fonction_r%C3%A9ciproque" title="Fonction réciproque">réciproque</a> de son ensemble image vers son ensemble de définition. La précision de l’ensemble de définition est ici cruciale, comme dans le cas de la fonction carré (qui est n’est pas injective si elle est définie sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>, mais qui l’est par <a href="/wiki/Application_(math%C3%A9matiques)#Opérations_sur_les_applications" title="Application (mathématiques)">restriction</a> à l’ensemble <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{+}}</annotation>
+</semantics>
+</math></span><img alt="\R^+" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/97dc5e850d079061c24290bac160c8d3b62ee139" style="vertical-align: -0.338ex; width:3.189ex; height:2.509ex;"/></span>) ou de la fonction exponentielle (injective en tant que fonction d’une variable réelle, mais pas en tant que fonction d’une variable complexe).
+</p><p>Pour une <a href="/wiki/Fonction_arithm%C3%A9tique" title="Fonction arithmétique">fonction arithmétique</a>, donc définie sur l’ensemble des <a href="/wiki/Entier_naturel" title="Entier naturel">entiers naturels</a>, on s’intéresse notamment aux relations entre l’image d’un produit et les images des facteurs (surtout lorsque ceux-ci sont <a href="/wiki/Nombres_premiers_entre_eux" title="Nombres premiers entre eux">premiers entre eux</a>).
+</p>
+<h2><span id="Image_directe_et_image_r.C3.A9ciproque"></span><span class="mw-headline" id="Image_directe_et_image_réciproque">Image directe et image réciproque</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=7" title="Modifier la section : Image directe et image réciproque">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=7" title="Modifier la section : Image directe et image réciproque">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Étant donné un <a class="mw-redirect" href="/wiki/Sous-ensemble" title="Sous-ensemble">sous-ensemble</a> <span class="texhtml mvar" style="font-style:italic;">A</span> de l’ensemble de départ, l’<i><a href="/wiki/Image_directe" title="Image directe">image directe</a></i> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(A)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(A)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(A)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2711c647e5397c7016ee21bbcea53565480bd5e1" style="vertical-align: -0.838ex; width:4.831ex; height:2.843ex;"/></span> est l’ensemble des images des éléments de <span class="texhtml mvar" style="font-style:italic;">A</span> par <span class="texhtml mvar" style="font-style:italic;">f</span>.
+Réciproquement, étant donnée un sous-ensemble <span class="texhtml mvar" style="font-style:italic;">B</span> de l’ensemble d’arrivée, sa <i>préimage</i> ou <i><a href="/wiki/Image_r%C3%A9ciproque" title="Image réciproque">image réciproque</a></i> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f^{-1}(B)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>f</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msup>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f^{-1}(B)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f^{-1}(B)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/572ddad8cd0a0758fb98e1c94c432dc2f7a06636" style="vertical-align: -0.838ex; width:7.227ex; height:3.176ex;"/></span> est l’ensemble des antécédents des éléments de <span class="texhtml mvar" style="font-style:italic;">B</span> par <span class="texhtml mvar" style="font-style:italic;">f</span>.
+</p><p>Ces notions permettent notamment d’exprimer la <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continuité</a> d’une fonction entre <a href="/wiki/Espace_topologique" title="Espace topologique">espaces topologiques</a>, de caractériser l’existence de <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limites</a>, de justifier qu’une fonction est <a href="/wiki/Fonction_mesurable" title="Fonction mesurable">mesurable</a> afin de pouvoir envisager son <a href="/wiki/Int%C3%A9gration_(math%C3%A9matiques)" title="Intégration (mathématiques)">intégrabilité</a>.
+</p>
+<h2><span class="mw-headline" id="Historique_de_la_notion">Historique de la notion</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=8" title="Modifier la section : Historique de la notion">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=8" title="Modifier la section : Historique de la notion">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La définition du concept de fonction a évolué depuis son introduction par <a class="mw-redirect" href="/wiki/Leibniz" title="Leibniz">Leibniz</a> à la fin du <abbr class="abbr" title="17ᵉ siècle"><span class="romain">XVII</span><sup style="font-size:72%">e</sup></abbr> siècle<sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>. Il s'agissait alors d'associer un objet à chaque point d'une <a href="/wiki/Courbe" title="Courbe">courbe</a>, par exemple la <a href="/wiki/Tangente_(g%C3%A9om%C3%A9trie)" title="Tangente (géométrie)">tangente</a>. En identifiant chaque point de la courbe avec son ordonnée, <a href="/wiki/Jean_Bernoulli" title="Jean Bernoulli">Jean Bernoulli</a> puis <a href="/wiki/Leonhard_Euler" title="Leonhard Euler">Euler</a> redéfinissent ensuite ce terme pour décrire une expression composée d'une <a href="/wiki/Variable_(math%C3%A9matiques)" title="Variable (mathématiques)">variable</a> et d'éventuels paramètres <a class="mw-disambig" href="/wiki/Constante" title="Constante">constants</a> (<a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">réels</a>). Les <a href="/wiki/Op%C3%A9ration_(math%C3%A9matiques)" title="Opération (mathématiques)">opérations</a> utilisées comprennent non seulement les opérations algébriques élémentaires, les <a href="/wiki/S%C3%A9rie_(math%C3%A9matiques)" title="Série (mathématiques)">séries</a> et <a href="/wiki/Produit_infini" title="Produit infini">produits infinis</a> mais aussi l'<a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">exponentielle</a>, le <a href="/wiki/Logarithme" title="Logarithme">logarithme</a> et les <a href="/wiki/Fonction_trigonom%C3%A9trique" title="Fonction trigonométrique">lignes trigonométriques</a>, considérés comme des opérations transcendantes.
+</p><p>Le lien entre l'expression d'une fonction et sa <a class="mw-redirect" href="/wiki/Courbe_repr%C3%A9sentative" title="Courbe représentative">courbe représentative</a> conduit Euler à élargir la notion en admettant des définitions <a href="/wiki/R%C3%A9gularit%C3%A9_par_morceaux" title="Régularité par morceaux">par morceaux</a> puis des courbes qui ne peuvent être obtenues par des expressions <a href="/wiki/Fonction_analytique" title="Fonction analytique">analytiques</a>. La condition de <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continuité</a> est formalisée par <a href="/wiki/Bernard_Bolzano" title="Bernard Bolzano">Bolzano</a> et <a href="/wiki/Augustin_Louis_Cauchy" title="Augustin Louis Cauchy">Cauchy</a> au début du <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle. En 1829, l'étude des <a href="/wiki/S%C3%A9rie_de_Fourier" title="Série de Fourier">séries de Fourier</a> conduit <a class="mw-redirect" href="/wiki/Dirichlet" title="Dirichlet">Dirichlet</a> à considérer des fonctions plus générales, telle que  l'<a class="mw-redirect" href="/wiki/Indicatrice" title="Indicatrice">indicatrice</a> des <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">rationnels</a><sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>.
+</p><p>Parallèlement, le domaine de la variable s'ouvre aux <a href="/wiki/Nombre_complexe" title="Nombre complexe">nombres complexes</a>. Au début du <abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle, les fonctions acceptent <a href="/wiki/Fonction_de_plusieurs_variables" title="Fonction de plusieurs variables">plusieurs variables</a>, puis peuvent être définies sur un <a href="/wiki/Ensemble" title="Ensemble">ensemble</a> quelconque. Sous l'impulsion de <a class="mw-redirect" href="/wiki/Maurice_Fr%C3%A9chet" title="Maurice Fréchet">Fréchet</a>, la valeur d'une fonction suit la même généralisation. La <a class="mw-redirect" href="/wiki/Th%C3%A9orie_de_l%27int%C3%A9gration" title="Théorie de l'intégration">théorie de l'intégration</a> et l'<a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">analyse fonctionnelle</a> vont plus loin en considérant des fonctions <a class="mw-redirect" href="/wiki/Presque_partout" title="Presque partout">presque partout</a> définies, nécessaires pour obtenir une structure d'<a href="/wiki/Espace_de_Banach" title="Espace de Banach">espace de Banach</a> sur les <a href="/wiki/Espace_Lp" title="Espace Lp">espaces L<sup><i>p</i></sup></a> de fonctions <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p}</annotation>
+</semantics>
+</math></span><img alt="p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/81eac1e205430d1f40810df36a0edffdc367af36" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.259ex; height:2.009ex;"/></span>-intégrables.
+</p><p>En <a href="/wiki/Analyse_complexe" title="Analyse complexe">analyse complexe</a>, le <a href="/wiki/Prolongement_analytique" title="Prolongement analytique">prolongement analytique</a> des <a href="/wiki/Fonction_holomorphe" title="Fonction holomorphe">fonctions holomorphes</a> entraîne la prise en compte de <a href="/wiki/Fonction_multivalu%C3%A9e" title="Fonction multivaluée">fonctions multivaluées</a> sur l'ensemble des complexes, réalisées formellement comme des fonctions classiques définies sur une <a href="/wiki/Surface_de_Riemann" title="Surface de Riemann">surface de Riemann</a>.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=9" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=9" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text">Définition que l'on trouve par exemple dans <span class="ouvrage" id="Halmos"><span class="ouvrage" id="Paul_Halmos"><a href="/wiki/Paul_Halmos" title="Paul Halmos">Paul <span class="nom_auteur">Halmos</span></a>, <cite class="italique">Introduction à la théorie des ensembles</cite> <small>[<a href="/wiki/R%C3%A9f%C3%A9rence:Introduction_%C3%A0_la_th%C3%A9orie_des_ensembles_(Halmos)" title="Référence:Introduction à la théorie des ensembles (Halmos)">détail des éditions</a>]</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Introduction+%C3%A0+la+th%C3%A9orie+des+ensembles&amp;rft.aulast=Halmos&amp;rft.aufirst=Paul&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AFonction+%28math%C3%A9matiques%29"></span></span></span>, <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 40</span>.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-2">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Papy1968"><span class="ouvrage" id="Georges_Papy1968"><a href="/wiki/Georges_Papy" title="Georges Papy">Georges Papy</a>, <cite class="italique">Mathématique moderne</cite>, <abbr class="abbr" title="volume">vol.</abbr> 1, <a href="/wiki/Didier_(maison_d%27%C3%A9dition)" title="Didier (maison d'édition)">Didier</a>, <time>1968</time>, <abbr class="abbr" title="page">p.</abbr> 315<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Math%C3%A9matique+moderne&amp;rft.pub=Didier&amp;rft.aulast=Papy&amp;rft.aufirst=Georges&amp;rft.date=1968&amp;rft.volume=1&amp;rft.pages=315&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AFonction+%28math%C3%A9matiques%29"></span></span></span> : <span class="citation">« Le mot de fonction a été introduit par Leibniz en 1694 »</span>.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Lejeune-Dirichlet1829">Lejeune-Dirichlet, « <cite style="font-style:normal;">Sur la convergence des séries trigonométriques qui servent à représenter une fonction arbitraire entre des limites données</cite> », <i><a href="/wiki/Journal_f%C3%BCr_die_reine_und_angewandte_Mathematik" title="Journal für die reine und angewandte Mathematik">J. reine angew. Math.</a></i>, <abbr class="abbr" title="volume">vol.</abbr> 4,‎ <time>1829</time>, <abbr class="abbr" title="pages">p.</abbr> 157-169 <small style="line-height:1em;">(<a class="external text" href="https://arxiv.org/pdf/0806.1294" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Sur+la+convergence+des+s%C3%A9ries+trigonom%C3%A9triques+qui+servent+%C3%A0+repr%C3%A9senter+une+fonction+arbitraire+entre+des+limites+donn%C3%A9es&amp;rft.jtitle=J.+reine+angew.+Math.&amp;rft.au=Lejeune-Dirichlet&amp;rft.date=1829&amp;rft.volume=4&amp;rft.pages=157-169&amp;rft_id=https%3A%2F%2Farxiv.org%2Fpdf%2F0806.1294&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AFonction+%28math%C3%A9matiques%29"></span></span>.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-4">↑</a> </span><span class="reference-text">Le nom de Dirichlet est associé à une définition plus moderne de fonction par <a href="/wiki/Hermann_Hankel" title="Hermann Hankel">Hermann Hankel</a>. Voir <span class="ouvrage" id="Hankel1882"><span class="ouvrage" id="H._Hankel1882"><abbr class="abbr indicateur-langue" title="Langue : allemand">(de)</abbr> H. Hankel, <cite class="italique" lang="de">Untersuchungen über die unendlich oft oscillirenden und unstetigen Functionen</cite>, <time>1882</time> <small style="line-height:1em;">(<a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k995758/f10.image" rel="nofollow">lire en ligne</a>)</small>, <abbr class="abbr" title="page">p.</abbr> 5<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Untersuchungen+%C3%BCber+die+unendlich+oft+oscillirenden+und+unstetigen+Functionen&amp;rft.aulast=Hankel&amp;rft.aufirst=H.&amp;rft.date=1882&amp;rft.pages=5&amp;rft_id=https%3A%2F%2Fgallica.bnf.fr%2Fark%3A%2F12148%2Fbpt6k995758%2Ff10.image&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AFonction+%28math%C3%A9matiques%29"></span></span></span>. Sur cette évolution de la notion de fonction, on pourra lire : Imre Lakatos, <i>Preuves et réfutations</i>, Hermann, 1984, <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 194</span>.</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=10" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=10" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=11" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=11" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Application_(math%C3%A9matiques)" title="Application (mathématiques)">Application (mathématiques)</a></li>
+<li><a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">Analyse (mathématiques)</a></li>
+<li><a href="/wiki/Fonction_num%C3%A9rique" title="Fonction numérique">Fonction numérique</a></li>
+<li><a href="/wiki/Fonction_r%C3%A9elle_d%27une_variable_r%C3%A9elle" title="Fonction réelle d'une variable réelle">Fonction réelle d'une variable réelle</a></li>
+<li><a href="/wiki/Fonction_de_plusieurs_variables" title="Fonction de plusieurs variables">Fonction de plusieurs variables</a></li>
+<li><a href="/wiki/Distribution_(math%C3%A9matiques)" title="Distribution (mathématiques)">Distribution (mathématiques)</a></li>
+<li><a href="/wiki/Fonction_(math%C3%A9matiques_%C3%A9l%C3%A9mentaires)" title="Fonction (mathématiques élémentaires)">Fonction (mathématiques élémentaires)</a></li>
+<li><i><a href="/wiki/Qu%27est-ce_qu%27une_fonction_%3F" title="Qu'est-ce qu'une fonction ?">Qu'est-ce qu'une fonction ?</a></i>, de <a href="/wiki/Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a></li></ul>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;veaction=edit&amp;section=12" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;action=edit&amp;section=12" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Christian_Houzel" title="Christian Houzel">Christian Houzel</a>, « Fonction (notion de) », <i>Dictionnaire des mathématiques – algèbre, analyse, géométrie</i>, <a href="/wiki/Encyclop%C3%A6dia_Universalis" title="Encyclopædia Universalis">Encyclopædia Universalis</a> et Albin Michel, Paris, 1997.</li>
+<li><a href="/wiki/Stella_Baruk" title="Stella Baruk">Stella Baruk</a>, « Fonction », <i>Dictionnaire des mathématiques élémentaires</i>, Éditions du Seuil, 1995.</li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles" title="Modèle:Palette Fonctions mathématiques usuelles"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a class="mw-selflink selflink">Fonctions mathématiques usuelles</a></div></th>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_alg%C3%A9brique" title="Fonction algébrique">Fonction algébrique</a> <a href="/wiki/Fonction_rationnelle" title="Fonction rationnelle">rationnelle</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_polynomiale" title="Fonction polynomiale">Fonction polynomiale</a></li>
+<li><a href="/wiki/Fraction_rationnelle" title="Fraction rationnelle">Fonction fractionnaire</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px">Fonction algébrique irrationnelle</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_puissance" title="Fonction puissance">Fonction puissance</a> / <a href="/wiki/Racine_d%27un_nombre" title="Racine d'un nombre">Fonction racine</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_transcendante" title="Fonction transcendante">Fonction transcendante</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Logarithme" title="Logarithme">Fonction logarithmique</a> / <a href="/wiki/Exponentielle_de_base_a" title="Exponentielle de base a">Fonction exponentielle de base a</a>
+<ul><li><a href="/wiki/Logarithme_naturel" title="Logarithme naturel">Fonction logarithme naturel</a> / <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">Fonction exponentielle</a></li></ul></li>
+<li><a href="/wiki/Fonction_trigonom%C3%A9trique" title="Fonction trigonométrique">Fonction circulaire</a> / <a href="/wiki/Fonction_circulaire_r%C3%A9ciproque" title="Fonction circulaire réciproque">Fonction circulaire réciproque</a></li>
+<li><a href="/wiki/Fonction_hyperbolique" title="Fonction hyperbolique">Fonction hyperbolique</a> / <a class="mw-redirect" href="/wiki/Fonction_hyperbolique_r%C3%A9ciproque" title="Fonction hyperbolique réciproque">Fonction hyperbolique réciproque</a></li>
+<li><a href="/wiki/Fonction_elliptique" title="Fonction elliptique">Fonction elliptique</a> / <a href="/wiki/Int%C3%A9grale_elliptique" title="Intégrale elliptique">Fonction intégrale elliptique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Analyse" title="Portail de l'analyse"><img alt="icône décorative" class="noviewer" data-file-height="400" data-file-width="400" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/24px-Nuvola_apps_kmplot.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/36px-Nuvola_apps_kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/48px-Nuvola_apps_kmplot.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Analyse" title="Portail:Analyse">Portail de l'analyse</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1416
+Cached time: 20221010184324
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.190 seconds
+Real time usage: 0.297 seconds
+Preprocessor visited node count: 1850/1000000
+Post‐expand include size: 31270/2097152 bytes
+Template argument size: 4411/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11249/5000000 bytes
+Lua time usage: 0.060/10.000 seconds
+Lua memory usage: 3739431/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  181.415      1 -total
+ 39.82%   72.231      1 Modèle:Références
+ 26.32%   47.752      3 Modèle:Ouvrage
+ 24.59%   44.617      1 Modèle:Halmos65
+ 21.50%   39.012      1 Modèle:Portail
+ 14.34%   26.012      1 Modèle:Voir_homonymes
+ 13.44%   24.376      1 Modèle:Méta_bandeau_de_note
+ 12.41%   22.510      1 Modèle:Méta_bandeau
+ 10.83%   19.639      1 Modèle:Catégorisation_badges
+  7.12%   12.908      1 Modèle:Palette
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:1325780-0!canonical and timestamp 20221010184324 and revision id 190316899.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Fonction_(mathématiques)&amp;oldid=190316899">https://fr.wikipedia.org/w/index.php?title=Fonction_(mathématiques)&amp;oldid=190316899</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Analyse_(math%C3%A9matiques)" title="Catégorie:Analyse (mathématiques)">Analyse (mathématiques)</a></li><li><a href="/wiki/Cat%C3%A9gorie:Objet_math%C3%A9matique" title="Catégorie:Objet mathématique">Objet mathématique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Fonction_math%C3%A9matique" title="Catégorie:Fonction mathématique">Fonction mathématique</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Portail:Analyse/Articles_li%C3%A9s" title="Catégorie:Portail:Analyse/Articles liés">Portail:Analyse/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 28 janvier 2022 à 16:32.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Fonction_(math%C3%A9matiques)" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Fonction_(math%C3%A9matiques)&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.190","walltime":"0.297","ppvisitednodes":{"value":1850,"limit":1000000},"postexpandincludesize":{"value":31270,"limit":2097152},"templateargumentsize":{"value":4411,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11249,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  181.415      1 -total"," 39.82%   72.231      1 Modèle:Références"," 26.32%   47.752      3 Modèle:Ouvrage"," 24.59%   44.617      1 Modèle:Halmos65"," 21.50%   39.012      1 Modèle:Portail"," 14.34%   26.012      1 Modèle:Voir_homonymes"," 13.44%   24.376      1 Modèle:Méta_bandeau_de_note"," 12.41%   22.510      1 Modèle:Méta_bandeau"," 10.83%   19.639      1 Modèle:Catégorisation_badges","  7.12%   12.908      1 Modèle:Palette"]},"scribunto":{"limitreport-timeusage":{"value":"0.060","limit":"10.000"},"limitreport-memusage":{"value":3739431,"limit":52428800}},"cachereport":{"origin":"mw1416","timestamp":"20221010184324","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Fonction (math\u00e9matiques)","url":"https:\/\/fr.wikipedia.org\/wiki\/Fonction_(math%C3%A9matiques)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11348","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11348","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-08T21:32:42Z","dateModified":"2022-01-28T14:32:49Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/91\/Diagramme_de_fonction.svg","headline":"relation entre plusieurs ensembles pour laquelle chaque \u00e9l\u00e9ment du premier est en relation avec un et un seul \u00e9l\u00e9ment du second"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Fonction (math\u00e9matiques)","url":"https:\/\/fr.wikipedia.org\/wiki\/Fonction_(math%C3%A9matiques)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11348","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11348","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2007-02-08T21:32:42Z","dateModified":"2022-01-28T14:32:49Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/91\/Diagramme_de_fonction.svg","headline":"relation entre plusieurs ensembles pour laquelle chaque \u00e9l\u00e9ment du premier est en relation avec un et un seul \u00e9l\u00e9ment du second"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":420,"wgHostname":"mw1416"});});</script>
+</body>
+</html>

@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Mécanique newtonienne — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"eb4bd8e7-fd8b-4e9d-85dc-7d02f94d292c","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Mécanique_newtonienne","wgTitle":"Mécanique newtonienne","wgCurRevisionId":197177076,"wgRevisionId":197177076,"wgArticleId":14363,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Article contenant un appel à traduction en anglais","Page utilisant un modèle Bases inactif","Page utilisant P1417","Page utilisant P7982","Page utilisant P4342","Page pointant vers des bases externes",
+"Page pointant vers des dictionnaires ou encyclopédies généralistes","Article de Wikipédia avec notice d'autorité","Portail:Génie mécanique/Articles liés","Portail:Technologies/Articles liés","Portail:Sciences/Articles liés","Portail:Physique/Articles liés","Article de qualité en hébreu","Mécanique classique","Théorie scientifique","Théorie des mécanismes"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Mécanique_newtonienne","wgRelevantArticleId":14363,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q11397","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc",
+"skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Mécanique newtonienne — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/M%C3%A9canique_newtonienne" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/M%C3%A9canique_newtonienne" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Mécanique_newtonienne rootpage-Mécanique_newtonienne skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=M%C3%A9canique+newtonienne" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=M%C3%A9canique+newtonienne" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=M%C3%A9canique+newtonienne" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/M%C3%A9canique_newtonienne" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/M%C3%A9canique_newtonienne" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;oldid=197177076" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=M%C3%A9canique_newtonienne&amp;id=197177076&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11397" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=M%C3%A9canique+newtonienne"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=M%C3%A9canique_newtonienne&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Classical_mechanics" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/D%C3%A9partement:M%C3%A9canique_classique" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Histoire">
+<a class="sidebar-toc-link" href="#Histoire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Histoire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Histoire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Classification">
+<a class="sidebar-toc-link" href="#Classification">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Classification</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Classification-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Notes et références</div>
+</a>
+<button aria-controls="toc-Notes_et_références-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Notes et références
+				</button>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Source">
+<a class="sidebar-toc-link" href="#Source">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.1</span>Source</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Source-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.1</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Liens_externes">
+<a class="sidebar-toc-link" href="#Liens_externes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.2</span>Liens externes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Liens_externes-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Mécanique newtonienne</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 106 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-106 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">106 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Klassieke_meganika" hreflang="af" lang="af" title="Klassieke meganika — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Klassische_Mechanik" hreflang="gsw" lang="gsw" title="Klassische Mechanik — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Mecanica_clasica" hreflang="an" lang="an" title="Mecanica clasica — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%85%D9%8A%D9%83%D8%A7%D9%86%D9%8A%D9%83%D8%A7_%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D8%A9" hreflang="ar" lang="ar" title="ميكانيكا كلاسيكية — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a class="interlanguage-link-target" href="https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D9%8A%D9%83%D8%A7%D9%86%D9%8A%D9%83%D8%A7_%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%B3%D9%8A%D9%83%D9%8A%D9%87" hreflang="arz" lang="arz" title="الميكانيكا الكلاسيكيه — arabe égyptien"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%A7%E0%A7%8D%E0%A7%B0%E0%A7%81%E0%A6%AA%E0%A6%A6%E0%A7%80_%E0%A6%AC%E0%A6%B2%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8" hreflang="as" lang="as" title="ধ্ৰুপদী বলবিজ্ঞান — assamais"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Mec%C3%A1nica_cl%C3%A1sica" hreflang="ast" lang="ast" title="Mecánica clásica — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Klassik_mexanika" hreflang="az" lang="az" title="Klassik mexanika — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9_%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9" hreflang="azb" lang="azb" title="کلاسیک مکانیک — South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="ba" lang="ba" title="Классик механика — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%96%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0" hreflang="be" lang="be" title="Класічная механіка — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%BB%D1%8F%D1%81%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D0%BC%D1%8D%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Клясычная мэханіка — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="bg" lang="bg" title="Класическа механика — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%95%E0%A5%8D%E0%A4%B2%E0%A4%BE%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%B2_%E0%A4%AE%E0%A5%88%E0%A4%95%E0%A5%87%E0%A4%A8%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B8" hreflang="bh" lang="bh" title="क्लासिकल मैकेनिक्स — Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A6%BF%E0%A6%B0%E0%A6%BE%E0%A6%AF%E0%A6%BC%E0%A6%A4_%E0%A6%AC%E0%A6%B2%E0%A6%AC%E0%A6%BF%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%A8" hreflang="bn" lang="bn" title="চিরায়ত বলবিজ্ঞান — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Klasi%C4%8Dna_mehanika" hreflang="bs" lang="bs" title="Klasična mehanika — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D2%BA%D1%83%D0%BD%D0%B3%D0%B0%D0%B4%D0%B0%D0%B3_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="bxr" lang="bxr" title="Һунгадаг механика — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Mec%C3%A0nica_cl%C3%A0ssica" hreflang="ca" lang="ca" title="Mecànica clàssica — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a class="interlanguage-link-target" href="https://ce.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0%D0%BD_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="ce" lang="ce" title="Классикан механика — tchétchène"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D9%85%DB%8C%DA%A9%D8%A7%D9%86%DB%8C%DA%A9%DB%8C_%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9" hreflang="ckb" lang="ckb" title="میکانیکی کلاسیک — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Klasick%C3%A1_mechanika" hreflang="cs" lang="cs" title="Klasická mechanika — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%C4%83%D0%BB%D0%BB%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="cv" lang="cv" title="Классикăлла механика — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Mecaneg_glasurol" hreflang="cy" lang="cy" title="Mecaneg glasurol — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Klassisk_mekanik" hreflang="da" lang="da" title="Klassisk mekanik — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Klassische_Mechanik" hreflang="de" lang="de" title="Klassische Mechanik — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9A%CE%BB%CE%B1%CF%83%CE%B9%CE%BA%CE%AE_%CE%BC%CE%B7%CF%87%CE%B1%CE%BD%CE%B9%CE%BA%CE%AE" hreflang="el" lang="el" title="Κλασική μηχανική — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Classical_mechanics" hreflang="en" lang="en" title="Classical mechanics — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Klasika_mekaniko" hreflang="eo" lang="eo" title="Klasika mekaniko — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Mec%C3%A1nica_cl%C3%A1sica" hreflang="es" lang="es" title="Mecánica clásica — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Klassikaline_mehaanika" hreflang="et" lang="et" title="Klassikaline mehaanika — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Mekanika_klasiko" hreflang="eu" lang="eu" title="Mekanika klasiko — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9_%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9" hreflang="fa" lang="fa" title="مکانیک کلاسیک — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Klassinen_mekaniikka" hreflang="fi" lang="fi" title="Klassinen mekaniikka — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Meicnic_Newton" hreflang="ga" lang="ga" title="Meicnic Newton — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/M%C3%A9kanik_newtonyenn" hreflang="gcr" lang="gcr" title="Mékanik newtonyenn — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Mec%C3%A1nica_cl%C3%A1sica" hreflang="gl" lang="gl" title="Mecánica clásica — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%A0%D7%99%D7%A7%D7%94_%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%AA" hreflang="he" lang="he" title="מכניקה קלאסית — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%9A%E0%A4%BF%E0%A4%B0%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%A4_%E0%A4%AF%E0%A4%BE%E0%A4%82%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%80" hreflang="hi" lang="hi" title="चिरसम्मत यांत्रिकी — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Classical_mechanics" hreflang="hif" lang="hif" title="Classical mechanics — hindi fidjien"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Klasi%C4%8Dna_mehanika" hreflang="hr" lang="hr" title="Klasična mehanika — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Klasszikus_mechanika" hreflang="hu" lang="hu" title="Klasszikus mechanika — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B4%D5%A1%D5%BD%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B4%D5%A5%D5%AD%D5%A1%D5%B6%D5%AB%D5%AF%D5%A1" hreflang="hy" lang="hy" title="Դասական մեխանիկա — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Mechanica_classic" hreflang="ia" lang="ia" title="Mechanica classic — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Mekanika_klasik" hreflang="id" lang="id" title="Mekanika klasik — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ie mw-list-item"><a class="interlanguage-link-target" href="https://ie.wikipedia.org/wiki/Mecanica_classic" hreflang="ie" lang="ie" title="Mecanica classic — interlingue"><span>Interlingue</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Klasika_mekaniko" hreflang="io" lang="io" title="Klasika mekaniko — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/S%C3%ADgild_aflfr%C3%A6%C3%B0i" hreflang="is" lang="is" title="Sígild aflfræði — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Meccanica_classica" hreflang="it" lang="it" title="Meccanica classica — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%8F%A4%E5%85%B8%E5%8A%9B%E5%AD%A6" hreflang="ja" lang="ja" title="古典力学 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Klasikal_mikianix" hreflang="jam" lang="jam" title="Klasikal mikianix — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%9A%E1%83%90%E1%83%A1%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%9B%E1%83%94%E1%83%A5%E1%83%90%E1%83%9C%E1%83%98%E1%83%99%E1%83%90" hreflang="ka" lang="ka" title="კლასიკური მექანიკა — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D0%B0%D0%BB%D1%8B%D2%9B_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="kk" lang="kk" title="Классикалық механика — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EA%B3%A0%EC%A0%84%EC%97%AD%ED%95%99" hreflang="ko" lang="ko" title="고전역학 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Mechanica_Newtoniana" hreflang="la" lang="la" title="Mechanica Newtoniana — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Mecanica_clasica" hreflang="lfn" lang="lfn" title="Mecanica clasica — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Mecanega_classega" hreflang="lmo" lang="lmo" title="Mecanega classega — lombard"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Klasikin%C4%97_mechanika" hreflang="lt" lang="lt" title="Klasikinė mechanika — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Klasisk%C4%81_meh%C4%81nika" hreflang="lv" lang="lv" title="Klasiskā mehānika — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-map-bms mw-list-item"><a class="interlanguage-link-target" href="https://map-bms.wikipedia.org/wiki/Mekanika_klasik" hreflang="jv-x-bms" lang="jv-x-bms" title="Mekanika klasik — Basa Banyumasan"><span>Basa Banyumasan</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="mk" lang="mk" title="Класична механика — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%89%E0%B4%A6%E0%B4%BE%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%AC%E0%B4%B2%E0%B4%A4%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%82" hreflang="ml" lang="ml" title="ഉദാത്തബലതന്ത്രം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A1%D0%BE%D0%BD%D0%B3%D0%BE%D0%B4%D0%BE%D0%B3_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA" hreflang="mn" lang="mn" title="Сонгодог механик — mongol"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%9C%E0%A4%BE%E0%A4%A4_%E0%A4%AF%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%95%E0%A5%80" hreflang="mr" lang="mr" title="अभिजात यामिकी — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Mekanik_klasik" hreflang="ms" lang="ms" title="Mekanik klasik — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a class="interlanguage-link-target" href="https://mt.wikipedia.org/wiki/Mekkanika_klassika" hreflang="mt" lang="mt" title="Mekkanika klassika — maltais"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%82%E1%80%94%E1%80%B9%E1%80%91%E1%80%9D%E1%80%84%E1%80%BA_%E1%80%99%E1%80%80%E1%80%B9%E1%80%80%E1%80%84%E1%80%BA%E1%80%B8%E1%80%94%E1%80%85%E1%80%BA" hreflang="my" lang="my" title="ဂန္ထဝင် မက္ကင်းနစ် — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Klassieke_mechanica" hreflang="nl" lang="nl" title="Klassieke mechanica — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Klassisk_mekanikk" hreflang="nn" lang="nn" title="Klassisk mekanikk — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Klassisk_mekanikk" hreflang="nb" lang="nb" title="Klassisk mekanikk — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Mecanica_classica" hreflang="oc" lang="oc" title="Mecanica classica — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%9F%E0%A8%95%E0%A8%B8%E0%A8%BE%E0%A8%B2%E0%A9%80_%E0%A8%AE%E0%A8%95%E0%A9%88%E0%A8%A8%E0%A8%95%E0%A9%80" hreflang="pa" lang="pa" title="ਟਕਸਾਲੀ ਮਕੈਨਕੀ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Mechanika_klasyczna" hreflang="pl" lang="pl" title="Mechanika klasyczna — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9%D9%84_%D9%85%DA%A9%DB%8C%D9%86%DA%A9%D8%B3" hreflang="pnb" lang="pnb" title="کلاسیکل مکینکس — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Mec%C3%A2nica_cl%C3%A1ssica" hreflang="pt" lang="pt" title="Mecânica clássica — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Mecanic%C4%83_clasic%C4%83" hreflang="ro" lang="ro" title="Mecanică clasică — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="ru" lang="ru" title="Классическая механика — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%96%D1%87%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0" hreflang="rue" lang="rue" title="Класічна механіка — ruthène"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D0%B9_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="sah" lang="sah" title="Классическай механика — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Clessical_mechanics" hreflang="sco" lang="sco" title="Clessical mechanics — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Klasi%C4%8Dna_mehanika" hreflang="sh" lang="sh" title="Klasična mehanika — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B7%83%E0%B6%B8%E0%B7%8A%E0%B6%B7%E0%B7%8F%E0%B7%80%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B6%BA_%E0%B6%BA%E0%B7%8F%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B7%8A%E2%80%8D%E0%B6%BB_%E0%B7%80%E0%B7%92%E0%B6%AF%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F%E0%B7%80" hreflang="si" lang="si" title="සම්භාව්‍යය යාන්ත්‍ර විද්‍යාව — cingalais"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Classical_mechanics" hreflang="en-simple" lang="en-simple" title="Classical mechanics — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Klasick%C3%A1_mechanika" hreflang="sk" lang="sk" title="Klasická mechanika — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Klasi%C4%8Dna_mehanika" hreflang="sl" lang="sl" title="Klasična mehanika — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Mekanika_klasike" hreflang="sq" lang="sq" title="Mekanika klasike — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="sr" lang="sr" title="Класична механика — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Klassisk_mekanik" hreflang="sv" lang="sv" title="Klassisk mekanik — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Umakanika_kawaida" hreflang="sw" lang="sw" title="Umakanika kawaida — swahili"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%B0%E0%AE%AA%E0%AE%BE%E0%AE%B0%E0%AF%8D%E0%AE%A8%E0%AF%8D%E0%AE%A4_%E0%AE%B5%E0%AE%BF%E0%AE%9A%E0%AF%88%E0%AE%AF%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" hreflang="ta" lang="ta" title="மரபார்ந்த விசையியல் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B0%BE%E0%B0%82%E0%B0%AA%E0%B1%8D%E0%B0%B0%E0%B0%A6%E0%B0%BE%E0%B0%AF_%E0%B0%AF%E0%B0%BE%E0%B0%82%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF%E0%B0%95%E0%B0%B6%E0%B0%BE%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%82" hreflang="te" lang="te" title="సాంప్రదాయ యాంత్రికశాస్త్రం — télougou"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%9C%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0%D0%B8_%D0%BA%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA%D3%A3" hreflang="tg" lang="tg" title="Механикаи классикӣ — tadjik"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%A5%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%94%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%80%E0%B8%94%E0%B8%B4%E0%B8%A1" hreflang="th" lang="th" title="กลศาสตร์ดั้งเดิม — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Klasikong_mekanika" hreflang="tl" lang="tl" title="Klasikong mekanika — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Klasik_mekanik" hreflang="tr" lang="tr" title="Klasik mekanik — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D0%BA_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0" hreflang="tt" lang="tt" title="Классик механика — tatar"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B0_%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0" hreflang="uk" lang="uk" title="Класична механіка — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%DA%A9%D9%84%D8%A7%D8%B3%DB%8C%DA%A9%DB%8C_%D9%85%DB%8C%DA%A9%D8%A7%D9%86%DB%8C%D8%A7%D8%AA" hreflang="ur" lang="ur" title="کلاسیکی میکانیات — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Klassik_mexanika" hreflang="uz" lang="uz" title="Klassik mexanika — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/C%C6%A1_h%E1%BB%8Dc_c%E1%BB%95_%C4%91i%E1%BB%83n" hreflang="vi" lang="vi" title="Cơ học cổ điển — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Mekanika_klasika" hreflang="war" lang="war" title="Mekanika klasika — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" hreflang="wuu" lang="wuu" title="经典力学 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A7%D7%9C%D7%90%D7%A1%D7%99%D7%A9%D7%A2_%D7%9E%D7%A2%D7%9B%D7%90%D7%A0%D7%99%D7%A7" hreflang="yi" lang="yi" title="קלאסישע מעכאניק — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" hreflang="zh" lang="zh" title="经典力学 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" hreflang="lzh" lang="lzh" title="經典力學 — Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/K%C3%B3%CD%98-ti%C3%A1n_le%CC%8Dk-ha%CC%8Dk" hreflang="nan" lang="nan" title="Kó͘-tián le̍k-ha̍k — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%8F%A4%E5%85%B8%E5%8A%9B%E5%AD%B8" hreflang="yue" lang="yue" title="古典力學 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11397#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/M%C3%A9canique_newtonienne" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:M%C3%A9canique_newtonienne" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/M%C3%A9canique_newtonienne"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/M%C3%A9canique_newtonienne"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><p>La <b>mécanique newtonienne</b> est une branche de la <a href="/wiki/Physique" title="Physique">physique</a>. Depuis les travaux d'<a href="/wiki/Albert_Einstein" title="Albert Einstein">Albert Einstein</a>, elle est souvent qualifiée de <b>mécanique classique</b>.
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th>Théorie</th>
+<th>Grands domaines</th>
+<th>Concepts
+</th></tr>
+<tr>
+<td>Mécanique newtonienne
+</td>
+<td><a href="/wiki/Cin%C3%A9matique" title="Cinématique">Cinématique</a> - <a href="/wiki/Lois_du_mouvement_de_Newton" title="Lois du mouvement de Newton">Lois du mouvement de Newton</a> - <a href="/wiki/M%C3%A9canique_analytique" title="Mécanique analytique">Mécanique analytique</a> - <a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">Mécanique des fluides</a> - <a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">Mécanique du point</a> - <a href="/wiki/M%C3%A9canique_du_solide" title="Mécanique du solide">Mécanique du solide</a> - <a href="/wiki/Transformations_de_Galil%C3%A9e" title="Transformations de Galilée">Transformations de Galilée</a> - <a href="/wiki/M%C3%A9canique_des_milieux_continus" title="Mécanique des milieux continus">Mécanique des milieux continus</a>
+</td>
+<td><a class="mw-disambig" href="/wiki/Dimension" title="Dimension">Dimension</a> - <a href="/wiki/Espace_(notion)" title="Espace (notion)">Espace</a> - <a class="mw-redirect" href="/wiki/Le_temps_en_physique" title="Le temps en physique">Temps</a> - <a href="/wiki/Longueur" title="Longueur">Longueur</a> - <a href="/wiki/Vitesse" title="Vitesse">Vitesse</a> - <a href="/wiki/Vitesse_relative" title="Vitesse relative">Vitesse relative</a> - <a href="/wiki/Masse" title="Masse">Masse</a> - <a href="/wiki/Force_(physique)" title="Force (physique)">Force</a> - <a href="/wiki/%C3%89nergie_(physique)" title="Énergie (physique)">Énergie</a> - <a class="mw-redirect" href="/wiki/Moment_angulaire" title="Moment angulaire">Moment angulaire</a> - <a class="mw-redirect" href="/wiki/Couple_(m%C3%A9canique)" title="Couple (mécanique)">Couple</a> - <a href="/wiki/Loi_de_conservation" title="Loi de conservation">Loi de conservation</a> - <a href="/wiki/Oscillateur_harmonique" title="Oscillateur harmonique">Oscillateur harmonique</a> - <a href="/wiki/Onde" title="Onde">Onde</a> - <a href="/wiki/Travail_d%27une_force" title="Travail d'une force">Travail</a> - <a href="/wiki/Puissance_(physique)" title="Puissance (physique)">Puissance</a> - <a href="/wiki/Vecteur_vitesse" title="Vecteur vitesse">Vecteur vitesse</a>
+</td></tr></tbody></table><p>La mécanique classique ou mécanique newtonienne est une théorie physique qui décrit le mouvement des objets macroscopiques lorsque leur vitesse est faible par rapport à celle de la lumière.
+</p><meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Histoire">Histoire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=1" title="Modifier la section : Histoire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=1" title="Modifier la section : Histoire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Avant de devenir une science à part entière, la <a href="/wiki/M%C3%A9canique_(science)" title="Mécanique (science)">mécanique</a> a longtemps été une section des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>.
+</p><p>De nombreux mathématiciens y ont apporté une contribution souvent décisive, parmi eux des grands noms tels qu'<a href="/wiki/Leonhard_Euler" title="Leonhard Euler">Euler</a>, <a href="/wiki/Augustin_Louis_Cauchy" title="Augustin Louis Cauchy">Cauchy</a>, <a href="/wiki/Joseph-Louis_Lagrange" title="Joseph-Louis Lagrange">Lagrange</a>… Jusqu'à la fin du <a href="/wiki/XVIIIe_si%C3%A8cle" title="XVIIIe siècle"><abbr class="abbr" title="18ᵉ siècle"><span class="romain">XVIII</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, la mécanique a été le domaine applicatif naturel des mathématiques, le domaine dans lequel on pouvait tenter de faire entrer les faits expérimentaux dans le cadre rigoureux des mathématiques.
+Inversement, certains problèmes de mécanique ont donné naissance ou orienté l'intérêt des mathématiciens vers des théories telles que la <a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">géométrie</a> ou les <a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équations différentielles</a>.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Tartaglia-1606-parabola.jpg"><img alt="" class="thumbimage" data-file-height="2301" data-file-width="1512" decoding="async" height="335" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tartaglia-1606-parabola.jpg/220px-Tartaglia-1606-parabola.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tartaglia-1606-parabola.jpg/330px-Tartaglia-1606-parabola.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tartaglia-1606-parabola.jpg/440px-Tartaglia-1606-parabola.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Tartaglia-1606-parabola.jpg" title="Agrandir"></a></div>Courbes balistiques de <a class="mw-redirect" href="/wiki/Niccolo_Fontana_Tartaglia" title="Niccolo Fontana Tartaglia">Tartaglia</a> (1606), selon la théorie de l'<a href="/wiki/Impetus" title="Impetus">impetus</a>, une version améliorée de la physique d'<a href="/wiki/Aristote" title="Aristote">Aristote</a>.</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Tir_parab%C3%B2lic.png"><img alt="" class="thumbimage" data-file-height="300" data-file-width="300" decoding="async" height="220" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Tir_parab%C3%B2lic.png/220px-Tir_parab%C3%B2lic.png" srcset="//upload.wikimedia.org/wikipedia/commons/7/72/Tir_parab%C3%B2lic.png 1.5x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Tir_parab%C3%B2lic.png" title="Agrandir"></a></div>Courbe balistique <a href="/wiki/Parabole" title="Parabole">parabolique</a> suivant les équations dorénavant acceptées en mécanique classique.</div></div></div>
+<p>Historiquement, la <a class="mw-redirect" href="/wiki/M%C3%A9canique_statique" title="Mécanique statique">mécanique statique</a> a été le premier domaine étudié par les savants. De l'<a href="/wiki/Antiquit%C3%A9" title="Antiquité">Antiquité</a> jusqu'au <a href="/wiki/Moyen_%C3%82ge" title="Moyen Âge">Moyen Âge</a> des notions fondamentales telles que « l'équilibre », le célèbre « bras de <a href="/wiki/Levier_(m%C3%A9canique)" title="Levier (mécanique)">levier</a> » d'<a href="/wiki/Archim%C3%A8de" title="Archimède">Archimède</a> ou encore la notion beaucoup plus abstraite de « <a href="/wiki/Force_(physique)" title="Force (physique)">force</a> » ont été étudiées. Plus tard, l'intérêt s'est porté vers la « <a class="mw-redirect" href="/wiki/Dynamique_(physique)" title="Dynamique (physique)">dynamique</a> », c'est-à-dire les phénomènes qui régissent le mouvement des solides, domaine dans lequel <a href="/wiki/Galil%C3%A9e_(savant)" title="Galilée (savant)">Galilée</a>, pour la chute des corps, et <a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a> dans ses célèbres <i><a class="mw-redirect" href="/wiki/Philosophiae_Naturalis_Principia_Mathematica" title="Philosophiae Naturalis Principia Mathematica">Philosophiae Naturalis Principia Mathematica</a></i> ont apporté des contributions décisives.
+</p><p>Toutefois, jusqu'à la fin du <abbr class="abbr" title="18ᵉ siècle"><span class="romain">XVIII</span><sup style="font-size:72%">e</sup></abbr> siècle, la mécanique se séparait en deux branches : la <a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">mécanique du point</a> d'un côté et la <a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">mécanique des fluides</a> de l'autre. Dans le cas de la mécanique du point, les objets étudiés sont supposés implicitement indéformables et le mouvement du solide complet peut alors être décrit par le mouvement d'un de ces points remarquables : le « <a class="mw-redirect" href="/wiki/Barycentre_(physique)" title="Barycentre (physique)">centre de gravité</a> ». Il a fallu attendre le courant du <a href="/wiki/XIXe_si%C3%A8cle" title="XIXe siècle"><abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle</a> pour voir apparaître les premières théories des solides <i>déformables</i> qui allaient permettre de réunir la mécanique des solides et la mécanique des fluides dans un même cadre, celui de la <a href="/wiki/M%C3%A9canique_des_milieux_continus" title="Mécanique des milieux continus">mécanique des milieux continus</a>.
+</p><p>Parallèlement, un autre formalisme prenait naissance pour expliciter le mouvement des solides : <a href="/wiki/Joseph-Louis_Lagrange" title="Joseph-Louis Lagrange">Lagrange</a>, dans un premier temps, puis <a href="/wiki/William_Rowan_Hamilton" title="William Rowan Hamilton">Hamilton</a> ont développé une approche dite <a href="/wiki/M%C3%A9canique_analytique" title="Mécanique analytique">analytique</a> qui prenait comme <a href="/wiki/Axiome" title="Axiome">axiome</a> non plus l'équilibre des forces et de l'<a href="/wiki/Acc%C3%A9l%C3%A9ration" title="Accélération">accélération</a> mais l'existence d'un <a href="/wiki/%C3%89nergie_potentielle_m%C3%A9canique" title="Énergie potentielle mécanique">potentiel d'énergie</a> minimal auquel obéit tout mouvement de solide. On peut démontrer que cette approche est rigoureusement équivalente à l'approche newtonienne ; elle permet toutefois de développer un formalisme radicalement différent.
+Les principaux domaines de la physique ayant recours à la « mécanique analytique » sont la physique du solide et le mouvement de mécanismes complexes tels que les bras de robot.
+</p><p>Au début du <a href="/wiki/XXe_si%C3%A8cle" title="XXe siècle"><abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, <a href="/wiki/Albert_Einstein" title="Albert Einstein">Einstein</a> a développé sa célèbre <a href="/wiki/Th%C3%A9orie_de_la_relativit%C3%A9" title="Théorie de la relativité">théorie de la relativité</a> et a mis en évidence les insuffisances de la mécanique telle qu'elle a été décrite par Newton. Toutefois, il s'avère que cette dernière constitue un cas particulier de la théorie de la relativité dès lors que l'on considère des vitesses relativement faibles. On a alors défini la <i>mécanique newtonienne</i>, ou <i>mécanique classique</i>, comme le domaine de la physique qui décrit les mouvements des corps à des vitesses faibles devant celle de la lumière (soit très inférieures à <span title="1 080 000 000 km/h">300 000</span> <abbr class="abbr" title="kilomètre par seconde">km/s</abbr> environ). Dans ce domaine, tout en étant plus simple, elle fournit des résultats très voisins de ceux de la <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">relativité restreinte</a>, adaptée quant à elle à tous les domaines de vitesse.
+</p><p>Conceptuellement, la mécanique a connu trois révolutions :
+</p>
+<ol><li>la prise de conscience que c'est l'accélération qui est proportionnelle à la force (on pensait initialement que c'était la vitesse) ;</li>
+<li>la prise de conscience que le mouvement des planètes est régi par le même phénomène que la <a href="/wiki/Gravitation" title="Gravitation">chute des corps</a>, la fameuse attraction <i>universelle</i> de Newton ;</li>
+<li>la modélisation de la <a href="/wiki/Gravitation" title="Gravitation">gravitation</a> non plus par une force, mais par une déformation de l'espace avec la théorie de la <a href="/wiki/Relativit%C3%A9_g%C3%A9n%C3%A9rale" title="Relativité générale">relativité générale</a> d'Einstein.</li></ol>
+<p>Au <a href="/wiki/XXIe_si%C3%A8cle" title="XXIe siècle"><abbr class="abbr" title="21ᵉ siècle"><span class="romain">XXI</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, les développements en mécanique classique se trouvent entre autres en <a href="/wiki/Th%C3%A9orie_du_chaos" title="Théorie du chaos">théorie du chaos</a><sup class="reference" id="cite_ref-Taylor20124_1-0"><a href="#cite_note-Taylor20124-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h2><span class="mw-headline" id="Classification">Classification</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=2" title="Modifier la section : Classification">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=2" title="Modifier la section : Classification">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La mécanique newtonienne est classiquement découpée en domaines selon le point de vue adopté :
+</p>
+<ul><li>découpage selon les propriétés étudiées :
+<ul><li><a href="/wiki/Cin%C3%A9matique" title="Cinématique">cinématique</a> : étude du mouvement indépendamment de sa cause (notions de <a href="/wiki/Mouvement_(m%C3%A9canique)" title="Mouvement (mécanique)">mouvement</a>, de <a href="/wiki/Trajectoire" title="Trajectoire">trajectoire</a>, de <a href="/wiki/Vitesse" title="Vitesse">vitesse</a>, d'<a href="/wiki/Acc%C3%A9l%C3%A9ration" title="Accélération">accélération</a>),</li>
+<li><a class="mw-redirect" href="/wiki/M%C3%A9canique_statique" title="Mécanique statique">statique</a> : étude des corps à l'équilibre (immobiles ou en mouvement rectiligne uniforme dans un référentiel galiléen, notions de <a href="/wiki/Force_(physique)" title="Force (physique)">forces</a>, de <a href="/wiki/Moment_d%27une_force" title="Moment d'une force">moments</a>),</li>
+<li><a class="mw-redirect" href="/wiki/Dynamique_(physique)" title="Dynamique (physique)">dynamique</a> : étude des causes du mouvement (relations entre la cinématique et les forces et moments, notion d'énergies <a href="/wiki/%C3%89nergie_cin%C3%A9tique" title="Énergie cinétique">cinétique</a>, <a href="/wiki/%C3%89nergie_m%C3%A9canique" title="Énergie mécanique">mécanique</a>),
+<ul><li><a href="/wiki/M%C3%A9canique_ondulatoire" title="Mécanique ondulatoire">mécanique ondulatoire</a> : étude des ondes mécaniques ;</li></ul></li></ul></li>
+<li>découpage selon l'objet étudié :
+<ul><li><a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">mécanique du point</a>,</li>
+<li><a href="/wiki/M%C3%A9canique_du_solide" title="Mécanique du solide">mécanique du solide</a> indéformable, et déformable</li>
+<li><a href="/wiki/M%C3%A9canique_des_milieux_continus" title="Mécanique des milieux continus">mécanique des milieux continus</a>,
+<ul><li><a href="/wiki/R%C3%A9sistance_des_mat%C3%A9riaux" title="Résistance des matériaux">résistance des matériaux</a>, mécanique du solide déformable,</li>
+<li><a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">mécanique des fluides</a>.</li></ul></li></ul></li></ul>
+<p>On distingue ainsi la cinématique du point de la cinématique du solide, …
+</p><p>On peut résumer ces deux types de découpage dans le tableau suivant :
+</p><p><br/>
+</p>
+<table class="wikitable">
+<tbody><tr>
+<th></th>
+<th rowspan="2"><a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">Mécanique du point</a></th>
+<th colspan="2"><a href="/wiki/M%C3%A9canique_des_milieux_continus" title="Mécanique des milieux continus">Mécanique des milieux continus</a>
+</th></tr>
+<tr>
+<th></th>
+<th><a href="/wiki/M%C3%A9canique_du_solide" title="Mécanique du solide">Mécanique du solide</a></th>
+<th><a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">Mécanique des fluides</a>
+</th></tr>
+<tr>
+<td><a href="/wiki/Cin%C3%A9matique" title="Cinématique">Cinématique</a></td>
+<td><a href="/wiki/Cin%C3%A9matique_du_point" title="Cinématique du point">Cinématique du point</a></td>
+<td><a class="mw-redirect" href="/wiki/Cin%C3%A9matique_du_solide" title="Cinématique du solide">Cinématique du solide</a></td>
+<td><a class="new" href="/w/index.php?title=Cin%C3%A9matique_des_fluides&amp;action=edit&amp;redlink=1" title="Cinématique des fluides (page inexistante)">Cinématique des fluides</a> <a class="extiw" href="https://en.wikipedia.org/wiki/Fluid_kinematics" title="en:Fluid kinematics"><span class="indicateur-langue" title="Article en anglais : « Fluid kinematics »">(en)</span></a>
+</td></tr>
+<tr>
+<td><a href="/wiki/Dynamique_(m%C3%A9canique)" title="Dynamique (mécanique)">Dynamique</a></td>
+<td><a href="/wiki/Dynamique_du_point" title="Dynamique du point">Dynamique du point</a></td>
+<td><a class="new" href="/w/index.php?title=Dynamique_du_solide&amp;action=edit&amp;redlink=1" title="Dynamique du solide (page inexistante)">Dynamique du solide</a></td>
+<td><a href="/wiki/Dynamique_des_fluides" title="Dynamique des fluides">Dynamique des fluides</a>
+</td></tr>
+<tr>
+<td><a href="/wiki/Statique_(m%C3%A9canique)" title="Statique (mécanique)">Statique</a></td>
+<td><a href="/wiki/Statique_du_point" title="Statique du point">Statique du point</a></td>
+<td><a href="/wiki/Statique_du_solide" title="Statique du solide">Statique du solide</a></td>
+<td><a class="mw-redirect" href="/wiki/Statique_des_fluides" title="Statique des fluides">Statique des fluides</a> (hydrostatique)
+</td></tr></tbody></table>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=3" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=3" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style="column-width:72em; column-count:1;"><ol class="references">
+<li id="cite_note-Taylor20124-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-Taylor20124_1-0">↑</a> </span><span class="reference-text"><a href="#Taylor2012">Taylor 2012</a>, <abbr class="abbr" title="page(s)">p.</abbr> 4. </span>
+</li>
+</ol>
+</div>
+<h3><span class="mw-headline" id="Source">Source</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=4" title="Modifier la section : Source">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=4" title="Modifier la section : Source">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><span class="ouvrage" id="Taylor2012"><span class="ouvrage" id="John_R._Taylor2012">John R. <span class="nom_auteur">Taylor</span>, <cite class="italique">Mécanique classique</cite>, de Boeck, <time>2012</time>, 877 <abbr class="abbr" title="pages">p.</abbr><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=M%C3%A9canique+classique&amp;rft.pub=de+Boeck&amp;rft.aulast=Taylor&amp;rft.aufirst=John+R.&amp;rft.date=2012&amp;rft.tpages=877&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AM%C3%A9canique+newtonienne"></span></span></span></li></ul>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=5" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=5" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="wikiversity"><a class="extiw" href="https://fr.wikiversity.org/wiki/D%C3%A9partement:M%C3%A9canique_classique" title="v:Département:Mécanique classique">Mécanique newtonienne</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=6" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=6" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Cin%C3%A9matique" title="Cinématique">Cinématique</a></li>
+<li><a href="/wiki/Lois_du_mouvement_de_Newton" title="Lois du mouvement de Newton">Lois du mouvement de Newton</a></li>
+<li><a href="/wiki/M%C3%A9canique_analytique" title="Mécanique analytique">Mécanique analytique</a></li>
+<li><a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">Mécanique des fluides</a></li>
+<li><a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">Mécanique du point</a></li>
+<li><a href="/wiki/M%C3%A9canique_du_solide" title="Mécanique du solide">Mécanique du solide</a></li>
+<li><a href="/wiki/Relativit%C3%A9_galil%C3%A9enne" title="Relativité galiléenne">Relativité galiléenne</a> et <a href="/wiki/Transformations_de_Galil%C3%A9e" title="Transformations de Galilée">transformations de Galilée</a></li>
+<li><a class="mw-redirect" href="/wiki/Mouvement_rectiligne_uniform%C3%A9ment_acc%C3%A9l%C3%A9r%C3%A9" title="Mouvement rectiligne uniformément accéléré">Mouvement rectiligne uniformément accéléré</a></li>
+<li><a href="/wiki/Chronologie_de_la_m%C3%A9canique_classique" title="Chronologie de la mécanique classique">Chronologie de la mécanique classique</a></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;veaction=edit&amp;section=7" title="Modifier la section : Liens externes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=M%C3%A9canique_newtonienne&amp;action=edit&amp;section=7" title="Modifier la section : Liens externes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers">Notices dans des dictionnaires ou encyclopédies généralistes<span class="noprint wikidata-linkback"><a href="https://www.wikidata.org/wiki/Q11397?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" class="noviewer" data-file-height="600" data-file-width="600" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" style="vertical-align: baseline" width="10"/></a></span></span> : <ul><li><a class="external text" href="https://www.britannica.com/science/classical-mechanics" rel="nofollow"><i>Encyclopædia Britannica</i></a></li> <li><a class="external text" href="http://www.enciklopedija.hr/Natuknica.aspx?ID=69777" rel="nofollow"><i>Hrvatska Enciklopedija</i></a></li> <li><a class="external text" href="https://snl.no/klassisk_mekanikk" rel="nofollow"><i>Store norske leksikon</i></a></li> </ul></div></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers"><a href="/wiki/Autorit%C3%A9_(sciences_de_l%27information)" title="Autorité (sciences de l'information)">Notices d'autorité</a><span class="noprint wikidata-linkback"><a href="https://www.wikidata.org/wiki/Q11397?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" class="noviewer" data-file-height="600" data-file-width="600" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" style="vertical-align: baseline" width="10"/></a></span></span> : <ul><li><span class="nowrap uid noarchive"><a class="external text" href="http://d-nb.info/gnd/4038168-7" rel="nofollow">Gemeinsame Normdatei</a></span></li> </ul></div></li>
+<li><a class="external text" href="http://www.infotheque.info/specialite/14.html" rel="nofollow">Ressources en mécanique</a>, infotheque.info</li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Branches_de_la_physique" title="Modèle:Palette Branches de la physique"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Branches_de_la_physique&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Branches de la <a href="/wiki/Physique" title="Physique">physique</a></div></th>
+</tr> <tr>
+<th class="navbox-group" style="">Catégories</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Physique_appliqu%C3%A9e" title="Physique appliquée">Appliquée</a></li>
+<li><a href="/wiki/Physique_exp%C3%A9rimentale" title="Physique expérimentale">Expérimentale</a></li>
+<li><a href="/wiki/Physique_th%C3%A9orique" title="Physique théorique">Théorique</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style=""><a href="/wiki/Champ_(physique)" title="Champ (physique)">Champs</a> et <a href="/wiki/Onde" title="Onde">ondes</a></th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Champ_gravitationnel" title="Champ gravitationnel">Champ gravitationnel</a></li>
+<li><a href="/wiki/Champ_%C3%A9lectromagn%C3%A9tique" title="Champ électromagnétique">Champ électromagnétique</a></li>
+<li><a href="/wiki/Champ_de_Higgs_%C3%A9lectrofaible" title="Champ de Higgs électrofaible">Champ de Higgs électrofaible</a></li>
+<li><a href="/wiki/Th%C3%A9orie_quantique_des_champs" title="Théorie quantique des champs">Théorie quantique des champs</a></li>
+<li><a href="/wiki/Principe_de_relativit%C3%A9" title="Principe de relativité">Relativité</a>
+<ul><li><a href="/wiki/Relativit%C3%A9_g%C3%A9n%C3%A9rale" title="Relativité générale">Générale</a></li>
+<li><a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">Restreinte</a></li></ul></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style=""><a href="/wiki/%C3%89nergie_(physique)" title="Énergie (physique)">Énergie</a> et <a href="/wiki/Mouvement_(m%C3%A9canique)" title="Mouvement (mécanique)">mouvement</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/M%C3%A9canique_(science)" title="Mécanique (science)">Mécanique</a>
+<ul><li><a class="mw-selflink selflink">Classique</a></li>
+<li><a href="/wiki/M%C3%A9canique_c%C3%A9leste" title="Mécanique céleste">Céleste</a></li>
+<li><a href="/wiki/M%C3%A9canique_des_fluides" title="Mécanique des fluides">Fluides</a></li>
+<li><a href="/wiki/M%C3%A9canique_des_milieux_continus" title="Mécanique des milieux continus">Milieux continus</a></li>
+<li><a href="/wiki/M%C3%A9canique_quantique" title="Mécanique quantique">Quantique</a></li></ul></li>
+<li><a href="/wiki/Thermodynamique" title="Thermodynamique">Thermodynamique</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Spécialités</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Acoustique" title="Acoustique">Acoustique</a></li>
+<li><a href="/wiki/Astrophysique" title="Astrophysique">Astrophysique</a></li>
+<li><a href="/wiki/Physique_atomique" title="Physique atomique">Atomique</a></li>
+<li><a href="/wiki/G%C3%A9nie_physique" title="Génie physique">Industrielle</a></li>
+<li><a href="/wiki/Physique_de_la_mati%C3%A8re_condens%C3%A9e" title="Physique de la matière condensée">Matière condensée</a></li>
+<li><a href="/wiki/Physique_nucl%C3%A9aire" title="Physique nucléaire">Nucléaire</a></li>
+<li><a href="/wiki/Optique_physique" title="Optique physique">Optique</a></li>
+<li><a href="/wiki/Physique_des_particules" title="Physique des particules">Particules</a></li>
+<li><a href="/wiki/Physique_du_solide" title="Physique du solide">Solide</a></li>
+<li><a href="/wiki/Physique_statistique" title="Physique statistique">Statistique</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Autres sciences</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Physique_de_l%27atmosph%C3%A8re" title="Physique de l'atmosphère">Atmosphérique</a></li>
+<li><a href="/wiki/Biophysique" title="Biophysique">Biophysique</a></li>
+<li><a href="/wiki/Biom%C3%A9canique" title="Biomécanique">Biomécanique</a></li>
+<li><a href="/wiki/Physique_m%C3%A9dicale" title="Physique médicale">Médicale</a></li>
+<li><a href="/wiki/%C3%89conophysique" title="Éconophysique">Éconophysique</a></li>
+<li><a href="/wiki/G%C3%A9ophysique" title="Géophysique">Géophysique</a></li>
+<li><a href="/wiki/Physico-chimie" title="Physico-chimie">Physico-chimie</a></li>
+<li><a href="/wiki/Physique_math%C3%A9matique" title="Physique mathématique">Mathématique</a></li>
+<li><a href="/wiki/Psychophysique" title="Psychophysique">Psychophysique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:G%C3%A9nie_m%C3%A9canique" title="Portail du génie mécanique"><img alt="icône décorative" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/24px-Crystal_Clear_action_run_v2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/36px-Crystal_Clear_action_run_v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/48px-Crystal_Clear_action_run_v2.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:G%C3%A9nie_m%C3%A9canique" title="Portail:Génie mécanique">Portail du génie mécanique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Physique" title="Portail de la physique"><img alt="icône décorative" class="noviewer" data-file-height="512" data-file-width="512" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/24px-Circle-icons-physics-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/36px-Circle-icons-physics-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/48px-Circle-icons-physics-logo.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Physique" title="Portail:Physique">Portail de la physique</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1327
+Cached time: 20221010181909
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.562 seconds
+Real time usage: 0.704 seconds
+Preprocessor visited node count: 2116/1000000
+Post‐expand include size: 39026/2097152 bytes
+Template argument size: 7373/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 1038/5000000 bytes
+Lua time usage: 0.396/10.000 seconds
+Lua memory usage: 7172605/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  626.882      1 -total
+ 65.77%  412.327      1 Modèle:Liens
+ 10.36%   64.925      1 Modèle:Ouvrage
+  5.32%   33.379      1 Modèle:Portail
+  4.55%   28.492      1 Modèle:Autres_projets
+  3.53%   22.108      1 Modèle:Unité
+  3.44%   21.556      1 Modèle:Palette
+  2.78%   17.446      1 Modèle:Site_officiel
+  2.73%   17.124      1 Modèle:Dictionnaires
+  2.59%   16.265      1 Modèle:Palette_Branches_de_la_physique
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:14363-0!canonical and timestamp 20221010181908 and revision id 197177076.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Mécanique_newtonienne&amp;oldid=197177076">https://fr.wikipedia.org/w/index.php?title=Mécanique_newtonienne&amp;oldid=197177076</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:M%C3%A9canique_classique" title="Catégorie:Mécanique classique">Mécanique classique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Th%C3%A9orie_scientifique" title="Catégorie:Théorie scientifique">Théorie scientifique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Th%C3%A9orie_des_m%C3%A9canismes" title="Catégorie:Théorie des mécanismes">Théorie des mécanismes</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Article_contenant_un_appel_%C3%A0_traduction_en_anglais" title="Catégorie:Article contenant un appel à traduction en anglais">Article contenant un appel à traduction en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_un_mod%C3%A8le_Bases_inactif" title="Catégorie:Page utilisant un modèle Bases inactif">Page utilisant un modèle Bases inactif</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P1417" title="Catégorie:Page utilisant P1417">Page utilisant P1417</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P7982" title="Catégorie:Page utilisant P7982">Page utilisant P7982</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P4342" title="Catégorie:Page utilisant P4342">Page utilisant P4342</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_bases_externes" title="Catégorie:Page pointant vers des bases externes">Page pointant vers des bases externes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_dictionnaires_ou_encyclop%C3%A9dies_g%C3%A9n%C3%A9ralistes" title="Catégorie:Page pointant vers des dictionnaires ou encyclopédies généralistes">Page pointant vers des dictionnaires ou encyclopédies généralistes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_Wikip%C3%A9dia_avec_notice_d%27autorit%C3%A9" title="Catégorie:Article de Wikipédia avec notice d'autorité">Article de Wikipédia avec notice d'autorité</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:G%C3%A9nie_m%C3%A9canique/Articles_li%C3%A9s" title="Catégorie:Portail:Génie mécanique/Articles liés">Portail:Génie mécanique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Technologies/Articles_li%C3%A9s" title="Catégorie:Portail:Technologies/Articles liés">Portail:Technologies/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Physique/Articles_li%C3%A9s" title="Catégorie:Portail:Physique/Articles liés">Portail:Physique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_h%C3%A9breu" title="Catégorie:Article de qualité en hébreu">Article de qualité en hébreu</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 23 septembre 2022 à 10:54.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/M%C3%A9canique_newtonienne" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=M%C3%A9canique_newtonienne&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.562","walltime":"0.704","ppvisitednodes":{"value":2116,"limit":1000000},"postexpandincludesize":{"value":39026,"limit":2097152},"templateargumentsize":{"value":7373,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":1038,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  626.882      1 -total"," 65.77%  412.327      1 Modèle:Liens"," 10.36%   64.925      1 Modèle:Ouvrage","  5.32%   33.379      1 Modèle:Portail","  4.55%   28.492      1 Modèle:Autres_projets","  3.53%   22.108      1 Modèle:Unité","  3.44%   21.556      1 Modèle:Palette","  2.78%   17.446      1 Modèle:Site_officiel","  2.73%   17.124      1 Modèle:Dictionnaires","  2.59%   16.265      1 Modèle:Palette_Branches_de_la_physique"]},"scribunto":{"limitreport-timeusage":{"value":"0.396","limit":"10.000"},"limitreport-memusage":{"value":7172605,"limit":52428800}},"cachereport":{"origin":"mw1327","timestamp":"20221010181909","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"M\u00e9canique newtonienne","url":"https:\/\/fr.wikipedia.org\/wiki\/M%C3%A9canique_newtonienne","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11397","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11397","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-04-13T16:25:34Z","dateModified":"2022-09-23T08:54:24Z","headline":"branche de la m\u00e9canique qui \u00e9tudie le mouvement des corps sous l'action d'un syst\u00e8me de forces, valable \u00e0 des vitesses non relativistes"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"M\u00e9canique newtonienne","url":"https:\/\/fr.wikipedia.org\/wiki\/M%C3%A9canique_newtonienne","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11397","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11397","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-04-13T16:25:34Z","dateModified":"2022-09-23T08:54:24Z","headline":"branche de la m\u00e9canique qui \u00e9tudie le mouvement des corps sous l'action d'un syst\u00e8me de forces, valable \u00e0 des vitesses non relativistes"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":843,"wgHostname":"mw1327"});});</script>
+</body>
+</html>

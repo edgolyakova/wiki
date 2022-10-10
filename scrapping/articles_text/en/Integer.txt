@@ -1,0 +1,3766 @@
+
+
+
+
+Integer - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Integer
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Number in {..., –2, –1, 0, 1, 2, ...} 
+For computer representation, see Integer (computer science). For the generalization in algebraic number theory, see Algebraic integer.
+
+
+ The double-struck symbol, often used to denote the set of all integers (see ℤ)
+Algebraic structure → Group theoryGroup theory
+Basic notions
+Subgroup
+Normal subgroup
+Quotient group
+(Semi-)direct product
+
+Group homomorphisms
+kernel
+image
+direct sum
+wreath product
+simple
+finite
+infinite
+continuous
+multiplicative
+additive
+cyclic
+abelian
+dihedral
+nilpotent
+solvable
+action
+
+Glossary of group theory
+List of group theory topics
+
+
+Finite groups
+Classification of finite simple groups
+cyclic
+alternating
+Lie type
+sporadic
+
+Cauchy's theorem
+Lagrange's theorem
+Sylow theorems
+Hall's theorem
+p-group
+Elementary abelian group
+Frobenius group
+Schur multiplier
+
+Symmetric group Sn
+Klein four-group V
+Dihedral group Dn
+Quaternion group Q
+Dicyclic group Dicn
+
+
+Discrete groupsLattices
+Integers (
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+)
+Free group
+Modular groups PSL(2, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+)SL(2, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+)
+Arithmetic group
+Lattice
+Hyperbolic group
+
+Topological and Lie groups
+Solenoid
+Circle
+General linear GL(n)
+Special linear SL(n)
+Orthogonal O(n)
+Euclidean E(n)
+Special orthogonal SO(n)
+Unitary U(n)
+Special unitary SU(n)
+Symplectic Sp(n)
+G2
+F4
+E6
+E7
+E8
+Lorentz
+Poincaré
+Conformal
+Diffeomorphism
+Loop
+Infinite dimensional Lie group O(∞)SU(∞)Sp(∞)
+
+Algebraic groups
+Linear algebraic group
+Reductive group
+Abelian variety
+Elliptic curve
+vte
+An integer is the number zero (0), a positive natural number (1, 2, 3, etc.) or a negative integer with a minus sign (−1, −2, −3, etc.).[1] The negative numbers are the additive inverses of the corresponding positive numbers.[2] In the language of mathematics, the set of integers is often denoted by the boldface Z or blackboard bold 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.[3][4][5]
+The set of natural numbers 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+ is a subset of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, which in turn is a subset of the set of all rational numbers 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+, itself a subset of the real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.[a] Like the natural numbers, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is countably infinite. An integer may be regarded as a real number that can be written without a fractional component. For example, 21, 4, 0, and −2048 are integers, while 9.75, 5+1/2, and √2 are not.[9]
+The integers form the smallest group and the smallest ring containing the natural numbers. In algebraic number theory, the integers are sometimes qualified as rational integers to distinguish them from the more general algebraic integers. In fact, (rational) integers are algebraic integers that are also rational numbers.
+
+Contents
+
+1 History
+2 Algebraic properties
+3 Order-theoretic properties
+4 Construction
+
+4.1 Traditional development
+4.2 Equivalence classes of ordered pairs
+4.3 Other approaches
+
+
+5 Computer science
+6 Cardinality
+7 See also
+8 Footnotes
+9 References
+10 Sources
+11 External links
+
+
+History
+The word integer comes from the Latin integer meaning "whole" or (literally) "untouched", from in ("not") plus tangere ("to touch"). "Entire" derives from the same origin via the French word entier, which means both entire and integer.[10] Historically the term was used for a number that was a multiple of 1,[11][12] or to the whole part of a mixed number.[13][14] Only positive integers were considered, making the term synonymous with the natural numbers. The definition of integer expanded over time to include negative numbers as their usefulness was recognized.[15] For example Leonhard Euler in his 1765 Elements of Algebra defined integers to include both positive and negative numbers.[16] However, European mathematicians, for the most part, resisted the concept of negative numbers until the middle of the 19th century.[15]
+The use of the letter Z to denote the set of integers comes from the German word Zahlen ("number")[4][5] and has been attributed to David Hilbert.[17] The earliest known use of the notation in a textbook occurs in Algébre written by the collective Nicolas Bourbaki, dating to 1947.[4][18] The notation was not adopted immediately, for example another textbook used the letter J[19] and a 1960 paper used Z to denote the non-negative integers.[20] But by 1961, Z was generally used by modern algebra texts to denote the positive and negative integers.[21]
+The symbol 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is often annotated to denote various sets, with varying usage amongst different authors: 
+
+
+
+
+
+Z
+
+
++
+
+
+
+
+{\displaystyle \mathbb {Z} ^{+}}
+
+,
+
+
+
+
+
+Z
+
+
++
+
+
+
+
+{\displaystyle \mathbb {Z} _{+}}
+
+ or 
+
+
+
+
+
+Z
+
+
+>
+
+
+
+
+{\displaystyle \mathbb {Z} ^{>}}
+
+ for the positive integers, 
+
+
+
+
+
+Z
+
+
+0
++
+
+
+
+
+{\displaystyle \mathbb {Z} ^{0+}}
+
+ or 
+
+
+
+
+
+Z
+
+
+≥
+
+
+
+
+{\displaystyle \mathbb {Z} ^{\geq }}
+
+ for non-negative integers, and 
+
+
+
+
+
+Z
+
+
+≠
+
+
+
+
+{\displaystyle \mathbb {Z} ^{\neq }}
+
+ for non-zero integers. Some authors use 
+
+
+
+
+
+Z
+
+
+∗
+
+
+
+
+{\displaystyle \mathbb {Z} ^{*}}
+
+ for non-zero integers, while others use it for non-negative integers, or for {–1, 1} (the group of units of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+). Additionally, 
+
+
+
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {Z} _{p}}
+
+ is used to denote either the set of integers modulo p (i.e., the set of congruence classes of integers), or the set of p-adic integers.[22][23][24]
+The whole numbers were synonymous with the integers up until the early 1950s.[25][26][27] In the late 1950s, as part of the New Math movement,[28] American elementary school teachers began teaching that "whole numbers" referred to the natural numbers, excluding negative numbers, while "integer" included the negative numbers.[29][30] "Whole number" remains ambiguous to the present day.[31]
+
+Algebraic properties
+ Integers can be thought of as discrete, equally spaced points on an infinitely long number line. In the above, non-negative integers are shown in blue and negative integers in red.
+Algebraic structure → Ring theoryRing theory
+Basic conceptsRings
+• Subrings
+• Ideal
+• Quotient ring
+• Fractional ideal
+• Total ring of fractions
+• Product of rings
+• Free product of associative algebras
+• Tensor product of algebras
+Ring homomorphisms
+
+• Kernel
+• Inner automorphism
+• Frobenius endomorphism
+Algebraic structures
+
+• Module
+• Associative algebra
+• Graded ring
+• Involutive ring
+• Category of rings
+• Initial ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+
+• Terminal ring 
+
+
+
+0
+=
+
+
+Z
+
+
+1
+
+
+
+
+{\displaystyle 0=\mathbb {Z} _{1}}
+
+
+Related structures
+
+• Field
+• Finite field
+• Non-associative ring
+• Lie ring
+• Jordan ring
+• Semiring
+• Semifield
+
+Commutative algebraCommutative rings
+• Integral domain
+• Integrally closed domain
+• GCD domain
+• Unique factorization domain
+• Principal ideal domain
+• Euclidean domain
+• Field
+• Finite field
+• Composition ring
+• Polynomial ring
+• Formal power series ring
+Algebraic number theory
+
+• Algebraic number field
+• Ring of integers
+• Algebraic independence
+• Transcendental number theory
+• Transcendence degree
+p-adic number theory and decimals
+
+• Direct limit/Inverse limit
+• Zero ring 
+
+
+
+
+
+Z
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {Z} _{1}}
+
+
+• Integers modulo pn 
+
+
+
+
+Z
+
+
+/
+
+
+p
+
+n
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} /p^{n}\mathbb {Z} }
+
+
+• Prüfer p-ring 
+
+
+
+
+Z
+
+(
+
+p
+
+∞
+
+
+)
+
+
+{\displaystyle \mathbb {Z} (p^{\infty })}
+
+
+• Base-p circle ring 
+
+
+
+
+T
+
+
+
+{\displaystyle \mathbb {T} }
+
+
+• Base-p integers 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+
+• p-adic rationals 
+
+
+
+
+Z
+
+[
+1
+
+/
+
+p
+]
+
+
+{\displaystyle \mathbb {Z} [1/p]}
+
+
+• Base-p real numbers 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+
+• p-adic integers 
+
+
+
+
+
+Z
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {Z} _{p}}
+
+
+• p-adic numbers 
+
+
+
+
+
+Q
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {Q} _{p}}
+
+
+• p-adic solenoid 
+
+
+
+
+
+T
+
+
+p
+
+
+
+
+{\displaystyle \mathbb {T} _{p}}
+
+
+Algebraic geometry
+
+• Affine variety
+
+Noncommutative algebraNoncommutative rings
+• Division ring
+• Semiprimitive ring
+• Simple ring
+• Commutator
+Noncommutative algebraic geometry
+Free algebra
+Clifford algebra
+
+• Geometric algebra
+Operator algebra
+vte
+Like the natural numbers, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is closed under the operations of addition and multiplication, that is, the sum and product of any two integers is an integer. However, with the inclusion of the negative natural numbers (and importantly, 0), 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, unlike the natural numbers, is also closed under subtraction.[32]
+The integers form a unital ring which is the most basic one, in the following sense: for any unital ring, there is a unique ring homomorphism from the integers into this ring. This universal property, namely to be an initial object in the category of rings, characterizes the ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not closed under division, since the quotient of two integers (e.g., 1 divided by 2) need not be an integer. Although the natural numbers are closed under exponentiation, the integers are not (since the result can be a fraction when the exponent is negative).
+The following table lists some of the basic properties of addition and multiplication for any integers a, b and c:
+
+
+Properties of addition and multiplication on integers
+
+
+
+
+Addition
+
+Multiplication
+
+
+Closure:
+
+a + b is an integer
+
+a × b is an integer
+
+
+Associativity:
+
+a + (b + c) = (a + b) + c
+
+a × (b × c) = (a × b) × c
+
+
+Commutativity:
+
+a + b = b + a
+
+a × b = b × a
+
+
+Existence of an identity element:
+
+a + 0 = a
+
+a × 1 = a
+
+
+Existence of inverse elements:
+
+a + (−a) = 0
+
+The only invertible integers (called units) are −1 and 1.
+
+
+Distributivity:
+
+a × (b + c) = (a × b) + (a × c) and (a + b) × c = (a × c) + (b × c)
+
+
+No zero divisors:
+
+
+If a × b = 0, then a = 0 or b = 0 (or both)
+
+The first five properties listed above for addition say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, under addition, is an abelian group. It is also a cyclic group, since every non-zero integer can be written as a finite sum 1 + 1 + ... + 1 or (−1) + (−1) + ... + (−1). In fact, 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under addition is the only infinite cyclic group—in the sense that any infinite cyclic group is isomorphic to 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+.
+The first four properties listed above for multiplication say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under multiplication is a commutative monoid. However, not every integer has a multiplicative inverse (as is the case of the number 2), which means that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ under multiplication is not a group.
+All the rules from the above property table (except for the last), when taken together, say that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ together with addition and multiplication is a commutative ring with unity. It is the prototype of all objects of such algebraic structure. Only those equalities of expressions are true in 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ for all values of variables, which are true in any unital commutative ring. Certain non-zero integers map to zero in certain rings.
+The lack of zero divisors in the integers (last property in the table) means that the commutative ring 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is an integral domain.
+The lack of multiplicative inverses, which is equivalent to the fact that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not closed under division, means that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is not a field. The smallest field containing the integers as a subring is the field of rational numbers. The process of constructing the rationals from the integers can be mimicked to form the field of fractions of any integral domain. And back, starting from an algebraic number field (an extension of rational numbers), its ring of integers can be extracted, which includes 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ as its subring.
+Although ordinary division is not defined on 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+, the division "with remainder" is defined on them. It is called Euclidean division, and possesses the following important property: given two integers a and b with b ≠ 0, there exist unique integers q and r such that a = q × b + r and 0 ≤ r <  |b|, where |b| denotes the absolute value of b. The integer q is called the quotient and r is called the remainder of the division of a by b. The Euclidean algorithm for computing greatest common divisors works by a sequence of Euclidean divisions.
+The above says that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a Euclidean domain. This implies that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a principal ideal domain, and any positive integer can be written as the products of primes in an essentially unique way.[33] This is the fundamental theorem of arithmetic.
+
+Order-theoretic properties
+
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is a totally ordered set without upper or lower bound. The ordering of 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ is given by:
+:... −3 < −2 < −1 < 0 < 1 < 2 < 3 < ...
+An integer is positive if it is greater than zero, and negative if it is less than zero. Zero is defined as neither negative nor positive.
+The ordering of integers is compatible with the algebraic operations in the following way:
+
+if a < b and c < d, then a + c < b + d
+if a < b and 0 < c, then ac < bc.
+Thus it follows that 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ together with the above ordering is an ordered ring.
+The integers are the only nontrivial totally ordered abelian group whose positive elements are well-ordered.[34] This is equivalent to the statement that any Noetherian valuation ring is either a field—or a discrete valuation ring.
+
+Construction
+Traditional development
+In elementary school teaching, integers are often intuitively defined as the union of the (positive) natural numbers, zero, and the negations of the natural numbers. This can be formalized as follows.[35] First construct the set of natural numbers according to the Peano axioms, call this 
+
+
+
+P
+
+
+{\displaystyle P}
+
+. Then construct a set 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+ which is disjoint from 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ and in one-to-one correspondence with 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ via a function 
+
+
+
+ψ
+
+
+{\displaystyle \psi }
+
+. For example, take 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+ to be the ordered pairs 
+
+
+
+(
+1
+,
+n
+)
+
+
+{\displaystyle (1,n)}
+
+ with the mapping 
+
+
+
+ψ
+=
+n
+↦
+(
+1
+,
+n
+)
+
+
+{\displaystyle \psi =n\mapsto (1,n)}
+
+. Finally let 0 be some object not in 
+
+
+
+P
+
+
+{\displaystyle P}
+
+ or 
+
+
+
+
+P
+
+−
+
+
+
+
+{\displaystyle P^{-}}
+
+, for example the ordered pair 
+
+
+
+(
+0
+,
+0
+)
+
+
+{\displaystyle (0,0)}
+
+. Then the integers are defined to be the union 
+
+
+
+P
+∪
+
+P
+
+−
+
+
+∪
+{
+0
+}
+
+
+{\displaystyle P\cup P^{-}\cup \{0\}}
+
+. 
+The traditional arithmetic operations can then be defined on the integers in a piecewise fashion, for each of positive numbers, negative numbers, and zero. For example negation is defined as follows:
+
+
+
+
+−
+x
+=
+
+
+{
+
+
+
+ψ
+(
+x
+)
+,
+
+
+
+if 
+
+x
+∈
+P
+
+
+
+
+
+ψ
+
+−
+1
+
+
+(
+x
+)
+,
+
+
+
+if 
+
+x
+∈
+
+P
+
+−
+
+
+
+
+
+
+0
+,
+
+
+
+if 
+
+x
+=
+0
+
+
+
+
+
+
+
+
+{\displaystyle -x={\begin{cases}\psi (x),&{\text{if }}x\in P\\\psi ^{-1}(x),&{\text{if }}x\in P^{-}\\0,&{\text{if }}x=0\end{cases}}}
+
+
+The traditional style of definition leads to many different cases (each arithmetic operation needs to be defined on each combination of types of integer) and makes it tedious to prove that integers obey the various laws of arithmetic.[36]
+
+Equivalence classes of ordered pairs
+ Red points represent ordered pairs of natural numbers. Linked red points are equivalence classes representing the blue integers at the end of the line.
+In modern set-theoretic mathematics, a more abstract construction[37] allowing one to define arithmetical operations without any case distinction is often used instead.[38] The integers can thus be formally constructed as the equivalence classes of ordered pairs of natural numbers (a,b).[39]
+The intuition is that (a,b) stands for the result of subtracting b from a.[39] To confirm our expectation that 1 − 2 and 4 − 5 denote the same number, we define an equivalence relation ~ on these pairs with the following rule:
+
+
+
+
+
+(
+a
+,
+b
+)
+∼
+(
+c
+,
+d
+)
+
+
+{\displaystyle (a,b)\sim (c,d)}
+
+
+precisely when
+
+
+
+
+
+a
++
+d
+=
+b
++
+c
+.
+
+
+{\displaystyle a+d=b+c.}
+
+
+Addition and multiplication of integers can be defined in terms of the equivalent operations on the natural numbers;[39] by using [(a,b)] to denote the equivalence class having (a,b) as a member, one has:
+
+
+
+
+
+[
+(
+a
+,
+b
+)
+]
++
+[
+(
+c
+,
+d
+)
+]
+:=
+[
+(
+a
++
+c
+,
+b
++
+d
+)
+]
+.
+
+
+{\displaystyle [(a,b)]+[(c,d)]:=[(a+c,b+d)].}
+
+
+
+
+
+
+[
+(
+a
+,
+b
+)
+]
+⋅
+[
+(
+c
+,
+d
+)
+]
+:=
+[
+(
+a
+c
++
+b
+d
+,
+a
+d
++
+b
+c
+)
+]
+.
+
+
+{\displaystyle [(a,b)]\cdot [(c,d)]:=[(ac+bd,ad+bc)].}
+
+
+The negation (or additive inverse) of an integer is obtained by reversing the order of the pair:
+
+
+
+
+
+−
+[
+(
+a
+,
+b
+)
+]
+:=
+[
+(
+b
+,
+a
+)
+]
+.
+
+
+{\displaystyle -[(a,b)]:=[(b,a)].}
+
+
+Hence subtraction can be defined as the addition of the additive inverse:
+
+
+
+
+
+[
+(
+a
+,
+b
+)
+]
+−
+[
+(
+c
+,
+d
+)
+]
+:=
+[
+(
+a
++
+d
+,
+b
++
+c
+)
+]
+.
+
+
+{\displaystyle [(a,b)]-[(c,d)]:=[(a+d,b+c)].}
+
+
+The standard ordering on the integers is given by:
+
+
+
+
+
+[
+(
+a
+,
+b
+)
+]
+<
+[
+(
+c
+,
+d
+)
+]
+
+
+{\displaystyle [(a,b)]<[(c,d)]}
+
+ if and only if 
+
+
+
+a
++
+d
+<
+b
++
+c
+.
+
+
+{\displaystyle a+d<b+c.}
+
+
+It is easily verified that these definitions are independent of the choice of representatives of the equivalence classes.
+Every equivalence class has a unique member that is of the form (n,0) or (0,n) (or both at once). The natural number n is identified with the class [(n,0)] (i.e., the natural numbers are embedded into the integers by map sending n to [(n,0)]), and the class [(0,n)] is denoted −n (this covers all remaining classes, and gives the class [(0,0)] a second time since −0 = 0.
+Thus, [(a,b)] is denoted by
+
+
+
+
+
+
+
+{
+
+
+
+a
+−
+b
+,
+
+
+
+
+if 
+
+
+a
+≥
+b
+
+
+
+
+−
+(
+b
+−
+a
+)
+,
+
+
+
+
+if 
+
+
+a
+<
+b
+.
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}a-b,&{\mbox{if }}a\geq b\\-(b-a),&{\mbox{if }}a<b.\end{cases}}}
+
+
+If the natural numbers are identified with the corresponding integers (using the embedding mentioned above), this convention creates no ambiguity.
+This notation recovers the familiar representation of the integers as {..., −2, −1, 0, 1, 2, ...} .
+Some examples are:
+
+
+
+
+
+
+
+
+
+0
+
+
+
+=
+[
+(
+0
+,
+0
+)
+]
+
+
+=
+[
+(
+1
+,
+1
+)
+]
+
+
+
+=
+⋯
+
+
+
+
+=
+[
+(
+k
+,
+k
+)
+]
+
+
+
+
+1
+
+
+
+=
+[
+(
+1
+,
+0
+)
+]
+
+
+=
+[
+(
+2
+,
+1
+)
+]
+
+
+
+=
+⋯
+
+
+
+
+=
+[
+(
+k
++
+1
+,
+k
+)
+]
+
+
+
+
+−
+1
+
+
+
+=
+[
+(
+0
+,
+1
+)
+]
+
+
+=
+[
+(
+1
+,
+2
+)
+]
+
+
+
+=
+⋯
+
+
+
+
+=
+[
+(
+k
+,
+k
++
+1
+)
+]
+
+
+
+
+2
+
+
+
+=
+[
+(
+2
+,
+0
+)
+]
+
+
+=
+[
+(
+3
+,
+1
+)
+]
+
+
+
+=
+⋯
+
+
+
+
+=
+[
+(
+k
++
+2
+,
+k
+)
+]
+
+
+
+
+−
+2
+
+
+
+=
+[
+(
+0
+,
+2
+)
+]
+
+
+=
+[
+(
+1
+,
+3
+)
+]
+
+
+
+=
+⋯
+
+
+
+
+=
+[
+(
+k
+,
+k
++
+2
+)
+]
+.
+
+
+
+
+
+
+{\displaystyle {\begin{aligned}0&=[(0,0)]&=[(1,1)]&=\cdots &&=[(k,k)]\\1&=[(1,0)]&=[(2,1)]&=\cdots &&=[(k+1,k)]\\-1&=[(0,1)]&=[(1,2)]&=\cdots &&=[(k,k+1)]\\2&=[(2,0)]&=[(3,1)]&=\cdots &&=[(k+2,k)]\\-2&=[(0,2)]&=[(1,3)]&=\cdots &&=[(k,k+2)].\end{aligned}}}
+
+
+Other approaches
+In theoretical computer science, other approaches for the construction of integers are used by automated theorem provers and term rewrite engines.
+Integers are represented as algebraic terms built using a few basic operations (e.g.,  zero, succ, pred) and, possibly, using natural numbers, which are assumed to be already constructed (using, say, the Peano approach).
+There exist at least ten such constructions of signed integers.[40] These constructions differ in several ways: the number of basic operations used for the construction, the number (usually, between 0 and 2) and the types of arguments accepted by these operations; the presence or absence of natural numbers as arguments of some of these operations, and the fact that these operations are free constructors or not, i.e., that the same integer can be represented using only one or many algebraic terms.
+The technique for the construction of integers presented in the previous section corresponds to the particular case where there is a single basic operation pair
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ that takes as arguments two natural numbers 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ and 
+
+
+
+y
+
+
+{\displaystyle y}
+
+, and returns an integer (equal to 
+
+
+
+x
+−
+y
+
+
+{\displaystyle x-y}
+
+). This operation is not free since the integer 0 can be written pair(0,0), or pair(1,1), or pair(2,2), etc. This technique of construction is used by the proof assistant Isabelle; however, many other tools use alternative construction techniques, notable those based upon free constructors, which are simpler and can be implemented more efficiently in computers.
+
+Computer science
+Main article: Integer (computer science)
+An integer is often a primitive data type in computer languages. However, integer data types can only represent a subset of all integers, since practical computers are of finite capacity. Also, in the common two's complement representation, the inherent definition of sign distinguishes between "negative" and "non-negative" rather than "negative, positive, and 0". (It is, however, certainly possible for a computer to determine whether an integer value is truly positive.) Fixed length integer approximation data types (or subsets) are denoted int or Integer in several programming languages (such as Algol68, C, Java, Delphi, etc.).
+Variable-length representations of integers, such as bignums, can store any integer that fits in the computer's memory. Other integer data types are implemented with a fixed size, usually a number of bits which is a power of 2 (4, 8, 16, etc.) or a memorable number of decimal digits (e.g., 9 or 10).
+
+Cardinality
+The cardinality of the set of integers is equal to ℵ0 (aleph-null). This is readily demonstrated by the construction of a bijection, that is, a function that is injective and surjective from 
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+ to 
+
+
+
+
+N
+
+=
+{
+0
+,
+1
+,
+2
+,
+.
+.
+.
+}
+.
+
+
+{\displaystyle \mathbb {N} =\{0,1,2,...\}.}
+
+ Such a function may be defined as
+
+
+
+
+
+f
+(
+x
+)
+=
+
+
+{
+
+
+
+−
+2
+x
+,
+
+
+
+
+if 
+
+
+x
+≤
+0
+
+
+
+
+2
+x
+−
+1
+,
+
+
+
+
+if 
+
+
+x
+>
+0
+,
+
+
+
+
+
+
+
+
+{\displaystyle f(x)={\begin{cases}-2x,&{\mbox{if }}x\leq 0\\2x-1,&{\mbox{if }}x>0,\end{cases}}}
+
+
+with graph (set of the pairs 
+
+
+
+(
+x
+,
+f
+(
+x
+)
+)
+
+
+{\displaystyle (x,f(x))}
+
+ is
+
+{... (−4,8), (−3,6), (−2,4), (−1,2), (0,0), (1,1), (2,3), (3,5), ...}.
+Its inverse function is defined by
+
+
+
+
+
+
+
+{
+
+
+
+g
+(
+2
+x
+)
+=
+−
+x
+
+
+
+
+g
+(
+2
+x
+−
+1
+)
+=
+x
+,
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{cases}g(2x)=-x\\g(2x-1)=x,\end{cases}}}
+
+
+with graph
+
+{(0, 0), (1, 1), (2, −1), (3, 2), (4, −2), (5, −3), ...}.
+See also
+
+
+Mathematics portal
+Canonical factorization of a positive integer
+Hyperinteger
+Integer complexity
+Integer lattice
+Integer part
+Integer sequence
+Integer-valued function
+Mathematical symbols
+Parity (mathematics)
+Profinite integer
+
+
+
+
+
+
+
+Number systems
+
+
+Complex 
+
+
+
+:
+
+
+C
+
+
+
+{\displaystyle :\;\mathbb {C} }
+
+
+
+
+
+
+
+
+
+Real 
+
+
+
+:
+
+
+R
+
+
+
+{\displaystyle :\;\mathbb {R} }
+
+
+
+
+
+
+
+
+
+Rational 
+
+
+
+:
+
+
+Q
+
+
+
+{\displaystyle :\;\mathbb {Q} }
+
+
+
+
+
+
+
+
+
+Integer 
+
+
+
+:
+
+
+Z
+
+
+
+{\displaystyle :\;\mathbb {Z} }
+
+
+
+
+
+
+
+
+
+Natural 
+
+
+
+:
+
+
+N
+
+
+
+{\displaystyle :\;\mathbb {N} }
+
+
+
+
+
+
+Zero: 0
+
+
+One: 1
+
+
+Prime numbers
+
+
+Composite numbers
+
+
+
+
+Negative integers
+
+
+
+
+
+
+
+Fraction
+
+
+
+
+Finite decimal
+
+
+Dyadic (finite binary)
+
+
+Repeating decimal
+
+
+
+
+
+
+
+
+
+
+
+Irrational
+
+
+
+
+Algebraic irrational
+
+
+Transcendental
+
+
+
+
+
+
+Imaginary
+
+
+
+
+Footnotes
+
+
+^ More precisely, each system is embedded in the next, isomorphically mapped to an subset.[6] The commonly-assumed set-theoretic containment may be obtained by constructing the reals, discarding any earlier constructions, and defining the other sets as subsets of the reals.[7] Such a convention is "a matter of choice", yet not.[8]
+
+
+References
+
+
+^ Science and Technology Encyclopedia. University of Chicago Press. September 2000. p. 280. ISBN 978-0-226-74267-0.
+
+^ "Integers: Introduction to the concept, with activities comparing temperatures and money. | Unit 1". OER Commons.
+
+^ Weisstein, Eric W. "Integer". mathworld.wolfram.com. Retrieved 11 August 2020.
+
+^ a b c Miller, Jeff (29 August 2010). "Earliest Uses of Symbols of Number Theory". Archived from the original on 31 January 2010. Retrieved 20 September 2010.
+
+^ a b Peter Jephson Cameron (1998). Introduction to Algebra. Oxford University Press. p. 4. ISBN 978-0-19-850195-4. Archived from the original on 8 December 2016. Retrieved 15 February 2016.
+
+^ Partee, Barbara H.; Meulen, Alice ter; Wall, Robert E. (30 April 1990). Mathematical Methods in Linguistics. Springer Science & Business Media. pp. 78–82. ISBN 978-90-277-2245-4. The natural numbers are not themselves a subset of this set-theoretic representation of the integers. Rather, the set of all integers contains a subset consisting of the positive integers and zero which is isomorphic to the set of natural numbers.
+
+^ Wohlgemuth, Andrew (10 June 2014). Introduction to Proof in Abstract Mathematics. Courier Corporation. p. 237. ISBN 978-0-486-14168-8.
+
+^ Polkinghorne, John (19 May 2011). Meaning in Mathematics. OUP Oxford. p. 68. ISBN 978-0-19-162189-5.
+
+^ Prep, Kaplan Test (4 June 2019). GMAT Complete 2020: The Ultimate in Comprehensive Self-Study for GMAT. Simon and Schuster. ISBN 978-1-5062-4844-8.
+
+^ Evans, Nick (1995). "A-Quantifiers and Scope".  In Bach, Emmon W. (ed.). Quantification in Natural Languages. Dordrecht, The Netherlands; Boston, MA: Kluwer Academic Publishers. p. 262. ISBN 978-0-7923-3352-4.
+
+^ Smedley, Edward; Rose, Hugh James; Rose, Henry John (1845). Encyclopædia Metropolitana. B. Fellowes. p. 537. An integer is a multiple of unity
+
+^ Encyclopaedia Britannica 1771, p. 367
+
+^ Pisano, Leonardo; Boncompagni, Baldassarre (transliteration) (1202). Incipit liber Abbaci compositus to Lionardo filio Bonaccii Pisano in year Mccij [The Book of Calculation] (Manuscript) (in Latin). Translated by Sigler, Laurence E. Museo Galileo. p. 30. Nam rupti uel fracti semper ponendi sunt post integra, quamuis prius integra quam rupti pronuntiari debeant. [And the fractions are always put after the whole, thus first the integer is written, and then the fraction]
+
+^ Encyclopaedia Britannica 1771, p. 83
+
+^ a b Martinez, Alberto (2014). Negative Math. Princeton University Press. pp. 80–109.
+
+^ Euler, Leonhard (1771). Vollstandige Anleitung Zur Algebra [Complete Introduction to Algebra] (in German). Vol. 1. p. 10. Alle diese Zahlen, so wohl positive als negative, führen den bekannten Nahmen der gantzen Zahlen, welche also entweder größer oder kleiner sind als nichts. Man nennt dieselbe gantze Zahlen, um sie von den gebrochenen, und noch vielerley andern Zahlen, wovon unten gehandelt werden wird, zu unterscheiden. [All these numbers, both positive and negative, are called whole numbers, which are either greater or lesser than nothing. We call them whole numbers, to distinguish them from fractions, and from several other kinds of numbers of which we shall hereafter speak.]
+
+^ The University of Leeds Review. Vol. 31–32. University of Leeds. 1989. p. 46. Incidentally, Z comes from "Zahl": the notation was created by Hilbert.
+
+^ Bourbaki, Nicolas (1951). Algèbre, Chapter 1 (in French) (2nd ed.). Paris: Hermann. p. 27. Le symétrisé de N se note Z; ses éléments sont appelés entiers rationnels. [The group of differences of N is denoted by Z; its elements are called the rational integers.]
+
+^ Birkhoff, Garrett (1948). Lattice Theory (Revised ed.). American Mathematical Society. p. 63. the set J of all integers
+
+^ Society, Canadian Mathematical (1960). Canadian Journal of Mathematics. Canadian Mathematical Society. p. 374. Consider the set Z of non-negative integers
+
+^ Bezuszka, Stanley (1961). Contemporary Progress in Mathematics: Teacher Supplement [to] Part 1 and Part 2. Boston College. p. 69. Modern Algebra texts generally designate the set of integers by the capital letter Z.
+
+^ Keith Pledger and Dave Wilkins, "Edexcel AS and A Level Modular Mathematics: Core Mathematics 1" Pearson 2008
+
+^ LK Turner, FJ BUdden, D Knighton, "Advanced Mathematics", Book 2, Longman 1975.
+
+^ Weisstein, Eric W. "Z^*". MathWorld.
+
+^ Mathews, George Ballard (1892). Theory of Numbers. Deighton, Bell and Company. p. 2.
+
+^ Betz, William (1934). Junior Mathematics for Today. Ginn. The whole numbers, or integers, when arranged in their natural order, such as 1, 2, 3, are called consecutive integers.
+
+^ Peck, Lyman C. (1950). Elements of Algebra. McGraw-Hill. p. 3. The numbers which so arise are called positive whole numbers, or positive integers.
+
+^ Hayden, Robert (1981). A history of the "new math" movement in the United States (PhD). Iowa State University. p. 145. doi:10.31274/rtd-180813-5631. A much more influential force in bringing news of the "new math" to high school teachers and administrators was the National Council of Teachers of Mathematics (NCTM).
+
+^ The Growth of Mathematical Ideas, Grades K-12: 24th Yearbook. National Council of Teachers of Mathematics. 1959. p. 14.
+
+^ Deans, Edwina (1963). Elementary School Mathematics: New Directions. U.S. Department of Health, Education, and Welfare, Office of Education. p. 42.
+
+^ "entry: whole number". The American Heritage Dictionary. HarperCollins.
+
+^ "Integer | mathematics". Encyclopedia Britannica. Retrieved 11 August 2020.
+
+^ Lang, Serge (1993). Algebra (3rd ed.). Addison-Wesley. pp. 86–87. ISBN 978-0-201-55540-0.
+
+^ Warner, Seth (2012). Modern Algebra. Dover Books on Mathematics. Courier Corporation. Theorem 20.14, p. 185. ISBN 978-0-486-13709-4. Archived from the original on 6 September 2015. Retrieved 29 April 2015..
+
+^ Mendelson, Elliott (1985). Number systems and the foundations of analysis. Malabar, Fla. : R.E. Krieger Pub. Co. p. 153. ISBN 978-0-89874-818-5.
+
+^ Mendelson, Elliott (2008). Number Systems and the Foundations of Analysis. Dover Books on Mathematics. Courier Dover Publications. p. 86. ISBN 978-0-486-45792-5. Archived from the original on 8 December 2016. Retrieved 15 February 2016..
+
+^ Ivorra Castillo: Álgebra
+
+^ Frobisher, Len (1999). Learning to Teach Number: A Handbook for Students and Teachers in the Primary School. The Stanley Thornes Teaching Primary Maths Series. Nelson Thornes. p. 126. ISBN 978-0-7487-3515-0. Archived from the original on 8 December 2016. Retrieved 15 February 2016..
+
+^ a b c Campbell, Howard E. (1970). The structure of arithmetic. Appleton-Century-Crofts. p. 83. ISBN 978-0-390-16895-5.
+
+^ Garavel, Hubert (2017). On the Most Suitable Axiomatization of Signed Integers. Post-proceedings of the 23rd International Workshop on Algebraic Development Techniques (WADT'2016). Lecture Notes in Computer Science. Vol. 10644. Springer. pp. 120–134. doi:10.1007/978-3-319-72044-9_9. ISBN 978-3-319-72043-2. Archived from the original on 26 January 2018. Retrieved 25 January 2018.
+
+
+Sources
+
+Bell, E.T. (1986). Men of Mathematics. New York: Simon & Schuster. ISBN 0-671-46400-0.)
+Herstein, I.N. (1975). Topics in Algebra (2nd ed.). Wiley. ISBN 0-471-01090-1.
+Mac Lane, Saunders; Birkhoff, Garrett (1999). Algebra (3rd ed.). American Mathematical Society. ISBN 0-8218-1646-2.
+A Society of Gentlemen in Scotland (1771). Encyclopaedia Britannica. Edinburgh.
+
+External links
+
+
+
+Look up integer in Wiktionary, the free dictionary.
+
+"Integer", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+The Positive Integers – divisor tables and numeral representation tools
+On-Line Encyclopedia of Integer Sequences cf OEIS
+Weisstein, Eric W. "Integer". MathWorld.
+This article incorporates material from Integer on PlanetMath, which is licensed under the Creative Commons Attribution/Share-Alike License.
+
+vteIntegers0s
+ 0 
+ 1 
+ 2 
+ 3 
+ 4 
+ 5 
+ 6 
+ 7 
+ 8 
+ 9 
+
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100s
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200s
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+
+280
+281
+282
+283
+284
+285
+286
+287
+288
+289
+
+290
+291
+292
+293
+294
+295
+296
+297
+298
+299
+300s
+300
+301
+302
+303
+304
+305
+306
+307
+308
+309
+
+310
+311
+312
+313
+314
+315
+316
+317
+318
+319
+
+320
+321
+322
+323
+324
+325
+326
+327
+328
+329
+
+330
+331
+332
+333
+334
+335
+336
+337
+338
+339
+
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+
+370
+371
+372
+373
+374
+375
+376
+377
+378
+379
+
+380
+381
+382
+383
+384
+385
+386
+387
+388
+389
+
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400s
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+
+430
+431
+432
+433
+434
+435
+436
+437
+438
+439
+
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500s
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+
+510
+511
+512
+513
+514
+515
+516
+517
+518
+519
+
+520
+521
+522
+523
+524
+525
+526
+527
+528
+529
+
+530
+531
+532
+533
+534
+535
+536
+537
+538
+539
+
+540
+541
+542
+543
+544
+545
+546
+547
+548
+549
+
+550
+551
+552
+553
+554
+555
+556
+557
+558
+559
+
+560
+561
+562
+563
+564
+565
+566
+567
+568
+569
+
+570
+571
+572
+573
+574
+575
+576
+577
+578
+579
+
+580
+581
+582
+583
+584
+585
+586
+587
+588
+589
+
+590
+591
+592
+593
+594
+595
+596
+597
+598
+599
+600s
+600
+601
+602
+603
+604
+605
+606
+607
+608
+609
+
+610
+611
+612
+613
+614
+615
+616
+617
+618
+619
+
+620
+621
+622
+623
+624
+625
+626
+627
+628
+629
+
+630
+631
+632
+633
+634
+635
+636
+637
+638
+639
+
+640
+641
+642
+643
+644
+645
+646
+647
+648
+649
+
+650
+651
+652
+653
+654
+655
+656
+657
+658
+659
+
+660
+661
+662
+663
+664
+665
+666
+667
+668
+669
+
+670
+671
+672
+673
+674
+675
+676
+677
+678
+679
+
+680
+681
+682
+683
+684
+685
+686
+687
+688
+689
+
+690
+691
+692
+693
+694
+695
+696
+697
+698
+699
+700s
+700
+701
+702
+703
+704
+705
+706
+707
+708
+709
+
+710
+711
+712
+713
+714
+715
+716
+717
+718
+719
+
+720
+721
+722
+723
+724
+725
+726
+727
+728
+729
+
+730
+731
+732
+733
+734
+735
+736
+737
+738
+739
+
+740
+741
+742
+743
+744
+745
+746
+747
+748
+749
+
+750
+751
+752
+753
+754
+755
+756
+757
+758
+759
+
+760
+761
+762
+763
+764
+765
+766
+767
+768
+769
+
+770
+771
+772
+773
+774
+775
+776
+777
+778
+779
+
+780
+781
+782
+783
+784
+785
+786
+787
+788
+789
+
+790
+791
+792
+793
+794
+795
+796
+797
+798
+799
+800s
+800
+801
+802
+803
+804
+805
+806
+807
+808
+809
+
+810
+811
+812
+813
+814
+815
+816
+817
+818
+819
+
+820
+821
+822
+823
+824
+825
+826
+827
+828
+829
+
+830
+831
+832
+833
+834
+835
+836
+837
+838
+839
+
+840
+841
+842
+843
+844
+845
+846
+847
+848
+849
+
+850
+851
+852
+853
+854
+855
+856
+857
+858
+859
+
+860
+861
+862
+863
+864
+865
+866
+867
+868
+869
+
+870
+871
+872
+873
+874
+875
+876
+877
+878
+879
+
+880
+881
+882
+883
+884
+885
+886
+887
+888
+889
+
+890
+891
+892
+893
+894
+895
+896
+897
+898
+899
+900s
+900
+901
+902
+903
+904
+905
+906
+907
+908
+909
+
+910
+911
+912
+913
+914
+915
+916
+917
+918
+919
+
+920
+921
+922
+923
+924
+925
+926
+927
+928
+929
+
+930
+931
+932
+933
+934
+935
+936
+937
+938
+939
+
+940
+941
+942
+943
+944
+945
+946
+947
+948
+949
+
+950
+951
+952
+953
+954
+955
+956
+957
+958
+959
+
+960
+961
+962
+963
+964
+965
+966
+967
+968
+969
+
+970
+971
+972
+973
+974
+975
+976
+977
+978
+979
+
+980
+981
+982
+983
+984
+985
+986
+987
+988
+989
+
+990
+991
+992
+993
+994
+995
+996
+997
+998
+999
+≥1000
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+
+10,000
+20,000
+30,000
+40,000
+50,000
+60,000
+70,000
+80,000
+90,000
+
+100,000
+1,000,000
+10,000,000
+100,000,000
+1,000,000,000
+
+vteNumber systemsCountable sets
+Natural numbers (
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+)
+Integers (
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+)
+Rational numbers (
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+)
+Constructible numbers
+Algebraic numbers (
+
+
+
+
+A
+
+
+
+{\displaystyle \mathbb {A} }
+
+)
+Periods
+Computable numbers
+Arithmetical numbers
+Set-theoretically definable numbers
+Gaussian integers
+Composition algebras
+Division algebras: Real numbers (
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+)
+Complex numbers (
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+)
+Quaternions (
+
+
+
+
+H
+
+
+
+{\displaystyle \mathbb {H} }
+
+)
+Octonions (
+
+
+
+
+O
+
+
+
+{\displaystyle \mathbb {O} }
+
+)
+Splittypes
+Over 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+:
+Split-complex numbers
+Split-quaternions
+Split-octonions Over 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+:
+Bicomplex numbers
+Biquaternions
+Bioctonions
+Other hypercomplex
+Dual numbers
+Dual quaternions
+Dual-complex numbers
+Hyperbolic quaternions
+Sedenions  (
+
+
+
+
+S
+
+
+
+{\displaystyle \mathbb {S} }
+
+)
+Split-biquaternions
+Multicomplex numbers
+Geometric algebra/Clifford algebra
+Algebra of physical space
+Spacetime algebra
+Other types
+Cardinal numbers
+Extended natural numbers
+Irrational numbers
+Fuzzy numbers
+Hyperreal numbers
+Levi-Civita field
+Surreal numbers
+Transcendental numbers
+Ordinal numbers
+p-adic numbers (p-adic solenoids)
+Supernatural numbers
+Superreal numbers
+Normal numbers
+
+Classification
+ List
+
+vteRational numbers
+Integer
+Dedekind cut
+Dyadic rational
+Half-integer
+Superparticular ratio
+
+Authority control: National libraries 
+Germany
+Japan
+Czech Republic
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Integer&oldid=1109068413"
+Categories: Elementary mathematicsAbelian group theoryRing theoryIntegersElementary number theoryAlgebraic number theoryHidden categories: CS1 Latin-language sources (la)CS1 German-language sources (de)CS1: long volume valueCS1 French-language sources (fr)Articles with short descriptionShort description is different from WikidataUse dmy dates from July 2020Wikipedia articles incorporating text from PlanetMathArticles with GND identifiersArticles with NDL identifiersArticles with NKC identifiersPages that use a deprecated format of the math tags
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadView sourceView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia CommonsWikibooksWikiversity
+
+
+
+
+Languages
+
+
+AfrikaansAlemannischالعربيةAragonésԱրեւմտահայերէնঅসমীয়াAsturianuAzərbaycancaবাংলাBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)Bikol CentralБългарскиBosanskiBrezhonegCatalàЧӑвашлаČeštinaChiShonaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFøroysktFrançaisGaeilgeGalegoГӀалгӀай贛語ગુજરાતીХальмг한국어HawaiʻiՀայերենहिन्दीHornjoserbsceHrvatskiIdoBahasa IndonesiaInterlinguaIsiXhosaÍslenskaItalianoעבריתJawaქართულიҚазақшаKiswahiliKriyòl gwiyannenKurdîКыргызчаລາວLatinaLatviešuLietuviųLimburgsLingua Franca NovaLa .lojban.LombardMagyarМакедонскиMalagasyമലയാളംमराठीBahasa MelayuMirandésМонголNa Vosa VakavitiNederlands日本語NordfriiskNorsk bokmålNorsk nynorskOccitanOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیPatoisPiemontèisPlattdüütschPolskiPortuguêsRomânăРусскийSesotho sa LeboaShqipSicilianuසිංහලSimple EnglishSlovenčinaSlovenščinaŚlůnskiSoomaaligaکوردیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்తెలుగుไทยТоҷикӣTürkçeTürkmençeУкраїнськаاردوTiếng ViệtVõro文言West-VlamsWinaray吴语ייִדישYorùbá粵語Žemaitėška中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 7 September 2022, at 19:18 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

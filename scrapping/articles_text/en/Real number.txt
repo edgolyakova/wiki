@@ -1,0 +1,1775 @@
+
+
+
+
+Real number - Wikipedia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Real number
+
+From Wikipedia, the free encyclopedia
+
+
+
+Jump to navigation
+Jump to search
+Number representing a continuous quantity
+For the real numbers used in descriptive set theory, see Baire space (set theory). For the computing datatype, see Floating-point number.
+This article includes a list of general references, but it lacks sufficient corresponding inline citations. Please help to improve this article by introducing more precise citations. (April 2016) (Learn how and when to remove this template message)
+ A symbol for the set of real numbers
+In mathematics, a real number is a value of a continuous quantity that can represent a distance along a line (or alternatively, a quantity that can be represented as an infinite decimal expansion). The adjective real in this context was introduced in the 17th century by René Descartes, who distinguished between real and imaginary roots of polynomials.[1] The real numbers include all the rational numbers, such as the integer −5 and the fraction 4/3, and all the irrational numbers, such as 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ (1.41421356..., the square root of 2, an irrational algebraic number). Included within the irrationals are the real transcendental numbers, such as π (3.14159265...).[2]  Real numbers can be used to measure (approximately) physical observables such as time, mass, energy; and in one dimension, distance, velocity, acceleration, force, momentum, etc. The set of real numbers is denoted using the symbol R or 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+[3] and is sometimes called "the reals".[4]
+Real numbers can be thought of as points on an infinitely long line called the number line or real line, where the points corresponding to integers are equally spaced. Any real number can be determined by a possibly infinite decimal representation, such as that of 8.632, where each consecutive digit is measured in units one-tenth the size of the previous one.[5] The real line can be thought of as a part of the complex plane, and the real numbers can be thought of as a part of the complex numbers.
+
+ Real numbers can be thought of as points on an infinitely long number line
+These descriptions of the real numbers are not sufficiently rigorous by the modern standards of pure mathematics. The discovery of a suitably rigorous definition of the real numbers—indeed, the realization that a better definition was needed—was one of the most important developments of 19th-century mathematics. The current standard axiomatic definition is that real numbers form the unique Dedekind-complete ordered field (
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ ; + ; · ; <), up to an isomorphism,[a] whereas popular constructive definitions of real numbers include declaring them as equivalence classes of Cauchy sequences (of rational numbers), Dedekind cuts, or infinite decimal representations, together with precise interpretations for the arithmetic operations and the order relation. All these definitions satisfy the axiomatic definition and are thus equivalent.
+The set of all real numbers is uncountable, in the sense that while both the set of all natural numbers and the set of all real numbers are infinite sets, there can be no one-to-one function from the real numbers to the natural numbers. In fact, the cardinality of the set of all real numbers, denoted by 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+ and called the cardinality of the continuum, is strictly greater than the cardinality of the set of all natural numbers (denoted 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+, 'aleph-naught').
+The statement that there is no subset of the reals with cardinality strictly greater than 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+ and strictly smaller than 
+
+
+
+
+
+c
+
+
+
+
+{\displaystyle {\mathfrak {c}}}
+
+ is known as the continuum hypothesis (CH). It is neither provable nor refutable using the axioms of Zermelo–Fraenkel set theory including the axiom of choice (ZFC)—the standard foundation of modern mathematics. In fact, some models of ZFC satisfy CH, while others violate it.[6]
+
+Contents
+
+1 History
+2 Definition
+
+2.1 Axiomatic approach
+2.2 Construction from the rational numbers
+
+
+3 Properties
+
+3.1 Basic properties
+3.2 Completeness
+3.3 "The complete ordered field"
+3.4 Advanced properties
+
+
+4 Applications and connections to other areas
+
+4.1 Real numbers and logic
+4.2 In physics
+4.3 In computation
+4.4 "Reals" in set theory
+
+
+5 Vocabulary and notation
+6 Generalizations and extensions
+7 See also
+8 Notes
+9 References
+
+9.1 Citations
+9.2 Sources
+
+
+10 External links
+
+
+History[edit]
+ Real numbers 
+
+
+
+(
+
+R
+
+)
+
+
+{\displaystyle (\mathbb {R} )}
+
+ include the rational numbers 
+
+
+
+(
+
+Q
+
+)
+
+
+{\displaystyle (\mathbb {Q} )}
+
+, which include the integers 
+
+
+
+(
+
+Z
+
+)
+
+
+{\displaystyle (\mathbb {Z} )}
+
+, which in turn include the natural numbers 
+
+
+
+(
+
+N
+
+)
+
+
+{\displaystyle (\mathbb {N} )}
+
+
+Simple fractions were used by the Egyptians around 1000 BC; the Vedic "Shulba Sutras" ("The rules of chords") in c. 600 BC include what may be the first "use" of irrational numbers. The concept of irrationality was implicitly accepted by early Indian mathematicians such as Manava (c. 750–690 BC), who were aware that the square roots of certain numbers, such as 2 and 61, could not be exactly determined.[7] Around 500 BC, the Greek mathematicians led by Pythagoras realized the need for irrational numbers, in particular the irrationality of the square root of 2.
+The Middle Ages brought about the acceptance of zero, negative numbers, integers, and fractional numbers, first by Indian and Chinese mathematicians, and then by Arabic mathematicians, who were also the first to treat irrational numbers as algebraic objects (the latter being made possible by the development of algebra).[8] Arabic mathematicians merged the concepts of "number" and "magnitude" into a more general idea of real numbers.[9] The Egyptian mathematician Abū Kāmil Shujā ibn Aslam (c. 850–930) was the first to accept irrational numbers as solutions to quadratic equations, or as coefficients in an equation (often in the form of square roots, cube roots and fourth roots).[10]
+In the 16th century, Simon Stevin created the basis for modern decimal notation, and insisted that there is no difference between rational and irrational numbers in this regard.
+In the 17th century, Descartes introduced the term "real" to describe roots of a polynomial, distinguishing them from "imaginary" ones.
+In the 18th and 19th centuries, there was much work on irrational and transcendental numbers. Johann Heinrich Lambert (1761) gave the first flawed proof that π cannot be rational; Adrien-Marie Legendre (1794) completed the proof,[11] and showed that π is not the square root of a rational number.[12] Paolo Ruffini (1799) and Niels Henrik Abel (1842) both constructed proofs of the Abel–Ruffini theorem: that the general quintic or higher equations cannot be solved by a general formula involving only arithmetical operations and roots.
+Évariste Galois (1832) developed techniques for determining whether a given equation could be solved by radicals, which gave rise to the field of Galois theory. Joseph Liouville (1840) showed that neither e nor e2 can be a root of an integer quadratic equation, and then established the existence of transcendental numbers; Georg Cantor (1873) extended and greatly simplified this proof.[13] Charles Hermite (1873) first proved that e is transcendental, and Ferdinand von Lindemann (1882), showed that π is transcendental. Lindemann's proof was much simplified by Weierstrass (1885), still further by David Hilbert (1893), and has finally been made elementary by Adolf Hurwitz[14] and Paul Gordan.[15]
+The development of calculus in the 18th century used the entire set of real numbers without having defined them rigorously. The first rigorous definition was published by Georg Cantor in 1871. In 1874, he showed that the set of all real numbers is uncountably infinite, but the set of all algebraic numbers is countably infinite. Contrary to widely held beliefs, his first method was not his famous diagonal argument, which he published in 1891. For more, see Cantor's first uncountability proof.
+
+Definition[edit]
+Main article: Construction of the real numbers
+The real number system 
+
+
+
+(
+
+R
+
+;
+
+
++
+
+
+;
+
+
+⋅
+
+
+;
+
+
+<
+
+
+)
+
+
+{\displaystyle (\mathbb {R} ;{}+{};{}\cdot {};{}<{})}
+
+ can be defined axiomatically up to an isomorphism, which is described hereafter. There are also many ways to construct "the" real number system, and a popular approach involves starting from natural numbers, then defining rational numbers algebraically, and finally defining real numbers as equivalence classes of their Cauchy sequences or as Dedekind cuts, which are certain subsets of rational numbers.[16] Another approach is to start from some rigorous axiomatization of Euclidean geometry (say of Hilbert or of Tarski), and then define the real number system geometrically. All these constructions of the real numbers have been shown to be equivalent, in the sense that the resulting number systems are isomorphic.
+
+Axiomatic approach[edit]
+Let 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ denote the set of all real numbers, then:
+
+The set 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is a field, meaning that addition and multiplication are defined and have the usual properties.
+The field 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is ordered, meaning that there is a total order ≥ such that for all real numbers x, y and z:
+if x ≥ y, then x + z ≥ y + z;
+if x ≥ 0 and y ≥ 0, then xy ≥ 0.
+The order is Dedekind-complete, meaning that every non-empty subset S of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ with an upper bound in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ has a least upper bound (a.k.a., supremum) in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.
+The last property is what differentiates the real numbers from the rational numbers (and from other more exotic ordered fields). For example, 
+
+
+
+{
+x
+∈
+
+Q
+
+:
+
+x
+
+2
+
+
+<
+2
+}
+
+
+{\displaystyle \{x\in \mathbb {Q} :x^{2}<2\}}
+
+ has a rational upper bound (e.g., 1.42), but no least rational upper bound, because 
+
+
+
+
+
+2
+
+
+
+
+{\displaystyle {\sqrt {2}}}
+
+ is not rational.
+These properties imply the Archimedean property (which is not implied by other definitions of completeness), which states that the set of integers has no upper bound in the reals. In fact, if this were false, then the integers would have a least upper bound N; then, N – 1 would not be an upper bound, and there would be an integer n such that n > N – 1, and thus n + 1 > N, which is a contradiction with the upper-bound property of N.
+The real numbers are uniquely specified by the above properties. More precisely, given any two Dedekind-complete ordered fields 
+
+
+
+
+
+R
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {R} _{1}}
+
+ and 
+
+
+
+
+
+R
+
+
+2
+
+
+
+
+{\displaystyle \mathbb {R} _{2}}
+
+, there exists a unique field isomorphism from 
+
+
+
+
+
+R
+
+
+1
+
+
+
+
+{\displaystyle \mathbb {R} _{1}}
+
+ to 
+
+
+
+
+
+R
+
+2
+
+
+
+
+
+{\displaystyle \mathbb {R_{2}} }
+
+. This uniqueness allows us to think of them as essentially the same mathematical object.
+For another axiomatization of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, see Tarski's axiomatization of the reals.
+
+Construction from the rational numbers[edit]
+The real numbers can be constructed as a completion of the rational numbers, in such a way that a sequence defined by a decimal or binary expansion like (3; 3.1; 3.14; 3.141; 3.1415; ...) converges to a unique real number—in this case π. For details and other constructions of real numbers, see construction of the real numbers.
+
+Properties[edit]
+Basic properties[edit]
+Any non-zero real number is either negative or positive.
+The sum and the product of two non-negative real numbers is again a non-negative real number, i.e., they are closed under these operations, and form a positive cone, thereby giving rise to a linear order of the real numbers along a number line.
+The real numbers make up an infinite set of numbers that cannot be injectively mapped to the infinite set of natural numbers, i.e., there are uncountably infinitely many real numbers, whereas the natural numbers are called countably infinite. This establishes that in some sense, there are more real numbers than there are elements in any countable set.
+There is a hierarchy of countably infinite subsets of the real numbers, e.g., the integers, the rational numbers, the algebraic numbers and the computable numbers, each set being a proper subset of the next in the sequence. The complements of all these sets (irrational, transcendental, and non-computable real numbers) in the reals are all uncountably infinite sets.
+Real numbers can be used to express measurements of continuous quantities. They may be expressed by decimal representations, most of them having an infinite sequence of digits to the right of the decimal point; these are often represented like 324.823122147..., where the ellipsis (three dots) indicates that there would still be more digits to come. This hints at the fact that we can precisely denote only a few, selected real numbers with finitely many symbols.
+More formally, the real numbers have the two basic properties of being an ordered field, and having the least upper bound property. The first says that real numbers comprise a field, with addition and multiplication as well as division by non-zero numbers, which can be totally ordered on a number line in a way compatible with addition and multiplication. The second says that, if a non-empty set of real numbers has an upper bound, then it has a real least upper bound. The second condition distinguishes the real numbers from the rational numbers: for example, the set of rational numbers whose square is less than 2 is a set with an upper bound (e.g. 1.5) but no (rational) least upper bound: hence the rational numbers do not satisfy the least upper bound property.
+
+Completeness[edit]
+Main article: Completeness of the real numbers
+A main reason for using real numbers is so that many sequences have limits.  More formally, the reals are complete (in the sense of metric spaces or uniform spaces, which is a different sense than the Dedekind completeness of the order in the previous section):
+A sequence (xn) of real numbers is called a Cauchy sequence if for any ε > 0 there exists an integer N (possibly depending on ε) such that the distance |xn − xm| is less than ε for all n and m that are both greater than N. This definition, originally provided by Cauchy, formalizes the fact that the xn eventually come and remain arbitrarily close to each other.
+A sequence (xn) converges to the limit x if its elements eventually come and remain arbitrarily close to x, that is, if for any ε > 0 there exists an integer N (possibly depending on ε) such that the distance |xn − x| is less than ε for n greater than N.
+Every convergent sequence is a Cauchy sequence, and the converse is true for real numbers, and this means that the topological space of the real numbers is complete.
+The set of rational numbers is not complete. For example, the sequence (1; 1.4; 1.41; 1.414; 1.4142; 1.41421; ...), where each term adds a digit of the decimal expansion of the positive square root of 2, is Cauchy but it does not converge to a rational number (in the real numbers, in contrast, it converges to the positive square root of 2).
+The completeness property of the reals is the basis on which calculus, and, more generally mathematical analysis are built. In particular, the test that a sequence is a Cauchy sequence allows proving that a sequence has a limit, without computing it, and even without knowing it.
+For example, the standard series of the exponential function
+
+
+
+
+
+
+e
+
+x
+
+
+=
+
+∑
+
+n
+=
+0
+
+
+∞
+
+
+
+
+
+x
+
+n
+
+
+
+n
+!
+
+
+
+
+
+{\displaystyle e^{x}=\sum _{n=0}^{\infty }{\frac {x^{n}}{n!}}}
+
+
+converges to a real number for every x, because the sums
+
+
+
+
+
+
+∑
+
+n
+=
+N
+
+
+M
+
+
+
+
+
+x
+
+n
+
+
+
+n
+!
+
+
+
+
+
+{\displaystyle \sum _{n=N}^{M}{\frac {x^{n}}{n!}}}
+
+
+can be made arbitrarily small (independently of M) by choosing N sufficiently large. This proves that the sequence is Cauchy, and thus converges, showing that 
+
+
+
+
+e
+
+x
+
+
+
+
+{\displaystyle e^{x}}
+
+ is well defined for every x.
+
+"The complete ordered field"[edit]
+The real numbers are often described as "the complete ordered field", a phrase that can be interpreted in several ways.
+First, an order can be lattice-complete. It is easy to see that no ordered field can be lattice-complete, because it can have no largest element (given any element z, z + 1 is larger).
+Additionally, an order can be Dedekind-complete, see § Axiomatic approach. The uniqueness result at the end of that section justifies using the word "the" in the phrase "complete ordered field" when this is the sense of "complete" that is meant. This sense of completeness is most closely related to the construction of the reals from Dedekind cuts, since that construction starts from an ordered field (the rationals) and then forms the Dedekind-completion of it in a standard way.
+These two notions of completeness ignore the field structure. However, an ordered group (in this case, the additive group of the field) defines a uniform structure, and uniform structures have a notion of completeness; the description in § Completeness is a special case. (We refer to the notion of completeness in uniform spaces rather than the related and better known notion for metric spaces, since the definition of metric space relies on already having a characterization of the real numbers.) It is not true that 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is the only uniformly complete ordered field, but it is the only uniformly complete Archimedean field, and indeed one often hears the phrase "complete Archimedean field" instead of "complete ordered field". Every uniformly complete Archimedean field must also be Dedekind-complete (and vice versa), justifying using "the" in the phrase "the complete Archimedean field". This sense of completeness is most closely related to the construction of the reals from Cauchy sequences (the construction carried out in full in this article), since it starts with an Archimedean field (the rationals) and forms the uniform completion of it in a standard way.
+But the original use of the phrase "complete Archimedean field" was by David Hilbert, who meant still something else by it. He meant that the real numbers form the largest Archimedean field in the sense that every other Archimedean field is a subfield of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. Thus 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is "complete" in the sense that nothing further can be added to it without making it no longer an Archimedean field. This sense of completeness is most closely related to the construction of the reals from surreal numbers, since that construction starts with a proper class that contains every ordered field (the surreals) and then selects from it the largest Archimedean subfield.
+
+Advanced properties[edit]
+See also: Real line
+The reals are uncountable; that is, there are strictly more real numbers than natural numbers, even though both sets are infinite. In fact, the cardinality of the reals equals that of the set of subsets (i.e. the power set) of the natural numbers, and Cantor's diagonal argument states that the latter set's cardinality is strictly greater than the cardinality of 
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+. Since the set of algebraic numbers is countable, almost all real numbers are transcendental. The non-existence of a subset of the reals with cardinality strictly between that of the integers and the reals is known as the continuum hypothesis. The continuum hypothesis can neither be proved nor be disproved; it is independent from the axioms of set theory.
+As a topological space, the real numbers are separable. This is because the set of rationals, which is countable, is dense in the real numbers. The irrational numbers are also dense in the real numbers, however they are uncountable and have the same cardinality as the reals.
+The real numbers form a metric space: the distance between x and y is defined as the absolute value |x − y|. By virtue of being a totally ordered set, they also carry an order topology; the topology arising from the metric and the one arising from the order are identical, but yield different presentations for the topology—in the order topology as ordered intervals, in the metric topology as epsilon-balls. The Dedekind cuts construction uses the order topology presentation, while the Cauchy sequences construction uses the metric topology presentation. The reals form a contractible (hence connected and simply connected), separable and complete metric space of Hausdorff dimension 1. The real numbers are locally compact but not compact. There are various properties that uniquely specify them; for instance, all unbounded, connected, and separable order topologies are necessarily homeomorphic to the reals.
+Every nonnegative real number has a square root in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, although no negative number does. This shows that the order on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ is determined by its algebraic structure. Also, every polynomial of odd degree admits at least one real root: these two properties make 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ the premier example of a real closed field. Proving this is the first half of one proof of the fundamental theorem of algebra.
+The reals carry a canonical measure, the Lebesgue measure, which is the Haar measure on their structure as a topological group normalized such that the unit interval [0;1] has measure 1. There exist sets of real numbers that are not Lebesgue measurable, e.g. Vitali sets.
+The supremum axiom of the reals refers to subsets of the reals and is therefore a second-order logical statement. It is not possible to characterize the reals with first-order logic alone: the Löwenheim–Skolem theorem implies that there exists a countable dense subset of the real numbers satisfying exactly the same sentences in first-order logic as the real numbers themselves. The set of hyperreal numbers satisfies the same first order sentences as 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. Ordered fields that satisfy the same first-order sentences as 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ are called nonstandard models of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+. This is what makes nonstandard analysis work; by proving a first-order statement in some nonstandard model (which may be easier than proving it in 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+), we know that the same statement must also be true of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+.
+The field 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ of real numbers is an extension field of the field 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+ of rational numbers, and 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ can therefore be seen as a vector space over 
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+. Zermelo–Fraenkel set theory with the axiom of choice guarantees the existence of a basis of this vector space: there exists a set B of real numbers such that every real number can be written uniquely as a finite linear combination of elements of this set, using rational coefficients only, and such that no element of B is a rational linear combination of the others. However, this existence theorem is purely theoretical, as such a base has never been explicitly described.
+The well-ordering theorem implies that the real numbers can be well-ordered if the axiom of choice is assumed: there exists a total order on 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ with the property that every non-empty subset of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ has a least element in this ordering. (The standard ordering ≤ of the real numbers is not a well-ordering since e.g. an open interval does not contain a least element in this ordering.) Again, the existence of such a well-ordering is purely theoretical, as it has not been explicitly described. If V=L is assumed in addition to the axioms of ZF, a well ordering of the real numbers can be shown to be explicitly definable by a formula.[17]
+A real number may be either computable or uncomputable; either algorithmically random or not; and either arithmetically random or not.
+
+Applications and connections to other areas[edit]
+Real numbers and logic[edit]
+The real numbers are most often formalized using the Zermelo–Fraenkel axiomatization of set theory, but some mathematicians study the real numbers with other logical foundations of mathematics. In particular, the real numbers are also studied in reverse mathematics and in constructive mathematics.[18]
+The hyperreal numbers as developed by Edwin Hewitt, Abraham Robinson and others extend the set of the real numbers by introducing infinitesimal and infinite numbers, allowing for building infinitesimal calculus in a way closer to the original intuitions of Leibniz, Euler, Cauchy and others.
+Edward Nelson's internal set theory enriches the Zermelo–Fraenkel set theory syntactically by introducing a unary predicate "standard". In this approach, infinitesimals are (non-"standard") elements of the set of the real numbers (rather than being elements of an extension thereof, as in Robinson's theory).
+The continuum hypothesis posits that the cardinality of the set of the real numbers is 
+
+
+
+
+ℵ
+
+1
+
+
+
+
+{\displaystyle \aleph _{1}}
+
+; i.e. the smallest infinite cardinal number after 
+
+
+
+
+ℵ
+
+0
+
+
+
+
+{\displaystyle \aleph _{0}}
+
+, the cardinality of the integers. Paul Cohen proved in 1963 that it is an axiom independent of the other axioms of set theory; that is: one may choose either the continuum hypothesis or its negation as an axiom of set theory, without contradiction.
+
+In physics[edit]
+In the physical sciences, most physical constants such as the universal gravitational constant, and physical variables, such as position, mass, speed, and electric charge, are modeled using real numbers. In fact, the fundamental physical theories such as classical mechanics, electromagnetism, quantum mechanics, general relativity and the standard model are described using mathematical structures, typically smooth manifolds or Hilbert spaces, that are based on the real numbers, although actual measurements of physical quantities are of finite accuracy and precision.
+Physicists have occasionally suggested that a more fundamental theory would replace the real numbers with quantities that do not form a continuum, but such proposals remain speculative.[19]
+
+In computation[edit]
+With some exceptions, most calculators do not operate on real numbers. Instead, they work with finite-precision approximations called floating-point numbers. In fact, most scientific computation uses floating-point arithmetic. Real numbers satisfy the usual rules of arithmetic, but floating-point numbers do not.
+Computers cannot directly store arbitrary real numbers with infinitely many digits. The achievable precision is limited by the number of bits allocated to store a number, whether as floating-point numbers or arbitrary-precision numbers. However, computer algebra systems can operate on irrational quantities exactly by manipulating formulas for them (such as 
+
+
+
+
+
+2
+
+
+,
+
+
+{\displaystyle {\sqrt {2}},}
+
+ 
+
+
+
+arcsin
+⁡
+(
+2
+
+/
+
+23
+)
+,
+
+
+{\displaystyle \arcsin(2/23),}
+
+ or 
+
+
+
+
+
+∫
+
+0
+
+
+1
+
+
+
+x
+
+x
+
+
+
+d
+x
+
+
+
+{\displaystyle \textstyle \int _{0}^{1}x^{x}\,dx}
+
+) rather than their rational or decimal approximation.[20] It is not in general possible to determine whether two such expressions are equal (the constant problem).
+A real number is called computable if there exists an algorithm that yields its digits. Because there are only countably many algorithms,[21] but an uncountable number of reals, almost all real numbers fail to be computable. Moreover, the equality of two computable numbers is an undecidable problem. Some constructivists accept the existence of only those reals that are computable. The set of definable numbers is broader, but still only countable.
+
+"Reals" in set theory[edit]
+In set theory, specifically descriptive set theory, the Baire space is used as a surrogate for the real numbers since the latter have some topological properties (connectedness) that are a technical inconvenience. Elements of Baire space are referred to as "reals".
+
+Vocabulary and notation[edit]
+Mathematicians use mainly the symbol R to represent the set of all real numbers. Alternatively, it may be used 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+, the letter "R" in blackboard bold, which may be encoded in Unicode (and HTML) as U+211D ℝ  (&reals;, &Ropf;). As this set is naturally endowed with the structure of a field, the expression field of real numbers is frequently used when its algebraic properties are under consideration.
+The sets of positive real numbers and negative real numbers are often noted 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} ^{+}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+
+
+{\displaystyle \mathbb {R} ^{-}}
+
+,[22] respectively; 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} _{+}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+
+
+{\displaystyle \mathbb {R} _{-}}
+
+ are also used.[23] The non-negative real numbers can be noted 
+
+
+
+
+
+R
+
+
+≥
+0
+
+
+
+
+{\displaystyle \mathbb {R} _{\geq 0}}
+
+ but one often sees this set noted 
+
+
+
+
+
+R
+
+
++
+
+
+∪
+{
+0
+}
+.
+
+
+{\displaystyle \mathbb {R} ^{+}\cup \{0\}.}
+
+[22] In French mathematics, the positive real numbers and negative real numbers commonly include zero, and these sets are noted respectively 
+
+
+
+
+
+R
+
++
+
+
+
+
+
+{\displaystyle \mathbb {R_{+}} }
+
+ and 
+
+
+
+
+
+R
+
+−
+
+
+
+.
+
+
+{\displaystyle \mathbb {R_{-}} .}
+
+[23] In this understanding, the respective sets without zero are called strictly positive real numbers and strictly negative real numbers, and are noted 
+
+
+
+
+
+R
+
+
++
+
+
+∗
+
+
+
+
+{\displaystyle \mathbb {R} _{+}^{*}}
+
+ and 
+
+
+
+
+
+R
+
+
+−
+
+
+∗
+
+
+.
+
+
+{\displaystyle \mathbb {R} _{-}^{*}.}
+
+[23]
+The notation 
+
+
+
+
+
+R
+
+
+n
+
+
+
+
+{\displaystyle \mathbb {R} ^{n}}
+
+ refers to the set of the n-tuples of elements of 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ (real coordinate space), which can be identified to the Cartesian product of n copies of 
+
+
+
+
+R
+
+.
+
+
+{\displaystyle \mathbb {R} .}
+
+ It is an n-dimensional vector space over the field of the real numbers, often called the coordinate space of dimension n; this space may be identified to the n-dimensional Euclidean space as soon as a Cartesian coordinate system has been chosen in the latter. In this identification, a point of the Euclidean space is identified with the tuple of its Cartesian coordinates.
+In mathematics, real is used as an adjective, meaning that the underlying field is the field of the real numbers (or the real field). For example, real matrix, real polynomial and real Lie algebra. The word is also used as a noun, meaning a real number (as in "the set of all reals").
+
+Generalizations and extensions[edit]
+The real numbers can be generalized and extended in several different directions:
+
+The complex numbers contain solutions to all polynomial equations and hence are an algebraically closed field unlike the real numbers. However, the complex numbers are not an ordered field.
+The affinely extended real number system adds two elements +∞ and −∞. It is a compact space. It is no longer a field, or even an additive group, but it still has a total order; moreover, it is a complete lattice.
+The real projective line adds only one value ∞. It is also a compact space. Again, it is no longer a field, or even an additive group. However, it allows division of a non-zero element by zero. It has cyclic order described by a separation relation.
+The long real line pastes together ℵ1* + ℵ1 copies of the real line plus a single point (here ℵ1* denotes the reversed ordering of ℵ1) to create an ordered set that is "locally" identical to the real numbers, but somehow longer; for instance, there is an order-preserving embedding of ℵ1 in the long real line but not in the real numbers. The long real line is the largest ordered set that is complete and locally Archimedean. As with the previous two examples, this set is no longer a field or additive group.
+Ordered fields extending the reals are the hyperreal numbers and the surreal numbers; both of them contain infinitesimal and infinitely large numbers and are therefore non-Archimedean ordered fields.
+Self-adjoint operators on a Hilbert space (for example, self-adjoint square complex matrices) generalize the reals in many respects: they can be ordered (though not totally ordered), they are complete, all their eigenvalues are real and they form a real associative algebra. Positive-definite operators correspond to the positive reals and normal operators correspond to the complex numbers.
+See also[edit]
+
+
+Mathematics portal
+Completeness of the real numbers
+Continued fraction
+Definable real numbers
+Positive real numbers
+Real analysis
+
+
+
+
+
+
+
+Number systems
+
+
+Complex 
+
+
+
+:
+
+
+C
+
+
+
+{\displaystyle :\;\mathbb {C} }
+
+
+
+
+
+
+
+
+
+Real 
+
+
+
+:
+
+
+R
+
+
+
+{\displaystyle :\;\mathbb {R} }
+
+
+
+
+
+
+
+
+
+Rational 
+
+
+
+:
+
+
+Q
+
+
+
+{\displaystyle :\;\mathbb {Q} }
+
+
+
+
+
+
+
+
+
+Integer 
+
+
+
+:
+
+
+Z
+
+
+
+{\displaystyle :\;\mathbb {Z} }
+
+
+
+
+
+
+
+
+
+Natural 
+
+
+
+:
+
+
+N
+
+
+
+{\displaystyle :\;\mathbb {N} }
+
+
+
+
+
+
+Zero: 0
+
+
+One: 1
+
+
+Prime numbers
+
+
+Composite numbers
+
+
+
+
+Negative integers
+
+
+
+
+
+
+
+Fraction
+
+
+
+
+Finite decimal
+
+
+Dyadic (finite binary)
+
+
+Repeating decimal
+
+
+
+
+
+
+
+
+
+
+
+Irrational
+
+
+
+
+Algebraic irrational
+
+
+Transcendental
+
+
+
+
+
+
+Imaginary
+
+
+
+
+Notes[edit]
+
+
+^ More precisely, given two complete totally ordered fields, there is a unique isomorphism between them. This implies that the identity is the unique field automorphism of the reals that is compatible with the ordering.
+
+
+References[edit]
+Citations[edit]
+
+
+^ "real number | Definition, Examples, & Facts | Britannica". www.britannica.com.
+
+^ "Real number | mathematics". Encyclopedia Britannica. Retrieved 2020-08-11.
+
+^ Weisstein, Eric W. "Real Number". mathworld.wolfram.com. Retrieved 2020-08-11.
+
+^ Oxford English Dictionary, 3rd edition, 2008, s.v. 'real', n.2, B.4: "Mathematics. A real number. Usually in plural."
+
+^ "Real number". Oxford Reference. 2011-08-03.
+
+^ Koellner, Peter (June 16, 2019).  Zalta, Edward N. (ed.). The Stanford Encyclopedia of Philosophy. Metaphysics Research Lab, Stanford University – via Stanford Encyclopedia of Philosophy.
+
+^ T. K. Puttaswamy, "The Accomplishments of Ancient Indian Mathematicians", pp. 410–11. In: Selin, Helaine; D'Ambrosio, Ubiratan, eds. (2000), Mathematics Across Cultures: The History of Non-western Mathematics, Springer, ISBN 978-1-4020-0260-1.
+
+^ O'Connor, John J.; Robertson, Edmund F. (1999), "Arabic mathematics: forgotten brilliance?", MacTutor History of Mathematics archive, University of St Andrews
+
+^ Matvievskaya, Galina (1987), "The Theory of Quadratic Irrationals in Medieval Oriental Mathematics", Annals of the New York Academy of Sciences, 500 (1): 253–77 [254], Bibcode:1987NYASA.500..253M, doi:10.1111/j.1749-6632.1987.tb37206.x, S2CID 121416910
+
+^ Jacques Sesiano, "Islamic mathematics", p. 148, in Selin, Helaine; D'Ambrosio, Ubiratan (2000), Mathematics Across Cultures: The History of Non-western Mathematics, Springer, ISBN 978-1-4020-0260-1
+
+^ Beckmann, Petr (1993), A History of Pi, Dorset Classic Reprints, Barnes & Noble Publishing, p. 170, ISBN 978-0-88029-418-8, archived from the original on 2016-05-04, retrieved 2015-11-15.
+
+^ Arndt, Jörg; Haenel, Christoph (2001), Pi Unleashed, Springer, p. 192, ISBN 978-3-540-66572-4, archived from the original on 2016-05-21, retrieved 2015-11-15.
+
+^ Dunham, William (2015), The Calculus Gallery: Masterpieces from Newton to Lebesgue, Princeton University Press, p. 127, ISBN 978-1-4008-6679-3, archived from the original on 2015-05-14, retrieved 2015-02-17, Cantor found a remarkable shortcut to reach Liouville's conclusion with a fraction of the work
+
+^ Hurwitz, Adolf (1893). "Beweis der Transendenz der Zahl e". Mathematische Annalen (43): 134–35.
+
+^ Gordan, Paul (1893). "Transcendenz von e und π". Mathematische Annalen. 43 (2–3): 222–224. doi:10.1007/bf01443647. S2CID 123203471.
+
+^ "Lecture #1" (PDF). 18.095 Lecture Series in Mathematics. 2015-01-05.
+
+^ Moschovakis, Yiannis N. (1980), "Descriptive set theory", Studies in Logic and the Foundations of Mathematics, Amsterdam; New York: North-Holland Publishing Co., vol. 100, pp. xii, 637, ISBN 978-0-444-85305-9, chapter V.
+
+^ Bishop, Errett; Bridges, Douglas (1985), Constructive analysis, Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences], vol. 279, Berlin, New York: Springer-Verlag, ISBN 978-3-540-15066-4, chapter 2.
+
+^ Wheeler, John Archibald (1986). "Hermann Weyl and the Unity of Knowledge: In the linkage of four mysteries—the "how come" of existence, time, the mathematical continuum, and the discontinuous yes-or-no of quantum physics—may lie the key to deep new insight". American Scientist. 74 (4): 366–75. Bibcode:1986AmSci..74..366W. JSTOR 27854250.Bengtsson, Ingemar (2017). "The Number Behind the Simplest SIC-POVM". Foundations of Physics. 47 (8): 1031–41. arXiv:1611.09087. Bibcode:2017FoPh...47.1031B. doi:10.1007/s10701-017-0078-3. S2CID 118954904.
+
+^ Cohen, Joel S. (2002), Computer algebra and symbolic computation: elementary algorithms, vol. 1, A K Peters, p. 32, ISBN 978-1-56881-158-1
+
+^ Hein, James L. (2010), "14.1.1", Discrete Structures, Logic, and Computability (3 ed.), Sudbury, MA: Jones and Bartlett Publishers, ISBN 97-80763772062, archived from the original on 2016-06-17, retrieved 2015-11-15
+
+^ a b Schumacher 1996, pp. 114–15
+
+^ a b c École Normale Supérieure of Paris, "Nombres réels" ("Real numbers") Archived 2014-05-08 at the Wayback Machine, p. 6
+
+
+Sources[edit]
+
+Cantor, Georg (1874). "Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen". Journal für die Reine und Angewandte Mathematik, volume 77, pp. 258–62.
+Feferman, Solomon (1989). The Number Systems: Foundations of Algebra and Analysis, AMS Chelsea, ISBN 0-8218-2915-7.
+Katz, Robert (1964). Axiomatic Analysis, D.C. Heath and Company.
+Landau, Edmund (2001). Foundations of Analysis. American Mathematical Society,ISBN 0-8218-2693-X.
+Howie, John M. Real Analysis. Springer, 2005, ISBN 1-85233-314-6.
+Schumacher, Carol (1996), ChapterZero / Fundamental Notions of Abstract Mathematics BV, Addison-Wesley, ISBN 978-0-201-82653-1.
+
+External links[edit]
+"Real number", Encyclopedia of Mathematics, EMS Press, 2001 [1994]
+vteReal numbers
+0.999...
+Absolute difference
+Cantor set
+Cantor–Dedekind axiom
+Completeness
+Construction
+Decidability of first-order theories
+Extended real number line
+Gregory number
+Irrational number
+Normal number
+Rational number
+Rational zeta series
+Real coordinate space
+Real line
+Tarski axiomatization
+Vitali set
+
+vteComplex numbers
+Complex conjugate
+Complex plane
+Imaginary number
+Real number
+Unit complex number
+
+vteNumber systemsCountable sets
+Natural numbers (
+
+
+
+
+N
+
+
+
+{\displaystyle \mathbb {N} }
+
+)
+Integers (
+
+
+
+
+Z
+
+
+
+{\displaystyle \mathbb {Z} }
+
+)
+Rational numbers (
+
+
+
+
+Q
+
+
+
+{\displaystyle \mathbb {Q} }
+
+)
+Constructible numbers
+Algebraic numbers (
+
+
+
+
+A
+
+
+
+{\displaystyle \mathbb {A} }
+
+)
+Periods
+Computable numbers
+Arithmetical numbers
+Set-theoretically definable numbers
+Gaussian integers
+Composition algebras
+Division algebras: Real numbers (
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+)
+Complex numbers (
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+)
+Quaternions (
+
+
+
+
+H
+
+
+
+{\displaystyle \mathbb {H} }
+
+)
+Octonions (
+
+
+
+
+O
+
+
+
+{\displaystyle \mathbb {O} }
+
+)
+Splittypes
+Over 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+:
+Split-complex numbers
+Split-quaternions
+Split-octonions Over 
+
+
+
+
+C
+
+
+
+{\displaystyle \mathbb {C} }
+
+:
+Bicomplex numbers
+Biquaternions
+Bioctonions
+Other hypercomplex
+Dual numbers
+Dual quaternions
+Dual-complex numbers
+Hyperbolic quaternions
+Sedenions  (
+
+
+
+
+S
+
+
+
+{\displaystyle \mathbb {S} }
+
+)
+Split-biquaternions
+Multicomplex numbers
+Geometric algebra/Clifford algebra
+Algebra of physical space
+Spacetime algebra
+Other types
+Cardinal numbers
+Extended natural numbers
+Irrational numbers
+Fuzzy numbers
+Hyperreal numbers
+Levi-Civita field
+Surreal numbers
+Transcendental numbers
+Ordinal numbers
+p-adic numbers (p-adic solenoids)
+Supernatural numbers
+Superreal numbers
+Normal numbers
+
+Classification
+ List
+
+Authority control: National libraries 
+France (data)
+Germany
+Israel
+United States
+Japan
+Czech Republic
+
+
+
+
+
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Real_number&oldid=1114461814"
+Categories: Real numbersReal algebraic geometryElementary mathematicsHidden categories: Articles containing French-language textWebarchive template wayback linksArticles with short descriptionShort description is different from WikidataArticles lacking in-text citations from April 2016All articles lacking in-text citationsArticles containing German-language textArticles with BNF identifiersArticles with GND identifiersArticles with J9U identifiersArticles with LCCN identifiersArticles with NDL identifiersArticles with NKC identifiersPages that use a deprecated format of the math tags
+
+
+
+Navigation menu
+
+
+
+Personal tools
+
+
+Not logged inTalkContributionsCreate accountLog in
+
+
+
+
+
+Namespaces
+
+
+ArticleTalk
+
+
+
+
+
+English
+
+
+
+
+
+
+
+
+
+Views
+
+
+ReadEditView history
+
+
+
+
+
+More
+
+
+
+
+
+
+
+
+Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Navigation
+
+
+Main pageContentsCurrent eventsRandom articleAbout WikipediaContact usDonate
+
+
+
+
+Contribute
+
+
+HelpLearn to editCommunity portalRecent changesUpload file
+
+
+
+
+Tools
+
+
+What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationCite this pageWikidata item
+
+
+
+
+Print/export
+
+
+Download as PDFPrintable version
+
+
+
+
+In other projects
+
+
+Wikimedia Commons
+
+
+
+
+Languages
+
+
+AfrikaansAlemannischالعربيةAsturianuAzərbaycancaবাংলাBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)भोजपुरीBikol CentralБългарскиBosanskiБуряадCatalàЧӑвашлаČeštinaCymraegDanskDeutschEestiΕλληνικάEmiliàn e rumagnòlEspañolEsperantoEuskaraفارسیFøroysktFrançaisFurlanGaeilgeGaelgGalego贛語Хальмг한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaInterlinguaИронÍslenskaItalianoעבריתKabɩyɛಕನ್ನಡქართულიҚазақшаKiswahiliKriyòl gwiyannenKurdîКыргызчаລາວLatinaLatviešuLietuviųLimburgsLingua Franca NovaLa .lojban.LombardMagyarМакедонскиമലയാളംमराठीBahasa MelayuNederlandsनेपाली日本語NordfriiskNorsk bokmålNorsk nynorskOccitanOʻzbekcha/ўзбекчаਪੰਜਾਬੀPatoisភាសាខ្មែរPiemontèisPolskiPortuguêsQırımtatarcaRomânăРусскийСаха тылаScotsSicilianuසිංහලSimple EnglishSlovenčinaSlovenščinaکوردیСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaTagalogதமிழ்ไทยTürkçeУкраїнськаاردوTiếng ViệtVõro文言吴语ייִדישYorùbá粵語Zazaki中文
+Edit links
+
+
+
+
+
+
+ This page was last edited on 6 October 2022, at 16:21 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+
+
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement
+
+
+
+
+
+
+
+
+
+

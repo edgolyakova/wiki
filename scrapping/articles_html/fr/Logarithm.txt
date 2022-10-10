@@ -1,0 +1,1881 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Logarithme — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"d3452afe-5072-49de-99b7-5f8a67458aaa","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Logarithme","wgTitle":"Logarithme","wgCurRevisionId":197251299,"wgRevisionId":197251299,"wgArticleId":12042,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Article contenant un appel à traduction en anglais","Catégorie Commons avec lien local identique sur Wikidata","Portail:Analyse/Articles liés","Projet:Mathématiques/Articles","Portail:Sciences/Articles liés","Article de qualité en vietnamien","Article de qualité en portugais",
+"Article de qualité en russe","Article de qualité en anglais","Article de qualité en hongrois","Article de qualité en macédonien","Logarithme"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Logarithme","wgRelevantArticleId":12042,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q11197",
+"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents",
+"ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/1200px-Logarithm_plots.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="910" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/800px-Logarithm_plots.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="607" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/640px-Logarithm_plots.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="485" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Logarithme — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Logarithme" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Logarithme&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Logarithme" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Logarithme rootpage-Logarithme skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Logarithme" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Logarithme" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Logarithme" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Logarithme" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Logarithme" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Logarithme&amp;oldid=197251299" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Logarithme&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Logarithme&amp;id=197251299&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11197" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Logarithme"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Logarithme&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Logarithme&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Logarithm" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Fonction_logarithme" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Motivation">
+<a class="sidebar-toc-link" href="#Motivation">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Motivation</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Motivation-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Historique">
+<a class="sidebar-toc-link" href="#Historique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Historique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Historique-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Propriétés_des_fonctions_logarithmes">
+<a class="sidebar-toc-link" href="#Propriétés_des_fonctions_logarithmes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Propriétés des fonctions logarithmes</div>
+</a>
+<button aria-controls="toc-Propriétés_des_fonctions_logarithmes-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Propriétés des fonctions logarithmes
+				</button>
+<ul class="sidebar-toc-list" id="toc-Propriétés_des_fonctions_logarithmes-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Propriétés_algébriques">
+<a class="sidebar-toc-link" href="#Propriétés_algébriques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.1</span>Propriétés algébriques</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Propriétés_algébriques-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Changement_de_base">
+<a class="sidebar-toc-link" href="#Changement_de_base">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.2</span>Changement de base</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Changement_de_base-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Dérivée">
+<a class="sidebar-toc-link" href="#Dérivée">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.3</span>Dérivée</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Dérivée-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Fonction_réciproque_(antilogarithme)">
+<a class="sidebar-toc-link" href="#Fonction_réciproque_(antilogarithme)">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.4</span>Fonction réciproque (antilogarithme)</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Fonction_réciproque_(antilogarithme)-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Fonctions_logarithme_courantes">
+<a class="sidebar-toc-link" href="#Fonctions_logarithme_courantes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Fonctions logarithme courantes</div>
+</a>
+<button aria-controls="toc-Fonctions_logarithme_courantes-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Fonctions logarithme courantes
+				</button>
+<ul class="sidebar-toc-list" id="toc-Fonctions_logarithme_courantes-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Logarithme_népérien">
+<a class="sidebar-toc-link" href="#Logarithme_népérien">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.1</span>Logarithme népérien</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Logarithme_népérien-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Logarithme_décimal">
+<a class="sidebar-toc-link" href="#Logarithme_décimal">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.2</span>Logarithme décimal</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Logarithme_décimal-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Logarithme_binaire">
+<a class="sidebar-toc-link" href="#Logarithme_binaire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.3</span>Logarithme binaire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Logarithme_binaire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Cologarithme">
+<a class="sidebar-toc-link" href="#Cologarithme">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.4</span>Cologarithme</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Cologarithme-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Généralisations">
+<a class="sidebar-toc-link" href="#Généralisations">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Généralisations</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Généralisations-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7.1</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-3" id="toc-Applications_pratiques">
+<a class="sidebar-toc-link" href="#Applications_pratiques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7.1.1</span>Applications pratiques</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Applications_pratiques-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Lien_externe">
+<a class="sidebar-toc-link" href="#Lien_externe">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7.2</span>Lien externe</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Lien_externe-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Logarithme</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 106 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-106 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">106 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Logaritme" hreflang="af" lang="af" title="Logaritme — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Logarithmus" hreflang="gsw" lang="gsw" title="Logarithmus — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%88%8E%E1%8C%8B%E1%88%AA%E1%8B%9D%E1%88%9D" hreflang="am" lang="am" title="ሎጋሪዝም — amharique"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Logaritmo" hreflang="an" lang="an" title="Logaritmo — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%84%D9%88%D8%BA%D8%A7%D8%B1%D9%8A%D8%AA%D9%85" hreflang="ar" lang="ar" title="لوغاريتم — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%98%E0%A6%BE%E0%A6%A4%E0%A6%BE%E0%A6%82%E0%A6%95" hreflang="as" lang="as" title="ঘাতাংক — assamais"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Logaritmu" hreflang="ast" lang="ast" title="Logaritmu — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Loqarifm" hreflang="az" lang="az" title="Loqarifm — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="ba" lang="ba" title="Логарифм — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a class="interlanguage-link-target" href="https://bat-smg.wikipedia.org/wiki/Luogar%C4%97tmos" hreflang="sgs" lang="sgs" title="Luogarėtmos — Samogitian"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Logaritmo" hreflang="bcl" lang="bcl" title="Logaritmo — Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9B%D0%B0%D0%B3%D0%B0%D1%80%D1%8B%D1%84%D0%BC" hreflang="be" lang="be" title="Лагарыфм — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9B%D1%8F%D0%B3%D0%B0%D1%80%D1%8B%D1%82%D0%BC" hreflang="be-tarask" lang="be-tarask" title="Лягарытм — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D1%8A%D0%BC" hreflang="bg" lang="bg" title="Логаритъм — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bjn mw-list-item"><a class="interlanguage-link-target" href="https://bjn.wikipedia.org/wiki/Logaritma" hreflang="bjn" lang="bjn" title="Logaritma — banjar"><span>Banjar</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B2%E0%A6%97%E0%A6%BE%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%AE" hreflang="bn" lang="bn" title="লগারিদম — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Logaritm" hreflang="br" lang="br" title="Logaritm — breton"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Logaritam" hreflang="bs" lang="bs" title="Logaritam — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="bxr" lang="bxr" title="Логарифм — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Logaritme" hreflang="ca" lang="ca" title="Logaritme — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D9%84%DB%86%DA%AF%D8%A7%D8%B1%DB%8C%D8%AA%D9%85" hreflang="ckb" lang="ckb" title="لۆگاریتم — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Logaritmus" hreflang="cs" lang="cs" title="Logaritmus — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="cv" lang="cv" title="Логарифм — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Logarithm" hreflang="cy" lang="cy" title="Logarithm — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Logaritme" hreflang="da" lang="da" title="Logaritme — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Logarithmus" hreflang="de" lang="de" title="Logarithmus — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a class="interlanguage-link-target" href="https://diq.wikipedia.org/wiki/Logaritma" hreflang="diq" lang="diq" title="Logaritma — Zazaki"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9B%CE%BF%CE%B3%CE%AC%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CF%82" hreflang="el" lang="el" title="Λογάριθμος — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-eml mw-list-item"><a class="interlanguage-link-target" href="https://eml.wikipedia.org/wiki/Logar%C3%ACtem" hreflang="egl" lang="egl" title="Logarìtem — Emiliano-Romagnolo"><span>Emiliàn e rumagnòl</span></a></li><li class="interlanguage-link interwiki-en badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Logarithm" hreflang="en" lang="en" title="Logarithm — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Logaritmo" hreflang="eo" lang="eo" title="Logaritmo — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Logaritmo" hreflang="es" lang="es" title="Logaritmo — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Logaritm" hreflang="et" lang="et" title="Logaritm — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Logaritmo" hreflang="eu" lang="eu" title="Logaritmo — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-ext mw-list-item"><a class="interlanguage-link-target" href="https://ext.wikipedia.org/wiki/Logaritmu" hreflang="ext" lang="ext" title="Logaritmu — estrémègne"><span>Estremeñu</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%84%DA%AF%D8%A7%D8%B1%DB%8C%D8%AA%D9%85" hreflang="fa" lang="fa" title="لگاریتم — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Logaritmi" hreflang="fi" lang="fi" title="Logaritmi — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Logaritma" hreflang="fo" lang="fo" title="Logaritma — féroïen"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Logartam" hreflang="ga" lang="ga" title="Logartam — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E5%B0%8D%E6%95%B8" hreflang="gan" lang="gan" title="對數 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Logaritm" hreflang="gcr" lang="gcr" title="Logaritm — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Logaritmo" hreflang="gl" lang="gl" title="Logaritmo — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%92%D7%A8%D7%99%D7%AA%D7%9D" hreflang="he" lang="he" title="לוגריתם — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B2%E0%A4%98%E0%A5%81%E0%A4%97%E0%A4%A3%E0%A4%95" hreflang="hi" lang="hi" title="लघुगणक — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Logarithm" hreflang="hif" lang="hif" title="Logarithm — hindi fidjien"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Logaritam" hreflang="hr" lang="hr" title="Logaritam — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Logaritmus" hreflang="hu" lang="hu" title="Logaritmus — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%BC%D5%B8%D5%A3%D5%A1%D6%80%D5%AB%D5%A9%D5%B4" hreflang="hy" lang="hy" title="Լոգարիթմ — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Logarithmo" hreflang="ia" lang="ia" title="Logarithmo — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Logaritma" hreflang="id" lang="id" title="Logaritma — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Logaritmo" hreflang="io" lang="io" title="Logaritmo — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Logri" hreflang="is" lang="is" title="Logri — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Logaritmo" hreflang="it" lang="it" title="Logaritmo — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%AF%BE%E6%95%B0" hreflang="ja" lang="ja" title="対数 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Lagaridim" hreflang="jam" lang="jam" title="Lagaridim — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9A%E1%83%9D%E1%83%92%E1%83%90%E1%83%A0%E1%83%98%E1%83%97%E1%83%9B%E1%83%98" hreflang="ka" lang="ka" title="ლოგარითმი — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="kk" lang="kk" title="Логарифм — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EA%B7%B8_(%EC%88%98%ED%95%99)" hreflang="ko" lang="ko" title="로그 (수학) — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Logarithmus" hreflang="la" lang="la" title="Logarithmus — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Logaritmo" hreflang="lfn" lang="lfn" title="Logaritmo — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Logaritm" hreflang="lmo" lang="lmo" title="Logaritm — lombard"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Logaritmas" hreflang="lt" lang="lt" title="Logaritmas — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Logaritms" hreflang="lv" lang="lv" title="Logaritms — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a class="interlanguage-link-target" href="https://mg.wikipedia.org/wiki/Anisa" hreflang="mg" lang="mg" title="Anisa — malgache"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mk badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0%D0%BC" hreflang="mk" lang="mk" title="Логаритам — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B2%E0%B5%8B%E0%B4%97%E0%B4%B0%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="ലോഗരിതം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%B2%E0%A5%89%E0%A4%97%E0%A5%85%E0%A4%B0%E0%A4%BF%E0%A4%A6%E0%A4%AE" hreflang="mr" lang="mr" title="लॉगॅरिदम — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Logaritma" hreflang="ms" lang="ms" title="Logaritma — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%9C%E1%80%B1%E1%80%AC%E1%80%B7%E1%80%82%E1%80%9B%E1%80%85%E1%80%BA%E1%80%9E%E1%80%99%E1%80%BA" hreflang="my" lang="my" title="လော့ဂရစ်သမ် — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Logaritme" hreflang="nl" lang="nl" title="Logaritme — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Logaritme" hreflang="nn" lang="nn" title="Logaritme — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Logaritme" hreflang="nb" lang="nb" title="Logaritme — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Logaritme" hreflang="oc" lang="oc" title="Logaritme — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%B2%E0%A8%98%E0%A9%82%E0%A8%97%E0%A8%A3%E0%A8%95" hreflang="pa" lang="pa" title="ਲਘੂਗਣਕ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Logarytm" hreflang="pl" lang="pl" title="Logarytm — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%84%D8%A7%DA%AF%D8%B1%D8%AA%DA%BE%D9%85" hreflang="pnb" lang="pnb" title="لاگرتھم — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Logaritmo" hreflang="pt" lang="pt" title="Logaritmo — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Logaritm" hreflang="ro" lang="ro" title="Logaritm — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="ru" lang="ru" title="Логарифм — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="sah" lang="sah" title="Логарифм — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Logaritmu" hreflang="scn" lang="scn" title="Logaritmu — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0%D0%BC" hreflang="sh" lang="sh" title="Логаритам — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%BD%E0%B6%9D%E0%B7%94_%E0%B6%9C%E0%B6%AB%E0%B6%9A" hreflang="si" lang="si" title="ලඝු ගණක — cingalais"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Logarithm" hreflang="en-simple" lang="en-simple" title="Logarithm — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Logaritmus" hreflang="sk" lang="sk" title="Logaritmus — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Logaritem" hreflang="sl" lang="sl" title="Logaritem — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Daraunene" hreflang="sn" lang="sn" title="Daraunene — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Logaritmet" hreflang="sq" lang="sq" title="Logaritmet — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%82%D0%B0%D0%BC" hreflang="sr" lang="sr" title="Логаритам — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Logaritm" hreflang="sv" lang="sv" title="Logaritm — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Logi" hreflang="sw" lang="sw" title="Logi — swahili"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%9F%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%88" hreflang="ta" lang="ta" title="மடக்கை — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%A5%E0%B8%AD%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%B4%E0%B8%97%E0%B8%B6%E0%B8%A1" hreflang="th" lang="th" title="ลอการิทึม — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Logaritmo" hreflang="tl" lang="tl" title="Logaritmo — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Logaritma" hreflang="tr" lang="tr" title="Logaritma — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="tt" lang="tt" title="Логарифм — tatar"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9B%D0%BE%D0%B3%D0%B0%D1%80%D0%B8%D1%84%D0%BC" hreflang="uk" lang="uk" title="Логарифм — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%84%D8%A7%DA%AF%D8%B1%D8%AA%DA%BE%D9%85" hreflang="ur" lang="ur" title="لاگرتھم — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Logarifm" hreflang="uz" lang="uz" title="Logarifm — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Logarit" hreflang="vi" lang="vi" title="Logarit — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Logaritmo" hreflang="war" lang="war" title="Logaritmo — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%AF%B9%E6%95%B0" hreflang="wuu" lang="wuu" title="对数 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%9C%D7%90%D7%92%D7%90%D7%A8%D7%99%D7%98%D7%9D" hreflang="yi" lang="yi" title="לאגאריטם — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E5%AF%B9%E6%95%B0" hreflang="zh" lang="zh" title="对数 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/T%C3%B9i-s%C3%B2%CD%98" hreflang="nan" lang="nan" title="Tùi-sò͘ — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%B0%8D%E6%95%B8" hreflang="yue" lang="yue" title="對數 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11197#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Logarithme" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Logarithme" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Logarithme"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Logarithme&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Logarithme&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Logarithme&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Logarithme"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Logarithme&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Logarithme&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Logarithme&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_disambig-homophone.svg/20px-Logo_disambig-homophone.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_disambig-homophone.svg/30px-Logo_disambig-homophone.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/44/Logo_disambig-homophone.svg/40px-Logo_disambig-homophone.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour l’article ayant un titre homophone, voir <a href="/wiki/Loga-Rythme" title="Loga-Rythme">Loga-Rythme</a>.
+</p>
+</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Logarithm_plots.png"><img alt="" class="thumbimage" data-file-height="1294" data-file-width="1706" decoding="async" height="167" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/220px-Logarithm_plots.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/330px-Logarithm_plots.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/81/Logarithm_plots.png/440px-Logarithm_plots.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Logarithm_plots.png" title="Agrandir"></a></div>Tracés des fonctions logarithmes en base 2, e et 10.</div></div></div>
+<p>En <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>, le <b>logarithme</b> de base <i>b</i> d'un <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">nombre réel</a> strictement positif est la <a href="/wiki/Puissance_d%27un_nombre" title="Puissance d'un nombre">puissance</a> à laquelle il faut élever la base <i>b</i> pour obtenir ce nombre. Dans le cas le plus simple, le logarithme compte le nombre d'occurrences du même facteur dans une multiplication répétée : par exemple, comme 1000 = 10×10×10 = 10<sup>3</sup>, le logarithme en base 10 de 1000 est 3. Le logarithme de <i>x</i> en base <i>b</i> est noté log<sub><i>b</i></sub>(<i>x</i>). Ainsi log<sub>10</sub>(1000) = 3.
+</p><p><a href="/wiki/John_Napier" title="John Napier">John Napier</a> a développé les logarithmes au début du <abbr class="abbr" title="17ᵉ siècle"><span class="romain">XVII</span><sup style="font-size:72%">e</sup></abbr> siècle. Pendant trois siècles, la <a href="/wiki/Table_de_logarithmes" title="Table de logarithmes">table de logarithmes</a> et la <a href="/wiki/R%C3%A8gle_%C3%A0_calcul" title="Règle à calcul">règle à calcul</a> ont servi pour le <a href="/wiki/Calcul_num%C3%A9rique" title="Calcul numérique">calcul numérique</a>, jusqu'à leur remplacement, à la fin du <abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle, par des <a href="/wiki/Calculatrice" title="Calculatrice">calculatrices</a>.
+</p><p>Trois logarithmes sont remarquables :
+</p>
+<ul><li>Le <a href="/wiki/Logarithme_naturel" title="Logarithme naturel">logarithme naturel</a> (ou <i>népérien</i>), souvent noté <span class="texhtml">ln</span>, qui utilise le <a href="/wiki/E_(nombre)" title="E (nombre)">nombre <span class="texhtml">e</span></a> comme base, est fondamental en <a class="mw-redirect" href="/wiki/Analyse_math%C3%A9matique" title="Analyse mathématique">analyse mathématique</a> car il est la <a href="/wiki/Primitive" title="Primitive">primitive</a> de la fonction <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\tfrac {1}{x}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>1</mn>
+<mi>x</mi>
+</mfrac>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\tfrac {1}{x}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto {\tfrac {1}{x}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9aba4b386a9233453fbdf76a72b0e675b17383c4" style="vertical-align: -1.005ex; width:6.72ex; height:3.343ex;"/></span> s’annulant en <span class="texhtml">1</span> et la <a class="mw-redirect" href="/wiki/Fonction_r%C3%A9ciproque" title="Fonction réciproque">fonction réciproque</a> de la <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">fonction exponentielle</a> ;</li>
+<li>Le <a href="/wiki/Logarithme_d%C3%A9cimal" title="Logarithme décimal">logarithme décimal</a>, qui utilise la base dix, était le plus communément utilisé pour les calculs ;</li>
+<li>Le <a href="/wiki/Logarithme_binaire" title="Logarithme binaire">logarithme binaire</a>, qui utilise 2 comme base, est utile en <a href="/wiki/Informatique_th%C3%A9orique" title="Informatique théorique">informatique théorique</a> et pour certains calculs appliqués.</li></ul>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Motivation">Motivation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=1" title="Modifier la section : Motivation">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=1" title="Modifier la section : Motivation">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Une <a href="/wiki/%C3%89chelle_logarithmique" title="Échelle logarithmique">échelle logarithmique</a> permet de représenter sur un même graphique des nombres dont l'<a href="/wiki/Ordre_de_grandeur" title="Ordre de grandeur">ordre de grandeur</a> est très différent. Les logarithmes sont fréquents dans les formules utilisées en sciences, mesurent la <a href="/wiki/Complexit%C3%A9" title="Complexité">complexité</a> des <a class="mw-redirect" href="/wiki/Algorithmes" title="Algorithmes">algorithmes</a> et des <a href="/wiki/Fractale" title="Fractale">fractales</a> et apparaissent dans des formules permettant de dénombrer les <a href="/wiki/Nombre_premier" title="Nombre premier">nombres premiers</a>. Ils décrivent les <a href="/wiki/Intervalle_(musique)" title="Intervalle (musique)">intervalles musicaux</a> ou certains modèles de <a href="/wiki/Psychophysique" title="Psychophysique">psychophysique</a>.
+</p><p>Tout logarithme transforme
+</p>
+<ul><li>un <a href="/wiki/Multiplication" title="Multiplication">produit</a> en <a href="/wiki/Addition" title="Addition">somme</a> : <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x\cdot y)=\log _{b}x+\log _{b}y\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>+</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>y</mi>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x\cdot y)=\log _{b}x+\log _{b}y\,}</annotation>
+</semantics>
+</math></span><img alt="\log _{b}(x\cdot y)=\log _{b}x+\log _{b}y\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f7536d0a3b53e44fd3a7c88e07e50549011d5800" style="vertical-align: -0.838ex; width:27.287ex; height:2.843ex;"/></span></li>
+<li>un <a href="/wiki/Division" title="Division">quotient</a> en <a href="/wiki/Soustraction" title="Soustraction">différence</a> : <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}\left({\frac {x}{y}}\right)=\log _{b}x-\log _{b}y\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow>
+<mo>(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>x</mi>
+<mi>y</mi>
+</mfrac>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>y</mi>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}\left({\frac {x}{y}}\right)=\log _{b}x-\log _{b}y\,}</annotation>
+</semantics>
+</math></span><img alt="\log _{b}\left({\frac  {x}{y}}\right)=\log _{b}x-\log _{b}y\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/65cd1c52e5444fedf71c7767d66c9f79c150ade8" style="vertical-align: -2.505ex; width:26.9ex; height:6.176ex;"/></span></li>
+<li>une puissance en produit : <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x^{p})=p\log _{b}x.\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>p</mi>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>.</mo>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x^{p})=p\log _{b}x.\,}</annotation>
+</semantics>
+</math></span><img alt="\log _{b}(x^{p})=p\log _{b}x.\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/58f00d6ffab7a938e70b3671712c4ef613da4695" style="vertical-align: -0.838ex; width:19.423ex; height:2.843ex;"/></span></li></ul>
+<h2><span class="mw-headline" id="Historique">Historique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=2" title="Modifier la section : Historique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=2" title="Modifier la section : Historique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Histoire_des_logarithmes_et_des_exponentielles" title="Histoire des logarithmes et des exponentielles">Histoire des logarithmes et des exponentielles</a>.</div></div>
+<p>Vers la fin du <abbr class="abbr" title="16ᵉ siècle"><span class="romain">XVI</span><sup style="font-size:72%">e</sup></abbr> siècle, le développement de l'<a href="/wiki/Astronomie" title="Astronomie">astronomie</a> et de la navigation d'une part et les calculs bancaires d'intérêts composés d'autre part<sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>, poussent les mathématiciens à chercher des méthodes de simplification de calculs et en particulier le remplacement des multiplications par des sommes.
+</p><p>Utilisant les tables trigonométriques, les mathématiciens <a href="/wiki/Paul_Wittich" title="Paul Wittich">Paul Wittich</a> et <a class="mw-redirect" href="/wiki/Christophe_Clavius" title="Christophe Clavius">Christophe Clavius</a> (dans son traité <i><span class="lang-la" lang="la">de Astrolabio</span></i><sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>) établissent des  correspondances entre produit ou quotient d'une part et somme, différence et division par deux d'autre part, pour des nombres de 0 à 1 à l'aide de relations <a href="/wiki/Trigonom%C3%A9trie" title="Trigonométrie">trigonométriques</a><sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>, méthode dite de <a href="/wiki/Prostaph%C3%A9r%C3%A8se" title="Prostaphérèse">prostaphérèse</a><sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>.
+</p><p>Quelques années plus tard <a class="mw-redirect" href="/wiki/Simon_St%C3%A9vin" title="Simon Stévin">Simon Stévin</a>, intendant général de l'armée hollandaise, met au point des tables de calculs d'<a href="/wiki/Int%C3%A9r%C3%AAts_compos%C3%A9s" title="Intérêts composés">intérêts composés</a>. <a href="/wiki/Jost_B%C3%BCrgi" title="Jost Bürgi">Jost Bürgi</a> poursuit ce travail et publie en 1620, dans son <i><span class="lang-de" lang="de">Aritmetische und geometrische Progress-tabulen</span></i>, une table de correspondance entre <span class="texhtml mvar" style="font-style:italic;">n</span> et <span class="texhtml">1,0001<sup><i>n</i></sup></span>. À une somme dans la première colonne correspond ainsi un produit dans la seconde colonne<sup class="reference" id="cite_ref-pedm_5-0"><a href="#cite_note-pedm-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>.
+</p><p>En 1614, <a href="/wiki/John_Napier" title="John Napier">John Napier</a> (ou Neper) publie son traité <i><span class="lang-la" lang="la">Mirifici Logarithmorum Canonis Descriptio</span></i>. Il ne songe pas qu’il est en train de créer de nouvelles fonctions, mais seulement des tables de correspondance (<i><span class="lang-grc" lang="grc">logos</span></i> = rapport, relation, <i><span class="lang-grc" lang="grc">arithmeticos</span></i> = nombre) entre deux séries de valeurs telles qu'à un produit dans une colonne correspond une somme dans une autre. La notation <i>Log</i> comme abréviation de logarithme apparaît en 1616 dans une traduction anglaise de l'œuvre de Neper<sup class="reference" id="cite_ref-6"><a href="#cite_note-6"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>. En 1619, paraît son œuvre posthume <i><span class="lang-la" lang="la">Mirifici Logarithmorum Canonis Constructio</span></i>, où il explique comment construire une table de logarithmes.
+</p><p>Le mathématicien anglais <a href="/wiki/Henry_Briggs" title="Henry Briggs">Henry Briggs</a> poursuit ce travail et publie en 1624 ses tables de <a href="/wiki/Logarithme_d%C3%A9cimal" title="Logarithme décimal">logarithmes décimaux</a> (<i><span class="lang-la" lang="la">Arithmetica logarithmica</span></i>) à 14 chiffres des nombres compris entre 1 et 20 000 et entre 90 000 et 100 000. Il indique les méthodes d’emploi des tables pour calculer des sinus ou les angles à partir de leur tangente… La même année, <a href="/wiki/Johannes_Kepler" title="Johannes Kepler">Johannes Kepler</a> publie <i><span class="lang-la" lang="la">Chilias logarithmorum</span></i> construites en utilisant un procédé géométrique<sup class="reference" id="cite_ref-7"><a href="#cite_note-7"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup>. <a href="/wiki/Ezechiel_de_Decker" title="Ezechiel de Decker">Ezechiel de Decker</a> et <a href="/wiki/Adriaan_Vlacq" title="Adriaan Vlacq">Adriaan Vlacq</a> complètent la table de Briggs en 1627<sup class="reference" id="cite_ref-pedm_5-1"><a href="#cite_note-pedm-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>
+</p><p>En 1647, <a href="/wiki/Gr%C3%A9goire_de_Saint-Vincent" title="Grégoire de Saint-Vincent">Grégoire de Saint-Vincent</a>, travaillant sur la quadrature de l’<a href="/wiki/Hyperbole_(math%C3%A9matiques)" title="Hyperbole (mathématiques)">hyperbole</a>, définit la fonction primitive de la fonction <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\tfrac {1}{x}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>1</mn>
+<mi>x</mi>
+</mfrac>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\tfrac {1}{x}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto {\tfrac {1}{x}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9aba4b386a9233453fbdf76a72b0e675b17383c4" style="vertical-align: -1.005ex; width:6.72ex; height:3.343ex;"/></span> s’annulant en 1. <a href="/wiki/Christian_Huygens" title="Christian Huygens">Huygens</a> remarquera en 1661 que cette fonction se trouve être une fonction logarithme particulière : le <a href="/wiki/Logarithme_naturel" title="Logarithme naturel">logarithme naturel</a><sup class="reference" id="cite_ref-8"><a href="#cite_note-8"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup>.
+</p><p>La correspondance entre les fonctions exponentielle et logarithme n’apparaît qu'après le travail de <a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a> sur la notion de <a href="/wiki/Fonction_(math%C3%A9matiques)" title="Fonction (mathématiques)">fonction</a>, en 1697.
+</p>
+<h2><span id="Propri.C3.A9t.C3.A9s_des_fonctions_logarithmes"></span><span class="mw-headline" id="Propriétés_des_fonctions_logarithmes">Propriétés des fonctions logarithmes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=3" title="Modifier la section : Propriétés des fonctions logarithmes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=3" title="Modifier la section : Propriétés des fonctions logarithmes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Dans cette section, nous donnons des propriétés d'une fonction logarithme, quelle que soit sa base <span class="texhtml mvar" style="font-style:italic;">b</span>.
+</p>
+<h3><span id="Propri.C3.A9t.C3.A9s_alg.C3.A9briques"></span><span class="mw-headline" id="Propriétés_algébriques">Propriétés algébriques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=4" title="Modifier la section : Propriétés algébriques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=4" title="Modifier la section : Propriétés algébriques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Identit%C3%A9s_logarithmiques" title="Identités logarithmiques">Identités logarithmiques</a>.</div></div>
+<p>Les fonctions logarithme sont par définition les <a href="/wiki/Morphisme_de_groupes" title="Morphisme de groupes">morphismes</a> <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continus</a> non <a href="/wiki/Fonction_nulle" title="Fonction nulle">constamment nuls</a> de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (\mathbb {R} _{+}^{*},\times )}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+<mo>,</mo>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (\mathbb {R} _{+}^{*},\times )}</annotation>
+</semantics>
+</math></span><img alt="(\mathbb{R} _{+}^{{*}},\times )" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4c438f4e9fa664c88a2acfe45d1bb48ac15d8145" style="vertical-align: -1.005ex; width:7.84ex; height:3.009ex;"/></span> vers <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (\mathbb {R} ,+)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mo>,</mo>
+<mo>+</mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (\mathbb {R} ,+)}</annotation>
+</semantics>
+</math></span><img alt="(\mathbb {R} ,+)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5b33b2c9358cbd7bad20aa0b18651d3bba582c09" style="vertical-align: -0.838ex; width:6.329ex; height:2.843ex;"/></span>.
+</p><p>Pour tout réel <span class="texhtml mvar" style="font-style:italic;">b</span> strictement positif et différent de 1, le logarithme de base <span class="texhtml mvar" style="font-style:italic;">b</span> : <span class="texhtml">log<sub><i>b</i></sub></span> est la fonction continue définie sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}^{*}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}^{*}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{R} _{+}^{*}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef42e5e064679de6752f88a8a2ab8f1e1b6185b4" style="vertical-align: -1.005ex; width:3.189ex; height:3.009ex;"/></span> vérifiant l'<a href="/wiki/%C3%89quation_fonctionnelle" title="Équation fonctionnelle">équation fonctionnelle</a> : 
+</p>
+<dl><dd>pour tous <span class="texhtml mvar" style="font-style:italic;">x</span> et <span class="texhtml mvar" style="font-style:italic;">y</span> réels strictement positifs,</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(xy)=\log _{b}(x)+\log _{b}(y)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(xy)=\log _{b}(x)+\log _{b}(y)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(xy)=\log _{b}(x)+\log _{b}(y)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a72b4b7ba4c487ba5c15587d2eff610355605901" style="vertical-align: -0.838ex; width:28.065ex; height:2.843ex;"/></span></dd></dl>
+<p>et 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(b)=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(b)=1}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(b)=1}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d3a58a8d06818394825efc588fa84970424b75f8" style="vertical-align: -0.838ex; width:10.977ex; height:2.843ex;"/></span></dd></dl>
+<p>Cette définition permet de déduire rapidement les propriétés suivantes 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(1)=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(1)=0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(1)=0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/901f6efd3f7b26aa95b855e884a8c2c620ef1fe0" style="vertical-align: -0.838ex; width:11.142ex; height:2.843ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x/y)=\log _{b}(x)-\log _{b}(y)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x/y)=\log _{b}(x)-\log _{b}(y)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(x/y)=\log _{b}(x)-\log _{b}(y)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1b760df3fe4794a5497f2a573c1940ee4727c8d2" style="vertical-align: -0.838ex; width:29.228ex; height:2.843ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x^{y})=y\log _{b}(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>y</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>y</mi>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x^{y})=y\log _{b}(x)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(x^{y})=y\log _{b}(x)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f2ba26d51e494fe01d74e0e39a55404cc852ee08" style="vertical-align: -0.838ex; width:19.787ex; height:2.843ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(b^{n})=n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(b^{n})=n}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(b^{n})=n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3ece2cb3acff9e97e175ca6ccc9f694be8d32a3e" style="vertical-align: -0.838ex; width:12.428ex; height:2.843ex;"/></span> pour tout entier naturel <span class="texhtml mvar" style="font-style:italic;">n</span>, puis pour tout entier relatif <span class="texhtml mvar" style="font-style:italic;">n</span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(b^{r})=r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>r</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(b^{r})=r}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(b^{r})=r}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dfdf5e80986c7298d2af7cb1b3b44e5db5a37dcd" style="vertical-align: -0.838ex; width:11.837ex; height:2.843ex;"/></span> pour tout rationnel <span class="texhtml mvar" style="font-style:italic;">r</span>.</dd></dl>
+<p>Comme tout réel strictement positif <span class="texhtml mvar" style="font-style:italic;">x</span> est la <a href="/wiki/Limite_d%27une_suite" title="Limite d'une suite">limite d'une suite</a> dont le terme général est de la forme <span class="texhtml mvar" style="font-style:italic;">b<sup>r<sub>n</sub></sup></span>, où <span class="texhtml">(<i>r<sub>n</sub></i>)</span> est une suite de rationnels convergeant vers un réel <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \ell }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>ℓ<!-- ℓ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \ell }</annotation>
+</semantics>
+</math></span><img alt="\ell " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f066e981e530bacc07efc6a10fa82deee985929e" style="vertical-align: -0.338ex; width:0.97ex; height:2.176ex;"/></span>, on détermine <span class="texhtml">log<sub><i>b</i></sub>(<i>x</i>)</span> comme étant la limite de <span class="texhtml mvar" style="font-style:italic;">r<sub>n</sub></span>.
+</p>
+<h3><span class="mw-headline" id="Changement_de_base">Changement de base</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=5" title="Modifier la section : Changement de base">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=5" title="Modifier la section : Changement de base">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Deux fonctions logarithmes ne diffèrent que d’une constante multiplicative : pour tous réels strictement positifs <span class="texhtml mvar" style="font-style:italic;">a</span> et <span class="texhtml mvar" style="font-style:italic;">b</span> différents de 1 et pour tout réel <span class="texhtml"><i>x</i> &gt; 0</span>,
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x)={\frac {\log _{a}(x)}{\log _{a}(b)}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>a</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>a</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x)={\frac {\log _{a}(x)}{\log _{a}(b)}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(x)={\frac {\log _{a}(x)}{\log _{a}(b)}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fc2d1396dcd579a41d083caa7d5e221889337526" style="vertical-align: -2.671ex; width:18.196ex; height:6.509ex;"/></span>.</dd></dl>
+<p>Toutes les fonctions logarithmes peuvent donc s’exprimer à l’aide d’une seule, par exemple la fonction logarithme népérien : pour tout réel strictement positif <span class="texhtml mvar" style="font-style:italic;">b</span> différent de 1 et pour tout réel <span class="texhtml"><i>x</i> &gt; 0</span>,
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x)={\frac {\ln(x)}{\ln(b)}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x)={\frac {\ln(x)}{\ln(b)}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(x)={\frac {\ln(x)}{\ln(b)}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/52a93d813551fae4ee9a530804b1ca385e094c01" style="vertical-align: -2.671ex; width:16.061ex; height:6.509ex;"/></span>.</dd></dl>
+<h3><span id="D.C3.A9riv.C3.A9e"></span><span class="mw-headline" id="Dérivée">Dérivée</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=6" title="Modifier la section : Dérivée">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=6" title="Modifier la section : Dérivée">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>La fonction <span class="texhtml">log<sub><i>b</i></sub></span> est <a href="/wiki/D%C3%A9riv%C3%A9e" title="Dérivée">dérivable</a> sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}^{*}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}^{*}}</annotation>
+</semantics>
+</math></span><img alt="\R_+^*" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef42e5e064679de6752f88a8a2ab8f1e1b6185b4" style="vertical-align: -1.005ex; width:3.189ex; height:3.009ex;"/></span> de dérivée :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}'(x)={\frac {1}{x\ln(b)}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msubsup>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+<mo>′</mo>
+</msubsup>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mi>x</mi>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}'(x)={\frac {1}{x\ln(b)}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}'(x)={\frac {1}{x\ln(b)}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bbda63e2ee151f62ebaeb0050a0d7bf088d1ba59" style="vertical-align: -2.671ex; width:17.446ex; height:6.009ex;"/></span> qui a même signe que <span class="texhtml">ln(<i>b</i>)</span>.</dd></dl>
+<p>Donc la fonction <span class="texhtml">log<sub><i>b</i></sub></span> est strictement monotone, croissante quand <span class="texhtml mvar" style="font-style:italic;">b</span> est supérieur à 1, décroissante dans le cas contraire.
+</p>
+<h3><span id="Fonction_r.C3.A9ciproque_.28antilogarithme.29"></span><span class="mw-headline" id="Fonction_réciproque_(antilogarithme)">Fonction réciproque (<a href="/wiki/Antilogarithme" title="Antilogarithme">antilogarithme</a>)</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=7" title="Modifier la section : Fonction réciproque (antilogarithme)">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=7" title="Modifier la section : Fonction réciproque (antilogarithme)">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Exponentielle_de_base_a" title="Exponentielle de base a">Exponentielle de base <span class="texhtml mvar" style="font-style:italic;">b</span></a>.</div></div>
+<p><span id="Fonction_inverse"></span>
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Logarithm_inversefunctiontoexp.svg"><img alt="" class="thumbimage" data-file-height="279" data-file-width="240" decoding="async" height="256" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Logarithm_inversefunctiontoexp.svg/220px-Logarithm_inversefunctiontoexp.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Logarithm_inversefunctiontoexp.svg/330px-Logarithm_inversefunctiontoexp.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Logarithm_inversefunctiontoexp.svg/440px-Logarithm_inversefunctiontoexp.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Logarithm_inversefunctiontoexp.svg" title="Agrandir"></a></div>Représentation dans le cas <span class="texhtml"><i>b</i> &gt; 1</span>. Le graphe de la fonction logarithmique <span class="texhtml">log<sub><i>b</i></sub>(<i>x</i>)</span> (bleu) est obtenu en  <a href="/wiki/R%C3%A9flexion_(math%C3%A9matiques)" title="Réflexion (mathématiques)">reflétant</a> celui de la fonction <span class="texhtml mvar" style="font-style:italic;">b<sup>x</sup></span> (rouge) par rapport à la diagonale <span class="nowrap"><i>x = y.</i></span></div></div></div>
+<p>La fonction <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}:\mathbb {R} _{+}^{*}\to \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>:</mo>
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+<mo stretchy="false">→<!-- → --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}:\mathbb {R} _{+}^{*}\to \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}:\mathbb {R} _{+}^{*}\to \mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/07209bb023d0635e6343f622a9a0f263c9d1574a" style="vertical-align: -1.005ex; width:14.328ex; height:3.009ex;"/></span> est la <a href="/wiki/Bijection" title="Bijection">bijection</a> <a href="/wiki/Bijection_r%C3%A9ciproque" title="Bijection réciproque">réciproque</a> de la fonction exponentielle de base <span class="texhtml mvar" style="font-style:italic;">b</span><sup class="reference" id="cite_ref-9"><a href="#cite_note-9"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup>, parfois appelée antilogarithme de base <span class="texhtml mvar" style="font-style:italic;">b</span> :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \operatorname {antilog_{b}} :\mathbb {R} \to \mathbb {R} _{+}^{*},\;x\mapsto b^{x}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-OP MJX-fixedlimits">
+<mi mathvariant="normal">a</mi>
+<mi mathvariant="normal">n</mi>
+<mi mathvariant="normal">t</mi>
+<mi mathvariant="normal">i</mi>
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">o</mi>
+<msub>
+<mi mathvariant="normal">g</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">b</mi>
+</mrow>
+</msub>
+</mrow>
+<mo>:</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+<mo>,</mo>
+<mspace width="thickmathspace"></mspace>
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \operatorname {antilog_{b}} :\mathbb {R} \to \mathbb {R} _{+}^{*},\;x\mapsto b^{x}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \operatorname {antilog_{b}} :\mathbb {R} \to \mathbb {R} _{+}^{*},\;x\mapsto b^{x}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d54d3acd11206551f915c1d0f6a2eab4a5987a43" style="vertical-align: -1.005ex; width:27.336ex; height:3.009ex;"/></span>.</dd></dl>
+<p>Autrement dit, les deux façons possibles de combiner (ou  <a href="/wiki/Composition_de_fonctions" title="Composition de fonctions">composer</a>) les logarithmes et l’élévation à des puissances redonnent le nombre original :
+</p>
+<ul><li>pour tout réel <span class="texhtml"><i>x</i></span>, prendre la puissance <span class="nowrap"><span class="texhtml"><i>x</i></span>-ième</span> de <span class="texhtml"><i>b</i></span>, puis le logarithme en base <span class="texhtml"><i>b</i></span> de cette puissance, redonne <span class="texhtml"><i>x</i></span> :<center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \forall x\in \mathbb {R} _{+}^{*}\quad \log _{b}(b^{x})=x\log _{b}(b)=x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>x</mi>
+<mo>∈<!-- ∈ --></mo>
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+<mspace width="1em"></mspace>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>x</mi>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \forall x\in \mathbb {R} _{+}^{*}\quad \log _{b}(b^{x})=x\log _{b}(b)=x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \forall x\in \mathbb {R} _{+}^{*}\quad \log _{b}(b^{x})=x\log _{b}(b)=x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1909a8c402f18b46a20890d71137c94d4970eed2" style="vertical-align: -1.005ex; width:35.21ex; height:3.009ex;"/></span> ;</center></li>
+<li>inversement, pour tout réel <span class="texhtml"><i>y</i></span> strictement positif, prendre d'abord le logarithme en base <span class="texhtml"><i>b</i></span>, puis élever <span class="texhtml"><i>b</i></span> à sa puissance, redonne <span class="texhtml"><i>y</i></span> :<center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b^{\log _{b}(y)}=y.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>y</mi>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b^{\log _{b}(y)}=y.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle b^{\log _{b}(y)}=y.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dee1975e870ed438a4fc27318eda5220dc335b0c" style="vertical-align: -0.671ex; width:11.065ex; height:3.176ex;"/></span></center></li></ul>
+<p>Les fonctions réciproques sont étroitement liées aux fonctions originales.
+Leurs <a href="/wiki/Graphe_d%27une_fonction" title="Graphe d'une fonction">graphes</a>, qui se correspondent lorsqu’on échange les coordonnées <span class="texhtml"><i>x</i></span> et <span class="texhtml"><i>y</i></span> (ou par réflexion par rapport à la diagonale <span class="texhtml"><i>x</i> = <i>y</i></span>), sont montrés à droite dans le cas où <span class="texhtml"><i>b</i></span> est un réel strictement supérieur à 1 : un point <span class="texhtml">(<i>u</i>, <i>t</i> = <i>b<sup>u</sup></i>)</span> sur le graphe (rouge) de la fonction antilogarithme <span class="texhtml"><i>x</i> ↦ <i>b<sup>x</sup></i></span> fournit un point <span class="texhtml">(<i>t</i>, <i>u</i> = log<sub><i>b</i></sub>(<i>t</i>))</span> sur le graphe (bleu) du logarithme et vice versa. Comme <span class="texhtml"><i>b</i> &gt; 1</span>, la fonction <span class="texhtml">log<sub><i>b</i></sub></span> est <a href="/wiki/Fonction_monotone" title="Fonction monotone">croissante</a> et quand <span class="texhtml"><i>x</i></span> tend vers <span class="texhtml">+∞</span>, <span class="texhtml">log<sub><i>b</i></sub>(<i>x</i>)</span> <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">tend vers</a> <span class="texhtml">+∞</span>, tandis que lorsque <span class="texhtml"><i>x</i></span> approche zéro, <span class="texhtml">log<sub><i>b</i></sub>(<i>x</i>)</span> tend vers <span class="texhtml">–∞</span>. Dans le cas où le réel <span class="texhtml"><i>b</i></span> est strictement compris entre 0 et 1, la fonction <span class="texhtml">log<sub><i>b</i></sub></span> est décroissante et ces limites sont interverties.
+</p><p>En matière de calcul, l'antilog ramène des logarithmes aux valeurs. Soit à évaluer une formule <span class="texhtml mvar" style="font-style:italic;">F</span> combinant multiplications, divisions et exponentiations, et soit <span class="texhtml mvar" style="font-style:italic;">f</span> la formule définissant le logarithme de <span class="texhtml mvar" style="font-style:italic;">F</span> en combinant sommes, différences et produits des (logarithmes) des données. La valeur de <span class="texhtml mvar" style="font-style:italic;">F</span> peut s'obtenir comme l'antilog de la valeur de <span class="texhtml mvar" style="font-style:italic;">f</span>, ce qui conclut le calcul. On peut ainsi remplacer l'évaluation <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F=(x\times y\times z)^{1/3}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>×<!-- × --></mo>
+<mi>y</mi>
+<mo>×<!-- × --></mo>
+<mi>z</mi>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mn>3</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F=(x\times y\times z)^{1/3}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle F=(x\times y\times z)^{1/3}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/51129b961cffd73fe831f5f7529d744fd74a6c47" style="vertical-align: -0.838ex; width:18.601ex; height:3.343ex;"/></span>
+</p><p>
+par </p><center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F=\operatorname {antilog} _{b}\left({\frac {\log _{b}(x)+\log _{b}(y)+\log _{b}(z)}{3}}\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+<mo>=</mo>
+<msub>
+<mi>antilog</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow>
+<mo>(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>z</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>3</mn>
+</mfrac>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F=\operatorname {antilog} _{b}\left({\frac {\log _{b}(x)+\log _{b}(y)+\log _{b}(z)}{3}}\right)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle F=\operatorname {antilog} _{b}\left({\frac {\log _{b}(x)+\log _{b}(y)+\log _{b}(z)}{3}}\right)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6f9bb943358f66c5295a498d868ea8eda728265" style="vertical-align: -2.505ex; width:43.423ex; height:6.343ex;"/></span>.</center>
+<h2><span class="mw-headline" id="Fonctions_logarithme_courantes">Fonctions logarithme courantes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=8" title="Modifier la section : Fonctions logarithme courantes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=8" title="Modifier la section : Fonctions logarithme courantes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Logarithme_n.C3.A9p.C3.A9rien"></span><span class="mw-headline" id="Logarithme_népérien">Logarithme népérien</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=9" title="Modifier la section : Logarithme népérien">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=9" title="Modifier la section : Logarithme népérien">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Logarithme_naturel" title="Logarithme naturel">Logarithme naturel</a>.</div></div>
+<p>Le logarithme népérien, ou logarithme naturel, est la fonction logarithme dont la <a href="/wiki/D%C3%A9riv%C3%A9e" title="Dérivée">dérivée</a> est la <a href="/wiki/Fonction_inverse" title="Fonction inverse">fonction inverse</a> définie de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}^{*}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}^{*}}</annotation>
+</semantics>
+</math></span><img alt="\R_+^*" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef42e5e064679de6752f88a8a2ab8f1e1b6185b4" style="vertical-align: -1.005ex; width:3.189ex; height:3.009ex;"/></span> dans <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> : <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\frac {1}{x}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>x</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\frac {1}{x}}}</annotation>
+</semantics>
+</math></span><img alt="x\mapsto {\frac  1x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d207e4d6d9278902dd0e1a54b1dab01f5b5037fa" style="vertical-align: -1.838ex; width:7.11ex; height:5.176ex;"/></span>.
+</p>
+<dl><dd>La fonction de Neper est par convention notée « <span class="texhtml">ln</span> »<sup class="reference" id="cite_ref-10"><a href="#cite_note-10"><span class="cite_crochet">[</span>10<span class="cite_crochet">]</span></a></sup> ou  « <span class="texhtml">log</span> », notation couramment utilisée en <a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">théorie des nombres</a> et en informatique<sup class="reference" id="cite_ref-11"><a href="#cite_note-11"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup>.</dd></dl>
+<dl><dd>La base de la fonction logarithme népérien, notée <a href="/wiki/E_(nombre)" title="E (nombre)">e</a>, est appelée nombre de Néper<sup class="reference" id="cite_ref-12"><a href="#cite_note-12"><span class="cite_crochet">[</span>12<span class="cite_crochet">]</span></a></sup> ou nombre d'Euler<sup class="reference" id="cite_ref-13"><a href="#cite_note-13"><span class="cite_crochet">[</span>13<span class="cite_crochet">]</span></a></sup><sup class="reference cite_virgule">,</sup><sup class="reference" id="cite_ref-14"><a href="#cite_note-14"><span class="cite_crochet">[</span>14<span class="cite_crochet">]</span></a></sup>.</dd></dl>
+<p>Une <a href="/wiki/Valeur_approch%C3%A9e" title="Valeur approchée">valeur approchée</a> est :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathrm {e} \approx 2{,}718}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">e</mi>
+</mrow>
+<mo>≈<!-- ≈ --></mo>
+<mn>2,718</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathrm {e} \approx 2{,}718}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathrm {e} \approx 2{,}718}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c844baeb87bbd5589acbfe876caf5c35f939407e" style="vertical-align: -0.671ex; width:9.428ex; height:2.509ex;"/></span>.</dd></dl>
+<h3><span id="Logarithme_d.C3.A9cimal"></span><span class="mw-headline" id="Logarithme_décimal">Logarithme décimal</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=10" title="Modifier la section : Logarithme décimal">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=10" title="Modifier la section : Logarithme décimal">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Logarithme_d%C3%A9cimal" title="Logarithme décimal">Logarithme décimal</a>.</div></div>
+<p>C’est le logarithme le plus pratique dans les calculs numériques manuels, il est noté <span class="texhtml">log</span> ou <span class="texhtml">log<sub>10</sub></span>. La norme ISO 80000-2<sup class="reference" id="cite_ref-15"><a href="#cite_note-15"><span class="cite_crochet">[</span>15<span class="cite_crochet">]</span></a></sup> indique que log<sub>10</sub> devrait être noté <i>lg</i>, mais cette notation est rarement utilisée.
+</p><p>On le retrouve dans la création des <a href="/wiki/%C3%89chelle_logarithmique" title="Échelle logarithmique">échelles logarithmiques</a>, les <a href="/wiki/Rep%C3%A8re_semi-logarithmique" title="Repère semi-logarithmique">repères semi-logarithmiques</a> ou <a href="/wiki/Rep%C3%A8re_log-log" title="Repère log-log">log-log</a>, dans la <a href="/wiki/R%C3%A8gle_%C3%A0_calcul" title="Règle à calcul">règle à calcul</a>, dans le calcul du <a href="/wiki/Potentiel_hydrog%C3%A8ne" title="Potentiel hydrogène">pH</a>, dans l’unité du <a href="/wiki/D%C3%A9cibel" title="Décibel">décibel</a>.
+</p><p>Il précise à quelle puissance il faut élever 10 pour retrouver le nombre de départ : l'<a href="/wiki/Image_(math%C3%A9matiques)" title="Image (mathématiques)">image</a> d'un nombre par <span class="texhtml">log</span> est l'<a href="/wiki/Entier_relatif" title="Entier relatif">entier relatif</a> auquel il faut élever 10 pour obtenir l'<a href="/wiki/Ant%C3%A9c%C3%A9dent_(math%C3%A9matiques)" title="Antécédent (mathématiques)">antécédent</a>. Par exemple :
+</p>
+<dl><dd>En base 10 :</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{10}(10)=1{\text{  car  }}10^{1}=10}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>10</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> car </mtext>
+</mrow>
+<msup>
+<mn>10</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>10</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{10}(10)=1{\text{  car  }}10^{1}=10}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{10}(10)=1{\text{  car  }}10^{1}=10}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a7dee6fbc2e98052ff964200e913caac2ba003c3" style="vertical-align: -0.838ex; width:26.313ex; height:3.176ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{10}(100)=2{\text{  car  }}10^{2}=100}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>100</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> car </mtext>
+</mrow>
+<msup>
+<mn>10</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>100</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{10}(100)=2{\text{  car  }}10^{2}=100}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{10}(100)=2{\text{  car  }}10^{2}=100}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e5b10b46514c14008b5616453943105080daefbd" style="vertical-align: -0.838ex; width:28.638ex; height:3.176ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{10}(1000)=3{\text{  car  }}10^{3}=1000}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>1000</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> car </mtext>
+</mrow>
+<msup>
+<mn>10</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>1000</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{10}(1000)=3{\text{  car  }}10^{3}=1000}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{10}(1000)=3{\text{  car  }}10^{3}=1000}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e9194d98c9dce5708e6579f1a2ccfe779c034aaf" style="vertical-align: -0.838ex; width:30.963ex; height:3.176ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{10}(0,01)=-2{\text{  car  }}10^{-2}=0,01}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>01</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> car </mtext>
+</mrow>
+<msup>
+<mn>10</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>01</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{10}(0,01)=-2{\text{  car  }}10^{-2}=0,01}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{10}(0,01)=-2{\text{  car  }}10^{-2}=0,01}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2aeed3f9bff30d46b6b1c41953d8227da43f5830" style="vertical-align: -0.838ex; width:33.793ex; height:3.176ex;"/></span></dd></dl>
+<p>La valeur du logarithme d’autres nombres que des puissances de 10 demande un calcul approché. Le calcul de <span class="texhtml">log(2)</span> par exemple peut se faire à la main, en remarquant que 2<sup>10</sup> ≈ 1000 donc <span class="texhtml">10 log<sub>10</sub>(2) ≈ 3</span> donc <span class="texhtml">log<sub>10</sub>(2) ≈ 0,3</span>.
+</p><p>Pour tout réel strictement positif <span class="texhtml mvar" style="font-style:italic;">b</span> différent de 1 et pour tout réel <span class="texhtml"><i>x</i> &gt; 0</span>,
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \log _{b}(x)={\frac {\log _{10}(x)}{\log _{10}(b)}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \log _{b}(x)={\frac {\log _{10}(x)}{\log _{10}(b)}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \log _{b}(x)={\frac {\log _{10}(x)}{\log _{10}(b)}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/148103ad3a4cfff9c7d030a3352dc9363aab3617" style="vertical-align: -2.671ex; width:18.97ex; height:6.509ex;"/></span>.</dd></dl>
+<h3><span class="mw-headline" id="Logarithme_binaire">Logarithme binaire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=11" title="Modifier la section : Logarithme binaire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=11" title="Modifier la section : Logarithme binaire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Logarithme_binaire" title="Logarithme binaire">Logarithme binaire</a>.</div></div>
+<p>La norme ISO 80 000 recommande de noter <span class="texhtml">lb</span> le logarithme en base 2<sup class="reference" id="cite_ref-16"><a href="#cite_note-16"><span class="cite_crochet">[</span>16<span class="cite_crochet">]</span></a></sup>.
+</p><p>Le <a href="/wiki/Logarithme_binaire" title="Logarithme binaire">logarithme binaire</a>, d'usage spécialisé dans le calcul des <a href="/wiki/Intervalle_(musique)" title="Intervalle (musique)">intervalles musicaux</a> à partir d'un rapport de <a href="/wiki/Fr%C3%A9quence" title="Fréquence">fréquences</a>, pour obtenir des <a href="/wiki/Octave_(musique)" title="Octave (musique)">octaves</a>, des <a href="/wiki/Demi-ton" title="Demi-ton">demi-tons</a> ou des <a href="/wiki/Cent_et_savart" title="Cent et savart">cents</a>, a trouvé beaucoup plus d'application en <a href="/wiki/Informatique" title="Informatique">informatique</a>. Les <a href="/wiki/Ordinateur" title="Ordinateur">ordinateurs</a> travaillant en <a href="/wiki/Syst%C3%A8me_binaire" title="Système binaire">système binaire</a>, le calcul d'un logarithme en base 2 se fait par l'algorithme le plus précis et le plus efficace.
+</p><p>Un nombre <i>x</i> codé en <a href="/wiki/Virgule_flottante" title="Virgule flottante">virgule flottante</a> binaire se décompose en une <a href="/wiki/Mantisse" title="Mantisse">mantisse</a> <i>m</i>, comprise entre 1 (inclus) et 2 (exclu) et un <a class="mw-disambig" href="/wiki/Exposant" title="Exposant">exposant</a> <i>p</i>, indiquant la <a href="/wiki/Puissance_de_deux" title="Puissance de deux">puissance de 2</a> qui multiplie la mantisse pour obtenir le nombre. L'exposant est la <a href="/wiki/Partie_enti%C3%A8re_et_partie_fractionnaire" title="Partie entière et partie fractionnaire">partie entière</a> du logarithme binaire, tandis que le logarithme binaire de la mantisse est compris entre 0 (inclus) et 1 (exclu).
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x=2^{p}\times m\Longrightarrow {\textrm {lb}}(x)=p+{\textrm {lb}}(m).}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo>=</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<mi>m</mi>
+<mo stretchy="false">⟹<!-- ⟹ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>lb</mtext>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>p</mi>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>lb</mtext>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>m</mi>
+<mo stretchy="false">)</mo>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x=2^{p}\times m\Longrightarrow {\textrm {lb}}(x)=p+{\textrm {lb}}(m).}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x=2^{p}\times m\Longrightarrow {\textrm {lb}}(x)=p+{\textrm {lb}}(m).}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/798e9a08d212aac76f98a78cbe111fa64654f2db" style="vertical-align: -0.838ex; width:35.249ex; height:2.843ex;"/></span></dd></dl>
+<p>Ce qui ramène le calcul à celui du logarithme binaire d'un nombre entre 1 (inclus) et 2 (exclu). Si on multiplie ce nombre par lui-même, et que le résultat dépasse 2, c'est que le nombre est supérieur à √2: le chiffre suivant, après la virgule, est un 1, dans le cas contraire, c'est un 0. On continue par <a href="/wiki/It%C3%A9ration" title="Itération">itération</a> jusqu'à la précision souhaitée.
+</p><p>Les deux logarithmes précédents se déduisent de celui-ci par :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \ln(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (\mathrm {e} )}}{\text{   et    }}\log _{10}(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (10)}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">b</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">b</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">e</mi>
+</mrow>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> et </mtext>
+</mrow>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>10</mn>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">b</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">l</mi>
+<mi mathvariant="normal">b</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mn>10</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \ln(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (\mathrm {e} )}}{\text{   et    }}\log _{10}(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (10)}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \ln(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (\mathrm {e} )}}{\text{   et    }}\log _{10}(x)={\frac {\mathrm {lb} (x)}{\mathrm {lb} (10)}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/78491bf15a7a9cdfbfeaade0dba8fb069060c890" style="vertical-align: -2.671ex; width:35.572ex; height:6.509ex;"/></span>.</dd></dl>
+<h3><span class="mw-headline" id="Cologarithme">Cologarithme</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=12" title="Modifier la section : Cologarithme">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=12" title="Modifier la section : Cologarithme">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Cologarithme" title="Cologarithme">Cologarithme</a>.</div></div>
+<p>Le <a href="/wiki/Cologarithme" title="Cologarithme">cologarithme</a> d'un nombre est l'opposé du logarithme de ce nombre et le logarithme de son inverse<sup class="reference" id="cite_ref-17"><a href="#cite_note-17"><span class="cite_crochet">[</span>17<span class="cite_crochet">]</span></a></sup> :  <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \operatorname {colog} _{b}x=-\log _{b}x=\log _{b}{\frac {1}{x}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>colog</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>=</mo>
+<msub>
+<mi>log</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msub>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>x</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \operatorname {colog} _{b}x=-\log _{b}x=\log _{b}{\frac {1}{x}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \operatorname {colog} _{b}x=-\log _{b}x=\log _{b}{\frac {1}{x}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/793823f9a8aeab235f52aa39ca84e68d26a24429" style="vertical-align: -1.838ex; width:28.302ex; height:5.176ex;"/></span>.
+</p>
+<h2><span id="G.C3.A9n.C3.A9ralisations"></span><span class="mw-headline" id="Généralisations">Généralisations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=13" title="Modifier la section : Généralisations">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=13" title="Modifier la section : Généralisations">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Le <a href="/wiki/Logarithme_complexe" title="Logarithme complexe">logarithme complexe</a> est la fonction réciproque de l'<a href="/wiki/Exponentielle_complexe" title="Exponentielle complexe">exponentielle complexe</a> et généralise ainsi la notion de logarithme aux <a href="/wiki/Nombre_complexe" title="Nombre complexe">nombres complexes</a>. Le <a href="/wiki/Logarithme_discret" title="Logarithme discret">logarithme discret</a> généralise les logarithmes aux <a href="/wiki/Groupe_cyclique" title="Groupe cyclique">groupes cycliques</a> et a des applications en <a class="mw-redirect" href="/wiki/Cryptographie_%C3%A0_cl%C3%A9_publique" title="Cryptographie à clé publique">cryptographie à clé publique</a>.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=14" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=14" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="font-size:85%; padding-left:1.6em; margin:0.3em 0;"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Cet article est partiellement ou en totalité issu de l’article de Wikipédia en <a href="/wiki/Anglais" title="Anglais">anglais</a> intitulé <span class="plainlinks">« <a class="external text" href="https://en.wikipedia.org/wiki/Logarithm?oldid=408909865">Logarithm</a> » <small>(<a class="external text" href="https://en.wikipedia.org/wiki/Logarithm?action=history">voir la liste des auteurs</a>)</small></span>.</div>
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text">Jean-Pierre Friedelmeyer, <a class="external text" href="https://lewebpedagogique.com/h4mathsts1/files/2013/12/105_122_AM61-4-1.pdf" rel="nofollow">L'invention des logarithmes par Neper et le calcul des logarithmes décimaux par Briggs</a>.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-2">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <i><a class="mw-redirect" href="/wiki/Encyclopedia_Britannica" title="Encyclopedia Britannica">Encyclopedia Britannica</a></i>, « <a class="external text" href="https://www.1902encyclopedia.com/N/NAP/john-napier.html" rel="nofollow">John Napier</a> », note 2.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Havil"><span class="ouvrage" id="Julian_Havil"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Julian Havil (<abbr class="abbr" title="préface">préf.</abbr> <a href="/wiki/Freeman_Dyson" title="Freeman Dyson">Freeman Dyson</a>), <cite class="italique" lang="en">Gamma : Exploring Euler's Constant</cite> <small style="line-height:1em;">(<a class="external text" href="//books.google.com/books?id=lQX6Oy_SuOgC&amp;pg=PA1" rel="nofollow">lire en ligne</a>)</small>, <abbr class="abbr" title="chapitre(s)">chap.</abbr> 1<span class="lang-en" lang="en"> (« The Logarithme Cradle »)</span>, <abbr class="abbr" title="pages">p.</abbr> 1-2<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Gamma&amp;rft.atitle=The+Logarithme+Cradle&amp;rft.stitle=Exploring+Euler%27s+Constant&amp;rft.aulast=Havil&amp;rft.aufirst=Julian&amp;rft.pages=1-2&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span></span>.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-4">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Borchers2005"><span class="ouvrage" id="Brian_Borchers2005"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Brian Borchers, <span lang="en">« <cite style="font-style:normal;">Prosthaphaeresis</cite> »</span>, <i><span class="lang-en" lang="en">Journal of the Oughtred Society</span></i>, <abbr class="abbr" title="volume">vol.</abbr> 14, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr> 2,‎ <time>2005</time>, <abbr class="abbr" title="pages">p.</abbr> 3-4 <small style="line-height:1em;">(<a class="external text" href="https://infohost.nmt.edu/~borchers/prost.pdf" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Prosthaphaeresis&amp;rft.jtitle=Journal+of+the+Oughtred+Society&amp;rft.issue=2&amp;rft.aulast=Borchers&amp;rft.aufirst=Brian&amp;rft.date=2005&amp;rft.volume=14&amp;rft.pages=3-4&amp;rft_id=https%3A%2F%2Finfohost.nmt.edu%2F~borchers%2Fprost.pdf&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span></span>.</span>
+</li>
+<li id="cite_note-pedm-5"><span class="mw-cite-backlink noprint">↑ <sup><a href="#cite_ref-pedm_5-0">a</a> et <a href="#cite_ref-pedm_5-1">b</a></sup> </span><span class="reference-text"><i>Petite encyclopédie de mathématiques</i>, <a href="/wiki/Didier_(maison_d%27%C3%A9dition)" title="Didier (maison d'édition)">Didier</a>, 1980, <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 72</span>.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink noprint"><a href="#cite_ref-6">↑</a> </span><span class="reference-text"><a class="external text" href="https://www.math93.com/index.php/histoire-des-maths/les-symboles-menu/97-histoire-des-mathematiques/symboles-mathematiques/325-fonctions-les-notations" rel="nofollow">Origine et histoire des symboles mathématiques</a> sur le site math93.com.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink noprint"><a href="#cite_ref-7">↑</a> </span><span class="reference-text"><i><a class="external text" href="https://www.e-rara.ch/zut/wihibe/content/titleinfo/1405839" rel="nofollow">Chilias Logarithmorum</a></i> sur le site e-rara.ch.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink noprint"><a href="#cite_ref-8">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Ferrand,_Laurent_Koelblen,_Matthieu_Romagny2008"><span class="ouvrage" id="Emmanuel_Ferrand,_Laurent_Koelblen,_Matthieu_Romagny2008">Emmanuel Ferrand, Laurent Koelblen, Matthieu Romagny, <a class="external text" href="https://perso.univ-rennes1.fr/matthieu.romagny/capes_0809/histoire.pdf" rel="nofollow">« <cite style="font-style:normal;">Un peu d’histoire</cite> »</a>, <time class="nowrap" data-sort-value="2008-09-17" datetime="2008-09-17">17 septembre 2008</time></span></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink noprint"><a href="#cite_ref-9">↑</a> </span><span class="reference-text"><span class="ouvrage" id="James_Stewart_(en)Catégorie:Article_contenant_un_appel_à_traduction_en_anglais2012"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <span class="nom_auteur"><a class="new" href="/w/index.php?title=James_Stewart_(math%C3%A9maticien)&amp;action=edit&amp;redlink=1" title="James Stewart (mathématicien) (page inexistante)">James Stewart</a> <a class="extiw" href="https://en.wikipedia.org/wiki/James_Stewart_(mathematician)" title="en:James Stewart (mathematician)"><span class="indicateur-langue" title="Article en anglais : « James Stewart (mathematician) »">(en)</span></a></span>, <cite class="italique" lang="en">Single Variable Calculus : Early Transcendentals</cite>, Thomson Brooks/Cole, <time>2012</time>, <abbr class="abbr" title="septième">7<sup>e</sup></abbr> <abbr class="abbr" title="édition">éd.</abbr> <small style="line-height:1em;">(<a class="external text" href="//books.google.com/books?id=h4Auk70bJogC&amp;pg=PA58" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Single+Variable+Calculus&amp;rft.pub=Thomson+Brooks%2FCole&amp;rft.edition=7&amp;rft.stitle=Early+Transcendentals&amp;rft.aulast=James+Stewart&amp;rft.date=2012&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span>, section 1.6.</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink noprint"><a href="#cite_ref-10">↑</a> </span><span class="reference-text">La norme AFNOR NF X 02-1 01, de 1961, recommande la notation ln (<i>Tables numériques</i> de J. Laborde, 1976, p. VI).</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink noprint"><a href="#cite_ref-11">↑</a> </span><span class="reference-text">Langages <a href="/wiki/C_(langage)" title="C (langage)">C</a>, <a href="/wiki/Java_(technique)" title="Java (technique)">Java</a>, <a class="mw-redirect" href="/wiki/Javascript" title="Javascript">Javascript</a>, <abbr class="abbr" title="et cetera">etc.</abbr></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink noprint"><a href="#cite_ref-12">↑</a> </span><span class="reference-text"><span class="ouvrage" id="GuininJoppin2003"><span class="ouvrage" id="D._GuininB._Joppin2003">D. Guinin et B. Joppin, <cite class="italique">Mathématiques <a class="mw-redirect" href="/wiki/MPSI" title="MPSI">MPSI</a>: Exercices</cite>, <a href="/wiki/%C3%89ditions_Br%C3%A9al" title="Éditions Bréal">Bréal</a>, <time>2003</time> <small style="line-height:1em;">(<a class="external text" href="//books.google.com/books?id=iePuAqUjGoQC&amp;pg=PA33" rel="nofollow">lire en ligne</a>)</small>, <abbr class="abbr" title="page">p.</abbr> 33<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Math%C3%A9matiques+MPSI%3A+Exercices&amp;rft.pub=Br%C3%A9al&amp;rft.aulast=Guinin&amp;rft.aufirst=D.&amp;rft.au=B.+Joppin&amp;rft.date=2003&amp;rft.pages=33&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span></span>.</span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink noprint"><a href="#cite_ref-13">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Ferrier2006"><span class="ouvrage" id="O._Ferrier2006">O. Ferrier, <cite class="italique">Maths pour économistes : L'Analyse en économie</cite>, <abbr class="abbr" title="volume">vol.</abbr> 1, <a class="mw-redirect" href="/wiki/De_Boeck_Sup%C3%A9rieur" title="De Boeck Supérieur">De Boeck Université</a>, <time>2006</time> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-8041-4354-1" title="Spécial:Ouvrages de référence/978-2-8041-4354-1"><span class="nowrap">978-2-8041-4354-1</span></a>)</small>, <abbr class="abbr" title="page">p.</abbr> 275<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Maths+pour+%C3%A9conomistes&amp;rft.pub=De+Boeck+Universit%C3%A9&amp;rft.stitle=L%27Analyse+en+%C3%A9conomie&amp;rft.aulast=Ferrier&amp;rft.aufirst=O.&amp;rft.date=2006&amp;rft.volume=1&amp;rft.pages=275&amp;rft.isbn=978-2-8041-4354-1&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span></span>.</span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink noprint"><a href="#cite_ref-14">↑</a> </span><span class="reference-text">Ne pas confondre avec divers <a class="mw-redirect" href="/wiki/Liste_des_sujets_nomm%C3%A9s_d%27apr%C3%A8s_Leonhard_Euler#Nombres" title="Liste des sujets nommés d'après Leonhard Euler">autres « nombres d'Euler »</a>.</span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink noprint"><a href="#cite_ref-15">↑</a> </span><span class="reference-text"><a class="external text" href="http://www.iso.org/iso/fr/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=31887" rel="nofollow">ISO 80000-2:2009</a>. <a href="/wiki/Organisation_internationale_de_normalisation" title="Organisation internationale de normalisation">Organisation internationale de normalisation</a>. Consulté le 19 janvier 2012.</span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink noprint"><a href="#cite_ref-16">↑</a> </span><span class="reference-text"><span class="ouvrage" id="internationale_de_normalisation"><span class="ouvrage" id="Organisation_internationale_de_normalisation"><a href="/wiki/Organisation_internationale_de_normalisation" title="Organisation internationale de normalisation">Organisation internationale de normalisation</a>, <a class="external text" href="https://www.iso.org/fr/standard/64973.html" rel="nofollow">« <cite style="font-style:normal;">ISO 80000-2:2019</cite> »</a> <small style="line-height:1em;">(consulté le <time class="nowrap" data-sort-value="2012-09-16" datetime="2012-09-16">16 septembre 2012</time>)</small></span></span>.</span>
+</li>
+<li id="cite_note-17"><span class="mw-cite-backlink noprint"><a href="#cite_ref-17">↑</a> </span><span class="reference-text"><span class="ouvrage" id="BouvierGeorgeLe_Lionnais2001"><span class="ouvrage" id="Alain_BouvierMichel_GeorgeFrançois_Le_Lionnais2001"><a href="/wiki/Alain_Bouvier" title="Alain Bouvier">Alain <span class="nom_auteur">Bouvier</span></a>, Michel <span class="nom_auteur">George</span> et <a href="/wiki/Fran%C3%A7ois_Le_Lionnais" title="François Le Lionnais">François <span class="nom_auteur">Le Lionnais</span></a>, <cite class="italique">Dictionnaire des mathématiques</cite>, <a href="/wiki/Presses_universitaires_de_France" title="Presses universitaires de France">Presses universitaires de France</a>, <time>2001</time> (<abbr class="abbr" title="première">1<sup>re</sup></abbr> <abbr class="abbr" title="édition">éd.</abbr> 1979), <abbr class="abbr" title="page">p.</abbr> 159<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Dictionnaire+des+math%C3%A9matiques&amp;rft.pub=Presses+universitaires+de+France&amp;rft.aulast=Bouvier&amp;rft.aufirst=Alain&amp;rft.au=George%2C+Michel&amp;rft.au=Le+Lionnais%2C+Fran%C3%A7ois&amp;rft.date=2001&amp;rft.pages=159&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALogarithme"></span></span></span>.</span>
+</li>
+</ol></div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=15" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=15" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Logarithm?uselang=fr">Les logarithmes</a>, sur <span class="project">Wikimedia Commons</span></li><li class="wiktionary"><a class="extiw" href="https://fr.wiktionary.org/wiki/logarithme" title="wikt:logarithme">logarithme</a>, <span class="nowrap">sur le <span class="project">Wiktionnaire</span></span></li><li class="wikiversity"><a class="extiw" href="https://fr.wikiversity.org/wiki/Fonction_logarithme" title="v:Fonction logarithme">Logarithme</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li><li class="wikibooks"><a class="extiw" href="https://fr.wikibooks.org/wiki/Photographie/Math%C3%A9matiques" title="b:Photographie/Mathématiques">Photographie/Mathématiques (sections "Découverte des logarithmes" et "Que fait-on avec les logarithmes ?")</a>, <span class="nowrap">sur <span class="project">Wikibooks</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=16" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=16" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="colonnes" style="column-width:15em;column-gap:1em;">
+<ul><li><a href="/wiki/Logarithme_complexe" title="Logarithme complexe">Logarithme complexe</a></li>
+<li><a href="/wiki/Fonction_polylogarithme" title="Fonction polylogarithme">Fonction polylogarithme</a></li>
+<li><a href="/wiki/Fonction_holomorphe" title="Fonction holomorphe">Fonction holomorphe</a></li>
+<li><a href="/wiki/Loi_de_Benford" title="Loi de Benford">Loi de Benford</a></li>
+<li><a href="/wiki/Acoustique_musicale#Intervalles_sonores_et_logarithmes" title="Acoustique musicale">Acoustique musicale : intervalles sonores et logarithmes</a></li></ul>
+</div>
+<h4><span class="mw-headline" id="Applications_pratiques">Applications pratiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=17" title="Modifier la section : Applications pratiques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=17" title="Modifier la section : Applications pratiques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="colonnes" style="column-width:15em;column-gap:1em;">
+<ul><li><a href="/wiki/R%C3%A8gle_%C3%A0_calcul" title="Règle à calcul">Règle à calcul</a></li>
+<li><a href="/wiki/%C3%89chelle_logarithmique" title="Échelle logarithmique">Échelle logarithmique</a></li>
+<li><a href="/wiki/Table_de_logarithmes" title="Table de logarithmes">Table de logarithmes</a></li></ul>
+</div>
+<h3><span class="mw-headline" id="Lien_externe">Lien externe</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Logarithme&amp;veaction=edit&amp;section=18" title="Modifier la section : Lien externe">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Logarithme&amp;action=edit&amp;section=18" title="Modifier la section : Lien externe">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Simone Trompler, <a class="external text" href="https://sonocreatica.org.ve/wp-content/uploads/2018/03/Histoire_Logarithme.pdf" rel="nofollow">Histoire des logarithmes</a>, publié en ligne en 2002 par l’<a href="/wiki/Universit%C3%A9_libre_de_Bruxelles" title="Université libre de Bruxelles">Université libre de Bruxelles</a>
+</p>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles" title="Modèle:Palette Fonctions mathématiques usuelles"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a href="/wiki/Fonction_(math%C3%A9matiques)" title="Fonction (mathématiques)">Fonctions mathématiques usuelles</a></div></th>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_alg%C3%A9brique" title="Fonction algébrique">Fonction algébrique</a> <a href="/wiki/Fonction_rationnelle" title="Fonction rationnelle">rationnelle</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_polynomiale" title="Fonction polynomiale">Fonction polynomiale</a></li>
+<li><a href="/wiki/Fraction_rationnelle" title="Fraction rationnelle">Fonction fractionnaire</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px">Fonction algébrique irrationnelle</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_puissance" title="Fonction puissance">Fonction puissance</a> / <a href="/wiki/Racine_d%27un_nombre" title="Racine d'un nombre">Fonction racine</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_transcendante" title="Fonction transcendante">Fonction transcendante</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a class="mw-selflink selflink">Fonction logarithmique</a> / <a href="/wiki/Exponentielle_de_base_a" title="Exponentielle de base a">Fonction exponentielle de base a</a>
+<ul><li><a href="/wiki/Logarithme_naturel" title="Logarithme naturel">Fonction logarithme naturel</a> / <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">Fonction exponentielle</a></li></ul></li>
+<li><a href="/wiki/Fonction_trigonom%C3%A9trique" title="Fonction trigonométrique">Fonction circulaire</a> / <a href="/wiki/Fonction_circulaire_r%C3%A9ciproque" title="Fonction circulaire réciproque">Fonction circulaire réciproque</a></li>
+<li><a href="/wiki/Fonction_hyperbolique" title="Fonction hyperbolique">Fonction hyperbolique</a> / <a class="mw-redirect" href="/wiki/Fonction_hyperbolique_r%C3%A9ciproque" title="Fonction hyperbolique réciproque">Fonction hyperbolique réciproque</a></li>
+<li><a href="/wiki/Fonction_elliptique" title="Fonction elliptique">Fonction elliptique</a> / <a href="/wiki/Int%C3%A9grale_elliptique" title="Intégrale elliptique">Fonction intégrale elliptique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Analyse" title="Portail de l'analyse"><img alt="icône décorative" class="noviewer" data-file-height="400" data-file-width="400" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/24px-Nuvola_apps_kmplot.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/36px-Nuvola_apps_kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/48px-Nuvola_apps_kmplot.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Analyse" title="Portail:Analyse">Portail de l'analyse</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1366
+Cached time: 20221010182159
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.337 seconds
+Real time usage: 0.479 seconds
+Preprocessor visited node count: 4191/1000000
+Post‐expand include size: 56140/2097152 bytes
+Template argument size: 6491/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 16766/5000000 bytes
+Lua time usage: 0.087/10.000 seconds
+Lua memory usage: 4380907/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  320.087      1 -total
+ 17.22%   55.116      5 Modèle:Ouvrage
+ 12.04%   38.525      1 Modèle:Portail
+ 10.70%   34.255      1 Modèle:Autres_projets
+  8.69%   27.814      1 Modèle:Homophone
+  7.94%   25.421      1 Modèle:Méta_bandeau_de_note
+  7.46%   23.886      1 Modèle:Méta_bandeau
+  6.46%   20.666      3 Modèle:Langue
+  5.70%   18.242      1 Modèle:Palette
+  5.03%   16.097      7 Modèle:Méta_bandeau_de_section
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:12042-0!canonical and timestamp 20221010182158 and revision id 197251299.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Logarithme&amp;oldid=197251299">https://fr.wikipedia.org/w/index.php?title=Logarithme&amp;oldid=197251299</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Logarithme" title="Catégorie:Logarithme">Logarithme</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Article_contenant_un_appel_%C3%A0_traduction_en_anglais" title="Catégorie:Article contenant un appel à traduction en anglais">Article contenant un appel à traduction en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Cat%C3%A9gorie_Commons_avec_lien_local_identique_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local identique sur Wikidata">Catégorie Commons avec lien local identique sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Analyse/Articles_li%C3%A9s" title="Catégorie:Portail:Analyse/Articles liés">Portail:Analyse/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_vietnamien" title="Catégorie:Article de qualité en vietnamien">Article de qualité en vietnamien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_portugais" title="Catégorie:Article de qualité en portugais">Article de qualité en portugais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_russe" title="Catégorie:Article de qualité en russe">Article de qualité en russe</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_anglais" title="Catégorie:Article de qualité en anglais">Article de qualité en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_hongrois" title="Catégorie:Article de qualité en hongrois">Article de qualité en hongrois</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_mac%C3%A9donien" title="Catégorie:Article de qualité en macédonien">Article de qualité en macédonien</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 25 septembre 2022 à 23:24.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Logarithme" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Logarithme&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.337","walltime":"0.479","ppvisitednodes":{"value":4191,"limit":1000000},"postexpandincludesize":{"value":56140,"limit":2097152},"templateargumentsize":{"value":6491,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":16766,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  320.087      1 -total"," 17.22%   55.116      5 Modèle:Ouvrage"," 12.04%   38.525      1 Modèle:Portail"," 10.70%   34.255      1 Modèle:Autres_projets","  8.69%   27.814      1 Modèle:Homophone","  7.94%   25.421      1 Modèle:Méta_bandeau_de_note","  7.46%   23.886      1 Modèle:Méta_bandeau","  6.46%   20.666      3 Modèle:Langue","  5.70%   18.242      1 Modèle:Palette","  5.03%   16.097      7 Modèle:Méta_bandeau_de_section"]},"scribunto":{"limitreport-timeusage":{"value":"0.087","limit":"10.000"},"limitreport-memusage":{"value":4380907,"limit":52428800}},"cachereport":{"origin":"mw1366","timestamp":"20221010182159","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Logarithme","url":"https:\/\/fr.wikipedia.org\/wiki\/Logarithme","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11197","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11197","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-16T13:34:01Z","dateModified":"2022-09-25T21:24:11Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/81\/Logarithm_plots.png","headline":"famille de fonction math\u00e9matiques pour lesquelles l'image d'un produit est la somme des images"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Logarithme","url":"https:\/\/fr.wikipedia.org\/wiki\/Logarithme","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11197","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11197","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-16T13:34:01Z","dateModified":"2022-09-25T21:24:11Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/81\/Logarithm_plots.png","headline":"famille de fonction math\u00e9matiques pour lesquelles l'image d'un produit est la somme des images"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":131,"wgHostname":"mw1409"});});</script>
+</body>
+</html>

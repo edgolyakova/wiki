@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Algèbre linéaire — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"1a69d81f-775b-4b0f-b469-35dab8918b71","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Algèbre_linéaire","wgTitle":"Algèbre linéaire","wgCurRevisionId":193924488,"wgRevisionId":193924488,"wgArticleId":7,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Catégorie Commons avec lien local identique sur Wikidata","Portail:Algèbre/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Algèbre linéaire"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":
+"Algèbre_linéaire","wgRelevantArticleId":7,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q82571","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":
+"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks",
+"ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/1200px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="871" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/800px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="581" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/640px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="465" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Algèbre linéaire — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Algèbre_linéaire rootpage-Algèbre_linéaire skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Alg%C3%A8bre+lin%C3%A9aire" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Alg%C3%A8bre+lin%C3%A9aire" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Alg%C3%A8bre+lin%C3%A9aire" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Alg%C3%A8bre_lin%C3%A9aire" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Alg%C3%A8bre_lin%C3%A9aire" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;oldid=193924488" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Alg%C3%A8bre_lin%C3%A9aire&amp;id=193924488&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q82571" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Alg%C3%A8bre+lin%C3%A9aire"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Alg%C3%A8bre_lin%C3%A9aire&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Linear_algebra" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://fr.wikibooks.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" hreflang="fr"><span>Wikilivres</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Histoire">
+<a class="sidebar-toc-link" href="#Histoire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Histoire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Histoire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Intérêt">
+<a class="sidebar-toc-link" href="#Intérêt">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Intérêt</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Intérêt-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Présentation_élémentaire">
+<a class="sidebar-toc-link" href="#Présentation_élémentaire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Présentation élémentaire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Présentation_élémentaire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Quelques_théorèmes">
+<a class="sidebar-toc-link" href="#Quelques_théorèmes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Quelques théorèmes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Quelques_théorèmes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Utilisations">
+<a class="sidebar-toc-link" href="#Utilisations">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Utilisations</div>
+</a>
+<button aria-controls="toc-Utilisations-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Utilisations
+				</button>
+<ul class="sidebar-toc-list" id="toc-Utilisations-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Groupe_fini">
+<a class="sidebar-toc-link" href="#Groupe_fini">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.1</span>Groupe fini</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Groupe_fini-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Anneau">
+<a class="sidebar-toc-link" href="#Anneau">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.2</span>Anneau</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Anneau-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Théorie_de_Galois">
+<a class="sidebar-toc-link" href="#Théorie_de_Galois">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.3</span>Théorie de Galois</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Théorie_de_Galois-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.1</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Liens_externes">
+<a class="sidebar-toc-link" href="#Liens_externes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.2</span>Liens externes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Liens_externes-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Algèbre linéaire</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 89 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-89 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">89 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Line%C3%AAre_algebra" hreflang="af" lang="af" title="Lineêre algebra — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Lineare_Algebra" hreflang="gsw" lang="gsw" title="Lineare Algebra — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Alchebra_lineal" hreflang="an" lang="an" title="Alchebra lineal — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D8%AE%D8%B7%D9%8A" hreflang="ar" lang="ar" title="جبر خطي — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/%C3%81lxebra_llinial" hreflang="ast" lang="ast" title="Álxebra llinial — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/X%C9%99tti_c%C9%99br" hreflang="az" lang="az" title="Xətti cəbr — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D2%BA%D1%8B%D2%99%D1%8B%D2%A1%D0%BB%D1%8B_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ba" lang="ba" title="Һыҙыҡлы алгебра — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be" lang="be" title="Лінейная алгебра — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D1%8C%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Лінейная альгебра — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="bg" lang="bg" title="Линейна алгебра — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" hreflang="bn" lang="bn" title="রৈখিক বীজগণিত — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Linearna_algebra" hreflang="bs" lang="bs" title="Linearna algebra — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/%C3%80lgebra_lineal" hreflang="ca" lang="ca" title="Àlgebra lineal — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AC%DB%95%D8%A8%D8%B1%DB%8C_%DA%BE%DB%8E%DA%B5%DB%8C" hreflang="ckb" lang="ckb" title="جەبری ھێڵی — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Line%C3%A1rn%C3%AD_algebra" hreflang="cs" lang="cs" title="Lineární algebra — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BB%C4%95_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="cv" lang="cv" title="Линейлĕ алгебра — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Algebra_llinol" hreflang="cy" lang="cy" title="Algebra llinol — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="da" lang="da" title="Lineær algebra — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Lineare_Algebra" hreflang="de" lang="de" title="Lineare Algebra — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%93%CF%81%CE%B1%CE%BC%CE%BC%CE%B9%CE%BA%CE%AE_%CE%AC%CE%BB%CE%B3%CE%B5%CE%B2%CF%81%CE%B1" hreflang="el" lang="el" title="Γραμμική άλγεβρα — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Linear_algebra" hreflang="en" lang="en" title="Linear algebra — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Lineara_algebro" hreflang="eo" lang="eo" title="Lineara algebro — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/%C3%81lgebra_lineal" hreflang="es" lang="es" title="Álgebra lineal — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Lineaaralgebra" hreflang="et" lang="et" title="Lineaaralgebra — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aljebra_lineal" hreflang="eu" lang="eu" title="Aljebra lineal — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D8%AE%D8%B7%DB%8C" hreflang="fa" lang="fa" title="جبر خطی — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Lineaarialgebra" hreflang="fi" lang="fi" title="Lineaarialgebra — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Lineaar_algebra" hreflang="frr" lang="frr" title="Lineaar algebra — frison du Nord"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" hreflang="gan" lang="gan" title="線性代數 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Alj%C3%A8b_lin%C3%A9y%C3%A8r" hreflang="gcr" lang="gcr" title="Aljèb linéyèr — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/%C3%81lxebra_lineal" hreflang="gl" lang="gl" title="Álxebra lineal — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%94_%D7%9C%D7%99%D7%A0%D7%99%D7%90%D7%A8%D7%99%D7%AA" hreflang="he" lang="he" title="אלגברה ליניארית — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%88%E0%A4%96%E0%A4%BF%E0%A4%95_%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="hi" lang="hi" title="रैखिक बीजगणित — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Linearna_algebra" hreflang="hr" lang="hr" title="Linearna algebra — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Line%C3%A1ris_algebra" hreflang="hu" lang="hu" title="Lineáris algebra — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B3%D5%AE%D5%A1%D5%B5%D5%AB%D5%B6_%D5%B0%D5%A1%D5%B6%D6%80%D5%A1%D5%B0%D5%A1%D5%B7%D5%AB%D5%BE" hreflang="hy" lang="hy" title="Գծային հանրահաշիվ — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Algebra_linear" hreflang="ia" lang="ia" title="Algebra linear — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Aljabar_linear" hreflang="id" lang="id" title="Aljabar linear — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/L%C3%ADnuleg_algebra" hreflang="is" lang="is" title="Línuleg algebra — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Algebra_lineare" hreflang="it" lang="it" title="Algebra lineare — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%9E%8B%E4%BB%A3%E6%95%B0%E5%AD%A6" hreflang="ja" lang="ja" title="線型代数学 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Linia_haljibra" hreflang="jam" lang="jam" title="Linia haljibra — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%AC%E1%83%A0%E1%83%A4%E1%83%98%E1%83%95%E1%83%98_%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%90" hreflang="ka" lang="ka" title="წრფივი ალგებრა — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A1%D1%8B%D0%B7%D1%8B%D2%9B%D1%82%D1%8B%D2%9B_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="kk" lang="kk" title="Сызықтық алгебра — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99" hreflang="ko" lang="ko" title="선형대수학 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Algebra_linearis" hreflang="la" lang="la" title="Algebra linearis — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lez mw-list-item"><a class="interlanguage-link-target" href="https://lez.wikipedia.org/wiki/%D0%A6%D3%80%D0%B0%D1%80%D1%86%D3%80%D0%B8%D0%BD_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="lez" lang="lez" title="ЦӀарцӀин алгебра — lezghien"><span>Лезги</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Aljebra_linial" hreflang="lfn" lang="lfn" title="Aljebra linial — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Algebra_lineara" hreflang="lmo" lang="lmo" title="Algebra lineara — lombard"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Tiesin%C4%97_algebra" hreflang="lt" lang="lt" title="Tiesinė algebra — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Line%C4%81r%C4%81_algebra" hreflang="lv" lang="lv" title="Lineārā algebra — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B0%D1%80%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="mk" lang="mk" title="Линеарна алгебра — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B0%E0%B5%87%E0%B4%96%E0%B5%80%E0%B4%AF_%E0%B4%AC%E0%B5%80%E0%B4%9C%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="രേഖീയ ബീജഗണിതം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Algebra_linear" hreflang="ms" lang="ms" title="Algebra linear — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Lineaire_algebra" hreflang="nl" lang="nl" title="Lineaire algebra — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="nn" lang="nn" title="Lineær algebra — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="nb" lang="nb" title="Lineær algebra — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Alg%C3%A8bra_lineara" hreflang="oc" lang="oc" title="Algèbra lineara — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Algebra_liniowa" hreflang="pl" lang="pl" title="Algebra liniowa — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/%C3%80lgebra_linear" hreflang="pms" lang="pms" title="Àlgebra linear — piémontais"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/%C3%81lgebra_linear" hreflang="pt" lang="pt" title="Álgebra linear — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Algebr%C4%83_liniar%C4%83" hreflang="ro" lang="ro" title="Algebră liniară — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ru" lang="ru" title="Линейная алгебра — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Algibbra_liniari" hreflang="scn" lang="scn" title="Algibbra liniari — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Linear_algebra" hreflang="sco" lang="sco" title="Linear algebra — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Linearna_algebra" hreflang="sh" lang="sh" title="Linearna algebra — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Linear_algebra" hreflang="en-simple" lang="en-simple" title="Linear algebra — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Line%C3%A1rna_algebra" hreflang="sk" lang="sk" title="Lineárna algebra — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Linearna_algebra" hreflang="sl" lang="sl" title="Linearna algebra — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Algjebra_lineare" hreflang="sq" lang="sq" title="Algjebra lineare — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B0%D1%80%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="sr" lang="sr" title="Линеарна алгебра — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Linj%C3%A4r_algebra" hreflang="sv" lang="sv" title="Linjär algebra — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Aljebra_mstari" hreflang="sw" lang="sw" title="Aljebra mstari — swahili"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AF%87%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="நேரியல் இயற்கணிதம் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8_%D1%85%D0%B0%D1%82%D1%82%D3%A3" hreflang="tg" lang="tg" title="Алгебраи хаттӣ — tadjik"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B8%8A%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99" hreflang="th" lang="th" title="พีชคณิตเชิงเส้น — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Alhebrang_linyar" hreflang="tl" lang="tl" title="Alhebrang linyar — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Lineer_cebir" hreflang="tr" lang="tr" title="Lineer cebir — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D1%96%D0%B9%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="uk" lang="uk" title="Лінійна алгебра — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%AE%D8%B7%DB%8C_%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D8%A7" hreflang="ur" lang="ur" title="خطی الجبرا — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Chiziqli_algebra" hreflang="uz" lang="uz" title="Chiziqli algebra — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_tuy%E1%BA%BFn_t%C3%ADnh" hreflang="vi" lang="vi" title="Đại số tuyến tính — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Alhebra_Linyal" hreflang="war" lang="war" title="Alhebra Linyal — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="wuu" lang="wuu" title="线性代数 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%9C%D7%99%D7%A0%D7%A2%D7%90%D7%A8%D7%A2_%D7%90%D7%9C%D7%92%D7%A2%D7%91%D7%A8%D7%A2" hreflang="yi" lang="yi" title="לינעארע אלגעברע — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/%C3%81lj%E1%BA%B9%CC%81br%C3%A0_on%C3%ADgb%E1%BB%8Dr%E1%BB%8D" hreflang="yo" lang="yo" title="Áljẹ́brà onígbọrọ — yoruba"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh" lang="zh" title="线性代数 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/S%C3%B2a%E2%81%BF-s%C3%A8ng_t%C4%81i-s%C3%B2%CD%98" hreflang="nan" lang="nan" title="Sòaⁿ-sèng tāi-sò͘ — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" hreflang="yue" lang="yue" title="線性代數 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q82571#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Alg%C3%A8bre_lin%C3%A9aire" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Alg%C3%A8bre_lin%C3%A9aire"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Alg%C3%A8bre_lin%C3%A9aire"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a class="mw-disambig" href="/wiki/Alg%C3%A8bre_(homonymie)" title="Algèbre (homonymie)">Algèbre (homonymie)</a>.
+</p>
+</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Linear_subspaces_with_shading.svg"><img alt="" class="thumbimage" data-file-height="236" data-file-width="325" decoding="async" height="160" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/220px-Linear_subspaces_with_shading.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/330px-Linear_subspaces_with_shading.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/440px-Linear_subspaces_with_shading.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Linear_subspaces_with_shading.svg" title="Agrandir"></a></div><b>R<sup>3</sup></b> est un espace vectoriel de dimension 3. Droites et plans qui passent par l'origine sont des sous-espaces vectoriels.</div></div></div>
+<p>L’<b>algèbre linéaire</b> est la branche des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a> qui s'intéresse aux <a href="/wiki/Espace_vectoriel" title="Espace vectoriel">espaces vectoriels</a> et aux <a href="/wiki/Application_lin%C3%A9aire" title="Application linéaire">transformations linéaires</a>, formalisation générale des théories des <a href="/wiki/Syst%C3%A8me_d%27%C3%A9quations_lin%C3%A9aires" title="Système d'équations linéaires">systèmes d'équations linéaires</a>.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Histoire">Histoire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=1" title="Modifier la section : Histoire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=1" title="Modifier la section : Histoire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/w/index.php?title=Fichier:Linear_Algebra_by_Hussein_Tevfik.pdf&amp;page=14"><img alt="" class="thumbimage" data-file-height="1666" data-file-width="1287" decoding="async" height="285" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-220px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-330px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-440px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Linear_Algebra_by_Hussein_Tevfik.pdf?page=14" title="Agrandir"></a></div><i>Linear Algebra</i> de <a href="/wiki/Husse%C3%AFn_Tevfik_Pacha" title="Husseïn Tevfik Pacha">Husseïn Tevfik Pacha</a></div></div></div>
+<p>L'algèbre linéaire est initiée dans son principe par le mathématicien perse <a href="/wiki/Al-Khw%C3%A2rizm%C3%AE" title="Al-Khwârizmî">Al-Khwârizmî</a> qui s'est inspiré des textes de mathématiques indiens et qui a complété les travaux de l'école grecque, laquelle continuera de se développer des siècles durant<sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>. Elle a été reprise par <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> qui pose des problèmes de <a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">géométrie</a>, comme la détermination de l'intersection de deux <a href="/wiki/Droite_(math%C3%A9matiques)" title="Droite (mathématiques)">droites</a>, en termes d'<a href="/wiki/%C3%89quation_lin%C3%A9aire" title="Équation linéaire">équation linéaire</a>, établissant dès lors un pont entre deux branches mathématiques jusqu'alors séparées : l'<a href="/wiki/Alg%C3%A8bre" title="Algèbre">algèbre</a> et la géométrie. S'il ne définit pas la notion de base de l'algèbre linéaire qu'est celle d'espace vectoriel, il l'utilise déjà avec succès, et cette utilisation naturelle des aspects linéaires des équations manipulées demeurera utilisée de manière <i>ad hoc</i>, fondée essentiellement sur les idées géométriques sous-jacentes. Après cette découverte, les progrès en algèbre linéaire vont se limiter à des études ponctuelles comme la définition et l'analyse des premières propriétés des <a href="/wiki/D%C3%A9terminant_(math%C3%A9matiques)" title="Déterminant (mathématiques)">déterminants</a> par <a href="/wiki/Jean_Le_Rond_d%27Alembert" title="Jean Le Rond d'Alembert">Jean d'Alembert</a>.
+</p><p>Ce n'est qu'au <a href="/wiki/XIXe_si%C3%A8cle" title="XIXe siècle"><abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle</a> que l'algèbre linéaire devient une branche des mathématiques à part entière. <a href="/wiki/Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Carl Friedrich Gauss</a> trouve <a href="/wiki/%C3%89limination_de_Gauss-Jordan" title="Élimination de Gauss-Jordan">une méthode générique</a> pour la résolution des systèmes d'équations linéaires et <a href="/wiki/Camille_Jordan_(math%C3%A9maticien)" title="Camille Jordan (mathématicien)">Camille Jordan</a> résout définitivement le problème de la <a href="/wiki/R%C3%A9duction_d%27endomorphisme" title="Réduction d'endomorphisme">réduction d'endomorphisme</a>. En 1843, <a href="/wiki/William_Rowan_Hamilton" title="William Rowan Hamilton">William Rowan Hamilton</a> (inventeur du terme <i>vector</i>) découvre les <a href="/wiki/Quaternion" title="Quaternion">quaternions</a> (<a href="/wiki/Alg%C3%A8bre_simple" title="Algèbre simple">extension</a> de degré 4 du <a href="/wiki/Corps_commutatif" title="Corps commutatif">corps</a> des <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">nombres réels</a>). En 1844, <a href="/wiki/Hermann_G%C3%BCnther_Grassmann" title="Hermann Günther Grassmann">Hermann Grassmann</a> publie son traité <i>Die lineale Ausdehnungslehre</i>, <i>La théorie de l'extension linéaire</i>, qui est la première tentative de formalisation générale de la notion d'espace vectoriel. Si son œuvre reste grandement inaperçue, elle contient l'essentiel des idées modernes de l'algèbre linéaire, et cette étape fondamentale dans le développement de l'algèbre linéaire est reconnue comme telle tant par Hamilton que par <a href="/wiki/Giuseppe_Peano" title="Giuseppe Peano">Giuseppe Peano</a>, qui axiomatise entièrement la théorie en 1888. Les espaces vectoriels deviennent alors une structure générale omniprésente dans presque tous les domaines mathématiques, notamment en <a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">analyse</a> (<a href="/wiki/Espace_fonctionnel" title="Espace fonctionnel">espaces de fonctions</a>).
+</p>
+<h2><span id="Int.C3.A9r.C3.AAt"></span><span class="mw-headline" id="Intérêt">Intérêt</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=2" title="Modifier la section : Intérêt">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=2" title="Modifier la section : Intérêt">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Sous leur forme la plus simple, les applications linéaires dans les <a href="/wiki/Espace_vectoriel" title="Espace vectoriel">espaces vectoriels</a> représentent intuitivement les déplacements dans les espaces géométriques élémentaires comme la <a href="/wiki/Droite_(math%C3%A9matiques)" title="Droite (mathématiques)">droite</a>, le <a href="/wiki/Plan_(math%C3%A9matiques)" title="Plan (mathématiques)">plan</a> ou notre <a href="/wiki/Espace_(notion)#Physique" title="Espace (notion)">espace</a> physique. Les bases de cette théorie remplacent maintenant la représentation construite par <a href="/wiki/Euclide" title="Euclide">Euclide</a> au <a href="/wiki/IIIe_si%C3%A8cle_av._J.-C." title="IIIe siècle av. J.-C."><abbr class="abbr" title="3ᵉ siècle"><span class="romain">III</span><sup style="font-size:72%">e</sup></abbr> siècle <abbr class="abbr nowrap" title="avant Jésus-Christ">av. J.-C.</abbr></a> La construction moderne permet de généraliser la notion d'espace à des dimensions quelconques.
+</p><p>L'algèbre linéaire permet de résoudre tout un ensemble d'équations dites linéaires utilisées non seulement en mathématiques ou en <a href="/wiki/M%C3%A9canique_(science)" title="Mécanique (science)">mécanique</a>, mais aussi dans de nombreuses autres branches comme les <a href="/wiki/Science_de_la_nature" title="Science de la nature">sciences naturelles</a> ou les <a href="/wiki/Sciences_sociales" title="Sciences sociales">sciences sociales</a>.
+</p><p>Les espaces vectoriels forment aussi un outil fondamental pour les <a href="/wiki/Sciences_de_l%27ing%C3%A9nieur" title="Sciences de l'ingénieur">sciences de l'ingénieur</a> et servent de base à de nombreux domaines dans la <a href="/wiki/Recherche_op%C3%A9rationnelle" title="Recherche opérationnelle">recherche opérationnelle</a>.
+</p><p>Enfin, c'est un outil utilisé en mathématiques dans des domaines aussi divers que la <a href="/wiki/Th%C3%A9orie_des_groupes" title="Théorie des groupes">théorie des groupes</a>, <a href="/wiki/Th%C3%A9orie_des_anneaux" title="Théorie des anneaux">des anneaux</a> ou <a href="/wiki/Corps_commutatif" title="Corps commutatif">des corps</a>, l'<a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">analyse fonctionnelle</a>, la <a href="/wiki/G%C3%A9om%C3%A9trie_diff%C3%A9rentielle" title="Géométrie différentielle">géométrie différentielle</a> ou la <a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">théorie des nombres</a>.
+</p>
+<h2><span id="Pr.C3.A9sentation_.C3.A9l.C3.A9mentaire"></span><span class="mw-headline" id="Présentation_élémentaire">Présentation élémentaire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=3" title="Modifier la section : Présentation élémentaire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=3" title="Modifier la section : Présentation élémentaire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>L'algèbre linéaire commence par l'étude de <a href="/wiki/Vecteur" title="Vecteur">vecteurs</a> dans les espaces cartésiens de dimension 2 et 3. Un vecteur, ici, est une <a href="/wiki/Relation_d%27%C3%A9quivalence" title="Relation d'équivalence">classe d'équivalence</a> de bipoints qui unifie les segments de droite caractérisés à la fois par leur longueur (ou <i>norme</i>), leur direction et leur sens : deux bipoints représentent un même vecteur si le quadrilatère formé sur les quatre points est un parallélogramme. Les vecteurs peuvent alors être utilisés pour représenter certaines entités physiques comme des déplacements, additionnés entre eux ou encore multipliés par des scalaires (<i>nombres</i>), formant ainsi le premier exemple concret d'espace vectoriel.
+</p><p>L'algèbre linéaire moderne s'intéresse beaucoup aux espaces de <a href="/wiki/Dimension_d%27un_espace_vectoriel" title="Dimension d'un espace vectoriel">dimension arbitraire, éventuellement infinie</a>. La plupart des résultats obtenus en dimension 2 ou 3 peuvent être étendus aux dimensions finies supérieures, ce qui permet une interprétation géométrique de listes de nombres (une liste de <i>n</i> nombres s'interprétant comme un vecteur d'un espace à <i>n</i> dimensions).
+</p>
+<h2><span id="Quelques_th.C3.A9or.C3.A8mes"></span><span class="mw-headline" id="Quelques_théorèmes">Quelques théorèmes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=4" title="Modifier la section : Quelques théorèmes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=4" title="Modifier la section : Quelques théorèmes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Th%C3%A9or%C3%A8me_de_la_base_incompl%C3%A8te" title="Théorème de la base incomplète">Théorème de la base incomplète</a><sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup> : soient <i>E </i>un espace vectoriel, <i>G </i>une <a href="/wiki/Famille_g%C3%A9n%C3%A9ratrice" title="Famille génératrice">famille génératrice</a> de <i>E </i>et <i>L </i>une <a href="/wiki/Ind%C3%A9pendance_lin%C3%A9aire" title="Indépendance linéaire">famille libre</a> de vecteurs de <i>E</i>. Alors il existe au moins une <a href="/wiki/Base_(alg%C3%A8bre_lin%C3%A9aire)" title="Base (algèbre linéaire)">base</a> de <i>E </i>formée en prenant la réunion de <i>L </i>et d'une partie de <i>G</i>.</li>
+<li>En particulier, tout espace vectoriel possède au moins une base.</li>
+<li>Toutes les bases d'un même espace vectoriel ont le même <a href="/wiki/Cardinalit%C3%A9_(math%C3%A9matiques)" title="Cardinalité (mathématiques)">cardinal</a>.</li>
+<li>Tout espace vectoriel A possède un <a href="/wiki/Espace_dual" title="Espace dual">espace dual</a> A* ; si A est <a href="/wiki/Espace_vectoriel_de_dimension_finie" title="Espace vectoriel de dimension finie">de dimension finie</a>, A* est de même dimension.</li>
+<li><a href="/wiki/Formule_de_Grassmann" title="Formule de Grassmann">Formule de Grassmann</a> : Soient <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle G}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>G</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle G}</annotation>
+</semantics>
+</math></span><img alt="G" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5f3c8921a3b352de45446a6789b104458c9f90b" style="vertical-align: -0.338ex; width:1.827ex; height:2.176ex;"/></span> deux <a href="/wiki/Sous-espace_vectoriel" title="Sous-espace vectoriel">sous-espaces vectoriels</a> d'un même espace vectoriel. On a alors :<center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \dim(F)+\dim(G)=\dim(F+G)+\dim(F\cap G).}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>dim</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>F</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>dim</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>G</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>dim</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>F</mi>
+<mo>+</mo>
+<mi>G</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>dim</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>F</mi>
+<mo>∩<!-- ∩ --></mo>
+<mi>G</mi>
+<mo stretchy="false">)</mo>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \dim(F)+\dim(G)=\dim(F+G)+\dim(F\cap G).}</annotation>
+</semantics>
+</math></span><img alt="\dim(F)+\dim(G)=\dim(F+G)+\dim(F\cap G)." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b838c8ae8399ffb58cf54e16fee8b32ff8970da4" style="vertical-align: -0.838ex; width:48.29ex; height:2.843ex;"/></span></center></li></ul>
+<p>D'autres théorèmes concernent les conditions d'inversion de <a href="/wiki/Matrice_(math%C3%A9matiques)" title="Matrice (mathématiques)">matrices</a> de divers types :
+</p>
+<ul><li><a href="/wiki/Matrice_diagonale" title="Matrice diagonale">matrice diagonale</a> ;</li>
+<li><a href="/wiki/Matrice_triangulaire" title="Matrice triangulaire">matrice triangulaire</a> ;</li>
+<li><a href="/wiki/Matrice_%C3%A0_diagonale_dominante" title="Matrice à diagonale dominante">matrice à diagonale dominante</a>.</li></ul>
+<p>Un théorème intéressant à l'époque des mémoires d'ordinateurs de petite taille était qu'on pouvait travailler séparément sur des sous-ensembles (« blocs ») d'une matrice en les combinant ensuite par les mêmes règles qu'on utilise pour combiner des scalaires dans les matrices (<i>cf</i>. l’article <a href="/wiki/Matrice_par_blocs" title="Matrice par blocs">Matrice par blocs</a>). Avec les mémoires actuelles de plusieurs <a href="/wiki/Octet" title="Octet">gigaoctets</a>, cette question a perdu un peu de son intérêt pratique, mais reste très prisée en <a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">théorie des nombres</a>, pour la <a href="/wiki/D%C3%A9composition_en_produit_de_facteurs_premiers" title="Décomposition en produit de facteurs premiers">décomposition en produit de facteurs premiers</a> avec le <a href="/wiki/Crible_alg%C3%A9brique" title="Crible algébrique">crible général de corps de nombres</a> (<i><a href="/wiki/Algorithme_de_Lanczos" title="Algorithme de Lanczos">algorithme de Lanczos</a></i>).
+</p>
+<h2><span class="mw-headline" id="Utilisations">Utilisations</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=5" title="Modifier la section : Utilisations">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=5" title="Modifier la section : Utilisations">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Les espaces vectoriels forment le support et le fondement de l'algèbre linéaire. Ils sont aussi présents dans de nombreux domaines distincts. S'il n'est pas possible d'indiquer ici tous les cas d'utilisation, on peut tout de même citer pour les principales structures objet de théories, des exemples significatifs. Leurs rôles dans de vastes théories ne traitant pas d'une structure particulière, comme celles des <a href="/wiki/Th%C3%A9orie_alg%C3%A9brique_des_nombres" title="Théorie algébrique des nombres">nombres algébriques</a> ou  de <a href="/wiki/Th%C3%A9orie_de_Galois" title="Théorie de Galois">Galois</a> peuvent aussi être évoqués.
+</p><p>Les espaces vectoriels utilisés sont d'une grande diversité. On y trouve les classiques espaces vectoriels de dimension 2 ou 3 sur les <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">nombres réels</a>, cependant la dimension peut être quelconque, même infinie. Les nombres complexes sont aussi très utilisés, ainsi que les <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">rationnels</a>. Il n'est pas rare qu'une partie des nombres réels ou complexes soit considéré comme un espace vectoriel rationnel. Le corps de base peut aussi contenir un nombre fini d'éléments, définissant parfois un <a href="/wiki/Espace_vectoriel_fini" title="Espace vectoriel fini">espace vectoriel fini</a>.
+</p><p>Les propriétés géométriques de la structure permettent la démonstration de nombreux théorèmes. Elles ne se limitent pas aux cas où l'espace est réel, même dans le cas de corps plus insolites comme les <a href="/wiki/Corps_fini" title="Corps fini">corps finis</a> ou les <a href="/wiki/Extension_finie" title="Extension finie">extensions finies</a> des rationnels, les propriétés géométriques s'avèrent parfois essentielles.
+</p>
+<h3><span class="mw-headline" id="Groupe_fini">Groupe fini</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=6" title="Modifier la section : Groupe fini">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=6" title="Modifier la section : Groupe fini">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Repr%C3%A9sentations_d%27un_groupe_fini" title="Représentations d'un groupe fini">Représentations d'un groupe fini</a>.</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Rotations_du_cube.jpg"><img alt="" class="thumbimage" data-file-height="276" data-file-width="350" decoding="async" height="173" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Rotations_du_cube.jpg/220px-Rotations_du_cube.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Rotations_du_cube.jpg/330px-Rotations_du_cube.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/4/43/Rotations_du_cube.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Rotations_du_cube.jpg" title="Agrandir"></a></div><a href="/wiki/Repr%C3%A9sentations_du_groupe_sym%C3%A9trique" title="Représentations du groupe symétrique">Représentation du groupe symétrique d'indice 4</a> comme groupe des rotations du cube dans un espace vectoriel de dimension 3.</div></div></div>
+<p>La <a href="/wiki/Groupe_fini#Classification_des_groupes_finis" title="Groupe fini">classification des groupes finis</a> est une vaste question, encore objet de recherche. Si le groupe contient un petit nombre d'éléments, les <a href="/wiki/Th%C3%A9or%C3%A8mes_de_Sylow" title="Théorèmes de Sylow">théorèmes de Sylow</a> peuvent suffire pour en déterminer la structure. Une méthode beaucoup plus puissante est nécessaire dans le cas général.
+</p><p><a href="/wiki/Ferdinand_Georg_Frobenius" title="Ferdinand Georg Frobenius">Georg Frobenius</a>, à la suite de travaux de <a href="/wiki/Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a>, développe une nouvelle théorie<sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup> en <a href="/wiki/1896_en_science" title="1896 en science">1896</a>. Elle se fonde sur l'idée que l'ensemble des « <a href="/wiki/Sym%C3%A9trie" title="Symétrie">symétries</a> » (au sens : <a href="/wiki/Application_lin%C3%A9aire#Cas_particuliers" title="Application linéaire">automorphismes</a>) d'un espace vectoriel possède une structure de groupe. Il est toujours possible de <i>représenter</i> un groupe fini par des « symétries » bien choisies sur un espace vectoriel de dimension suffisante. Un groupe est ainsi incarné par des transformations géométriques simples. Une telle incarnation prend le nom de <i>représentation d'un groupe</i>.
+</p><p>Les espaces vectoriels choisis sont de dimension finie, en général sur le corps des complexes<sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup>, cependant pour disposer de bonnes propriétés arithmétiques le corps peut être celui des <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">rationnels</a><sup class="reference" id="cite_ref-5"><a href="#cite_note-5"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup> ou encore utiliser des <a href="/wiki/Entier_alg%C3%A9brique" title="Entier algébrique">entiers algébriques</a> comme pour la démonstration du <a href="/wiki/Th%C3%A9or%C3%A8me_de_Burnside_(groupe_r%C3%A9soluble)" title="Théorème de Burnside (groupe résoluble)">théorème de Burnside sur les groupes résolubles</a><sup class="reference" id="cite_ref-6"><a href="#cite_note-6"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup>. <a href="/wiki/Richard_Brauer" title="Richard Brauer">Richard Brauer</a> étudie un cas très abstrait, celui des représentations sur un espace vectoriel construit à l'aide d'un <a href="/wiki/Corps_fini" title="Corps fini">corps fini</a><sup class="reference" id="cite_ref-7"><a href="#cite_note-7"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup>.
+</p><p>Un exemple relativement simple d'utilisation de cette théorie est donné par Burnside, avec <a href="/wiki/Th%C3%A9or%C3%A8me_de_Burnside_(probl%C3%A8me_de_1902)" title="Théorème de Burnside (problème de 1902)">son théorème</a> sur les <a href="/wiki/Sous-groupe" title="Sous-groupe">sous-groupes</a> d'<a href="/wiki/Exposant_d%27un_groupe" title="Exposant d'un groupe">exposant</a> fini du <a href="/wiki/Groupe_(math%C3%A9matiques)" title="Groupe (mathématiques)">groupe</a> <a href="/wiki/Groupe_g%C3%A9n%C3%A9ral_lin%C3%A9aire" title="Groupe général linéaire">linéaire</a> GL(<i>n</i>, <a href="/wiki/Nombre_complexe" title="Nombre complexe">ℂ</a>).
+</p>
+<h3><span class="mw-headline" id="Anneau">Anneau</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=7" title="Modifier la section : Anneau">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=7" title="Modifier la section : Anneau">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Th%C3%A9orie_des_anneaux" title="Théorie des anneaux">Théorie des anneaux</a>.</div></div>
+<div class="thumb tleft"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Noether.jpg"><img alt="" class="thumbimage" data-file-height="1840" data-file-width="1208" decoding="async" height="335" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Noether.jpg/220px-Noether.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Noether.jpg/330px-Noether.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Noether.jpg/440px-Noether.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Noether.jpg" title="Agrandir"></a></div><a href="/wiki/Emmy_Noether" title="Emmy Noether">Emmy Noether</a> utilise la notion d'espace vectoriel pour étudier les <a href="/wiki/Anneau_noeth%C3%A9rien" title="Anneau noethérien">anneaux</a> portant maintenant son nom.</div></div></div>
+<p>Un exemple célèbre d'anneau disposant aussi d'une structure d'espace vectoriel est celui des <a href="/wiki/Polyn%C3%B4me_formel" title="Polynôme formel">polynômes</a> à coefficients dans un corps. Cet espace vectoriel, de dimension infinie, est largement utilisé en algèbre linéaire, à travers par exemple le <a href="/wiki/Polyn%C3%B4me_minimal_d%27un_endomorphisme" title="Polynôme minimal d'un endomorphisme">polynôme minimal</a> ou <a href="/wiki/Polyn%C3%B4me_caract%C3%A9ristique" title="Polynôme caractéristique">caractéristique</a>. Le <a href="/wiki/Polyn%C3%B4me_d%27endomorphisme" title="Polynôme d'endomorphisme">morphisme canonique</a> entre les polynômes et les applications linéaires d'un espace vectoriel est à l'origine d'une structure d'algèbre qui est un anneau, si la multiplication externe est <i>oubliée</i>.
+</p><p>Cette méthode permet d'élucider la structure de certains anneaux. Tout anneau est un espace vectoriel sur ceux de ses sous-anneaux qui sont des corps. L'espace vectoriel ressemble à la structure développée par Grassman. Cette remarque est utilisée au début du <abbr class="abbr" title="20ᵉ siècle"><span class="romain">XX</span><sup style="font-size:72%">e</sup></abbr> siècle, en particulier par <a href="/wiki/Emil_Artin" title="Emil Artin">Emil Artin</a> et <a href="/wiki/Emmy_Noether" title="Emmy Noether">Emmy Noether</a>, pour élucider cette structure dans le cas des anneaux artiniens et <a href="/wiki/Anneau_noeth%C3%A9rien" title="Anneau noethérien">noethériens</a>, qui sont des copies de sous-algèbres sur un espace vectoriel construit sur <a href="/wiki/Sous-anneau" title="Sous-anneau">sous-anneau</a> qui s'avère être un corps.
+</p><p>Un exemple est la généralisation d'un théorème de <a href="/wiki/Joseph_Wedderburn" title="Joseph Wedderburn">Wedderburn</a> par Artin et portant maintenant le nom de <a href="/wiki/Th%C3%A9or%C3%A8me_d%27Artin-Wedderburn" title="Théorème d'Artin-Wedderburn">théorème d'Artin-Wedderburn</a>. Il est important en <a href="/wiki/Th%C3%A9orie_des_anneaux" title="Théorie des anneaux">algèbre non commutative</a>.
+</p><p><a href="/wiki/Anneau_oppos%C3%A9" title="Anneau opposé">Un lemme élémentaire</a> permet par ailleurs d'interpréter le corps des <a href="/wiki/Quaternion" title="Quaternion">quaternions</a> comme l'algèbre des <a href="/wiki/Repr%C3%A9sentation_de_groupe#Définitions" title="Représentation de groupe">endomorphismes</a> d'<a href="/wiki/Quaternion#Représentation_des_quaternions_comme_matrices_4x4_de_nombres_réels" title="Quaternion">une représentation réelle de degré 4</a> du <a href="/wiki/Groupe_des_quaternions" title="Groupe des quaternions">groupe associé</a>.
+</p>
+<h3><span id="Th.C3.A9orie_de_Galois"></span><span class="mw-headline" id="Théorie_de_Galois">Théorie de Galois</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=8" title="Modifier la section : Théorie de Galois">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=8" title="Modifier la section : Théorie de Galois">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Th%C3%A9orie_de_Galois" title="Théorie de Galois">Théorie de Galois</a>.</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Pentagone_construit.png"><img alt="" class="thumbimage" data-file-height="336" data-file-width="349" decoding="async" height="212" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pentagone_construit.png/220px-Pentagone_construit.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pentagone_construit.png/330px-Pentagone_construit.png 1.5x, //upload.wikimedia.org/wikipedia/commons/9/97/Pentagone_construit.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Pentagone_construit.png" title="Agrandir"></a></div>La théorie de Galois permet de déterminer quels polygones réguliers sont constructibles à la règle et au compas. <a href="/wiki/Construction_du_pentagone_r%C3%A9gulier_%C3%A0_la_r%C3%A8gle_et_au_compas" title="Construction du pentagone régulier à la règle et au compas">Le pentagone en fait partie</a>.</div></div></div>
+<p>La théorie de Galois contient de nombreux exemples d'espaces vectoriels. Elle consiste à étudier un corps comme un espace vectoriel sur un sous-corps. Ainsi chaque sous-corps permet de considérer la structure initiale comme un espace vectoriel particulier.
+</p><p>Un exemple d'application est celui des figures <a href="/wiki/Construction_%C3%A0_la_r%C3%A8gle_et_au_compas" title="Construction à la règle et au compas">constructible à la règle et au compas</a>. Ces points forment un corps disposant d'une structure d'espace vectoriel sur les nombres rationnels. Il est de dimension infinie et, pour chaque point, le plus petit sous-corps le contenant est de dimension finie égale à une puissance de 2. Un tel sous-corps est appelé une <a href="/wiki/Tour_d%27extensions_quadratiques" title="Tour d'extensions quadratiques">tour d'extensions quadratiques</a>. Cette propriété de ces espaces vectoriels permet de résoudre d'antiques conjectures comme la <a href="/wiki/Duplication_du_cube" title="Duplication du cube">duplication du cube</a>, la <a href="/wiki/Trisection_de_l%27angle" title="Trisection de l'angle">trisection de l'angle</a> ou la construction d'un <a href="/wiki/Polygone_r%C3%A9gulier" title="Polygone régulier">polygone régulier</a>.
+</p><p>L'exemple historique de la théorie est celui de la résolution d'une <a href="/wiki/%C3%89quation_polynomiale" title="Équation polynomiale">équation polynomiale</a>. Le <a href="/wiki/Th%C3%A9or%C3%A8me_d%27Abel_(alg%C3%A8bre)" title="Théorème d'Abel (algèbre)">théorème d'Abel</a> donne une <a href="/wiki/%C3%89quivalence_logique" title="Équivalence logique">condition nécessaire et suffisante</a> de résolution par <a href="/wiki/Racine_d%27un_nombre#Racines_d'un_complexe" title="Racine d'un nombre">radicaux</a>. Les espaces vectoriels utilisés ont pour éléments ceux du plus petit corps <i>L</i> contenant tous les coefficients du polynôme ainsi que ses racines et le corps sous-jacent est un sous-corps <i>K</i> du premier contenant tous les coefficients. Le <a href="/wiki/Groupe_de_Galois" title="Groupe de Galois">groupe de Galois</a> est composé des automorphismes du corps <i>L</i> qui laissent invariant le corps <i>K</i>. Ces automorphismes sont en nombre fini et sont des <a href="/wiki/Application_lin%C3%A9aire#Cas_particuliers" title="Application linéaire">automorphismes du <i>K</i>-espace vectoriel</a> <i>L</i>. L'élément clé de <a href="/wiki/Th%C3%A9or%C3%A8me_d%27Abel_(alg%C3%A8bre)#Démonstration_du_théorème_de_Galois" title="Théorème d'Abel (algèbre)">la démonstration</a> montre que l'équation est résoluble seulement si ces automorphismes sont <a href="/wiki/Diagonalisation" title="Diagonalisation">diagonalisables</a>.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=9" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=9" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text"><a href="/wiki/Roshdi_Rashed" title="Roshdi Rashed">Roshdi Rashed</a>, <i>D'Al Khwarizmi à Descartes, Étude sur l'histoire des mathématiques classiques</i>, Hermann, 2011</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-2">↑</a> </span><span class="reference-text">Dans le cas où <i>G </i>est infinie, ce théorème utilise l'<a href="/wiki/Axiome_du_choix" title="Axiome du choix">axiome du choix</a>, qui intervient de même dans les énoncés suivants en dimension infinie.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Charles_W._Curtis" title="Charles W. Curtis">C. W. Curtis</a>, «<span class="lang-en" lang="en"> Representation theory of finite groups, from Frobenius to Brauer </span>», dans <i><a href="/wiki/The_Mathematical_Intelligencer" title="The Mathematical Intelligencer">Math. Intelligencer</a></i>, 1992, <span class="nowrap"><abbr class="abbr" title="page(s)">p.</abbr> 48-57</span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-4">↑</a> </span><span class="reference-text">Les 11 premiers chapitres de <span class="ouvrage" id="Serre"><span class="ouvrage" id="Jean-Pierre_Serre"><a href="/wiki/Jean-Pierre_Serre" title="Jean-Pierre Serre">Jean-Pierre <span class="nom_auteur">Serre</span></a>, <cite class="italique">Représentations linéaires des groupes finis</cite> <small>[<a href="/wiki/R%C3%A9f%C3%A9rence:Repr%C3%A9sentations_de_groupes_(Serre)" title="Référence:Représentations de groupes (Serre)">détail des éditions</a>]</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Repr%C3%A9sentations+lin%C3%A9aires+des+groupes+finis&amp;rft.aulast=Serre&amp;rft.aufirst=Jean-Pierre&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AAlg%C3%A8bre+lin%C3%A9aire"></span></span></span> ne concernent que les espaces vectoriels complexes.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink noprint"><a href="#cite_ref-5">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Walter_Feit" title="Walter Feit">Walter Feit</a>, <i>Characters of finite groups</i>, Benjamin, 1967</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink noprint"><a href="#cite_ref-6">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/William_Burnside" title="William Burnside">William Burnside</a>, <i>Theory of Groups of Finite Order</i>, Dover, 2004</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink noprint"><a href="#cite_ref-7">↑</a> </span><span class="reference-text"><abbr class="abbr indicateur-langue" title="Langue : allemand">(de)</abbr> <a href="/wiki/Richard_Brauer" title="Richard Brauer">Richard Brauer</a>, « Über die Darstellung von Gruppen in Galoisschen Feldern », dans <i><a class="mw-redirect" href="/wiki/Hermann_(%C3%A9ditions)#1876-1956" title="Hermann (éditions)">Act. Sci. Ind.</a></i>, vol. 195, 1935</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=10" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=10" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Vincent Blanloeil, <i>Une introduction moderne à l’algèbre linéaire</i>, Ellipses, 2012</li>
+<li>Roger Mansuy et Rached Mneimné, <i>Algèbre linéaire - Réduction des endomorphismes</i>, Vuibert, 2012</li></ul>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=11" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=11" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Linear_algebra?uselang=fr">Algèbre linéaire</a>, sur <span class="project">Wikimedia Commons</span></li><li class="wiktionary"><a class="extiw" href="https://fr.wiktionary.org/wiki/alg%C3%A8bre_lin%C3%A9aire" title="wikt:algèbre linéaire">algèbre linéaire</a>, <span class="nowrap">sur le <span class="project">Wiktionnaire</span></span></li><li class="wikiversity"><a class="extiw" href="https://fr.wikiversity.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="v:Algèbre linéaire">Algèbre linéaire</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li><li class="wikibooks"><a class="extiw" href="https://fr.wikibooks.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" title="b:Algèbre linéaire">Algèbre linéaire</a>, <span class="nowrap">sur <span class="project">Wikibooks</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=12" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=12" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a class="mw-redirect" href="/wiki/Propri%C3%A9t%C3%A9s_m%C3%A9triques_des_droites_et_plans" title="Propriétés métriques des droites et plans">Propriétés métriques des droites et plans</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_g%C3%A9n%C3%A9rale" title="Algèbre générale">Algèbre générale</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_multilin%C3%A9aire" title="Algèbre multilinéaire">Algèbre multilinéaire</a></li>
+<li><a href="/wiki/Loi_d%27inertie_de_Sylvester" title="Loi d'inertie de Sylvester">Loi d'inertie de Sylvester</a></li>
+<li><a href="/wiki/Optimisation_lin%C3%A9aire" title="Optimisation linéaire">Optimisation linéaire</a></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;veaction=edit&amp;section=13" title="Modifier la section : Liens externes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit&amp;section=13" title="Modifier la section : Liens externes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a class="external text" href="http://www.egwald.com/linearalgebra/index.php" rel="nofollow">Linear Algebra</a> par Elmer G. Wiens</li>
+<li><a class="external text" href="https://web.archive.org/web/20101108172830/http://roso.epfl.ch/teaching.html" rel="nofollow">Les cours du ROSO, dont de l'Algèbre linéaire</a></li>
+<li><a class="external text" href="http://braise.univ-rennes1.fr/" rel="nofollow">Braise : la base raisonnée d'exercices de mathématiques et son chapitre sur l'Algèbre linéaire</a></li>
+<li><span class="ouvrage" id="3Blue1Brown"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> 3Blue1Brown, <span lang="en"><a class="external text" href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" rel="nofollow">« <cite style="font-style:normal;">Essence of linear algebra</cite> »</a></span>, sur <span class="italique">YouTube</span> <small style="line-height:1em;">(consulté le <time class="nowrap" data-sort-value="2018-06-12" datetime="2018-06-12">12 juin 2018</time>)</small></span> <div style="margin-left:2em; line-height:1.5;">chaîne dont le but est  « d'animer les intuitions géométriques soustendant de nombreux sujets enseignés dans les cours habituels d'algèbre linéaire. »</div></li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="3" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Alg%C3%A8bre_lin%C3%A9aire" title="Modèle:Palette Algèbre linéaire"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Alg%C3%A8bre_lin%C3%A9aire&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a class="mw-selflink selflink">Algèbre linéaire</a> générale</div></th>
+</tr> <tr>
+<td class="navbox-banner" colspan="3" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Vecteur" title="Vecteur">Vecteur</a></li>
+<li><a href="/wiki/Scalaire_(math%C3%A9matiques)" title="Scalaire (mathématiques)">Scalaire</a></li>
+<li><a href="/wiki/Combinaison_lin%C3%A9aire" title="Combinaison linéaire">Combinaison linéaire</a></li>
+<li><a href="/wiki/Espace_vectoriel" title="Espace vectoriel">Espace vectoriel</a></li>
+<li><a href="/wiki/Matrice_(math%C3%A9matiques)" title="Matrice (mathématiques)">Matrice</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Famille de vecteurs</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Famille_g%C3%A9n%C3%A9ratrice" title="Famille génératrice">Famille génératrice</a></li>
+<li><a href="/wiki/Ind%C3%A9pendance_lin%C3%A9aire" title="Indépendance linéaire">Famille libre (indépendance linéaire)</a></li>
+<li><a href="/wiki/Base_(alg%C3%A8bre_lin%C3%A9aire)" title="Base (algèbre linéaire)">Base</a></li>
+<li><a href="/wiki/Th%C3%A9or%C3%A8me_de_la_base_incompl%C3%A8te" title="Théorème de la base incomplète">Théorème de la base incomplète</a></li>
+<li><a href="/wiki/Th%C3%A9or%C3%A8me_de_la_dimension_pour_les_espaces_vectoriels" title="Théorème de la dimension pour les espaces vectoriels">Théorème de la dimension pour les espaces vectoriels</a></li>
+<li><a class="mw-redirect" href="/wiki/Rang_(math%C3%A9matiques)" title="Rang (mathématiques)">Rang</a></li>
+<li><a href="/wiki/Colin%C3%A9arit%C3%A9" title="Colinéarité">Colinéarité</a></li></ul>
+</div></td>
+<td class="navbox-image" rowspan="6" style="vertical-align:middle;padding-left:7px"><a class="image" href="/wiki/Fichier:Nuvola_apps_edu_mathematics_blue-p.svg" title="Mathématiques"><img alt="Mathématiques" data-file-height="128" data-file-width="128" decoding="async" height="80" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/80px-Nuvola_apps_edu_mathematics_blue-p.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/120px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/160px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" width="80"/></a></td>
+</tr> <tr>
+<th class="navbox-group" style="">Sous-espace</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Sous-espace_vectoriel" title="Sous-espace vectoriel">Sous-espace vectoriel</a></li>
+<li><a href="/wiki/Somme_de_Minkowski" title="Somme de Minkowski">Somme de Minkowski</a></li>
+<li><a href="/wiki/Somme_directe" title="Somme directe">Somme directe</a></li>
+<li><a href="/wiki/Sous-espace_suppl%C3%A9mentaire" title="Sous-espace supplémentaire">Sous-espace supplémentaire</a></li>
+<li><a href="/wiki/Dimension_d%27un_espace_vectoriel" title="Dimension d'un espace vectoriel">Dimension</a></li>
+<li><a href="/wiki/Codimension" title="Codimension">Codimension</a></li>
+<li><a href="/wiki/Droite_vectorielle" title="Droite vectorielle">Droite</a></li>
+<li><a href="/wiki/Plan_vectoriel" title="Plan vectoriel">Plan</a></li>
+<li><a href="/wiki/Hyperplan" title="Hyperplan">Hyperplan</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Morphisme et<br/>notions relatives</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Application_lin%C3%A9aire" title="Application linéaire">Application linéaire</a></li>
+<li><a href="/wiki/Noyau_(alg%C3%A8bre)" title="Noyau (algèbre)">Noyau</a></li>
+<li><a href="/wiki/Conoyau" title="Conoyau">Conoyau</a></li>
+<li><a href="/wiki/Lemme_des_noyaux" title="Lemme des noyaux">Lemme des noyaux</a></li>
+<li><a href="/wiki/Pseudo-inverse" title="Pseudo-inverse">Pseudo-inverse</a></li>
+<li><a href="/wiki/Th%C3%A9or%C3%A8me_de_factorisation" title="Théorème de factorisation">Théorème de factorisation</a></li>
+<li><a href="/wiki/Th%C3%A9or%C3%A8me_du_rang" title="Théorème du rang">Théorème du rang</a></li>
+<li><a href="/wiki/%C3%89quation_lin%C3%A9aire" title="Équation linéaire">Équation linéaire</a></li>
+<li><a href="/wiki/Syst%C3%A8me_d%27%C3%A9quations_lin%C3%A9aires" title="Système d'équations linéaires">Système d'équations linéaires</a></li>
+<li><a href="/wiki/%C3%89limination_de_Gauss-Jordan" title="Élimination de Gauss-Jordan">Élimination de Gauss-Jordan</a></li>
+<li><a href="/wiki/Forme_lin%C3%A9aire" title="Forme linéaire">Forme linéaire</a></li>
+<li><a href="/wiki/Espace_dual" title="Espace dual">Espace dual</a></li>
+<li><a href="/wiki/Orthogonalit%C3%A9" title="Orthogonalité">Orthogonalité</a></li>
+<li><a href="/wiki/Base_duale" title="Base duale">Base duale</a></li>
+<li><a href="/wiki/Endomorphisme_lin%C3%A9aire" title="Endomorphisme linéaire">Endomorphisme linéaire</a></li>
+<li><a href="/wiki/Valeur_propre,_vecteur_propre_et_espace_propre" title="Valeur propre, vecteur propre et espace propre">Valeur propre, vecteur propre et espace propre</a></li>
+<li><a href="/wiki/Projecteur_(math%C3%A9matiques)" title="Projecteur (mathématiques)">Projecteur</a></li>
+<li><a href="/wiki/Sym%C3%A9trie" title="Symétrie">Symétrie</a></li>
+<li><a href="/wiki/Matrice_diagonalisable" title="Matrice diagonalisable">Matrice diagonalisable</a></li>
+<li><a href="/wiki/Diagonalisation" title="Diagonalisation">Diagonalisation</a></li>
+<li><a href="/wiki/Endomorphisme_nilpotent" title="Endomorphisme nilpotent">Endomorphisme nilpotent</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Dimension finie</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Espace_vectoriel_de_dimension_finie" title="Espace vectoriel de dimension finie">Espace vectoriel de dimension finie</a></li>
+<li><a href="/wiki/Trace_(alg%C3%A8bre)" title="Trace (algèbre)">Trace</a></li>
+<li><a href="/wiki/D%C3%A9terminant_(math%C3%A9matiques)" title="Déterminant (mathématiques)">Déterminant</a></li>
+<li><a href="/wiki/Polyn%C3%B4me_caract%C3%A9ristique" title="Polynôme caractéristique">Polynôme caractéristique</a></li>
+<li><a href="/wiki/Polyn%C3%B4me_d%27endomorphisme" title="Polynôme d'endomorphisme">Polynôme d'endomorphisme</a></li>
+<li><a href="/wiki/Th%C3%A9or%C3%A8me_de_Cayley-Hamilton" title="Théorème de Cayley-Hamilton">Théorème de Cayley-Hamilton</a></li>
+<li><a href="/wiki/Polyn%C3%B4me_minimal_d%27un_endomorphisme" title="Polynôme minimal d'un endomorphisme">Polynôme minimal d'un endomorphisme</a></li>
+<li><a href="/wiki/Invariants_de_similitude" title="Invariants de similitude">Invariants de similitude</a></li>
+<li><a href="/wiki/R%C3%A9duction_d%27endomorphisme" title="Réduction d'endomorphisme">Réduction d'endomorphisme</a></li>
+<li><a href="/wiki/R%C3%A9duction_de_Jordan" title="Réduction de Jordan">Réduction de Jordan</a></li>
+<li><a href="/wiki/D%C3%A9composition_de_Dunford" title="Décomposition de Dunford">Décomposition de Dunford</a></li>
+<li><a href="/wiki/D%C3%A9composition_de_Frobenius" title="Décomposition de Frobenius">Décomposition de Frobenius</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Enrichissements<br/>de structure</th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Norme_(math%C3%A9matiques)" title="Norme (mathématiques)">Norme</a></li>
+<li><a href="/wiki/Produit_scalaire" title="Produit scalaire">Produit scalaire</a></li>
+<li><a href="/wiki/Forme_quadratique" title="Forme quadratique">Forme quadratique</a></li>
+<li><a href="/wiki/Espace_vectoriel_topologique" title="Espace vectoriel topologique">Espace vectoriel topologique</a></li>
+<li><a href="/wiki/Orientation_(math%C3%A9matiques)" title="Orientation (mathématiques)">Orientation</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_sur_un_corps" title="Algèbre sur un corps">Algèbre sur un corps</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_de_Lie" title="Algèbre de Lie">Algèbre de Lie</a></li>
+<li><a href="/wiki/Complexe_diff%C3%A9rentiel" title="Complexe différentiel">Complexe différentiel</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="">Développements</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Th%C3%A9orie_des_matrices" title="Théorie des matrices">Théorie des matrices</a></li>
+<li><a href="/wiki/Repr%C3%A9sentation_de_groupe" title="Représentation de groupe">Représentation de groupe</a></li>
+<li><a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">Analyse fonctionnelle</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_multilin%C3%A9aire" title="Algèbre multilinéaire">Algèbre multilinéaire</a></li>
+<li><a href="/wiki/Module_sur_un_anneau" title="Module sur un anneau">Module sur un anneau</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Domaines_des_math%C3%A9matiques" title="Modèle:Palette Domaines des mathématiques"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Domaines_des_math%C3%A9matiques&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Domaines des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a></div></th>
+</tr> <tr>
+<td class="navbox-list" colspan="2" style="text-align:center;;"><div class="liste-horizontale">
+<ul><li><a href="/wiki/Alg%C3%A8bre" title="Algèbre">Algèbre</a></li>
+<li><a href="/wiki/Alg%C3%A8bre_commutative" title="Algèbre commutative">Algèbre commutative</a></li>
+<li><a href="/wiki/Homologie_et_cohomologie" title="Homologie et cohomologie">Algèbre homologique</a></li>
+<li><a class="mw-selflink selflink">Algèbre linéaire</a></li>
+<li><a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">Analyse</a></li>
+<li><a href="/wiki/Analyse_r%C3%A9elle" title="Analyse réelle">Analyse réelle</a></li>
+<li><a href="/wiki/Analyse_complexe" title="Analyse complexe">Analyse complexe</a></li>
+<li><a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">Analyse fonctionnelle</a></li>
+<li><a href="/wiki/Analyse_num%C3%A9rique" title="Analyse numérique">Analyse numérique</a></li>
+<li><a href="/wiki/Calculateur_quantique" title="Calculateur quantique">Calcul quantique</a></li>
+<li><a href="/wiki/Combinatoire" title="Combinatoire">Combinatoire</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">Géométrie</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_alg%C3%A9brique" title="Géométrie algébrique">Géométrie algébrique</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_diff%C3%A9rentielle" title="Géométrie différentielle">Géométrie différentielle</a></li>
+<li><a href="/wiki/G%C3%A9om%C3%A9trie_non_commutative" title="Géométrie non commutative">Géométrie non commutative</a></li>
+<li><a href="/wiki/Optimisation_(math%C3%A9matiques)" title="Optimisation (mathématiques)">Optimisation</a></li>
+<li><a href="/wiki/Physique_math%C3%A9matique" title="Physique mathématique">Physique mathématique</a></li>
+<li><a href="/wiki/Probabilit%C3%A9" title="Probabilité">Probabilités</a></li>
+<li><a href="/wiki/Statistique" title="Statistique">Statistiques</a></li>
+<li><a class="mw-redirect" href="/wiki/Syst%C3%A8mes_dynamiques" title="Systèmes dynamiques">Systèmes dynamiques</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">Théorie des nombres</a></li>
+<li><a href="/wiki/Th%C3%A9orie_de_Galois" title="Théorie de Galois">Théorie de Galois</a></li>
+<li><a href="/wiki/Th%C3%A9orie_des_groupes" title="Théorie des groupes">Théorie des groupes</a></li>
+<li><a href="/wiki/Topologie" title="Topologie">Topologie</a></li>
+<li><a href="/wiki/Topologie_alg%C3%A9brique" title="Topologie algébrique">Topologie algébrique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail de l’algèbre"><img alt="icône décorative" class="noviewer" data-file-height="210" data-file-width="210" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/24px-Arithmetic_symbols.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/36px-Arithmetic_symbols.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/48px-Arithmetic_symbols.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail:Algèbre">Portail de l’algèbre</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1431
+Cached time: 20221010182859
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.224 seconds
+Real time usage: 0.337 seconds
+Preprocessor visited node count: 2380/1000000
+Post‐expand include size: 61608/2097152 bytes
+Template argument size: 16902/2097152 bytes
+Highest expansion depth: 16/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 4864/5000000 bytes
+Lua time usage: 0.062/10.000 seconds
+Lua memory usage: 3632245/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  238.246      1 -total
+ 30.13%   71.785      1 Modèle:Références
+ 16.64%   39.648      1 Modèle:Portail
+ 13.47%   32.090      1 Modèle:Serre2
+ 12.94%   30.831      1 Modèle:Ouvrage
+ 12.46%   29.692      1 Modèle:Autres_projets
+ 11.96%   28.492      1 Modèle:Palette
+ 10.83%   25.803      1 Modèle:Voir_homonymes
+ 10.29%   24.522      1 Modèle:Méta_bandeau_de_note
+  9.21%   21.949      1 Modèle:Méta_bandeau
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:7-0!canonical and timestamp 20221010182859 and revision id 193924488.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Algèbre_linéaire&amp;oldid=193924488">https://fr.wikipedia.org/w/index.php?title=Algèbre_linéaire&amp;oldid=193924488</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Alg%C3%A8bre_lin%C3%A9aire" title="Catégorie:Algèbre linéaire">Algèbre linéaire</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Cat%C3%A9gorie_Commons_avec_lien_local_identique_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local identique sur Wikidata">Catégorie Commons avec lien local identique sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Alg%C3%A8bre/Articles_li%C3%A9s" title="Catégorie:Portail:Algèbre/Articles liés">Portail:Algèbre/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 23 mai 2022 à 13:57.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Alg%C3%A8bre_lin%C3%A9aire" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Alg%C3%A8bre_lin%C3%A9aire&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.337","ppvisitednodes":{"value":2380,"limit":1000000},"postexpandincludesize":{"value":61608,"limit":2097152},"templateargumentsize":{"value":16902,"limit":2097152},"expansiondepth":{"value":16,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":4864,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  238.246      1 -total"," 30.13%   71.785      1 Modèle:Références"," 16.64%   39.648      1 Modèle:Portail"," 13.47%   32.090      1 Modèle:Serre2"," 12.94%   30.831      1 Modèle:Ouvrage"," 12.46%   29.692      1 Modèle:Autres_projets"," 11.96%   28.492      1 Modèle:Palette"," 10.83%   25.803      1 Modèle:Voir_homonymes"," 10.29%   24.522      1 Modèle:Méta_bandeau_de_note","  9.21%   21.949      1 Modèle:Méta_bandeau"]},"scribunto":{"limitreport-timeusage":{"value":"0.062","limit":"10.000"},"limitreport-memusage":{"value":3632245,"limit":52428800}},"cachereport":{"origin":"mw1431","timestamp":"20221010182859","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Alg\u00e8bre lin\u00e9aire","url":"https:\/\/fr.wikipedia.org\/wiki\/Alg%C3%A8bre_lin%C3%A9aire","sameAs":"http:\/\/www.wikidata.org\/entity\/Q82571","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q82571","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-08-04T13:03:43Z","dateModified":"2022-05-23T11:57:24Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2f\/Linear_subspaces_with_shading.svg","headline":"Branche des math\u00e9matiques qui \u00e9tudie les espaces vectoriels et les transformations lin\u00e9aires"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Alg\u00e8bre lin\u00e9aire","url":"https:\/\/fr.wikipedia.org\/wiki\/Alg%C3%A8bre_lin%C3%A9aire","sameAs":"http:\/\/www.wikidata.org\/entity\/Q82571","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q82571","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-08-04T13:03:43Z","dateModified":"2022-05-23T11:57:24Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2f\/Linear_subspaces_with_shading.svg","headline":"Branche des math\u00e9matiques qui \u00e9tudie les espaces vectoriels et les transformations lin\u00e9aires"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":467,"wgHostname":"mw1431"});});</script>
+</body>
+</html>

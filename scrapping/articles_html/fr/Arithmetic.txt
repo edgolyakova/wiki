@@ -1,0 +1,1427 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Arithmétique — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"d6325e04-6916-431a-81dd-aa00a2208381","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Arithmétique","wgTitle":"Arithmétique","wgCurRevisionId":197434886,"wgRevisionId":197434886,"wgArticleId":2057625,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Catégorie Commons avec lien local différent sur Wikidata","Article contenant un appel à traduction en anglais","Portail:Arithmétique et théorie des nombres/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Article de qualité en bachkir",
+"Article de qualité en russe","Bon article en biélorusse","Article de qualité en latin","Page qui utilise un format obsolète des balises mathématiques","Arithmétique"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Arithmétique","wgRelevantArticleId":2057625,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,
+"wgWikibaseItemId":"Q11205","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging",
+"ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/1200px-Java_Computation_of_Arithmetic_Expression.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="1535" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/800px-Java_Computation_of_Arithmetic_Expression.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="1024" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/640px-Java_Computation_of_Arithmetic_Expression.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="819" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Arithmétique — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Arithm%C3%A9tique" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Arithm%C3%A9tique" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Arithmétique rootpage-Arithmétique skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Arithm%C3%A9tique" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Arithm%C3%A9tique" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Arithm%C3%A9tique" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Arithm%C3%A9tique" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Arithm%C3%A9tique" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Arithm%C3%A9tique&amp;oldid=197434886" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Arithm%C3%A9tique&amp;id=197434886&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11205" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Arithm%C3%A9tique"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Arithm%C3%A9tique&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Arithm%C3%A9tique&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Arithmetic" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Arithm%C3%A9tique" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Histoire">
+<a class="sidebar-toc-link" href="#Histoire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Histoire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Histoire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Différentes_arithmétiques">
+<a class="sidebar-toc-link" href="#Différentes_arithmétiques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Différentes arithmétiques</div>
+</a>
+<button aria-controls="toc-Différentes_arithmétiques-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Différentes arithmétiques
+				</button>
+<ul class="sidebar-toc-list" id="toc-Différentes_arithmétiques-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Arithmétique_élémentaire">
+<a class="sidebar-toc-link" href="#Arithmétique_élémentaire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.1</span>Arithmétique élémentaire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Arithmétique_élémentaire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Arithmétique_modulaire">
+<a class="sidebar-toc-link" href="#Arithmétique_modulaire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.2</span>Arithmétique modulaire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Arithmétique_modulaire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Théorie_algébrique_des_nombres">
+<a class="sidebar-toc-link" href="#Théorie_algébrique_des_nombres">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.3</span>Théorie algébrique des nombres</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Théorie_algébrique_des_nombres-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Arithmétique_des_polynômes">
+<a class="sidebar-toc-link" href="#Arithmétique_des_polynômes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.4</span>Arithmétique des polynômes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Arithmétique_des_polynômes-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Ensembles_utilisés_en_arithmétique">
+<a class="sidebar-toc-link" href="#Ensembles_utilisés_en_arithmétique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Ensembles utilisés en arithmétique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Ensembles_utilisés_en_arithmétique-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Propriétés">
+<a class="sidebar-toc-link" href="#Propriétés">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Propriétés</div>
+</a>
+<button aria-controls="toc-Propriétés-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Propriétés
+				</button>
+<ul class="sidebar-toc-list" id="toc-Propriétés-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Nombres_premiers">
+<a class="sidebar-toc-link" href="#Nombres_premiers">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.1</span>Nombres premiers</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Nombres_premiers-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Nombres_pairs_et_impairs">
+<a class="sidebar-toc-link" href="#Nombres_pairs_et_impairs">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.2</span>Nombres pairs et impairs</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Nombres_pairs_et_impairs-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-3" id="toc-Mathématiques">
+<a class="sidebar-toc-link" href="#Mathématiques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1.1</span>Mathématiques</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Mathématiques-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-3" id="toc-Philosophie">
+<a class="sidebar-toc-link" href="#Philosophie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1.2</span>Philosophie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Philosophie-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.2</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Arithmétique</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 150 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-150 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">150 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ab mw-list-item"><a class="interlanguage-link-target" href="https://ab.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="ab" lang="ab" title="Арифметика — abkhaze"><span>Аԥсшәа</span></a></li><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Rekenkunde" hreflang="af" lang="af" title="Rekenkunde — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Arithmetik" hreflang="gsw" lang="gsw" title="Arithmetik — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%88%A5%E1%8A%90_%E1%89%81%E1%8C%A5%E1%88%AD" hreflang="am" lang="am" title="ሥነ ቁጥር — amharique"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Aritmetica" hreflang="an" lang="an" title="Aritmetica — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8%D9%8A%D8%A7%D8%AA" hreflang="ar" lang="ar" title="حسابيات — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%AA%E0%A6%BE%E0%A6%9F%E0%A7%80%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" hreflang="as" lang="as" title="পাটীগণিত — assamais"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="ast" lang="ast" title="Aritmética — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Hesab" hreflang="az" lang="az" title="Hesab — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8" hreflang="azb" lang="azb" title="حساب — South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="ba" lang="ba" title="Арифметика — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a class="interlanguage-link-target" href="https://bat-smg.wikipedia.org/wiki/Ar%C4%97tmet%C4%97ka" hreflang="sgs" lang="sgs" title="Arėtmetėka — Samogitian"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Aritmetika" hreflang="bcl" lang="bcl" title="Aritmetika — Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%90%D1%80%D1%8B%D1%84%D0%BC%D0%B5%D1%82%D1%8B%D0%BA%D0%B0" hreflang="be" lang="be" title="Арыфметыка — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%90%D1%80%D1%8B%D1%82%D0%BC%D1%8D%D1%82%D1%8B%D0%BA%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Арытмэтыка — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%82%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="bg" lang="bg" title="Аритметика — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="bh" lang="bh" title="अंकगणित — Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bi mw-list-item"><a class="interlanguage-link-target" href="https://bi.wikipedia.org/wiki/Arithmetic" hreflang="bi" lang="bi" title="Arithmetic — bichelamar"><span>Bislama</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%AA%E0%A6%BE%E0%A6%9F%E0%A6%BF%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" hreflang="bn" lang="bn" title="পাটিগণিত — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Aritmetik" hreflang="br" lang="br" title="Aritmetik — breton"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Aritmetika" hreflang="bs" lang="bs" title="Aritmetika — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D1%8D" hreflang="bxr" lang="bxr" title="Арифметикэ — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Aritm%C3%A8tica" hreflang="ca" lang="ca" title="Aritmètica — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ceb mw-list-item"><a class="interlanguage-link-target" href="https://ceb.wikipedia.org/wiki/Aritmetik" hreflang="ceb" lang="ceb" title="Aritmetik — cebuano"><span>Cebuano</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DA%98%D9%85%DB%8E%D8%B1%DB%95" hreflang="ckb" lang="ckb" title="ژمێرە — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-co mw-list-item"><a class="interlanguage-link-target" href="https://co.wikipedia.org/wiki/Aritmetica" hreflang="co" lang="co" title="Aritmetica — corse"><span>Corsu</span></a></li><li class="interlanguage-link interwiki-crh mw-list-item"><a class="interlanguage-link-target" href="https://crh.wikipedia.org/wiki/Esap" hreflang="crh" lang="crh" title="Esap — turc de Crimée"><span>Qırımtatarca</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Aritmetika" hreflang="cs" lang="cs" title="Aritmetika — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="cv" lang="cv" title="Арифметика — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Rhifyddeg" hreflang="cy" lang="cy" title="Rhifyddeg — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Aritmetik" hreflang="da" lang="da" title="Aritmetik — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Arithmetik" hreflang="de" lang="de" title="Arithmetik — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%91%CF%81%CE%B9%CE%B8%CE%BC%CE%B7%CF%84%CE%B9%CE%BA%CE%AE" hreflang="el" lang="el" title="Αριθμητική — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Arithmetic" hreflang="en" lang="en" title="Arithmetic — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Aritmetiko" hreflang="eo" lang="eo" title="Aritmetiko — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="es" lang="es" title="Aritmética — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Aritmeetika" hreflang="et" lang="et" title="Aritmeetika — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aritmetika" hreflang="eu" lang="eu" title="Aritmetika — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-ext mw-list-item"><a class="interlanguage-link-target" href="https://ext.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="ext" lang="ext" title="Aritmética — estrémègne"><span>Estremeñu</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8" hreflang="fa" lang="fa" title="حساب — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Aritmetiikka" hreflang="fi" lang="fi" title="Aritmetiikka — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/Arvokunst" hreflang="vro" lang="vro" title="Arvokunst — võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-fj mw-list-item"><a class="interlanguage-link-target" href="https://fj.wikipedia.org/wiki/Maqusa" hreflang="fj" lang="fj" title="Maqusa — fidjien"><span>Na Vosa Vakaviti</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Aritmeetik" hreflang="frr" lang="frr" title="Aritmeetik — frison du Nord"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Uimhr%C3%ADocht" hreflang="ga" lang="ga" title="Uimhríocht — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E7%AE%97%E8%A1%93" hreflang="gan" lang="gan" title="算術 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Aritm%C3%A9tik" hreflang="gcr" lang="gcr" title="Aritmétik — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gd mw-list-item"><a class="interlanguage-link-target" href="https://gd.wikipedia.org/wiki/%C3%80ireamhachd" hreflang="gd" lang="gd" title="Àireamhachd — gaélique écossais"><span>Gàidhlig</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="gl" lang="gl" title="Aritmética — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gom mw-list-item"><a class="interlanguage-link-target" href="https://gom.wikipedia.org/wiki/Ank%E2%80%8Cgonnit" hreflang="gom" lang="gom" title="Ank‌gonnit — konkani de Goa"><span>गोंयची कोंकणी / Gõychi Konknni</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%85%E0%AA%82%E0%AA%95%E0%AA%97%E0%AA%A3%E0%AA%BF%E0%AA%A4" hreflang="gu" lang="gu" title="અંકગણિત — goudjarati"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%A8%D7%99%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94" hreflang="he" lang="he" title="אריתמטיקה — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="hi" lang="hi" title="अंकगणित — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Arithmetic" hreflang="hif" lang="hif" title="Arithmetic — hindi fidjien"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Aritmetika" hreflang="hr" lang="hr" title="Aritmetika — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Sz%C3%A1mtan" hreflang="hu" lang="hu" title="Számtan — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B9%D5%BE%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Թվաբանություն — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hyw mw-list-item"><a class="interlanguage-link-target" href="https://hyw.wikipedia.org/wiki/%D4%B9%D5%B8%D6%82%D5%A1%D5%A2%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%AB%D6%82%D5%B6" hreflang="hyw" lang="hyw" title="Թուաբանութիւն — arménien occidental"><span>Արեւմտահայերէն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Arithmetica" hreflang="ia" lang="ia" title="Arithmetica — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Aritmetika" hreflang="id" lang="id" title="Aritmetika — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a class="interlanguage-link-target" href="https://ilo.wikipedia.org/wiki/Aritmetika" hreflang="ilo" lang="ilo" title="Aritmetika — ilocano"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Aritmetiko" hreflang="io" lang="io" title="Aritmetiko — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Talnareikningur" hreflang="is" lang="is" title="Talnareikningur — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Aritmetica" hreflang="it" lang="it" title="Aritmetica — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-iu mw-list-item"><a class="interlanguage-link-target" href="https://iu.wikipedia.org/wiki/%E1%93%88%E1%93%B4%E1%90%85%E1%93%AF%E1%95%86%E1%93%82%E1%96%85" hreflang="iu" lang="iu" title="ᓈᓴᐅᓯᕆᓂᖅ — inuktitut"><span>ᐃᓄᒃᑎᑐᑦ/inuktitut</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E7%AE%97%E8%A1%93" hreflang="ja" lang="ja" title="算術 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Aritmitik" hreflang="jam" lang="jam" title="Aritmitik — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a class="interlanguage-link-target" href="https://jbo.wikipedia.org/wiki/sapme%27ocmaci" hreflang="jbo" lang="jbo" title="sapme'ocmaci — lojban"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/Ng%C3%A8lmu_%C3%A9tung" hreflang="jv" lang="jv" title="Ngèlmu étung — javanais"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%A0%E1%83%98%E1%83%97%E1%83%9B%E1%83%94%E1%83%A2%E1%83%98%E1%83%99%E1%83%90" hreflang="ka" lang="ka" title="არითმეტიკა — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kg mw-list-item"><a class="interlanguage-link-target" href="https://kg.wikipedia.org/wiki/Kutanga" hreflang="kg" lang="kg" title="Kutanga — kikongo"><span>Kongo</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="kk" lang="kk" title="Арифметика — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-kl mw-list-item"><a class="interlanguage-link-target" href="https://kl.wikipedia.org/wiki/Aritmetikki" hreflang="kl" lang="kl" title="Aritmetikki — groenlandais"><span>Kalaallisut</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%85%E0%B2%82%E0%B2%95%E0%B2%97%E0%B2%A3%E0%B2%BF%E0%B2%A4" hreflang="kn" lang="kn" title="ಅಂಕಗಣಿತ — kannada"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%82%B0%EC%88%A0" hreflang="ko" lang="ko" title="산술 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-kw mw-list-item"><a class="interlanguage-link-target" href="https://kw.wikipedia.org/wiki/Niveronieth" hreflang="kw" lang="kw" title="Niveronieth — cornique"><span>Kernowek</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="ky" lang="ky" title="Арифметика — kirghize"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Arithmetica" hreflang="la" lang="la" title="Arithmetica — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lad mw-list-item"><a class="interlanguage-link-target" href="https://lad.wikipedia.org/wiki/Aritmetika" hreflang="lad" lang="lad" title="Aritmetika — ladino"><span>Ladino</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Aritmetica" hreflang="lfn" lang="lfn" title="Aritmetica — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Aritmetika" hreflang="lt" lang="lt" title="Aritmetika — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Aritm%C4%93tika" hreflang="lv" lang="lv" title="Aritmētika — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a class="interlanguage-link-target" href="https://mg.wikipedia.org/wiki/Aritmetika" hreflang="mg" lang="mg" title="Aritmetika — malgache"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%82%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="mk" lang="mk" title="Аритметика — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B4%99%E0%B5%8D%E0%B4%95%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="അങ്കഗണിതം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="mr" lang="mr" title="अंकगणित — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Aritmetik" hreflang="ms" lang="ms" title="Aritmetik — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mwl mw-list-item"><a class="interlanguage-link-target" href="https://mwl.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="mwl" lang="mwl" title="Aritmética — mirandais"><span>Mirandés</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%82%E1%80%8F%E1%80%94%E1%80%BA%E1%80%B8%E1%80%9E%E1%80%84%E1%80%BA%E1%80%B9%E1%80%81%E1%80%BB%E1%80%AC" hreflang="my" lang="my" title="ဂဏန်းသင်္ချာ — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nah mw-list-item"><a class="interlanguage-link-target" href="https://nah.wikipedia.org/wiki/Tlap%C5%8Dhuall%C5%8Dtl" hreflang="nah" lang="nah" title="Tlapōhuallōtl — Nāhuatl"><span>Nāhuatl</span></a></li><li class="interlanguage-link interwiki-nap mw-list-item"><a class="interlanguage-link-target" href="https://nap.wikipedia.org/wiki/Artemeteca" hreflang="nap" lang="nap" title="Artemeteca — napolitain"><span>Napulitano</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%85%E0%A4%99%E0%A5%8D%E0%A4%95_%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="ne" lang="ne" title="अङ्क गणित — népalais"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a class="interlanguage-link-target" href="https://new.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="new" lang="new" title="अंकगणित — newari"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Rekenen" hreflang="nl" lang="nl" title="Rekenen — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Aritmetikk" hreflang="nn" lang="nn" title="Aritmetikk — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Aritmetikk" hreflang="nb" lang="nb" title="Aritmetikk — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-nov mw-list-item"><a class="interlanguage-link-target" href="https://nov.wikipedia.org/wiki/Aritmetike" hreflang="nov" lang="nov" title="Aritmetike — novial"><span>Novial</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Aritmetica" hreflang="oc" lang="oc" title="Aritmetica — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-om mw-list-item"><a class="interlanguage-link-target" href="https://om.wikipedia.org/wiki/Qooyyaba" hreflang="om" lang="om" title="Qooyyaba — oromo"><span>Oromoo</span></a></li><li class="interlanguage-link interwiki-os mw-list-item"><a class="interlanguage-link-target" href="https://os.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%C3%A6" hreflang="os" lang="os" title="Арифметикæ — ossète"><span>Ирон</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A9%B0%E0%A8%95_%E0%A8%97%E0%A8%A3%E0%A8%BF%E0%A8%A4" hreflang="pa" lang="pa" title="ਅੰਕ ਗਣਿਤ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Arytmetyka" hreflang="pl" lang="pl" title="Arytmetyka — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="pms" lang="pms" title="Aritmética — piémontais"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8" hreflang="pnb" lang="pnb" title="حساب — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a class="interlanguage-link-target" href="https://ps.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8" hreflang="ps" lang="ps" title="حساب — pachto"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Aritm%C3%A9tica" hreflang="pt" lang="pt" title="Aritmética — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Yupa_hap%27ichiy" hreflang="qu" lang="qu" title="Yupa hap'ichiy — quechua"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Aritmetic%C4%83" hreflang="ro" lang="ro" title="Aritmetică — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="ru" lang="ru" title="Арифметика — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%90%D1%80%D1%96%D1%84%D0%BC%D0%B5%D1%82%D1%96%D0%BA%D0%B0" hreflang="rue" lang="rue" title="Аріфметіка — ruthène"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-sa mw-list-item"><a class="interlanguage-link-target" href="https://sa.wikipedia.org/wiki/%E0%A4%85%E0%A4%99%E0%A5%8D%E0%A4%95%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4%E0%A4%AE%E0%A5%8D" hreflang="sa" lang="sa" title="अङ्कगणितम् — sanskrit"><span>संस्कृतम्</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="sah" lang="sah" title="Арифметика — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a class="interlanguage-link-target" href="https://sc.wikipedia.org/wiki/Aritm%C3%A8tica" hreflang="sc" lang="sc" title="Aritmètica — sarde"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Aritmetica" hreflang="scn" lang="scn" title="Aritmetica — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Arithmetic" hreflang="sco" lang="sco" title="Arithmetic — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Aritmetika" hreflang="sh" lang="sh" title="Aritmetika — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Arithmetic" hreflang="en-simple" lang="en-simple" title="Arithmetic — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Aritmetika" hreflang="sk" lang="sk" title="Aritmetika — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Aritmetika" hreflang="sl" lang="sl" title="Aritmetika — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Huwandu" hreflang="sn" lang="sn" title="Huwandu — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Aritmetika" hreflang="sq" lang="sq" title="Aritmetika — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%82%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="sr" lang="sr" title="Аритметика — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Aritmetik" hreflang="sv" lang="sv" title="Aritmetik — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Hesabu" hreflang="sw" lang="sw" title="Hesabu — swahili"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%8E%E0%AE%A3%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="எண்கணிதம் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D2%B2%D0%B8%D1%81%D0%BE%D0%B1" hreflang="tg" lang="tg" title="Ҳисоб — tadjik"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A5%E0%B8%82%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95" hreflang="th" lang="th" title="เลขคณิต — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Aritmetika" hreflang="tl" lang="tl" title="Aritmetika — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Aritmetik" hreflang="tr" lang="tr" title="Aritmetik — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-ts mw-list-item"><a class="interlanguage-link-target" href="https://ts.wikipedia.org/wiki/Tinhlayo-tinomboro" hreflang="ts" lang="ts" title="Tinhlayo-tinomboro — tsonga"><span>Xitsonga</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="tt" lang="tt" title="Арифметика — tatar"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-ug mw-list-item"><a class="interlanguage-link-target" href="https://ug.wikipedia.org/wiki/%D8%A6%D8%A7%D8%B1%D9%89%D9%81%D9%85%DB%90%D8%AA%D9%89%D9%83%D8%A7" hreflang="ug" lang="ug" title="ئارىفمېتىكا — ouïghour"><span>ئۇيغۇرچە / Uyghurche</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="uk" lang="uk" title="Арифметика — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8" hreflang="ur" lang="ur" title="حساب — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Arifmetika" hreflang="uz" lang="uz" title="Arifmetika — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a class="interlanguage-link-target" href="https://vec.wikipedia.org/wiki/Aritm%C3%A8tega" hreflang="vec" lang="vec" title="Aritmètega — vénitien"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/S%E1%BB%91_h%E1%BB%8Dc" hreflang="vi" lang="vi" title="Số học — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-vo mw-list-item"><a class="interlanguage-link-target" href="https://vo.wikipedia.org/wiki/Kalkulav" hreflang="vo" lang="vo" title="Kalkulav — volapük"><span>Volapük</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Aritmetik%C3%A1" hreflang="war" lang="war" title="Aritmetiká — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%AE%97%E6%9C%AF" hreflang="wuu" lang="wuu" title="算术 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0" hreflang="xal" lang="xal" title="Арифметика — kalmouk"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a class="interlanguage-link-target" href="https://xh.wikipedia.org/wiki/I-arithmetic" hreflang="xh" lang="xh" title="I-arithmetic — xhosa"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a class="interlanguage-link-target" href="https://xmf.wikipedia.org/wiki/%E1%83%90%E1%83%A0%E1%83%98%E1%83%97%E1%83%9B%E1%83%94%E1%83%A2%E1%83%98%E1%83%99%E1%83%90" hreflang="xmf" lang="xmf" title="არითმეტიკა — mingrélien"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%90%D7%A8%D7%99%D7%98%D7%9E%D7%A2%D7%98%D7%99%D7%A7" hreflang="yi" lang="yi" title="אריטמעטיק — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/%C3%8C%E1%B9%A3%C3%ADr%C3%B2" hreflang="yo" lang="yo" title="Ìṣírò — yoruba"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zea mw-list-item"><a class="interlanguage-link-target" href="https://zea.wikipedia.org/wiki/Rekenen" hreflang="zea" lang="zea" title="Rekenen — zélandais"><span>Zeêuws</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E7%AE%97%E6%9C%AF" hreflang="zh" lang="zh" title="算术 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E7%AE%97%E8%A1%93" hreflang="lzh" lang="lzh" title="算術 — Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/So%C3%A0n-su%CC%8Dt" hreflang="nan" lang="nan" title="Soàn-su̍t — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E7%AE%97%E8%A1%93" hreflang="yue" lang="yue" title="算術 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11205#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Arithm%C3%A9tique" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Arithm%C3%A9tique" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Arithm%C3%A9tique"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Arithm%C3%A9tique&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Arithm%C3%A9tique"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour le film de 1952, voir <a href="/wiki/Arithm%C3%A9tique_(film)" title="Arithmétique (film)">Arithmétique (film)</a>.
+</p>
+</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Java_Computation_of_Arithmetic_Expression.svg"><img alt="" class="thumbimage" data-file-height="261" data-file-width="204" decoding="async" height="281" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/220px-Java_Computation_of_Arithmetic_Expression.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/330px-Java_Computation_of_Arithmetic_Expression.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Java_Computation_of_Arithmetic_Expression.svg/440px-Java_Computation_of_Arithmetic_Expression.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Java_Computation_of_Arithmetic_Expression.svg" title="Agrandir"></a></div>Illustration d’une décomposition <a class="mw-redirect" href="/wiki/Arbre_syntaxique_abstrait" title="Arbre syntaxique abstrait">arborescente</a> d’un calcul arithmétique faisant intervenir l’<a href="/wiki/Addition" title="Addition">addition</a> (symbole +), la <a href="/wiki/Soustraction" title="Soustraction">soustraction</a> (symbole -), la <a href="/wiki/Multiplication" title="Multiplication">multiplication</a> (symbole *), le quotient (symbole /) et le reste de la <a href="/wiki/Division_euclidienne" title="Division euclidienne">division euclidienne</a> (symbole %).</div></div></div>
+<p>L'<b>arithmétique</b> est une branche des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a> qui correspond à la <a href="/wiki/Science" title="Science">science</a> des <a href="/wiki/Nombre" title="Nombre">nombres</a><sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>.
+</p><p>L'arithmétique s'est au départ limitée à l'étude des propriétés des <a href="/wiki/Entier_naturel" title="Entier naturel">entiers naturels</a>, des <a href="/wiki/Entier_relatif" title="Entier relatif">entiers relatifs</a> et des <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">nombres rationnels</a> (sous forme de <a href="/wiki/Fraction_(math%C3%A9matiques)" title="Fraction (mathématiques)">fractions</a>), et aux propriétés des opérations sur ces nombres. Les opérations arithmétiques traditionnelles sont l'<a href="/wiki/Addition" title="Addition">addition</a>, la <a href="/wiki/Division" title="Division">division</a>, la <a href="/wiki/Multiplication" title="Multiplication">multiplication</a>, et la <a href="/wiki/Soustraction" title="Soustraction">soustraction</a>. Cette discipline fut ensuite élargie par l'inclusion de l'étude d'autres nombres comme les <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">réels</a> (sous forme de <a href="/wiki/D%C3%A9veloppement_d%C3%A9cimal" title="Développement décimal">développement décimal</a> illimité), ou même de concepts plus avancés, comme l'<a href="/wiki/Exponentielle_de_base_a" title="Exponentielle de base a">exponentiation</a> ou la <a href="/wiki/Racine_carr%C3%A9e" title="Racine carrée">racine carrée</a>. <i>Une</i> arithmétique est une manière de représenter formellement - autrement dit, « coder » - les nombres (sous la forme d'une liste de chiffres, par exemple) ; et (grâce à cette représentation) définir les opérations de base : addition, multiplication, etc.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Histoire">Histoire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=1" title="Modifier la section : Histoire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=1" title="Modifier la section : Histoire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Gino_micheli_da_castello_(attr.),_aritmetica,_1343-60_ca.,_dal_lato_est_del_campanile.JPG"><img alt="" class="thumbimage" data-file-height="2742" data-file-width="2076" decoding="async" height="291" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG/220px-Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG/330px-Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG/440px-Gino_micheli_da_castello_%28attr.%29%2C_aritmetica%2C_1343-60_ca.%2C_dal_lato_est_del_campanile.JPG 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Gino_micheli_da_castello_(attr.),_aritmetica,_1343-60_ca.,_dal_lato_est_del_campanile.JPG" title="Agrandir"></a></div>Allégorie de l'arithmétique.</div></div></div>
+<p>L'<a href="/wiki/%C3%89tymologie" title="Étymologie">étymologie</a> du mot <i>arithmétique</i> est basée sur le <a href="/wiki/Grec_ancien" title="Grec ancien">grec ancien</a> <a class="extiw" href="https://fr.wiktionary.org/wiki/%E1%BC%88%CF%81%CE%B9%CE%B8%CE%BC%CF%8C%CF%82" title="wikt:Ἀριθμός">ἀριθμός</a> (<i>arithmos</i>), qui signifie <i>nombre</i><sup class="reference" id="cite_ref-2"><a href="#cite_note-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>.
+</p><p>L’origine de l'arithmétique semble être une invention <a class="mw-redirect" href="/wiki/Ph%C3%A9nicie" title="Phénicie">phénicienne</a><sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>. Dans l'<a href="/wiki/%C3%89cole_pythagoricienne" title="École pythagoricienne">école pythagoricienne</a>, à la deuxième moitié du <a href="/wiki/VIe_si%C3%A8cle_av._J.-C." title="VIe siècle av. J.-C."><abbr class="abbr" title="6ᵉ siècle"><span class="romain">VI</span><sup style="font-size:72%">e</sup></abbr> siècle <abbr class="abbr nowrap" title="avant Jésus-Christ">av. J.-C.</abbr></a>, l'arithmétique était, avec la <a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">géométrie</a>, l'<a href="/wiki/Astronomie" title="Astronomie">astronomie</a> et la <a href="/wiki/Musique" title="Musique">musique</a>, une des quatre sciences quantitatives ou mathématiques (<i>Mathemata</i>). Celles-ci furent regroupées au sein des sept <a href="/wiki/Arts_lib%C3%A9raux" title="Arts libéraux">arts libéraux</a> par <a href="/wiki/Martianus_Capella" title="Martianus Capella">Martianus Capella</a> (<abbr class="abbr" title="5ᵉ siècle"><span class="romain">V</span><sup style="font-size:72%">e</sup></abbr> siècle) et plus précisément désignées sous le nom de <i><a href="/wiki/Quadrivium" title="Quadrivium">quadrivium</a></i> par <a href="/wiki/Bo%C3%A8ce" title="Boèce">Boèce</a>. Les trois autres disciplines étaient littéraires (<a href="/wiki/Grammaire" title="Grammaire">grammaire</a>, <a href="/wiki/Rh%C3%A9torique" title="Rhétorique">rhétorique</a>, <a href="/wiki/Dialectique" title="Dialectique">dialectique</a>) et firent l'objet des travaux de <a href="/wiki/Cassiodore" title="Cassiodore">Cassiodore</a> et, plus tard, <a href="/wiki/Alcuin" title="Alcuin">Alcuin</a> qui leur donna le nom de <i><a class="mw-redirect" href="/wiki/Trivium_Quadrivium" title="Trivium Quadrivium">trivium</a></i>.
+</p>
+<h2><span id="Diff.C3.A9rentes_arithm.C3.A9tiques"></span><span class="mw-headline" id="Différentes_arithmétiques">Différentes arithmétiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=2" title="Modifier la section : Différentes arithmétiques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=2" title="Modifier la section : Différentes arithmétiques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Arithm.C3.A9tique_.C3.A9l.C3.A9mentaire"></span><span class="mw-headline" id="Arithmétique_élémentaire">Arithmétique élémentaire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=3" title="Modifier la section : Arithmétique élémentaire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=3" title="Modifier la section : Arithmétique élémentaire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Arithm%C3%A9tique_%C3%A9l%C3%A9mentaire" title="Arithmétique élémentaire">Arithmétique élémentaire</a>.</div></div>
+<p>L'expression « arithmétique élémentaire » désigne parfois la forme la plus basique des mathématiques, apprise à l’<a class="mw-redirect" href="/wiki/%C3%89cole_%C3%A9l%C3%A9mentaire" title="École élémentaire">école élémentaire</a>. Il s’agit essentiellement de l'étude des nombres et des opérations élémentaires (<a href="/wiki/Soustraction" title="Soustraction">soustraction</a>, <a href="/wiki/Addition" title="Addition">addition</a>, <a href="/wiki/Division" title="Division">division</a>, <a href="/wiki/Multiplication" title="Multiplication">multiplication</a>).
+</p><p>Ce terme désigne aussi les rudiments des techniques de l'arithmétique. Les outils utilisés sont la <a href="/wiki/Division_euclidienne" title="Division euclidienne">division euclidienne</a>, le <a href="/wiki/Lemme_d%27Euclide" title="Lemme d'Euclide">lemme d'Euclide</a>, le <a href="/wiki/Th%C3%A9or%C3%A8me_de_Bachet-B%C3%A9zout" title="Théorème de Bachet-Bézout">théorème de Bachet-Bézout</a> ou encore le <a href="/wiki/Th%C3%A9or%C3%A8me_fondamental_de_l%27arithm%C3%A9tique" title="Théorème fondamental de l'arithmétique">théorème fondamental de l'arithmétique</a>. Ils permettent de démontrer des <a href="/wiki/Th%C3%A9or%C3%A8me" title="Théorème">théorèmes</a> comme <a href="/wiki/Th%C3%A9or%C3%A8me_de_Wilson" title="Théorème de Wilson">celui de Wilson</a> ou encore le <a href="/wiki/Petit_th%C3%A9or%C3%A8me_de_Fermat" title="Petit théorème de Fermat">petit théorème de Fermat</a>.
+</p><p>Cette deuxième acception du terme est traitée dans l'article détaillé.
+</p>
+<h3><span id="Arithm.C3.A9tique_modulaire"></span><span class="mw-headline" id="Arithmétique_modulaire">Arithmétique modulaire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=4" title="Modifier la section : Arithmétique modulaire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=4" title="Modifier la section : Arithmétique modulaire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Arithm%C3%A9tique_modulaire" title="Arithmétique modulaire">Arithmétique modulaire</a>.</div></div>
+<p><a href="/wiki/Carl_Friedrich_Gauss" title="Carl Friedrich Gauss">Carl Friedrich Gauss</a> (<a href="/wiki/1777_en_science" title="1777 en science">1777</a>-<a href="/wiki/1855_en_science" title="1855 en science">1855</a>) étudie l'ensemble des <a href="/wiki/Congruence_sur_les_entiers" title="Congruence sur les entiers">classes de congruence des entiers relatifs modulo un entier donné</a>. Chaque classe correspond à un reste de la division euclidienne par cet entier, et l'ensemble est naturellement muni d'une addition et d'une multiplication.
+</p><p>L'étude de cette structure porte le nom d'arithmétique modulaire. Elle permet de généraliser les résultats de l'arithmétique élémentaire. Le <a class="mw-redirect" href="/wiki/Th%C3%A9or%C3%A8me_d%27Euler_(nombres)" title="Théorème d'Euler (nombres)">théorème d'Euler</a>, correspondant à un résultat plus fort que celui du petit théorème de Fermat, illustre une généralisation.
+</p><p>L'arithmétique modulaire est utilisé en <a href="/wiki/Cryptologie" title="Cryptologie">cryptologie</a> ou pour la construction de <a href="/wiki/Code_correcteur" title="Code correcteur">codes correcteurs</a> en <a href="/wiki/Informatique" title="Informatique">informatique</a>.
+</p>
+<h3><span id="Th.C3.A9orie_alg.C3.A9brique_des_nombres"></span><span class="mw-headline" id="Théorie_algébrique_des_nombres">Théorie algébrique des nombres</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=5" title="Modifier la section : Théorie algébrique des nombres">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=5" title="Modifier la section : Théorie algébrique des nombres">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Th%C3%A9orie_alg%C3%A9brique_des_nombres" title="Théorie algébrique des nombres">Théorie algébrique des nombres</a>.</div></div>
+<p>De nombreuses questions ne trouvent pas de réponse, même avec les techniques de l'arithmétique modulaire. Des exemples proviennent d'<a href="/wiki/%C3%89quation_diophantienne" title="Équation diophantienne">équations diophantiennes</a>, c'est-à-dire d'équations dont les coefficients sont entiers et dont les solutions recherchées sont entières. Une méthode consiste à <i>élargir</i> l'ensemble des entiers à une nouvelle structure qualifiée d'<a href="/wiki/Entier_alg%C3%A9brique" title="Entier algébrique">anneau d'entiers algébriques</a>, comme celui des <a href="/wiki/Entier_de_Gauss" title="Entier de Gauss">entiers de Gauss</a>.
+</p><p>L'étude de ces structures, plus générales que celles de l'arithmétique modulaire qui se limite aux <a href="/wiki/Anneau_euclidien" title="Anneau euclidien">anneaux euclidiens</a>, constitue le premier chapitre de la <a href="/wiki/Th%C3%A9orie_alg%C3%A9brique_des_nombres" title="Théorie algébrique des nombres">théorie algébrique des nombres</a>.
+</p>
+<h3><span id="Arithm.C3.A9tique_des_polyn.C3.B4mes"></span><span class="mw-headline" id="Arithmétique_des_polynômes">Arithmétique des polynômes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=6" title="Modifier la section : Arithmétique des polynômes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=6" title="Modifier la section : Arithmétique des polynômes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Arithm%C3%A9tique_des_polyn%C3%B4mes" title="Arithmétique des polynômes">Arithmétique des polynômes</a>.</div></div>
+<p>L'étude de l'arithmétique, au sens des nombres entiers, suppose d'établir des théorèmes. Ces théorèmes se démontrent à l'aide de techniques qui ne se limitent pas aux nombres entiers. Il est possible de faire usage de la même démarche sur d'autres structures, comme celle des <a href="/wiki/Polyn%C3%B4me_formel" title="Polynôme formel">polynômes</a>. À travers l'étude des <a href="/wiki/Polyn%C3%B4me_cyclotomique" title="Polynôme cyclotomique">polynômes cyclotomiques</a>, Gauss parvient à trouver un nouveau <a href="/wiki/Polygone_r%C3%A9gulier" title="Polygone régulier">polygone régulier</a> <a href="/wiki/Construction_%C3%A0_la_r%C3%A8gle_et_au_compas" title="Construction à la règle et au compas">constructible à la règle et au compas</a>, de 17 côtés.
+</p><p>Sa démarche est de nature <i>arithmétique</i>, pour cette raison, on parle d'arithmétique des polynômes.
+</p>
+<h2><span id="Ensembles_utilis.C3.A9s_en_arithm.C3.A9tique"></span><span class="mw-headline" id="Ensembles_utilisés_en_arithmétique">Ensembles utilisés en arithmétique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=7" title="Modifier la section : Ensembles utilisés en arithmétique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=7" title="Modifier la section : Ensembles utilisés en arithmétique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>La totalité des nombres a été subdivisée en divers <a href="/wiki/Ensemble" title="Ensemble">ensembles</a>. Les plus connus sont :
+</p>
+<ul><li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {N} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> : l'ensemble des <a href="/wiki/Entier_naturel" title="Entier naturel">entiers naturels</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 0;\,1;\,2;\,3;\,4;\,5;{\mbox{ etc.}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>0</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>1</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>2</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>3</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>4</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>5</mn>
+<mo>;</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext> etc.</mtext>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 0;\,1;\,2;\,3;\,4;\,5;{\mbox{ etc.}}}</annotation>
+</semantics>
+</math></span><img alt="0;\,1;\,2;\,3;\,4;\,5;{\mbox{ etc.}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88bb9ff1640ff8f3accbea48d5289e8f755c4ec5" style="vertical-align: -0.671ex; width:19.311ex; height:2.509ex;"/></span>).</li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span> : l'ensemble des <a href="/wiki/Entier_relatif" title="Entier relatif">entiers relatifs</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -12;\,-2;\,0;\,5;\,6;{\mbox{ etc.}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mn>12</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>0</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>5</mn>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>6</mn>
+<mo>;</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext> etc.</mtext>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -12;\,-2;\,0;\,5;\,6;{\mbox{ etc.}}}</annotation>
+</semantics>
+</math></span><img alt="-12;\,-2;\,0;\,5;\,6;{\mbox{ etc.}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdcb195933660f2e13de150985e851b1ca26d0fa" style="vertical-align: -0.671ex; width:21.506ex; height:2.509ex;"/></span>).</li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {D} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">D</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {D} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {D}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b932b553742ca27776057f1262527014ebbb46a0" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> : l'ensemble des <a href="/wiki/Nombre_d%C3%A9cimal" title="Nombre décimal">nombres décimaux</a>, c'est-à-dire qui s'écrivent sous la forme d'un quotient d'un nombre entier relatif et d'une puissance positive de 10, c'est-à-dire, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {x}{10^{n}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>x</mi>
+<msup>
+<mn>10</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {x}{10^{n}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {x}{10^{n}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3d7139e46eda228e1f251f4da64f3bc5ef5bd366" style="vertical-align: -2.005ex; width:4.38ex; height:4.843ex;"/></span> où <i>x</i> est un nombre entier relatif et <i>n</i> un nombre entier naturel <span class="nowrap">(<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\tfrac {-5}{10}},\,0,\,{\tfrac {13}{100}},\,{\tfrac {10}{10}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mrow>
+<mo>−<!-- − --></mo>
+<mn>5</mn>
+</mrow>
+<mn>10</mn>
+</mfrac>
+</mstyle>
+</mrow>
+<mo>,</mo>
+<mspace width="thinmathspace"></mspace>
+<mn>0</mn>
+<mo>,</mo>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>13</mn>
+<mn>100</mn>
+</mfrac>
+</mstyle>
+</mrow>
+<mo>,</mo>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>10</mn>
+<mn>10</mn>
+</mfrac>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\tfrac {-5}{10}},\,0,\,{\tfrac {13}{100}},\,{\tfrac {10}{10}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\tfrac {-5}{10}},\,0,\,{\tfrac {13}{100}},\,{\tfrac {10}{10}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1f33905f3a5a878d52350ee75f503f5de27f370" style="vertical-align: -1.338ex; width:14.144ex; height:3.843ex;"/></span>, etc.).</span></li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Q} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5909f0b54e4718fa24d5fd34d54189d24a66e9a" style="vertical-align: -0.671ex; width:1.808ex; height:2.509ex;"/></span> : l'ensemble des <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">nombres rationnels</a>, c'est-à-dire des nombres pouvant s'écrire comme un quotient (résultat d'une division) de deux nombres entiers relatifs. En posant la division, il peut y avoir une infinité de chiffres après la virgule dans le résultat, mais ces chiffres finiront par se répéter ; dans ce cas on dit que l'écriture décimale est illimitée périodique <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left({1 \over 3};\,-{5 \over 13};{22 \over 7}{\mbox{ etc.}}\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>(</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>3</mn>
+</mfrac>
+</mrow>
+<mo>;</mo>
+<mspace width="thinmathspace"></mspace>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>5</mn>
+<mn>13</mn>
+</mfrac>
+</mrow>
+<mo>;</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>22</mn>
+<mn>7</mn>
+</mfrac>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext> etc.</mtext>
+</mstyle>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left({1 \over 3};\,-{5 \over 13};{22 \over 7}{\mbox{ etc.}}\right)}</annotation>
+</semantics>
+</math></span><img alt="\left({1 \over 3};\,-{5 \over 13};{22 \over 7}{\mbox{ etc.}}\right)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4a5449d4e73298792c130a7457135ad911c66e6f" style="vertical-align: -2.505ex; width:20.202ex; height:6.176ex;"/></span>.</li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> : l'ensemble des <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">nombres réels</a>, mesurant toutes les distances entre deux points d'une droite, pouvant se voir comme limites de nombres rationnels, et pouvant s'écrire avec des chiffres après la virgule mais les chiffres ne se répètent plus nécessairement (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \pi }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>π<!-- π --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \pi }</annotation>
+</semantics>
+</math></span><img alt="\pi " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9be4ba0bb8df3af72e90a0535fabcc17431e540a" style="vertical-align: -0.338ex; width:1.332ex; height:1.676ex;"/></span>, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4afc1e27d418021bf10898eb44a7f5f315735ff" style="vertical-align: -0.671ex; width:3.098ex; height:3.009ex;"/></span>, etc.).</li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {C} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> : <a href="/wiki/Nombre_complexe" title="Nombre complexe">nombres complexes</a> de la forme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x+iy}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo>+</mo>
+<mi>i</mi>
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x+iy}</annotation>
+</semantics>
+</math></span><img alt="x+iy" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ceb1c6ce62a20dbfe9cb3d82dca889577b469703" style="vertical-align: -0.671ex; width:6.128ex; height:2.509ex;"/></span> où x et y sont réels et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle i}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>i</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle i}</annotation>
+</semantics>
+</math></span><img alt="i" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20" style="vertical-align: -0.338ex; width:0.802ex; height:2.176ex;"/></span> imaginaire tel que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle i^{2}=-1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle i^{2}=-1}</annotation>
+</semantics>
+</math></span><img alt="i^2 = -1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88e98a401d352e5037d5043028e2d7f449e83fa6" style="vertical-align: -0.505ex; width:7.926ex; height:2.843ex;"/></span>.</li></ul>
+<p>Certains de ces ensembles sont des <a class="mw-redirect" href="/wiki/Sous-ensemble" title="Sous-ensemble">sous-ensembles</a> des autres ; tous les éléments de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {N} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> appartiennent aussi à <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span>, par exemple. Mais à l'inverse, un élément de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Q} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5909f0b54e4718fa24d5fd34d54189d24a66e9a" style="vertical-align: -0.671ex; width:1.808ex; height:2.509ex;"/></span> n'est pas forcément élément de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span>. On peut représenter ces ensembles par des cercles concentriques : le plus petit est <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {N} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>, puis viennent <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span>, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {D} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">D</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {D} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {D}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b932b553742ca27776057f1262527014ebbb46a0" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Q} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5909f0b54e4718fa24d5fd34d54189d24a66e9a" style="vertical-align: -0.671ex; width:1.808ex; height:2.509ex;"/></span>, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {C} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>.
+</p><p>Il est possible de ne considérer qu'une partie d'un ensemble. Ainsi, on note <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}}</annotation>
+</semantics>
+</math></span><img alt="\R_+" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c1f2c2437bae14145e43c54cb7e1ee2701b2106" style="vertical-align: -0.671ex; width:3.189ex; height:2.509ex;"/></span> l'ensemble des nombres positifs de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>. De même on note <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{*}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{*}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{R} ^{*}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e0533765ec036adbcb5cc15bb277b299906c49ff" style="vertical-align: -0.338ex; width:2.732ex; height:2.343ex;"/></span> l'ensemble <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> privé de 0. On remarque entre autres que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} _{+}=\mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msub>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} _{+}=\mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {Z} _{+}=\mathbb {N} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6fbe7530eccaaf385b9e56157f5bf094782bcdb9" style="vertical-align: -0.671ex; width:7.838ex; height:2.509ex;"/></span> et que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} \setminus \mathbb {N} =\mathbb {Z} _{-}^{*}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mo class="MJX-variant">∖<!-- ∖ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mo>=</mo>
+<msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} \setminus \mathbb {N} =\mathbb {Z} _{-}^{*}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {Z} \setminus \mathbb {N} =\mathbb {Z} _{-}^{*}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c781fdb8b81831eb2640e78e8c745a6e13751641" style="vertical-align: -1.005ex; width:11.583ex; height:3.009ex;"/></span> (il s'agit de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span> « privé de » <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {N} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>).
+</p>
+<h2><span id="Propri.C3.A9t.C3.A9s"></span><span class="mw-headline" id="Propriétés">Propriétés</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=8" title="Modifier la section : Propriétés">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=8" title="Modifier la section : Propriétés">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>De nombreux nombres entiers ont des propriétés particulières. Ces propriétés font l'objet de la <a href="/wiki/Th%C3%A9orie_des_nombres" title="Théorie des nombres">théorie des nombres</a>. Parmi ces nombres particuliers, les nombres premiers sont sans doute les plus importants.
+</p>
+<h3><span class="mw-headline" id="Nombres_premiers">Nombres premiers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=9" title="Modifier la section : Nombres premiers">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=9" title="Modifier la section : Nombres premiers">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>C'est le cas des <a href="/wiki/Nombre_premier" title="Nombre premier">nombres dits premiers</a>. Ce sont les entiers naturels possédant uniquement deux diviseurs positifs distincts, à savoir 1 et eux-mêmes. Les dix premiers nombres premiers sont 2, 3, 5, 7, 11, 13, 17, 19, 23 et 29. L'entier 1 n'est pas premier car il n'a pas deux diviseurs positifs distincts, mais un seul, à savoir lui-même. Il existe une infinité de nombres premiers. En complétant une grille de taille 10 × 10 avec les 100 premiers entiers naturels non nuls, et en rayant ceux qui ne sont pas premiers, on obtient les nombres premiers appartenant à {1, …, 100} par un procédé appelé un <a href="/wiki/Crible_d%27%C3%89ratosth%C3%A8ne" title="Crible d'Ératosthène">crible d'Ératosthène</a>, du nom du <a href="/wiki/%C3%89ratosth%C3%A8ne" title="Ératosthène">savant grec qui l'inventa</a>.
+</p>
+<h3><span class="mw-headline" id="Nombres_pairs_et_impairs">Nombres pairs et impairs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=10" title="Modifier la section : Nombres pairs et impairs">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=10" title="Modifier la section : Nombres pairs et impairs">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les entiers naturels peuvent être divisés en deux catégories : <a href="/wiki/Parit%C3%A9_(arithm%C3%A9tique)" title="Parité (arithmétique)">les pairs et les impairs</a>.
+</p><p>Un entier <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span> pair est un multiple de 2 et peut par conséquent s'écrire <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n=2\,k}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mspace width="thinmathspace"></mspace>
+<mi>k</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n=2\,k}</annotation>
+</semantics>
+</math></span><img alt="n=2\,k" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/02292df9ddfe47827137cd6d601bf36ca88a8c9e" style="vertical-align: -0.338ex; width:7.254ex; height:2.176ex;"/></span>, avec <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k\in \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+<mo>∈<!-- ∈ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k\in \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="k\in\N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2a5bc4b7383031ba693b7433198ead7170954c1d" style="vertical-align: -0.338ex; width:5.73ex; height:2.176ex;"/></span>. Un nombre <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span> impair n'est pas multiple de 2 et peut s'écrire <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n=2\,k+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mspace width="thinmathspace"></mspace>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n=2\,k+1}</annotation>
+</semantics>
+</math></span><img alt="n=2\,k+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/286d2190b4fdaa42c6a51c93481ebdd865b51390" style="vertical-align: -0.505ex; width:11.257ex; height:2.343ex;"/></span>, avec <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k\in \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+<mo>∈<!-- ∈ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k\in \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="k\in\N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2a5bc4b7383031ba693b7433198ead7170954c1d" style="vertical-align: -0.338ex; width:5.73ex; height:2.176ex;"/></span>.
+</p><p>On montre que tout entier est soit pair soit impair, et ce pour un unique <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k}</annotation>
+</semantics>
+</math></span><img alt="k" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c3c9a2c7b599b37105512c5d570edc034056dd40" style="vertical-align: -0.338ex; width:1.211ex; height:2.176ex;"/></span> : on note <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \forall n\in \mathbb {N} \quad \exists k\in \mathbb {N} \quad \left(n=2\,k\lor n=2\,k+1\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>n</mi>
+<mo>∈<!-- ∈ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mspace width="1em"></mspace>
+<mi mathvariant="normal">∃<!-- ∃ --></mi>
+<mi>k</mi>
+<mo>∈<!-- ∈ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mspace width="1em"></mspace>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>n</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mspace width="thinmathspace"></mspace>
+<mi>k</mi>
+<mo>∨<!-- ∨ --></mo>
+<mi>n</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mspace width="thinmathspace"></mspace>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \forall n\in \mathbb {N} \quad \exists k\in \mathbb {N} \quad \left(n=2\,k\lor n=2\,k+1\right)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \forall n\in \mathbb {N} \quad \exists k\in \mathbb {N} \quad \left(n=2\,k\lor n=2\,k+1\right)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5c898c5996572d482d341eb89f4ad6900183df52" style="vertical-align: -0.838ex; width:42.163ex; height:2.843ex;"/></span>.
+</p><p>Les six premiers entiers pairs sont 0, 2, 4, 6, 8 et 10.
+Les six premiers entiers impairs sont 1, 3, 5, 7, 9 et 11.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=11" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=11" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text"><i><a href="/wiki/Dictionnaire_encyclop%C3%A9dique_Quillet" title="Dictionnaire encyclopédique Quillet">Dictionnaire encyclopédique Quillet</a></i>, vol. A-D, <abbr class="abbr" title="page(s)">p.</abbr> 117.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-2">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Lehning2017"><span class="ouvrage" id="Hervé_Lehning2017">Hervé Lehning, <cite class="italique">Toutes les mathématiques du monde</cite>, Paris, Flammarion, <time>2017</time>, 446 <abbr class="abbr" title="pages">p.</abbr> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-08-135445-6" title="Spécial:Ouvrages de référence/978-2-08-135445-6"><span class="nowrap">978-2-08-135445-6</span></a>, <a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">BNF</a> <span class="plainlinks noarchive nowrap"><a class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb45340842n.public" rel="nofollow">45340842</a></span>)</small>, <abbr class="abbr" title="page">p.</abbr> 135<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Toutes+les+math%C3%A9matiques+du+monde&amp;rft.place=Paris&amp;rft.pub=Flammarion&amp;rft.aulast=Lehning&amp;rft.aufirst=Herv%C3%A9&amp;rft.date=2017&amp;rft.pages=135&amp;rft.tpages=446&amp;rft.isbn=978-2-08-135445-6&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AArithm%C3%A9tique"></span></span></span>.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Mueller-Jourdan2007"><span class="ouvrage" id="Pascal_Mueller-Jourdan2007">Pascal <span class="nom_auteur">Mueller-Jourdan</span>, <cite class="italique">Une initiation à la philosophie de l'antiquité tardive : les leçons du Pseudo-Elias</cite>, Fribourg, <a href="/wiki/%C3%89ditions_du_Cerf" title="Éditions du Cerf">Éditions du Cerf</a>, <time>2007</time>, 143 <abbr class="abbr" title="pages">p.</abbr> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-2-204-08571-7" title="Spécial:Ouvrages de référence/978-2-204-08571-7"><span class="nowrap">978-2-204-08571-7</span></a>, <a href="/wiki/Biblioth%C3%A8que_nationale_de_France" title="Bibliothèque nationale de France">BNF</a> <span class="plainlinks noarchive nowrap"><a class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb412108638.public" rel="nofollow">41210863</a></span>, <a class="external text" href="//books.google.com/books?id=rnEe_Jx8sscC&amp;pg=PA73" rel="nofollow">lire en ligne</a>)</small>, <abbr class="abbr" title="page">p.</abbr> 73<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Une+initiation+%C3%A0+la+philosophie+de+l%27antiquit%C3%A9+tardive&amp;rft.place=Fribourg&amp;rft.pub=%C3%89ditions+du+Cerf&amp;rft.stitle=les+le%C3%A7ons+du+Pseudo-Elias&amp;rft.aulast=Mueller-Jourdan&amp;rft.aufirst=Pascal&amp;rft.date=2007&amp;rft.pages=73&amp;rft.tpages=143&amp;rft.isbn=978-2-204-08571-7&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AArithm%C3%A9tique"></span></span></span>.</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=12" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=12" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="commons"><a class="external text" href="https://commons.wikimedia.org/wiki/commonsCategory:Arithmetic?uselang=fr">Arithmétique</a>, sur <span class="project">Wikimedia Commons</span></li><li class="wiktionary"><a class="extiw" href="https://fr.wiktionary.org/wiki/arithm%C3%A9tique" title="wikt:arithmétique">arithmétique</a>, <span class="nowrap">sur le <span class="project">Wiktionnaire</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=13" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=13" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span id="Math.C3.A9matiques"></span><span class="mw-headline" id="Mathématiques">Mathématiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=14" title="Modifier la section : Mathématiques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=14" title="Modifier la section : Mathématiques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><span class="ouvrage" id="Perrin2010"><span class="ouvrage" id="Daniel_Perrin2010"><a href="/wiki/Daniel_Perrin" title="Daniel Perrin">Daniel Perrin</a>, <a class="external text" href="https://www.math.u-psud.fr/~perrin/interdisciplines/Cours6cryptographie.pdf" rel="nofollow">« <cite style="font-style:normal;">Cours numéro 6 : Arithmétique et cryptographie</cite> »</a>, sur <span class="italique"><a href="/wiki/Universit%C3%A9_Paris-Sud" title="Université Paris-Sud">Département de mathématiques d'Orsay</a></span>, <time>2010</time></span></span></li>
+<li><span class="ouvrage" id="Serre1970"><span class="ouvrage" id="Jean-Pierre_Serre1970"><a href="/wiki/Jean-Pierre_Serre" title="Jean-Pierre Serre">Jean-Pierre Serre</a>, <cite class="italique">Cours d'arithmétique</cite>, <time>1970</time> <small>[<a href="/wiki/R%C3%A9f%C3%A9rence:Arithm%C3%A9tique_(Serre)" title="Référence:Arithmétique (Serre)">détail des éditions</a>]</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Cours+d%27arithm%C3%A9tique&amp;rft.aulast=Serre&amp;rft.aufirst=Jean-Pierre&amp;rft.date=1970&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3AArithm%C3%A9tique"></span></span></span></li></ul>
+<h4><span class="mw-headline" id="Philosophie">Philosophie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=15" title="Modifier la section : Philosophie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=15" title="Modifier la section : Philosophie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h4>
+<ul><li><a href="/wiki/Gottlob_Frege" title="Gottlob Frege">Gottlob Frege</a>, <i><a href="/wiki/Les_Fondements_de_l%27arithm%C3%A9tique" title="Les Fondements de l'arithmétique">Les Fondements de l'arithmétique</a></i>, 1884</li>
+<li><a href="/wiki/Richard_Dedekind" title="Richard Dedekind">Richard Dedekind</a>, <i><span class="lang-de" lang="de">Was sind und was sollen die Zahlen?</span></i>, 1888</li>
+<li><a href="/wiki/Edmund_Husserl" title="Edmund Husserl">Edmund Husserl</a>, <i><a class="new" href="/w/index.php?title=Philosophie_de_l%27arithm%C3%A9tique&amp;action=edit&amp;redlink=1" title="Philosophie de l'arithmétique (page inexistante)">Philosophie de l'arithmétique</a> <a class="extiw" href="https://en.wikipedia.org/wiki/Philosophy_of_Arithmetic" title="en:Philosophy of Arithmetic"><span class="indicateur-langue" title="Article en anglais : « Philosophy of Arithmetic »">(en)</span></a></i>, 1891</li></ul>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Arithm%C3%A9tique&amp;veaction=edit&amp;section=16" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Arithm%C3%A9tique&amp;action=edit&amp;section=16" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="colonnes" style="column-width:20em;column-gap:1em;">
+<ul><li><a href="/wiki/Arithm%C3%A9tique_d%27intervalles" title="Arithmétique d'intervalles">Arithmétique d'intervalles</a></li>
+<li><a href="/wiki/Arithm%C3%A9tique_des_ordinateurs" title="Arithmétique des ordinateurs">Arithmétique des ordinateurs</a></li>
+<li><a class="mw-redirect" href="/wiki/Arithm%C3%A9tique_de_Peano" title="Arithmétique de Peano">Arithmétique de Peano</a></li>
+<li><a href="/wiki/Arithm%C3%A9tique_satur%C3%A9e" title="Arithmétique saturée">Arithmétique saturée</a></li>
+<li><a href="/wiki/Associativit%C3%A9" title="Associativité">Associativité</a></li>
+<li><a class="mw-redirect" href="/wiki/Commutativit%C3%A9" title="Commutativité">Commutativité</a></li>
+<li><a href="/wiki/Distributivit%C3%A9" title="Distributivité">Distributivité</a></li>
+<li><a href="/wiki/Num%C3%A9ration" title="Numération">Numération</a></li>
+<li><a href="/wiki/Ordre_des_op%C3%A9rations" title="Ordre des opérations">Ordre des opérations</a></li></ul>
+</div>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="3" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Notion_de_nombre" title="Modèle:Palette Notion de nombre"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Notion_de_nombre&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%">Notion de <a href="/wiki/Nombre" title="Nombre">nombre</a></div></th>
+</tr> <tr>
+<th class="navbox-group" style="">Ensembles usuels</th>
+<td class="navbox-list" style=""><style data-mw-deduplicate="TemplateStyles:r188801398">.mw-parser-output .sep-liste{font-weight:bold}</style><span class="nowrap"><a href="/wiki/Entier_naturel" title="Entier naturel">Entier naturel</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle \mathbb {N} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/40eac26c488d3257e3fbe63619729673145d228c" style="vertical-align: -0.338ex; width:1.187ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Entier_relatif" title="Entier relatif">Entier relatif</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb{Z } " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f0c672518c0350ca035befd41c26633a2d399431" style="vertical-align: -0.338ex; width:1.096ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_d%C3%A9cimal" title="Nombre décimal">Nombre décimal</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {D} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">D</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {D} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb {D} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a3f303c0b908a47cc0dfb5e7a7293a94a22dd0bf" style="vertical-align: -0.338ex; width:1.187ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_rationnel" title="Nombre rationnel">Nombre rationnel</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb{Q} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/feaa5ab94a056a5a25944ddf0c52c92a404715ab" style="vertical-align: -0.505ex; width:1.279ex; height:1.843ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">Nombre réel</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb{R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ac7df6838b44979c6531f6a0306206fbdb0477ec" style="vertical-align: -0.338ex; width:1.187ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_complexe" title="Nombre complexe">Nombre complexe</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle \mathbb {C} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ebe3a54bb4e56c039e18c3af24ba70ab377f7a07" style="vertical-align: -0.338ex; width:1.187ex; height:1.676ex;"/></span>)</span></td>
+<td class="navbox-image" rowspan="5" style="vertical-align:middle;padding-left:7px"><a class="image" href="/wiki/Fichier:Nuvola_apps_edu_mathematics_blue-p.svg" title="Mathématiques"><img alt="Mathématiques" data-file-height="128" data-file-width="128" decoding="async" height="70" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/70px-Nuvola_apps_edu_mathematics_blue-p.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/105px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/140px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" width="70"/></a></td>
+</tr> <tr>
+<th class="navbox-group" style="">Extensions</th>
+<td class="navbox-list navbox-even" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Quaternion" title="Quaternion">Quaternion</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {H} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">H</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {H} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb {H} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3d00daea5df233d805f1ec5d5ae84845bac2ad06" style="vertical-align: -0.338ex; width:1.279ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Octonion" title="Octonion">Octonion</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {O} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">O</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {O} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb {O} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3c5cf3960cf7ba384648447c15581d5d4589a6d5" style="vertical-align: -0.338ex; width:1.279ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/S%C3%A9d%C3%A9nion" title="Sédénion">Sédénion</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {S} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">S</mi>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {S} }</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle \mathbb {S} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6ef48a593f4503abeab608e8781ba478b7d1b304" style="vertical-align: -0.338ex; width:0.914ex; height:1.676ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_complexe_d%C3%A9ploy%C3%A9" title="Nombre complexe déployé">Nombre complexe déployé</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Tessarine" title="Tessarine">Tessarine</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_bicomplexe" title="Nombre bicomplexe">Nombre bicomplexe</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {C} _{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {C} _{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle \mathbb {C} _{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ba9ab8af8ff8f4437f3c72de4e78738374ee4954" style="vertical-align: -0.505ex; width:2.018ex; height:1.843ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap">Nombre multicomplexe (<a href="/wiki/Nombre_multicomplexe_(Segre)" title="Nombre multicomplexe (Segre)"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {C} _{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {C} _{n}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle \mathbb {C} _{n}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee4170ef11ece45d8b66656c919e34eefdb51e42" style="vertical-align: -0.505ex; width:2.151ex; height:1.843ex;"/></span></a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_multicomplexe_(Fleury)" title="Nombre multicomplexe (Fleury)"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle {\mathcal {M}}\mathbb {C} _{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">M</mi>
+</mrow>
+</mrow>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle {\mathcal {M}}\mathbb {C} _{n}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle {\mathcal {M}}\mathbb {C} _{n}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7be2600f9a2a7a3fdbdb7b08d21dec751dfde32e" style="vertical-align: -0.505ex; width:4.125ex; height:1.843ex;"/></span></a>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Biquaternion" title="Biquaternion">Biquaternion</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Coquaternion" title="Coquaternion">Coquaternion</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Quaternion_hyperbolique" title="Quaternion hyperbolique">Quaternion hyperbolique</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Octonion_d%C3%A9ploy%C3%A9" title="Octonion déployé">Octonion déployé</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_hypercomplexe" title="Nombre hypercomplexe">Nombre hypercomplexe</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_p-adique" title="Nombre p-adique">Nombre p-adique</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle \mathbb {Q} _{p}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+</mrow>
+</msub>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle \mathbb {Q} _{p}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \scriptstyle \mathbb {Q} _{p}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/425658dc852cec8a2d4b6f7d513e60977710d7f7" style="vertical-align: -0.838ex; width:2.114ex; height:2.176ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_hyperr%C3%A9el" title="Nombre hyperréel">Nombre hyperréel</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_superr%C3%A9el" title="Nombre superréel">Nombre superréel</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_dual" title="Nombre dual">Nombre dual</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Droite_r%C3%A9elle_achev%C3%A9e" title="Droite réelle achevée">Droite réelle achevée</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_cardinal" title="Nombre cardinal">Nombre cardinal</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_ordinal" title="Nombre ordinal">Nombre ordinal</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_surr%C3%A9el" title="Nombre surréel">Nombre surréel</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_pseudo-r%C3%A9el" title="Nombre pseudo-réel">Nombre pseudo-réel</a></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Propriétés particulières</th>
+<td class="navbox-list" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Parit%C3%A9_(arithm%C3%A9tique)" title="Parité (arithmétique)">Parité</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_premier" title="Nombre premier">Nombre premier</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_compos%C3%A9" title="Nombre composé">Nombre composé</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_figur%C3%A9" title="Nombre figuré">Nombre figuré</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_parfait" title="Nombre parfait">Nombre parfait</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_positif" title="Nombre positif">Nombre positif</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_n%C3%A9gatif" title="Nombre négatif">Nombre négatif</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Fraction_dyadique" title="Fraction dyadique">Fraction dyadique</a></span> <span class="sep-liste">·</span> <span class="nowrap"><span title="Bon article"><img alt="Bon article" data-file-height="20" data-file-width="20" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/14px-Bon_article.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/21px-Bon_article.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/28px-Bon_article.svg.png 2x" title="Bon article" width="14"/></span> <a href="/wiki/Nombre_irrationnel" title="Nombre irrationnel">Nombre irrationnel</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_alg%C3%A9brique" title="Nombre algébrique">Nombre algébrique</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_transcendant" title="Nombre transcendant">Nombre transcendant</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_imaginaire_pur" title="Nombre imaginaire pur">Nombre imaginaire pur</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_de_Liouville" title="Nombre de Liouville">Nombre de Liouville</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Alg%C3%A8bre_des_p%C3%A9riodes" title="Algèbre des périodes">Période</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_normal" title="Nombre normal">Nombre normal</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_univers" title="Nombre univers">Nombre univers</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_constructible" title="Nombre constructible">Nombre constructible</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_r%C3%A9el_calculable" title="Nombre réel calculable">Nombre réel calculable</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Nombre_transfini" title="Nombre transfini">Nombre transfini</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Infiniment_petit" title="Infiniment petit">Infiniment petit</a></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Exemples</th>
+<td class="navbox-list navbox-even" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Pi" title="Pi">Pi</a> (<span class="texhtml">π</span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><span title="Bon article"><img alt="Bon article" data-file-height="20" data-file-width="20" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/14px-Bon_article.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/21px-Bon_article.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/28px-Bon_article.svg.png 2x" title="Bon article" width="14"/></span> <a href="/wiki/Racine_carr%C3%A9e_de_deux" title="Racine carrée de deux">Racine carrée de deux</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \scriptstyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mstyle displaystyle="false" scriptlevel="1">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \scriptstyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="\scriptstyle {\sqrt {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7b6ac02637a190523aa10dde1b52ae41964dfff0" style="vertical-align: -0.505ex; width:2.191ex; height:2.176ex;"/></span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><span title="Bon article"><img alt="Bon article" data-file-height="20" data-file-width="20" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/14px-Bon_article.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/21px-Bon_article.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bon_article.svg/28px-Bon_article.svg.png 2x" title="Bon article" width="14"/></span> <a href="/wiki/Nombre_d%27or" title="Nombre d'or">Nombre d’or</a> (φ)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Z%C3%A9ro" title="Zéro">Zéro</a> (0)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Unit%C3%A9_imaginaire" title="Unité imaginaire">Unité imaginaire</a> (<span class="texhtml">i</span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/E_(nombre)" title="E (nombre)">Constante de Neper</a> (<span class="texhtml">e</span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Aleph-z%C3%A9ro" title="Aleph-zéro">Aleph-zéro</a> (ℵ<sub>0</sub>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Table_de_constantes_math%C3%A9matiques" title="Table de constantes mathématiques">Table de constantes mathématiques</a></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Articles liés</th>
+<td class="navbox-list" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Chiffre" title="Chiffre">Chiffre</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Num%C3%A9ration" title="Numération">Numération</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Fraction_(math%C3%A9matiques)" title="Fraction (mathématiques)">Fraction</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Op%C3%A9ration_(math%C3%A9matiques)" title="Opération (mathématiques)">Opération</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Calcul_(math%C3%A9matiques)" title="Calcul (mathématiques)">Calcul</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Alg%C3%A8bre" title="Algèbre">Algèbre</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a class="mw-selflink selflink">Arithmétique</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Suite_d%27entiers" title="Suite d'entiers">Suite d'entiers</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Infini" title="Infini">Infini</a> (<span class="texhtml">∞</span>)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Chiffre_significatif" title="Chiffre significatif">Chiffre significatif</a></span></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Arithm%C3%A9tique_et_th%C3%A9orie_des_nombres" title="Arithmétique et théorie des nombres"><img alt="icône décorative" class="noviewer" data-file-height="389" data-file-width="540" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/34px-Pascal%27s_triangle_5.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/50px-Pascal%27s_triangle_5.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pascal%27s_triangle_5.svg/67px-Pascal%27s_triangle_5.svg.png 2x" width="34"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Arithm%C3%A9tique_et_th%C3%A9orie_des_nombres" title="Portail:Arithmétique et théorie des nombres">Arithmétique et théorie des nombres</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1414
+Cached time: 20221010190009
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.280 seconds
+Real time usage: 0.407 seconds
+Preprocessor visited node count: 2497/1000000
+Post‐expand include size: 84671/2097152 bytes
+Template argument size: 22090/2097152 bytes
+Highest expansion depth: 18/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 7191/5000000 bytes
+Lua time usage: 0.077/10.000 seconds
+Lua memory usage: 4376478/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  245.586      1 -total
+ 24.44%   60.016      1 Modèle:Références
+ 21.15%   51.943      3 Modèle:Ouvrage
+ 19.48%   47.851      1 Modèle:Portail
+ 14.12%   34.676      1 Modèle:Palette
+ 12.31%   30.236      1 Modèle:Palette_Notion_de_nombre
+ 11.62%   28.539      1 Modèle:Méta_palette_de_navigation
+ 10.41%   25.556      1 Modèle:Autre
+  9.93%   24.381      1 Modèle:Autre4
+  9.45%   23.196      1 Modèle:Méta_bandeau_de_note
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:2057625-0!canonical and timestamp 20221010190009 and revision id 197434886.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Arithmétique&amp;oldid=197434886">https://fr.wikipedia.org/w/index.php?title=Arithmétique&amp;oldid=197434886</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Arithm%C3%A9tique" title="Catégorie:Arithmétique">Arithmétique</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Cat%C3%A9gorie_Commons_avec_lien_local_diff%C3%A9rent_sur_Wikidata" title="Catégorie:Catégorie Commons avec lien local différent sur Wikidata">Catégorie Commons avec lien local différent sur Wikidata</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_contenant_un_appel_%C3%A0_traduction_en_anglais" title="Catégorie:Article contenant un appel à traduction en anglais">Article contenant un appel à traduction en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Arithm%C3%A9tique_et_th%C3%A9orie_des_nombres/Articles_li%C3%A9s" title="Catégorie:Portail:Arithmétique et théorie des nombres/Articles liés">Portail:Arithmétique et théorie des nombres/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_bachkir" title="Catégorie:Article de qualité en bachkir">Article de qualité en bachkir</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_russe" title="Catégorie:Article de qualité en russe">Article de qualité en russe</a></li><li><a href="/wiki/Cat%C3%A9gorie:Bon_article_en_bi%C3%A9lorusse" title="Catégorie:Bon article en biélorusse">Bon article en biélorusse</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_latin" title="Catégorie:Article de qualité en latin">Article de qualité en latin</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_qui_utilise_un_format_obsol%C3%A8te_des_balises_math%C3%A9matiques" title="Catégorie:Page qui utilise un format obsolète des balises mathématiques">Page qui utilise un format obsolète des balises mathématiques</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 2 octobre 2022 à 19:13.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Arithm%C3%A9tique" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Arithm%C3%A9tique&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.280","walltime":"0.407","ppvisitednodes":{"value":2497,"limit":1000000},"postexpandincludesize":{"value":84671,"limit":2097152},"templateargumentsize":{"value":22090,"limit":2097152},"expansiondepth":{"value":18,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":7191,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  245.586      1 -total"," 24.44%   60.016      1 Modèle:Références"," 21.15%   51.943      3 Modèle:Ouvrage"," 19.48%   47.851      1 Modèle:Portail"," 14.12%   34.676      1 Modèle:Palette"," 12.31%   30.236      1 Modèle:Palette_Notion_de_nombre"," 11.62%   28.539      1 Modèle:Méta_palette_de_navigation"," 10.41%   25.556      1 Modèle:Autre","  9.93%   24.381      1 Modèle:Autre4","  9.45%   23.196      1 Modèle:Méta_bandeau_de_note"]},"scribunto":{"limitreport-timeusage":{"value":"0.077","limit":"10.000"},"limitreport-memusage":{"value":4376478,"limit":52428800}},"cachereport":{"origin":"mw1414","timestamp":"20221010190009","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Arithm\u00e9tique","url":"https:\/\/fr.wikipedia.org\/wiki\/Arithm%C3%A9tique","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11205","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11205","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-05-17T22:16:38Z","dateModified":"2022-10-02T17:13:03Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a7\/Java_Computation_of_Arithmetic_Expression.svg","headline":"branche des math\u00e9matiques \u00e9tudiant les propri\u00e9t\u00e9s des anneaux, tels l'anneau des entiers relatifs ou celui des polyn\u00f4mes"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Arithm\u00e9tique","url":"https:\/\/fr.wikipedia.org\/wiki\/Arithm%C3%A9tique","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11205","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11205","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-05-17T22:16:38Z","dateModified":"2022-10-02T17:13:03Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a7\/Java_Computation_of_Arithmetic_Expression.svg","headline":"branche des math\u00e9matiques \u00e9tudiant les propri\u00e9t\u00e9s des anneaux, tels l'anneau des entiers relatifs ou celui des polyn\u00f4mes"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":119,"wgHostname":"mw1434"});});</script>
+</body>
+</html>

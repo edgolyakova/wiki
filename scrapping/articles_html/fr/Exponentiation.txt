@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Exponentiation — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"f6edef46-249b-40cf-a3fe-b815338b9e56","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Exponentiation","wgTitle":"Exponentiation","wgCurRevisionId":152414343,"wgRevisionId":152414343,"wgArticleId":353392,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipédia:ébauche mathématiques","Portail:Algèbre/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Article de qualité en hébreu","Bon article en thaï","Opération"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext",
+"wgRelevantPageName":"Exponentiation","wgRelevantArticleId":353392,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":2000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q33456","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":
+"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","site","mediawiki.page.ready","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions",
+"ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Exponentiation — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Exponentiation" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Exponentiation&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Exponentiation" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Exponentiation rootpage-Exponentiation skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Exponentiation" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Exponentiation" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Exponentiation" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container vector-sidebar-container-no-toc">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Exponentiation" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Exponentiation" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Exponentiation&amp;oldid=152414343" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Exponentiation&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Exponentiation&amp;id=152414343&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q33456" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Exponentiation"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Exponentiation&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Exponentiation&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Exponentiation" hreflang="en"><span>Wikimedia Commons</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Exponentiation</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 87 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-87 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">87 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Magsverheffing" hreflang="af" lang="af" title="Magsverheffing — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Potenz_(Mathematik)" hreflang="gsw" lang="gsw" title="Potenz (Mathematik) — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8A%95%E1%88%B4%E1%89%B5" hreflang="am" lang="am" title="ንሴት — amharique"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%B1%D9%81%D8%B9_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="رفع (رياضيات) — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Potenciaci%C3%B3n" hreflang="ast" lang="ast" title="Potenciación — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Q%C3%BCvv%C9%99t%C9%99_y%C3%BCks%C9%99ltm%C9%99" hreflang="az" lang="az" title="Qüvvətə yüksəltmə — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%94%D3%99%D1%80%D3%99%D0%B6%D3%99%D0%B3%D3%99_%D0%BA%D2%AF%D1%82%D3%99%D1%80%D0%B5%D2%AF" hreflang="ba" lang="ba" title="Дәрәжәгә күтәреү — bachkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Eksponentasyon" hreflang="bcl" lang="bcl" title="Eksponentasyon — Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%A1%D1%82%D1%83%D0%BF%D0%B5%D0%BD%D1%8F%D0%B2%D0%B0%D0%BD%D0%BD%D0%B5" hreflang="be" lang="be" title="Ступеняванне — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B5_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="bg" lang="bg" title="Степенуване (математика) — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%82%E0%A6%9A%E0%A6%95%E0%A7%80%E0%A6%95%E0%A6%B0%E0%A6%A3" hreflang="bn" lang="bn" title="সূচকীকরণ — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Stepenovanje" hreflang="bs" lang="bs" title="Stepenovanje — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%97%D1%8D%D1%80%D0%B3%D1%8D%D0%B4%D1%8D_%D0%B4%D1%8D%D0%B1%D0%B6%D2%AF%D2%AF%D0%BB%D1%85%D1%8D" hreflang="bxr" lang="bxr" title="Зэргэдэ дэбжүүлхэ — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Potenciaci%C3%B3" hreflang="ca" lang="ca" title="Potenciació — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D9%86_(%D9%85%D8%A7%D8%AA%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)" hreflang="ckb" lang="ckb" title="توان (ماتماتیک) — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Umoc%C5%88ov%C3%A1n%C3%AD" hreflang="cs" lang="cs" title="Umocňování — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BF%D0%B0%D1%88%D1%82%D0%B0%D1%80%D1%83" hreflang="cv" lang="cv" title="Капаштару — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Esbonydd" hreflang="cy" lang="cy" title="Esbonydd — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Potens_(matematik)" hreflang="da" lang="da" title="Potens (matematik) — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Potenz_(Mathematik)" hreflang="de" lang="de" title="Potenz (Mathematik) — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%94%CF%8D%CE%BD%CE%B1%CE%BC%CE%B7_(%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC)" hreflang="el" lang="el" title="Δύναμη (μαθηματικά) — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Exponentiation" hreflang="en" lang="en" title="Exponentiation — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Potenco_(matematiko)" hreflang="eo" lang="eo" title="Potenco (matematiko) — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Potenciaci%C3%B3n" hreflang="es" lang="es" title="Potenciación — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Astendamine" hreflang="et" lang="et" title="Astendamine — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Berreketa" hreflang="eu" lang="eu" title="Berreketa — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AA%D9%88%D8%A7%D9%86_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C)" hreflang="fa" lang="fa" title="توان (ریاضی) — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Potenssi" hreflang="fi" lang="fi" title="Potenssi — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Potensur" hreflang="fo" lang="fo" title="Potensur — féroïen"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Potens" hreflang="frr" lang="frr" title="Potens — frison du Nord"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Easp%C3%B3nant" hreflang="ga" lang="ga" title="Easpónant — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E5%86%AA" hreflang="gan" lang="gan" title="冪 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Eksponansyasyon" hreflang="gcr" lang="gcr" title="Eksponansyasyon — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Potenciaci%C3%B3n" hreflang="gl" lang="gl" title="Potenciación — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%97%D7%96%D7%A7%D7%94_(%D7%9E%D7%AA%D7%9E%D7%98%D7%99%D7%A7%D7%94)" hreflang="he" lang="he" title="חזקה (מתמטיקה) — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%98%E0%A4%BE%E0%A4%A4%E0%A4%BE%E0%A4%82%E0%A4%95" hreflang="hi" lang="hi" title="घातांक — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Potenciranje" hreflang="hr" lang="hr" title="Potenciranje — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Hatv%C3%A1ny" hreflang="hu" lang="hu" title="Hatvány — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B1%D5%BD%D5%BF%D5%AB%D5%B3%D5%A1%D5%B6_(%D5%B0%D5%A1%D5%B6%D6%80%D5%A1%D5%B0%D5%A1%D5%B7%D5%AB%D5%BE)" hreflang="hy" lang="hy" title="Աստիճան (հանրահաշիվ) — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Potentiation" hreflang="ia" lang="ia" title="Potentiation — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Eksponensiasi" hreflang="id" lang="id" title="Eksponensiasi — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Potenco" hreflang="io" lang="io" title="Potenco — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Veldi_(st%C3%A6r%C3%B0fr%C3%A6%C3%B0i)" hreflang="is" lang="is" title="Veldi (stærðfræði) — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Potenza_(matematica)" hreflang="it" lang="it" title="Potenza (matematica) — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%86%AA%E4%B9%97" hreflang="ja" lang="ja" title="冪乗 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Exponenshieshan" hreflang="jam" lang="jam" title="Exponenshieshan — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%94%D3%99%D1%80%D0%B5%D0%B6%D0%B5%D0%BB%D0%B5%D1%83" hreflang="kk" lang="kk" title="Дәрежелеу — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1" hreflang="ko" lang="ko" title="거듭제곱 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Potentia_(mathematica)" hreflang="la" lang="la" title="Potentia (mathematica) — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Esponenti" hreflang="lfn" lang="lfn" title="Esponenti — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Machsverh%C3%B6ffing" hreflang="li" lang="li" title="Machsverhöffing — limbourgeois"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/K%C4%97limas_laipsniu" hreflang="lt" lang="lt" title="Kėlimas laipsniu — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/K%C4%81pin%C4%81%C5%A1ana" hreflang="lv" lang="lv" title="Kāpināšana — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D1%9A%D0%B5" hreflang="mk" lang="mk" title="Степенување — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Pengeksponenan" hreflang="ms" lang="ms" title="Pengeksponenan — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%98%E0%A4%BE%E0%A4%A4%E0%A4%BE%E0%A4%99%E0%A5%8D%E0%A4%95" hreflang="ne" lang="ne" title="घाताङ्क — népalais"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Machtsverheffen" hreflang="nl" lang="nl" title="Machtsverheffen — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Potens_i_matematikk" hreflang="nn" lang="nn" title="Potens i matematikk — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Potens_(matematikk)" hreflang="nb" lang="nb" title="Potens (matematikk) — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%98%E0%A8%BE%E0%A8%A4_%E0%A8%85%E0%A9%B0%E0%A8%95" hreflang="pa" lang="pa" title="ਘਾਤ ਅੰਕ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Pot%C4%99gowanie" hreflang="pl" lang="pl" title="Potęgowanie — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Exponencia%C3%A7%C3%A3o" hreflang="pt" lang="pt" title="Exponenciação — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Yupa_huqariy" hreflang="qu" lang="qu" title="Yupa huqariy — quechua"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Putere_(matematic%C4%83)" hreflang="ro" lang="ro" title="Putere (matematică) — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B7%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%8C" hreflang="ru" lang="ru" title="Возведение в степень — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%91%D2%AF%D1%82%D2%AF%D0%BD_%D0%BA%D3%A9%D1%80%D0%B4%D3%A9%D1%80%D3%A9%D3%A9%D1%87%D1%87%D2%AF%D0%BB%D1%8D%D1%8D%D1%85_%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%8C" hreflang="sah" lang="sah" title="Бүтүн көрдөрөөччүлээх степень — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Putenza_(matim%C3%A0tica)" hreflang="scn" lang="scn" title="Putenza (matimàtica) — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Stepenovanje" hreflang="sh" lang="sh" title="Stepenovanje — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Exponentiation" hreflang="en-simple" lang="en-simple" title="Exponentiation — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Umoc%C5%88ovanie" hreflang="sk" lang="sk" title="Umocňovanie — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Potenciranje" hreflang="sl" lang="sl" title="Potenciranje — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Kutambanura_(nhamba)" hreflang="sn" lang="sn" title="Kutambanura (nhamba) — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%A1%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D0%BE%D0%B2%D0%B0%D1%9A%D0%B5" hreflang="sr" lang="sr" title="Степеновање — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Potens" hreflang="sv" lang="sv" title="Potens — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%85%E0%AE%9F%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%87%E0%AE%B1%E0%AF%8D%E0%AE%B1%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="அடுக்கேற்றம் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A2%E0%B8%81%E0%B8%81%E0%B8%B3%E0%B8%A5%E0%B8%B1%E0%B8%87" hreflang="th" lang="th" title="การยกกำลัง — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Pagpapalakas_(matematika)" hreflang="tl" lang="tl" title="Pagpapalakas (matematika) — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/%C3%9Cs" hreflang="tr" lang="tr" title="Üs — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-ug mw-list-item"><a class="interlanguage-link-target" href="https://ug.wikipedia.org/wiki/%D8%AF%DB%95%D8%B1%D9%89%D8%AC%DB%95_(%D9%85%D8%A7%D8%AA%DB%90%D9%85%D8%A7%D8%AA%D9%89%D9%83%D8%A7)" hreflang="ug" lang="ug" title="دەرىجە (ماتېماتىكا) — ouïghour"><span>ئۇيغۇرچە / Uyghurche</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9F%D1%96%D0%B4%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B4%D0%BE_%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Піднесення до степеня — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/L%C5%A9y_th%E1%BB%ABa" hreflang="vi" lang="vi" title="Lũy thừa — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Eksponentasyon" hreflang="war" lang="war" title="Eksponentasyon — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%B9%82" hreflang="wuu" lang="wuu" title="幂 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%98%D0%B4%D1%80%D0%B8%D0%BB%D2%BB%D0%B0%D0%BD" hreflang="xal" lang="xal" title="Идрилһан — kalmouk"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A4%D7%90%D7%98%D7%A2%D7%A0%D7%A5" hreflang="yi" lang="yi" title="פאטענץ — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E5%86%AA" hreflang="zh" lang="zh" title="冪 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%AC%A1%E6%96%B9" hreflang="yue" lang="yue" title="次方 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q33456#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Exponentiation" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Exponentiation" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Exponentiation"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Exponentiation&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Exponentiation&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Exponentiation&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Exponentiation"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Exponentiation&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Exponentiation&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Exponentiation&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container bandeau-article bandeau-niveau-ebauche plainlinks metadata ambox"><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a class="image" href="/wiki/Fichier:Racine_carr%C3%A9e_bleue.svg"><img alt="" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="35" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/35px-Racine_carr%C3%A9e_bleue.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/53px-Racine_carr%C3%A9e_bleue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/70px-Racine_carr%C3%A9e_bleue.svg.png 2x" width="35"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p><strong class="bandeau-titre">Cet article est une <a href="/wiki/Aide:%C3%89bauche" title="Aide:Ébauche">ébauche</a> concernant les <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>.</strong>
+</p><p>Vous pouvez partager vos connaissances en l’améliorant (<b><a href="/wiki/Aide:Comment_modifier_une_page" title="Aide:Comment modifier une page">comment ?</a></b>) selon les recommandations des <a href="/wiki/Projet:Accueil" title="Projet:Accueil">projets correspondants</a>.
+</p>
+</div></div>
+<div class="thumb tright">
+<div class="thumbinner" style="width:auto;">
+<div style="border:1px solid #ccc; padding:0.5em; text-align:center; background-color:#fff;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{b}\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{b}\,}</annotation>
+</semantics>
+</math></span><img alt="a^{b}\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/45725181a4104849e748178f68059996675b5db7" style="vertical-align: -0.338ex; width:2.555ex; height:2.676ex;"/></span></div>
+<div class="thumbcaption">Notation du résultat de l'exponentiation<br/> de base <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span> et d'exposant <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>.</div>
+</div>
+</div>
+<p>En <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>, l’<b>exponentiation</b> est une <a href="/wiki/Op%C3%A9ration_binaire" title="Opération binaire">opération binaire</a> non <a class="mw-redirect" href="/wiki/Commutativit%C3%A9" title="Commutativité">commutative</a> qui étend la notion de <a href="/wiki/Puissance_d%27un_nombre" title="Puissance d'un nombre">puissance d'un nombre</a> en <a href="/wiki/Alg%C3%A8bre" title="Algèbre">algèbre</a>. Elle se note en plaçant l'un des opérandes en <a href="/wiki/Exposant_(typographie)" title="Exposant (typographie)">exposant</a> (d'où son nom) de l'autre, appelé <i>base</i>.
+</p><p>Pour des exposants <a href="/wiki/Nombre_rationnel" title="Nombre rationnel">rationnels</a>, l'exponentiation est définie algébriquement de façon à satisfaire la relation :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{b+c}=a^{b}\times a^{c}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{b+c}=a^{b}\times a^{c}.}</annotation>
+</semantics>
+</math></span><img alt="a^{{b+c}}=a^{b}\times a^{c}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6e18c0e24c6ba09a898d24015056d5cc247e000b" style="vertical-align: -0.338ex; width:15.085ex; height:2.676ex;"/></span></dd></dl>
+<p>Pour des exposants <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">réels</a>, <a href="/wiki/Nombre_complexe" title="Nombre complexe">complexes</a> ou <a href="/wiki/Matrice_(math%C3%A9matiques)" title="Matrice (mathématiques)">matriciels</a>, la définition passe en général par l'utilisation de la <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">fonction exponentielle</a>, à condition que la base admette un <a href="/wiki/Logarithme" title="Logarithme">logarithme</a> :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{b}=\exp(b\times \ln(a)).}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>exp</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo>×<!-- × --></mo>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">)</mo>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{b}=\exp(b\times \ln(a)).}</annotation>
+</semantics>
+</math></span><img alt="a^{b}=\exp(b\times \ln(a))." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2f6bd4427d1462b90e58a9ff8aaf84f186ef8d96" style="vertical-align: -0.838ex; width:20.091ex; height:3.176ex;"/></span></dd></dl>
+<p>L'<a href="/wiki/Exponentiation_ensembliste" title="Exponentiation ensembliste">exponentiation ensembliste</a> est définie à l'aide des ensembles de fonctions :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F^{E}={\mathcal {F}}(E;F).}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>F</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>E</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">F</mi>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>E</mi>
+<mo>;</mo>
+<mi>F</mi>
+<mo stretchy="false">)</mo>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F^{E}={\mathcal {F}}(E;F).}</annotation>
+</semantics>
+</math></span><img alt="F^{E}={\mathcal  {F}}(E;F)." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b0626816a0cd67d5ae8075c833c7e5a9482dc724" style="vertical-align: -0.838ex; width:15.334ex; height:3.176ex;"/></span></dd></dl>
+<p>Elle permet de définir l'exponentiation pour les <a href="/wiki/Nombre_cardinal" title="Nombre cardinal">cardinaux</a> associés. Elle se généralise par ailleurs, en <a href="/wiki/Th%C3%A9orie_des_cat%C3%A9gories" title="Théorie des catégories">théorie des catégories</a>, par la notion d'<a href="/wiki/Objet_exponentiel" title="Objet exponentiel">objet exponentiel</a>.
+</p><p>Enfin, l'exponentiation des <a href="/wiki/Nombre_ordinal" title="Nombre ordinal">ordinaux</a> est construite par <a href="/wiki/R%C3%A9currence_transfinie" title="Récurrence transfinie">récurrence transfinie</a> :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \alpha ^{\beta +1}=\alpha ^{\beta }\times \alpha .}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>α<!-- α --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>β<!-- β --></mi>
+<mo>+</mo>
+<mn>1</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>α<!-- α --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>β<!-- β --></mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<mi>α<!-- α --></mi>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \alpha ^{\beta +1}=\alpha ^{\beta }\times \alpha .}</annotation>
+</semantics>
+</math></span><img alt="\alpha ^{{\beta +1}}=\alpha ^{{\beta }}\times \alpha ." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7461ad999592906f445877132735700988117be6" style="vertical-align: -0.338ex; width:15.497ex; height:2.676ex;"/></span></dd></dl>
+<p>Il existe des <a href="/wiki/Algorithmique" title="Algorithmique">algorithmes</a> permettant de calculer une puissance, de façon plus efficace que par la méthode naïve consistant à le multiplier par lui-même plusieurs fois : voir <a href="/wiki/Exponentiation_rapide" title="Exponentiation rapide">exponentiation rapide</a>.
+</p>
+<h2><span id="R.C3.A8gles_op.C3.A9ratoires"></span><span class="mw-headline" id="Règles_opératoires">Règles opératoires</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Exponentiation&amp;veaction=edit&amp;section=1" title="Modifier la section : Règles opératoires">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Exponentiation&amp;action=edit&amp;section=1" title="Modifier la section : Règles opératoires">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>Lorsque les exposants commutent :
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{b+c}=a^{b}\times a^{c}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{b+c}=a^{b}\times a^{c}.}</annotation>
+</semantics>
+</math></span><img alt="a^{{b+c}}=a^{b}\times a^{c}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6e18c0e24c6ba09a898d24015056d5cc247e000b" style="vertical-align: -0.338ex; width:15.085ex; height:2.676ex;"/></span></dd></dl></li>
+<li>Lorsque les bases commutent :
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (ab)^{c}=a^{c}\times b^{c}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mi>b</mi>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (ab)^{c}=a^{c}\times b^{c}.}</annotation>
+</semantics>
+</math></span><img alt="(ab)^{c}=a^{c}\times b^{c}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/874c5b597b71f065f15b8ad8ff8cc83571a264e6" style="vertical-align: -0.838ex; width:15.682ex; height:2.843ex;"/></span></dd></dl></li></ul>
+<div class="thumb tright">
+<div class="thumbinner" style="width:auto;">
+<div style="border:1px solid #ccc; padding:0.5em; text-align:center; background-color:#fff;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ((-1)^{2})^{1/2}=1^{1/2}={\sqrt {1}}=1\neq -1=(-1)^{1}=(-1)^{2\times 1/2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>1</mn>
+</msqrt>
+</mrow>
+<mo>=</mo>
+<mn>1</mn>
+<mo>≠<!-- ≠ --></mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mo>×<!-- × --></mo>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ((-1)^{2})^{1/2}=1^{1/2}={\sqrt {1}}=1\neq -1=(-1)^{1}=(-1)^{2\times 1/2}}</annotation>
+</semantics>
+</math></span><img alt="((-1)^{2})^{{1/2}}=1^{{1/2}}={\sqrt  1}=1\neq -1=(-1)^{1}=(-1)^{{2\times 1/2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/14442dd2fe7c4ee9e2de666836c69c9e652f332c" style="vertical-align: -0.838ex; width:55.437ex; height:3.343ex;"/></span></div>
+<div class="thumbcaption">Contre-exemple à l'égalité <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (a^{b})^{c}=a^{bc}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+<mi>c</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (a^{b})^{c}=a^{bc}}</annotation>
+</semantics>
+</math></span><img alt="(a^{b})^{c}=a^{{bc}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ff5554a2044f7d9c2a7df4f01f1810b9f977a5e3" style="vertical-align: -0.838ex; width:10.899ex; height:3.176ex;"/></span>.</div>
+</div>
+</div>
+<ul><li>Lorsque la base est un réel strictement positif :
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (a^{b})^{c}=a^{bc}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>b</mi>
+<mi>c</mi>
+</mrow>
+</msup>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (a^{b})^{c}=a^{bc}.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle (a^{b})^{c}=a^{bc}.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4ac31da9b3ad4eca7195c06b12a2f288ac552693" style="vertical-align: -0.838ex; width:11.546ex; height:3.176ex;"/></span></dd></dl></li></ul>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Exponentiation&amp;veaction=edit&amp;section=2" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Exponentiation&amp;action=edit&amp;section=2" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Exposant_(math%C3%A9matiques)" title="Exposant (mathématiques)">Exposant</a></li>
+<li><a href="/wiki/Fonction_puissance" title="Fonction puissance">Fonction puissance</a></li>
+<li><a href="/wiki/%C3%89quation_x%CA%B8%3Dy%CB%A3" title="Équation xʸ=yˣ">Équation xʸ=yˣ</a></li>
+<li><a href="/wiki/Racine_carr%C3%A9e_fonctionnelle" title="Racine carrée fonctionnelle">Racine carrée fonctionnelle</a></li></ul>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail de l’algèbre"><img alt="icône décorative" class="noviewer" data-file-height="210" data-file-width="210" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/24px-Arithmetic_symbols.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/36px-Arithmetic_symbols.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Arithmetic_symbols.svg/48px-Arithmetic_symbols.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Alg%C3%A8bre" title="Portail:Algèbre">Portail de l’algèbre</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1364
+Cached time: 20221010184253
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: []
+CPU time usage: 0.116 seconds
+Real time usage: 0.172 seconds
+Preprocessor visited node count: 276/1000000
+Post‐expand include size: 4841/2097152 bytes
+Template argument size: 430/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 432/5000000 bytes
+Lua time usage: 0.066/10.000 seconds
+Lua memory usage: 3685270/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  116.568      1 -total
+ 69.06%   80.504      1 Modèle:Ébauche
+ 28.92%   33.709      1 Modèle:Portail
+ 13.25%   15.440      1 Modèle:Suivi_des_biographies
+  7.11%    8.293      1 Modèle:Portail_algèbre
+  6.24%    7.271      1 Modèle:Catégorisation_badges
+  5.93%    6.916      1 Modèle:Méta_lien_vers_portail
+  1.96%    2.287      1 Modèle:Méta_lien_vers_portail/Catégorisation
+  1.84%    2.140      1 Portail:Algèbre/Icône
+  1.65%    1.924      2 Modèle:Exemple_flottant
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:353392-0!canonical and timestamp 20221010184252 and revision id 152414343.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Exponentiation&amp;oldid=152414343">https://fr.wikipedia.org/w/index.php?title=Exponentiation&amp;oldid=152414343</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégorie</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Op%C3%A9ration" title="Catégorie:Opération">Opération</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Wikip%C3%A9dia:%C3%A9bauche_math%C3%A9matiques" title="Catégorie:Wikipédia:ébauche mathématiques">Wikipédia:ébauche mathématiques</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Alg%C3%A8bre/Articles_li%C3%A9s" title="Catégorie:Portail:Algèbre/Articles liés">Portail:Algèbre/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_h%C3%A9breu" title="Catégorie:Article de qualité en hébreu">Article de qualité en hébreu</a></li><li><a href="/wiki/Cat%C3%A9gorie:Bon_article_en_tha%C3%AF" title="Catégorie:Bon article en thaï">Bon article en thaï</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 23 septembre 2018 à 10:11.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Exponentiation" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Exponentiation&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.116","walltime":"0.172","ppvisitednodes":{"value":276,"limit":1000000},"postexpandincludesize":{"value":4841,"limit":2097152},"templateargumentsize":{"value":430,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":432,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  116.568      1 -total"," 69.06%   80.504      1 Modèle:Ébauche"," 28.92%   33.709      1 Modèle:Portail"," 13.25%   15.440      1 Modèle:Suivi_des_biographies","  7.11%    8.293      1 Modèle:Portail_algèbre","  6.24%    7.271      1 Modèle:Catégorisation_badges","  5.93%    6.916      1 Modèle:Méta_lien_vers_portail","  1.96%    2.287      1 Modèle:Méta_lien_vers_portail/Catégorisation","  1.84%    2.140      1 Portail:Algèbre/Icône","  1.65%    1.924      2 Modèle:Exemple_flottant"]},"scribunto":{"limitreport-timeusage":{"value":"0.066","limit":"10.000"},"limitreport-memusage":{"value":3685270,"limit":52428800}},"cachereport":{"origin":"mw1364","timestamp":"20221010184253","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Exponentiation","url":"https:\/\/fr.wikipedia.org\/wiki\/Exponentiation","sameAs":"http:\/\/www.wikidata.org\/entity\/Q33456","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q33456","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-09T09:16:28Z","dateModified":"2018-09-23T08:11:57Z","headline":"op\u00e9ration binaire non commutative"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Exponentiation","url":"https:\/\/fr.wikipedia.org\/wiki\/Exponentiation","sameAs":"http:\/\/www.wikidata.org\/entity\/Q33456","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q33456","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-08-09T09:16:28Z","dateModified":"2018-09-23T08:11:57Z","headline":"op\u00e9ration binaire non commutative"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":98,"wgHostname":"mw1389"});});</script>
+</body>
+</html>

@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>多边形 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"15be202e-79c4-428c-9b56-1b7ab4b3e73e","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"多边形","wgTitle":"多边形","wgCurRevisionId":68025427,"wgRevisionId":68025427,"wgArticleId":67955,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["几何术语","多邊形"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"多边形","wgRelevantArticleId":67955,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh",
+"pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":7000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q37555","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready",
+"skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables",
+"ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="多边形 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-多边形 rootpage-多边形 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">多边形</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:402px;"><a class="image" href="/wiki/File:Assorted_polygons.svg"><img alt="" class="thumbimage" data-file-height="280" data-file-width="1190" decoding="async" height="94" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Assorted_polygons.svg/400px-Assorted_polygons.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Assorted_polygons.svg/600px-Assorted_polygons.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Assorted_polygons.svg/800px-Assorted_polygons.svg.png 2x" width="400"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Assorted_polygons.svg" title="放大"></a></div>多邊形的分類。由左至右分別為：三角形、矩形、凹多邊形和複雜多邊形。</div></div></div>
+<p><b>多邊形，</b>是<a href="/wiki/%E5%B9%B3%E9%9D%A2_(%E6%95%B0%E5%AD%A6)" title="平面 (数学)">平面</a>的封閉<a href="/wiki/%E5%B9%BE%E4%BD%95%E5%9C%96%E5%BD%A2" title="幾何圖形">幾何圖形</a>，由大于2条<a class="mw-redirect" href="/wiki/%E7%B7%9A%E6%AE%B5" title="線段">線段</a>組成，且首尾相连劃出的<a href="/wiki/%E5%BD%A2%E7%8B%80" title="形狀">形狀</a>。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#術語"><span class="tocnumber">1</span> <span class="toctext">術語</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#分類"><span class="tocnumber">2</span> <span class="toctext">分類</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#簡單多邊形"><span class="tocnumber">2.1</span> <span class="toctext">簡單多邊形</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#正多邊形"><span class="tocnumber">2.2</span> <span class="toctext">正多邊形</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#公式"><span class="tocnumber">3</span> <span class="toctext">公式</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#面积"><span class="tocnumber">3.1</span> <span class="toctext">面积</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#参考文献"><span class="tocnumber">4</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#參見"><span class="tocnumber">5</span> <span class="toctext">參見</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#外部链接"><span class="tocnumber">6</span> <span class="toctext">外部链接</span></a></li>
+</ul>
+</div>
+<h2><span id=".E8.A1.93.E8.AA.9E"></span><span class="mw-headline" id="術語">術語</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=1" title="编辑章节：術語">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dt><a href="/wiki/%E9%A0%82%E9%BB%9E_(%E5%B9%BE%E4%BD%95)" title="頂點 (幾何)">頂点</a></dt></dl>
+<p>指多邊形中任何兩邊相交所形成的交點或錐體的尖頂。
+</p>
+<dl><dt><a href="/wiki/%E9%82%8A_(%E5%B9%BE%E4%BD%95)" title="邊 (幾何)">边</a></dt>
+<dt>内角</dt>
+<dd>頂點相鄰的兩邊所組成的角度。n邊形的內角和為(n-2)×180°</dd>
+<dt>外角</dt>
+<dd>對於某內角來說，其相應的外角角度為<i>180°减去內角角度</i>，多邊形的所有外角之和恆等於360°。</dd>
+<dt><a href="/wiki/%E5%B0%8D%E8%A7%92%E7%B7%9A" title="對角線">對角線</a></dt>
+<dd>以不毗連頂點為端點的線段</dd></dl>
+<h2><span id=".E5.88.86.E9.A1.9E"></span><span class="mw-headline" id="分類">分類</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=2" title="编辑章节：分類">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E7.B0.A1.E5.96.AE.E5.A4.9A.E9.82.8A.E5.BD.A2"></span><span class="mw-headline" id="簡單多邊形">簡單多邊形</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=3" title="编辑章节：簡單多邊形">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>簡單多邊形是邊不相交的多邊形，又稱佐敦多邊形，因為<a class="mw-redirect" href="/wiki/%E4%BD%90%E6%95%A6%E6%9B%B2%E7%B7%9A%E5%AE%9A%E7%90%86" title="佐敦曲線定理">佐敦曲線定理</a>可以用來證明這樣的多邊形能將平面分成兩個區域，即區內和區外。
+</p><p>在<a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a>上，簡單多邊形和圆盘<a href="/wiki/%E5%90%8C%E8%83%9A" title="同胚">同胚</a>。
+</p><p>在<a class="mw-redirect" href="/wiki/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95%E5%AD%A6" title="计算几何学">計算幾何學</a>有幾個重要問題，其輸入都是簡單多邊形：
+</p>
+<ul><li>點在多邊形內：決定一點是否在多邊形內</li>
+<li>求<a class="mw-redirect" href="/wiki/%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D" title="多邊形面積">多邊形面積</a></li>
+<li>將多邊型切割成三角形</li></ul>
+<p>按<a class="mw-redirect" href="/wiki/%E5%87%B8%E6%80%A7" title="凸性">凸性</a>区分，簡單多邊形分<a href="/wiki/%E5%87%B8%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="凸多边形">凸多邊形</a>和<a href="/wiki/%E5%87%B9%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="凹多边形">凹多邊形</a>，「凸」的表示它的內角都不大於180°，凹反之。
+</p><p>其他的特殊多边形还有：
+</p>
+<dl><dd><b><a href="/wiki/%E5%9C%93%E5%85%A7%E6%8E%A5%E5%A4%9A%E9%82%8A%E5%BD%A2" title="圓內接多邊形">圆内接多边形</a></b>：<a href="/wiki/%E9%A0%82%E9%BB%9E_(%E5%B9%BE%E4%BD%95)" title="頂點 (幾何)">顶点</a>都在同一个圆上的多边形。</dd>
+<dd><b><a href="/wiki/%E5%9C%93%E5%A4%96%E5%88%87%E5%A4%9A%E9%82%8A%E5%BD%A2" title="圓外切多邊形">圆外切多边形</a></b>：<a href="/wiki/%E9%82%8A_(%E5%B9%BE%E4%BD%95)" title="邊 (幾何)">边</a>都跟同一個圆相切的多边形。</dd>
+<dd><b><a href="/wiki/%E7%AD%89%E8%BE%B9%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="等边多边形">等边多边形</a></b>：各边之长都相等的多边形。</dd>
+<dd><b><a class="new" href="/w/index.php?title=%E7%AD%89%E8%A7%92%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;redlink=1" title="等角多边形（页面不存在）">等角多边形</a></b>：各内角都相等的多边形。</dd></dl>
+<h3><span id=".E6.AD.A3.E5.A4.9A.E9.82.8A.E5.BD.A2"></span><span class="mw-headline" id="正多邊形">正多邊形</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=4" title="编辑章节：正多邊形">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E6%AD%A3%E5%A4%9A%E9%82%8A%E5%BD%A2" title="正多邊形">正多邊形</a></div>
+<p>正多邊形是各邊都等長，各内角都相等的多邊形，可分为两种：<b>凸正多边形</b>与<b>凹正多边形</b>。谈及“正多邊形”时一般指前者，后者一般称作<a class="new" href="/w/index.php?title=%E6%AD%A3%E5%A4%9A%E8%A7%92%E6%98%9F&amp;action=edit&amp;redlink=1" title="正多角星（页面不存在）">正多角星</a>。对于指定的边数，它们都是唯一的，比如正<a href="/wiki/%E4%BA%94%E8%BE%B9%E5%BD%A2" title="五边形">五边形</a>与正<a href="/wiki/%E4%BA%94%E8%A7%92%E6%98%9F" title="五角星">五角星</a>。在邊數相同、周長相等的多邊形中，凸正多边形面積最大（参见<a class="mw-redirect" href="/wiki/%E7%AD%89%E5%91%A8%E5%95%8F%E9%A1%8C" title="等周問題">等周问题</a> ）。
+</p><p>当且仅当边数是2的<a href="/wiki/%E5%86%AA" title="冪">冪</a>乘<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E8%B3%AA%E6%95%B8" title="費馬質數">費馬質數</a>時，正多邊形可以用<a href="/wiki/%E5%B0%BA%E8%A7%84%E4%BD%9C%E5%9B%BE" title="尺规作图">尺規</a>作出（參見<a class="mw-redirect" href="/wiki/%E5%8F%AF%E4%BD%9C%E5%9C%96%E5%A4%9A%E9%82%8A%E5%BD%A2" title="可作圖多邊形">可作圖多邊形</a>）。
+</p>
+<ul><li>面積：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle A\ =\ {\frac {n}{2}}\,a\,r_{i}\ =\ {\frac {n}{2}}\,r_{u}^{2}\,\sin {\frac {2\pi }{n}}\ =\ {\frac {1}{4}}na^{2}\cot {\frac {180^{\circ }}{n}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>A</mi>
+<mtext> </mtext>
+<mo>=</mo>
+<mtext> </mtext>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>n</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mspace width="thinmathspace"></mspace>
+<mi>a</mi>
+<mspace width="thinmathspace"></mspace>
+<msub>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+<mtext> </mtext>
+<mo>=</mo>
+<mtext> </mtext>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>n</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mspace width="thinmathspace"></mspace>
+<msubsup>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>u</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mspace width="thinmathspace"></mspace>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<mtext> </mtext>
+<mo>=</mo>
+<mtext> </mtext>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>4</mn>
+</mfrac>
+</mrow>
+<mi>n</mi>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<msup>
+<mn>180</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∘<!-- ∘ --></mo>
+</mrow>
+</msup>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle A\ =\ {\frac {n}{2}}\,a\,r_{i}\ =\ {\frac {n}{2}}\,r_{u}^{2}\,\sin {\frac {2\pi }{n}}\ =\ {\frac {1}{4}}na^{2}\cot {\frac {180^{\circ }}{n}}}</annotation>
+</semantics>
+</math></span><img alt="A\ =\ {\frac  {n}{2}}\,a\,r_{i}\ =\ {\frac  {n}{2}}\,r_{u}^{2}\,\sin {{\frac  {2\pi }{n}}}\ =\ {\frac  {1}{4}}na^{2}\cot {\frac  {180^{\circ }}{n}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/68ed742ccde58fa01fdea03ea83086c27ea34d43" style="vertical-align: -1.838ex; width:47.721ex; height:5.343ex;"/></span></li></ul>
+<ul><li>內切圓半徑：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {a}{2}}\cot {\frac {180^{\circ }}{n}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>a</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<msup>
+<mn>180</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∘<!-- ∘ --></mo>
+</mrow>
+</msup>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {a}{2}}\cot {\frac {180^{\circ }}{n}}}</annotation>
+</semantics>
+</math></span><img alt="{\frac  {a}{2}}\cot {\frac  {180^{\circ }}{n}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/695bcea4e7d69b2393b734633205c1964d59e284" style="vertical-align: -1.838ex; width:11.317ex; height:5.343ex;"/></span></li></ul>
+<ul><li>外接圓半徑：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {a}{2\sin {\frac {180^{\circ }}{n}}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>a</mi>
+<mrow>
+<mn>2</mn>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<msup>
+<mn>180</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∘<!-- ∘ --></mo>
+</mrow>
+</msup>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {a}{2\sin {\frac {180^{\circ }}{n}}}}}</annotation>
+</semantics>
+</math></span><img alt="{\frac  {a}{2\sin {\frac  {180^{\circ }}{n}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/28de449cd69aa8ef3c40adbaed7e900f50647c63" style="vertical-align: -3.338ex; width:9.762ex; height:6.176ex;"/></span></li></ul>
+<h2><span id=".E5.85.AC.E5.BC.8F"></span><span class="mw-headline" id="公式">公式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=5" title="编辑章节：公式">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E9.9D.A2.E7.A7.AF"></span><span class="mw-headline" id="面积">面积</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=6" title="编辑章节：面积">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>对用<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (x_{1},y_{1}),(x_{2},y_{2}),\dots ,(x_{n},y_{n})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>,</mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (x_{1},y_{1}),(x_{2},y_{2}),\dots ,(x_{n},y_{n})}</annotation>
+</semantics>
+</math></span><img alt="(x_{1},y_{1}),(x_{2},y_{2}),\dots ,(x_{n},y_{n})" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/23964f317c5dddcd92781e19b02dc1edadf2aa04" style="vertical-align: -0.838ex; width:28.802ex; height:2.843ex;"/></span>（按逆时针排列）描述的多边形，其面积为：
+<br/>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle A={\frac {1}{2}}\left({\begin{vmatrix}x_{1}&amp;y_{1}\\x_{2}&amp;y_{2}\end{vmatrix}}+{\begin{vmatrix}x_{2}&amp;y_{2}\\x_{3}&amp;y_{3}\end{vmatrix}}+\dots +{\begin{vmatrix}x_{n}&amp;y_{n}\\x_{1}&amp;y_{1}\end{vmatrix}}\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow>
+<mo>|</mo>
+<mtable columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+</mtable>
+<mo>|</mo>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow>
+<mo>|</mo>
+<mtable columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+</mtable>
+<mo>|</mo>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow>
+<mo>|</mo>
+<mtable columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<msub>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mtd>
+<mtd>
+<msub>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mtd>
+</mtr>
+</mtable>
+<mo>|</mo>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle A={\frac {1}{2}}\left({\begin{vmatrix}x_{1}&amp;y_{1}\\x_{2}&amp;y_{2}\end{vmatrix}}+{\begin{vmatrix}x_{2}&amp;y_{2}\\x_{3}&amp;y_{3}\end{vmatrix}}+\dots +{\begin{vmatrix}x_{n}&amp;y_{n}\\x_{1}&amp;y_{1}\end{vmatrix}}\right)}</annotation>
+</semantics>
+</math></span><img alt="A={\frac  {1}{2}}\left({\begin{vmatrix}x_{1}&amp;y_{1}\\x_{2}&amp;y_{2}\end{vmatrix}}+{\begin{vmatrix}x_{2}&amp;y_{2}\\x_{3}&amp;y_{3}\end{vmatrix}}+\dots +{\begin{vmatrix}x_{n}&amp;y_{n}\\x_{1}&amp;y_{1}\end{vmatrix}}\right)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e30402703f111dc9bca6780ba5e1d65e3ca3e673" style="vertical-align: -2.505ex; width:49.057ex; height:6.176ex;"/></span></dd></dl>
+<p><br/>
+若按顺时针排列，取负数即可。
+<br/>
+对用边长<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a_{1},a_{2},\dots ,a_{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a_{1},a_{2},\dots ,a_{n}}</annotation>
+</semantics>
+</math></span><img alt="a_{1},a_{2},\dots ,a_{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ccc2b55ae65455992fe3ab08c90c55a0cc2e7709" style="vertical-align: -0.671ex; width:13.229ex; height:2.009ex;"/></span>和外角<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \theta _{1},\theta _{2},\dots ,\theta _{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \theta _{1},\theta _{2},\dots ,\theta _{n}}</annotation>
+</semantics>
+</math></span><img alt="\theta _{1},\theta _{2},\dots ,\theta _{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/83050474dd9649c72bf6b0d93eb0234878567cb8" style="vertical-align: -0.671ex; width:12.81ex; height:2.509ex;"/></span>描述的多边形，其面积为：
+<br/>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{aligned}A={\frac {1}{2}}\{a_{1}[a_{2}\sin(\theta _{1})+a_{3}\sin(\theta _{1}+\theta _{2})+\cdots +a_{n-1}\sin(\theta _{1}+\theta _{2}+\cdots +\theta _{n-2})]\\{}+a_{2}[a_{3}\sin(\theta _{2})+a_{4}\sin(\theta _{2}+\theta _{3})+\cdots +a_{n-1}\sin(\theta _{2}+\cdots +\theta _{n-2})]\\{}+\cdots +a_{n-2}[a_{n-1}\sin(\theta _{n-2})]\}\end{aligned}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="right left right left right left right left right left right left" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em" displaystyle="true" rowspacing="3pt">
+<mtr>
+<mtd>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mo fence="false" stretchy="false">{</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo stretchy="false">[</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">]</mo>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+</mrow>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">[</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">]</mo>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mrow class="MJX-TeXAtom-ORD">
+</mrow>
+<mo>+</mo>
+<mo>⋯<!-- ⋯ --></mo>
+<mo>+</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">[</mo>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msub>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>θ<!-- θ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">]</mo>
+<mo fence="false" stretchy="false">}</mo>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{aligned}A={\frac {1}{2}}\{a_{1}[a_{2}\sin(\theta _{1})+a_{3}\sin(\theta _{1}+\theta _{2})+\cdots +a_{n-1}\sin(\theta _{1}+\theta _{2}+\cdots +\theta _{n-2})]\\{}+a_{2}[a_{3}\sin(\theta _{2})+a_{4}\sin(\theta _{2}+\theta _{3})+\cdots +a_{n-1}\sin(\theta _{2}+\cdots +\theta _{n-2})]\\{}+\cdots +a_{n-2}[a_{n-1}\sin(\theta _{n-2})]\}\end{aligned}}}</annotation>
+</semantics>
+</math></span><img alt="{\begin{aligned}A={\frac  12}\{a_{1}[a_{2}\sin(\theta _{1})+a_{3}\sin(\theta _{1}+\theta _{2})+\cdots +a_{{n-1}}\sin(\theta _{1}+\theta _{2}+\cdots +\theta _{{n-2}})]\\{}+a_{2}[a_{3}\sin(\theta _{2})+a_{4}\sin(\theta _{2}+\theta _{3})+\cdots +a_{{n-1}}\sin(\theta _{2}+\cdots +\theta _{{n-2}})]\\{}+\cdots +a_{{n-2}}[a_{{n-1}}\sin(\theta _{{n-2}})]\}\end{aligned}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/718ea4749c485ce4296c69885ea1488fba1355d3" style="vertical-align: -4.916ex; margin-bottom: -0.256ex; width:77.067ex; height:11.509ex;"/></span></dd></dl>
+<p><br/>
+用边长和内角描述如下
+<br/>
+N边形S=<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\sum {(-1)^{k}mn\sin {\theta }}}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mi>m</mi>
+<mi>n</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>θ<!-- θ --></mi>
+</mrow>
+</mrow>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\sum {(-1)^{k}mn\sin {\theta }}}{2}}}</annotation>
+</semantics>
+</math></span><img alt="{\frac  {\sum {(-1)^{{k}}mn\sin {\theta }}}{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c0f71d0dec8209cca031f17ee7662e37ecfcbfa9" style="vertical-align: -1.838ex; width:17.701ex; height:5.843ex;"/></span>这个代表N边形已知（N-1）个边的长度，而且知道其中任意两边的夹角，对于这两边<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (-1)^{k}mn\sin {\theta }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mi>m</mi>
+<mi>n</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>θ<!-- θ --></mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (-1)^{k}mn\sin {\theta }}</annotation>
+</semantics>
+</math></span><img alt="(-1)^{{k}}mn\sin {\theta }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e161ad2af8d7c9a08d66802142939a518d35006" style="vertical-align: -0.838ex; width:14.024ex; height:3.176ex;"/></span>求和后的一半便是面积 
+<br/>
+注明：K=0或1，目的是为了表明每个因式<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle mn\sin {\theta }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+<mi>n</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>θ<!-- θ --></mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle mn\sin {\theta }}</annotation>
+</semantics>
+</math></span><img alt="mn\sin {\theta }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8d314aa4998a87ed29ba3e2348308550157b49fc" style="vertical-align: -0.338ex; width:8.155ex; height:2.176ex;"/></span>的正负号与M，N的交点位置有关
+</p>
+<h2><span id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=7" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+</div>
+<h2><span id=".E5.8F.83.E8.A6.8B"></span><span class="mw-headline" id="參見">參見</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=8" title="编辑章节：參見">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg"><img alt="icon" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" width="28"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:%E6%95%B0%E5%AD%A6" title="Portal:数学">数学主题</a></span></li></ul></div>
+<ul><li><a class="mw-redirect" href="/wiki/%E5%A4%9A%E9%9D%A2%E9%AB%94" title="多面體">多面體</a></li>
+<li><a href="/wiki/%E9%80%80%E5%8C%96%E5%A4%9A%E9%82%8A%E5%BD%A2" title="退化多邊形">退化多邊形</a></li></ul>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.93.BE.E6.8E.A5"></span><span class="mw-headline" id="外部链接">外部链接</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit&amp;section=9" title="编辑章节：外部链接">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="350" data-file-width="370" decoding="async" height="38" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/40px-Wiktionary-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/60px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/80px-Wiktionary-logo.svg.png 2x" width="40"/></td>
+<td class="mbox-text plainlist">查看<a href="/wiki/%E7%BB%B4%E5%9F%BA%E8%AF%8D%E5%85%B8" title="维基词典">维基词典</a>中的词条「<b><a class="extiw" href="https://zh.wiktionary.org/wiki/polygon" title="wikt:polygon">polygon</a></b>」。</td></tr></tbody></table>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="1376" data-file-width="1024" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" width="30"/></td>
+<td class="mbox-text plainlist"><a href="/wiki/%E7%BB%B4%E5%9F%BA%E5%85%B1%E4%BA%AB%E8%B5%84%E6%BA%90" title="维基共享资源">维基共享资源</a>中相关的多媒体资源：<b><a class="external text" href="https://commons.wikimedia.org/wiki/Category:Polygons?uselang=zh">多边形</a></b></td></tr></tbody></table>
+<ul><li><span class="citation mathworld" id="Reference-Mathworld-Polygon"><cite class="citation web"><a href="/wiki/%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E9%9F%A6%E6%96%AF%E5%9D%A6%E5%9B%A0" title="埃里克·韦斯坦因">埃里克·韦斯坦因</a>. <a class="external text" href="http://mathworld.wolfram.com/Polygon.html" rel="nofollow">Polygon</a>. <a href="/wiki/MathWorld" title="MathWorld">MathWorld</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;rft.atitle=Polygon&amp;rft.au=%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E9%9F%A6%E6%96%AF%E5%9D%A6%E5%9B%A0&amp;rft.genre=unknown&amp;rft.jtitle=MathWorld&amp;rft_id=http%3A%2F%2Fmathworld.wolfram.com%2FPolygon.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span></li>
+<li><a class="external text" href="https://web.archive.org/web/20050212114016/http://members.aol.com/Polycell/what.html" rel="nofollow">What Are Polyhedra?</a>, with Greek Numerical Prefixes</li>
+<li><a class="external text" href="http://www.mathopenref.com/tocs/polygontoc.html" rel="nofollow">Polygons, types of polygons, and polygon properties</a>（<a class="external text" href="//web.archive.org/web/20110820224931/http://www.mathopenref.com/tocs/polygontoc.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, with interactive animation</li>
+<li><a class="external text" href="https://web.archive.org/web/20080412002923/http://herbert.gandraxa.com/herbert/dop.asp" rel="nofollow">How to draw monochrome orthogonal polygons on screens</a>, by Herbert Glarner</li>
+<li><a class="external text" href="https://web.archive.org/web/20110213142130/http://www.faqs.org/faqs/graphics/algorithms-faq/" rel="nofollow">comp.graphics.algorithms Frequently Asked Questions</a>, solutions to mathematical problems computing 2D and 3D polygons</li>
+<li><a class="external text" href="https://web.archive.org/web/20110720075903/http://www.complex-a5.ru/polyboolean/comp.html" rel="nofollow">Comparison of the different algorithms for Polygon Boolean operations</a>, compares capabilities, speed and numerical robustness</li>
+<li><a class="external text" href="http://dynamicmathematicslearning.com/star_pentagon.html" rel="nofollow">Interior angle sum of polygons: a general formula</a> （<a class="external text" href="//web.archive.org/web/20200729044801/http://dynamicmathematicslearning.com/star_pentagon.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, Provides an interactive Java investigation that extends the interior angle sum formula for simple closed polygons to include crossed (complex) polygons</li>
+<li>[ <a class="external free" href="http://www.sec.ntnu.edu.tw/Monthly/106(396-405)/398-PDF/13-24_105032-%E9%A0%90%E6%B8%AC%E8%88%87%E9%A9%97%E8%AD%89%E5%B9%B3%E9%9D%A2%E5%87%B8%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F(I)%20(%E4%BF%AE%E6%94%B9).pdf" rel="nofollow">http://www.sec.ntnu.edu.tw/Monthly/106(396-405)/398-PDF/13-24_105032-%E9%A0%90%E6%B8%AC%E8%88%87%E9%A9%97%E8%AD%89%E5%B9%B3%E9%9D%A2%E5%87%B8%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F(I)%20(%E4%BF%AE%E6%94%B9).pdf</a> （<a class="external text" href="//web.archive.org/web/20210108190008/http://www.sec.ntnu.edu.tw/Monthly/106(396-405)/398-PDF/13-24_105032-%E9%A0%90%E6%B8%AC%E8%88%87%E9%A9%97%E8%AD%89%E5%B9%B3%E9%9D%A2%E5%87%B8%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F(I)%20(%E4%BF%AE%E6%94%B9).pdf" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）], To predict and verify the area formula of planar convex polygon (I), by Hui-Pin Lee. Science Education Monthly No. 398, May 2017 , NTNU.</li>
+<li><a class="external autonumber" href="http://www.sec.ntnu.edu.tw/Monthly/106(396-405)/399-PDF/12-23_105032-%E9%A0%90%E6%B8%AC%E8%88%87%E9%A9%97%E8%AD%89%E5%B9%B3%E9%9D%A2%E5%87%B8%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F(II)%20(%E4%BF%AE%E6%94%B9).pdf" rel="nofollow">[1]</a> （<a class="external text" href="//web.archive.org/web/20210108190010/http://www.sec.ntnu.edu.tw/Monthly/106(396-405)/399-PDF/12-23_105032-%E9%A0%90%E6%B8%AC%E8%88%87%E9%A9%97%E8%AD%89%E5%B9%B3%E9%9D%A2%E5%87%B8%E5%A4%9A%E9%82%8A%E5%BD%A2%E9%9D%A2%E7%A9%8D%E5%85%AC%E5%BC%8F(II)%20(%E4%BF%AE%E6%94%B9).pdf" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, To predict and verify the area formula of planar convex polygon (II), by Hui-Pin Lee. Science Education Monthly No. 399, June 2017 , NTNU.</li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E5%A4%9A%E9%82%8A%E5%BD%A2" title="Template:多邊形"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E5%A4%9A%E9%82%8A%E5%BD%A2" title="Template talk:多邊形"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E5%A4%9A%E9%82%8A%E5%BD%A2&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a class="mw-redirect" href="/wiki/%E5%A4%9A%E9%82%8A%E5%BD%A2" title="多邊形">多邊形</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">1–10邊</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%B8%80%E8%A7%92%E5%BD%A2" title="一角形">一角形</a></li>
+<li><a href="/wiki/%E4%BA%8C%E8%A7%92%E5%BD%A2" title="二角形">二角形</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a>
+<ul><li><a href="/wiki/%E6%AD%A3%E4%B8%89%E8%A7%92%E5%BD%A2" title="正三角形">正三角形</a></li>
+<li><a href="/wiki/%E7%9B%B4%E8%A7%92%E4%B8%89%E8%A7%92%E5%BD%A2" title="直角三角形">直角三角形</a></li>
+<li><a href="/wiki/%E7%AD%89%E8%85%B0%E4%B8%89%E8%A7%92%E5%BD%A2" title="等腰三角形">等腰三角形</a></li>
+<li><a href="/wiki/%E4%B8%8D%E7%AD%89%E9%82%8A%E4%B8%89%E8%A7%92%E5%BD%A2" title="不等邊三角形">不等邊三角形</a></li></ul></li>
+<li><a href="/wiki/%E5%9B%9B%E9%82%8A%E5%BD%A2" title="四邊形">四邊形</a>
+<ul><li><a href="/wiki/%E6%AD%A3%E6%96%B9%E5%BD%A2" title="正方形">正方形</a></li>
+<li><a href="/wiki/%E7%9F%A9%E5%BD%A2" title="矩形">矩形</a></li>
+<li><a href="/wiki/%E8%8F%B1%E5%BD%A2" title="菱形">菱形</a></li>
+<li><a href="/wiki/%E9%B7%82%E5%BD%A2" title="鷂形">鷂形</a></li>
+<li><a href="/wiki/%E6%A2%AF%E5%BD%A2" title="梯形">梯形</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2" title="平行四边形">平行四边形</a></li></ul></li>
+<li><a href="/wiki/%E4%BA%94%E8%BE%B9%E5%BD%A2" title="五边形">五边形</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%BE%B9%E5%BD%A2" title="六边形">六边形</a></li>
+<li><a href="/wiki/%E4%B8%83%E8%BE%B9%E5%BD%A2" title="七边形">七边形</a></li>
+<li><a href="/wiki/%E5%85%AB%E8%BE%B9%E5%BD%A2" title="八边形">八边形</a></li>
+<li><a href="/wiki/%E4%B9%9D%E9%82%8A%E5%BD%A2" title="九邊形">九邊形</a></li>
+<li><a href="/wiki/%E5%8D%81%E8%BE%B9%E5%BD%A2" title="十边形">十边形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">11–20邊</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%8D%81%E4%B8%80%E8%BE%B9%E5%BD%A2" title="十一边形">十一边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%BA%8C%E8%BE%B9%E5%BD%A2" title="十二边形">十二边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%B8%89%E8%BE%B9%E5%BD%A2" title="十三边形">十三边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E5%9B%9B%E8%BE%B9%E5%BD%A2" title="十四边形">十四边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%BA%94%E8%BE%B9%E5%BD%A2" title="十五边形">十五边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E5%85%AD%E8%BE%B9%E5%BD%A2" title="十六边形">十六边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%B8%83%E8%BE%B9%E5%BD%A2" title="十七边形">十七边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E5%85%AB%E8%BE%B9%E5%BD%A2" title="十八边形">十八边形</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%B9%9D%E9%82%8A%E5%BD%A2" title="十九邊形">十九邊形</a></li>
+<li><a href="/wiki/%E4%BA%8C%E5%8D%81%E9%82%8A%E5%BD%A2" title="二十邊形">二十邊形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">21–100邊<br/>（部分的）</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="ilh-all" data-foreign-title="二十一角形" data-lang-code="ja" data-lang-name="日语" data-orig-title="二十一邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%8C%E5%8D%81%E4%B8%80%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="二十一邊形（页面不存在）">二十一邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">日语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%8D%81%E4%B8%80%E8%A7%92%E5%BD%A2" title="ja:二十一角形"><span dir="auto" lang="ja">二十一角形</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="二十二角形" data-lang-code="ja" data-lang-name="日语" data-orig-title="二十二邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%8C%E5%8D%81%E4%BA%8C%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="二十二邊形（页面不存在）">二十二邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">日语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://ja.wikipedia.org/wiki/%E4%BA%8C%E5%8D%81%E4%BA%8C%E8%A7%92%E5%BD%A2" title="ja:二十二角形"><span dir="auto" lang="ja">二十二角形</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Icositrigon" data-lang-code="en" data-lang-name="英语" data-orig-title="二十三邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%8C%E5%8D%81%E4%B8%89%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="二十三邊形（页面不存在）">二十三邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Icositrigon" title="en:Icositrigon"><span dir="auto" lang="en">Icositrigon</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E4%BA%8C%E5%8D%81%E5%9B%9B%E9%82%8A%E5%BD%A2" title="二十四邊形">二十四邊形</a></li>
+<li><span class="ilh-all" data-foreign-title="Triacontagon" data-lang-code="en" data-lang-name="英语" data-orig-title="三十邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%89%E5%8D%81%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="三十邊形（页面不存在）">三十邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Triacontagon" title="en:Triacontagon"><span dir="auto" lang="en">Triacontagon</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Tetracontágono" data-lang-code="es" data-lang-name="西班牙语" data-orig-title="四十邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%9B%9B%E5%8D%81%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="四十邊形（页面不存在）">四十邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">西班牙语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://es.wikipedia.org/wiki/Tetracont%C3%A1gono" title="es:Tetracontágono"><span dir="auto" lang="es">Tetracontágono</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Pentacontágono" data-lang-code="es" data-lang-name="西班牙语" data-orig-title="五十邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%94%E5%8D%81%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="五十邊形（页面不存在）">五十邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">西班牙语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://es.wikipedia.org/wiki/Pentacont%C3%A1gono" title="es:Pentacontágono"><span dir="auto" lang="es">Pentacontágono</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Hectágono" data-lang-code="es" data-lang-name="西班牙语" data-orig-title="一百邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%80%E7%99%BE%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="一百邊形（页面不存在）">一百邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">西班牙语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://es.wikipedia.org/wiki/Hect%C3%A1gono" title="es:Hectágono"><span dir="auto" lang="es">Hectágono</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">&gt;100邊</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%8C%E7%99%BE%E4%BA%94%E5%8D%81%E4%B8%83%E9%82%8A%E5%BD%A2" title="二百五十七邊形">二百五十七邊形</a></li>
+<li><a href="/wiki/%E4%B8%80%E5%8D%83%E9%82%8A%E5%BD%A2" title="一千邊形">一千邊形</a></li>
+<li><span class="ilh-all" data-foreign-title="Myriagon" data-lang-code="en" data-lang-name="英语" data-orig-title="一萬邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%80%E8%90%AC%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="一萬邊形（页面不存在）">一萬邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Myriagon" title="en:Myriagon"><span dir="auto" lang="en">Myriagon</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%AD%A365537%E9%82%8A%E5%BD%A2" title="正65537邊形">六萬五千五百三十七邊形</a></li>
+<li><span class="ilh-all" data-foreign-title="Százezerszög" data-lang-code="hu" data-lang-name="匈牙利语" data-orig-title="十萬邊形"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%8D%81%E8%90%AC%E9%82%8A%E5%BD%A2&amp;action=edit&amp;redlink=1" title="十萬邊形（页面不存在）">十萬邊形</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">匈牙利语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://hu.wikipedia.org/wiki/Sz%C3%A1zezersz%C3%B6g" title="hu:Százezerszög"><span dir="auto" lang="hu">Százezerszög</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E4%B8%80%E7%99%BE%E8%90%AC%E9%82%8A%E5%BD%A2" title="一百萬邊形">一百萬邊形</a></li>
+<li><a href="/wiki/%E7%84%A1%E9%99%90%E9%82%8A%E5%BD%A2" title="無限邊形">無限邊形</a></li>
+<li><a href="/wiki/%E5%81%BD%E5%A4%9A%E9%82%8A%E5%BD%A2" title="偽多邊形">超無限邊形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%A4%87%E5%A4%9A%E9%82%8A%E5%BD%A2" title="複多邊形">複多邊形</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%85%AB%E8%BE%B9%E5%BD%A2#複八邊形" title="八边形">複八邊形</a>
+<ul><li><a href="/wiki/%E8%8E%AB%E6%AF%94%E7%83%8F%E6%96%AF%EF%BC%8D%E5%9D%8E%E7%89%B9%E5%85%AB%E9%82%8A%E5%BD%A2" title="莫比烏斯－坎特八邊形">莫比烏斯－坎特八邊形</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其他</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A9%BA%E5%A4%9A%E8%83%9E%E5%BD%A2" title="空多胞形">空多胞形</a>
+<ul><li><a href="/wiki/%E9%9B%B6%E8%A7%92%E5%BD%A2" title="零角形">零角形</a></li></ul></li>
+<li><a href="/wiki/%E6%89%AD%E6%AD%AA%E5%A4%9A%E9%82%8A%E5%BD%A2" title="扭歪多邊形">扭歪多邊形</a></li>
+<li><a href="/wiki/%E6%89%AD%E6%AD%AA%E7%84%A1%E9%99%90%E9%82%8A%E5%BD%A2" title="扭歪無限邊形">扭歪無限邊形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%98%9F%E5%BD%A2%E5%A4%9A%E9%82%8A%E5%BD%A2" title="星形多邊形">星形多邊形</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%94%E8%A7%92%E6%98%9F" title="五角星">五角星</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%A7%92%E6%98%9F" title="六角星">六角星</a></li>
+<li><a href="/wiki/%E4%B8%83%E8%A7%92%E6%98%9F" title="七角星">七角星</a></li>
+<li><a href="/wiki/%E5%85%AB%E8%A7%92%E6%98%9F" title="八角星">八角星</a></li>
+<li><a href="/wiki/%E4%B9%9D%E8%A7%92%E6%98%9F" title="九角星">九角星</a></li>
+<li><a href="/wiki/%E5%8D%81%E8%A7%92%E6%98%9F" title="十角星">十角星</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%B8%80%E8%A7%92%E6%98%9F" title="十一角星">十一角星</a></li>
+<li><a href="/wiki/%E5%8D%81%E4%BA%8C%E8%A7%92%E6%98%9F" title="十二角星">十二角星</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%84%A1%E9%99%90%E8%A7%92%E6%98%9F" title="無限角星">無限角星</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0;text-align: left;"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Template:几何术语"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Template talk:几何术语"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a>术语</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E7%82%B9" title="点">点</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%A0%82%E9%BB%9E_(%E5%B9%BE%E4%BD%95)" title="頂點 (幾何)">頂點</a></li>
+<li><a href="/wiki/%E4%BA%A4%E9%BB%9E" title="交點">交點</a></li>
+<li><a href="/wiki/%E4%B8%AD%E9%BB%9E" title="中點">中點</a></li>
+<li><a href="/wiki/%E8%A7%92" title="角">角</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%A5%B5%E5%80%BC%E9%BB%9E&amp;action=edit&amp;redlink=1" title="極值點（页面不存在）">極值點</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%80%E5%80%BC%E9%BB%9E&amp;action=edit&amp;redlink=1" title="最值點（页面不存在）">最值點</a></li>
+<li><a href="/wiki/%E4%B8%B4%E7%95%8C%E7%82%B9_(%E6%95%B0%E5%AD%A6)" title="临界点 (数学)">臨界點</a></li>
+<li><a href="/wiki/%E9%A9%BB%E7%82%B9" title="驻点">驻点</a></li>
+<li><a href="/wiki/%E9%9E%8D%E9%BB%9E" title="鞍點">鞍點</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E7%9B%B4%E7%BA%BF" title="直线">直线</a>和<a href="/wiki/%E6%9B%B2%E7%BA%BF" title="曲线">曲线</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BA%BF%E6%AE%B5" title="线段">线段</a></li>
+<li><a href="/wiki/%E5%B0%84%E7%BA%BF" title="射线">射线</a></li>
+<li><a href="/wiki/%E7%9B%B4%E7%BA%BF" title="直线">直线</a></li>
+<li><a href="/wiki/%E5%88%87%E7%BA%BF" title="切线">切线</a></li>
+<li><a href="/wiki/%E6%B3%95%E7%BA%BF" title="法线">（主）法线</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%89%AF%E6%B3%95%E7%B7%9A&amp;action=edit&amp;redlink=1" title="副法線（页面不存在）">副法線</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%BA%BF" title="曲线">曲线</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF" title="圆锥曲线">圆锥曲线</a></li>
+<li><a href="/wiki/%E5%8F%8C%E6%9B%B2%E7%BA%BF" title="双曲线">双曲线</a></li>
+<li><a href="/wiki/%E6%8A%9B%E7%89%A9%E7%BA%BF" title="抛物线">抛物线</a></li>
+<li><a href="/wiki/%E6%AD%A3%E5%BC%A6%E6%9B%B2%E7%B7%9A" title="正弦曲線">正弦曲線</a></li>
+<li><a href="/wiki/%E8%9E%BA%E7%BA%BF" title="螺线">螺线</a>（<a href="/wiki/%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E8%9E%BA%E7%BA%BF" title="阿基米德螺线">阿基米德螺线</a>、<a href="/wiki/%E7%AD%89%E8%A7%92%E8%9E%BA%E7%BA%BF" title="等角螺线">等角螺线</a>……）</li>
+<li><a href="/wiki/%E6%91%86%E7%BA%BF" title="摆线">摆线</a>（<a href="/wiki/%E6%9C%80%E9%80%9F%E9%99%8D%E7%B7%9A%E5%95%8F%E9%A1%8C" title="最速降線問題">最速降線問題</a>）</li>
+<li><a href="/wiki/%E6%82%AC%E9%93%BE%E7%BA%BF" title="悬链线">悬链线</a></li>
+<li><a href="/wiki/%E6%9B%B3%E7%89%A9%E7%BA%BF" title="曳物线">曳物线</a></li>
+<li><a href="/wiki/%E6%BC%B8%E4%BC%B8%E7%B7%9A" title="漸伸線">漸開線</a></li>
+<li><a href="/wiki/%E6%B8%90%E5%B1%88%E7%BA%BF" title="渐屈线">渐屈线</a></li>
+<li><a href="/wiki/%E6%B8%90%E8%BF%91%E7%BA%BF" title="渐近线">渐近线</a></li>
+<li><a href="/wiki/%E6%B5%8B%E5%9C%B0%E7%BA%BF" title="测地线">测地线</a></li>
+<li><a href="/wiki/%E9%82%8A_(%E5%B9%BE%E4%BD%95)" title="邊 (幾何)">邊</a></li>
+<li><a href="/wiki/%E5%91%A8%E9%95%BF" title="周长">周界</a></li>
+<li><a href="/wiki/%E5%BC%A6_(%E5%B9%BE%E4%BD%95)" title="弦 (幾何)">弦</a></li>
+<li><a href="/wiki/%E5%BC%A7" title="弧">弧</a></li>
+<li><a href="/wiki/%E5%9E%82%E7%9B%B4%E5%B9%B3%E5%88%86%E7%B7%9A" title="垂直平分線">垂直平分線</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF" title="圆锥曲线">二次曲线</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%9B%B2%E7%B7%9A" title="代數曲線">代數曲線</a></li>
+<li><a href="/wiki/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF" title="椭圆曲线">椭圆曲线</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%A9%A2%E5%9C%93" title="超橢圓">超橢圓</a></li>
+<li><a href="/wiki/%E6%98%9F%E5%BD%A2%E7%BA%BF" title="星形线">星形线</a></li>
+<li><a href="/wiki/%E4%B8%89%E5%B0%96%E7%93%A3%E7%BA%BF" title="三尖瓣线">三尖瓣线</a></li>
+<li><a href="/wiki/%E6%96%B9%E5%9C%93%E5%BD%A2" title="方圓形">方圓形</a></li>
+<li><a href="/wiki/%E5%8B%92%E6%B4%9B%E4%B8%89%E8%A7%92%E5%BD%A2" title="勒洛三角形">勒洛三角形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E5%B9%B3%E9%9D%A2_(%E6%95%B0%E5%AD%A6)" title="平面 (数学)">平面</a>圖形</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%9C%86" title="圆">圆</a>（<a href="/wiki/%E5%B9%BF%E4%B9%89%E5%9C%86" title="广义圆">广义圆</a>）</li>
+<li><a href="/wiki/%E6%A4%AD%E5%9C%86" title="椭圆">椭圆</a></li>
+<li><a href="/wiki/%E6%89%87%E5%BD%A2" title="扇形">扇形</a></li>
+<li><a href="/wiki/%E5%BC%93%E5%BD%A2" title="弓形">弓形</a></li>
+<li><a href="/wiki/%E7%8E%AF%E5%BD%A2" title="环形">环形</a></li>
+<li><a class="mw-selflink selflink">多边形</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a></li>
+<li><a href="/wiki/%E5%9B%9B%E9%82%8A%E5%BD%A2" title="四邊形">四邊形</a></li>
+<li><a href="/wiki/%E4%BA%94%E8%BE%B9%E5%BD%A2" title="五边形">五边形</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%BE%B9%E5%BD%A2" title="六边形">六边形</a></li>
+<li><a class="mw-selflink selflink">多边形</a></li>
+<li><a href="/wiki/%E6%AD%A3%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="正多边形">正多边形</a></li>
+<li><a href="/wiki/%E6%A2%AF%E5%BD%A2" title="梯形">梯形</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2" title="平行四边形">平行四边形</a></li>
+<li><a href="/wiki/%E8%8F%B1%E5%BD%A2" title="菱形">菱形</a></li>
+<li><a href="/wiki/%E7%9F%A9%E5%BD%A2" title="矩形">矩形</a></li>
+<li><a href="/wiki/%E6%AD%A3%E6%96%B9%E5%BD%A2" title="正方形">正方形</a></li>
+<li><a href="/wiki/%E9%B7%82%E5%BD%A2" title="鷂形">鷂形</a></li>
+<li><a href="/wiki/%E5%8D%B5%E5%BD%A2%E7%BA%BF" title="卵形线">卵形线</a></li>
+<li><a href="/wiki/%E7%B4%A1%E9%8C%98%E5%BD%A2" title="紡錘形">梭形</a></li>
+<li><a href="/wiki/%E6%98%9F%E5%BD%A2%E5%A4%9A%E9%82%8A%E5%BD%A2" title="星形多邊形">星形</a></li>
+<li><a href="/wiki/%E4%BA%94%E8%A7%92%E6%98%9F" title="五角星">五角星</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%A7%92%E6%98%9F" title="六角星">六角星</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E4%B8%89%E7%B6%AD%E7%A9%BA%E9%96%93" title="三維空間">立體</a>圖形</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%A4%9A%E9%9D%A2%E4%BD%93" title="多面体">多面体</a></li>
+<li><a href="/wiki/%E6%9F%8F%E6%8B%89%E5%9C%96%E7%AB%8B%E9%AB%94" title="柏拉圖立體">正多面體</a></li>
+<li><a href="/wiki/%E5%9B%9B%E9%9D%A2%E9%AB%94" title="四面體">四面體</a></li>
+<li><a href="/wiki/%E9%95%B7%E6%96%B9%E9%AB%94" title="長方體">長方體</a></li>
+<li><a href="/wiki/%E7%AB%8B%E6%96%B9%E9%AB%94" title="立方體">立方體</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C%E5%85%AD%E9%9D%A2%E4%BD%93" title="平行六面体">平行六面体</a></li>
+<li><a href="/wiki/%E6%A3%B1%E6%9F%B1" title="棱柱">棱柱</a></li>
+<li><a href="/wiki/%E5%8F%8D%E6%A3%B1%E6%9F%B1" title="反棱柱">反棱柱</a></li>
+<li><a href="/wiki/%E6%A3%B1%E9%94%A5" title="棱锥">棱锥</a></li>
+<li><a href="/wiki/%E9%94%A5%E5%8F%B0" title="锥台">棱台</a></li>
+<li><a href="/wiki/%E5%9C%86%E6%9F%B1%E4%BD%93" title="圆柱体">圆柱体</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5" title="圆锥">圆锥</a></li>
+<li><a href="/wiki/%E5%9C%86%E5%8F%B0" title="圆台">圆台</a></li>
+<li><a href="/wiki/%E6%A4%AD%E7%90%83" title="椭球">椭球</a>（<a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="類球面">長球體</a>、<a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="類球面">扁球體</a>）</li>
+<li><a href="/wiki/%E7%90%83_(%E6%95%B0%E5%AD%A6)" title="球 (数学)">球體</a></li>
+<li><a href="/wiki/%E7%90%83%E7%BC%BA" title="球缺">球缺</a></li>
+<li><a href="/wiki/%E7%90%83%E5%86%A0" title="球冠">球冠</a></li>
+<li><a href="/wiki/%E7%90%83%E5%8F%B0" title="球台">球台</a></li>
+<li><a href="/wiki/%E9%9B%A2%E5%BF%83%E7%8E%87" title="離心率">準線</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%AF%8D%E7%BA%BF_(%E5%87%A0%E4%BD%95)&amp;action=edit&amp;redlink=1" title="母线 (几何)（页面不存在）">母線</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E6%9B%B2%E9%9D%A2" title="曲面">曲面</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2" title="二次曲面">二次曲面</a></li>
+<li><a href="/wiki/%E6%97%8B%E8%BD%89%E6%9B%B2%E9%9D%A2" title="旋轉曲面">旋轉曲面</a></li>
+<li><a href="/wiki/%E6%8A%9B%E7%89%A9%E9%9D%A2" title="抛物面">抛物面</a></li>
+<li><a href="/wiki/%E9%9B%99%E6%9B%B2%E9%9D%A2" title="雙曲面">雙曲面</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%A9%AC%E9%9E%8D%E9%9D%A2&amp;action=edit&amp;redlink=1" title="马鞍面（页面不存在）">马鞍面</a></li>
+<li><a href="/wiki/%E7%90%83%E9%9D%A2" title="球面">球面</a></li>
+<li><a href="/wiki/%E6%A4%AD%E7%90%83" title="椭球">橢球面</a></li>
+<li><a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="類球面">類球面</a></li>
+<li><a href="/wiki/%E7%8E%AF%E9%9D%A2" title="环面">环面</a></li>
+<li><a href="/wiki/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%B8%A6" title="莫比乌斯带">莫比乌斯带</a></li>
+<li><a href="/wiki/%E6%B5%81%E5%BD%A2" title="流形">流形</a></li>
+<li><a href="/wiki/%E9%BB%8E%E6%9B%BC%E6%9B%B2%E9%9D%A2" title="黎曼曲面">黎曼曲面</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">高維空間</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%B6%85%E5%B9%B3%E9%9D%A2" title="超平面">超平面</a></li>
+<li><a href="/wiki/%E7%B6%AD%E9%9D%A2" title="維面">超面</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%9B%B2%E9%9D%A2" title="超曲面">超曲面</a></li>
+<li><a href="/wiki/%E8%83%9E_(%E7%B5%90%E6%A7%8B)" title="胞 (結構)">胞</a></li>
+<li><a href="/wiki/%E5%A4%9A%E8%83%9E%E5%BD%A2" title="多胞形">多胞形</a></li>
+<li><a href="/wiki/%E8%B6%85%E7%90%83%E9%9D%A2" title="超球面">超球體</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%96%B9%E5%BD%A2" title="超方形">超方形</a></li>
+<li><a href="/wiki/%E5%9B%9B%E7%B6%AD%E8%B6%85%E6%AD%A3%E6%96%B9%E9%AB%94" title="四維超正方體">超立方體</a></li>
+<li><a href="/wiki/%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6" title="克莱因瓶">克莱因瓶</a></li>
+<li><a href="/wiki/%E5%9B%9B%E7%B6%AD%E6%9F%B1%E9%AB%94%E6%9F%B1" title="四維柱體柱">四維柱體柱</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">圖形關係</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B8%E4%BC%BC_(%E5%B9%BE%E4%BD%95)" title="相似 (幾何)">相似</a></li>
+<li><a href="/wiki/%E5%85%A8%E7%AD%89" title="全等">全等</a></li>
+<li><a href="/wiki/%E5%B0%8D%E7%A8%B1" title="對稱">對稱</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C" title="平行">平行</a></li>
+<li><a href="/wiki/%E5%9E%82%E7%9B%B4" title="垂直">垂直</a></li>
+<li><a href="/wiki/%E7%9B%B8%E4%BA%A4" title="相交">相交</a></li>
+<li><a href="/wiki/%E5%88%87%E7%BA%BF" title="切线">相切</a></li>
+<li><a class="new" href="/w/index.php?title=%E7%9B%B8%E9%9B%A2&amp;action=edit&amp;redlink=1" title="相離（页面不存在）">相離</a></li>
+<li><a href="/wiki/%E9%95%9C%E5%83%8F_(%E5%87%A0%E4%BD%95)" title="镜像 (几何)">镜像</a></li>
+<li><a href="/wiki/%E6%97%8B%E8%BD%AC" title="旋转">旋转</a></li>
+<li><a href="/wiki/%E5%8F%8D%E6%BC%94" title="反演">反演</a></li>
+<li><a href="/wiki/%E6%88%AA%E9%9D%A2_(%E5%B9%BE%E4%BD%95)" title="截面 (幾何)">截面</a></li>
+<li><a href="/wiki/%E7%BC%A9%E6%94%BE" title="缩放">缩放</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a>關係</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2" title="相似三角形">相似三角形</a></li>
+<li><a href="/wiki/%E5%85%A8%E7%AD%89%E4%B8%89%E8%A7%92%E5%BD%A2" title="全等三角形">全等三角形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E9%87%8F_(%E6%95%B0%E5%AD%A6)" title="量 (数学)">量</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%B7%9D%E7%A6%BB" title="距离">距离</a></li>
+<li><a href="/wiki/%E9%95%BF%E5%BA%A6" title="长度">长度</a></li>
+<li><a href="/wiki/%E5%91%A8%E9%95%BF" title="周长">周长</a></li>
+<li><a href="/wiki/%E5%BC%A7%E9%95%BF" title="弧长">弧长</a></li>
+<li><a href="/wiki/%E9%AB%98%E5%BA%A6" title="高度">高度</a></li>
+<li><a href="/wiki/%E9%9D%A2%E7%A7%AF" title="面积">面积</a></li>
+<li><a href="/wiki/%E8%A1%A8%E9%9D%A2%E7%A9%8D" title="表面積">表面積</a></li>
+<li><a href="/wiki/%E4%BD%93%E7%A7%AF" title="体积">体积</a></li>
+<li><a href="/wiki/%E5%AE%B9%E7%A9%8D" title="容積">容積</a></li>
+<li><a href="/wiki/%E5%BA%A6_(%E8%A7%92)" title="度 (角)">角度</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%8E%87" title="曲率">曲率</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%BA%BF%E7%9A%84%E6%8C%A0%E7%8E%87" title="曲线的挠率">撓率</a></li>
+<li><a href="/wiki/%E9%9B%A2%E5%BF%83%E7%8E%87" title="離心率">離心率</a></li>
+<li><a href="/wiki/%E5%87%B9%E5%87%B8%E6%80%A7_(%E5%B9%BE%E4%BD%95)" title="凹凸性 (幾何)">凹凸性</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%89%E5%90%91%E6%9B%B2%E9%9D%A2&amp;action=edit&amp;redlink=1" title="有向曲面（页面不存在）">有向曲面</a></li>
+<li><a href="/wiki/%E5%8F%AF%E5%B1%95%E6%9B%B2%E9%9D%A2" title="可展曲面">可展曲面</a></li>
+<li><a href="/wiki/%E7%9B%B4%E7%B4%8B%E6%9B%B2%E9%9D%A2" title="直紋曲面">直紋曲面</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">作圖</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%B0%BA" title="尺">尺</a>
+<ul><li><a href="/wiki/%E7%9B%B4%E5%B0%BA" title="直尺">直尺</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%B0%BA" title="三角尺">三角尺</a></li></ul></li>
+<li><a href="/wiki/%E5%9C%86%E8%A7%84" title="圆规">圆规</a></li>
+<li><a href="/wiki/%E5%B0%BA%E8%A7%84%E4%BD%9C%E5%9B%BE" title="尺规作图">尺规作图</a></li>
+<li><a href="/wiki/%E4%BA%8C%E5%88%BB%E5%B0%BA%E4%BD%9C%E5%9C%96" title="二刻尺作圖">二刻尺作圖</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">分支</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">平面幾何</a></li>
+<li><a href="/wiki/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95" title="立体几何">立体几何</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" title="三角学">三角学</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95" title="微分几何">微分几何</a></li>
+<li><a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E6%91%BA%E7%B4%99%E6%95%B8%E5%AD%B8" title="摺紙數學">摺紙數學</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">欧几里得几何</a></li>
+<li><a href="/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何">非欧几里得几何</a>（<a href="/wiki/%E5%8F%8C%E6%9B%B2%E5%87%A0%E4%BD%95" title="双曲几何">双曲几何</a>、<a href="/wiki/%E7%90%83%E9%9D%A2%E5%B9%BE%E4%BD%95%E5%AD%B8" title="球面幾何學">球面幾何</a>……）</li>
+<li><a href="/wiki/%E5%88%86%E5%BD%A2" title="分形">分形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">理論</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%AE%9A%E7%90%86" title="定理">定理</a></li>
+<li><a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a></li>
+<li><a href="/wiki/%E5%AE%9A%E4%B9%89" title="定义">定义</a></li>
+<li><a href="/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" title="數學證明">數學證明</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/><b><a href="/wiki/Category:%E5%87%A0%E4%BD%95%E5%AD%A6" title="Category:几何学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/><b><a href="/wiki/Portal:%E5%87%A0%E4%BD%95%E5%AD%A6" title="Portal:几何学">主题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Geometry" title="commons:Category:Geometry">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E5%87%A0%E4%BD%95%E5%AD%A6" title="WikiProject:几何学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1414
+Cached time: 20220922154219
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.224 seconds
+Real time usage: 0.378 seconds
+Preprocessor visited node count: 1017/1000000
+Post‐expand include size: 65577/2097152 bytes
+Template argument size: 1260/2097152 bytes
+Highest expansion depth: 11/100
+Expensive parser function count: 11/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 396/5000000 bytes
+Lua time usage: 0.074/10.000 seconds
+Lua memory usage: 4229153/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  217.965      1 -total
+ 29.01%   63.232      1 Template:Commons_category
+ 28.52%   62.153      2 Template:Navbox
+ 23.94%   52.189      1 Template:多邊形
+ 20.53%   44.746      1 Template:If_then_show
+ 17.06%   37.180      1 Template:MathWorld
+ 16.35%   35.632      1 Template:Cite_web
+ 10.61%   23.119      1 Template:Main
+  6.25%   13.624      2 Template:Link-ja
+  6.10%   13.297      1 Template:几何术语
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:67955-0!canonical!zh and timestamp 20220922154219 and revision id 68025427.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=多边形&amp;oldid=68025427">https://zh.wikipedia.org/w/index.php?title=多边形&amp;oldid=68025427</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Category:几何术语">几何术语</a></li><li><a href="/wiki/Category:%E5%A4%9A%E9%82%8A%E5%BD%A2" title="Category:多邊形">多邊形</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E5%A4%9A%E8%BE%B9%E5%BD%A2" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant" lang="zh-Hant"><span>繁體</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁體</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳門繁體</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>臺灣正體</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在維基百科受益良多，您可以考慮資助我們"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E5%A4%9A%E8%BE%B9%E5%BD%A2" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;oldid=68025427" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;id=68025427&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q37555" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Polygon" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Veelhoek" hreflang="af" lang="af" title="Veelhoek – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Poligono" hreflang="an" lang="an" title="Poligono – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%85%D8%B6%D9%84%D8%B9" hreflang="ar" lang="ar" title="مضلع – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%AC%E0%A6%B9%E0%A7%81%E0%A6%AD%E0%A7%81%E0%A6%9C" hreflang="as" lang="as" title="বহুভুজ – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Pol%C3%ADgonu" hreflang="ast" lang="ast" title="Polígonu – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/%C3%87oxbucaql%C4%B1" hreflang="az" lang="az" title="Çoxbucaqlı – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%9A%D2%AF%D0%BF%D0%BC%D3%A9%D0%B9%D3%A9%D1%88" hreflang="ba" lang="ba" title="Күпмөйөш – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Poligono" hreflang="bcl" lang="bcl" title="Poligono – Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%B0%D0%B2%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%96%D0%BA" hreflang="be" lang="be" title="Многавугольнік – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%A8%D0%BC%D0%B0%D1%82%D0%BA%D1%83%D1%82%D0%BD%D1%96%D0%BA" hreflang="be-tarask" lang="be-tarask" title="Шматкутнік – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%8A%D0%B3%D1%8A%D0%BB%D0%BD%D0%B8%D0%BA" hreflang="bg" lang="bg" title="Многоъгълник – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%AC%E0%A6%B9%E0%A7%81%E0%A6%AD%E0%A7%81%E0%A6%9C" hreflang="bn" lang="bn" title="বহুভুজ – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Mnogougao" hreflang="bs" lang="bs" title="Mnogougao – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Pol%C3%ADgon" hreflang="ca" lang="ca" title="Polígon – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D9%81%D8%B1%DB%95%DA%AF%DB%86%D8%B4%DB%95" hreflang="ckb" lang="ckb" title="فرەگۆشە – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Mnoho%C3%BAheln%C3%ADk" hreflang="cs" lang="cs" title="Mnohoúhelník – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9D%D1%83%D0%BC%D0%B0%D0%B9%D0%BA%C4%95%D1%82%D0%B5%D1%81%D0%BB%C4%95%D1%85" hreflang="cv" lang="cv" title="Нумайкĕтеслĕх – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Polygon" hreflang="cy" lang="cy" title="Polygon – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Polygon" hreflang="da" lang="da" title="Polygon – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Polygon" hreflang="de" lang="de" title="Polygon – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%A0%CE%BF%CE%BB%CF%8D%CE%B3%CF%89%CE%BD%CE%BF" hreflang="el" lang="el" title="Πολύγωνο – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Polygon" hreflang="en" lang="en" title="Polygon – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Plurlatero" hreflang="eo" lang="eo" title="Plurlatero – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Pol%C3%ADgono" hreflang="es" lang="es" title="Polígono – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Hulknurk" hreflang="et" lang="et" title="Hulknurk – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Poligono" hreflang="eu" lang="eu" title="Poligono – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%DA%86%D9%86%D8%AF%D8%B6%D9%84%D8%B9%DB%8C" hreflang="fa" lang="fa" title="چندضلعی – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Monikulmio" hreflang="fi" lang="fi" title="Monikulmio – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Polygone" hreflang="fr" lang="fr" title="Polygone – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Polag%C3%A1n" hreflang="ga" lang="ga" title="Polagán – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Poligonn" hreflang="gcr" lang="gcr" title="Poligonn – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gd mw-list-item"><a class="interlanguage-link-target" href="https://gd.wikipedia.org/wiki/Poileagan" hreflang="gd" lang="gd" title="Poileagan – 苏格兰盖尔语"><span>Gàidhlig</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Pol%C3%ADgono" hreflang="gl" lang="gl" title="Polígono – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%AC%E0%AA%B9%E0%AB%81%E0%AA%95%E0%AB%8B%E0%AA%A3" hreflang="gu" lang="gu" title="બહુકોણ – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-gv mw-list-item"><a class="interlanguage-link-target" href="https://gv.wikipedia.org/wiki/Yl-lhiatteean" hreflang="gv" lang="gv" title="Yl-lhiatteean – 马恩语"><span>Gaelg</span></a></li><li class="interlanguage-link interwiki-hak mw-list-item"><a class="interlanguage-link-target" href="https://hak.wikipedia.org/wiki/T%C3%B4-pi%C3%AAn-h%C3%ACn" hreflang="hak" lang="hak" title="Tô-piên-hìn – 客家语"><span>客家語/Hak-kâ-ngî</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9E%D7%A6%D7%95%D7%9C%D7%A2" hreflang="he" lang="he" title="מצולע – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B9%E0%A5%81%E0%A4%AD%E0%A5%81%E0%A4%9C" hreflang="hi" lang="hi" title="बहुभुज – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Mnogokut" hreflang="hr" lang="hr" title="Mnogokut – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-ht mw-list-item"><a class="interlanguage-link-target" href="https://ht.wikipedia.org/wiki/Polig%C3%B2n" hreflang="ht" lang="ht" title="Poligòn – 海地克里奥尔语"><span>Kreyòl ayisyen</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Soksz%C3%B6g" hreflang="hu" lang="hu" title="Sokszög – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B2%D5%A1%D5%A6%D5%B4%D5%A1%D5%B6%D5%AF%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Բազմանկյուն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Poligon" hreflang="id" lang="id" title="Poligon – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Poligono" hreflang="io" lang="io" title="Poligono – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Poligono" hreflang="it" lang="it" title="Poligono – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%A4%9A%E8%A7%92%E5%BD%A2" hreflang="ja" lang="ja" title="多角形 – 日语"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%A0%E1%83%90%E1%83%95%E1%83%90%E1%83%9A%E1%83%99%E1%83%A3%E1%83%97%E1%83%AE%E1%83%94%E1%83%93%E1%83%98" hreflang="ka" lang="ka" title="მრავალკუთხედი – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kbd mw-list-item"><a class="interlanguage-link-target" href="https://kbd.wikipedia.org/wiki/%D0%9F%D0%BB%D3%80%D0%B0%D0%BD%D1%8D%D0%BF%D1%8D%D0%BA%D1%83%D1%8D%D0%B4" hreflang="kbd" lang="kbd" title="ПлӀанэпэкуэд – 卡巴尔德语"><span>Адыгэбзэ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%9A%D3%A9%D0%BF%D0%B1%D2%B1%D1%80%D1%8B%D1%88" hreflang="kk" lang="kk" title="Көпбұрыш – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%96%E1%9E%A0%E1%9E%BB%E1%9E%80%E1%9F%84%E1%9E%8E" hreflang="km" lang="km" title="ពហុកោណ – 高棉语"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%8B%A4%EA%B0%81%ED%98%95" hreflang="ko" lang="ko" title="다각형 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a class="interlanguage-link-target" href="https://ku.wikipedia.org/wiki/Pirgo%C5%9Fe" hreflang="ku" lang="ku" title="Pirgoşe – 库尔德语"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%9A%D3%A9%D0%BF_%D0%B1%D1%83%D1%80%D1%87%D1%82%D1%83%D0%BA" hreflang="ky" lang="ky" title="Көп бурчтук – 柯尔克孜语"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Polygonum" hreflang="la" lang="la" title="Polygonum – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Poligon" hreflang="lfn" lang="lfn" title="Poligon – 新共同語言"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Pol%C3%ACgon_(geometr%C3%ACa)" hreflang="lmo" lang="lmo" title="Polìgon (geometrìa) – 倫巴底文"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Daugiakampis" hreflang="lt" lang="lt" title="Daugiakampis – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Daudzst%C5%ABris" hreflang="lv" lang="lv" title="Daudzstūris – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mdf mw-list-item"><a class="interlanguage-link-target" href="https://mdf.wikipedia.org/wiki/%D0%9B%D0%B0%D0%BC%D1%83%D0%B6%D0%B5%D0%BA%D1%81" hreflang="mdf" lang="mdf" title="Ламужекс – 莫克沙语"><span>Мокшень</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a class="interlanguage-link-target" href="https://mg.wikipedia.org/wiki/Marolafy_(je%C3%B4metria)" hreflang="mg" lang="mg" title="Marolafy (jeômetria) – 马拉加斯语"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mhr mw-list-item"><a class="interlanguage-link-target" href="https://mhr.wikipedia.org/wiki/%D0%A8%D1%83%D0%BA%D1%8B%D0%BB%D1%83%D0%BA" hreflang="mhr" lang="mhr" title="Шукылук – Eastern Mari"><span>Олык марий</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D1%83%D0%B0%D0%B3%D0%BE%D0%BB%D0%BD%D0%B8%D0%BA" hreflang="mk" lang="mk" title="Многуаголник – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%AC%E0%B4%B9%E0%B5%81%E0%B4%AD%E0%B5%81%E0%B4%9C%E0%B4%82" hreflang="ml" lang="ml" title="ബഹുഭുജം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Poligon" hreflang="ms" lang="ms" title="Poligon – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%97%E1%80%9F%E1%80%AF%E1%80%82%E1%80%B6" hreflang="my" lang="my" title="ဗဟုဂံ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Veeleck" hreflang="nds" lang="nds" title="Veeleck – 低地德语"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%AC%E0%A4%B9%E0%A5%81%E0%A4%AD%E0%A5%81%E0%A4%9C" hreflang="ne" lang="ne" title="बहुभुज – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Veelhoek" hreflang="nl" lang="nl" title="Veelhoek – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Mangekant" hreflang="nn" lang="nn" title="Mangekant – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Polygon" hreflang="nb" lang="nb" title="Polygon – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-om mw-list-item"><a class="interlanguage-link-target" href="https://om.wikipedia.org/wiki/Pooliigonii" hreflang="om" lang="om" title="Pooliigonii – 奥罗莫语"><span>Oromoo</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%AC%E0%A8%B9%E0%A9%81%E0%A8%AC%E0%A8%BE%E0%A8%B9%E0%A9%80%E0%A8%86" hreflang="pa" lang="pa" title="ਬਹੁਬਾਹੀਆ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Wielok%C4%85t" hreflang="pl" lang="pl" title="Wielokąt – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Pol%C3%ADgono" hreflang="pt" lang="pt" title="Polígono – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Ashkamanya_(pacha_tupuy)" hreflang="qu" lang="qu" title="Ashkamanya (pacha tupuy) – 克丘亚语"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Poligon" hreflang="ro" lang="ro" title="Poligon – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA" hreflang="ru" lang="ru" title="Многоугольник – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Pul%C3%ACgunu" hreflang="scn" lang="scn" title="Pulìgunu – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Poligon" hreflang="sh" lang="sh" title="Poligon – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%B6%E0%B7%84%E0%B7%94%E0%B6%85%E0%B7%83%E0%B7%8A%E2%80%8D%E0%B6%BB" hreflang="si" lang="si" title="බහුඅස්‍ර – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Polygon" hreflang="en-simple" lang="en-simple" title="Polygon – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Mnohouholn%C3%ADk" hreflang="sk" lang="sk" title="Mnohouholník – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Mnogokotnik" hreflang="sl" lang="sl" title="Mnogokotnik – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Gonyozhinji" hreflang="sn" lang="sn" title="Gonyozhinji – 绍纳语"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D1%83%D0%B3%D0%B0%D0%BE" hreflang="sr" lang="sr" title="Многоугао – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Polygon" hreflang="sv" lang="sv" title="Polygon – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Pembenyingi" hreflang="sw" lang="sw" title="Pembenyingi – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-szl mw-list-item"><a class="interlanguage-link-target" href="https://szl.wikipedia.org/wiki/Wjeloek" hreflang="szl" lang="szl" title="Wjeloek – 西利西亞文"><span>Ślůnski</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%B2%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%A3%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="பல்கோணம் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%91%D0%B8%D1%81%D1%91%D1%80%D0%BA%D1%83%D0%BD%D2%B7%D0%B0" hreflang="tg" lang="tg" title="Бисёркунҷа – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%AB%E0%B8%A5%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B8%B5%E0%B9%88%E0%B8%A2%E0%B8%A1" hreflang="th" lang="th" title="รูปหลายเหลี่ยม – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Poligon" hreflang="tl" lang="tl" title="Poligon – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/%C3%87okgen" hreflang="tr" lang="tr" title="Çokgen – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BA%D1%83%D1%82%D0%BD%D0%B8%D0%BA" hreflang="uk" lang="uk" title="Многокутник – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%DA%A9%D8%AB%DB%8C%D8%B1%D8%A7%D9%84%D8%A7%D8%B6%D9%84%D8%A7%D8%B9" hreflang="ur" lang="ur" title="کثیرالاضلاع – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Ko%CA%BBpburchak" hreflang="uz" lang="uz" title="Koʻpburchak – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a class="interlanguage-link-target" href="https://vec.wikipedia.org/wiki/Po%C5%82igono" hreflang="vec" lang="vec" title="Połigono – 威尼斯文"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90a_gi%C3%A1c" hreflang="vi" lang="vi" title="Đa giác – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-vls mw-list-item"><a class="interlanguage-link-target" href="https://vls.wikipedia.org/wiki/Veelhoek" hreflang="vls" lang="vls" title="Veelhoek – 西佛蘭德文"><span>West-Vlams</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Puligunu" hreflang="war" lang="war" title="Puligunu – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" hreflang="wuu" lang="wuu" title="多边形 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A4%D7%99%D7%9C%D7%A2%D7%A7" hreflang="yi" lang="yi" title="פילעק – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/An%C3%ADgunp%C3%BAp%E1%BB%8D%CC%80" hreflang="yo" lang="yo" title="Anígunpúpọ̀ – 约鲁巴语"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E5%A4%9A%E9%82%8A%E5%BD%A2" hreflang="lzh" lang="lzh" title="多邊形 – Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%A4%9A%E9%82%8A%E5%BD%A2" hreflang="yue" lang="yue" title="多邊形 – Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q37555#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2021年10月3日 (星期日) 12:29。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E5%A4%9A%E8%BE%B9%E5%BD%A2&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.224","walltime":"0.378","ppvisitednodes":{"value":1017,"limit":1000000},"postexpandincludesize":{"value":65577,"limit":2097152},"templateargumentsize":{"value":1260,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":396,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  217.965      1 -total"," 29.01%   63.232      1 Template:Commons_category"," 28.52%   62.153      2 Template:Navbox"," 23.94%   52.189      1 Template:多邊形"," 20.53%   44.746      1 Template:If_then_show"," 17.06%   37.180      1 Template:MathWorld"," 16.35%   35.632      1 Template:Cite_web"," 10.61%   23.119      1 Template:Main","  6.25%   13.624      2 Template:Link-ja","  6.10%   13.297      1 Template:几何术语"]},"scribunto":{"limitreport-timeusage":{"value":"0.074","limit":"10.000"},"limitreport-memusage":{"value":4229153,"limit":52428800}},"cachereport":{"origin":"mw1414","timestamp":"20220922154219","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u591a\u8fb9\u5f62","url":"https:\/\/zh.wikipedia.org\/wiki\/%E5%A4%9A%E8%BE%B9%E5%BD%A2","sameAs":"http:\/\/www.wikidata.org\/entity\/Q37555","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q37555","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-01-14T14:10:04Z","dateModified":"2021-10-03T12:29:45Z"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u591a\u8fb9\u5f62","url":"https:\/\/zh.wikipedia.org\/wiki\/%E5%A4%9A%E8%BE%B9%E5%BD%A2","sameAs":"http:\/\/www.wikidata.org\/entity\/Q37555","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q37555","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2005-01-14T14:10:04Z","dateModified":"2021-10-03T12:29:45Z"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":137,"wgHostname":"mw1434"});});</script>
+</body>
+</html>

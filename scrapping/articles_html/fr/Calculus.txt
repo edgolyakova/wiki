@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Calcul infinitésimal — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"4ecb0169-e7a9-4d1c-acec-abdfc5ceaef6","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Calcul_infinitésimal","wgTitle":"Calcul infinitésimal","wgCurRevisionId":197183680,"wgRevisionId":197183680,"wgArticleId":117541,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Article contenant un appel à traduction en anglais","Portail:Analyse/Articles liés","Projet:Mathématiques/Articles","Portail:Sciences/Articles liés","Article de qualité en indonésien","Article de qualité en javanais","Calcul","Isaac Newton",
+"Gottfried Wilhelm Leibniz"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Calcul_infinitésimal","wgRelevantArticleId":117541,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q149972","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,
+"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init",
+"ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Calcul infinitésimal — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Calcul_infinit%C3%A9simal" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Calcul_infinit%C3%A9simal" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Calcul_infinitésimal rootpage-Calcul_infinitésimal skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Calcul+infinit%C3%A9simal" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Calcul+infinit%C3%A9simal" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Calcul+infinit%C3%A9simal" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Calcul_infinit%C3%A9simal" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Calcul_infinit%C3%A9simal" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;oldid=197183680" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Calcul_infinit%C3%A9simal&amp;id=197183680&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q149972" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Calcul+infinit%C3%A9simal"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Calcul_infinit%C3%A9simal&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Calculus" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Calcul_diff%C3%A9rentiel" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Historique">
+<a class="sidebar-toc-link" href="#Historique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Historique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Historique-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Principes">
+<a class="sidebar-toc-link" href="#Principes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Principes</div>
+</a>
+<button aria-controls="toc-Principes-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Principes
+				</button>
+<ul class="sidebar-toc-list" id="toc-Principes-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bases">
+<a class="sidebar-toc-link" href="#Bases">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.1</span>Bases</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bases-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Théorème_fondamental_de_l'analyse">
+<a class="sidebar-toc-link" href="#Théorème_fondamental_de_l'analyse">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.2</span>Théorème fondamental de l'analyse</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Théorème_fondamental_de_l'analyse-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Branches">
+<a class="sidebar-toc-link" href="#Branches">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Branches</div>
+</a>
+<button aria-controls="toc-Branches-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Branches
+				</button>
+<ul class="sidebar-toc-list" id="toc-Branches-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Calcul_différentiel">
+<a class="sidebar-toc-link" href="#Calcul_différentiel">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.1</span>Calcul différentiel</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Calcul_différentiel-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Calcul_intégral">
+<a class="sidebar-toc-link" href="#Calcul_intégral">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3.2</span>Calcul intégral</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Calcul_intégral-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Applications">
+<a class="sidebar-toc-link" href="#Applications">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Applications</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Applications-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Calcul infinitésimal</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 91 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-91 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">91 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8A%AB%E1%88%8D%E1%8A%A9%E1%88%88%E1%88%B5" hreflang="am" lang="am" title="ካልኩለስ — amharique"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Calculo" hreflang="an" lang="an" title="Calculo — aragonais"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AA%D9%81%D8%A7%D8%B6%D9%84_%D9%88%D8%AA%D9%83%D8%A7%D9%85%D9%84" hreflang="ar" lang="ar" title="تفاضل وتكامل — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a class="interlanguage-link-target" href="https://arz.wikipedia.org/wiki/%D8%AA%D9%81%D8%A7%D8%B6%D9%84_%D9%88%D8%AA%D9%83%D8%A7%D9%85%D9%84" hreflang="arz" lang="arz" title="تفاضل وتكامل — arabe égyptien"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/C%C3%A1lculu" hreflang="ast" lang="ast" title="Cálculu — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Kalkulus" hreflang="bcl" lang="bcl" title="Kalkulus — Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%95%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%95%E0%A7%81%E0%A6%B2%E0%A6%BE%E0%A6%B8" hreflang="bn" lang="bn" title="ক্যালকুলাস — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Infinitezimalni_ra%C4%8Dun" hreflang="bs" lang="bs" title="Infinitezimalni račun — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/C%C3%A0lcul_infinitesimal" hreflang="ca" lang="ca" title="Càlcul infinitesimal — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AC%DB%8C%D8%A7%DA%A9%D8%A7%D8%B1%DB%8C_%D9%88_%D8%AA%DB%95%D9%88%D8%A7%D9%88%DA%A9%D8%A7%D8%B1%DB%8C" hreflang="ckb" lang="ckb" title="جیاکاری و تەواوکاری — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Infinitezim%C3%A1ln%C3%AD_po%C4%8Det" hreflang="cs" lang="cs" title="Infinitezimální počet — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%C4%83%D0%BB%D0%BB%D0%B0_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" hreflang="cv" lang="cv" title="Математикăлла анализ — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Calcwlws" hreflang="cy" lang="cy" title="Calcwlws — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Infinitesimalregning" hreflang="da" lang="da" title="Infinitesimalregning — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Infinitesimalrechnung" hreflang="de" lang="de" title="Infinitesimalrechnung — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a class="interlanguage-link-target" href="https://diq.wikipedia.org/wiki/Kalkulus" hreflang="diq" lang="diq" title="Kalkulus — Zazaki"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9B%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C%CF%82" hreflang="el" lang="el" title="Λογισμός — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Calculus" hreflang="en" lang="en" title="Calculus — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Infinitezima_kalkulo" hreflang="eo" lang="eo" title="Infinitezima kalkulo — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal" hreflang="es" lang="es" title="Cálculo infinitesimal — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Kalkulu_infinitesimal" hreflang="eu" lang="eu" title="Kalkulu infinitesimal — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8%D8%A7%D9%86" hreflang="fa" lang="fa" title="حسابان — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Differentiaali-_ja_integraalilaskenta" hreflang="fi" lang="fi" title="Differentiaali- ja integraalilaskenta — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Calcalas" hreflang="ga" lang="ga" title="Calcalas — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" hreflang="gan" lang="gan" title="微積分 — gan"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal" hreflang="gl" lang="gl" title="Cálculo infinitesimal — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%95%E0%AA%B2%E0%AA%A8_%E0%AA%B6%E0%AA%BE%E0%AA%B8%E0%AB%8D%E0%AA%A4%E0%AB%8D%E0%AA%B0" hreflang="gu" lang="gu" title="કલન શાસ્ત્ર — goudjarati"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-hak mw-list-item"><a class="interlanguage-link-target" href="https://hak.wikipedia.org/wiki/M%C3%AC-chit-f%C3%BBn-ho%CC%8Dk" hreflang="hak" lang="hak" title="Mì-chit-fûn-ho̍k — hakka"><span>客家語/Hak-kâ-ngî</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%97%D7%A9%D7%91%D7%95%D7%9F_%D7%90%D7%99%D7%A0%D7%A4%D7%99%D7%A0%D7%99%D7%98%D7%A1%D7%99%D7%9E%D7%9C%D7%99" hreflang="he" lang="he" title="חשבון אינפיניטסימלי — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%95%E0%A4%B2%E0%A4%A8" hreflang="hi" lang="hi" title="कलन — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Calculus" hreflang="hif" lang="hif" title="Calculus — hindi fidjien"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Infinitezimalni_ra%C4%8Dun" hreflang="hr" lang="hr" title="Infinitezimalni račun — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Calculo_infinitesimal" hreflang="ia" lang="ia" title="Calculo infinitesimal — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Kalkulus" hreflang="id" lang="id" title="Kalkulus — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Kalkulo" hreflang="io" lang="io" title="Kalkulo — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/%C3%96rsm%C3%A6%C3%B0areikningur" hreflang="is" lang="is" title="Örsmæðareikningur — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Calcolo_infinitesimale" hreflang="it" lang="it" title="Calcolo infinitesimale — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%BE%AE%E5%88%86%E7%A9%8D%E5%88%86%E5%AD%A6" hreflang="ja" lang="ja" title="微分積分学 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Kialkiulos" hreflang="jam" lang="jam" title="Kialkiulos — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jv badge-Q17437796 badge-featuredarticle mw-list-item" title="article de qualité"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/Kalkulus" hreflang="jv" lang="jv" title="Kalkulus — javanais"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%99%E1%83%90%E1%83%9A%E1%83%99%E1%83%A3%E1%83%9A%E1%83%A3%E1%83%A1%E1%83%98" hreflang="ka" lang="ka" title="კალკულუსი — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%AF%B8%EC%A0%81%EB%B6%84%ED%95%99" hreflang="ko" lang="ko" title="미적분학 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Calculus_infinitesimalis" hreflang="la" lang="la" title="Calculus infinitesimalis — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Calculo" hreflang="lfn" lang="lfn" title="Calculo — lingua franca nova"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Infinitesimaalraekening" hreflang="li" lang="li" title="Infinitesimaalraekening — limbourgeois"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Integralinis_ir_diferencialinis_skai%C4%8Diavimas" hreflang="lt" lang="lt" title="Integralinis ir diferencialinis skaičiavimas — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/R%C4%93%C4%B7ini" hreflang="lv" lang="lv" title="Rēķini — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mad mw-list-item"><a class="interlanguage-link-target" href="https://mad.wikipedia.org/wiki/Kalkulus" hreflang="mad" lang="mad" title="Kalkulus — madurais"><span>Madhurâ</span></a></li><li class="interlanguage-link interwiki-min mw-list-item"><a class="interlanguage-link-target" href="https://min.wikipedia.org/wiki/Kalkulus" hreflang="min" lang="min" title="Kalkulus — minangkabau"><span>Minangkabau</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D0%BA%D1%83%D0%BB%D1%83%D1%81" hreflang="mk" lang="mk" title="Калкулус — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%95%E0%B4%B2%E0%B4%A8%E0%B4%82" hreflang="ml" lang="ml" title="കലനം — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB_%D0%B1%D0%B0_%D0%B4%D0%B8%D1%84%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D0%B8%D0%B0%D0%BB_%D1%82%D0%BE%D0%BE%D0%BB%D0%BE%D0%BB" hreflang="mn" lang="mn" title="Интеграл ба дифференциал тоолол — mongol"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%95%E0%A4%B2%E0%A4%A8" hreflang="mr" lang="mr" title="कलन — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Kalkulus" hreflang="ms" lang="ms" title="Kalkulus — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%80%E1%80%B2%E1%80%80%E1%80%AF%E1%80%9C%E1%80%95%E1%80%BA" hreflang="my" lang="my" title="ကဲကုလပ် — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Wiskundige_analyse" hreflang="nl" lang="nl" title="Wiskundige analyse — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Kalkulus" hreflang="nn" lang="nn" title="Kalkulus — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Calcul_infinitesimal" hreflang="oc" lang="oc" title="Calcul infinitesimal — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A9%88%E0%A8%B2%E0%A8%95%E0%A9%82%E0%A8%B2%E0%A8%B8" hreflang="pa" lang="pa" title="ਕੈਲਕੂਲਸ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Rachunek_r%C3%B3%C5%BCniczkowy_i_ca%C5%82kowy" hreflang="pl" lang="pl" title="Rachunek różniczkowy i całkowy — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%DA%A9%DB%8C%D9%84%DA%A9%D9%88%D9%84%D8%B3" hreflang="pnb" lang="pnb" title="کیلکولس — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/C%C3%A1lculo_infinitesimal" hreflang="pt" lang="pt" title="Cálculo infinitesimal — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Yupaylliy" hreflang="qu" lang="qu" title="Yupaylliy — quechua"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Calcul_infinitezimal" hreflang="ro" lang="ro" title="Calcul infinitezimal — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" hreflang="ru" lang="ru" title="Математический анализ — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D0%B9_%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7" hreflang="sah" lang="sah" title="Математическай анализ — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Calculus" hreflang="sco" lang="sco" title="Calculus — écossais"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Infinitezimalni_ra%C4%8Dun" hreflang="sh" lang="sh" title="Infinitezimalni račun — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%9A%E0%B6%BD%E0%B6%B1%E0%B6%BA" hreflang="si" lang="si" title="කලනය — cingalais"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Calculus" hreflang="en-simple" lang="en-simple" title="Calculus — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Diferenci%C3%A1lny_a_integr%C3%A1lny_po%C4%8Det" hreflang="sk" lang="sk" title="Diferenciálny a integrálny počet — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Infinitezimalni_ra%C4%8Dun" hreflang="sl" lang="sl" title="Infinitezimalni račun — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/Infinitezimalni_ra%C4%8Dun" hreflang="sr" lang="sr" title="Infinitezimalni račun — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-ss mw-list-item"><a class="interlanguage-link-target" href="https://ss.wikipedia.org/wiki/Calculus" hreflang="ss" lang="ss" title="Calculus — swati"><span>SiSwati</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Infinitesimalkalkyl" hreflang="sv" lang="sv" title="Infinitesimalkalkyl — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AF%81%E0%AE%A3%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="நுண்கணிதம் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%95%E0%B0%B2%E0%B0%A8_%E0%B0%97%E0%B0%A3%E0%B0%BF%E0%B0%A4%E0%B0%AE%E0%B1%81" hreflang="te" lang="te" title="కలన గణితము — télougou"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B9%81%E0%B8%84%E0%B8%A5%E0%B8%84%E0%B8%B9%E0%B8%A5%E0%B8%B1%E0%B8%AA" hreflang="th" lang="th" title="แคลคูลัส — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Calculus" hreflang="tl" lang="tl" title="Calculus — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Kalk%C3%BCl%C3%BCs" hreflang="tr" lang="tr" title="Kalkülüs — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%94%D0%B8%D1%84%D0%B5%D1%80%D0%B5%D0%BD%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%82%D0%B0_%D1%96%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Диференціальне та інтегральне числення — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%A7%D8%AD%D8%B5%D8%A7" hreflang="ur" lang="ur" title="احصا — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a class="interlanguage-link-target" href="https://vec.wikipedia.org/wiki/C%C3%B3nto_infinitexima%C5%82e" hreflang="vec" lang="vec" title="Cónto infiniteximałe — vénitien"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Vi_t%C3%ADch_ph%C3%A2n" hreflang="vi" lang="vi" title="Vi tích phân — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Kalkulo" hreflang="war" lang="war" title="Kalkulo — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6" hreflang="wuu" lang="wuu" title="微积分学 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A7%D7%90%D7%9C%D7%A7%D7%95%D7%9C%D7%95%D7%A1" hreflang="yi" lang="yi" title="קאלקולוס — yiddish"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%AD%A6" hreflang="zh" lang="zh" title="微积分学 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" hreflang="lzh" lang="lzh" title="微積分 — Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/B%C3%AE-chek-hun" hreflang="nan" lang="nan" title="Bî-chek-hun — Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" hreflang="yue" lang="yue" title="微積分 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q149972#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Calcul_infinit%C3%A9simal" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Calcul_infinit%C3%A9simal" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Calcul_infinit%C3%A9simal"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Calcul_infinit%C3%A9simal"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><p>Le <b>calcul infinitésimal</b> (ou <b>calcul différentiel et intégral</b>) est une branche des <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>, développée à partir de l'<a href="/wiki/Alg%C3%A8bre" title="Algèbre">algèbre</a> et de la <a href="/wiki/G%C3%A9om%C3%A9trie" title="Géométrie">géométrie</a>, qui implique deux idées majeures complémentaires :
+</p>
+<ul><li>Le <a href="/wiki/Diff%C3%A9rentielle" title="Différentielle"><b>calcul différentiel</b></a>, qui établit une relation entre les variations de plusieurs fonctions, ainsi que la notion de <a href="/wiki/D%C3%A9riv%C3%A9e" title="Dérivée">dérivée</a>. La <a href="/wiki/Vitesse" title="Vitesse">vitesse</a>, l'<a href="/wiki/Acc%C3%A9l%C3%A9ration" title="Accélération">accélération</a>, et les <a href="/wiki/Pente_(math%C3%A9matiques)" title="Pente (mathématiques)">pentes</a> des <a href="/wiki/Courbe" title="Courbe">courbes</a> des <a href="/wiki/Fonction_(math%C3%A9matiques)" title="Fonction (mathématiques)">fonctions</a> mathématiques en un point donné peuvent toutes être décrites sur une base symbolique commune, les taux de variation, l'optimisation et les taux liés.</li>
+<li>Le <b><a class="mw-redirect" href="/wiki/Calcul_int%C3%A9gral" title="Calcul intégral">calcul intégral</a></b>, qui développe l'idée d'<a href="/wiki/Int%C3%A9gration_(math%C3%A9matiques)" title="Intégration (mathématiques)">intégration</a>, les techniques d'intégration, fait intervenir le concept d'<a href="/wiki/Aire_(g%C3%A9om%C3%A9trie)" title="Aire (géométrie)">aire</a> sous-tendue par le <a href="/wiki/Graphe_d%27une_fonction" title="Graphe d'une fonction">graphe d'une fonction</a>, inclut des notions connexes comme le <a href="/wiki/Volume" title="Volume">volume</a>, les <a href="/wiki/Suite_(math%C3%A9matiques)" title="Suite (mathématiques)">suites</a> et <a href="/wiki/S%C3%A9rie_(math%C3%A9matiques)" title="Série (mathématiques)">séries</a>.</li></ul>
+<p>Ces deux concepts définissent des <a class="mw-redirect" href="/wiki/Fonction_r%C3%A9ciproque" title="Fonction réciproque">opérations inverses</a> au sens précis défini par les <a href="/wiki/Th%C3%A9or%C3%A8me_fondamental_de_l%27analyse" title="Théorème fondamental de l'analyse">théorèmes fondamentaux du calcul infinitésimal</a>. Ceci veut dire qu'ils ont une priorité équivalente. Cependant l'approche pédagogique habituelle commence par le calcul différentiel.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span class="mw-headline" id="Historique">Historique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=1" title="Modifier la section : Historique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=1" title="Modifier la section : Historique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Histoire_du_calcul_infinit%C3%A9simal" title="Histoire du calcul infinitésimal">Histoire du calcul infinitésimal</a>.</div></div>
+<p>Le développement du calcul infinitésimal est attribué à <a href="/wiki/Archim%C3%A8de" title="Archimède">Archimède</a>, <a href="/wiki/Pierre_de_Fermat" title="Pierre de Fermat">Fermat</a>, <a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a> et <a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a>. Cependant, lorsque le calcul infinitésimal a été initialement développé, une controverse fut soulevée sur qui en avait la paternité entre Leibniz et Newton, occultant auprès du grand public l'apport de Fermat. L'algorithme du passage à la limite pour calculer la <a href="/wiki/Tangente_(g%C3%A9om%C3%A9trie)" title="Tangente (géométrie)">tangente</a> à une courbe est en effet une invention de Fermat (méthode des maxima et minima<sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>) en 1636 et était public dès 1667, car rapporté par <a href="/wiki/Christian_Huygens" title="Christian Huygens">Huygens</a> à l'<a href="/wiki/Acad%C3%A9mie_des_sciences_(France)" title="Académie des sciences (France)">Académie des sciences</a>. Les évolutions ultérieures, de Leibniz et Newton (qui étaient en rapport avec Huygens), portent sur les notations. La contribution majeure de Leibniz fut sans conteste <a href="/wiki/Notation_de_Leibniz" title="Notation de Leibniz">son système de notation</a>.
+</p><p>La controverse fut cependant malheureuse car elle a divisé pendant de nombreuses années les mathématiciens <a class="mw-redirect" href="/wiki/Anglophone" title="Anglophone">anglophones</a> et ceux du reste de l'<a href="/wiki/Europe" title="Europe">Europe</a>. Cela a retardé le progrès de l'<a href="/wiki/Analyse_(math%C3%A9matiques)" title="Analyse (mathématiques)">analyse</a> (mathématiques basées sur le calcul infinitésimal) en <a href="/wiki/Grande-Bretagne" title="Grande-Bretagne">Grande-Bretagne</a> pendant longtemps. La terminologie et les notations de Newton étaient clairement moins flexibles que celles de Leibniz. Elles furent malgré tout conservées jusqu'au début du <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle lorsque le travail de l'<a href="/wiki/Analytical_Society" title="Analytical Society">Analytical Society</a> introduisit avec succès la notation de Leibniz en Grande-Bretagne.
+</p><p><a href="/wiki/Isaac_Barrow" title="Isaac Barrow">Barrow</a>, <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">Descartes</a>, <a href="/wiki/Christian_Huygens" title="Christian Huygens">Huygens</a> et <a href="/wiki/John_Wallis" title="John Wallis">Wallis</a> contribuèrent également dans une moindre mesure au développement du calcul infinitésimal.
+</p><p><a class="mw-redirect" href="/wiki/Kowa_Seki" title="Kowa Seki">Kowa Seki</a>, un mathématicien <a href="/wiki/Japon" title="Japon">japonais</a> contemporain de Leibniz et Newton, a aussi énoncé quelques principes fondamentaux du calcul intégral. Cependant la coupure des contacts avec l'<a href="/wiki/Extr%C3%AAme-Orient" title="Extrême-Orient">Extrême-Orient</a> à cette époque ne permit pas la diffusion de ses travaux en Europe.
+</p><p>La justification première du développement du calcul différentiel était de trouver une solution du « problème de la tangente ».
+</p>
+<h2><span class="mw-headline" id="Principes">Principes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=2" title="Modifier la section : Principes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=2" title="Modifier la section : Principes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Bases">Bases</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=3" title="Modifier la section : Bases">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=3" title="Modifier la section : Bases">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les bases conceptuelles du calcul infinitésimal incluent les notions de <a href="/wiki/Fonction_(math%C3%A9matiques)" title="Fonction (mathématiques)">fonctions</a>, <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limites</a>, <a href="/wiki/Suite_(math%C3%A9matiques)" title="Suite (mathématiques)">suites</a> infinies, <a href="/wiki/S%C3%A9rie_(math%C3%A9matiques)" title="Série (mathématiques)">séries</a> infinies et <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continuité</a>. Ces outils incluent les techniques de manipulation symbolique associées à l'<a class="mw-redirect" href="/wiki/Alg%C3%A8bre_%C3%A9l%C3%A9mentaire" title="Algèbre élémentaire">algèbre élémentaire</a> et l'<a href="/wiki/Induction_(logique)" title="Induction (logique)">induction mathématique</a>.
+</p><p>La version moderne du calcul infinitésimal, appelée <span class="citation">« <a href="/wiki/Analyse_r%C3%A9elle" title="Analyse réelle">analyse réelle</a> »</span>, consiste en une dérivation rigoureuse des résultats du calcul infinitésimal ainsi qu'en généralisations comme la <a href="/wiki/Th%C3%A9orie_de_la_mesure" title="Théorie de la mesure">théorie de la mesure</a> et l'<a href="/wiki/Analyse_fonctionnelle_(math%C3%A9matiques)" title="Analyse fonctionnelle (mathématiques)">analyse fonctionnelle</a>.
+</p>
+<h3><span id="Th.C3.A9or.C3.A8me_fondamental_de_l.27analyse"></span><span class="mw-headline" id="Théorème_fondamental_de_l'analyse">Théorème fondamental de l'analyse</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=4" title="Modifier la section : Théorème fondamental de l'analyse">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=4" title="Modifier la section : Théorème fondamental de l'analyse">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Th%C3%A9or%C3%A8me_fondamental_de_l%27analyse" title="Théorème fondamental de l'analyse">Théorème fondamental de l'analyse</a>.</div></div>
+<p>Le théorème fondamental de l'analyse montre que la différentiation et l'intégration sont, dans un certain sens, des opérations inverses. C'est cette « découverte » par Newton et Leibniz qui est à l'origine de l'explosion des résultats analytiques. Ce lien nous permet de retrouver la variation totale d'une fonction sur un intervalle à partir de sa variation instantanée, en intégrant cette dernière. Le théorème fondamental nous donne aussi une méthode pour calculer beaucoup d'intégrales définies de façon algébrique, sans passer réellement à la limite, en trouvant la <a href="/wiki/Primitive" title="Primitive">primitive</a>. Il nous permet aussi de résoudre certaines équations différentielles. Une équation différentielle est une équation qui lie une fonction à ses dérivées. Les <a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équations différentielles</a> sont fondamentales en sciences.
+</p>
+<h2><span class="mw-headline" id="Branches">Branches</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=5" title="Modifier la section : Branches">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=5" title="Modifier la section : Branches">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Calcul_diff.C3.A9rentiel"></span><span class="mw-headline" id="Calcul_différentiel">Calcul différentiel</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=6" title="Modifier la section : Calcul différentiel">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=6" title="Modifier la section : Calcul différentiel">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Articles détaillés : <a href="/wiki/Diff%C3%A9rentielle" title="Différentielle">Différentielle</a> et <a href="/wiki/D%C3%A9riv%C3%A9e" title="Dérivée">Dérivée</a>.</div></div>
+<p>Le calcul différentiel consiste à trouver les <a class="mw-redirect" href="/wiki/Taux_de_variation" title="Taux de variation">taux de variation</a> instantanés (ou <b>dérivées</b>) de la valeur d'une fonction par rapport aux variations du (des) paramètre(s) de celle-ci. Ce concept est au cœur de nombreux problèmes de <a href="/wiki/Physique" title="Physique">physique</a>. Par exemple, la théorie de base des <a href="/wiki/Circuit_%C3%A9lectrique" title="Circuit électrique">circuits électriques</a> est formulée en termes d'<a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équations différentielles</a> pour décrire les systèmes oscillants.
+</p><p>La dérivée d'une fonction permet de trouver ses <a href="/wiki/Extremum" title="Extremum">extrema</a> (<a class="mw-redirect" href="/wiki/Minimum" title="Minimum">minima</a> et <a class="mw-disambig" href="/wiki/Maximum" title="Maximum">maxima</a>) en étudiant ses variations. Une autre application du calcul différentiel est la <a href="/wiki/M%C3%A9thode_de_Newton" title="Méthode de Newton">méthode de Newton</a>, un <a href="/wiki/Algorithmique" title="Algorithmique">algorithme</a> qui permet de trouver les <a href="/wiki/Z%C3%A9ro" title="Zéro">zéros</a> d'une fonction en l'approchant localement par ses <a href="/wiki/Tangente_(g%C3%A9om%C3%A9trie)" title="Tangente (géométrie)">tangentes</a>. Ceci n'est qu'un très bref aperçu des nombreuses applications du calcul infinitésimal dans des problèmes qui, à première vue, ne sont pas formulés en ces termes.
+</p><p>Certains attribuent à <a href="/wiki/Pierre_de_Fermat" title="Pierre de Fermat">Fermat</a> la paternité du calcul différentiel.
+</p>
+<h3><span id="Calcul_int.C3.A9gral"></span><span class="mw-headline" id="Calcul_intégral">Calcul intégral</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=7" title="Modifier la section : Calcul intégral">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=7" title="Modifier la section : Calcul intégral">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Int%C3%A9gration_(math%C3%A9matiques)" title="Intégration (mathématiques)">Intégration (mathématiques)</a>.</div></div>
+<p>Le calcul intégral étudie les méthodes permettant de trouver l'<a href="/wiki/Int%C3%A9gration_(math%C3%A9matiques)" title="Intégration (mathématiques)">intégrale</a> d'une fonction. Elle peut être définie comme la <a href="/wiki/Limite_(math%C3%A9matiques)" title="Limite (mathématiques)">limite</a> de la somme de termes qui correspondent chacun à la surface d'une fine bandelette sous-tendue par le graphe de la fonction. Ainsi définie, l'intégration donne un moyen effectif de calculer l'aire sous une courbe ainsi que la surface et le volume de solides comme la <a href="/wiki/Sph%C3%A8re" title="Sphère">sphère</a> ou le <a href="/wiki/C%C3%B4ne_(g%C3%A9om%C3%A9trie)" title="Cône (géométrie)">cône</a>.
+</p>
+<h2><span class="mw-headline" id="Applications">Applications</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=8" title="Modifier la section : Applications">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=8" title="Modifier la section : Applications">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Pour rendre concrètes ces notions, on considère dans le plan <span class="texhtml">(<i>xOy</i>)</span> un <a href="/wiki/Rectangle" title="Rectangle">rectangle</a> de côtés <span class="texhtml mvar" style="font-style:italic;">x</span> et <span class="texhtml mvar" style="font-style:italic;">y</span> dont deux points opposés sont <span class="texhtml mvar" style="font-style:italic;">O</span> et <span class="texhtml"><i>M</i>(<i>x</i>,<i>y</i>)</span>. Sa surface est égale à <span class="texhtml mvar" style="font-style:italic;">xy</span> et dépend des coordonnées <span class="texhtml mvar" style="font-style:italic;">x</span> et <span class="texhtml mvar" style="font-style:italic;">y</span> du point <span class="texhtml mvar" style="font-style:italic;">M</span>. En suivant une démarche intuitive, on convient de noter par <span class="texhtml mvar" style="font-style:italic;">dx</span> une très petite variation de la variable <span class="texhtml mvar" style="font-style:italic;">x</span>. Lorsqu'on fait subir au point <span class="texhtml mvar" style="font-style:italic;">M</span> un déplacement très faible, la surface va changer et on peut écrire que <span class="texhtml"><i>S</i> + <i>dS</i> = (<i>x</i> + <i>dx</i>)×(<i>y</i> + <i>dy</i>) = <i>xy</i> + <i>x</i> <i>dy</i> + <i>y</i> <i>dx</i> + <i>dx</i> <i>dy</i></span>,
+et on en déduit facilement que <span class="texhtml"><i>dS</i> = <i>x</i> <i>dy</i> + <i>y</i> <i>dx</i> + <i>dx</i> <i>dy</i></span>.
+</p><p>Une simple application numérique où <span class="texhtml mvar" style="font-style:italic;">x</span> et <span class="texhtml mvar" style="font-style:italic;">y</span> seraient des mètres et <span class="texhtml mvar" style="font-style:italic;">dx</span> et <span class="texhtml mvar" style="font-style:italic;">dy</span> des centimètres illustre que <span class="texhtml mvar" style="font-style:italic;">dx dy</span> est négligeable par rapport aux autres grandeurs.
+</p><p>On peut donner un statut mathématique précis aux notations <span class="texhtml mvar" style="font-style:italic;">dx</span> et <span class="texhtml mvar" style="font-style:italic;">dy</span> (qui sont des <a href="/wiki/Forme_diff%C3%A9rentielle" title="Forme différentielle">formes différentielles</a>), et à la quantité <span class="texhtml mvar" style="font-style:italic;">dx dy</span> qui est alors <i>du second ordre</i>. Le calcul précédent est en fait un calcul de <a href="/wiki/D%C3%A9veloppement_limit%C3%A9" title="Développement limité">développement limité</a> à l'ordre 1, faisant intervenir les dérivées premières de la fonction <span class="texhtml mvar" style="font-style:italic;">xy</span> par rapport aux deux variables.
+</p><p>On écrit donc :  
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=(y,x)\cdot (dx,dy)+dx\cdot dy={\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}+dx\cdot dy}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>d</mi>
+<mi>S</mi>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>y</mi>
+<mo>=</mo>
+<mi>y</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo>,</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>,</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mi>S</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow>
+<mi>d</mi>
+<mi>O</mi>
+<mi>M</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=(y,x)\cdot (dx,dy)+dx\cdot dy={\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}+dx\cdot dy}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=(y,x)\cdot (dx,dy)+dx\cdot dy={\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}+dx\cdot dy}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/35956124b1d945b9c43a017101653bcf0fc8127f" style="vertical-align: -0.838ex; margin-top: -0.4ex; width:108.358ex; height:4.343ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}=(y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=\left({\frac {\partial (xy)}{\partial x}}{\vec {i}}+{\frac {\partial (xy)}{\partial y}}{\vec {j}}\right)\cdot (dx{\vec {i}}+dy{\vec {j}})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mi>S</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow>
+<mi>d</mi>
+<mi>O</mi>
+<mi>M</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi mathvariant="normal">∂<!-- ∂ --></mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi mathvariant="normal">∂<!-- ∂ --></mi>
+<mi>x</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi mathvariant="normal">∂<!-- ∂ --></mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi mathvariant="normal">∂<!-- ∂ --></mi>
+<mi>y</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\overrightarrow {\nabla }}S\cdot {\overrightarrow {dOM}}=(y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=\left({\frac {\partial (xy)}{\partial x}}{\vec {i}}+{\frac {\partial (xy)}{\partial y}}{\vec {j}}\right)\cdot (dx{\vec {i}}+dy{\vec {j}})}</annotation>
+</semantics>
+</math></span><img alt="\overrightarrow \nabla S\cdot \overrightarrow {dOM}=(y{\vec  i}+x{\vec  j})\cdot (dx{\vec  i}+dy{\vec  j})=\left({\frac  {\partial (xy)}{\partial x}}{\vec  i}+{\frac  {\partial (xy)}{\partial y}}{\vec  j}\right)\cdot (dx{\vec  i}+dy{\vec  j})" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/393bc05686a8908ac07eb770122f8b89be704532" style="vertical-align: -2.505ex; width:74.92ex; height:6.343ex;"/></span></dd></dl>
+<p>Toutes ces égalités sont différentes façons d'écrire un <a href="/wiki/Produit_scalaire" title="Produit scalaire">produit scalaire</a> de deux vecteurs :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=\mathrm {\overrightarrow {\mathrm {grad} }} (xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy={\overrightarrow {\nabla }}(xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>d</mi>
+<mi>S</mi>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>y</mi>
+<mo>=</mo>
+<mi>y</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">g</mi>
+<mi mathvariant="normal">r</mi>
+<mi mathvariant="normal">a</mi>
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow>
+<mi>d</mi>
+<mi>O</mi>
+<mi>M</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow>
+<mi>d</mi>
+<mi>O</mi>
+<mi>M</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>d</mi>
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=\mathrm {\overrightarrow {\mathrm {grad} }} (xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy={\overrightarrow {\nabla }}(xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle dS=(x+dx)\cdot (y+dy)-x\cdot y=y\cdot dx+x\cdot dy+dx\cdot dy=\mathrm {\overrightarrow {\mathrm {grad} }} (xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy={\overrightarrow {\nabla }}(xy)\cdot {\overrightarrow {dOM}}+dx\cdot dy}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/652aace9d0c68b2911cf092f13f5f266729cf265" style="vertical-align: -0.838ex; margin-top: -0.4ex; width:112.702ex; height:4.343ex;"/></span> où <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\overrightarrow {\mathrm {grad} }}(xy)=(y,x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">g</mi>
+<mi mathvariant="normal">r</mi>
+<mi mathvariant="normal">a</mi>
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mo>→<!-- → --></mo>
+</mover>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mo>,</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\overrightarrow {\mathrm {grad} }}(xy)=(y,x)}</annotation>
+</semantics>
+</math></span><img alt="\overrightarrow {{\mathrm  {grad}}}(xy)=(y,x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/43ccd5b40e6e2ebf5bd02aac829b340feba6cdd1" style="vertical-align: -0.838ex; margin-top: -0.421ex; width:17.38ex; height:4.343ex;"/></span></dd></dl>
+<p>L'intérêt de l'introduction de ces vecteurs pour exprimer la variation d'une fonction de plusieurs paramètres est de visualiser le fait que la fonction va varier le plus dans la direction du vecteur <a href="/wiki/Gradient" title="Gradient">gradient</a> et qu'elle ne va pas varier pour tout changement des paramètres dans une direction perpendiculaire au gradient.
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>⋅<!-- ⋅ --></mo>
+<mo stretchy="false">(</mo>
+<mi>d</mi>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>i</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>+</mo>
+<mi>d</mi>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>j</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (y{\vec {i}}+x{\vec {j}})\cdot (dx{\vec {i}}+dy{\vec {j}})=0}</annotation>
+</semantics>
+</math></span><img alt="(y{\vec  i}+x{\vec  j})\cdot (dx{\vec  i}+dy{\vec  j})=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/33b4f1df9452ce1e03d628c51164de1c29c0f76d" style="vertical-align: -0.838ex; width:27.017ex; height:3.343ex;"/></span> pour <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ydx+xdy=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mi>d</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>x</mi>
+<mi>d</mi>
+<mi>y</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ydx+xdy=0}</annotation>
+</semantics>
+</math></span><img alt="ydx+xdy=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6848872cd69beccb84cca23800a991b41329bde" style="vertical-align: -0.671ex; width:14.503ex; height:2.509ex;"/></span> dans notre exemple du rectangle.</dd></dl>
+<p>Le développement et l'utilisation du calcul infinitésimal a eu des conséquences importantes dans pratiquement tous les domaines. Il est à la base de beaucoup de sciences, notamment la <a href="/wiki/Physique" title="Physique">physique</a>. Presque toutes les techniques et technologies modernes font un usage fondamental du calcul infinitésimal.
+</p><p>Celui-ci s'est étendu avec les <a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équations différentielles</a>, le <a class="mw-redirect" href="/wiki/Calcul_vectoriel" title="Calcul vectoriel">calcul vectoriel</a>, le <a href="/wiki/Calcul_des_variations" title="Calcul des variations">calcul des variations</a>, l'<a href="/wiki/Analyse_complexe" title="Analyse complexe">analyse complexe</a>, ou la <a href="/wiki/G%C3%A9om%C3%A9trie_diff%C3%A9rentielle" title="Géométrie différentielle">géométrie différentielle</a>.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=9" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=9" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div style="font-size:85%; padding-left:1.6em; margin:0.3em 0;"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Cet article est partiellement ou en totalité issu de l’article de Wikipédia en <a href="/wiki/Anglais" title="Anglais">anglais</a> intitulé <span class="plainlinks">« <a class="external text" href="https://en.wikipedia.org/wiki/Calculus?oldid=5997844">Calculus</a> » <small>(<a class="external text" href="https://en.wikipedia.org/wiki/Calculus?action=history">voir la liste des auteurs</a>)</small></span>.</div>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text">Cf. <span class="ouvrage" id="Duhamel1864"><span class="ouvrage" id="Jean-Marie_Duhamel1864"><a href="/wiki/Jean-Marie_Duhamel" title="Jean-Marie Duhamel">Jean-Marie Duhamel</a>, <cite class="italique">Mémoire sur la méthode des maxima et minima de Fermat et sur les méthodes des tangentes de Fermat et Descartes</cite>, <a href="/wiki/Gauthier-Villars" title="Gauthier-Villars">Gauthier-Villars</a>, <time>1864</time> <small style="line-height:1em;">(<a class="external text" href="//books.google.com/books?id=_jAVAAAAQAAJ" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=M%C3%A9moire+sur+la+m%C3%A9thode+des+maxima+et+minima+de+Fermat+et+sur+les+m%C3%A9thodes+des+tangentes+de+Fermat+et+Descartes&amp;rft.pub=Gauthier-Villars&amp;rft.aulast=Duhamel&amp;rft.aufirst=Jean-Marie&amp;rft.date=1864&amp;rft_id=%2F%2Fbooks.google.com%2Fbooks%3Fid%3D_jAVAAAAQAAJ&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ACalcul+infinit%C3%A9simal"></span></span></span>.</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=10" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=10" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="wikiversity"><a class="extiw" href="https://fr.wikiversity.org/wiki/Calcul_diff%C3%A9rentiel" title="v:Calcul différentiel">Calcul différentiel</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;veaction=edit&amp;section=11" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Calcul_infinit%C3%A9simal&amp;action=edit&amp;section=11" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Robert A. Adams, <i>Calculus: A Complete Course</i>, 1999  <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/0-201-39607-6" title="Spécial:Ouvrages de référence/0-201-39607-6"><span class="nowrap">0-201-39607-6</span></a>)</small></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> Donald J. Albers, Richard D. Anderson et Don O. Loftsgaarden, <i>Undergraduate Programs in the Mathematics and Computer Sciences: The 1985-1986 Survey</i>, coll. « <a href="/wiki/Mathematical_Association_of_America" title="Mathematical Association of America">MAA</a> Notes » (n° 7), 1986</li>
+<li>Gustave Bessière, <i> Le calcul intégral facile et attrayant</i>, <abbr class="abbr" title="Troisième">3<sup>e</sup></abbr> éd., 1931, Paris, <a class="mw-redirect" href="/wiki/Dunod" title="Dunod">Dunod</a></li>
+<li>Jean-Marc Garnier, <i>Calcul infinitésimal</i>, <a href="/wiki/%C3%89ditions_Ellipses" title="Éditions Ellipses">Ellipses</a>, 2015</li>
+<li><span class="ouvrage" id="Osborne1906"><span class="ouvrage" id="George_A._Osborne1906"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> George A. Osborne, <cite class="italique" lang="en">Differential and Integral Calculus with Examples and Applications</cite>, Boston, <a class="new" href="/w/index.php?title=D._C._Heath_and_Company&amp;action=edit&amp;redlink=1" title="D. C. Heath and Company (page inexistante)">D. C. Heath and Co.</a> <a class="extiw" href="https://en.wikipedia.org/wiki/D._C._Heath_and_Company" title="en:D. C. Heath and Company"><span class="indicateur-langue" title="Article en anglais : « D. C. Heath and Company »">(en)</span></a>, <time>1906</time> <small style="line-height:1em;">(<a class="external text" href="http://library.umac.mo/ebooks/b31290735.pdf" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Differential+and+Integral+Calculus+with+Examples+and+Applications&amp;rft.place=Boston&amp;rft.pub=D.+C.+Heath+and+Co.&amp;rft.aulast=Osborne&amp;rft.aufirst=George+A.&amp;rft.date=1906&amp;rft_id=http%3A%2F%2Flibrary.umac.mo%2Febooks%2Fb31290735.pdf&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ACalcul+infinit%C3%A9simal"></span></span></span></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Clifford_Pickover" title="Clifford Pickover">Clifford Pickover</a>, <i>Calculus and Pizza: A Math Cookbook for the Hungry Mind</i>, <a href="/wiki/John_Wiley_%26_Sons" title="John Wiley &amp; Sons">John Wiley &amp; Sons</a>, 2003  <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/0-471-26987-5" title="Spécial:Ouvrages de référence/0-471-26987-5"><span class="nowrap">0-471-26987-5</span></a>)</small></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Michael_Spivak" title="Michael Spivak">Michael Spivak</a>, <i>Calculus</i>, <a href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>, 2006  <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-0-521-86744-3" title="Spécial:Ouvrages de référence/978-0-521-86744-3"><span class="nowrap">978-0-521-86744-3</span></a>)</small>, <small>[<a class="external text" href="https://books.google.fr/books/about/Calculus.html?id=7JKVu_9InRUC" rel="nofollow">lire en ligne</a>]</small>, <a class="external text" href="https://archive.org/details/Calculus_643" rel="nofollow"><abbr class="abbr" title="Première">1<sup>re</sup></abbr> éd. 1967</a></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Lynn_Arthur_Steen" title="Lynn Arthur Steen">Lynn Arthur Steen</a> (éd.), <i>Calculus for a New Century: A Pump, Not a Filter, A National Colloquium</i>, MAA, Stony Brook, NY, 1988  <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-0-88385058-9" title="Spécial:Ouvrages de référence/978-0-88385058-9"><span class="nowrap">978-0-88385058-9</span></a>)</small>, <small>[<a class="external text" href="https://archive.org/details/ERIC_ED300252/page/n1" rel="nofollow">lire en ligne</a>]</small></li>
+<li><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <a href="/wiki/Silvanus_P._Thompson" title="Silvanus P. Thompson">Silvanus P. Thompson</a> et <a href="/wiki/Martin_Gardner" title="Martin Gardner">Martin Gardner</a>, <i>Calculus Made Easy</i>, <a href="/wiki/Macmillan_Publishers#Histoire" title="Macmillan Publishers">St. Martin's Press</a>, 1998  <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/0-312-18548-0" title="Spécial:Ouvrages de référence/0-312-18548-0"><span class="nowrap">0-312-18548-0</span></a>)</small></li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Gottfried_Wilhelm_Leibniz" title="Modèle:Palette Gottfried Wilhelm Leibniz"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Gottfried_Wilhelm_Leibniz&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a> (1646-1716)</div></th>
+</tr> <tr>
+<th class="navbox-group" style="">Philosophie</th>
+<td class="navbox-list" style=""><b>Principes</b> : <style data-mw-deduplicate="TemplateStyles:r188801398">.mw-parser-output .sep-liste{font-weight:bold}</style><span class="nowrap"><a class="new" href="/w/index.php?title=Principe_du_meilleur&amp;action=edit&amp;redlink=1" title="Principe du meilleur (page inexistante)">Principe du meilleur</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a class="new" href="/w/index.php?title=Principe_du_pr%C3%A9dicat_inh%C3%A9rent_au_sujet&amp;action=edit&amp;redlink=1" title="Principe du prédicat inhérent au sujet (page inexistante)">Principe du prédicat inhérent au sujet</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Principe_de_non-contradiction" title="Principe de non-contradiction">Principe de contradiction</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Principe_de_raison_suffisante" title="Principe de raison suffisante">Principe de raison suffisante</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Principe_d%27identit%C3%A9_des_indiscernables" title="Principe d'identité des indiscernables">Principe d'identité des indiscernables</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Principe_de_continuit%C3%A9" title="Principe de continuité">Principe de continuité</a></span><br/><b>Concepts</b> : <link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Monade_(philosophie)" title="Monade (philosophie)">Monade</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Caract%C3%A9ristique_universelle" title="Caractéristique universelle">Caractéristique universelle</a></span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Calculus_ratiocinator" title="Calculus ratiocinator">Calculus ratiocinator</a></i></span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Mathesis_universalis" title="Mathesis universalis">Mathesis universalis</a></i></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Mathématiques</th>
+<td class="navbox-list navbox-even" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a class="mw-selflink selflink">Calcul infinitésimal</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Formule_de_Leibniz" title="Formule de Leibniz">Formule de Leibniz</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Notation_de_Leibniz" title="Notation de Leibniz">Notation de Leibniz</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Th%C3%A9or%C3%A8me_de_Leibniz" title="Théorème de Leibniz">Théorème de Leibniz</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Alg%C3%A8bre_de_Leibniz" title="Algèbre de Leibniz">Algèbre de Leibniz</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/R%C3%A8gle_de_Leibniz" title="Règle de Leibniz">Règle de Leibniz</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Fonction_de_Leibniz" title="Fonction de Leibniz">Fonction de Leibniz</a></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Théologie</th>
+<td class="navbox-list" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Th%C3%A9odic%C3%A9e" title="Théodicée">Théodicée</a></span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Meilleur_des_mondes_possibles" title="Meilleur des mondes possibles">Meilleur des mondes possibles</a></span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Œuvres</th>
+<td class="navbox-list navbox-even" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><i><a href="/wiki/De_arte_combinatoria" title="De arte combinatoria">De arte combinatoria</a></i> (1666)</span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Discours_de_m%C3%A9taphysique" title="Discours de métaphysique">Discours de métaphysique</a></i> (1686)</span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Nouveaux_Essais_sur_l%27entendement_humain" title="Nouveaux Essais sur l'entendement humain">Nouveaux Essais sur l'entendement humain</a></i> (1704)</span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Essais_de_Th%C3%A9odic%C3%A9e" title="Essais de Théodicée">Essais de Théodicée</a></i> (1710)</span> <span class="sep-liste">·</span> <span class="nowrap"><i><a href="/wiki/Monadologie" title="Monadologie">Monadologie</a></i> (1714)</span></td>
+</tr> <tr>
+<th class="navbox-group" style="">Personnalités liées</th>
+<td class="navbox-list" style=""><link href="mw-data:TemplateStyles:r188801398" rel="mw-deduplicated-inline-style"/><span class="nowrap"><a href="/wiki/Friedrich_Leibn%C3%BCtz" title="Friedrich Leibnütz">Friedrich Leibnütz</a> (père)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Jakob_Thomasius" title="Jakob Thomasius">Jakob Thomasius</a> (professeur)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Erhard_Weigel" title="Erhard Weigel">Erhard Weigel</a> (professeur)</span> <span class="sep-liste">·</span> <span class="nowrap"><a href="/wiki/Christian_Wolff_(philosophe)" title="Christian Wolff (philosophe)">Christian Wolff</a> (disciple)</span></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Analyse" title="Portail de l'analyse"><img alt="icône décorative" class="noviewer" data-file-height="400" data-file-width="400" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/24px-Nuvola_apps_kmplot.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/36px-Nuvola_apps_kmplot.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Nuvola_apps_kmplot.svg/48px-Nuvola_apps_kmplot.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Analyse" title="Portail:Analyse">Portail de l'analyse</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1442
+Cached time: 20221010185602
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.196 seconds
+Real time usage: 0.302 seconds
+Preprocessor visited node count: 1883/1000000
+Post‐expand include size: 49595/2097152 bytes
+Template argument size: 7248/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3005/5000000 bytes
+Lua time usage: 0.072/10.000 seconds
+Lua memory usage: 4681050/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  218.993      1 -total
+ 18.26%   39.993      2 Modèle:Ouvrage
+ 16.48%   36.088      1 Modèle:Références
+ 15.74%   34.472      1 Modèle:Portail
+ 13.93%   30.501      4 Modèle:Article_détaillé
+ 13.06%   28.605      4 Modèle:Méta_bandeau_de_section
+ 11.95%   26.174      1 Modèle:Traduction/Référence
+ 11.34%   24.834      1 Modèle:Autres_projets
+ 10.64%   23.306      1 Modèle:Palette
+  9.44%   20.679      2 Modèle:Indication_de_langue
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:117541-0!canonical and timestamp 20221010185602 and revision id 197183680.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Calcul_infinitésimal&amp;oldid=197183680">https://fr.wikipedia.org/w/index.php?title=Calcul_infinitésimal&amp;oldid=197183680</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Calcul" title="Catégorie:Calcul">Calcul</a></li><li><a href="/wiki/Cat%C3%A9gorie:Isaac_Newton" title="Catégorie:Isaac Newton">Isaac Newton</a></li><li><a href="/wiki/Cat%C3%A9gorie:Gottfried_Wilhelm_Leibniz" title="Catégorie:Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Article_contenant_un_appel_%C3%A0_traduction_en_anglais" title="Catégorie:Article contenant un appel à traduction en anglais">Article contenant un appel à traduction en anglais</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Analyse/Articles_li%C3%A9s" title="Catégorie:Portail:Analyse/Articles liés">Portail:Analyse/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_indon%C3%A9sien" title="Catégorie:Article de qualité en indonésien">Article de qualité en indonésien</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_qualit%C3%A9_en_javanais" title="Catégorie:Article de qualité en javanais">Article de qualité en javanais</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 23 septembre 2022 à 16:13.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Calcul_infinit%C3%A9simal" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Calcul_infinit%C3%A9simal&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.196","walltime":"0.302","ppvisitednodes":{"value":1883,"limit":1000000},"postexpandincludesize":{"value":49595,"limit":2097152},"templateargumentsize":{"value":7248,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3005,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  218.993      1 -total"," 18.26%   39.993      2 Modèle:Ouvrage"," 16.48%   36.088      1 Modèle:Références"," 15.74%   34.472      1 Modèle:Portail"," 13.93%   30.501      4 Modèle:Article_détaillé"," 13.06%   28.605      4 Modèle:Méta_bandeau_de_section"," 11.95%   26.174      1 Modèle:Traduction/Référence"," 11.34%   24.834      1 Modèle:Autres_projets"," 10.64%   23.306      1 Modèle:Palette","  9.44%   20.679      2 Modèle:Indication_de_langue"]},"scribunto":{"limitreport-timeusage":{"value":"0.072","limit":"10.000"},"limitreport-memusage":{"value":4681050,"limit":52428800}},"cachereport":{"origin":"mw1442","timestamp":"20221010185602","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Calcul infinit\u00e9simal","url":"https:\/\/fr.wikipedia.org\/wiki\/Calcul_infinit%C3%A9simal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q149972","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q149972","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-09T13:16:23Z","dateModified":"2022-09-23T14:13:32Z","headline":"th\u00e9orie math\u00e9matique"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Calcul infinit\u00e9simal","url":"https:\/\/fr.wikipedia.org\/wiki\/Calcul_infinit%C3%A9simal","sameAs":"http:\/\/www.wikidata.org\/entity\/Q149972","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q149972","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-09-09T13:16:23Z","dateModified":"2022-09-23T14:13:32Z","headline":"th\u00e9orie math\u00e9matique"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":105,"wgHostname":"mw1455"});});</script>
+</body>
+</html>

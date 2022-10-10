@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>数论 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"71978201-05f9-443b-863a-3db9fe4d0572","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"数论","wgTitle":"数论","wgCurRevisionId":72470428,"wgRevisionId":72470428,"wgArticleId":345,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["模板中使用无效日期参数的条目","自2022年4月需要從英語維基百科翻譯的條目","需要從英語維基百科翻譯的條目","含有多个问题的条目","含有英語的條目","CS1法语来源 (fr)","引文格式1维护：日期与年","包含BNE标识符的维基百科条目",
+"包含BNF标识符的维基百科条目","包含FAST标识符的维基百科条目","包含GND标识符的维基百科条目","包含LCCN标识符的维基百科条目","包含NDL标识符的维基百科条目","包含NKC标识符的维基百科条目","包含SUDOC标识符的维基百科条目","自2022年4月需要清理導言的頁面","数论","数学分支"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"数论","wgRelevantArticleId":345,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages"
+:[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q12479","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","skins.vector.styles.legacy":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","ext.scribunto.logs","site",
+"mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface",
+"ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="数论 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E6%95%B0%E8%AE%BA" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E6%95%B0%E8%AE%BA" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E6%95%B0%E8%AE%BA" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E6%95%B0%E8%AE%BA" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-数论 rootpage-数论 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">数论</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="hatnote navigation-not-searchable" role="note"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="Disambig gray.svg" data-file-height="168" data-file-width="220" decoding="async" height="19" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" width="25"/></a><style data-mw-deduplicate="TemplateStyles:r74030214">body:not(.skin-minerva) .mw-parser-output .ifmobile>.mobile{display:none}body.skin-minerva .mw-parser-output .ifmobile>.nomobile{display:inherit;display:initial}</style><span class="ifmobile"><span class="nomobile">  </span><span class="mobile"></span></span>此条目的主題是数学领域中的数论。關於同名的古印度哲学流派，請見「<b><a href="/wiki/%E6%95%B0%E8%AE%BA_(%E5%8D%B0%E5%BA%A6%E5%93%B2%E5%AD%A6)" title="数论 (印度哲学)">数论 (印度哲学)</a></b>」。</div>
+<div class="hatnote navigation-not-searchable" role="note"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="Confusion grey.svg" data-file-height="200" data-file-width="260" decoding="async" height="18" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Confusion_grey.svg/24px-Confusion_grey.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Confusion_grey.svg/36px-Confusion_grey.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Confusion_grey.svg/48px-Confusion_grey.svg.png 2x" width="24"/></a><link href="mw-data:TemplateStyles:r74030214" rel="mw-deduplicated-inline-style"/><span class="ifmobile"><span class="nomobile">  </span><span class="mobile"></span></span><b>提示</b>：此条目的主题不是<b><a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a></b>。</div>
+<table class="box-问题条目 plainlinks metadata ambox ambox-content ambox-multiple_issues compact-ambox" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div></td><td class="mbox-text"><span class="mbox-text-span"><div class="mw-collapsible" style="width:95%; margin: 0.2em 0;"><b>本條目存在以下問題</b>，請協助<b><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit">改善本條目</a></b>或在<b><a href="/wiki/Talk:%E6%95%B0%E8%AE%BA" title="Talk:数论">討論頁</a></b>針對議題發表看法。
+<div class="mw-collapsible-content" style="margin-top: 0.3em;">
+<table class="box-Lead_too_short plainlinks metadata ambox ambox-content ambox-lead_too_short" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><a class="image" href="/wiki/File:Wiki_letter_w.svg"><img alt="Wiki letter w.svg" data-file-height="44" data-file-width="44" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wiki_letter_w.svg/40px-Wiki_letter_w.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wiki_letter_w.svg/60px-Wiki_letter_w.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wiki_letter_w.svg/80px-Wiki_letter_w.svg.png 2x" width="40"/></a></div></td><td class="mbox-text"><span class="mbox-text-span">此条目<b><a href="/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8A/%E5%BA%8F%E8%A8%80%E7%AB%A0%E7%AF%80" title="Wikipedia:格式手冊/序言章節">序言章节</a>没有充分<a href="/wiki/Wikipedia:%E6%91%98%E8%A6%81%E6%A0%BC%E5%BC%8F" title="Wikipedia:摘要格式">总结</a>其内容要点</b>。<span class="hide-when-compact"></span> <small class="date-container"><i>(<span class="date">2022年4月12日</span>)</i></small><span class="hide-when-compact"><br/><small>请考虑扩充序言，为条目所有重要方面提供<a href="/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8A/%E5%BA%8F%E8%A8%80%E7%AB%A0%E7%AF%80#提供易讀的總覽" title="Wikipedia:格式手冊/序言章節">易懂的概述</a>。请在条目的<a href="/wiki/Talk:%E6%95%B0%E8%AE%BA" title="Talk:数论">讨论页</a>讨论此问题。</small></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+<table class="box-Expand_language plainlinks metadata ambox ambox-notice" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" data-file-height="20" data-file-width="60" decoding="async" height="17" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/50px-Translation_to_zh_arrow.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/75px-Translation_to_zh_arrow.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/100px-Translation_to_zh_arrow.svg.png 2x" width="50"/></div></td><td class="mbox-text"><span class="mbox-text-span">此條目<b>可参照<a class="extiw" href="https://en.wikipedia.org/wiki/Number_theory" title="en:Number theory">英語維基百科</a>相應條目来扩充</b>。<span class="hide-when-compact"></span> <small class="date-container"><i>(<span class="date">2022年4月12日</span>)</i></small><span class="hide-when-compact"><br/><small>若您熟悉来源语言和主题，请协助<a class="mw-redirect" href="/wiki/Wikipedia:%E7%BF%BB%E8%AF%91%E5%AE%88%E5%88%99" title="Wikipedia:翻译守则">参考外语维基百科扩充条目</a>。请勿直接提交机械翻译，也不要翻译不可靠、低品质内容。依<a href="/wiki/Wikipedia:%E5%9C%A8%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%86%85%E5%A4%8D%E5%88%B6%E5%86%85%E5%AE%B9" title="Wikipedia:在维基百科内复制内容">版权协议</a>，译文需<a href="/wiki/Wikipedia:%E7%B7%A8%E8%BC%AF%E6%91%98%E8%A6%81#翻譯文章" title="Wikipedia:編輯摘要">在编辑摘要注明来源</a>，或于讨论页顶部标记<code>{{<a href="/wiki/Template:Translated_page" title="Template:Translated page">Translated page</a>}}</code>标签。</small></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+</div></div><span class="hide-when-compact"></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+<p><b>數論</b>（英語：<span lang="en">Number theory</span>）是<a class="mw-redirect" href="/wiki/%E7%BA%AF%E7%B2%B9%E6%95%B0%E5%AD%A6" title="纯粹数学">纯粹数学</a>的分支之一，主要研究<a href="/wiki/%E6%95%B4%E6%95%B0" title="整数">整数</a>的性質。被譽為「最純」的數學領域。<style data-mw-deduplicate="TemplateStyles:r61209892">.mw-parser-output .templatequote{margin-top:0;overflow:hidden}.mw-parser-output .templatequote .templatequotecite{line-height:1em;text-align:left;padding-left:2em;margin-top:0}.mw-parser-output .templatequote .templatequotecite cite{font-size:small}</style>
+</p>
+<blockquote class="templatequote"><p>數學是科學的皇后，數論是數學的皇后。<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[註 1]</a></sup></span><br/>   ——<a class="mw-redirect" href="/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E9%AB%98%E6%96%AF" title="卡尔·弗里德里希·高斯">卡尔·弗里德里希·高斯</a></p></blockquote>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#简介"><span class="tocnumber">1</span> <span class="toctext">简介</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#历史"><span class="tocnumber">2</span> <span class="toctext">历史</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#古代"><span class="tocnumber">2.1</span> <span class="toctext">古代</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#中世纪"><span class="tocnumber">2.2</span> <span class="toctext">中世纪</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#近代"><span class="tocnumber">2.3</span> <span class="toctext">近代</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#費馬"><span class="tocnumber">2.3.1</span> <span class="toctext">費馬</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#歐拉"><span class="tocnumber">2.3.2</span> <span class="toctext">歐拉</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#分支"><span class="tocnumber">3</span> <span class="toctext">分支</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#應用"><span class="tocnumber">4</span> <span class="toctext">應用</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#注释"><span class="tocnumber">5</span> <span class="toctext">注释</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#參考資料"><span class="tocnumber">6</span> <span class="toctext">參考資料</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#參考書目"><span class="tocnumber">7</span> <span class="toctext">參考書目</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#外部連結"><span class="tocnumber">8</span> <span class="toctext">外部連結</span></a></li>
+</ul>
+</div>
+<h2><span id=".E7.AE.80.E4.BB.8B"></span><span class="mw-headline" id="简介">简介</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=1" title="编辑章节：简介">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>正整数按乘法性质划分，可以分成<a class="mw-redirect" href="/wiki/%E8%B3%AA%E6%95%B8" title="質數">質数</a>，<a href="/wiki/%E5%90%88%E6%95%B0" title="合数">合数</a>，<a href="/wiki/1" title="1">1</a>，質数產生了很多一般人能理解卻又懸而未解的問題，如<a href="/wiki/%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB%E7%8C%9C%E6%83%B3" title="哥德巴赫猜想">哥德巴赫猜想</a>，<a class="mw-redirect" href="/wiki/%E5%AD%AA%E7%94%9F%E8%B4%A8%E6%95%B0%E7%8C%9C%E6%83%B3" title="孪生质数猜想">孿生質數猜想</a>等。即，很多問題虽然形式上十分初等，事实上却要用到许多艰深的数学知识。这一领域的研究从某种意义上推动了数学的发展，催生了大量的新思想和新方法。數論除了研究整數及質數外，也研究一些由整數衍生的數（如<a class="mw-redirect" href="/wiki/%E6%9C%89%E7%90%86%E6%95%B8" title="有理數">有理數</a>）或是一些廣義的整數（如<a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B4%E6%95%B8" title="代數整數">代數整數</a>）。
+</p><p>整数可以是方程式的解（<a href="/wiki/%E4%B8%9F%E7%95%AA%E5%9C%96%E6%96%B9%E7%A8%8B" title="丟番圖方程">丟番圖方程</a>）。有些<a class="mw-redirect" href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B8" title="解析函數">解析函數</a>（像<a href="/wiki/%E9%BB%8E%E6%9B%BC%CE%B6%E5%87%BD%E6%95%B8" title="黎曼ζ函數">黎曼ζ函數</a>）中包括了一些整數、質數的性質，透過這些函數也可以了解一些數論的問題。透過數論也可以建立實數和有理數之間的關係，並且用有理數來逼近實數（<a href="/wiki/%E4%B8%9F%E7%95%AA%E5%9C%96%E9%80%BC%E8%BF%91" title="丟番圖逼近">丟番圖逼近</a>）。
+</p>
+<h2><span id=".E5.8E.86.E5.8F.B2"></span><span class="mw-headline" id="历史">历史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=2" title="编辑章节：历史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E5.8F.A4.E4.BB.A3"></span><span class="mw-headline" id="古代">古代</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=3" title="编辑章节：古代">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>數論早期也稱為<a class="mw-redirect" href="/wiki/%E7%AE%97%E8%A1%93" title="算術">算術</a><span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[註 2]</a></sup></span>，而<a class="mw-redirect" href="/wiki/%E7%AE%97%E8%A1%93" title="算術">算術</a>一詞則表示「基本運算」<span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[註 3]</a></sup></span><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[3]</a></sup>，在现代数论诞生前，早期铺垫有三大内容：
+</p>
+<ol><li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97" title="欧几里得">欧几里得</a>证明<a class="mw-redirect" href="/wiki/%E7%B4%A0%E6%95%B0" title="素数">素数</a>无穷多个。</li>
+<li>寻找素数的<a href="/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC%E7%AD%9B%E6%B3%95" title="埃拉托斯特尼筛法">埃拉托斯特尼筛法</a>；欧几里得求最大公约数的<a class="mw-redirect" href="/wiki/%E8%BE%97%E8%BD%AC%E7%9B%B8%E9%99%A4%E6%B3%95" title="辗转相除法">辗转相除法</a>。</li>
+<li>公元420至589年（中国南北朝时期）的<a class="mw-redirect" href="/wiki/%E5%AD%99%E5%AD%90%E5%AE%9A%E7%90%86" title="孙子定理">孙子定理</a>。</li></ol>
+<h3><span id=".E4.B8.AD.E4.B8.96.E7.BA.AA"></span><span class="mw-headline" id="中世纪">中世纪</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=4" title="编辑章节：中世纪">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>在中世紀早期，除了1175年至1200年住在<a href="/wiki/%E5%8C%97%E9%9D%9E" title="北非">北非</a>和<a href="/wiki/%E5%90%9B%E5%A3%AB%E5%9D%A6%E4%B8%81%E5%A0%A1" title="君士坦丁堡">君士坦丁堡</a>的数学家<a href="/wiki/%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91" title="斐波那契">斐波那契</a>有關<a href="/wiki/%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97" title="等差数列">等差数列</a>的研究外，<a href="/wiki/%E8%A5%BF%E6%AC%A7" title="西欧">西欧</a>在數論上沒有什麼進展。
+</p><p>中世纪数论主要是指15-16世纪由<a class="mw-redirect" href="/wiki/%E8%B4%B9%E9%A9%AC" title="费马">费马</a>、<a class="mw-redirect" href="/wiki/%E9%A6%AC%E8%98%AD%C2%B7%E6%A2%85%E6%A3%AE" title="馬蘭·梅森">梅森</a>、<a class="mw-redirect" href="/wiki/%E6%AC%A7%E6%8B%89" title="欧拉">欧拉</a>、<a class="mw-redirect" href="/wiki/%E9%AB%98%E6%96%AF" title="高斯">高斯</a>、<a class="mw-redirect" href="/wiki/%E5%8B%92%E8%AE%93%E5%BE%B7" title="勒讓德">勒让德</a>、<a class="mw-redirect" href="/wiki/%E9%BB%8E%E6%9B%BC" title="黎曼">黎曼</a>、<a class="mw-redirect" href="/wiki/%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9" title="希尔伯特">希尔伯特</a>等人发展的数论。最早是在<a class="mw-redirect" href="/wiki/%E6%96%87%E8%97%9D%E5%BE%A9%E8%88%88" title="文藝復興">文藝復興</a>的末期，對於<a class="mw-redirect" href="/wiki/%E5%8F%A4%E5%B8%8C%E8%87%98" title="古希臘">古希臘</a>著作的重新研究。主要的成因是因為<a href="/wiki/%E4%B8%A2%E7%95%AA%E5%9B%BE" title="丢番图">丟番圖</a>的《算術》（Arithmetica）一書的校正及翻譯為<a class="mw-redirect" href="/wiki/%E6%8B%89%E4%B8%81%E6%96%87" title="拉丁文">拉丁文</a>，早在1575年Xylander曾試圖翻譯，但不成功，後來才由Bachet在1621年翻譯完成。
+</p>
+<h3><span id=".E8.BF.91.E4.BB.A3"></span><span class="mw-headline" id="近代">近代</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=5" title="编辑章节：近代">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span id=".E8.B2.BB.E9.A6.AC"></span><span class="mw-headline" id="費馬">費馬</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=6" title="编辑章节：費馬">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:Pierre_de_Fermat.png"><img alt="" class="thumbimage" data-file-height="1003" data-file-width="566" decoding="async" height="301" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pierre_de_Fermat.png/170px-Pierre_de_Fermat.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pierre_de_Fermat.png/255px-Pierre_de_Fermat.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pierre_de_Fermat.png/340px-Pierre_de_Fermat.png 2x" width="170"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Pierre_de_Fermat.png" title="放大"></a></div>費馬</div></div></div>
+<p><a href="/wiki/%E7%9A%AE%E5%9F%83%E7%88%BE%C2%B7%E5%BE%B7%C2%B7%E8%B2%BB%E9%A6%AC" title="皮埃爾·德·費馬">皮埃爾·德·費馬</a>（1601–1665）沒有著作出版，他在數論上的貢獻幾乎都在他寫給其他數學家的信上，以及書旁的空白處<sup class="reference" id="cite_ref-FOOTNOTEWeil198445–46_7-0"><a href="#cite_note-FOOTNOTEWeil198445–46-7">[4]</a></sup>。費馬的貢獻幾乎沒有數論上的證明<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[5]</a></sup>，不過費馬重覆的使用<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8%E6%AD%B8%E7%B4%8D%E6%B3%95" title="數學歸納法">數學歸納法</a>，並引入<a href="/wiki/%E6%97%A0%E7%A9%B7%E9%80%92%E9%99%8D%E6%B3%95" title="无穷递降法">无穷递降法</a>。
+</p><p>費馬最早的興趣是在<a class="mw-redirect" href="/wiki/%E5%AE%8C%E5%85%A8%E6%95%B8" title="完全數">完全數</a>及<a href="/wiki/%E7%9B%B8%E4%BA%B2%E6%95%B0" title="相亲数">相亲数</a>，因此開始研究整數<a href="/wiki/%E5%9B%A0%E6%95%B8" title="因數">因數</a>，這也開始1636年之後的數學研究，也接觸到當時的數學社群<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[6]</a></sup>。他已在1643年研讀過<span class="ilh-all" data-foreign-title="Claude Gaspard Bachet de Méziriac" data-lang-code="en" data-lang-name="英语" data-orig-title="克劳德-加斯帕·巴歇·德·梅齐里亚克"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%85%8B%E5%8A%B3%E5%BE%B7-%E5%8A%A0%E6%96%AF%E5%B8%95%C2%B7%E5%B7%B4%E6%AD%87%C2%B7%E5%BE%B7%C2%B7%E6%A2%85%E9%BD%90%E9%87%8C%E4%BA%9A%E5%85%8B&amp;action=edit&amp;redlink=1" title="克劳德-加斯帕·巴歇·德·梅齐里亚克（页面不存在）">巴歇</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Claude_Gaspard_Bachet_de_M%C3%A9ziriac" title="en:Claude Gaspard Bachet de Méziriac"><span dir="auto" lang="en">Claude Gaspard Bachet de Méziriac</span></a></span>）</span></span>版本的丟番圖著作，他的興趣開始轉向<a href="/wiki/%E4%B8%9F%E7%95%AA%E5%9C%96%E6%96%B9%E7%A8%8B" title="丟番圖方程">丟番圖方程</a>和<a class="mw-redirect" href="/wiki/%E5%B9%B3%E6%96%B9%E6%95%B8" title="平方數">平方數</a>的和<sup class="reference" id="cite_ref-FOOTNOTEWeil198453_10-0"><a href="#cite_note-FOOTNOTEWeil198453-10">[7]</a></sup>。
+</p><p>費馬在數論上的貢獻有：
+</p>
+<ul><li><a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E5%B0%8F%E5%AE%9A%E7%90%86" title="費馬小定理">費馬小定理</a> (1640)<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[8]</a></sup>，若<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>不是質數<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p}</annotation>
+</semantics>
+</math></span><img alt="p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/81eac1e205430d1f40810df36a0edffdc367af36" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.259ex; height:2.009ex;"/></span>的倍數，則<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{p-1}\equiv 1{\pmod {p}}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msup>
+<mo>≡<!-- ≡ --></mo>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mspace width="1em"></mspace>
+<mo stretchy="false">(</mo>
+<mi>mod</mi>
+<mspace width="0.333em"></mspace>
+<mi>p</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{p-1}\equiv 1{\pmod {p}}.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a^{p-1}\equiv 1{\pmod {p}}.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/58a9e1a77254c598a3bbd20ee75962c540381c54" style="vertical-align: -0.838ex; width:20.151ex; height:3.176ex;"/></span></li>
+<li>若<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span></i>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span><a href="/wiki/%E4%BA%92%E8%B3%AA" title="互質">互質</a>，則<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{2}+b^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{2}+b^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a^{2}+b^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/14fc28103c5d2aa9276728469f82c9f415f4b257" style="vertical-align: -0.505ex; width:7.176ex; height:2.843ex;"/></span>無法被任何除4後同餘-1的質數整除<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[9]</a></sup>，而且每個除4後同餘1的質數都可以表示為<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{2}+b^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{2}+b^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a^{2}+b^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/14fc28103c5d2aa9276728469f82c9f415f4b257" style="vertical-align: -0.505ex; width:7.176ex; height:2.843ex;"/></span>.<sup class="reference" id="cite_ref-FOOTNOTETanneryHenry1891Vol._II,_p._213_13-0"><a href="#cite_note-FOOTNOTETanneryHenry1891Vol._II,_p._213-13">[10]</a></sup>，這二個是在1640年證明的，在1649年他在寫給<a class="mw-redirect" href="/wiki/%E6%83%A0%E6%9B%B4%E6%96%AF" title="惠更斯">惠更斯</a>的信上提到他用<a href="/wiki/%E6%97%A0%E7%A9%B7%E9%80%92%E9%99%8D%E6%B3%95" title="无穷递降法">无穷递降法</a>證明的第二個問題<sup class="reference" id="cite_ref-FOOTNOTETanneryHenry1891Vol._II,_p._423_14-0"><a href="#cite_note-FOOTNOTETanneryHenry1891Vol._II,_p._423-14">[11]</a></sup>，費馬和<span class="ilh-all" data-foreign-title="Frenicle" data-lang-code="en" data-lang-name="英语" data-orig-title="福蘭尼可"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%A6%8F%E8%98%AD%E5%B0%BC%E5%8F%AF&amp;action=edit&amp;redlink=1" title="福蘭尼可（页面不存在）">福蘭尼可</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Frenicle" title="en:Frenicle"><span dir="auto" lang="en">Frenicle</span></a></span>）</span></span>在其他平方形式上也有一些貢獻，不過其中有些錯誤及不嚴謹之處<sup class="reference" id="cite_ref-FOOTNOTEWeil198480,_91–92_15-0"><a href="#cite_note-FOOTNOTEWeil198480,_91–92-15">[12]</a></sup>。</li>
+<li>向英國的數學家提出了求解<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{2}-Ny^{2}=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>N</mi>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{2}-Ny^{2}=1}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x^{2}-Ny^{2}=1}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0fa2a18557e1553bfe01d2ed1dfeafed52b42c02" style="vertical-align: -0.671ex; width:13.764ex; height:3.009ex;"/></span>的挑戰（1657年），但在幾個月後就由Wallis及Brouncker證明<sup class="reference" id="cite_ref-FOOTNOTEWeil198492_16-0"><a href="#cite_note-FOOTNOTEWeil198492-16">[13]</a></sup>。費馬認為他們的證明有效，但用了一個在其中未經證明的演算法，費馬自己是由无穷递降法找到證明。</li>
+<li>發展許多找<a href="/wiki/%E4%BA%8F%E6%A0%BC" title="亏格">亏格</a>0或1曲線上點的方法，作法類似丟番圖，有許多特殊的步驟，使用了<a href="/wiki/%E5%88%87%E7%BA%BF%E6%B3%95" title="切线法">切線法</a>構建曲線，而不是用<a href="/wiki/%E5%89%B2%E7%BA%BF%E6%B3%95" title="割线法">割線法</a><sup class="reference" id="cite_ref-FOOTNOTEWeil1984Ch._II,_sect._XV_and_XVI_17-0"><a href="#cite_note-FOOTNOTEWeil1984Ch._II,_sect._XV_and_XVI-17">[14]</a></sup>。</li>
+<li>證明<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{4}+y^{4}=z^{4}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>z</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{4}+y^{4}=z^{4}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x^{4}+y^{4}=z^{4}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bfc85e410302961db48dfb90dfb4f27372961922" style="vertical-align: -0.671ex; width:12.682ex; height:3.009ex;"/></span>不存在非尋常的正整數解。</li></ul>
+<p>費馬在1637年聲稱（<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E6%9C%80%E5%BE%8C%E5%AE%9A%E7%90%86" title="費馬最後定理">費馬最後定理</a>）證明了對於大於2的任意整數<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>，不存在
+<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}+y^{n}=z^{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>z</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}+y^{n}=z^{n}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x^{n}+y^{n}=z^{n}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c34dcc46ebfb58e1b91a6c0caa1470e76139543a" style="vertical-align: -0.671ex; width:13.175ex; height:2.676ex;"/></span>的非尋常的正整數解（目前已知唯一的证明是由數學家<a href="/wiki/%E5%AE%89%E5%BE%B7%E9%AD%AF%C2%B7%E6%87%B7%E7%88%BE%E6%96%AF" title="安德魯·懷爾斯">安德魯·懷爾斯</a>及其學生<a class="mw-redirect" href="/wiki/%E7%90%86%E6%9F%A5%C2%B7%E6%B3%B0%E5%8B%92_(%E6%95%B8%E5%AD%B8%E5%AE%B6)" title="理查·泰勒 (數學家)">理查·泰勒</a>于1994年完成的證明），但只在一本丟番圖著作的旁邊寫到，而且他沒有向別人宣稱他已有了證明<sup class="reference" id="cite_ref-FOOTNOTEWeil1984104_18-0"><a href="#cite_note-FOOTNOTEWeil1984104-18">[15]</a></sup>。
+</p>
+<h4><span id=".E6.AD.90.E6.8B.89"></span><span class="mw-headline" id="歐拉">歐拉</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=7" title="编辑章节：歐拉">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:Leonhard_Euler.jpg"><img alt="" class="thumbimage" data-file-height="6040" data-file-width="4672" decoding="async" height="220" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/170px-Leonhard_Euler.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/255px-Leonhard_Euler.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Leonhard_Euler.jpg/340px-Leonhard_Euler.jpg 2x" width="170"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Leonhard_Euler.jpg" title="放大"></a></div>歐拉</div></div></div>
+<p><a class="mw-redirect" href="/wiki/%E6%AD%90%E6%8B%89" title="歐拉">歐拉</a>(1707–1783)對數論的興趣最早是由他的朋友<a href="/wiki/%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB" title="克里斯蒂安·哥德巴赫">哥德巴赫</a>所引發，讓他開始專注在<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC" title="費馬">費馬</a>的一些研究上<sup class="reference" id="cite_ref-FOOTNOTEWeil19842,_172_19-0"><a href="#cite_note-FOOTNOTEWeil19842,_172-19">[16]</a></sup><sup class="reference" id="cite_ref-FOOTNOTEVaradarajan20069_20-0"><a href="#cite_note-FOOTNOTEVaradarajan20069-20">[17]</a></sup>，在費馬沒有使當代的數學家注意此一主題後，歐拉的出現稱為「現代數論的重生」<sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[18]</a></sup>。歐拉數論的貢獻包括以下幾項<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[19]</a></sup>：
+</p>
+<ul><li>費馬研究的證明，包括<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E5%B0%8F%E5%AE%9A%E7%90%86" title="費馬小定理">費馬小定理</a>（歐拉延伸到非質數的模數），以及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p=x^{2}+y^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+<mo>=</mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p=x^{2}+y^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle p=x^{2}+y^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fe433e9ba9c42efe1bc9fd51bb439c698b8f6843" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:11.796ex; height:3.009ex;"/></span><a class="mw-redirect" href="/wiki/%E8%8B%A5%E4%B8%94%E5%94%AF%E8%8B%A5" title="若且唯若">若且唯若</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p\equiv 1\;mod\;4}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+<mo>≡<!-- ≡ --></mo>
+<mn>1</mn>
+<mspace width="thickmathspace"></mspace>
+<mi>m</mi>
+<mi>o</mi>
+<mi>d</mi>
+<mspace width="thickmathspace"></mspace>
+<mn>4</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p\equiv 1\;mod\;4}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle p\equiv 1\;mod\;4}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/47246d58f9dcb2e7f8b1dce532e52271db9d1fe1" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:12.356ex; height:2.509ex;"/></span>，這項研究可推導到所有整數都可以表示為四個平方數的證明（第一個完整證明是由<a class="mw-redirect" href="/wiki/%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5" title="約瑟夫·拉格朗日">約瑟夫·拉格朗日</a>提出，費馬很快的也提出證明），和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{4}+y^{4}=z^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>z</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{4}+y^{4}=z^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x^{4}+y^{4}=z^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f35aa613c26db550f2733d251ae8cbcb906831ec" style="vertical-align: -0.671ex; width:12.682ex; height:3.009ex;"/></span>沒有非零整數解的證明，表示為<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E6%9C%80%E5%BE%8C%E5%AE%9A%E7%90%86" title="費馬最後定理">費馬最後定理</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n=4}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+<mo>=</mo>
+<mn>4</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n=4}</annotation>
+</semantics>
+</math></span><img alt="n=4" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d928ec15aeef83aade867992ee473933adb6139d" style="vertical-align: -0.338ex; width:5.656ex; height:2.176ex;"/></span>時成立，歐拉用類似方式證明了<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n=3}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+<mo>=</mo>
+<mn>3</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n=3}</annotation>
+</semantics>
+</math></span><img alt="n=3" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1c5a5a42ced00df920fad4ab2d4acdb960a4105b" style="vertical-align: -0.338ex; width:5.656ex; height:2.176ex;"/></span>的情形。</li>
+<li><a href="/wiki/%E4%BD%A9%E5%B0%94%E6%96%B9%E7%A8%8B" title="佩尔方程">佩爾方程</a>，最早誤以為是歐拉證明<sup class="reference" id="cite_ref-Eulpell_23-0"><a href="#cite_note-Eulpell-23">[20]</a></sup>，歐拉也寫了連分數和佩爾方程的關係<sup class="reference" id="cite_ref-FOOTNOTEWeil1984183_24-0"><a href="#cite_note-FOOTNOTEWeil1984183-24">[21]</a></sup>。</li>
+<li><i>二次式</i>，繼費馬之後，歐拉繼續研究哪些質數可以表示為<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{2}+Ny^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>N</mi>
+<msup>
+<mi>y</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{2}+Ny^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x^{2}+Ny^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/de0d4c34b673da9926f76d0642c4ba92e09e882d" style="vertical-align: -0.671ex; width:9.503ex; height:3.009ex;"/></span>，其中有些顯示<a href="/wiki/%E4%BA%8C%E6%AC%A1%E4%BA%92%E5%8F%8D%E5%BE%8B" title="二次互反律">二次互反律</a>的性質<sup class="reference" id="cite_ref-FOOTNOTEVaradarajan200644–47_25-0"><a href="#cite_note-FOOTNOTEVaradarajan200644–47-25">[22]</a></sup> <sup class="reference" id="cite_ref-FOOTNOTEWeil1984177–179_26-0"><a href="#cite_note-FOOTNOTEWeil1984177–179-26">[23]</a></sup><sup class="reference" id="cite_ref-FOOTNOTEEdwards1983285–291_27-0"><a href="#cite_note-FOOTNOTEEdwards1983285–291-27">[24]</a></sup>。</li>
+<li><a href="/wiki/%E4%B8%9F%E7%95%AA%E5%9C%96%E6%96%B9%E7%A8%8B" title="丟番圖方程">丟番圖方程</a>：<a class="mw-redirect" href="/wiki/%E6%AD%90%E6%8B%89" title="歐拉">歐拉</a>研究一些<a href="/wiki/%E4%BA%8F%E6%A0%BC" title="亏格">虧格</a>為0或1的<a href="/wiki/%E4%B8%9F%E7%95%AA%E5%9C%96%E6%96%B9%E7%A8%8B" title="丟番圖方程">丟番圖方程</a><sup class="reference" id="cite_ref-FOOTNOTEVaradarajan200655–56_28-0"><a href="#cite_note-FOOTNOTEVaradarajan200655–56-28">[25]</a></sup><sup class="reference" id="cite_ref-FOOTNOTEWeil1984179–181_29-0"><a href="#cite_note-FOOTNOTEWeil1984179–181-29">[26]</a></sup>，特別的是他研讀丟番圖的著作，試圖要找到系統化的方法，但時機尚不成熟，幾何數論才剛形成而已<sup class="reference" id="cite_ref-FOOTNOTEWeil1984181_30-0"><a href="#cite_note-FOOTNOTEWeil1984181-30">[27]</a></sup>。歐拉有注意到丟番圖方程和<a href="/wiki/%E6%A4%AD%E5%9C%86%E7%A7%AF%E5%88%86" title="椭圆积分">椭圆积分</a>之間的關係<sup class="reference" id="cite_ref-FOOTNOTEWeil1984181_30-1"><a href="#cite_note-FOOTNOTEWeil1984181-30">[27]</a></sup>。</li></ul>
+<h2><span id=".E5.88.86.E6.94.AF"></span><span class="mw-headline" id="分支">分支</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=8" title="编辑章节：分支">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dt><a href="/wiki/%E5%88%9D%E7%AD%89%E6%95%B8%E8%AB%96" title="初等數論">初等數論</a></dt>
+<dd>意指使用不超過高中程度的初等代數處理的數論問題，最主要的工具包括整數的整除性與同餘。重要的結論包括<a class="mw-redirect" href="/wiki/%E4%B8%AD%E5%9B%BD%E4%BD%99%E6%95%B0%E5%AE%9A%E7%90%86" title="中国余数定理">中國餘數定理</a>、<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E5%B0%8F%E5%AE%9A%E7%90%86" title="費馬小定理">費馬小定理</a>、<a href="/wiki/%E4%BA%8C%E6%AC%A1%E4%BA%92%E5%8F%8D%E5%BE%8B" title="二次互反律">二次互反律</a>等等。</dd></dl>
+<dl><dt><a class="mw-redirect" href="/wiki/%E8%A7%A3%E6%9E%90%E6%95%B8%E8%AB%96" title="解析數論">解析數論</a></dt>
+<dd>借助<a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" title="微積分">微積分</a>及<a href="/wiki/%E8%A4%87%E5%88%86%E6%9E%90" title="複分析">複分析</a>的技術來研究關於整數的問題<sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[28]</a></sup>，主要又可以分為<span class="ilh-all" data-foreign-title="Multiplicative number theory" data-lang-code="en" data-lang-name="英语" data-orig-title="積性數論"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%A9%8D%E6%80%A7%E6%95%B8%E8%AB%96&amp;action=edit&amp;redlink=1" title="積性數論（页面不存在）">積性數論</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Multiplicative_number_theory" title="en:Multiplicative number theory"><span dir="auto" lang="en">Multiplicative number theory</span></a></span>）</span></span>與<a class="mw-redirect" href="/wiki/%E5%8A%A0%E6%80%A7%E6%95%B8%E8%AB%96" title="加性數論">加性數論</a>兩類。積性數論藉由研究積性生成函數的性質來探討質數分佈的問題，其中<a href="/wiki/%E8%B3%AA%E6%95%B8%E5%AE%9A%E7%90%86" title="質數定理">質數定理</a>與<a href="/wiki/%E7%8B%84%E5%88%A9%E5%85%8B%E9%9B%B7%E5%AE%9A%E7%90%86" title="狄利克雷定理">狄利克雷定理</a>為這個領域中最著名的古典成果。加性數論則是研究整數的加法分解之可能性與表示的問題，<a href="/wiki/%E8%8F%AF%E6%9E%97%E5%95%8F%E9%A1%8C" title="華林問題">華林問題</a>是該領域最著名的課題。此外例如<a href="/wiki/%E7%AD%9B%E6%B3%95" title="筛法">篩法</a>、<a href="/wiki/%E5%93%88%E4%BB%A3-%E6%9D%8E%E7%89%B9%E7%88%BE%E4%BC%8D%E5%BE%B7%E5%9C%93%E6%B3%95" title="哈代-李特爾伍德圓法">圓法</a>等等都是屬於這個範疇的重要議題。</dd>
+<dt><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8%E8%AB%96" title="代數數論">代數數論</a></dt>
+<dd>引申<a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8" title="代數數">代數數</a>的話題，關於<a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B4%E6%95%B8" title="代數整數">代數整數</a>的研究，主要的研究目標是為了更一般地解決<a class="mw-redirect" href="/wiki/%E4%B8%8D%E5%AE%9A%E6%96%B9%E7%A8%8B" title="不定方程">不定方程</a>的問題，而為了達到此目的，這個領域與<a class="mw-redirect" href="/wiki/%E4%BB%A3%E6%95%B8%E5%B9%BE%E4%BD%95" title="代數幾何">代數幾何</a>之間有相當關聯，比如<a href="/wiki/%E9%A1%9E%E5%9F%9F%E8%AB%96" title="類域論">類域論</a>（class field theory）就是此間的顛峰之作。</dd>
+<dt><a class="new" href="/w/index.php?title=%E7%AE%97%E8%A1%93%E4%BB%A3%E6%95%B0%E5%B9%BE%E4%BD%95&amp;action=edit&amp;redlink=1" title="算術代数幾何（页面不存在）">算術代数幾何</a></dt>
+<dd>研究有理係數多變數方程組的有理點，其結構（主要是個數）和該方程組對應的代數簇的幾何性質之間的關係，有名的<a class="mw-redirect" href="/wiki/%E8%B2%BB%E9%A6%AC%E6%9C%80%E5%BE%8C%E5%AE%9A%E7%90%86" title="費馬最後定理">費馬最後定理</a>、莫德爾猜想（<span class="ilh-all" data-foreign-title="Faltings' theorem" data-lang-code="en" data-lang-name="英语" data-orig-title="法爾廷斯定理"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%B3%95%E7%88%BE%E5%BB%B7%E6%96%AF%E5%AE%9A%E7%90%86&amp;action=edit&amp;redlink=1" title="法爾廷斯定理（页面不存在）">法爾廷斯定理</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Faltings%27_theorem" title="en:Faltings' theorem"><span dir="auto" lang="en">Faltings' theorem</span></a></span>）</span></span>）、<span class="ilh-all" data-foreign-title="Weil conjectures" data-lang-code="en" data-lang-name="英语" data-orig-title="Weil猜想"><span class="ilh-page"><a class="new" href="/w/index.php?title=Weil%E7%8C%9C%E6%83%B3&amp;action=edit&amp;redlink=1" title="Weil猜想（页面不存在）">Weil猜想</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Weil_conjectures" title="en:Weil conjectures"><span dir="auto" lang="en">Weil conjectures</span></a></span>）</span></span>，和千禧年大獎難題中的<a class="mw-redirect" href="/wiki/%E8%B2%9D%E8%B5%AB%E5%92%8C%E6%96%AF%E7%B6%AD%E8%A8%A5%E9%80%9A-%E6%88%B4%E7%88%BE%E7%8C%9C%E6%83%B3" title="貝赫和斯維訥通-戴爾猜想">貝赫和斯維訥通-戴爾猜想</a>都屬此類。</dd>
+<dt><a href="/wiki/%E5%87%A0%E4%BD%95%E6%95%B0%E8%AE%BA" title="几何数论">幾何数论</a></dt>
+<dd>主要在於透過幾何觀點研究整數（在此即格子點）的分佈情形。最著名的定理為<a class="mw-redirect" href="/wiki/%E9%97%B5%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E5%AE%9A%E7%90%86" title="闵可夫斯基定理">闵可夫斯基定理</a>。</dd>
+<dt><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%95%B0%E8%AE%BA" title="计算数论">計算数论</a></dt>
+<dd>借助電腦的<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a>幫助數論的問題，例如素數測試和<a class="mw-redirect" href="/wiki/%E5%9B%A0%E6%95%B0%E5%88%86%E8%A7%A3" title="因数分解">因數分解</a>等和<a class="mw-redirect" href="/wiki/%E5%AF%86%E7%A2%BC%E5%AD%B8" title="密碼學">密碼學</a>息息相關的話題。</dd>
+<dt><a href="/wiki/%E8%B6%85%E8%B6%8A%E6%95%B8%E8%AB%96" title="超越數論">超越数论</a></dt>
+<dd>研究數的超越性，其中對於<a class="mw-redirect" href="/wiki/%E6%AC%A7%E6%8B%89-%E9%A9%AC%E6%AD%87%E7%BD%97%E5%B0%BC%E5%B8%B8%E6%95%B0" title="欧拉-马歇罗尼常数">歐拉常數</a>與特定的<a href="/wiki/%E9%BB%8E%E6%9B%BC%CE%B6%E5%87%BD%E6%95%B8" title="黎曼ζ函數">黎曼ζ函數</a>值之研究尤其令人感到興趣。</dd>
+<dt><a class="mw-redirect" href="/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E8%AE%BA" title="组合数论">組合数论</a></dt>
+<dd>利用組合和機率的技巧，非構造性地證明某些無法用初等方式處理的複雜結論。這是由<a class="mw-redirect" href="/wiki/%E4%BF%9D%E7%BD%97%C2%B7%E5%9F%83%E5%B0%94%E5%BE%B7%E4%BB%80" title="保罗·埃尔德什">保罗·埃尔德什</a>開創的思路。</dd>
+<dt><a href="/wiki/%E6%A8%A1%E5%BD%A2%E5%BC%8F" title="模形式">模形式</a></dt>
+<dd>數學上一個滿足一些泛函方程與增長條件、在上半平面上的（複）<a class="mw-redirect" href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%BD%E6%95%B8" title="解析函數">解析函數</a>。</dd></dl>
+<h2><span id=".E6.87.89.E7.94.A8"></span><span class="mw-headline" id="應用">應用</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=9" title="编辑章节：應用">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="mw-redirect" href="/wiki/%E5%AF%86%E7%A2%BC%E5%AD%B8" title="密碼學">密碼學</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%AD%99%E5%AD%90%E5%AE%9A%E7%90%86" title="孙子定理">孙子定理</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%B4%A0%E6%95%B0" title="素数">素数</a></li>
+<li><a href="/wiki/%E5%93%A5%E5%BE%B7%E5%B7%B4%E8%B5%AB%E7%8C%9C%E6%83%B3" title="哥德巴赫猜想">哥德巴赫猜想</a></li>
+<li><a href="/wiki/%E7%B4%A0%E6%95%B0%E5%85%AC%E5%BC%8F" title="素数公式">素数公式</a></li>
+<li><a href="/wiki/%E5%9F%83%E6%8B%89%E6%89%98%E6%96%AF%E7%89%B9%E5%B0%BC%E7%AD%9B%E6%B3%95" title="埃拉托斯特尼筛法">埃拉托斯特尼筛法</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%8F%8C%E7%94%9F%E8%B4%A8%E6%95%B0" title="双生质数">双生质数</a></li>
+<li><a href="/wiki/%E6%9C%89%E9%99%90%E5%9F%9F" title="有限域">有限域</a></li>
+<li><a href="/wiki/P%E9%80%B2%E6%95%B8" title="P進數">p進數</a></li></ul>
+<h2><span id=".E6.B3.A8.E9.87.8A"></span><span class="mw-headline" id="注释">注释</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=10" title="编辑章节：注释">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div id="references-NoteFoot"><ol class="references">
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">德语原文“Die Mathematik ist die Königin der Wissenschaften, und die Arithmetik ist die Königin der Mathematik.”</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">1952年時數學家<span class="ilh-all" data-foreign-title="Harold Davenport" data-lang-code="en" data-lang-name="英语" data-orig-title="哈罗德·达文波特"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%93%88%E7%BD%97%E5%BE%B7%C2%B7%E8%BE%BE%E6%96%87%E6%B3%A2%E7%89%B9&amp;action=edit&amp;redlink=1" title="哈罗德·达文波特（页面不存在）">哈罗德·达文波特</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Harold_Davenport" title="en:Harold Davenport"><span dir="auto" lang="en">Harold Davenport</span></a></span>）</span></span>仍用「高等算術」一詞來表示數論，<a href="/wiki/%E6%88%88%E5%BC%97%E9%9B%B7%C2%B7%E5%93%88%E7%BD%97%E5%BE%B7%C2%B7%E5%93%88%E4%BB%A3" title="戈弗雷·哈罗德·哈代">戈弗雷·哈羅德·哈代</a>和<a href="/wiki/%E6%84%9B%E5%BE%B7%E8%8F%AF%C2%B7%E6%A2%85%E7%89%B9%E8%98%AD%C2%B7%E8%B3%B4%E7%89%B9" title="愛德華·梅特蘭·賴特">愛德華·梅特蘭·賴特</a>在1938年寫《數論介紹》簡介時曾提到「我們曾考慮過將書名改為《算術介紹》，某方面而言是更合適的書名，但也容易讓讀者誤會其中的內容」<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[2]</a></sup></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">不過在20世紀的後半，有部份數學家仍會用「算術」一詞來表示數論。到20世紀初，才開始使用數論的名稱</span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.83.E8.80.83.E8.B3.87.E6.96.99"></span><span class="mw-headline" id="參考資料">參考資料</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=11" title="编辑章节：參考資料">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.gresham.ac.uk/lectures-and-events/the-queen-of-mathematics" rel="nofollow">The Queen of Mathematics</a>.  <span class="reference-accessdate"> [<span class="nowrap">2014-09-30</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20141006100109/http://www.gresham.ac.uk/lectures-and-events/the-queen-of-mathematics" rel="nofollow">存档</a>于2014-10-06）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.btitle=The+Queen+of+Mathematics&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.gresham.ac.uk%2Flectures-and-events%2Fthe-queen-of-mathematics&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation journal">Apostol, Tom M. <a class="external text" href="http://www.ams.org/mathscinet/" rel="nofollow">An introduction to the theory of numbers</a>. (Review of Hardy &amp; Wright.) Mathematical Reviews (MathSciNet) MR0568909. American Mathematical Society. n.d. <span class="reference-accessdate"> [<span class="nowrap">2013-05-06</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20120731035922/http://www.ams.org/mathscinet/" rel="nofollow">存档</a>于2012-07-31）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.atitle=An+introduction+to+the+theory+of+numbers&amp;rft.aufirst=Tom+M.&amp;rft.aulast=Apostol&amp;rft.chron=n.d.&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Fwww.ams.org%2Fmathscinet%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation book" id="CITEREFHeath1921"><a class="new" href="/w/index.php?title=Thomas_Little_Heath&amp;action=edit&amp;redlink=1" title="Thomas Little Heath（页面不存在）">Heath, Thomas L.</a> <a class="external text" href="https://archive.org/details/historyofgreekma01heat" rel="nofollow">A History of Greek Mathematics, Volume 1: From Thales to Euclid</a>. Oxford: Clarendon Press. 1921 <span class="reference-accessdate"> [<span class="nowrap">2016-02-28</span>]</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.aufirst=Thomas+L.&amp;rft.aulast=Heath&amp;rft.btitle=A+History+of+Greek+Mathematics%2C+Volume+1%3A+From+Thales+to+Euclid&amp;rft.date=1921&amp;rft.genre=book&amp;rft.place=Oxford&amp;rft.pub=Clarendon+Press&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fhistoryofgreekma01heat&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>
+</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil198445–46-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil198445–46_7-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第45–46頁.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第118頁，數論比其他數學領域容易出現這様的情形（說明在<a href="#CITEREFMahoney1994">Mahoney 1994</a>，第284頁）</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><a href="#CITEREFMahoney1994">Mahoney 1994</a>，第48, 53–54頁</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil198453-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil198453_10-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第53頁.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><a href="#CITEREFTanneryHenry1891">Tannery &amp; Henry 1891</a>，Vol. II, p. 209, Letter XLVI from Fermat to Frenicle, 1640,
+cited in <a href="#CITEREFWeil1984">Weil 1984</a>，第56頁</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><a href="#CITEREFTanneryHenry1891">Tannery &amp; Henry 1891</a>，Vol. II, p. 204, cited in <a href="#CITEREFWeil1984">Weil 1984</a>，第63頁</span>
+</li>
+<li id="cite_note-FOOTNOTETanneryHenry1891Vol._II,_p._213-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTETanneryHenry1891Vol._II,_p._213_13-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFTanneryHenry1891">Tannery &amp; Henry 1891</a>，Vol. II, p. 213.</span>
+</li>
+<li id="cite_note-FOOTNOTETanneryHenry1891Vol._II,_p._423-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTETanneryHenry1891Vol._II,_p._423_14-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFTanneryHenry1891">Tannery &amp; Henry 1891</a>，Vol. II, p. 423.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil198480,_91–92-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil198480,_91–92_15-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第80, 91–92頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil198492-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil198492_16-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第92頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984Ch._II,_sect._XV_and_XVI-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil1984Ch._II,_sect._XV_and_XVI_17-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，Ch. II, sect. XV and XVI.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984104-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil1984104_18-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第104頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil19842,_172-19"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil19842,_172_19-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第2, 172頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEVaradarajan20069-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEVaradarajan20069_20-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFVaradarajan2006">Varadarajan 2006</a>，第9頁.</span>
+</li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第2頁 and <a href="#CITEREFVaradarajan2006">Varadarajan 2006</a>，第37頁</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><a href="#CITEREFVaradarajan2006">Varadarajan 2006</a>，第39頁 and <a href="#CITEREFWeil1984">Weil 1984</a>，第176–189頁</span>
+</li>
+<li id="cite_note-Eulpell-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-Eulpell_23-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第174頁</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984183-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil1984183_24-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第183頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEVaradarajan200644–47-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEVaradarajan200644–47_25-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFVaradarajan2006">Varadarajan 2006</a>，第44–47頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984177–179-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil1984177–179_26-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第177–179頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEEdwards1983285–291-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEEdwards1983285–291_27-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFEdwards1983">Edwards 1983</a>，第285–291頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEVaradarajan200655–56-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEVaradarajan200655–56_28-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFVaradarajan2006">Varadarajan 2006</a>，第55–56頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984179–181-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEWeil1984179–181_29-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第179–181頁.</span>
+</li>
+<li id="cite_note-FOOTNOTEWeil1984181-30"><span class="mw-cite-backlink">^ <a href="#cite_ref-FOOTNOTEWeil1984181_30-0"><sup><b>27.0</b></sup></a> <a href="#cite_ref-FOOTNOTEWeil1984181_30-1"><sup><b>27.1</b></sup></a></span> <span class="reference-text"><a href="#CITEREFWeil1984">Weil 1984</a>，第181頁.</span>
+</li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFApostol1976"><a class="mw-redirect" href="/wiki/Tom_M._Apostol" title="Tom M. Apostol">Apostol, Tom M.</a>, Introduction to analytic number theory, Undergraduate Texts in Mathematics, New York-Heidelberg: <a class="mw-redirect" href="/wiki/Springer-Verlag" title="Springer-Verlag">Springer-Verlag</a>, 1976, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-387-90163-3" title="Special:网络书源/978-0-387-90163-3"><span title="国际标准书号">ISBN</span> 978-0-387-90163-3</a>, <a class="external text" href="//www.ams.org/mathscinet-getitem?mr=0434929" rel="nofollow"><span title="數學評論">MR 0434929</span></a>, <a class="external text" href="//zbmath.org/?format=complete&amp;q=an:0335.10001" rel="nofollow"><span title="Zentralblatt MATH">Zbl 0335.10001</span></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.aufirst=Tom+M.&amp;rft.aulast=Apostol&amp;rft.btitle=Introduction+to+analytic+number+theory&amp;rft.date=1976&amp;rft.genre=book&amp;rft.isbn=978-0-387-90163-3&amp;rft.place=New+York-Heidelberg&amp;rft.pub=Springer-Verlag&amp;rft.series=Undergraduate+Texts+in+Mathematics&amp;rft_id=%2F%2Fwww.ams.org%2Fmathscinet-getitem%3Fmr%3D0434929&amp;rft_id=%2F%2Fzbmath.org%2F%3Fformat%3Dcomplete%26q%3Dan%3A0335.10001&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.83.E8.80.83.E6.9B.B8.E7.9B.AE"></span><span class="mw-headline" id="參考書目">參考書目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=12" title="编辑章节：參考書目">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r61209943">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{list-style-type:none;margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li,.mw-parser-output .refbegin-hanging-indents>dl>dd{margin-left:0;padding-left:3.2em;text-indent:-3.2em;list-style:none}.mw-parser-output .refbegin-100{font-size:100%}</style><div class="refbegin columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em;">
+<ul><li><cite class="citation book" id="CITEREFWeil1984"><a href="/wiki/%E5%AE%89%E5%BE%B7%E7%83%88%C2%B7%E9%9F%A6%E4%BC%8A" title="安德烈·韦伊">Weil, André</a>. <a class="external text" href="http://books.google.co.uk/books?id=XSV0hDFj3loC" rel="nofollow">Number theory: an approach through history – from Hammurapi to Legendre,</a>. Boston: Birkhäuser. 1984 <span class="reference-accessdate"> [<span class="nowrap">2014-10-06</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-8176-3141-3" title="Special:网络书源/978-0-8176-3141-3"><span title="国际标准书号">ISBN</span> 978-0-8176-3141-3</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20141012145013/http://books.google.co.uk/books?id=XSV0hDFj3loC" rel="nofollow">存档</a>于2014-10-12）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.aufirst=Andr%C3%A9&amp;rft.aulast=Weil&amp;rft.btitle=Number+theory%3A+an+approach+through+history+%E2%80%93+from+Hammurapi+to+Legendre%2C&amp;rft.date=1984&amp;rft.genre=book&amp;rft.isbn=978-0-8176-3141-3&amp;rft.place=Boston&amp;rft.pub=Birkh%C3%A4user&amp;rft_id=http%3A%2F%2Fbooks.google.co.uk%2Fbooks%3Fid%3DXSV0hDFj3loC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book" id="CITEREFMahoney1994">Mahoney, M. S. <a class="external text" href="http://books.google.co.uk/books?id=My19IcewAnoC" rel="nofollow">The mathematical career of Pierre de Fermat, 1601–1665</a> Reprint, 2nd. Princeton University Press. 1994 <span class="reference-accessdate"> [<span class="nowrap">2014-10-06</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-691-03666-3" title="Special:网络书源/978-0-691-03666-3"><span title="国际标准书号">ISBN</span> 978-0-691-03666-3</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20141012144521/http://books.google.co.uk/books?id=My19IcewAnoC" rel="nofollow">存档</a>于2014-10-12）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.aufirst=M.+S.&amp;rft.aulast=Mahoney&amp;rft.btitle=The+mathematical+career+of+Pierre+de+Fermat%2C+1601%E2%80%931665&amp;rft.date=1994&amp;rft.edition=Reprint%2C+2nd&amp;rft.genre=book&amp;rft.isbn=978-0-691-03666-3&amp;rft.pub=Princeton+University+Press&amp;rft_id=http%3A%2F%2Fbooks.google.co.uk%2Fbooks%3Fid%3DMy19IcewAnoC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book" id="CITEREFTanneryHenry1891">Tannery, Paul; Henry, Charles (eds.); <a href="/wiki/%E7%9A%AE%E5%9F%83%E7%88%BE%C2%B7%E5%BE%B7%C2%B7%E8%B2%BB%E9%A6%AC" title="皮埃爾·德·費馬">Fermat, Pierre de</a>. Oeuvres de Fermat. (4 Vols.). Paris: Imprimerie Gauthier-Villars et Fils. 1891 <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到法语及拉丁语网页">（法语及拉丁语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.au=Fermat%2C+Pierre+de&amp;rft.au=Henry%2C+Charles+%28eds.%29&amp;rft.aufirst=Paul&amp;rft.aulast=Tannery&amp;rft.btitle=Oeuvres+de+Fermat&amp;rft.date=1891&amp;rft.genre=book&amp;rft.place=Paris&amp;rft.pub=Imprimerie+Gauthier-Villars+et+Fils&amp;rft.series=%284+Vols.%29&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <a class="external text" href="https://archive.org/details/oeuvresdefermat01ferm" rel="nofollow">Volume 1</a> <a class="external text" href="https://archive.org/details/oeuvresdefermat02ferm" rel="nofollow">Volume 2</a> <a class="external text" href="https://archive.org/details/oeuvresdefermat03ferm" rel="nofollow">Volume 3</a> <a class="external text" href="https://archive.org/details/oeuvresdefermat04ferm" rel="nofollow">Volume 4 (1912)</a></li>
+<li><cite class="citation book" id="CITEREFVaradarajan2006">Varadarajan, V. S. <a class="external text" href="http://books.google.co.uk/books?id=CYyKTREGYd0C" rel="nofollow">Euler through time: a new look at old themes</a>. American Mathematical Society. 2006 <span class="reference-accessdate"> [<span class="nowrap">2014-10-06</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-8218-3580-7" title="Special:网络书源/978-0-8218-3580-7"><span title="国际标准书号">ISBN</span> 978-0-8218-3580-7</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20141012194254/http://books.google.co.uk/books?id=CYyKTREGYd0C" rel="nofollow">存档</a>于2014-10-12）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.aufirst=V.+S.&amp;rft.aulast=Varadarajan&amp;rft.btitle=Euler+through+time%3A+a+new+look+at+old+themes&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=978-0-8218-3580-7&amp;rft.pub=American+Mathematical+Society&amp;rft_id=http%3A%2F%2Fbooks.google.co.uk%2Fbooks%3Fid%3DCYyKTREGYd0C&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation journal" id="CITEREFEdwards1983">Edwards, Harold M. Euler and quadratic reciprocity. Mathematics Magazine (Mathematical Association of America). November 1983, <b>56</b> (5): 285–291. <a class="external text" href="//www.jstor.org/stable/2690368" rel="nofollow"><span title="JSTOR">JSTOR 2690368</span></a>. <a class="external text" href="https://dx.doi.org/10.2307%2F2690368" rel="nofollow"><span title="數位物件識別號">doi:10.2307/2690368</span></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B0%E8%AE%BA&amp;rft.atitle=Euler+and+quadratic+reciprocity&amp;rft.aufirst=Harold+M.&amp;rft.aulast=Edwards&amp;rft.date=1983-11&amp;rft.genre=article&amp;rft.issue=5&amp;rft.jtitle=Mathematics+Magazine&amp;rft.pages=285-291&amp;rft.volume=56&amp;rft_id=%2F%2Fwww.jstor.org%2Fstable%2F2690368&amp;rft_id=info%3Adoi%2F10.2307%2F2690368&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：日期与年 (<a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E6%97%A5%E6%9C%9F%E4%B8%8E%E5%B9%B4" title="Category:引文格式1维护：日期与年">link</a>)</span></li></ul>
+</div>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span><span class="mw-headline" id="外部連結">外部連結</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit&amp;section=13" title="编辑章节：外部連結">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英語网页">（英文）</span> <a class="external text" href="http://www.numbertheory.org/" rel="nofollow">Number Theory Web</a> （<a class="external text" href="//web.archive.org/web/20190618181516/http://www.numbertheory.org/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="3" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template:数学领域"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template talk:数学领域"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>（<a href="/wiki/%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="数学领域">数学领域</a>）</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">历史</a></li>
+<li><span class="ilh-all" data-foreign-title="Outline of mathematics" data-lang-code="en" data-lang-name="英语" data-orig-title="数学纲要"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E7%BA%B2%E8%A6%81&amp;action=edit&amp;redlink=1" title="数学纲要（页面不存在）">纲要</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Outline_of_mathematics" title="en:Outline of mathematics"><span dir="auto" lang="en">Outline of mathematics</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8" title="数学符号表">符号表</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80" title="数学基础">数学基础</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%8C%83%E7%95%B4%E8%AE%BA" title="范畴论">范畴论</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%93%B2%E5%AD%A6" title="数学哲学">数学哲学</a></li></ul>
+</div></td><td class="navbox-image" rowspan="23" style="width:0%;padding:0px 0px 0px 2px"><div><a class="image" href="/wiki/File:Math.svg"><img alt="Math.svg" data-file-height="800" data-file-width="800" decoding="async" height="80" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/80px-Math.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/120px-Math.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/160px-Math.svg.png 2x" width="80"/></a></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BB%A3%E6%95%B0" title="代数">代数</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a></li>
+<li><a href="/wiki/%E5%88%9D%E7%AD%89%E4%BB%A3%E6%95%B8" title="初等代數">初等代數</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="线性代数">线性代数</a></li>
+<li><a href="/wiki/%E5%A4%9A%E9%87%8D%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="多重线性代数">多重线性代数</a></li>
+<li><a href="/wiki/%E6%B3%9B%E4%BB%A3%E6%95%B0" title="泛代数">泛代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86" title="微积分">微积分</a></li>
+<li><a href="/wiki/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E8%AE%BA" title="实变函数论">实变函数</a></li>
+<li><a href="/wiki/%E8%A4%87%E5%88%86%E6%9E%90" title="複分析">复变函数</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程">微分方程</a></li>
+<li><a href="/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析">泛函分析</a></li>
+<li><a href="/wiki/%E8%AA%BF%E5%92%8C%E5%88%86%E6%9E%90" title="調和分析">調和分析</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6" title="离散数学">离散数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6" title="组合数学">组合数学</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E5%BA%8F%E7%90%86%E8%AE%BA" title="序理论">序理论</a></li>
+<li><a href="/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA" title="博弈论">博弈论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E5%87%A0%E4%BD%95" title="代数几何">代数几何</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95" title="微分几何">微分几何</a></li>
+<li><a href="/wiki/%E7%A6%BB%E6%95%A3%E5%87%A0%E4%BD%95%E5%AD%A6" title="离散几何学">离散几何学</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">欧几里得几何</a></li>
+<li><a href="/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何">非欧几里得几何</a></li>
+<li><a href="/wiki/%E6%9C%89%E9%99%90%E5%B9%BE%E4%BD%95%E5%AD%B8" title="有限幾何學">有限几何学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a class="mw-selflink selflink">数论</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%97%E6%9C%AF" title="算术">算术</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8%E8%AB%96" title="代數數論">代數數論</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA" title="解析数论">解析数论</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%95%B0%E8%AE%BA" title="几何数论">几何数论</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%9C%AF%E5%87%A0%E4%BD%95" title="算术几何">算术几何</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%B8%A2%E7%95%AA%E5%9B%BE%E5%87%A0%E4%BD%95" title="丢番图几何">丢番图几何</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E6%8B%93%E6%89%91" title="代数拓扑">代数拓扑</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%8B%93%E6%89%91" title="微分拓扑">微分拓扑</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%8B%93%E6%89%91%E5%AD%A6" title="几何拓扑学">几何拓扑</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%B5%8B%E5%BA%A6" title="测度">测度与概率</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="数理统计学">数理统计学</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6" title="数据科学">数据科学</a></li>
+<li><a href="/wiki/%E6%8E%A8%E8%AB%96%E7%B5%B1%E8%A8%88%E5%AD%B8" title="推論統計學">统计推断</a></li>
+<li><a href="/wiki/%E8%BF%B4%E6%AD%B8%E5%88%86%E6%9E%90" title="迴歸分析">迴歸分析</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA" title="统计学习理论">统计学习理论</a></li>
+<li><a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a></li>
+<li><a href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">人工智能</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84" title="数据结构">数据结构</a>与<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%BF%90%E7%AE%97%E6%95%B0%E5%AD%A6" title="运算数学">计算数学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a href="/wiki/%E6%9C%80%E4%BC%98%E5%8C%96" title="最优化">最优化</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E6%A9%9F%E4%BB%A3%E6%95%B8%E7%B3%BB%E7%B5%B1" title="計算機代數系統">计算机代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6" title="应用数学">应用数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8E%A7%E5%88%B6%E8%AE%BA" title="控制论">控制论</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6" title="计算化学">计算化学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E7%94%9F%E7%89%A9%E5%AD%B8" title="數理生物學">数理生物学</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="数理经济学">数理经济学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="计量经济学">计量经济学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E9%87%91%E8%9E%8D%E5%AD%B8" title="數理金融學">數理金融學</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%BF%83%E7%90%86%E5%AD%A6" title="数学心理学">数学心理学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86" title="数学物理">数学物理学</a></li>
+<li><a href="/wiki/%E7%94%9F%E7%89%A9%E7%B5%B1%E8%A8%88%E5%AD%B8" title="生物統計學">生物統計學</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其它</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">数学史</a></li>
+<li><a href="/wiki/%E5%A8%9B%E6%A8%82%E6%95%B8%E5%AD%B8" title="娛樂數學">娱乐数学</a></li>
+<li><span class="ilh-all" data-foreign-title="Mathematics and art" data-lang-code="en" data-lang-name="英语" data-orig-title="数学与艺术"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF&amp;action=edit&amp;redlink=1" title="数学与艺术（页面不存在）">数学与艺术</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Mathematics_and_art" title="en:Mathematics and art"><span dir="auto" lang="en">Mathematics and art</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2" title="数学教育">数学教育</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">注释</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>数学的领域也可根据“<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E6%A0%87%E5%87%86" title="数学学科分类标准">MSC分类标准</a>”或“<a href="/wiki/%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86/110" title="中国学科分类国家标准/110">中国学科分类国家标准</a>”进行分类。</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E6%95%B0%E5%AD%A6" title="Category:数学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E6%95%B0%E5%AD%A6" title="Portal:数学">主题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Mathematics" title="commons:Category:Mathematics">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E6%95%B0%E5%AD%A6" title="WikiProject:数学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="Template:電腦科學"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="Template talk:電腦科學"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a>的主要领域</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>注：该模板大致遵循<a href="/wiki/ACM_%E7%94%B5%E8%84%91%E5%88%86%E7%B1%BB%E7%B3%BB%E7%BB%9F" title="ACM 电脑分类系统">ACM 电脑分类系统</a>。</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6" title="计算机硬件">计算机硬件</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E5%8D%B0%E5%88%B7%E7%94%B5%E8%B7%AF%E6%9D%BF" title="印刷电路板">印刷电路板</a></li>
+<li><a href="/wiki/%E5%A4%96%E9%83%A8%E8%AE%BE%E5%A4%87" title="外部设备">外部设备</a></li>
+<li><a href="/wiki/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF" title="集成电路">集成电路</a></li>
+<li><a href="/wiki/%E8%B6%85%E5%A4%A7%E8%A7%84%E6%A8%A1%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF" title="超大规模集成电路">超大规模集成电路</a></li>
+<li><a href="/wiki/%E7%BB%BF%E8%89%B2%E8%AE%A1%E7%AE%97" title="绿色计算">绿色计算</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%AD%90%E8%A8%AD%E8%A8%88%E8%87%AA%E5%8B%95%E5%8C%96" title="電子設計自動化">電子設計自動化</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84" title="系统架构">系统架构</a>组织</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84" title="计算机系统结构">電腦系統架構</a></li>
+<li><a href="/wiki/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F" title="嵌入式系统">嵌入式系统</a></li>
+<li><a href="/wiki/%E5%AE%9E%E6%97%B6%E8%AE%A1%E7%AE%97" title="实时计算">实时计算</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C" title="计算机网络">网络</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BD%91%E7%BB%9C%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" title="网络传输协议">网络传输协议</a></li>
+<li><a href="/wiki/%E8%B7%AF%E7%94%B1" title="路由">路由</a></li>
+<li><a href="/wiki/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91" title="网络拓扑">网络拓扑</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1" title="网络服务">网络服务</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">软件组织</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B4%E8%AD%AF%E5%99%A8" title="直譯器">直譯器</a></li>
+<li><a href="/wiki/%E4%B8%AD%E9%97%B4%E4%BB%B6" title="中间件">中间件</a></li>
+<li><a href="/wiki/%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8" title="虛擬機器">虛擬機器</a></li>
+<li><a href="/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" title="操作系统">操作系统</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F" title="软件质量">软件质量</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80%E7%90%86%E8%AB%96" title="程式語言理論">软件符号</a>和<a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" title="软件开发工具">工具</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B" title="编程范型">编程范型</a></li>
+<li><a href="/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80" title="编程语言">编程语言</a></li>
+<li><a href="/wiki/%E7%B7%A8%E8%AD%AF%E5%99%A8" title="編譯器">編譯器</a></li>
+<li><a href="/wiki/%E9%A2%86%E5%9F%9F%E7%89%B9%E5%AE%9A%E8%AF%AD%E8%A8%80" title="领域特定语言">领域特定语言</a></li>
+<li><a href="/wiki/%E8%BB%9F%E9%AB%94%E6%A1%86%E6%9E%B6" title="軟體框架">軟體框架</a></li>
+<li><a href="/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83" title="集成开发环境">集成开发环境</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86" title="软件配置管理">软件配置管理</a></li>
+<li><a href="/wiki/%E5%87%BD%E5%BC%8F%E5%BA%AB" title="函式庫">函式庫</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91" title="软件开发">软件开发</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B" title="软件开发过程">软件开发过程</a></li>
+<li><a href="/wiki/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" title="需求分析">需求分析</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1" title="软件设计">软件设计</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E9%83%A8%E7%BD%B2" title="软件部署">软件部署</a></li>
+<li><a href="/wiki/%E8%BB%9F%E9%AB%94%E7%B6%AD%E8%AD%B7" title="軟體維護">軟體維護</a></li>
+<li><a href="/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6" title="开源软件">开源模式</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E8%87%AA%E5%8A%A8%E6%9C%BA" title="自动机">自动机</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7" title="可计算性">可计算性理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7%E7%90%86%E8%AE%BA" title="计算复杂性理论">计算复杂性理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97" title="量子计算">量子计算</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95" title="数值计算方法">数值计算方法</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%BB%E8%BE%91" title="计算机逻辑">计算机逻辑</a></li>
+<li><a href="/wiki/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E4%B9%89%E5%AD%A6" title="形式语义学">形式语义学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90" title="算法分析">算法分析</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1" title="算法设计">算法设计</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%B3%95%E6%95%88%E7%8E%87" title="算法效率">算法效率</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机化算法</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95" title="计算几何">计算几何</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">计算数学</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6" title="离散数学">离散数学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BF%A1%E6%81%AF%E4%B8%8E%E8%AE%A1%E7%AE%97%E7%A7%91%E5%AD%A6" title="信息与计算科学">信息与计算科学</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E8%BD%AF%E4%BB%B6" title="数学软件">数学软件</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li>
+<li><a class="mw-selflink selflink">数论</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E7%B1%BB%E5%9E%8B%E8%AE%BA" title="类型论">类型论</a></li>
+<li><a href="/wiki/%E8%8C%83%E7%95%B4%E8%AE%BA" title="范畴论">范畴论</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F" title="信息系统">信息系统</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F" title="数据库管理系统">数据库管理系统</a></li>
+<li><a href="/wiki/%E9%9B%BB%E8%85%A6%E6%95%B8%E6%93%9A%E5%AD%98%E8%B2%AF%E5%99%A8" title="電腦數據存貯器">電腦數據</a></li>
+<li><span class="ilh-all" data-foreign-title="Enterprise information system" data-lang-code="en" data-lang-name="英语" data-orig-title="企业信息系统"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F&amp;action=edit&amp;redlink=1" title="企业信息系统（页面不存在）">企业信息系统</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Enterprise_information_system" title="en:Enterprise information system"><span dir="auto" lang="en">Enterprise information system</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E7%A4%BE%E4%BC%9A%E6%80%A7%E8%BD%AF%E4%BB%B6" title="社会性软件">社会性软件</a></li>
+<li><a href="/wiki/%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F" title="地理信息系统">地理信息系统</a></li>
+<li><a href="/wiki/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F" title="决策支持系统">决策支持系统</a></li>
+<li><a href="/wiki/%E8%BF%87%E7%A8%8B%E6%8E%A7%E5%88%B6" title="过程控制">过程控制</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98" title="数据挖掘">数据挖掘</a></li>
+<li><a href="/wiki/%E6%95%B8%E4%BD%8D%E5%9C%96%E6%9B%B8%E9%A4%A8" title="數位圖書館">數位圖書館</a></li>
+<li><a href="/wiki/%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0" title="系统平台">系统平台</a></li>
+<li><a href="/wiki/%E6%95%B8%E4%BD%8D%E8%A1%8C%E9%8A%B7" title="數位行銷">數位行銷</a></li>
+<li><a href="/wiki/%E4%B8%87%E7%BB%B4%E7%BD%91" title="万维网">万维网</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E6%AA%A2%E7%B4%A2" title="信息檢索">信息檢索</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8" title="计算机安全">安全</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%AF%86%E7%A0%81%E5%AD%A6" title="密码学">密码学</a></li>
+<li><a href="/wiki/%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95" title="形式化方法">形式化方法</a></li>
+<li><a href="/wiki/%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F" title="入侵检测系统">入侵检测系统</a></li>
+<li><a href="/wiki/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8" title="网络安全">网络安全</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8" title="信息安全">信息安全</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92" title="人机交互">人机交互</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E5%8A%9F%E8%83%BD" title="计算机辅助功能">计算机辅助功能</a></li>
+<li><a href="/wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2" title="用户界面">用户界面</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%8F%AF%E7%A9%BF%E6%88%B4%E8%AE%A1%E7%AE%97%E6%9C%BA" title="可穿戴计算机">可穿戴计算机</a></li>
+<li><a href="/wiki/%E6%99%AE%E9%80%82%E8%AE%A1%E7%AE%97" title="普适计算">普适计算</a></li>
+<li><a href="/wiki/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E" title="虚拟现实">虚拟现实</a></li>
+<li><a href="/wiki/%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA" title="聊天機器人">聊天機器人</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%B9%B6%E5%8F%91%E6%80%A7" title="并发性">并发性</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%B9%B6%E5%8F%91%E8%AE%A1%E7%AE%97" title="并发计算">并发计算</a></li>
+<li><a href="/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97" title="并行计算">并行计算</a></li>
+<li><a href="/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97" title="分布式计算">分布式计算</a></li>
+<li><a href="/wiki/%E5%A4%9A%E7%BA%BF%E7%A8%8B" title="多线程">多线程</a></li>
+<li><a href="/wiki/%E5%A4%9A%E5%85%83%E8%99%95%E7%90%86" title="多元處理">多元處理</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">人工智能</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%87%AA%E5%8A%A8%E6%8E%A8%E7%90%86" title="自动推理">自动推理</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E8%AF%AD%E8%A8%80%E5%AD%A6" title="计算语言学">计算语言学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89" title="计算机视觉">计算机视觉</a></li>
+<li><a href="/wiki/%E8%BF%9B%E5%8C%96%E8%AE%A1%E7%AE%97" title="进化计算">进化计算</a></li>
+<li><a href="/wiki/%E4%B8%93%E5%AE%B6%E7%B3%BB%E7%BB%9F" title="专家系统">专家系统</a></li>
+<li><a href="/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86" title="自然语言处理">自然语言处理</a></li>
+<li><a href="/wiki/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6" title="机器人学">机器人学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E7%9B%A3%E7%9D%A3%E5%BC%8F%E5%AD%B8%E7%BF%92" title="監督式學習">監督式學習</a></li>
+<li><a href="/wiki/%E7%84%A1%E7%9B%A3%E7%9D%A3%E5%AD%B8%E7%BF%92" title="無監督學習">無監督學習</a></li>
+<li><a href="/wiki/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0" title="强化学习">强化学习</a></li>
+<li><a href="/wiki/%E4%BA%A4%E5%8F%89%E9%A9%97%E8%AD%89" title="交叉驗證">交叉驗證</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6" title="计算机图形学">计算机图形学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8A%A8%E7%94%BB" title="计算机动画">计算机动画</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%8F%AF%E8%A7%86%E5%8C%96_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6)&amp;action=edit&amp;redlink=1" title="可视化 (计算机图形学)（页面不存在）">可视化</a></li>
+<li><a href="/wiki/%E6%B8%B2%E6%9F%93" title="渲染">渲染</a></li>
+<li><a href="/wiki/%E4%BF%AE%E9%A3%BE%E7%85%A7%E7%89%87" title="修飾照片">修飾照片</a></li>
+<li><a href="/wiki/%E5%9C%96%E5%BD%A2%E8%99%95%E7%90%86%E5%99%A8" title="圖形處理器">圖形處理器</a></li>
+<li><a href="/wiki/%E6%B7%B7%E5%90%88%E7%8E%B0%E5%AE%9E" title="混合现实">混合现实</a></li>
+<li><a href="/wiki/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E" title="虚拟现实">虚拟现实</a></li>
+<li><a href="/wiki/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86" title="图像处理">图像处理</a></li>
+<li><a href="/wiki/%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9" title="图像压缩">图像压缩</a></li>
+<li><a href="/wiki/%E5%AE%9E%E4%BD%93%E9%80%A0%E5%9E%8B" title="实体造型">实体造型</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">应用计算</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1" title="电子商务">电子商务</a></li>
+<li><a href="/wiki/%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%BD%AF%E4%BB%B6" title="企业级软件">企业级软件</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AE%A1%E7%AE%97%E6%95%B0%E5%AD%A6" title="计算数学">计算数学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6" title="计算物理学">计算物理学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6" title="计算化学">计算化学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%94%9F%E7%89%A9%E5%AD%A6" title="计算生物学">计算生物学</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8" title="計算社會科學">計算社會科學</a></li>
+<li><a href="/wiki/%E5%8C%BB%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6" title="医学信息学">医学信息学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF" title="数字艺术">数字艺术</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%AD%90%E5%87%BA%E7%89%88" title="電子出版">電子出版</a></li>
+<li><a href="/wiki/%E7%B6%B2%E7%B5%A1%E6%88%B0" title="網絡戰">網絡戰</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F" title="电子游戏">电子游戏</a></li>
+<li><a href="/wiki/%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%99%A8" title="文字处理器">文字处理器</a></li>
+<li><a href="/wiki/%E9%81%8B%E7%B1%8C%E5%AD%B8" title="運籌學">運籌學</a></li>
+<li><a href="/wiki/%E6%95%99%E8%82%B2%E6%8A%80%E6%9C%AF%E5%AD%A6" title="教育技术学">教育技术学</a></li>
+<li><a href="/wiki/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6" title="生物信息学">生物信息学</a></li>
+<li><a href="/wiki/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6" title="认知科学">认知科学</a></li>
+<li><span class="ilh-all" data-foreign-title="Document management system" data-lang-code="en" data-lang-name="英语" data-orig-title="文件管理系统"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;action=edit&amp;redlink=1" title="文件管理系统（页面不存在）">文件管理系统</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Document_management_system" title="en:Document management system"><span dir="auto" lang="en">Document management system</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="Category:计算机科学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80" title="Portal:資訊科技">主题</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E7%94%B5%E8%84%91%E5%92%8C%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF" title="WikiProject:电脑和信息技术">专题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Computer_science" title="commons:Category:Computer science">维基共享</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q12479" title="編輯維基數據鏈接"><img alt="編輯維基數據鏈接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="西班牙国家图书馆">BNE</a>: <span class="uid"><a class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX4703223" rel="nofollow">XX4703223</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%B3%95%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="法国国家图书馆">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb131627085" rel="nofollow">cb131627085</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb131627085" rel="nofollow">(data)</a></span></span></li>
+<li><span class="nowrap"><a class="extiw" href="https://www.wikidata.org/wiki/Property:P2163" title="d:Property:P2163">FAST</a>: <span class="uid"><a class="external text" href="//experimental.worldcat.org/fast/1041214" rel="nofollow">1041214</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4067277-3" rel="nofollow">4067277-3</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E4%BC%9A%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%A7%E5%88%B6%E5%8F%B7" title="美国国会图书馆控制号">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh85093222" rel="nofollow">sh85093222</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%9C%8B%E7%AB%8B%E5%9C%8B%E6%9C%83%E5%9C%96%E6%9B%B8%E9%A4%A8" title="國立國會圖書館">NDL</a>: <span class="uid"><a class="external text" href="https://id.ndl.go.jp/auth/ndlna/00570429" rel="nofollow">00570429</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8D%B7%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="捷克国家图书馆">NKC</a>: <span class="uid"><a class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph126576&amp;CON_LNG=ENG" rel="nofollow">ph126576</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%A4%A7%E5%AD%B8%E6%96%87%E6%AA%94%E7%B3%BB%E7%B5%B1" title="大學文檔系統">SUDOC</a>: <span class="uid"><a class="external text" href="https://www.idref.fr/027270475" rel="nofollow">027270475</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1375
+Cached time: 20221010113719
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.788 seconds
+Real time usage: 1.016 seconds
+Preprocessor visited node count: 3914/1000000
+Post‐expand include size: 116366/2097152 bytes
+Template argument size: 8900/2097152 bytes
+Highest expansion depth: 24/100
+Expensive parser function count: 23/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 18138/5000000 bytes
+Lua time usage: 0.400/10.000 seconds
+Lua memory usage: 19318193/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  776.485      1 -total
+ 17.52%  136.040      1 Template:Lang-en
+ 17.23%  133.751      1 Template:Multiple_issues
+ 13.81%  107.221      1 Template:Reflist
+ 13.14%  102.021      3 Template:Ambox
+ 11.67%   90.609      2 Template:Hatnote
+  9.76%   75.765      1 Template:Otheruses
+  9.35%   72.568     18 Template:Sfn
+  8.50%   66.018      1 Template:Expand_language
+  7.93%   61.609      2 Template:Navbox
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:345-0!canonical!zh and timestamp 20221010113718 and revision id 72470428.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=数论&amp;oldid=72470428">https://zh.wikipedia.org/w/index.php?title=数论&amp;oldid=72470428</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a class="new" href="/w/index.php?title=Category:%E8%87%AA2022%E5%B9%B44%E6%9C%88%E9%9C%80%E8%A6%81%E6%B8%85%E7%90%86%E5%B0%8E%E8%A8%80%E7%9A%84%E9%A0%81%E9%9D%A2&amp;action=edit&amp;redlink=1" title="Category:自2022年4月需要清理導言的頁面（页面不存在）">自2022年4月需要清理導言的頁面</a></li><li><a href="/wiki/Category:%E6%95%B0%E8%AE%BA" title="Category:数论">数论</a></li><li><a href="/wiki/Category:%E6%95%B0%E5%AD%A6%E5%88%86%E6%94%AF" title="Category:数学分支">数学分支</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E6%A8%A1%E6%9D%BF%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%97%A0%E6%95%88%E6%97%A5%E6%9C%9F%E5%8F%82%E6%95%B0%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:模板中使用无效日期参数的条目">模板中使用无效日期参数的条目</a></li><li><a href="/wiki/Category:%E8%87%AA2022%E5%B9%B44%E6%9C%88%E9%9C%80%E8%A6%81%E5%BE%9E%E8%8B%B1%E8%AA%9E%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%BF%BB%E8%AD%AF%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:自2022年4月需要從英語維基百科翻譯的條目">自2022年4月需要從英語維基百科翻譯的條目</a></li><li><a href="/wiki/Category:%E9%9C%80%E8%A6%81%E5%BE%9E%E8%8B%B1%E8%AA%9E%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%BF%BB%E8%AD%AF%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:需要從英語維基百科翻譯的條目">需要從英語維基百科翻譯的條目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E5%A4%9A%E4%B8%AA%E9%97%AE%E9%A2%98%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:含有多个问题的条目">含有多个问题的条目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英語的條目">含有英語的條目</a></li><li><a href="/wiki/Category:CS1%E6%B3%95%E8%AF%AD%E6%9D%A5%E6%BA%90_(fr)" title="Category:CS1法语来源 (fr)">CS1法语来源 (fr)</a></li><li><a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E6%97%A5%E6%9C%9F%E4%B8%8E%E5%B9%B4" title="Category:引文格式1维护：日期与年">引文格式1维护：日期与年</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNE%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNE标识符的维基百科条目">包含BNE标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNF%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNF标识符的维基百科条目">包含BNF标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABFAST%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含FAST标识符的维基百科条目">包含FAST标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLCCN%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LCCN标识符的维基百科条目">包含LCCN标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNDL%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NDL标识符的维基百科条目">包含NDL标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNKC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NKC标识符的维基百科条目">包含NKC标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABSUDOC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含SUDOC标识符的维基百科条目">包含SUDOC标识符的维基百科条目</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E6%95%B0%E8%AE%BA" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E6%95%B0%E8%AE%BA" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E6%95%B0%E8%AE%BA" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E6%95%B0%E8%AE%BA" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E6%95%B0%E8%AE%BA" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant" lang="zh-Hant"><span>繁體</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁體</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳門繁體</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E6%95%B0%E8%AE%BA" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E6%95%B0%E8%AE%BA" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>臺灣正體</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E6%95%B0%E8%AE%BA"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在維基百科受益良多，您可以考慮資助我們"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E6%95%B0%E8%AE%BA" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E6%95%B0%E8%AE%BA" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;oldid=72470428" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E6%95%B0%E8%AE%BA&amp;id=72470428&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q12479" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E6%95%B0%E8%AE%BA&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Number_theory" hreflang="en"><span>维基共享资源</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://zh.wikibooks.org/wiki/%E5%88%9D%E7%AD%89%E6%95%B0%E8%AE%BA" hreflang="zh"><span>维基教科书</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Getalteorie" hreflang="af" lang="af" title="Getalteorie – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Zahlentheorie" hreflang="gsw" lang="gsw" title="Zahlentheorie – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Teor%C3%ADa_de_numeros" hreflang="an" lang="an" title="Teoría de numeros – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D8%B9%D8%AF%D8%A7%D8%AF" hreflang="ar" lang="ar" title="نظرية الأعداد – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ary mw-list-item"><a class="interlanguage-link-target" href="https://ary.wikipedia.org/wiki/%D8%B7%D9%8A%D9%88%D8%B1%D9%8A_%D8%AF_%D9%84%D8%A3%D8%B9%D8%AF%D8%A7%D8%AF" hreflang="ary" lang="ary" title="طيوري د لأعداد – 摩洛哥阿拉伯文"><span>الدارجة</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" hreflang="as" lang="as" title="সংখ্যাতত্ত্ব – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Teor%C3%ADa_de_n%C3%BAmberos" hreflang="ast" lang="ast" title="Teoría de númberos – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/%C6%8Fd%C9%99dl%C9%99r_n%C9%99z%C9%99riyy%C9%99si" hreflang="az" lang="az" title="Ədədlər nəzəriyyəsi – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D2%BA%D0%B0%D0%BD%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D2%BB%D1%8B" hreflang="ba" lang="ba" title="Һандар теорияһы – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Teorya_nin_bilang" hreflang="bcl" lang="bcl" title="Teorya nin bilang – Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BE%D1%80%D1%8B%D1%8F_%D0%BB%D1%96%D0%BA%D0%B0%D1%9E" hreflang="be" lang="be" title="Тэорыя лікаў – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%A2%D1%8D%D0%BE%D1%80%D1%8B%D1%8F_%D0%BB%D1%96%D0%BA%D0%B0%D1%9E" hreflang="be-tarask" lang="be-tarask" title="Тэорыя лікаў – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D0%BD%D0%B0_%D1%87%D0%B8%D1%81%D0%BB%D0%B0%D1%82%D0%B0" hreflang="bg" lang="bg" title="Теория на числата – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A4%E0%A6%A4%E0%A7%8D%E0%A6%A4%E0%A7%8D%E0%A6%AC" hreflang="bn" lang="bn" title="সংখ্যাতত্ত্ব – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Damkaniezh_an_nivero%C3%B9" hreflang="br" lang="br" title="Damkaniezh an niveroù – 布列塔尼语"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Teorija_brojeva" hreflang="bs" lang="bs" title="Teorija brojeva – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Teoria_de_nombres" hreflang="ca" lang="ca" title="Teoria de nombres – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AA%DB%8C%DB%86%D8%B1%DB%8C%DB%8C_%DA%98%D9%85%D8%A7%D8%B1%DB%95" hreflang="ckb" lang="ckb" title="تیۆریی ژمارە – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Teorie_%C4%8D%C3%ADsel" hreflang="cs" lang="cs" title="Teorie čísel – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A5%D0%B8%D1%81%D0%B5%D0%BF%D1%81%D0%B5%D0%BD_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D0%B9%C4%95" hreflang="cv" lang="cv" title="Хисепсен теорийĕ – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Damcaniaeth_rhifau" hreflang="cy" lang="cy" title="Damcaniaeth rhifau – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Talteori" hreflang="da" lang="da" title="Talteori – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Zahlentheorie" hreflang="de" lang="de" title="Zahlentheorie – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1_%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CF%8E%CE%BD" hreflang="el" lang="el" title="Θεωρία αριθμών – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Number_theory" hreflang="en" lang="en" title="Number theory – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Nombroteorio" hreflang="eo" lang="eo" title="Nombroteorio – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Teor%C3%ADa_de_n%C3%BAmeros" hreflang="es" lang="es" title="Teoría de números – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Arvuteooria" hreflang="et" lang="et" title="Arvuteooria – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Zenbakien_teoria" hreflang="eu" lang="eu" title="Zenbakien teoria – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%D9%87_%D8%A7%D8%B9%D8%AF%D8%A7%D8%AF" hreflang="fa" lang="fa" title="نظریه اعداد – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Lukuteoria" hreflang="fi" lang="fi" title="Lukuteoria – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/Arvoteooria" hreflang="vro" lang="vro" title="Arvoteooria – võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-fj mw-list-item"><a class="interlanguage-link-target" href="https://fj.wikipedia.org/wiki/Naba_icavacava" hreflang="fj" lang="fj" title="Naba icavacava – 斐济语"><span>Na Vosa Vakaviti</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Th%C3%A9orie_des_nombres" hreflang="fr" lang="fr" title="Théorie des nombres – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Taalenteorii" hreflang="frr" lang="frr" title="Taalenteorii – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Uimhirtheoiric" hreflang="ga" lang="ga" title="Uimhirtheoiric – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E6%95%B8%E8%AB%96" hreflang="gan" lang="gan" title="數論 – 赣语"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/T%C3%A9ori_di_s%C3%A9_nonm" hreflang="gcr" lang="gcr" title="Téori di sé nonm – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Teor%C3%ADa_de_n%C3%BAmeros" hreflang="gl" lang="gl" title="Teoría de números – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%B8%E0%AA%82%E0%AA%96%E0%AB%8D%E0%AA%AF%E0%AA%BE_%E0%AA%B8%E0%AA%BF%E0%AA%A6%E0%AB%8D%E0%AA%A7%E0%AA%BE%E0%AA%82%E0%AA%A4" hreflang="gu" lang="gu" title="સંખ્યા સિદ્ધાંત – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%A8%D7%AA_%D7%94%D7%9E%D7%A1%D7%A4%D7%A8%D7%99%D7%9D" hreflang="he" lang="he" title="תורת המספרים – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE_%E0%A4%B8%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4" hreflang="hi" lang="hi" title="संख्या सिद्धान्त – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Number_theory" hreflang="hif" lang="hif" title="Number theory – 斐濟印地文"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Teorija_brojeva" hreflang="hr" lang="hr" title="Teorija brojeva – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Sz%C3%A1melm%C3%A9let" hreflang="hu" lang="hu" title="Számelmélet – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B9%D5%BE%D5%A5%D6%80%D5%AB_%D5%BF%D5%A5%D5%BD%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Թվերի տեսություն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Theoria_de_numeros" hreflang="ia" lang="ia" title="Theoria de numeros – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Teori_bilangan" hreflang="id" lang="id" title="Teori bilangan – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Talnafr%C3%A6%C3%B0i" hreflang="is" lang="is" title="Talnafræði – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Teoria_dei_numeri" hreflang="it" lang="it" title="Teoria dei numeri – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E6%95%B0%E8%AB%96" hreflang="ja" lang="ja" title="数論 – 日语"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Nomba_tiori" hreflang="jam" lang="jam" title="Nomba tiori – 牙買加克里奧爾英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a class="interlanguage-link-target" href="https://jbo.wikipedia.org/wiki/nacycmaci" hreflang="jbo" lang="jbo" title="nacycmaci – 逻辑语"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/T%C3%A9ori_wilangan" hreflang="jv" lang="jv" title="Téori wilangan – 爪哇语"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%A0%E1%83%98%E1%83%AA%E1%83%AE%E1%83%95%E1%83%97%E1%83%90_%E1%83%97%E1%83%94%E1%83%9D%E1%83%A0%E1%83%98%E1%83%90" hreflang="ka" lang="ka" title="რიცხვთა თეორია – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BD%D0%B4%D0%B0%D1%80_%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%D1%81%D1%8B" hreflang="kk" lang="kk" title="Сандар теориясы – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%A0%95%EC%88%98%EB%A1%A0" hreflang="ko" lang="ko" title="정수론 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a class="interlanguage-link-target" href="https://ku.wikipedia.org/wiki/B%C3%AErdoza_jimare" hreflang="ku" lang="ku" title="Bîrdoza jimare – 库尔德语"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-la badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Theoria_numerorum" hreflang="la" lang="la" title="Theoria numerorum – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Zuelentheorie" hreflang="lb" lang="lb" title="Zuelentheorie – 卢森堡语"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Skai%C4%8Di%C5%B3_teorija" hreflang="lt" lang="lt" title="Skaičių teorija – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Skait%C4%BCu_teorija" hreflang="lv" lang="lv" title="Skaitļu teorija – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%BD%D0%B0_%D0%B1%D1%80%D0%BE%D0%B5%D0%B2%D0%B8%D1%82%D0%B5" hreflang="mk" lang="mk" title="Теорија на броевите – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B4%82%E0%B4%96%E0%B5%8D%E0%B4%AF%E0%B4%BE%E0%B4%B8%E0%B4%BF%E0%B4%A6%E0%B5%8D%E0%B4%A7%E0%B4%BE%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="സംഖ്യാസിദ്ധാന്തം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A2%D0%BE%D0%BE%D0%BD%D1%8B_%D0%BE%D0%BD%D0%BE%D0%BB" hreflang="mn" lang="mn" title="Тооны онол – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%95%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0" hreflang="mr" lang="mr" title="अंकशास्त्र – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Teori_nombor" hreflang="ms" lang="ms" title="Teori nombor – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a class="interlanguage-link-target" href="https://mt.wikipedia.org/wiki/Teorija_tan-numri" hreflang="mt" lang="mt" title="Teorija tan-numri – 马耳他语"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%80%E1%80%AD%E1%80%94%E1%80%BA%E1%80%B8%E1%80%9E%E1%80%AE%E1%80%A1%E1%80%AD%E1%80%AF%E1%80%9B%E1%80%AE" hreflang="my" lang="my" title="ကိန်းသီအိုရီ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Tallentheorie" hreflang="nds" lang="nds" title="Tallentheorie – 低地德语"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Getaltheorie" hreflang="nl" lang="nl" title="Getaltheorie – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Talteori" hreflang="nn" lang="nn" title="Talteori – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Tallteori" hreflang="nb" lang="nb" title="Tallteori – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Teoria_dels_nombres" hreflang="oc" lang="oc" title="Teoria dels nombres – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A9%B0%E0%A8%95_%E0%A8%B8%E0%A8%BF%E0%A8%A7%E0%A8%BE%E0%A8%82%E0%A8%A4" hreflang="pa" lang="pa" title="ਅੰਕ ਸਿਧਾਂਤ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Teoria_liczb" hreflang="pl" lang="pl" title="Teoria liczb – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Teor%C3%ACa_dij_n%C3%B9mer" hreflang="pms" lang="pms" title="Teorìa dij nùmer – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%86%D9%85%D8%A8%D8%B1_%D8%AA%DA%BE%DB%8C%D9%88%D8%B1%DB%8C" hreflang="pnb" lang="pnb" title="نمبر تھیوری – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Teoria_dos_n%C3%BAmeros" hreflang="pt" lang="pt" title="Teoria dos números – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Teoria_numerelor" hreflang="ro" lang="ro" title="Teoria numerelor – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%8F_%D1%87%D0%B8%D1%81%D0%B5%D0%BB" hreflang="ru" lang="ru" title="Теория чисел – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sa mw-list-item"><a class="interlanguage-link-target" href="https://sa.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B6%E0%A4%BE%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A5%8D" hreflang="sa" lang="sa" title="संख्याशास्त्रम् – 梵语"><span>संस्कृतम्</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%A1%D0%B0%D0%B0%D0%BC%D0%B0%D0%B9_%D1%83%D0%BB%D0%B0%D1%85%D0%B0%D0%BD_%D1%83%D0%BE%D0%BF%D1%81%D0%B0%D0%B9_%D1%82%D2%AF%D2%A5%D1%8D%D1%82%D1%8D%D1%8D%D1%87%D1%87%D0%B8" hreflang="sah" lang="sah" title="Саамай улахан уопсай түҥэтээччи – 萨哈语"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Tiur%C3%ACa_d%C3%AE_n%C3%B9mmura" hreflang="scn" lang="scn" title="Tiurìa dî nùmmura – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Nummer_theory" hreflang="sco" lang="sco" title="Nummer theory – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Teorija_brojeva" hreflang="sh" lang="sh" title="Teorija brojeva – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Number_theory" hreflang="en-simple" lang="en-simple" title="Number theory – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Te%C3%B3ria_%C4%8D%C3%ADsel" hreflang="sk" lang="sk" title="Teória čísel – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Teorija_%C5%A1tevil" hreflang="sl" lang="sl" title="Teorija števil – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Teoria_e_numrave" hreflang="sq" lang="sq" title="Teoria e numrave – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D0%B8%D1%98%D0%B0_%D0%B1%D1%80%D0%BE%D1%98%D0%B5%D0%B2%D0%B0" hreflang="sr" lang="sr" title="Теорија бројева – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Talteori" hreflang="sv" lang="sv" title="Talteori – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Nadharia_ya_namba" hreflang="sw" lang="sw" title="Nadharia ya namba – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%8E%E0%AE%A3%E0%AF%8D_%E0%AE%95%E0%AF%8B%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AE%BE%E0%AE%9F%E0%AF%81" hreflang="ta" lang="ta" title="எண் கோட்பாடு – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99" hreflang="th" lang="th" title="ทฤษฎีจำนวน – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tk mw-list-item"><a class="interlanguage-link-target" href="https://tk.wikipedia.org/wiki/Sanlar_teori%C3%BDasy" hreflang="tk" lang="tk" title="Sanlar teoriýasy – 土库曼语"><span>Türkmençe</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Teorya_ng_bilang" hreflang="tl" lang="tl" title="Teorya ng bilang – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Say%C4%B1lar_teorisi" hreflang="tr" lang="tr" title="Sayılar teorisi – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BE%D1%80%D1%96%D1%8F_%D1%87%D0%B8%D1%81%D0%B5%D0%BB" hreflang="uk" lang="uk" title="Теорія чисел – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%86%D8%B8%D8%B1%DB%8C%DB%82_%D8%B9%D8%AF%D8%AF" hreflang="ur" lang="ur" title="نظریۂ عدد – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Sonlar_nazariyasi" hreflang="uz" lang="uz" title="Sonlar nazariyasi – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/L%C3%BD_thuy%E1%BA%BFt_s%E1%BB%91" hreflang="vi" lang="vi" title="Lý thuyết số – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-vo mw-list-item"><a class="interlanguage-link-target" href="https://vo.wikipedia.org/wiki/Numateor" hreflang="vo" lang="vo" title="Numateor – 沃拉普克语"><span>Volapük</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Teyorya_hin_ihap" hreflang="war" lang="war" title="Teyorya hin ihap – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E6%95%B0%E8%AE%BA" hreflang="wuu" lang="wuu" title="数论 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A0%D7%95%D7%9E%D7%A2%D7%A8%D7%9F_%D7%98%D7%A2%D7%90%D7%A8%D7%99%D7%A2" hreflang="yi" lang="yi" title="נומערן טעאריע – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/S%C3%B2%CD%98-l%C5%ABn" hreflang="nan" lang="nan" title="Sò͘-lūn – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E8%AB%96" hreflang="yue" lang="yue" title="數論 – Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q12479#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年7月2日 (星期六) 10:49。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E6%95%B0%E8%AE%BA&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.788","walltime":"1.016","ppvisitednodes":{"value":3914,"limit":1000000},"postexpandincludesize":{"value":116366,"limit":2097152},"templateargumentsize":{"value":8900,"limit":2097152},"expansiondepth":{"value":24,"limit":100},"expensivefunctioncount":{"value":23,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":18138,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  776.485      1 -total"," 17.52%  136.040      1 Template:Lang-en"," 17.23%  133.751      1 Template:Multiple_issues"," 13.81%  107.221      1 Template:Reflist"," 13.14%  102.021      3 Template:Ambox"," 11.67%   90.609      2 Template:Hatnote","  9.76%   75.765      1 Template:Otheruses","  9.35%   72.568     18 Template:Sfn","  8.50%   66.018      1 Template:Expand_language","  7.93%   61.609      2 Template:Navbox"]},"scribunto":{"limitreport-timeusage":{"value":"0.400","limit":"10.000"},"limitreport-memusage":{"value":19318193,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFApostol1976\"] = 1,\n    [\"CITEREFApostoln.d.\"] = 1,\n    [\"CITEREFEdwards1983\"] = 1,\n    [\"CITEREFHeath1921\"] = 1,\n    [\"CITEREFMahoney1994\"] = 1,\n    [\"CITEREFTanneryHenry1891\"] = 1,\n    [\"CITEREFVaradarajan2006\"] = 1,\n    [\"CITEREFWeil1984\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"-\"] = 1,\n    [\"Authority control\"] = 1,\n    [\"Citation\"] = 1,\n    [\"Cite book\"] = 5,\n    [\"Cite journal\"] = 2,\n    [\"Cite web\"] = 1,\n    [\"Computer_Science\"] = 1,\n    [\"En\"] = 1,\n    [\"Expand language\"] = 1,\n    [\"Harvid\"] = 1,\n    [\"Harvnb\"] = 12,\n    [\"Lang-en\"] = 1,\n    [\"Lead too short\"] = 1,\n    [\"Link-en\"] = 5,\n    [\"Multiple issues\"] = 1,\n    [\"Not\"] = 1,\n    [\"NoteTag\"] = 1,\n    [\"Notefoot\"] = 1,\n    [\"Notetag\"] = 2,\n    [\"Otheruses\"] = 1,\n    [\"Quote\"] = 1,\n    [\"Refbegin\"] = 1,\n    [\"Refend\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Sfn\"] = 18,\n    [\"Tsl\"] = 1,\n    [\"Wayback\"] = 1,\n    [\"数学主要领域\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1375","timestamp":"20221010113719","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6570\u8bba","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%95%B0%E8%AE%BA","sameAs":"http:\/\/www.wikidata.org\/entity\/Q12479","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q12479","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-02T03:14:55Z","dateModified":"2022-07-02T10:49:00Z","headline":"\u7d14\u6578\u5b78\u7684\u4e00\u500b\u5206\u652f\u4e3b\u8981\u81f4\u529b\u65bc\u6574\u6578\u7684\u7814\u7a76"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6570\u8bba","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%95%B0%E8%AE%BA","sameAs":"http:\/\/www.wikidata.org\/entity\/Q12479","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q12479","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-02T03:14:55Z","dateModified":"2022-07-02T10:49:00Z","headline":"\u7d14\u6578\u5b78\u7684\u4e00\u500b\u5206\u652f\u4e3b\u8981\u81f4\u529b\u65bc\u6574\u6578\u7684\u7814\u7a76"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":138,"wgHostname":"mw1441"});});</script>
+</body>
+</html>

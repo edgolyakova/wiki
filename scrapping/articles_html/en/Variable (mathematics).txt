@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Variable (mathematics) - Wikipedia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"4b8abc8e-0437-45e5-a9df-1f0008cf1b8e","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Variable_(mathematics)","wgTitle":"Variable (mathematics)","wgCurRevisionId":1114467820,"wgRevisionId":1114467820,"wgArticleId":3728109,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1: Julian–Gregorian uncertainty","Articles with short description","Short description is different from Wikidata","Use mdy dates from November 2021","Variables (mathematics)","Algebra","Calculus","Elementary mathematics","Syntax (logic)","Mathematical logic"],
+"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Variable_(mathematics)","wgRelevantArticleId":3728109,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q50701","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,
+"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","skins.vector.styles.legacy":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","ext.scribunto.logs","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips",
+"ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Variable (mathematics) - Wikipedia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//en.m.wikipedia.org/wiki/Variable_(mathematics)" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Variable_(mathematics)&amp;action=edit" rel="alternate" title="Edit this page" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (en)" type="application/opensearchdescription+xml"/>
+<link href="//en.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://en.wikipedia.org/wiki/Variable_(mathematics)" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Variable_mathematics rootpage-Variable_mathematics skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Variable (mathematics)</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">From Wikipedia, the free encyclopedia</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+<a class="mw-jump-link" href="#searchInput">Jump to search</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="en"><div class="mw-parser-output"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Symbol representing a mathematical object</div>
+<style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div class="hatnote navigation-not-searchable" role="note">For variables in computer science, see <a href="/wiki/Variable_(computer_science)" title="Variable (computer science)">Variable (computer science)</a>. For other uses, see <a class="mw-redirect mw-disambig" href="/wiki/Variable_(disambiguation)" title="Variable (disambiguation)">Variable (disambiguation)</a>.</div>
+<p>
+In <a href="/wiki/Mathematics" title="Mathematics">mathematics</a>, a <b>variable</b> (from <a class="mw-redirect" href="/wiki/Latin_language" title="Latin language">Latin</a> <i><a class="extiw" href="https://en.wiktionary.org/wiki/variabilis" title="wikt:variabilis">variabilis</a></i>, "changeable") is a <a class="mw-redirect" href="/wiki/Mathematical_symbol" title="Mathematical symbol">symbol</a> and placeholder for any <a href="/wiki/Mathematical_object" title="Mathematical object">mathematical object</a>. In particular, a variable may represent a <a href="/wiki/Number" title="Number">number</a>, a <a class="mw-redirect" href="/wiki/Vector_(mathematics)" title="Vector (mathematics)">vector</a>, a <a href="/wiki/Matrix_(mathematics)" title="Matrix (mathematics)">matrix</a>, a <a href="/wiki/Function_(mathematics)" title="Function (mathematics)">function</a>, the <a href="/wiki/Argument_of_a_function" title="Argument of a function">argument of a function</a>, a <a href="/wiki/Set_(mathematics)" title="Set (mathematics)">set</a>, or an <a href="/wiki/Element_(mathematics)" title="Element (mathematics)">element</a> of a set.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>
+</p><p><a href="/wiki/Algebra#Algebra_as_a_branch_of_mathematics" title="Algebra">Algebraic computations</a> with variables as if they were explicit numbers solve a range of problems in a single computation. For example, the <a href="/wiki/Quadratic_formula" title="Quadratic formula">quadratic formula</a> solves any <a href="/wiki/Quadratic_equation" title="Quadratic equation">quadratic equation</a> by substituting the numeric values of the coefficients of that <a href="/wiki/Equation" title="Equation">equation</a> for the variables that represent them in the quadratic formula. In <a href="/wiki/Mathematical_logic" title="Mathematical logic">mathematical logic</a>, a <i>variable</i> is either a symbol representing an unspecified <a href="/wiki/Term_(logic)" title="Term (logic)">term</a> of the theory (a <a href="/wiki/Metavariable" title="Metavariable">meta-variable</a>), or a basic object of the theory that is manipulated without referring to its possible intuitive interpretation.
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="en"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#History"><span class="tocnumber">1</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Notation"><span class="tocnumber">2</span> <span class="toctext">Notation</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Specific_kinds_of_variables"><span class="tocnumber">3</span> <span class="toctext">Specific kinds of variables</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#Dependent_and_independent_variables"><span class="tocnumber">3.1</span> <span class="toctext">Dependent and independent variables</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Examples"><span class="tocnumber">3.2</span> <span class="toctext">Examples</span></a>
+<ul>
+<li class="toclevel-3 tocsection-6"><a href="#Example:_the_ideal_gas_law"><span class="tocnumber">3.2.1</span> <span class="toctext">Example: the ideal gas law</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Moduli_spaces"><span class="tocnumber">4</span> <span class="toctext">Moduli spaces</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#Conventional_variable_names"><span class="tocnumber">5</span> <span class="toctext">Conventional variable names</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#See_also"><span class="tocnumber">6</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#References"><span class="tocnumber">7</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Bibliography"><span class="tocnumber">8</span> <span class="toctext">Bibliography</span></a></li>
+</ul>
+</div>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=1" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In ancient works such as <a href="/wiki/Euclid" title="Euclid">Euclid</a>'s <a href="/wiki/Euclid%27s_Elements" title="Euclid's Elements"><i>Elements</i></a>, single letters refer to geometric points and shapes. In the 7th century, <a href="/wiki/Brahmagupta" title="Brahmagupta">Brahmagupta</a> used different colours to represent the unknowns in algebraic equations in the <i><a href="/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta" title="Brāhmasphuṭasiddhānta">Brāhmasphuṭasiddhānta</a></i>. One section of this book is called "Equations of Several Colours".<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>
+</p><p>At the end of the 16th century, <a href="/wiki/Fran%C3%A7ois_Vi%C3%A8te" title="François Viète">François Viète</a> introduced the idea of representing known and unknown numbers by letters, nowadays called variables, and the idea of computing with them as if they were numbers—in order to obtain the result by a simple replacement. Viète's convention was to use consonants for known values, and vowels for unknowns.<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>
+</p><p>In 1637, <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> "invented the convention of representing unknowns in equations by <i>x</i>, <i>y</i>, and <i>z</i>, and knowns by <i>a</i>, <i>b</i>, and <i>c</i>".<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup> Contrarily to Viète's convention, Descartes' is still commonly in use. The history of the letter x in math was discussed in a 1887 <a href="/wiki/Scientific_American" title="Scientific American">Scientific American</a> article.<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</p><p>Starting in the 1660s, <a href="/wiki/Isaac_Newton" title="Isaac Newton">Isaac Newton</a> and <a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Gottfried Wilhelm Leibniz</a> independently developed the <a class="mw-redirect" href="/wiki/Infinitesimal_calculus" title="Infinitesimal calculus">infinitesimal calculus</a>, which essentially consists of studying how an <a href="/wiki/Infinitesimal" title="Infinitesimal">infinitesimal</a> variation of a <i>variable quantity</i> induces a corresponding variation of another quantity which is a <i><a href="/wiki/Function_(mathematics)" title="Function (mathematics)">function</a></i> of the first variable. Almost a century later, <a href="/wiki/Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a> fixed the terminology of infinitesimal calculus, and introduced the notation <span class="texhtml"><i>y</i> = <i>f</i>(<i>x</i>)</span> for a function <span class="texhtml"><i>f</i></span>, its <b>variable</b> <span class="texhtml"><i>x</i></span> and its value <span class="texhtml"><i>y</i></span>. Until the end of the 19th century, the word <i>variable</i> referred almost exclusively to the <a href="/wiki/Argument_of_a_function" title="Argument of a function">arguments</a> and the <a href="/wiki/Value_(mathematics)" title="Value (mathematics)">values</a> of functions.
+</p><p>In the second half of the 19th century, it appeared that the foundation of infinitesimal calculus was not formalized enough to deal with apparent paradoxes such as a nowhere <a href="/wiki/Differentiable_function" title="Differentiable function">differentiable</a> <a href="/wiki/Continuous_function" title="Continuous function">continuous function</a>. To solve this problem, <a href="/wiki/Karl_Weierstrass" title="Karl Weierstrass">Karl Weierstrass</a> introduced a new formalism consisting of replacing the intuitive notion of <a href="/wiki/Limit_(mathematics)" title="Limit (mathematics)">limit</a> by a formal definition. The older notion of limit was "when the <i>variable</i> <span class="texhtml"><i>x</i></span> varies and tends toward <span class="texhtml"><i>a</i></span>, then <span class="texhtml"><i>f</i>(<i>x</i>)</span> tends toward <span class="texhtml"><i>L</i></span>", without any accurate definition of "tends". Weierstrass replaced this sentence by the formula
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (\forall \epsilon &gt;0)(\exists \eta &gt;0)(\forall x)\;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon ,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>ϵ<!-- ϵ --></mi>
+<mo>&gt;</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∃<!-- ∃ --></mi>
+<mi>η<!-- η --></mi>
+<mo>&gt;</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mspace width="thickmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mo>&lt;</mo>
+<mi>η<!-- η --></mi>
+<mo stretchy="false">⇒<!-- ⇒ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>L</mi>
+<mo>−<!-- − --></mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mo>&lt;</mo>
+<mi>ϵ<!-- ϵ --></mi>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (\forall \epsilon &gt;0)(\exists \eta &gt;0)(\forall x)\;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon ,}</annotation>
+</semantics>
+</math></span><img alt="(\forall \epsilon &gt;0) (\exists \eta &gt;0) (\forall x) \;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ce7821a9f1e2f63af065e9d9c69086f0dae0b423" style="vertical-align: -0.838ex; width:51.315ex; height:2.843ex;"/></span></dd></dl>
+<p>in which none of the five variables is considered as varying.
+</p><p>This static formulation led to the modern notion of variable, which is simply a symbol representing a <a href="/wiki/Mathematical_object" title="Mathematical object">mathematical object</a> that either is unknown, or may be replaced by any element of a given <a href="/wiki/Set_(mathematics)" title="Set (mathematics)">set</a> (e.g., the set of <a href="/wiki/Real_number" title="Real number">real numbers</a>).
+</p>
+<h2><span class="mw-headline" id="Notation">Notation</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=2" title="Edit section: Notation">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Variables are generally denoted by a single letter, most often from the <a href="/wiki/Latin_alphabet" title="Latin alphabet">Latin alphabet</a> and less often from the <a href="/wiki/Greek_alphabet" title="Greek alphabet">Greek</a>, which may be lowercase or capitalized. The letter may be followed by a subscript: a number (as in <span class="texhtml"><i>x</i><sub>2</sub></span>), another variable (<span class="texhtml"><i>x</i><sub><i>i</i></sub></span>), a word or abbreviation of a word (<span class="texhtml"><i>x</i><sub>total</sub></span>) or a <a class="mw-redirect" href="/wiki/Mathematical_expression" title="Mathematical expression">mathematical expression</a> (<span class="texhtml"><i>x</i><sub>2<i>i</i> + 1</sub></span>). Under the influence of <a href="/wiki/Variable_(computer_science)" title="Variable (computer science)">computer science</a>, some variable names in pure mathematics consist of several letters and digits. Following <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">René Descartes</a> (1596–1650), letters at the beginning of the alphabet such as <i>a</i>, <i>b</i>, <i>c</i> are commonly used for known values and parameters, and letters at the end of the alphabet such as (<i>x</i>, <i>y</i>, <i>z</i>) are commonly used for unknowns and variables of functions.<sup class="reference" id="cite_ref-E004_6-0"><a href="#cite_note-E004-6">[6]</a></sup> In printed mathematics, the norm is to set variables and constants in an italic typeface.<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup>
+</p><p>For example, a general <a href="/wiki/Quadratic_function" title="Quadratic function">quadratic function</a> is conventionally written as <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\textstyle ax^{2}+bx+c\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mi>a</mi>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>b</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\textstyle ax^{2}+bx+c\,}</annotation>
+</semantics>
+</math></span><img alt="{\textstyle ax^{2}+bx+c\,}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8992b07cb3e7b34bc31ecc97ab8bb73d0ea410cd" style="vertical-align: -0.505ex; width:13.016ex; height:2.676ex;"/></span>, where <i>a</i>, <i>b</i> and <i>c</i> are parameters (also called <a href="/wiki/Constant_(mathematics)" title="Constant (mathematics)">constants</a>, because they are <a href="/wiki/Constant_function" title="Constant function">constant functions</a>), while <i>x</i> is the variable of the function. A more explicit way to denote this function is <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\textstyle x\mapsto ax^{2}+bx+c\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mi>a</mi>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>b</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\textstyle x\mapsto ax^{2}+bx+c\,}</annotation>
+</semantics>
+</math></span><img alt="{\textstyle x\mapsto ax^{2}+bx+c\,}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2b2831d3c098bab066c6bfd727a7767e5b42407e" style="vertical-align: -0.505ex; width:17.959ex; height:2.676ex;"/></span>, which clarifies the function-argument status of <i>x</i> and the constant status of <i>a</i>, <i>b</i> and <i>c</i>. Since <i>c</i> occurs in a term that is a constant function of <i>x</i>, it is called the <a href="/wiki/Constant_term" title="Constant term">constant term</a>.<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>
+</p><p>Specific branches and applications of mathematics have specific <a class="mw-redirect" href="/wiki/Naming_conventions" title="Naming conventions">naming conventions</a> for variables. Variables with similar roles or meanings are often assigned consecutive letters or the same letter with different subscripts. For example, the three axes in 3D <a class="mw-redirect" href="/wiki/Coordinate_space" title="Coordinate space">coordinate space</a> are conventionally called <i>x</i>, <i>y</i>, and <i>z</i>. In physics, the names of variables are largely determined by the <a href="/wiki/Physical_quantity" title="Physical quantity">physical quantity</a> they describe, but various naming conventions exist. A convention often followed in <a href="/wiki/Probability" title="Probability">probability</a> and <a href="/wiki/Statistics" title="Statistics">statistics</a> is to use <i>X</i>, <i>Y</i>, <i>Z</i> for the names of <a href="/wiki/Random_variable" title="Random variable">random variables</a>, keeping <i>x</i>, <i>y</i>, <i>z</i> for variables representing corresponding better-defined values.
+</p>
+<h2><span class="mw-headline" id="Specific_kinds_of_variables">Specific kinds of variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=3" title="Edit section: Specific kinds of variables">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>It is common for variables to play different roles in the same mathematical formula, and names or qualifiers have been introduced to distinguish them. For example, the general <a href="/wiki/Cubic_equation" title="Cubic equation">cubic equation</a>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ax^{3}+bx^{2}+cx+d=0,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>b</mi>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>c</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>d</mi>
+<mo>=</mo>
+<mn>0</mn>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ax^{3}+bx^{2}+cx+d=0,}</annotation>
+</semantics>
+</math></span><img alt="ax^3+bx^2+cx+d=0," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4c864462f7d6bda7015dffbbfeb51127294147e5" style="vertical-align: -0.671ex; width:23.977ex; height:3.009ex;"/></span></dd></dl>
+<p>is interpreted as having five variables: four, <span class="texhtml"><i>a</i>, <i>b</i>, <i>c</i>, <i>d</i></span>, which are taken to be given numbers and the fifth variable, <span class="texhtml"><i>x</i>,</span> is understood to be an <i>unknown</i> number. To distinguish them, the variable <span class="texhtml"><i>x</i></span> is called <i>an unknown</i>, and the other variables are called <i>parameters</i> or <i><a href="/wiki/Coefficient" title="Coefficient">coefficients</a></i>, or sometimes <i>constants</i>, although this last terminology is incorrect for an equation, and should be reserved for the <a href="/wiki/Function_(mathematics)" title="Function (mathematics)">function</a> defined by the left-hand side of this equation.
+</p><p>In the context of functions, the term <i>variable</i> refers commonly to the arguments of the functions. This is typically the case in sentences like "<a href="/wiki/Function_of_a_real_variable" title="Function of a real variable">function of a real variable</a>", "<span class="texhtml"><i>x</i></span> is the variable of the function <span class="texhtml"><i>f</i>: <i>x</i> ↦ <i>f</i>(<i>x</i>)</span>", "<span class="texhtml"><i>f</i></span> is a function of the variable <span class="texhtml"><i>x</i></span>" (meaning that the argument of the function is referred to by the variable <span class="texhtml"><i>x</i></span>).
+</p><p>In the same context, variables that are independent of <span class="texhtml"><i>x</i></span> define <a href="/wiki/Constant_function" title="Constant function">constant functions</a> and are therefore called <i>constant</i>. For example, a <i><a href="/wiki/Constant_of_integration" title="Constant of integration">constant of integration</a></i> is an arbitrary constant function that is added to a particular <a href="/wiki/Antiderivative" title="Antiderivative">antiderivative</a> to obtain the other antiderivatives. Because the strong relationship between <a href="/wiki/Polynomial" title="Polynomial">polynomials</a> and <a class="mw-redirect" href="/wiki/Polynomial_function" title="Polynomial function">polynomial function</a>, the term "constant" is often used to denote the coefficients of a polynomial, which are constant functions of the indeterminates.
+</p><p>This use of "constant" as an abbreviation of "constant function" must be distinguished from the normal meaning of the word in mathematics. A <b>constant</b>, or <b><a href="/wiki/Mathematical_constant" title="Mathematical constant">mathematical constant</a></b> is a well and unambiguously defined number or other mathematical object, as, for example, the numbers 0, 1, <span class="texhtml"><a href="/wiki/Pi" title="Pi"><i>π</i></a></span> and the <a href="/wiki/Identity_element" title="Identity element">identity element</a> of a <a href="/wiki/Group_(mathematics)" title="Group (mathematics)">group</a>. Since a variable may represent any mathematical object, a letter that represents a constant is often called a variable. This is, in particular, the case of <span class="texhtml mvar" style="font-style:italic;">e</span> and <span class="texhtml mvar" style="font-style:italic;">π</span>, even when they represents <a class="mw-redirect" href="/wiki/Euler%27s_number" title="Euler's number">Euler's number</a> and <span class="texhtml">3.14159...</span>
+</p><p>Other specific names for variables are:
+</p>
+<ul><li>An <b>unknown</b> is a variable in an <a href="/wiki/Equation" title="Equation">equation</a> which has to be solved for.</li>
+<li>An <b><a href="/wiki/Indeterminate_(variable)" title="Indeterminate (variable)">indeterminate</a></b> is a symbol, commonly called variable, that appears in a <a href="/wiki/Polynomial" title="Polynomial">polynomial</a> or a <a href="/wiki/Formal_power_series" title="Formal power series">formal power series</a>. Formally speaking, an indeterminate is not a variable, but a <a href="/wiki/Constant_(mathematics)" title="Constant (mathematics)">constant</a> in the <a href="/wiki/Polynomial_ring" title="Polynomial ring">polynomial ring</a> or the ring of <a href="/wiki/Formal_power_series" title="Formal power series">formal power series</a>. However, because of the strong relationship between polynomials or power series and the <a href="/wiki/Function_(mathematics)" title="Function (mathematics)">functions</a> that they define, many authors consider indeterminates as a special kind of variables.</li>
+<li>A <b><a href="/wiki/Parameter" title="Parameter">parameter</a></b> is a quantity (usually a number) which is a part of the input of a problem, and remains constant during the whole solution of this problem. For example, in <a href="/wiki/Mechanics" title="Mechanics">mechanics</a> the mass and the size of a solid body are <i>parameters</i> for the study of its movement. In <a href="/wiki/Computer_science" title="Computer science">computer science</a>, <i>parameter</i> has a different meaning and denotes an argument of a function.</li>
+<li><b><a href="/wiki/Free_variables_and_bound_variables" title="Free variables and bound variables">Free variables and bound variables</a></b></li>
+<li>A <b><a href="/wiki/Random_variable" title="Random variable">random variable</a></b> is a kind of variable that is used in <a href="/wiki/Probability_theory" title="Probability theory">probability theory</a> and its applications.</li></ul>
+<p>All these denominations of variables are of <a href="/wiki/Semantics" title="Semantics">semantic</a> nature, and the way of computing with them (<a href="/wiki/Syntax_(logic)" title="Syntax (logic)">syntax</a>) is the same for all.
+</p>
+<h3><span class="mw-headline" id="Dependent_and_independent_variables">Dependent and independent variables</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=4" title="Edit section: Dependent and independent variables">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<link href="mw-data:TemplateStyles:r1033289096" rel="mw-deduplicated-inline-style"/><div class="hatnote navigation-not-searchable" role="note">Main article: <a href="/wiki/Dependent_and_independent_variables" title="Dependent and independent variables">Dependent and independent variables</a></div>
+<p>In <a href="/wiki/Calculus" title="Calculus">calculus</a> and its application to <a href="/wiki/Physics" title="Physics">physics</a> and other sciences, it is rather common to consider a variable, say <span class="texhtml"><i>y</i></span>, whose possible values depend on the value of another variable, say <span class="texhtml"><i>x</i></span>. In mathematical terms, the <i>dependent</i> variable <span class="texhtml"><i>y</i></span> represents the value of a <a href="/wiki/Function_(mathematics)" title="Function (mathematics)">function</a> of <span class="texhtml"><i>x</i></span>. To simplify formulas, it is often useful to use the same symbol for the dependent variable <span class="texhtml"><i>y</i></span> and the function mapping <span class="texhtml"><i>x</i></span> onto <span class="texhtml"><i>y</i></span>. For example, the state of a physical system depends on measurable quantities such as the <a href="/wiki/Pressure" title="Pressure">pressure</a>, the <a href="/wiki/Temperature" title="Temperature">temperature</a>, the spatial position, ..., and all these quantities vary when the system evolves, that is, they are function of the time. In the formulas describing the system, these quantities are represented by variables which are dependent on the time, and thus considered implicitly as functions of the time.
+</p><p>Therefore, in a formula, a <b>dependent variable</b> is a variable that is implicitly a function of another (or several other) variables. An <b>independent variable</b> is a variable that is not dependent.<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>
+</p><p>The property of a variable to be dependent or independent depends often of the point of view and is not intrinsic. For example, in the notation <span class="texhtml"><i>f</i>(<i>x</i>, <i>y</i>, <i>z</i>)</span>, the three variables may be all independent and the notation represents a function of three variables. On the other hand, if <span class="texhtml"><i>y</i></span> and <span class="texhtml"><i>z</i></span> depend on <span class="texhtml"><i>x</i></span> (are <i>dependent variables</i>) then the notation represents a function of the single <i>independent variable</i> <span class="texhtml"><i>x</i></span>.<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup>
+</p>
+<h3><span class="mw-headline" id="Examples">Examples</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=5" title="Edit section: Examples">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If one defines a function <i>f</i> from the <a href="/wiki/Real_number" title="Real number">real numbers</a> to the real numbers by
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(x)=x^{2}+\sin(x+4)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>+</mo>
+<mn>4</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(x)=x^{2}+\sin(x+4)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(x)=x^{2}+\sin(x+4)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/963531657fac2761bdf23fc4becd7d55784505cb" style="vertical-align: -0.838ex; width:22.738ex; height:3.176ex;"/></span></dd></dl>
+<p>then <i>x</i> is a variable standing for the <a href="/wiki/Argument_of_a_function" title="Argument of a function">argument</a> of the function being defined, which can be any real number.
+</p><p>In the identity
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum _{i=1}^{n}i={\frac {n^{2}+n}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</munderover>
+<mi>i</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>n</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum _{i=1}^{n}i={\frac {n^{2}+n}{2}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sum _{i=1}^{n}i={\frac {n^{2}+n}{2}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/171c94205af7d6ea67fa0c2ae8eaa15d67c74332" style="vertical-align: -3.005ex; width:15.163ex; height:6.843ex;"/></span></dd></dl>
+<p>the variable <i>i</i> is a summation variable which designates in turn each of the integers 1, 2, ...,  <i>n</i> (it is also called <b>index</b> because its variation is over a discrete set of values) while <i>n</i> is a parameter (it does not vary within the formula).
+</p><p>In the theory of <a class="mw-redirect" href="/wiki/Polynomials" title="Polynomials">polynomials</a>, a polynomial of degree 2 is generally denoted as <i>ax</i><sup>2</sup> + <i>bx</i> + <i>c</i>, where <i>a</i>, <i>b</i> and <i>c</i> are called <a href="/wiki/Coefficient" title="Coefficient">coefficients</a> (they are assumed to be fixed, i.e., parameters of the problem considered) while <i>x</i> is called a variable. When studying this polynomial for its <a class="mw-redirect" href="/wiki/Polynomial_function" title="Polynomial function">polynomial function</a> this <i>x</i> stands for the function argument. When studying the polynomial as an object in itself, <i>x</i> is taken to be an indeterminate, and would often be written with a capital letter instead to indicate this status.
+</p>
+<h4><span class="mw-headline" id="Example:_the_ideal_gas_law">Example: the ideal gas law</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=6" title="Edit section: Example: the ideal gas law">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Consider the equation describing the ideal gas law, 
+<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle PV=Nk_{B}T.}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mi>V</mi>
+<mo>=</mo>
+<mi>N</mi>
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+<mi>T</mi>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle PV=Nk_{B}T.}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle PV=Nk_{B}T.}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/11722cd0e9dda734c144b9f490e5ea552e8f25b2" style="vertical-align: -0.671ex; width:13.669ex; height:2.509ex;"/></div>
+This equation would generally be interpreted to have four variables, and one constant. The constant is <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k_{B}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k_{B}}</annotation>
+</semantics>
+</math></span><img alt="k_{B}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/70f38f7b73e53fd7b5d9ca64bec3a1438cc0eade" style="vertical-align: -0.671ex; width:2.691ex; height:2.509ex;"/></span>, the <a href="/wiki/Boltzmann_constant" title="Boltzmann constant">Boltzmann constant</a>. One of the variables, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>, the number of particles, is a positive integer (and therefore a discrete variable), while the other three, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P,V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo>,</mo>
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P,V}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle P,V}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/183018eaef9ca8dd11d191f91d8592d19bf5e648" style="vertical-align: -0.671ex; width:4.567ex; height:2.509ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span>, for pressure, volume and temperature, are continuous variables.
+</p><p>One could rearrange this equation to obtain <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P}</annotation>
+</semantics>
+</math></span><img alt="P" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4dc73bf40314945ff376bd363916a738548d40a" style="vertical-align: -0.338ex; width:1.745ex; height:2.176ex;"/></span> as a function of the other variables,
+<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(V,N,T)={\frac {Nk_{B}T}{V}}.}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>V</mi>
+<mo>,</mo>
+<mi>N</mi>
+<mo>,</mo>
+<mi>T</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>N</mi>
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+<mi>T</mi>
+</mrow>
+<mi>V</mi>
+</mfrac>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(V,N,T)={\frac {Nk_{B}T}{V}}.}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle P(V,N,T)={\frac {Nk_{B}T}{V}}.}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/99ea0055cc57c2ac4d9a79e5d9820a2071ca79d6" style="vertical-align: -2.005ex; width:22.082ex; height:5.509ex;"/></div>
+Then <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P}</annotation>
+</semantics>
+</math></span><img alt="P" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4dc73bf40314945ff376bd363916a738548d40a" style="vertical-align: -0.338ex; width:1.745ex; height:2.176ex;"/></span>, as a function of the other variables, is the dependent variable, while its arguments, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V,N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+<mo>,</mo>
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V,N}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle V,N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b6e4827f1a2085ea24de32c324ac44174fe7b423" style="vertical-align: -0.671ex; width:4.885ex; height:2.509ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span>, are independent variables. One could approach this function more formally and think about its domain and range: in function notation, here <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P}</annotation>
+</semantics>
+</math></span><img alt="P" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4dc73bf40314945ff376bd363916a738548d40a" style="vertical-align: -0.338ex; width:1.745ex; height:2.176ex;"/></span> is a function <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P:\mathbb {R} _{&gt;0}\times \mathbb {N} \times \mathbb {R} _{&gt;0}\rightarrow \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo>:</mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>&gt;</mo>
+<mn>0</mn>
+</mrow>
+</msub>
+<mo>×<!-- × --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mo>×<!-- × --></mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>&gt;</mo>
+<mn>0</mn>
+</mrow>
+</msub>
+<mo stretchy="false">→<!-- → --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P:\mathbb {R} _{&gt;0}\times \mathbb {N} \times \mathbb {R} _{&gt;0}\rightarrow \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle P:\mathbb {R} _{&gt;0}\times \mathbb {N} \times \mathbb {R} _{&gt;0}\rightarrow \mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1dc17207d6dcc1ff0f1e21df2787ce8f8d6ecac8" style="vertical-align: -0.671ex; width:24.355ex; height:2.509ex;"/></span>.
+</p><p>However, in an experiment, in order to determine the dependence of pressure on a single one of the independent variables, it is necessary to fix all but one of the variables, say <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span>. This gives a function
+<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(T)={\frac {Nk_{B}T}{V}},}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>T</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>N</mi>
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+<mi>T</mi>
+</mrow>
+<mi>V</mi>
+</mfrac>
+</mrow>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(T)={\frac {Nk_{B}T}{V}},}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle P(T)={\frac {Nk_{B}T}{V}},}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ae6f0af00ead89c741240fd39df45ca953eba047" style="vertical-align: -2.005ex; width:16.163ex; height:5.509ex;"/></div>
+where now <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V}</annotation>
+</semantics>
+</math></span><img alt="V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af0f6064540e84211d0ffe4dac72098adfa52845" style="vertical-align: -0.338ex; width:1.787ex; height:2.176ex;"/></span> are also regarded as constants. Mathematically, this constitutes a <a href="/wiki/Partial_application" title="Partial application">partial application</a> of the earlier function <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P}</annotation>
+</semantics>
+</math></span><img alt="P" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4dc73bf40314945ff376bd363916a738548d40a" style="vertical-align: -0.338ex; width:1.745ex; height:2.176ex;"/></span>. 
+</p><p>This illustrates how independent variables and constants are largely dependent on the point of view taken. One could even regard <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k_{B}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k_{B}}</annotation>
+</semantics>
+</math></span><img alt="k_{B}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/70f38f7b73e53fd7b5d9ca64bec3a1438cc0eade" style="vertical-align: -0.671ex; width:2.691ex; height:2.509ex;"/></span> as a variable to obtain a function 
+<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(V,N,T,k_{B})={\frac {Nk_{B}T}{V}}.}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>V</mi>
+<mo>,</mo>
+<mi>N</mi>
+<mo>,</mo>
+<mi>T</mi>
+<mo>,</mo>
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>N</mi>
+<msub>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+</mrow>
+</msub>
+<mi>T</mi>
+</mrow>
+<mi>V</mi>
+</mfrac>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(V,N,T,k_{B})={\frac {Nk_{B}T}{V}}.}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle P(V,N,T,k_{B})={\frac {Nk_{B}T}{V}}.}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/281c0e7c18adf72071fc30e739c4437b04b8656f" style="vertical-align: -2.005ex; width:25.807ex; height:5.509ex;"/></div>
+</p>
+<h2><span class="mw-headline" id="Moduli_spaces">Moduli spaces</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=7" title="Edit section: Moduli spaces">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<link href="mw-data:TemplateStyles:r1033289096" rel="mw-deduplicated-inline-style"/><div class="hatnote navigation-not-searchable" role="note">See also: <a class="mw-redirect" href="/wiki/Moduli_spaces" title="Moduli spaces">moduli spaces</a></div>
+<p>Considering constants and variables can lead to the concept of moduli spaces. For illustration, consider the equation for a <a href="/wiki/Parabola" title="Parabola">parabola</a>, 
+<div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=ax^{2}+bx+c,}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>a</mi>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mi>b</mi>
+<mi>x</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=ax^{2}+bx+c,}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle y=ax^{2}+bx+c,}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1d52f7614d441473de81639f407c61d09c4db817" style="vertical-align: -0.671ex; width:17.529ex; height:3.009ex;"/></div>
+where <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a,b,c,x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>,</mo>
+<mi>b</mi>
+<mo>,</mo>
+<mi>c</mi>
+<mo>,</mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a,b,c,x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a,b,c,x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a1f6f61100afef03be0bf065b1e86383912e0106" style="vertical-align: -0.671ex; width:7.666ex; height:2.509ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span> are all considered to be real. The set of points <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (x,y)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo>,</mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (x,y)}</annotation>
+</semantics>
+</math></span><img alt="(x,y)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/41cf50e4a314ca8e2c30964baa8d26e5be7a9386" style="vertical-align: -0.838ex; width:5.328ex; height:2.843ex;"/></span> in the 2D plane satisfying this equation trace out the graph of a parabola. Here, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a,b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>,</mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a,b}</annotation>
+</semantics>
+</math></span><img alt="a,b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/181523deba732fda302fd176275a0739121d3bc8" style="vertical-align: -0.671ex; width:3.261ex; height:2.509ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span> are regarded as constants, which specify the parabola, while <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span> are variables. 
+</p><p>Then instead regarding <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a,b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>,</mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a,b}</annotation>
+</semantics>
+</math></span><img alt="a,b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/181523deba732fda302fd176275a0739121d3bc8" style="vertical-align: -0.671ex; width:3.261ex; height:2.509ex;"/></span> and <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span> as variables, we observe that each set of 3-tuples <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (a,b,c)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo>,</mo>
+<mi>b</mi>
+<mo>,</mo>
+<mi>c</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (a,b,c)}</annotation>
+</semantics>
+</math></span><img alt="(a,b,c)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ae973a762a92b9cd3eafe7f283890ccfa9b887e8" style="vertical-align: -0.838ex; width:7.111ex; height:2.843ex;"/></span> corresponds to a different parabola. That is, they specify coordinates on the 'space of parabolas': this is known as a <b>moduli space of parabolas</b>.
+</p>
+<h2><span class="mw-headline" id="Conventional_variable_names">Conventional variable names</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=8" title="Edit section: Conventional variable names">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><i>a</i>, <i>b</i>, <i>c</i>, <i>d</i> (sometimes extended to <i>e</i>, <i>f</i>) for parameters or <a href="/wiki/Coefficient" title="Coefficient">coefficients</a></li>
+<li><i>a</i><sub>0</sub>, <i>a</i><sub>1</sub>, <i>a</i><sub>2</sub>, ... for situations where distinct letters are inconvenient</li>
+<li><i>a<sub>i</sub></i> or <i>u<sub>i</sub></i> for the <i>i</i>-th term of a <a href="/wiki/Sequence" title="Sequence">sequence</a> or the <i>i</i>-th coefficient of a <a href="/wiki/Series_(mathematics)" title="Series (mathematics)">series</a></li>
+<li><i>e</i> for <a class="mw-redirect" href="/wiki/Euler%27s_number" title="Euler's number">Euler's number</a></li>
+<li><i>f</i>, <i>g</i>, <i>h</i> for <a href="/wiki/Function_(mathematics)" title="Function (mathematics)">functions</a> (as in <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(x)}</annotation>
+</semantics>
+</math></span><img alt="f(x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/202945cce41ecebb6f643f31d119c514bec7a074" style="vertical-align: -0.838ex; width:4.418ex; height:2.843ex;"/></span>)</li>
+<li><i>i</i> for the <a href="/wiki/Imaginary_unit" title="Imaginary unit">imaginary unit</a></li>
+<li><i>i</i>, <i>j</i>, <i>k</i> (sometimes <i>l</i> or <i>h</i>) for varying <a class="mw-redirect" href="/wiki/Integers" title="Integers">integers</a> or indices in an <a href="/wiki/Indexed_family" title="Indexed family">indexed family</a>, or <a class="mw-redirect" href="/wiki/Unit_vectors" title="Unit vectors">unit vectors</a></li>
+<li><i>l</i> and <i>w</i> for the length and width of a figure</li>
+<li><i>l</i>  also for a line, or in number theory for a prime number not equal to <i>p</i></li>
+<li><i>n</i> (with <i>m</i> as a second choice)  for a fixed integer, such as a count of objects or the <a class="mw-redirect mw-disambig" href="/wiki/Degree_(disambiguation)" title="Degree (disambiguation)">degree</a> of an <a href="/wiki/Equation" title="Equation">equation</a></li>
+<li><i>p</i> for a <a href="/wiki/Prime_number" title="Prime number">prime number</a> or a <a href="/wiki/Probability" title="Probability">probability</a></li>
+<li><i>q</i> for a <a href="/wiki/Prime_power" title="Prime power">prime power</a> or a <a href="/wiki/Quotient" title="Quotient">quotient</a></li>
+<li><i>r</i> for a <a href="/wiki/Radius" title="Radius">radius</a>, a <a href="/wiki/Remainder" title="Remainder">remainder</a> or a <a href="/wiki/Correlation_coefficient" title="Correlation coefficient">correlation coefficient</a></li>
+<li><i>t</i> for <a href="/wiki/Time" title="Time">time</a></li>
+<li><i>x</i>, <i>y</i>, <i>z</i> for the three <a class="mw-redirect" href="/wiki/Cartesian_coordinates" title="Cartesian coordinates">Cartesian coordinates</a> of a point in <a href="/wiki/Euclidean_geometry" title="Euclidean geometry">Euclidean geometry</a> or the corresponding <a class="mw-redirect" href="/wiki/Axis_(mathematics)" title="Axis (mathematics)">axes</a></li>
+<li><i>z</i> for a <a href="/wiki/Complex_number" title="Complex number">complex number</a>, or in statistics a <a href="/wiki/Normal_distribution" title="Normal distribution">normal random variable</a></li>
+<li><i>α</i>, <i>β</i>, <i>γ</i>, <i>θ</i>, <i>φ</i> for <a class="mw-redirect" href="/wiki/Angle_measure" title="Angle measure">angle measures</a></li>
+<li><i>ε</i> (with <i>δ</i> as a second choice) for an arbitrarily small positive number</li>
+<li><i>λ</i> for an <a class="mw-redirect" href="/wiki/Eigenvalue" title="Eigenvalue">eigenvalue</a></li>
+<li>Σ (capital sigma) for a sum, or σ (lowercase sigma) in statistics for the <a href="/wiki/Standard_deviation" title="Standard deviation">standard deviation</a><sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup></li>
+<li><i>μ</i> for a <a href="/wiki/Mean" title="Mean">mean</a></li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=9" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/Lambda_calculus" title="Lambda calculus">Lambda calculus</a></li>
+<li><a class="mw-redirect" href="/wiki/Observable_variable" title="Observable variable">Observable variable</a></li>
+<li><a href="/wiki/Physical_constant" title="Physical constant">Physical constant</a></li>
+<li><a href="/wiki/Propositional_variable" title="Propositional variable">Propositional variable</a></li></ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=10" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1011085734">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output .reflist-lower-roman{list-style-type:lower-roman}</style><div class="reflist">
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a href="#SW">Stover &amp; Weisstein</a>.</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><a href="#CITEREFTabak2014">Tabak 2014</a>, p. <a class="external text" href="https://books.google.com/books?id=h-zRieb7VbwC&amp;pg=PA40" rel="nofollow">40</a>.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><a href="#CITEREFFraleigh1989">Fraleigh 1989</a>, p. <a class="external text" href="https://archive.org/details/firstcourseinabs0000fral/page/276/mode/2up" rel="nofollow">276</a>.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a href="#CITEREFSorell2000">Sorell 2000</a>, p. 19.</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1067248974">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite class="citation book cs1 cs1-prop-jul-greg-uncertainty"><a class="external text" href="https://books.google.com/books?id=moM9AQAAIAAJ" rel="nofollow"><i>Scientific American</i></a>. Munn &amp; Company. September 3, 1887. p. 148.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Scientific+American&amp;rft.pages=148&amp;rft.pub=Munn+%26+Company&amp;rft.date=1887-09-03&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DmoM9AQAAIAAJ&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></span>
+</li>
+<li id="cite_note-E004-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-E004_6-0">^</a></b></span> <span class="reference-text">Edwards Art. 4</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><a href="#CITEREFHosch2010">Hosch 2010</a>, p. <a class="external text" href="https://books.google.com/books?id=ad0P0elU1_0C&amp;pg=PA71" rel="nofollow">71</a>.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><a href="#CITEREFFoerster2006">Foerster 2006</a>, p. <a class="external text" href="https://archive.org/details/algebratrigonome00paul_0/page/18/mode/2up" rel="nofollow">18</a>.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Edwards Art. 5</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Edwards Art. 6</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation web cs1" id="CITEREFWeisstein">Weisstein, Eric W. <a class="external text" href="https://mathworld.wolfram.com/" rel="nofollow">"Sum"</a>. <i>mathworld.wolfram.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">February 14,</span> 2022</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=mathworld.wolfram.com&amp;rft.atitle=Sum&amp;rft.aulast=Weisstein&amp;rft.aufirst=Eric+W.&amp;rft_id=https%3A%2F%2Fmathworld.wolfram.com%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></span>
+</li>
+</ol></div></div>
+<h2><span class="mw-headline" id="Bibliography">Bibliography</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Variable_(mathematics)&amp;action=edit&amp;section=11" title="Edit section: Bibliography">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r1054258005">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li{margin-left:0;padding-left:3.2em;text-indent:-3.2em}.mw-parser-output .refbegin-hanging-indents ul,.mw-parser-output .refbegin-hanging-indents ul li{list-style:none}@media(max-width:720px){.mw-parser-output .refbegin-hanging-indents>ul>li{padding-left:1.6em;text-indent:-1.6em}}.mw-parser-output .refbegin-columns{margin-top:0.3em}.mw-parser-output .refbegin-columns ul{margin-top:0}.mw-parser-output .refbegin-columns li{page-break-inside:avoid;break-inside:avoid-column}</style><div class="refbegin" style="">
+<ul><li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFEdwards1892">Edwards, Joseph (1892). <a class="external text" href="https://archive.org/details/in.ernet.dli.2015.109607" rel="nofollow"><i>An Elementary Treatise on the Differential Calculus</i></a> (2nd ed.). London: MacMillan and Co.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=An+Elementary+Treatise+on+the+Differential+Calculus&amp;rft.place=London&amp;rft.edition=2nd&amp;rft.pub=MacMillan+and+Co.&amp;rft.date=1892&amp;rft.aulast=Edwards&amp;rft.aufirst=Joseph&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fin.ernet.dli.2015.109607&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFFoerster2006">Foerster, Paul A. (2006). <span class="cs1-lock-registration" title="Free registration required"><a class="external text" href="https://archive.org/details/algebratrigonome00paul_0" rel="nofollow"><i>Algebra and Trigonometry: Functions and Applications</i></a></span> (classics ed.). Upper Saddle River, NJ: Prentice Hall. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-0-13-165711-3" title="Special:BookSources/978-0-13-165711-3"><bdi>978-0-13-165711-3</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Algebra+and+Trigonometry%3A+Functions+and+Applications&amp;rft.place=Upper+Saddle+River%2C+NJ&amp;rft.edition=classics&amp;rft.pub=Prentice+Hall&amp;rft.date=2006&amp;rft.isbn=978-0-13-165711-3&amp;rft.aulast=Foerster&amp;rft.aufirst=Paul+A.&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Falgebratrigonome00paul_0&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFFraleigh1989">Fraleigh, John B. (1989). <span class="cs1-lock-registration" title="Free registration required"><a class="external text" href="https://archive.org/details/firstcourseinabs0000fral" rel="nofollow"><i>A First Course in Abstract Algebra</i></a></span> (4th ed.). United States: Addison-Wesley. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-0-201-52821-3" title="Special:BookSources/978-0-201-52821-3"><bdi>978-0-201-52821-3</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+First+Course+in+Abstract+Algebra&amp;rft.place=United+States&amp;rft.edition=4th&amp;rft.pub=Addison-Wesley&amp;rft.date=1989&amp;rft.isbn=978-0-201-52821-3&amp;rft.aulast=Fraleigh&amp;rft.aufirst=John+B.&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Ffirstcourseinabs0000fral&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFHosch2010">Hosch, William L., ed. (2010). <a class="external text" href="https://books.google.com/books?id=ad0P0elU1_0C" rel="nofollow"><i>The Britannica Guide to Algebra and Trigonometry</i></a>. Britannica Educational Publishing. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-1-61530-219-2" title="Special:BookSources/978-1-61530-219-2"><bdi>978-1-61530-219-2</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+Britannica+Guide+to+Algebra+and+Trigonometry&amp;rft.pub=Britannica+Educational+Publishing&amp;rft.date=2010&amp;rft.isbn=978-1-61530-219-2&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dad0P0elU1_0C&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation journal cs1" id="CITEREFMenger1954"><a href="/wiki/Karl_Menger" title="Karl Menger">Menger, Karl</a> (1954). "On Variables in Mathematics and in Natural Science". <i>The British Journal for the Philosophy of Science</i>. University of Chicago Press. <b>5</b> (18): 134–142. <a class="mw-redirect" href="/wiki/Doi_(identifier)" title="Doi (identifier)">doi</a>:<a class="external text" href="https://doi.org/10.1093%2Fbjps%2FV.18.134" rel="nofollow">10.1093/bjps/V.18.134</a>. <a class="mw-redirect" href="/wiki/JSTOR_(identifier)" title="JSTOR (identifier)">JSTOR</a> <a class="external text" href="//www.jstor.org/stable/685170" rel="nofollow">685170</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=The+British+Journal+for+the+Philosophy+of+Science&amp;rft.atitle=On+Variables+in+Mathematics+and+in+Natural+Science&amp;rft.volume=5&amp;rft.issue=18&amp;rft.pages=134-142&amp;rft.date=1954&amp;rft_id=info%3Adoi%2F10.1093%2Fbjps%2FV.18.134&amp;rft_id=%2F%2Fwww.jstor.org%2Fstable%2F685170%23id-name%3DJSTOR&amp;rft.aulast=Menger&amp;rft.aufirst=Karl&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFPeregrin2000"><a href="/wiki/Jaroslav_Peregrin" title="Jaroslav Peregrin">Peregrin, Jaroslav</a> (2000). <a class="external text" href="http://w.jarda.peregrin.cz/mybibl/PDFTxt/414.pdf" rel="nofollow">"Variables in Natural Language: Where do they come from?"</a> <span class="cs1-format">(PDF)</span>.  In Böttner, Michael; Thümmel, Wolf (eds.). <i>Variable-Free Semantics</i>. Osnabrück Secolo. pp. 46–65. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-3-929979-53-4" title="Special:BookSources/978-3-929979-53-4"><bdi>978-3-929979-53-4</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Variables+in+Natural+Language%3A+Where+do+they+come+from%3F&amp;rft.btitle=Variable-Free+Semantics&amp;rft.pages=46-65&amp;rft.pub=Osnabr%C3%BCck+Secolo&amp;rft.date=2000&amp;rft.isbn=978-3-929979-53-4&amp;rft.aulast=Peregrin&amp;rft.aufirst=Jaroslav&amp;rft_id=http%3A%2F%2Fw.jarda.peregrin.cz%2Fmybibl%2FPDFTxt%2F414.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation journal cs1" id="CITEREFQuine1960"><a href="/wiki/Willard_Van_Orman_Quine" title="Willard Van Orman Quine">Quine, Willard V.</a> (1960). <a class="external text" href="https://voices.uchicago.edu/wittgenstein/files/2008/05/quine-variables-explained-away.pdf" rel="nofollow">"Variables Explained Away"</a> <span class="cs1-format">(PDF)</span>. <i>Proceedings of the American Philosophical Society</i>. American Philosophical Society. <b>104</b> (3): 343–347. <a class="mw-redirect" href="/wiki/JSTOR_(identifier)" title="JSTOR (identifier)">JSTOR</a> <a class="external text" href="//www.jstor.org/stable/985250" rel="nofollow">985250</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Proceedings+of+the+American+Philosophical+Society&amp;rft.atitle=Variables+Explained+Away&amp;rft.volume=104&amp;rft.issue=3&amp;rft.pages=343-347&amp;rft.date=1960&amp;rft_id=%2F%2Fwww.jstor.org%2Fstable%2F985250%23id-name%3DJSTOR&amp;rft.aulast=Quine&amp;rft.aufirst=Willard+V.&amp;rft_id=https%3A%2F%2Fvoices.uchicago.edu%2Fwittgenstein%2Ffiles%2F2008%2F05%2Fquine-variables-explained-away.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFSorell2000"><a href="/wiki/Tom_Sorell" title="Tom Sorell">Sorell, Tom</a> (2000). <a class="external text" href="https://books.google.com/books?id=EksSDAAAQBAJ" rel="nofollow"><i>Descartes: A Very Short Introduction</i></a>. New York: Oxford University Press. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-0-19-285409-4" title="Special:BookSources/978-0-19-285409-4"><bdi>978-0-19-285409-4</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Descartes%3A+A+Very+Short+Introduction&amp;rft.place=New+York&amp;rft.pub=Oxford+University+Press&amp;rft.date=2000&amp;rft.isbn=978-0-19-285409-4&amp;rft.aulast=Sorell&amp;rft.aufirst=Tom&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DEksSDAAAQBAJ&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><span class="anchor" id="SW"></span><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation encyclopaedia cs1" id="CITEREFStoverWeisstein">Stover, Christopher; <a href="/wiki/Eric_W._Weisstein" title="Eric W. Weisstein">Weisstein, Eric W.</a> <a class="external text" href="https://mathworld.wolfram.com/Variable.html" rel="nofollow">"Variable"</a>.  In Weisstein, Eric W. (ed.). <i>Wolfram MathWorld</i>. Wolfram Research<span class="reference-accessdate">. Retrieved <span class="nowrap">November 22,</span> 2021</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Variable&amp;rft.btitle=Wolfram+MathWorld&amp;rft.pub=Wolfram+Research&amp;rft.aulast=Stover&amp;rft.aufirst=Christopher&amp;rft.au=Weisstein%2C+Eric+W.&amp;rft_id=https%3A%2F%2Fmathworld.wolfram.com%2FVariable.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li>
+<li><link href="mw-data:TemplateStyles:r1067248974" rel="mw-deduplicated-inline-style"/><cite class="citation book cs1" id="CITEREFTabak2014">Tabak, John (2014). <a class="external text" href="https://books.google.com/books?id=h-zRieb7VbwC" rel="nofollow"><i>Algebra: Sets, Symbols, and the Language of Thought</i></a>. Infobase Publishing. <a class="mw-redirect" href="/wiki/ISBN_(identifier)" title="ISBN (identifier)">ISBN</a> <a href="/wiki/Special:BookSources/978-0-8160-6875-3" title="Special:BookSources/978-0-8160-6875-3"><bdi>978-0-8160-6875-3</bdi></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Algebra%3A+Sets%2C+Symbols%2C+and+the+Language+of+Thought&amp;rft.pub=Infobase+Publishing&amp;rft.date=2014&amp;rft.isbn=978-0-8160-6875-3&amp;rft.aulast=Tabak&amp;rft.aufirst=John&amp;rft_id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3Dh-zRieb7VbwC&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AVariable+%28mathematics%29"></span></li></ul>
+</div>
+<div class="navbox-styles nomobile"><style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style></div><div aria-labelledby="Mathematical_logic" class="navbox" role="navigation" style="padding:3px"><table class="nowraplinks mw-collapsible mw-collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><style data-mw-deduplicate="TemplateStyles:r1063604349">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Mathematical_logic" title="Template:Mathematical logic"><abbr style=";;background:none transparent;border:none;box-shadow:none;padding:0;" title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Mathematical_logic" title="Template talk:Mathematical logic"><abbr style=";;background:none transparent;border:none;box-shadow:none;padding:0;" title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Template:Mathematical_logic&amp;action=edit"><abbr style=";;background:none transparent;border:none;box-shadow:none;padding:0;" title="Edit this template">e</abbr></a></li></ul></div><div id="Mathematical_logic" style="font-size:114%;margin:0 4em"><a href="/wiki/Mathematical_logic" title="Mathematical logic">Mathematical logic</a></div></th></tr><tr><th class="navbox-group" scope="row" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Axiom" title="Axiom">Axiom</a>
+<ul><li><a href="/wiki/List_of_axioms" title="List of axioms">list</a></li></ul></li>
+<li><a href="/wiki/Cardinality" title="Cardinality">Cardinality</a></li>
+<li><a href="/wiki/First-order_logic" title="First-order logic">First-order logic</a></li>
+<li><a href="/wiki/Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a class="mw-redirect" href="/wiki/Formal_semantics_(logic)" title="Formal semantics (logic)">Formal semantics</a></li>
+<li><a href="/wiki/Foundations_of_mathematics" title="Foundations of mathematics">Foundations of mathematics</a></li>
+<li><a href="/wiki/Information_theory" title="Information theory">Information theory</a></li>
+<li><a href="/wiki/Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="/wiki/Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a></li>
+<li><a href="/wiki/Set_(mathematics)" title="Set (mathematics)">Set</a></li>
+<li><a href="/wiki/Theorem" title="Theorem">Theorem</a></li>
+<li><a href="/wiki/Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li>
+<li><a href="/wiki/Type_theory" title="Type theory">Type theory</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%">Theorems (<a href="/wiki/Category:Theorems_in_the_foundations_of_mathematics" title="Category:Theorems in the foundations of mathematics">list</a>)<br/> &amp; <a href="/wiki/Paradoxes_of_set_theory" title="Paradoxes of set theory">Paradoxes</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/G%C3%B6del%27s_completeness_theorem" title="Gödel's completeness theorem">Gödel's completeness</a> and <a href="/wiki/G%C3%B6del%27s_incompleteness_theorems" title="Gödel's incompleteness theorems">incompleteness theorems</a></span></li>
+<li><a href="/wiki/Tarski%27s_undefinability_theorem" title="Tarski's undefinability theorem">Tarski's undefinability</a></li>
+<li><a href="/wiki/Banach%E2%80%93Tarski_paradox" title="Banach–Tarski paradox">Banach–Tarski paradox</a></li>
+<li><span class="nowrap">Cantor's <a href="/wiki/Cantor%27s_theorem" title="Cantor's theorem">theorem,</a> <a href="/wiki/Cantor%27s_paradox" title="Cantor's paradox">paradox</a> and <a href="/wiki/Cantor%27s_diagonal_argument" title="Cantor's diagonal argument">diagonal argument</a></span></li>
+<li><a href="/wiki/Compactness_theorem" title="Compactness theorem">Compactness</a></li>
+<li><a href="/wiki/Halting_problem" title="Halting problem">Halting problem</a></li>
+<li><a href="/wiki/Lindstr%C3%B6m%27s_theorem" title="Lindström's theorem">Lindström's</a></li>
+<li><a href="/wiki/L%C3%B6wenheim%E2%80%93Skolem_theorem" title="Löwenheim–Skolem theorem">Löwenheim–Skolem</a></li>
+<li><a href="/wiki/Russell%27s_paradox" title="Russell's paradox">Russell's paradox</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Logic" title="Logic">Logics</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" id="Traditional" scope="row" style="width:1%"><a href="/wiki/Term_logic" title="Term logic">Traditional</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Classical_logic" title="Classical logic">Classical logic</a></li>
+<li><a href="/wiki/Logical_truth" title="Logical truth">Logical truth</a></li>
+<li><a href="/wiki/Tautology_(logic)" title="Tautology (logic)">Tautology</a></li>
+<li><a href="/wiki/Proposition" title="Proposition">Proposition</a></li>
+<li><a href="/wiki/Inference" title="Inference">Inference</a></li>
+<li><a href="/wiki/Logical_equivalence" title="Logical equivalence">Logical equivalence</a></li>
+<li><a href="/wiki/Consistency" title="Consistency">Consistency</a>
+<ul><li><a href="/wiki/Equiconsistency" title="Equiconsistency">Equiconsistency</a></li></ul></li>
+<li><a href="/wiki/Argument" title="Argument">Argument</a></li>
+<li><a href="/wiki/Soundness" title="Soundness">Soundness</a></li>
+<li><a href="/wiki/Validity_(logic)" title="Validity (logic)">Validity</a></li>
+<li><a href="/wiki/Syllogism" title="Syllogism">Syllogism</a></li>
+<li><a href="/wiki/Square_of_opposition" title="Square of opposition">Square of opposition</a></li>
+<li><a href="/wiki/Venn_diagram" title="Venn diagram">Venn diagram</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Propositional_calculus" title="Propositional calculus">Propositional</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Boolean_algebra" title="Boolean algebra">Boolean algebra</a></li>
+<li><a href="/wiki/Boolean_function" title="Boolean function">Boolean functions</a></li>
+<li><a href="/wiki/Logical_connective" title="Logical connective">Logical connectives</a></li>
+<li><a href="/wiki/Propositional_calculus" title="Propositional calculus">Propositional calculus</a></li>
+<li><a href="/wiki/Propositional_formula" title="Propositional formula">Propositional formula</a></li>
+<li><a href="/wiki/Truth_table" title="Truth table">Truth tables</a></li>
+<li><a href="/wiki/Many-valued_logic" title="Many-valued logic">Many-valued logic</a>
+<ul><li><a href="/wiki/Three-valued_logic" title="Three-valued logic">3</a></li>
+<li><a href="/wiki/Finite-valued_logic" title="Finite-valued logic">Finite</a></li>
+<li><a href="/wiki/Infinite-valued_logic" title="Infinite-valued logic">∞</a></li></ul></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a class="mw-redirect" href="/wiki/Predicate_logic" title="Predicate logic">Predicate</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/First-order_logic" title="First-order logic">First-order</a></li>
+<li><a href="/wiki/Second-order_logic" title="Second-order logic">Second-order</a>
+<ul><li><a href="/wiki/Monadic_second-order_logic" title="Monadic second-order logic">Monadic</a></li></ul></li>
+<li><a href="/wiki/Higher-order_logic" title="Higher-order logic">Higher-order</a></li>
+<li><a href="/wiki/Free_logic" title="Free logic">Free</a></li>
+<li><a href="/wiki/Quantifier_(logic)" title="Quantifier (logic)">Quantifiers</a></li>
+<li><a href="/wiki/Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a></li>
+<li><a href="/wiki/Monadic_predicate_calculus" title="Monadic predicate calculus">Monadic predicate calculus</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Set_theory" title="Set theory">Set theory</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td class="navbox-list navbox-even" colspan="2" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Set_(mathematics)" title="Set (mathematics)">Set</a>
+<ul><li><a href="/wiki/Hereditary_set" title="Hereditary set">Hereditary</a></li></ul></li>
+<li><a href="/wiki/Class_(set_theory)" title="Class (set theory)">Class</a></li>
+<li>(<a href="/wiki/Urelement" title="Urelement">Ur-</a>)<a href="/wiki/Element_(mathematics)" title="Element (mathematics)">Element</a></li>
+<li><a href="/wiki/Ordered_pair" title="Ordered pair">Ordered pair</a></li>
+<li><a href="/wiki/Ordinal_number" title="Ordinal number">Ordinal number</a></li>
+<li><a href="/wiki/Subset" title="Subset">Subset</a></li>
+<li><a href="/wiki/Equality_(mathematics)" title="Equality (mathematics)">Equality</a></li>
+<li><a href="/wiki/Extensionality" title="Extensionality">Extensionality</a></li>
+<li><a href="/wiki/Forcing_(mathematics)" title="Forcing (mathematics)">Forcing</a></li>
+<li><a href="/wiki/Relation_(mathematics)" title="Relation (mathematics)">Relation</a>
+<ul><li><a href="/wiki/Equivalence_relation" title="Equivalence relation">Equivalence</a></li>
+<li><a href="/wiki/Partition_of_a_set" title="Partition of a set">Partition</a></li></ul></li>
+<li>Set operations:
+<ul><li><a href="/wiki/Intersection_(set_theory)" title="Intersection (set theory)">Intersection</a></li>
+<li><a href="/wiki/Union_(set_theory)" title="Union (set theory)">Union</a></li>
+<li><a href="/wiki/Complement_(set_theory)" title="Complement (set theory)">Complement</a></li>
+<li><a href="/wiki/Cartesian_product" title="Cartesian product">Cartesian product</a></li>
+<li><a href="/wiki/Power_set" title="Power set">Power set</a></li>
+<li><a href="/wiki/List_of_set_identities_and_relations" title="List of set identities and relations">Identities</a></li></ul></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%">Types of <a href="/wiki/Set_(mathematics)" title="Set (mathematics)">Sets</a></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Countable_set" title="Countable set">Countable</a></li>
+<li><a href="/wiki/Uncountable_set" title="Uncountable set">Uncountable</a></li>
+<li><a href="/wiki/Empty_set" title="Empty set">Empty</a></li>
+<li><a href="/wiki/Inhabited_set" title="Inhabited set">Inhabited</a></li>
+<li><a href="/wiki/Singleton_(mathematics)" title="Singleton (mathematics)">Singleton</a></li>
+<li><a href="/wiki/Finite_set" title="Finite set">Finite</a></li>
+<li><a href="/wiki/Infinite_set" title="Infinite set">Infinite</a></li>
+<li><a href="/wiki/Transitive_set" title="Transitive set">Transitive</a></li>
+<li><a href="/wiki/Ultrafilter_(set_theory)" title="Ultrafilter (set theory)">Ultrafilter</a></li>
+<li><a class="mw-redirect" href="/wiki/Recursive_set" title="Recursive set">Recursive</a></li>
+<li><a href="/wiki/Fuzzy_set" title="Fuzzy set">Fuzzy</a></li>
+<li><a href="/wiki/Universal_set" title="Universal set">Universal</a></li>
+<li><a href="/wiki/Universe_(mathematics)" title="Universe (mathematics)">Universe</a>
+<ul><li><a href="/wiki/Constructible_universe" title="Constructible universe">Constructible</a></li>
+<li><a href="/wiki/Grothendieck_universe" title="Grothendieck universe">Grothendieck</a></li>
+<li><a href="/wiki/Von_Neumann_universe" title="Von Neumann universe">Von Neumann</a></li></ul></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Map_(mathematics)" title="Map (mathematics)">Maps</a> &amp; <a href="/wiki/Cardinality" title="Cardinality">Cardinality</a></th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Function_(mathematics)" title="Function (mathematics)">Function</a>/<a href="/wiki/Map_(mathematics)" title="Map (mathematics)">Map</a>
+<ul><li><a href="/wiki/Domain_of_a_function" title="Domain of a function">Domain</a></li>
+<li><a href="/wiki/Codomain" title="Codomain">Codomain</a></li>
+<li><a href="/wiki/Image_(mathematics)" title="Image (mathematics)">Image</a></li></ul></li>
+<li><a href="/wiki/Injective_function" title="Injective function">In</a>/<a href="/wiki/Surjective_function" title="Surjective function">Sur</a>/<a href="/wiki/Bijection" title="Bijection">Bi</a>-jection</li>
+<li><a href="/wiki/Schr%C3%B6der%E2%80%93Bernstein_theorem" title="Schröder–Bernstein theorem">Schröder–Bernstein theorem</a></li>
+<li><a href="/wiki/Isomorphism" title="Isomorphism">Isomorphism</a></li>
+<li><a href="/wiki/G%C3%B6del_numbering" title="Gödel numbering">Gödel numbering</a></li>
+<li><a href="/wiki/Enumeration" title="Enumeration">Enumeration</a></li>
+<li><a href="/wiki/Large_cardinal" title="Large cardinal">Large cardinal</a>
+<ul><li><a href="/wiki/Inaccessible_cardinal" title="Inaccessible cardinal">Inaccessible</a></li></ul></li>
+<li><a href="/wiki/Aleph_number" title="Aleph number">Aleph number</a></li>
+<li><a href="/wiki/Operation_(mathematics)" title="Operation (mathematics)">Operation</a>
+<ul><li><a href="/wiki/Binary_operation" title="Binary operation">Binary</a></li></ul></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%">Set theories</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Zermelo%E2%80%93Fraenkel_set_theory" title="Zermelo–Fraenkel set theory">Zermelo–Fraenkel</a>
+<ul><li><a href="/wiki/Axiom_of_choice" title="Axiom of choice">Axiom of choice</a></li>
+<li><a href="/wiki/Continuum_hypothesis" title="Continuum hypothesis">Continuum hypothesis</a></li></ul></li>
+<li><a href="/wiki/General_set_theory" title="General set theory">General</a></li>
+<li><a href="/wiki/Kripke%E2%80%93Platek_set_theory" title="Kripke–Platek set theory">Kripke–Platek</a></li>
+<li><a href="/wiki/Morse%E2%80%93Kelley_set_theory" title="Morse–Kelley set theory">Morse–Kelley</a></li>
+<li><a href="/wiki/Naive_set_theory" title="Naive set theory">Naive</a></li>
+<li><a href="/wiki/New_Foundations" title="New Foundations">New Foundations</a></li>
+<li><a href="/wiki/Tarski%E2%80%93Grothendieck_set_theory" title="Tarski–Grothendieck set theory">Tarski–Grothendieck</a></li>
+<li><a href="/wiki/Von_Neumann%E2%80%93Bernays%E2%80%93G%C3%B6del_set_theory" title="Von Neumann–Bernays–Gödel set theory">Von Neumann–Bernays–Gödel</a></li>
+<li><a href="/wiki/Constructive_set_theory" title="Constructive set theory">Constructive</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Syntax_(logic)" title="Syntax (logic)">Syntax</a> &amp; <a href="/wiki/Formal_language" title="Formal language">Language</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em"></div><table class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><td class="navbox-list navbox-even" colspan="2" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Alphabet_(formal_languages)" title="Alphabet (formal languages)">Alphabet</a></li>
+<li><a href="/wiki/Arity" title="Arity">Arity</a></li>
+<li><a href="/wiki/Automata_theory" title="Automata theory">Automata</a></li>
+<li><a href="/wiki/Axiom_schema" title="Axiom schema">Axiom schema</a></li>
+<li><a href="/wiki/Expression_(mathematics)" title="Expression (mathematics)">Expression</a>
+<ul><li><a href="/wiki/Ground_expression" title="Ground expression">Ground</a></li></ul></li>
+<li><a href="/wiki/Extension_by_new_constant_and_function_names" title="Extension by new constant and function names">Extension</a></li>
+<li><a href="/wiki/Finitary_relation" title="Finitary relation">Relation</a></li>
+<li>Formal
+<ul><li><a href="/wiki/Formal_grammar" title="Formal grammar">Grammar</a></li>
+<li><a href="/wiki/Formal_language" title="Formal language">Language</a></li>
+<li><a href="/wiki/Formal_proof" title="Formal proof">Proof</a></li>
+<li><a href="/wiki/Formal_system" title="Formal system">System</a></li>
+<li><a href="/wiki/Theory_(mathematical_logic)" title="Theory (mathematical logic)">Theory</a></li></ul></li>
+<li><a href="/wiki/Formation_rule" title="Formation rule">Formation rule</a></li>
+<li><a href="/wiki/Well-formed_formula" title="Well-formed formula">Formula</a>
+<ul><li><a href="/wiki/Atomic_formula" title="Atomic formula">Atomic</a></li>
+<li><a href="/wiki/Sentence_(mathematical_logic)" title="Sentence (mathematical logic)">Closed</a></li>
+<li><a class="mw-redirect" href="/wiki/Ground_formula" title="Ground formula">Ground</a></li>
+<li><a href="/wiki/Open_formula" title="Open formula">Open</a></li></ul></li>
+<li><a href="/wiki/Free_variables_and_bound_variables" title="Free variables and bound variables">Free/bound variable</a></li>
+<li><a href="/wiki/Metalanguage" title="Metalanguage">Metalanguage</a></li>
+<li><a href="/wiki/Logical_connective" title="Logical connective">Logical connective</a>
+<ul><li><a href="/wiki/Negation" title="Negation">¬</a></li>
+<li><a href="/wiki/Logical_disjunction" title="Logical disjunction">∨</a></li>
+<li><a href="/wiki/Logical_conjunction" title="Logical conjunction">∧</a></li>
+<li><a href="/wiki/Material_conditional" title="Material conditional">→</a></li>
+<li><a href="/wiki/Logical_biconditional" title="Logical biconditional">↔</a></li>
+<li><a href="/wiki/Logical_equality" title="Logical equality">=</a></li></ul></li>
+<li><a href="/wiki/Predicate_(mathematical_logic)" title="Predicate (mathematical logic)">Predicate</a>
+<ul><li><a href="/wiki/Functional_predicate" title="Functional predicate">Functional</a></li>
+<li><a href="/wiki/Predicate_variable" title="Predicate variable">Variable</a></li>
+<li><a href="/wiki/Propositional_variable" title="Propositional variable">Propositional variable</a></li></ul></li>
+<li><a href="/wiki/Quantifier_(logic)" title="Quantifier (logic)">Quantifier</a>
+<ul><li><a href="/wiki/Existential_quantification" title="Existential quantification">∃</a></li>
+<li><a href="/wiki/Uniqueness_quantification" title="Uniqueness quantification">!</a></li>
+<li><a href="/wiki/Universal_quantification" title="Universal quantification">∀</a></li>
+<li><a href="/wiki/Quantifier_rank" title="Quantifier rank">rank</a></li></ul></li>
+<li><a href="/wiki/Sentence_(mathematical_logic)" title="Sentence (mathematical logic)">Sentence</a>
+<ul><li><a href="/wiki/Atomic_sentence" title="Atomic sentence">Atomic</a></li></ul></li>
+<li><a href="/wiki/Signature_(logic)" title="Signature (logic)">Signature</a></li>
+<li><a class="mw-redirect" href="/wiki/String_(formal_languages)" title="String (formal languages)">String</a></li>
+<li><a href="/wiki/Substitution_(logic)" title="Substitution (logic)">Substitution</a></li>
+<li><a href="/wiki/Symbol_(formal)" title="Symbol (formal)">Symbol</a>
+<ul><li><a href="/wiki/Uninterpreted_function" title="Uninterpreted function">Function</a></li>
+<li><a href="/wiki/Logical_constant" title="Logical constant">Logical/Constant</a></li>
+<li><a href="/wiki/Non-logical_symbol" title="Non-logical symbol">Non-logical</a></li>
+<li><a class="mw-selflink selflink">Variable</a></li></ul></li>
+<li><a href="/wiki/Term_(logic)" title="Term (logic)">Term</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><span class="nowrap">Example <a href="/wiki/Axiomatic_system" title="Axiomatic system">axiomatic<br/>systems</a> <span style="font-size:85%;">(<a href="/wiki/List_of_first-order_theories" title="List of first-order theories">list</a>)</span></span></th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li>of <a href="/wiki/True_arithmetic" title="True arithmetic">arithmetic</a>:
+<ul><li><a href="/wiki/Peano_axioms" title="Peano axioms">Peano</a></li>
+<li><a href="/wiki/Second-order_arithmetic" title="Second-order arithmetic">second-order</a></li>
+<li><a href="/wiki/Elementary_function_arithmetic" title="Elementary function arithmetic">elementary function</a></li>
+<li><a href="/wiki/Primitive_recursive_arithmetic" title="Primitive recursive arithmetic">primitive recursive</a></li>
+<li><a href="/wiki/Robinson_arithmetic" title="Robinson arithmetic">Robinson</a></li>
+<li><a href="/wiki/Skolem_arithmetic" title="Skolem arithmetic">Skolem</a></li></ul></li>
+<li>of the <a href="/wiki/Construction_of_the_real_numbers" title="Construction of the real numbers">real numbers</a>
+<ul><li><a href="/wiki/Tarski%27s_axiomatization_of_the_reals" title="Tarski's axiomatization of the reals">Tarski's axiomatization</a></li></ul></li>
+<li>of <a class="mw-redirect" href="/wiki/Axiomatization_of_Boolean_algebras" title="Axiomatization of Boolean algebras">Boolean algebras</a>
+<ul><li><a href="/wiki/Boolean_algebras_canonically_defined" title="Boolean algebras canonically defined">canonical</a></li>
+<li><a href="/wiki/Minimal_axioms_for_Boolean_algebra" title="Minimal axioms for Boolean algebra">minimal axioms</a></li></ul></li>
+<li>of <a href="/wiki/Foundations_of_geometry" title="Foundations of geometry">geometry</a>:
+<ul><li><a href="/wiki/Euclidean_geometry" title="Euclidean geometry">Euclidean</a></li>
+<li><a href="/wiki/Euclid%27s_Elements" title="Euclid's Elements"><i>Elements</i></a></li>
+<li><a href="/wiki/Hilbert%27s_axioms" title="Hilbert's axioms">Hilbert's</a></li>
+<li><a href="/wiki/Non-Euclidean_geometry" title="Non-Euclidean geometry">non-Euclidean</a></li>
+<li><a href="/wiki/Tarski%27s_axioms" title="Tarski's axioms">Tarski's</a></li></ul></li>
+<li><i><a href="/wiki/Principia_Mathematica" title="Principia Mathematica">Principia Mathematica</a></i></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Proof_theory" title="Proof theory">Proof theory</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Formal_proof" title="Formal proof">Formal proof</a></li>
+<li><a href="/wiki/Natural_deduction" title="Natural deduction">Natural deduction</a></li>
+<li><a href="/wiki/Logical_consequence" title="Logical consequence">Logical consequence</a></li>
+<li><a href="/wiki/Rule_of_inference" title="Rule of inference">Rule of inference</a></li>
+<li><a href="/wiki/Sequent_calculus" title="Sequent calculus">Sequent calculus</a></li>
+<li><a href="/wiki/Theorem" title="Theorem">Theorem</a></li>
+<li>Systems
+<ul><li><a href="/wiki/Formal_system" title="Formal system">Formal</a></li>
+<li><a href="/wiki/Axiomatic_system" title="Axiomatic system">Axiomatic</a></li>
+<li><a class="mw-redirect" href="/wiki/Deductive_system" title="Deductive system">Deductive</a></li>
+<li><a href="/wiki/Hilbert_system" title="Hilbert system">Hilbert</a>
+<ul><li><a href="/wiki/List_of_Hilbert_systems" title="List of Hilbert systems">list</a></li></ul></li></ul></li>
+<li><a href="/wiki/Complete_theory" title="Complete theory">Complete theory</a></li>
+<li><a href="/wiki/Independence_(mathematical_logic)" title="Independence (mathematical logic)">Independence</a> (<a href="/wiki/List_of_statements_independent_of_ZFC" title="List of statements independent of ZFC">from ZFC</a>)</li>
+<li><a href="/wiki/Proof_of_impossibility" title="Proof of impossibility">Proof of impossibility</a></li>
+<li><a href="/wiki/Ordinal_analysis" title="Ordinal analysis">Ordinal analysis</a></li>
+<li><a href="/wiki/Reverse_mathematics" title="Reverse mathematics">Reverse mathematics</a></li>
+<li><a href="/wiki/Self-verifying_theories" title="Self-verifying theories">Self-verifying theories</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Model_theory" title="Model theory">Model theory</a></th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Interpretation_(logic)" title="Interpretation (logic)">Interpretation</a></li>
+<li><a href="/wiki/Structure_(mathematical_logic)" title="Structure (mathematical logic)">Model</a>
+<ul><li><a href="/wiki/Elementary_equivalence" title="Elementary equivalence">Equivalence</a></li>
+<li><a href="/wiki/Finite_model_theory" title="Finite model theory">Finite</a></li>
+<li><a href="/wiki/Saturated_model" title="Saturated model">Saturated</a></li>
+<li><a href="/wiki/Substructure_(mathematics)" title="Substructure (mathematics)">Substructure</a></li></ul></li>
+<li><a href="/wiki/Non-standard_model" title="Non-standard model">Non-standard model</a>
+<ul><li><a href="/wiki/Non-standard_model_of_arithmetic" title="Non-standard model of arithmetic">of arithmetic</a></li></ul></li>
+<li><a href="/wiki/Diagram_(mathematical_logic)" title="Diagram (mathematical logic)">Diagram</a>
+<ul><li><a href="/wiki/Elementary_diagram" title="Elementary diagram">Elementary</a></li></ul></li>
+<li><a href="/wiki/Categorical_theory" title="Categorical theory">Categorical theory</a></li>
+<li><a href="/wiki/Model_complete_theory" title="Model complete theory">Model complete theory</a></li>
+<li><a href="/wiki/Satisfiability" title="Satisfiability">Satisfiability</a></li>
+<li><a href="/wiki/Semantics_of_logic" title="Semantics of logic">Semantics of logic</a></li>
+<li><a href="/wiki/Strength_(mathematical_logic)" title="Strength (mathematical logic)">Strength</a></li>
+<li><a class="mw-redirect" href="/wiki/Theories_of_truth" title="Theories of truth">Theories of truth</a>
+<ul><li><a href="/wiki/Semantic_theory_of_truth" title="Semantic theory of truth">Semantic</a></li>
+<li><a class="mw-redirect" href="/wiki/Tarski%27s_theory_of_truth" title="Tarski's theory of truth">Tarski's</a></li>
+<li><a class="mw-redirect" href="/wiki/Kripke%27s_theory_of_truth" title="Kripke's theory of truth">Kripke's</a></li></ul></li>
+<li><a href="/wiki/T-schema" title="T-schema">T-schema</a></li>
+<li><a href="/wiki/Transfer_principle" title="Transfer principle">Transfer principle</a></li>
+<li><a href="/wiki/Truth_predicate" title="Truth predicate">Truth predicate</a></li>
+<li><a href="/wiki/Truth_value" title="Truth value">Truth value</a></li>
+<li><a href="/wiki/Type_(model_theory)" title="Type (model theory)">Type</a></li>
+<li><a href="/wiki/Ultraproduct" title="Ultraproduct">Ultraproduct</a></li>
+<li><a href="/wiki/Validity_(logic)" title="Validity (logic)">Validity</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%"><a href="/wiki/Computability_theory" title="Computability theory">Computability theory</a></th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Church_encoding" title="Church encoding">Church encoding</a></li>
+<li><a href="/wiki/Church%E2%80%93Turing_thesis" title="Church–Turing thesis">Church–Turing thesis</a></li>
+<li><a href="/wiki/Computably_enumerable_set" title="Computably enumerable set">Computably enumerable</a></li>
+<li><a href="/wiki/Computable_function" title="Computable function">Computable function</a></li>
+<li><a href="/wiki/Computable_set" title="Computable set">Computable set</a></li>
+<li><a href="/wiki/Decision_problem" title="Decision problem">Decision problem</a>
+<ul><li><a href="/wiki/Decidability_(logic)" title="Decidability (logic)">Decidable</a></li>
+<li><a href="/wiki/Undecidable_problem" title="Undecidable problem">Undecidable</a></li>
+<li><a href="/wiki/P_(complexity)" title="P (complexity)">P</a></li>
+<li><a href="/wiki/NP_(complexity)" title="NP (complexity)">NP</a></li>
+<li><a href="/wiki/P_versus_NP_problem" title="P versus NP problem">P versus NP problem</a></li></ul></li>
+<li><a href="/wiki/Kolmogorov_complexity" title="Kolmogorov complexity">Kolmogorov complexity</a></li>
+<li><a href="/wiki/Lambda_calculus" title="Lambda calculus">Lambda calculus</a></li>
+<li><a href="/wiki/Primitive_recursive_function" title="Primitive recursive function">Primitive recursive function</a></li>
+<li><a href="/wiki/Recursion" title="Recursion">Recursion</a></li>
+<li><a class="mw-redirect" href="/wiki/Recursive_set" title="Recursive set">Recursive set</a></li>
+<li><a href="/wiki/Turing_machine" title="Turing machine">Turing machine</a></li>
+<li><a href="/wiki/Type_theory" title="Type theory">Type theory</a></li></ul>
+</div></td></tr><tr><th class="navbox-group" scope="row" style="width:1%">Related</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/Abstract_logic" title="Abstract logic">Abstract logic</a></li>
+<li><a href="/wiki/Category_theory" title="Category theory">Category theory</a></li>
+<li><a href="/wiki/Concrete_category" title="Concrete category">Concrete</a>/<a href="/wiki/Category_(mathematics)" title="Category (mathematics)">Abstract Category</a></li>
+<li><a href="/wiki/Category_of_sets" title="Category of sets">Category of sets</a></li>
+<li><a href="/wiki/History_of_logic" title="History of logic">History of logic</a></li>
+<li><a class="mw-redirect" href="/wiki/History_of_mathematical_logic" title="History of mathematical logic">History of mathematical logic</a>
+<ul><li><a href="/wiki/Timeline_of_mathematical_logic" title="Timeline of mathematical logic">timeline</a></li></ul></li>
+<li><a href="/wiki/Logicism" title="Logicism">Logicism</a></li>
+<li><a href="/wiki/Mathematical_object" title="Mathematical object">Mathematical object</a></li>
+<li><a href="/wiki/Philosophy_of_mathematics" title="Philosophy of mathematics">Philosophy of mathematics</a></li>
+<li><a href="/wiki/Supertask" title="Supertask">Supertask</a></li></ul>
+</div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><b><a class="image" href="/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg"><img alt="icon" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/16px-Nuvola_apps_edu_mathematics_blue-p.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/24px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/32px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" width="16"/></a> <a href="/wiki/Portal:Mathematics" title="Portal:Mathematics">Mathematics portal</a></b></div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw1372
+Cached time: 20221009004250
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.436 seconds
+Real time usage: 0.589 seconds
+Preprocessor visited node count: 3104/1000000
+Post‐expand include size: 90740/2097152 bytes
+Template argument size: 3702/2097152 bytes
+Highest expansion depth: 12/100
+Expensive parser function count: 6/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 33129/5000000 bytes
+Lua time usage: 0.208/10.000 seconds
+Lua memory usage: 6700240/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  403.467      1 -total
+ 30.73%  123.986      1 Template:Reflist
+ 23.95%   96.650      8 Template:Cite_book
+ 19.16%   77.289      4 Template:Navbox
+ 17.59%   70.961      1 Template:Mathematical_logic
+ 12.56%   50.687      1 Template:Short_description
+  9.64%   38.892      5 Template:Harvnb
+  9.16%   36.953     35 Template:Math
+  7.15%   28.847      2 Template:Pagetype
+  4.80%   19.370      1 Template:For_multi
+-->
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3728109-0!canonical and timestamp 20221009004250 and revision id 1114467820.
+ -->
+</div><noscript><img alt="" height="1" src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Variable_(mathematics)&amp;oldid=1114467820">https://en.wikipedia.org/w/index.php?title=Variable_(mathematics)&amp;oldid=1114467820</a>"</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Variables_(mathematics)" title="Category:Variables (mathematics)">Variables (mathematics)</a></li><li><a href="/wiki/Category:Algebra" title="Category:Algebra">Algebra</a></li><li><a href="/wiki/Category:Calculus" title="Category:Calculus">Calculus</a></li><li><a href="/wiki/Category:Elementary_mathematics" title="Category:Elementary mathematics">Elementary mathematics</a></li><li><a href="/wiki/Category:Syntax_(logic)" title="Category:Syntax (logic)">Syntax (logic)</a></li><li><a href="/wiki/Category:Mathematical_logic" title="Category:Mathematical logic">Mathematical logic</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Hidden categories: <ul><li><a href="/wiki/Category:CS1:_Julian%E2%80%93Gregorian_uncertainty" title="Category:CS1: Julian–Gregorian uncertainty">CS1: Julian–Gregorian uncertainty</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li><li><a href="/wiki/Category:Use_mdy_dates_from_November_2021" title="Category:Use mdy dates from November 2021">Use mdy dates from November 2021</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>Navigation menu</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">Personal tools</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="The user page for the IP address you are editing as">Not logged in</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]"><span>Talk</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]"><span>Contributions</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Variable+%28mathematics%29" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:UserLogin&amp;returnto=Variable+%28mathematics%29" title="You're encouraged to log in; however, it's not mandatory. [o]"><span>Log in</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">Namespaces</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Variable_(mathematics)" title="View the content page [c]"><span>Article</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:Variable_(mathematics)" rel="discussion" title="Discuss improvements to the content page [t]"><span>Talk</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="Change language variant" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">English</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">Views</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Variable_(mathematics)"><span>Read</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Variable_(mathematics)&amp;action=edit" title="Edit this page [e]"><span>Edit</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Variable_(mathematics)&amp;action=history" title="Past revisions of this page [h]"><span>View history</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="More options">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">More</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">Search</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="Search Wikipedia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" type="search"/>
+<input name="title" type="hidden" value="Special:Search"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Search Wikipedia for this text" type="submit" value="Search"/>
+<input class="searchButton" id="searchButton" name="go" title="Go to a page with this exact name if it exists" type="submit" value="Go"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Main_Page" title="Visit the main page [z]"><span>Main page</span></a></li><li class="mw-list-item" id="n-contents"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:Random" title="Visit a randomly selected article [x]"><span>Random article</span></a></li><li class="mw-list-item" id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li class="mw-list-item" id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-interaction-label" class="vector-menu mw-portlet mw-portlet-interaction vector-menu-portal portal" id="p-interaction" role="navigation">
+<h3 class="vector-menu-heading" id="p-interaction-label">
+<span class="vector-menu-heading-label">Contribute</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li class="mw-list-item" id="n-introduction"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]"><span>Recent changes</span></a></li><li class="mw-list-item" id="n-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Tools</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:WhatLinksHere/Variable_(mathematics)" title="List of all English Wikipedia pages containing links to this page [j]"><span>What links here</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:RecentChangesLinked/Variable_(mathematics)" rel="nofollow" title="Recent changes in pages linked from this page [k]"><span>Related changes</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]"><span>Upload file</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:SpecialPages" title="A list of all special pages [q]"><span>Special pages</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Variable_(mathematics)&amp;oldid=1114467820" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Variable_(mathematics)&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Variable_%28mathematics%29&amp;id=1114467820&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50701" title="Structured data on this page hosted by Wikidata [g]"><span>Wikidata item</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-coll-print_export-label" class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export" role="navigation">
+<h3 class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Print/export</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Variable_%28mathematics%29&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Variable_(mathematics)&amp;printable=yes" title="Printable version of this page [p]"><span>Printable version</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">In other projects</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://en.wikiversity.org/wiki/Variable" hreflang="en"><span>Wikiversity</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">Languages</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Veranderlike" hreflang="af" lang="af" title="Veranderlike – Afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%D9%8A%D8%B1_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="متغير (رياضيات) – Arabic"><span>العربية</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/D%C9%99yi%C5%9F%C9%99n_(riyaziyyat)" hreflang="az" lang="az" title="Dəyişən (riyaziyyat) – Azerbaijani"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%AF%DB%8C%DB%8C%D8%B4%D9%86_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="azb" lang="azb" title="دییشن (ریاضیات) – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A6%B2%E0%A6%95_(%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4)" hreflang="bn" lang="bn" title="চলক (গণিত) – Bangla"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D2%AE%D2%99%D0%B3%D3%99%D1%80%D0%B5%D2%AF%D1%81%D3%99%D0%BD_%D0%B4%D3%99%D2%AF%D0%BC%D3%99%D0%BB" hreflang="ba" lang="ba" title="Үҙгәреүсән дәүмәл – Bashkir"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D0%BB%D1%96%D1%87%D1%8B%D0%BD%D1%8F" hreflang="be" lang="be" title="Пераменная велічыня – Belarusian"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%97%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F" hreflang="be-tarask" lang="be-tarask" title="Зьменная – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0" hreflang="bg" lang="bg" title="Променлива величина – Bulgarian"><span>Български</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Variable_(matem%C3%A0tiques)" hreflang="ca" lang="ca" title="Variable (matemàtiques) – Catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A3%D0%BB%D1%88%C4%83%D0%BD%D0%B0%D0%B2%C3%A7%C4%83" hreflang="cv" lang="cv" title="Улшăнавçă – Chuvash"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Prom%C4%9Bnn%C3%A1" hreflang="cs" lang="cs" title="Proměnná – Czech"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Newidyn" hreflang="cy" lang="cy" title="Newidyn – Welsh"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Variabel_(matematik)" hreflang="da" lang="da" title="Variabel (matematik) – Danish"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Variable_(Mathematik)" hreflang="de" lang="de" title="Variable (Mathematik) – German"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Muutuja" hreflang="et" lang="et" title="Muutuja – Estonian"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9C%CE%B5%CF%84%CE%B1%CE%B2%CE%BB%CE%B7%CF%84%CE%AE_(%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC)" hreflang="el" lang="el" title="Μεταβλητή (μαθηματικά) – Greek"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Variable_(matem%C3%A1tica)" hreflang="es" lang="es" title="Variable (matemática) – Spanish"><span>Español</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Variablo" hreflang="eo" lang="eo" title="Variablo – Esperanto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aldagai_(matematika)" hreflang="eu" lang="eu" title="Aldagai (matematika) – Basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%DB%8C%D8%B1_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="fa" lang="fa" title="متغیر (ریاضیات) – Persian"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Variabul" hreflang="fo" lang="fo" title="Variabul – Faroese"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Variable_(math%C3%A9matiques)" hreflang="fr" lang="fr" title="Variable (mathématiques) – French"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Athr%C3%B3g_(anail%C3%ADs_uimhri%C3%BAil)" hreflang="ga" lang="ga" title="Athróg (anailís uimhriúil) – Irish"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gd mw-list-item"><a class="interlanguage-link-target" href="https://gd.wikipedia.org/wiki/Caochladair" hreflang="gd" lang="gd" title="Caochladair – Scottish Gaelic"><span>Gàidhlig</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Vari%C3%A1bel" hreflang="gl" lang="gl" title="Variábel – Galician"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E8%AE%8A%E9%87%8F" hreflang="gan" lang="gan" title="變量 – Gan Chinese"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%9A%E0%AA%B2" hreflang="gu" lang="gu" title="ચલ – Gujarati"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%A5%D2%AF%D0%B2%D1%80%D2%AF%D0%BB%D2%BB%D0%B0%D0%BD" hreflang="xal" lang="xal" title="Хүврүлһан – Kalmyk"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_(%EC%88%98%ED%95%99)" hreflang="ko" lang="ko" title="변수 (수학) – Korean"><span>한국어</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%93%D5%B8%D6%83%D5%B8%D5%AD%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B4%D5%A5%D5%AE%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Փոփոխական մեծություն – Armenian"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%9A%E0%A4%B0" hreflang="hi" lang="hi" title="चर – Hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Varijabla" hreflang="hr" lang="hr" title="Varijabla – Croatian"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Variabel_(matematika)" hreflang="id" lang="id" title="Variabel (matematika) – Indonesian"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Variabile_(mathematica)" hreflang="ia" lang="ia" title="Variabile (mathematica) – Interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a class="interlanguage-link-target" href="https://xh.wikipedia.org/wiki/I-Variable" hreflang="xh" lang="xh" title="I-Variable – Xhosa"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Breyta" hreflang="is" lang="is" title="Breyta – Icelandic"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Variabile_(matematica)" hreflang="it" lang="it" title="Variabile (matematica) – Italian"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%AA%D7%A0%D7%94" hreflang="he" lang="he" title="משתנה – Hebrew"><span>עברית</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/L%C9%9B%C9%9Bz%C9%A9y%CA%8A" hreflang="kbp" lang="kbp" title="Lɛɛzɩyʊ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%90%D0%B9%D0%BD%D1%8B%D0%BC%D0%B0%D0%BB%D1%8B" hreflang="kk" lang="kk" title="Айнымалы – Kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Varyab_(mat%C3%A9matik)" hreflang="gcr" lang="gcr" title="Varyab (matématik) – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Quantitas_variabilis" hreflang="la" lang="la" title="Quantitas variabilis – Latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Main%C4%ABgais_lielums" hreflang="lv" lang="lv" title="Mainīgais lielums – Latvian"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/V%C3%A1ltoz%C3%B3" hreflang="hu" lang="hu" title="Változó – Hungarian"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D0%BB%D0%B8%D0%B2%D0%B0" hreflang="mk" lang="mk" title="Променлива – Macedonian"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%9A%E0%B4%B0%E0%B4%82" hreflang="ml" lang="ml" title="ചരം – Malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Pemboleh_ubah" hreflang="ms" lang="ms" title="Pemboleh ubah – Malay"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A5%D1%83%D0%B2%D1%8C%D1%81%D0%B0%D0%B3%D1%87" hreflang="mn" lang="mn" title="Хувьсагч – Mongolian"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Variabele" hreflang="nl" lang="nl" title="Variabele – Dutch"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%A4%89%E6%95%B0_(%E6%95%B0%E5%AD%A6)" hreflang="ja" lang="ja" title="変数 (数学) – Japanese"><span>日本語</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Variabel" hreflang="nb" lang="nb" title="Variabel – Norwegian Bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Variabel" hreflang="nn" lang="nn" title="Variabel – Norwegian Nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-uz badge-Q17437798 badge-goodarticle mw-list-item" title="good article badge"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/O%CA%BBzgaruvchi" hreflang="uz" lang="uz" title="Oʻzgaruvchi – Uzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A8%B8%E0%A8%A5%E0%A8%BF%E0%A8%B0%E0%A8%BE%E0%A8%82%E0%A8%95_(%E0%A8%97%E0%A8%A3%E0%A8%BF%E0%A8%A4)" hreflang="pa" lang="pa" title="ਅਸਥਿਰਾਂਕ (ਗਣਿਤ) – Punjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Vieriebl" hreflang="jam" lang="jam" title="Vieriebl – Jamaican Creole English"><span>Patois</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Zmienna_(matematyka)" hreflang="pl" lang="pl" title="Zmienna (matematyka) – Polish"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Vari%C3%A1vel_(matem%C3%A1tica)" hreflang="pt" lang="pt" title="Variável (matemática) – Portuguese"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Variabil%C4%83" hreflang="ro" lang="ro" title="Variabilă – Romanian"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0" hreflang="ru" lang="ru" title="Переменная величина – Russian"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%A2%D1%83%D1%82%D1%83%D0%BB%D1%83%D0%B3%D0%B0%D1%80_%D1%81%D1%83%D0%BE%D1%85_%D1%83%D0%BB%D0%B0%D1%80%D1%8B%D0%B9%D0%B0%D0%B0%D1%87%D1%87%D1%8B" hreflang="sah" lang="sah" title="Тутулугар суох уларыйааччы – Sakha"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Variable_(mathematics)" hreflang="sco" lang="sco" title="Variable (mathematics) – Scots"><span>Scots</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Variable" hreflang="en-simple" lang="en-simple" title="Variable – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a class="interlanguage-link-target" href="https://sd.wikipedia.org/wiki/%DA%A6%D8%B1%DA%BB%D9%88_%DA%AF%D9%87%D8%B1%DA%BB%D9%88_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A)" hreflang="sd" lang="sd" title="ڦرڻو گهرڻو (رياضي) – Sindhi"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Premenn%C3%A1_(matematika)" hreflang="sk" lang="sk" title="Premenná (matematika) – Slovak"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Spremenljivka" hreflang="sl" lang="sl" title="Spremenljivka – Slovenian"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D1%99%D0%B8%D0%B2%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="sr" lang="sr" title="Променљива (математика) – Serbian"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Promenljiva_(matematika)" hreflang="sh" lang="sh" title="Promenljiva (matematika) – Serbo-Croatian"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Muuttuja_(matematiikka)" hreflang="fi" lang="fi" title="Muuttuja (matematiikka) – Finnish"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Variabel" hreflang="sv" lang="sv" title="Variabel – Swedish"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Baryable" hreflang="tl" lang="tl" title="Baryable – Tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%BE%E0%AE%B1%E0%AE%BF" hreflang="ta" lang="ta" title="மாறி – Tamil"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%81%E0%B8%9B%E0%B8%A3_(%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C)" hreflang="th" lang="th" title="ตัวแปร (คณิตศาสตร์) – Thai"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/De%C4%9Fi%C5%9Fken_(matematik)" hreflang="tr" lang="tr" title="Değişken (matematik) – Turkish"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%97%D0%BC%D1%96%D0%BD%D0%BD%D0%B0" hreflang="uk" lang="uk" title="Змінна – Ukrainian"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%DB%8C%D8%B1" hreflang="ur" lang="ur" title="متغیر – Urdu"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Bi%E1%BA%BFn_s%E1%BB%91" hreflang="vi" lang="vi" title="Biến số – Vietnamese"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/Muutuja" hreflang="vro" lang="vro" title="Muutuja – võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%8F%98%E9%87%8F" hreflang="wuu" lang="wuu" title="变量 – Wu Chinese"><span>吴语</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%9C%AA%E7%9F%A5%E6%95%B8" hreflang="yue" lang="yue" title="未知數 – Cantonese"><span>粵語</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E8%AE%8A%E6%95%B8" hreflang="zh" lang="zh" title="變數 – Chinese"><span>中文</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50701#sitelinks-wikipedia" title="Edit interlanguage links">Edit links</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> This page was last edited on 6 October 2022, at 17:02<span class="anonymous-show"> (UTC)</span>.</li>
+<li id="footer-info-copyright">Text is available under the <a href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" rel="license">Creative Commons Attribution-ShareAlike License 3.0</a><a href="//creativecommons.org/licenses/by-sa/3.0/" rel="license" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">Privacy policy</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//en.m.wikipedia.org/w/index.php?title=Variable_(mathematics)&amp;mobileaction=toggle_view_mobile">Mobile view</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.436","walltime":"0.589","ppvisitednodes":{"value":3104,"limit":1000000},"postexpandincludesize":{"value":90740,"limit":2097152},"templateargumentsize":{"value":3702,"limit":2097152},"expansiondepth":{"value":12,"limit":100},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":33129,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  403.467      1 -total"," 30.73%  123.986      1 Template:Reflist"," 23.95%   96.650      8 Template:Cite_book"," 19.16%   77.289      4 Template:Navbox"," 17.59%   70.961      1 Template:Mathematical_logic"," 12.56%   50.687      1 Template:Short_description","  9.64%   38.892      5 Template:Harvnb","  9.16%   36.953     35 Template:Math","  7.15%   28.847      2 Template:Pagetype","  4.80%   19.370      1 Template:For_multi"]},"scribunto":{"limitreport-timeusage":{"value":"0.208","limit":"10.000"},"limitreport-memusage":{"value":6700240,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFEdwards1892\"] = 1,\n    [\"CITEREFFoerster2006\"] = 1,\n    [\"CITEREFFraleigh1989\"] = 1,\n    [\"CITEREFHosch2010\"] = 1,\n    [\"CITEREFMenger1954\"] = 1,\n    [\"CITEREFPeregrin2000\"] = 1,\n    [\"CITEREFQuine1960\"] = 1,\n    [\"CITEREFSorell2000\"] = 1,\n    [\"CITEREFStoverWeisstein\"] = 1,\n    [\"CITEREFTabak2014\"] = 1,\n    [\"CITEREFWeisstein\"] = 1,\n    [\"SW\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Anchor\"] = 1,\n    [\"Cite book\"] = 8,\n    [\"Cite encyclopedia\"] = 1,\n    [\"Cite journal\"] = 2,\n    [\"Cite web\"] = 1,\n    [\"DEFAULTSORT:Variable (mathematics)\"] = 1,\n    [\"For multi\"] = 1,\n    [\"Harvnb\"] = 5,\n    [\"Main\"] = 1,\n    [\"Math\"] = 35,\n    [\"Mathematical logic\"] = 1,\n    [\"Mvar\"] = 1,\n    [\"Pi\"] = 1,\n    [\"Refbegin\"] = 1,\n    [\"Refend\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"See also\"] = 1,\n    [\"Short description\"] = 1,\n    [\"Use mdy dates\"] = 1,\n}\narticle_whitelist = table#1 {\n}\ntable#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw1372","timestamp":"20221009004250","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Variable (mathematics)","url":"https:\/\/en.wikipedia.org\/wiki\/Variable_(mathematics)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q50701","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q50701","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-01-15T09:48:17Z","dateModified":"2022-10-06T17:02:40Z","headline":"value that can change, usually with a context of an equation or operation"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Variable (mathematics)","url":"https:\/\/en.wikipedia.org\/wiki\/Variable_(mathematics)","sameAs":"http:\/\/www.wikidata.org\/entity\/Q50701","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q50701","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-01-15T09:48:17Z","dateModified":"2022-10-06T17:02:40Z","headline":"value that can change, usually with a context of an equation or operation"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":119,"wgHostname":"mw1389"});});</script>
+</body>
+</html>

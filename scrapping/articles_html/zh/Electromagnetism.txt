@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>电磁学 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"7d3f525f-a930-43c5-af50-4b0a2685077e","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"电磁学","wgTitle":"电磁学","wgCurRevisionId":70439926,"wgRevisionId":70439926,"wgArticleId":11187,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1英语来源 (en)","引文格式1维护：冗余文本","含有过时参数的引用的页面","CS1法语来源 (fr)","含有英語的條目","含有希臘語的條目","含有拉丁語的條目","含有阿拉伯語的條目","使用抬升式引用的條目","包含AAT标识符的维基百科条目",
+"包含BNF标识符的维基百科条目","包含GND标识符的维基百科条目","包含LCCN标识符的维基百科条目","包含NDL标识符的维基百科条目","包含NKC标识符的维基百科条目","包含SUDOC标识符的维基百科条目","使用ISBN魔术链接的页面","物理学分支","电磁学"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"电磁学","wgRelevantArticleId":11187,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":30000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,
+"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q11406","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init",
+"ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/1200px-Lightning.0257.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="900" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/800px-Lightning.0257.jpg" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="600" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/640px-Lightning.0257.jpg" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="480" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="电磁学 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-电磁学 rootpage-电磁学 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-5ff6fd68"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">电磁学</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-5ff6fd68"><div class="noteTA-group"><div data-noteta-group="Physics" data-noteta-group-source="module"></div></div></div>
+<p><b>电磁学</b>（英語：<span lang="en">electromagnetism</span>）是研究<b>电磁力</b>（<a href="/wiki/%E9%9B%BB%E8%8D%B7" title="電荷">電荷</a>粒子之间的一种物理性相互作用） 的<a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6" title="物理学">物理学</a>的一个分支。电磁力通常表现为<a href="/wiki/%E7%94%B5%E7%A3%81%E5%9C%BA" title="电磁场">电磁场</a>，如<a href="/wiki/%E9%9B%BB%E5%A0%B4" title="電場">電場</a>、<a href="/wiki/%E7%A3%81%E5%A0%B4" title="磁場">磁場</a>和<a href="/wiki/%E5%85%89" title="光">光</a>。电磁力是<a href="/wiki/%E8%87%AA%E7%84%B6" title="自然">自然界</a>中四种<a href="/wiki/%E5%9F%BA%E6%9C%AC%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="基本相互作用">基本相互作用</a>之一。其它三种基本相互作用是<a href="/wiki/%E5%BC%BA%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="强相互作用">强相互作用</a>、<a href="/wiki/%E5%BC%B1%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="弱相互作用">弱相互作用</a>、<a href="/wiki/%E5%BC%95%E5%8A%9B" title="引力">引力</a>。<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><a href="/wiki/%E9%9B%BB%E5%AD%B8" title="電學">電學</a>與<a class="mw-redirect" href="/wiki/%E7%A3%81%E5%AD%B8" title="磁學">磁學</a>領域密切相關。<a class="mw-redirect" href="/wiki/%E9%9B%BB%E7%A3%81%E5%AD%B8" title="電磁學">電磁學</a>可以廣義地包含電學和磁學，但狹義來說是探討電與磁彼此之間相互關係的一門學科。
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Lightning.0257.jpg"><img alt="" class="thumbimage" data-file-height="1944" data-file-width="2592" decoding="async" height="165" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/220px-Lightning.0257.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/330px-Lightning.0257.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/33/Lightning.0257.jpg/440px-Lightning.0257.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Lightning.0257.jpg" title="放大"></a></div><a href="/wiki/%E9%97%AA%E7%94%B5" title="闪电">闪电</a>是一种在两个带电区域之间传播的<a href="/wiki/%E9%9D%99%E7%94%B5%E6%94%BE%E7%94%B5" title="静电放电">静电放电</a>现象。</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif"><img alt="" class="thumbimage" data-file-height="190" data-file-width="305" decoding="async" height="137" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif/220px-Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif" srcset="//upload.wikimedia.org/wikipedia/commons/8/81/Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif 1.5x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Circular.Polarization.Circularly.Polarized.Light_Right.Handed.Animation.305x190.255Colors.gif" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E5%9C%93%E5%81%8F%E6%8C%AF" title="圓偏振">圓偏振</a>的電磁波輻射中，電場向量隨時間的變化示意動畫</div></div></div>
+<p>英文单词<i><span lang="en">electromagnetism</span></i>是两个<a href="/wiki/%E5%B8%8C%E8%85%8A%E8%AF%AD" title="希腊语">希腊语</a>词汇<span lang="el">ἢλεκτρον</span>（<i><span lang="el">ēlektron</span></i>，“<a href="/wiki/%E7%90%A5%E7%8F%80" title="琥珀">琥珀</a>”）和<span lang="el">μαγνήτης</span>（<i><span lang="en">magnetic</span></i>源自"<span lang="el">magnítis líthos</span>"（<span lang="el">μαγνήτης λίθος</span>），意思是“镁石”，一种<a href="/wiki/%E9%93%81%E7%9F%BF" title="铁矿">铁矿</a>）的合成词。研究电磁现象的<a href="/wiki/%E7%A7%91%E5%AD%A6" title="科学">科学</a>是用电磁力定义的，有时称作<a href="/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8A%9B" title="洛伦兹力">洛伦兹力</a>，是既含有<a href="/wiki/%E9%9B%BB" title="電">電</a>也含有<a href="/wiki/%E7%A3%81" title="磁">磁</a>的现象。
+</p><p>电磁力在决定日常生活中大多数物体的内部性质中发挥着主要作用。常见物体的电磁力表现在物体中单个<a href="/wiki/%E5%88%86%E5%AD%90" title="分子">分子</a>之间的<a href="/wiki/%E5%88%86%E5%AD%90%E9%97%B4%E4%BD%9C%E7%94%A8%E5%8A%9B" title="分子间作用力">分子间作用力</a>中。<a href="/wiki/%E7%94%B5%E5%AD%90" title="电子">电子</a>被电磁力束缚在<a href="/wiki/%E5%8E%9F%E5%AD%90%E6%A0%B8" title="原子核">原子核</a>周围形成<a href="/wiki/%E5%8E%9F%E5%AD%90" title="原子">原子</a>，而原子之间则因电磁力形成<a href="/wiki/%E5%8C%96%E5%AD%A6%E9%94%AE" title="化学键">化学键</a>，进而构成分子。<a href="/wiki/%E5%8C%96%E5%AD%A6%E5%8F%8D%E5%BA%94" title="化学反应">化学反应</a>是由分子之间临近原子的电子之间发生的相互作用而产生，这也可由电磁力来解释。
+</p><p>电磁场有很多种<a href="/wiki/%E9%9B%BB%E7%A3%81%E5%A0%B4%E7%9A%84%E6%95%B8%E5%AD%B8%E8%A1%A8%E8%BF%B0" title="電磁場的數學表述">数学描述</a>。在<a href="/wiki/%E7%BB%8F%E5%85%B8%E7%94%B5%E7%A3%81%E5%AD%A6" title="经典电磁学">经典电磁学</a>中，电场用<a href="/wiki/%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B" title="欧姆定律">欧姆定律</a>中的<a href="/wiki/%E9%9B%BB%E5%8B%A2" title="電勢">電勢</a>与<a href="/wiki/%E7%94%B5%E6%B5%81" title="电流">电流</a>描述，<a href="/wiki/%E7%A3%81%E5%A0%B4" title="磁場">磁場</a>与<a href="/wiki/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94" title="电磁感应">电磁感应</a>和磁化强度相关，而<a href="/wiki/%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81%E6%96%B9%E7%A8%8B%E7%B5%84" title="馬克士威方程組">馬克士威方程組</a>描述了由电场和磁场自身以及电荷和电流引起的电场和磁场的产生和交替。
+</p><p>电磁学理论意义，特别是基于“媒介”中的传播的性质（<a href="/wiki/%E7%A3%81%E5%AF%BC%E7%8E%87" title="磁导率">磁导率</a>和<a href="/wiki/%E7%94%B5%E5%AE%B9%E7%8E%87" title="电容率">电容率</a>）确立的光速，推动了1905年<a href="/wiki/%E9%98%BF%E5%B0%94%E4%BC%AF%E7%89%B9%C2%B7%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6" title="阿尔伯特·爱因斯坦">阿尔伯特·爱因斯坦</a>的<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a>的发展。
+</p><p>虽然电磁力被认为是四大基本作用力之一，在高能量中<a href="/wiki/%E5%BC%B1%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="弱相互作用">弱力</a>和电磁力是统一的。在宇宙的历史中的<a href="/wiki/%E5%A4%B8%E5%85%8B%E6%99%82%E6%9C%9F" title="夸克時期">夸克時期</a>，<a href="/wiki/%E9%9B%BB%E5%BC%B1%E4%BA%A4%E4%BA%92%E4%BD%9C%E7%94%A8" title="電弱交互作用">电弱力</a>分割成电磁力和弱力。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#电磁学与相对论"><span class="tocnumber">1</span> <span class="toctext">电磁学与相对论</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#歷史"><span class="tocnumber">2</span> <span class="toctext">歷史</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#历史背景"><span class="tocnumber">2.1</span> <span class="toctext">历史背景</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#近代研究"><span class="tocnumber">2.2</span> <span class="toctext">近代研究</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#静电学和库仑定律"><span class="tocnumber">2.3</span> <span class="toctext">静电学和库仑定律</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#对稳恒电流的研究"><span class="tocnumber">2.4</span> <span class="toctext">对稳恒电流的研究</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#安培的电磁学定理"><span class="tocnumber">2.5</span> <span class="toctext">安培的电磁学定理</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#电磁感应现象"><span class="tocnumber">2.6</span> <span class="toctext">电磁感应现象</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#麦克斯韦电磁场理论"><span class="tocnumber">2.7</span> <span class="toctext">麦克斯韦电磁场理论</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#国际单位制电磁学单位"><span class="tocnumber">3</span> <span class="toctext">国际单位制电磁学单位</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#相关条目"><span class="tocnumber">4</span> <span class="toctext">相关条目</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#參考文獻"><span class="tocnumber">5</span> <span class="toctext">參考文獻</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#參考書目"><span class="tocnumber">6</span> <span class="toctext">參考書目</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#外部連結"><span class="tocnumber">7</span> <span class="toctext">外部連結</span></a></li>
+</ul>
+</div>
+<h2><span id=".E7.94.B5.E7.A3.81.E5.AD.A6.E4.B8.8E.E7.9B.B8.E5.AF.B9.E8.AE.BA"></span><span class="mw-headline" id="电磁学与相对论">电磁学与相对论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=1" title="编辑章节：电磁学与相对论">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>電磁學的基本方程式為麦克斯韦方程组，此方程組在經典力學的相對運動轉換（<a href="/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%E5%8F%98%E6%8D%A2" title="伽利略变换">伽利略变换</a>）下形式會變，在伽利略變換下，光速在不同慣性座標下會不同。保持麦克斯韦方程组形式不變的變換為<a href="/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8F%98%E6%8D%A2" title="洛伦兹变换">洛伦兹变换</a>，在此變換下，不同慣性座標下光速恆定。
+</p><p>二十世紀初<a href="/wiki/%E8%BF%88%E5%85%8B%E8%80%B3%E5%AD%99-%E8%8E%AB%E9%9B%B7%E5%AE%9E%E9%AA%8C" title="迈克耳孙-莫雷实验">迈克耳孙-莫雷实验</a>支持光速不變，光速不變亦成為愛因斯坦的<a class="mw-redirect" href="/wiki/%E7%8B%B9%E7%BE%A9%E7%9B%B8%E5%B0%8D%E8%AB%96" title="狹義相對論">狹義相對論</a>的基石。取而代之，洛伦兹变换亦成為較伽利略变换更精密的慣性座標轉換方式。
+</p>
+<h2><span id=".E6.AD.B7.E5.8F.B2"></span><span class="mw-headline" id="歷史">歷史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=2" title="编辑章节：歷史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E5.8E.86.E5.8F.B2.E8.83.8C.E6.99.AF"></span><span class="mw-headline" id="历史背景">历史背景</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=3" title="编辑章节：历史背景">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E9%9D%99%E7%94%B5" title="静电">静电</a>和<a class="mw-redirect" href="/wiki/%E9%9D%99%E7%A3%81%E5%AD%A6" title="静磁学">静磁现象</a>很早就被人类发现，由于摩擦起电现象，英文中“<a class="mw-redirect" href="/wiki/%E7%94%B5" title="电">电</a>”的语源来自<a class="mw-redirect" href="/wiki/%E5%B8%8C%E8%85%8A%E6%96%87" title="希腊文">希腊文</a>“<a href="/wiki/%E7%90%A5%E7%8F%80" title="琥珀">琥珀</a>”一词。
+</p><p>远在<a class="mw-redirect" href="/wiki/%E5%85%AC%E5%85%83%E5%89%8D" title="公元前">公元前</a>2750年，<a href="/wiki/%E5%8F%A4%E5%9F%83%E5%8F%8A" title="古埃及">古埃及</a>人就已经知道发电鱼（<span lang="en">electric fish</span>）会发出电击。这些鱼被称为“<a href="/wiki/%E5%B0%BC%E7%BD%97%E6%B2%B3" title="尼罗河">尼罗河</a>的雷使者”，是所有其它鱼的保护者。大约两千五百年之后，希腊人、罗马人，阿拉伯自然学者和阿拉伯医学者，才又出现关于发电鱼的记载。古代罗马医生<span lang="la">Scribonius Largus</span>也在他的大作《<span lang="la">Compositiones Medicae</span>》中，建议患有像痛风或头疼一类病痛的病人，去触摸电鳐，也许强力的电击会治愈他们的疾病。<a href="/wiki/%E9%98%BF%E6%8B%89%E4%BC%AF%E5%8D%8A%E5%B2%9B" title="阿拉伯半岛">阿拉伯</a>人可能是最先了解闪电本质的族群。他们也可能比其它族群都先认出电的其它来源。早于15世纪以前，阿拉伯人就创建了“<a href="/wiki/%E9%97%AA%E7%94%B5" title="闪电">闪电</a>”的阿拉伯字“<span lang="ar">raad</span>‎”，并将这字用来称呼电鳐。
+</p><p>在古希腊及地中海区域的古老文化裏，很早就有文字记载，将琥珀棒与猫毛摩擦后，会吸引羽毛一类的物质。西元前600年左右，<a href="/wiki/%E5%8F%A4%E5%B8%8C%E8%85%8A" title="古希腊">古希腊</a>的哲学家<a href="/wiki/%E6%B3%B0%E5%8B%92%E6%96%AF" title="泰勒斯">泰勒斯</a>（<span lang="el">Thales</span>，西元前640-西元前546）做了一系列关于静电的观察。从这些观察中，他认为摩擦使琥珀变得磁性化。这与矿石像磁铁矿的性质迥然不同；磁铁矿天然地具有磁性[4][8]。泰勒斯的见解并不正确。但后来，科学会证实磁与电之间的密切关系。
+</p>
+<h3><span id=".E8.BF.91.E4.BB.A3.E7.A0.94.E7.A9.B6"></span><span class="mw-headline" id="近代研究">近代研究</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=4" title="编辑章节：近代研究">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>1600年<a class="mw-redirect" href="/wiki/%E8%8B%B1%E5%9C%8B" title="英國">英國</a>醫生<a href="/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%90%89%E5%B0%94%E4%BC%AF%E7%89%B9" title="威廉·吉尔伯特">威廉·吉尔伯特</a>發表了《論磁、磁飽和地球作為一個巨大的磁體》（<span lang="la">Demagnete，magneticisque corporibus et de magnomagnete tellure</span>）。他總結了前人對磁的研究，周密地討論了地磁的性質，記載了大量實驗，使磁學從經驗轉變為科學。書中他也記載了電學方面的研究。然而真正对电磁现象的系统研究则要等到十七世纪以后，并且静电学的研究要晚于静磁学，这是由于难以找到一个能产生稳定<a class="mw-redirect" href="/wiki/%E9%9D%9C%E9%9B%BB%E5%A0%B4" title="靜電場">静电场</a>的方法，这种情况一直到1660年<a class="new" href="/w/index.php?title=%E6%91%A9%E6%93%A6%E8%B5%B7%E7%94%B5%E6%9C%BA&amp;action=edit&amp;redlink=1" title="摩擦起电机（页面不存在）">摩擦起电机</a>发明後才開始改變。十八世纪以前，人们一直采用这类摩擦起电机来产生研究静电场，代表人物如<a class="mw-redirect" href="/wiki/%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E5%AF%8C%E5%85%B0%E5%85%8B%E6%9E%97" title="本杰明·富兰克林">本杰明·富兰克林</a><sup class="reference" id="cite_ref-franklin_2-0"><a href="#cite_note-franklin-2">[2]</a></sup>，人们在这一时期主要了解到了<a class="mw-redirect" href="/wiki/%E9%9D%99%E7%94%B5%E5%8A%9B" title="静电力">静电力</a>的同性相斥、异性相吸的特性、<a href="/wiki/%E9%9D%99%E7%94%B5%E6%84%9F%E5%BA%94" title="静电感应">静电感应</a>现象以及<a class="mw-redirect" href="/wiki/%E9%9B%BB%E8%8D%B7%E5%AE%88%E6%81%86" title="電荷守恆">电荷守恒</a>原理。
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Charles_de_Coulomb.png"><img alt="" class="thumbimage" data-file-height="1292" data-file-width="1000" decoding="async" height="194" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Charles_de_Coulomb.png/150px-Charles_de_Coulomb.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Charles_de_Coulomb.png/225px-Charles_de_Coulomb.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Charles_de_Coulomb.png/300px-Charles_de_Coulomb.png 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Charles_de_Coulomb.png" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E5%A4%8F%E5%B0%94%C2%B7%E5%A5%A5%E5%8F%A4%E6%96%AF%E4%B8%81%C2%B7%E5%BA%93%E4%BB%91" title="夏尔·奥古斯丁·库仑">夏尔·奥古斯丁·库仑</a></div></div></div>
+<h3><span id=".E9.9D.99.E7.94.B5.E5.AD.A6.E5.92.8C.E5.BA.93.E4.BB.91.E5.AE.9A.E5.BE.8B"></span><span class="mw-headline" id="静电学和库仑定律">静电学和库仑定律</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=5" title="编辑章节：静电学和库仑定律">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E5%BA%93%E4%BB%91%E5%AE%9A%E5%BE%8B" title="库仑定律">库仑定律</a>是<a class="mw-redirect" href="/wiki/%E9%9D%99%E7%94%B5%E5%AD%A6" title="静电学">静电学</a>中的基本定律，其主要描述了静电力与<a class="mw-redirect" href="/wiki/%E7%94%B5%E8%8D%B7" title="电荷">电荷</a><a class="mw-redirect" href="/wiki/%E7%94%B5%E9%87%8F" title="电量">电量</a>成正比，与距离的平方反比关系。人们曾将静电力与在当时已享有盛誉的万有引力定律做类比，发现彼此在理论和实验上都有很多相似之处，包括实验观测到带电球壳内部的球体不会带电，这和有质量的球壳内部物体不会受到引力作用（由牛顿在理论上证明，是平方反比力的一个特征）的情形类似。其间苏格兰物理学家<a href="/wiki/%E7%B4%84%E7%BF%B0%C2%B7%E7%BE%85%E6%AF%94%E9%81%9C" title="約翰·羅比遜">约翰·罗比逊</a>（1759年）<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>和英国物理学家<a href="/wiki/%E4%BA%A8%E5%88%A9%C2%B7%E5%8D%A1%E6%96%87%E8%BF%AA%E4%BB%80" title="亨利·卡文迪什">亨利·卡文迪什</a>（1773年）等人都进行过实验验证了静电力的平方反比律，然而他们的实验却迟迟不为人知。法国物理学家<a class="mw-redirect" href="/wiki/%E5%A4%8F%E5%B0%94%C2%B7%E5%A5%A5%E5%8F%A4%E6%96%AF%E4%B8%81%C2%B7%E5%BA%93%E4%BB%91" title="夏尔·奥古斯丁·库仑">夏尔·奥古斯丁·库仑</a>於1784年至1785年间进行了他著名的扭秤实验<sup class="reference" id="cite_ref-coulomb_4-0"><a href="#cite_note-coulomb-4">[4]</a></sup>，其实验的主要目的就是为了证实静电力的平方反比律，因为他认为“假说的前一部分无需证明”，也就是说他已经先验性地认为静电力必然和万有引力类似，和电荷电量成正比。扭秤的基本构造为：一根水平悬于细金属丝的轻导线两端分别置有一个带电小球A和一个与之平衡的物体P，而在实验中在小球A的附近放置同样大小的带电小球B，两者的静电力会在轻导线上产生<a href="/wiki/%E5%8A%9B%E7%9F%A9" title="力矩">扭矩</a>，从而使轻杆转动。通过校正悬丝上的旋钮可以将小球调回原先位置，则此时悬丝上的扭矩等于静电力产生的力矩。如此，两者之间的静电力可以通过测量这个扭矩、偏转角度和导线长度来求得。库仑的结论为：
+</p>
+<table class="cquote pullquote" role="presentation" style="margin:auto; display:table; border-collapse: collapse; border: none; background-color: transparent; width: auto;">
+<tbody><tr>
+<td style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: 10px; text-orientation: upright">“
+</td>
+<td style="vertical-align: top; border: none; padding: 4px 10px;">……对同样材料的金属导线而言，扭矩的大小正比于偏转角度，导线横截面直径的四次方，且反比于导线的长度……
+</td>
+<td style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: 10px; text-orientation: upright">”
+</td></tr>
+<tr>
+<td class="cquotecite" colspan="3" style="border: none; padding-right: 4%; font-size: smaller; text-align: right;"><cite>——夏尔·奥古斯丁·库仑，《金属导线扭矩和弹性的理论和实验研究》</cite>
+</td></tr></tbody></table>
+<p>库仑在其后的几年间也研究了<a class="mw-redirect" href="/wiki/%E7%A3%81%E5%81%B6%E6%A5%B5%E5%AD%90" title="磁偶極子">磁偶极子</a>之间的作用力，他也得出了磁力也具有平方反比律的结论。不过，他并未认识到静电力和静磁力之间有何内在联系，而且他一直将电力和磁力吸引和排斥的原因归结于假想的电流体和磁流体——具有正和负区别的，类似于“热质”一般的无质量物质。
+</p><p>静电力的平方反比律确定后，很多后续工作都是同万有引力做类比从而顺理成章的结果。1813年法国数学家、物理学家<a class="mw-redirect" href="/wiki/%E8%A5%BF%E8%8E%AB%E6%81%A9%C2%B7%E5%BE%B7%E5%B0%BC%C2%B7%E6%B3%8A%E6%9D%BE" title="西莫恩·德尼·泊松">西莫恩·德尼·泊松</a>指出<a href="/wiki/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E6%96%B9%E7%A8%8B" title="拉普拉斯方程">拉普拉斯方程</a>也适用于静电场，从而提出<a href="/wiki/%E6%B3%8A%E6%9D%BE%E6%96%B9%E7%A8%8B" title="泊松方程">泊松方程</a>；其他例子还包括静电场的<a href="/wiki/%E6%A0%BC%E6%9E%97%E5%87%BD%E6%95%B8" title="格林函數">格林函数</a>（<a href="/wiki/%E5%96%AC%E6%B2%BB%C2%B7%E6%A0%BC%E6%9E%97" title="喬治·格林">乔治·格林</a>，1828年）和<a class="mw-redirect" href="/wiki/%E9%AB%98%E6%96%AF%E5%AE%9A%E7%90%86" title="高斯定理">高斯定理</a>（<a class="mw-redirect" href="/wiki/%E5%8D%A1%E7%88%BE%C2%B7%E9%AB%98%E6%96%AF" title="卡爾·高斯">卡尔·高斯</a>，1839年）。
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Ohm3.gif"><img alt="" class="thumbimage" data-file-height="326" data-file-width="254" decoding="async" height="193" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ohm3.gif/150px-Ohm3.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ohm3.gif/225px-Ohm3.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/d/dc/Ohm3.gif 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Ohm3.gif" title="放大"></a></div><a href="/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E6%AC%A7%E5%A7%86" title="格奥尔格·欧姆">格奥尔格·欧姆</a></div></div></div>
+<h3><span id=".E5.AF.B9.E7.A8.B3.E6.81.92.E7.94.B5.E6.B5.81.E7.9A.84.E7.A0.94.E7.A9.B6"></span><span class="mw-headline" id="对稳恒电流的研究">对稳恒电流的研究</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=6" title="编辑章节：对稳恒电流的研究">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>十八<a href="/wiki/%E4%B8%96%E7%BA%AA" title="世纪">世纪</a>末，<a href="/wiki/%E6%84%8F%E5%A4%A7%E5%88%A9" title="意大利">意大利</a>生理学家<a href="/wiki/%E8%B7%AF%E6%98%93%E5%90%89%C2%B7%E4%BC%BD%E4%BC%90%E5%B0%BC" title="路易吉·伽伐尼">路易吉·伽伐尼</a>发现蛙腿肌肉接触金属刀片时会发生痉挛，他其后在论文中认为生物中存在着一种所谓“神经电流”。意大利物理学家<a class="mw-redirect" href="/wiki/%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%BE%B7%E7%BD%97%C2%B7%E4%BC%8F%E6%89%93" title="亚历山德罗·伏打">亚历山德罗·伏打</a>对这种观点并不赞同，他对这种现象进行研究后认为这不过是外部电流的作用，而蛙腿<a href="/wiki/%E8%82%8C%E8%82%89" title="肌肉">肌肉</a>只是起到了导体的连接作用。1800年，伏打将锌片和铜片夹在用盐水浸湿的纸片中，得到了很强的电流，这称作伏打电堆；而将锌片和铜片浸入盐水或酸溶液中也能得到相同的效果，这称作伏打电池。伏打电堆和电池的发明为研究稳恒电流创造了条件。
+</p><p>1826年，<a href="/wiki/%E5%BE%B7%E5%9B%BD" title="德国">德国</a>物理学家<a href="/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E6%AC%A7%E5%A7%86" title="格奥尔格·欧姆">格奥尔格·欧姆</a>从<a class="mw-redirect" href="/wiki/%E5%82%85%E7%AB%8B%E5%8F%B6" title="傅立叶">傅立叶</a>对<a href="/wiki/%E7%83%AD%E4%BC%A0%E5%AF%BC" title="热传导">热传导</a>规律的研究中受到启发，在傅立叶的热传导理论中，导热杆中两点的热流量正比于这两点之间的温度差<sup class="reference" id="cite_ref-ohm_5-0"><a href="#cite_note-ohm-5">[5]</a></sup>。因而欧姆猜想电传导与热传导相似，导线中两点之间的电流也正比于这两点间的某种驱动力（欧姆称之为电张力，即现在所称的<a class="mw-redirect" href="/wiki/%E7%94%B5%E5%8A%A8%E5%8A%BF" title="电动势">电动势</a>）。欧姆首先尝试用电流的热效应来测量电流强度，但效果不甚精确，后来欧姆利用了丹麦物理学家<a href="/wiki/%E6%B1%89%E6%96%AF%C2%B7%E5%A5%A5%E6%96%AF%E7%89%B9" title="汉斯·奥斯特">汉斯·奥斯特</a>发现的电流的磁效应，结合库仑扭秤构造了一种新型的电流扭秤，让导线和连接的磁针平行放置，当导线中通过电流时，磁针的偏转角与导线中的电流成正比，即代表了电流的大小。欧姆测量得到的偏转角度（相当于电流强度）与电路中的两个物理量分别成正比和反比关系，这两个量实际相当于电动势和<a href="/wiki/%E7%94%B5%E9%98%BB" title="电阻">电阻</a>。欧姆於1827年发表了他的著作《直流电路的数学研究》，明确了电路分析中电压、电流和电阻之间的关系，极大地影响了电流理论和应用的发展，在这本书中首次提出的电学定律也因此被命名为<a href="/wiki/%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B" title="欧姆定律">欧姆定律</a>。
+</p><p>库仑发现了磁力和电力一样遵守平方反比律，但他没有进一步推测两者的内在联系，然而人们在自然界中观察到的电流的磁现象（如富兰克林在1751年发现放电能将钢针磁化）促使着人们不断地探索这种联系。首先发现这种联系的人是丹麦物理学家奥斯特<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup><sup class="reference" id="cite_ref-oersted_7-0"><a href="#cite_note-oersted-7">[7]</a></sup>，他本着这种信念进行了一系列有关的实验，最终於1820年发现接通电流的导线能对附近的磁针产生作用力，这种磁效应是沿着围绕导线的螺旋方向分布的。
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Ampere_Andre_1825.jpg"><img alt="" class="thumbimage" data-file-height="666" data-file-width="493" decoding="async" height="203" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ampere_Andre_1825.jpg/150px-Ampere_Andre_1825.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ampere_Andre_1825.jpg/225px-Ampere_Andre_1825.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ampere_Andre_1825.jpg/300px-Ampere_Andre_1825.jpg 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Ampere_Andre_1825.jpg" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E5%AE%89%E5%BE%B7%E7%83%88-%E7%8E%9B%E4%B8%BD%C2%B7%E5%AE%89%E5%9F%B9" title="安德烈-玛丽·安培">安德烈-玛丽·安培</a></div></div></div>
+<h3><span id=".E5.AE.89.E5.9F.B9.E7.9A.84.E7.94.B5.E7.A3.81.E5.AD.A6.E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="安培的电磁学定理">安培的电磁学定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=7" title="编辑章节：安培的电磁学定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>在奥斯特发现电流的磁效应之后，法国物理学家<a href="/wiki/%E8%AE%A9-%E5%B7%B4%E8%92%82%E6%96%AF%E7%89%B9%C2%B7%E6%AF%95%E5%A5%A5" title="让-巴蒂斯特·毕奥">让-巴蒂斯特·毕奥</a>和<a class="mw-redirect" href="/wiki/%E8%B4%B9%E5%88%A9%E5%85%8B%E6%96%AF%C2%B7%E8%90%A8%E4%BC%90%E5%B0%94" title="费利克斯·萨伐尔">费利克斯·萨伐尔</a>进一步详细研究了载流直导线对周围磁针的作用力，并确定其磁力大小正比于电流强度，反比于距离，方向垂直于距离连线，这一规律被归纳为著名的<a href="/wiki/%E6%AF%95%E5%A5%A5-%E8%90%A8%E4%BC%90%E5%B0%94%E5%AE%9A%E5%BE%8B" title="毕奥-萨伐尔定律">毕奥-萨伐尔定律</a>。而法国物理学家<a class="mw-redirect" href="/wiki/%E5%AE%89%E5%BE%B7%E7%83%88-%E7%8E%9B%E4%B8%BD%C2%B7%E5%AE%89%E5%9F%B9" title="安德烈-玛丽·安培">安德烈-玛丽·安培</a>在奥斯特的发现仅一周之后（1820年9月）就向法国科学院提交了一份更详细的论证报告<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>，同时还论述了两根平行载流直导线之间磁效应产生的吸引力和排斥力。在这期间安培进行了四个实验，分别验证了两根平行载流直导线之间作用力方向与电流方向的关系、磁力的矢量性、确定了磁力的方向垂直于载流导体以及作用力大小与电流强度和距离的关系。安培并且在数学上对作用力进行了推导，得到了普遍的<a class="mw-redirect" href="/wiki/%E5%AE%89%E5%9F%B9%E5%8A%9B" title="安培力">安培力</a>公式，这一公式在形式上类似于万有引力定律和库仑定律。1821年，安培从电流的磁效应出发，设想了磁效应的本质正是电流产生的，从而提出了<a class="mw-redirect" href="/wiki/%E5%88%86%E5%AD%90%E7%8E%AF%E6%B5%81%E5%81%87%E8%AF%B4" title="分子环流假说">分子环流假说</a>，认为磁体内部分子形成的环形电流就相当于一根根磁针。1826年，安培从<a href="/wiki/%E6%96%AF%E6%89%98%E5%85%8B%E6%96%AF%E5%AE%9A%E7%90%86" title="斯托克斯定理">斯托克斯定理</a>推导得到了著名的<a class="mw-redirect" href="/wiki/%E5%AE%89%E5%9F%B9%E7%8E%AF%E8%B7%AF%E5%AE%9A%E7%90%86" title="安培环路定理">安培环路定理</a>，证明了磁场沿包围产生其电流的闭合路径的曲线积分等于其电流密度，这一定理成为了<a class="mw-redirect" href="/wiki/%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84" title="麦克斯韦方程组">麦克斯韦方程组</a>的基本方程之一。安培的工作揭示了电磁现象的内在联系，将电磁学研究真正数学化，成为物理学中又一大理论体系——<a class="mw-redirect" href="/wiki/%E7%94%B5%E5%8A%A8%E5%8A%9B%E5%AD%A6" title="电动力学">电动力学</a>的基础<sup class="reference" id="cite_ref-ampere_10-0"><a href="#cite_note-ampere-10">[10]</a></sup>。麦克斯韦称安培的工作是“科学史上最辉煌的成就之一”，后人称安培为“电学中的牛顿”。
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg"><img alt="" class="thumbimage" data-file-height="1437" data-file-width="1110" decoding="async" height="194" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/150px-M_Faraday_Th_Phillips_oil_1842.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/225px-M_Faraday_Th_Phillips_oil_1842.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/88/M_Faraday_Th_Phillips_oil_1842.jpg/300px-M_Faraday_Th_Phillips_oil_1842.jpg 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:M_Faraday_Th_Phillips_oil_1842.jpg" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E7%B1%B3%E9%AB%98%C2%B7%E6%B3%95%E6%8B%89%E7%AC%AC" title="米高·法拉第">迈克尔·法拉第</a></div></div></div>
+<h3><span id=".E7.94.B5.E7.A3.81.E6.84.9F.E5.BA.94.E7.8E.B0.E8.B1.A1"></span><span class="mw-headline" id="电磁感应现象">电磁感应现象</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=8" title="编辑章节：电磁感应现象">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>英国物理学家<a class="mw-redirect" href="/wiki/%E7%B1%B3%E9%AB%98%C2%B7%E6%B3%95%E6%8B%89%E7%AC%AC" title="米高·法拉第">迈克尔·法拉第</a>早年跟随化学家<a href="/wiki/%E6%B1%89%E5%BC%97%E9%87%8C%C2%B7%E6%88%B4%E7%BB%B4" title="汉弗里·戴维">汉弗里·戴维</a>从事化学研究，他对电磁学的贡献还包括<a href="/wiki/%E6%8A%97%E7%A3%81%E6%80%A7" title="抗磁性">抗磁性</a>的发现、<a href="/wiki/%E7%94%B5%E8%A7%A3" title="电解">电解定律</a>和磁场的<a class="mw-redirect" href="/wiki/%E6%97%8B%E5%85%89%E6%80%A7" title="旋光性">旋光性</a>（<a href="/wiki/%E6%B3%95%E6%8B%89%E7%AC%AC%E6%95%88%E5%BA%94" title="法拉第效应">法拉第效应</a>）<sup class="reference" id="cite_ref-faraday_11-0"><a href="#cite_note-faraday-11">[11]</a></sup>。
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Faraday_disk_generator.jpg"><img alt="" class="thumbimage" data-file-height="1500" data-file-width="1920" decoding="async" height="117" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Faraday_disk_generator.jpg/150px-Faraday_disk_generator.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Faraday_disk_generator.jpg/225px-Faraday_disk_generator.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/19/Faraday_disk_generator.jpg/300px-Faraday_disk_generator.jpg 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Faraday_disk_generator.jpg" title="放大"></a></div>法拉第设计的圆盘式发电机</div></div></div>
+<p>在奥斯特发现电流的磁效应之后的1821年，英国《哲学学报》邀请当时担任<a class="new" href="/w/index.php?title=%E8%8B%B1%E5%9B%BD%E7%9A%87%E5%AE%B6%E7%A0%94%E7%A9%B6%E6%89%80&amp;action=edit&amp;redlink=1" title="英国皇家研究所（页面不存在）">英国皇家研究所</a>实验室主任的法拉第撰写一篇电磁学的综述，这也导致了法拉第转向电磁领域的研究工作。法拉第考虑了奥斯特的发现，也出于他同样认为自然界的各种力能够相互转化的信念，他猜想电流应当也如磁体一般，能够在周围感应出电流。从1824年起，法拉第进行了一系列相关实验试图寻找导体中的感应电流，然而始终未获成功。直到1831年8月29日，他在实验中发现对于两个相邻的线圈A和B，只有当接通或断开线圈回路A时，线圈B附近的磁针才会产生反应，也就是此时线圈B中产生了电流。如果维持线圈A的接通状态，则线圈B中不会产生电流，法拉第意识到这是一种瞬态效应。一个月后，法拉第向<a class="mw-redirect" href="/wiki/%E8%8B%B1%E5%9B%BD%E7%9A%87%E5%AE%B6%E5%AD%A6%E4%BC%9A" title="英国皇家学会">英国皇家学会</a>总结了他的实验结果，他发现产生感应电流的情况包括五类：变化中的电流、变化中的磁场、运动的稳恒电流、运动的磁体和运动的导线。<a href="/wiki/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B" title="法拉第电磁感应定律">法拉第电磁感应定律</a>从而表述为：任何封闭电路中感应电动势的大小，等于穿过这一电路<a href="/wiki/%E7%A3%81%E9%80%9A%E9%87%8F" title="磁通量">磁通量</a>的变化率。不过此时的法拉第电磁感应定律仍然是一条观察性的实验定律，确定感应电动势和感应电流方向的是俄国物理学家<a href="/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E6%A5%9E%E6%AC%A1" title="海因里希·楞次">海因里希·楞次</a>，他于1833年总结出了著名的<a href="/wiki/%E6%A5%9E%E6%AC%A1%E5%AE%9A%E5%BE%8B" title="楞次定律">楞次定律</a><sup class="reference" id="cite_ref-lenz_12-0"><a href="#cite_note-lenz-12">[12]</a></sup>。法拉第定律后来被纳入麦克斯韦的电磁场理论，从而具有了更简洁更深刻的意义。
+</p><p>法拉第另一个重要的贡献是创立了力线和<a href="/wiki/%E5%9C%BA_(%E7%89%A9%E7%90%86)" title="场 (物理)">场</a>的概念，力线实际是否认了超距作用的存在，这些思想成为了麦克斯韦电磁场理论的基础。<a class="mw-redirect" href="/wiki/%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6" title="爱因斯坦">爱因斯坦</a>称其为“物理学中引入了新的、革命性的观念，它们打开了一条通往新的哲学观点的道路”，意为场论的观念是有别于旧的机械观中以物质为主导核心的哲学观念<sup class="reference" id="cite_ref-evolution_13-0"><a href="#cite_note-evolution-13">[13]</a></sup>。
+</p>
+<h3><span id=".E9.BA.A6.E5.85.8B.E6.96.AF.E9.9F.A6.E7.94.B5.E7.A3.81.E5.9C.BA.E7.90.86.E8.AE.BA"></span><span class="mw-headline" id="麦克斯韦电磁场理论">麦克斯韦电磁场理论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=9" title="编辑章节：麦克斯韦电磁场理论">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a class="image" href="/wiki/File:Heinrich_Rudolf_Hertz.jpg"><img alt="" class="thumbimage" data-file-height="646" data-file-width="558" decoding="async" height="174" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Heinrich_Rudolf_Hertz.jpg/150px-Heinrich_Rudolf_Hertz.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Heinrich_Rudolf_Hertz.jpg/225px-Heinrich_Rudolf_Hertz.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Heinrich_Rudolf_Hertz.jpg/300px-Heinrich_Rudolf_Hertz.jpg 2x" width="150"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Heinrich_Rudolf_Hertz.jpg" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E9%B2%81%E9%81%93%E5%A4%AB%C2%B7%E8%B5%AB%E5%85%B9" title="海因里希·鲁道夫·赫兹">海因里希·鲁道夫·赫兹</a></div></div></div>
+<p>詹姆斯·克拉克·麦克斯韦对电磁理论的贡献是里程碑式的<sup class="reference" id="cite_ref-maxwell_14-0"><a href="#cite_note-maxwell-14">[14]</a></sup><sup class="reference" id="cite_ref-maxwellforce_15-0"><a href="#cite_note-maxwellforce-15">[15]</a></sup>。麦克斯韦自1855年开始研究电磁学，1856年他发表了首篇专论《<a href="/wiki/%E8%AB%96%E6%B3%95%E6%8B%89%E7%AC%AC%E5%8A%9B%E7%B7%9A" title="論法拉第力線">论法拉第力线</a>》<sup class="reference" id="cite_ref-fivepapers_16-0"><a href="#cite_note-fivepapers-16">[16]</a></sup>，其中描述了如何类比<a href="/wiki/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6" title="流体力学">流体力学</a>中的流线和法拉第的力线，并用自己强大的数学功底重新描述了法拉第的实验观测结果，这部分内容被麦克斯韦用六条数学定律概括。1861年至1862年间，麦克斯韦发表了第二篇电磁学论文《<a href="/wiki/%E8%AB%96%E7%89%A9%E7%90%86%E5%8A%9B%E7%B7%9A" title="論物理力線">论物理力线</a>》<sup class="reference" id="cite_ref-fivepapers_16-1"><a href="#cite_note-fivepapers-16">[16]</a></sup>，在这篇论文中麦克斯韦尝试了所谓“分子涡流”模型，他假设在磁场作用下的介质中存在大量排列的分子涡流，这些涡流沿<a class="mw-redirect" href="/wiki/%E7%A3%81%E5%8A%9B%E7%BA%BF" title="磁力线">磁力线</a>旋转，且角速度正比于<a class="mw-redirect" href="/wiki/%E7%A3%81%E5%A0%B4%E5%BC%B7%E5%BA%A6" title="磁場強度">磁场强度</a>，分子涡流密度正比于介质磁导率。这一模型能很好地通过近距作用之说来解释静电和静磁作用，以及变化的电场与磁场的关系。更重要的是，它预言了在电场作用下的分子涡流会产生位移，从而以势能的形式储存在介质中，这相当于在介质中产生了电动势，这成为了麦克斯韦预言<a href="/wiki/%E4%BD%8D%E7%A7%BB%E9%9B%BB%E6%B5%81" title="位移電流">位移电流</a>存在的理论基础。此外，将这种介质理论应用到弹性波上，可以计算求得在真空或<a href="/wiki/%E4%BB%A5%E5%A4%AA" title="以太">以太</a>中横波的传播速度恰好和当时已知的<a href="/wiki/%E5%85%89%E9%80%9F" title="光速">光速</a>（斐索，1849年）非常接近，麦克斯韦由此大胆预言：
+</p>
+<table class="cquote pullquote" role="presentation" style="margin:auto; display:table; border-collapse: collapse; border: none; background-color: transparent; width: auto;">
+<tbody><tr>
+<td style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: 10px; text-orientation: upright">“
+</td>
+<td style="vertical-align: top; border: none; padding: 4px 10px;">我们难以排除如下的推论：光是由引起电现象和磁现象的同一介质中的横波组成的。
+</td>
+<td style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: 10px; text-orientation: upright">”
+</td></tr>
+<tr>
+<td class="cquotecite" colspan="3" style="border: none; padding-right: 4%; font-size: smaller; text-align: right;"><cite>——詹姆斯·克拉克·麦克斯韦，《论物理力线》</cite>
+</td></tr></tbody></table>
+<p>1865年麦克斯韦发表了他的第三篇论文《<a href="/wiki/%E9%9B%BB%E7%A3%81%E5%A0%B4%E7%9A%84%E5%8B%95%E5%8A%9B%E5%AD%B8%E7%90%86%E8%AB%96" title="電磁場的動力學理論">电磁场的动力学理论</a>》<sup class="reference" id="cite_ref-fivepapers_16-2"><a href="#cite_note-fivepapers-16">[16]</a></sup>，在论文中他坚持了<a href="/wiki/%E7%94%B5%E7%A3%81%E5%9C%BA" title="电磁场">电磁场</a>是一种近距作用的观点，指出“电磁场是包含和围绕着处于电或磁状态的物体的那部分空间，它可能充有任何一种物质”。在此麦克斯韦提出了<a class="mw-redirect" href="/wiki/%E9%BA%A6%E5%85%8B%E6%96%AF%E9%9F%A6%E6%96%B9%E7%A8%8B%E7%BB%84" title="麦克斯韦方程组">电磁场的方程组</a>，一共包含有20个方程（电位移、磁场力、电流、电动势、电弹性、电阻、自由电荷和<a class="mw-redirect" href="/wiki/%E8%BF%9E%E7%BB%AD%E6%80%A7%E6%96%B9%E7%A8%8B" title="连续性方程">连续性方程</a>）和20个变量（电磁动量、磁场强度、电动热、<a class="mw-redirect" href="/wiki/%E5%82%B3%E5%B0%8E%E9%9B%BB%E6%B5%81" title="傳導電流">传导电流</a>、电位移、全电流、自由电荷电量、<a href="/wiki/%E9%9B%BB%E5%8B%A2" title="電勢">电势</a>）。这实际是8个方程，但到1890年才由<a class="mw-redirect" href="/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E9%B2%81%E9%81%93%E5%A4%AB%C2%B7%E8%B5%AB%E5%85%B9" title="海因里希·鲁道夫·赫兹">海因里希·鲁道夫·赫兹</a>给出了现代通用的形式<sup class="reference" id="cite_ref-hertz_17-0"><a href="#cite_note-hertz-17">[17]</a></sup>，这是赫兹在考虑了<a href="/wiki/%E9%98%BF%E5%B0%94%E4%BC%AF%E7%89%B9%C2%B7%E8%BF%88%E5%85%8B%E8%80%B3%E5%AD%99" title="阿尔伯特·迈克耳孙">阿尔伯特·迈克耳孙</a>在1881年的实验（也是<a href="/wiki/%E8%BF%88%E5%85%8B%E8%80%B3%E5%AD%99-%E8%8E%AB%E9%9B%B7%E5%AE%9E%E9%AA%8C" title="迈克耳孙-莫雷实验">迈克耳孙-莫雷实验</a>的先行实验）中得到了以太漂移的零结果后对麦克斯韦的方程组进行的修改。1887年至1888年间，赫兹通过他制作的半波长偶极子天线成功接收到了麦克斯韦预言的<a href="/wiki/%E7%94%B5%E7%A3%81%E6%B3%A2" title="电磁波">电磁波</a>，电磁波是相互垂直的电场和磁场在垂直于传播方向的平面上的振动，同时赫兹还测定了电磁波的速度等于光速。赫兹实验证实电磁波的存在是物理学理论的一个重要胜利，同时也标志着一种基于<a class="mw-disambig" href="/wiki/%E5%9C%BA%E8%AE%BA" title="场论">场论</a>的更基础的物理学即将诞生。爱因斯坦盛赞法拉第、麦克斯韦和赫兹的工作是“牛顿力学以来物理学中最伟大的变革”，而“这次革命的最大部分出自麦克斯韦”。
+</p>
+<h2><span id=".E5.9B.BD.E9.99.85.E5.8D.95.E4.BD.8D.E5.88.B6.E7.94.B5.E7.A3.81.E5.AD.A6.E5.8D.95.E4.BD.8D"></span><span class="mw-headline" id="国际单位制电磁学单位">国际单位制电磁学单位</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=10" title="编辑章节：国际单位制电磁学单位">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="wikitable" style="font-size:90%;">
+<tbody><tr>
+<th colspan="5"><a href="/wiki/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6" title="国际单位制">国际单位制</a><a class="mw-selflink selflink">电磁学</a><a href="/wiki/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6%E5%9F%BA%E6%9C%AC%E5%8D%95%E4%BD%8D" title="国际单位制基本单位">单位</a>
+</th></tr>
+<tr>
+<th>符号
+</th>
+<th>名称
+</th>
+<th>单位
+</th>
+<th>量纲
+</th>
+<th>物理量
+</th></tr>
+<tr>
+<td>I
+</td>
+<td><a href="/wiki/%E5%AE%89%E5%9F%B9" title="安培">安培</a>
+</td>
+<td>A
+</td>
+<td>A (= W/V = C/s)
+</td>
+<td><a href="/wiki/%E7%94%B5%E6%B5%81" title="电流">电流</a>
+</td></tr>
+<tr>
+<td>H
+</td>
+<td><a href="/wiki/%E5%AE%89%E5%9F%B9" title="安培">安培</a>每<a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>A/m
+</td>
+<td>m<sup>−1</sup>·A
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%A3%81%E5%A0%B4%E5%BC%B7%E5%BA%A6" title="磁場強度">磁场强度</a>
+</td></tr>
+<tr>
+<td>Q
+</td>
+<td><a href="/wiki/%E5%BA%93%E4%BB%91" title="库仑">库仑</a>
+</td>
+<td>C
+</td>
+<td>A·s
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%94%B5%E8%8D%B7%E9%87%8F" title="电荷量">电荷量</a>
+</td></tr>
+<tr>
+<td>V
+</td>
+<td><a href="/wiki/%E4%BC%8F%E7%89%B9" title="伏特">伏特</a>
+</td>
+<td>V
+</td>
+<td>J/C = kg·m<sup>2</sup>·s<sup>−3</sup>·A<sup>−1</sup>
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%94%B5%E5%8E%8B" title="电压">电压</a>
+</td></tr>
+<tr>
+<td>E
+</td>
+<td><a href="/wiki/%E4%BC%8F%E7%89%B9" title="伏特">伏特</a>每<a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>V/m
+</td>
+<td>kg·m<sup>1</sup>·s<sup>−3</sup>·A<sup>−1</sup>
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%94%B5%E5%9C%BA%E5%BC%BA%E5%BA%A6" title="电场强度">電場強度</a>
+</td></tr>
+<tr>
+<td>R; Z; X
+</td>
+<td><a class="mw-redirect" href="/wiki/%E6%AC%A7%E5%A7%86" title="欧姆">欧姆</a>
+</td>
+<td>Ω
+</td>
+<td>V/A = kg·m<sup>2</sup>·s<sup>−3</sup>·A<sup>−2</sup>
+</td>
+<td><a href="/wiki/%E7%94%B5%E9%98%BB" title="电阻">电阻</a>、<a href="/wiki/%E9%98%BB%E6%8A%97" title="阻抗">阻抗</a>、<a href="/wiki/%E7%94%B5%E6%8A%97" title="电抗">电抗</a>
+</td></tr>
+<tr>
+<td>ρ
+</td>
+<td><a class="mw-redirect" href="/wiki/%E6%AC%A7%E5%A7%86" title="欧姆">欧姆</a><a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>Ω·m
+</td>
+<td>kg·m<sup>3</sup>·s<sup>−3</sup>·A<sup>−2</sup>
+</td>
+<td><a href="/wiki/%E7%94%B5%E9%98%BB%E7%8E%87" title="电阻率">电阻率</a>
+</td></tr>
+<tr>
+<td>P
+</td>
+<td><a href="/wiki/%E7%93%A6%E7%89%B9" title="瓦特">瓦特</a>
+</td>
+<td>W
+</td>
+<td>V·A = kg·m<sup>2</sup>·s<sup>−3</sup>
+</td>
+<td>電<a href="/wiki/%E5%8A%9F%E7%8E%87" title="功率">功率</a>
+</td></tr>
+<tr>
+<td>C
+</td>
+<td><a href="/wiki/%E6%B3%95%E6%8B%89" title="法拉">法拉</a>
+</td>
+<td>F
+</td>
+<td>C/V = kg<sup>−1</sup>·m<sup>−2</sup>·A<sup>2</sup>·s<sup>4</sup>
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%94%B5%E5%AE%B9" title="电容">电容</a>
+</td></tr>
+<tr>
+<td>ε0
+</td>
+<td><a href="/wiki/%E6%B3%95%E6%8B%89" title="法拉">法拉</a>每<a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>F/m
+</td>
+<td>kg<sup>−1</sup>·m<sup>−3</sup>·A<sup>2</sup>·s<sup>4</sup>
+</td>
+<td><a href="/wiki/%E7%94%B5%E5%AE%B9%E7%8E%87" title="电容率">电容率</a>、<a class="mw-redirect" href="/wiki/%E4%BB%8B%E7%94%B5%E5%B8%B8%E6%95%B0" title="介电常数">介電常數</a>
+</td></tr>
+<tr>
+<td>
+</td>
+<td>反法拉
+</td>
+<td>F<sup>−1</sup>
+</td>
+<td>kg<sup>1</sup>·m<sup>2</sup>·A<sup>−2</sup>·s<sup>−4</sup>
+</td>
+<td>電彈性
+</td></tr>
+<tr>
+<td>G; Y; B
+</td>
+<td><a class="mw-redirect" href="/wiki/%E8%A5%BF%E9%97%A8%E5%AD%90_(%E5%8D%95%E4%BD%8D)" title="西门子 (单位)">西门子</a>
+</td>
+<td>S
+</td>
+<td>Ω<sup>−1</sup> = kg<sup>−1</sup>·m<sup>−2</sup>·s<sup>3</sup>·A<sup>2</sup>
+</td>
+<td><a href="/wiki/%E7%94%B5%E5%AF%BC" title="电导">电导</a>, <a href="/wiki/%E5%AF%BC%E7%BA%B3" title="导纳">导纳</a>, <a href="/wiki/%E7%94%B5%E7%BA%B3" title="电纳">电纳</a>
+</td></tr>
+<tr>
+<td>κ, γ, σ
+</td>
+<td><a class="mw-redirect" href="/wiki/%E8%A5%BF%E9%97%A8%E5%AD%90_(%E5%8D%95%E4%BD%8D)" title="西门子 (单位)">西门子</a>每<a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>S/m
+</td>
+<td>kg<sup>−1</sup>·m<sup>−3</sup>·s<sup>3</sup>·A<sup>2</sup>
+</td>
+<td><a class="mw-redirect" href="/wiki/%E7%94%B5%E5%AF%BC%E7%8E%87" title="电导率">电导率</a>
+</td></tr>
+<tr>
+<td>Φ
+</td>
+<td><a href="/wiki/%E9%9F%A6%E4%BC%AF_(%E5%8D%95%E4%BD%8D)" title="韦伯 (单位)">韦伯</a>
+</td>
+<td>Wb
+</td>
+<td>V·s = kg·m<sup>2</sup>·s<sup>−2</sup>·A<sup>−1</sup>
+</td>
+<td><a href="/wiki/%E7%A3%81%E9%80%9A%E9%87%8F" title="磁通量">磁通量</a>
+</td></tr>
+<tr>
+<td>B
+</td>
+<td><a href="/wiki/%E7%89%B9%E6%96%AF%E6%8B%89" title="特斯拉">特斯拉</a>
+</td>
+<td>T
+</td>
+<td>Wb/m<sup>2</sup> = kg·s<sup>−2</sup>·A<sup>−1</sup>
+</td>
+<td>磁通量密度、磁感应强度
+</td></tr>
+<tr>
+<td>R
+</td>
+<td><a href="/wiki/%E5%AE%89%E5%9F%B9" title="安培">安培</a>每<a href="/wiki/%E9%9F%A6%E4%BC%AF_(%E5%8D%95%E4%BD%8D)" title="韦伯 (单位)">韦伯</a>
+</td>
+<td>A/Wb
+</td>
+<td>kg<sup>−1</sup>·m<sup>−2</sup>·s<sup>2</sup>·A<sup>2</sup>
+</td>
+<td><a href="/wiki/%E7%A3%81%E9%98%BB" title="磁阻">磁阻</a>
+</td></tr>
+<tr>
+<td>L, M
+</td>
+<td><a href="/wiki/%E4%BA%A8%E5%88%A9_(%E5%8D%95%E4%BD%8D)" title="亨利 (单位)">亨利</a>
+</td>
+<td>H
+</td>
+<td>Wb/A = V·s/A = kg·m<sup>2</sup>·s<sup>−2</sup>·A<sup>−2</sup>
+</td>
+<td><a class="mw-redirect" href="/wiki/%E9%9B%BB%E6%84%9F" title="電感">電感</a>、<a class="mw-redirect" href="/wiki/%E8%87%AA%E6%84%9F" title="自感">自感</a>
+</td></tr>
+<tr>
+<td>μ
+</td>
+<td><a href="/wiki/%E4%BA%A8%E5%88%A9_(%E5%8D%95%E4%BD%8D)" title="亨利 (单位)">亨利</a>每<a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">米</a>
+</td>
+<td>H/m
+</td>
+<td>kg·m<sup></sup>·s<sup>−2</sup>·A<sup>−2</sup>
+</td>
+<td>磁导率
+</td></tr>
+<tr>
+<td colspan="5"><div style="float:right;"><small><small class="editlink noprint plainlinksneverexpand"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6%E7%94%B5%E7%A3%81%E5%AD%A6%E5%8D%95%E4%BD%8D&amp;action=edit">编辑</a></small></small></div>
+</td></tr></tbody></table>
+<h2><span id=".E7.9B.B8.E5.85.B3.E6.9D.A1.E7.9B.AE"></span><span class="mw-headline" id="相关条目">相关条目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=11" title="编辑章节：相关条目">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg"><img alt="icon" class="noviewer" data-file-height="600" data-file-width="530" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/25px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/37px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/49px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png 2x" width="25"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:%E7%89%A9%E7%90%86%E5%AD%A6" title="Portal:物理学">物理学主题</a></span></li></ul></div>
+<ul><li><a href="/wiki/%E9%9B%BB%E5%AD%B8" title="電學">電學</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%A3%81%E5%AD%B8" title="磁學">磁學</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%94%B5%E7%A3%81%E5%8A%9B" title="电磁力">电磁力</a></li></ul>
+<h2><span id=".E5.8F.83.E8.80.83.E6.96.87.E7.8D.BB"></span><span class="mw-headline" id="參考文獻">參考文獻</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=12" title="编辑章节：參考文獻">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book" id="Ulaby13">Ravaioli, Fawwaz T. Ulaby, Eric Michielssen, Umberto. <a class="external text" href="https://archive.org/details/fundamentalsappl00ulab" rel="nofollow">Fundamentals of applied electromagnetics</a> 6th. Boston: Prentice Hall. 2010: <a class="external text" href="https://archive.org/details/fundamentalsappl00ulab/page/n12" rel="nofollow">13</a> <span class="reference-accessdate"> [<span class="nowrap">6 November</span> 2014]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-13-213931-1" title="Special:网络书源/978-0-13-213931-1"><span title="国际标准书号">ISBN</span> 978-0-13-213931-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.aufirst=Fawwaz+T.+Ulaby%2C+Eric+Michielssen%2C+Umberto&amp;rft.aulast=Ravaioli&amp;rft.btitle=Fundamentals+of+applied+electromagnetics&amp;rft.date=2010&amp;rft.edition=6th&amp;rft.genre=book&amp;rft.isbn=978-0-13-213931-1&amp;rft.pages=13&amp;rft.place=Boston&amp;rft.pub=Prentice+Hall&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Ffundamentalsappl00ulab&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-franklin-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-franklin_2-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/217331/Benjamin-Franklin" rel="nofollow">Benjamin Franklin</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090504043529/http://www.britannica.com/EBchecked/topic/217331/Benjamin-Franklin" rel="nofollow">存档</a>于2009-05-04） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Benjamin+Franklin&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F217331%2FBenjamin-Franklin&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">Whittaker, E. T. <a class="external text" href="http://www.archive.org/details/historyoftheorie00whitrich" rel="nofollow">A history of the theories of aether and electricity. Vol 1</a>. Nelson, London. 1951: pp. 51.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Whittaker%2C+E.+T.&amp;rft.btitle=A+history+of+the+theories+of+aether+and+electricity.+Vol+1&amp;rft.date=1951&amp;rft.genre=book&amp;rft.pages=pp.+51&amp;rft.pub=Nelson%2C+London&amp;rft_id=http%3A%2F%2Fwww.archive.org%2Fdetails%2Fhistoryoftheorie00whitrich&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></span>
+</li>
+<li id="cite_note-coulomb-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-coulomb_4-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/140071/Charles-Augustin-de-Coulomb" rel="nofollow">Charles-Augustin de Coulomb</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20150514130623/http://www.britannica.com/EBchecked/topic/140071/Charles-Augustin-de-Coulomb" rel="nofollow">存档</a>于2015-05-14） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Charles-Augustin+de+Coulomb&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F140071%2FCharles-Augustin-de-Coulomb&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-ohm-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-ohm_5-0">^</a></b></span> <span class="reference-text">{{cite web | language = en | publisher = Encyclopædia Britannica | title = Georg Simon Ohm | url = <a class="external free" href="http://www.britannica.com/EBchecked/topic/426058/Georg-Simon-Ohm" rel="nofollow">http://www.britannica.com/EBchecked/topic/426058/Georg-Simon-Ohm</a> （<a class="external text" href="//web.archive.org/web/20121027073855/http://www.britannica.com/EBchecked/topic/426058/Georg-Simon-Ohm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） | author = Encyclopædia Britannica Online | date =  | accessdate = 2009-08-25 }<a class="external free" href="https://en.wikipedia.org/wiki/Intergalactic?wprov=sfla1}">https://en.wikipedia.org/wiki/Intergalactic?wprov=sfla1}</a> （<a class="external text" href="//web.archive.org/web/20190502220039/https://en.wikipedia.org/wiki/Intergalactic?wprov=sfla1%7D" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Brian, R.M. &amp; Cohen, R.S. (2007). Hans Christian Ørsted and the Romantic Legacy in Science, <i>Boston Studies in the Philosophy of Science</i>, Vol. 241.</span>
+</li>
+<li id="cite_note-oersted-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-oersted_7-0">^</a></b></span> <span class="reference-text"><cite class="citation web">NHMFL. <a class="external text" href="https://web.archive.org/web/20080106195811/http://www.magnet.fsu.edu/education/tutorials/java/oersted/index.html" rel="nofollow">Ørsted's Compass</a>.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （<a class="external text" href="http://www.magnet.fsu.edu/education/tutorials/java/oersted/index.html" rel="nofollow">原始内容</a>存档于2008-01-06） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=NHMFL&amp;rft.btitle=%C3%98rsted%27s+Compass&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.magnet.fsu.edu%2Feducation%2Ftutorials%2Fjava%2Foersted%2Findex.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation book">Ampère, André-Marie; Jean-Jacques Ampère. <a class="external text" href="http://books.google.com/books?id=dVqlXbbv76sC" rel="nofollow">André-Marie Ampère - Correspondance et souvenirs de 1805 à 1864</a>. Paris: J. Hetzel. 1875 <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到法语网页">（法语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.aufirst=Andr%C3%A9-Marie&amp;rft.aulast=Amp%C3%A8re&amp;rft.btitle=Andr%C3%A9-Marie+Amp%C3%A8re+-+Correspondance+et+souvenirs+de+1805+%C3%A0+1864&amp;rft.date=1875&amp;rft.genre=book&amp;rft.place=Paris&amp;rft.pub=J.+Hetzel&amp;rft_id=http%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DdVqlXbbv76sC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation book">Hofmann, James R. André-Marie Ampère. Cambridge University Press. 1996. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-521-56220-1" title="Special:网络书源/0-521-56220-1"><span title="国际标准书号">ISBN</span> 0-521-56220-1</a>. <a class="external text" href="//www.worldcat.org/oclc/34723577" rel="nofollow"><span title="OCLC">OCLC 34723577</span></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.aufirst=James+R.&amp;rft.aulast=Hofmann&amp;rft.btitle=Andr%C3%A9-Marie+Amp%C3%A8re&amp;rft.date=1996&amp;rft.genre=book&amp;rft.isbn=0-521-56220-1&amp;rft.pub=Cambridge+University+Press&amp;rft_id=info%3Aoclcnum%2F34723577&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-ampere-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-ampere_10-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/21416/Andre-Marie-Ampere" rel="nofollow">André-Marie Ampère</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20150517084017/http://www.britannica.com/EBchecked/topic/21416/Andre-Marie-Ampere" rel="nofollow">存档</a>于2015-05-17） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Andr%C3%A9-Marie+Amp%C3%A8re&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F21416%2FAndre-Marie-Ampere&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-faraday-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-faraday_11-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/201705/Michael-Faraday" rel="nofollow">Michael Faraday</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090329101953/http://www.britannica.com/EBchecked/topic/201705/Michael-Faraday" rel="nofollow">存档</a>于2009-03-29） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Michael+Faraday&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F201705%2FMichael-Faraday&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-lenz-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-lenz_12-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/336156/Heinrich-Friedrich-Emil-Lenz" rel="nofollow">Heinrich Friedrich Emil Lenz</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span> <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Heinrich+Friedrich+Emil+Lenz&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F336156%2FHeinrich-Friedrich-Emil-Lenz&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-evolution-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-evolution_13-0">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/%E9%98%BF%E5%B0%94%E4%BC%AF%E7%89%B9%C2%B7%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6" title="阿尔伯特·爱因斯坦">Albert Einstein</a>; Leopold Infeld. <a class="external text" href="https://www.amazon.com/Evolution-Physics-Albert-Einstein/dp/0671201565" rel="nofollow">Evolution of Physics (Paperback)</a>. Touchstone. 1967-10-30 <span class="reference-accessdate"> [<span class="nowrap">2012-10-04</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0671201562" title="Special:网络书源/978-0671201562"><span title="国际标准书号">ISBN</span> 978-0671201562</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20120322021117/http://www.amazon.com/Evolution-Physics-Albert-Einstein/dp/0671201565" rel="nofollow">存档</a>于2012-03-22） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Albert+Einstein&amp;rft.btitle=Evolution+of+Physics+%28Paperback%29&amp;rft.date=1967-10-30&amp;rft.genre=book&amp;rft.isbn=978-0671201562&amp;rft.pub=Touchstone&amp;rft_id=http%3A%2F%2Fwww.amazon.com%2FEvolution-Physics-Albert-Einstein%2Fdp%2F0671201565&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-maxwell-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-maxwell_14-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/370621/James-Clerk-Maxwell" rel="nofollow">James Clerk Maxwell</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-24</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090831000443/http://www.britannica.com/EBchecked/topic/370621/James-Clerk-Maxwell" rel="nofollow">存档</a>于2009-08-31） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=James+Clerk+Maxwell&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F370621%2FJames-Clerk-Maxwell&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-maxwellforce-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-maxwellforce_15-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Francis Everitt. <a class="external text" href="http://physicsworld.com/cws/article/print/26527" rel="nofollow">James Clerk Maxwell: a force for physics</a>. physicsworld.com. 2006-12-01 <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090205190536/http://physicsworld.com/cws/article/print/26527" rel="nofollow">存档</a>于2009-02-05） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Francis+Everitt&amp;rft.btitle=James+Clerk+Maxwell%3A+a+force+for+physics&amp;rft.date=2006-12-01&amp;rft.genre=unknown&amp;rft.pub=physicsworld.com&amp;rft_id=http%3A%2F%2Fphysicsworld.com%2Fcws%2Farticle%2Fprint%2F26527&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-fivepapers-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-fivepapers_16-0"><sup><b>16.0</b></sup></a> <a href="#cite_ref-fivepapers_16-1"><sup><b>16.1</b></sup></a> <a href="#cite_ref-fivepapers_16-2"><sup><b>16.2</b></sup></a></span> <span class="reference-text"><cite class="citation web">Project Gutenberg. <a class="external text" href="http://www.gutenberg.org/etext/4908" rel="nofollow">Five of Maxwell's Papers by James Clerk Maxwell</a>. Project Gutenberg.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090924162120/http://www.gutenberg.org/etext/4908" rel="nofollow">存档</a>于2009-09-24） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Project+Gutenberg&amp;rft.btitle=Five+of+Maxwell%27s+Papers+by+James+Clerk+Maxwell&amp;rft.genre=unknown&amp;rft.pub=Project+Gutenberg&amp;rft_id=http%3A%2F%2Fwww.gutenberg.org%2Fetext%2F4908&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-hertz-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-hertz_17-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Encyclopædia Britannica Online. <a class="external text" href="http://www.britannica.com/EBchecked/topic/263899/Heinrich-Hertz" rel="nofollow">Heinrich Hertz</a>. Encyclopædia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2009-08-25</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20090901181220/http://www.britannica.com/EBchecked/topic/263899/Heinrich-Hertz" rel="nofollow">存档</a>于2009-09-01） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%94%B5%E7%A3%81%E5%AD%A6&amp;rft.au=Encyclop%C3%A6dia+Britannica+Online&amp;rft.btitle=Heinrich+Hertz&amp;rft.genre=unknown&amp;rft.pub=Encyclop%C3%A6dia+Britannica&amp;rft_id=http%3A%2F%2Fwww.britannica.com%2FEBchecked%2Ftopic%2F263899%2FHeinrich-Hertz&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.83.E8.80.83.E6.9B.B8.E7.9B.AE"></span><span class="mw-headline" id="參考書目">參考書目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=13" title="编辑章节：參考書目">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol><li>Field and Wave Electromagnetics, David K. Cheng, Addison Wesley, <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780201528206">ISBN 978-0-201-52820-6</a></li>
+<li>Introduction to Electrodynamics, <a href="/wiki/%E5%A4%A7%E8%A1%9B%C2%B7%E6%A0%BC%E9%87%8C%E8%8F%B2%E6%96%AF_(%E7%89%A9%E7%90%86%E5%AD%B8%E5%AE%B6)" title="大衛·格里菲斯 (物理學家)">David J. Griffiths</a>, <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780138053260">ISBN 978-0-13-805326-0</a>, <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780138053260">ISBN 978-0-13-805326-0</a></li></ol>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span><span class="mw-headline" id="外部連結">外部連結</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit&amp;section=14" title="编辑章节：外部連結">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="external text" href="http://psroc.phys.ntu.edu.tw/bimonth/download.php?d=1&amp;cpid=153&amp;did=17" rel="nofollow">法拉第和電磁學</a> （<a class="external text" href="//web.archive.org/web/20140903080006/http://psroc.phys.ntu.edu.tw/bimonth/download.php?d=1&amp;cpid=153&amp;did=17" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li></ul>
+<div style="clear: both; height: 1em"></div>
+<table align="center" id="toc" style="margin:0 auto;" width="80%">
+<tbody><tr>
+<td align="center" style="background:#ccccff">
+<p><b><a href="/wiki/%E9%9B%BB%E5%AD%B8" title="電學">電學</a> 体系</b>
+</p>
+</td></tr>
+<tr>
+<td align="center">
+<p><a href="/wiki/%E7%94%B5%E5%AD%90%E5%AD%A6" title="电子学">电子学</a> | <a class="mw-selflink selflink">电磁学</a> | <a class="mw-redirect" href="/wiki/%E9%9B%BB%E8%B7%AF%E5%AD%B8" title="電路學">電路學</a> | <a href="/wiki/%E9%9B%BB%E5%8A%9B%E5%AD%B8" title="電力學">電力學</a> | <a class="mw-redirect" href="/wiki/%E5%8D%8A%E5%B0%8E%E9%AB%94%E5%AD%B8" title="半導體學">半導體學</a> | <a href="/wiki/%E9%9D%9C%E9%9B%BB%E5%AD%B8" title="靜電學">靜電學</a>
+<br/><a href="/wiki/%E9%9B%BB" title="電">電</a> | <a href="/wiki/%E9%9B%BB%E8%8D%B7" title="電荷">電荷</a> | <a class="mw-redirect" href="/wiki/%E9%9B%BB%E5%AD%90" title="電子">電子</a> | <a class="mw-redirect" href="/wiki/%E9%9B%BB%E6%B4%9E" title="電洞">電洞</a>
+<br/>電子材料 | <a class="mw-redirect" href="/wiki/%E9%9B%BB%E9%98%BB" title="電阻">電阻</a> | <a class="mw-redirect" href="/wiki/%E9%9B%BB%E6%84%9F" title="電感">電感</a> | <a href="/wiki/%E9%9B%BB%E5%AE%B9" title="電容">電容</a> | <a href="/wiki/%E4%BA%8C%E6%A5%B5%E9%AB%94" title="二極體">二極體</a> | <a class="mw-redirect" href="/wiki/%E5%8D%8A%E5%B0%8E%E9%AB%94" title="半導體">半導體</a> | <a class="mw-disambig" href="/wiki/%E8%A8%98%E6%86%B6%E9%AB%94" title="記憶體">記憶體</a> | <a class="mw-redirect" href="/wiki/%E7%A9%8D%E9%AB%94%E9%9B%BB%E8%B7%AF" title="積體電路">積體電路</a>
+</p>
+</td></tr>
+</tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%89%A9%E7%90%86%E5%AD%B8%E5%88%86%E6%94%AF" title="Template:物理學分支"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%89%A9%E7%90%86%E5%AD%B8%E5%88%86%E6%94%AF" title="Template talk:物理學分支"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%89%A9%E7%90%86%E5%AD%B8%E5%88%86%E6%94%AF&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6" title="物理学">物理学</a><a href="/wiki/Category:%E7%89%A9%E7%90%86%E5%AD%A6%E5%88%86%E6%94%AF" title="Category:物理学分支">分支</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2" title="物理学史">物理学史</a></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">组成部分</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86%E5%AD%A6" title="理论物理学">理论物理</a></li>
+<li><a href="/wiki/%E5%AF%A6%E9%A9%97%E7%89%A9%E7%90%86%E5%AD%B8" title="實驗物理學">实验物理</a></li>
+<li><a href="/wiki/%E5%BA%94%E7%94%A8%E7%89%A9%E7%90%86%E5%AD%A6" title="应用物理学">应用物理</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/%E9%81%8B%E5%8B%95_(%E7%89%A9%E7%90%86%E5%AD%B8)" title="運動 (物理學)">运动</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%83%AD%E5%8A%9B%E5%AD%A6" title="热力学">热力学</a></li>
+<li><a href="/wiki/%E5%8A%9B%E5%AD%A6" title="力学">力学</a>
+<ul><li><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">经典力学</a>
+<ul><li><a href="/wiki/%E5%BC%B9%E9%81%93%E5%AD%A6" title="弹道学">弹道</a></li>
+<li><a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%8A%9B%E5%AD%A6" title="拉格朗日力学">拉格朗日</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%8A%9B%E5%AD%A6" title="哈密顿力学">哈密顿</a></li></ul></li>
+<li><a href="/wiki/%E8%BF%9E%E7%BB%AD%E4%BB%8B%E8%B4%A8%E5%8A%9B%E5%AD%A6" title="连续介质力学">连续介质</a></li>
+<li><a href="/wiki/%E5%A4%A9%E9%AB%94%E5%8A%9B%E5%AD%B8" title="天體力學">天体</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6" title="统计力学">统计</a></li>
+<li><a href="/wiki/%E6%B5%81%E4%BD%93%E5%8A%9B%E5%AD%A6" title="流体力学">流体</a></li>
+<li><a href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6" title="量子力学">量子</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%B3%A2" title="波">波</a><span style="font-weight:bold;"> ·</span> <a href="/wiki/%E5%9C%BA_(%E7%89%A9%E7%90%86)" title="场 (物理)">场</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%BC%95%E5%8A%9B" title="引力">引力</a></li>
+<li><a class="mw-selflink selflink">电磁学</a>
+<ul><li><a href="/wiki/%E7%BB%8F%E5%85%B8%E7%94%B5%E7%A3%81%E5%AD%A6" title="经典电磁学">经典</a></li></ul></li>
+<li><a href="/wiki/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA" title="量子场论">量子场论</a></li>
+<li><a href="/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="相对论">相对论</a>
+<ul><li><a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a></li>
+<li><a href="/wiki/%E5%BB%A3%E7%BE%A9%E7%9B%B8%E5%B0%8D%E8%AB%96" title="廣義相對論">廣義相對論</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">按专业</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B8%E7%A2%BC%E7%89%A9%E7%90%86%E5%AD%B8" title="數碼物理學">數碼物理學</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6" title="计算物理学">计算物理学</a></li>
+<li><a href="/wiki/%E7%B2%92%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%B8" title="粒子物理學">粒子物理學</a></li>
+<li><a href="/wiki/%E5%8E%9F%E5%AD%90%E6%A0%B8%E7%89%A9%E7%90%86%E5%AD%A6" title="原子核物理学">原子核物理学</a></li>
+<li><a href="/wiki/%E5%8E%9F%E5%AD%90%E5%88%86%E5%AD%90%E4%B8%8E%E5%85%89%E7%89%A9%E7%90%86%E5%AD%A6" title="原子分子与光物理学">原子分子與光物理學</a>
+<ul><li><a href="/wiki/%E5%88%86%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%A6" title="分子物理学">分子</a></li>
+<li><a href="/wiki/%E5%8E%9F%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%A6" title="原子物理学">原子</a></li></ul></li>
+<li><a href="/wiki/%E7%AD%89%E7%A6%BB%E5%AD%90%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6" title="等离子体物理学">等离子体</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%8A%9B%E5%AD%A6" title="统计力学">统计</a></li>
+<li><a href="/wiki/%E5%87%9D%E8%81%9A%E6%80%81%E7%89%A9%E7%90%86%E5%AD%A6" title="凝聚态物理学">凝聚态物理学</a>
+<ul><li><a href="/wiki/%E5%9B%BA%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6" title="固体物理学">固体</a></li>
+<li><a href="/wiki/%E4%BB%8B%E8%A7%82%E7%89%A9%E7%90%86%E5%AD%A6" title="介观物理学">介观</a></li>
+<li><a href="/wiki/%E8%BD%AF%E7%89%A9%E8%B4%A8" title="软物质">软</a></li>
+<li><a href="/wiki/%E9%AB%98%E5%88%86%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%A6" title="高分子物理学">高分子</a></li></ul></li>
+<li><a href="/wiki/%E5%A3%B0%E5%AD%A6" title="声学">声学</a></li>
+<li><a href="/wiki/%E5%85%89%E5%AD%A6" title="光学">光学</a>
+<ul><li><a href="/wiki/%E5%87%A0%E4%BD%95%E5%85%89%E5%AD%A6" title="几何光学">几何</a></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E5%85%89%E5%AD%A6" title="物理光学">物理</a></li>
+<li><a href="/wiki/%E9%9D%9E%E7%BA%BF%E6%80%A7%E5%85%89%E5%AD%A6" title="非线性光学">非线性</a></li>
+<li><a href="/wiki/%E9%87%8F%E5%AD%90%E5%85%89%E5%AD%A6" title="量子光学">量子</a></li></ul></li>
+<li><a href="/wiki/%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6" title="天体物理学">天体物理学</a>
+<ul><li><a href="/wiki/%E6%A0%B8%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6" title="核天体物理学">核</a></li>
+<li><a href="/wiki/%E6%81%92%E6%98%9F%E7%89%A9%E7%90%86%E5%AD%A6" title="恒星物理学">恒星</a></li>
+<li><a href="/wiki/%E5%A4%A9%E4%BD%93%E7%B2%92%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%A6" title="天体粒子物理学">天体粒子</a></li>
+<li><a href="/wiki/%E5%A4%AA%E9%98%B3%E7%89%A9%E7%90%86%E5%AD%A6" title="太阳物理学">太阳</a></li>
+<li><a href="/wiki/%E7%A9%BA%E9%97%B4%E7%89%A9%E7%90%86%E5%AD%A6" title="空间物理学">空间</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">生命科学中的物理学</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%94%9F%E7%89%A9%E7%89%A9%E7%90%86%E5%AD%A6" title="生物物理学">生物物理学</a>
+<ul><li><a href="/wiki/%E7%94%9F%E7%89%A9%E5%8A%9B%E5%AD%A6" title="生物力学">生物力学</a></li>
+<li><a href="/wiki/%E5%86%9C%E4%B8%9A%E7%89%A9%E7%90%86%E5%AD%A6" title="农业物理学">农业物理学</a></li></ul></li>
+<li><a href="/wiki/%E9%86%AB%E5%AD%B8%E7%89%A9%E7%90%86" title="醫學物理">醫學物理</a>
+<ul><li><span class="ilh-all" data-foreign-title="Laser medicine" data-lang-code="en" data-lang-name="英语" data-orig-title="激光医学"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%BF%80%E5%85%89%E5%8C%BB%E5%AD%A6&amp;action=edit&amp;redlink=1" title="激光医学（页面不存在）">激光医学</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Laser_medicine" title="en:Laser medicine"><span dir="auto" lang="en">Laser medicine</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%A0%B8%E5%8C%BB%E5%AD%A6" title="核医学">核医学</a></li>
+<li><a href="/wiki/%E9%86%AB%E5%AD%B8%E5%BD%B1%E5%83%8F" title="醫學影像">醫學影像</a></li>
+<li><a href="/wiki/%E5%BF%83%E7%90%86%E7%89%A9%E7%90%86%E5%AD%A6" title="心理物理学">心理物理学</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A7%91%E9%99%85%E6%95%B4%E5%90%88" title="科际整合">交叉学科</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%A4%A9%E4%BD%93%E7%89%A9%E7%90%86%E5%AD%A6" title="天体物理学">天体物理学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86" title="数学物理">数学物理</a></li>
+<li><a href="/wiki/%E9%9D%9E%E7%BA%BF%E6%80%A7%E7%89%A9%E7%90%86%E5%AD%A6" title="非线性物理学">非线性物理学</a></li>
+<li><a href="/wiki/%E7%B6%93%E6%BF%9F%E7%89%A9%E7%90%86%E5%AD%B8" title="經濟物理學">经济物理学</a></li>
+<li><a href="/wiki/%E6%9D%90%E6%96%99%E7%A7%91%E5%AD%A6" title="材料科学">材料科学</a>
+<ul><li><a href="/wiki/%E9%AB%98%E5%88%86%E5%AD%90%E7%89%A9%E7%90%86%E5%AD%A6" title="高分子物理学">高分子</a></li></ul></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6" title="物理化学">物理化学</a> / <a href="/wiki/%E5%8C%96%E5%AD%A6%E7%89%A9%E7%90%86%E5%AD%A6" title="化学物理学">化学物理学</a></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E5%AE%87%E5%AE%99%E5%AD%A6" title="物理宇宙学">物理宇宙学</a></li>
+<li><a href="/wiki/%E5%A4%A7%E6%B0%94%E7%89%A9%E7%90%86%E5%AD%A6" title="大气物理学">大气</a>
+<ul><li><a href="/wiki/%E4%BA%91%E7%89%A9%E7%90%86%E5%AD%A6" title="云物理学">云</a></li></ul></li>
+<li><a href="/wiki/%E5%9C%B0%E7%90%83%E7%89%A9%E7%90%86%E5%AD%A6" title="地球物理学">地球物理学</a></li>
+<li><a href="/wiki/%E5%9C%9F%E5%A3%A4%E7%89%A9%E7%90%86%E5%AD%B8" title="土壤物理學">土壤物理學</a></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E6%B5%B7%E6%B4%8B%E5%AD%A6" title="物理海洋学">物理海洋学</a></li>
+<li><a href="/wiki/%E9%87%8F%E5%AD%90%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6" title="量子信息科学">量子信息科学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">有关</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AF%BA%E8%B4%9D%E5%B0%94%E7%89%A9%E7%90%86%E5%AD%A6%E5%A5%96" title="诺贝尔物理学奖">诺贝尔物理学奖</a></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E6%95%99%E8%82%B2" title="物理教育">物理教育</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E7%89%A9%E7%90%86%E5%AD%A6" title="Category:物理学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E7%89%A9%E7%90%86%E5%AD%A6" title="Portal:物理学">主題</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Physics" title="commons:Category:Physics">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/> <b><a href="/wiki/WikiProject:%E7%89%A9%E7%90%86%E5%AD%A6" title="WikiProject:物理学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="3" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%94%B5%E7%A3%81%E5%AD%A6" title="Template:电磁学"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%94%B5%E7%A3%81%E5%AD%A6" title="Template talk:电磁学"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a class="mw-selflink selflink">电磁学</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E9%9D%9C%E9%9B%BB%E5%AD%B8" title="靜電學">靜電學</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%9B%BB" title="電">電</a></li>
+<li><a href="/wiki/%E9%9B%BB%E8%8D%B7" title="電荷">電荷</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%A0%B4" title="電場">電場</a></li>
+<li><a href="/wiki/%E6%91%A9%E6%93%A6%E8%B5%B7%E9%9B%BB%E6%95%88%E6%87%89" title="摩擦起電效應">摩擦起電效應</a></li>
+<li><a href="/wiki/%E9%9D%99%E7%94%B5%E6%94%BE%E7%94%B5" title="静电放电">静电放电</a>
+<ul><li><a href="/wiki/%E9%97%AA%E7%94%B5" title="闪电">闪电</a></li>
+<li><a href="/wiki/%E7%94%B5%E6%99%95%E6%94%BE%E7%94%B5" title="电晕放电">电晕放电</a></li>
+<li><a href="/wiki/%E5%B0%96%E7%AB%AF%E6%94%BE%E9%9B%BB" title="尖端放電">尖端放电</a></li></ul></li>
+<li><a href="/wiki/%E9%9D%99%E7%94%B5%E6%84%9F%E5%BA%94" title="静电感应">静电感应</a>
+<ul><li><a href="/wiki/%E9%9D%99%E7%94%B5%E9%99%A4%E5%B0%98" title="静电除尘">静电吸附</a></li></ul></li>
+<li><a href="/wiki/%E9%9D%99%E7%94%B5%E5%B1%8F%E8%94%BD" title="静电屏蔽">静电屏蔽</a></li>
+<li><a href="/wiki/%E5%BA%93%E4%BB%91%E5%AE%9A%E5%BE%8B" title="库仑定律">库仑定律</a></li>
+<li><a href="/wiki/%E9%AB%98%E6%96%AF%E5%AE%9A%E5%BE%8B" title="高斯定律">高斯定律</a></li>
+<li><a href="/wiki/%E7%94%B5%E9%80%9A%E9%87%8F" title="电通量">电通量</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%8A%BF%E8%83%BD" title="电势能">电势能</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%81%B6%E6%9E%81%E7%9F%A9" title="电偶极矩">电偶极矩</a></li>
+<li><a href="/wiki/%E9%9B%BB%E6%A5%B5%E5%8C%96" title="電極化">電極化</a></li>
+<li><a href="/wiki/%E9%9B%BB%E4%BD%8D%E7%A7%BB" title="電位移">電位移</a></li></ul>
+</div></td><td class="navbox-image" rowspan="11" style="width:0%;padding:0px 0px 0px 2px"><div><a class="image" href="/wiki/File:VFPt_Solenoid_correct2.svg" title="Solenoid"><img alt="Solenoid" data-file-height="200" data-file-width="490" decoding="async" height="78" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/VFPt_Solenoid_correct2.svg/190px-VFPt_Solenoid_correct2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/VFPt_Solenoid_correct2.svg/285px-VFPt_Solenoid_correct2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0d/VFPt_Solenoid_correct2.svg/380px-VFPt_Solenoid_correct2.svg.png 2x" width="190"/></a></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E9%9D%9C%E7%A3%81%E5%AD%B8" title="靜磁學">靜磁學</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A3%81" title="磁">磁</a></li>
+<li><a href="/wiki/%E5%AE%89%E5%9F%B9%E7%8E%AF%E8%B7%AF%E5%AE%9A%E5%BE%8B" title="安培环路定律">安培定律</a></li>
+<li><a href="/wiki/%E7%A3%81%E5%A0%B4" title="磁場">磁場</a></li>
+<li><a href="/wiki/%E7%A3%81%E6%84%9F%E5%BA%94%E5%BC%BA%E5%BA%A6" title="磁感应强度">磁感应强度</a></li>
+<li><a href="/wiki/%E7%A3%81%E5%A0%B4" title="磁場">磁場強度</a></li>
+<li><a href="/wiki/%E7%A3%81%E5%8C%96%E5%BC%B7%E5%BA%A6" title="磁化強度">磁化強度</a></li>
+<li><a href="/wiki/%E7%A3%81%E9%80%9A%E9%87%8F" title="磁通量">磁通量</a></li>
+<li><a href="/wiki/%E6%AF%95%E5%A5%A5-%E8%90%A8%E4%BC%90%E5%B0%94%E5%AE%9A%E5%BE%8B" title="毕奥-萨伐尔定律">毕奥-萨伐尔定律</a></li>
+<li><a href="/wiki/%E7%A3%81%E7%9F%A9" title="磁矩">磁矩</a></li>
+<li><a href="/wiki/%E9%AB%98%E6%96%AF%E7%A3%81%E5%AE%9A%E5%BE%8B" title="高斯磁定律">高斯磁定律</a></li>
+<li><a href="/wiki/%E7%A3%81%E7%9F%A2%E5%8A%BF" title="磁矢势">磁矢势</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E9%9B%BB%E5%AD%B8" title="電學">電學</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%94%B5%E8%B7%AF" title="电路">电路</a></li>
+<li><a href="/wiki/%E7%94%B5%E6%B5%81" title="电流">电流</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%8B%A2" title="電勢">電勢</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%A3%93" title="電壓">電壓</a></li>
+<li><a href="/wiki/%E7%94%B5%E9%98%BB" title="电阻">电阻</a></li>
+<li><a href="/wiki/%E7%B5%95%E7%B7%A3%E9%AB%94" title="絕緣體">絕緣體</a></li>
+<li><a href="/wiki/%E5%8D%8A%E5%AF%BC%E4%BD%93" title="半导体">半导体</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%B0%8E%E9%AB%94" title="電導體">導體</a></li>
+<li><a href="/wiki/%E8%B6%85%E5%B0%8E%E9%AB%94" title="超導體">超導體</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B" title="欧姆定律">欧姆定律</a></li>
+<li><a href="/wiki/%E4%B8%B2%E8%81%AF%E9%9B%BB%E8%B7%AF" title="串聯電路">串聯電路</a></li>
+<li><a href="/wiki/%E4%B8%A6%E8%81%AF%E9%9B%BB%E8%B7%AF" title="並聯電路">並聯電路</a></li>
+<li><a href="/wiki/%E7%9B%B4%E6%B5%81%E9%9B%BB" title="直流電">直流電</a></li>
+<li><a href="/wiki/%E4%BA%A4%E6%B5%81%E9%9B%BB" title="交流電">交流電</a></li>
+<li><a href="/wiki/%E5%B8%A6%E7%94%B5%E6%B5%81" title="带电流">带电流</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%8B%95%E5%8B%A2" title="電動勢">電動勢</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%AE%B9" title="電容">電容</a></li>
+<li><a href="/wiki/%E7%94%B5%E6%84%9F" title="电感">电感</a></li>
+<li><a href="/wiki/%E9%98%BB%E6%8A%97" title="阻抗">阻抗</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%AF%BC" title="电导">电导</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E6%B3%A2%E5%AF%BC" title="电磁波导">波导</a></li>
+<li><a href="/wiki/%E6%86%B6%E9%98%BB%E5%99%A8" title="憶阻器">憶阻器</a></li>
+<li><a href="/wiki/%E5%9F%BA%E7%88%BE%E9%9C%8D%E5%A4%AB%E9%9B%BB%E8%B7%AF%E5%AE%9A%E5%BE%8B" title="基爾霍夫電路定律">基爾霍夫電路定律</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%94%B5%E7%8E%B0%E8%B1%A1" title="电现象">电现象</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%A3%93%E9%9B%BB%E6%95%88%E6%87%89" title="壓電效應">壓電效應</a></li>
+<li><a href="/wiki/%E5%8E%8B%E9%98%BB%E6%95%88%E5%BA%94" title="压阻效应">压阻效应</a></li>
+<li><a href="/wiki/%E7%86%B1%E9%9B%BB%E6%95%88%E6%87%89" title="熱電效應">熱電效應</a></li>
+<li><a href="/wiki/%E5%85%89%E7%94%B5%E6%95%88%E5%BA%94" title="光电效应">光电效应</a></li>
+<li><a href="/wiki/%E9%9B%BB%E8%87%B4%E7%99%BC%E5%85%89" title="電致發光">電致發光</a></li>
+<li><a href="/wiki/%E4%B8%AD%E9%AB%98%E5%B1%82%E5%A4%A7%E6%B0%94%E6%94%BE%E7%94%B5" title="中高层大气放电">中高层大气放电</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%BB%8F%E5%85%B8%E7%94%B5%E7%A3%81%E5%AD%A6" title="经典电磁学">电动力学</a></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8A%9B" title="洛伦兹力">洛伦兹力</a></li>
+<li><a href="/wiki/%E9%9C%8D%E7%88%BE%E6%95%88%E6%87%89" title="霍爾效應">霍爾效應</a></li>
+<li><a href="/wiki/%E9%9B%BB%E7%A3%81%E5%B9%B2%E6%93%BE" title="電磁干擾">電磁干擾</a></li>
+<li><a href="/wiki/%E6%B3%95%E6%8B%89%E7%AC%AC%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94%E5%AE%9A%E5%BE%8B" title="法拉第电磁感应定律">法拉第电磁感应定律</a></li>
+<li><a href="/wiki/%E6%A5%9E%E6%AC%A1%E5%AE%9A%E5%BE%8B" title="楞次定律">楞次定律</a></li>
+<li><a href="/wiki/%E4%BD%8D%E7%A7%BB%E9%9B%BB%E6%B5%81" title="位移電流">位移電流</a></li>
+<li><a href="/wiki/%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81%E6%96%B9%E7%A8%8B%E7%B5%84" title="馬克士威方程組">馬克士威方程組</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E5%9C%BA" title="电磁场">电磁场</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E6%B3%A2" title="电磁波">电磁波</a></li>
+<li><a href="/wiki/%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81%E6%87%89%E5%8A%9B%E5%BC%B5%E9%87%8F" title="馬克士威應力張量">馬克士威應力張量</a></li>
+<li><a href="/wiki/%E5%9D%A1%E5%8D%B0%E5%BB%B7%E5%90%91%E9%87%8F" title="坡印廷向量">坡印廷向量</a></li>
+<li><a href="/wiki/%E9%BB%8E%E7%B4%8D-%E7%B6%AD%E8%AC%9D%E5%8B%A2" title="黎納-維謝勢">黎納-維謝勢</a></li>
+<li><a href="/wiki/%E5%82%91%E6%96%90%E7%B7%AC%E6%9F%AF%E6%96%B9%E7%A8%8B%E5%BC%8F" title="傑斐緬柯方程式">傑斐緬柯方程式</a></li>
+<li><a href="/wiki/%E6%B8%A6%E9%9B%BB%E6%B5%81" title="渦電流">渦電流</a></li>
+<li><a href="/wiki/%E5%80%AB%E6%95%A6%E6%96%B9%E7%A8%8B" title="倫敦方程">倫敦方程</a></li>
+<li><a href="/wiki/%E6%8E%A8%E9%81%B2%E5%8B%A2" title="推遲勢">推遲勢</a></li>
+<li><a href="/wiki/%E8%87%AA%E7%94%B1%E7%A9%BA%E9%96%93" title="自由空間">自由空間</a></li>
+<li><a href="/wiki/%E7%BB%8F%E5%85%B8%E7%94%B5%E7%A3%81%E7%90%86%E8%AE%BA%E7%9A%84%E5%8D%8F%E5%8F%98%E5%BD%A2%E5%BC%8F" title="经典电磁理论的协变形式">協變表述</a>
+<ul><li><a href="/wiki/%E9%9B%BB%E7%A3%81%E5%BC%B5%E9%87%8F" title="電磁張量">電磁張量</a></li>
+<li><a href="/wiki/%E5%9B%9B%E7%B6%AD%E9%9B%BB%E6%B5%81%E5%AF%86%E5%BA%A6" title="四維電流密度">四維電流密度</a></li>
+<li><a href="/wiki/%E9%9B%BB%E7%A3%81%E6%87%89%E5%8A%9B-%E8%83%BD%E9%87%8F%E5%BC%B5%E9%87%8F" title="電磁應力-能量張量">電磁應力-能量張量</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E5%9B%9B%E7%BB%B4%E5%8A%BF" title="电磁四维势">四維勢</a></li></ul></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2#电磁学的发展史" title="物理学史">发展史</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%94%B5%E8%8D%B7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B" title="电荷守恒定律">电荷守恒定律</a></li>
+<li><a href="/wiki/%E5%BA%93%E4%BB%91%E5%AE%9A%E5%BE%8B" title="库仑定律">库仑定律</a></li>
+<li><a href="/wiki/%E4%BC%8F%E6%89%93%E7%94%B5%E5%A0%86" title="伏打电堆">伏打电堆</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BC%BD%E4%BC%90%E5%B0%BC%E7%94%B5%E6%B1%A0" title="伽伐尼电池">伽伐尼电池</a></li>
+<li><a href="/wiki/%E5%AE%89%E5%9F%B9%E7%8E%AF%E8%B7%AF%E5%AE%9A%E5%BE%8B" title="安培环路定律">安培定律</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%A7%86%E5%AE%9A%E5%BE%8B" title="欧姆定律">欧姆定律</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E6%84%9F%E5%BA%94" title="电磁感应">电磁感应</a></li>
+<li><a href="/wiki/%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81%E6%96%B9%E7%A8%8B%E7%B5%84" title="馬克士威方程組">馬克士威方程組</a></li>
+<li><a href="/wiki/%E5%9F%BA%E7%88%BE%E9%9C%8D%E5%A4%AB%E9%9B%BB%E8%B7%AF%E5%AE%9A%E5%BE%8B" title="基爾霍夫電路定律">基爾霍夫電路定律</a></li>
+<li><a href="/wiki/%E6%88%B4%E7%BB%B4%E5%8D%97%E5%AE%9A%E7%90%86" title="戴维南定理">戴维南定理</a></li>
+<li><a href="/wiki/%E7%94%B5%E7%A3%81%E6%B3%A2" title="电磁波">电磁波</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%AD%90" title="电子">电子</a></li>
+<li><a href="/wiki/%E8%87%AA%E6%97%8B" title="自旋">自旋</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q11406" title="編輯維基數據鏈接"><img alt="編輯維基數據鏈接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E8%97%9D%E8%A1%93%E8%88%87%E5%BB%BA%E7%AF%89%E7%B4%A2%E5%BC%95%E5%85%B8" title="藝術與建築索引典">AAT</a>: <span class="uid"><a class="external text" href="http://vocab.getty.edu/page/aat/300221714" rel="nofollow">300221714</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%B3%95%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="法国国家图书馆">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb133183393" rel="nofollow">cb133183393</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb133183393" rel="nofollow">(data)</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4014306-5" rel="nofollow">4014306-5</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E4%BC%9A%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%A7%E5%88%B6%E5%8F%B7" title="美国国会图书馆控制号">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh85042184" rel="nofollow">sh85042184</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%9C%8B%E7%AB%8B%E5%9C%8B%E6%9C%83%E5%9C%96%E6%9B%B8%E9%A4%A8" title="國立國會圖書館">NDL</a>: <span class="uid"><a class="external text" href="https://id.ndl.go.jp/auth/ndlna/00561481" rel="nofollow">00561481</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8D%B7%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="捷克国家图书馆">NKC</a>: <span class="uid"><a class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph119883&amp;CON_LNG=ENG" rel="nofollow">ph119883</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%A4%A7%E5%AD%B8%E6%96%87%E6%AA%94%E7%B3%BB%E7%B5%B1" title="大學文檔系統">SUDOC</a>: <span class="uid"><a class="external text" href="https://www.idref.fr/027233030" rel="nofollow">027233030</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1418
+Cached time: 20220921195443
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.486 seconds
+Real time usage: 0.611 seconds
+Preprocessor visited node count: 5487/1000000
+Post‐expand include size: 114180/2097152 bytes
+Template argument size: 4150/2097152 bytes
+Highest expansion depth: 25/100
+Expensive parser function count: 10/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 22692/5000000 bytes
+Lua time usage: 0.235/10.000 seconds
+Lua memory usage: 20851567/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  448.890      1 -total
+ 26.42%  118.600      1 Template:Reflist
+ 20.83%   93.525      1 Template:Lang-en
+ 17.48%   78.480     13 Template:Lang
+ 16.01%   71.856     13 Template:Category_handler
+ 12.10%   54.303      5 Template:Cite_book
+ 10.08%   45.242     10 Template:Cite_web
+  9.97%   44.759      1 Template:NoteTA
+  9.92%   44.509     13 Template:Category_handler/numbered
+  9.28%   41.668      1 Template:Authority_control
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:11187-0!canonical!zh and timestamp 20220921195443 and revision id 70439926.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=电磁学&amp;oldid=70439926">https://zh.wikipedia.org/w/index.php?title=电磁学&amp;oldid=70439926</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E7%89%A9%E7%90%86%E5%AD%A6%E5%88%86%E6%94%AF" title="Category:物理学分支">物理学分支</a></li><li><a href="/wiki/Category:%E7%94%B5%E7%A3%81%E5%AD%A6" title="Category:电磁学">电磁学</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:CS1%E8%8B%B1%E8%AF%AD%E6%9D%A5%E6%BA%90_(en)" title="Category:CS1英语来源 (en)">CS1英语来源 (en)</a></li><li><a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">引文格式1维护：冗余文本</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%BF%87%E6%97%B6%E5%8F%82%E6%95%B0%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有过时参数的引用的页面">含有过时参数的引用的页面</a></li><li><a href="/wiki/Category:CS1%E6%B3%95%E8%AF%AD%E6%9D%A5%E6%BA%90_(fr)" title="Category:CS1法语来源 (fr)">CS1法语来源 (fr)</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英語的條目">含有英語的條目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E5%B8%8C%E8%87%98%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有希臘語的條目">含有希臘語的條目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E6%8B%89%E4%B8%81%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有拉丁語的條目">含有拉丁語的條目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E9%98%BF%E6%8B%89%E4%BC%AF%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有阿拉伯語的條目">含有阿拉伯語的條目</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8%E6%8A%AC%E5%8D%87%E5%BC%8F%E5%BC%95%E7%94%A8%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:使用抬升式引用的條目">使用抬升式引用的條目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABAAT%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含AAT标识符的维基百科条目">包含AAT标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNF%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNF标识符的维基百科条目">包含BNF标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLCCN%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LCCN标识符的维基百科条目">包含LCCN标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNDL%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NDL标识符的维基百科条目">包含NDL标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNKC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NKC标识符的维基百科条目">包含NKC标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABSUDOC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含SUDOC标识符的维基百科条目">包含SUDOC标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8ISBN%E9%AD%94%E6%9C%AF%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用ISBN魔术链接的页面">使用ISBN魔术链接的页面</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E7%94%B5%E7%A3%81%E5%AD%A6" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E7%94%B5%E7%A3%81%E5%AD%A6" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E7%94%B5%E7%A3%81%E5%AD%A6" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant" lang="zh-Hant"><span>繁體</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁體</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳門繁體</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>臺灣正體</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在維基百科受益良多，您可以考慮資助我們"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E7%94%B5%E7%A3%81%E5%AD%A6" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E7%94%B5%E7%A3%81%E5%AD%A6" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;oldid=70439926" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;id=70439926&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11406" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Electromagnetism" hreflang="en"><span>维基共享资源</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://zh.wikibooks.org/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="zh"><span>维基教科书</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Elektromagnetisme" hreflang="af" lang="af" title="Elektromagnetisme – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Electromagnetismo" hreflang="an" lang="an" title="Electromagnetismo – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%83%D9%87%D8%B1%D9%88%D9%85%D8%BA%D9%86%D8%A7%D8%B7%D9%8A%D8%B3%D9%8A%D8%A9" hreflang="ar" lang="ar" title="كهرومغناطيسية – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%AC%E0%A6%BF%E0%A6%A6%E0%A7%8D%E0%A6%AF%E0%A7%81%E0%A6%A4_%E0%A6%9A%E0%A7%81%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC" hreflang="as" lang="as" title="বিদ্যুত চুম্বকত্ব – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Electromagnetismu" hreflang="ast" lang="ast" title="Electromagnetismu – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%85%D8%BA%D9%86%D8%A7%D8%B7%DB%8C%D8%B3" hreflang="azb" lang="azb" title="الکترومغناطیس – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9A%D0%BB%D1%8F%D1%81%D1%8B%D1%87%D0%BD%D0%B0%D1%8F_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B0%D0%B4%D1%8B%D0%BD%D0%B0%D0%BC%D1%96%D0%BA%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Клясычная электрадынаміка – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D0%B3%D0%BD%D0%B5%D1%82%D0%B8%D0%B7%D1%8A%D0%BC" hreflang="bg" lang="bg" title="Електромагнетизъм – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%9A%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%95%E0%A4%A4%E0%A5%8D%E0%A4%B5" hreflang="bh" lang="bh" title="विद्युत्चुम्बकत्व – Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%A4%E0%A6%A1%E0%A6%BC%E0%A6%BF%E0%A7%8E%E0%A6%9A%E0%A7%81%E0%A6%AE%E0%A7%8D%E0%A6%AC%E0%A6%95%E0%A6%A4%E0%A7%8D%E0%A6%AC" hreflang="bn" lang="bn" title="তড়িৎচুম্বকত্ব – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bo mw-list-item"><a class="interlanguage-link-target" href="https://bo.wikipedia.org/wiki/%E0%BD%82%E0%BE%B3%E0%BD%BC%E0%BD%82%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%B4%E0%BD%91%E0%BC%8B%E0%BD%A2%E0%BD%B2%E0%BD%82%E0%BC%8B%E0%BD%94%E0%BC%8B" hreflang="bo" lang="bo" title="གློག་སྡུད་རིག་པ་ – 藏语"><span>བོད་ཡིག</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Elektromagnetizam" hreflang="bs" lang="bs" title="Elektromagnetizam – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%A1%D0%B0%D1%85%D0%B8%D0%BB%D0%B3%D0%B0%D0%B0%D0%BD_%D1%81%D1%83%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BD" hreflang="bxr" lang="bxr" title="Сахилгаан суранзан – Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Electromagnetisme" hreflang="ca" lang="ca" title="Electromagnetisme – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DA%A9%D8%A7%D8%B1%DB%86%D9%85%D9%88%DA%AF%D9%86%D8%A7%D8%AA%DB%8C%D8%B3%DB%8C" hreflang="ckb" lang="ckb" title="کارۆموگناتیسی – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Elektromagnetismus" hreflang="cs" lang="cs" title="Elektromagnetismus – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Electromagneteg" hreflang="cy" lang="cy" title="Electromagneteg – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Elektromagnetisme" hreflang="da" lang="da" title="Elektromagnetisme – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de badge-Q70894304 mw-list-item" title=""><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Elektromagnetismus" hreflang="de" lang="de" title="Elektromagnetismus – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Electromagnetism" hreflang="en" lang="en" title="Electromagnetism – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Elektromagnetismo" hreflang="eo" lang="eo" title="Elektromagnetismo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es badge-Q17437798 badge-goodarticle mw-list-item" title="优良条目"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Electromagnetismo" hreflang="es" lang="es" title="Electromagnetismo – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Elektromagnetism" hreflang="et" lang="et" title="Elektromagnetism – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Elektromagnetismo" hreflang="eu" lang="eu" title="Elektromagnetismo – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%85%D8%BA%D9%86%D8%A7%D8%B7%DB%8C%D8%B3" hreflang="fa" lang="fa" title="الکترومغناطیس – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/S%C3%A4hk%C3%B6magnetismi" hreflang="fi" lang="fi" title="Sähkömagnetismi – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/%C3%89lectromagn%C3%A9tisme" hreflang="fr" lang="fr" title="Électromagnétisme – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a class="interlanguage-link-target" href="https://fy.wikipedia.org/wiki/Elektromagnetisme" hreflang="fy" lang="fy" title="Elektromagnetisme – 西弗里西亚语"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Leictreamaighn%C3%A9adas" hreflang="ga" lang="ga" title="Leictreamaighnéadas – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Electromagnetismo" hreflang="gl" lang="gl" title="Electromagnetismo – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%A7%D7%98%D7%A8%D7%95%D7%9E%D7%92%D7%A0%D7%98%D7%99%D7%95%D7%AA" hreflang="he" lang="he" title="אלקטרומגנטיות – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A5%8D%E0%A4%9A%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%95%E0%A4%A4%E0%A5%8D%E0%A4%B5" hreflang="hi" lang="hi" title="विद्युत्चुम्बकत्व – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hif mw-list-item"><a class="interlanguage-link-target" href="https://hif.wikipedia.org/wiki/Electromagnetism" hreflang="hif" lang="hif" title="Electromagnetism – 斐濟印地文"><span>Fiji Hindi</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Elektromagnetizam" hreflang="hr" lang="hr" title="Elektromagnetizam – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Elektrom%C3%A1gness%C3%A9g" hreflang="hu" lang="hu" title="Elektromágnesség – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B7%D5%AC%D5%A5%D5%AF%D5%BF%D6%80%D5%A1%D5%B4%D5%A1%D5%A3%D5%B6%D5%AB%D5%BD%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Էլեկտրամագնիսականություն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Electromagnetismo" hreflang="ia" lang="ia" title="Electromagnetismo – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Elektromagnetisme" hreflang="id" lang="id" title="Elektromagnetisme – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ig mw-list-item"><a class="interlanguage-link-target" href="https://ig.wikipedia.org/wiki/Electromagnetism" hreflang="ig" lang="ig" title="Electromagnetism – 伊博语"><span>Igbo</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Elektromagnetismo" hreflang="io" lang="io" title="Elektromagnetismo – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Rafsegulfr%C3%A6%C3%B0i" hreflang="is" lang="is" title="Rafsegulfræði – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E9%9B%BB%E7%A3%81%E6%B0%97%E5%AD%A6" hreflang="ja" lang="ja" title="電磁気学 – 日语"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Ilekchomagnetizim" hreflang="jam" lang="jam" title="Ilekchomagnetizim – 牙買加克里奧爾英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%94%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A2%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%90%E1%83%92%E1%83%9C%E1%83%94%E1%83%A2%E1%83%98%E1%83%96%E1%83%9B%E1%83%98" hreflang="ka" lang="ka" title="ელექტრომაგნეტიზმი – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a class="interlanguage-link-target" href="https://kaa.wikipedia.org/wiki/Elektromagnetizm" hreflang="kaa" lang="kaa" title="Elektromagnetizm – 卡拉卡尔帕克语"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%A2%E1%9F%81%E1%9E%A1%E1%9E%B7%E1%9E%85%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%BC%E1%9E%98%E1%9F%89%E1%9E%B6%E1%9E%89%E1%9F%89%E1%9F%81%E1%9E%91%E1%9E%B7%E1%9E%85" hreflang="km" lang="km" title="អេឡិចត្រូម៉ាញ៉េទិច – 高棉语"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%B5%E0%B2%BF%E0%B2%A6%E0%B3%8D%E0%B2%AF%E0%B3%81%E0%B2%A4%E0%B3%8D%E0%B2%95%E0%B2%BE%E0%B2%82%E0%B2%A4%E0%B2%A4%E0%B3%86" hreflang="kn" lang="kn" title="ವಿದ್ಯುತ್ಕಾಂತತೆ – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%A0%84%EC%9E%90%EA%B8%B0%ED%95%99" hreflang="ko" lang="ko" title="전자기학 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Physica_electromagnetica" hreflang="la" lang="la" title="Physica electromagnetica – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Elektromagnetismus" hreflang="lb" lang="lb" title="Elektromagnetismus – 卢森堡语"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Lektromagnetisme" hreflang="li" lang="li" title="Lektromagnetisme – 林堡语"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Elektromagn%C4%93tisms" hreflang="lv" lang="lv" title="Elektromagnētisms – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D0%B3%D0%BD%D0%B5%D1%82%D0%B8%D0%B7%D0%B0%D0%BC" hreflang="mk" lang="mk" title="Електромагнетизам – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B5%E0%B5%88%E0%B4%A6%E0%B5%8D%E0%B4%AF%E0%B5%81%E0%B4%A4%E0%B4%95%E0%B4%BE%E0%B4%A8%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B4%95%E0%B4%A4" hreflang="ml" lang="ml" title="വൈദ്യുതകാന്തികത – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A6%D0%B0%D1%85%D0%B8%D0%BB%D0%B3%D0%B0%D0%B0%D0%BD_%D1%81%D0%BE%D1%80%D0%BE%D0%BD%D0%B7%D0%BE%D0%BD" hreflang="mn" lang="mn" title="Цахилгаан соронзон – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A4%9A%E0%A5%81%E0%A4%82%E0%A4%AC%E0%A4%95%E0%A4%A4%E0%A5%8D%E0%A4%B5" hreflang="mr" lang="mr" title="विद्युतचुंबकत्व – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Keelektromagnetan" hreflang="ms" lang="ms" title="Keelektromagnetan – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%9C%E1%80%BB%E1%80%BE%E1%80%95%E1%80%BA%E1%80%85%E1%80%85%E1%80%BA%E1%80%9E%E1%80%B6%E1%80%9C%E1%80%AD%E1%80%AF%E1%80%80%E1%80%BA%E1%80%95%E1%80%8A%E1%80%AC" hreflang="my" lang="my" title="လျှပ်စစ်သံလိုက်ပညာ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a class="interlanguage-link-target" href="https://new.wikipedia.org/wiki/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%A4%E0%A4%9A%E0%A5%81%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%95%E0%A4%A4%E0%A5%8D%E0%A4%B5" hreflang="new" lang="new" title="विद्युतचुम्बकत्व – 尼瓦尔语"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Elektromagnetisme" hreflang="nl" lang="nl" title="Elektromagnetisme – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Elektromagnetisme" hreflang="nn" lang="nn" title="Elektromagnetisme – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Elektromagnetisme" hreflang="nb" lang="nb" title="Elektromagnetisme – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Electromagnetisme" hreflang="oc" lang="oc" title="Electromagnetisme – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-or mw-list-item"><a class="interlanguage-link-target" href="https://or.wikipedia.org/wiki/%E0%AC%AC%E0%AC%BF%E0%AC%A6%E0%AD%8D%E0%AD%9F%E0%AD%81%E0%AC%A4%E0%AD%8D-%E0%AC%9A%E0%AD%81%E0%AC%AE%E0%AD%8D%E0%AC%AC%E0%AC%95%E0%AD%80%E0%AD%9F_%E0%AC%AA%E0%AD%8D%E0%AC%B0%E0%AC%AD%E0%AC%BE%E0%AC%AC" hreflang="or" lang="or" title="ବିଦ୍ୟୁତ୍-ଚୁମ୍ବକୀୟ ପ୍ରଭାବ – 奥里亚语"><span>ଓଡ଼ିଆ</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%AC%E0%A8%BF%E0%A8%9C%E0%A8%B2%E0%A8%9A%E0%A9%81%E0%A9%B0%E0%A8%AC%E0%A8%95%E0%A8%A4%E0%A8%BE" hreflang="pa" lang="pa" title="ਬਿਜਲਚੁੰਬਕਤਾ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Elektrodynamika_klasyczna" hreflang="pl" lang="pl" title="Elektrodynamika klasyczna – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D8%A7%D9%84%DB%8C%DA%A9%D9%B9%D8%B1%D9%88%D9%85%DB%8C%DA%AF%D9%86%DB%8C%D9%B9%D8%B2%D9%85" hreflang="pnb" lang="pnb" title="الیکٹرومیگنیٹزم – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Eletromagnetismo" hreflang="pt" lang="pt" title="Eletromagnetismo – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Electromagnetism" hreflang="ro" lang="ro" title="Electromagnetism – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D0%B3%D0%BD%D0%B5%D1%82%D0%B8%D0%B7%D0%BC" hreflang="ru" lang="ru" title="Электромагнетизм – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D2%91%D0%BD%D0%B5%D1%82%D1%96%D0%B7%D0%BC" hreflang="rue" lang="rue" title="Електромаґнетізм – 盧森尼亞文"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Elettrumagnetismu" hreflang="scn" lang="scn" title="Elettrumagnetismu – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Elektromagnetizam" hreflang="sh" lang="sh" title="Elektromagnetizam – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-shi mw-list-item"><a class="interlanguage-link-target" href="https://shi.wikipedia.org/wiki/Talikt%E1%B9%9Bama%C9%A3ni%E1%B9%ADit" hreflang="shi" lang="shi" title="Taliktṛamaɣniṭit – 希尔哈语"><span>Taclḥit</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B7%80%E0%B7%92%E0%B6%AF%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%96%E0%B6%AD%E0%B7%8A_%E0%B6%A0%E0%B7%94%E0%B6%B8%E0%B7%8A%E0%B6%B7%E0%B6%9A_%E0%B6%B6%E0%B6%BD%E0%B6%BA" hreflang="si" lang="si" title="විද්‍යූත් චුම්භක බලය – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Electromagnetism" hreflang="en-simple" lang="en-simple" title="Electromagnetism – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Elektromagnetizmus" hreflang="sk" lang="sk" title="Elektromagnetizmus – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Elektrika_in_magnetizem" hreflang="sl" lang="sl" title="Elektrika in magnetizem – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Elektromagnetizmi" hreflang="sq" lang="sq" title="Elektromagnetizmi – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%95%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%B0%D0%B3%D0%BD%D0%B5%D1%82%D0%B8%D0%B7%D0%B0%D0%BC" hreflang="sr" lang="sr" title="Електромагнетизам – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/%C3%89l%C3%A9ktromagn%C3%A9tisme" hreflang="su" lang="su" title="Éléktromagnétisme – 巽他语"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Elektromagnetism" hreflang="sv" lang="sv" title="Elektromagnetism – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%BF%E0%AE%A9%E0%AF%8D%E0%AE%95%E0%AE%BE%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" hreflang="ta" lang="ta" title="மின்காந்தவியல் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%97%E0%B8%A4%E0%B8%A9%E0%B8%8E%E0%B8%B5%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%80%E0%B8%AB%E0%B8%A5%E0%B9%87%E0%B8%81%E0%B9%84%E0%B8%9F%E0%B8%9F%E0%B9%89%E0%B8%B2" hreflang="th" lang="th" title="ทฤษฎีแม่เหล็กไฟฟ้า – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Elektromagnetismo" hreflang="tl" lang="tl" title="Elektromagnetismo – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Elektromanyetizma" hreflang="tr" lang="tr" title="Elektromanyetizma – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/Elektromagnetizm" hreflang="tt" lang="tt" title="Elektromagnetizm – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D0%B0%D1%81%D0%B8%D1%87%D0%BD%D0%B0_%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0%D0%BC%D1%96%D0%BA%D0%B0" hreflang="uk" lang="uk" title="Класична електродинаміка – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%A8%D8%B1%D9%82%D9%86%D8%A7%D8%B7%DB%8C%D8%B3%DB%8C%D8%AA" hreflang="ur" lang="ur" title="برقناطیسیت – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90i%E1%BB%87n_t%E1%BB%AB_h%E1%BB%8Dc" hreflang="vi" lang="vi" title="Điện từ học – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Elektromagnetismo" hreflang="war" lang="war" title="Elektromagnetismo – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wo mw-list-item"><a class="interlanguage-link-target" href="https://wo.wikipedia.org/wiki/Mb%C3%ABjbijjaakon" hreflang="wo" lang="wo" title="Mbëjbijjaakon – 沃洛夫语"><span>Wolof</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%94%B5%E7%A3%81%E5%AD%A6" hreflang="wuu" lang="wuu" title="电磁学 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a class="interlanguage-link-target" href="https://xmf.wikipedia.org/wiki/%E1%83%94%E1%83%9A%E1%83%94%E1%83%A5%E1%83%A2%E1%83%A0%E1%83%9D%E1%83%9B%E1%83%90%E1%83%92%E1%83%9C%E1%83%94%E1%83%A2%E1%83%98%E1%83%96%E1%83%9B%E1%83%98" hreflang="xmf" lang="xmf" title="ელექტრომაგნეტიზმი – 明格列爾文"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/Ti%C4%81n-ch%C3%BB-ha%CC%8Dk" hreflang="nan" lang="nan" title="Tiān-chû-ha̍k – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E9%9B%BB%E7%A3%81%E5%AD%B8" hreflang="yue" lang="yue" title="電磁學 – Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11406#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年3月3日 (星期四) 16:51。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E7%94%B5%E7%A3%81%E5%AD%A6&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.486","walltime":"0.611","ppvisitednodes":{"value":5487,"limit":1000000},"postexpandincludesize":{"value":114180,"limit":2097152},"templateargumentsize":{"value":4150,"limit":2097152},"expansiondepth":{"value":25,"limit":100},"expensivefunctioncount":{"value":10,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":22692,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  448.890      1 -total"," 26.42%  118.600      1 Template:Reflist"," 20.83%   93.525      1 Template:Lang-en"," 17.48%   78.480     13 Template:Lang"," 16.01%   71.856     13 Template:Category_handler"," 12.10%   54.303      5 Template:Cite_book"," 10.08%   45.242     10 Template:Cite_web","  9.97%   44.759      1 Template:NoteTA","  9.92%   44.509     13 Template:Category_handler/numbered","  9.28%   41.668      1 Template:Authority_control"]},"scribunto":{"limitreport-timeusage":{"value":"0.235","limit":"10.000"},"limitreport-memusage":{"value":20851567,"limit":52428800}},"cachereport":{"origin":"mw1418","timestamp":"20220921195443","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7535\u78c1\u5b66","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%94%B5%E7%A3%81%E5%AD%A6","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11406","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11406","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-01-18T00:31:48Z","dateModified":"2022-03-03T16:51:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/33\/Lightning.0257.jpg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7535\u78c1\u5b66","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%94%B5%E7%A3%81%E5%AD%A6","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11406","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11406","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-01-18T00:31:48Z","dateModified":"2022-03-03T16:51:38Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/3\/33\/Lightning.0257.jpg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":146,"wgHostname":"mw1455"});});</script>
+</body>
+</html>

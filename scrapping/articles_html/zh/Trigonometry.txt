@@ -1,0 +1,2233 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>三角学 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"7e312a1f-8498-498b-b9aa-39ae03016f93","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"三角学","wgTitle":"三角学","wgCurRevisionId":70265977,"wgRevisionId":70265977,"wgArticleId":23287,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有缺少标题的引用的页面","使用ISBN魔术链接的页面","含有英語的條目","引文格式1维护：冗余文本","三角学","数学分支"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"三角学","wgRelevantArticleId":23287,"wgUserVariant":"zh","wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q8084","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready",
+"user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.page.gallery.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher"
+,"ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.page.gallery.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/1200px-Circle-trig6.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="768" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/800px-Circle-trig6.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="512" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/640px-Circle-trig6.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="410" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="三角学 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-三角学 rootpage-三角学 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-307af9e9"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">三角学</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-307af9e9"><div class="noteTA-group"><div data-noteta-group="Math" data-noteta-group-source="module"></div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/File:Circle-trig6.svg"><img alt="" class="thumbimage" data-file-height="800" data-file-width="1250" decoding="async" height="141" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/220px-Circle-trig6.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/330px-Circle-trig6.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Circle-trig6.svg/440px-Circle-trig6.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Circle-trig6.svg" title="放大"></a></div>所有关于某一角θ的<a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a>都通过建立一个圆心为O的单位圆在几何上来定义。</div></div></div>
+<table class="vertical-navbox nowraplinks" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%"><tbody><tr><th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em;background:#ccccff;"><a class="mw-selflink selflink">三角学</a></th></tr><tr><td style="padding:0.2em 0 0.4em"><a class="image" href="/wiki/File:Sinus_und_Kosinus_am_Einheitskreis_1.svg"><img alt="Sinus und Kosinus am Einheitskreis 1.svg" data-file-height="410" data-file-width="410" decoding="async" height="250" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sinus_und_Kosinus_am_Einheitskreis_1.svg/250px-Sinus_und_Kosinus_am_Einheitskreis_1.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sinus_und_Kosinus_am_Einheitskreis_1.svg/375px-Sinus_und_Kosinus_am_Einheitskreis_1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sinus_und_Kosinus_am_Einheitskreis_1.svg/500px-Sinus_und_Kosinus_am_Einheitskreis_1.svg.png 2x" width="250"/></a></td></tr><tr><td class="hlist" style="padding:0 0.1em 0.4em;padding-top:0.2em;padding-bottom:0.7em;">
+<ul><li><span class="ilh-all" data-foreign-title="History of trigonometry" data-lang-code="en" data-lang-name="英语" data-orig-title="三角学史"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6%E5%8F%B2&amp;action=edit&amp;redlink=1" title="三角学史（页面不存在）">历史</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/History_of_trigonometry" title="en:History of trigonometry"><span dir="auto" lang="en">History of trigonometry</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a> (<a href="/wiki/%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="反三角函数">反三角函数</a>)</li>
+<li><span class="ilh-all" data-foreign-title="Generalized trigonometry" data-lang-code="en" data-lang-name="英语" data-orig-title="广义三角函数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%B9%BF%E4%B9%89%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0&amp;action=edit&amp;redlink=1" title="广义三角函数（页面不存在）">广义三角函数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Generalized_trigonometry" title="en:Generalized trigonometry"><span dir="auto" lang="en">Generalized trigonometry</span></a></span>）</span></span></li></ul></td>
+</tr><tr><th style="padding:0.1em;background:#ddddff;">
+参考</th></tr><tr><td class="hlist" style="padding:0 0.1em 0.4em;padding-top:0.2em;padding-bottom:0.7em;">
+<ul><li><a href="/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F" title="三角恒等式">恒等式</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B8%E7%B2%BE%E7%A2%BA%E5%80%BC" title="三角函數精確值">精确值</a></li>
+<li><span class="ilh-all" data-foreign-title="Trigonometric tables" data-lang-code="en" data-lang-name="英语" data-orig-title="三角表"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%89%E8%A7%92%E8%A1%A8&amp;action=edit&amp;redlink=1" title="三角表（页面不存在）">三角表</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Trigonometric_tables" title="en:Trigonometric tables"><span dir="auto" lang="en">Trigonometric tables</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E5%8D%95%E4%BD%8D%E5%9C%86" title="单位圆">单位圆</a></li></ul></td>
+</tr><tr><th style="padding:0.1em;background:#ddddff;">
+定理</th></tr><tr><td class="hlist" style="padding:0 0.1em 0.4em;padding-top:0.2em;padding-bottom:0.7em;">
+<ul><li><a href="/wiki/%E6%AD%A3%E5%BC%A6%E5%AE%9A%E7%90%86" title="正弦定理">正弦</a></li>
+<li><a href="/wiki/%E9%A4%98%E5%BC%A6%E5%AE%9A%E7%90%86" title="餘弦定理">餘弦</a></li>
+<li><a href="/wiki/%E6%AD%A3%E5%88%87%E5%AE%9A%E7%90%86" title="正切定理">正切</a></li>
+<li><a href="/wiki/%E4%BD%99%E5%88%87%E5%AE%9A%E7%90%86" title="余切定理">餘切</a></li>
+<li><a href="/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86" title="勾股定理">勾股定理</a></li></ul></td>
+</tr><tr><th style="padding:0.1em;background:#ddddff;">
+<a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86" title="微积分">微积分</a></th></tr><tr><td class="hlist" style="padding:0 0.1em 0.4em;padding-top:0.2em;padding-bottom:0.7em;">
+<ul><li><a href="/wiki/%E4%B8%89%E8%A7%92%E6%8D%A2%E5%85%83%E6%B3%95" title="三角换元法">三角换元法</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E8%A1%A8" title="三角函数积分表">积分</a> (<a href="/wiki/%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E7%A7%AF%E5%88%86%E8%A1%A8" title="反三角函数积分表">反三角函数</a>)</li>
+<li><a class="mw-redirect" href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%AF%BC%E6%95%B0%E8%A1%A8" title="三角函数导数表">微分</a></li></ul></td>
+</tr><tr><td style="text-align:right;line-height:1.6"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E4%B8%89%E8%A7%92%E5%AD%A6" title="Template:三角学"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E4%B8%89%E8%A7%92%E5%AD%A6" title="Template talk:三角学"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit"><abbr title="编辑该模板">编</abbr></a></li></ul></div></td></tr></tbody></table>
+<p><b>三角学</b>（英語：<span lang="en">Trigonometry</span>）是<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8" title="數學">數學</a>的一個分支，主要研究<a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a>，以及三角形中边与角之间的关系。三角学定義了<a class="mw-redirect" href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B8" title="三角函數">三角函數</a>，可以描述三角形边与角的关系，而且都是<a href="/wiki/%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0" title="周期函数">周期函数</a>，可以用來描述周期性的現象。三角学在西元前三世紀時開始發展，最早是<a class="mw-redirect" href="/wiki/%E5%B9%BE%E4%BD%95%E5%AD%B8" title="幾何學">幾何學</a>的一個分支，廣泛的用在天文量測中<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>，三角学也是<a class="mw-disambig" href="/wiki/%E6%B8%AC%E9%87%8F" title="測量">測量學</a>的基礎。
+</p><p>三角学的基礎是平面三角学，研究平面上的三角形中边与角之间的关系，分为角的度量、<a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a>与<a href="/wiki/%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="反三角函数">反三角函数</a>、诱导公式、和与差的公式、倍角、半角公式、和差化积与积化和差公式、解三角形等内容，可能會是單獨的一個科目或是在<a href="/wiki/%E9%A2%84%E7%A7%91%E5%BE%AE%E7%A7%AF%E5%88%86" title="预科微积分">预科微积分</a>教授，三角函數在<a class="mw-redirect" href="/wiki/%E7%B4%94%E6%95%B8%E5%AD%B8" title="純數學">純數學</a>及<a class="mw-redirect" href="/wiki/%E6%87%89%E7%94%A8%E6%95%B8%E5%AD%B8" title="應用數學">應用數學</a>中的許多領域中出現，例如<a class="mw-redirect" href="/wiki/%E5%82%85%E7%AB%8B%E5%8F%B6%E5%88%86%E6%9E%90" title="傅立叶分析">傅立葉分析</a>及<a class="mw-redirect" href="/wiki/%E6%B3%A2%E5%87%BD%E6%95%B8" title="波函數">波函數</a>等，是許多科技領域的基礎。
+</p><p>三角学也包括球面三角學，研究<a href="/wiki/%E7%90%83%E9%9D%A2" title="球面">球面</a>上，由<a class="mw-redirect" href="/wiki/%E5%A4%A7%E5%9C%93" title="大圓">大圓</a>的弧所包圍成的球面三角形，位在<a href="/wiki/%E6%9B%B2%E7%8E%87" title="曲率">曲率</a>為正值常數的<a href="/wiki/%E6%9B%B2%E9%9D%A2" title="曲面">曲面</a>上，是橢圓幾何的一部份，球面三角學是<a href="/wiki/%E5%A4%A9%E6%96%87%E5%AD%B8" title="天文學">天文學</a>及<a href="/wiki/%E8%88%AA%E6%B5%B7" title="航海">航海</a>的基礎，也在<a class="mw-redirect" href="/wiki/%E6%B5%8B%E9%87%8F%E5%AD%A6" title="测量学">测量学</a>、制图学、<a class="mw-redirect" href="/wiki/%E7%BB%93%E6%99%B6%E5%AD%A6" title="结晶学">结晶学</a>、仪器学等方面有广泛的应用。負曲率曲面上的三角学則是<a href="/wiki/%E5%8F%8C%E6%9B%B2%E5%87%A0%E4%BD%95" title="双曲几何">雙曲幾何</a>中的一部份。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#历史"><span class="tocnumber">1</span> <span class="toctext">历史</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#概述"><span class="tocnumber">2</span> <span class="toctext">概述</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#定义的扩展"><span class="tocnumber">2.1</span> <span class="toctext">定义的扩展</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#计算"><span class="tocnumber">3</span> <span class="toctext">计算</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#常用公式"><span class="tocnumber">4</span> <span class="toctext">常用公式</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#标准恒等式"><span class="tocnumber">4.1</span> <span class="toctext">标准恒等式</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#正弦定理"><span class="tocnumber">4.2</span> <span class="toctext">正弦定理</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#余弦定理"><span class="tocnumber">4.3</span> <span class="toctext">余弦定理</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#正切定理"><span class="tocnumber">4.4</span> <span class="toctext">正切定理</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#欧拉公式"><span class="tocnumber">4.5</span> <span class="toctext">欧拉公式</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#角度转换公式"><span class="tocnumber">4.6</span> <span class="toctext">角度转换公式</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#倍角公式以及半角公式"><span class="tocnumber">4.7</span> <span class="toctext">倍角公式以及半角公式</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#积化和差以及和差化积"><span class="tocnumber">4.8</span> <span class="toctext">积化和差以及和差化积</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#参考文献"><span class="tocnumber">5</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#注释"><span class="tocnumber">6</span> <span class="toctext">注释</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#参見"><span class="tocnumber">7</span> <span class="toctext">参見</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#延伸阅读"><span class="tocnumber">8</span> <span class="toctext">延伸阅读</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#外部链接"><span class="tocnumber">9</span> <span class="toctext">外部链接</span></a></li>
+</ul>
+</div>
+<h2><span id=".E5.8E.86.E5.8F.B2"></span><span class="mw-headline" id="历史">历史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=1" title="编辑章节：历史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:182px;"><a class="image" href="/wiki/File:Hipparchos_1.jpeg"><img alt="" class="thumbimage" data-file-height="326" data-file-width="268" decoding="async" height="219" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Hipparchos_1.jpeg/180px-Hipparchos_1.jpeg" srcset="//upload.wikimedia.org/wikipedia/commons/5/50/Hipparchos_1.jpeg 1.5x" width="180"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Hipparchos_1.jpeg" title="放大"></a></div>第一个三角函数表是由<a href="/wiki/%E5%96%9C%E5%B8%95%E6%81%B0%E6%96%AF" title="喜帕恰斯">喜帕恰斯</a>编制而成的，他被后世称为“三角学之父”。<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup></div></div></div>
+<p><a href="/wiki/%E8%8B%8F%E7%BE%8E%E5%B0%94" title="苏美尔">苏美尔</a>天文学家引入了角度测量，将一个圆分割为360度。<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>他们和之后的<a class="mw-redirect" href="/wiki/%E5%B7%B4%E6%AF%94%E4%BC%A6%E4%BA%BA" title="巴比伦人">巴比伦人</a>都在研究相似三角形各边之间的比例关系，并发现了其中一部分比例，但是并没有将其发展为一套系统的方法。<a href="/wiki/%E5%8A%AA%E6%AF%94%E4%BA%9A" title="努比亚">古代努比亚人</a>也使用了类似的方法。<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup><a class="mw-redirect" href="/wiki/%E5%8F%A4%E5%B8%8C%E8%85%8A%E4%BA%BA" title="古希腊人">古希腊人</a>最早将三角学转变成一套系统学科。<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+</p><p>穆斯林天文学家<a href="/wiki/%E5%B7%B4%E5%A1%94%E5%B0%BC" title="巴塔尼">巴塔尼</a>引入了我们今天熟知的正弦、余弦、正切、余切等术语，并且提出了正切<span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[註 1]</a></sup></span>和余切的概念。
+</p><p><a class="mw-redirect" href="/wiki/%E6%98%8E%E4%BB%A3" title="明代">明代</a>末年，由于<a href="/wiki/%E5%8E%86%E6%B3%95" title="历法">历法</a>改革的需要，<a class="mw-redirect" href="/wiki/%E8%A5%BF%E5%AD%A6%E4%B8%9C%E6%B8%90" title="西学东渐">西学东渐</a>中陆续引进了<a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a>、三角学等西方<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>。这项工作仍在<a href="/wiki/%E6%B8%85%E6%9C%9D" title="清朝">清朝</a>继续进行，其中最重要的是由<a href="/wiki/%E6%B3%A2%E5%85%B0" title="波兰">波兰</a><a href="/wiki/%E4%BC%A0%E6%95%99%E5%A3%AB" title="传教士">传教士</a><a href="/wiki/%E7%A9%86%E5%B0%BC%E9%96%A3" title="穆尼閣">穆尼阁</a>和<a href="/wiki/%E8%96%9B%E9%B3%B3%E7%A5%9A" title="薛鳳祚">薛凤祚</a>所介绍的<a href="/wiki/%E5%AF%B9%E6%95%B0" title="对数">对数</a>方法。薛凤祚所著《<a class="new" href="/w/index.php?title=%E5%8E%86%E5%AD%A6%E4%BC%9A%E9%80%9A&amp;action=edit&amp;redlink=1" title="历学会通（页面不存在）">历学会通</a>》的<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>部分主要是传自穆尼阁的《<a class="new" href="/w/index.php?title=%E6%AF%94%E4%BE%8B%E5%AF%B9%E6%95%B0%E8%A1%A8&amp;action=edit&amp;redlink=1" title="比例对数表（页面不存在）">比例对数表</a>》（1653年）、《<a class="new" href="/w/index.php?title=%E6%AF%94%E4%BE%8B%E5%9B%9B%E7%BA%BF%E6%96%B0%E8%A1%A8&amp;action=edit&amp;redlink=1" title="比例四线新表（页面不存在）">比例四线新表</a>》和《<a class="new" href="/w/index.php?title=%E4%B8%89%E8%A7%92%E7%AE%97%E6%B3%95&amp;action=edit&amp;redlink=1" title="三角算法（页面不存在）">三角算法</a>》等各一卷。《比例对数表》和《比例四线新表》分别给出了1～10000的六位对数表和六位三角函数（<a href="/wiki/%E6%AD%A3%E5%BC%A6" title="正弦">正弦</a>、<a class="mw-redirect" href="/wiki/%E4%BD%99%E5%BC%A6" title="余弦">余弦</a>、<a href="/wiki/%E6%AD%A3%E5%88%87" title="正切">正切</a>、<a class="mw-redirect" href="/wiki/%E4%BD%99%E5%88%87" title="余切">余切</a>）对数表。书中把今天所说的“对数”称为“比例数”或“假数”，并简单解释了把<a class="mw-redirect" href="/wiki/%E4%B9%98" title="乘">乘</a><a class="mw-redirect" href="/wiki/%E9%99%A4" title="除">除</a>运算化为<a class="mw-redirect" href="/wiki/%E5%8A%A0" title="加">加</a><a class="mw-redirect" href="/wiki/%E5%87%8F" title="减">减</a>运算的道理。这是对数方法在中国的首次介绍。对数是17世纪最重要的发现之一，它有效地简化了繁重的计算工作。在对数、<a class="mw-redirect" href="/wiki/%E8%A7%A3%E6%9E%90%E5%B9%BE%E4%BD%95" title="解析幾何">解析幾何</a>和<a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" title="微積分">微積分</a>这三种当时西方最重要的数学方法中，也只有对数比较及时地传入了中国。《三角算法》所介绍的平面三角和球面三角知识，比《<a href="/wiki/%E5%B4%87%E7%A5%AF%E5%8E%86%E4%B9%A6" title="崇祯历书">崇祯历书</a>》中有关三角学的内容更丰富一些。如平面三角中包含有<a href="/wiki/%E6%AD%A3%E5%BC%A6%E5%AE%9A%E7%90%86" title="正弦定理">正弦定理</a>、<a class="mw-redirect" href="/wiki/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%86" title="余弦定理">余弦定理</a>、<a href="/wiki/%E6%AD%A3%E5%88%87%E5%AE%9A%E7%90%86" title="正切定理">正切定理</a>和<a class="new" href="/w/index.php?title=%E5%8D%8A%E8%A7%92%E5%AE%9A%E7%90%86&amp;action=edit&amp;redlink=1" title="半角定理（页面不存在）">半角定理</a>等，且多是运用三角函数的对数进行计算。球面三角中增加<a class="mw-redirect" href="/wiki/%E5%8D%8A%E8%A7%92%E5%85%AC%E5%BC%8F" title="半角公式">半角公式</a>、<a class="new" href="/w/index.php?title=%E5%8D%8A%E5%BC%A7%E5%85%AC%E5%BC%8F&amp;action=edit&amp;redlink=1" title="半弧公式（页面不存在）">半弧公式</a>、<a class="new" href="/w/index.php?title=%E8%BE%BE%E6%9C%97%E8%B4%9D%E5%B0%94%E5%85%AC%E5%BC%8F&amp;action=edit&amp;redlink=1" title="达朗贝尔公式（页面不存在）">达朗贝尔公式</a>和<a class="new" href="/w/index.php?title=%E7%BA%B3%E7%9A%AE%E5%B0%94%E5%85%AC%E5%BC%8F&amp;action=edit&amp;redlink=1" title="纳皮尔公式（页面不存在）">纳皮尔公式</a>等。
+</p>
+<h2><span id=".E6.A6.82.E8.BF.B0"></span><span class="mw-headline" id="概述">概述</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=2" title="编辑章节：概述">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:247px;"><a class="image" href="/wiki/File:TrigonometryTriangle.svg"><img alt="" class="thumbimage" data-file-height="300" data-file-width="400" decoding="async" height="184" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TrigonometryTriangle.svg/245px-TrigonometryTriangle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TrigonometryTriangle.svg/368px-TrigonometryTriangle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/TrigonometryTriangle.svg/490px-TrigonometryTriangle.svg.png 2x" width="245"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:TrigonometryTriangle.svg" title="放大"></a></div>在这个直角三角形当中：<span class="nowrap">sin <i>A</i> = <i>a</i>/<i>c</i>;</span> <span class="nowrap">cos <i>A</i> = <i>b</i>/<i>c</i>;</span> <span class="nowrap">tan <i>A</i> = <i>a</i>/<i>b</i></span>。</div></div></div>
+<p>如果三角形的一个<a href="/wiki/%E8%A7%92" title="角">角</a>为90度，而另一个角的度数已知，那么第三个角的度数也就固定下来了，这是因为任何一个三角形三个角的度数之和总是180度。这样，两个锐角的度数之和为90度：它们互为<a href="/wiki/%E4%BD%99%E8%A7%92" title="余角">余角</a>。这样的三角形<a href="/wiki/%E5%BD%A2%E7%8B%80" title="形狀">形狀</a>已经完全确定下来，它们是一组度数相同的<a class="mw-redirect" href="/wiki/%E7%9B%B8%E4%BC%BC" title="相似">相似</a>三角形。在度数确定的情况下，每个边之间的<a href="/wiki/%E6%AF%94%E4%BE%8B" title="比例">比例</a>也就随之确定，无论三角形大小。如果其中一个边的长度又为已知的话，那么其他两条边的长度也就确定。这些比例以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \angle A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi mathvariant="normal">∠<!-- ∠ --></mi>
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \angle A}</annotation>
+</semantics>
+</math></span><img alt="\angle A" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/275b7957af23250c67b9df38b99823f30b290303" style="vertical-align: -0.338ex; width:3.421ex; height:2.176ex;"/></span>的<a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a>形式表示出来，其中<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>、<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>、<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span>分别带指三角形中对应三边的长度：
+</p>
+<ul><li><b><a href="/wiki/%E6%AD%A3%E5%BC%A6" title="正弦">正弦</a></b>函数（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin }</annotation>
+</semantics>
+</math></span><img alt="\sin" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee55beec18afd710e7ab767964b915b020c65093" style="vertical-align: -0.338ex; width:2.856ex; height:2.176ex;"/></span>），定义为该角的<a class="new" href="/w/index.php?title=%E5%AF%B9%E8%BE%B9&amp;action=edit&amp;redlink=1" title="对边（页面不存在）">对边</a>与<a href="/wiki/%E6%96%9C%E9%82%8A" title="斜邊">斜邊</a>的比例。</li></ul>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin A={\frac {\text{對 邊 }}{\text{斜 邊 }}}={\frac {a}{c}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mtext>對 邊 </mtext>
+<mtext>斜 邊 </mtext>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>a</mi>
+<mi>c</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin A={\frac {\text{對 邊 }}{\text{斜 邊 }}}={\frac {a}{c}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sin A={\frac {\text{對 邊 }}{\text{斜 邊 }}}={\frac {a}{c}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6ae3039ed28707de434af379d1686bfb51b54498" style="vertical-align: -3.338ex; width:18.079ex; height:7.843ex;"/></span></dd></dl></dd></dl>
+<ul><li><b><a class="mw-redirect" href="/wiki/%E4%BD%99%E5%BC%A6" title="余弦">余弦</a></b>函数（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos }</annotation>
+</semantics>
+</math></span><img alt="\cos" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e473a3de151d75296f141f9f482fe59d582a7509" style="vertical-align: -0.338ex; width:3.111ex; height:1.676ex;"/></span>），定义为该角的<a class="new" href="/w/index.php?title=%E9%82%BB%E8%BE%B9&amp;action=edit&amp;redlink=1" title="邻边（页面不存在）">邻边</a>与斜边的比例。</li></ul>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos A={\frac {\text{鄰 邊 }}{\text{斜 邊 }}}={\frac {b}{c}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mtext>鄰 邊 </mtext>
+<mtext>斜 邊 </mtext>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>b</mi>
+<mi>c</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos A={\frac {\text{鄰 邊 }}{\text{斜 邊 }}}={\frac {b}{c}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \cos A={\frac {\text{鄰 邊 }}{\text{斜 邊 }}}={\frac {b}{c}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1c9385ed4ff2ed3e350bc5c232bdf4f932b4958" style="vertical-align: -3.338ex; width:18.112ex; height:7.843ex;"/></span></dd></dl></dd></dl>
+<ul><li><b><a href="/wiki/%E6%AD%A3%E5%88%87" title="正切">正切</a></b>函数（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>tan</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan }</annotation>
+</semantics>
+</math></span><img alt="\tan" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b57c91704d9ab0366a6436869e2968491efc5155" style="vertical-align: -0.338ex; width:3.36ex; height:2.009ex;"/></span>），定义为该角的对边与邻边的比例。</li></ul>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan A={\frac {\text{對 邊 }}{\text{鄰 邊 }}}={\frac {a}{b}}={\frac {\sin A}{\cos A}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mtext>對 邊 </mtext>
+<mtext>鄰 邊 </mtext>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>a</mi>
+<mi>b</mi>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan A={\frac {\text{對 邊 }}{\text{鄰 邊 }}}={\frac {a}{b}}={\frac {\sin A}{\cos A}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \tan A={\frac {\text{對 邊 }}{\text{鄰 邊 }}}={\frac {a}{b}}={\frac {\sin A}{\cos A}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a8d60b818162b5aca90682e7093a0146411889a4" style="vertical-align: -3.338ex; width:27.759ex; height:7.843ex;"/></span></dd></dl></dd></dl>
+<p>其中，<b>斜边</b>是指直角三角形中90度角所对的边；它是该三角形中最长的边，也是角A的一个邻边。<b>对边</b>是角A所对的一条边。
+</p><p>这些函数的<a href="/wiki/%E5%80%92%E6%95%B0" title="倒数">倒数</a>分别被称为<b>余割</b>（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \csc }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>csc</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \csc }</annotation>
+</semantics>
+</math></span><img alt="\csc " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/399542cf3e9a873371132ffebe579187d48962ae" style="vertical-align: -0.338ex; width:2.981ex; height:1.676ex;"/></span>或cosec）、<b>正割</b>（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sec }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sec</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sec }</annotation>
+</semantics>
+</math></span><img alt="\sec " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3dd93d9784c55e8ef40f81993114bd3c3d01084c" style="vertical-align: -0.338ex; width:2.981ex; height:1.676ex;"/></span>）和<b>余切</b>（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cot }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cot</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cot }</annotation>
+</semantics>
+</math></span><img alt="\cot " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5bce4c1822b49c4e7ecd7b9aa07f2fcb1706817" style="vertical-align: -0.338ex; width:3.099ex; height:2.009ex;"/></span>）：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \csc A={\frac {1}{\sin A}}={\frac {c}{a}},}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>csc</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>c</mi>
+<mi>a</mi>
+</mfrac>
+</mrow>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \csc A={\frac {1}{\sin A}}={\frac {c}{a}},}</annotation>
+</semantics>
+</math></span><img alt="\csc A=\frac{1}{\sin A}=\frac{c}{a} ," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fef244fe5164483495e616844a70f915aaa94666" style="vertical-align: -2.005ex; width:19.843ex; height:5.343ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sec A={\frac {1}{\cos A}}={\frac {c}{b}},}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sec</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>c</mi>
+<mi>b</mi>
+</mfrac>
+</mrow>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sec A={\frac {1}{\cos A}}={\frac {c}{b}},}</annotation>
+</semantics>
+</math></span><img alt="\sec A=\frac{1}{\cos A}=\frac{c}{b} ," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/693485108d669096089780da41ad1b4b115172fd" style="vertical-align: -2.005ex; width:19.875ex; height:5.343ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cot A={\frac {1}{\tan A}}={\frac {\cos A}{\sin A}}={\frac {b}{a}}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mrow>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>b</mi>
+<mi>a</mi>
+</mfrac>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cot A={\frac {1}{\tan A}}={\frac {\cos A}{\sin A}}={\frac {b}{a}}.}</annotation>
+</semantics>
+</math></span><img alt="\cot A=\frac{1}{\tan A}=\frac{\cos A}{\sin A}=\frac{b}{a} ." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/63b12980db7f2a4d979eb8379abc51e8226ba727" style="vertical-align: -2.005ex; width:29.641ex; height:5.509ex;"/></span></dd></dl>
+<p>它们的<a href="/wiki/%E5%8F%8D%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="反三角函数">反三角函数</a>分别为<b>arcsine</b>、<b>arccosine</b>和<b>arctangent</b>。这些函数之间存在的数学关系被称为<a href="/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F" title="三角恒等式">三角恒等式</a>。
+</p><p>通过使用这些函数，可以回答有关任意三角形的所有问题，只需使用<a href="/wiki/%E6%AD%A3%E5%BC%A6%E5%AE%9A%E7%90%86" title="正弦定理">正弦定理</a>和<a class="mw-redirect" href="/wiki/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%86" title="余弦定理">余弦定理</a>。在已知两条边长以及它们夹角的度数，或是两个角的度数以及一条边长，或是知道三边长度后，使用这些法则可以计算出其他角和边。
+</p>
+<h3><span id=".E5.AE.9A.E4.B9.89.E7.9A.84.E6.89.A9.E5.B1.95"></span><span class="mw-headline" id="定义的扩展">定义的扩展</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=3" title="编辑章节：定义的扩展">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:Euler%27s_formula.svg"><img alt="" class="thumbimage" data-file-height="549" data-file-width="512" decoding="async" height="257" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Euler%27s_formula.svg/240px-Euler%27s_formula.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Euler%27s_formula.svg/360px-Euler%27s_formula.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/71/Euler%27s_formula.svg/480px-Euler%27s_formula.svg.png 2x" width="240"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Euler%27s_formula.svg" title="放大"></a></div>图1a – 使用单位圆对于角θ的正弦和余弦进行定义。</div></div></div>
+<p>上面的定义只是用于度数在0°到90°之间的角（0到<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\pi }{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>π<!-- π --></mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\pi }{2}}}</annotation>
+</semantics>
+</math></span><img alt="\frac{\pi}{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/98f98bef5d4981ff6e2aa827d4699e347fb30db2" style="vertical-align: -1.838ex; width:2.168ex; height:4.676ex;"/></span><a href="/wiki/%E5%BC%A7%E5%BA%A6" title="弧度">弧度</a>）。使用<a href="/wiki/%E5%8D%95%E4%BD%8D%E5%9C%86" title="单位圆">单位圆</a>，可以将它们扩展到所有度数为正、负的角上（参见<a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a>）。三角函数为<a href="/wiki/%E5%91%A8%E6%9C%9F%E5%87%BD%E6%95%B0" title="周期函数">周期函数</a>，周期为360°（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2\pi }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2</mn>
+<mi>π<!-- π --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2\pi }</annotation>
+</semantics>
+</math></span><img alt="2\pi " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/73efd1f6493490b058097060a572606d2c550a06" style="vertical-align: -0.338ex; width:2.494ex; height:2.176ex;"/></span>个弧度）。这意味着在这个区间内，它们的值会反复出现。正切和余切函数周期较短，为180°（<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \pi }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>π<!-- π --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \pi }</annotation>
+</semantics>
+</math></span><img alt="\pi " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9be4ba0bb8df3af72e90a0535fabcc17431e540a" style="vertical-align: -0.338ex; width:1.332ex; height:1.676ex;"/></span>个弧度）。
+</p><p>三角函数还可以使用非上述集合定义来描述，如使用<a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86" title="微积分">微积分</a>和<a class="mw-redirect" href="/wiki/%E6%97%A0%E7%A9%B7%E7%BA%A7%E6%95%B0" title="无穷级数">無窮級數</a>。采取这种定义，三角函数可以扩展到<a href="/wiki/%E5%A4%8D%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="复数 (数学)">复数</a>。其中，复数指数函数十分有用。 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e^{x+iy}=e^{x}(\cos y+i\sin y).}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+<mo>+</mo>
+<mi>i</mi>
+<mi>y</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msup>
+<mo stretchy="false">(</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>y</mi>
+<mo>+</mo>
+<mi>i</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>y</mi>
+<mo stretchy="false">)</mo>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e^{x+iy}=e^{x}(\cos y+i\sin y).}</annotation>
+</semantics>
+</math></span><img alt="e^{x+iy} = e^x(\cos  y + i \sin  y)." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/47377e0ec401e4565bc198dedecdb5870d5a64e8" style="vertical-align: -0.838ex; width:25.811ex; height:3.176ex;"/></span></dd></dl>
+<p>参见<a href="/wiki/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F" title="欧拉公式">欧拉公式</a>和<a href="/wiki/%E6%A3%A3%E8%8E%AB%E5%BC%97%E5%85%AC%E5%BC%8F" title="棣莫弗公式">棣莫弗公式</a>。 
+</p>
+<ul class="gallery mw-gallery-traditional">
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:55.5px auto;"><a class="image" href="/wiki/File:Sine_curve_drawing_animation.gif" title="使用单位圆绘制'&quot;`UNIQ--postMath-00000015-QINU`&quot;'的过程。"><img alt="使用单位圆绘制'&quot;`UNIQ--postMath-00000015-QINU`&quot;'的过程。" data-file-height="240" data-file-width="740" decoding="async" height="39" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sine_curve_drawing_animation.gif/120px-Sine_curve_drawing_animation.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sine_curve_drawing_animation.gif/180px-Sine_curve_drawing_animation.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/08/Sine_curve_drawing_animation.gif/240px-Sine_curve_drawing_animation.gif 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>使用单位圆绘制<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=\sin x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=\sin x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle y=\sin x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/75f04ad790e245abb858bc25e22ee149dea3b53f" style="vertical-align: -0.671ex; width:8.826ex; height:2.509ex;"/></span>的过程。
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:20.5px auto;"><a class="image" href="/wiki/File:Tan_drawing_process.gif" title="使用单位圆绘制'&quot;`UNIQ--postMath-00000016-QINU`&quot;'的过程。"><img alt="使用单位圆绘制'&quot;`UNIQ--postMath-00000016-QINU`&quot;'的过程。" data-file-height="644" data-file-width="711" decoding="async" height="109" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tan_drawing_process.gif/120px-Tan_drawing_process.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tan_drawing_process.gif/180px-Tan_drawing_process.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Tan_drawing_process.gif/240px-Tan_drawing_process.gif 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>使用单位圆绘制<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=\tan x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=\tan x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle y=\tan x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/247dd7b155b84467fbb810704c2ff864d7c5c356" style="vertical-align: -0.671ex; width:9.33ex; height:2.343ex;"/></span>的过程。
+</p>
+</div>
+</div></li>
+<li class="gallerybox" style="width: 155px"><div style="width: 155px">
+<div class="thumb" style="width: 150px;"><div style="margin:20.5px auto;"><a class="image" href="/wiki/File:Csc_drawing_process.gif" title="使用单位圆绘制'&quot;`UNIQ--postMath-00000017-QINU`&quot;'的过程。"><img alt="使用单位圆绘制'&quot;`UNIQ--postMath-00000017-QINU`&quot;'的过程。" data-file-height="644" data-file-width="711" decoding="async" height="109" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Csc_drawing_process.gif/120px-Csc_drawing_process.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Csc_drawing_process.gif/180px-Csc_drawing_process.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Csc_drawing_process.gif/240px-Csc_drawing_process.gif 2x" width="120"/></a></div></div>
+<div class="gallerytext">
+<p>使用单位圆绘制<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=\csc x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>csc</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=\csc x}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle y=\csc x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f696f71e342d8ec3459828ea18b600e6c07edc73" style="vertical-align: -0.671ex; width:8.952ex; height:2.009ex;"/></span>的过程。
+</p>
+</div>
+</div></li>
+</ul>
+<h2><span id=".E8.AE.A1.E7.AE.97"></span><span class="mw-headline" id="计算">计算</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=4" title="编辑章节：计算">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>三角函数是最早使用<a href="/wiki/%E6%95%B0%E5%AD%A6%E7%94%A8%E8%A1%A8" title="数学用表">数学用表</a>的。这样的数学用表被纳入数学课本中，供学生查询数值和使用<a href="/wiki/%E6%8F%92%E5%80%BC" title="插值">插值</a>法得到更高精确度。<a href="/wiki/%E8%AE%A1%E7%AE%97%E5%B0%BA" title="计算尺">计算尺</a>在三角函数中有着特别的计量。如今的<a class="mw-redirect" href="/wiki/%E7%A7%91%E5%AD%A6%E8%AE%A1%E7%AE%97%E5%99%A8" title="科学计算器">科学计算器</a>已经配备有计算主要三角函数的功能，大多数电脑<a href="/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80" title="编程语言">编程语言</a>也提供函数库来计算三角函数。
+</p>
+<h2><span id=".E5.B8.B8.E7.94.A8.E5.85.AC.E5.BC.8F"></span><span class="mw-headline" id="常用公式">常用公式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=5" title="编辑章节：常用公式">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F" title="三角恒等式">三角恒等式</a></div>
+<div class="thumb tleft"><div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:Triangle_ABC_with_Sides_a_b_c.png"><img alt="" class="thumbimage" data-file-height="346" data-file-width="541" decoding="async" height="153" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Triangle_ABC_with_Sides_a_b_c.png/240px-Triangle_ABC_with_Sides_a_b_c.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Triangle_ABC_with_Sides_a_b_c.png/360px-Triangle_ABC_with_Sides_a_b_c.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Triangle_ABC_with_Sides_a_b_c.png/480px-Triangle_ABC_with_Sides_a_b_c.png 2x" width="240"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Triangle_ABC_with_Sides_a_b_c.png" title="放大"></a></div>三角形的三边a、b、c，以及它们的对角A、B、C。</div></div></div>
+<p>一些有关三角函数的恒等式对于所有角都始终成立，被称为<a href="/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F" title="三角恒等式">三角恒等式</a>。有一些恒等式是对于同一角的不同三角函数间的转换。
+</p>
+<h3><span id=".E6.A0.87.E5.87.86.E6.81.92.E7.AD.89.E5.BC.8F"></span><span class="mw-headline" id="标准恒等式">标准恒等式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=6" title="编辑章节：标准恒等式">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E6%81%92%E7%AD%89%E5%BC%8F" title="恒等式">恒等式</a>是指那些无论给定值为多少都始终成立的等式。在三角函数中存在如下恒等关系：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin ^{2}A+\cos ^{2}A=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>sin</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>+</mo>
+<msup>
+<mi>cos</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin ^{2}A+\cos ^{2}A=1}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sin ^{2}A+\cos ^{2}A=1}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/658942bc98fa7d01c13273846f666ddc491edd94" style="vertical-align: -0.505ex; width:19.437ex; height:2.843ex;"/></span> --- (1)</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan ^{2}A+1=\sec ^{2}A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>tan</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo>=</mo>
+<msup>
+<mi>sec</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan ^{2}A+1=\sec ^{2}A}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \tan ^{2}A+1=\sec ^{2}A}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9bd2d30b5ba0ce9737ebd52183923590ebc27418" style="vertical-align: -0.505ex; width:19.811ex; height:2.843ex;"/></span> --- (2)</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1+\cot ^{2}A=\csc ^{2}A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>1</mn>
+<mo>+</mo>
+<msup>
+<mi>cot</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<msup>
+<mi>csc</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1+\cot ^{2}A=\csc ^{2}A}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle 1+\cot ^{2}A=\csc ^{2}A}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7fb88626b17cb0687ec4cde6490fe8faf6c9eb5c" style="vertical-align: -0.505ex; width:19.551ex; height:2.843ex;"/></span> --- (3)</dd></dl>
+<h3><span id=".E6.AD.A3.E5.BC.A6.E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="正弦定理">正弦定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=7" title="编辑章节：正弦定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>对于任意三角形的<b><a href="/wiki/%E6%AD%A3%E5%BC%A6%E5%AE%9A%E7%90%86" title="正弦定理">正弦定理</a></b>（又被称为“正弦法则”）公式如下<sup class="reference" id="cite_ref-數學_7-0"><a href="#cite_note-數學-7">[6]</a></sup><sup class="reference" style="white-space:nowrap;">:p.110</sup>： 
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {a}{\sin A}}={\frac {b}{\sin B}}={\frac {c}{\sin C}}=2R,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>a</mi>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>b</mi>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>c</mi>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>C</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mn>2</mn>
+<mi>R</mi>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {a}{\sin A}}={\frac {b}{\sin B}}={\frac {c}{\sin C}}=2R,}</annotation>
+</semantics>
+</math></span><img alt="\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1419ccbac53bfe833611e68a722eef65eee1245d" style="vertical-align: -2.005ex; width:30.379ex; height:5.509ex;"/></span></dd></dl>
+<p>其中，R是三角形<a href="/wiki/%E5%A4%96%E6%8E%A5%E5%9C%93" title="外接圓">外接圓</a>的半径长度：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle R={\frac {abc}{\sqrt {(a+b+c)(a-b+c)(a+b-c)(b+c-a)}}}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>R</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>a</mi>
+<mi>b</mi>
+<mi>c</mi>
+</mrow>
+<msqrt>
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo>−<!-- − --></mo>
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+<mo>−<!-- − --></mo>
+<mi>c</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+<mo stretchy="false">)</mo>
+</msqrt>
+</mfrac>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle R={\frac {abc}{\sqrt {(a+b+c)(a-b+c)(a+b-c)(b+c-a)}}}.}</annotation>
+</semantics>
+</math></span><img alt="R = \frac{abc}{\sqrt{(a+b+c)(a-b+c)(a+b-c)(b+c-a)}}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/94ad4e6664b2f3240fa73558cc9506009e46ab88" style="vertical-align: -3.171ex; width:51.566ex; height:6.676ex;"/></span></dd></dl>
+<p>另一个有关于正弦的法则可以用来计算三角形的面积。在给定两条边的长度以及它们所夹角的角度，该三角形的面积为：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\mbox{Area}}={\frac {1}{2}}ab\sin C.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext>Area</mtext>
+</mstyle>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>a</mi>
+<mi>b</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>C</mi>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\mbox{Area}}={\frac {1}{2}}ab\sin C.}</annotation>
+</semantics>
+</math></span><img alt="\mbox{Area} = \frac{1}{2}a b\sin C." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3d96852fab20559b45b9076bb2044dca9a40e303" style="vertical-align: -1.838ex; width:18.217ex; height:5.176ex;"/></span></dd></dl>
+<h3><span id=".E4.BD.99.E5.BC.A6.E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="余弦定理">余弦定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=8" title="编辑章节：余弦定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E4%BD%99%E5%BC%A6%E5%AE%9A%E7%90%86" title="余弦定理">余弦定理</a></div>
+<p>任意三角形的余弦定理（又被称为余弦方程式、余弦法则），是<a href="/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86" title="勾股定理">勾股定理</a>的一个扩展<sup class="reference" id="cite_ref-數學_7-1"><a href="#cite_note-數學-7">[6]</a></sup><sup class="reference" style="white-space:nowrap;">:p.112</sup> ：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c^{2}=a^{2}+b^{2}-2ab\cos C,\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<mi>a</mi>
+<mi>b</mi>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>C</mi>
+<mo>,</mo>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c^{2}=a^{2}+b^{2}-2ab\cos C,\,}</annotation>
+</semantics>
+</math></span><img alt="c^2=a^2+b^2-2ab\cos C ,\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7dfdcae91b8940c352d127428000a9270b544928" style="vertical-align: -0.671ex; width:25.252ex; height:3.009ex;"/></span></dd></dl>
+<p>或者可以写作：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos C={\frac {a^{2}+b^{2}-c^{2}}{2ab}}.\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>C</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mrow>
+<mrow>
+<mn>2</mn>
+<mi>a</mi>
+<mi>b</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>.</mo>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos C={\frac {a^{2}+b^{2}-c^{2}}{2ab}}.\,}</annotation>
+</semantics>
+</math></span><img alt="\cos C=\frac{a^2+b^2-c^2}{2ab}.\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f74fccac0abd11430ccf804c1c1da0faf369e248" style="vertical-align: -2.005ex; width:22.311ex; height:5.843ex;"/></span></dd></dl>
+<h3><span id=".E6.AD.A3.E5.88.87.E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="正切定理">正切定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=9" title="编辑章节：正切定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E6%AD%A3%E5%88%87%E5%AE%9A%E7%90%86" title="正切定理">正切定理</a></div>
+<p><b><a href="/wiki/%E6%AD%A3%E5%88%87%E5%AE%9A%E7%90%86" title="正切定理">正切定理</a></b>如下：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {a-b}{a+b}}={\frac {\tan \left[{\tfrac {1}{2}}(A-B)\right]}{\tan \left[{\tfrac {1}{2}}(A+B)\right]}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>a</mi>
+<mo>−<!-- − --></mo>
+<mi>b</mi>
+</mrow>
+<mrow>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow>
+<mo>[</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mstyle>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mo>]</mo>
+</mrow>
+</mrow>
+<mrow>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow>
+<mo>[</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mstyle>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mo>]</mo>
+</mrow>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {a-b}{a+b}}={\frac {\tan \left[{\tfrac {1}{2}}(A-B)\right]}{\tan \left[{\tfrac {1}{2}}(A+B)\right]}}}</annotation>
+</semantics>
+</math></span><img alt="\frac{a-b}{a+b}=\frac{\tan\left[\tfrac{1}{2}(A-B)\right]}{\tan\left[\tfrac{1}{2}(A+B)\right]}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a1da4e06eb6f25cd7f7fc1a7784a11a82ae53f9f" style="vertical-align: -3.338ex; width:24.952ex; height:7.843ex;"/></span></dd></dl>
+<h3><span id=".E6.AC.A7.E6.8B.89.E5.85.AC.E5.BC.8F"></span><span class="mw-headline" id="欧拉公式">欧拉公式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=10" title="编辑章节：欧拉公式">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E6%AC%A7%E6%8B%89%E5%85%AC%E5%BC%8F" title="欧拉公式">欧拉公式</a>定义，对于任意的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>，都有<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e^{ix}=\cos x+i\sin x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>+</mo>
+<mi>i</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e^{ix}=\cos x+i\sin x}</annotation>
+</semantics>
+</math></span><img alt="e^{ix} = \cos x + i \sin x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4907c0489ab08ce550c7700a1587d4634801dff8" style="vertical-align: -0.505ex; width:19.352ex; height:2.843ex;"/></span>，于是产生了如下的对于<a href="/wiki/E_(%E6%95%B0%E5%AD%A6%E5%B8%B8%E6%95%B0)" title="E (数学常数)"><i>e</i></a>和<a href="/wiki/%E8%99%9B%E6%95%B8%E5%96%AE%E4%BD%8D" title="虛數單位">虛數單位</a><i>i</i>的<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a>恒等式：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin x={\frac {e^{ix}-e^{-ix}}{2i}},\qquad \cos x={\frac {e^{ix}+e^{-ix}}{2}},\qquad \tan x={\frac {i(e^{-ix}-e^{ix})}{e^{ix}+e^{-ix}}}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+</mrow>
+<mrow>
+<mn>2</mn>
+<mi>i</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>,</mo>
+<mspace width="2em"></mspace>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mo>,</mo>
+<mspace width="2em"></mspace>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>x</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>i</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+<mi>i</mi>
+<mi>x</mi>
+</mrow>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin x={\frac {e^{ix}-e^{-ix}}{2i}},\qquad \cos x={\frac {e^{ix}+e^{-ix}}{2}},\qquad \tan x={\frac {i(e^{-ix}-e^{ix})}{e^{ix}+e^{-ix}}}.}</annotation>
+</semantics>
+</math></span><img alt="\sin x = \frac{e^{ix} - e^{-ix}}{2i}, \qquad \cos x = \frac{e^{ix} + e^{-ix}}{2}, \qquad \tan x = \frac{i(e^{-ix} - e^{ix})}{e^{ix} + e^{-ix}}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5b30e164c54b1788e201501d9e510a16e1a4921b" style="vertical-align: -2.171ex; width:70.195ex; height:6.176ex;"/></span></dd></dl>
+<h3><span id=".E8.A7.92.E5.BA.A6.E8.BD.AC.E6.8D.A2.E5.85.AC.E5.BC.8F"></span><span class="mw-headline" id="角度转换公式">角度转换公式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=11" title="编辑章节：角度转换公式">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>角度转换公式也稱為和角公式或是和差公式，是有關二角和或差的三角函數的公式。
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin(A\pm B)=\sin A\ \cos B\pm \cos A\ \sin B}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>±<!-- ± --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>±<!-- ± --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin(A\pm B)=\sin A\ \cos B\pm \cos A\ \sin B}</annotation>
+</semantics>
+</math></span><img alt="\sin (A \pm B) = \sin A \ \cos B \pm \cos A \ \sin B" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3a27194e335db5cae63aea7a50d73e64a9433cfd" style="vertical-align: -0.838ex; width:39.383ex; height:2.843ex;"/></span></dd></dl>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos(A\pm B)=\cos A\ \cos B\mp \sin A\ \sin B}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>±<!-- ± --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>∓<!-- ∓ --></mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos(A\pm B)=\cos A\ \cos B\mp \sin A\ \sin B}</annotation>
+</semantics>
+</math></span><img alt="\cos (A \pm B) = \cos A \ \cos B \mp \sin A \ \sin B" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5712c1a21f0b18f57d9b608f20e0e9fadfb329ab" style="vertical-align: -0.838ex; width:39.638ex; height:2.843ex;"/></span></dd></dl>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan(A\pm B)={\frac {\tan A\pm \tan B}{1\mp \tan A\ \tan B}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>±<!-- ± --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>±<!-- ± --></mo>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+</mrow>
+<mrow>
+<mn>1</mn>
+<mo>∓<!-- ∓ --></mo>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan(A\pm B)={\frac {\tan A\pm \tan B}{1\mp \tan A\ \tan B}}}</annotation>
+</semantics>
+</math></span><img alt="\tan (A \pm B) = \frac{ \tan A \pm \tan B }{ 1 \mp \tan A  \ \tan B}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e06113364d8af3bb9a6e06eeda3e196f1d6f071e" style="vertical-align: -2.338ex; width:31.422ex; height:5.843ex;"/></span></dd></dl>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cot(A\pm B)={\frac {\cot A\ \cot B\mp 1}{\cot B\pm \cot A}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>±<!-- ± --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>∓<!-- ∓ --></mo>
+<mn>1</mn>
+</mrow>
+<mrow>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>±<!-- ± --></mo>
+<mi>cot</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cot(A\pm B)={\frac {\cot A\ \cot B\mp 1}{\cot B\pm \cot A}}}</annotation>
+</semantics>
+</math></span><img alt="\cot (A \pm B) = \frac{ \cot A \ \cot B \mp 1}{ \cot B \pm \cot A } " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8aca4af47eed4b14486eb40831d2e41d65706ce1" style="vertical-align: -2.005ex; width:30.642ex; height:5.509ex;"/></span></dd></dl>
+<h3><span id=".E5.80.8D.E8.A7.92.E5.85.AC.E5.BC.8F.E4.BB.A5.E5.8F.8A.E5.8D.8A.E8.A7.92.E5.85.AC.E5.BC.8F"></span><span class="mw-headline" id="倍角公式以及半角公式">倍角公式以及半角公式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=12" title="编辑章节：倍角公式以及半角公式">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>二倍角公式可以利用二角相等時的和角公式求得。
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin 2A=2\sin A\ \cos A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mn>2</mn>
+<mi>A</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mtext> </mtext>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin 2A=2\sin A\ \cos A}</annotation>
+</semantics>
+</math></span><img alt="\sin 2A = 2 \sin A \ \cos A" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/84af81416e5dc3f5184724eb814115f5ab3bb8ff" style="vertical-align: -0.338ex; width:21.991ex; height:2.176ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos 2A=\cos ^{2}A-\sin ^{2}A=2\cos ^{2}A-1=1-2\sin ^{2}A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mn>2</mn>
+<mi>A</mi>
+<mo>=</mo>
+<msup>
+<mi>cos</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>sin</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>=</mo>
+<mn>2</mn>
+<msup>
+<mi>cos</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<mo>=</mo>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<msup>
+<mi>sin</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos 2A=\cos ^{2}A-\sin ^{2}A=2\cos ^{2}A-1=1-2\sin ^{2}A}</annotation>
+</semantics>
+</math></span><img alt="\cos 2A = \cos^2 A - \sin^2 A = 2 \cos^2 A - 1 = 1 - 2 \sin^2 A" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/84d47a1ac49d0d6e5f022ec2fc5dfaea4c51c458" style="vertical-align: -0.505ex; width:54.316ex; height:2.843ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan 2A={\frac {2\tan A}{1-\tan ^{2}A}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mn>2</mn>
+<mi>A</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>tan</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan 2A={\frac {2\tan A}{1-\tan ^{2}A}}}</annotation>
+</semantics>
+</math></span><img alt="\tan 2A = \frac{2 \tan A }{ 1 - \tan^2 A}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f294f49545bc9f95f22c39fbe411bbea89ffbcbc" style="vertical-align: -2.338ex; width:21.134ex; height:5.843ex;"/></span></dd></dl>
+<p>利用和角公式也可以推導三倍角公式、四倍角公式等。
+</p><p>半角公式可以利用餘弦函數的二倍角公式求得。
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin {\frac {A}{2}}=\pm \,{\sqrt {\frac {1-\cos A}{2}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>A</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mo>±<!-- ± --></mo>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin {\frac {A}{2}}=\pm \,{\sqrt {\frac {1-\cos A}{2}}}}</annotation>
+</semantics>
+</math></span><img alt="\sin \frac{A}{2} = \pm\, \sqrt{\frac{1 - \cos A}{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e54f8d341c54190f289540c39ce076581dd2579" style="vertical-align: -2.338ex; width:23.52ex; height:6.343ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos {\frac {A}{2}}=\pm \,{\sqrt {\frac {1+\cos A}{2}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>A</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mo>±<!-- ± --></mo>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo>+</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos {\frac {A}{2}}=\pm \,{\sqrt {\frac {1+\cos A}{2}}}}</annotation>
+</semantics>
+</math></span><img alt="\cos \frac{A}{2} = \pm\, \sqrt{\frac{1 + \cos A}{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b16477ac13bb30198a2b719a1e515478af0243c0" style="vertical-align: -2.338ex; width:23.775ex; height:6.343ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \tan {\frac {A}{2}}=\pm \,{\sqrt {1-\cos A \over 1+\cos A}}={\frac {\sin A}{1+\cos A}}={\frac {1-\cos A}{\sin A}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>tan</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>A</mi>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mo>±<!-- ± --></mo>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mn>1</mn>
+<mo>+</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</msqrt>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mn>1</mn>
+<mo>+</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \tan {\frac {A}{2}}=\pm \,{\sqrt {1-\cos A \over 1+\cos A}}={\frac {\sin A}{1+\cos A}}={\frac {1-\cos A}{\sin A}}}</annotation>
+</semantics>
+</math></span><img alt="\tan \frac{A}{2} = \pm\, \sqrt{1 - \cos A \over 1 + \cos A} = \frac{\sin A}{1 + \cos A} = \frac{1-\cos A}{\sin A} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4af3f7c8907045c48501e4928181c4b3b7e2ffbf" style="vertical-align: -3.171ex; width:50.381ex; height:7.676ex;"/></span></dd></dl>
+<h3><span id=".E7.A7.AF.E5.8C.96.E5.92.8C.E5.B7.AE.E4.BB.A5.E5.8F.8A.E5.92.8C.E5.B7.AE.E5.8C.96.E7.A7.AF"></span><span class="mw-headline" id="积化和差以及和差化积">积化和差以及和差化积</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=13" title="编辑章节：积化和差以及和差化积">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>积化和差是將二個正弦及餘弦函數的乘積轉換為另外二個正弦及餘弦函數的和或差，其逆運算即為和差化积。數學家<a href="/wiki/%E5%BC%97%E6%9C%97%E7%B4%A2%E7%93%A6%C2%B7%E9%9F%A6%E8%BE%BE" title="弗朗索瓦·韦达">韋達</a>在其三角學著作《應用於三角形的數學定律》給出积化和差与和差化积恒等式。积化和差恒等式可以通过展开角的和差恒等式的右手端来证明。
+</p>
+<table>
+<tbody><tr>
+<td style="vertical-align:top">
+<table class="wikitable" style="background-color: #FFFFFF">
+<tbody><tr>
+<th>积化和差
+</th>
+<th>和差化积
+</th></tr>
+<tr>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin A\sin B={\cos(A-B)-\cos(A+B) \over 2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin A\sin B={\cos(A-B)-\cos(A+B) \over 2}}</annotation>
+</semantics>
+</math></span><img alt="\sin A \sin B ={\cos(A-B)-\cos(A+B)\over2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2607580c715fe1a9fbd3ca58e42084d192f3232e" style="vertical-align: -1.838ex; width:39.69ex; height:5.676ex;"/></span>
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin A+\sin B=2\sin {\frac {A+B}{2}}\cos {\frac {A-B}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin A+\sin B=2\sin {\frac {A+B}{2}}\cos {\frac {A-B}{2}}}</annotation>
+</semantics>
+</math></span><img alt="\sin A+\sin B =2\sin\frac{A+B}{2}\cos\frac{A-B}{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ff2f4ce580607f9b1be0a84d97ee1cca846b654e" style="vertical-align: -1.838ex; width:38.976ex; height:5.343ex;"/></span>
+</td></tr>
+<tr>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos A\cos B={\cos(A-B)+\cos(A+B) \over 2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos A\cos B={\cos(A-B)+\cos(A+B) \over 2}}</annotation>
+</semantics>
+</math></span><img alt="\cos A \cos B ={\cos(A-B)+\cos(A+B)\over2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ecae25111a336007b5480d22ff9cb300195eae5c" style="vertical-align: -1.838ex; width:40.201ex; height:5.676ex;"/></span>
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos A+\cos B=2\cos {\frac {A+B}{2}}\cos {\frac {A-B}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos A+\cos B=2\cos {\frac {A+B}{2}}\cos {\frac {A-B}{2}}}</annotation>
+</semantics>
+</math></span><img alt="\cos A+\cos B =2\cos\frac{A+B}{2}\cos\frac{A-B}{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/58bb8cf2eaa6b4c001b1e775ae136572e6718e8c" style="vertical-align: -1.838ex; width:39.743ex; height:5.343ex;"/></span>
+</td></tr>
+<tr>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin A\cos B={\sin(A+B)+\sin(A-B) \over 2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin A\cos B={\sin(A+B)+\sin(A-B) \over 2}}</annotation>
+</semantics>
+</math></span><img alt="\sin A \cos B ={\sin(A+B)+\sin(A-B)\over2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/326a94d3a4cc7fdee44d8348d5fa0084e1961630" style="vertical-align: -1.838ex; width:39.435ex; height:5.676ex;"/></span>
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos A-\cos B=-2\sin {\frac {A+B}{2}}\sin {\frac {A-B}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos A-\cos B=-2\sin {\frac {A+B}{2}}\sin {\frac {A-B}{2}}}</annotation>
+</semantics>
+</math></span><img alt="\cos A-\cos B =-2\sin\frac{A+B}{2}\sin\frac{A-B}{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cdaf5c4f94a532aa6e8e4a508da1088c487ad947" style="vertical-align: -1.838ex; width:41.04ex; height:5.343ex;"/></span>
+</td></tr>
+<tr>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \cos A\sin B={\sin(A+B)-\sin(A-B) \over 2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \cos A\sin B={\sin(A+B)-\sin(A-B) \over 2}}</annotation>
+</semantics>
+</math></span><img alt="\cos A \sin B ={\sin(A+B)-\sin(A-B)\over2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ca3ee03a37c8ee97a46eb7fe608eccf6fc46f62" style="vertical-align: -1.838ex; width:39.435ex; height:5.676ex;"/></span>
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sin A-\sin B=2\cos {\frac {A+B}{2}}\sin {\frac {A-B}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>B</mi>
+<mo>=</mo>
+<mn>2</mn>
+<mi>cos</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>+</mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<mi>sin</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>A</mi>
+<mo>−<!-- − --></mo>
+<mi>B</mi>
+</mrow>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sin A-\sin B=2\cos {\frac {A+B}{2}}\sin {\frac {A-B}{2}}}</annotation>
+</semantics>
+</math></span><img alt="\sin A-\sin B =2\cos\frac{A+B}{2}\sin\frac{A-B}{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/abaf03de3e4de470f3aad17c3d9704ab3fa9f857" style="vertical-align: -1.838ex; width:38.976ex; height:5.343ex;"/></span>
+</td></tr></tbody></table>
+<h2><span id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=14" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text">R. Nagel (ed.), <i>Encyclopedia of Science</i>, 2nd Ed., The Gale Group (2002)</span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book"><a class="new" href="/w/index.php?title=Carl_Benjamin_Boyer&amp;action=edit&amp;redlink=1" title="Carl Benjamin Boyer（页面不存在）">Boyer</a>. Greek Trigonometry and Mensuration. 1991: 162.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E4%B8%89%E8%A7%92%E5%AD%A6&amp;rft.atitle=Greek+Trigonometry+and+Mensuration&amp;rft.au=Boyer&amp;rft.date=1991&amp;rft.genre=bookitem&amp;rft.pages=162&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="font-size:100%">缺少或<code style="color:inherit; border:inherit; padding:inherit;">|title=</code>为空 (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#citation_missing_title" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Aaboe, Asger. Episodes from the Early History of Astronomy. New York: Springer, 2001. <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780387951362">ISBN 978-0-387-95136-2</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation book">Otto Neugebauer. <a class="external text" href="http://books.google.com/books?id=vO5FCVIxz2YC&amp;pg=PA744" rel="nofollow">A history of ancient mathematical astronomy. 1</a>. Springer-Verlag. 1975: 744– <span class="reference-accessdate"> [<span class="nowrap">2013-03-23</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-3-540-06995-9" title="Special:网络书源/978-3-540-06995-9"><span title="国际标准书号">ISBN</span> 978-3-540-06995-9</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20131009050901/http://books.google.com/books?id=vO5FCVIxz2YC&amp;pg=PA744" rel="nofollow">存档</a>于2013-10-09）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E4%B8%89%E8%A7%92%E5%AD%A6&amp;rft.au=Otto+Neugebauer&amp;rft.btitle=A+history+of+ancient+mathematical+astronomy.+1&amp;rft.date=1975&amp;rft.genre=book&amp;rft.isbn=978-3-540-06995-9&amp;rft.pages=744-&amp;rft.pub=Springer-Verlag&amp;rft_id=http%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DvO5FCVIxz2YC%26pg%3DPA744&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">"<a class="external text" href="http://www.math.rutgers.edu/%7Echerlin/History/Papers2000/hunt.html" rel="nofollow">The Beginnings of Trigonometry</a> （<a class="external text" href="//web.archive.org/web/20130329072442/http://www.math.rutgers.edu/%7Echerlin/History/Papers2000/hunt.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）". Rutgers, The State University of New Jersey.</span>
+</li>
+<li id="cite_note-數學-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-數學_7-0"><sup><b>6.0</b></sup></a> <a href="#cite_ref-數學_7-1"><sup><b>6.1</b></sup></a></span> <span class="reference-text"><cite class="citation book"><a class="external text" href="http://books.google.com.tw/books?id=Dtst_FmmtSYC" rel="nofollow">數學</a>. 北京: 清华大学出版社有限公司. 2006 <span class="reference-accessdate"> [<span class="nowrap">2013-08-21</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7810826751" title="Special:网络书源/7810826751"><span title="国际标准书号">ISBN</span> 7810826751</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20140819040032/http://books.google.com.tw/books?id=Dtst_FmmtSYC" rel="nofollow">存档</a>于2014-08-19）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E4%B8%89%E8%A7%92%E5%AD%A6&amp;rft.btitle=%E6%95%B8%E5%AD%B8&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=7810826751&amp;rft.place=%E5%8C%97%E4%BA%AC&amp;rft.pub=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3DDtst_FmmtSYC&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+</ol></div>
+<h2><span id=".E6.B3.A8.E9.87.8A"></span><span class="mw-headline" id="注释">注释</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=15" title="编辑章节：注释">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div id="references-NoteFoot"><ol class="references">
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">阿拉伯语ظل，意味阴影</span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.82.E8.A6.8B"></span><span class="mw-headline" id="参見">参見</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=16" title="编辑章节：参見">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/%E7%90%83%E9%9D%A2%E4%B8%89%E8%A7%92%E5%AD%B8" title="球面三角學">球面三角學</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0" title="三角函数">三角函数</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E6%81%92%E7%AD%89%E5%BC%8F" title="三角恒等式">三角恒等式</a></li>
+<li><a href="/wiki/%E5%8D%95%E4%BD%8D%E5%9C%86" title="单位圆">单位圆</a></li></ul>
+<h2><span id=".E5.BB.B6.E4.BC.B8.E9.98.85.E8.AF.BB"></span><span class="mw-headline" id="延伸阅读">延伸阅读</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=17" title="编辑章节：延伸阅读">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><cite class="citation book"><a class="new" href="/w/index.php?title=Carl_Benjamin_Boyer&amp;action=edit&amp;redlink=1" title="Carl Benjamin Boyer（页面不存在）">Boyer, Carl B.</a> A History of Mathematics Second Edition. John Wiley &amp; Sons, Inc. 1991. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-471-54397-7" title="Special:网络书源/0-471-54397-7"><span title="国际标准书号">ISBN</span> 0-471-54397-7</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E4%B8%89%E8%A7%92%E5%AD%A6&amp;rft.aufirst=Carl+B.&amp;rft.aulast=Boyer&amp;rft.btitle=A+History+of+Mathematics&amp;rft.date=1991&amp;rft.edition=Second+Edition&amp;rft.genre=book&amp;rft.isbn=0-471-54397-7&amp;rft.pub=John+Wiley+%26+Sons%2C+Inc.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></li>
+<li><cite class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel (编), <a class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/t094210" rel="nofollow">Trigonometric functions</a>, <a href="/wiki/%E6%95%B0%E5%AD%A6%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6" title="数学百科全书">数学百科全书</a>, <a class="mw-redirect" href="/wiki/Springer_Science%2BBusiness_Media" title="Springer Science+Business Media">Springer</a>, 2001, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-1-55608-010-4" title="Special:网络书源/978-1-55608-010-4"><span title="国际标准书号">ISBN</span> 978-1-55608-010-4</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E4%B8%89%E8%A7%92%E5%AD%A6&amp;rft.atitle=Trigonometric+functions&amp;rft.aufirst=Michiel&amp;rft.aulast=Hazewinkel&amp;rft.btitle=%E6%95%B0%E5%AD%A6%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft.isbn=978-1-55608-010-4&amp;rft.pub=Springer&amp;rft_id=http%3A%2F%2Fwww.encyclopediaofmath.org%2Findex.php%3Ftitle%3Dp%2Ft094210&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li>Christopher M. Linton (2004). From Eudoxus to Einstein: A History of Mathematical Astronomy . Cambridge University Press.</li>
+<li>Weisstein, Eric W. "Trigonometric Addition Formulas". Wolfram MathWorld. Weiner.</li></ul>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.93.BE.E6.8E.A5"></span><span class="mw-headline" id="外部链接">外部链接</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit&amp;section=18" title="编辑章节：外部链接">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="plainlinks mbox-small" style="padding:0.25em 0.5em 0.5em 0.75em;border:1px solid #aaa;background:#f9f9f9;">
+<tbody><tr>
+<td colspan="2" style="padding-bottom:0.75em;border-bottom:1px solid #aaa;text-align:center;"><div style="clear:both;">从维基百科的<a class="mw-redirect" href="/wiki/Wikipedia:%E5%A7%8A%E5%A6%B9%E8%AE%A1%E5%88%92" title="Wikipedia:姊妹计划">姊妹计划</a><br/>了解更多有关<br/>“<b>三角学</b>”的内容</div>
+</td></tr>
+<tr style="height:25px;">
+<td style="padding-top:0.75em;"><a href="https://zh.wiktionary.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基词典"><img alt="搜索维基词典" data-file-height="350" data-file-width="370" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/25px-Wiktionary-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/38px-Wiktionary-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wiktionary-logo.svg/50px-Wiktionary-logo.svg.png 2x" width="25"/></a>
+</td>
+<td style="padding-top:0.75em;">维基词典上的<a class="extiw" href="https://zh.wiktionary.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="wikt:Special:Search/三角学">字词解释</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://commons.wikimedia.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基共享资源"><img alt="搜索维基共享资源" data-file-height="1376" data-file-width="1024" decoding="async" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/28px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/37px-Commons-logo.svg.png 2x" width="18"/></a>
+</td>
+<td>维基共享资源上的<a class="extiw" href="https://commons.wikimedia.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="c:Special:Search/三角学">多媒体资源</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://zh.wikinews.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基新闻"><img alt="搜索维基新闻" data-file-height="415" data-file-width="759" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/25px-Wikinews-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/38px-Wikinews-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/50px-Wikinews-logo.svg.png 2x" width="25"/></a>
+</td>
+<td>维基新闻上的<a class="extiw" href="https://zh.wikinews.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="n:Special:Search/三角学">新闻</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://zh.wikiquote.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基语录"><img alt="搜索维基语录" data-file-height="355" data-file-width="300" decoding="async" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/21px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/32px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/42px-Wikiquote-logo.svg.png 2x" width="21"/></a>
+</td>
+<td>维基语录上的<a class="extiw" href="https://zh.wikiquote.org/wiki/Special:%E6%90%9C%E7%B4%A2/%E4%B8%89%E8%A7%92%E5%AD%A6" title="q:Special:搜索/三角学">名言</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://zh.wikisource.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基文库"><img alt="搜索维基文库" data-file-height="430" data-file-width="410" decoding="async" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/24px-Wikisource-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/36px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/48px-Wikisource-logo.svg.png 2x" width="24"/></a>
+</td>
+<td>维基文库上的<a class="extiw" href="https://zh.wikisource.org/wiki/Special:%E6%90%9C%E7%B4%A2/%E4%B8%89%E8%A7%92%E5%AD%A6" title="s:Special:搜索/三角学">原始文献</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://zh.wikibooks.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基教科书"><img alt="搜索维基教科书" data-file-height="300" data-file-width="300" decoding="async" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/25px-Wikibooks-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/38px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/50px-Wikibooks-logo.svg.png 2x" width="25"/></a>
+</td>
+<td>维基教科书上的<a class="extiw" href="https://zh.wikibooks.org/wiki/Special:%E6%90%9C%E7%B4%A2/%E4%B8%89%E8%A7%92%E5%AD%A6" title="b:Special:搜索/三角学">教科书和手册</a>
+</td></tr>
+<tr style="height:25px;">
+<td><a href="https://zh.wikiversity.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="搜索维基学院"><img alt="搜索维基学院" data-file-height="900" data-file-width="1000" decoding="async" height="23" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/25px-Wikiversity-logo-en.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/38px-Wikiversity-logo-en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Wikiversity-logo-en.svg/50px-Wikiversity-logo-en.svg.png 2x" width="25"/></a>
+</td>
+<td>维基学院上的<a class="extiw" href="https://zh.wikiversity.org/wiki/Special:Search/%E4%B8%89%E8%A7%92%E5%AD%A6" title="v:Special:Search/三角学">學習资源</a>
+</td></tr>
+</tbody></table>
+<ul><li><a class="external text" href="https://www.khanacademy.org/math/trigonometry" rel="nofollow">Khan Academy: Trigonometry, free online micro lectures</a>（<a class="external text" href="//web.archive.org/web/20130310012757/http://www.khanacademy.org/math/trigonometry" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="https://web.archive.org/web/20040404234808/http://www.pupress.princeton.edu/books/maor/" rel="nofollow">Trigonometric Delights</a>, by <a class="new" href="/w/index.php?title=Eli_Maor&amp;action=edit&amp;redlink=1" title="Eli Maor（页面不存在）">Eli Maor</a>, Princeton University Press, 1998.  Ebook version, in PDF format, full text presented.</li>
+<li><a class="external text" href="https://web.archive.org/web/20071104225720/http://baqaqi.chi.il.us/buecher/mathematics/trigonometry/index.html" rel="nofollow">Trigonometry</a> by Alfred Monroe Kenyon and Louis Ingold, The Macmillan Company, 1914. In images, full text presented.</li>
+<li><a class="external text" href="https://web.archive.org/web/20070930031406/http://mathdl.maa.org/convergence/1/?pa=content&amp;sa=viewDocument&amp;nodeId=212&amp;bodyId=81" rel="nofollow">Benjamin Banneker's Trigonometry Puzzle</a> at <a class="external text" href="https://web.archive.org/web/20070713083148/http://mathdl.maa.org/convergence/1/" rel="nofollow">Convergence</a></li>
+<li><a class="external text" href="http://www.clarku.edu/~djoyce/trig/" rel="nofollow">Dave's Short Course in Trigonometry</a>（<a class="external text" href="//web.archive.org/web/20080615133310/http://www.clarku.edu/~djoyce/trig/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） by David Joyce of <a class="new" href="/w/index.php?title=Clark_University&amp;action=edit&amp;redlink=1" title="Clark University（页面不存在）">Clark University</a></li>
+<li><a class="external text" href="http://www.mecmath.net/trig/trigbook.pdf" rel="nofollow">Trigonometry, by Michael Corral, Covers elementary trigonometry, Distributed under GNU Free Documentation License</a>（<a class="external text" href="//web.archive.org/web/20130729114530/http://www.mecmath.net/trig/trigbook.pdf" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="3" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template:数学领域"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template talk:数学领域"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>（<a href="/wiki/%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="数学领域">数学领域</a>）</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">历史</a></li>
+<li><span class="ilh-all" data-foreign-title="Outline of mathematics" data-lang-code="en" data-lang-name="英语" data-orig-title="数学纲要"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E7%BA%B2%E8%A6%81&amp;action=edit&amp;redlink=1" title="数学纲要（页面不存在）">纲要</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Outline_of_mathematics" title="en:Outline of mathematics"><span dir="auto" lang="en">Outline of mathematics</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8" title="数学符号表">符号表</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80" title="数学基础">数学基础</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%8C%83%E7%95%B4%E8%AE%BA" title="范畴论">范畴论</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%93%B2%E5%AD%A6" title="数学哲学">数学哲学</a></li></ul>
+</div></td><td class="navbox-image" rowspan="23" style="width:0%;padding:0px 0px 0px 2px"><div><a class="image" href="/wiki/File:Math.svg"><img alt="Math.svg" data-file-height="800" data-file-width="800" decoding="async" height="80" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/80px-Math.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/120px-Math.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/160px-Math.svg.png 2x" width="80"/></a></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BB%A3%E6%95%B0" title="代数">代数</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a></li>
+<li><a href="/wiki/%E5%88%9D%E7%AD%89%E4%BB%A3%E6%95%B8" title="初等代數">初等代數</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="线性代数">线性代数</a></li>
+<li><a href="/wiki/%E5%A4%9A%E9%87%8D%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="多重线性代数">多重线性代数</a></li>
+<li><a href="/wiki/%E6%B3%9B%E4%BB%A3%E6%95%B0" title="泛代数">泛代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86" title="微积分">微积分</a></li>
+<li><a href="/wiki/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E8%AE%BA" title="实变函数论">实变函数</a></li>
+<li><a href="/wiki/%E8%A4%87%E5%88%86%E6%9E%90" title="複分析">复变函数</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程">微分方程</a></li>
+<li><a href="/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析">泛函分析</a></li>
+<li><a href="/wiki/%E8%AA%BF%E5%92%8C%E5%88%86%E6%9E%90" title="調和分析">調和分析</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6" title="离散数学">离散数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6" title="组合数学">组合数学</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E5%BA%8F%E7%90%86%E8%AE%BA" title="序理论">序理论</a></li>
+<li><a href="/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA" title="博弈论">博弈论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E5%87%A0%E4%BD%95" title="代数几何">代数几何</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95" title="微分几何">微分几何</a></li>
+<li><a href="/wiki/%E7%A6%BB%E6%95%A3%E5%87%A0%E4%BD%95%E5%AD%A6" title="离散几何学">离散几何学</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">欧几里得几何</a></li>
+<li><a href="/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何">非欧几里得几何</a></li>
+<li><a href="/wiki/%E6%9C%89%E9%99%90%E5%B9%BE%E4%BD%95%E5%AD%B8" title="有限幾何學">有限几何学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E8%AE%BA" title="数论">数论</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%97%E6%9C%AF" title="算术">算术</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8%E8%AB%96" title="代數數論">代數數論</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA" title="解析数论">解析数论</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%95%B0%E8%AE%BA" title="几何数论">几何数论</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%9C%AF%E5%87%A0%E4%BD%95" title="算术几何">算术几何</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%B8%A2%E7%95%AA%E5%9B%BE%E5%87%A0%E4%BD%95" title="丢番图几何">丢番图几何</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E6%8B%93%E6%89%91" title="代数拓扑">代数拓扑</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%8B%93%E6%89%91" title="微分拓扑">微分拓扑</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%8B%93%E6%89%91%E5%AD%A6" title="几何拓扑学">几何拓扑</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%B5%8B%E5%BA%A6" title="测度">测度与概率</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="数理统计学">数理统计学</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6" title="数据科学">数据科学</a></li>
+<li><a href="/wiki/%E6%8E%A8%E8%AB%96%E7%B5%B1%E8%A8%88%E5%AD%B8" title="推論統計學">统计推断</a></li>
+<li><a href="/wiki/%E8%BF%B4%E6%AD%B8%E5%88%86%E6%9E%90" title="迴歸分析">迴歸分析</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA" title="统计学习理论">统计学习理论</a></li>
+<li><a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a></li>
+<li><a href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">人工智能</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84" title="数据结构">数据结构</a>与<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%BF%90%E7%AE%97%E6%95%B0%E5%AD%A6" title="运算数学">计算数学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a href="/wiki/%E6%9C%80%E4%BC%98%E5%8C%96" title="最优化">最优化</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E6%A9%9F%E4%BB%A3%E6%95%B8%E7%B3%BB%E7%B5%B1" title="計算機代數系統">计算机代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6" title="应用数学">应用数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8E%A7%E5%88%B6%E8%AE%BA" title="控制论">控制论</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6" title="计算化学">计算化学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E7%94%9F%E7%89%A9%E5%AD%B8" title="數理生物學">数理生物学</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="数理经济学">数理经济学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="计量经济学">计量经济学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E9%87%91%E8%9E%8D%E5%AD%B8" title="數理金融學">數理金融學</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%BF%83%E7%90%86%E5%AD%A6" title="数学心理学">数学心理学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86" title="数学物理">数学物理学</a></li>
+<li><a href="/wiki/%E7%94%9F%E7%89%A9%E7%B5%B1%E8%A8%88%E5%AD%B8" title="生物統計學">生物統計學</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其它</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">数学史</a></li>
+<li><a href="/wiki/%E5%A8%9B%E6%A8%82%E6%95%B8%E5%AD%B8" title="娛樂數學">娱乐数学</a></li>
+<li><span class="ilh-all" data-foreign-title="Mathematics and art" data-lang-code="en" data-lang-name="英语" data-orig-title="数学与艺术"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF&amp;action=edit&amp;redlink=1" title="数学与艺术（页面不存在）">数学与艺术</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Mathematics_and_art" title="en:Mathematics and art"><span dir="auto" lang="en">Mathematics and art</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2" title="数学教育">数学教育</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">注释</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>数学的领域也可根据“<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E6%A0%87%E5%87%86" title="数学学科分类标准">MSC分类标准</a>”或“<a href="/wiki/%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86/110" title="中国学科分类国家标准/110">中国学科分类国家标准</a>”进行分类。</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E6%95%B0%E5%AD%A6" title="Category:数学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E6%95%B0%E5%AD%A6" title="Portal:数学">主题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Mathematics" title="commons:Category:Mathematics">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E6%95%B0%E5%AD%A6" title="WikiProject:数学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+</td>
+</tr>
+</tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1454
+Cached time: 20221004172024
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.362 seconds
+Real time usage: 0.497 seconds
+Preprocessor visited node count: 1518/1000000
+Post‐expand include size: 92607/2097152 bytes
+Template argument size: 596/2097152 bytes
+Highest expansion depth: 7/100
+Expensive parser function count: 9/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 10848/5000000 bytes
+Lua time usage: 0.156/10.000 seconds
+Lua memory usage: 16011325/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  296.603      1 -total
+ 30.37%   90.065      1 Template:Lang-en
+ 19.25%   57.094      1 Template:Reflist
+ 17.03%   50.497      4 Template:Cite_book
+ 11.47%   34.018      1 Template:NoteTA
+ 10.98%   32.566      1 Template:数学主要领域
+ 10.48%   31.071      1 Template:三角学
+  9.93%   29.448      1 Template:Navbox
+  9.91%   29.393      1 Template:Sidebar
+  6.45%   19.128      4 Template:Le
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:23287-0!canonical!zh and timestamp 20221004172024 and revision id 70265977.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=三角学&amp;oldid=70265977">https://zh.wikipedia.org/w/index.php?title=三角学&amp;oldid=70265977</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E4%B8%89%E8%A7%92%E5%AD%A6" title="Category:三角学">三角学</a></li><li><a href="/wiki/Category:%E6%95%B0%E5%AD%A6%E5%88%86%E6%94%AF" title="Category:数学分支">数学分支</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E7%BC%BA%E5%B0%91%E6%A0%87%E9%A2%98%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有缺少标题的引用的页面">含有缺少标题的引用的页面</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8ISBN%E9%AD%94%E6%9C%AF%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用ISBN魔术链接的页面">使用ISBN魔术链接的页面</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英語的條目">含有英語的條目</a></li><li><a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">引文格式1维护：冗余文本</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E4%B8%89%E8%A7%92%E5%AD%A6" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E4%B8%89%E8%A7%92%E5%AD%A6" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E4%B8%89%E8%A7%92%E5%AD%A6" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant" lang="zh-Hant"><span>繁體</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁體</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳門繁體</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>臺灣正體</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在維基百科受益良多，您可以考慮資助我們"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E4%B8%89%E8%A7%92%E5%AD%A6" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E4%B8%89%E8%A7%92%E5%AD%A6" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;oldid=70265977" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;id=70265977&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q8084" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Trigonometry" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Driehoeksmeting" hreflang="af" lang="af" title="Driehoeksmeting – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Trigonometrie" hreflang="gsw" lang="gsw" title="Trigonometrie – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%89%B5%E1%88%AA%E1%8C%8E%E1%8A%96%E1%88%9C%E1%89%B5%E1%88%AA" hreflang="am" lang="am" title="ትሪጎኖሜትሪ – 阿姆哈拉语"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Trigonometr%C3%ADa" hreflang="an" lang="an" title="Trigonometría – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8_%D8%A7%D9%84%D9%85%D8%AB%D9%84%D8%AB%D8%A7%D8%AA" hreflang="ar" lang="ar" title="حساب المثلثات – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a class="interlanguage-link-target" href="https://arz.wikipedia.org/wiki/%D8%AD%D8%B3%D8%A7%D8%A8_%D8%A7%D9%84%D9%85%D8%AB%D9%84%D8%AB%D8%A7%D8%AA" hreflang="arz" lang="arz" title="حساب المثلثات – 埃及阿拉伯文"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%A4%E0%A7%8D%E0%A7%B0%E0%A6%BF%E0%A6%95%E0%A7%8B%E0%A6%A3%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF" hreflang="as" lang="as" title="ত্ৰিকোণমিতি – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Trigonometr%C3%ADa" hreflang="ast" lang="ast" title="Trigonometría – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Triqonometriya" hreflang="az" lang="az" title="Triqonometriya – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="ba" lang="ba" title="Тригонометрия – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a class="interlanguage-link-target" href="https://bat-smg.wikipedia.org/wiki/Tr%C4%97guonuometr%C4%97j%C4%97" hreflang="sgs" lang="sgs" title="Trėguonuometrėjė – Samogitian"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Trigonometriya" hreflang="bcl" lang="bcl" title="Trigonometriya – Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%A2%D1%80%D1%8B%D0%B3%D0%B0%D0%BD%D0%B0%D0%BC%D0%B5%D1%82%D1%80%D1%8B%D1%8F" hreflang="be" lang="be" title="Трыганаметрыя – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%A2%D1%80%D1%8B%D0%B3%D0%B0%D0%BD%D0%B0%D0%BC%D1%8D%D1%82%D1%80%D1%8B%D1%8F" hreflang="be-tarask" lang="be-tarask" title="Трыганамэтрыя – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="bg" lang="bg" title="Тригонометрия – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%BF%E0%A6%95%E0%A7%8B%E0%A6%A3%E0%A6%AE%E0%A6%BF%E0%A6%A4%E0%A6%BF" hreflang="bn" lang="bn" title="ত্রিকোণমিতি – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Trigonometriezh" hreflang="br" lang="br" title="Trigonometriezh – 布列塔尼语"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Trigonometrija" hreflang="bs" lang="bs" title="Trigonometrija – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Trigonometria" hreflang="ca" lang="ca" title="Trigonometria – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%B3%DB%8E%DA%AF%DB%86%D8%B4%DB%95%D8%B2%D8%A7%D9%86%DB%8C" hreflang="ckb" lang="ckb" title="سێگۆشەزانی – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-co mw-list-item"><a class="interlanguage-link-target" href="https://co.wikipedia.org/wiki/Trigunumitria" hreflang="co" lang="co" title="Trigunumitria – 科西嘉语"><span>Corsu</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Trigonometrie" hreflang="cs" lang="cs" title="Trigonometrie – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8" hreflang="cv" lang="cv" title="Тригонометри – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Trigonometreg" hreflang="cy" lang="cy" title="Trigonometreg – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Trigonometri" hreflang="da" lang="da" title="Trigonometri – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Trigonometrie" hreflang="de" lang="de" title="Trigonometrie – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%A4%CF%81%CE%B9%CE%B3%CF%89%CE%BD%CE%BF%CE%BC%CE%B5%CF%84%CF%81%CE%AF%CE%B1" hreflang="el" lang="el" title="Τριγωνομετρία – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-eml mw-list-item"><a class="interlanguage-link-target" href="https://eml.wikipedia.org/wiki/Trigonometr%C3%AE" hreflang="egl" lang="egl" title="Trigonometrî – Emiliano-Romagnolo"><span>Emiliàn e rumagnòl</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Trigonometry" hreflang="en" lang="en" title="Trigonometry – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Trigonometrio" hreflang="eo" lang="eo" title="Trigonometrio – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Trigonometr%C3%ADa" hreflang="es" lang="es" title="Trigonometría – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Trigonomeetria" hreflang="et" lang="et" title="Trigonomeetria – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Trigonometria" hreflang="eu" lang="eu" title="Trigonometria – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-ext mw-list-item"><a class="interlanguage-link-target" href="https://ext.wikipedia.org/wiki/Trigonometria" hreflang="ext" lang="ext" title="Trigonometria – 埃斯特雷馬杜拉文"><span>Estremeñu</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%85%D8%AB%D9%84%D8%AB%D8%A7%D8%AA" hreflang="fa" lang="fa" title="مثلثات – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Trigonometria" hreflang="fi" lang="fi" title="Trigonometria – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/Trigonomeetri%C3%A4" hreflang="vro" lang="vro" title="Trigonomeetriä – võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Trigonometri" hreflang="fo" lang="fo" title="Trigonometri – 法罗语"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Trigonom%C3%A9trie" hreflang="fr" lang="fr" title="Trigonométrie – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Trigonometrii" hreflang="frr" lang="frr" title="Trigonometrii – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Triant%C3%A1nacht" hreflang="ga" lang="ga" title="Triantánacht – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%AD%B8" hreflang="gan" lang="gan" title="三角學 – 赣语"><span>贛語</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Trigonom%C3%A9tri" hreflang="gcr" lang="gcr" title="Trigonométri – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Trigonometr%C3%ADa" hreflang="gl" lang="gl" title="Trigonometría – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%A4%E0%AB%8D%E0%AA%B0%E0%AA%BF%E0%AA%95%E0%AB%8B%E0%AA%A3%E0%AA%AE%E0%AA%BF%E0%AA%A4%E0%AA%BF" hreflang="gu" lang="gu" title="ત્રિકોણમિતિ – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%98%D7%A8%D7%99%D7%92%D7%95%D7%A0%D7%95%D7%9E%D7%98%D7%A8%D7%99%D7%94" hreflang="he" lang="he" title="טריגונומטריה – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%A3%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF" hreflang="hi" lang="hi" title="त्रिकोणमिति – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Trigonometrija" hreflang="hr" lang="hr" title="Trigonometrija – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Trigonometria" hreflang="hu" lang="hu" title="Trigonometria – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B5%D5%BC%D5%A1%D5%B6%D5%AF%D5%B5%D5%B8%D6%82%D5%B6%D5%A1%D5%B9%D5%A1%D6%83%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Եռանկյունաչափություն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Trigonometria" hreflang="ia" lang="ia" title="Trigonometria – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Trigonometri" hreflang="id" lang="id" title="Trigonometri – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a class="interlanguage-link-target" href="https://ilo.wikipedia.org/wiki/Trigonometria" hreflang="ilo" lang="ilo" title="Trigonometria – 伊洛卡诺语"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Trigonometrio" hreflang="io" lang="io" title="Trigonometrio – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Hornafr%C3%A6%C3%B0i" hreflang="is" lang="is" title="Hornafræði – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Trigonometria" hreflang="it" lang="it" title="Trigonometria – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E6%B3%95" hreflang="ja" lang="ja" title="三角法 – 日语"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Chriganamichri" hreflang="jam" lang="jam" title="Chriganamichri – 牙買加克里奧爾英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/Trigonom%C3%A8tri" hreflang="jv" lang="jv" title="Trigonomètri – 爪哇语"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%A2%E1%83%A0%E1%83%98%E1%83%92%E1%83%9D%E1%83%9C%E1%83%9D%E1%83%9B%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90" hreflang="ka" lang="ka" title="ტრიგონომეტრია – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a class="interlanguage-link-target" href="https://kaa.wikipedia.org/wiki/Trigonometriya" hreflang="kaa" lang="kaa" title="Trigonometriya – 卡拉卡尔帕克语"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/K%C9%94l%C9%94m%C9%A9%C5%8B_naadozo_t%CA%8A_pilinzi_maz%CA%8A%CA%8A" hreflang="kbp" lang="kbp" title="Kɔlɔmɩŋ naadozo tʊ pilinzi mazʊʊ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="kk" lang="kk" title="Тригонометрия – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%8F%E1%9F%92%E1%9E%9A%E1%9E%B8%E1%9E%80%E1%9F%84%E1%9E%8E%E1%9E%98%E1%9E%B6%E1%9E%8F%E1%9F%92%E1%9E%9A" hreflang="km" lang="km" title="ត្រីកោណមាត្រ – 高棉语"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%82%BC%EA%B0%81%EB%B2%95" hreflang="ko" lang="ko" title="삼각법 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a class="interlanguage-link-target" href="https://ku.wikipedia.org/wiki/S%C3%AAgo%C5%9Fenas%C3%AE" hreflang="ku" lang="ku" title="Sêgoşenasî – 库尔德语"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="ky" lang="ky" title="Тригонометрия – 柯尔克孜语"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Trigonometria" hreflang="la" lang="la" title="Trigonometria – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Trigonometria" hreflang="lfn" lang="lfn" title="Trigonometria – 新共同語言"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lg mw-list-item"><a class="interlanguage-link-target" href="https://lg.wikipedia.org/wiki/Essomampuyisatu_(Trigonometry)" hreflang="lg" lang="lg" title="Essomampuyisatu (Trigonometry) – 卢干达语"><span>Luganda</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Goniometrie" hreflang="li" lang="li" title="Goniometrie – 林堡语"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Trigonometria" hreflang="lmo" lang="lmo" title="Trigonometria – 倫巴底文"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a class="interlanguage-link-target" href="https://lo.wikipedia.org/wiki/%E0%BB%84%E0%BA%95%E0%BA%A1%E0%BA%B8%E0%BA%A1" hreflang="lo" lang="lo" title="ໄຕມຸມ – 老挝语"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Trigonometrija" hreflang="lt" lang="lt" title="Trigonometrija – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Trigonometrija" hreflang="lv" lang="lv" title="Trigonometrija – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" hreflang="mk" lang="mk" title="Тригонометрија – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%BF%E0%B4%95%E0%B5%8B%E0%B4%A3%E0%B4%AE%E0%B4%BF%E0%B4%A4%E0%B4%BF" hreflang="ml" lang="ml" title="ത്രികോണമിതി – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%A3%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A5%80" hreflang="mr" lang="mr" title="त्रिकोणमिती – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Trigonometri" hreflang="ms" lang="ms" title="Trigonometri – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%90%E1%80%BC%E1%80%AE%E1%80%82%E1%80%AD%E1%80%AF%E1%80%94%E1%80%AD%E1%80%AF%E1%80%99%E1%80%B1%E1%80%90%E1%80%BC%E1%80%AE" hreflang="my" lang="my" title="တြီဂိုနိုမေတြီ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8B%E0%A4%A3%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF" hreflang="ne" lang="ne" title="त्रिकोणमिति – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a class="interlanguage-link-target" href="https://new.wikipedia.org/wiki/%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80%E0%A4%97%E0%A5%8B%E0%A4%A8%E0%A5%8B%E0%A4%AE%E0%A5%87%E0%A4%9F%E0%A5%8D%E0%A4%B0%E0%A5%80" hreflang="new" lang="new" title="ट्रीगोनोमेट्री – 尼瓦尔语"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Goniometrie" hreflang="nl" lang="nl" title="Goniometrie – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Trigonometri" hreflang="nn" lang="nn" title="Trigonometri – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Trigonometri" hreflang="nb" lang="nb" title="Trigonometri – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Trigonometria" hreflang="oc" lang="oc" title="Trigonometria – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-or mw-list-item"><a class="interlanguage-link-target" href="https://or.wikipedia.org/wiki/%E0%AC%A4%E0%AD%8D%E0%AC%B0%E0%AC%BF%E0%AC%95%E0%AD%8B%E0%AC%A3%E0%AC%AE%E0%AC%BF%E0%AC%A4%E0%AC%BF" hreflang="or" lang="or" title="ତ୍ରିକୋଣମିତି – 奥里亚语"><span>ଓଡ଼ିଆ</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%A4%E0%A8%BF%E0%A8%95%E0%A9%8B%E0%A8%A3%E0%A8%AE%E0%A8%BF%E0%A8%A4%E0%A9%80" hreflang="pa" lang="pa" title="ਤਿਕੋਣਮਿਤੀ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Trygonometria" hreflang="pl" lang="pl" title="Trygonometria – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Trigonometr%C3%ACa" hreflang="pms" lang="pms" title="Trigonometrìa – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%B9%D8%B1%DB%8C%DA%AF%D9%86%D9%88%D9%85%DB%8C%D9%B9%D8%B1%DB%8C" hreflang="pnb" lang="pnb" title="ٹریگنومیٹری – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Trigonometria" hreflang="pt" lang="pt" title="Trigonometria – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Wamp%27artupuykama" hreflang="qu" lang="qu" title="Wamp'artupuykama – 克丘亚语"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Trigonometrie" hreflang="ro" lang="ro" title="Trigonometrie – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="ru" lang="ru" title="Тригонометрия – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%A2%D1%80%D1%96%D2%91%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" hreflang="rue" lang="rue" title="Тріґонометрія – 盧森尼亞文"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Trigunomitr%C3%ACa" hreflang="scn" lang="scn" title="Trigunomitrìa – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Trigonometry" hreflang="sco" lang="sco" title="Trigonometry – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Trigonometrija" hreflang="sh" lang="sh" title="Trigonometrija – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-shi mw-list-item"><a class="interlanguage-link-target" href="https://shi.wikipedia.org/wiki/Askti%C9%A3mr" hreflang="shi" lang="shi" title="Asktiɣmr – 希尔哈语"><span>Taclḥit</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%AD%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%92%E0%B6%9A%E0%B7%9D%E0%B6%AB%E0%B6%B8%E0%B7%92%E0%B6%AD%E0%B7%92%E0%B6%BA" hreflang="si" lang="si" title="ත්‍රිකෝණමිතිය – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Trigonometry" hreflang="en-simple" lang="en-simple" title="Trigonometry – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Trigonometria" hreflang="sk" lang="sk" title="Trigonometria – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Trigonometrija" hreflang="sl" lang="sl" title="Trigonometrija – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Pimagonyonhatu" hreflang="sn" lang="sn" title="Pimagonyonhatu – 绍纳语"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a class="interlanguage-link-target" href="https://so.wikipedia.org/wiki/Tirignoometeri" hreflang="so" lang="so" title="Tirignoometeri – 索马里语"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Trigonometria" hreflang="sq" lang="sq" title="Trigonometria – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%98%D0%B0" hreflang="sr" lang="sr" title="Тригонометрија – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-stq mw-list-item"><a class="interlanguage-link-target" href="https://stq.wikipedia.org/wiki/Trigonometrie" hreflang="stq" lang="stq" title="Trigonometrie – 沙特菲士蘭文"><span>Seeltersk</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Trigonometri" hreflang="sv" lang="sv" title="Trigonometri – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Trigonometria" hreflang="sw" lang="sw" title="Trigonometria – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AF%81%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AF%8B%E0%AE%A3%E0%AE%B5%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D" hreflang="ta" lang="ta" title="முக்கோணவியல் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BF%E0%B0%95%E0%B1%8B%E0%B0%A3%E0%B0%AE%E0%B0%BF%E0%B0%A4%E0%B0%BF" hreflang="te" lang="te" title="త్రికోణమితి – 泰卢固语"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="tg" lang="tg" title="Тригонометрия – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B9%82%E0%B8%81%E0%B8%93%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%B4" hreflang="th" lang="th" title="ตรีโกณมิติ – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tk mw-list-item"><a class="interlanguage-link-target" href="https://tk.wikipedia.org/wiki/Trigonometri%C3%BDa" hreflang="tk" lang="tk" title="Trigonometriýa – 土库曼语"><span>Türkmençe</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Trigonometriya" hreflang="tl" lang="tl" title="Trigonometriya – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Trigonometri" hreflang="tr" lang="tr" title="Trigonometri – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D1%8F" hreflang="tt" lang="tt" title="Тригонометрия – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%A2%D1%80%D0%B8%D0%B3%D0%BE%D0%BD%D0%BE%D0%BC%D0%B5%D1%82%D1%80%D1%96%D1%8F" hreflang="uk" lang="uk" title="Тригонометрія – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%85%D8%AB%D9%84%D8%AB%DB%8C%D8%A7%D8%AA" hreflang="ur" lang="ur" title="مثلثیات – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Trigonometriya" hreflang="uz" lang="uz" title="Trigonometriya – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a class="interlanguage-link-target" href="https://vec.wikipedia.org/wiki/Trigonometria" hreflang="vec" lang="vec" title="Trigonometria – 威尼斯文"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/L%C6%B0%E1%BB%A3ng_gi%C3%A1c" hreflang="vi" lang="vi" title="Lượng giác – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wa mw-list-item"><a class="interlanguage-link-target" href="https://wa.wikipedia.org/wiki/Trigonometreye" hreflang="wa" lang="wa" title="Trigonometreye – 瓦隆语"><span>Walon</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Trigonometriya" hreflang="war" lang="war" title="Trigonometriya – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" hreflang="wuu" lang="wuu" title="三角学 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a class="interlanguage-link-target" href="https://xmf.wikipedia.org/wiki/%E1%83%A2%E1%83%A0%E1%83%98%E1%83%92%E1%83%9D%E1%83%9C%E1%83%9D%E1%83%9B%E1%83%94%E1%83%A2%E1%83%A0%E1%83%98%E1%83%90" hreflang="xmf" lang="xmf" title="ტრიგონომეტრია – 明格列爾文"><span>მარგალური</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%98%D7%A8%D7%99%D7%92%D7%90%D7%A0%D7%90%D7%9E%D7%A2%D7%98%D7%A8%D7%99%D7%A2" hreflang="yi" lang="yi" title="טריגאנאמעטריע – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/Trigonom%E1%BA%B9%CC%81tr%C3%AC" hreflang="yo" lang="yo" title="Trigonomẹ́trì – 约鲁巴语"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/Sa%E2%81%BF-kak-hoat" hreflang="nan" lang="nan" title="Saⁿ-kak-hoat – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E4%B8%89%E8%A7%92%E5%AD%B8" hreflang="yue" lang="yue" title="三角學 – Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q8084#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年2月20日 (星期日) 08:38。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E4%B8%89%E8%A7%92%E5%AD%A6&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.362","walltime":"0.497","ppvisitednodes":{"value":1518,"limit":1000000},"postexpandincludesize":{"value":92607,"limit":2097152},"templateargumentsize":{"value":596,"limit":2097152},"expansiondepth":{"value":7,"limit":100},"expensivefunctioncount":{"value":9,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":10848,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  296.603      1 -total"," 30.37%   90.065      1 Template:Lang-en"," 19.25%   57.094      1 Template:Reflist"," 17.03%   50.497      4 Template:Cite_book"," 11.47%   34.018      1 Template:NoteTA"," 10.98%   32.566      1 Template:数学主要领域"," 10.48%   31.071      1 Template:三角学","  9.93%   29.448      1 Template:Navbox","  9.91%   29.393      1 Template:Sidebar","  6.45%   19.128      4 Template:Le"]},"scribunto":{"limitreport-timeusage":{"value":"0.156","limit":"10.000"},"limitreport-memusage":{"value":16011325,"limit":52428800}},"cachereport":{"origin":"mw1454","timestamp":"20221004172024","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u4e09\u89d2\u5b66","url":"https:\/\/zh.wikipedia.org\/wiki\/%E4%B8%89%E8%A7%92%E5%AD%A6","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8084","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8084","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-23T14:40:19Z","dateModified":"2022-02-20T08:38:58Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9d\/Circle-trig6.svg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u4e09\u89d2\u5b66","url":"https:\/\/zh.wikipedia.org\/wiki\/%E4%B8%89%E8%A7%92%E5%AD%A6","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8084","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8084","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-23T14:40:19Z","dateModified":"2022-02-20T08:38:58Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9d\/Circle-trig6.svg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":168,"wgHostname":"mw1329"});});</script>
+</body>
+</html>

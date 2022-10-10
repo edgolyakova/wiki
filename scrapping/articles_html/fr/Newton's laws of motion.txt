@@ -1,0 +1,1563 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Lois du mouvement de Newton — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"1409ad4f-0a9c-4185-9ce7-fcb05dcb8c77","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Lois_du_mouvement_de_Newton","wgTitle":"Lois du mouvement de Newton","wgCurRevisionId":196655443,"wgRevisionId":196655443,"wgArticleId":17935,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Article à référence souhaitée","Article à référence nécessaire","Article avec une section vide ou incomplète","Article manquant de références depuis janvier 2014","Article manquant de références/Liste complète",
+"Page utilisant un modèle Bases inactif","Page utilisant P1417","Page utilisant P1296","Page utilisant P4342","Page pointant vers des bases externes","Page pointant vers des dictionnaires ou encyclopédies généralistes","Article de Wikipédia avec notice d'autorité","Portail:Physique/Articles liés","Portail:Sciences/Articles liés","Portail:Génie mécanique/Articles liés","Portail:Technologies/Articles liés","Portail:Astronomie/Articles liés","Portail:Sciences de la Terre et de l'Univers/Articles liés","Portail:Histoire des sciences/Articles liés","Portail:Histoire/Articles liés","Isaac Newton","Théorie scientifique","Mécanique céleste","Loi en physique","Principe physique","Mécanique classique","Loi scientifique découverte au XVIIe siècle"],"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Lois_du_mouvement_de_Newton","wgRelevantArticleId":17935,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[]
+,"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":40000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q38433","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading",
+"ext.cite.styles":"ready","ext.math.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks","ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions",
+"ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cjquery.makeCollapsible.styles%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="1869" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="1246" property="og:image:height"/>
+<meta content="640" property="og:image:width"/>
+<meta content="997" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Lois du mouvement de Newton — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Lois_du_mouvement_de_Newton" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Lois_du_mouvement_de_Newton" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Lois_du_mouvement_de_Newton rootpage-Lois_du_mouvement_de_Newton skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Lois+du+mouvement+de+Newton" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Lois+du+mouvement+de+Newton" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Lois+du+mouvement+de+Newton" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Lois_du_mouvement_de_Newton" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Lois_du_mouvement_de_Newton" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;oldid=196655443" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Lois_du_mouvement_de_Newton&amp;id=196655443&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q38433" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Lois+du+mouvement+de+Newton"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Lois_du_mouvement_de_Newton&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Newton%27s_laws_of_motion" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/%C3%89volution_temporelle_des_syst%C3%A8mes_m%C3%A9caniques" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Première_loi_de_Newton_ou_principe_d'inertie">
+<a class="sidebar-toc-link" href="#Première_loi_de_Newton_ou_principe_d'inertie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Première loi de Newton ou principe d'inertie</div>
+</a>
+<button aria-controls="toc-Première_loi_de_Newton_ou_principe_d'inertie-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Première loi de Newton ou principe d'inertie
+				</button>
+<ul class="sidebar-toc-list" id="toc-Première_loi_de_Newton_ou_principe_d'inertie-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Énoncé">
+<a class="sidebar-toc-link" href="#Énoncé">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.1</span>Énoncé</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Énoncé-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Définition_d'un_référentiel_galiléen">
+<a class="sidebar-toc-link" href="#Définition_d'un_référentiel_galiléen">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.2</span>Définition d'un référentiel galiléen</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Définition_d'un_référentiel_galiléen-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Deuxième_loi_de_Newton_ou_principe_fondamental_de_la_dynamique">
+<a class="sidebar-toc-link" href="#Deuxième_loi_de_Newton_ou_principe_fondamental_de_la_dynamique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Deuxième loi de Newton ou principe fondamental de la dynamique</div>
+</a>
+<button aria-controls="toc-Deuxième_loi_de_Newton_ou_principe_fondamental_de_la_dynamique-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Deuxième loi de Newton ou principe fondamental de la dynamique
+				</button>
+<ul class="sidebar-toc-list" id="toc-Deuxième_loi_de_Newton_ou_principe_fondamental_de_la_dynamique-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Énoncé_2">
+<a class="sidebar-toc-link" href="#Énoncé_2">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.1</span>Énoncé</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Énoncé_2-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Retour_sur_le_principe_d'inertie">
+<a class="sidebar-toc-link" href="#Retour_sur_le_principe_d'inertie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.2</span>Retour sur le principe d'inertie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Retour_sur_le_principe_d'inertie-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Troisième_loi_de_Newton_ou_principe_d'action-réaction">
+<a class="sidebar-toc-link" href="#Troisième_loi_de_Newton_ou_principe_d'action-réaction">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Troisième loi de Newton ou principe d'action-réaction</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Troisième_loi_de_Newton_ou_principe_d'action-réaction-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Diverses_lois_de_Newton">
+<a class="sidebar-toc-link" href="#Diverses_lois_de_Newton">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Diverses lois de Newton</div>
+</a>
+<button aria-controls="toc-Diverses_lois_de_Newton-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Diverses lois de Newton
+				</button>
+<ul class="sidebar-toc-list" id="toc-Diverses_lois_de_Newton-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Loi_d'interaction_gravitationnelle">
+<a class="sidebar-toc-link" href="#Loi_d'interaction_gravitationnelle">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.1</span>Loi d'interaction gravitationnelle</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Loi_d'interaction_gravitationnelle-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-«_Quatrième_corollaire_»_de_Newton_:_principe_de_relativité">
+<a class="sidebar-toc-link" href="#«_Quatrième_corollaire_»_de_Newton_:_principe_de_relativité">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4.2</span>« Quatrième corollaire » de Newton : principe de relativité</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-«_Quatrième_corollaire_»_de_Newton_:_principe_de_relativité-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Histoire_et_épistémologie">
+<a class="sidebar-toc-link" href="#Histoire_et_épistémologie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Histoire  et épistémologie</div>
+</a>
+<button aria-controls="toc-Histoire_et_épistémologie-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Histoire  et épistémologie
+				</button>
+<ul class="sidebar-toc-list" id="toc-Histoire_et_épistémologie-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Contexte_historique">
+<a class="sidebar-toc-link" href="#Contexte_historique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.1</span>Contexte historique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Contexte_historique-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Épistémologie">
+<a class="sidebar-toc-link" href="#Épistémologie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.2</span>Épistémologie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Épistémologie-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Approche_de_Laplace_et_de_Noether">
+<a class="sidebar-toc-link" href="#Approche_de_Laplace_et_de_Noether">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5.3</span>Approche de Laplace et de Noether</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Approche_de_Laplace_et_de_Noether-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Problèmes_et_limites">
+<a class="sidebar-toc-link" href="#Problèmes_et_limites">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Problèmes et limites</div>
+</a>
+<button aria-controls="toc-Problèmes_et_limites-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Problèmes et limites
+				</button>
+<ul class="sidebar-toc-list" id="toc-Problèmes_et_limites-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Univers_absolu">
+<a class="sidebar-toc-link" href="#Univers_absolu">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1</span>Univers absolu</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Univers_absolu-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Limites_relativistes">
+<a class="sidebar-toc-link" href="#Limites_relativistes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.2</span>Limites relativistes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Limites_relativistes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Limites_quantiques">
+<a class="sidebar-toc-link" href="#Limites_quantiques">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.3</span>Limites quantiques</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Limites_quantiques-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-3" id="toc-Discontinuité">
+<a class="sidebar-toc-link" href="#Discontinuité">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.3.1</span>Discontinuité</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Discontinuité-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-3" id="toc-Principe_d'incertitude,_inégalités_d'Heisenberg">
+<a class="sidebar-toc-link" href="#Principe_d'incertitude,_inégalités_d'Heisenberg">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.3.2</span>Principe d'incertitude, inégalités d'Heisenberg</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Principe_d'incertitude,_inégalités_d'Heisenberg-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7</span>Notes et références</div>
+</a>
+<button aria-controls="toc-Notes_et_références-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Notes et références
+				</button>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Notes">
+<a class="sidebar-toc-link" href="#Notes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7.1</span>Notes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Références">
+<a class="sidebar-toc-link" href="#Références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">7.2</span>Références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Références-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.1</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.2</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Liens_externes">
+<a class="sidebar-toc-link" href="#Liens_externes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">8.3</span>Liens externes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Liens_externes-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Lois du mouvement de Newton</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 110 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-110 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">110 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Newton_se_bewegingswette" hreflang="af" lang="af" title="Newton se bewegingswette — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Newtonsche_Gesetze" hreflang="gsw" lang="gsw" title="Newtonsche Gesetze — Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86_%D9%86%D9%8A%D9%88%D8%AA%D9%86_%D9%84%D9%84%D8%AD%D8%B1%D9%83%D8%A9" hreflang="ar" lang="ar" title="قوانين نيوتن للحركة — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%A8%E0%A7%B0_%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A7%B0_%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A7%B0" hreflang="as" lang="as" title="নিউটনৰ গতিৰ সূত্ৰ — assamais"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Lleis_de_Newton" hreflang="ast" lang="ast" title="Lleis de Newton — asturien"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Nyuton_qanunlar%C4%B1" hreflang="az" lang="az" title="Nyuton qanunları — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D8%AA%D9%88%D9%86_%DB%8C%D8%A7%D8%B3%D8%A7%D9%84%D8%A7%D8%B1%DB%8C" hreflang="azb" lang="azb" title="نیوتون یاسالاری — South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-bar mw-list-item"><a class="interlanguage-link-target" href="https://bar.wikipedia.org/wiki/Newtonsche_Axiome" hreflang="bar" lang="bar" title="Newtonsche Axiome — bavarois"><span>Boarisch</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%B0%D0%BD%D0%B0" hreflang="be" lang="be" title="Законы Ньютана — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%B0%D0%BD%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Законы Ньютана — Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%BD%D0%B0_%D0%9D%D1%8E%D1%82%D0%BE%D0%BD" hreflang="bg" lang="bg" title="Закони на Нютон — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8%E0%A4%95%E0%A4%B0_%E0%A4%97%E0%A4%A4%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="bh" lang="bh" title="न्यूटनकर गति नियम — Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%AE%E0%A7%82%E0%A6%B9" hreflang="bn" lang="bn" title="নিউটনের গতিসূত্রসমূহ — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Newtonovi_zakoni_kretanja" hreflang="bs" lang="bs" title="Newtonovi zakoni kretanja — bosniaque"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%BE%D0%B9_%D1%85%D1%83%D1%83%D0%BB%D0%B8%D0%BD%D1%83%D1%83%D0%B4" hreflang="bxr" lang="bxr" title="Ньютоной хуулинууд — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Lleis_de_Newton" hreflang="ca" lang="ca" title="Lleis de Newton — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-cdo mw-list-item"><a class="interlanguage-link-target" href="https://cdo.wikipedia.org/wiki/Newton_%C3%B4ng-d%C3%B4ng_d%C3%AAng-l%C5%ADk" hreflang="cdo" lang="cdo" title="Newton ông-dông dêng-lŭk — Min Dong Chinese"><span>Mìng-dĕ̤ng-ngṳ̄</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DB%8C%D8%A7%D8%B3%D8%A7%DA%A9%D8%A7%D9%86%DB%8C_%D8%AC%D9%88%D9%88%DA%B5%DB%95%DB%8C_%D9%86%DB%8C%D9%88%D8%AA%D9%86" hreflang="ckb" lang="ckb" title="یاساکانی جووڵەی نیوتن — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Newtonovy_pohybov%C3%A9_z%C3%A1kony" hreflang="cs" lang="cs" title="Newtonovy pohybové zákony — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D1%81%D0%B0%D0%BA%D0%BA%D1%83%D0%BD%C4%95%D1%81%D0%B5%D0%BC" hreflang="cv" lang="cv" title="Ньютон саккунĕсем — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Deddfau_mudiant_Newton" hreflang="cy" lang="cy" title="Deddfau mudiant Newton — gallois"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Newtons_love" hreflang="da" lang="da" title="Newtons love — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Newtonsche_Gesetze" hreflang="de" lang="de" title="Newtonsche Gesetze — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9D%CF%8C%CE%BC%CE%BF%CE%B9_%CE%BA%CE%AF%CE%BD%CE%B7%CF%83%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9D%CE%B5%CF%8D%CF%84%CF%89%CE%BD%CE%B1" hreflang="el" lang="el" title="Νόμοι κίνησης του Νεύτωνα — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion" hreflang="en" lang="en" title="Newton's laws of motion — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Le%C4%9Doj_de_Newton_pri_movo" hreflang="eo" lang="eo" title="Leĝoj de Newton pri movo — espéranto"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Leyes_de_Newton" hreflang="es" lang="es" title="Leyes de Newton — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Newtoni_seadused" hreflang="et" lang="et" title="Newtoni seadused — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Newtonen_legeak" hreflang="eu" lang="eu" title="Newtonen legeak — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86_%D8%AD%D8%B1%DA%A9%D8%AA_%D9%86%DB%8C%D9%88%D8%AA%D9%86" hreflang="fa" lang="fa" title="قوانین حرکت نیوتن — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Newtonin_lait" hreflang="fi" lang="fi" title="Newtonin lait — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a class="interlanguage-link-target" href="https://fy.wikipedia.org/wiki/Wetten_fan_Newton" hreflang="fy" lang="fy" title="Wetten fan Newton — frison occidental"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Dl%C3%ADthe_gluaisne_Newton" hreflang="ga" lang="ga" title="Dlíthe gluaisne Newton — irlandais"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Lalwa_di_mouvman_di_Newton" hreflang="gcr" lang="gcr" title="Lalwa di mouvman di Newton — créole guyanais"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Leis_de_Newton" hreflang="gl" lang="gl" title="Leis de Newton — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%97%E0%AA%A4%E0%AA%BF%E0%AA%A8%E0%AA%BE_%E0%AA%A8%E0%AA%BF%E0%AA%AF%E0%AA%AE%E0%AB%8B" hreflang="gu" lang="gu" title="ગતિના નિયમો — goudjarati"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7%D7%99_%D7%94%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%A9%D7%9C_%D7%A0%D7%99%D7%95%D7%98%D7%95%D7%9F" hreflang="he" lang="he" title="חוקי התנועה של ניוטון — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8_%E0%A4%95%E0%A5%87_%E0%A4%97%E0%A4%A4%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="hi" lang="hi" title="न्यूटन के गति नियम — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Newtonovi_zakoni_gibanja" hreflang="hr" lang="hr" title="Newtonovi zakoni gibanja — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Newton_t%C3%B6rv%C3%A9nyei" hreflang="hu" lang="hu" title="Newton törvényei — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%86%D5%B5%D5%B8%D6%82%D5%BF%D5%B8%D5%B6%D5%AB_%D6%85%D6%80%D5%A5%D5%B6%D6%84%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Նյուտոնի օրենքներ — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Leges_de_Newton" hreflang="ia" lang="ia" title="Leges de Newton — interlingua"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Hukum_gerak_Newton" hreflang="id" lang="id" title="Hukum gerak Newton — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Legi_di_Newton" hreflang="io" lang="io" title="Legi di Newton — ido"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/L%C3%B6gm%C3%A1l_Newtons" hreflang="is" lang="is" title="Lögmál Newtons — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Principi_della_dinamica" hreflang="it" lang="it" title="Principi della dinamica — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E5%8A%9B%E5%AD%A6" hreflang="ja" lang="ja" title="ニュートン力学 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Nyuutan_laa_a_muoshan" hreflang="jam" lang="jam" title="Nyuutan laa a muoshan — créole jamaïcain"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9C%E1%83%98%E1%83%A3%E1%83%A2%E1%83%9D%E1%83%9C%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98" hreflang="ka" lang="ka" title="ნიუტონის კანონები — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/Newton_ciiduu_pa%C9%A3t%CA%8B_nd%C9%A9_nd%C9%A9" hreflang="kbp" lang="kbp" title="Newton ciiduu paɣtʋ ndɩ ndɩ — Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-ki mw-list-item"><a class="interlanguage-link-target" href="https://ki.wikipedia.org/wiki/Mawatho_matano_ma_Newton" hreflang="ki" lang="ki" title="Mawatho matano ma Newton — kikuyu"><span>Gĩkũyũ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%B7%D0%B0%D2%A3%D0%B4%D0%B0%D1%80%D1%8B" hreflang="kk" lang="kk" title="Ньютон заңдары — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%85%E1%9F%92%E1%9E%94%E1%9E%B6%E1%9E%94%E1%9F%8B%E1%9E%85%E1%9E%9B%E1%9E%93%E1%9E%B6%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%89%E1%9E%BC%E1%9E%8F%E1%9E%BB%E1%9E%93" hreflang="km" lang="km" title="ច្បាប់ចលនារបស់ញូតុន — khmer"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%A8%E0%B3%8D%E0%B2%AF%E0%B3%82%E0%B2%9F%E0%B2%A8%E0%B3%8D%E2%80%8D%E0%B2%A8_%E0%B2%9A%E0%B2%B2%E0%B2%A8%E0%B3%86%E0%B2%AF_%E0%B2%A8%E0%B2%BF%E0%B2%AF%E0%B2%AE%E0%B2%97%E0%B2%B3%E0%B3%81" hreflang="kn" lang="kn" title="ನ್ಯೂಟನ್‍ನ ಚಲನೆಯ ನಿಯಮಗಳು — kannada"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%89%B4%ED%84%B4_%EC%9A%B4%EB%8F%99_%EB%B2%95%EC%B9%99" hreflang="ko" lang="ko" title="뉴턴 운동 법칙 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Leges_motus_Newtoni" hreflang="la" lang="la" title="Leges motus Newtoni — latin"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lg mw-list-item"><a class="interlanguage-link-target" href="https://lg.wikipedia.org/wiki/Amateeka_ga_Newton_Ag%27Okuva(Newton%27s_Laws_of_Motion)" hreflang="lg" lang="lg" title="Amateeka ga Newton Ag'Okuva(Newton's Laws of Motion) — ganda"><span>Luganda</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/W%C3%A8tte_van_Newton" hreflang="li" lang="li" title="Wètte van Newton — limbourgeois"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Niutono_d%C4%97sniai" hreflang="lt" lang="lt" title="Niutono dėsniai — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/%C5%85%C5%ABtona_likumi" hreflang="lv" lang="lv" title="Ņūtona likumi — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%8A%D1%83%D1%82%D0%BD%D0%BE%D0%B2%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8" hreflang="mk" lang="mk" title="Њутнови закони — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A8%E0%B5%8D%E0%B4%B1%E0%B5%86_%E0%B4%9A%E0%B4%B2%E0%B4%A8%E0%B4%A8%E0%B4%BF%E0%B4%AF%E0%B4%AE%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B5%BE" hreflang="ml" lang="ml" title="ന്യൂട്ടന്റെ ചലനനിയമങ്ങൾ — malayalam"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D1%8B_%D1%85%D1%83%D1%83%D0%BB%D0%B8%D1%83%D0%B4" hreflang="mn" lang="mn" title="Ньютоны хуулиуд — mongol"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8%E0%A4%9A%E0%A5%87_%E0%A4%97%E0%A4%A4%E0%A5%80%E0%A4%9A%E0%A5%87_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="mr" lang="mr" title="न्यूटनचे गतीचे नियम — marathi"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Hukum-hukum_gerakan_Newton" hreflang="ms" lang="ms" title="Hukum-hukum gerakan Newton — malais"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%94%E1%80%9A%E1%80%B0%E1%80%90%E1%80%94%E1%80%BA%E1%81%8F_%E1%80%9B%E1%80%BD%E1%80%B1%E1%80%B7%E1%80%9C%E1%80%BB%E1%80%AC%E1%80%B8%E1%80%99%E1%80%BE%E1%80%AF%E1%80%86%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%9B%E1%80%AC_%E1%80%94%E1%80%AD%E1%80%9A%E1%80%AC%E1%80%99%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8" hreflang="my" lang="my" title="နယူတန်၏ ရွေ့လျားမှုဆိုင်ရာ နိယာမများ — birman"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds-nl mw-list-item"><a class="interlanguage-link-target" href="https://nds-nl.wikipedia.org/wiki/Newton_zien_wetten" hreflang="nds-NL" lang="nds-NL" title="Newton zien wetten — bas-saxon néerlandais"><span>Nedersaksies</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%9F%E0%A4%A8%E0%A4%95%E0%A5%8B_%E0%A4%97%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%B0%E0%A5%82" hreflang="ne" lang="ne" title="न्युटनको गतिका नियमहरू — népalais"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Wetten_van_Newton" hreflang="nl" lang="nl" title="Wetten van Newton — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Newtons_r%C3%B8rslelover" hreflang="nn" lang="nn" title="Newtons rørslelover — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Newtons_bevegelseslover" hreflang="nb" lang="nb" title="Newtons bevegelseslover — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Leis_de_Newton" hreflang="oc" lang="oc" title="Leis de Newton — occitan"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%A8%E0%A8%BF%E0%A8%8A%E0%A8%9F%E0%A8%A8_%E0%A8%A6%E0%A9%87_%E0%A8%97%E0%A8%A4%E0%A9%80_%E0%A8%A6%E0%A9%87_%E0%A8%A8%E0%A8%BF%E0%A8%AF%E0%A8%AE" hreflang="pa" lang="pa" title="ਨਿਊਟਨ ਦੇ ਗਤੀ ਦੇ ਨਿਯਮ — pendjabi"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Zasady_dynamiki_Newtona" hreflang="pl" lang="pl" title="Zasady dynamiki Newtona — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Lej_d%C3%ABl_moviment_%C3%ABd_Newton" hreflang="pms" lang="pms" title="Lej dël moviment ëd Newton — piémontais"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D9%B9%D9%86_%D8%AF%DB%92_%DA%86%D9%84%D9%86_%D8%AF%DB%92_%D9%82%D9%86%D9%88%D9%86" hreflang="pnb" lang="pnb" title="نیوٹن دے چلن دے قنون — Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a class="interlanguage-link-target" href="https://ps.wikipedia.org/wiki/%D8%AF_%D8%AE%D9%88%DA%81%DA%9A%D8%AA_%D9%BE%D9%87_%D8%A7%DA%93%D9%87_%D8%AF_%D9%86%DB%8C%D9%88%D9%BC%D9%86_%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86" hreflang="ps" lang="ps" title="د خوځښت په اړه د نیوټن قوانین — pachto"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Leis_de_Newton" hreflang="pt" lang="pt" title="Leis de Newton — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Legile_lui_Newton" hreflang="ro" lang="ro" title="Legile lui Newton — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0" hreflang="ru" lang="ru" title="Законы Ньютона — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D1%81%D0%BE%D0%BA%D1%83%D0%BE%D0%BD%D0%BD%D0%B0%D1%80%D0%B0" hreflang="sah" lang="sah" title="Ньютон сокуоннара — iakoute"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Liggi_di_Newton" hreflang="scn" lang="scn" title="Liggi di Newton — sicilien"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a class="interlanguage-link-target" href="https://sd.wikipedia.org/wiki/%D9%86%D9%8A%D9%88%D9%BD%D9%86_%D8%AC%D9%8A_%D8%AD%D8%B1%DA%AA%D8%AA_%D8%AC%D8%A7_%D9%82%D8%A7%D9%86%D9%88%D9%86" hreflang="sd" lang="sd" title="نيوٽن جي حرڪت جا قانون — sindhi"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Newtonovi_zakoni_kretanja" hreflang="sh" lang="sh" title="Newtonovi zakoni kretanja — serbo-croate"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-shi mw-list-item"><a class="interlanguage-link-target" href="https://shi.wikipedia.org/wiki/Islgan_n_umussu_n_Nyu%E1%B9%ADun" hreflang="shi" lang="shi" title="Islgan n umussu n Nyuṭun — chleuh"><span>Taclḥit</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%A0%E0%B6%BD%E0%B7%92%E0%B6%AD%E0%B6%BA_%E0%B6%B4%E0%B7%92%E0%B7%85%E0%B7%92%E0%B6%B6%E0%B6%B3_%E0%B6%B1%E0%B7%92%E0%B7%80%E0%B7%8A%E0%B6%A7%E0%B6%B1%E0%B7%8A_%E0%B6%B1%E0%B7%92%E0%B6%BA%E0%B6%B8" hreflang="si" lang="si" title="චලිතය පිළිබඳ නිව්ටන් නියම — cingalais"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Newton%27s_laws_of_motion" hreflang="en-simple" lang="en-simple" title="Newton's laws of motion — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Newtonove_pohybov%C3%A9_z%C3%A1kony" hreflang="sk" lang="sk" title="Newtonove pohybové zákony — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Newtonovi_zakoni_gibanja" hreflang="sl" lang="sl" title="Newtonovi zakoni gibanja — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Mitemo_yaNewton_paMuhambo" hreflang="sn" lang="sn" title="Mitemo yaNewton paMuhambo — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Ligjet_e_Njutonit" hreflang="sq" lang="sq" title="Ligjet e Njutonit — albanais"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%8A%D1%83%D1%82%D0%BD%D0%BE%D0%B2%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8" hreflang="sr" lang="sr" title="Њутнови закони — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Hukum_gerak_Newton" hreflang="su" lang="su" title="Hukum gerak Newton — soundanais"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Newtons_r%C3%B6relselagar" hreflang="sv" lang="sv" title="Newtons rörelselagar — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%BF%E0%AE%AF%E0%AF%82%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A9%E0%AE%BF%E0%AE%A9%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95_%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D" hreflang="ta" lang="ta" title="நியூட்டனின் இயக்க விதிகள் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B1%82%E0%B0%9F%E0%B0%A8%E0%B1%8D_%E0%B0%B8%E0%B1%82%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B2%E0%B1%81" hreflang="te" lang="te" title="న్యూటన్ సూత్రాలు — télougou"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%8E%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B4%E0%B8%A7%E0%B8%95%E0%B8%B1%E0%B8%99" hreflang="th" lang="th" title="กฎการเคลื่อนที่ของนิวตัน — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Mga_batas_ng_mosyon_ni_Newton" hreflang="tl" lang="tl" title="Mga batas ng mosyon ni Newton — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Newton%27un_hareket_yasalar%C4%B1" hreflang="tr" lang="tr" title="Newton'un hareket yasaları — turc"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BD%D0%B0%D1%80%D1%8B" hreflang="tt" lang="tt" title="Ньютон законнары — tatar"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0" hreflang="uk" lang="uk" title="Закони Ньютона — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D9%B9%D9%86_%DA%A9%DB%92_%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86_%D8%AD%D8%B1%DA%A9%D8%AA" hreflang="ur" lang="ur" title="نیوٹن کے قوانین حرکت — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Newtonning_mexanika_qonunlari" hreflang="uz" lang="uz" title="Newtonning mexanika qonunlari — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/C%C3%A1c_%C4%91%E1%BB%8Bnh_lu%E1%BA%ADt_v%E1%BB%81_chuy%E1%BB%83n_%C4%91%E1%BB%99ng_c%E1%BB%A7a_Newton" hreflang="vi" lang="vi" title="Các định luật về chuyển động của Newton — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Balaod_nga_mosyon_ha_Newton" hreflang="war" lang="war" title="Balaod nga mosyon ha Newton — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="wuu" lang="wuu" title="牛顿运动定律 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/%C3%80w%E1%BB%8Dn_%C3%B2fin_%C3%ACm%C3%BAr%C3%ACn_Newton" hreflang="yo" lang="yo" title="Àwọn òfin ìmúrìn Newton — yoruba"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh" lang="zh" title="牛顿运动定律 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E7%89%9B%E9%A0%93%E5%AE%9A%E5%BE%8B" hreflang="lzh" lang="lzh" title="牛頓定律 — Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E7%89%9B%E9%A0%93%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" hreflang="yue" lang="yue" title="牛頓運動定律 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q38433#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Lois_du_mouvement_de_Newton" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Lois_du_mouvement_de_Newton" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Lois_du_mouvement_de_Newton"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Lois_du_mouvement_de_Newton"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote"><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Redirection" title="Aide:Redirection"><img alt="Page d’aide sur les redirections" class="noviewer" data-file-height="88" data-file-width="225" decoding="async" height="8" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Arrows-move.svg/20px-Arrows-move.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/59/Arrows-move.svg/30px-Arrows-move.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/59/Arrows-move.svg/40px-Arrows-move.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>« Lois de Newton » redirige ici. Pour les autres significations, voir <a class="mw-disambig" href="/wiki/Loi_de_Newton" title="Loi de Newton">Loi de Newton</a>.
+</p>
+</div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:282px;"><a class="image" href="/wiki/Fichier:Newtons_laws_in_latin.jpg"><img alt="" class="thumbimage" data-file-height="461" data-file-width="296" decoding="async" height="436" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Newtons_laws_in_latin.jpg/280px-Newtons_laws_in_latin.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg 1.5x" width="280"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Newtons_laws_in_latin.jpg" title="Agrandir"></a></div>Les deux premières lois de <a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a> en latin dans l'édition originale du <a class="mw-redirect" href="/wiki/Philosophiae_naturalis_principia_mathematica" title="Philosophiae naturalis principia mathematica">Principia Mathematica</a> de <a href="/wiki/1687" title="1687">1687</a>.</div></div></div>
+<p>Les <b>lois du mouvement de Newton</b> ont été énoncées dans son ouvrage <i><a class="mw-redirect" href="/wiki/Philosophiae_naturalis_principia_mathematica" title="Philosophiae naturalis principia mathematica">Philosophiae naturalis principia mathematica</a></i> en 1687. Il s'agit en fait des <i>principes</i> à la base de la grande théorie de <a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a> concernant le mouvement des corps, théorie que l'on nomme aujourd'hui <a href="/wiki/M%C3%A9canique_newtonienne" title="Mécanique newtonienne">mécanique newtonienne</a> ou encore mécanique classique. À ces lois générales du mouvement fondées en particulier sur le principe de relativité des mouvements, Newton a ajouté la loi de la <a href="/wiki/Gravitation" title="Gravitation">gravitation</a> universelle permettant d'interpréter aussi bien la chute des corps que le mouvement de la <a href="/wiki/Lune" title="Lune">Lune</a> autour de la <a href="/wiki/Terre" title="Terre">Terre</a>.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span id="Premi.C3.A8re_loi_de_Newton_ou_principe_d.27inertie"></span><span class="mw-headline" id="Première_loi_de_Newton_ou_principe_d'inertie">Première loi de Newton ou principe d'inertie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=1" title="Modifier la section : Première loi de Newton ou principe d'inertie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=1" title="Modifier la section : Première loi de Newton ou principe d'inertie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a class="mw-redirect" href="/wiki/Principe_d%27inertie" title="Principe d'inertie">Principe d'inertie</a>.</div></div>
+<h3><span id=".C3.89nonc.C3.A9"></span><span class="mw-headline" id="Énoncé">Énoncé</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=2" title="Modifier la section : Énoncé">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=2" title="Modifier la section : Énoncé">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>L'énoncé originel de la première loi du mouvement<sup class="reference" id="cite_ref-PNPM_Newton_1-0"><a href="#cite_note-PNPM_Newton-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup> est le suivant :
+</p>
+<blockquote>
+<p>« Tout corps persévère dans l'état de repos ou de mouvement uniforme en ligne droite dans lequel il se trouve, à moins que quelque force n'agisse sur lui, et ne le contraigne à changer d'état. »
+</p>
+</blockquote>
+<p>Dans la formulation moderne de la loi, on parle de <a href="/wiki/Mouvement_rectiligne" title="Mouvement rectiligne">mouvement rectiligne</a> uniforme, et on remplace la notion de <a href="/wiki/Force_(physique)" title="Force (physique)">force</a> (unique) par celle, plus générale, de résultante des forces appliquées sur le corps. Autrement dit, s'il n'y a pas de force qui s'exerce sur un corps (corps isolé), ou si la somme des forces (<a href="/wiki/Force_r%C3%A9sultante" title="Force résultante">résultante des forces</a>) s'exerçant sur lui est égale au <a href="/wiki/Vecteur_nul" title="Vecteur nul">vecteur nul</a> (corps pseudo-isolé), sa <a href="/wiki/Vitesse" title="Vitesse">vitesse</a> est constante (la direction, le sens et la norme sont constants) ou, ce qui revient au même, son <a href="/wiki/Acc%C3%A9l%C3%A9ration" title="Accélération">accélération</a> est nulle. Cette première loi infirme la conception héritée d'<a href="/wiki/Aristote" title="Aristote">Aristote</a>, <span class="need_ref" style="cursor:help;" title="Une source est souhaitée pour ce passage.">selon laquelle pour maintenir la vitesse d'un mobile constante, il était nécessaire de lui appliquer une force continue (ce qui, dans la pratique, est vrai, mais que l'on explique par la nécessité d'« annuler » les forces dues aux frottements qui ne sont pas nulles en dehors du vide et de toute influence gravitationnelle)</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[<abbr class="abbr" title="référence">réf.</abbr> souhaitée]</a></sup>.
+</p><p>Le mouvement considéré par Newton a lieu par rapport à un espace mathématique abstrait qu'il suppose absolu. Sa première loi s'applique également dans des référentiels en translation uniforme par rapport à cet espace absolu, appelés <a href="/wiki/R%C3%A9f%C3%A9rentiel_galil%C3%A9en" title="Référentiel galiléen">référentiels galiléens</a>. Au <a href="/wiki/XIXe_si%C3%A8cle" title="XIXe siècle"><abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, la notion d'espace absolu est peu à peu abandonnée au profit des seuls référentiels galiléens. La première loi de Newton se reformule donc aujourd'hui sous la forme :
+</p>
+<dl><dd>Dans un référentiel galiléen, le vecteur vitesse du <a href="/wiki/Centre_d%27inertie" title="Centre d'inertie">centre d'inertie</a> d'un système est constant si et seulement si la somme des vecteurs forces qui s'exercent sur le système est un vecteur nul.</dd></dl>
+<h3><span id="D.C3.A9finition_d.27un_r.C3.A9f.C3.A9rentiel_galil.C3.A9en"></span><span class="mw-headline" id="Définition_d'un_référentiel_galiléen">Définition d'un référentiel galiléen</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=3" title="Modifier la section : Définition d'un référentiel galiléen">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=3" title="Modifier la section : Définition d'un référentiel galiléen">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Recherche_d%27un_r%C3%A9f%C3%A9rentiel_inertiel" title="Recherche d'un référentiel inertiel">Recherche d'un référentiel inertiel</a>.</div></div>
+<p>La définition d'un référentiel galiléen apparaît fondamentale et est souvent formulée ainsi :
+</p>
+<dl><dd>Un référentiel galiléen est un référentiel dans lequel la première loi de Newton est vérifiée.</dd></dl>
+<p>Ainsi la première loi de Newton ne s'applique que dans un référentiel galiléen et un référentiel galiléen est un référentiel où la première loi de Newton s'applique… ce qui apparaît comme une définition circulaire. Pour éviter ce problème, on réécrit le principe d'inertie sous la forme <a href="/wiki/Axiome" title="Axiome">axiomatique</a> suivante :
+</p>
+<dl><dd>Il existe une famille de référentiels, appelés galiléens ou inertiels, tels que, par rapport à l'un de ces référentiels, tout point matériel pseudo-isolé (qui est soumis à des forces externes dont la somme est nulle) est soit au repos, soit animé d'un mouvement rectiligne uniforme.</dd></dl>
+<p>La détermination d'un <i>bon</i> référentiel galiléen est en réalité expérimentale et comme souvent en physique, seule la cohérence entre la théorie (ici la première loi de Newton) et la <a href="/wiki/Mesure_physique" title="Mesure physique">mesure</a> (mouvement rectiligne uniforme) valide le choix <i>a posteriori</i>.
+</p>
+<h2><span id="Deuxi.C3.A8me_loi_de_Newton_ou_principe_fondamental_de_la_dynamique"></span><span class="mw-headline" id="Deuxième_loi_de_Newton_ou_principe_fondamental_de_la_dynamique">Deuxième loi de Newton ou principe fondamental de la dynamique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=4" title="Modifier la section : Deuxième loi de Newton ou principe fondamental de la dynamique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=4" title="Modifier la section : Deuxième loi de Newton ou principe fondamental de la dynamique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Principe_fondamental_de_la_dynamique" title="Principe fondamental de la dynamique">Principe fondamental de la dynamique</a>.</div></div>
+<h3><span id=".C3.89nonc.C3.A9_2"></span><span class="mw-headline" id="Énoncé_2">Énoncé</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=5" title="Modifier la section : Énoncé">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=5" title="Modifier la section : Énoncé">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>L'énoncé original<sup class="reference" id="cite_ref-PNPM_Newton_1-1"><a href="#cite_note-PNPM_Newton-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup> de la deuxième loi de Newton est le suivant :
+</p>
+<blockquote>
+<p>« Les changements qui arrivent dans le mouvement sont proportionnels à la force motrice ; et se font dans la ligne droite dans laquelle cette force a été imprimée. »
+</p>
+</blockquote>
+<p>Dans sa version moderne, on la nomme principe fondamental de la dynamique (PFD), parfois appelée relation fondamentale de la dynamique (RFD), et s'énonce ainsi :
+</p>
+<dl><dd>Dans un référentiel galiléen, la dérivée de la <a href="/wiki/Quantit%C3%A9_de_mouvement" title="Quantité de mouvement">quantité de mouvement</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {p}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>p</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {p}}}</annotation>
+</semantics>
+</math></span><img alt="{\vec  p}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/84fee53c81592db54e0fe6c6f9eba002bb1dc74b" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.415ex; height:2.676ex;"/></span> d'un solide est égale à la somme des <a href="/wiki/Forces_int%C3%A9rieures_et_forces_ext%C3%A9rieures" title="Forces intérieures et forces extérieures">forces extérieures</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{i}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{i}}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_i" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/25217b2c5d05eb7a0b81b0d2beb5e7a339047b2a" style="vertical-align: -0.671ex; width:2.317ex; height:3.176ex;"/></span> qui s'exercent sur le solide :</dd>
+<dd><div style="display:table; margin-top:1.5em; margin-bottom:1.5em; overflow:hidden; border:1px solid #aaa; padding:1em; background:#fff; margin-right:auto; margin-left:auto;;"><div class="mwe-math-element"><div class="mwe-math-mathml-display mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\mathrm {d} {\vec {p}}}{\mathrm {d} t}}=\sum _{i}{\vec {\mathrm {F} }}_{i}}" display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>p</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<munder>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</munder>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\mathrm {d} {\vec {p}}}{\mathrm {d} t}}=\sum _{i}{\vec {\mathrm {F} }}_{i}}</annotation>
+</semantics>
+</math></div><img alt="{\displaystyle {\frac {\mathrm {d} {\vec {p}}}{\mathrm {d} t}}=\sum _{i}{\vec {\mathrm {F} }}_{i}}" aria-hidden="true" class="mwe-math-fallback-image-display" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/beae95ff52ec7fb4a3edd4eb554dfba1fd24c130" style="vertical-align: -3.005ex; width:12.612ex; height:6.676ex;"/></div></div></dd></dl>
+<p>Cette expression de la deuxième loi de Newton n'étant valable que pour un système de masse constante<sup class="reference" id="cite_ref-Halliday_2-0"><a href="#cite_note-Halliday-2"><span class="cite_crochet">[</span>2<span class="cite_crochet">]</span></a></sup>, elle peut être reformulée de façon équivalente de la manière suivante :
+</p>
+<dl><dd>Soit un corps de masse <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span> (constante) : l'<a href="/wiki/Acc%C3%A9l%C3%A9ration" title="Accélération">accélération</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>a</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {a}}}</annotation>
+</semantics>
+</math></span><img alt="{\vec  a}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/546e6615827e17295718741fd0b86f639a947f16" style="vertical-align: -0.338ex; width:1.23ex; height:2.343ex;"/></span> de son <a href="/wiki/Centre_d%27inertie" title="Centre d'inertie">centre d'inertie</a> dans un référentiel galiléen est proportionnelle à la résultante des forces qu'il subit. Le coefficient de proportionnalité est <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1/m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1/m}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle 1/m}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/398c16f942e75bc5908ad484918c54794cfbe477" style="vertical-align: -0.838ex; width:4.365ex; height:2.843ex;"/></span>.</dd></dl>
+<p>Ceci est souvent récapitulé dans l'équation :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {a}}={\frac {1}{m}}\sum _{i}{{\vec {\mathrm {F} }}_{i}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>a</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>m</mi>
+</mfrac>
+</mrow>
+<munder>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</munder>
+<mrow class="MJX-TeXAtom-ORD">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {a}}={\frac {1}{m}}\sum _{i}{{\vec {\mathrm {F} }}_{i}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\vec {a}}={\frac {1}{m}}\sum _{i}{{\vec {\mathrm {F} }}_{i}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ce5a34efdcbe454a69e8b879e0005c809b0439ee" style="vertical-align: -3.005ex; width:13.651ex; height:6.343ex;"/></span></dd>
+<dd>ou, de façon équivalente :</dd></dl>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum _{i}{{\vec {\mathrm {F} }}_{i}}=m{\vec {a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<munder>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</munder>
+<mrow class="MJX-TeXAtom-ORD">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mrow>
+<mo>=</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>a</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum _{i}{{\vec {\mathrm {F} }}_{i}}=m{\vec {a}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sum _{i}{{\vec {\mathrm {F} }}_{i}}=m{\vec {a}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dd59d99cfd27557b94d560033007ce7f6b2f71d3" style="vertical-align: -3.005ex; width:12.428ex; height:5.509ex;"/></span></dd></dl>
+<h3><span id="Retour_sur_le_principe_d.27inertie"></span><span class="mw-headline" id="Retour_sur_le_principe_d'inertie">Retour sur le principe d'inertie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=6" title="Modifier la section : Retour sur le principe d'inertie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=6" title="Modifier la section : Retour sur le principe d'inertie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Pour un corps soumis à une résultante des forces nulle, on retrouve bien la première loi de Newton, c’est-à-dire un mouvement rectiligne uniforme. En première analyse, on peut se demander quelle est l'utilité de la première loi puisqu'elle semble être une conséquence de la deuxième. En réalité, dans l'énoncé de Newton, il n'en est rien car la première loi n'est pas présentée comme un cas particulier de la deuxième mais comme une <i>condition suffisante</i> à l'application de cette dernière.
+</p><p>En effet, énoncer la première loi, c'est tout d'abord affirmer l'<i>existence</i> des référentiels galiléens. Cela constitue un <a href="/wiki/Postulat" title="Postulat">postulat</a> extrêmement fort qui permet, dans les exposés modernes de la <a class="mw-redirect" href="/wiki/M%C3%A9canique_classique" title="Mécanique classique">mécanique classique</a>, de définir les <a href="/wiki/R%C3%A9f%C3%A9rentiel_galil%C3%A9en" title="Référentiel galiléen">repères galiléens</a> qui sont les seuls repères dans lesquels la seconde loi est valide. En l'absence de la première loi, la seconde loi est inapplicable puisqu'on ne peut pas définir son domaine de validité. Par conséquent, l'ordre logique dans lequel les lois sont énoncées n'est pas le fruit du hasard mais bien celui d'une construction intellectuelle cohérente.
+</p><p>Ensuite, cette première loi énonce le principe d'<i>isolement</i> du solide : on considère les forces <i>extérieures</i> qui agissent sur lui, et on ne prend pas en compte ce qui se passe en interne.
+</p>
+<h2><span id="Troisi.C3.A8me_loi_de_Newton_ou_principe_d.27action-r.C3.A9action"></span><span class="mw-headline" id="Troisième_loi_de_Newton_ou_principe_d'action-réaction">Troisième loi de Newton ou principe d'action-réaction</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=7" title="Modifier la section : Troisième loi de Newton ou principe d'action-réaction">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=7" title="Modifier la section : Troisième loi de Newton ou principe d'action-réaction">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/Fichier:Skaters_showing_newtons_third_law.svg"><img alt="" class="thumbimage" data-file-height="392" data-file-width="474" decoding="async" height="207" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skaters_showing_newtons_third_law.svg/250px-Skaters_showing_newtons_third_law.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skaters_showing_newtons_third_law.svg/375px-Skaters_showing_newtons_third_law.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Skaters_showing_newtons_third_law.svg/500px-Skaters_showing_newtons_third_law.svg.png 2x" width="250"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Skaters_showing_newtons_third_law.svg" title="Agrandir"></a></div>Illustration de la <abbr class="abbr" title="Troisième">3<sup>e</sup></abbr> loi de Newton : actions mutuelles de deux patineurs.</div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:452px;"><a class="image" href="/wiki/Fichier:Deux_cosmonautes_se_repoussent.png"><img alt="" class="thumbimage" data-file-height="351" data-file-width="794" decoding="async" height="199" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Deux_cosmonautes_se_repoussent.png/450px-Deux_cosmonautes_se_repoussent.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Deux_cosmonautes_se_repoussent.png/675px-Deux_cosmonautes_se_repoussent.png 1.5x, //upload.wikimedia.org/wikipedia/commons/0/08/Deux_cosmonautes_se_repoussent.png 2x" width="450"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Deux_cosmonautes_se_repoussent.png" title="Agrandir"></a></div>Illustration de la <abbr class="abbr" title="Troisième">3<sup>e</sup></abbr> loi de Newton dans l'espace : Deux astronautes se repoussent. Le <i>Centre des masses commun</i> (ou <i>Centre des inerties commun</i>) est nommé ici <i>CdM commun</i>. Lorsque les astronautes s'éloignent l'un de l'autre, ce <i>Centre des Masses commun</i> reste à la même place<sup class="reference" id="cite_ref-3"><a href="#cite_note-3"><span class="cite_crochet">[</span>3<span class="cite_crochet">]</span></a></sup>.</div></div></div>
+<p>L'énoncé original<sup class="reference" id="cite_ref-4"><a href="#cite_note-4"><span class="cite_crochet">[</span>4<span class="cite_crochet">]</span></a></sup> est le suivant :
+</p>
+<div style="text-align:center; overflow:hidden;"><blockquote>
+<p>« L'action est toujours égale à la réaction ; c'est-à-dire que les actions de deux corps l'un sur l'autre sont toujours égales et de sens contraires. »
+</p>
+</blockquote><p style="margin:-0.7em 0 0.3em 6em">— Isaac Newton</p></div>
+<p>De manière moderne, on exprime que :
+</p>
+<dl><dd>Tout corps A exerçant une force sur un corps B subit une force d'intensité égale, de même direction mais de sens opposé, exercée par le corps B.</dd></dl>
+<p>A et B étant deux corps en <a href="/wiki/M%C3%A9canique_du_point" title="Mécanique du point">interaction</a>, la force <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">B</mi>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_{\mathrm{A/B}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6d237b54d5369ba4e2a13d0b50c4f4b87c3570d" style="vertical-align: -1.171ex; width:4.968ex; height:3.676ex;"/></span> (exercée par A sur B) et la force <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {B/A} }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">B</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">A</mi>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {B/A} }}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_{\mathrm{B/A}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/54e6c8d44ab9ee3b6131f591d3088bdf32d4823f" style="vertical-align: -1.171ex; width:4.968ex; height:3.676ex;"/></span> (exercée par B sur A) qui décrivent l'interaction sont directement opposées et portées par la droite <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (AB)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (AB)}</annotation>
+</semantics>
+</math></span><img alt="(AB)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4a64b52a4236a27caec785f68ca74828b1e3b12b" style="vertical-align: -0.838ex; width:5.316ex; height:2.843ex;"/></span>:
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }=-{\vec {\mathrm {F} }}_{\mathrm {B/A} }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">B</mi>
+</mrow>
+</mrow>
+</msub>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">B</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">A</mi>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }=-{\vec {\mathrm {F} }}_{\mathrm {B/A} }}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_{\mathrm{A/B}} = -\vec{\mathrm{F}}_{\mathrm{B/A}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2befd0b9987c8f10ff77e2a8f2e1d2a5123e3565" style="vertical-align: -1.171ex; width:14.843ex; height:3.676ex;"/></span>et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {F}}_{A/B}\wedge {\vec {AB}}={\vec {0}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>F</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi>B</mi>
+</mrow>
+</msub>
+<mo>∧<!-- ∧ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow>
+<mi>A</mi>
+<mi>B</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mn>0</mn>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {F}}_{A/B}\wedge {\vec {AB}}={\vec {0}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\vec {F}}_{A/B}\wedge {\vec {AB}}={\vec {0}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/57487cc71f00f2a1cdaf778ab25bc764d2207528" style="vertical-align: -1.171ex; width:15.656ex; height:4.509ex;"/></span></dd></dl>
+<p>Ces forces ont la même droite d'action, des sens opposés et la même norme. Ces deux forces sont toujours directement opposées, que A et B soient immobiles ou en mouvement.<br/>
+Les images ci-contre illustrent cette <abbr class="abbr" title="Troisième">3<sup>e</sup></abbr> loi : Deux patineurs qui se repoussent (à partir de l'arrêt) se projettent mutuellement en accélérant au <i>prorata</i> inverse de leur masse (si le très faible frottement des patins est négligé). La même expérience est envisageable dans l'espace : si deux astronautes se repoussent, ils s’éloigneront l'un de l'autre en accélérant au <i>prorata</i> inverse de leur masse. Le grand danger de cette expérience est que les astronautes peuvent être réellement projetés <i>à l'infini</i>.
+</p><p>Pour cette <abbr class="abbr" title="Troisième">3<sup>e</sup></abbr> loi, il faut là encore revenir sur la modélisation, c'est-à-dire sur le passage de la réalité à la description vectorielle. Dans le cas d'une action de contact, c'est assez simple : si Albert pousse de 100 <abbr class="abbr" title="newton">N</abbr> sur Béatrice, alors Béatrice pousse également de 100 <abbr class="abbr" title="newton">N</abbr> sur Albert ; Albert et Béatrice peuvent être sur un sol adhérent ou de la glace, immobiles ou en train de patiner. Il est souvent plus difficile de comprendre que si Albert s'appuie sur le mur, alors le mur pousse aussi sur Albert ; le mur n'a pas de « volonté motrice », il fléchit sous l'effet de l'action d'Albert mais cette flexion est indécelable sauf pour une paroi souple, et Albert subit donc un « effet ressort ». Il est de même pour la notion de sol qui soutient Albert ; en particulier, en cas de saut, il est difficile d'imaginer que c'est le sol qui propulse Albert, toujours par effet ressort.
+</p><p>Le cas des actions à distance est également difficile à conceptualiser, en particulier le fait qu'Albert attire lui aussi la Terre...
+</p><p>Cette loi est parfois appelée <i>loi d'action-réaction</i>, en référence à l'énoncé original ; une formulation au mieux imprécise, au pire entraînant de nombreuses confusions. En particulier, cette ancienne formulation véhicule l'idée qu'il y a toujours une force qui est la « cause » (l'action), l'autre n'étant qu'une sorte de conséquence (la réaction).
+</p><p>Une autre difficulté rencontrée par les étudiants est l'oubli que ces deux forces <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">B</mi>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {A/B} }}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_{\mathrm{A/B}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6d237b54d5369ba4e2a13d0b50c4f4b87c3570d" style="vertical-align: -1.171ex; width:4.968ex; height:3.676ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {B/A} }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">F</mi>
+</mrow>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">B</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi mathvariant="normal">A</mi>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {\mathrm {F} }}_{\mathrm {B/A} }}</annotation>
+</semantics>
+</math></span><img alt="\vec{\mathrm{F}}_{\mathrm{B/A}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/54e6c8d44ab9ee3b6131f591d3088bdf32d4823f" style="vertical-align: -1.171ex; width:4.968ex; height:3.676ex;"/></span> s'exercent sur deux corps différents. Elles ne peuvent donc pas « s'annuler mutuellement ». L'effet d'annulation n'intervient que lorsqu'on considère un système constitué de différents corps et que l'on s'intéresse à la résultante des forces : dans ce cas, les forces intérieures s'annulent en effet et seule la somme des <a href="/wiki/Forces_int%C3%A9rieures_et_forces_ext%C3%A9rieures" title="Forces intérieures et forces extérieures">forces extérieures</a> est à prendre en compte (ce qui est heureux pour étudier le mouvement d'un solide constitué de plus de 10<sup>23</sup> éléments<sup class="reference" id="cite_ref-5"><a href="#cite_note-5"><span class="cite_crochet">[</span>a<span class="cite_crochet">]</span></a></sup>).
+</p><p>La loi des actions réciproques a l'inconvénient de supposer l'application des forces comme instantanée (ce qui est abandonné en <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">relativité restreinte</a>). Dans le cas des forces à distance, il convient dans certains cas d'effectuer des transformations pour tenir compte du retard de propagation.
+</p><p>Cette correction ne relève pas de la relativité. Comme les <a href="/wiki/Force_%C3%A9lectromagn%C3%A9tique" title="Force électromagnétique">forces électromagnétiques</a> s'appliquent à distance, on avait mis en évidence que ces forces se propagent à la vitesse de la lumière et non à vitesse infinie et inclus cette nuance dans les équations avant la révolution de la relativité restreinte<sup class="reference" id="cite_ref-6"><a href="#cite_note-6"><span class="cite_crochet">[</span>b<span class="cite_crochet">]</span></a></sup>.
+</p>
+<h2><span class="mw-headline" id="Diverses_lois_de_Newton">Diverses lois de Newton</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=8" title="Modifier la section : Diverses lois de Newton">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=8" title="Modifier la section : Diverses lois de Newton">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Loi_d.27interaction_gravitationnelle"></span><span class="mw-headline" id="Loi_d'interaction_gravitationnelle">Loi d'interaction gravitationnelle</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=9" title="Modifier la section : Loi d'interaction gravitationnelle">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=9" title="Modifier la section : Loi d'interaction gravitationnelle">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Loi_universelle_de_la_gravitation" title="Loi universelle de la gravitation">Loi universelle de la gravitation</a>.</div></div>
+<p>Certains auteurs (minoritaires) appellent <i>quatrième loi de Newton</i> sa <a href="/wiki/Loi_universelle_de_la_gravitation" title="Loi universelle de la gravitation">loi universelle de la gravitation</a>. Cette dénomination est très contestable, mais elle est mentionnée ici à cause de la parenté historique des lois : si cette loi ne fait pas partie des principes de la mécanique au même titre que les trois autres et le principe de relativité, la première réussite de Newton fut d'utiliser ses lois mécaniques plus sa loi d'interaction gravitationnelle pour démontrer les <a href="/wiki/Loi_empirique" title="Loi empirique">lois empiriques</a> de <a href="/wiki/Johannes_Kepler" title="Johannes Kepler">Kepler</a>. Ce sont ces premiers succès qui établirent pour longtemps la domination des lois de Newton sur la science.
+</p><p>Notons qu'en combinant cette loi et le principe fondamental de la dynamique, on démontre la prédiction de Galilée selon laquelle, dans le vide, tous les objets tombent à la même vitesse (en admettant implicitement que <a href="/wiki/Masse" title="Masse">masse</a> inertielle et masse gravitationnelle sont égales).
+</p>
+<h3><span id=".C2.AB_Quatri.C3.A8me_corollaire_.C2.BB_de_Newton_:_principe_de_relativit.C3.A9"></span><span class="mw-headline" id="«_Quatrième_corollaire_»_de_Newton_:_principe_de_relativité">« Quatrième corollaire » de Newton : principe de relativité</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=10" title="Modifier la section : « Quatrième corollaire » de Newton : principe de relativité">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=10" title="Modifier la section : « Quatrième corollaire » de Newton : principe de relativité">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a> dans ses <a class="mw-redirect" href="/wiki/Philosophiae_naturalis_principia_mathematica" title="Philosophiae naturalis principia mathematica">Principia</a> a mis en évidence la notion de relativité du mouvement dans les définitions précédant le livre premier<sup class="reference" id="cite_ref-7"><a href="#cite_note-7"><span class="cite_crochet">[</span>5<span class="cite_crochet">]</span></a></sup>. Il introduit dans les scholies II et IV la notion d'espace absolu et indique dans le corollaire V des lois<sup class="reference" id="cite_ref-8"><a href="#cite_note-8"><span class="cite_crochet">[</span>6<span class="cite_crochet">]</span></a></sup> que :
+</p>
+<blockquote>
+<p>« Les mouvements des corps enfermés dans un espace quelconque sont les mêmes entre eux, soit que cet espace soit en repos, soit qu'il se meuve uniformément en ligne droite sans mouvement circulaire »
+</p>
+</blockquote>
+<p>ce qui préfigure la notion de référentiel galiléen telle qu'elle est définie aujourd'hui. Cependant, Newton ne fait aucune référence au cas où un référentiel n'est pas en mouvement rectiligne uniforme par rapport à ce qu'il appelle <i>l'espace absolu</i>, et aucune infirmation de la validité de ses lois dans les référentiels accélérés n'est donnée dans les <i>Principia</i>. Il faudra attendre les travaux de <a href="/wiki/Gaspard-Gustave_Coriolis" title="Gaspard-Gustave Coriolis">Gaspard Coriolis</a> et de <a class="mw-redirect" href="/wiki/Jean_Bernard_L%C3%A9on_Foucault" title="Jean Bernard Léon Foucault">Foucault</a> au <abbr class="abbr" title="19ᵉ siècle"><span class="romain">XIX</span><sup style="font-size:72%">e</sup></abbr> siècle pour que la notion de référentiel galiléen telle qu'elle est connue aujourd'hui se dégage et pour que les formules de changement de repère vers (ou depuis) un référentiel non galiléen soient établies.
+</p><p>Le principe de relativité s'énonce comme suit :
+</p>
+<dl><dd>Deux référentiels d'espace en translation rectiligne uniforme l'un par rapport à l'autre sont équivalents pour les lois de la mécanique.</dd></dl>
+<p>(Au sens de Newton, il faudrait se restreindre aux référentiels en mouvement rectiligne uniforme par rapport à l'espace absolu, en se souvenant que si un référentiel est en mouvement rectiligne uniforme par rapport à un deuxième lui-même en mouvement rectiligne uniforme par rapport à l'espace absolu, alors le premier référentiel est en mouvement rectiligne uniforme par rapport à l'espace absolu.)
+</p><p>On pourra le vérifier en admettant les trois premières lois, l'invariance du temps, de la masse et des forces (implicite en physique pré-einsteinienne). C'est pourquoi ce principe est appelé ici corollaire.
+</p><p>Ce principe est dit principe de <a href="/wiki/Relativit%C3%A9_galil%C3%A9enne" title="Relativité galiléenne">relativité galiléenne</a> car on en trouve la trace dans le célèbre Dialogue de <a href="/wiki/Galil%C3%A9e_(savant)" title="Galilée (savant)">Galilée</a>, quoique Galilée ait supposé qu'il en était de même pour une <a href="/wiki/Relativit%C3%A9_totale" title="Relativité totale">rotation uniforme</a>.
+</p><p>Une formulation plus moderne affirme que toutes les lois de la physique sont les mêmes pour deux référentiels d'espace en translation rectiligne uniforme l'un par rapport à l'autre. C'est cette formulation forte qui est à la base de la <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">relativité restreinte</a>.
+</p>
+<dl><dt>Remarque</dt>
+<dd>Le <a href="/wiki/R%C3%A9f%C3%A9rentiel_(physique)" title="Référentiel (physique)">référentiel héliocentrique</a> est (généralement considéré comme) galiléen et c'est dans ce référentiel que sont étudiés les mouvements des planètes et des <a href="/wiki/Sonde_spatiale" title="Sonde spatiale">sondes spatiales</a>. Considérer le <a href="/wiki/R%C3%A9f%C3%A9rentiel_g%C3%A9ocentrique" title="Référentiel géocentrique">référentiel géocentrique</a> comme galiléen, alors que le centre de la Terre est en accélération autour du Soleil, <span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">revient à négliger les <a class="mw-redirect" href="/wiki/Forces_de_mar%C3%A9e" title="Forces de marée">forces de marée</a></span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup>. Considérer le <a href="/wiki/R%C3%A9f%C3%A9rentiel_terrestre" title="Référentiel terrestre">référentiel terrestre</a> comme galiléen revient à négliger la composante centrifuge dans la « <a href="/wiki/Pesanteur" title="Pesanteur">pesanteur</a> », et la <a href="/wiki/Force_de_Coriolis" title="Force de Coriolis">force de Coriolis</a> si le point matériel est en mouvement. D'une façon pragmatique, savoir trouver à quel degré d'approximation un référentiel peut être (considéré comme) galiléen est une quête sans cesse repoussée.</dd></dl>
+<h2><span id="Histoire_et_.C3.A9pist.C3.A9mologie"></span><span class="mw-headline" id="Histoire_et_épistémologie">Histoire  et épistémologie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=11" title="Modifier la section : Histoire et épistémologie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=11" title="Modifier la section : Histoire et épistémologie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Contexte_historique">Contexte historique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=12" title="Modifier la section : Contexte historique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=12" title="Modifier la section : Contexte historique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/Isaac_Newton" title="Isaac Newton">Isaac Newton</a> a énoncé ses lois dans le premier volume de son <i><a class="mw-redirect" href="/wiki/Philosophiae_naturalis_principia_mathematica" title="Philosophiae naturalis principia mathematica">Philosophiae Naturalis Principia Mathematica</a></i> en <a href="/wiki/1687" title="1687">1687</a> et, à l'aide des nouveaux outils <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a> qu'il a développés, il a prouvé beaucoup de résultats au sujet du mouvement des particules idéalisées.
+</p><p><span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">Certains détracteurs de Newton disent</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup> qu'il s'est inspiré des travaux de <a href="/wiki/Galil%C3%A9e_(savant)" title="Galilée (savant)">Galilée</a> pour écrire son premier principe (en reprenant presque l'énoncé de Galilée : « Tout corps continuera dans son mouvement de ligne droite <i><a href="/wiki/Ad_vitam_%C3%A6ternam" title="Ad vitam æternam">ad eternam</a></i> s'il n'est soumis à aucune force », en rajoutant toutefois la notion d'uniformité du mouvement).
+</p><p>Il convient de nuancer : si Newton avait connaissance des travaux de Galilée, son rôle a été de formaliser les idées de Galilée et d'en tirer les conséquences qui ont permis de construire la mécanique. Quand Newton affirme « Si j'ai vu plus loin que les autres, c'est parce que j'ai été porté par des épaules de géants. », le lecteur averti est censé comprendre que le travail s'inscrit dans la continuité de celui de Galilée. En fait, on pourrait même dire que Newton n'a pas précisé que le principe d'inertie et le principe de relativité, sur lesquels il s'est fondé pour construire toute la mécanique, ont été édictés par Galilée, tout simplement parce qu'il estime que le lecteur est censé le savoir !
+</p><p>Les deux premiers volumes sont mathématiques. Dans le troisième volume, la <a href="/wiki/Philosophie_naturelle" title="Philosophie naturelle">philosophie naturelle</a> (ancienne dénomination de la physique des phénomènes naturels) est expliquée : il a montré comment ses lois du mouvement combinées à sa <a href="/wiki/Loi_universelle_de_la_gravitation" title="Loi universelle de la gravitation">loi universelle de la gravitation</a> expliquent le mouvement des <a href="/wiki/Plan%C3%A8te" title="Planète">planètes</a> et permettent de dériver les <a href="/wiki/Lois_de_Kepler" title="Lois de Kepler">lois de Kepler</a>.
+</p>
+<h3><span id=".C3.89pist.C3.A9mologie"></span><span class="mw-headline" id="Épistémologie">Épistémologie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=13" title="Modifier la section : Épistémologie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=13" title="Modifier la section : Épistémologie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les lois sus-citées ont été <b>mises en forme</b> et édictées par Newton. Mais les fondements proviennent de travaux antérieurs : <a href="/wiki/Galil%C3%A9e_(savant)" title="Galilée (savant)">Galilée</a>, <a href="/wiki/Evangelista_Torricelli" title="Evangelista Torricelli">Torricelli</a>, <a href="/wiki/Ren%C3%A9_Descartes" title="René Descartes">Descartes</a>, <a href="/wiki/Christian_Huygens" title="Christian Huygens">Huygens</a>, <a href="/wiki/Robert_Hooke" title="Robert Hooke">Hooke</a>, « J'ai été porté par des <a href="/wiki/Des_nains_sur_des_%C3%A9paules_de_g%C3%A9ants" title="Des nains sur des épaules de géants">épaules de géants</a>. » reconnaissait lui-même Newton.
+</p><p>D'autre part, comme l'a fait remarquer <a href="/wiki/Ernst_Mach" title="Ernst Mach">Ernst Mach</a><sup class="reference" id="cite_ref-9"><a href="#cite_note-9"><span class="cite_crochet">[</span>7<span class="cite_crochet">]</span></a></sup> :
+</p>
+<blockquote>
+<p>« On reconnaît sans peine que les lois I et II sont contenues dans les définitions de la force précédemment données. D'après celles-ci, il ne peut en effet exister, en l'absence de toute force, que le repos ou le mouvement rectiligne uniforme. C'est une tautologie tout à fait inutile de répéter que la variation du mouvement est proportionnelle à la force après avoir posé que l'accélération est la mesure de celle-ci. Il eût suffi de dire que les définitions données n'étaient pas des définitions arbitraires et mathématiques, mais répondaient à des propriétés expérimentales des corps. »
+</p>
+</blockquote>
+<p>Dans cette critique, Mach fait référence à la définition IV des <i>Principia</i>, laquelle introduit la notion de force, fondamentale en physique :
+</p>
+<blockquote>
+<p>« La force imprimée (vis impressa) est l'action par laquelle l'état du corps est changé, soit que cet état soit le repos, ou le mouvement uniforme en ligne droite<sup class="reference" id="cite_ref-10"><a href="#cite_note-10"><span class="cite_crochet">[</span>8<span class="cite_crochet">]</span></a></sup>. »
+</p>
+</blockquote>
+<p>Mais on peut aller encore plus loin : la conservation de la quantité de mouvement de systèmes peut être érigée en <a href="/wiki/Principe_premier" title="Principe premier">principe premier</a> de la mécanique. Cette démarche présente l'avantage de reposer sur un concept, la quantité de mouvement, et permet de traiter des problèmes de mouvements relativistes.
+</p><p>De plus la troisième loi permet d'introduire le concept d'<i>interaction</i> qui n'est pas trivial mais, lui aussi, fondamental en physique. À l'époque, cette loi est une absurdité, si l'on se réfère par exemple au point de vue d'Aristote chez qui la magie et autres actions à distance n'existent pas dans le cadre de la physique. Rappelons que le magnétisme est interprété depuis le <i>de Magnete</i> de Gilbert par des « lignes spectrales », ou tourbillons. De même, la cause de la gravitation est interprétée par Descartes <i>via</i> une théorie (fausse) de tourbillons, si contradictoire que <span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">même Huygens n'y croit plus</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup>. Par contre, Newton déclarera dans une phrase restée célèbre : <i><a href="/wiki/Hypotheses_non_fingo" title="Hypotheses non fingo">hypotheses non fingo</a></i>, je ne chercherai pas la cause ultime de la gravitation. La gravitation « s'exprime » au travers de la loi centripète qu'il énonce, il ne fait aucune supposition sur la nature de cette force.
+</p><p>Newton sortait donc hardiment du cadre imposé par la physique de l'époque, d'où une critique véhémente, l'action <span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">instantanée</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup> à distance étant récusée (elle gênait d'ailleurs Newton lui-même), comme insensée (<a href="/wiki/Ole_Christensen_R%C3%B8mer" title="Ole Christensen Rømer">Rømer</a> <a href="/wiki/D%C3%A9termination_de_la_vitesse_de_la_lumi%C3%A8re_par_Ole_R%C3%B8mer" title="Détermination de la vitesse de la lumière par Ole Rømer">venait de montrer la finitude</a> de la <a class="mw-redirect" href="/wiki/C%C3%A9l%C3%A9rit%C3%A9_de_la_lumi%C3%A8re" title="Célérité de la lumière">célérité de la lumière</a>). En <a href="/wiki/1906" title="1906">1906</a>, <a href="/wiki/Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a><sup class="reference" id="cite_ref-11"><a href="#cite_note-11"><span class="cite_crochet">[</span>9<span class="cite_crochet">]</span></a></sup> proposera une hypothèse moins choquante : la gravitation se propage à la <a href="/wiki/Vitesse_limite" title="Vitesse limite">vitesse limite</a> c.
+</p>
+<h3><span class="mw-headline" id="Approche_de_Laplace_et_de_Noether">Approche de Laplace et de Noether</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=14" title="Modifier la section : Approche de Laplace et de Noether">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=14" title="Modifier la section : Approche de Laplace et de Noether">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les lois de Newton peuvent être construites à partir de thèses plus abstraites.
+</p><p>Les lois de Newton ont subi l'analyse critique de <a href="/wiki/Pierre-Simon_de_Laplace" title="Pierre-Simon de Laplace">Laplace</a>, puis <a href="/wiki/Ernst_Mach" title="Ernst Mach">Ernst Mach</a>, puis <a href="/wiki/Henri_Poincar%C3%A9" title="Henri Poincaré">Poincaré</a>, puis de <a href="/wiki/Andre%C3%AF_Kolmogorov" title="Andreï Kolmogorov">Kolmogorov</a>.
+</p><p>Selon leur analyse le principe fondamental de la dynamique peut être ramené à une conséquence du <a href="/wiki/D%C3%A9terminisme" title="Déterminisme">déterminisme</a> énoncée par Laplace dans son traité sur les probabilités : 
+</p>
+<dl><dd>si on connaît la position initiale <i>x</i><sub>0</sub> et la vitesse initiale <i>v</i><sub>0</sub>, alors l'équation du principe fondamental de la dynamique (PFD) dit que, la force étant F(<i>x, v, t</i> ), il suffit de résoudre cette <a href="/wiki/%C3%89quation_diff%C3%A9rentielle" title="Équation différentielle">équation différentielle</a>, pour déterminer le futur et le passé de la particule, <i>x</i>(<i>t</i> ) et <i>v</i>(<i>t</i> ).</dd></dl>
+<p>Ainsi l'<a href="/wiki/Orbitale_%C3%A9lectronique" title="Orbitale électronique">orbite hamiltonienne de l'électron</a> dans le <a href="/wiki/Espace_des_phases" title="Espace des phases">plan des phases</a> [<i>x</i>(<i>t</i> ), <i>p</i>(<i>t</i> )] est déterminée par le PFD. C'est tout ce qu'affirme ce principe, puisque, par ailleurs, il faut trouver expérimentalement la loi F(<i>x, v, t</i> ).
+</p><p>Même si le déterminisme tel que le définit Laplace souffre de limites, il est tout de même possible de montrer que le théorème de la quantité de mouvement repose sur les principes mêmes de la physique : c'est en effet une conséquence du <a href="/wiki/Th%C3%A9or%C3%A8me_de_Noether_(physique)" title="Théorème de Noether (physique)">théorème de Noether</a>.
+</p>
+<h2><span id="Probl.C3.A8mes_et_limites"></span><span class="mw-headline" id="Problèmes_et_limites">Problèmes et limites</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=15" title="Modifier la section : Problèmes et limites">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=15" title="Modifier la section : Problèmes et limites">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Univers_absolu">Univers absolu</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=16" title="Modifier la section : Univers absolu">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=16" title="Modifier la section : Univers absolu">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Temps_newtonien" title="Temps newtonien">Temps newtonien</a>.</div></div>
+<p>Newton avait postulé<sup class="reference" id="cite_ref-12"><a href="#cite_note-12"><span class="cite_crochet">[</span>10<span class="cite_crochet">]</span></a></sup> : il existe un espace et un temps absolu.
+</p><p>En fait, on peut étendre à toute une classe de <a href="/wiki/R%C3%A9f%C3%A9rentiel_galil%C3%A9en" title="Référentiel galiléen">référentiels dits « inertiels »</a> la notion d'espace absolu, conformément au point de vue de Galilée qui défendait l'équivalence entre un référentiel et un autre évoluant à vitesse constante par rapport au premier.
+</p><p>Par contre, Newton se méfiait du temps absolu : il savait qu'en changeant l'échelle de temps, l'expression de son PFD changeait. Il l'a même savamment utilisé. Mais évidemment, il fallait prendre une décision : quelle échelle de temps choisir ? Ce qui paraissait le plus simple était la fameuse loi de Kepler. Et tout était cohérent.
+</p><p>Les notions de temps relatif, de finitude des vitesses, de synchronisation et de transport du temps allaient nécessiter encore beaucoup de découvertes avant d'être entrevues. Il a donc opté pour le temps dynamique absolu et édicté : le temps absolu s'écoule uniformément. C'est cette variable <i>t</i> qui intervient quand on écrit
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v={\frac {\mathrm {d} x}{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>x</mi>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v={\frac {\mathrm {d} x}{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="v = \frac{\mathrm{d}x}{\mathrm{d}t}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2652417eb554038e86e4c555e1e067c3e97b1287" style="vertical-align: -2.005ex; width:7.684ex; height:5.509ex;"/></span>,</dd></dl>
+<p>puis
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a={\frac {\mathrm {d} v}{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>v</mi>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a={\frac {\mathrm {d} v}{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="a = \frac{\mathrm{d}v}{\mathrm{d}t}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7431440521f5d7b9002c738e2ad3e12cbe061fe4" style="vertical-align: -2.005ex; width:7.585ex; height:5.509ex;"/></span>,</dd></dl>
+<p>et donc :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a={\frac {\mathrm {d} ^{2}x}{\mathrm {d} t^{2}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mi>x</mi>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<msup>
+<mi>t</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a={\frac {\mathrm {d} ^{2}x}{\mathrm {d} t^{2}}}}</annotation>
+</semantics>
+</math></span><img alt="a = \frac{\mathrm{d}^2x}{\mathrm{d}t^2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2e02836fa847d5a8beed7f5c9a95025c836dcaf2" style="vertical-align: -2.171ex; width:8.841ex; height:6.009ex;"/></span>.</dd></dl>
+<p>Ce temps absolu est généralement admis tant qu'on n'emploie pas la <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">relativité restreinte</a>. Mais il constitue néanmoins une hypothèse philosophique forte qui a été régulièrement discutée par <a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a> notamment qui disait:
+</p>
+<dl><dd>« J'ai marqué plus d'une fois, que je tenais l'Espace pour quelque chose de purement relatif, comme le Temps ; pour un ordre des Coexistences, comme le Temps est un ordre de Successions… »<sup class="reference" id="cite_ref-13"><a href="#cite_note-13"><span class="cite_crochet">[</span>11<span class="cite_crochet">]</span></a></sup></dd></dl>
+<h3><span class="mw-headline" id="Limites_relativistes">Limites relativistes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=17" title="Modifier la section : Limites relativistes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=17" title="Modifier la section : Limites relativistes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">Relativité restreinte</a>.</div></div>
+<p>Une des grandes difficultés des théories de Newton, mise à jour dès le <a href="/wiki/XVIIe_si%C3%A8cle" title="XVIIe siècle"><abbr class="abbr" title="17ᵉ siècle"><span class="romain">XVII</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, est la notion d'action <i>instantanée</i> à distance. Newton lui-même <span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">était gêné</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup> par cette supposition présente tout aussi bien dans sa théorie de la gravitation que dans sa troisième loi. <br/>
+Plus tard au cours du <a href="/wiki/XVIIe_si%C3%A8cle" title="XVIIe siècle"><abbr class="abbr" title="17ᵉ siècle"><span class="romain">XVII</span><sup style="font-size:72%">e</sup></abbr> siècle</a>, un certain nombre de difficultés, concernant l'<a href="/wiki/%C3%89lectromagn%C3%A9tisme" title="Électromagnétisme">électromagnétisme</a> notamment, indiquèrent également que les principes de Newton ne pouvaient pas rendre compte en l'état de tous les problèmes mécaniques ou cinématiques.
+</p><p>La <a href="/wiki/Relativit%C3%A9_restreinte" title="Relativité restreinte">relativité restreinte</a> démontre qu'aucune interaction ne se propage plus vite que la <a href="/wiki/Vitesse_de_la_lumi%C3%A8re" title="Vitesse de la lumière">vitesse de la lumière</a> dans le vide et remet donc définitivement en cause les interactions instantanées. De plus, elle montre que pour des objets dont la vitesse est proche de celle de la lumière, les lois de Newton ne sont absolument plus fidèles à l'observation.
+</p><p>Cependant, les formules de la relativité restreinte permettent de considérer la physique newtonienne comme une approximation en supposant la vitesse de la lumière infinie. Ainsi, la relativité permet de justifier les équations de Newton dans les cas de faibles vitesses en la rendant démontrable à partir d'une théorie plus générale qui l'englobe. Les lois de Newton s'appliquent donc à la plupart des applications quotidiennes de la mécanique, que l'on qualifie alors de « classique » (chute des corps, mouvement des véhicules, moteurs, etc.).
+</p><p>En revanche, il existe des situations où les résultats sont radicalement modifiés, par exemple celles créées au sein des accélérateurs de particules (comme celui du <a href="/wiki/Organisation_europ%C3%A9enne_pour_la_recherche_nucl%C3%A9aire" title="Organisation européenne pour la recherche nucléaire">CERN</a>). L'énergie cinétique apportée à une particule de charge <i>q</i> par une tension V vaut <i>q</i> V. Les énergies cinétiques mises en jeu dans les accélérateurs de particules peuvent actuellement monter jusqu'à l'ordre du <a class="new" href="/w/index.php?title=T%C3%A9ra%C3%A9lectronvolt&amp;action=edit&amp;redlink=1" title="Téraélectronvolt (page inexistante)">téravolt</a> (1 000 milliards de volts). 
+On calculerait par exemple, selon les équations newtoniennes, pour un électron ayant acquis une telle énergie cinétique, une vitesse 2 000 000 fois supérieure à celle de la lumière. 
+La vitesse réelle, calculée dans le cadre relativiste est celle d'une fraction de la vitesse de la lumière légèrement inférieure à l'unité. 
+Il est donc essentiel de bien distinguer les situations où les lois de Newton restent de très bonnes approximations de celles où elles perdent toute pertinence.
+</p><p>En relativité restreinte, les forces respectent toujours un théorème de la quantité de mouvement mais adapté, faisant apparaître le <a href="/wiki/Facteur_de_Lorentz" title="Facteur de Lorentz">facteur de Lorentz</a>. Le théorème de la quantité de mouvement est donc un théorème très puissant, puisqu'il permet de déduire les lois de Newton dans le cas où les faibles vitesses le permettent. Dans le cas contraire il s'inscrit dans les résultats de la relativité restreinte.
+</p>
+<h3><span class="mw-headline" id="Limites_quantiques">Limites quantiques</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=18" title="Modifier la section : Limites quantiques">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=18" title="Modifier la section : Limites quantiques">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Articles détaillés : <a href="/wiki/M%C3%A9canique_quantique" title="Mécanique quantique">Mécanique quantique</a> et <a href="/wiki/Principe_d%27incertitude" title="Principe d'incertitude">Principe d'incertitude</a>.</div></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone metadata"><a class="image" href="/wiki/Fichier:Fairytale_warning.png"><img alt="" class="noviewer" data-file-height="64" data-file-width="64" decoding="async" height="17" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/17px-Fairytale_warning.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/26px-Fairytale_warning.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/87/Fairytale_warning.png/34px-Fairytale_warning.png 2x" style="vertical-align: text-top" width="17"/></a></div><div class="bandeau-cell">Cette section est vide, insuffisamment détaillée ou incomplète. <a href="/wiki/Sp%C3%A9cial:EditPage/Lois_du_mouvement_de_Newton" title="Spécial:EditPage/Lois du mouvement de Newton">Votre aide</a> est la bienvenue ! <a href="/wiki/Aide:Comment_modifier_une_page" title="Aide:Comment modifier une page">Comment faire ?</a></div></div>
+<div class="bandeau-container bandeau-section bandeau-niveau-modere plainlinks"><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><div class="center"><div class="floatnone"><a class="image" href="/wiki/Fichier:2017-fr.wp-orange-source.svg"><img alt="" class="noviewer" data-file-height="512" data-file-width="512" decoding="async" height="25" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/25px-2017-fr.wp-orange-source.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/38px-2017-fr.wp-orange-source.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a1/2017-fr.wp-orange-source.svg/50px-2017-fr.wp-orange-source.svg.png 2x" width="25"/></a></div></div></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<div class="mw-collapsible mw-collapsed"><b>Cette section <a href="/wiki/Wikip%C3%A9dia:Citez_vos_sources" title="Wikipédia:Citez vos sources">ne cite pas suffisamment ses sources</a></b><small> (janvier 2014)</small>. <div class="mw-collapsible-content">Pour l'améliorer, ajoutez <a href="/wiki/Aide:Identifier_des_sources_fiables" title="Aide:Identifier des sources fiables">des références de qualité et vérifiables</a> (<a href="/wiki/Aide:Ins%C3%A9rer_une_r%C3%A9f%C3%A9rence_(%C3%89diteur_visuel)" title="Aide:Insérer une référence (Éditeur visuel)">comment faire ?</a>) ou le modèle <a href="/wiki/Mod%C3%A8le:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Modèle:Référence nécessaire">{{Référence nécessaire}}</a> sur les passages nécessitant une source.</div></div>
+</div></div>
+<h4><span id="Discontinuit.C3.A9"></span><span class="mw-headline" id="Discontinuité">Discontinuité</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=19" title="Modifier la section : Discontinuité">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=19" title="Modifier la section : Discontinuité">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>La mécanique newtonienne étudie surtout les systèmes macro-physiques. Dans ce contexte, l'espace et l'énergie sont implicitement considérés comme étant continus. Or, le monde de la mécanique quantique est celui des systèmes micro-physiques, pour lesquels <span class="need_ref" style="cursor:help;" title="Ce passage nécessite une référence.">ces concepts sont quantifiés</span><sup class="need_ref_tag" style="padding-left:2px;"><a href="/wiki/Aide:R%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Aide:Référence nécessaire">[réf. nécessaire]</a></sup>. 
+La mécanique newtonienne s'appuie notamment sur le concept de force, sachant que la force dérive d'un potentiel (pour un système mécanique isolé). Toutefois, pour les systèmes micro-physiques (relevant de la mécanique quantique), la notion de force ne peut pas être définie puisque l'énergie potentielle comme les coordonnées d'espace sont quantifiées. En effet, en mathématique, la dérivée d'une fonction discontinue n'est pas définie.
+La mécanique de Newton trouve donc ses limites pour l'étude des systèmes micro-physiques, puisque l'hypothèse implicite fondée sur un espace et une énergie continus est mise à mal pour ces systèmes.
+</p>
+<h4><span id="Principe_d.27incertitude.2C_in.C3.A9galit.C3.A9s_d.27Heisenberg"></span><span class="mw-headline" id="Principe_d'incertitude,_inégalités_d'Heisenberg">Principe d'incertitude, inégalités d'Heisenberg</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=20" title="Modifier la section : Principe d'incertitude, inégalités d'Heisenberg">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=20" title="Modifier la section : Principe d'incertitude, inégalités d'Heisenberg">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Si on connaît la trajectoire <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {r}}(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {r}}(t)}</annotation>
+</semantics>
+</math></span><img alt="{\vec  {r}}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d16f17fe8740127a7628ce98b69dc7fb8f4f9df" style="vertical-align: -0.838ex; width:3.872ex; height:2.843ex;"/></span> d'un corps, on connaît <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {v}}(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>v</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {v}}(t)}</annotation>
+</semantics>
+</math></span><img alt="\vec{v}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4550679b673f2c3ce8d8041e6b6e17a85a69ec3a" style="vertical-align: -0.838ex; width:3.824ex; height:2.843ex;"/></span> à chaque instant avec  <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {v}}(t)={\frac {\mathrm {d} {\vec {r}}(t)}{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>v</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {v}}(t)={\frac {\mathrm {d} {\vec {r}}(t)}{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="\vec{v}(t)=\frac{\mathrm{d}\vec{r}(t)}{\mathrm{d}t}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5f1d697f140d842faa09a80ccd60d082f8552b78" style="vertical-align: -2.005ex; width:12.923ex; height:5.843ex;"/></span>.
+À l'inverse, si on connaît la vitesse <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {v}}(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>v</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {v}}(t)}</annotation>
+</semantics>
+</math></span><img alt="\vec{v}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4550679b673f2c3ce8d8041e6b6e17a85a69ec3a" style="vertical-align: -0.838ex; width:3.824ex; height:2.843ex;"/></span> d'un corps et la position initiale <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {r}}(0)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {r}}(0)}</annotation>
+</semantics>
+</math></span><img alt="\vec{r}(0)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1b9d427fdc6eaad5868653e24c44a2b49b3dcc44" style="vertical-align: -0.838ex; width:4.195ex; height:2.843ex;"/></span>, on connaît <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {r}}(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {r}}(t)}</annotation>
+</semantics>
+</math></span><img alt="{\vec  {r}}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d16f17fe8740127a7628ce98b69dc7fb8f4f9df" style="vertical-align: -0.838ex; width:3.872ex; height:2.843ex;"/></span> à chaque instant avec <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\vec {r}}(t)=\int _{0}^{t}{\vec {v}}(t)\mathrm {d} t+{\vec {r}}(0)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<msubsup>
+<mo>∫<!-- ∫ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>t</mi>
+</mrow>
+</msubsup>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>v</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mover>
+<mi>r</mi>
+<mo stretchy="false">→<!-- → --></mo>
+</mover>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\vec {r}}(t)=\int _{0}^{t}{\vec {v}}(t)\mathrm {d} t+{\vec {r}}(0)}</annotation>
+</semantics>
+</math></span><img alt="\vec{r}(t)=\int_0^t \vec{v}(t) \mathrm{d}t + \vec{r}(0)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6b089cbf79f6f0d5b12fafa93020bb6b1c5587f0" style="vertical-align: -2.338ex; width:23.639ex; height:6.176ex;"/></span>.
+</p><p>Dans ces deux cas, si on s'intéresse à un seul axe, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span> par exemple, on voit qu'il est possible de connaître en même temps la position <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x(t)}</annotation>
+</semantics>
+</math></span><img alt="x(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d54c275db3a1e620737b58e143b0818107fa5f5c" style="vertical-align: -0.838ex; width:3.979ex; height:2.843ex;"/></span> et la vitesse <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v_{x}(t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msub>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v_{x}(t)}</annotation>
+</semantics>
+</math></span><img alt="v_x(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5680dda6d1c8b72befa1bd7fc41666f57d3e92dc" style="vertical-align: -0.838ex; width:4.949ex; height:2.843ex;"/></span> avec une précision infinie, ce qui est contraire au <a href="/wiki/Principe_d%27incertitude" title="Principe d'incertitude">principe d'incertitude</a> de la physique quantique.
+</p>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=21" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=21" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=22" title="Modifier la section : Notes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=22" title="Modifier la section : Notes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references-small lower-alpha" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-5"><span class="mw-cite-backlink noprint"><a href="#cite_ref-5">↑</a> </span><span class="reference-text">Ce nombre représente à peu près le <a href="/wiki/Nombre_d%27Avogadro" title="Nombre d'Avogadro">nombre d'Avogadro</a> qui donne l'<a href="/wiki/Ordre_de_grandeur" title="Ordre de grandeur">ordre de grandeur</a> du nombre de particules contenues dans un corps macroscopique.</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink noprint"><a href="#cite_ref-6">↑</a> </span><span class="reference-text">Néanmoins, l'existence d'une vitesse de la lumière <i>absolue</i> (indépendante du référentiel d'étude) est incompatible avec la loi d'additivité des vitesses de la mécanique newtonienne et constitue la raison fondamentale pour laquelle cette dernière a été abandonnée au profit de la relativité.</span>
+</li>
+</ol></div>
+</div>
+<h3><span id="R.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Références">Références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=23" title="Modifier la section : Références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=23" title="Modifier la section : Références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="references-small decimal" style=""><div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite_note-PNPM_Newton-1"><span class="mw-cite-backlink noprint">↑ <sup><a href="#cite_ref-PNPM_Newton_1-0">a</a> et <a href="#cite_ref-PNPM_Newton_1-1">b</a></sup> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f67.image.r=Principes%20math%C3%A9matiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 17</span> ; la version originale en latin est :<i>Corpus omne perseverare in statu suo quiescendi vel movendi uniformiter in directum, nisi quatenus a viribus impressis cogitur statum illum mutare.</i></span>
+</li>
+<li id="cite_note-Halliday-2"><span class="mw-cite-backlink noprint"><a href="#cite_ref-Halliday_2-0">↑</a> </span><span class="reference-text"><span class="ouvrage" id="HallidayResnick"><abbr class="abbr indicateur-langue" title="Langue : anglais">(en)</abbr> <span class="nom_auteur">Halliday</span> et Resnick, <cite class="italique" lang="en">Physics</cite>, <abbr class="abbr" title="volume">vol.</abbr> 1 <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-0-471-03710-1" title="Spécial:Ouvrages de référence/978-0-471-03710-1"><span class="nowrap">978-0-471-03710-1</span></a>)</small>, <abbr class="abbr" title="page">p.</abbr> 199<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Physics&amp;rft.aulast=Halliday&amp;rft.au=Resnick&amp;rft.volume=1&amp;rft.pages=199&amp;rft.isbn=978-0-471-03710-1&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALois+du+mouvement+de+Newton"></span></span><blockquote><div>
+<p>« It is important to note that we <i>cannot</i> derive a general expression for Newton's second law for variable mass systems by treating the mass in <b>F</b> = <i>d</i><b>P</b>/<i>dt</i> = <i>d</i>(<i>M</i><b>v</b>) as a <i>variable</i>. [...] We <i>can</i> use <b>F</b> = <i>d</i><b>P</b>/<i>dt</i> to analyze variable mass systems <i>only</i> if we apply it to an <i>entire system of constant mass</i> having parts among which there is an interchange of mass. »
+</p>
+</div></blockquote></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink noprint"><a href="#cite_ref-3">↑</a> </span><span class="reference-text">Ce <i>Centre des masses commun</i> reste également à la même place lorsque les masses des deux astronautes sont différentes.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink noprint"><a href="#cite_ref-4">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f68.image.r=Principes%20math%C3%A9matiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 18</span>.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink noprint"><a href="#cite_ref-7">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f59.image.r=Principes%20math%C3%A9matiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), p.9.</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink noprint"><a href="#cite_ref-8">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f76.image.r=Principes%20mathématiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), <span class="nowrap"><abbr class="abbr" title="page">p.</abbr> 26</span>.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink noprint"><a href="#cite_ref-9">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Die_Mechanik_in_ihrer_Entwicklung_Historish-kritisch_dargestellt_(Ernst_Mach)" title="Référence:Die Mechanik in ihrer Entwicklung Historish-kritisch dargestellt (Ernst Mach)">La mécanique. Exposé historique et critique de son développement</a> Chapitre II <i>Développement des principes de la dynamique</i>, section VII <i>Critique synoptique des énoncés de Newton</i>, paragraphe 4. Traduction par <a class="mw-redirect mw-disambig" href="/wiki/Emile_Bertrand" title="Emile Bertrand">Emile Bertrand</a> (<a href="/wiki/1904" title="1904">1904</a>)</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink noprint"><a href="#cite_ref-10">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f53.image.r=Principes%20mathématiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), p.3.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink noprint"><a href="#cite_ref-11">↑</a> </span><span class="reference-text">H. Poincaré, <a class="extiw" href="https://fr.wikisource.org/wiki/Sur_la_dynamique_de_l%E2%80%99%C3%A9lectron_(juillet)" title="s:Sur la dynamique de l’électron (juillet)">Sur La Dynamique de l'électron</a>, Rendiconti del Circolo matematico di Palermo, t. 21, <span class="nowrap"><abbr class="abbr" title="page(s)">p.</abbr> 129-176</span> (1906), paragraphe 9.</span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink noprint"><a href="#cite_ref-12">↑</a> </span><span class="reference-text"><a class="mw-redirect" href="/wiki/R%C3%A9f%C3%A9rence:Philosophiae_Naturalis_Principia_Mathematica_(Isaac_Newton)" title="Référence:Philosophiae Naturalis Principia Mathematica (Isaac Newton)">Principes mathématiques de la philosophie naturelle</a> D'après la <a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f58.image.r=Principes%20math%C3%A9matiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">traduction du latin en français</a> par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Chatelet</a> (<a href="/wiki/1756" title="1756">1756</a>), p.8.</span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink noprint"><a href="#cite_ref-13">↑</a> </span><span class="reference-text"><span class="ouvrage" id="Leibniz1840"><span class="ouvrage" id="Gottfried_Wilhelm_Freiherr_von_Leibniz1840">Gottfried Wilhelm Freiherr von <span class="nom_auteur">Leibniz</span>, <cite class="italique">God. Guil. Leibnitii Opera philosophica quae exstant latina, gallica, germanica omnia</cite>, sumtibus G. Eichleri, <time>1840</time> <small style="line-height:1em;">(<a class="external text" href="https://books.google.fr/books?id=p4MPAAAAQAAJ&amp;pg=PA752&amp;dq=J%27ai+marqu%C3%A9+plus+d%27une+fois+que+je+tenais+l%27espace+pour+quelque+chose+de+purement+relatif%2C+comme+le+temps+%3B+pour+un+ordre+de+coexistences+comme+le+temps+est+un+ordre+de+successions" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=God.+Guil.+Leibnitii+Opera+philosophica+quae+exstant+latina%2C+gallica%2C+germanica+omnia&amp;rft.pub=sumtibus+G.+Eichleri&amp;rft.aulast=Leibniz&amp;rft.aufirst=Gottfried+Wilhelm+Freiherr+von&amp;rft.date=1840&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALois+du+mouvement+de+Newton"></span></span></span></span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=24" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=24" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=25" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=25" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><span class="ouvrage" id="Newton1726"><span class="ouvrage" id="Isaac_Newton1726"><a href="/wiki/Isaac_Newton" title="Isaac Newton">Isaac Newton</a> (<abbr class="abbr" title="traduction">trad.</abbr> du latin en français par <a href="/wiki/%C3%89milie_du_Ch%C3%A2telet" title="Émilie du Châtelet">Émilie du Châtelet</a> (1756)), <cite class="italique"><a class="mw-redirect" href="/wiki/Principes_math%C3%A9matiques_de_la_philosophie_naturelle" title="Principes mathématiques de la philosophie naturelle">Principes mathématiques de la philosophie naturelle</a></cite> [« Philosophiae naturalis principia mathematica »], <time>1726</time> <small style="line-height:1em;">(<a class="external text" href="https://gallica.bnf.fr/ark:/12148/bpt6k29037w/f1.item.r=Principes%20math%C3%A9matiques%20de%20la%20philosophie%20naturelle.langFR" rel="nofollow">lire en ligne</a>)</small><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Principes+math%C3%A9matiques+de+la+philosophie+naturelle&amp;rft.aulast=Newton&amp;rft.aufirst=Isaac&amp;rft.date=1726&amp;rfr_id=info%3Asid%2Ffr.wikipedia.org%3ALois+du+mouvement+de+Newton"></span></span></span></li></ul>
+<style data-mw-deduplicate="TemplateStyles:r194021218">.mw-parser-output .autres-projets>.titre{text-align:center;margin:0.2em 0}.mw-parser-output .autres-projets>ul{margin:0;padding:0}.mw-parser-output .autres-projets>ul>li{list-style:none;margin:0.2em 0;text-indent:0;padding-left:24px;min-height:20px;text-align:left;display:block}.mw-parser-output .autres-projets>ul>li>a{font-style:italic}@media(max-width:720px){.mw-parser-output .autres-projets{float:none}}</style><div class="autres-projets boite-grise boite-a-droite noprint js-interprojets">
+<p class="titre">Sur les autres projets Wikimedia :</p>
+<ul class="noarchive plainlinks">
+<li class="wikiversity"><a class="extiw" href="https://fr.wikiversity.org/wiki/%C3%89volution_temporelle_des_syst%C3%A8mes_m%C3%A9caniques" title="v:Évolution temporelle des systèmes mécaniques">Évolution temporelle des systèmes mécaniques</a>, <span class="nowrap">sur <span class="project">Wikiversity</span></span></li>
+</ul>
+</div>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=26" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=26" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Lois_du_mouvement_chez_Malebranche" title="Lois du mouvement chez Malebranche">Lois du mouvement chez Malebranche</a></li></ul>
+<h3><span class="mw-headline" id="Liens_externes">Liens externes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;veaction=edit&amp;section=27" title="Modifier la section : Liens externes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Lois_du_mouvement_de_Newton&amp;action=edit&amp;section=27" title="Modifier la section : Liens externes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p class="mw-empty-elt">
+</p>
+<ul><li class="mw-empty-elt"></li>
+<li class="mw-empty-elt"></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers">Notices dans des dictionnaires ou encyclopédies généralistes<span class="noprint wikidata-linkback"><a href="https://www.wikidata.org/wiki/Q38433?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" class="noviewer" data-file-height="600" data-file-width="600" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" style="vertical-align: baseline" width="10"/></a></span></span> : <ul><li><a class="external text" href="https://www.britannica.com/science/Newtons-laws-of-motion" rel="nofollow"><i>Encyclopædia Britannica</i></a></li> <li><a class="external text" href="https://www.enciclopedia.cat/EC-GEC-0045917.xml" rel="nofollow"><i>Gran Enciclopèdia Catalana</i></a></li> <li><a class="external text" href="https://snl.no/Newtons_lover" rel="nofollow"><i>Store norske leksikon</i></a></li> </ul></div></li>
+<li><div class="liste-horizontale"><span class="wd_identifiers"><a href="/wiki/Autorit%C3%A9_(sciences_de_l%27information)" title="Autorité (sciences de l'information)">Notices d'autorité</a><span class="noprint wikidata-linkback"><a href="https://www.wikidata.org/wiki/Q38433?uselang=fr#identifiers" title="Voir et modifier les données sur Wikidata"><img alt="Voir et modifier les données sur Wikidata" class="noviewer" data-file-height="600" data-file-width="600" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/10px-Blue_pencil.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/15px-Blue_pencil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Blue_pencil.svg/20px-Blue_pencil.svg.png 2x" style="vertical-align: baseline" width="10"/></a></span></span> : <ul><li><span class="nowrap uid noarchive"><a class="external text" href="http://d-nb.info/gnd/4642395-3" rel="nofollow">Gemeinsame Normdatei</a></span></li> </ul></div></li></ul>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Physique" title="Portail de la physique"><img alt="icône décorative" class="noviewer" data-file-height="512" data-file-width="512" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/24px-Circle-icons-physics-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/36px-Circle-icons-physics-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/22/Circle-icons-physics-logo.svg/48px-Circle-icons-physics-logo.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Physique" title="Portail:Physique">Portail de la physique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:G%C3%A9nie_m%C3%A9canique" title="Portail du génie mécanique"><img alt="icône décorative" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/24px-Crystal_Clear_action_run_v2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/36px-Crystal_Clear_action_run_v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/41/Crystal_Clear_action_run_v2.svg/48px-Crystal_Clear_action_run_v2.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:G%C3%A9nie_m%C3%A9canique" title="Portail:Génie mécanique">Portail du génie mécanique</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Astronomie" title="Portail de l’astronomie"><img alt="icône décorative" class="noviewer" data-file-height="730" data-file-width="755" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/25px-Noun_Astronomy_Icon2.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/37px-Noun_Astronomy_Icon2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/27/Noun_Astronomy_Icon2.svg/50px-Noun_Astronomy_Icon2.svg.png 2x" width="25"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Astronomie" title="Portail:Astronomie">Portail de l’astronomie</a></span> </span></li> <li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Histoire_des_sciences" title="Portail de l’histoire des sciences"><img alt="icône décorative" class="noviewer" data-file-height="260" data-file-width="400" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Science_history_icon.svg/37px-Science_history_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Science_history_icon.svg/56px-Science_history_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Science_history_icon.svg/74px-Science_history_icon.svg.png 2x" width="37"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Histoire_des_sciences" title="Portail:Histoire des sciences">Portail de l’histoire des sciences</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1419
+Cached time: 20221010182228
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.514 seconds
+Real time usage: 0.690 seconds
+Preprocessor visited node count: 3376/1000000
+Post‐expand include size: 51743/2097152 bytes
+Template argument size: 4981/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 1/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 12404/5000000 bytes
+Lua time usage: 0.317/10.000 seconds
+Lua memory usage: 7864428/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  553.235      1 -total
+ 56.60%  313.155      1 Modèle:Liens
+ 11.98%   66.301      2 Modèle:Références
+  8.77%   48.524      3 Modèle:Ouvrage
+  5.38%   29.765      2 Modèle:Méta_bandeau
+  5.32%   29.448      1 Modèle:Portail
+  5.23%   28.924      1 Modèle:Redirect
+  3.99%   22.073      1 Modèle:Autres_projets
+  3.03%   16.765      7 Modèle:Article_détaillé
+  2.84%   15.701      8 Modèle:Méta_bandeau_de_section
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:17935-0!canonical and timestamp 20221010182227 and revision id 196655443.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Lois_du_mouvement_de_Newton&amp;oldid=196655443">https://fr.wikipedia.org/w/index.php?title=Lois_du_mouvement_de_Newton&amp;oldid=196655443</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Isaac_Newton" title="Catégorie:Isaac Newton">Isaac Newton</a></li><li><a href="/wiki/Cat%C3%A9gorie:Th%C3%A9orie_scientifique" title="Catégorie:Théorie scientifique">Théorie scientifique</a></li><li><a href="/wiki/Cat%C3%A9gorie:M%C3%A9canique_c%C3%A9leste" title="Catégorie:Mécanique céleste">Mécanique céleste</a></li><li><a href="/wiki/Cat%C3%A9gorie:Loi_en_physique" title="Catégorie:Loi en physique">Loi en physique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Principe_physique" title="Catégorie:Principe physique">Principe physique</a></li><li><a href="/wiki/Cat%C3%A9gorie:M%C3%A9canique_classique" title="Catégorie:Mécanique classique">Mécanique classique</a></li><li><a href="/wiki/Cat%C3%A9gorie:Loi_scientifique_d%C3%A9couverte_au_XVIIe_si%C3%A8cle" title="Catégorie:Loi scientifique découverte au XVIIe siècle">Loi scientifique découverte au XVIIe siècle</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Article_%C3%A0_r%C3%A9f%C3%A9rence_souhait%C3%A9e" title="Catégorie:Article à référence souhaitée">Article à référence souhaitée</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_%C3%A0_r%C3%A9f%C3%A9rence_n%C3%A9cessaire" title="Catégorie:Article à référence nécessaire">Article à référence nécessaire</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_avec_une_section_vide_ou_incompl%C3%A8te" title="Catégorie:Article avec une section vide ou incomplète">Article avec une section vide ou incomplète</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_manquant_de_r%C3%A9f%C3%A9rences_depuis_janvier_2014" title="Catégorie:Article manquant de références depuis janvier 2014">Article manquant de références depuis janvier 2014</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_manquant_de_r%C3%A9f%C3%A9rences/Liste_compl%C3%A8te" title="Catégorie:Article manquant de références/Liste complète">Article manquant de références/Liste complète</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_un_mod%C3%A8le_Bases_inactif" title="Catégorie:Page utilisant un modèle Bases inactif">Page utilisant un modèle Bases inactif</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P1417" title="Catégorie:Page utilisant P1417">Page utilisant P1417</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P1296" title="Catégorie:Page utilisant P1296">Page utilisant P1296</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_utilisant_P4342" title="Catégorie:Page utilisant P4342">Page utilisant P4342</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_bases_externes" title="Catégorie:Page pointant vers des bases externes">Page pointant vers des bases externes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Page_pointant_vers_des_dictionnaires_ou_encyclop%C3%A9dies_g%C3%A9n%C3%A9ralistes" title="Catégorie:Page pointant vers des dictionnaires ou encyclopédies généralistes">Page pointant vers des dictionnaires ou encyclopédies généralistes</a></li><li><a href="/wiki/Cat%C3%A9gorie:Article_de_Wikip%C3%A9dia_avec_notice_d%27autorit%C3%A9" title="Catégorie:Article de Wikipédia avec notice d'autorité">Article de Wikipédia avec notice d'autorité</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Physique/Articles_li%C3%A9s" title="Catégorie:Portail:Physique/Articles liés">Portail:Physique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:G%C3%A9nie_m%C3%A9canique/Articles_li%C3%A9s" title="Catégorie:Portail:Génie mécanique/Articles liés">Portail:Génie mécanique/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Technologies/Articles_li%C3%A9s" title="Catégorie:Portail:Technologies/Articles liés">Portail:Technologies/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Astronomie/Articles_li%C3%A9s" title="Catégorie:Portail:Astronomie/Articles liés">Portail:Astronomie/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences_de_la_Terre_et_de_l%27Univers/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences de la Terre et de l'Univers/Articles liés">Portail:Sciences de la Terre et de l'Univers/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Histoire_des_sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Histoire des sciences/Articles liés">Portail:Histoire des sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Histoire/Articles_li%C3%A9s" title="Catégorie:Portail:Histoire/Articles liés">Portail:Histoire/Articles liés</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 3 septembre 2022 à 03:23.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Lois_du_mouvement_de_Newton" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Lois_du_mouvement_de_Newton&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.514","walltime":"0.690","ppvisitednodes":{"value":3376,"limit":1000000},"postexpandincludesize":{"value":51743,"limit":2097152},"templateargumentsize":{"value":4981,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":1,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":12404,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  553.235      1 -total"," 56.60%  313.155      1 Modèle:Liens"," 11.98%   66.301      2 Modèle:Références","  8.77%   48.524      3 Modèle:Ouvrage","  5.38%   29.765      2 Modèle:Méta_bandeau","  5.32%   29.448      1 Modèle:Portail","  5.23%   28.924      1 Modèle:Redirect","  3.99%   22.073      1 Modèle:Autres_projets","  3.03%   16.765      7 Modèle:Article_détaillé","  2.84%   15.701      8 Modèle:Méta_bandeau_de_section"]},"scribunto":{"limitreport-timeusage":{"value":"0.317","limit":"10.000"},"limitreport-memusage":{"value":7864428,"limit":52428800}},"cachereport":{"origin":"mw1419","timestamp":"20221010182228","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Lois du mouvement de Newton","url":"https:\/\/fr.wikipedia.org\/wiki\/Lois_du_mouvement_de_Newton","sameAs":"http:\/\/www.wikidata.org\/entity\/Q38433","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q38433","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-05-30T17:09:33Z","dateModified":"2022-09-03T01:23:22Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5d\/Newtons_laws_in_latin.jpg","headline":"lois fondamentales de la m\u00e9canique classique"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Lois du mouvement de Newton","url":"https:\/\/fr.wikipedia.org\/wiki\/Lois_du_mouvement_de_Newton","sameAs":"http:\/\/www.wikidata.org\/entity\/Q38433","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q38433","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-05-30T17:09:33Z","dateModified":"2022-09-03T01:23:22Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5d\/Newtons_laws_in_latin.jpg","headline":"lois fondamentales de la m\u00e9canique classique"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":811,"wgHostname":"mw1419"});});</script>
+</body>
+</html>

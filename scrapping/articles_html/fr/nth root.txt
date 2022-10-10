@@ -1,0 +1,2463 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="fr">
+<head>
+<meta charset="utf-8"/>
+<title>Racine d'un nombre — Wikipédia</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":[",\t."," \t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"],"wgRequestId":"217ffda1-7b75-45d2-b877-92de5d0eb0d5","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Racine_d'un_nombre","wgTitle":"Racine d'un nombre","wgCurRevisionId":193770467,"wgRevisionId":193770467,"wgArticleId":3058149,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Article contenant un lien mort","Portail:Mathématiques/Articles liés","Portail:Sciences/Articles liés","Projet:Mathématiques/Articles","Bon article en ouzbek","Bon article en biélorusse","Bon article en russe","Analyse réelle","Analyse complexe","Racine nième"],
+"wgPageContentLanguage":"fr","wgPageContentModel":"wikitext","wgRelevantPageName":"Racine_d'un_nombre","wgRelevantArticleId":3058149,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"fr","pageLanguageDir":"ltr","pageVariantFallbacks":"fr"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":8,"wgULSCurrentAutonym":"français","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q601053","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={
+"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","mediawiki.ui.button":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","mediawiki.ui.icon":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.js","skins.vector.es6","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ArchiveLinks",
+"ext.gadget.Wdsearch","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.cx.uls.quick.actions","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=fr&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.ui.button%2Cicon%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=fr&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=fr&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="Racine d'un nombre — Wikipédia" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//fr.m.wikipedia.org/wiki/Racine_d%27un_nombre" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit" rel="alternate" title="Modifier" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipédia (fr)" type="application/opensearchdescription+xml"/>
+<link href="//fr.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://fr.wikipedia.org/wiki/Racine_d%27un_nombre" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Racine_d_un_nombre rootpage-Racine_d_un_nombre skin-vector-2022 action-view vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="mw-page-container">
+<a class="mw-jump-link" href="#bodyContent">Aller au contenu</a>
+<div class="mw-page-container-inner">
+<input class="mw-checkbox-hack-checkbox" id="mw-sidebar-checkbox" type="checkbox"/>
+<header class="mw-header">
+<div class="mw-header-aside">
+<label aria-controls="mw-panel" class="mw-checkbox-hack-button mw-ui-icon mw-ui-button mw-ui-quiet mw-ui-icon-element" data-event-name="ui.sidebar" for="mw-sidebar-checkbox" id="mw-sidebar-button" role="button" tabindex="0" title="Menu principal">
+<span>Afficher / masquer la barre latérale</span>
+</label>
+<a class="mw-logo" href="/wiki/Wikip%C3%A9dia:Accueil_principal">
+<img alt="" aria-hidden="true" class="mw-logo-icon" height="50" src="/static/images/mobile/copyright/wikipedia.png" width="50"/>
+<span class="mw-logo-container">
+<img alt="Wikipédia" class="mw-logo-wordmark" src="/static/images/mobile/copyright/wikipedia-wordmark-fr.svg" style="width: 7.4375em; height: 1.125em;"/>
+<img alt="l'encyclopédie libre" class="mw-logo-tagline" height="13" src="/static/images/mobile/copyright/wikipedia-tagline-fr.svg" style="width: 7.0625em; height: 0.8125em;" width="113"/>
+</span>
+</a>
+</div>
+<div class="mw-header-content">
+<div class="vector-search-box-vue vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<a accesskey="f" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-search search-toggle" href="/wiki/Sp%C3%A9cial:Recherche" title="Rechercher sur Wikipédia [f]">
+<span>Rechercher</span>
+</a>
+<div>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-moved" id="simpleSearch">
+<input accesskey="f" aria-label="Rechercher sur Wikipédia" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="Rechercher sur Wikipédia" title="Rechercher sur Wikipédia [f]" type="search"/>
+<input name="title" type="hidden" value="Spécial:Recherche"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="Rechercher les pages comportant ce texte." type="submit" value="Rechercher"/>
+<input class="searchButton" id="searchButton" name="go" title="Accédez à une page du même nom si elle existe" type="submit" value="Lire"/>
+</div>
+</form>
+</div>
+</div>
+<nav aria-label="Outils personnels" class="vector-user-links" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-vector-user-menu-overflow vector-user-menu-overflow" id="p-vector-user-menu-overflow">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="user-links-collapsible-item mw-list-item" id="pt-createaccount-2"><a href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Racine+d%27un+nombre" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span>Créer un compte</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-personal vector-user-menu vector-user-menu-logged-out vector-menu-dropdown" id="p-personal" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-personal" id="p-personal-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis" for="p-personal-checkbox" id="p-personal-label">
+<span class="vector-menu-heading-label">Outils personnels</span>
+</label>
+<div class="vector-menu-content">
+<div class="vector-user-menu-create-account"><a class="vector-menu-content-item user-links-collapsible-item" href="/w/index.php?title=Sp%C3%A9cial:Cr%C3%A9er_un_compte&amp;returnto=Racine+d%27un+nombre" title="Nous vous encourageons à créer un compte utilisateur et vous connecter ; ce n’est cependant pas obligatoire."><span class="mw-ui-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Créer un compte</span></a></div>
+<div class="vector-user-menu-login"><a accesskey="o" class="vector-menu-content-item vector-menu-content-item-login" href="/w/index.php?title=Sp%C3%A9cial:Connexion&amp;returnto=Racine+d%27un+nombre" title="Nous vous encourageons à vous connecter ; ce n’est cependant pas obligatoire. [o]"><span class="mw-ui-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Se connecter</span></a></div>
+<div class="vector-user-menu-anon-editor">
+<p>
+		Pages pour les contributeurs déconnectés <a aria-label="En savoir plus sur la contribution" href="/wiki/Aide:Introduction"><span>en savoir plus</span></a>
+</p>
+</div>
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Sp%C3%A9cial:Mes_discussions" title="La page de discussion pour les contributions depuis cette adresse IP [n]"><span>Discussion</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Sp%C3%A9cial:Mes_contributions" title="Une liste des modifications effectuées depuis cette adresse IP [y]"><span>Contributions</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</header>
+<div class="vector-sidebar-container">
+<div id="mw-navigation">
+<nav aria-label="Site" class="mw-sidebar" id="mw-panel" role="navigation">
+<div class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation">
+<div class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">Navigation</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikip%C3%A9dia:Accueil_principal" title="Accueil général [z]"><span>Accueil</span></a></li><li class="mw-list-item" id="n-thema"><a href="/wiki/Portail:Accueil"><span>Portails thématiques</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Sp%C3%A9cial:Page_au_hasard" title="Affiche un article au hasard [x]"><span>Article au hasard</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikip%C3%A9dia:Contact"><span>Contact</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-Contribuer vector-menu-portal portal" id="p-Contribuer">
+<div class="vector-menu-heading" id="p-Contribuer-label">
+<span class="vector-menu-heading-label">Contribuer</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-aboutwp"><a href="/wiki/Aide:D%C3%A9buter"><span>Débuter sur Wikipédia</span></a></li><li class="mw-list-item" id="n-help"><a href="/wiki/Aide:Accueil" title="Accès à l’aide"><span>Aide</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikip%C3%A9dia:Accueil_de_la_communaut%C3%A9" title="À propos du projet, ce que vous pouvez faire, où trouver les informations"><span>Communauté</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Sp%C3%A9cial:Modifications_r%C3%A9centes" title="Liste des modifications récentes sur le wiki [r]"><span>Modifications récentes</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_fr.wikipedia.org&amp;uselang=fr" title="Soutenez-nous"><span>Faire un don</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb">
+<div class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">Outils</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Sp%C3%A9cial:Pages_li%C3%A9es/Racine_d%27un_nombre" title="Liste des pages liées qui pointent sur celle-ci [j]"><span>Pages liées</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Sp%C3%A9cial:Suivi_des_liens/Racine_d%27un_nombre" rel="nofollow" title="Liste des modifications récentes des pages appelées par celle-ci [k]"><span>Suivi des pages liées</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Aide:Importer_un_fichier" title="Importer des fichiers [u]"><span>Téléverser un fichier</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Sp%C3%A9cial:Pages_sp%C3%A9ciales" title="Liste de toutes les pages spéciales [q]"><span>Pages spéciales</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=Racine_d%27un_nombre&amp;oldid=193770467" title="Adresse permanente de cette version de cette page"><span>Lien permanent</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=info" title="Davantage d’informations sur cette page"><span>Informations sur la page</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Sp%C3%A9cial:Citer&amp;page=Racine_d%27un_nombre&amp;id=193770467&amp;wpFormIdentifier=titleform" title="Informations sur la manière de citer cette page"><span>Citer cette page</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q601053" title="Lien vers l’élément dans le dépôt de données connecté [g]"><span>Élément Wikidata</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-coll-print_export vector-menu-portal portal" id="p-coll-print_export">
+<div class="vector-menu-heading" id="p-coll-print_export-label">
+<span class="vector-menu-heading-label">Imprimer / exporter</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="coll-create_a_book"><a href="/w/index.php?title=Sp%C3%A9cial:Livre&amp;bookcmd=book_creator&amp;referer=Racine+d%27un+nombre"><span>Créer un livre</span></a></li><li class="mw-list-item" id="coll-download-as-rl"><a href="/w/index.php?title=Sp%C3%A9cial:DownloadAsPdf&amp;page=Racine_d%27un_nombre&amp;action=show-download-screen"><span>Télécharger comme PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="/w/index.php?title=Racine_d%27un_nombre&amp;printable=yes" title="Version imprimable de cette page [p]"><span>Version imprimable</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects">
+<div class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">Dans d’autres projets</span>
+</div>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://fr.wikiversity.org/wiki/Fonction_exponentielle/Fonction_racine_n-i%C3%A8me" hreflang="fr"><span>Wikiversité</span></a></li></ul>
+</div>
+</div>
+<div class="mw-sidebar-action">
+<div class="mw-sidebar-action-item vector-menu-portal">
+<div class="mw-sidebar-action-heading vector-menu-heading">Langues</div>
+<div class="mw-sidebar-action-content vector-menu-content">
+<div class="mw-message-box-notice vector-language-sidebar-alert mw-message-box">Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.<br/><a href="#p-lang-btn">Aller en haut</a>.</div>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="vector-sitenotice-container">
+<div id="siteNotice"><!-- CentralNotice --></div>
+</div>
+<input class="mw-checkbox-hack-checkbox" id="vector-toc-collapsed-checkbox" type="checkbox"/>
+<div class="mw-table-of-contents-container">
+<div class="vector-sticky-toc-container">
+<nav aria-labelledby="sidebar-toc-label" class="sidebar-toc" data-event-name="ui.sidebar-toc" id="mw-panel-toc" role="navigation">
+<div class="sidebar-toc-header" id="sidebar-toc-label">
+<p class="sidebar-toc-title">
+				Sommaire
+				<button class="vector-toc-uncollapse-button">déplacer vers la barre latérale</button>
+<button class="vector-toc-collapse-button">masquer</button>
+</p>
+</div>
+<ul class="sidebar-toc-contents" id="mw-panel-toc-list">
+<li class="sidebar-toc-list-item sidebar-toc-level-1" id="toc-mw-content-text">
+<a class="sidebar-toc-link" href="#">
+<div class="sidebar-toc-text">Début</div>
+</a>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Racine_d'un_réel">
+<a class="sidebar-toc-link" href="#Racine_d'un_réel">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1</span>Racine d'un réel</div>
+</a>
+<button aria-controls="toc-Racine_d'un_réel-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Racine d'un réel
+				</button>
+<ul class="sidebar-toc-list" id="toc-Racine_d'un_réel-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Racine_carrée">
+<a class="sidebar-toc-link" href="#Racine_carrée">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.1</span>Racine carrée</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racine_carrée-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Racine_cubique">
+<a class="sidebar-toc-link" href="#Racine_cubique">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.2</span>Racine cubique</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racine_cubique-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Racine_n-ième_d'un_nombre_réel_positif">
+<a class="sidebar-toc-link" href="#Racine_n-ième_d'un_nombre_réel_positif">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.3</span>Racine <i>n</i>-ième d'un nombre réel positif</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racine_n-ième_d'un_nombre_réel_positif-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Racine_n-ième_d'un_nombre_réel_négatif">
+<a class="sidebar-toc-link" href="#Racine_n-ième_d'un_nombre_réel_négatif">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.4</span>Racine <i>n</i>-ième d'un nombre réel négatif</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racine_n-ième_d'un_nombre_réel_négatif-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Les_propriétés_des_racines">
+<a class="sidebar-toc-link" href="#Les_propriétés_des_racines">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.5</span>Les propriétés des racines</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Les_propriétés_des_racines-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Exposant_fractionnaire">
+<a class="sidebar-toc-link" href="#Exposant_fractionnaire">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.6</span>Exposant fractionnaire</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Exposant_fractionnaire-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Fonction_racine_n-ième">
+<a class="sidebar-toc-link" href="#Fonction_racine_n-ième">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.7</span>Fonction racine <i>n</i>-ième</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Fonction_racine_n-ième-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Développement_en_série_entière">
+<a class="sidebar-toc-link" href="#Développement_en_série_entière">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">1.8</span>Développement en série entière</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Développement_en_série_entière-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Racines_d'un_complexe">
+<a class="sidebar-toc-link" href="#Racines_d'un_complexe">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2</span>Racines d'un complexe</div>
+</a>
+<button aria-controls="toc-Racines_d'un_complexe-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Racines d'un complexe
+				</button>
+<ul class="sidebar-toc-list" id="toc-Racines_d'un_complexe-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Nombres_réels_positifs">
+<a class="sidebar-toc-link" href="#Nombres_réels_positifs">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.1</span>Nombres réels positifs</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Nombres_réels_positifs-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Racines_de_l'unité">
+<a class="sidebar-toc-link" href="#Racines_de_l'unité">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">2.2</span>Racines de l'unité</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racines_de_l'unité-sublist">
+</ul>
+</li>
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Résolution_par_radicaux">
+<a class="sidebar-toc-link" href="#Résolution_par_radicaux">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">3</span>Résolution par radicaux</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Résolution_par_radicaux-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Racine_en_typographie">
+<a class="sidebar-toc-link" href="#Racine_en_typographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">4</span>Racine en typographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Racine_en_typographie-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Notes_et_références">
+<a class="sidebar-toc-link" href="#Notes_et_références">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">5</span>Notes et références</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Notes_et_références-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-1 sidebar-toc-list-item-expanded" id="toc-Voir_aussi">
+<a class="sidebar-toc-link" href="#Voir_aussi">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6</span>Voir aussi</div>
+</a>
+<button aria-controls="toc-Voir_aussi-sublist" class="mw-ui-icon mw-ui-icon-wikimedia-expand mw-ui-icon-small sidebar-toc-toggle">
+					Afficher / masquer la sous-section Voir aussi
+				</button>
+<ul class="sidebar-toc-list" id="toc-Voir_aussi-sublist">
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Articles_connexes">
+<a class="sidebar-toc-link" href="#Articles_connexes">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.1</span>Articles connexes</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Articles_connexes-sublist">
+</ul>
+</li>
+<li class="sidebar-toc-list-item sidebar-toc-level-2" id="toc-Bibliographie">
+<a class="sidebar-toc-link" href="#Bibliographie">
+<div class="sidebar-toc-text">
+<span class="sidebar-toc-numb">6.2</span>Bibliographie</div>
+</a>
+<ul class="sidebar-toc-list" id="toc-Bibliographie-sublist">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+<div class="mw-content-container">
+<main class="mw-body" id="content" role="main">
+<header class="mw-body-header vector-page-titlebar">
+<label aria-controls="toc-toggle-list" class="mw-ui-button mw-ui-quiet mw-ui-icon mw-ui-icon-element mw-ui-icon-wikimedia-listBullet mw-checkbox-hack-button" data-event-name="vector.toc-toggle-list" for="vector-toc-collapsed-checkbox" id="vector-toc-collapsed-button" role="button" tabindex="0" title="Table des matières">
+						Basculer la table des matières
+					</label>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">Racine d'un nombre</span></h1>
+<div class="vector-menu mw-portlet mw-portlet-lang vector-menu-dropdown-noicon vector-menu-dropdown" id="p-lang-btn">
+<input aria-haspopup="true" aria-label="Aller à un article dans une autre langue. Disponible en 66 langues." class="vector-menu-checkbox mw-interlanguage-selector" data-event-name="ui.dropdown-p-lang-btn" id="p-lang-btn-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading mw-ui-progressive mw-portlet-lang-heading-66 mw-ui-button mw-ui-quiet" for="p-lang-btn-checkbox" id="p-lang-btn-label">
+<span class="mw-ui-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span><span class="vector-menu-heading-label">66 langues</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Wortelgetal" hreflang="af" lang="af" title="Wortelgetal — afrikaans"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AC%D8%B0%D8%B1_%D9%86%D9%88%D9%86%D9%8A" hreflang="ar" lang="ar" title="جذر نوني — arabe"><span>العربية</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/K%C3%B6kalt%C4%B1" hreflang="az" lang="az" title="Kökaltı — azerbaïdjanais"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Gamot_(matematika)" hreflang="bcl" lang="bcl" title="Gamot (matematika) — Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B0%D0%BD%D1%8C_(%D0%BC%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D0%BA%D0%B0)" hreflang="be" lang="be" title="Корань (матэматыка) — biélorusse"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B5" hreflang="bg" lang="bg" title="Коренуване — bulgare"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/N-%E0%A6%A4%E0%A6%AE_%E0%A6%AE%E0%A7%82%E0%A6%B2" hreflang="bn" lang="bn" title="N-তম মূল — bengali"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%98%D0%B7%D0%B0%D0%B3%D1%83%D1%83%D1%80_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="bxr" lang="bxr" title="Изагуур (математика) — Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Arrel_en%C3%A8sima" hreflang="ca" lang="ca" title="Arrel enèsima — catalan"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DA%95%DB%95%DA%AF%DB%8C_n%DB%95%D9%85" hreflang="ckb" lang="ckb" title="ڕەگی nەم — sorani"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Odmocnina" hreflang="cs" lang="cs" title="Odmocnina — tchèque"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A2%D1%8B%D0%BC%D0%B0%D1%80_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="cv" lang="cv" title="Тымар (математика) — tchouvache"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/N%27te_rod" hreflang="da" lang="da" title="N'te rod — danois"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Wurzel_(Mathematik)" hreflang="de" lang="de" title="Wurzel (Mathematik) — allemand"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9D%CE%B9%CE%BF%CF%83%CF%84%CE%AE_%CF%81%CE%AF%CE%B6%CE%B1" hreflang="el" lang="el" title="Νιοστή ρίζα — grec"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Nth_root" hreflang="en" lang="en" title="Nth root — anglais"><span>English</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Radicaci%C3%B3n" hreflang="es" lang="es" title="Radicación — espagnol"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Juur_(matemaatika)" hreflang="et" lang="et" title="Juur (matemaatika) — estonien"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Erroketa" hreflang="eu" lang="eu" title="Erroketa — basque"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%B1%DB%8C%D8%B4%D9%87_%D8%B9%D8%AF%D8%AF" hreflang="fa" lang="fa" title="ریشه عدد — persan"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Juuri_(laskutoimitus)" hreflang="fi" lang="fi" title="Juuri (laskutoimitus) — finnois"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Ra%C3%ADz_(matem%C3%A1ticas)" hreflang="gl" lang="gl" title="Raíz (matemáticas) — galicien"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%A9%D7%95%D7%A8%D7%A9_%D7%A9%D7%9C_%D7%9E%D7%A1%D7%A4%D7%A8" hreflang="he" lang="he" title="שורש של מספר — hébreu"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%AE%E0%A5%82%E0%A4%B2_(%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE_%E0%A4%95%E0%A4%BE)" hreflang="hi" lang="hi" title="मूल (संख्या का) — hindi"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Korijen_(funkcija)" hreflang="hr" lang="hr" title="Korijen (funkcija) — croate"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Gy%C3%B6kvon%C3%A1s" hreflang="hu" lang="hu" title="Gyökvonás — hongrois"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B1%D6%80%D5%B4%D5%A1%D5%BF_(%D5%B4%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1)" hreflang="hy" lang="hy" title="Արմատ (մաթեմատիկա) — arménien"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Akar_ke-n" hreflang="id" lang="id" title="Akar ke-n — indonésien"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/R%C3%B3tarv%C3%ADsir" hreflang="is" lang="is" title="Rótarvísir — islandais"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Radicale_(matematica)" hreflang="it" lang="it" title="Radicale (matematica) — italien"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%86%AA%E6%A0%B9" hreflang="ja" lang="ja" title="冪根 — japonais"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%A4%E1%83%94%E1%83%A1%E1%83%95%E1%83%98_(%E1%83%9B%E1%83%90%E1%83%97%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%90)" hreflang="ka" lang="ka" title="ფესვი (მათემატიკა) — géorgien"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A2%D2%AF%D0%B1%D1%96%D1%80_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="kk" lang="kk" title="Түбір (математика) — kazakh"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EA%B1%B0%EB%93%AD%EC%A0%9C%EA%B3%B1%EA%B7%BC" hreflang="ko" lang="ko" title="거듭제곱근 — coréen"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%90%D1%80%D0%B8%D1%84%D0%BC%D0%B5%D1%82%D0%B8%D0%BA%D0%B0%D0%BB%D1%8B%D0%BA_%D1%82%D0%B0%D0%BC%D1%8B%D1%80" hreflang="ky" lang="ky" title="Арифметикалык тамыр — kirghize"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Wortel_(wiskunde)" hreflang="li" lang="li" title="Wortel (wiskunde) — limbourgeois"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/N_%C5%A1aknis" hreflang="lt" lang="lt" title="N šaknis — lituanien"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Sakne_(matem%C4%81tika)" hreflang="lv" lang="lv" title="Sakne (matemātika) — letton"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D1%9A%D0%B5" hreflang="mk" lang="mk" title="Коренување — macédonien"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/W%C3%B6rtel_(Mathematik)" hreflang="nds" lang="nds" title="Wörtel (Mathematik) — bas-allemand"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Wortel_(wiskunde)" hreflang="nl" lang="nl" title="Wortel (wiskunde) — néerlandais"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/N-te-rot" hreflang="nn" lang="nn" title="N-te-rot — norvégien nynorsk"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/N-te-rot" hreflang="nb" lang="nb" title="N-te-rot — norvégien bokmål"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Pierwiastkowanie" hreflang="pl" lang="pl" title="Pierwiastkowanie — polonais"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Radicia%C3%A7%C3%A3o" hreflang="pt" lang="pt" title="Radiciação — portugais"><span>Português</span></a></li><li class="interlanguage-link interwiki-qu mw-list-item"><a class="interlanguage-link-target" href="https://qu.wikipedia.org/wiki/Yupay_saphi" hreflang="qu" lang="qu" title="Yupay saphi — quechua"><span>Runa Simi</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Radical_(matematic%C4%83)" hreflang="ro" lang="ro" title="Radical (matematică) — roumain"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D0%B5%D0%BD%D1%8C_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="ru" lang="ru" title="Корень (математика) — russe"><span>Русский</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Nth_root" hreflang="en-simple" lang="en-simple" title="Nth root — Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Odmocnina" hreflang="sk" lang="sk" title="Odmocnina — slovaque"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Korenjenje" hreflang="sl" lang="sl" title="Korenjenje — slovène"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Mudzi_wenhamba" hreflang="sn" lang="sn" title="Mudzi wenhamba — shona"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9D-%D1%82%D0%B8_%D0%BA%D0%BE%D1%80%D0%B5%D0%BD" hreflang="sr" lang="sr" title="Н-ти корен — serbe"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Rot_av_tal" hreflang="sv" lang="sv" title="Rot av tal — suédois"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/N%E0%AE%86%E0%AE%AE%E0%AF%8D_%E0%AE%AA%E0%AE%9F%E0%AE%BF_%E0%AE%AE%E0%AF%82%E0%AE%B2%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="Nஆம் படி மூலம் — tamoul"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%A3%E0%B8%B2%E0%B8%81%E0%B8%97%E0%B8%B5%E0%B9%88_n" hreflang="th" lang="th" title="รากที่ n — thaï"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Ugat_(matematika)" hreflang="tl" lang="tl" title="Ugat (matematika) — tagalog"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-ug mw-list-item"><a class="interlanguage-link-target" href="https://ug.wikipedia.org/wiki/%D9%8A%D9%89%D9%84%D8%AA%D9%89%D8%B2_(%D9%85%D8%A7%D8%AA%DB%90%D9%85%D8%A7%D8%AA%D9%89%D9%83%D8%A7)" hreflang="ug" lang="ug" title="يىلتىز (ماتېماتىكا) — ouïghour"><span>ئۇيغۇرچە / Uyghurche</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BE%D1%80%D1%96%D0%BD%D1%8C_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="uk" lang="uk" title="Корінь (математика) — ukrainien"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%A7%D8%B5%D9%85" hreflang="ur" lang="ur" title="اصم — ourdou"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz badge-Q17437798 badge-goodarticle mw-list-item" title="bon article"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Arifmetik_ildiz" hreflang="uz" lang="uz" title="Arifmetik ildiz — ouzbek"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/C%C4%83n_b%E1%BA%ADc_n" hreflang="vi" lang="vi" title="Căn bậc n — vietnamien"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Gamot_(matematika)" hreflang="war" lang="war" title="Gamot (matematika) — waray"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E6%96%B9%E6%A0%B9" hreflang="wuu" lang="wuu" title="方根 — wu"><span>吴语</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a class="interlanguage-link-target" href="https://zh.wikipedia.org/wiki/%E6%96%B9%E6%A0%B9" hreflang="zh" lang="zh" title="方根 — chinois"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%A0%B9%E5%BC%8F" hreflang="yue" lang="yue" title="根式 — Cantonese"><span>粵語</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q601053#sitelinks-wikipedia" title="Modifier les liens interlangues">Modifier les liens</a></span></div>
+</div>
+</input></div>
+</header>
+<div class="vector-article-toolbar">
+<div class="mw-article-toolbar-container">
+<div id="left-navigation">
+<nav aria-label="Espaces de noms">
+<div class="vector-menu mw-portlet mw-portlet-associated-pages vector-menu-tabs" id="p-associated-pages">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/Racine_d%27un_nombre" title="Voir le contenu de la page [c]"><span>Article</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Discussion:Racine_d%27un_nombre" rel="discussion" title="Discussion au sujet de cette page de contenu [t]"><span>Discussion</span></a></li></ul>
+</div>
+</div>
+<div class="vector-menu mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants">
+<input aria-haspopup="true" aria-label="Modifier la variante de langue" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-variants-checkbox" id="p-variants-label">
+<span class="vector-menu-heading-label">français</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</input></div>
+</nav>
+</div>
+<div class="vector-collapsible" id="right-navigation">
+<nav aria-label="Affichages">
+<div class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs" id="p-views">
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/Racine_d%27un_nombre"><span>Lire</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-ve-edit"><a accesskey="v" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit" title="Modifier cette page [v]"><span>Modifier</span></a></li><li class="collapsible vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit" title="Modifier le wikicode [e]"><span>Modifier le code</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=Racine_d%27un_nombre&amp;action=history" title="Historique des versions de cette page [h]"><span>Voir l’historique</span></a></li></ul>
+</div>
+</div>
+</nav>
+<nav aria-label="Plus d’options">
+<div class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown vector-has-collapsible-items" id="p-cactions" title="Plus d’options">
+<input aria-haspopup="true" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox">
+<label class="vector-menu-heading" for="p-cactions-checkbox" id="p-cactions-label">
+<span class="vector-menu-heading-label">Plus</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-more-collapsible-item mw-list-item" id="ca-more-view"><a href="/wiki/Racine_d%27un_nombre"><span>Lire</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-ve-edit"><a href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit"><span>Modifier</span></a></li><li class="collapsible vector-more-collapsible-item mw-list-item" id="ca-more-edit"><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit"><span>Modifier le code</span></a></li><li class="vector-more-collapsible-item mw-list-item" id="ca-more-history"><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=history"><span>Voir l’historique</span></a></li></ul>
+</div>
+</input></div>
+</nav>
+</div>
+</div>
+</div>
+<div aria-labelledby="firstHeading" class="vector-body" data-mw-ve-target-container="" id="bodyContent">
+<div class="mw-body-subheader">
+<div class="mw-indicators">
+</div>
+<div class="noprint" id="siteSub">Un article de Wikipédia, l'encyclopédie libre.</div>
+</div>
+<div id="contentSub"></div>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="fr"><div class="mw-parser-output"><div class="bandeau-container homonymie plainlinks hatnote" style=""><div class="bandeau-cell bandeau-icone metadata" style="display:table-cell;padding-right:0.5em"><a href="/wiki/Aide:Homonymie" title="Aide:Homonymie"><img alt="Page d’aide sur l’homonymie" class="noviewer" data-file-height="375" data-file-width="512" decoding="async" height="15" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/20px-Logo_disambig.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/30px-Logo_disambig.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Logo_disambig.svg/40px-Logo_disambig.svg.png 2x" width="20"/></a></div><div class="bandeau-cell" style="display:table-cell;padding-right:0.5em">
+<p>Pour les articles homonymes, voir <a class="mw-disambig" href="/wiki/Racine" title="Racine">racine</a>.
+</p>
+</div></div>
+<p>En <a href="/wiki/Math%C3%A9matiques" title="Mathématiques">mathématiques</a>, une <b> racine <span class="texhtml"><i>n</i></span>-ième d'un nombre</b> <span class="texhtml"><i>a</i></span> est un nombre <span class="texhtml"><i>b</i></span> tel que <span class="texhtml"><i>b<sup>n</sup> = a</i></span>, où <span class="texhtml"><i>n</i></span> est un <a href="/wiki/Entier_naturel" title="Entier naturel">entier naturel</a> non nul.
+</p><p>Selon que l'on travaille dans l'ensemble des <a href="/wiki/Nombre_r%C3%A9el" title="Nombre réel">réels</a> positifs, l'ensemble des réels ou l'ensemble des <a href="/wiki/Nombre_complexe" title="Nombre complexe">complexes</a>, le nombre de racines <span class="texhtml"><i>n</i></span>-ièmes d'un nombre peut être 0, 1, 2 ou <span class="texhtml"><i>n</i></span>.
+</p><p>Pour un nombre réel <span class="texhtml"><i>a</i></span> positif, il existe un unique réel <span class="texhtml"><i>b</i></span> positif tel que <span class="texhtml"><i>b<sup>n</sup> = a</i></span>. Ce réel est appelé <b>la racine <span class="texhtml"><i>n</i></span>-ième de <span class="texhtml"><i>a</i></span></b> (ou <b>racine <i>n</i>-ième principale</b> de <span class="texhtml"><i>a</i></span>) et se note <span class="racine texhtml"><sup style="margin-right: -0.5em; vertical-align: 0.8em;"><i>n</i></sup>√<span style="border-top:1px solid; padding:0 0.1em;"><i>a</i></span></span> avec le symbole <b>radical</b> (<span class="racine texhtml">√<span style="border-top:1px solid; padding:0 0.1em;"> </span></span>) ou <span class="texhtml"><i>a</i><sup>1/<i>n</i></sup></span>. La racine la plus connue est la <a href="/wiki/Racine_carr%C3%A9e" title="Racine carrée">racine carrée</a> d'un réel. Cette définition se généralise pour <span class="texhtml"><i>a</i></span> négatif et <span class="texhtml"><i>b</i></span> négatif à condition que <span class="texhtml"><i>n</i></span> soit <a href="/wiki/Parit%C3%A9_(arithm%C3%A9tique)" title="Parité (arithmétique)">impair</a>.
+</p><p>Le terme de racine d'un nombre ne doit pas être confondu avec celui de racine d'un <a href="/wiki/Polyn%C3%B4me" title="Polynôme">polynôme</a> qui désigne la (ou les) valeur(s) où le polynôme s'annule.
+</p>
+<meta property="mw:PageProp/toc"/>
+<h2><span id="Racine_d.27un_r.C3.A9el"></span><span class="mw-headline" id="Racine_d'un_réel">Racine d'un réel</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=1" title="Modifier la section : Racine d'un réel">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=1" title="Modifier la section : Racine d'un réel">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id="Racine_carr.C3.A9e"></span><span class="mw-headline" id="Racine_carrée">Racine carrée</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=2" title="Modifier la section : Racine carrée">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=2" title="Modifier la section : Racine carrée">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Racine_carr%C3%A9e" title="Racine carrée">Racine carrée</a>.</div></div>
+<p>Pour tout réel <span class="texhtml"><i>r</i></span> strictement positif, l'équation <i>x</i><sup>2</sup> = <span class="texhtml"><i>r</i></span> admet deux solutions réelles opposées, et lorsque <span class="texhtml"><i>r</i></span> = 0, l'équation <i>x</i><sup>2</sup> = 0 admet comme seule solution 0.
+</p><p>La <a href="/wiki/Racine_carr%C3%A9e" title="Racine carrée">racine carrée</a> d'un réel positif <span class="texhtml"><i>r</i></span> est par définition l'unique solution réelle positive de l'équation <i>x</i><sup>2</sup> = <span class="texhtml"><i>r</i></span> d'inconnue <i>x</i>.
+</p><p>Elle est notée <span class="racine texhtml">√<span style="border-top:1px solid; padding:0 0.1em;"><i>r</i></span></span>.
+</p>
+<dl><dt>Exemples</dt>
+<dd>
+<ul><li>La <a href="/wiki/Racine_carr%C3%A9e_de_deux" title="Racine carrée de deux">racine carrée de deux</a> est <span class="racine">√<span style="border-top:1px solid; padding:0 0.1em;">2</span></span> = 1,414 213 56….</li>
+<li>Celle de trois est <span class="racine">√<span style="border-top:1px solid; padding:0 0.1em;">3</span></span> = 1,732 050 80….</li></ul></dd></dl>
+<h3><span class="mw-headline" id="Racine_cubique">Racine cubique</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=3" title="Modifier la section : Racine cubique">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=3" title="Modifier la section : Racine cubique">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Racine_cubique" title="Racine cubique">Racine cubique</a>.</div></div>
+<p>La <a href="/wiki/Racine_cubique" title="Racine cubique">racine cubique</a> d'un réel <i>r</i> quelconque est l'unique racine réelle de l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{3}-r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{3}-r=0}</annotation>
+</semantics>
+</math></span><img alt="x^{3}-r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c4c75616aa2f31619992ccc43a9edadf143f429" style="vertical-align: -0.505ex; width:10.534ex; height:2.843ex;"/></span> d'inconnue <i>x</i>.</dd></dl>
+<p>Elle est notée <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{3}]{r}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{3}]{r}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {3}]{r}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/718be51a7b17ff5c7c730a2d3d8cf8dedd2a7cb3" style="vertical-align: -1.005ex; width:2.985ex; height:3.009ex;"/></span> .
+</p><p><i>Exemple :</i>
+</p>
+<ul><li>On a <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{3}]{-8}}=-2}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mrow>
+<mo>−<!-- − --></mo>
+<mn>8</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{3}]{-8}}=-2}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {3}]{-8}}=-2" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0b130ad49972cfb951cd0334b8fce072ad343026" style="vertical-align: -0.838ex; width:10.976ex; height:3.009ex;"/></span>. En effet <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -2}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -2}</annotation>
+</semantics>
+</math></span><img alt="-2" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/46e5b5b462e546b1d3d7e5f9a23efece405b2e78" style="vertical-align: -0.505ex; width:2.971ex; height:2.343ex;"/></span> est le seul nombre réel dont la puissance troisième est égale à <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -8}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mn>8</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -8}</annotation>
+</semantics>
+</math></span><img alt="-8" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b24cf97579cf40493908c64dc45971c781c97e78" style="vertical-align: -0.505ex; width:2.971ex; height:2.343ex;"/></span>.</li></ul>
+<h3><span id="Racine_n-i.C3.A8me_d.27un_nombre_r.C3.A9el_positif"></span><span class="mw-headline" id="Racine_n-ième_d'un_nombre_réel_positif">Racine <i>n</i>-ième d'un nombre réel positif</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=4" title="Modifier la section : Racine n-ième d'un nombre réel positif">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=4" title="Modifier la section : Racine n-ième d'un nombre réel positif">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Pour tout entier naturel non nul <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>, l'<a href="/wiki/Application_(math%C3%A9matiques)" title="Application (mathématiques)">application</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto x^{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto x^{n}}</annotation>
+</semantics>
+</math></span><img alt="x\mapsto x^{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/098425d2bbb3800078c191d5872c631469a88963" style="vertical-align: -0.338ex; width:7.492ex; height:2.343ex;"/></span> est une <a href="/wiki/Bijection" title="Bijection">bijection</a> de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {R}}_{{+}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c1f2c2437bae14145e43c54cb7e1ee2701b2106" style="vertical-align: -0.671ex; width:3.189ex; height:2.509ex;"/></span> sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {R}}_{{+}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c1f2c2437bae14145e43c54cb7e1ee2701b2106" style="vertical-align: -0.671ex; width:3.189ex; height:2.509ex;"/></span> et donc pour tout réel <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+</semantics>
+</math></span><img alt="r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;"/></span> positif, l'équation <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}=r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}=r}</annotation>
+</semantics>
+</math></span><img alt="x^{n}=r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/43c14f93ae299575135505d70bc5913a1f88250a" style="vertical-align: -0.338ex; width:6.695ex; height:2.343ex;"/></span> admet une unique solution dans <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} _{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} _{+}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {R}}_{{+}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7c1f2c2437bae14145e43c54cb7e1ee2701b2106" style="vertical-align: -0.671ex; width:3.189ex; height:2.509ex;"/></span>.
+</p><p>La <b>racine énième</b> (ou <b>racine n-ième</b>) d'un réel <i>r</i> positif (<i>r</i> ≥ 0, <i>n &gt; 0</i>) est l'unique solution réelle positive de l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}-r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}-r=0}</annotation>
+</semantics>
+</math></span><img alt="x^{n}-r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/502d248e1e071d4369049e9a41be28315b70a806" style="vertical-align: -0.505ex; width:10.698ex; height:2.509ex;"/></span> d'inconnue <i>x</i>.</dd></dl>
+<p>Elle est notée <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{r}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{r}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{r}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/10eb7386bd8efe4c5b5beafe05848fbd923e1413" style="vertical-align: -1.005ex; width:2.985ex; height:3.009ex;"/></span>.
+</p><p>Remarquons que la racine <i>n</i>-ième de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+</semantics>
+</math></span><img alt="r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;"/></span> est aussi l'unique <a href="/wiki/Racine_d%27un_polyn%C3%B4me" title="Racine d'un polynôme">racine</a> positive du polynôme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle X^{n}-r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>X</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle X^{n}-r}</annotation>
+</semantics>
+</math></span><img alt="X^{n}-r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ab8373f7d12a2df5f887bbe07cff6c9e64215ed" style="vertical-align: -0.505ex; width:7.104ex; height:2.509ex;"/></span>.
+</p><p>Lorsque <i>n</i> est pair, l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}-r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}-r=0}</annotation>
+</semantics>
+</math></span><img alt="x^{n}-r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/502d248e1e071d4369049e9a41be28315b70a806" style="vertical-align: -0.505ex; width:10.698ex; height:2.509ex;"/></span> d'inconnue <i>x</i></dd></dl>
+<p>possède deux solutions qui sont <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{r}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{r}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{r}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/10eb7386bd8efe4c5b5beafe05848fbd923e1413" style="vertical-align: -1.005ex; width:2.985ex; height:3.009ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -{\sqrt[{n}]{r}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -{\sqrt[{n}]{r}}}</annotation>
+</semantics>
+</math></span><img alt="-{\sqrt[ {n}]{r}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/cd931b61a9bd0b8d0a2764e888c678dedfdc23c1" style="vertical-align: -1.005ex; width:4.793ex; height:3.009ex;"/></span>.
+</p><p>Lorsque <i>n</i> est impair, l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}-r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}-r=0}</annotation>
+</semantics>
+</math></span><img alt="x^{n}-r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/502d248e1e071d4369049e9a41be28315b70a806" style="vertical-align: -0.505ex; width:10.698ex; height:2.509ex;"/></span> d'inconnue <i>x</i></dd></dl>
+<p>ne possède qu'une seule solution <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{r}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>r</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{r}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{r}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/10eb7386bd8efe4c5b5beafe05848fbd923e1413" style="vertical-align: -1.005ex; width:2.985ex; height:3.009ex;"/></span>.
+</p>
+<h3><span id="Racine_n-i.C3.A8me_d.27un_nombre_r.C3.A9el_n.C3.A9gatif"></span><span class="mw-headline" id="Racine_n-ième_d'un_nombre_réel_négatif">Racine <i>n</i>-ième d'un nombre réel négatif</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=5" title="Modifier la section : Racine n-ième d'un nombre réel négatif">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=5" title="Modifier la section : Racine n-ième d'un nombre réel négatif">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Le traitement des racines de nombres négatifs n'est pas uniforme. Par exemple, il n'existe pas de racine carrée réelle de -1 puisque pour tout réel <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{2}+1&gt;0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mn>1</mn>
+<mo>&gt;</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{2}+1&gt;0}</annotation>
+</semantics>
+</math></span><img alt="x^{2}+1&gt;0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/188e48375babd85fad51d363473eb2e44b48e084" style="vertical-align: -0.505ex; width:10.648ex; height:2.843ex;"/></span>, mais la racine cubique de -27 existe et est égale à -3.
+</p><p>Pour tout entier naturel <a href="/wiki/Parit%C3%A9_(arithm%C3%A9tique)" title="Parité (arithmétique)">impair</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>, l'application <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto x^{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto x^{n}}</annotation>
+</semantics>
+</math></span><img alt="x\mapsto x^{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/098425d2bbb3800078c191d5872c631469a88963" style="vertical-align: -0.338ex; width:7.492ex; height:2.343ex;"/></span> est une bijection de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> sur <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> donc tout nombre réel admet exactement une racine <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>-ième.
+</p><p>Pour tout entier naturel impair <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>, la racine énième (ou racine <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>-ième) d'un réel <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+</semantics>
+</math></span><img alt="r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;"/></span> quelconque est l'unique solution réelle de l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}-r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}-r=0}</annotation>
+</semantics>
+</math></span><img alt="x^{n}-r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/502d248e1e071d4369049e9a41be28315b70a806" style="vertical-align: -0.505ex; width:10.698ex; height:2.509ex;"/></span></dd></dl>
+<p>d'inconnue <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>.
+</p><p>Il s'ensuit que les racines d'ordres impairs de nombres réels négatifs sont négatives.
+</p><p>Remarquons que pour les entiers naturels impairs <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span> et pour tout réel <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>, on a
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{-a}}=-{\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mrow>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{-a}}=-{\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{-a}}=-{\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1f844766ed3a3b580508668e627e0bccb28f3faa" style="vertical-align: -1.005ex; width:13.046ex; height:3.009ex;"/></span>.</dd></dl>
+<p>Le besoin de travailler avec des racines de nombres négatifs a conduit à la mise en place des <a href="/wiki/Nombre_complexe" title="Nombre complexe">nombres complexes</a>, mais il y a également dans le domaine des nombres complexes des restrictions pour les racines. Voir ci-dessous.
+</p>
+<h3><span id="Les_propri.C3.A9t.C3.A9s_des_racines"></span><span class="mw-headline" id="Les_propriétés_des_racines">Les propriétés des racines</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=6" title="Modifier la section : Les propriétés des racines">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=6" title="Modifier la section : Les propriétés des racines">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Les règles de calcul des racines découlent des propriétés des <a href="/wiki/Puissance_d%27un_nombre" title="Puissance d'un nombre">puissances</a>.
+</p><p>Pour les nombres strictement positifs, <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>, on a les règles de calcul suivantes :
+</p>
+<ul><li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a}}\cdot {\sqrt[{n}]{b}}={\sqrt[{n}]{a\cdot b}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mrow>
+<mi>a</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>b</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a}}\cdot {\sqrt[{n}]{b}}={\sqrt[{n}]{a\cdot b}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{a}}\cdot {\sqrt[ {n}]{b}}={\sqrt[ {n}]{a\cdot b}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb1cdc44e892d181f2e52332608a940e0d9f9a6b" style="vertical-align: -1.005ex; width:16.719ex; height:3.343ex;"/></span></li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{m}]{\sqrt[{n}]{a}}}={\sqrt[{m\cdot n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+<mo>⋅<!-- ⋅ --></mo>
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{m}]{\sqrt[{n}]{a}}}={\sqrt[{m\cdot n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {m}]{{\sqrt[ {n}]{a}}}}={\sqrt[ {m\cdot n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1ef8ace9d360ced62f31f7d66eca161594dfc83" style="vertical-align: -1.838ex; width:12.812ex; height:4.843ex;"/></span></li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\sqrt[{n}]{a}}{\sqrt[{n}]{b}}}={\sqrt[{n}]{\frac {a}{b}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+<mroot>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mfrac>
+<mi>a</mi>
+<mi>b</mi>
+</mfrac>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\sqrt[{n}]{a}}{\sqrt[{n}]{b}}}={\sqrt[{n}]{\frac {a}{b}}}}</annotation>
+</semantics>
+</math></span><img alt="{\frac  {{\sqrt[ {n}]{a}}}{{\sqrt[ {n}]{b}}}}={\sqrt[ {n}]{{\frac  {a}{b}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4a051c5fb0f6593e2d1e6a84d3ab614ffbab3eb2" style="vertical-align: -2.838ex; width:11.49ex; height:6.843ex;"/></span></li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left({\sqrt[{n}]{a}}\right)^{m}={\sqrt[{n}]{a^{m}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow>
+<mo>(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left({\sqrt[{n}]{a}}\right)^{m}={\sqrt[{n}]{a^{m}}}}</annotation>
+</semantics>
+</math></span><img alt="\left({\sqrt[ {n}]{a}}\right)^{m}={\sqrt[ {n}]{a^{m}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a25d3ae659b3c55c24927a3784a3204d7fe4d1b1" style="vertical-align: -1.005ex; width:14.589ex; height:3.343ex;"/></span></li></ul>
+<p>Dans le cas des nombres négatifs, ces règles de calcul ne pourront être appliquées que si <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span> sont des nombres impairs. Dans le cas des nombres complexes, elles sont à éviter.
+</p>
+<h3><span class="mw-headline" id="Exposant_fractionnaire">Exposant fractionnaire</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=7" title="Modifier la section : Exposant fractionnaire">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=7" title="Modifier la section : Exposant fractionnaire">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Dans l'ensemble des réels strictement positifs, le nombre qui, élevé à la puissance <i>n</i>, donne <i>a</i> est noté <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7873203eb76042fcd24056c553de8c86054a2df" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span>. L'idée est de noter ce nombre comme une puissance de <i>a</i>, quitte à prendre un exposant non entier. Il s'agissait donc de trouver un exposant <i>p</i> tel que <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left(a^{p}\right)^{n}=a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow>
+<mo>(</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+</mrow>
+</msup>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left(a^{p}\right)^{n}=a}</annotation>
+</semantics>
+</math></span><img alt="\left(a^{p}\right)^{n}=a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/51c4eb79cfec8d8441fb85c105a996854b82ad6d" style="vertical-align: -0.838ex; width:9.645ex; height:3.009ex;"/></span>. En utilisant des opérations connues sur des exposants entiers que l'on généraliserait à des exposants non entiers, on obtiendrait <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{pn}=a^{1}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>p</mi>
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{pn}=a^{1}}</annotation>
+</semantics>
+</math></span><img alt="a^{{pn}}=a^{1}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6b9a3af8b2eb157f2f8dca40c15198b08272352" style="vertical-align: -0.338ex; width:8.658ex; height:2.676ex;"/></span>, soit <i>pn = 1</i> et <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p={\frac {1}{n}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p={\frac {1}{n}}}</annotation>
+</semantics>
+</math></span><img alt="p={\frac  1n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2d6c64c9bc4b5b2db9567b4ff095d7e73fb47e49" style="vertical-align: -1.838ex; margin-left: -0.089ex; width:6.588ex; height:5.176ex;"/></span>.
+</p><p>Ainsi on peut noter la racine carrée de <i>a</i> , <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mi>a</mi>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt  a}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/afccc332c876539296df1a980127d86173e59ef0" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span> ou <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{\frac {1}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{\frac {1}{2}}}</annotation>
+</semantics>
+</math></span><img alt="a^{{{\frac  12}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ab102ab17844019d8f88084d4efa76d7a1415055" style="vertical-align: -0.338ex; width:2.966ex; height:3.509ex;"/></span>, la racine cubique de <i>a</i> , <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{3}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{3}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {3}]a}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/895424fc79dfd221f984d973ac95ca277bd0e60c" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span> ou <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{\frac {1}{3}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>3</mn>
+</mfrac>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{\frac {1}{3}}}</annotation>
+</semantics>
+</math></span><img alt="a^{{{\frac  13}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b256c868bbe505f368e8c6af9c5f347a03857502" style="vertical-align: -0.338ex; width:2.966ex; height:3.509ex;"/></span> et la racine <i>n</i>-ième de <i>a</i> , <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]a}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7873203eb76042fcd24056c553de8c86054a2df" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span> ou <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{\frac {1}{n}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{\frac {1}{n}}}</annotation>
+</semantics>
+</math></span><img alt="a^{{{\frac  1n}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d741d942d62af470be1751f21021e8a140f845a5" style="vertical-align: -0.338ex; width:3.099ex; height:3.343ex;"/></span>.
+</p><p>Cette extension des valeurs possibles pour l'exposant est due au travail de <a href="/wiki/Isaac_Newton" title="Isaac Newton">Newton</a> et <a href="/wiki/Gottfried_Wilhelm_Leibniz" title="Gottfried Wilhelm Leibniz">Leibniz</a><sup class="reference" id="cite_ref-1"><a href="#cite_note-1"><span class="cite_crochet">[</span>1<span class="cite_crochet">]</span></a></sup>. On peut poursuivre le travail en observant que
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a^{m}}}=\left({\sqrt[{n}]{a}}\right)^{m}=\left(a^{m}\right)^{\frac {1}{n}}=\left(a^{\frac {1}{n}}\right)^{m}=a^{\frac {m}{n}}.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<msup>
+<mrow>
+<mo>(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mrow>
+<mo>(</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mrow>
+<mo>(</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</msup>
+<mo>)</mo>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>m</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>m</mi>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</msup>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a^{m}}}=\left({\sqrt[{n}]{a}}\right)^{m}=\left(a^{m}\right)^{\frac {1}{n}}=\left(a^{\frac {1}{n}}\right)^{m}=a^{\frac {m}{n}}.}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{a^{m}}}=\left({\sqrt[ {n}]a}\right)^{m}=\left(a^{m}\right)^{{{\frac  1n}}}=\left(a^{{{\frac  1n}}}\right)^{m}=a^{{{\frac  mn}}}." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f1826b35decd0ce5b3d10dfe8470a5fcc65fcf3c" style="vertical-align: -1.838ex; width:42.134ex; height:5.009ex;"/></span></dd></dl>
+<p>et vérifier que cette notation est compatible avec les <a href="/wiki/Puissance_d%27un_nombre#Opérations_algébriques_sur_les_puissances_entières" title="Puissance d'un nombre">propriétés déjà connues sur les exposants entiers</a>.
+</p><p>C'est chez Newton que l'on voit apparaître pour la première fois un exposant fractionnaire. Mais Newton et Leibniz ne s'arrêteront pas là et se poseront même la question de travailler sur des exposants irrationnels sans être pour autant capables de leur donner un sens. Ce n'est qu'un siècle plus tard que ces notations prendront un sens précis avec la mise en place de la <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">fonction exponentielle</a> et la traduction :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a^{\frac {1}{n}}=\exp \left({\frac {1}{n}}\ln a\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>exp</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<mi>ln</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>a</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a^{\frac {1}{n}}=\exp \left({\frac {1}{n}}\ln a\right)}</annotation>
+</semantics>
+</math></span><img alt="a^{{{\frac  1n}}}=\exp \left({\frac  1n}\ln a\right)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/828ecec40be966aa3a03d8d16b7c8e7108402132" style="vertical-align: -2.505ex; width:19.345ex; height:6.176ex;"/></span> pour tout réel <i>a</i> strictement positif.</dd></dl>
+<h3><span id="Fonction_racine_n-i.C3.A8me"></span><span class="mw-headline" id="Fonction_racine_n-ième">Fonction racine <i>n</i>-ième</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=8" title="Modifier la section : Fonction racine n-ième">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=8" title="Modifier la section : Fonction racine n-ième">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:RacineNieme.svg"><img alt="" class="thumbimage" data-file-height="253" data-file-width="279" decoding="async" height="199" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/RacineNieme.svg/220px-RacineNieme.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/70/RacineNieme.svg/330px-RacineNieme.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/70/RacineNieme.svg/440px-RacineNieme.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:RacineNieme.svg" title="Agrandir"></a></div>Racine carré et racine cubique comme réciproques des fonctions carré et cube.</div></div></div>
+<p>Pour tout entier naturel non nul <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>, l'application <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto x^{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto x^{n}}</annotation>
+</semantics>
+</math></span><img alt="x\mapsto x^{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/098425d2bbb3800078c191d5872c631469a88963" style="vertical-align: -0.338ex; width:7.492ex; height:2.343ex;"/></span> est une bijection de ℝ<sub>+</sub> sur ℝ<sub>+</sub> dont l'<a href="/wiki/Bijection_r%C3%A9ciproque" title="Bijection réciproque">application réciproque</a> est la fonction racine <i>n</i>-ième. Il est donc loisible de construire sa représentation graphique, à l'aide de celle de la <a href="/wiki/Fonction_puissance" title="Fonction puissance">fonction puissance</a> par <a href="/wiki/Sym%C3%A9trie_axiale" title="Symétrie axiale">symétrie d'axe</a> la droite d'équation <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=x}</annotation>
+</semantics>
+</math></span><img alt="y=x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d0abe2e7da593fb7b41d44e87a97fefdd8998b77" style="vertical-align: -0.671ex; width:5.584ex; height:2.009ex;"/></span>.
+</p><p>On remarque que cette fonction est <a href="/wiki/Continuit%C3%A9_(math%C3%A9matiques)" title="Continuité (mathématiques)">continue</a> sur l'<a href="/wiki/Intervalle_(math%C3%A9matiques)" title="Intervalle (mathématiques)">intervalle</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left[0,+\infty \right[}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>[</mo>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<mo>+</mo>
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+<mo>[</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left[0,+\infty \right[}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \left[0,+\infty \right[}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4493cca7f0a21fe4a0d1548b97b214b7cc0fa746" style="vertical-align: -0.838ex; width:7.622ex; height:2.843ex;"/></span> et l'existence à l'origine d'une tangente confondue avec l'axe des <i>y</i> donc d'une <a href="/wiki/D%C3%A9rivabilit%C3%A9" title="Dérivabilité">non-dérivabilité</a> en 0 ainsi qu'une <a href="/wiki/Branche_parabolique" title="Branche parabolique">branche parabolique</a> d'axe (<i>Ox</i>).
+</p><p>Les formules sur la <a href="/wiki/Bijection_r%C3%A9ciproque#Dérivabilité" title="Bijection réciproque">dérivée de la réciproque</a> permettent d'établir que la fonction racine <i>n</i>-ième est dérivable sur l'intervalle <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left]0,+\infty \right[}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>]</mo>
+<mrow>
+<mn>0</mn>
+<mo>,</mo>
+<mo>+</mo>
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+<mo>[</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left]0,+\infty \right[}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \left]0,+\infty \right[}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/010ebc9c2d0f3af5ce1c0594c44823f107968561" style="vertical-align: -0.838ex; width:7.622ex; height:2.843ex;"/></span> et que sa dérivée est <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\frac {\sqrt[{n}]{x}}{nx}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mroot>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+<mrow>
+<mi>n</mi>
+<mi>x</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\frac {\sqrt[{n}]{x}}{nx}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto {\frac {\sqrt[{n}]{x}}{nx}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2cff5bcae21c7ee8d2645aec9be2656efd15cb6c" style="vertical-align: -1.838ex; width:9.045ex; height:5.843ex;"/></span>, soit encore, avec l'exposant fractionnaire <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x\mapsto {\frac {1}{n}}x^{{\frac {1}{n}}-1}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo stretchy="false">↦<!-- ↦ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x\mapsto {\frac {1}{n}}x^{{\frac {1}{n}}-1}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle x\mapsto {\frac {1}{n}}x^{{\frac {1}{n}}-1}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3df38ab4212c5b38a3a31a1d002f8f058fec111b" style="vertical-align: -1.838ex; width:12.474ex; height:5.176ex;"/></span> montrant ainsi que la formule sur la dérivée d'une fonction puissance entière se généralise à celle d'une puissance inverse.
+</p>
+<h3><span id="D.C3.A9veloppement_en_s.C3.A9rie_enti.C3.A8re"></span><span class="mw-headline" id="Développement_en_série_entière">Développement en série entière</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=9" title="Modifier la section : Développement en série entière">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=9" title="Modifier la section : Développement en série entière">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/S%C3%A9rie_enti%C3%A8re" title="Série entière">série entière</a>.</div></div><p>
+Le radical ou racine peut être représenté par la <a href="/wiki/S%C3%A9rie_de_Taylor" title="Série de Taylor">série de Taylor</a> au point 1, qui s'obtient à partir de la <a href="/wiki/Formule_du_bin%C3%B4me_g%C3%A9n%C3%A9ralis%C3%A9e" title="Formule du binôme généralisée">formule du binôme généralisée</a> : pour tout réel <span class="texhtml"><i>h</i></span> tel que |<span class="texhtml"><i>h</i></span>| ≤ 1,</p><center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{1-h}}=1-\sum _{k=1}^{\infty }a_{k}h^{k}{\text{ avec }}a_{k}={\frac {{\frac {1}{n}}\left(1-{\frac {1}{n}}\right)\left(2-{\frac {1}{n}}\right)\cdots \left(k-1-{\frac {1}{n}}\right)}{k!}}={\frac {\displaystyle \prod _{0&lt;s&lt;k}(sn-1)}{k!n^{k}}}\geq 0.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>h</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+<mo>=</mo>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<msup>
+<mi>h</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext> avec </mtext>
+</mrow>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mn>2</mn>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>⋯<!-- ⋯ --></mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>k</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mrow>
+<mrow>
+<mi>k</mi>
+<mo>!</mo>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mstyle displaystyle="true" scriptlevel="0">
+<munder>
+<mo>∏<!-- ∏ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+<mo>&lt;</mo>
+<mi>s</mi>
+<mo>&lt;</mo>
+<mi>k</mi>
+</mrow>
+</munder>
+<mo stretchy="false">(</mo>
+<mi>s</mi>
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+<mrow>
+<mi>k</mi>
+<mo>!</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+<mo>≥<!-- ≥ --></mo>
+<mn>0.</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{1-h}}=1-\sum _{k=1}^{\infty }a_{k}h^{k}{\text{ avec }}a_{k}={\frac {{\frac {1}{n}}\left(1-{\frac {1}{n}}\right)\left(2-{\frac {1}{n}}\right)\cdots \left(k-1-{\frac {1}{n}}\right)}{k!}}={\frac {\displaystyle \prod _{0&lt;s&lt;k}(sn-1)}{k!n^{k}}}\geq 0.}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\sqrt[{n}]{1-h}}=1-\sum _{k=1}^{\infty }a_{k}h^{k}{\text{ avec }}a_{k}={\frac {{\frac {1}{n}}\left(1-{\frac {1}{n}}\right)\left(2-{\frac {1}{n}}\right)\cdots \left(k-1-{\frac {1}{n}}\right)}{k!}}={\frac {\displaystyle \prod _{0&lt;s&lt;k}(sn-1)}{k!n^{k}}}\geq 0.}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e0e1d834dc2eeb69b64f302ead626f4203efaa3e" style="vertical-align: -3.005ex; width:90.893ex; height:9.509ex;"/></span></center><p>En effet, cette égalité, <i>a priori</i> seulement pour |<span class="texhtml"><i>h</i></span>| &lt; 1, assure en fait la <a href="/wiki/Convergence_normale" title="Convergence normale">convergence normale</a> sur [–1, 1] puisque</p><center><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum _{k=1}^{\infty }a_{k}=\sup _{N\in \mathbb {N} ^{*}}\sum _{k=1}^{N}a_{k}=\sup _{N\in \mathbb {N} ^{*},h\in [0,1[}\sum _{k=1}^{N}a_{k}h^{k}=\sup _{h\in [0,1[}\sum _{k=1}^{\infty }a_{k}h^{k}=\sup _{h\in [0,1[}\left(1-{\sqrt[{n}]{1-h}}\right)=1&lt;+\infty .}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<munder>
+<mo form="prefix" movablelimits="true">sup</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>N</mi>
+<mo>∈<!-- ∈ --></mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+</mrow>
+</munder>
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>N</mi>
+</mrow>
+</munderover>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<munder>
+<mo form="prefix" movablelimits="true">sup</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>N</mi>
+<mo>∈<!-- ∈ --></mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+<mo>,</mo>
+<mi>h</mi>
+<mo>∈<!-- ∈ --></mo>
+<mo stretchy="false">[</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo stretchy="false">[</mo>
+</mrow>
+</munder>
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>N</mi>
+</mrow>
+</munderover>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<msup>
+<mi>h</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<munder>
+<mo form="prefix" movablelimits="true">sup</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>h</mi>
+<mo>∈<!-- ∈ --></mo>
+<mo stretchy="false">[</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo stretchy="false">[</mo>
+</mrow>
+</munder>
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<msub>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msub>
+<msup>
+<mi>h</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<munder>
+<mo form="prefix" movablelimits="true">sup</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>h</mi>
+<mo>∈<!-- ∈ --></mo>
+<mo stretchy="false">[</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo stretchy="false">[</mo>
+</mrow>
+</munder>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mrow>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>h</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mn>1</mn>
+<mo>&lt;</mo>
+<mo>+</mo>
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+<mo>.</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum _{k=1}^{\infty }a_{k}=\sup _{N\in \mathbb {N} ^{*}}\sum _{k=1}^{N}a_{k}=\sup _{N\in \mathbb {N} ^{*},h\in [0,1[}\sum _{k=1}^{N}a_{k}h^{k}=\sup _{h\in [0,1[}\sum _{k=1}^{\infty }a_{k}h^{k}=\sup _{h\in [0,1[}\left(1-{\sqrt[{n}]{1-h}}\right)=1&lt;+\infty .}</annotation>
+</semantics>
+</math></span><img alt="\sum _{{k=1}}^{\infty }a_{k}=\sup _{{N\in \mathbb{N} ^{*}}}\sum _{{k=1}}^{N}a_{k}=\sup _{{N\in \mathbb{N} ^{*},h\in [0,1[}}\sum _{{k=1}}^{N}a_{k}h^{k}=\sup _{{h\in [0,1[}}\sum _{{k=1}}^{\infty }a_{k}h^{k}=\sup _{{h\in [0,1[}}\left(1-{\sqrt[ {n}]{1-h}}\right)=1&lt;+\infty ." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/05c4c964f92f94b7aa8c5559a9c5dab9cae5cbd0" style="vertical-align: -3.005ex; width:94.016ex; height:7.343ex;"/></span></center>
+<p>On peut remarquer (<abbr class="abbr" title="confer (reportez-vous à/comparez avec)">cf.</abbr> « <a href="/wiki/Th%C3%A9or%C3%A8me_d%27Eisenstein" title="Théorème d'Eisenstein">Théorème d'Eisenstein</a> ») que tous les <i>n</i><sup>2<i>k</i>–1</sup><i>a<sub>k</sub></i> sont entiers (dans le <a href="/wiki/Racine_carr%C3%A9e#Fonction_réelle" title="Racine carrée">cas <i>n</i> = 2</a>, ce sont les <a href="/wiki/Nombre_de_Catalan" title="Nombre de Catalan">nombres de Catalan</a> <i>C</i><sub><i>k</i>–1</sub>).
+</p>
+<h2><span id="Racines_d.27un_complexe"></span><span class="mw-headline" id="Racines_d'un_complexe">Racines d'un complexe</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=10" title="Modifier la section : Racines d'un complexe">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=10" title="Modifier la section : Racines d'un complexe">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Racine_d%27un_nombre_complexe" title="Racine d'un nombre complexe">Racine d'un nombre complexe</a>.</div></div>
+<p>Pour tout entier naturel non nul <i>n</i>, une racine <i>n</i>-ième d'un nombre complexe <i>z</i> est un nombre qui, élevé à la puissance <i>n</i> donne <i>z</i>, c'est-à-dire une solution de l'équation
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}=z}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>z</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}=z}</annotation>
+</semantics>
+</math></span><img alt="x^{n}=z" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/73211cdcec6028a414ede84cdae414272ecfd6a1" style="vertical-align: -0.338ex; width:6.735ex; height:2.343ex;"/></span></dd></dl>
+<p>d'inconnue <i>x</i>.
+</p><p>Lorsque <i>z</i> est différent de 0, il existe <i>n</i> racines <i>n</i>-ièmes distinctes de <i>z</i>. En effet, les racines <i>n</i>-ièmes d'un complexe <i>z</i> non nul sont aussi les racines du polynôme <i>X<sup>n</sup> – z</i>, qui admet bien <i>n</i> solutions dans l'ensemble des nombres complexes d'après le <a class="mw-redirect" href="/wiki/Th%C3%A9or%C3%A8me_de_d%27Alembert-Gauss" title="Théorème de d'Alembert-Gauss">théorème de d'Alembert-Gauss</a>.
+</p><p>Toutes les racines de n'importe quel nombre, réel ou complexe, peuvent être trouvées avec un simple <a href="/wiki/Algorithmique" title="Algorithmique">algorithme</a>. Le nombre doit d'abord être écrit sous la forme <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ae^{i\varphi }}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mi>φ<!-- φ --></mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ae^{i\varphi }}</annotation>
+</semantics>
+</math></span><img alt="ae^{{i\varphi }}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/43f8d85161e3776eb100cffe0b20f095d0fdecab" style="vertical-align: -0.338ex; width:4.188ex; height:2.676ex;"/></span> (voir la <a href="/wiki/Formule_d%27Euler" title="Formule d'Euler">formule d'Euler</a>). Alors, toutes les racines <i>n</i>-ièmes sont données par :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e^{({\frac {\varphi +2k\pi }{n}})i}\times {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">(</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>φ<!-- φ --></mi>
+<mo>+</mo>
+<mn>2</mn>
+<mi>k</mi>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+<mo stretchy="false">)</mo>
+<mi>i</mi>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e^{({\frac {\varphi +2k\pi }{n}})i}\times {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="e^{{({\frac  {\varphi +2k\pi }{n}})i}}\times {\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b85a6077d8b3c1b3c98317eecb0ce47a926a4549" style="vertical-align: -1.005ex; width:14.043ex; height:4.343ex;"/></span></dd></dl>
+<p>pour <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k=0,1,2,\ldots ,n-1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+<mo>=</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k=0,1,2,\ldots ,n-1}</annotation>
+</semantics>
+</math></span><img alt="k=0,1,2,\ldots ,n-1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/36fd103867d2b8407db3fa90a3b2e009370793fd" style="vertical-align: -0.671ex; width:20.441ex; height:2.509ex;"/></span>, où <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7873203eb76042fcd24056c553de8c86054a2df" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span> représente la racine <i>n</i>-ième principale de <i>a</i>.
+</p>
+<h3><span id="Nombres_r.C3.A9els_positifs"></span><span class="mw-headline" id="Nombres_réels_positifs">Nombres réels positifs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=11" title="Modifier la section : Nombres réels positifs">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=11" title="Modifier la section : Nombres réels positifs">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Toutes les solutions complexes de <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{n}=a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{n}=a}</annotation>
+</semantics>
+</math></span><img alt="x^{n}=a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d4f72f2b21e69fe32e9d348b1768bb5bd017fa1b" style="vertical-align: -0.338ex; width:6.876ex; height:2.343ex;"/></span>, autrement dit les racines <i>n</i>-ièmes de <i>a</i>, où <i>a</i> est un nombre réel positif, sont données par l'équation simplifiée :
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e^{2\pi i{\frac {k}{n}}}\times {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mi>π<!-- π --></mi>
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>k</mi>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</msup>
+<mo>×<!-- × --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e^{2\pi i{\frac {k}{n}}}\times {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="e^{{2\pi i{\frac  {k}{n}}}}\times {\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7bbf0ec4a058a408d016bc4c013aeabd2d80008" style="vertical-align: -1.005ex; width:11.29ex; height:4.009ex;"/></span></dd></dl>
+<p>pour <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k=0,1,2,\ldots ,n-1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+<mo>=</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k=0,1,2,\ldots ,n-1}</annotation>
+</semantics>
+</math></span><img alt="k=0,1,2,\ldots ,n-1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/36fd103867d2b8407db3fa90a3b2e009370793fd" style="vertical-align: -0.671ex; width:20.441ex; height:2.509ex;"/></span>, où <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt[{n}]{a}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mroot>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</mroot>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt[{n}]{a}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt[ {n}]{a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7873203eb76042fcd24056c553de8c86054a2df" style="vertical-align: -1.005ex; width:3.166ex; height:3.009ex;"/></span> représente la racine <i>n</i>-ième principale de <i>a</i>.
+</p>
+<h3><span id="Racines_de_l.27unit.C3.A9"></span><span class="mw-headline" id="Racines_de_l'unité">Racines de l'unité</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=12" title="Modifier la section : Racines de l'unité">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=12" title="Modifier la section : Racines de l'unité">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Racine_de_l%27unit%C3%A9" title="Racine de l'unité">Racine de l'unité</a>.</div></div>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/Polyn%C3%B4me_cyclotomique" title="Polynôme cyclotomique">Polynôme cyclotomique</a>.</div></div>
+<p>Lorsque <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle z=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>z</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle z=1}</annotation>
+</semantics>
+</math></span><img alt="z=1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/078535cde78d90bfa1d9fbb2446204593a921d57" style="vertical-align: -0.338ex; width:5.349ex; height:2.176ex;"/></span>, une telle racine s'appelle une racine <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>-<b>ième de l'unité</b>, et l'ensemble des racines n-ièmes de l'unité, noté <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\mathcal {U}}_{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">U</mi>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\mathcal {U}}_{n}}</annotation>
+</semantics>
+</math></span><img alt="{\mathcal  U}_{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a6852d4834cc2863616d875462d0216b1bad4d91" style="vertical-align: -0.671ex; margin-left: -0.038ex; width:2.712ex; height:2.509ex;"/></span>, est formé des <i>n</i> racines du polynôme complexe
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle X^{n}-1.}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>X</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mn>1.</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle X^{n}-1.}</annotation>
+</semantics>
+</math></span><img alt="X^{n}-1." aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/40d752d236be0496fbc46af44103467038b7d3f3" style="vertical-align: -0.505ex; width:7.865ex; height:2.509ex;"/></span></dd></dl>
+<p>Il s'agit d'un <a href="/wiki/Groupe_(math%C3%A9matiques)" title="Groupe (mathématiques)">sous-groupe</a> <a href="/wiki/Groupe_cyclique" title="Groupe cyclique">cyclique</a> du groupe multiplicatif des <a href="/wiki/Nombre_complexe" title="Nombre complexe">complexes</a> de module 1. Il est formé des éléments <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \{1,e^{i{\frac {2\pi }{n}}},e^{i{\frac {4\pi }{n}}},\ldots ,e^{i{\frac {(2n-2)\pi }{n}}}\}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo fence="false" stretchy="false">{</mo>
+<mn>1</mn>
+<mo>,</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</msup>
+<mo>,</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>4</mn>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</msup>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo>,</mo>
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>n</mi>
+<mo>−<!-- − --></mo>
+<mn>2</mn>
+<mo stretchy="false">)</mo>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</msup>
+<mo fence="false" stretchy="false">}</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \{1,e^{i{\frac {2\pi }{n}}},e^{i{\frac {4\pi }{n}}},\ldots ,e^{i{\frac {(2n-2)\pi }{n}}}\}}</annotation>
+</semantics>
+</math></span><img alt="\{1,e^{{i{\frac  {2\pi }{n}}}},e^{{i{\frac  {4\pi }{n}}}},\ldots ,e^{{i{\frac  {(2n-2)\pi }{n}}}}\}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb1d9ed57933f92ee52c48501a5ac590f708ddb9" style="vertical-align: -0.838ex; width:26.732ex; height:4.176ex;"/></span>
+</p><p>On appelle <a href="/wiki/Racine_primitive_modulo_n" title="Racine primitive modulo n">racine n-ième primitive de l'unité</a> tout générateur du groupe cyclique <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\mathcal {U}}_{n}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">U</mi>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\mathcal {U}}_{n}}</annotation>
+</semantics>
+</math></span><img alt="{\mathcal  U}_{n}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a6852d4834cc2863616d875462d0216b1bad4d91" style="vertical-align: -0.671ex; margin-left: -0.038ex; width:2.712ex; height:2.509ex;"/></span>. Ces racines primitives sont les éléments <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e^{i{\frac {2k\pi }{n}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>e</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<mi>k</mi>
+<mi>π<!-- π --></mi>
+</mrow>
+<mi>n</mi>
+</mfrac>
+</mrow>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e^{i{\frac {2k\pi }{n}}}}</annotation>
+</semantics>
+</math></span><img alt="e^{{i{\frac  {2k\pi }{n}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/157a6fe1a764aaac80b6b89a1ab17e61d6e8dbcc" style="vertical-align: -0.338ex; width:4.847ex; height:3.343ex;"/></span> où <i>k</i> est <a href="/wiki/Nombre_premier" title="Nombre premier">premier</a> avec <i>n</i>. Leur nombre est égal à <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \varphi (n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>φ<!-- φ --></mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \varphi (n)}</annotation>
+</semantics>
+</math></span><img alt="\varphi (n)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f067864064667dd5f8b2508b9cbf983d89788629" style="vertical-align: -0.838ex; width:4.724ex; height:2.843ex;"/></span> où <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \varphi }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>φ<!-- φ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \varphi }</annotation>
+</semantics>
+</math></span><img alt="\varphi " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/33ee699558d09cf9d653f6351f9fda0b2f4aaa3e" style="vertical-align: -0.838ex; width:1.52ex; height:2.176ex;"/></span> désigne l'<a href="/wiki/Indicatrice_d%27Euler" title="Indicatrice d'Euler">indicatrice d'Euler</a>.
+</p>
+<h2><span id="R.C3.A9solution_par_radicaux"></span><span class="mw-headline" id="Résolution_par_radicaux">Résolution par radicaux</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=13" title="Modifier la section : Résolution par radicaux">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=13" title="Modifier la section : Résolution par radicaux">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/Ludovico_Ferrari" title="Ludovico Ferrari">Ludovico Ferrari</a> a démontré que les racines des <a href="/wiki/Polyn%C3%B4me" title="Polynôme">polynômes</a> du quatrième degré pouvaient, comme pour ceux du deuxième et troisième degré, être calculées par radicaux, c'est-à-dire par un nombre fini d'opérations élémentaires sur les coefficients du polynôme, comportant des <a href="/wiki/Algorithme_de_calcul_de_la_racine_n-i%C3%A8me" title="Algorithme de calcul de la racine n-ième">calculs de racines <i>n</i>-ièmes</a>. Ceci n'est plus vrai en général pour les <a href="/wiki/%C3%89quation_quintique" title="Équation quintique">équations quintiques</a> ou d'un degré supérieur, comme l'énonce le <a href="/wiki/Th%C3%A9or%C3%A8me_d%27Abel_(alg%C3%A8bre)" title="Théorème d'Abel (algèbre)">théorème d'Abel-Ruffini</a>. Par exemple, les solutions de l'équation <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \ x^{5}=x+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mtext> </mtext>
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>5</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>x</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \ x^{5}=x+1}</annotation>
+</semantics>
+</math></span><img alt="\ x^{5}=x+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a816236f9ce5328fa12fe8dc79c10a35e4030dbd" style="vertical-align: -0.505ex; width:11.396ex; height:2.843ex;"/></span> ne peuvent pas être exprimées en termes de radicaux.
+</p>
+<div class="bandeau-container bandeau-section metadata bandeau-niveau-information"><div class="bandeau-cell bandeau-icone-css loupe">Article détaillé : <a href="/wiki/%C3%89quation_quintique" title="Équation quintique">équation quintique</a>.</div></div>
+<p>Pour résoudre « numériquement » n'importe quelle équation du <i>n</i>-ième degré, voir l'<a href="/wiki/Algorithme_de_recherche_d%27un_z%C3%A9ro_d%27une_fonction" title="Algorithme de recherche d'un zéro d'une fonction">algorithme de recherche de racines</a>.
+</p>
+<h2><span class="mw-headline" id="Racine_en_typographie">Racine en typographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=14" title="Modifier la section : Racine en typographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=14" title="Modifier la section : Racine en typographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/wiki/Fichier:Structure_of_a_root.svg"><img alt="" class="thumbimage" data-file-height="520" data-file-width="1150" decoding="async" height="99" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Structure_of_a_root.svg/220px-Structure_of_a_root.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Structure_of_a_root.svg/330px-Structure_of_a_root.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Structure_of_a_root.svg/440px-Structure_of_a_root.svg.png 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/Fichier:Structure_of_a_root.svg" title="Agrandir"></a></div>Légende : 1. Indice ; 2. Radical ; 3. Radicande</div></div></div>
+<p>En <a href="/wiki/Typographie" title="Typographie">typographie</a>, une racine est composée de trois parties : le radical, l'indice et le radicande.
+</p>
+<ul><li>Le radical est le symbole de la racine,</li>
+<li>l'indice est le degré de cette racine,</li>
+<li>enfin, le radicande est ce qu'il y a sous le radical.</li></ul>
+<h2><span id="Notes_et_r.C3.A9f.C3.A9rences"></span><span class="mw-headline" id="Notes_et_références">Notes et références</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=15" title="Modifier la section : Notes et références">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=15" title="Modifier la section : Notes et références">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small decimal" style=""><div class="mw-references-wrap"><ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink noprint"><a href="#cite_ref-1">↑</a> </span><span class="reference-text">Michel Serfati, <i>La révolution symbolique</i>, chap XI, L'exponentielle après Descartes.</span>
+</li>
+</ol></div>
+</div>
+<h2><span class="mw-headline" id="Voir_aussi">Voir aussi</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=16" title="Modifier la section : Voir aussi">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=16" title="Modifier la section : Voir aussi">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span class="mw-headline" id="Articles_connexes">Articles connexes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=17" title="Modifier la section : Articles connexes">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=17" title="Modifier la section : Articles connexes">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a href="/wiki/Algorithme_de_calcul_de_la_racine_n-i%C3%A8me" title="Algorithme de calcul de la racine n-ième">Algorithme de calcul de la racine n-ième</a></li>
+<li><a href="/wiki/Fonction_polynomiale#Racines" title="Fonction polynomiale">Racines de fonctions polynomiales</a></li>
+<li><a href="/wiki/Algorithme_de_recherche_d%27un_z%C3%A9ro_d%27une_fonction" title="Algorithme de recherche d'un zéro d'une fonction">Algorithme de recherche d'un zéro d'une fonction</a></li>
+<li><a href="/wiki/Algorithme_de_la_potence" title="Algorithme de la potence">Algorithme de la potence</a></li></ul>
+<h3><span class="mw-headline" id="Bibliographie">Bibliographie</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a class="mw-editsection-visualeditor" href="/w/index.php?title=Racine_d%27un_nombre&amp;veaction=edit&amp;section=18" title="Modifier la section : Bibliographie">modifier</a><span class="mw-editsection-divider"> | </span><a href="/w/index.php?title=Racine_d%27un_nombre&amp;action=edit&amp;section=18" title="Modifier la section : Bibliographie">modifier le code</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><abbr class="abbr indicateur-langue" title="Langue : allemand">(de)</abbr> Ulrich Felgner, <i>Mathematische Semesterberichte</i>,vol. 52, <abbr class="abbr" title="numéro">n<sup>o</sup></abbr> 1, 2005, Springer, p. 1-7, ISSN 0720-728X (Au sujet de l'origine du signe de racine)</li>
+<li><abbr class="abbr indicateur-langue" title="Langue : allemand">(de)</abbr> Hans Kreul et Harald Ziebarth, <i>Mathematik leicht gemacht</i>, <abbr class="abbr" title="Sixième">6<sup>e</sup></abbr> édition, 2006 Verlag Harri Deutsch. Le chapitre complet sur la racine avec des explications, des exemples et des exercices <span class="ouvrage"><span class="noarchive"><a class="external text" href="http://www.ziebarth-net.de/1786_probe.pdf" rel="nofollow">« <cite style="font-style:normal; color:red;">disponible gratuitement en ligne</cite> »</a><sup class="plainlinks">(<a class="external text" href="https://web.archive.org/web/*/http://www.ziebarth-net.de/1786_probe.pdf" rel="nofollow">Archive.org</a> • <a class="external text" href="https://archive.wikiwix.com/cache/?url=http://www.ziebarth-net.de/1786_probe.pdf" rel="nofollow">Wikiwix</a> • <a class="external text" href="https://archive.is/http://www.ziebarth-net.de/1786_probe.pdf" rel="nofollow">Archive.is</a> • <a class="external text" href="https://webcache.googleusercontent.com/search?hl=fr&amp;q=cache:http://www.ziebarth-net.de/1786_probe.pdf" rel="nofollow">Google</a> • <a href="/wiki/Projet:Correction_des_liens_externes#J'ai_trouvé_un_lien_mort,_que_faire_?" title="Projet:Correction des liens externes">Que faire ?</a>)</sup></span></span> <small style="line-height:1em;">(<a href="/wiki/International_Standard_Book_Number" title="International Standard Book Number">ISBN</a> <a href="/wiki/Sp%C3%A9cial:Ouvrages_de_r%C3%A9f%C3%A9rence/978-3-8171-1786-4" title="Spécial:Ouvrages de référence/978-3-8171-1786-4"><span class="nowrap">978-3-8171-1786-4</span></a>)</small></li></ul>
+<div class="navbox-container" style="clear:both;">
+<table class="navbox collapsible noprint autocollapse" data-autocollapse-group="palette" style="">
+<tbody><tr><th class="navbox-title" colspan="2" style=""><div style="float:left; width:6em; text-align:left"><div class="noprint plainlinksneverexpand nowrap tnavbar" style="background-color:transparent; padding:0; font-size:xx-small; color:#000000;"><a href="/wiki/Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles" title="Modèle:Palette Fonctions mathématiques usuelles"><abbr class="abbr" title="Voir ce modèle.">v</abbr></a> · <a class="external text" href="https://fr.wikipedia.org/w/index.php?title=Mod%C3%A8le:Palette_Fonctions_math%C3%A9matiques_usuelles&amp;action=edit"><abbr class="abbr" title="Modifier ce modèle. Merci de prévisualiser avant de sauvegarder.">m</abbr></a></div></div><div style="font-size:110%"><a href="/wiki/Fonction_(math%C3%A9matiques)" title="Fonction (mathématiques)">Fonctions mathématiques usuelles</a></div></th>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_alg%C3%A9brique" title="Fonction algébrique">Fonction algébrique</a> <a href="/wiki/Fonction_rationnelle" title="Fonction rationnelle">rationnelle</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_polynomiale" title="Fonction polynomiale">Fonction polynomiale</a></li>
+<li><a href="/wiki/Fraction_rationnelle" title="Fraction rationnelle">Fonction fractionnaire</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px">Fonction algébrique irrationnelle</th>
+<td class="navbox-list navbox-even" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Fonction_puissance" title="Fonction puissance">Fonction puissance</a> / <a class="mw-selflink selflink">Fonction racine</a></li></ul>
+</div></td>
+</tr> <tr>
+<th class="navbox-group" style="width:200px"><a href="/wiki/Fonction_transcendante" title="Fonction transcendante">Fonction transcendante</a></th>
+<td class="navbox-list" style=""><div class="liste-horizontale">
+<ul><li><a href="/wiki/Logarithme" title="Logarithme">Fonction logarithmique</a> / <a href="/wiki/Exponentielle_de_base_a" title="Exponentielle de base a">Fonction exponentielle de base a</a>
+<ul><li><a href="/wiki/Logarithme_naturel" title="Logarithme naturel">Fonction logarithme naturel</a> / <a href="/wiki/Fonction_exponentielle" title="Fonction exponentielle">Fonction exponentielle</a></li></ul></li>
+<li><a href="/wiki/Fonction_trigonom%C3%A9trique" title="Fonction trigonométrique">Fonction circulaire</a> / <a href="/wiki/Fonction_circulaire_r%C3%A9ciproque" title="Fonction circulaire réciproque">Fonction circulaire réciproque</a></li>
+<li><a href="/wiki/Fonction_hyperbolique" title="Fonction hyperbolique">Fonction hyperbolique</a> / <a class="mw-redirect" href="/wiki/Fonction_hyperbolique_r%C3%A9ciproque" title="Fonction hyperbolique réciproque">Fonction hyperbolique réciproque</a></li>
+<li><a href="/wiki/Fonction_elliptique" title="Fonction elliptique">Fonction elliptique</a> / <a href="/wiki/Int%C3%A9grale_elliptique" title="Intégrale elliptique">Fonction intégrale elliptique</a></li></ul>
+</div></td>
+</tr> </tbody></table>
+</div>
+<ul class="bandeau-portail" id="bandeau-portail"><li><span class="bandeau-portail-element"><span class="bandeau-portail-icone"><a href="/wiki/Portail:Math%C3%A9matiques" title="Portail des mathématiques"><img alt="icône décorative" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="24" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/24px-Racine_carr%C3%A9e_bleue.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/36px-Racine_carr%C3%A9e_bleue.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Racine_carr%C3%A9e_bleue.svg/48px-Racine_carr%C3%A9e_bleue.svg.png 2x" width="24"/></a></span> <span class="bandeau-portail-texte"><a href="/wiki/Portail:Math%C3%A9matiques" title="Portail:Mathématiques">Portail des mathématiques</a></span> </span></li> </ul>
+<!-- 
+NewPP limit report
+Parsed by mw1326
+Cached time: 20221010190633
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.294 seconds
+Real time usage: 0.417 seconds
+Preprocessor visited node count: 2282/1000000
+Post‐expand include size: 32010/2097152 bytes
+Template argument size: 4217/2097152 bytes
+Highest expansion depth: 13/100
+Expensive parser function count: 0/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 3534/5000000 bytes
+Lua time usage: 0.070/10.000 seconds
+Lua memory usage: 3975628/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  219.581      1 -total
+ 19.55%   42.934      1 Modèle:Portail
+ 13.71%   30.106      1 Modèle:Homon
+ 12.44%   27.319      1 Modèle:Méta_bandeau_de_note
+ 11.70%   25.684      1 Modèle:Méta_bandeau
+ 11.58%   25.418      2 Modèle:De
+ 11.19%   24.570      1 Modèle:Lien_brisé
+ 10.70%   23.495      1 Modèle:Indication_de_langue
+  8.80%   19.325      1 Modèle:Catégorisation_badges
+  8.51%   18.680      1 Modèle:Palette
+-->
+<!-- Saved in parser cache with key frwiki:pcache:idhash:3058149-0!canonical and timestamp 20221010190633 and revision id 193770467.
+ -->
+</div><noscript><img alt="" height="1" src="//fr.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">Ce document provient de « <a dir="ltr" href="https://fr.wikipedia.org/w/index.php?title=Racine_d%27un_nombre&amp;oldid=193770467">https://fr.wikipedia.org/w/index.php?title=Racine_d%27un_nombre&amp;oldid=193770467</a> ».</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Cat%C3%A9gorie:Accueil" title="Catégorie:Accueil">Catégories</a> : <ul><li><a href="/wiki/Cat%C3%A9gorie:Analyse_r%C3%A9elle" title="Catégorie:Analyse réelle">Analyse réelle</a></li><li><a href="/wiki/Cat%C3%A9gorie:Analyse_complexe" title="Catégorie:Analyse complexe">Analyse complexe</a></li><li><a href="/wiki/Cat%C3%A9gorie:Racine_ni%C3%A8me" title="Catégorie:Racine nième">Racine nième</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">Catégories cachées : <ul><li><a href="/wiki/Cat%C3%A9gorie:Article_contenant_un_lien_mort" title="Catégorie:Article contenant un lien mort">Article contenant un lien mort</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Math%C3%A9matiques/Articles_li%C3%A9s" title="Catégorie:Portail:Mathématiques/Articles liés">Portail:Mathématiques/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Portail:Sciences/Articles_li%C3%A9s" title="Catégorie:Portail:Sciences/Articles liés">Portail:Sciences/Articles liés</a></li><li><a href="/wiki/Cat%C3%A9gorie:Projet:Math%C3%A9matiques/Articles" title="Catégorie:Projet:Mathématiques/Articles">Projet:Mathématiques/Articles</a></li><li><a href="/wiki/Cat%C3%A9gorie:Bon_article_en_ouzbek" title="Catégorie:Bon article en ouzbek">Bon article en ouzbek</a></li><li><a href="/wiki/Cat%C3%A9gorie:Bon_article_en_bi%C3%A9lorusse" title="Catégorie:Bon article en biélorusse">Bon article en biélorusse</a></li><li><a href="/wiki/Cat%C3%A9gorie:Bon_article_en_russe" title="Catégorie:Bon article en russe">Bon article en russe</a></li></ul></div></div>
+</div>
+</main>
+</div>
+<div class="mw-footer-container">
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> La dernière modification de cette page a été faite le 17 mai 2022 à 23:20.</li>
+<li id="footer-info-copyright"><span style="white-space: normal"><a class="internal" href="/wiki/Wikip%C3%A9dia:Citation_et_r%C3%A9utilisation_du_contenu_de_Wikip%C3%A9dia" title="Droit d'auteur">Droit d'auteur</a> : les textes sont disponibles sous <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr" rel="license" title="Licence Creative Commons Attribution - partage dans les mêmes conditions 3.0 non transposé">licence Creative Commons attribution, partage dans les mêmes conditions</a> ; d’autres conditions peuvent s’appliquer. Voyez les <a href="https://wikimediafoundation.org/wiki/Conditions_d%27utilisation" title="Conditions d’utilisation de la Wikimedia Foundation">conditions d’utilisation</a> pour plus de détails, ainsi que les <a class="internal" href="/wiki/Wikip%C3%A9dia:Cr%C3%A9dits_graphiques" title="Droit d'auteur de certaines icônes">crédits graphiques</a>. En cas de réutilisation des textes de cette page, voyez <a class="internal" href="/wiki/Sp%C3%A9cial:Citer/Racine_d%27un_nombre" title="Citer ou réutiliser cette page">comment citer les auteurs et mentionner la licence</a>.<br/>
+Wikipedia® est une marque déposée de la <a href="https://wikimediafoundation.org/" title="Wikimedia Foundation">Wikimedia Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe <a class="internal" href="/wiki/501c" title="501c">501(c)(3)</a> du code fiscal des États-Unis.</span><br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/fr">Politique de confidentialité</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikip%C3%A9dia:%C3%80_propos_de_Wikip%C3%A9dia">À propos de Wikipédia</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikip%C3%A9dia:Avertissements_g%C3%A9n%C3%A9raux">Avertissements</a></li>
+<li id="footer-places-contact"><a href="//fr.wikipedia.org/wiki/Wikipédia:Contact">Contact</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//fr.m.wikipedia.org/w/index.php?title=Racine_d%27un_nombre&amp;mobileaction=toggle_view_mobile">Version mobile</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Développeurs</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/fr.wikipedia.org">Statistiques</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Déclaration sur les témoins (cookies)</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.294","walltime":"0.417","ppvisitednodes":{"value":2282,"limit":1000000},"postexpandincludesize":{"value":32010,"limit":2097152},"templateargumentsize":{"value":4217,"limit":2097152},"expansiondepth":{"value":13,"limit":100},"expensivefunctioncount":{"value":0,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":3534,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  219.581      1 -total"," 19.55%   42.934      1 Modèle:Portail"," 13.71%   30.106      1 Modèle:Homon"," 12.44%   27.319      1 Modèle:Méta_bandeau_de_note"," 11.70%   25.684      1 Modèle:Méta_bandeau"," 11.58%   25.418      2 Modèle:De"," 11.19%   24.570      1 Modèle:Lien_brisé"," 10.70%   23.495      1 Modèle:Indication_de_langue","  8.80%   19.325      1 Modèle:Catégorisation_badges","  8.51%   18.680      1 Modèle:Palette"]},"scribunto":{"limitreport-timeusage":{"value":"0.070","limit":"10.000"},"limitreport-memusage":{"value":3975628,"limit":52428800}},"cachereport":{"origin":"mw1326","timestamp":"20221010190633","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Racine d'un nombre","url":"https:\/\/fr.wikipedia.org\/wiki\/Racine_d%27un_nombre","sameAs":"http:\/\/www.wikidata.org\/entity\/Q601053","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q601053","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-03-05T13:59:14Z","dateModified":"2022-05-17T21:20:20Z","headline":"Nombre qui, \u00e9lev\u00e9 \u00e0 une certaine puissance enti\u00e8re, donne le nombre originel"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Racine d'un nombre","url":"https:\/\/fr.wikipedia.org\/wiki\/Racine_d%27un_nombre","sameAs":"http:\/\/www.wikidata.org\/entity\/Q601053","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q601053","author":{"@type":"Organization","name":"Contributeurs aux projets Wikimedia"},"publisher":{"@type":"Organization","name":"Fondation Wikimedia, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-03-05T13:59:14Z","dateModified":"2022-05-17T21:20:20Z","headline":"Nombre qui, \u00e9lev\u00e9 \u00e0 une certaine puissance enti\u00e8re, donne le nombre originel"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":572,"wgHostname":"mw1326"});});</script>
+</body>
+</html>
