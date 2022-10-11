@@ -21,7 +21,7 @@ en_replace_pairs.extend(list(replace_pairs))
 
 
 
-en_articles = get_files_in_folder('articles_text/en')
+en_articles = get_files_in_folder('../articles_text/en')
 
 for article in en_articles:
     filename = get_filename(article)

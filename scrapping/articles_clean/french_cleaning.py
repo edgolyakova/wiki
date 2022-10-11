@@ -17,7 +17,7 @@ fr_replace_pairs.extend(
     ]
 )
 
-fr_articles = get_files_in_folder('articles_text/fr')
+fr_articles = get_files_in_folder('../articles_text/fr')
 
 for article in fr_articles:
     filename = get_filename(article)

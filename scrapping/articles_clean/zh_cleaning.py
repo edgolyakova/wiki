@@ -26,7 +26,7 @@ zh_replacement_pairs = [
 ]
 zh_replacement_pairs.extend(list(replace_pairs))
 
-zh_articles = get_files_in_folder('articles_text/zh')
+zh_articles = get_files_in_folder('../articles_text/zh')
 for article in zh_articles:
     filename = get_filename(article)
     with open(article, 'r') as f:
