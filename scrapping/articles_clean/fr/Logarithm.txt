@@ -1,0 +1,382 @@
+Logarithme — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Propriétés des fonctions logarithmes
+Afficher / masquer la sous-section Fonctions logarithme courantes
+Afficher / masquer la sous-section Voir aussi
+Basculer la table des matières
+Logarithme
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+Pour l’article ayant un titre homophone, voir Loga-Rythme.
+Tracés des fonctions logarithmes en base 2, e et 10.
+En mathématiques, le logarithme de base b d'un nombre réel strictement positif est la puissance à laquelle il faut élever la base b pour obtenir ce nombre.
+Dans le cas le plus simple, le logarithme compte le nombre d'occurrences du même facteur dans une multiplication répétée : par exemple, comme 1000 = 10×10×10 = 103, le logarithme en base 10 de 1000 est 3. Le logarithme de x en base b est noté logb(x). Ainsi log10(1000) = 3.
+John Napier a développé les logarithmes au début du XVIIe siècle.
+Pendant trois siècles, la table de logarithmes et la règle à calcul ont servi pour le calcul numérique, jusqu'à leur remplacement, à la fin du XXe siècle, par des calculatrices.
+Trois logarithmes sont remarquables :
+Le logarithme naturel (ou népérien), souvent noté ln, qui utilise le nombre e comme base, est fondamental en analyse mathématique car il est la primitive de la fonction 
+↦
+s’annulant en 1 et la fonction réciproque de la fonction exponentielle ;
+Le logarithme décimal, qui utilise la base dix, était le plus communément utilisé pour les calculs ;
+Le logarithme binaire, qui utilise 2 comme base, est utile en informatique théorique et pour certains calculs appliqués.
+Motivation
+Une échelle logarithmique permet de représenter sur un même graphique des nombres dont l'ordre de grandeur est très différent.
+Les logarithmes sont fréquents dans les formules utilisées en sciences, mesurent la complexité des algorithmes et des fractales et apparaissent dans des formules permettant de dénombrer les nombres premiers.
+Ils décrivent les intervalles musicaux ou certains modèles de psychophysique.
+Tout logarithme transforme
+un produit en somme : 
+log
+⁡
+⋅
+=
+log
+⁡
++
+log
+⁡
+un quotient en différence : 
+log
+⁡
+=
+log
+⁡
+−
+log
+⁡
+une puissance en produit : 
+log
+⁡
+=
+log
+⁡
+Historique
+Article détaillé : Histoire des logarithmes et des exponentielles.
+Vers la fin du XVIe siècle, le développement de l'astronomie et de la navigation d'une part et les calculs bancaires d'intérêts composés d'autre part, poussent les mathématiciens à chercher des méthodes de simplification de calculs et en particulier le remplacement des multiplications par des sommes.
+Utilisant les tables trigonométriques, les mathématiciens Paul Wittich et Christophe Clavius (dans son traité de Astrolabio) établissent des  correspondances entre produit ou quotient d'une part et somme, différence et division par deux d'autre part, pour des nombres de 0 à 1 à l'aide de relations trigonométriques, méthode dite de prostaphérèse.
+Quelques années plus tard Simon Stévin, intendant général de l'armée hollandaise, met au point des tables de calculs d'intérêts composés.
+Jost Bürgi poursuit ce travail et publie en 1620, dans son Aritmetische und geometrische Progress-tabulen, une table de correspondance entre n et 1,0001n. À une somme dans la première colonne correspond ainsi un produit dans la seconde colonne.
+En 1614, John Napier (ou Neper) publie son traité Mirifici Logarithmorum Canonis Descriptio.
+Il ne songe pas qu’il est en train de créer de nouvelles fonctions, mais seulement des tables de correspondance (logos = rapport, relation, arithmeticos = nombre) entre deux séries de valeurs telles qu'à un produit dans une colonne correspond une somme dans une autre.
+La notation Log comme abréviation de logarithme apparaît en 1616 dans une traduction anglaise de l'œuvre de Neper.
+En 1619, paraît son œuvre posthume Mirifici Logarithmorum Canonis Constructio, où il explique comment construire une table de logarithmes.
+Le mathématicien anglais Henry Briggs poursuit ce travail et publie en 1624 ses tables de logarithmes décimaux (Arithmetica logarithmica) à 14 chiffres des nombres compris entre 1 et 20 000 et entre 90 000 et 100 000. Il indique les méthodes d’emploi des tables pour calculer des sinus ou les angles à partir de leur tangente… La même année, Johannes Kepler publie Chilias logarithmorum construites en utilisant un procédé géométrique.
+Ezechiel de Decker et Adriaan Vlacq complètent la table de Briggs en 1627
+En 1647, Grégoire de Saint-Vincent, travaillant sur la quadrature de l’hyperbole, définit la fonction primitive de la fonction 
+↦
+s’annulant en 1. Huygens remarquera en 1661 que cette fonction se trouve être une fonction logarithme particulière : le logarithme naturel.
+La correspondance entre les fonctions exponentielle et logarithme n’apparaît qu'après le travail de Leibniz sur la notion de fonction, en 1697.
+Propriétés des fonctions logarithmes
+Dans cette section, nous donnons des propriétés d'une fonction logarithme, quelle que soit sa base b.
+Propriétés algébriques
+Article détaillé : Identités logarithmiques.
+Les fonctions logarithme sont par définition les morphismes continus non constamment nuls de 
++
+∗
+,
+×
+vers 
+,
++
+Pour tout réel b strictement positif et différent de 1, le logarithme de base b : logb est la fonction continue définie sur 
++
+∗
+vérifiant l'équation fonctionnelle : 
+pour tous x et y réels strictement positifs,
+log
+⁡
+=
+log
+⁡
++
+log
+⁡
+et 
+log
+⁡
+=
+Cette définition permet de déduire rapidement les propriétés suivantes 
+log
+⁡
+=
+log
+⁡
+/
+=
+log
+⁡
+−
+log
+⁡
+log
+⁡
+=
+log
+⁡
+log
+⁡
+=
+pour tout entier naturel n, puis pour tout entier relatif n
+log
+⁡
+=
+pour tout rationnel r.
+Comme tout réel strictement positif x est la limite d'une suite dont le terme général est de la forme brn, où (rn) est une suite de rationnels convergeant vers un réel 
+, on détermine logb(x) comme étant la limite de rn.
+Changement de base
+Deux fonctions logarithmes ne diffèrent que d’une constante multiplicative : pour tous réels strictement positifs a et b différents de 1 et pour tout réel x > 0,
+log
+⁡
+=
+log
+⁡
+log
+⁡
+Toutes les fonctions logarithmes peuvent donc s’exprimer à l’aide d’une seule, par exemple la fonction logarithme népérien : pour tout réel strictement positif b différent de 1 et pour tout réel x > 0,
+log
+⁡
+=
+ln
+⁡
+ln
+⁡
+Dérivée
+La fonction logb est dérivable sur 
++
+∗
+de dérivée :
+log
+′
+⁡
+=
+ln
+⁡
+qui a même signe que ln(b).
+Donc la fonction logb est strictement monotone, croissante quand b est supérieur à 1, décroissante dans le cas contraire.
+Fonction réciproque (antilogarithme)
+Article détaillé : Exponentielle de base b.
+Représentation dans le cas b > 1. Le graphe de la fonction logarithmique logb(x) (bleu) est obtenu en  reflétant celui de la fonction bx (rouge) par rapport à la diagonale x = y.
+La fonction 
+log
++
+∗
+est la bijection réciproque de la fonction exponentielle de base b, parfois appelée antilogarithme de base b :
++
+∗
+,
+↦
+Autrement dit, les deux façons possibles de combiner (ou  composer) les logarithmes et l’élévation à des puissances redonnent le nombre original :
+pour tout réel x, prendre la puissance x-ième de b, puis le logarithme en base b de cette puissance, redonne x :
+∀
+∈
++
+∗
+log
+⁡
+=
+log
+⁡
+=
+;
+inversement, pour tout réel y strictement positif, prendre d'abord le logarithme en base b, puis élever b à sa puissance, redonne y :
+log
+⁡
+=
+Les fonctions réciproques sont étroitement liées aux fonctions originales.
+Leurs graphes, qui se correspondent lorsqu’on échange les coordonnées x et y (ou par réflexion par rapport à la diagonale x = y), sont montrés à droite dans le cas où b est un réel strictement supérieur à 1 : un point (u, t = bu) sur le graphe (rouge) de la fonction antilogarithme x ↦ bx fournit un point (t, u = logb(t)) sur le graphe (bleu) du logarithme et vice versa.
+Comme b > 1, la fonction logb est croissante et quand x tend vers +∞, logb(x) tend vers +∞, tandis que lorsque x approche zéro, logb(x) tend vers –∞. Dans le cas où le réel b est strictement compris entre 0 et 1, la fonction logb est décroissante et ces limites sont interverties.
+En matière de calcul, l'antilog ramène des logarithmes aux valeurs.
+Soit à évaluer une formule F combinant multiplications, divisions et exponentiations, et soit f la formule définissant le logarithme de F en combinant sommes, différences et produits des (logarithmes) des données.
+La valeur de F peut s'obtenir comme l'antilog de la valeur de f, ce qui conclut le calcul.
+On peut ainsi remplacer l'évaluation 
+=
+×
+×
+/
+par 
+=
+antilog
+⁡
+log
+⁡
++
+log
+⁡
++
+log
+⁡
+Fonctions logarithme courantes
+Logarithme népérien
+Article détaillé : Logarithme naturel.
+Le logarithme népérien, ou logarithme naturel, est la fonction logarithme dont la dérivée est la fonction inverse définie de 
++
+∗
+dans 
+: 
+↦
+La fonction de Neper est par convention notée « ln » ou  « log », notation couramment utilisée en théorie des nombres et en informatique.
+La base de la fonction logarithme népérien, notée e, est appelée nombre de Néper ou nombre d'Euler,.
+Une valeur approchée est :
+≈
+2,718
+Logarithme décimal
+Article détaillé : Logarithme décimal.
+C’est le logarithme le plus pratique dans les calculs numériques manuels, il est noté log ou log10. La norme ISO 80000-2 indique que log10 devrait être noté lg, mais cette notation est rarement utilisée.
+On le retrouve dans la création des échelles logarithmiques, les repères semi-logarithmiques ou log-log, dans la règle à calcul, dans le calcul du pH, dans l’unité du décibel.
+Il précise à quelle puissance il faut élever 10 pour retrouver le nombre de départ : l'image d'un nombre par log est l'entier relatif auquel il faut élever 10 pour obtenir l'antécédent.
+Par exemple :
+En base 10 :
+log
+⁡
+=
+car 
+=
+log
+⁡
+=
+car 
+=
+log
+⁡
+=
+car 
+=
+log
+⁡
+,
+=
+−
+car 
+−
+=
+,
+La valeur du logarithme d’autres nombres que des puissances de 10 demande un calcul approché. Le calcul de log(2) par exemple peut se faire à la main, en remarquant que 210 ≈ 1000 donc 10 log10(2) ≈ 3 donc log10(2) ≈ 0,3.
+Pour tout réel strictement positif b différent de 1 et pour tout réel x > 0,
+log
+⁡
+=
+log
+⁡
+log
+⁡
+Logarithme binaire
+Article détaillé : Logarithme binaire.
+La norme ISO 80 000 recommande de noter lb le logarithme en base 2.
+Le logarithme binaire, d'usage spécialisé dans le calcul des intervalles musicaux à partir d'un rapport de fréquences, pour obtenir des octaves, des demi-tons ou des cents, a trouvé beaucoup plus d'application en informatique.
+Les ordinateurs travaillant en système binaire, le calcul d'un logarithme en base 2 se fait par l'algorithme le plus précis et le plus efficace.
+Un nombre x codé en virgule flottante binaire se décompose en une mantisse m, comprise entre 1 (inclus) et 2 (exclu) et un exposant p, indiquant la puissance de 2 qui multiplie la mantisse pour obtenir le nombre. L'exposant est la partie entière du logarithme binaire, tandis que le logarithme binaire de la mantisse est compris entre 0 (inclus) et 1 (exclu).
+=
+×
+⟹
+lb
+=
++
+lb
+Ce qui ramène le calcul à celui du logarithme binaire d'un nombre entre 1 (inclus) et 2 (exclu). Si on multiplie ce nombre par lui-même, et que le résultat dépasse 2, c'est que le nombre est supérieur à √2: le chiffre suivant, après la virgule, est un 1, dans le cas contraire, c'est un 0. On continue par itération jusqu'à la précision souhaitée.
+Les deux logarithmes précédents se déduisent de celui-ci par :
+ln
+⁡
+=
+et 
+log
+⁡
+=
+Cologarithme
+Article détaillé : Cologarithme.
+Le cologarithme d'un nombre est l'opposé du logarithme de ce nombre et le logarithme de son inverse :  
+colog
+⁡
+=
+−
+log
+⁡
+=
+log
+⁡
+Généralisations
+Le logarithme complexe est la fonction réciproque de l'exponentielle complexe et généralise ainsi la notion de logarithme aux nombres complexes.
+Le logarithme discret généralise les logarithmes aux groupes cycliques et a des applications en cryptographie à clé publique.
+Notes et références
+Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Logarithm » (voir la liste des auteurs).
+Jean-Pierre Friedelmeyer, L'invention des logarithmes par Neper et le calcul des logarithmes décimaux par Briggs.
+Encyclopedia Britannica, « John Napier », note 2.
+Julian Havil (préf. Freeman Dyson), Gamma : Exploring Euler's Constant (lire en ligne), chap. 1 (« The Logarithme Cradle »), p. 1-2.
+Brian Borchers, « Prosthaphaeresis », Journal of the Oughtred Society, vol. 14, no 2,‎ 2005, p. 3-4 (lire en ligne).
+a et b Petite encyclopédie de mathématiques, Didier, 1980, p. 72.
+Origine et histoire des symboles mathématiques sur le site math93.com.
+Chilias Logarithmorum sur le site e-rara.ch.
+Emmanuel Ferrand, Laurent Koelblen, Matthieu Romagny, « Un peu d’histoire », 17 septembre 2008
+James Stewart , Single Variable Calculus : Early Transcendentals, Thomson Brooks/Cole, 2012, 7e éd. (lire en ligne), section 1.6.
+La norme AFNOR NF X 02-1 01, de 1961, recommande la notation ln (Tables numériques de J. Laborde, 1976, p.
+VI).
+Langages C, Java, Javascript, etc.
+D. Guinin et B. Joppin, Mathématiques MPSI: Exercices, Bréal, 2003 (lire en ligne), p. 33.
+O. Ferrier, Maths pour économistes : L'Analyse en économie, vol. 1, De Boeck Université, 2006 (ISBN 978-2-8041-4354-1), p. 275.
+Ne pas confondre avec divers autres « nombres d'Euler ».
+ISO 80000-2:2009. Organisation internationale de normalisation.
+Consulté le 19 janvier 2012.
+Organisation internationale de normalisation, « ISO 80000-2:2019 » (consulté le 16 septembre 2012).
+Alain Bouvier, Michel George et François Le Lionnais, Dictionnaire des mathématiques, Presses universitaires de France, 2001 (1re éd. 1979), p. 159.
+Voir aussi
+Sur les autres projets Wikimedia :
+Les logarithmes, sur Wikimedia Commonslogarithme, sur le WiktionnaireLogarithme, sur WikiversityPhotographie/Mathématiques (sections "Découverte des logarithmes" et "Que fait-on avec les logarithmes ?"), sur Wikibooks
+Articles connexes
+Logarithme complexe
+Fonction polylogarithme
+Fonction holomorphe
+Loi de Benford
+Acoustique musicale : intervalles sonores et logarithmes
+Applications pratiques
+Règle à calcul
+Échelle logarithmique
+Table de logarithmes
+Lien externe
+Simone Trompler, Histoire des logarithmes, publié en ligne en 2002 par l’Université libre de Bruxelles
+Fonctions mathématiques usuelles
+Fonction algébrique rationnelle
+Fonction polynomiale
+Fonction fractionnaire
+Fonction algébrique irrationnelle
+Fonction puissance / Fonction racine
+Fonction transcendante
+Fonction logarithmique / Fonction exponentielle de base a
+Fonction logarithme naturel / Fonction exponentielle
+Fonction circulaire / Fonction circulaire réciproque
+Fonction hyperbolique / Fonction hyperbolique réciproque
+Fonction elliptique / Fonction intégrale elliptique
+Portail de l'analyse  
+Ce document provient de «  ».
+Catégorie : LogarithmeCatégories cachées : Article contenant un appel à traduction en anglaisCatégorie Commons avec lien local identique sur WikidataPortail:Analyse/Articles liésProjet:Mathématiques/ArticlesPortail:Sciences/Articles liésArticle de qualité en vietnamienArticle de qualité en portugaisArticle de qualité en russeArticle de qualité en anglaisArticle de qualité en hongroisArticle de qualité en macédonien
+La dernière modification de cette page a été faite le 25 septembre 2022 à 23:24.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

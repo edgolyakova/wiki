@@ -1,0 +1,613 @@
+机器人学 - 维基百科，自由的百科全书
+机器人学
+维基百科，自由的百科全书
+跳到导航
+跳到搜索
+人工智能
+主要目标
+知识表示
+自动规划（英语：Automated planning and scheduling）
+机器学习
+語言處理
+电脑视觉
+机器人学
+強人工智慧
+实现方式
+符号人工智能
+深度学习
+貝氏網路
+进化算法
+人工智能哲學
+伦理（英语：Ethics of artificial intelligence）
+存在风险（英语：Existential risk from artificial general intelligence）
+图灵测试
+中文房间
+可解释人工智能
+友好的人工智能（英语：Friendly artificial intelligence）
+人工智能史
+时间轴（英语：Timeline of artificial intelligence）
+发展（英语：Progress in artificial intelligence）
+人工智慧低谷
+技术
+应用（英语：Applications of artificial intelligence）
+项目（英语：List of artificial intelligence projects）
+编程语言（英语：List of programming languages for artificial intelligence）
+术语
+术语（英语：Glossary of artificial intelligence）
+查论编
+機器影手（英语：Shadow Hand）系統
+機器人學（英語：robotics）是一項涵蓋了机器人的設計、建造、運作、以及應用的跨領域科技，集合機械工程學、電機工程學、机械电子学、电子学、控制工程學、計算機工程學、軟體工程學、資訊工程學（英语：Information engineering (field)）、數學及生物工程学等領域。
+這些科技催生出能夠取代人力的自動化機器，在危險境或製造工廠運作，或塑造成外表、行為、心智的仿人機器人。
+如今許多的機器人受到自然界的啟發，貢獻於生物啟發的機器人學領域。
+創造可自動運轉的機器的概念可追溯至古典时代，但是直到20世紀以前，機器人的功能和潛在應用開發及研究沒有持續地成長。
+縱觀歷史，機器人常見於模仿人類行為，且常以類似的方法管理事務。
+時至今日，機器人學成為一個快速成長的領域，同時先進技術持續地研發、設計、以及建造用來達成各種實用目的新款機器人，例如家庭用機器人（英语：Domestic robot）、工業機器人或軍用機器人。
+許多機器人從事對人類來講非常危險的工作，如拆除炸彈、地雷、探索沉船等。
+机器人学还被用于STEM教育作为教学辅助。
+目录
+語源
+歷史
+部件
+動力源
+驅動
+感應
+觸覺
+視覺
+其他
+處理
+就業
+参见
+參考文獻
+外部連結
+語源
+機器人學（robotics）源自於機器人一詞，而「機器人」一詞最早被一位捷克的作家卡雷尔·恰佩克在他的舞台劇作品《羅梭的萬能工人》中提出並發表於1920年。
+該劇開始於一個用有機合成物製造人造人的工廠，那些人造人被稱「機器人」（robots）。
+卡雷爾稱是其兄弟約瑟夫·恰佩克發明了該詞。
+根據牛津英語詞典，機器人學（robotics）一詞第一次被使用在艾萨克·阿西莫夫的短篇科幻小說《说假话的机器人》，初次出版在1941年五月的《模拟科幻小说与事实》雜誌上。
+歷史
+西元1927年，一個由德國演員布里居·海默（Brigitte Helm）演示、女性人形的機械式人類（德語：Maschinenmensch），第一次在弗里茨·朗執導的德國科幻電影《大都會》中出現。
+1942年，科幻作家以撒·艾西莫夫提出機器人學三大法則。
+1948年，以撒·艾西莫夫提出了模控學原理，成為日後機器人學的基礎。
+直至20世紀中才出現全自動的機器人，於1961年建立第一個可數位操控及可程式化的機器人Unimate，功能為從壓鑄機中舉起高熱的金屬片並推疊起來。
+今日商業及工業機器人已被廣泛地應用在可以比人工更廉價、或更精確可靠的工作上。
+機器人也被雇用於骯髒、危險或令人感到乏味的工作。
+關於機器人的廣泛應用還有：製造、組裝、封裝及包裝、運輸、地球及太空探索、外科手術、武器、實驗研究、保全，以及消費性和工業產品的大量生產。
+
+部件
+此章節需要提供更多來源，否則內容可能無法查證。
+ (2022年4月9日)
+動力源
+更多信息：電源供應和储能技术
+電源目前主要是（鉛酸）電池。
+機器人还可以使用許多不同類型的電池作為電源。
+它們的範圍從安全和保質期相對較長，但比較重的鉛酸電池，到容量要小得多，目前昂貴得多的銀鎘電池。
+設計一個電池供電的機器人需要考慮到安全性，循環壽命和重量等因素。
+發電機，經常有一些类型的內燃機，也可以被使用。
+然而，這樣的設計通常是機械複雜，需要的燃料，需要散熱，是比較重的。
+把機器人繫繩連接到電源，將從機器人身上完全卸下電源。
+這具有節約重量和空間的優點是通過把所有發電和存儲組件移動其他地方。
+然而，這樣的設計需要把不断的電纜一直連接到機器人，其缺點是難以管理。
+潛在的動力源可以是：
+氣動（壓縮氣體）
+液壓（液體）
+飞轮能量储存
+有機垃圾（通過厭氧消化）
+糞便（人類，動物），可能在軍事方面的能源需求有兴趣，小戰鬥小組的糞便可以再利用提供动力给機器人助理（見DEKA項目的Slingshot Stirling engine發動機系統如何運作的）
+驅動
+一个採用氣動人工肌肉（英语：Pneumatic artificial muscles）的機器人腿。
+更多信息：執行器
+驅動器就像一個機器人的肌肉，可將儲存的能量轉化成移動。
+到目前為止，最常被使用的驅動器為轉動輪子或齒輪的電動馬達，以及控制在工廠中的工業用機器人的線性驅動器。
+然而，近期有一些不同型態的先進驅動器，其動力來源可為電力、化學反應、或壓縮空氣。
+感應
+更多信息：機器感應（英语：Robotic sensing）
+感應器使得機器人能夠接收關於一些環境或內部元件的量測資訊。
+感測能力是機器人執行任務以及基於任何環境變化來動作以計算適當的反應的基本條件。
+感測器提供各種不同形式的量測，如給機器人安全警報或故障訊號，以及提供工作執行狀況的即時資訊。
+觸覺
+更多信息：觸覺感測器（英语：Tactile sensor）
+目前的機器手及義肢能接收的體感或觸覺資訊遠少於人類的手。
+近期的研究已開發出一個觸覺感測陣列，可模仿人類手指的機械特性以及接觸感受器
+。
+此感應陣列由裝載導電液的合成橡膠皮，環繞在一個硬體核心周圍來構成。
+多個電極裝置在硬核的表面並連接至硬體核內部的阻抗量測裝置。
+當人工外皮接觸一個物件，電極周遭的電解液路徑被變形，因而產生相應於來自此物件外力的阻抗變化。
+研究學者們期望這樣的人工手指的重要功能，將可以調整機器人拿起物件時的握力程度。
+視覺
+主条目：計算機視覺
+計算機視覺是让機器可以看见的科技。
+作為一門學科，計算機視覺關注人造系統背後的從圖像中提取信息的理論。
+圖像數據可以採取許多形式，如來自攝像機的影像畫面序列和圖片。
+在最實用的計算機視覺應用中，計算機是基於被預先編程的方法來解決特定的任務，但是，基於學習的方法在現在變得越來越普遍。
+其他
+其他常見的機器人感應形式使用光学雷达、雷達和聲納。
+[來源請求]
+處理
+庫卡（KUKA）工業機器人在一個鑄工廠（英语：Foundry）運作
+更多信息：移動機械手臂（英语：Mobile manipulator）
+機器人需要操作物件：拾起、修改、銷毀、或是產生其他的效應。
+當機器人的操作處理器被視為臂時，機器末端作用器（英语：Robot end effector）則被視為機器人的手。
+大部分機器人手臂擁有可置換的作用器，每一個作用器可以執行一些範圍的工作。
+一些機器人有固定不可置換的操作處理器，同時也有少數有非常通用性質的操作器，例如人形手臂。
+就業
+機器人學是在許多現代製造環境的重要組成部分。
+隨著工廠增加其機器人的使用，機器人技術相關的工作數量增長並且已經觀察到穩步上升。
+
+参见
+机器人学主题
+人工智能
+机械电子学
+控制論
+無人航空載具
+认知科学
+動力服
+個人電腦
+超级计算机
+互联网
+机器人三定律
+參考文獻
+robotics.
+Oxford Dictionaries.   [4 February 2011]. （原始内容存档于2011-05-18）. 
+Nocks, Lisa.
+The robot : the life story of a technology.
+Westport, CT: Greenwood Publishing Group. 2007  [2012-01-27]. 
+3.0 3.1 Zunt, Dominik.
+Who did actually invent the word "robot" and what does it mean?. The Karel Čapek website.   [2007-09-11]. （原始内容存档于2012-02-04）. 
+Robotics: About the Exhibition.
+The Tech Museum of Innovation.   [2008-09-15]. （原始内容存档于2008-09-13）. 
+Dowling, Kevin.
+Power Sources for Small Robots (PDF). Carnegie Mellon University.   [11 May 2012]. （原始内容存档 (PDF)于2020-11-25）. 
+Syntouch LLC: BioTac (R)Biomimetic Tactile Sensor Array.   [2009-08-10]. （原始内容存档于2009-10-03）. 
+Wettels, N; Santos, VJ; Johansson, RS; Loeb, Gerald E.;  et al.
+Biomimetic tactile sensor array.
+Advanced Robotics. 2008, 22 (8): 829–849. doi:10.1163/156855308X314533.  引文格式1维护：显式使用等标签 (link)
+Crane, Carl D.; Joseph Duffy.
+Kinematic Analysis of Robot Manipulators.
+Cambridge University Press. 1998-03  [2007-10-16]. ISBN 0-521-57063-8. （原始内容存档于2020-04-02）.  引文使用过时参数coauthors (帮助)
+What is a robotic end-effector?. ATI Industrial Automation. 2007  [2007-10-16]. （原始内容存档于2020-12-17）. 
+Toy, Tommy.
+Outlook for robotics and Automation for 2011 and beyond are excellent says expert.
+PBT Consulting.
+June 29, 2011  [2012-01-27]. （原始内容存档于2012-01-27）. 
+外部連結
+从维基百科的姊妹计划了解更多有关“机器人学”的内容
+维基词典上的字词解释
+维基共享资源上的多媒体资源
+维基教科书上的教科书和手册
+维基学院上的學習资源
+开放式目录计划中和机器人学相关的内容
+Robotics Portal
+Harvard Graduate School of Design, Design Robotics Group
+Robotics Academy of Iran
+The Robotics Institute at Carnegie Mellon University （页面存档备份，存于互联网档案馆）
+Design and Manufacture of Robotics Control Systems （页面存档备份，存于互联网档案馆）
+Biologically Inspired Robotics Lab, Case Western Reserve University
+查论编机器人学主要文章
+机器人
+纲要（英语：Outline of robotics）
+术语（英语：Glossary of robotics）
+索引（英语：Index of robotics articles）
+历史（英语：History of robots）
+未来
+世界机器人学（英语：Robotics worldwide）
+机器人名人堂
+机械伦理学
+机器人法律
+人类与机器人的互动
+人工智能竞赛和奖项（英语：Competitions and prizes in artificial intelligence）
+机器人列表（英语：List of robots）
+虚构机器人列表（英语：List of fictional robots and androids）
+类型依外型
+類人型
+人型
+女性
+改造人
+六足（英语：Hexapod (robotics)）
+关节（英语：Articulated robot）（機械手臂）
+BEAM
+仿生
+微型（英语：Microbotics）
+纳米
+依用途
+家用（英语：Domestic robot）
+娱乐（英语：Entertainment robot）
+军用
+医疗
+服务（英语：Service robot）
+残疾（英语：Disability robot）
+義肢
+农业
+餐馆（英语：Automated restaurant）
+工业
+社交
+性愛
+依使用環境
+固定
+地面
+水下
+空中
+太空
+移動機器人（英语：Mobile robots）
+极地机器人（英语：Mobile robots#Classification）
+依移動方式
+輪子
+履带
+依运动行為
+跑步
+游泳
+旋翼
+攀登
+跳躍
+爬行形類
+部件
+動力源
+驅動
+感應
+导航（英语：Mobile robot navigation）
+手动遥控（英语：Mobile robot#Manual remote or tele-op）、遥控操作（英语：Remote operation）或远控自主
+避障遥控（英语：Mobile robot#Guarded tele-op）
+线控机器人（英语：Mobile robot#Line-following robot）
+自主随机机器人（英语：Mobile robot#Autonomously randomized robot）
+自动引导机器人（英语：Mobile robot#Autonomously guided robot）
+滑动自主（英语：Mobile robot#Sliding autonomy）
+自主机器人
+研究
+机器人学家
+机器人的领域（英语：Areas of robotics）
+机器人演化（英语：Evolutionary robotics）
+机器人工具组（英语：Robot kit）
+机器人模拟器（英语：Robotics simulator）
+Suite（英语：Robotics suite）
+开源（英语：Open-source robotics）
+软件（英语：Robot software）
+适应性（英语：Adaptable robotics）
+开发（英语：Developmental robotics）
+范式（英语：Robotic paradigms）
+普适（英语：Ubiquitous robot）
+分类
+共享资源
+主题
+专题
+查论编新兴技术技术领域农业
+农业机器人
+封闭生态系统
+試管肉
+基因改造食品
+精准农业
+垂直農法
+建筑
+建筑生态学
+建筑打印（英语：Building printing）
+Contour crafting（英语：Contour crafting）
+D-Shape（英语：D-Shape）
+圆顶城市（英语：Domed city）
+生物医学技术（英语：Biomedical technology）
+人造子宫
+Ampakine（英语：Ampakine）
+脑部移植
+人體冷凍技術
+冷冻保护剂
+深低溫保存
+玻璃化（英语：Vitrification）
+暫停生命
+去滅絕
+基因工程
+基因治療
+头部移植
+孤立腦
+生命延續
+掌控可忽略衰老
+纳米医学
+纳米传感器（英语：Nanosensor）
+个体化医疗（英语：Personalized medicine）
+再生醫學
+干细胞治疗
+组织工程学
+机器人辅助手术（英语：Robot-assisted surgery）
+合成生物学
+合成基因组学（英语：Synthetic genomics）
+病毒疗法
+溶瘤病毒（英语：Oncolytic virus）
+Tricorder（英语：Medical tricorder）
+全基因組定序
+显示器次世代（英语：Next generation of display technology）
+FED
+FLCD（英语：Ferro Liquid Crystal Display）
+iMoD（英语：Interferometric modulator display）
+Laser（英语：Laser video display）
+LPD（英语：Laser-powered phosphor display）
+OLED
+OLET
+QD-LED
+SED
+TPD
+TDEL
+TMOS（英语：Time-multiplexed optical shutter）
+去屏幕（英语：Screenless）
+仿生隐形眼镜（英语：Bionic contact lens）
+頭戴式顯示器
+抬頭顯示器
+光学头戴式显示器（英语：Optical head-mounted display）
+虚拟视网膜显示器（英语：Virtual retinal display）
+其他
+裸眼3D
+柔性显示器
+全息显示器（英语：Holographic display）
+计算机生成全息（英语：Computer-generated holography）
+多原色顯示技術
+Ultra HD
+体积显示器（英语：Volumetric display）
+电子产品
+电子鼻
+电子纺织品（英语：E-textiles）
+柔性印刷电路板
+分子电子学
+纳机电系统
+憶阻器
+自旋電子學
+Thermal copper pillar bump（英语：Thermal copper pillar bump）
+能源生产
+高空風力發電機
+人工光合作用
+生物燃料
+碳中性燃料（英语：Carbon-neutral fuel）
+聚光太阳能热发电
+聚变能
+家用燃料电池（英语：Home fuel cell）
+氢经济
+甲醇经济
+熔盐堆
+光学整流天线（英语：Nantenna）
+光伏路面（英语：Photovoltaic pavement）
+太空太陽能
+涡流发动机（英语：Vortex engine）
+存储
+磷酸铁锂电池
+压缩空气能源存储（英语：Compressed air energy storage）
+飞轮储能
+电网能源存储（英语：Grid energy storage）
+鋰空氣電池
+熔盐电池（英语：Molten salt battery）
+纳米线电池
+锂离子电池研究（英语：Research in lithium-ion batteries）
+硅气电池（英语：Silicon–air battery）
+热能储存（英语：Thermal energy storage）
+超级电容
+其他
+智慧電網
+无线供电
+信息及通信技术
+环境智能
+物联网
+人工智能
+人工智能的应用（英语：Applications of artificial intelligence）
+人工智能的进展（英语：Progress in artificial intelligence）
+机器翻译
+机器视觉
+语义网
+语音识别
+原子电子学（英语：Atomtronics）
+碳纳米管场效应晶体管（英语：Carbon nanotube field-effect transistor）
+Cybermethodology
+第四代光盘
+光学数据存储（英语：3D optical data storage）
+全息存储
+GPGPU
+内存
+CBRAM
+FRAM
+Millipede
+MRAM
+NRAM
+PRAM
+賽道記憶體
+RRAM
+SONOS
+光子计算机
+量子计算机
+量子密碼學
+RFID
+无芯片RFID（英语：Chipless RFID）
+软件无线电
+三維晶片
+制造
+打印
+电子粘土（英语：Claytronics）
+分子汇编器（英语：Molecular assembler）
+实用雾（英语：Utility fog）
+材料科学
+气凝胶
+非晶态金属
+人造肌肉
+導電聚合物
+Femtotechnology（英语：Femtotechnology）
+富勒烯
+石墨烯
+高溫超導
+高温超流体
+线性炔碳
+超材料
+超材料隐形（英语：Metamaterial cloaking）
+金属泡沫（英语：Metal foam）
+多功能结构（英语：Multi-function structure）
+纳米技术
+碳纳米管
+分子纳米技术（英语：Molecular nanotechnology）
+纳米材料
+皮米技术（英语：Picotechnology）
+可编程物质（英语：Programmable matter）
+量子点
+硅烯
+高温合金
+合成鑽石
+军事技术与装备
+反物质武器
+無殼彈
+定向能量武器
+激光
+激微波
+粒子束武器
+声波武器
+線圈砲
+磁軌砲
+等离子武器
+纯聚变武器（英语：Pure fusion weapon）
+低可偵測性技術
+涡环枪（英语：Vortex ring gun）
+神经科学
+人造脑
+藍腦計畫
+脑机接口
+腦電圖
+意识上传
+读脑（英语：Brain-reading）
+神经信息学
+神经假体
+仿生眼
+脑植入（英语：Brain implant）
+外部皮层
+视网膜植入（英语：Retinal implant）
+机器人学
+家庭自动化
+纳米机器人
+動力服
+自重构模块化机器人（英语：Self-reconfiguring modular robot）
+群体机器人（英语：Swarm robotics）
+無人機
+空间科学发射（英语：Space launch）
+核聚变火箭
+非火箭航天发射
+質量投射器
+轨道环（英语：Orbital ring）
+太空電梯
+空间喷泉（英语：Space fountain）
+太空纜索
+可重用发射系统（英语：Reusable launch system）
+航天器推进
+光束推进（英语：Beam-powered propulsion）
+离子推力器
+激光推进（英语：Laser propulsion）
+電漿推進發動機
+螺旋雙層推進器（英语：Helicon double-layer thruster）
+可变比冲磁等离子体火箭
+猎户座项目（英语：Project Orion）
+核脉冲推进
+太阳帆
+其他
+恆星際旅行
+推进剂库（英语：Propellant depot）
+运输（英语：Outline of transport）航空
+自适应柔性变形机翼（英语：Adaptive compliant wing）
+Aeroscraft（英语：Worldwide Aeros Corp）
+背包直升机（英语：Backpack helicopter）
+送货无人机（英语：Delivery drone）
+飞行车
+高空平台（英语：High-altitude platform）
+喷气式飞行包
+脉冲爆震引擎（英语：Pulse detonation engine）
+超音速燃烧冲压发动机
+太空飛機
+云霄塔
+超音速客機
+飛天車
+陆路运输（英语：Land transport）
+无气轮胎（英语：Airless tire）
+Tweel（英语：Tweel）
+新能源汽车
+氫動力汽車
+自動駕駛汽車
+地面效应列车（英语：Ground effect train）
+磁懸浮列車
+个人快速运输系统
+真空管道高速交通
+ET3全球联盟（英语：ET3 Global Alliance）
+超迴路列車
+车载通信系统（英语：Vehicular communication systems）
+管道
+气动运输（英语：Pneumatic tube）
+自动化真空收集（英语：Automated vacuum collection）
+食品管道（英语：Foodtubes）
+其他
+反重力
+隐身斗篷（英语：Cloak of invisibility）
+数字香水技术（英语：Digital scent technology）
+力场 (小说)（英语：Force field (fiction)）
+等离子窗（英语：Plasma window）
+沉浸 (虚拟现实)（英语：Immersion (virtual reality)）
+虛擬球（英语：VirtuSphere）
+磁性制冷（英语：Magnetic refrigeration）
+相控阵光学（英语：Phased-array optics）
+量子技术
+量子隱形傳態
+理念
+科林格里奇困境
+差异化技术开发（英语：Differential technological development）
+Ephemeralization（英语：Ephemeralization）
+技术伦理学（英语：Ethics of technology）
+生物倫理學
+网络伦理
+神经伦理学（英语：Neuroethics）
+机械伦理学
+探索性工程（英语：Exploratory engineering）
+虚构科技
+行事原则（英语：Proactionary principle）
+技术革新
+技术失业（英语：Technological unemployment）
+技术融合
+技术演进（英语：Technological evolution）
+技术范例（英语：Technological paradigm）
+科技預測
+加速变化（英语：Accelerating change）
+摩尔定律
+技术奇异点
+Technology scouting（英语：Technology scouting）
+技术就绪指数
+技术路线
+超人类主义
+分类
+列表
+规范控制 
+AAT: 300179504
+BNE: XX550609
+BNF: cb11983019n (data)
+GND: 4261462-4
+LCCN: sh85114628
+NARA: 10644311
+NKC: ph125173
+取自“”
+分类：​机器人学隐藏分类：​引文格式1维护：显式使用等标签含有过时参数的引用的页面含有英語的條目自2022年4月需补充来源的条目拒绝当选首页新条目推荐栏目的条目使用小型訊息框的頁面有未列明来源语句的条目包含AAT标识符的维基百科条目包含BNE标识符的维基百科条目包含BNF标识符的维基百科条目包含GND标识符的维基百科条目包含LCCN标识符的维基百科条目包含NARA标识符的维基百科条目包含NKC标识符的维基百科条目
+导航菜单
+个人工具
+没有登录讨论贡献创建账号登录
+命名空间
+条目讨论
+不转换
+不转换简体繁體大陆简体香港繁體澳門繁體大马简体新加坡简体臺灣正體
+查看
+阅读编辑查看历史
+更多
+搜索
+导航
+首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+帮助
+帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+工具
+链入页面相关更改上传文件特殊页面固定链接页面信息引用本页维基数据项目
+打印/导出
+下载为PDF打印页面
+在其他项目中
+维基共享资源
+其他语言
+编辑链接
+本页面最后修订于2022年4月9日 (星期六) 07:41。
+本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。
+（请参阅使用条款）
+Wikipedia®和维基百科标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的非营利慈善机构。
+隐私政策
+关于维基百科
+免责声明
+手机版视图
+开发者
+统计
+Cookie声明

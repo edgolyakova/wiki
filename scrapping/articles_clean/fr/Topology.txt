@@ -1,0 +1,152 @@
+Topologie — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Voir aussi
+Basculer la table des matières
+Topologie
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+Pour les articles homonymes, voir Topologie (homonymie).
+Cet article ne cite pas suffisamment ses sources (octobre 2019).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références » 
+En pratique : Quelles sources sont attendues ? Comment ajouter mes sources ?
+Déformation continue d'une tasse avec une anse, en un tore (bouée).
+Un ruban de Möbius est une surface fermée dont le bord se réduit à un cercle.
+De tels objets sont des sujets étudiés par la topologie.
+La topologie est la branche des mathématiques qui étudie les propriétés d'objets géométriques préservées par déformation continue sans arrachage ni recollement, comme un élastique que l’on peut tendre sans le rompre.
+Par exemple, on identifie le cercle et l’ellipse, la couronne et la paroi latérale d’un cylindre de révolution, une tasse et un tore (voir animation) ; c’est-à-dire qu’ils sont respectivement homéomorphes. 
+En topologie, on étudie des espaces topologiques : ce sont des ensembles munis d’une notion de voisinage autour de chaque point.
+Les applications continues entre ces espaces préservent cette notion.
+La définition du voisinage est parfois induite par une distance entre les points, ce qui donne une structure d’espace métrique. C’est le cas notamment de la droite réelle, du plan, de l’espace tridimensionnel ou plus généralement d’un espace euclidien, et de leurs sous-ensemble comme le cercle, la sphère, le tore et d’autres variétés riemanniennes.
+Dans un espace topologique, la notion locale de voisinage peut être remplacée par la notion globale d’ouvert, qui est un voisinage de chacun de ses points. L’ensemble des ouverts est également appelé « topologie ». Cette topologie peut être compatible avec une structure algébrique, d’où la définition de groupe topologique et d’espace vectoriel topologique, en particulier en analyse fonctionnelle.
+La topologie générale définit les notions et constructions usuelles d’espaces topologiques.
+La topologie algébrique associe à chaque espace topologique des invariants algébriques comme des nombres, des groupes, des modules ou des anneaux qui permettent de les distinguer, en particulier dans le cadre de la théorie des nœuds.
+La topologie différentielle se restreint à l’étude des variétés différentielles, dans lesquelles chaque point admet un voisinage homéomorphe à une boule de dimension finie.
+Étymologie
+Le mot « topologie » (en grec ἡ τοπολογία) procède de l'association de deux noms grecs ὁ τόπος (ho topos, masculin) et ἡ λογία (hē logia, féminin) qui signifient respectivement « le lieu » et « l'étude ». Littéralement, topologie signifie l'« étude d'un lieu » ou « étude topique ». Elle s’intéresse donc à définir ce qu’est un lieu (appelé aussi « espace ») et quelles peuvent en être les propriétés.
+Une ancienne dénomination fut analysis situs, c'est-à-dire « l'étude du lieu ».
+Le terme « topologie », fut introduit en allemand en 1847 par Johann Benedict Listing dans Vorstudien zur Topologie.
+Histoire
+La topologie se fonde sur les notions de limite et de continuité, appliquées d’abord aux suites et aux fonctions réelles d’une variable réelle.
+Ces notions d’analyse sont utilisées dès le XVIIIe siècle notamment par Euler et Lagrange, mais ne seront formalisées qu’au XIXe siècle : Cauchy définit la convergence d’une suite ou d’une série, Abel met en évidence la convergence uniforme, et Bolzano explicite la continuité pour démontrer le théorème des valeurs intermédiaires.
+À la même époque, Riemann introduit les variétés qui porteront son nom, et qui deviennent des espaces d’étude à part entière dans le cadre de la topologie différentielle.
+Le traitement commun de ces espaces et de l’analyse réelle viendra de la définition des voisinages par Hilbert.
+Vers 1860, Weierstrass définit la notion de point d'accumulation, dont il démontre l’existence dans tout ensemble infini et borné de nombres réels.
+Henri Poincaré publie Analysis Situs en 1895, introduisant les concepts d'homotopie et d'homologie.
+Ces invariants rejoignent le nombre d'enlacement et la caractéristique d'Euler (définie plus d’un siècle auparavant) dans ce qui deviendra la topologie algébrique.
+Ce n'est qu'en 1906, à force d'étudier des ensembles de plus en plus abstraits, qu'apparut le concept d'espace métrique, introduit par Fréchet, qui unifia les travaux sur les espaces de fonctions de Cantor, Volterra, Arzelà, Hadamard, Ascoli et d’autres.
+En 1914, Felix Hausdorff généralisa la notion d’espace métrique ; il inventa le terme d'« espace topologique » et définit ce qui s'appelle aujourd'hui un espace séparé ou espace de Hausdorff.
+Finalement, une autre légère généralisation en 1922, par Kuratowski, donna le concept actuel d'espace topologique.
+Le développement des espaces vectoriels normés (en particulier de dimensions infinies) est d'abord dû à Hilbert ; Banach compléta largement cette théorie dans les années 1930.
+La notion d'ensemble compact, en germe dès 1900, se développa avec les travaux d’Alexandroff, Urysohn et Tychonov.
+Aucun des vingt-trois problèmes de Hilbert ne portait sur la topologie, encore en germe au début du XXe siècle.
+La conjecture de Poincaré est mise à l’honneur parmi les sept problèmes du prix du millénaire en 2000. Ce problème sera le premier à être démontré complètement par Perelman au début du XXIe siècle à l’aide de la conjecture de géométrisation de Thurston.
+Principes fondateurs
+Le concept central en topologie est la notion de limite.
+Prenons l'exemple d'une surface fermée, un disque par exemple. D'un strict point de vue ensembliste, il y a les points qui sont dans le disque et ceux qui ne sont pas dedans.
+Pourtant, ce point de vue n'est pas satisfaisant géométriquement.
+Les points qui sont sur le cercle délimitant le disque ont un statut particulier, ils sont à la limite. D'ailleurs, dans la définition d'un disque, on a un choix à faire : considère-t-on l'ensemble des points dont la distance au centre est inférieure ou égale au rayon ou considère-t-on l'ensemble des points dont la distance au centre est strictement inférieure au rayon ? Dans le premier cas, on dit que le disque est fermé, dans le second cas, on dira que le disque est ouvert.
+Plus généralement, on dira qu'une surface est fermée lorsqu'elle contient tous ses points limites.
+On dira qu'une surface est ouverte si pour chacun de ses points il existe un disque centré en ce point qui est inclus dans cette surface.
+Cette idée de limite est très visuelle.
+La topologie cherche à formaliser cette notion.
+Il y a plusieurs moyens d'y parvenir.
+La façon la plus simple est de définir une distance.
+Dans notre exemple, on utilise simplement la distance euclidienne.
+Les points limites sont ceux qui sont proches (c'est-à-dire à une distance aussi faible que désirée) à la fois de points dans notre surface et de points qui ne sont pas dedans.
+Définir une distance sur un ensemble lui confère une structure d'espace métrique.
+Cette façon de voir est suffisante pour résoudre de nombreux problèmes.
+Cependant, utiliser une distance passe par l'intermédiaire des nombres réels et introduit donc une contrainte qu'il a fallu dépasser.
+Pour cela, on a été amené à définir le concept de proximité de façon plus abstraite, sans faire appel à un argument numérique, c'est le concept de voisinage.
+Pour des raisons  techniques, il est équivalent et plus simple de définir directement les ouverts avant les voisinages, c'est donc ainsi que l'on définit usuellement une topologie : en décidant quelles sont les parties ouvertes.
+La notion de limite n'est pas seulement statique mais aussi dynamique.
+La topologie permet d'appréhender les limites de fonctions ou de suites.
+Regardons la suite des inverses des nombres entiers à partir de 1 : 1/1, 1/2, 1/3, 1/4, … , 1/n, … À la limite, cette suite va tendre vers 0. Cela rejoint plus ou moins le fait que 0 est un point limite de l'ensemble des 1/n.
+Il est important de noter que la plupart des notions de topologie, notamment la continuité sont des conséquences de la notion de limite. C'est le cas notamment de la notion de dérivée qui se conçoit comme limite du taux d’accroissement, de la tangente qui est la limite des cordes.
+La topologie est donc une théorie unificatrice : elle explique avec peu d'axiomes initiaux un grand nombre de phénomènes.
+Branches de la topologie
+La topologie générale fournit un vocabulaire et un cadre général — une définition axiomatique avec des ensembles — pour traiter des notions de limite, de continuité, et de voisinage.
+L'idée de la topologie algébrique consiste à associer à différents espaces des invariants de manière à pouvoir les classifier.
+Les premiers invariants découverts étaient numériques.
+Aujourd'hui ces invariants sont des structures algébriques, groupes, anneaux, le plus souvent.
+Les correspondances entre espaces et objets sont des foncteurs et la théorie des catégories simplifie parfois la compréhension de celles-ci.
+Citons entre autres, le groupe fondamental et l'homologie singulière.
+La topologie différentielle étudie les propriétés topologiques des variétés différentielles ainsi que leurs plongements et leurs immersions dans des espaces euclidiens.
+La topologie géométrique est l'étude des variétés et des applications entre elles, en particulier les plongements d'une variété dans une autre.
+Une branche particulière active est la topologie en basses dimensions qui concerne les variétés de dimension inférieure ou égale à quatre, et qui inclut la théorie des nœuds.
+Depuis les années 50 et avec l'influence du séminaire de géométrie algébrique du Bois Marie d'Alexandre Grothendieck, la topologie est aujourd'hui définie plus largement comme l'étude des topos.
+Notes et références
+Gregory H. Moore, « The emergence of open sets, closed sets, and limit points in analysis and topology », Historia Mathematica, vol. 35, no 3,‎ 2008, p. 220-241 (DOI 10.1016/j.hm.2008.01.001, lire en ligne).
+Voir aussi
+Sur les autres projets Wikimedia :
+Topologie, sur Wikimedia CommonsTopologie, sur WikiversityTopologie, sur Wikibooks
+Articles connexes
+Voir l’article annexe : Glossaire de topologie.
+Topoisomère
+Bibliographie
+Claude Morlet, « Topologie », dans Dictionnaire des mathématiques – fondements, probabilités, applications, Paris, Encyclopædia Universalis et Albin Michel, 1998 (ISBN 2-7028-2416-1)
+Jean-Pierre Petit, Le Topologicon, Éditions Belin, coll. « Les aventures d'Anselme Lanturlu », 1999, 72 p. (ISBN 978-2701104669, lire en ligne), une vulgarisation de la topologie en bande dessinée.
+Ioan James, History of Topology, Elsevier, 1999, 1056 p. (ISBN 978-0-08-053407-7, lire en ligne)
+Jean Dieudonné, A History of Algebraic and Differential Topology 1900-1960, Basel/Boston, Birkhäuser, 1989, 648 p. (ISBN 3-7643-3388-X, lire en ligne)
+Domaines des mathématiques
+Algèbre
+Algèbre commutative
+Algèbre homologique
+Algèbre linéaire
+Analyse
+Analyse réelle
+Analyse complexe
+Analyse fonctionnelle
+Analyse numérique
+Calcul quantique
+Combinatoire
+Géométrie
+Géométrie algébrique
+Géométrie différentielle
+Géométrie non commutative
+Optimisation
+Physique mathématique
+Probabilités
+Statistiques
+Systèmes dynamiques
+Théorie des nombres
+Théorie de Galois
+Théorie des groupes
+Topologie
+Topologie algébrique
+Portail des mathématiques  
+Ce document provient de «  ».
+Catégorie : TopologieCatégories cachées : Article manquant de références depuis octobre 2019Article manquant de références/Liste complèteCatégorie Commons avec lien local identique sur WikidataPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesBon article en polonais
+La dernière modification de cette page a été faite le 9 août 2022 à 19:25.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

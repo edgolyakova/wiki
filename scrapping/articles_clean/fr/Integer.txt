@@ -1,0 +1,163 @@
+Entier relatif — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Règles opératoires
+Afficher / masquer la sous-section Ensemble des entiers
+Basculer la table des matières
+Entier relatif
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+Pour les articles homonymes, voir Entier.
+En mathématiques, un entier relatif, un entier rationnel ou simplement un nombre entier est un nombre qui se présente comme un entier naturel auquel on a adjoint un signe positif ou négatif indiquant sa position par rapport à 0 sur un axe orienté. Les entiers positifs (supérieurs à zéro) s'identifient aux entiers naturels : 0, 1, 2, 3… tandis que les entiers négatifs sont leurs opposés : 0, −1, −2, −3… L'entier 0 lui-même est donc le seul nombre à la fois positif et négatif.
+Un nombre réel est entier s'il est sans partie fractionnaire, c'est-à-dire si son écriture décimale ne comprend pas de chiffre (autre que zéro) « après la virgule ».
+Les entiers relatifs permettent d'exprimer la différence de deux entiers naturels quelconques.
+Entre autres significations de la différence, on peut citer la position sur un axe orienté par rapport à un point de référence (un axe à positions discrètes, c'est-à-dire discontinues) ; le déplacement depuis une position d'origine, dans un sens ou dans l'autre ; ou encore la variation d'une valeur entière, donc comptée en unités (variation positive pour un gain, négative pour une perte).
+L'ensemble des entiers relatifs est noté  « Z », lettre capitale grasse dans les textes dactylographiés, peu à peu supplantée par la graphie manuscrite avec une barre oblique ajourée : « ℤ ».
+La présence d'un astérisque en exposant (« Z* ») désigne en général l'ensemble des entiers relatifs non nuls, même si cette notation est utilisée parfois pour l'ensemble des éléments inversibles de Z[réf. souhaitée], c'est-à-dire la paire d'entiers {−1, 1}.
+La notation « Z− » désigne l'ensemble des entiers négatifs.
+Il est plus rare de trouver la notation « Z+ », remplacée par la notation « N » des entiers naturels par identification.
+Cet ensemble est (totalement) ordonné pour la relation de comparaison usuelle héritée des entiers naturels.
+Il est aussi muni des opérations d'addition et de multiplication qui fondent la notion d'anneau en algèbre.
+Les entiers relatifs sont aussi appelés entiers rationnels,, appellation qui ne doit pas entraîner de confusion avec les nombres rationnels ou fractions.
+Cette dénomination vient de l'anglais rational integer, et désigne un cas particulier d'entiers algébriques, construit sur le corps de nombres des rationnels.
+On trouve cette appellation chez Nicolas Bourbaki et certains mathématiciens s'inscrivant dans le mouvement des mathématiques modernes, parmi lesquels Georges Papy.
+La droite des nombres permet de représenter les entiers relatifs.
+Motivation
+La principale raison de l'introduction des nombres négatifs est la possibilité de résoudre toutes les équations de la forme : 
+a + x  =  b, où x est l'inconnue et a et b sont des paramètres.
+Dans l'ensemble des entiers naturels, seules certaines de ces équations ont une solution. 
+Elle possède une solution dans l'ensemble des entiers relatifs qui est −5.
+Fragments d'histoire
+La première allusion à des nombres négatifs apparaît dans des textes indiens  comme  l'Arybhatiya du mathématicien indien Âryabhata (476-550) où sont définies les règles d'additions et de soustractions.
+Les nombres négatifs apparaissent alors comme représentant des dettes et les nombres positifs comme des recettes.
+Quelques siècles plus tard, dans les écrits du mathématicien perse Abu l-Wafa (940-998), on voit apparaître des produits de nombres négatifs par des nombres positifs.
+Cependant le nombre reste encore attaché à des quantités physiques et le nombre négatif n'a guère de statut légal.
+Al Khuwarizmi (783-850) par exemple, dans son ouvrage la Transposition et la réduction préfère traiter 6 types d'équations du second degré au lieu d'envisager des soustractions.
+En Europe les nombres relatifs apparaissent tardivement, on attribue en général à Simon Stevin (1548-1620) la fameuse règle des signes pour le produit de deux entiers relatifs.  D'Alembert (1717-1783) lui-même dans l'Encyclopédie envisage le nombre relatif comme une idée dangereuse. 
+« Il faut avouer qu'il n'est pas facile de fixer l'idée des quantités négatives, & que quelques habiles gens ont même contribué à l'embrouiller par les notions peu exactes qu'ils en ont données.
+Dire que la quantité négative est au-dessous du rien, c'est avancer une chose qui ne se peut pas concevoir.
+Ceux qui prétendent que 1 n'est pas comparable à −1, & que le rapport entre 1 & −1 est différent du rapport entre −1 & 1, sont dans une double erreur […] Il n'y a donc point réellement & absolument de quantité négative isolée : −3 pris abstraitement ne présente à l'esprit aucune idée. »
+— D'Alembert, Dictionnaire raisonné des sciences, des arts et des métiers, vol. 11
+Il faut attendre encore deux siècles et l'avènement du formalisme pour voir apparaître une construction formelle de l'ensemble des entiers relatifs à partir de classes d'équivalence de couples d'entiers naturels.
+C'est à Richard Dedekind (1831-1916) que l'on doit cette construction.
+Lui-même utilisait la lettre K pour désigner l'ensemble des entiers relatifs.
+Plusieurs autres conventions ont eu cours, jusqu'à ce que Nicolas Bourbaki popularise l'usage de la lettre 
+, initiale de l'allemand Zahlen (nombres).
+Règles opératoires
+Dans un nombre relatif, on distingue le signe (+ ou −) et la valeur absolue : −3 a pour valeur absolue 3.
+Addition
+La somme de deux entiers de même signe s'obtient en additionnant les deux valeurs absolues et en conservant le signe commun :
+(−3) + (−5) = −8, écriture que l'on abrège en −3 − 5 = −8,  supprimant le signe opératoire +.
+La somme de deux entiers relatifs de signes contraires s'obtient en calculant la différence entre les deux valeurs absolues et en lui affectant le signe de l'entier ayant la plus grande valeur absolue :
+(+3) + (−5) = −2, écriture que l'on abrège en 3 − 5 = −2.
+Multiplication
+Le résultat d'une multiplication s'appelle un produit.
+Le produit de deux nombres relatifs de même signe est toujours positif (+) et s'obtient en effectuant le produit des valeurs absolues: 
+(+3) × (+4) = +12  que l'on abrège en 3 × 4 = 12
+(−3) × (−7)= + 21 = 21
+(le + n'étant pas obligatoire si le produit n'est pas négatif)
+Le produit de deux nombres relatifs de signes différents est toujours négatif (−) et s'obtient en effectuant le produit des valeurs absolues 
+(+7) × (−4) = −28
+Règle des signes
+plus multiplié par plus, donne produit plus.
+moins multiplié par moins, donne produit plus
+moins multiplié par plus ou plus multiplié par moins donne produit moins
+Ensemble des entiers
+Construction
+L'ensemble Z des entiers relatifs peut être vu comme le symétrisé du semi-anneau N des entiers naturels.
+Article détaillé : Construction des entiers relatifs.
+Une représentation d'une construction des entiers relatifs.
+Structure
+L'ensemble des entiers relatifs, muni de ses lois d'addition et de multiplication, est le prototype de la notion d'anneau.
+Il s'agit même d'un anneau euclidien, en référence à la division euclidienne.
+Il est donc également principal et a fortiori factoriel et noethérien.
+La distance usuelle sur Z est la valeur absolue de la différence.
+Elle fait de Z un espace métrique dont la topologie  est discrète, si bien que l'espace est complet.
+Les seules autres distances compatibles avec la structure d'anneau sont les distances p-adiques, où p est un nombre premier.
+Le groupe additif (Z, +) est (à isomorphisme près) l'unique groupe monogène sans torsion, c'est-à-dire l'unique groupe abélien libre de rang 1. C'est donc un groupe infini dénombrable.
+Ce groupe est totalement ordonné par la relation d'ordre usuelle.
+Extensions
+L'ensemble Z des entiers relatifs se plonge dans l'ensemble des nombres décimaux, noté D, qui lui-même est une partie de l'ensemble des nombres rationnels noté Q.
+La notion d'entier est étendue par la définition des entiers algébriques, qui sont aux divers corps de nombres ce que les entiers relatifs sont au corps des rationnels.
+Les entiers rationnels, c'est-à-dire les entiers algébriques du corps des rationnels, sont donc exactement les entiers relatifs.
+Pour chacune des distances p-adiques, le complété de Z est un anneau des entiers p-adiques noté Zp, dont le corps de fraction est le corps des nombres p-adiques, noté Qp et qui contient Q.
+Utilisations courantes
+Les nombres relatifs sont des nombres qui sont devenus relativement familiers.
+On les trouve :
+dans les ascenseurs où par exemple -2 désignera le deuxième sous-sol;
+sur les thermomètres pour indiquer les températures en dessous de 0 °C ;
+sur les relevés bancaires où par exemple -120 indiquera un découvert de 120 euros.
+Notes et références
+De cette position relative à zéro vient l'adjectif « relatif » appliqué à ces entiers.
+Selon certaines conventions différentes, en vigueur notamment dans les pays anglo-saxons, l'entier zéro n'est ni positif ni négatif (cf  Zero).
+De l'allemand Zahlen, « nombres ».
+La confusion est évitée avec l'usage de la croix de multiplication en exposant : « Z× ».
+G. H. Hardy et E. M. Wright (trad. de l'anglais par François Sauvageot, préf. Catherine Goldstein), Introduction à la théorie des nombres [« An Introduction to the Theory of Numbers »] [détail de l’édition], chapitre 12.
+Mais le programme officiel de l'agrégation de mathématiques, et les sujets correspondants, utilisent l'appellation plus courante en France « entiers relatifs ».
+Cf. par exemple N. Bourbaki, Éléments de mathématique, Algèbre, chap. I, § 2, no 5 (p. 28 d'une vieille version accessible en ligne) ou Roger Godement, Cours d'algèbre, § 5, no 8.
+Paradoxe classique : si -1 < 1 alors les inverses de ces deux nombres seraient rangés dans l'ordre inverse : l'inverse de -1 est -1 et l'inverse de 1 est 1 donc -1 > 1. paradoxe qui provient de la phrase incomplète "les inverses de ces deux nombres seraient rangés dans l'ordre inverse ", il faudrait préciser "les inverses de deux nombres de même signe sont rangés dans l'ordre inverse". Voir l'article fonction inverse pour plus d'informations. 
+Earliest Uses of Symbols of Number Theory.
+Voir aussi
+Sur les autres projets Wikimedia :
+Entier relatif, sur Wikiversity
+Entier (informatique)
+Notion de nombre
+Ensembles usuels
+Entier naturel 
+· Entier relatif 
+· Nombre décimal 
+· Nombre rationnel 
+· Nombre réel 
+· Nombre complexe 
+Extensions
+Quaternion 
+· Octonion 
+· Sédénion 
+· Nombre complexe déployé · Tessarine · Nombre bicomplexe 
+· Nombre multicomplexe 
+· 
+· Biquaternion · Coquaternion · Quaternion hyperbolique · Octonion déployé · Nombre hypercomplexe · Nombre p-adique 
+· Nombre hyperréel · Nombre superréel · Nombre dual · Droite réelle achevée · Nombre cardinal · Nombre ordinal · Nombre surréel · Nombre pseudo-réel
+Propriétés particulières
+Parité · Nombre premier · Nombre composé · Nombre figuré · Nombre parfait · Nombre positif · Nombre négatif · Fraction dyadique ·  Nombre irrationnel · Nombre algébrique · Nombre transcendant · Nombre imaginaire pur · Nombre de Liouville · Période · Nombre normal · Nombre univers · Nombre constructible · Nombre réel calculable · Nombre transfini · Infiniment petit
+Exemples
+Pi (π) ·  Racine carrée de deux 
+·  Nombre d’or (φ) · Zéro (0) · Unité imaginaire (i) · Constante de Neper (e) · Aleph-zéro (ℵ0) · Table de constantes mathématiques
+Articles liés
+Chiffre · Numération · Fraction · Opération · Calcul · Algèbre · Arithmétique · Suite d'entiers · Infini (∞) · Chiffre significatif
+Arithmétique et théorie des nombres  
+Ce document provient de «  ».
+Catégorie : Type de nombresCatégories cachées : Article à référence souhaitéePortail:Arithmétique et théorie des nombres/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesBon article en russe
+La dernière modification de cette page a été faite le 19 avril 2022 à 08:52.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

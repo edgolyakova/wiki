@@ -1,0 +1,605 @@
+Trigonométrie — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Présentation
+Afficher / masquer la sous-section Formules de trigonométrie
+Afficher / masquer la sous-section Quelques problèmes célèbres
+Afficher / masquer la sous-section Voir aussi
+Basculer la table des matières
+Trigonométrie
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+« Trigo » redirige ici.
+Pour l’article homophone, voir Trigault.
+Cercle trigonométrique et angles remarquables
+Planche sur la Trigonométrie, 1728 Cyclopaedia.
+Indication du signe et de la mesure d'angles clés selon le sens de rotation ("Rotation horaire" à gauche, "Rotation antihoraire" à droite)
+La trigonométrie (du grec τρίγωνος / trígonos, « triangulaire », et μέτρον / métron, « mesure ») est une branche des mathématiques qui traite des relations entre distances et angles dans les triangles et des fonctions trigonométriques telles que sinus, cosinus, tangente.
+Présentation
+Histoire de la trigonométrie
+Premières techniques de mesure du triangle
+Les origines de la trigonométrie remontent aux civilisations d’Égypte antique, de Mésopotamie et de la vallée de l’Indus, il y a plus de 4 000 ans.
+Il semblerait que les Babyloniens aient basé la trigonométrie sur un système numérique à base 60.
+La tablette paléo-babylonienne Plimpton 322 (ca -1800) présenterait des rudiments de trigonométrie.
+Les astronomes grecs
+L'astronome et mathématicien grec Hipparque de Nicée (-190 ; -120) construisit les premières tables trigonométriques sous la forme de tables de cordes : elles faisaient correspondre à chaque valeur de l'angle au centre (avec une division du cercle en 360°), la longueur de la corde interceptée dans le cercle, pour un rayon fixe donné. Ce calcul correspond au double du sinus de l'angle moitié, et donne donc, d'une certaine façon, ce que nous appelons aujourd'hui une table de sinus.
+Toutefois, les tables d'Hipparque n'étant pas parvenues jusqu'à nous, elles ne nous sont connues que par le grec Ptolémée, qui les publia, vers l'an 150, avec leur mode de construction dans son Almageste. C'est ainsi qu'elles furent redécouvertes à la fin du Moyen Âge par Georg von Purbach et son élève Regiomontanus.
+On attribue à Ménélaos d'Alexandrie (fin du Ier siècle) des développements en trigonométrie sphérique, au moins partiellement présents dans l'Almageste et longtemps attribués à Ptolémée lui-même.
+Les mathématiciens indiens
+Vers l'an 400, est rédigé un traité indien d'astronomie, le Surya Siddhanta, qui s'inspire de l'astronomie grecque, mais qui apporte une innovation concernant la trigonométrie.
+Alors que les mathématiciens grecs associaient la mesure d'une corde à un arc, l'ouvrage préfère associer la demi-corde à un arc donné. Cela donnera naissance à la notion de sinus.
+Il en sera de même plus tard des mathématiciens arabes.
+Le mathématicien indien Âryabhata, en 499, donne une table des sinus et des cosinus.
+Il utilise zya pour sinus, kotizya pour cosinus et otkram zya pour l'inverse du sinus.
+Il introduit aussi le sinus verse.
+Un autre mathématicien indien, Brahmagupta, utilise en 628 l'interpolation numérique pour calculer la valeur des sinus jusqu'au second ordre.
+Essor dans le monde musulman
+C'est dans le monde musulman que la trigonométrie prend le statut de discipline à part entière et se détache de l'astronomie.
+Abu l-Wafa (940-998) simplifie l'Almageste de Ptolémée en remplaçant l'usage du théorème de Ptolémée (qu'il nomme méthode du quadrilatère et des six quantités) par des formules de trigonométrie comparables aux nôtres (sinus de la somme de deux arcs, par exemple). Omar Khayyam (1048-1131) combine l'utilisation de la trigonométrie et la théorie de l'approximation pour fournir des méthodes de résolutions d'équations algébriques par la géométrie.
+Des méthodes détaillées de constructions de tables de sinus et cosinus pour tous les angles sont écrites par le mathématicien Bhāskara II en 1150. Il développe aussi la trigonométrie sphérique.
+Au XIIIe siècle, Nasir al-Din Tusi, à la suite de Bhāskara, est probablement un des premiers à considérer la trigonométrie comme une discipline distincte des mathématiques.
+Enfin, au XIVe siècle, Al-Kachi réalise des tables de fonctions trigonométriques lors de ses études en astronomie.
+En Europe : redécouverte de Ptolémée
+En 1220, en Europe, Fibonacci propose une table trigonométrique dans sa Practica Geometriae, mais qui comporte malheureusement plusieurs erreurs.
+La mise en place de mesures trigonométriques précises se développe vers le milieu du XVe siècle, avec la traduction en latin des œuvres de Ptolémée.
+Les pionniers en ce domaine sont Georg von Peuerbach et surtout son étudiant Regiomontanus.
+Ce dernier adopte la notion de sinus utilisée par les mathématiciens indiens et arabes.
+Il dresse une table des sinus avec un rayon de 600 000 unités, puis 10 000 000 d'unités et donne également une table des tangentes.
+Suivent au début du XVIe siècle les traités d'Oronce Fine, Pedro Nunes et Joachim Rheticus.
+Ce dernier dresse une table trigonométrique pour un rayon de 1015 d'unités et avec un incrément de 10 secondes d'arc.
+Le mathématicien silésien Bartholomäus Pitiscus publie un travail remarquable sur la trigonométrie en 1595, dont le titre (Trigonometria) a donné son nom à la discipline. C'est le mathématicien flamand Adrien Romain qui introduit la notation moderne 
+sin
+⁡
+[réf. nécessaire].
+L'utilisation de rayons ayant comme mesure une puissance de 10 et le développement du calcul décimal à la fin du XVIe, avec François Viète et Simon Stevin, amenèrent petit à petit à se ramener à un rayon unité et à introduire 
+en tant que nombre et non plus en tant que rapport de deux longueurs.
+Applications
+Les applications de la trigonométrie sont extrêmement nombreuses.
+En particulier, elle est utilisée en astronomie et en navigation avec notamment la technique de triangulation.
+Les autres champs où la trigonométrie intervient sont (liste non exhaustive) : physique, électricité, électronique, mécanique, acoustique, optique, statistiques, économie, biologie, chimie, médecine, météorologie, géodésie, géographie, cartographie, cryptographie, informatique etc.
+Trigonométrie
+Triangle ABC, rectangle en C.
+Une définition possible des fonctions trigonométriques est d'utiliser les triangles rectangles, c’est-à-dire les triangles qui possèdent un angle droit (90 degrés ou π/2 radians).
+Et parce que la somme des angles d'un triangle fait 180° (ou π radians), l'angle le plus grand dans un tel triangle est l'angle droit.
+Le côté le plus long dans un triangle rectangle, c’est-à-dire le côté opposé à l'angle le plus grand (l'angle droit), s'appelle l'hypoténuse.
+Dans la figure à droite, l'angle 
+forme l'angle droit.
+Le côté [AB] est l'hypoténuse.
+Les fonctions trigonométriques se définissent ainsi, en notant 
+l'angle 
+:
+sin
+⁡
+=
+côté opposé
+hypoténuse
+=
+cos
+⁡
+=
+côté adjacent
+hypoténuse
+=
+tan
+⁡
+=
+côté opposé
+côté adjacent
+=
+Ce sont les fonctions trigonométriques les plus importantes.
+Elles ont été définies pour les angles entre 0° et 90° (soit entre 0 et π/2 radians). En utilisant le cercle unité, on peut étendre cette définition à un angle quelconque, comme exposé dans l’article fonctions trigonométriques.
+Formules de trigonométrie
+Pour plus de formules, voir l'article : Identité trigonométrique.
+Identité remarquable
+Quel que soit le réel 
+, on a (d'après le théorème de Pythagore):
+cos
+⁡
++
+sin
+⁡
+=
+Formules d'addition et de différence des arcs
+Article détaillé : Formules d'addition et de différence.
+Les deux formules principales sont les formules d'addition pour le cosinus et le sinus :
+cos
+⁡
++
+=
+cos
+⁡
+cos
+⁡
+−
+sin
+⁡
+sin
+⁡
+;
+sin
+⁡
++
+=
+sin
+⁡
+cos
+⁡
++
+cos
+⁡
+sin
+⁡
+On en déduit celle pour la tangente :
+tan
+⁡
++
+=
+tan
+⁡
++
+tan
+⁡
+−
+tan
+⁡
+tan
+⁡
+,
+ainsi que les formules de différence (en remplaçant B par -B, sachant que la fonction cosinus est paire et les fonctions sinus et tangente sont impaires).
+Formules de multiplication des arcs
+cos
+⁡
+=
+cos
+⁡
+−
+sin
+⁡
+=
+cos
+⁡
+−
+=
+−
+sin
+⁡
+sin
+⁡
+=
+sin
+⁡
+cos
+⁡
+tan
+⁡
+=
+tan
+⁡
+−
+tan
+⁡
+sin
+⁡
+=
+sin
+⁡
+−
+sin
+⁡
+cos
+⁡
+=
+−
+cos
+⁡
++
+cos
+⁡
+tan
+⁡
+=
+tan
+⁡
+−
+tan
+⁡
+−
+tan
+⁡
+Formules de développement et de factorisation (formules de Simpson)
+Article détaillé : Formules de Simpson.
+Des formules d'addition et de différence (voir supra), on déduit :
+Développement
+cos
+⁡
+cos
+⁡
+=
+cos
+⁡
+−
++
+cos
+⁡
++
+, en particulier 
+cos
+⁡
+=
++
+cos
+⁡
+,
+sin
+⁡
+sin
+⁡
+=
+cos
+⁡
+−
+−
+cos
+⁡
++
+, en particulier 
+sin
+⁡
+=
+−
+cos
+⁡
+,
+sin
+⁡
+cos
+⁡
+=
+sin
+⁡
++
++
+sin
+⁡
+−
+;
+Factorisation
+cos
+⁡
++
+cos
+⁡
+=
+cos
+⁡
++
+cos
+⁡
+−
+,
+cos
+⁡
+−
+cos
+⁡
+=
+−
+sin
+⁡
++
+sin
+⁡
+−
+,
+sin
+⁡
++
+sin
+⁡
+=
+sin
+⁡
++
+cos
+⁡
+−
+Formules de l'arc moitié
+Ces formules interviennent dans de très nombreux problèmes.
+En posant :
+=
+tan
+⁡
+,
+on a :
+sin
+⁡
+=
++
+,
+cos
+⁡
+=
+−
++
+,
+tan
+⁡
+=
+−
+Théorème d'Al-Kashi ou loi des cosinus
+Article détaillé : Loi des cosinus.Les résultats donnés ici et dans les sections suivantes concernent les mesures en géométrie euclidienne. L'étude des mêmes questions en géométrie sphérique est faite à l'article Trigonométrie sphérique, et en géométrie hyperbolique à l'article Fonction hyperbolique.
+Pour un triangle ABC de côtés a = BC, b = AC et c = AB, on a (loi des cosinus) :
+=
++
+−
+⋅
+cos
+⁡
+Cette formule a une importance particulière en triangulation et a servi à l'origine en astronomie.
+On doit au mathématicien Ghiyath al-Kashi, de l'école de Samarcande, de mettre le théorème sous une forme utilisable pour la triangulation au cours du XVe siècle.
+Remarque : lorsque 
+=
+∘
+ou 
+/
+, on a 
+=
++
+, c'est-à-dire le théorème de Pythagore.
+Résoudre un triangle
+Article détaillé : Résolution d'un triangle.
+Résoudre un triangle, c’est, étant donné un côté et deux angles adjacents, ou un angle et deux côtés adjacents, ou à la rigueur deux côtés b et c et leur angle B, trouver le triangle correspondant, c’est-à-dire a, b, c, A, B et C (et vérifier une des règles non appliquée dans le processus).
+On résout ce genre de problème à l’aide des formules précédentes (plus la formule de projection évidente a = b · cos C + c · cos B).
+Par exemple :
+Sur l’axe Ox, OB = 1 et OC = 1,5. OBM = 60° et OCM = 30°. Trouver M :
+Faire l’épure ; M se trouve en (x = 0,75 ; y = 0,45) environ.
+Raisonner : dans le triangle BMC, B = 120° et C = 30° donc M = 30° ; donc le triangle est isocèle en B et BM'= 0,5.
+Puis 
+=
+×
+,
+×
+cos
+⁡
+=
+Soit H la projection de M sur l’axe : HM = y et l'angle HMB vaut 30°.
+=
+≈
+,
+et 
+=
+−
+=
+=
+,
+La distance 
+=
+=
+, l’azimut de M vaut 30°, et l’angle OMB vaut 90°.
+Il est rare que ce soit aussi simple en pratique.
+En général, on demande quatre à six chiffres significatifs.
+Les calculettes ont considérablement réduit le travail assez fastidieux de « réduction des triangles ».
+Rappelons que la mesure du degré de l’arc méridien terrestre de Paris s’est effectuée de la sorte entre Malvoisine et Montlhéry par l’abbé Picard, dans le milieu du XVIIe siècle.
+Aire du triangle
+L'aire A du triangle se détermine à l'aide de la longueur de deux côtés et du sinus de l'angle qu'ils forment :
+=
+×
+×
+sin
+⁡
+D'une telle égalité, appliquée à chaque sommet du triangle, on peut déduire la loi des sinus.
+La formule précédente, complétée par la loi des cosinus, permet également d'établir la formule de Héron :
+=
+−
+−
+−
+,
+où a, b et c sont les longueurs de ses côtés et p désigne le demi-périmètre du triangle :
+=
++
++
+Quelques problèmes célèbres
+Flèche et onglet d'un arc de cercle
+Flèche d’une corde AB sous-tendant l’arc AB avec 
+=
+: soit I le milieu de AB, et CD le diamètre passant par I ; alors avec f = ID ou f = IC :
+⋅
+−
+=
+⋅
+sin
+⁡
+Aire de l'onglet :
+=
+⋅
+[
+−
+sin
+⁡
+]
+;
+Quand α est petit, on compare cette aire à celle de la parabole osculatrice 
+⋅
+⋅
+(théorème d'Archimède) : la différence est d'ordre supérieur à trois.
+Formules de Machin
+Article détaillé : Formule de Machin.
+John Machin a été le premier à calculer π avec 100 décimales, en 1706, grâce à sa formule.
+Des formules de ce type ont été utilisées jusqu’à nos jours, pour calculer un grand nombre de décimales de π.
+Polygones réguliers
+Le polygone à 17 côtés (heptadécagone) est constructible à la règle et au compas (théorème de Gauss-Wantzel).
+L’heptagone et l’ennéagone ne sont pas constructibles.
+En revanche, on peut construire par pliage l’heptagone et l’ennéagone.
+On prouve que pour 
+=
+(intervenant dans la construction de l’heptagone par pliage), on a : 
+sin
+⁡
+⋅
+sin
+⁡
+⋅
+sin
+⁡
+=
+, 
+cos
+⁡
++
+cos
+⁡
++
+cos
+⁡
+=
+−
+et 
+cos
+⁡
+⋅
+cos
+⁡
+⋅
+cos
+⁡
+=
+Des formules semblables existent pour l'ennéagone, pour 
+=
+:
+sin
+⁡
+⋅
+sin
+⁡
+⋅
+sin
+⁡
+=
+, 
+cos
+⁡
++
+cos
+⁡
++
+cos
+⁡
+=
+et 
+cos
+⁡
+⋅
+cos
+⁡
+⋅
+cos
+⁡
+=
+Notes et références
+Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Trigonometry » (voir la liste des auteurs).
+Aaboe, Asger: Episodes from the Early History of Astronomy New York: Springer, 2001.  (ISBN 0-387-95136-9)
+Eleanor Robson, « Words and pictures: new light on Plimpton 322 », Amer.
+Math.
+Month., vol. 109, no 2,‎ 2002, p. 107 (DOI 10.2307/2695324, lire en ligne)
+Jean-Paul Collette, Histoire des mathématiques, t. 1, Vuibert, 1973, p. 111
+Ahmed Djebbar, « Les mathématiques arabes », sur (consulté le 27 octobre 2019)
+Baron Carra de Vaux, « L'Almageste d'Abû'lwefa Albûzdjâni », Journal asiatique, 8e série, t. 19,‎ mai-juin 1992, p. 413 et suivantes (lire en ligne)
+cf.
+Baltassarre Boncompagni, « Scritti di Leonardo Pisano », 1832. Fibonacci utilise un cercle dont le rayon mesure 21 perches (chaque perche étant subdivisée en 6 pieds, chaque pied en 18 onces et chaque once en 18 points). Il divise la circonférence en 132 parties, et donne la longueur de la corde en fonction de l'arc.
+Ainsi, un arc de 60° possède 22 parties et sa corde mesure 21 perches.
+a et b  Morris Kline, Mathematical Thought from Modern to Ancient Times, Oxford University Press, 1972, p. 238
+Jean-Paul Collette, Histoire des mathématiques, t. 1, Vuibert, 1973, p. 172
+François Viète a publié des tables trigonométriques dans son Canon mathematicus (1579). cf François Viète, « Canon mathematicus, seu Ad triangula, cum adpendicibus », sur gallica.bnf.fr, 1579
+Voir aussi
+Sur les autres projets Wikimedia :
+Catégorie:Trigonométrie, sur Wikimedia CommonsTrigonométrie, sur le WiktionnaireTrigonométrie, sur Wikiversity
+Articles connexes
+Cercle unité
+Cercle trigonométrique
+Fonction hyperbolique
+Sens trigonométrique
+Trigonométrie complexe
+Trigonométrie sphérique
+Trigonométrie de Wildberger
+Formules trigonométriques en kπ/7
+CORDIC
+Trigonométrie
+Trigonométrie du cercle
+Fonctions trigonométriques
+Cosinus
+Sinus
+Tangente
+Cotangente
+Sécante
+Cosécante
+sinus verse
+Fonctions circulaires réciproques
+Arc cosinus
+Arc sinus
+Arc tangente
+Arc cotangente
+Arc sécante
+Arc cosécante
+Intégrales trigonométriques
+Cosinus intégral
+Sinus intégral
+Relations
+Identité trigonométrique
+Identité trigonométrique pythagoricienne
+Loi des cosinus
+Loi des sinus
+Loi des tangentes
+Loi des cotangentes
+Trigonométrie hyperbolique
+Fonction hyperbolique
+Cosinus hyperbolique
+Sinus hyperbolique
+Tangente hyperbolique
+Cotangente hyperbolique
+Sécante hyperbolique
+Cosécante hyperbolique
+Fonction hyperbolique réciproque
+Cosinus hyperbolique réciproque
+Sinus hyperbolique réciproque
+Tangente hyperbolique réciproque
+Cotangente hyperbolique réciproque
+Sécante hyperbolique réciproque
+Cosécante hyperbolique réciproque
+Fonction elliptique / Fonction intégrale elliptique
+Trigonométrie sphérique
+Portail des mathématiques  
+Ce document provient de «  ».
+Catégories : TrigonométrieAngleCatégories cachées : Article à référence nécessaireCatégorie Commons avec lien local identique sur WikidataPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/Articles
+La dernière modification de cette page a été faite le 7 octobre 2022 à 18:09.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

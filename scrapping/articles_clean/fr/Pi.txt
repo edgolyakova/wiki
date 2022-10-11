@@ -1,0 +1,1164 @@
+Pi — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Définition et premières propriétés
+Afficher / masquer la sous-section Histoire
+Afficher / masquer la sous-section Utilisation en mathématiques et en sciences
+Afficher / masquer la sous-section Propriétés diverses
+Afficher / masquer la sous-section Culture populaire
+Afficher / masquer la sous-section Notes et références
+Afficher / masquer la sous-section Voir aussi
+Basculer la table des matières
+Pi
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+Ne doit pas être confondu avec la lettre « π ».
+Pour les articles homonymes, voir Pi (homonymie).
+Cette page contient des caractères spéciaux ou non latins.
+Si certains caractères de cet article s’affichent mal (carrés vides, points d’interrogation, etc.), consultez la page d’aide Unicode.
+Si le diamètre du cercle est 1, sa circonférence est π.
+π (pi), appelé parfois constante d’Archimède[a], est un nombre représenté par la lettre grecque du même nom en minuscule (π). C’est le rapport constant de la circonférence d’un cercle à son diamètre dans un plan euclidien.
+On peut également le définir comme le rapport de l'aire d'un disque au carré de son rayon.
+Sa valeur approchée par défaut à moins de 0,5×10–15 près[b] est 3,141592653589793 en écriture décimale,.
+De nombreuses formules de physique, d’ingénierie et bien sûr de mathématiques, impliquent π, qui est une des constantes les plus importantes des mathématiques.
+Le nombre π est irrationnel, c’est-à-dire qu’on ne peut pas l’exprimer comme un rapport de deux nombres entiers ; ceci entraîne que son écriture décimale n’est ni finie, ni périodique. C’est même un nombre transcendant, ce qui signifie qu’il n’existe pas de polynôme non nul à coefficients entiers dont π soit une racine[c].
+La détermination d’une valeur approchée suffisamment précise de π, et la compréhension de sa nature sont des enjeux qui ont traversé l’histoire des mathématiques ; la fascination exercée par ce nombre l’a même fait entrer dans la culture populaire.
+L’usage de la lettre grecque π, première lettre de περίμετρος (« périmètre » en grec ancien), n’est apparu qu’au XVIIIe siècle à l'initiative du mathématicien William Jones (et ensuite adopté et popularisé par Euler). Auparavant, sa valeur était désignée par diverses périphrases comme la « constante du cercle » ou son équivalent dans diverses langues.
+Définition et premières propriétés
+Définition
+On déduit d’une propriété analogue pour les polygones réguliers que l’aire d’un disque égale son demi-périmètre multiplié par son rayon.
+Dans les dictionnaires et ouvrages généralistes, π est défini comme le rapport, constant dans le plan usuel qu'est le plan euclidien, entre la circonférence d’un cercle et son diamètre.
+Ce rapport ne dépend pas du cercle choisi, en particulier de sa taille.
+En effet, tous les cercles sont semblables et pour passer d’un cercle à un autre il suffit de connaître le rapport de la similitude.
+Par suite, pour tout réel positif k, si un cercle possède un rayon r (ou un diamètre d = 2r) k fois plus grand qu’un autre, alors son périmètre P sera aussi k fois plus grand, ce qui prouve la constance du rapport.
+=
+=
+Par ailleurs, cette même similitude multipliera l’aire A par le carré de k, ce qui prouve maintenant que le rapport A/r2 est constant.
+On peut montrer, par exemple par la méthode des indivisibles, que cette constante vaut également π.
+=
+Le dessin ci-contre illustre une autre méthode, essentiellement due à Archimède (voir infra) : le périmètre du polygone vaut à peu près 2πr alors qu’en redistribuant les triangles formés on remarque que son aire vaut à peu près πr2. Pour formaliser le « à peu près », il faudrait faire tendre le nombre de côtés du polygone vers l’infini, ce qui illustre déjà la nature « analytique » de π.
+Autres définitions
+La définition géométrique ci-dessus, historiquement la première et très intuitive, n'est pas la plus directe pour définir π mathématiquement en toute rigueur.
+Les ouvrages plus spécialisés, par exemple
+définissent π par l'analyse réelle, parfois à l'aide des fonctions trigonométriques, mais introduites sans référence à la géométrie :
+Un choix fréquent est de définir π comme le double du plus petit nombre positif x tel que cos(x) = 0, où cos peut être définie comme la partie réelle de l’exponentielle complexe,, ou comme la solution d'un problème de Cauchy.
+Une autre définition est envisageable en considérant les propriétés algébriques de la fonction exponentielle complexe qui découlent de sa définition par une série entière et qui font que l’application t ↦ exp(it) est un morphisme de groupes continu et surjectif de (ℝ, +) vers le groupe (𝕌, ×) des complexes de module 1. On démontre alors que l’ensemble des nombres réels t tels que exp(it) = 1 est de la forme aℤ où a est un réel strictement positif.
+On pose alors π = a/2. Le calcul intégral permet ensuite de vérifier que cette définition abstraite correspond bien à celle de la géométrie euclidienne.
+Le groupe Bourbaki propose une autre définition très voisine en démontrant l’existence d’un morphisme de groupes topologiques f de (ℝ, +) vers (𝕌, ×), périodique de période 1, tel que f(1/4) = i.
+Il démontre que f est dérivable et que sa dérivée en 0 est de la forme αi pour un certain réel α > 0, qu'il note 2π.
+Les deux méthodes précédentes consistent en réalité à calculer le périmètre du cercle, qu’on a défini par la fonction t ↦ exp(it), ou la fonction t ↦ exp(2iπt).
+Mais on peut aussi définir π grâce au calcul intégral en posant
+=
+∫
+−
+−
+,ce qui revient à calculer (par exemple comme limite de sommes de Riemann) l’aire d’un demi-disque de rayon 1, ou encore
+=
+∫
+−
+,ce qui revient (par résolution de l'équation différentielle x' = –√1 – x2) à la définition ci-dessus de π/2 comme le premier zéro de cos.
+On retrouve également cette intégrale quand on cherche à calculer la longueur du quart de cercle de rayon 1 paramétré par 
+↦
+,
+−
+. On peut également poser
+=
+∫
+−
++
+, en relation avec le  théorème des résidus, où π est l'unique valeur telle que, pour tout lacet γ rectifiable à un tour autour de z0, 
+∫
+−
+=
+Ou bien à l’aide du dénombrement, en notant φ(n) le nombre de couples d’entiers naturels (k, p) tels que k2 + p2 ≤ n2 et en définissant :  
+=
+lim
+∞
+,ce qui est une autre méthode pour calculer l'aire du quart de disque.
+Irrationalité
+Article détaillé : Preuve de l'irrationalité de π.
+Le nombre π est irrationnel, ce qui signifie qu’on ne peut pas écrire π = p/q où p et q  seraient des nombres entiers.
+Al-Khwârizmî, au IXe siècle, est persuadé que π est irrationnel.
+Moïse Maïmonide fait également état de cette idée durant le XIIe siècle.
+Ce n’est cependant qu’au XVIIIe siècle que Jean-Henri Lambert prouve ce résultat.
+Il expose, en 1761, un développement en fraction continue généralisée de la fonction tangente.
+Il en déduit qu'un développement de tan(m/n), avec m et n entiers non nuls, s’écrit[d] :
+tan
+⁡
+=
+−
+−
+−
+−
+⋱
+Or sous certaines hypothèses — vérifiées ici — un développement en fraction continue généralisée représente un irrationnel, donc quand x est un rationnel non nul, tan x est irrationnel.
+Or, tan π vaut 0 ; c’est un rationnel.
+Par contraposition, cela prouve que π n’est pas rationnel.
+Au cours du XXe siècle, d’autres démonstrations furent trouvées, celles-ci ne demandant pas de connaissances plus avancées que celle du calcul intégral. L’une d’entre elles, due à Ivan Niven, est très largement connue,. Une preuve similaire, version simplifiée de celle de Charles Hermite,, avait été trouvée quelque temps auparavant par Mary Cartwright,.
+Transcendance
+Non seulement le nombre π est irrationnel (voir section précédente), mais il est transcendant, c'est-à-dire non algébrique : il n'existe pas de polynôme à coefficients rationnels dont π soit une racine.
+C'est au XIXe siècle que ce résultat est démontré. En 1873, Hermite prouve que la base du logarithme népérien, le nombre e, est transcendant.
+En 1882, Ferdinand von Lindemann généralise son raisonnement en un théorème (le théorème d'Hermite-Lindemann) qui stipule que, si x est algébrique et différent de zéro, alors ex est transcendant.
+Or eiπ est algébrique (puisqu'il est égal à –1). Par contraposition, iπ est transcendant, donc comme i est algébrique, π est transcendant.
+Une conséquence historiquement importante de la transcendance de π est que celui-ci n'est pas constructible.
+En effet, le théorème de Wantzel énonce en particulier que tout nombre constructible est algébrique.
+En raison du fait que les coordonnées de tous les points pouvant se construire à la règle et au compas sont des nombres constructibles, la quadrature du cercle est impossible ; autrement dit, il est impossible de construire, uniquement à la règle et au compas, un carré dont l'aire serait égale à celle d'un disque donné.
+De façon plus anecdotique, le fait que π soit transcendant a permis à Don Coppersmith de montrer que lorsqu'on partitionne un disque par n ≥ 4 droites concourantes formant toutes entre elles des angles de π/n radians, les deux sommes d'aires obtenues en considérant une part sur deux sont différentes si et seulement si n est impair,,[e].
+Représentation décimale
+Les 16 premiers chiffres de l'écriture décimale de π sont 3,141 592 653 589 793 (voir les liens externes,, pour davantage de décimales).
+Alors qu'en 2013, on connaissait déjà plus de douze mille milliards de décimales de π, les applications concrètes telles que l'estimation de la circonférence d'un cercle n'ont généralement pas besoin de plus d'une dizaine de chiffres.
+En 1881, Simon Newcomb explique ainsi que « dix décimales suffisent à calculer la circonférence de la Terre à une fraction de pouce près ; trente décimales, pour obtenir celle de l'univers visible... » .
+Dans les années 1990, la représentation décimale de π tronquée à 39 décimales était estimée suffisante pour calculer la circonférence d'un cercle d'un diamètre du même ordre de grandeur que la taille de l'univers observable avec un degré de précision comparable à celle d'un atome d'hydrogène,, compte tenu des estimations alors en vigueur.
+En 2014, Donald Byrd, chercheur en informatique, revenait sur l'assertion de Newcomb pour l'actualiser à la lumière des avancées de la science depuis 1881 : il en concluait que pour un univers observable de 100 Ga.l. (soit 9,46 × 1026 m) et une précision de la longueur de Planck, il suffit d'environ 60 décimales.
+Puisque π est un nombre irrationnel, sa représentation décimale n'est pas périodique à partir d'un certain rang.
+La suite des décimales de π a toujours fasciné les mathématiciens professionnels et amateurs, et beaucoup d’efforts ont été mis en œuvre afin d'obtenir de plus en plus de décimales et d'en rechercher certaines propriétés, comme l'occurrence de nombres premiers dans les concaténations de ses décimales (voir la section d'article « Nombre premier issu de troncature de constante »).
+Malgré les importants travaux d'analyse et les calculs effectués, aucun modèle simple n’a été trouvé pour décrire cette suite de chiffres.
+Les premières décimales sont disponibles sur de nombreuses pages web, et il existe des logiciels qui peuvent en calculer des milliards et qu'on peut installer sur un ordinateur personnel.
+Par ailleurs, le développement décimal de π ouvre le champ à d'autres questions, notamment celle de savoir si π est un nombre normal, c’est-à-dire que ses successions finies de chiffres en écriture décimale sont équiréparties.
+A fortiori, π serait alors un nombre univers, ce qui signifie qu'on pourrait trouver dans son développement décimal n'importe quelle suite finie de chiffres.
+En 2006, il n'existait pas de réponse à ces questions.
+Représentation fractionnaire
+Les fractions de nombres entiers suivantes sont utilisées pour mémoriser ou approcher π dans des calculs (nombre de chiffres significatifs exacts entre parenthèses) :
+,
+,
+,
+,
+,
+…
+Les premières calculettes Hewlett-Packard ne possédaient pas de touche pour π, et le manuel de l'utilisateur recommandait 355/113, très facile à mémoriser[réf. nécessaire].
+Voir ci-dessous pour d’autres approches fractionnaires (Histoire, Approximation numérique, fractions continues et Mémorisation de π).
+Approximation de π
+Article détaillé : Approximation de π.
+On peut trouver une valeur approchée de π de façon empirique, en traçant un cercle, puis en mesurant son diamètre et sa circonférence, puis en divisant la circonférence par le diamètre.
+Une autre approche géométrique, attribuée à Archimède, consiste à calculer le périmètre Pn d’un polygone régulier à n côtés et à mesurer le diamètre d de son cercle circonscrit, ou celui de son cercle inscrit.
+Plus le nombre de côtés du polygone est grand, meilleure est la précision obtenue pour la valeur de π.
+Archimède a utilisé cette approche en comparant les résultats obtenus par la formule en utilisant deux polygones réguliers ayant le même nombre de côtés, pour lesquels le cercle est pour l’un circonscrit et pour l’autre inscrit.
+Il a réussi, avec un polygone à 96 côtés, à déterminer que 3 + 10/71 < π < 3 + 1/7 .
+On peut également obtenir des valeurs approchées de π en mettant en œuvre des méthodes plus modernes.
+La plupart des formules utilisées pour calculer π se basent sur la trigonométrie et le calcul intégral.
+Cependant, certaines sont particulièrement simples, comme la « formule de Leibniz » (voir infra) :
+=
+∑
+=
+∞
+−
++
+=
+−
++
+−
++
+−
+⋯
+Cette série converge si lentement que pour calculer π avec une précision de six décimales il faut presque deux millions d'itérations.
+Cependant, il est possible de définir une suite similaire qui converge vers π beaucoup plus rapidement, en posant :
+,
+=
+,
+,
+=
+−
+,
+,
+=
+−
++
+,
+,
+=
+−
++
+−
+,
+⋯
+et en définissant :
+,
+=
+−
+,
++
+−
+,
++
+pour tout 
+,
+≥
+1.
+Le calcul de π10,10 demande alors un temps similaire à celui requis pour calculer les 150 premiers termes de la série initiale, mais la précision est bien meilleure car π10,10 = 3,141592653… approche π avec neuf décimales exactes[f]. On trouvera plus loin des méthodes de calcul plus élaborées, donnant des convergences bien plus rapides encore.
+Histoire
+L’histoire ancienne de π, qu’on peut retracer grâce aux écrits disponibles, suit approximativement l’avancée des mathématiques dans leur ensemble.
+Certains auteurs divisent l’histoire de π en trois parties : la période antique durant laquelle π a été étudié géométriquement, l’ère classique, aux alentours du XVIIe siècle, où les outils du calcul intégral ont permis des avancées dans la connaissance du nombre π, et la période des ordinateurs numériques.
+Antiquité
+Il semble que, très tôt, les mathématiciens aient été convaincus qu'il existait un rapport constant entre le périmètre du cercle et son diamètre, ainsi qu'entre l'aire du disque et le carré du rayon.
+Des tablettes babyloniennes datant de 2 000 ans av. J.-C. et découvertes en 1936 présentent des calculs d'aire conduisant à une valeur de π de 3 + 1/8.
+Ce recouvrement imparfait de l'aire du disque par un octogone peut conduire à une approximation de l'aire du disque, et donc du nombre π.
+Découvert en 1855, le papyrus de Rhind contient le texte, copié au XVIe siècle avant notre ère par le scribe égyptien Ahmès, d'un manuel de problèmes plus ancien encore.
+On y trouve utilisée plusieurs fois une méthode pour évaluer l'aire d'un disque en prenant le carré dont le côté est égal au diamètre du disque diminué d'un neuvième.
+Cette méthode conduit à une évaluation de π de 256/81.
+Une justification possible de celle-ci s'appuie sur le schéma ci-contre.
+Si le disque a pour diamètre 9, l'aire du disque est légèrement supérieure à l'aire de l'octogone (irrégulier) obtenu en rognant les coins du carré de côté 9. Cet octogone a pour aire 63 ; l'aire du disque est alors évaluée à 64, soit l'aire d'un carré de côté 8. Le rapport entre l'aire du disque et le carré du rayon est alors évalué par 64/(9/2)2, c'est-à-dire 256/81. Mais l'hypothèse que ce procédé ait conduit à l'approximation du papyrus Rhind ne fait pas l'unanimité chez les historiens.
+Vers 700 av. J.-C., le texte indien Shatapatha Brahmana donne une approximation de π : 25/8 (= 3,125) et le Baudhāyana Sulbasūtra en donne deux autres : 900/289 (≈ 3,11) et 1156/361 (≈ 3,20). Des calculs d'astronomie ont ensuite conduit à une autre approximation védique : 339/108 (≈ 3,139). Au début du VIe siècle apr. J.-C., Aryabhata donne une approximation plus précise : 62 832/20 000  ≈ 3,1416. Comme |π – 3,1416| < 0,0000075, il s'agit d'un résultat remarquable, exact à 10−5 près.
+C'est dans le traité d'Archimède (287 à 212 av. J.-C.) intitulé De la mesure du cercle que l'on peut lire une démonstration liant l'aire du disque et l'aire du triangle ayant une base de longueur le périmètre du cercle et pour hauteur le rayon, démontrant ainsi qu'une même constante apparaît dans le rapport entre aire du disque et carré du rayon et entre périmètre et diamètre.
+Cette démonstration s'appuie sur la méthode d'exhaustion et un raisonnement par l'absurde.
+En partant d'un carré inscrit dans le cercle et d'un carré circonscrit au cercle et en multipliant indéfiniment par 2 le nombre de côtés, il prouve que l'aire du disque ne peut être inférieure ni supérieure à celle du triangle correspondant.
+Cercle et ses carrés inscrit et circonscrit.
+Cercle et ses octogones inscrit et circonscrit.
+Découpage du cercle en 8 portions.
+Sa démonstration exploite l'idée du découpage en quartiers : le cercle est découpé en plusieurs quartiers qui, mis bout à bout, dessinent des triangles curvilignes de même hauteur.
+En multipliant le nombre de quartiers, la base des triangles curvilignes est presque droite et la hauteur est proche du rayon ; la somme des bases correspond alors au périmètre du cercle et l'aire est alors de 1/2 de la base multipliée par la hauteur, c'est-à-dire 1/2 du périmètre multiplié par le rayon.
+Déroulement des 8 portions.
+Dans le même traité, Archimède établit un encadrement du périmètre du cercle à l'aide des périmètres des polygones réguliers inscrit et circonscrit au cercle et possédant 96 côtés.
+Pour calculer les périmètres de ces polygones, il part d'hexagones inscrits et circonscrits et met en évidence les formules donnant le périmètre d'un polygone dont le nombre de côtés a doublé. Son calcul revient à démontrer que 3 + 10/71 < π < 3 + 1/7. La moyenne de ces deux valeurs est d'environ 3,14185. Archimède s'arrête à 96 côtés car les calculs qu'il est amené à effectuer, avec valeurs approchées, sont déjà longs pour l'époque.
+Mais il met en place ainsi une méthode qui sera reprise par ses successeurs et qui permet en théorie une précision aussi grande que souhaitée.
+Il faut cependant une précision toujours plus grande dans les premiers calculs à chaque fois que l'on double le nombre de côtés du polygone.
+Ptolémée, scientifique grec ayant vécu trois siècles après Archimède, donne une valeur de 
+≈
+,
+…
+, qu'il a pu obtenir grâce à Apollonios de Perga, ou bien en utilisant sa table trigonométrique et en multipliant par 360 la longueur de la corde sous-tendue par un angle d'un degré.
+Formules d'Archimède
+Propriété de la bissectrice.
+Archimède utilise une propriété liant le pied d'une bissectrice aux côtés adjacents : dans la figure ci-contre, SS′ est la bissectrice de l'angle de sommet S
+=
+=
++
++
+Polygone circonscrit.
+Pour le polygone circonscrit.
+Dans la figure ci-contre, 
+et 
+sont les demi-côtés de deux polygones circonscrits consécutifs.
+Archimède montre, en utilisant la propriété précédente, que
+=
++
+=
++
+et réitère 4 fois l'opération à partir de l'hexagone.
+Polygone inscrit.Pour le polygone inscrit.
+Dans la figure ci-contre, 
+et 
+sont les côtés de deux polygones inscrits consécutifs.
+Archimède montre, en utilisant les triangles semblables et la propriété de la bissectrice, que
+=
+=
++
+=
++
+On peut montrer ainsi que les périmètres 
+et 
+des polygones inscrit et circonscrit obtenus au bout de n étapes (soit, dans le cas d'Archimède qui commence avec un hexagone, des polygones à 6×2n côtés) vérifient les relations de récurrence suivantes :
++
+=
++
+,
++
+=
++
+Les identités trigonométriques permettent également d'obtenir rapidement ces relations (voir infra).
+La démonstration d'Archimède revient ainsi au calcul et à la justification à chaque étape de valeurs rationnelles par défaut et par excès du périmètre du cercle pour conclure, au bout de n = 4 étapes (96 côtés), à l'encadrement souhaité.
+Encadrement de Liu Hui.
+Si les calculs pratiques peuvent se faire avec une bonne précision en utilisant la valeur 3,14 comme approximation de π, la curiosité des mathématiciens les pousse à déterminer ce nombre avec plus de précision.
+Au IIIe siècle, en Chine, Liu Hui, commentateur des Neuf chapitres, propose comme rapport entre le périmètre et le diamètre la valeur pratique de 3 mais développe des calculs proches de ceux d'Archimède mais plus performants et fournit une approximation de π de 3,1416. Le mathématicien chinois Zu Chongzhi donne une approximation rationnelle encore plus précise de π : π ≈ 355/113 (dont les développements décimaux sont identiques jusqu'à la 6e décimale, π ≈ 3,141 592 6 et 355/113 ≈ 3,141 592 9) et montre que 3,141 592 6 < π < 3,141 592 7, en utilisant l'algorithme de Liu Hui  appliqué à un polygone à 12 288 côtés.
+Cette valeur demeure la meilleure approximation de π au cours des 900 années qui suivent.
+Formules et calculs jusqu’en 1900
+Jusqu’en 1400 environ, la précision des approximations de π n’excédait pas les 10 décimales.
+Les progrès en matière de calcul intégral et de séries vont permettre d’améliorer cette précision.
+Les séries permettent d’approcher π avec d’autant plus de précision qu’on utilise de termes de la série pour le calcul.
+Vers 1400, le mathématicien indien Madhava de Sangamagrama trouve ce qui constitue, en langage moderne, le développement de la fonction arc tangente (redécouvert par James Gregory et Gottfried Wilhelm Leibniz au XVIIe siècle[g]) :
+arctan
+⁡
+=
+−
++
+−
++
+⋯
+=
+∑
+=
+∞
+−
++
++
+∈
+[
+−
+,
+]
+Le cas particulier x = 1 est la série de Leibniz mentionnée plus haut — également connue sous le nom de série de Madhava-Leibniz, — dont la convergence est trop lente.
+Le cas particulier x = 1/√3 :
+=
+⋅
+−
+⋅
++
+⋅
+−
+⋅
++
+⋯
+=
+∑
+=
+∞
+−
++
+converge bien plus vite, ce qui a permis à Madhava de donner une valeur approchée de π de 3,141 592 653 59, qui a 11 décimales correctes.
+Mais ces travaux restèrent inconnus en dehors du Kerala jusqu'au XIXe siècle, à la suite de la conquête de l'Inde par les Britanniques.
+Le record de Madhava a été battu en 1424 par le mathématicien perse Al-Kachi (Traité de la circonférence), qui a réussi à donner 16 décimales, en appliquant la méthode d'Archimède à un polygone de 3×228 côtés.
+La première contribution importante venant d’Europe depuis Archimède a été faite par François Viète, qui en donne douze décimales, avec un encadrement du reste dans son Canon mathématique en 1579. Il est suivi par Adrien Romain, qui donne 15 décimales en 1591, et l’Allemand Ludolph van Ceulen (1540-1610), qui a utilisé la même méthode géométrique afin de donner une estimation de π correcte à 35 décimales près.
+Il a été si fier de son calcul, qui lui a demandé une grande partie de sa vie, qu’il a fait graver les décimales sur sa pierre tombale.
+Il est immédiatement suivi par Willebrord Snell, son élève, qui trouve des méthodes plus rapides pour obtenir la même approximation.
+Dans la même période, les méthodes de calcul intégral et de détermination de séries et produits infinis pour des quantités géométriques ont commencé à émerger en Europe.
+La première formule de ce type est la formule de Viète :
+=
+⋅
++
+⋅
++
++
+⋅
+⋯
+exposée par Viète en 1579 dans son Canon mathématique et à nouveau[réf. souhaitée] en 1593, dans ses Problèmes variés.
+Un autre résultat célèbre est le produit de Wallis :
+=
+∏
+=
+∞
+−
+=
+⋅
+⋅
+⋅
+⋅
+⋅
+⋯
+=
+⋅
+⋅
+⋯
+que l’on doit à John Wallis, qui l’a mis en évidence en 1655. Isaac Newton lui-même a utilisé le développement en série de π/6 = arcsin(1/2) pour calculer 15 décimales de π ; bien plus tard, il a déclaré : « J’ai honte de vous dire combien de décimales j’ai trouvées grâce à ces calculs, n’ayant aucune autre occupation à l’époque. »
+En 1706, John Machin a été le premier à trouver 100 décimales de π, en utilisant la formule :
+=
+arctan
+⁡
+−
+arctan
+⁡
+et le développement ci-dessus en série entière de arctan.
+Première approximation de π calculée par William Shanks en 1853, incluant les 80 décimales incorrectes.
+Les formules de ce type, maintenant connues sous le nom de formules de Machin, ont été utilisées pour battre plusieurs records de décimales connues de π, et demeurent aujourd’hui les formules les plus connues pour calculer π grâce à des ordinateurs.
+Un record remarquable est détenu par le calculateur prodige Johann Dase qui, en 1844, à l’aide d’une formule de Machin, a calculé 200 décimales de π, à la demande de Gauss.
+La meilleure valeur obtenue à la fin du XIXe siècle est due à William Shanks, qui a passé quinze ans à calculer 607 décimales puis 707 décimales de π, bien qu’à cause d’une erreur, seules les 527 premières étaient correctes.
+De nos jours, il est aisé d’éviter de telles erreurs, en faisant faire les calculs par l’ordinateur, et en utilisant deux formules différentes pour éliminer les risques d’erreur de calcul, de programmation, ou du microprocesseur.
+Les avancées théoriques du XVIIIe siècle ont amené les mathématiciens à s’interroger sur la nature de π, notamment sur l’absence de motifs périodiques dans ses décimales,
+une hypothèse raisonnable au vu des calculs numériques, mais pour laquelle il fallait une approche radicalement différente pour la prouver rigoureusement.
+Ce tour de force a été réalisé par Johann Heinrich Lambert en 1761, qui fut ainsi le premier à prouver l’irrationalité de π, par la suite Adrien-Marie Legendre a aussi prouvé que π2 aussi était irrationnel.
+Cette constante (π2) jouait un rôle notable en mathématique, puisqu’elle apparaissait dans la solution du problème de Bâle, qui consistait à trouver la valeur exacte de
+∑
+=
+∞
+=
++
++
++
++
+⋯
+qui est π2/6 (comme prouvé par Leonhard Euler qui a établi à cette occasion une connexion profonde entre π et les nombres premiers).
+Origine de la notation
+C’est au cours du XVIIIe siècle que s’établit l’usage de la lettre grecque « π », première lettre du mot grec περιφέρεια (périphérie, c’est-à-dire circonférence), pour le rapport de la circonférence du cercle sur son diamètre.
+À partir du XVIIe siècle, certains mathématiciens utilisent la notation π/δ où π désigne la circonférence et δ le diamètre[h]. Le premier à utiliser simplement π est William Jones dans son livre Synopsis palmariorum mathesios publié en 1706, à propos du calcul astucieux de ce nombre par la série de son ami Machin.
+Les mathématiciens continuent cependant d’utiliser d’autres notations.
+Parmi ceux-ci Euler se met à la notation de Jones[i] dans sa correspondance à partir de 1736. Il l’adopte dans son livre Introductio in analysin infinitorum publié en 1748, ce qui eut certainement une grande influence.
+La notation finit par s’imposer vers la fin du XVIIIe siècle[j].
+Ère informatique
+Alors que quelques dizaines de décimales de π sont largement suffisantes pour les calculs pratiques qu’effectue un physicien, la conquête des décimales du nombre π n’a pas cessé avec l’arrivée des ordinateurs, qui ont permis de calculer un très grand nombre de ces décimales.
+En 1949, à l’aide de l’ENIAC, John von Neumann a obtenu 2 037 décimales de π, à la suite d'un calcul qui a duré 70 heures,. Des milliers de décimales supplémentaires ont été trouvées au cours des décennies suivantes, l’étape du million de chiffres ayant été passée en 1973. Les progrès n’ont pas seulement été dus aux ordinateurs de plus en plus rapides, mais aussi aux nouveaux algorithmes utilisés. L’une des avancées les plus significatives a été la découverte de la transformée de Fourier rapide dans les années 1960, qui a permis aux ordinateurs de manipuler rapidement de très grands nombres.
+Au début du XXe siècle, le mathématicien indien Srinivasa Ramanujan a trouvé de nombreuses nouvelles formules faisant intervenir π ; certaines d’entre elles sont remarquables par leur élégance et leur profondeur mathématique. L’une de ces formules est la série suivante, donnant 8 nouvelles décimales à chaque nouveau terme :
+=
+∑
+=
+∞
+!
++
+!
+La formule ci-dessous, possédant un lien étroit avec celle énoncée ci-dessus, a été découverte par David et Gregory Chudnovsky en 1987 :
+=
+∑
+=
+∞
+!
++
+!
+!
+−
+Cette formule donne 14 nouvelles décimales de π à chaque terme.
+Vers la fin des années 1980, les frères Chudnovsky l’ont utilisée pour battre plusieurs records de décimales de π calculées.
+Elle demeure la formule la plus utilisée pour calculer π sur des ordinateurs personnels.
+Lemniscate de Bernoulli.
+Alors que les séries permettent d’obtenir des valeurs approchées de π avec un taux de précision supplémentaire à chaque terme qui est constant, il existe des algorithmes itératifs qui multiplient le nombre de décimales correctes à chaque étape, avec cependant l’inconvénient que chaque étape demande généralement un calcul « coûteux ». Une grande avancée a eu lieu en 1975 lorsque Richard Brent et Eugene Salamin  ont découvert indépendamment la formule de Brent-Salamin, qui double le nombre de décimales correctes à chaque étape.
+Il s’appuie sur un vieux résultat pressenti puis démontré par Gauss.
+En 1818, celui-ci démontre le lien existant entre la moyenne arithmético-géométrique M(1, √2) de 1 et √2 — la longueur de la lemniscate de Bernoulli — et π. La longueur de la lemniscate est L = 2ϖr où r représente la distance OA entre le centre et un sommet de la lemniscate et où ϖ est la constante de la lemniscate.
+Si on note G, la constante de Gauss, c’est-à-dire l’inverse de M(1, √2) alors : 
+=
+Salamin et Brent ont utilisé ce résultat pour construire l’algorithme qui porte leur nom, et grâce auquel la conquête des décimales de π va alors avancer conjointement avec celle des décimales de √2.
+L’algorithme consiste à poser :
+=
+=
+=
+=
+,
+puis à définir les relations de récurrence suivantes :
++
+=
++
++
+=
++
+=
+−
+−
++
++
+=
+et enfin à calculer ces valeurs jusqu’à ce que an et bn soient assez proches.
+On a alors une valeur approchée de π donnée par :
+≈
++
+En utilisant cet algorithme, seules 25 itérations sont nécessaires pour calculer 45 millions de décimales.
+Un algorithme similaire qui quadruple la précision à chaque étape a été trouvé par Jonathan et Peter Borwein. C'est grâce à ces méthodes que, de 1981 à 1999, Yasumasa Kanada et ses associés ont battu le record du nombre de décimales de π à onze reprises (plus de 2×1011 décimales en 1999).
+En 1997, la formule BBP, découverte par Simon Plouffe, a fait de nouveau progresser la connaissance de π. La formule,
+=
+∑
+=
+∞
++
+−
++
+−
++
+−
++
+,
+est remarquable car elle permet de calculer n’importe quel chiffre de l’écriture de π en base hexadécimale ou binaire, sans calculer les précédents.
+Entre 1998 et 2000, le projet de calcul distribué PiHex a utilisé une variante de la formule BBP due à Fabrice Bellard pour calculer le 1 000 000 000 000 000e chiffre en binaire de π, qui s’est révélé être 0.
+Si une formule de la forme :
+=
+∑
+=
+∞
+,
+était trouvée, avec b et c des entiers positifs et p et q des polynômes de degrés fixés à coefficients entiers (comme pour la formule BBP ci-dessus), ce serait l’un des moyens les plus efficaces pour calculer n’importe quel chiffre dans l’écriture de π en base bc  (et donc en base b) sans avoir à calculer les précédents, en un temps dépendant uniquement de l'indice du terme calculé et du degré des polynômes.
+En 2006, Simon Plouffe a trouvé plusieurs formules faisant intervenir π. En posant q = eπ (constante de Gelfond), on a :
+=
+∑
+=
+∞
+−
+−
+−
++
+−
+=
+∑
+=
+∞
+−
+−
+−
++
+−
+ainsi que :
+=
+∑
+=
+∞
+−
++
+−
++
+−
+où k est un nombre impair, et a, b, c sont des nombres rationnels.
+Depuis 2010, les records utilisant le programme y-cruncher se succèdent (voir la section « XXIe siècle » de l'article « Approximation de π »). Fin 2016, le record dépasse 2×1013 décimales.
+Le 14 mars 2019, jour du Pi Day, Google rend public le nouveau record de décimales calculé par une de ses employées, Emma Haruka Iwao, au moyen de puissantes machines.
+Le nouveau record du monde s'établit à 31 415 milliards de décimales.
+Il a fallu 121 jours pour l'obtenir de calculs ininterrompus à Emma Haruka Iwao pour entrer dans le livre Guinness des records.
+Le 9 juin 2022, ce record est à nouveau battu par  Emma Haruka Iwao, calculant cette fois cent mille milliards de décimales.
+Utilisation en mathématiques et en sciences
+Géométrie
+π apparaît dans de nombreuses formules de géométrie impliquant les cercles et les sphères :
+Forme géométrique
+Formule
+Circonférence d’un cercle de rayon r et de diamètre d
+=
+=
+Aire d’un disque de rayon r
+=
+=
+Aire d’une ellipse de demi-axes a et b
+=
+Volume d’une boule de rayon r
+=
+=
+Aire d’une sphère de rayon r
+=
+=
+Volume d’un cylindre de hauteur h et de rayon r
+=
+Aire latérale d'un cylindre de hauteur h et rayon r
+=
+Volume d’un cône de hauteur h et de rayon r
+=
+Aire latérale d’un cône de hauteur h et de rayon r
+=
++
+π se retrouve aussi dans le calcul des surfaces et volumes des hypersphères (à plus de trois dimensions).
+Nombres complexes
+La formule d’Euler illustrée dans le plan complexe.
+Une augmentation de l’angle φ de π radians (180°) donne l’identité d’Euler.
+Un nombre complexe z peut s’exprimer en coordonnées polaires de la façon suivante :
+=
+cos
+⁡
++
+sin
+⁡
+L’apparition fréquente de π en analyse complexe a pour origine le comportement de la fonction exponentielle complexe, décrite par la formule d’Euler :
+=
+cos
+⁡
++
+sin
+⁡
+où i est l’unité imaginaire satisfaisant la relation i2 = −1 et e ≈ 2,71828 est la constante de Néper.
+Cette formule implique que les puissances imaginaires de e décrivent des rotations sur le cercle unité du plan complexe ; ces rotations ont une période de 360° = 2π rad.
+En particulier, une rotation de 180° = π rad donne l’identité d'Euler
+=
+−
+et donc 
++
+=
+Suites et séries
+De nombreuses suites ou séries convergent vers π ou un multiple rationnel de π et sont même à l’origine de calculs de valeurs approchées de ce nombre.
+Méthode d’Archimède
+=
+lim
+∞
+sin
+⁡
+=
+lim
+∞
+tan
+⁡
+Les deux suites définies par sn = n sin(π/n) et tn = n tan(π/n) représentent, pour n ≥ 3, les demi-périmètres des polygones réguliers à n côtés, inscrit dans le cercle trigonométrique pour sn, exinscrit pour tn.
+On les exploite par des suites extraites dont l’indice (le nombre de côtés du polygone) double à chaque itération, pour obtenir π par passage à la limite d’expressions utilisant les opérations arithmétiques élémentaires et la racine carrée.
+Ainsi, on peut déduire de la méthode d'Archimède (voir supra) une définition par récurrence des suites extraites de termes s2k+1 et t2k+1 (à partir de s4 = 2√2 et t4 = 4) ou encore s3×2k et t3×2k (à partir de s3 = 3√3/2 et t3 = 3√3) :
+=
++
+,
+=
+Il résulte de cette définition que les deux suites extraites correspondantes de la suite cn := sn/tn = cos(π/n) vérifient :
+=
+−
+et 
+=
++
+(Alternativement, on peut démontrer, pour tout n ≥ 2, les deux premières relations à l'aide des identités trigonométriques 
+tan
+⁡
+=
+sin
+⁡
++
+cos
+⁡
+(cf. « Formules de l'arc moitié ») et 
+sin
+⁡
+=
+sin
+⁡
+cos
+⁡
+(cf. « Formules de l'angle double ») et les deux dernières, directement, en utilisant les identités trigonométriques 2sin(x/2) = √2 – 2cos(x) et 2cos(x/2) = √2 + 2cos(x) pour x ∈ [0, π].)
+On peut donc exprimer s2k+1 et s3×2k (pour k ≥ 1), puis
+π (par passage à la limite) sous forme de formules où s'emboîtent des racines carrées :
+=
+lim
+∞
+⋅
+−
++
++
++
+⋯
++
+(k est le nombre de racines carrées)
+ou encore :
+=
+lim
+∞
+⋅
+−
+⋅
+−
++
++
+⋯
++
++
+Une autre expression de s2k+1, qui peut se déduire simplement de la première de ces deux égalités (multiplier par √2+√…), conduit au produit infini suivant (formule de François Viète, 1593) :
+=
+⋅
++
+⋅
++
++
+⋅
+⋯
+Sommes et produits infinis
+−
++
+−
++
+⋯
++
+−
++
++
+⋯
+=
+∑
+=
+∞
+−
++
+=
+(formule de Madhava, Gregory et Leibniz)
+⋅
+⋅
+⋅
+⋅
+⋅
+⋅
+⋅
+⋅
+⋯
+⋅
++
++
+⋅
++
++
+⋅
+⋯
+=
+(produit de Wallis)
+=
+∑
+=
+∞
+!
++
+!
+(formule due à Ramanujan)
+=
+∑
+=
+∞
+−
+!
++
+!
+!
++
+/
+(formule due à David et Gregory Chudnovsky)
+∑
+=
+∞
+−
+!
+!
+!
+!
+(!! = double factorielle, formule due à Forsyth et Ramanujan)
+Suites récursives
+Suite inspirée de la formule de Brent-Salamin (1975) :
+Soient trois suites (An), (Bn) et (Cn) définies simultanément par :
+=
++
+=
++
+=
++
+=
+=
++
+=
+−
+−
+;
+on a :
+=
+lim
+∞
++
+Le nombre de décimales correctes (en base 10) double presque à chaque itération.
+Fonction zêta de Riemann
+Articles détaillés : Problème de Bâle et Fonction zêta de Riemann.
+=
++
++
++
++
+⋯
++
++
+⋯
+=
+(Euler)
+=
++
++
++
++
+⋯
++
++
+⋯
+=
+,
+Plus généralement, Euler démontra que ζ(2n) est un multiple rationnel de π2n pour tout entier positif n.
+Suite logistique
+Soit (xn) la suite des itérés de la fonction logistique de paramètre μ = 4 appliquée à un réel x0 choisi dans l’intervalle [0, 1] (c’est-à-dire qu’on définit, pour tout n ≥ 0, 
++
+=
+−
+. La suite (xn) quitte l’intervalle [0, 1] et diverge pour quasiment toutes les valeurs initiales.
+On a 
+lim
+∞
+∑
+=
+=
+pour presque toutes les valeurs initiales x0.
+Intégrale
+Le nombre π apparait également comme étant le double de la limite du sinus intégral à l’infini :
+∫
+∞
+sin
+⁡
+=
+Probabilités et statistiques
+En probabilités et en statistiques, il existe de nombreuses lois qui utilisent la constante π, dont :
+la loi normale d’espérance μ et d’écart type σ, dont la densité de probabilité s’écrit : 
+=
+−
+−
+/
+la loi de Cauchy, dont la densité de probabilité est : 
+=
++
+Les deux formules suivantes, tirées de l’analyse, trouvent des applications pratiques en probabilités. L’une permet de montrer la convergence de la loi binomiale vers la loi de Gauss et l’autre permet de calculer la densité d’une loi de Gauss.
+!
+=
++
+∼
+(formule de Stirling)
+∫
+−
+∞
+∞
+−
+=
+D’autre part, il existe diverses expériences probabilistes où π intervient dans la probabilité théorique.
+Elles peuvent donc servir, en effectuant un grand nombre d’épreuves, à déterminer une approximation de π.
+L’aiguille de Buffon est une expérience de probabilité proposée par Georges-Louis Leclerc, comte de Buffon et consistant à calculer la probabilité qu’une aiguille de longueur a, lancée sur un parquet fait de lattes de largeur L, soit à cheval sur deux lattes.
+Cette probabilité p est : 
+=
+×
+,
+même si l'aiguille est courbe,.
+Cette formule peut être utilisée pour déterminer une valeur approchée de π :
+≈
+où n est le nombre d’aiguilles lancées, et x celui d’aiguilles qui sont sur deux lattes à la fois.
+Cette méthode présente rapidement ses limites ; bien que le résultat soit mathématiquement correct, il ne peut pas être utilisé pour déterminer plus que quelques décimales de π expérimentalement.
+Pour obtenir seulement une valeur approchée de 3,14, il est nécessaire d’effectuer des millions de lancers, et le nombre de lancers nécessaires croît exponentiellement avec le nombre de décimales voulu.
+De plus, une très faible erreur dans la mesure des longueurs L et a va se répercuter de façon importante sur la valeur trouvée de π. Par exemple, une différence de mesure d’un seul atome sur une aiguille de longueur de 10 centimètres va se retrouver dès la neuvième décimale de π. En pratique, les cas où l’aiguille semble toucher exactement la limite entre deux lattes va accroître l’imprécision de l’expérience, de sorte que les erreurs apparaîtront bien avant la neuvième décimale.
+Évaluation de π par la méthode de Monte Carlo.
+La méthode de Monte Carlo est une autre expérience probabiliste qui consiste à prendre au hasard un point dans un carré de côté 1, la probabilité que ce point soit dans le quart de disque de rayon 1 est π/4 ; cela peut se comprendre facilement étant donné que l'aire du quart du disque est π/4 alors que celle du carré est 1.
+Propriétés diverses
+Approximations numériques
+Comme π est transcendant, il n’existe pas d’expression de ce nombre qui fasse uniquement appel à des nombres et des fonctions algébriques.
+Les formules de calcul de π utilisant l’arithmétique élémentaire impliquent généralement les sommes infinies.
+Ces formules permettent d’approcher π avec une erreur aussi petite que l’on veut, sachant que plus on rajoute de termes dans le calcul, plus le résultat sera proche de π.
+Par conséquent, les calculs numériques doivent utiliser des approximations de π.
+La première approximation numérique de π fut certainement 3. Dans les cas où une situation ne demande que peu de précision, cette valeur peut servir d’approximation convenable.
+Si 3 est une estimation par défaut, c’est parce qu’il est le rapport entre le périmètre d’un hexagone régulier inscrit dans un cercle et le diamètre de ce cercle.
+Dans de nombreux cas, les approximations 3,14 ou 22/7 suffisent, bien que les ingénieurs aient longtemps utilisé 3,1416 (5 chiffres significatifs) ou 3,14159 (6 chiffres significatifs) pour plus de précision.
+Les approximations 22/7 et 355/113, avec respectivement 3 et 7 chiffres significatifs, sont obtenues à partir de l’écriture en fraction continue de π. Cependant c’est le mathématicien chinois Zu Chongzhi (祖沖之 en sinogrammes traditionnels, 祖冲之 en sinogrammes simplifiés, Zǔ Chōngzhī en piyin) (429-500) qui a découvert la fraction 355/113 en utilisant la méthode d’Archimède pour calculer le périmètre du polygone régulier à 12 288 côtés inscrit dans un cercle.
+Aujourd'hui, les approximations numériques le plus souvent utilisées par les ingénieurs sont celles de constantes informatiques prédéfinies.
+L’approximation de π en 355/113 est la meilleure qui puisse être exprimée avec uniquement 3 chiffres au numérateur et au dénominateur. L’approximation 103 993 / 33 102 (qui fournit 10 chiffres significatifs) en exige un nombre beaucoup plus important : cela vient de l’apparition du nombre élevé 292 dans le développement en fraction continue de π.
+Constantes approchées prédéfinies en informatique
+Dans les calculs numériques usuels sur ordinateur, on utilise plutôt une constante correctement arrondie mais prédéfinie avec une précision d’au moins 16 chiffres significatifs (c’est la meilleure précision représentable par un nombre en virgule flottante au format standard IEEE 754 sur 64 bits, un type généralement désigné « double précision ») et choisie afin que le calcul de son sinus retourne 0 exactement par une fonction définie dans cette même précision.
+Ainsi le fichier d’entête standard <math.h> utilisé en langage C ou C++ définit la constante M_PI en double précision (le type flottant utilisé par défaut dans de nombreuses fonctions des bibliothèques mathématiques standards) à la valeur de 3,141592653589793 (parfois avec des chiffres supplémentaires si la plateforme supporte une précision plus étendue pour le type long double). La même valeur est utilisée en langage Java, qui s’appuie sur la même norme IEEE 754, avec la constante standard java.lang.Math.PI). On retrouve cette constante définie ainsi dans de nombreux langages de programmation, avec la meilleure précision possible dans les formats de nombres en virgule flottante supportés, puisque le type « double précision » de la norme IEEE 754 s'est imposé comme une référence de précision minimale nécessaire dans de nombreux langages pour d’innombrables applications.
+Sur des microprocesseurs de la famille x86, les unités de calcul matérielles (FPU) sont capables de représenter des nombres flottants sur 80 bits (utilisables avec cette précision en langage C ou C++ avec le type long double mais sans garantie de support matériel), ce qui porte la précision de π à 19 chiffres significatifs.
+La dernière révision publiée en 2008 de la norme IEEE 754 comporte aussi la définition de nombres en virgule flottante en « quadruple précision » (ou quad) codés sur 128 bits, ce qui permettrait de définir une approximation de la constante π avec une précision de 34 chiffres significatifs (toutefois cette précision n’est pas encore prise en charge nativement par de nombreux langages de programmation car peu de processeurs permettent cette précision directement au niveau matériel sans un support logiciel supplémentaire).
+Pour les plateformes ou langages ne supportant nativement que les nombres en « simple précision », codés dans la norme IEEE 754 sur 32 bits utiles, pourront être pris en charge 7 chiffres significatifs (le minimum de précision supporté en langage C par le type float), c’est-à-dire la constante correctement arrondie à 3,141593 et équivalente en précision à celle donnée par la fraction 355/113 (cette fraction permet aussi des calculs rapides dans des logiciels pour des systèmes légers ne comportant pas d’unité matérielle de calcul en virgule flottante).
+Fractions continues
+La suite des dénominateurs partiels du développement en fraction continue de π ne fait apparaître aucun schéma évident :
+=
++
++
++
++
++
++
++
++
++
++
++
++
++
+⋯
+Cependant :
+=
++
++
++
++
++
++
+…
+.En tronquant ce développement juste avant le quotient partiel brusquement plus grand que les précédents (16 539), on obtient la célèbre approximation de Ramanujan 
+≈
+, qui donne π à 10–8 près.
+il existe des fractions continues généralisées représentant π dont la structure est régulière :
+=
++
++
++
++
++
++
+⋯
+=
++
++
++
++
++
++
+⋯
+[k]
+=
++
++
++
++
++
++
+⋯
+[l]
+=
++
++
+/
++
+/
++
+⋯
++
+/
++
+⋯
+[m],.
+Questions ouvertes
+De nombreuses questions se posent encore : π et e sont deux nombres transcendants mais sont-ils algébriquement indépendants ou bien existe-t-il une équation polynomiale à deux variables et à coefficients entiers dont le couple (π, e) soit une solution ? La question est encore en suspens.
+En 1929, Alexandre Gelfond prouve que eπ est transcendant et en 1996, Yuri Nesterenko  prouve que π et eπ sont algébriquement indépendants.
+Comme dit précédemment, on ignore encore si π est un nombre normal, ou même un nombre univers en base 10.
+Culture populaire
+Sans doute en raison de la simplicité de sa définition, le nombre pi et particulièrement son écriture décimale sont ancrés dans la culture populaire à un degré plus élevé que tout autre objet mathématique. D’ailleurs, la découverte d’un plus grand nombre de décimales de π fait souvent l’objet d’articles dans la presse généraliste, signe que π est un objet familier même à ceux qui ne pratiquent pas les mathématiques.
+Un lac du Canada, situé au Québec dans le territoire non organisé de Rivière-aux-Outardes, porte le nom de Lac 3.1416.
+Une tradition anglo-saxonne veut que l’on fête l’anniversaire de π dans certains départements mathématiques des universités le 14 mars.
+Le 14 mars qui est noté « 3/14 » en notation américaine, est donc appelé la journée de pi.
+π dans l’art
+Nombreux sont les sites ou ouvrages qui signalent la présence du nombre π dans les pyramides et, plus précisément, que π est le rapport entre le périmètre de la base et le double de la hauteur des pyramides.
+Il est vrai que la pyramide de Khéops possède une pente de 14/11 et que par conséquent, le rapport entre la base et la hauteur est de 22/14. Le rapport 22/7 étant une bonne approximation de π, le rapport entre le périmètre et le double de la hauteur de la pyramide de Khéops est bien voisin de π. Faut-il pour autant y chercher une intention ? Rien n’est moins sûr puisque la pente des pyramides n’est pas constante et que, selon les régions et les époques, on trouve des pentes de 6/5 (pyramide rouge), 4/3 (pyramide de Khephren) ou 7/5 (pyramide rhomboïdale) qui conduisent à un rapport entre périmètre et double de la hauteur éloigné de π.
+Il est en tout cas certain que π est présent dans la culture artistique moderne.
+Par exemple, dans Contact, un roman de Carl Sagan, 
+joue un rôle clé dans le scénario et il est suggéré qu’il y ait un message enfoui profondément dans les décimales de π, placé par celui qui a créé l’univers.
+Cette partie de l’histoire a été écartée de l’adaptation cinématographique du roman.
+Sur le plan cinématographique, π a servi de titre au premier long-métrage de Darren Aronofsky, à qui l’on doit notamment Requiem for a Dream.
+Pi est un thriller mathématique sur la découverte de la séquence parfaite, révélant ainsi la formule exacte des marchés boursiers de Wall Street ou encore le véritable nom de Dieu.
+Dans le registre musical, l’auteur-compositrice-interprète Kate Bush a sorti en 2005 son album Aerial, qui contenait le morceau « π », dont les paroles sont principalement composées des décimales de π.
+Mémorisation de π
+Les récentes décennies ont vu une forte augmentation du record du nombre de décimales de π mémorisées.
+Au-delà de la mémorisation de π, usuellement ses 3 à 6 premiers chiffres ou par la remarquable valeur approchée de la fraction 355/113 (7 chiffres significatifs), la mémorisation d’un nombre record de décimales de π a longtemps été et demeure une obsession pour de nombreuses personnes.
+Le 14 mars 2004, à Oxford, le jeune autiste Asperger Daniel Tammet récite (en 5 heures, 9 minutes et 24 secondes) 22 514 décimales.
+Le record de mémorisation de π reconnu en 2005 par le Livre Guinness des records était de 67 890 chiffres (Lu Chao, un jeune diplômé chinois, en 24 heures et 4 minutes). En octobre 2006, Akira Haraguchi, un ingénieur japonais retraité, récite 100 000 décimales de π en 16 heures et demie, mais cet exploit n'est pas validé par le Guinness des records.  Le record officiel passe en mars 2015 à 70 000 décimales en 9 h 27 min (Rajveer Meena, un étudiant indien), puis en octobre à 70 030 en 17 h 14 min (Suresh Kumar Sharma, un autre Indien).
+Le 17 juin 2009, Andriy Slyusarchuk , un neurochirurgien et professeur ukrainien, affirma avoir mémorisé 30 millions de décimales de π, qui ont été imprimées en 20 volumes.
+Bien qu’il n’ait pas récité les 30 millions de chiffres qu’il a dit avoir retenus (ce qui, au demeurant, lui aurait pris plus d'un an), certains médias prétendent qu’il était en mesure de réciter dix décimales sélectionnées aléatoirement parmi les volumes imprimés[réf. souhaitée]. La comparaison avec les valeurs officiellement retenues par le Guinness des records amène cependant les experts à mettre sérieusement en doute cette affirmation[réf. souhaitée].
+Il y a plusieurs façons de retenir les décimales de π, dont des poèmes dont le nombre de lettres de chaque mot correspond à une décimale, les mots de dix lettres représentant un 0. En voici un exemple :
+Que j’aime à faire apprendre un nombre utile aux sages !
+Immortel Archimède, artiste, ingénieur,
+Qui de ton jugement peut priser la valeur ?
+Pour moi ton problème eut de pareils avantages.
+Jadis, mystérieux, un problème bloquait
+Tout l’admirable procédé, l’oeuvre[n] grandiose
+Que Pythagore découvrit aux anciens Grecs.
+Ô quadrature ! Vieux tourment du philosophe
+Insoluble rondeur, trop longtemps vous avez
+Défié Pythagore et ses imitateurs.
+Comment intégrer l’espace plan circulaire ?
+Former un triangle auquel il équivaudra ?
+Nouvelle invention : Archimède inscrira
+Dedans un hexagone ; appréciera son aire
+Fonction du rayon.
+Pas trop ne s’y tiendra :
+Dédoublera chaque élément antérieur ;
+Toujours de l’orbe calculée[o] approchera ;
+Définira limite ; enfin, l’arc, le limiteur[p]
+De cet inquiétant cercle, ennemi trop rebelle
+Professeur, enseignez son problème avec zèle.
+Cette méthode présente ses limites pour la mémorisation d’un très grand nombre de décimales, où il semble plus opportun d’utiliser des méthodes comme la méthode des loci,.
+The Tau Manifesto
+En 2001, le mathématicien Robert Palais écrit l'article π is wrong!, dans lequel il estime que la constante est mal définie et devrait être posée comme le rapport entre le périmètre d'un cercle et son rayon, amenant sa valeur numérique à 6,2831853071795..., dans un souci de simplification des formules usuelles qui feraient intervenir plus souvent 2π que π. Michael Hartl a repris ses arguments dans le Tau Manifesto, dans lequel il propose de privilégier l'usage d'une nouvelle constante, τ=2π. Depuis, des défenseurs de τ ont créé le Tau day au 28 juin (6/28) en concurrence avec le Pi day du 14 mars (3/14).
+Notes et références
+Cet article est partiellement ou en totalité issu de l’article de Wikipédia en anglais intitulé « Pi » (voir la liste des auteurs).
+Notes
+Pi est appelé parfois la constante d’Archimède en raison de la contribution d'Archimède au calcul de l'aire d'un disque ou d'une sphère, et parce qu'il a été le premier à donner une méthode d'encadrement de la valeur numérique de Pi.
+Valeur décimale exprimée sur 16 chiffres significatifs, soit la précision maximale (pour pi) d’un nombre flottant en double précision au format binaire sur 64 bits standard de l'IEEE, qui permet de stocker entre 15 et 17 chiffres décimaux significatifs (selon principalement la valeur du premier chiffre décimal et éventuellement les suivants) ; ce format binaire est utilisé dans de nombreux langages de programmation, par exemple dans le type double des langages C, C++, Java, etc. ; il est aujourd’hui pris en charge nativement par la plupart des microprocesseurs modernes et des bibliothèques mathématiques.
+La preuve de ce résultat en 1882 est due à Ferdinand von Lindemann.
+Pour plus de détails voir Fraction continue et approximation diophantienne#Nombres à tangente rationnelle, dont π.
+Ce résultat a été raffiné depuis et est devenu le théorème de la pizza.
+Pour plus d’information sur des méthodes analogues, voir « Formule d'Euler-Maclaurin ».
+Attribuée souvent à Leibniz mais découverte probablement antérieurement par Gregory, voir  John J. O'Connor et Edmund F. Robertson, « A history of Pi », dans MacTutor History of Mathematics archive, université de St Andrews (lire en ligne), cette formule avait d'abord été trouvée par Madhava, mais cette découverte resta inconnue du monde occidental.
+La notation n'est pas utilisée exclusivement, et de plus à des variantes près pour noter le rapport, voir Cajori, ouvrage cité.
+Rien n’indique si c’est sous l’influence de celui-ci ou de son propre chef, cf.
+Cajori.
+On la trouve par exemple dans Les Éléments de géométrie de Legendre, un ouvrage plutôt destiné à un public scolaire, paru en 1794 ; cf.
+Cajori.
+Fraction découverte par  L. J. Lange, « An Elegant Continued Fraction for π », Amer.
+Math.
+Month., vol. 106, no 5,‎ mai 1999, p. 456-458 (JSTOR 2589152). Se déduit en fait d'une série de Nilakantha, par la formule de fraction continue d'Euler.
+Par évaluation en 1 d'un développement de arctan.
+Par transformation du produit de Wallis : Eymard et Lafon 2004, p. 71.
+Écrit sans la ligature (œuvre) pour correspondre à la décimale 6.
+Le mot orbe est masculin, l'orthographe « calculée » est une licence poétique.
+Ce vers compte 13 syllabes.
+Références
+a et b 128 000 premières décimales de π.
+a et b  Site permettant une recherche de chiffres dans les 200 000 000 premières décimales.
+Howard Whitley Eves , An Introduction to the History of Mathematics, Holt, Rinehart & Winston, 1969.
+Par exemple le Petit Robert ou le TLFi ; voir « Pi (sens B) », Centre national de ressources textuelles et lexicales.
+Bettina Richmond, « Area of a Circle », Western Kentucky University, 1999.
+Jacqueline Lelong-Ferrand et Jean-Marie Arnaudiès, Cours de mathématiques Analyse, t. 2, Dunod, 1977, 4e éd., 638 p. (ISBN 978-2-04-007135-6), p. 337.
+Walter Rudin, Principles of Mathematical Analysis, McGraw-Hill, 1976, 342 p. (ISBN 978-0-07-085613-4), p. 183.
+J.-P. Escofier, Toute l'Analyse de la Licence : Cours et exercices corrigés, Dunod, 2014 (lire en ligne), p. 562-563.
+Patrice Tauvel, Analyse complexe pour la Licence 3 : Cours et exercices corrigés, Dunod, 2006 (lire en ligne), p. 43-44.
+N. Bourbaki, Éléments de mathématique, livre III : Topologie générale [détail des éditions], p. VIII.7-VII.8.
+N. Bourbaki, Fonctions d'une variable réelle, chap. III, § 1, no 1 et no 5.
+Michael Spivak, Calculus, 1967 (lire en ligne), p. 258.
+Reinhold Remmert, « Le nombre π », dans Les nombres.
+Leur histoire, leur place et leur rôle de l’Antiquité aux recherches actuelles, Vuibert  (ISBN 2-7117-8901-2), p. 124.
+Daniel Leborgne, Calcul différentiel complexe, Presses universitaires de France, pp. 9-10 « Le nombre pi, une propriété universelle ».
+Mustafa Mawaldi, « Glimpses in the history of a great number: Pi in Arabic mathematics », sur muslimheritage.com.
+J.-H. Lambert, « Mémoire sur quelques propriétés remarquables des quantités transcendentes [sic] circulaires et logarithmiques », Histoire de l'Académie royale des sciences et belles-lettres, Berlin, vol. 17,‎ 1761, p. 265-322 (lire en ligne), « en ligne et commenté », sur Bibnum.
+Ivan Niven, « A simple proof that π is irrational », Bull.
+Amer.
+Math.
+Soc., vol. 53, no 6,‎ 1947, p. 509 (lire en ligne).
+Helmut Richter, « Pi is irrational », 1998, modifié en 2012.
+Charles Hermite, « Extrait d'une lettre de Monsieur Ch.
+Hermite à Monsieur Paul Gordan », J. reine angew.
+Math., vol. 76,‎ 1873, p. 303-311 (lire en ligne).
+Charles Hermite, « Extrait d'une lettre de Mr.
+Ch.
+Hermite à Mr.
+Borchardt », J. reine angew.
+Math., vol. 76,‎ 1873, p. 342-344 (lire en ligne).
+Harold Jeffreys, Scientific Inference, Cambridge University Press, 2011, 3e éd. (ISBN 978-0-521-18078-8, lire en ligne), p. 268.
+a et b  Steve Mayer, « The Transcendence of π »,‎ novembre 2006.
+Alexander Bogomolny, « Squaring the Circle », sur Cut The Knot.
+Rick Mabry et Paul Deiermann, « Of Cheese and Crust: A Proof of the Pizza Conjecture and Other Tasty Results », American Mathematical Monthly, vol. 116,‎ 2009, p. 423–438 (lire en ligne)
+Jérôme Cottanceau, Le choix du meilleur urinoir : Et 19 autres problèmes amusants qui prouvent que les maths servent à quelque chose !, Paris, Belin, coll. « Science à plumes », 2016, 216 p. (ISBN 978-2-7011-9766-1), chap. 5 (« À quoi servent les maths... À assurer le partage d'une pizza romantique ? »), p. 60
+Suite  A000796 de l'OEIS : page donnant 20 000 décimales de Pi et liens vers d'autres sites.
+J. Borwein et S. Chapman, « I prefer Pi : a brief history and anthology of articles in the American Mathematical Monthly », Amer.
+Math.
+Month., vol. 122, no 3,‎ 2015, p. 195-216 (lire en ligne).
+« Paragraphe Circumference of the circle, dans Elements of Geometry, édition de 1881, volume 27, page 198. », sur archive.com, 23 juillet 2022 : « Ten decimals are sufficient to give the circumference of the earth to the fraction of an inch, and thirty decimals would give the circumference of the whole visible universe to a quantity imperceptible with the most powerful microscope. »
+Robert M. Young, Excursions in Calculus : an interplay of the continuous and the discrete, Washington, MAA, 1992, 417 p. (ISBN 978-0-88385-317-7 et 0-88385-317-5, lire en ligne), p. 238.
+S. C. Bloch, « Statistical estimation of π using random vectors », Am. J. Phys., vol. 67, no 298,‎ 1999 (DOI 10.1119/1.19252).
+Donald Byrd, « Progress in Computing Pi, 250 BCE to  the Present », sur indiana.edu, septembre 2014, p. 9
+Eric W. Weisstein, « Pi Digits », sur MathWorld.
+Chad Boutin, « Pi seems a good random number generator - but not always the best », Purdue University, 2005.
+Conférence de Jean-Paul Delahaye,  Le nombre pi est-il simple ou compliqué ?, 3 octobre 2006, Cité des sciences.
+Rick Groleau, « Infinite Secrets: Approximating Pi », Nova (PBS), 2003.
+a et b  Petr Beckmann, A History of Pi , Golem Press, 1971, 208 p. (ISBN 978-1-4668-8716-9, lire en ligne).
+Pierre Eymard et Jean-Pierre Lafon, The Number π, AMS,‎ février 2004, 322 p. (ISBN 0-8218-3246-8, lire en ligne), p. 53.
+Xavier Gourdon et Pascal Sebah, « Archimedes' constant π », sur Numbers, constants and computation.
+Tablettes de Suse — voir par exemple « Pi et racine de 2 chez les babyloniens », sur le blog cer1se.free.fr/principia.
+Otto Neugebauer, The Exact Sciences in Antiquity, p. 47.
+Victor J. Katz, A History of Mathematics : An Introduction, Addison-Wesley, 1998, 2e éd., 879 p. (ISBN 978-0-321-01618-8), p. 20.
+Subhash C. Kak, « Three old Indian values of π », Indian J. Hist.
+Sci., vol. 32,‎ 1997, p. 307-314 (lire en ligne).
+Ian Pearce, « Mathematics in the service of religion: I. Vedas and Vedangas », dans MacTutor History of Mathematics archive, université de St Andrews, mai 2002 (lire en ligne).
+a et b Voir une traduction du texte original.
+Calcul infinitésimal - l'œuvre d'Archimède, Encyclopædia Universalis.
+a b et c  John J. O'Connor et Edmund F. Robertson, « A history of Pi », dans MacTutor History of Mathematics archive, université de St Andrews (lire en ligne).
+C. Boyer, A History of Mathematics, Wiley, 1968, p. 158.
+Lennard Berggren, Jonathan Borwein, Peter Borwein, Pi : A Source Book, Springer, 2004 (ISBN 0-387-98946-3), p. 678
+Karine Chemla et Guo Shuchun, Les neuf chapitres : Le classique mathématique de la Chine ancienne et ses commentaires [détail de l’édition], p. 144-147.
+Dans son texte Zhui Shu, d'après  John J. O'Connor et Edmund F. Robertson, « Zu Chongzhi », dans MacTutor History of Mathematics archive, université de St Andrews (lire en ligne).
+Boyer 1968, p. 224.
+George E. Andrews, Richard Askey et Ranjan Roy, Special Functions, Cambridge University Press, 1999, 664 p. (ISBN 978-0-521-78988-2, lire en ligne), p. 58.
+R. C. Gupta, « On the remainder term in the Madhava-Leibniz’s series », Ganita Bharati, vol. 14, nos 1-4,‎ 1992, p. 68-71.
+Charles Hutton, Mathematical Tables; Containing the Common, Hyperbolic, and Logistic Logarithms…, Londres, Rivington, 1811 (lire en ligne), p. 13.
+John J. O'Connor et Edmund F. Robertson, « A chronology of Pi », dans MacTutor History of Mathematics archive, université de St Andrews (lire en ligne).
+Citation originale : « I am ashamed to tell you to how many figures I carried these computations, having no other business at the time. »  Jonathan M. Borwein et Peter B. Borwein, Pi and the AGM: A Study in Analytic Number Theory and Computational Complexity, Wiley, 1987, p. 339.
+a et b  Florian Cajori, A History of Mathematical Notations [détail des éditions], vol. 2, p. 8-13, nos 395-398, lire en ligne sur Google Livres.
+George W. Reitwiesner, « An ENIAC determination of π and e to more than 2000 decimal places », Math.
+Comput., vol. 4, no 29,‎ 1950, p. 11-15 (lire en ligne).
+N. C. Metropolis, G. Reitwiesner et J. von Neumann, « Statistical treatment of values of first 2,000 decimal digits of 
+and of 
+calculated on the ENIAC », Math.
+Comput., vol. 4, no 30,‎ 1950, p. 109-111 (lire en ligne).
+a et b  Xavier Gourdon et Pascal Sebah, « The constant π: Ramanujan type formulas », sur Numbers, constants and computation.
+J. L. Berggren, Jonathan M. Borwein et Peter Borwein, Pi : A Source Book, Springer, 2004, 3e éd., 797 p. (ISBN 978-0-387-20571-7, lire en ligne), p. 637.
+Richard Brent, « Multiple-precision zero-finding methods and the complexity of elementary function evaluation », dans J. F. Traub , Analytic Computational Complexity, Academic Press, 1975 (lire en ligne), p. 151-176.
+a et b La Recherche, no 392, décembre 2005, « L’indispensable nombre π », [réf. incomplète].
+a et b Voir par ex.
+Berggren, Borwein et Borwein 2004.
+David H. Bailey, « Some Background on Kanada's Recent Pi Calculation », 2003.
+a et b  D. Bailey, P. Borwein et S. Plouffe, « On the rapid computation of various polylogarithmic constants », Math.
+Comput., vol. 66, no 218,‎ 1997, p. 93-313 (lire en ligne).
+Fabrice Bellard, « A new formula to compute the n'th binary digit of pi », 20 janvier 1997.
+Simon Plouffe, « Identities inspired by Ramanujan’s Notebooks (part 2) », avril 2006 puis février 2011
+« A recipe for beating the record of most-calculated digits of pi », sur Google, 14 mars 2019 (consulté le 29 mai 2022)
+« Google explose le record de calcul de décimales de pi », 14 mars 2019.
+Calcul de cent trillions de décimales de pi sur Google Cloud 
+Xavier Gourdon et Pascal Sebah, « Collection of series for Pi ».
+Eric W. Weisstein, « Gaussian Integral », sur MathWorld.
+Eric W. Weisstein, « Cauchy Distribution », sur MathWorld.
+a et b  Eric W. Weisstein, « Buffon’s Needle Problem », sur MathWorld.
+Alexander Bogomolny, « Math Surprises: An Example », sur Cut The Knot, 2001.
+J. F. Ramaley, « Buffon’s Noodle  Problem », Amer.
+Math.
+Month., vol. 76, no 8,‎ 1969, p. 916-918 (JSTOR 2317945).
+Look & Feel Great, « The Monte Carlo algorithm/method », sur datastructures.info, 9 janvier 2007.
+Eric W. Weisstein, « Pi Formulas », sur MathWorld.
+Xavier Gourdon et Pascal Sebah, « Collection of approximations for π », sur Numbers, constants and computation,‎ 2002.
+La constante standard java.lang.Math.PI prédéfinie en double précision en langage Java.
+Suite  A001203 de l'OEIS.
+David Wells, The Penguin Dictionary of Curious and Interesting Numbers  (lire en ligne), p. 67.
+Formule de Brouncker.
+Ces représentations et d'autres sont disponibles sur le site functions.wolfram.com.
+Par ex.  MSNBC, Man recites pi from memory to 83,431 places, 3 juillet 2005 ;  Matt Schudel, « Obituaries: Mathematician John W. Wrench Jr.
+Dies at 97 », The Washington Post,‎ 25 mars 2009 (lire en ligne) ;  Steve Connor, « The Big Question: How close have we come to knowing the precise value of pi? », The Independent,‎ 8 janvier 2010 (lire en ligne) ;  Chris Smyth, « Pi, a mathematical story that would take 49,000 years to tell », The Times,‎ 7 janvier 2010 (lire en ligne).
+Voir par exemple Le Secret de la Grande Pyramide, de Georges Barbarin.
+Selon  auteur ?, « titre ? », The Journal of the Society for the Study of Egyptian Antiquities, vol. 8, no 4,‎ 1978 (ISSN 0383-9753)[réf. incomplète], « la valeur de π apparaissant dans la relation entre la hauteur et la longueur de la pyramide est vraisemblablement co-accidentelle ».
+David Blatner, « 3.14 and the rest », BBC News Magazine,‎ 14 mars 2008 (lire en ligne).
+« Pi World Ranking List ».
+« Chinese student breaks Guiness record by reciting 67,890 digits of pi », News Guangdong,‎ 2006 (lire en ligne).
+Tomoko Otake, « How can anyone remember 100,000 numbers? », The Japan Times,‎ 17 décembre 2006 (lire en ligne).
+Jean-Paul Delahaye, « Au pays des illuminés du nombre π », Pour la science, no 463,‎ mai 2016, p. 78-83 (présentation en ligne).
+(ru) Профессор Андрей Слюсарчук установил мировой рекорд по возможностям человеческой памяти.
+Publié par the academy[Quoi ?], d’après la Revue scientifique, 2 septembre 1905, n°10, p. 316. Les quatre premiers vers sont déjà connus en 1841, et apparaissent dans Le livre des singularites, Gabriel Peignot, G. P. Philomneste.
+Pour une variante, voir Pi - Supplément au Petit Archimède no 64-65, mai 1980, p. 273, ou  Décimales de π, disponible sur Wikisource.
+Yicong Liu, « Oh my, memorizing so many digits of pi », Silver Chips Online (journal des étudiants de Montgomery Blair High School),‎ 19 mai 2004 (lire en ligne).
+A. Raz, M. G. Packard, G. M. Alexander, J.T. Buhle, H. Zhu, S. Yu et B. S. Peterson, « A slice of pi : An exploratory neuroimaging study of digit encoding and retrieval in a superior memorist », Neurocase, vol. 15, no 5,‎ 2009, p. 361-372 (DOI 10.1080/13554790902776896) PMID 19585350.
+Robert Palais, « π Is Wrong! », The Mathematical Intelligencer, vol. 23, no 3,‎ 2001, p. 7–8 (lire en ligne)
+Michael Hartl, « The Tau Manifesto »
+Jason Palmer, « 'Tau day' marked by opponents of maths constant pi », sur BBC News
+Voir aussi
+Sur les autres projets Wikimedia :
+Pi, sur Wikimedia Commonspi, sur le Wiktionnaire
+Bibliographie
+Éliette Abécassis, Le Palimpseste d’Archimède (roman), Albin Michel (ISBN 978-2-226-24829-9)
+John Lennart Berggren, Jonathan Borwein et Peter Borwein, Pi : A Source Book, Springer, 2004, 3e éd. (DOI 10.1007/978-1-4757-4217-6)
+Numéro spécial π, Supplément au Petit Archimède, no 64-65, mai 1980
+Jörg Arndt et Christoph Haenel, Pi Unleashed, Springer, 2000, 270 p. (ISBN 978-3-540-66572-4, lire en ligne). Traduction : À la poursuite de π, Vuibert, 2006  (ISBN 2-7117-7170-9)
+Jean-Paul Delahaye, Le Fascinant Nombre π [détail de l’édition]
+Pierre Eymard et Jean-Pierre Lafon, Autour du nombre π, Hermann, Paris, 1999  (ISBN 2-7056-1443-5), aperçu de la traduction en anglais sur Google Livres
+Reinhold Remmert, « What is π? », dans H.-D. Ebbinghaus (de) et al., Numbers (lire en ligne), traduction française et adaptation de François Guénard : « Le nombre π », dans Les nombres.
+Leur histoire, leur place et leur rôle de l’Antiquité aux recherches actuelles, Vuibert  (ISBN 2-7117-8901-2)
+James T. Smith, Methods of Geometry, New York/Chichester/Weinheim etc., WIley, 2000, 486 p. (ISBN 0-471-25183-6, lire en ligne), p. 123
+Michael Trott, The Mathematica GuideBook for Programming, Springer, 2004, 1028 p. (ISBN 978-0-387-94282-7, lire en ligne), p. 173
+Articles connexes
+Approximation de π
+Journée de pi
+Milü 
+PiHex
+Projet de loi pi de l'Indiana
+Liens externes
+"L'odyssée de Pi", La Méthode Scientifique, France Culture, le 14 mars 2019
+Nombreuses informations historiques et mathématiques sur pi dans pi314.net
+Eric W. Weisstein, « Pi Formulas », sur MathWorld
+Eric W. Weisstein, « Plouffe's Constants », sur MathWorld
+Les décimales de pi, sur images des Maths
+J.-C. Michel, « Le nombre Pi », sur gecif.net
+Jean Brette et Jean-François Ternay, Le nombre Pi, lire en ligne 
+Notion de nombre
+Ensembles usuels
+Entier naturel 
+· Entier relatif 
+· Nombre décimal 
+· Nombre rationnel 
+· Nombre réel 
+· Nombre complexe 
+Extensions
+Quaternion 
+· Octonion 
+· Sédénion 
+· Nombre complexe déployé · Tessarine · Nombre bicomplexe 
+· Nombre multicomplexe 
+· 
+· Biquaternion · Coquaternion · Quaternion hyperbolique · Octonion déployé · Nombre hypercomplexe · Nombre p-adique 
+· Nombre hyperréel · Nombre superréel · Nombre dual · Droite réelle achevée · Nombre cardinal · Nombre ordinal · Nombre surréel · Nombre pseudo-réel
+Propriétés particulières
+Parité · Nombre premier · Nombre composé · Nombre figuré · Nombre parfait · Nombre positif · Nombre négatif · Fraction dyadique ·  Nombre irrationnel · Nombre algébrique · Nombre transcendant · Nombre imaginaire pur · Nombre de Liouville · Période · Nombre normal · Nombre univers · Nombre constructible · Nombre réel calculable · Nombre transfini · Infiniment petit
+Exemples
+Pi (π) ·  Racine carrée de deux 
+·  Nombre d’or (φ) · Zéro (0) · Unité imaginaire (i) · Constante de Neper (e) · Aleph-zéro (ℵ0) · Table de constantes mathématiques
+Articles liés
+Chiffre · Numération · Fraction · Opération · Calcul · Algèbre · Arithmétique · Suite d'entiers · Infini (∞) · Chiffre significatif
+Portail des mathématiques   Portail de la géométrie  
+Ce document provient de «  ».
+Catégories : PiHistoire des mathématiquesCatégories cachées : Article contenant un appel à traduction en anglaisArticle à référence nécessaireArticle à référence souhaitéeCatégorie Commons avec lien local identique sur WikidataArticle contenant un appel à traduction en allemandPortail:Mathématiques/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesPortail:Géométrie/Articles liésArticle de qualité en vietnamienArticle de qualité en catalanArticle de qualité en macédonienBon article en chinoisArticle de qualité en allemandArticle de qualité en anglaisArticle de qualité en afrikaansArticle de qualité en roumainBon article en coréenArticle de qualité en espérantoBon article en tchèqueArticle de qualité en latin
+La dernière modification de cette page a été faite le 3 octobre 2022 à 15:28.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

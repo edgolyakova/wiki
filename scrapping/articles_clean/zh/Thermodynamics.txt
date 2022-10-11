@@ -1,0 +1,746 @@
+热力学 - 维基百科，自由的百科全书
+热力学
+维基百科，自由的百科全书
+跳到导航
+跳到搜索
+热力学经典的卡诺热机T（熱庫）、Q（熱量）、W（功）
+H（高溫）、C（低溫）
+分支
+经典
+统计
+化学
+量子热力学
+平衡（英语：Equilibrium thermodynamics） / 非平衡
+定律
+第零
+第一
+第二
+第三
+系统
+封閉系統
+孤立系統
+状态
+状态方程
+理想气体
+實際氣體
+相 / 物质状态
+平衡
+控制體積
+仪器（英语：Thermodynamic instruments）
+过程
+等压
+等体
+等温
+绝热
+等熵
+等焓
+准静态
+多方
+自由膨脹
+可逆
+不可逆
+内可逆
+循环
+热机
+热泵
+热效率
+系统性质
+性质图
+强度和广延性质
+状态函数（斜体共轭变量）
+温度 / 熵
+熵的简介（英语：Introduction to entropy）
+压强 / 体积
+化学势 / 粒子數
+蒸氣量
+简化性质
+過程函數
+功（英语：Work (thermodynamics)）
+材料性质
+比热容 
+=
+∂
+∂
+压缩性 
+=
+−
+∂
+∂
+热膨胀 
+=
+∂
+∂
+性质数据库
+方程（英语：Thermodynamic equations）
+卡诺定理
+克劳修斯定理
+基本关系
+理想气体定律
+麦克斯韦关系
+昂萨格倒易关系
+布里奇曼热力学方程
+热力学方程表
+自由能
+自由熵
+内能
+,
+,
+=
++
+亥姆霍兹自由能
+,
+=
+−
+吉布斯能
+,
+=
+−
+历史／文化
+哲学
+熵与时间
+熵与生活
+布朗棘轮
+麦克斯韦妖
+热寂佯谬
+洛施密特佯谬
+协同学
+历史
+总史
+气体定律
+永动机
+理论
+热质说
+活力
+热动说
+热功当量
+动力
+关键著作
+《论摩擦激起的热源》
+《关于多相物质平衡》
+《论火的动力（英语：Reflections on the Motive Power of Fire）》
+年表
+热力学
+热机
+科学家
+昂萨格
+伯努利
+迪昂
+亥姆霍兹
+吉布斯
+焦耳
+卡拉西奥多里
+卡诺
+克拉佩龙
+克劳修斯
+兰金
+冯·迈尔
+麦克斯韦
+斯米顿
+斯塔尔
+开尔文男爵汤姆森
+伦福德伯爵汤普森
+沃特斯顿
+查论编
+一个典型的熱力學系統，热从较热处（锅炉）流向较冷处（冷凝器），在这一过程中有一系列活塞做了功。
+热力学，全稱熱動力學（法語：thermodynamique，德語：Thermodynamik，英語：thermodynamics，源於古希腊语θερμός及δύναμις），是研究热现象中物态转变和能量转换规律的学科。
+它着重研究物质的平衡状态以及与準平衡态的物理、化学过程。
+热力学定義許多巨觀的物理量（像溫度、內能、熵、壓強等），描述各物理量之間的關係。
+热力学描述數量非常多的微觀粒子的平均行為，其定律可以用統計力學推導而得。
+熱力學可以總結為四條定律：
+熱力學第零定律定義了温度這一物理量，指出了相互接觸的两个系統，熱流的方向。
+熱力學第一定律指出内能這一物理量的存在，並且與系統整體運動的動能和系統與環境相互作用的位能是不同的，區分出熱與功的轉換。
+熱力學第二定律涉及的物理量是温度和熵。
+熵是研究不可逆过程引入的物理量，表征系統透過熱力學過程向外界最多可以做多少熱力學功。
+熱力學第三定律認為，不可能透過有限過程使系統冷却到絕對零度。
+熱力學可以應用在許多科學及工程的領域中，例如：引擎、相變化、化學反應、輸運現象甚至是黑洞。
+熱力學計算的結果不但對物理的其他領域很重要，對航空工程、航海工程、車輛工程、機械工程、細胞生物學、生物醫學工程、化學、化學工程及材料科學等科學技術領域也很重要，甚至也可以應用在經濟學中，另見「熱經濟學」。
+热力学是从18世纪末期发展起来的理论，主要是研究功與热量之間的能量轉換；在此功定義為力與位移的內積；而熱則定義為在熱力系統邊界中，由溫度之差所造成的能量傳遞。
+兩者都不是存在於熱力系統內的性質，而是在熱力過程中所產生的。
+熱力學的研究一開始是為了提昇蒸汽引擎的效率，早期尼古拉·卡諾有許多的貢獻，他認為若引擎效率提昇，法國有可能贏得拿破崙戰爭。
+出生於愛爾蘭的英國科學家開爾文在1854年首次提出了熱力學明確的定義：
+“
+熱力學是一門描述熱和物體中各部份之間作用力的關係，以及描述熱和電器之間關係的學科。
+”
+一開始熱力學研究關注在熱機中工質（如蒸氣）的熱力學性質，後來延伸到化学过程中的能量轉移，例如在1840年科學家杰迈因·亨利·盖斯提出，有關化學反應的能量轉移的研究。
+化學熱力學中研究熵對化學反應的影響 。
+統計熱力學也稱為統計力學，利用根據微觀粒子力學性質的統計學預測來解釋巨觀的熱力學性質。
+目录
+簡介
+热力学史
+分支学科
+经典热力学
+局域平衡态热力学
+扩展热力学
+统计热力学
+熱力學定律
+系統模型
+熱力學設備
+共軛變數
+局限性
+子学科
+注释
+参考文献
+参见
+簡介
+熱力學一詞一般是指物體和過程的巨觀描述：「古典熱力學和個別原子的性質無關」。
+「統計熱力學」會用個別原子的性質來描述物體和過程，主要是將其描述為一群有類似特性的粒子，彼此的機率都相同。
+熱力學最早是在研究能量的轉移，藉由巨觀變數可以將能量轉移分為二類：熱和功（英语：Work (thermodynamics)）。
+熱力學平衡是熱力學中幾個最重要概念中的一個。
+一個熱力學平衡系統的溫度可以明確定義，可能也是熱力學中最有代表性的物理量。
+若系統及過程不在熱力學平衡的狀態，就很難進行精確的熱力學研究。
+不過在工程的應用中，往往會通过简单的近似计算，用平衡熱力學中的物理量，得到較實用的數值。
+在許多實際的系統中（例如熱機及冰箱），系統會包括數個有不同溫度和壓強的子系統，若這些子系統的熱力學變數已足夠接近明確定義的情形，就可以用較有效的方法來求解熱力學系統的變數。
+热力学最基础的概念是系统和环境。
+一个热力学系统的环境是与之相互作用的其他热力学系统。
+热力学环境的一个典型例子是热浴，使系统的温度维持在某特定值，具体的相互作用形式可不去关心。
+热力学最基本的实体是热力学状态和热力学过程。
+热力学中的推理可基于热力学状态或热力学循环过程。
+热力学系统可由其状态来描述，热力学系统是个宏观物理对象，由描述宏观性质的物理和化学变量描述。
+所需的宏观态变量视具体的实验而定。
+热力学系统可由其所经历的过程来描述，尤其是循环过程，这也是热力学创立者所采用的方法。
+热力学和统计热力学应用于研究某一体系的过程，过程中分子的运动可分为两类：
+快速运动，在所研究的过程的时间尺度上，分子可以遍历它所有可能的状态，使体系很快达到热力学平衡。
+慢速运动，在所研究的过程的时间尺度上，可忽略分子运动。
+
+如果宏观过程中，分子运动介于快速运动和慢速运动之间，在所研究的过程的时间尺度上，系统一般处于非平衡态。
+分离分子运动的时间尺度是热力学中经常考虑的问题。
+例如，经典热力学主要是研究物质的状态方程，宏观力学量和温度比环境的变化要快很多，实际上是研究热力学平衡下的状态变量。
+状态方程表述的是系统的本构特性。
+状态方程常写为压强是体积和温度的函数。
+
+本条目以由浅入深的方式介绍热力学，先介绍循环过程和热力学平衡态，最后介绍热力学非平衡态。
+热力学史
+热力学始创八学派的代表性科學家
+主条目：热力学史
+热力学史（英语：History of thermodynamics）可追溯到1650年格里克设计和建造了世界上第一个真空泵，并用马德堡半球实验证明了真空的存在，推翻了亚里士多德提出的“自然界厌恶真空（英语：Horror vacui (physics)）”的假说。
+1656年，物理学家和化学家罗伯特·波义耳借鉴格里克的设计，与罗伯特·胡克发明了抽气机。
+利用抽气机，波义耳和胡克证明了压强、温度和体积之间有一定的关系，波义耳给出了波义耳定律，对于一定温度下的一定量的气体，压强与体积成反比。
+1679年，波义耳的助手丹尼斯·帕潘发明了蒸汽蒸煮器，这是一个严密封盖的容器，里面会产生高压气体。
+帕潘后来对他发明的蒸煮器做了改进，加装了放气阀门，避免爆炸。
+帕潘观察到了阀门的周期性的运动，构想出活塞和汽缸蒸汽机，但是他没有去实现自己的想法。
+1697年，工程师托马斯·塞维利在帕潘的设计的基础上，发明了第一个蒸汽机。
+随后，1712年，汤玛斯·纽科门也发明了一种蒸汽机。
+这些早期的蒸汽机非常粗糙，效率很低，但吸引了当时顶尖的科学家的注意。
+1759年，詹姆斯·瓦特开始设计蒸汽机，屡经失败。
+瓦特向格拉斯哥大学的教授约瑟夫·布拉克求教。
+布拉克向其讲解了自己提出的热容和潜热的概念，瓦特还想出了分离冷凝器的想法，终于显著提高了蒸汽机的效率[a]。
+尼古拉·卡诺总结前人工作，在1824年发表著作《论火的动力（英语：Reflections on the Motive Power of Fire）》。
+这部著作论述了卡诺热机和卡诺循环的关系。
+这部著作是热力学成为现代科学的标志，卡诺也被称作热力学之父。
+19世纪50年代，热力学第一和第二定律同时形成，主要完成者是威廉·约翰·麦夸恩·兰金、鲁道夫·克劳修斯和威廉·汤姆森。
+1859年，史上第一部热力学教科书出版，作者是兰金。
+
+统计热力学的创立者包括：馬克士威、玻尔兹曼、普朗克、克劳修斯、吉布斯。
+分支学科
+热力学系统是理论上构建出来，以热力学定律研究有物质和能量交换的物理系统。
+热力学系统的研究可分为几个分支学科，各自有不同的基本模型，或采用不同的原理。
+经典热力学
+经典热力学用不随时间改变的平衡态或者连续的循环过程描述和研究热力学系统。
+应用的物理量是不随时间改变的实验可测量的宏观平衡态的物理量，即物理量的长时间平均的量不随时间改变，比如循环过程的流。
+局域平衡态热力学
+扩展热力学
+统计热力学
+熱力學定律
+熱力學第零定律：在不受外界影响的情况下，只要A和B同时与C处于热平衡，即使A和B没有热接触，他们仍然处于热平衡状态。
+这个定律说明，互相处于热平衡的物体之间必然具有相等的温度。
+熱力學第一定律：能量守恒定律对非孤立系统的扩展。
+此时能量可以以功W或热量Q的形式传入或传出系统。
+热力学第一定律表达式为：
+int
+=
+int,f
+−
+int,i
+=
+−
+熱力學第二定律：孤立系統熵（失序）不會減少──簡言之，熱不能自發的從冷處轉到熱處，而不引起其他变化。
+任何高溫的物體在不受熱的情況下，都會逐漸冷卻。
+这条定律说明第二类永动机不可能制造成功。
+熱力學第二定律也可表示為熵增原理：
+≥
+。
+熱力學第三定律：完整晶体於絕對溫度零度時（即攝氏-273.15度），熵增為零。
+系統模型
+各種熱力學系統中允許的質量或能量交換方式
+熱力學系統分類
+交換方式
+質量
+開放系統
+封閉系統
+絕熱封閉系統
+力學封閉系統
+孤立系統
+熱力學系統的示意圖
+熱力學系統是熱力學的重要概念之一，是指一塊有明確定義的區域，所有不在熱力學系統內的區域合稱為環境，系統和環境之間是由邊界隔開，系統和環境透過邊界才能交換物質、功（英语：Work (thermodynamics)）或熱。
+邊界就是包圍系統外圍的表面，任何通過表面，會影響系統內能的都需要在能量平衡方程式中考慮。
+像马克斯·普朗克在1900年時的研究就將系統定義為單一原子周圍有共振能量的區域，薩迪·卡諾在1824年將系統定義為蒸汽机中的蒸氣，克里·伊曼紐爾（英语：Kerry Emanuel）在1986年有關大氣熱力學（英语：atmospheric thermodynamics）的研究中將系統定義為熱帶氣旋的本體。
+在量子統計力學（英语：Quantum statistical mechanics）中會將核素（一個由夸克組成的系統）定義為一個系統。
+邊界可分為四種：固定、活動、真实、虛構。
+在引擎中的固定邊界是指活塞固定在某特定位置，因此在等容過程中，不會產生功。
+而在引擎中的活動邊界是指允許活塞移動位置，因此可以產生功。
+在封閉系統中，邊界是真实的，而在開放系統中，邊界多半是虛構的。
+
+系統可以依邊界允許的質量或能量交換方式來分類，簡單分類可以分為以下三類：
+孤立系統：系統完全不與外界交換能量或質量。
+封閉系統：系統只與外界交換能量而不交換質量。
+開放系統：系統與外界交換能量和質量。
+但若將能量再細分為功和熱，封閉系統可以再多區分出二類，其性質介於封閉系統和孤立系統之間：若系統不允許外界交換熱，只能有功的交換，稱為絕熱封閉系統或熱孤立系統（英语：Thermally isolated system），若系統不允許外界交換功，只能有能的交換，稱為Adynamically封閉系統，也稱作力學孤立系統。
+熱力學設備
+卡諾循環，其中的TH和TC就是高溫熱庫及低溫熱庫
+熱力學設備（英语：thermodynamic instruments）可分為二種，分為是儀表（meter）和源（reservoir）。
+熱力學儀表是指任何可以量測熱力學系統中參數的設備。
+有時熱力學的參數是用理想的量測儀表來定義，例如熱力學第零定律說明若二個物體分別和一個物體達到熱平衡，這二個物體之間也達到了熱平衡。
+馬克士威在1872年時提出熱力學第零定律，也提到可以量測溫度的方式。
+理想的溫度計是在定壓下定量的理想氣體，根據理想氣體定律
+=
+氣體的體積即可用來表示壓強，雖然壓強是用力學的方式定義，也可以用定溫下定量的理想氣體的體積來當作理想的气压表。
+热量计則是量測系統內能及能量變化的設備。
+熱力學源是指一個很大的系統，和測試系統接觸時其特定狀態幾乎不會變化。
+熱力學源一般是用來將系統的狀態施加到某一特定數值。
+像壓強源是在特定壓強下的系統，和其他系統連接後，會使其他系統的壓強等於該特定值。
+地球的大氣常作為壓強源。
+熱力學中常見的熱力學源是熱庫，是特定溫度下的系統，像卡諾循環中就用到了高溫熱庫及低溫熱庫。
+
+共軛變數
+主条目：共軛變數 (熱力學)
+能量是熱力學的中心概念之一。
+熱力學第一定律說明系統和環境的總能量守恆。
+若要加入能量到系統中，可以透過加熱、壓縮、加入物質的方式。
+若要從系統中提出能量，則可以透過冷卻、膨脹、移出物質的方式。
+例如在力學的能量轉移等於對一物體的施力及物體的位移。
+共軛變數是成對的熱力學概念，其中第一個表示施加在熱力學系統中的某種「力」，第二個則表示熱力學系統上的某種「位移」，二者的乘積即為轉移的能量。
+常見的共軛變數有：
+壓強-體積（力學參數）
+溫度-熵（熱參數）
+化學勢-粒子數（材料參數）
+局限性
+熱力學由於發展較早，也有其自身的局限性，主要表現在：
+它僅適用於粒子很多的宏觀系統；
+它主要研究物質在平衡態下的性質，並不解答系統達到平衡態的詳細過程；
+它把物質視作“連續體”，不考慮物質的微觀結構。
+统计物理学与热力学结合起来研究热现象常常可以弥补以上局限性。
+子学科
+传热学
+计算传热学
+材料熱力學
+化学热力学
+化工热力学
+注释
+The Newcomen engine was improved from 1711 until Watt's work, making the efficiency comparison subject to qualification, but the increase from the Newcomen 1765 version was on the order of 100%.
+参考文献
+Smith, J.M.; Van Ness, H.C., Abbott, M.M. Introduction to Chemical Engineering Thermodynamics.
+McGraw Hill. 2005. ISBN 0-07-310445-0. OCLC 56491111.  引文使用过时参数coauthors (帮助)
+Haynie, Donald, T. Biological Thermodynamics.
+Cambridge University Press. 2001. ISBN 0-521-79549-4. OCLC 43993556. 
+Clausius, Rudolf.
+On the Motive Power of Heat, and on the Laws which can be deduced from it for the Theory of Heat.
+Poggendorff's Annalen der Physik, LXXIX (Dover Reprint). 1850. ISBN 0-486-59065-8. 
+Sir William Thomson, LL.D. D.C.L., F.R.S. Mathematical and Physical Papers 1. London, Cambridge: C.J. Clay, M.A. & Son, Cambridge University Press. 1882: 232  [2013-05-10]. （原始内容存档于2013-06-20）. 
+Hess, H. (1840). Thermochemische Untersuchungen （页面存档备份，存于互联网档案馆）, Annalen der Physik und Chemie (Poggendorff, Leipzig) 126(6): 385–404.
+6.0 6.1 Enrico Fermi.
+Thermodynamics.
+Courier Dover Publications. 1956: ix.
+ISBN 0-486-60361-X. OCLC 230763036 54033021 请检查|oclc=值 (帮助). 
+Gibbs, Willard, J. (1876). Transactions of the Connecticut Academy, III, pp. 108–248, Oct. 1875 – May 1876, and pp. 343–524, May 1877 – July 1878.
+Duhem, P.M.M. (1886). Le Potential Thermodynamique et ses Applications, Hermann, Paris.
+Lewis, Gilbert N.; Randall, Merle.
+Thermodynamics and the Free Energy of Chemical Substances.
+McGraw-Hill Book Co.
+Inc. 1923.  引文使用过时参数coauthors (帮助)
+Guggenheim, E.A. (1933). Modern Thermodynamics by the Methods of J.W. Gibbs, Methuen, London.
+Guggenheim, E.A. (1949/1967)
+Ilya Prigogine, I. & Defay, R., translated by D.H. Everett.
+Chemical Thermodynamics.
+Longmans, Green & Co., London.
+Includes classical non-equilibrium thermodynamics. 1954. 
+Perrot, Pierre.
+A to Z of Thermodynamics.
+Oxford University Press. 1998. ISBN 0-19-856552-6. OCLC 123283342 38073404 请检查|oclc=值 (帮助). 
+Clark, John, O.E. The Essential Dictionary of Science.
+Barnes & Noble Books. 2004. ISBN 0-7607-4616-8. OCLC 58732844 63473130 请检查|oclc=值 (帮助). 
+Reif, F. Fundamentals of Statistical and Thermal Physics.
+New York: McGraw-Hill Book Company. 1965: page 122.  引文格式1维护：冗余文本 (link)
+Fowler, R., Guggenheim, E.A. (1939). Statistical Thermodynamics, Cambridge University Press, Canbridge UK. p. 3.
+Bridgman, P.W. (1943). The Nature of Thermodynamics, Harvard University Press, Cambridge MA, p. 48.
+Partington, J.R. (1949). An Advanced Treatise on Physical Chemistry, volume 1, Fundamental Principles.
+The Properties of Gases, Longmans, Green and Co., London. page 118.
+Tisza, L. (1966). Generalized Thermodynamics, M.I.T Press, Cambridge MA p. 18.
+Kondepudi, D. (2008). Introduction to Modern Thermodynamics, Wiley, Chichester, ISBN 978-0-470-01598-8. Includes local equilibrium thermodynamics.
+Fowler, R., Guggenheim, E.A. (1939), p. 13.
+Tisza, L. (1966), pp. 79–80.
+Planck, M. 1923/1926, page 5.
+Partington, p. 121.
+Adkins, pp. 19–20.
+Haase, R. (1971), pages 11–16.
+Partington, J.R. A Short History of Chemistry.
+Dover. 1989. OCLC 19353301. 
+Cengel, Yunus A.; Boles, Michael A. Thermodynamics – an Engineering Approach.
+McGraw-Hill. 2005. ISBN 0-07-310768-9. 
+Lauth,Günter J.; Kowalczyk, Jürgen.
+Thermodynamik: Eine Einführung.
+Springer Spektrum. 2015. ISBN 978-3-662-46228-7. 
+Partington, J.R. (1913). A Text-book of Thermodynamics, Van Nostrand, New York, page 37.
+Windisch, Herbert.
+Thermodynamik: Ein Lehrbuch für Ingenieure Auflage 5. De Gruyter Oldenbourg. 2014. ISBN 978-3-486-77847-2. 
+秦允豪. 《热学》（第二版）. 高等教育出版社. : 第3页. ISBN 978-7-04-013790-3. 
+参见
+熱力學函數（或譯：熱力學參數）
+統計力學
+熱力學歷史（英语：History of thermodynamics）
+熱力學歷史線（英语：Timeline of thermodynamics）
+查论编物理学分支物理学史组成部分
+理论物理
+实验物理
+应用物理
+能量 · 运动
+热力学
+力学
+经典力学
+弹道
+拉格朗日
+哈密顿
+连续介质
+天体
+统计
+流体
+量子
+波 · 场
+引力
+电磁学
+经典
+量子场论
+相对论
+狭义相对论
+廣義相對論
+按专业
+數碼物理學
+计算物理学
+粒子物理學
+原子核物理学
+原子分子與光物理學
+分子
+原子
+等离子体
+统计
+凝聚态物理学
+固体
+介观
+高分子
+声学
+光学
+几何
+物理
+非线性
+量子
+天体物理学
+恒星
+天体粒子
+太阳
+空间
+生命科学中的物理学
+生物物理学
+生物力学
+农业物理学
+醫學物理
+激光医学（英语：Laser medicine）
+核医学
+醫學影像
+心理物理学
+交叉学科
+天体物理学
+数学物理
+非线性物理学
+经济物理学
+材料科学
+高分子
+物理化学 / 化学物理学
+物理宇宙学
+大气
+地球物理学
+土壤物理學
+物理海洋学
+量子信息科学
+有关
+诺贝尔物理学奖
+物理教育
+分类
+主題
+共享资源
+专题
+查论编暖通空調概念
+換氣次數
+烘干
+建築外殼
+對流
+稀釋
+國內能源消耗（英语：Domestic energy consumption）
+流體動力學
+壓縮機
+熱泵與冷卻循環（英语：Heat pump and refrigeration cycle）
+熱傳
+濕度
+滲透（英语：Infiltration (HVAC)）
+潛熱
+噪音控制（英语：Noise control）
+釋氣
+懸浮微粒
+濕度
+顯熱
+煙囪效應
+熱舒適性
+熱脱層化作用（英语：Thermal destratification）
+熱質量（英语：Thermal mass）
+熱力學
+水蒸氣壓
+技術
+吸收式制冷
+氣密層（英语：Air barrier）
+空氣調節
+防凍劑
+汽車空調
+自主性建築（英语：Autonomous building）
+建築保溫材料（英语：Building insulation materials）
+中央暖氣供應（英语：Central heating）
+中央太陽能供熱（英语：Central solar heating）
+冷樑（英语：Chilled beam）
+冷卻水（英语：Chilled water）
+定風量系統（英语：Constant air volume）
+冷卻劑
+獨立式外氣空調系統
+深層水源冷卻（英语：Deep water source cooling）
+需量控制外氣量（英语：Demand-controlled ventilation）
+置換通風（英语：Displacement ventilation）
+區域製冷（英语：District cooling）
+區域供暖
+電熱
+全熱交換機
+防火系統（英语：Firestop）
+強制供熱（英语：Forced-air）
+強制供熱氣體（英语：Forced-air gas）
+自然冷卻（英语：Free cooling）
+熱回收通風系統（英语：Heat recovery ventilation）
+熱混合（英语：Hybrid heat）
+循環加熱冷卻系統（英语：Hydronics）
+暖通空調
+冰蓄製冷空調系统（英语：Ice storage air conditioning）
+廚房通風（英语：Kitchen ventilation）
+混合式通風（英语：Mixed-mode ventilation）
+微型發電
+自然通風（英语：Natural ventilation）
+無動力製冷
+被動式節能屋
+輻射加熱和冷卻系統（英语：Radiant heating and cooling system）
+輻射冷卻
+輻射加熱（英语：Radiant heating）
+氡氣降低系統（英语：Radon mitigation）
+製冷
+再生熱能（英语：Renewable heat）
+室內空調分配（英语：Room air distribution）
+太陽能空氣加熱（英语：Solar air heat）
+太陽能複合式系統（英语：Solar combisystem）
+太陽能空調
+太陽能加熱系統（英语：Solar heating）
+熱絕緣
+地板下空調系統（英语：Underfloor air distribution）
+地暖系統
+防潮膜（英语：Vapor barrier）
+蒸氣壓縮製冷
+變風量系統（英语：Variable air volume）
+可變冷媒流量（英语：Variable refrigerant flow）
+通風
+設備
+變頻式空調
+空氣門
+空氣濾清器
+空氣調節器（英语：Air handler）
+空氣離子產生器
+空氣混合室（英语：Air-mixing plenum）
+空氣淨化器
+空氣源熱泵（英语：Air source heat pumps）
+自動平衡閥（英语：Automatic balancing valve）
+燃室鍋爐（英语：Back boiler）
+屏障管線（英语：Barrier pipe）
+風門阻尼器（英语：Blast damper）
+鍋爐
+離心式風扇（英语：Centrifugal fan）
+冷卻機（英语：Chiller）
+冷凝泵（英语：Condensate pump）
+冷凝器
+冷凝式鍋爐（英语：Condensing boiler）
+對流加熱器（英语：Convection heater）
+冷卻塔
+節風門（英语：Damper (flow)）
+除濕機
+風道（英语：Duct (flow)）
+廢氣加熱器
+靜電除塵
+蒸發式冷卻器（英语：Evaporative cooler）
+蒸發器
+吸油煙機
+排气扇
+膨脹槽（英语：Expansion tank）
+風機盤管機組（英语：Fan coil unit）
+風扇加熱器（英语：Fan heater）
+防火風門（英语：Fire damper）
+壁爐
+內嵌式壁爐（英语：Fireplace insert）
+低温恒温器（英语：Freeze stat）
+煙道（英语：Flue）
+氟利昂
+通風櫃
+燃燒室（英语：Furnace room）
+壓縮機
+煤氣加熱器（英语：Gas heater）
+汽油加熱器（英语：Gasoline heater）
+地源熱泵系統
+油管（英语：Grease duct）
+格柵（英语：Grille）
+地面耦合熱交換器（英语：Ground-coupled heat exchanger）
+換熱器
+熱導管
+熱泵
+電熱膜
+暖氣系統（英语：Heating system）
+高效率無軸封循環泵（英语：High efficiency glandless circulating pump）
+高效濾網
+高壓切斷開關（英语：High pressure cut off switch）
+加濕器
+紅外加熱器
+變頻壓縮機（英语：Inverter compressor）
+煤油加熱器（英语：Kerosene heater）
+百葉
+風扇
+機械室（英语：Mechanical room）
+油加熱器（英语：Oil heater）
+一體式空調（英语：Packaged terminal air conditioner）
+增壓空間（英语：Plenum space）
+加壓管道（英语：Pressurisation ductwork）
+排氣管道（英语：Process duct work）
+散熱器（英语：Radiator (heating)）
+輻射反射器（英语：Radiator reflector）
+復熱器（英语：Recuperator）
+冷媒
+調風器（英语：Register (air and heating)）
+回動閥（英语：Reversing valve）
+循環迴路（英语：Run-around coil）
+渦捲式壓縮機（英语：Scroll compressor）
+太陽能煙囪（英语：Solar chimney）
+太陽能輔助熱泵（英语：Solar-assisted heat pump）
+空间加热器
+排煙管道系統（英语：Smoke exhaust ductwork）
+熱膨脹閥（英语：Thermal expansion valve）
+轉輪式熱交換器（英语：Thermal wheel）
+熱虹吸管（英语：Thermosiphon）
+散熱器恆溫閥（英语：Thermostatic radiator valve）
+涓流通風口（英语：Trickle vent）
+向陽保溫牆（英语：Trombe wall）
+導流翼（英语：Turning vanes (HVAC)）
+超低穿透空氣過濾網
+全屋送風系統（英语：Whole-house fan）
+風斗（英语：Windcatcher）
+燃木式火爐（英语：Wood-burning stove）
+測量與控制
+氣流計（英语：Air flow meter）
+水溫調節器（英语：Aquastat）
+建築自動化控制網路通訊協定
+鼓風門（英语：Blower door）
+智能建筑
+二氧化碳感應器（英语：Carbon dioxide sensor）
+清淨空氣輸出率（英语：Clean Air Delivery Rate）
+氣敏傳感器
+家庭能源監視器（英语：Home energy monitor）
+恆溼器（英语：Humidistat）
+暖通空調控制系統（英语：HVAC control system）
+LonWorks
+最低效率值（英语：Minimum efficiency reporting value）
+OpenTherm（英语：OpenTherm）
+可編程通訊型溫控器（英语：Programmable communicating thermostat）
+可編程溫控器（英语：Programmable thermostat）
+空氣線圖（英语：Psychrometrics）
+常溫
+智慧型溫控器
+自動調溫器
+散熱器恆溫閥（英语：Thermostatic radiator valve）
+職業、行業與服務
+建築聲學
+建築工程
+建築技師（英语：Architectural technologist）
+建築設備
+建築資訊模型
+深度節能改造（英语：Deep energy retrofit）
+風管洩漏測試（英语：Duct leakage testing）
+環境工程
+水力平衡（英语：Hydronic balancing）
+廚房排氣清潔（英语：Kitchen exhaust cleaning）
+機械工程
+機械、電氣及管道（英语：Mechanical, electrical, and plumbing）
+黴菌生長、評估及修復（英语：Mold growth, assessment, and remediation）
+製冷劑回收（英语：Refrigerant reclamation）
+測試、調整及平衡（英语：Testing, adjusting, balancing）
+工業組織
+美國空調承包商協會（英语：Air Conditioning Contractors of America）
+美國送風機協會（英语：Air Movement and Control Association）
+美國採暖、製冷與空調工程師學會
+美國材料和試驗協會
+英國建築研究所（英语：Building Research Establishment）
+英国建筑服务研究与信息协会（英语：BSRIA）
+特許屋宇設備工程師學會（英语：Chartered Institution of Building Services Engineers）
+美國綠建築協會
+美國鈑金空調承包商協會（英语：Sheet Metal and Air Conditioning Contractors' National Association）
+健康與安全性
+室內空氣品質
+二手菸
+病態建築症候群（英语：Sick building syndrome）
+揮發性有機物
+參見
+美國採暖、製冷與空調工程師學會手冊（英语：ASHRAE Handbook）
+建築科學（英语：Building science）
+防火設計（英语：Fireproofing）
+暖通空調術語列表（英语：Glossary of HVAC terms）
+Template:自動化房屋（英语：Template:Home automation）
+Template:太陽能
+规范控制 
+AAT: 300068875
+BNF: cb11933671c (data)
+GND: 4059827-5
+LCCN: sh85134783
+LNB: 000051835
+NDL: 00568137
+NKC: ph116437
+取自“”
+分类：​物理学分支热力学统计力学隐藏分类：​含有过时参数的引用的页面引文格式1错误：OCLC引文格式1维护：冗余文本使用ISBN魔术链接的页面含有法語的條目含有德語的條目含有英語的條目包含AAT标识符的维基百科条目包含BNF标识符的维基百科条目包含GND标识符的维基百科条目包含LCCN标识符的维基百科条目包含LNB标识符的维基百科条目包含NDL标识符的维基百科条目包含NKC标识符的维基百科条目
+导航菜单
+个人工具
+没有登录讨论贡献创建账号登录
+命名空间
+条目讨论
+不转换
+不转换简体繁體大陆简体香港繁體澳門繁體大马简体新加坡简体臺灣正體
+查看
+阅读编辑查看历史
+更多
+搜索
+导航
+首页分类索引特色内容新闻动态最近更改随机条目资助维基百科
+帮助
+帮助维基社群方针与指引互助客栈知识问答字词转换IRC即时聊天联络我们关于维基百科
+工具
+链入页面相关更改上传文件特殊页面固定链接页面信息引用本页维基数据项目
+打印/导出
+下载为PDF打印页面
+在其他项目中
+维基共享资源维基教科书
+其他语言
+编辑链接
+本页面最后修订于2022年5月28日 (星期六) 11:16。
+本站的全部文字在知识共享 署名-相同方式共享 3.0协议之条款下提供，附加条款亦可能应用。
+（请参阅使用条款）
+Wikipedia®和维基百科标志是维基媒体基金会的注册商标；维基™是维基媒体基金会的商标。
+维基媒体基金会是按美国国內稅收法501(c)(3)登记的非营利慈善机构。
+隐私政策
+关于维基百科
+免责声明
+手机版视图
+开发者
+统计
+Cookie声明

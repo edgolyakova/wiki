@@ -1,0 +1,1486 @@
+Kurt Gödel - Wikipedia
+Kurt Gödel
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+Mathematical logician and philosopher (1906–1978)
+"Gödel" redirects here.
+For the programming language, see Gödel (programming language). For other uses, see Godel (disambiguation).
+Kurt GödelGödel around 1926BornKurt Friedrich Gödel(1906-04-28)April 28, 1906Brünn, Austria-HungaryDiedJanuary 14, 1978(1978-01-14) (aged 71)Princeton, New Jersey, U.S.CitizenshipAustriaCzechoslovakiaUnited StatesAlma materUniversity of ViennaKnown for
+Gödel's incompleteness theorems
+Gödel's completeness theorem
+Gödel's constructible universe
+Gödel metric (closed timelike curve)
+Gödel logic
+Gödel–Dummett logic
+Gödel's β function
+Gödel numbering
+Gödel operation
+Gödel's speed-up theorem
+Gödel's ontological proof
+Gödel–Gentzen translation
+Gödel–McKinsey–Tarski translation
+Von Neumann–Bernays–Gödel set theory
+ω-consistent theory
+The consistency of the continuum hypothesis with ZFC
+Axiom of constructibility
+Compactness theorem
+Condensation lemma
+Diagonal lemma
+Dialectica interpretation
+Ordinal definable set
+Slingshot argument
+SpouseAdele Nimbursky ​(m. 1938)​Awards
+Albert Einstein Award (1951)
+ForMemRS (1968)
+National Medal of Science (1974)
+Scientific careerFieldsMathematics, mathematical logic, analytic philosophy, physicsInstitutionsInstitute for Advanced StudyThesisÜber die Vollständigkeit des Logikkalküls (On the Completeness of the Calculus of Logic) (1929)Doctoral advisorHans HahnInfluences
+Gottfried Wilhelm von Leibniz
+Immanuel Kant
+Edmund Husserl
+Signature
+Kurt Friedrich Gödel (/ˈɡɜːrdəl/ GUR-dəl, German: [kʊʁt ˈɡøːdl̩] (listen); April 28, 1906 – January 14, 1978) was a  logician, mathematician, and philosopher.
+Considered along with Aristotle and Gottlob Frege to be one of the most significant logicians in history, Gödel had an immense effect upon scientific and philosophical thinking in the 20th century, a time when others such as Bertrand Russell, Alfred North Whitehead, and David Hilbert were using logic and set theory to investigate the foundations of mathematics, building on earlier work by the likes of Richard Dedekind, Georg Cantor and Frege.
+Gödel published his first incompleteness theorem in 1931 when he was 25 years old, one year after finishing his doctorate at the University of Vienna.
+The first incompleteness theorem states that for any ω-consistent recursive axiomatic system powerful enough to describe the arithmetic of the natural numbers (for example Peano arithmetic), there are true propositions about the natural numbers that can be neither proved nor disproved from the axioms.
+To prove this, Gödel developed a technique now known as Gödel numbering, which codes formal expressions as natural numbers.
+The second incompleteness theorem, which follows from the first, states that the system cannot prove its own consistency.
+Gödel also showed that neither the axiom of choice nor the continuum hypothesis can be disproved from the accepted Zermelo–Fraenkel set theory, assuming that its axioms are consistent.
+The former result opened the door for mathematicians to assume the axiom of choice in their proofs.
+He also made important contributions to proof theory by clarifying the connections between classical logic, intuitionistic logic, and modal logic.
+Contents
+Early life and education
+Childhood
+Gödel was born April 28, 1906, in Brünn, Austria-Hungary (now Brno, Czech Republic) into the German-speaking family of Rudolf Gödel (1874–1929), the managing director and part owner of a major textile firm, and Marianne Gödel (née Handschuh, 1879–1966). At the time of his birth the city had a German-speaking majority which included his parents.
+His father was Catholic and his mother was Protestant and the children were raised Protestant.
+The ancestors of Kurt Gödel were often active in Brünn's cultural life.
+For example, his grandfather Joseph Gödel was a famous singer in his time and for some years a member of the Brünner Männergesangverein (Men's Choral Union of Brünn).
+Gödel automatically became a citizen of Czechoslovakia at age 12 when the Austro-Hungarian Empire collapsed following its defeat in the First World War.
+According to his classmate Klepetař, like many residents of the predominantly German Sudetenländer, "Gödel considered himself always Austrian and an exile in Czechoslovakia". In February 1929, he was granted release from his Czechoslovakian citizenship and then, in April, granted Austrian citizenship.
+When Germany annexed Austria in 1938, Gödel automatically became a German citizen at age 32. In 1948, after World War II, at the age of 42, he became an American citizen.
+In his family, the young Gödel was nicknamed Herr Warum ("Mr.
+Why") because of his insatiable curiosity.
+According to his brother Rudolf, at the age of six or seven, Kurt suffered from rheumatic fever; he completely recovered, but for the rest of his life he remained convinced that his heart had suffered permanent damage.
+Beginning at age four, Gödel suffered from "frequent episodes of poor health", which would continue for his entire life.
+Gödel attended the Evangelische Volksschule, a Lutheran school in Brünn from 1912 to 1916, and was enrolled in the Deutsches Staats-Realgymnasium from 1916 to 1924, excelling with honors in all his subjects, particularly in mathematics, languages and religion.
+Although Gödel had first excelled in languages, he later became more interested in history and mathematics.
+His interest in mathematics increased when in 1920 his older brother Rudolf (born 1902) left for Vienna, where he attended medical school at the University of Vienna.
+During his teens, Gödel studied Gabelsberger shorthand, Goethe's Theory of Colours and criticisms of Isaac Newton, and the writings of Immanuel Kant.[citation needed]
+Studies in Vienna
+At the age of 18, Gödel joined his brother at the University of Vienna.
+By that time, he had already mastered university-level mathematics.
+Although initially intending to study theoretical physics, he also attended courses on mathematics and philosophy.
+During this time, he adopted ideas of mathematical realism.
+He read Kant's Metaphysische Anfangsgründe der Naturwissenschaft, and participated in the Vienna Circle with Moritz Schlick, Hans Hahn, and Rudolf Carnap.
+Gödel then studied number theory, but when he took part in a seminar run by Moritz Schlick which studied Bertrand Russell's book Introduction to Mathematical Philosophy, he became interested in mathematical logic.
+According to Gödel, mathematical logic was "a science prior to all others, which contains the ideas and principles underlying all sciences."
+Attending a lecture by David Hilbert in Bologna on completeness and consistency in mathematical systems may have set Gödel's life course.
+In 1928, Hilbert and Wilhelm Ackermann published Grundzüge der theoretischen Logik (Principles of Mathematical Logic), an introduction to first-order logic in which the problem of completeness was posed: "Are the axioms of a formal system sufficient to derive every statement that is true in all models of the system?"
+This problem became the topic that Gödel chose for his doctoral work.
+In 1929, at the age of 23, he completed his doctoral dissertation under Hans Hahn's supervision.
+In it, he established his eponymous completeness theorem regarding the first-order predicate calculus.
+He was awarded his doctorate in 1930, and his thesis (accompanied by some additional work) was published by the Vienna Academy of Science.
+Career
+Incompleteness theorems
+Kurt Gödel's achievement in modern logic is singular and monumental—indeed it is more than a monument, it is a landmark which will remain visible far in space and time. ... The subject of logic has certainly completely changed its nature and possibilities with Gödel's achievement.— John von Neumann
+In 1930 Gödel attended the Second Conference on the Epistemology of the Exact Sciences, held in Königsberg, 5–7 September.
+Here he delivered his incompleteness theorems.
+Gödel published his incompleteness theorems in Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme (called in English "On Formally Undecidable Propositions of Principia Mathematica and Related Systems"). In that article, he proved for any computable axiomatic system that is powerful enough to describe the arithmetic of the natural numbers (e.g., the Peano axioms or Zermelo–Fraenkel set theory with the axiom of choice), that:
+If a (logical or axiomatic formal) system is omega-consistent, it cannot be syntactically complete.
+The consistency of axioms cannot be proved within their own system.
+These theorems ended a half-century of attempts, beginning with the work of Gottlob Frege and culminating in Principia Mathematica and Hilbert's Program, to find a non-relatively consistent axiomatization sufficient for number theory (that was to serve as the foundation for other fields of mathematics).
+In hindsight, the basic idea at the heart of the incompleteness theorem is rather simple.
+Gödel essentially constructed a formula that claims that it is unprovable in a given formal system.
+If it were provable, it would be false.
+Thus there will always be at least one true but unprovable statement.
+That is, for any computably enumerable set of axioms for arithmetic (that is, a set that can in principle be printed out by an idealized computer with unlimited resources), there is a formula that is true of arithmetic, but which is not provable in that system.
+To make this precise, however, Gödel needed to produce a method to encode (as natural numbers) statements, proofs, and the concept of provability; he did this using a process known as Gödel numbering.
+In his two-page paper Zum intuitionistischen Aussagenkalkül (1932) Gödel refuted the finite-valuedness of intuitionistic logic.
+In the proof, he implicitly used what has later become known as Gödel–Dummett intermediate logic (or Gödel fuzzy logic).
+Mid-1930s: further work and U.S. visits
+Gödel earned his habilitation at Vienna in 1932, and in 1933 he became a Privatdozent (unpaid lecturer) there.
+In 1933 Adolf Hitler came to power in Germany, and over the following years the Nazis rose in influence in Austria, and among Vienna's mathematicians.
+In June 1936, Moritz Schlick, whose seminar had aroused Gödel's interest in logic, was assassinated by one of his former students, Johann Nelböck.
+This triggered "a severe nervous crisis" in Gödel.
+He developed paranoid symptoms, including a fear of being poisoned, and spent several months in a sanitarium for nervous diseases.
+In 1933, Gödel first traveled to the U.S., where he met Albert Einstein, who became a good friend.
+He delivered an address to the annual meeting of the American Mathematical Society.
+During this year, Gödel also developed the ideas of computability and recursive functions to the point where he was able to present a lecture on general recursive functions and the concept of truth.
+This work was developed in number theory, using Gödel numbering.
+In 1934, Gödel gave a series of lectures at the Institute for Advanced Study (IAS) in Princeton, New Jersey, titled On undecidable propositions of formal mathematical systems.
+Stephen Kleene, who had just completed his PhD at Princeton, took notes of these lectures that have been subsequently published.
+Gödel visited the IAS again in the autumn of 1935. The travelling and the hard work had exhausted him and the next year he took a break to recover from a depressive episode.
+He returned to teaching in 1937. During this time, he worked on the proof of consistency of the axiom of choice and of the continuum hypothesis; he went on to show that these hypotheses cannot be disproved from the common system of axioms of set theory.
+He married Adele Nimbursky [es ;  ast] (née Porkert, 1899–1981), whom he had known for over 10 years, on September 20, 1938. Gödel's parents had opposed their relationship because she was a divorced dancer, six years older than he was.
+Subsequently, he left for another visit to the United States, spending the autumn of 1938 at the IAS and publishing Consistency of the axiom of choice and of the generalized continuum-hypothesis with the axioms of set theory, a classic of modern mathematics.
+In that work he introduced the constructible universe, a model of set theory in which the only sets that exist are those that can be constructed from simpler sets.
+Gödel showed that both the axiom of choice (AC) and the generalized continuum hypothesis (GCH) are true in the constructible universe, and therefore must be consistent with the Zermelo–Fraenkel axioms for set theory (ZF). This result has had considerable consequences for working mathematicians, as it means they can assume the axiom of choice when proving the Hahn–Banach theorem.
+Paul Cohen later constructed a model of ZF in which AC and GCH are false; together these proofs mean that AC and GCH are independent of the ZF axioms for set theory.
+Gödel spent the spring of 1939 at the University of Notre Dame.
+Princeton, Einstein, U.S. citizenship
+After the Anschluss on 12 March 1938, Austria had become a part of Nazi Germany.
+Germany abolished the title Privatdozent, so Gödel had to apply for a different position under the new order.
+His former association with Jewish members of the Vienna Circle, especially with Hahn, weighed against him.
+The University of Vienna turned his application down.
+His predicament intensified when the German army found him fit for conscription.
+World War II started in September 1939.
+Before the year was up, Gödel and his wife left Vienna for Princeton.
+To avoid the difficulty of an Atlantic crossing, the Gödels took the Trans-Siberian Railway to the Pacific, sailed from Japan to San Francisco (which they reached on March 4, 1940), then crossed the US by train to Princeton.
+There Gödel accepted a position at the Institute for Advanced Study (IAS), which he had previously visited during 1933–34.
+Albert Einstein was also living at Princeton during this time.
+Gödel and Einstein developed a strong friendship, and were known to take long walks together to and from the Institute for Advanced Study.
+The nature of their conversations was a mystery to the other Institute members.
+Economist Oskar Morgenstern recounts that toward the end of his life Einstein confided that his "own work no longer meant much, that he came to the Institute merely ... to have the privilege of walking home with Gödel".
+Gödel and his wife, Adele, spent the summer of 1942 in Blue Hill, Maine, at the Blue Hill Inn at the top of the bay.
+Gödel was not merely vacationing but had a very productive summer of work.
+Using Heft 15 [volume 15] of Gödel's still-unpublished Arbeitshefte [working notebooks], John W. Dawson Jr. conjectures that Gödel discovered a proof for the independence of the axiom of choice from finite type theory, a weakened form of set theory, while in Blue Hill in 1942. Gödel's close friend Hao Wang supports this conjecture, noting that Gödel's Blue Hill notebooks contain his most extensive treatment of the problem.
+On December 5, 1947, Einstein and Morgenstern accompanied Gödel to his U.S. citizenship exam, where they acted as witnesses.
+Gödel had confided in them that he had discovered an inconsistency in the U.S. Constitution that could allow the U.S. to become a dictatorship; this has since been dubbed Gödel's Loophole.
+Einstein and Morgenstern were concerned that their friend's unpredictable behavior might jeopardize his application.
+The judge turned out to be Phillip Forman, who knew Einstein and had administered the oath at Einstein's own citizenship hearing.
+Everything went smoothly until Forman happened to ask Gödel if he thought a dictatorship like the Nazi regime could happen in the U.S. Gödel then started to explain his discovery to Forman.
+Forman understood what was going on, cut Gödel off, and moved the hearing on to other questions and a routine conclusion.
+Gödel became a permanent member of the Institute for Advanced Study at Princeton in 1946. Around this time he stopped publishing, though he continued to work.
+He became a full professor at the Institute in 1953 and an emeritus professor in 1976.
+During his time at the institute, Gödel's interests turned to philosophy and physics.
+In 1949, he demonstrated the existence of solutions involving closed timelike curves, to Einstein's field equations in general relativity.
+He is said to have given this elaboration to Einstein as a present for his 70th birthday.
+His "rotating universes" would allow time travel to the past and caused Einstein to have doubts about his own theory.
+His solutions are known as the Gödel metric (an exact solution of the Einstein field equation).
+He studied and admired the works of Gottfried Leibniz, but came to believe that a hostile conspiracy had caused some of Leibniz's works to be suppressed.
+To a lesser extent he studied Immanuel Kant and Edmund Husserl.
+In the early 1970s, Gödel circulated among his friends an elaboration of Leibniz's version of Anselm of Canterbury's ontological proof of God's existence.
+This is now known as Gödel's ontological proof.
+Awards and honours
+Gödel was awarded (with Julian Schwinger) the first Albert Einstein Award in 1951, and was also awarded the National Medal of Science, in 1974. Gödel was elected a resident member of the American Philosophical Society in 1961 and a Foreign Member of the Royal Society (ForMemRS) in 1968. He was a Plenary Speaker of the ICM in 1950 in Cambridge, Massachusetts.
+The Gödel Prize, an annual prize for outstanding papers in the area of theoretical computer science, is named after him.
+Gravestone of Kurt and Adele Gödel in the Princeton, N.J., cemetery
+Later life and death
+Later in his life, Gödel suffered periods of mental instability and illness.
+Following the assassination of his close friend Moritz Schlick, Gödel developed an obsessive fear of being poisoned, and would eat only food prepared by his wife Adele.
+Adele was hospitalized beginning in late 1977, and in her absence Gödel refused to eat; he weighed 29 kilograms (65 lb) when he died of "malnutrition and inanition caused by personality disturbance" in Princeton Hospital on January 14, 1978. He was buried in Princeton Cemetery.
+Adele died in 1981.
+Religious views
+Gödel believed that God was personal, and called his philosophy "rationalistic, idealistic, optimistic, and theological".
+Gödel believed in an afterlife, saying, "Of course this supposes that there are many relationships which today's science and received wisdom haven't any inkling of.
+But I am convinced of this [the afterlife], independently of any theology." It is "possible today to perceive, by pure reasoning" that it "is entirely consistent with known facts." "If the world is rationally constructed and has meaning, then there must be such a thing [as an afterlife]."
+In an unmailed answer to a questionnaire, Gödel described his religion as "baptized Lutheran (but not member of any religious congregation). My belief is theistic, not pantheistic, following Leibniz rather than Spinoza." Of religion(s) in general, he said: "Religions are, for the most part, bad—but religion is not". According to his wife Adele, "Gödel, although he did not go to church, was religious and read the Bible in bed every Sunday morning", while of Islam, he said, "I like Islam: it is a consistent [or consequential] idea of religion and open-minded."
+Legacy
+The Kurt Gödel Society, founded in 1987, was named in his honor.
+It is an international organization for the promotion of research in logic, philosophy, and the history of mathematics.
+The University of Vienna hosts the Kurt Gödel Research Center for Mathematical Logic.
+The Association for Symbolic Logic has invited an annual Kurt Gödel lecturer each year since 1990. Gödel's Philosophical Notebooks are edited at the Kurt Gödel Research Centre which is situated at the Berlin-Brandenburg Academy of Sciences and Humanities in Germany.
+Five volumes of Gödel's collected works have been published.
+The first two include his publications; the third includes unpublished manuscripts from his Nachlass, and the final two include correspondence.
+In 2005 John Dawson published a biography of Gödel, Logical Dilemmas: The Life and Work of Kurt Gödel (A. K. Peters, Wellesley, MA, ISBN 1-56881-256-6). Stephen Budiansky's book about Gödel's life, Journey to the Edge of Reason: The Life of Kurt Gödel (W. W. Norton & Company, New York City, NY, ISBN 978-0-393-35820-9), was a New York Times Critics' Top Book of 2021.
+Douglas Hofstadter wrote the 1979 book Gödel, Escher, Bach to celebrate the work and ideas of Gödel, M. C. Escher and Johann Sebastian Bach.
+It partly explores the ramifications of the fact that Gödel's incompleteness theorem can be applied to any Turing-complete computational system, which may include the human brain.
+Gödel was also one of four mathematicians examined in David Malone's 2008 BBC documentary Dangerous Knowledge.
+Lou Jacobi plays Gödel in the 1994 film I.Q.
+Bibliography
+Important publications
+In German:
+In English:
+Princeton University Press.
+Cambridge Univ.
+Press: 470–85.
+In English translation:
+Kurt Gödel, 1992. On Formally Undecidable Propositions Of Principia Mathematica And Related Systems, tr. B. Meltzer, with a comprehensive introduction by Richard Braithwaite.
+Dover reprint of the 1962 Basic Books edition.
+Kurt Gödel, 2000. On Formally Undecidable Propositions Of Principia Mathematica And Related Systems, tr.
+Martin Hirzel
+Jean van Heijenoort, 1967. A Source Book in Mathematical Logic, 1879–1931. Harvard Univ.
+Press.
+"My philosophical viewpoint", c. 1960, unpublished.
+"The modern development of the foundations of mathematics in the light of philosophy", 1961, unpublished.
+Collected Works: Oxford University Press: New York.  Editor-in-chief: Solomon Feferman.
+Volume I: Publications 1929–1936 ISBN 978-0-19-503964-1 / Paperback: ISBN 978-0-19-514720-9,
+Volume II: Publications 1938–1974 ISBN 978-0-19-503972-6 / Paperback: ISBN 978-0-19-514721-6,
+Volume III: Unpublished Essays and Lectures ISBN 978-0-19-507255-6 / Paperback: ISBN 978-0-19-514722-3,
+Volume IV: Correspondence, A–G ISBN 978-0-19-850073-5,
+Volume V: Correspondence, H–Z ISBN 978-0-19-850075-9.
+Philosophische Notizbücher / Philosophical Notebooks: De Gruyter: Berlin/München/Boston.
+Editor: Eva-Maria Engelen [de].
+Volume 1: Philosophie I Maximen 0 / Philosophy I Maxims 0 ISBN 978-3-11-058374-8.
+Volume 2: Zeiteinteilung (Maximen) I und II / Time Management (Maxims) I and II ISBN 978-3-11-067409-5.
+Volume 3: Maximen III / Maxims III ISBN 978-3-11-075325-7
+See also
+Biography portal
+Philosophy portal
+Gödel machine
+Gödel fuzzy logic
+Gödel–Löb logic
+Gödel Prize
+Gödel's ontological proof
+Infinite-valued logic
+List of Austrian scientists
+List of pioneers in computer science
+Mathematical Platonism
+Original proof of Gödel's completeness theorem
+Primitive recursive functional
+Strange loop
+Tarski's undefinability theorem
+World Logic Day
+Notes
+a b Kreisel, G. (1980). "Kurt Godel. 28 April 1906–14 January 1978". Biographical Memoirs of Fellows of the Royal Society. 26: 148–224. doi:10.1098/rsbm.1980.0005.
+"Gödel". Merriam-Webster Dictionary.
+a b For instance, in their "Principia Mathematica " (Stanford Encyclopedia of Philosophy edition).
+Smullyan, R. M. (1992). Gödel's Incompleteness Theorems.
+New York, Oxford: Oxford University Press, ch. V.
+Smullyan, R. M. (1992). Gödel's Incompleteness Theorems.
+New York, Oxford: Oxford University Press, ch.
+IX.
+Dawson 1997, pp. 3–4.
+Dawson 1997, p. 12
+Procházka 2008, pp. 30–34.
+Dawson 1997, p. 15.
+Gödel, Kurt (1986). Collected works.
+Feferman, Solomon.
+Oxford. p. 37. ISBN 0-19-503964-5. OCLC 12371326.
+Balaguer, Mark. "Kurt Godel". Britannica School High.
+Encyclopædia Britannica, Inc.
+Retrieved June 3, 2019.
+Kim, Alan (January 1, 2015).  Zalta, Edward N. (ed.). Johann Friedrich Herbart (Winter 2015 ed.).
+Dawson 1997, p. 24.
+At the University of Vienna, Kurt Gödel attended several mathematics and philosophy courses side by side with Hermann Broch, who was then in his early forties.
+See: Sigmund, Karl; Dawson Jr., John W.; Mühlberger, Kurt (2007). Kurt Gödel: Das Album - The Album.
+Springer-Verlag. p. 27. ISBN 978-3-8348-0173-9.
+Gleick, J. (2011) The Information: A History, a Theory, a Flood, London, Fourth Estate, p. 181.
+Halmos, P.R. (April 1973). "The Legend of von Neumann". The American Mathematical Monthly. 80 (4): 382–94. doi:10.1080/00029890.1973.11993293.
+Stadler, Friedrich (2015). The Vienna Circle: Studies in the Origins, Development, and Influence of Logical Empiricism.
+Springer.
+ISBN 978-3-319-16561-5.
+Casti, John L.; Depauli, Werner; Koppe, Matthias; Weismantel, Robert (2001). Gödel : a life of logic.
+Mathematics of Operations Research.
+Vol. 31. Cambridge, Mass.: Basic Books. p. 147. arXiv:math/0410111. doi:10.1287/moor.1050.0169. ISBN 978-0-7382-0518-2. S2CID 9054486.. From p. 80, which quotes Rudolf Gödel, Kurt's brother and a medical doctor.
+The words "a severe nervous crisis", and the judgement that the Schlick assassination was its trigger, are from the Rudolf Gödel quote.
+Rudolf knew Kurt well in those years.
+Dawson 1997, pp. 110–12
+Hutchinson Encyclopedia (1988), p. 518
+Gödel, Kurt (November 9, 1938). "The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis". Proceedings of the National Academy of Sciences of the United States of America. 24 (12): 556–57. Bibcode:1938PNAS...24..556G. doi:10.1073/pnas.24.12.556. ISSN 0027-8424. PMC 1077160. PMID 16577857.
+Dawson, John W. Jr. "Kurt Gödel at Notre Dame" (PDF). p. 4. the Mathematics department at the University of Notre Dame was host ... for a single semester in the spring of 1939 [to] Kurt Gödel
+"Kurt Gödel". Institute for Advanced Study.
+December 9, 2019.
+Goldstein 2005, p. 33
+Dawson 1997, pp. 179–80. The story of Gödel's citizenship hearing is repeated in many versions.
+Dawson's account is the most carefully researched, but was written before the rediscovery of Morgenstern's written account.
+Most other accounts appear to be based on Dawson, hearsay or speculation.
+Oskar Morgenstern (September 13, 1971). "History of the Naturalization of Kurt Gödel" (PDF). Retrieved April 16, 2019.
+"Kurt Gödel – Institute for Advanced Study". Retrieved December 1, 2015.
+Gödel, Kurt (July 1, 1949). "An Example of a New Type of Cosmological Solutions of Einstein's Field Equations of Gravitation". Rev.
+Mod.
+Phys. 21 (447): 447–450. Bibcode:1949RvMP...21..447G. doi:10.1103/RevModPhys.21.447.
+"Das Genie & der Wahnsinn". Der Tagesspiegel (in German). January 13, 2008.
+Dawson, John W. Jr. (2005). Logical Dilemmas: The Life and Work of Kurt Gödel.
+A K Peters. p. 166. ISBN 978-1-56881-256-4.
+"The President's National Medal of Science: Recipient Details | NSF – National Science Foundation". , 2016.
+"APS Member History". search.amphilsoc.org.
+Retrieved January 28, 2021.
+Gödel, Kurt (1950). "Rotating universes in general relativity theory" (PDF). In: Proceedings of the International Congress of Mathematicians, Cambridge, Massachusetts, August 30–September 6, 1950. Vol. 1. pp. 175–81.
+"Tragic deaths in science: Kurt Gödel - looking over the edge of reason - Paperpile".
+Davis, Martin (May 4, 2005). "Gödel's universe". Nature. 435 (7038): 19–20. Bibcode:2005Natur.435...19D. doi:10.1038/435019a.
+Toates, Frederick; Olga Coschug Toates (2002). Obsessive Compulsive Disorder: Practical Tried-and-Tested Strategies to Overcome OCD. Class Publishing. p. 221. ISBN 978-1-85959-069-0.
+Dawson, John W. (June 1, 2006). "Gödel and the limits of logic". Plus.
+University of Cambridge.
+Retrieved November 1, 2020.
+Tucker McElroy (2005). A to Z of Mathematicians.
+Infobase Publishing. p. 118. ISBN 978-0-8160-5338-4. Gödel had a happy childhood, and was called "Mr.
+Why" by his family, due to his numerous questions.
+He was baptized as a Lutheran, and re-mained a theist (a believer in a personal God) throughout his life.
+Wang 1996, p. 8.
+Wang 1996, p. 104-105.
+Gödel's answer to a special questionnaire sent him by the sociologist Burke Grandjean.
+This answer is quoted directly in Wang 1987, p. 18, and indirectly in Wang 1996, p. 112. It's also quoted directly in Dawson 1997, p. 6, who cites Wang 1987. The Grandjean questionnaire is perhaps the most extended autobiographical item in Gödel's papers.
+Gödel filled it out in pencil and wrote a cover letter, but he never returned it. "Theistic" is italicized in both Wang 1987 and Wang 1996. It is possible that this italicization is Wang's and not Gödel's.
+The quote follows Wang 1987, with two corrections taken from Wang 1996. Wang 1987 reads "Baptist Lutheran" where Wang 1996 has "baptized Lutheran". Wang 1987 has "rel. cong.", which in Wang 1996 is expanded to "religious congregation".
+Wang 1996, p. 316.
+Wang 1996, p. 51.
+Wang 1996, p. 148, 4.4.3. It is one of Gödel's observations, made between 16 November and 7 December 1975, which Wang found hard to classify under the main topics considered elsewhere in the book.
+"Times Critics' Top Books of 2021". The New York Times.
+December 15, 2021. Retrieved July 5, 2022. 
+"Dangerous Knowledge". BBC. June 11, 2008. Retrieved October 6, 2009.
+Kurt Godel (1931). "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme, I" [On formally undecidable propositions of Principia Mathematica and related systems I] (PDF). Monatshefte für Mathematik und Physik. 38: 173–98. doi:10.1007/BF01700692. S2CID 197663120.
+References
+Dawson, John W (1997), Logical dilemmas: The life and work of Kurt Gödel, Wellesley, MA: AK Peters.
+Goldstein, Rebecca (2005), Incompleteness: The Proof and Paradox of Kurt Gödel, New York: W.W. Norton & Co, ISBN 978-0-393-32760-1.
+Wang, Hao (1987), Reflections on Kurt Gödel, Cambridge: MIT Press, ISBN 0-262-73087-1
+Wang, Hao (1996), A Logical Journey: From Gödel to Philosophy, Cambridge: MIT Press, ISBN 0-262-23189-1
+Further reading
+Stephen Budiansky, 2021. Journey to the Edge of Reason: The Life of Kurt Gödel. W.W. Norton & Company.
+Casti, John L; DePauli, Werner (2000), Gödel: A Life of Logic, Cambridge, MA: Basic Books (Perseus Books Group), ISBN 978-0-7382-0518-2.
+Dawson, John W, Jr (1996), Logical Dilemmas: The Life and Work of Kurt Gödel, AK Peters.
+Dawson, John W, Jr (1999), "Gödel and the Limits of Logic", Scientific American, 280 (6): 76–81, Bibcode:1999SciAm.280f..76D, doi:10.1038/scientificamerican0699-76, PMID 10048234.
+Franzén, Torkel (2005), Gödel's Theorem: An Incomplete Guide to Its Use and Abuse, Wellesley, MA: AK Peters.
+Ivor Grattan-Guinness, 2000. The Search for Mathematical Roots 1870–1940. Princeton Univ.
+Press.
+Hämeen-Anttila, Maria (2020). Gödel on Intuitionism and Constructive Foundations of Mathematics (Ph.D. thesis). Helsinki: University of Helsinki.
+ISBN 978-951-51-5922-9.
+Jaakko Hintikka, 2000. On Gödel.
+Wadsworth.
+Douglas Hofstadter, 1980. Gödel, Escher, Bach.
+Vintage.
+Stephen Kleene, 1967. Mathematical Logic.
+Dover paperback reprint c. 2001.
+Stephen Kleene, 1980. Introduction to Metamathematics.
+North Holland ISBN 0-7204-2103-9 (Ishi Press paperback. 2009. ISBN 978-0-923891-57-2)
+J.R. Lucas, 1970. The Freedom of the Will.
+Clarendon Press, Oxford.
+Ernest Nagel and Newman, James R., 1958. Gödel's Proof.
+New York Univ.
+Press.
+Procházka, Jiří, 2006, 2006, 2008, 2008, 2010. Kurt Gödel: 1906–1978: Genealogie.
+ITEM, Brno.
+Volume I. Brno 2006, ISBN 80-902297-9-4. In German, English.
+Volume II. Brno 2006, ISBN 80-903476-0-6. In German, English.
+Volume III. Brno 2008, ISBN 80-903476-4-9. In German, English.
+Volume IV. Brno, Princeton 2008, ISBN 978-80-903476-5-6. In German, English Volume V, Brno, Princeton 2010, ISBN 80-903476-9-X. In German, English.
+Procházka, Jiří, 2012. "Kurt Gödel: 1906–1978: Historie". ITEM, Brno, Wien, Princeton.
+Volume I. ISBN 978-80-903476-2-5. In German, English.
+Ed Regis, 1987. Who Got Einstein's Office? Addison-Wesley Publishing Company, Inc.
+Raymond Smullyan, 1992. Godel's Incompleteness Theorems.
+Oxford University Press.
+Olga Taussky-Todd, 1983. Remembrances of Kurt Gödel.
+Engineering & Science, Winter 1988.
+Gödel, Alois, 2006. Brünn 1679–1684. ITEM, Brno 2006, edited by Jiří Procházka, ISBN 80-902297-8-6
+Procházka, Jiří 2017. "Kurt Gödel: 1906–1978: Curriculum vitae". ITEM, Brno, Wien, Princeton 2017. Volume I. (ISBN 978-80-903476-9-4). In German, English.
+Procházka, Jiří 2019. "Kurt Gödel 1906-1978: Curriculum vitae". ITEM, Brno, Wien, Princeton 2019. Volume II. (ISBN 978-80-903476-1-8). In German, English.
+Procházka, Jiří 2O2O. "Kurt Gödel: 19O6-1978. Curriculum vitae". ITEM, Brno, Wien, Princeton 2020. Volume III. (ISBN 978-80-905148-1-2). In German, English. 223 Pages.
+Yourgrau, Palle, 1999. Gödel Meets Einstein: Time Travel in the Gödel Universe.
+Chicago: Open Court.
+Yourgrau, Palle, 2004. A World Without Time: The Forgotten Legacy of Gödel and Einstein.
+Basic Books.
+ISBN 978-0-465-09293-2. Reviewed by John Stachel in the Notices of the American Mathematical Society (54 (7), pp. 861–68).
+External links
+Wikimedia Commons has media related to Kurt Gödel.
+Wikiquote has quotations related to Kurt Gödel.
+Weisstein, Eric Wolfgang (ed.). "Gödel, Kurt (1906–1978)". ScienceWorld.
+Kennedy, Juliette. "Kurt Gödel".  In Zalta, Edward N. (ed.). Stanford Encyclopedia of Philosophy.
+Time Bandits: an article about the relationship between Gödel and Einstein by Jim Holt
+Notices of the AMS, April 2006, Volume 53, Number 4 Kurt Gödel Centenary Issue
+Paul Davies and Freeman Dyson discuss Kurt Godel
+"Gödel and the Nature of Mathematical Truth" Edge: A Talk with Rebecca Goldstein on Kurt Gödel.
+It's Not All In The Numbers: Gregory Chaitin Explains Gödel's Mathematical Complexities.
+Gödel photo gallery.
+Kurt Gödel
+National Academy of Sciences Biographical Memoir
+Set theoryOverview
+Set (mathematics)
+Axioms
+Adjunction
+Choice
+countable
+dependent
+global
+Constructibility (V=L)
+Determinacy
+Extensionality
+Infinity
+Limitation of size
+Pairing
+Power set
+Regularity
+Union
+Martin's axiom
+Axiom schema
+replacement
+specification
+Operations
+Cartesian product
+Complement (i.e. set difference)
+De Morgan's laws
+Disjoint union
+Identities
+Intersection
+Power set
+Symmetric difference
+Union
+ConceptsMethods
+Cardinality
+Cardinal number (large)
+Class
+Constructible universe
+Continuum hypothesis
+Diagonal argument
+Element
+ordered pair
+tuple
+Family
+Forcing
+One-to-one correspondence
+Ordinal number
+Set-builder notation
+Transfinite induction
+Venn diagram
+Set types
+Amorphous
+Countable
+Empty
+Finite (hereditarily)
+Filter
+base
+subbase
+Ultrafilter
+Fuzzy
+Infinite (Dedekind-infinite)
+Recursive
+Singleton
+Subset · Superset
+Transitive
+Uncountable
+Universal
+Theories
+Alternative
+Axiomatic
+Naive
+Cantor's theorem
+Zermelo
+General
+Principia Mathematica
+New Foundations
+Zermelo–Fraenkel 
+von Neumann–Bernays–Gödel 
+Morse–Kelley
+Kripke–Platek
+Tarski–Grothendieck
+ParadoxesProblems
+Russell's paradox
+Suslin's problem
+Burali-Forti paradox
+Set theorists
+Abraham Fraenkel
+Bertrand Russell
+Ernst Zermelo
+Georg Cantor
+John von Neumann
+Kurt Gödel
+Paul Bernays
+Paul Cohen
+Richard Dedekind
+Thomas Jech
+Thoralf Skolem
+Willard Quine
+United States National Medal of Science laureatesBehavioral and social science1960s
+Neal Elgar Miller
+Herbert A. Simon
+Anne Anastasi
+George J. Stigler
+Milton Friedman
+Leonid Hurwicz
+Patrick Suppes
+George A. Miller
+Eleanor J. Gibson
+Robert K. Merton
+Roger N. Shepard
+Paul Samuelson
+William K. Estes
+William Julius Wilson
+Robert M. Solow
+Gary Becker
+R. Duncan Luce
+Kenneth Arrow
+Gordon H. Bower
+Michael I. Posner
+Mortimer Mishkin
+Anne Treisman
+Robert Axelrod
+Albert Bandura
+Biological sciences1960s
+C. B. van Niel
+Theodosius Dobzhansky
+Marshall W. Nirenberg
+Francis P. Rous
+George G. Simpson
+Donald D. Van Slyke
+Edward F. Knipling
+Fritz Albert Lipmann
+William C. Rose
+Sewall Wright
+Kenneth S. Cole
+Harry F. Harlow
+Michael Heidelberger
+Alfred H. Sturtevant
+Horace Barker
+Bernard B. Brodie
+Detlev W. Bronk
+Jay Lush
+Burrhus Frederic Skinner
+Robert Huebner
+Ernst Mayr
+Barbara McClintock
+Albert B. Sabin
+Daniel I. Arnon
+Earl W. Sutherland Jr.
+Britton Chance
+Erwin Chargaff
+James V. Neel
+James Augustine Shannon
+Hallowell Davis
+Paul Gyorgy
+Sterling B. Hendricks
+Orville Alvin Vogel
+Roger Guillemin
+Keith Roberts Porter
+Efraim Racker
+E. O. Wilson
+Robert H. Burris
+Elizabeth C. Crosby
+Arthur Kornberg
+Severo Ochoa
+Earl Reece Stadtman
+George Ledyard Stebbins
+Paul Alfred Weiss
+Philip Handler
+Seymour Benzer
+Glenn W. Burton
+Mildred Cohn
+Howard L. Bachrach
+Paul Berg
+Wendell L. Roelofs
+Berta Scharrer
+Stanley Cohen
+Donald A. Henderson
+Vernon B. Mountcastle
+George Emil Palade
+Joan A. Steitz
+Michael E. DeBakey
+Theodor O. Diener
+Harry Eagle
+Har Gobind Khorana
+Rita Levi-Montalcini
+Michael S. Brown
+Stanley Norman Cohen
+Joseph L. Goldstein
+Maurice R. Hilleman
+Eric R. Kandel
+Rosalyn Sussman Yalow
+Katherine Esau
+Viktor Hamburger
+Philip Leder
+Joshua Lederberg
+Roger W. Sperry
+Harland G. Wood
+Baruj Benacerraf
+Herbert W. Boyer
+Daniel E. Koshland Jr.
+Edward B. Lewis
+David G. Nathan
+E. Donnall Thomas
+Mary Ellen Avery
+G. Evelyn Hutchinson
+Elvin A. Kabat
+Robert W. Kates
+Salvador Luria
+Paul A. Marks
+Folke K. Skoog
+Paul C. Zamecnik
+Maxine Singer
+Howard Martin Temin
+Daniel Nathans
+Salome G. Waelsch
+Thomas Eisner
+Elizabeth F. Neufeld
+Alexander Rich
+Ruth Patrick
+James Watson
+Robert A. Weinberg
+Bruce Ames
+Janet Rowley
+David Baltimore
+Jared Diamond
+Lynn Margulis
+Nancy C. Andreasen
+Peter H. Raven
+Carl Woese
+Francisco J. Ayala
+George F. Bass
+Mario R. Capecchi
+Ann Graybiel
+Gene E. Likens
+Victor A. McKusick
+Harold Varmus
+James E. Darnell
+Evelyn M. Witkin
+J. Michael Bishop
+Solomon H. Snyder
+Charles Yanofsky
+Norman E. Borlaug
+Phillip A. Sharp
+Thomas E. Starzl
+Anthony Fauci
+Torsten N. Wiesel
+Rita R. Colwell
+Nina Fedoroff
+Lubert Stryer
+Robert J. Lefkowitz
+Bert W. O'Malley
+Francis S. Collins
+Elaine Fuchs
+J. Craig Venter
+Susan L. Lindquist
+Stanley B. Prusiner
+Ralph L. Brinster
+Rudolf Jaenisch
+Lucy Shapiro
+Leroy Hood
+Sallie Chisholm
+May Berenbaum
+Bruce Alberts
+Rakesh K. Jain
+Stanley Falkow
+Mary-Claire King
+Simon Levin
+Chemistry1960s
+Roger Adams
+F. Albert Cotton
+Gilbert Stork
+Roald Hoffmann
+George C. Pimentel
+Richard N. Zare
+Harry B. Gray
+Yuan Tseh Lee
+Carl S. Marvel
+Frank H. Westheimer
+William S. Johnson
+Walter H. Stockmayer
+Max Tishler
+William O. Baker
+Konrad E. Bloch
+Elias J. Corey
+Richard B. Bernstein
+Melvin Calvin
+Rudolph A. Marcus
+Harden M. McConnell
+Elkan Blout
+Karl Folkers
+John D. Roberts
+Ronald Breslow
+Gertrude B. Elion
+Dudley R. Herschbach
+Glenn T. Seaborg
+Howard E. Simmons Jr.
+Donald J. Cram
+Norman Hackerman
+George S. Hammond
+Thomas Cech
+Isabella L. Karle
+Norman Davidson
+Darleane C. Hoffman
+Harold S. Johnston
+John W. Cahn
+George M. Whitesides
+Stuart A. Rice
+John Ross
+Susan Solomon
+John D. Baldeschwieler
+Ralph F. Hirschmann
+Ernest R. Davidson
+Gábor A. Somorjai
+John I. Brauman
+Stephen J. Lippard
+Tobin J. Marks
+Marvin H. Caruthers
+Peter B. Dervan
+Mostafa A. El-Sayed
+Joanna Fowler
+JoAnne Stubbe
+Stephen J. Benkovic
+Marye Anne Fox
+Jacqueline K. Barton
+Peter J. Stang
+Allen J. Bard
+M. Frederick Hawthorne
+Judith P. Klinman
+Jerrold Meinwald
+Geraldine L. Richmond
+A. Paul Alivisatos
+Engineering sciences1960s
+Theodore von Kármán
+Vannevar Bush
+John Robinson Pierce
+Charles S. Draper
+Othmar H. Ammann
+Hugh L. Dryden
+Clarence L. Johnson
+Warren K. Lewis
+Claude E. Shannon
+Edwin H. Land
+Igor I. Sikorsky
+J. Presper Eckert
+Nathan M. Newmark
+Jack St.
+Clair Kilby
+George E. Mueller
+Harold E. Edgerton
+Richard T. Whitcomb
+Rudolf Kompfner
+Ralph Brazelton Peck
+Abel Wolman
+Manson Benedict
+William Hayward Pickering
+Frederick E. Terman
+Wernher von Braun
+Morris Cohen
+Peter C. Goldmark
+Erwin Wilhelm Müller
+Emmett N. Leith
+Raymond D. Mindlin
+Robert N. Noyce
+Earl R. Parker
+Simon Ramo
+Edward H. Heinemann
+Donald L. Katz
+Bill Hewlett
+George Low
+John G. Trump
+Hans Wolfgang Liepmann
+Tung-Yen Lin
+Bernard M. Oliver
+Robert Byron Bird
+H. Bolton Seed
+Ernst Weber
+Daniel C. Drucker
+Willis M. Hawkins
+George W. Housner
+Harry George Drickamer
+Herbert E. Grier
+Mildred Dresselhaus
+Nick Holonyak Jr.
+George H. Heilmeier
+Luna B. Leopold
+H. Guyford Stever
+Calvin F. Quate
+John Roy Whinnery
+Alfred Y. Cho
+Ray W. Clough
+Hermann A. Haus
+James L. Flanagan
+C. Kumar N. Patel
+Eli Ruckenstein
+Kenneth N. Stevens
+Yuan-Cheng B. Fung
+Andreas Acrivos
+Leo Beranek
+John M. Prausnitz
+Edwin N. Lightfoot
+Jan D. Achenbach
+Robert S. Langer
+David J. Wineland
+Rudolf E. Kálmán
+Amnon Yariv
+Shu Chien
+John B. Goodenough
+Thomas Kailath
+Mathematical, statistical, and computer sciences1960s
+Norbert Wiener
+Solomon Lefschetz
+H. Marston Morse
+Oscar Zariski
+John Milnor
+Paul Cohen
+Jerzy Neyman
+William Feller
+Richard Brauer
+John Tukey
+Kurt Gödel
+John W. Backus
+Shiing-Shen Chern
+George Dantzig
+Kurt Otto Friedrichs
+Hassler Whitney
+Joseph L. Doob
+Donald E. Knuth
+Marshall H. Stone
+Herman Goldstine
+Isadore Singer
+Peter Lax
+Antoni Zygmund
+Raoul Bott
+Michael Freedman
+Ralph E. Gomory
+Joseph B. Keller
+Samuel Karlin
+Saunders Mac Lane
+Donald C. Spencer
+George F. Carrier
+Stephen Cole Kleene
+John McCarthy
+Alberto Calderón
+Allen Newell
+Martin David Kruskal
+John Cocke
+Louis Nirenberg
+Richard Karp
+Stephen Smale
+Shing-Tung Yau
+Cathleen Synge Morawetz
+Felix Browder
+Ronald R. Coifman
+John Griggs Thompson
+Karen Uhlenbeck
+Calyampudi R. Rao
+Elias M. Stein
+James G. Glimm
+Carl R. de Boor
+Dennis P. Sullivan
+Bradley Efron
+Hyman Bass
+Leonard Kleinrock
+Andrew J. Viterbi
+David B. Mumford
+Richard A. Tapia
+S. R. Srinivasa Varadhan
+Solomon W. Golomb
+Barry Mazur
+Alexandre Chorin
+David Blackwell
+Michael Artin
+Physical sciences1960s
+Luis W. Alvarez
+Julian Schwinger
+Harold Urey
+Robert Burns Woodward
+John Bardeen
+Peter Debye
+Leon M. Lederman
+William Rubey
+Jacob Bjerknes
+Subrahmanyan Chandrasekhar
+Henry Eyring
+John H. Van Vleck
+Vladimir K. Zworykin
+Jesse Beams
+Francis Birch
+Gregory Breit
+Louis Hammett
+George Kistiakowsky
+Paul Bartlett
+Herbert Friedman
+Lars Onsager
+Eugene Wigner
+Herbert C. Brown
+Wolfgang Panofsky
+Robert H. Dicke
+Allan R. Sandage
+John C. Slater
+John A. Wheeler
+Saul Winstein
+Carl Djerassi
+Maurice Ewing
+Arie Jan Haagen-Smit
+Vladimir Haensel
+Frederick Seitz
+Robert Rathbun Wilson
+Nicolaas Bloembergen
+Paul Flory
+William Alfred Fowler
+Linus Carl Pauling
+Kenneth Sanborn Pitzer
+Hans A. Bethe
+Joseph O. Hirschfelder
+Lewis Sarett
+Edgar Bright Wilson
+Chien-Shiung Wu
+Samuel Goudsmit
+Herbert S. Gutowsky
+Frederick Rossini
+Verner Suomi
+Henry Taube
+George Uhlenbeck
+Richard P. Feynman
+Herman Mark
+Edward M. Purcell
+John Sinfelt
+Lyman Spitzer
+Victor F. Weisskopf
+Philip W. Anderson
+Yoichiro Nambu
+Edward Teller
+Charles H. Townes
+E. Margaret Burbidge
+Maurice Goldhaber
+Helmut Landsberg
+Walter Munk
+Frederick Reines
+Bruno B. Rossi
+J. Robert Schrieffer
+Solomon J. Buchsbaum
+H. Richard Crane
+Herman Feshbach
+Robert Hofstadter
+Chen-Ning Yang
+Philip Abelson
+Walter Elsasser
+Paul C. Lauterbur
+George Pake
+James A. Van Allen
+D. Allan Bromley
+Paul Ching-Wu Chu
+Walter Kohn
+Norman Foster Ramsey Jr.
+Jack Steinberger
+Arnold O. Beckman
+Eugene Parker
+Robert Sharp
+Henry Stommel
+Allan M. Cormack
+Edwin M. McMillan
+Robert Pound
+Roger Revelle
+Arthur L. Schawlow
+Ed Stone
+Steven Weinberg
+Eugene M. Shoemaker
+Val Fitch
+Vera Rubin
+Albert Overhauser
+Frank Press
+Hans Dehmelt
+Peter Goldreich
+Wallace S. Broecker
+Marshall Rosenbluth
+Martin Schwarzschild
+George Wetherill
+Don L. Anderson
+John N. Bahcall
+James Cronin
+Leo Kadanoff
+Willis E. Lamb
+Jeremiah P. Ostriker
+Gilbert F. White
+Marvin L. Cohen
+Raymond Davis Jr.
+Charles Keeling
+Richard Garwin
+W. Jason Morgan
+Edward Witten
+G. Brent Dalrymple
+Riccardo Giacconi
+Robert N. Clayton
+Ralph A. Alpher
+Lonnie Thompson
+Daniel Kleppner
+Fay Ajzenberg-Selove
+Charles P. Slichter
+Berni Alder
+James E. Gunn
+Yakir Aharonov
+Esther M. Conwell
+Warren M. Washington
+Sidney Drell
+Sandra Faber
+Sylvester James Gates
+Burton Richter
+Sean C. Solomon
+Shirley Ann Jackson
+RelativitySpecialrelativityBackground
+Principle of relativity (Galilean relativity
+Galilean transformation)
+Special relativity
+Doubly special relativity
+Fundamentalconcepts
+Frame of reference
+Speed of light
+Hyperbolic orthogonality
+Rapidity
+Maxwell's equations
+Proper length
+Proper time
+Relativistic mass
+Formulation
+Lorentz transformation
+Phenomena
+Time dilation
+Mass–energy equivalence
+Length contraction
+Relativity of simultaneity
+Relativistic Doppler effect
+Thomas precession
+Ladder paradox
+Twin paradox
+Terrell rotation
+Spacetime
+Light cone
+World line
+Minkowski diagram
+Biquaternions
+Minkowski space
+GeneralrelativityBackground
+Introduction
+Mathematical formulation
+Fundamentalconcepts
+Equivalence principle
+Riemannian geometry
+Penrose diagram
+Geodesics
+Mach's principle
+Formulation
+ADM formalism
+BSSN formalism
+Einstein field equations
+Linearized gravity
+Post-Newtonian formalism
+Raychaudhuri equation
+Hamilton–Jacobi–Einstein equation
+Ernst equation
+Phenomena
+Black hole
+Event horizon
+Singularity
+Two-body problem
+Gravitational waves: astronomy
+detectors (LIGO and collaboration
+Virgo
+LISA Pathfinder
+GEO)
+Hulse–Taylor binary
+Other tests: precession of Mercury
+lensing (together with Einstein cross and Einstein rings)
+redshift
+Shapiro delay
+frame-dragging / geodetic effect (Lense–Thirring precession)
+pulsar timing arrays
+Advancedtheories
+Brans–Dicke theory
+Kaluza–Klein
+Quantum gravity
+Solutions
+Cosmological: Friedmann–Lemaître–Robertson–Walker (Friedmann equations)
+Kasner
+BKL singularity
+Gödel
+Milne
+Spherical: Schwarzschild (interior
+Tolman–Oppenheimer–Volkoff equation)
+Reissner–Nordström
+Lemaître–Tolman
+Axisymmetric: Kerr (Kerr–Newman)
+Weyl−Lewis−Papapetrou
+Taub–NUT
+van Stockum dust
+discs
+Others: pp-wave
+Ozsváth–Schücking metric
+In computational physics: Numerical relativity
+Scientists
+Poincaré
+Lorentz
+Einstein
+Hilbert
+Schwarzschild
+de Sitter
+Weyl
+Eddington
+Friedmann
+Lemaître
+Milne
+Robertson
+Chandrasekhar
+Zwicky
+Wheeler
+Choquet-Bruhat
+Kerr
+Zel'dovich
+Novikov
+Ehlers
+Geroch
+Penrose
+Hawking
+Taylor
+Hulse
+Bondi
+Misner
+Yau
+Thorne
+Weiss
+others
+Category
+Analytic philosophyRelated articlesAreas of focus
+Metaphysics
+Epistemology
+Language
+Mathematics
+Science
+Turns
+Aretaic
+Linguistic
+Logic
+Classical
+Deviant
+Mathematical
+Non-classical
+Paraconsistent
+Philosophical
+Theories
+Anti-realism
+Australian realism
+Causal theory of reference
+Descriptivism
+Emotivism
+Feminism
+Functionalism
+Logical atomism
+Logical positivism
+Marxism
+Neurophilosophy
+Ordinary language
+Pragmatism
+Quietism
+Scientific structuralism
+Sense data
+Concepts
+Analysis (paradox of analysis)
+Analytic–synthetic distinction
+Counterfactual
+Natural kind
+Reflective equilibrium
+Supervenience
+Modality
+Actualism
+Necessity
+Possibility
+Possible world
+Realism
+Rigid designator
+Philosophers
+Noam Chomsky
+William Lane Craig
+Keith Donnellan
+Paul Feyerabend
+Gottlob Frege
+Edmund Gettier
+Jaakko Hintikka
+Giuseppe Peano
+Karl Popper
+Nathan Salmon
+Russ Shafer-Landau
+Ernest Sosa
+Barry Stroud
+Alfred Tarski
+Jan Łukasiewicz
+Michael Walzer
+Nicholas Wolterstorff
+Australian
+David Malet Armstrong
+David Chalmers
+J. L. Mackie
+Peter Singer
+J. J. C. Smart
+Cambridge
+Arif Ahmed
+Charlie Broad
+Casimir Lewy
+Norman Malcolm
+G. E. Moore
+Graham Priest
+Bertrand Russell
+Frank P. Ramsey
+Henry Sidgwick
+Ludwig Wittgenstein
+Oxford
+G. E. M. Anscombe
+J. L. Austin
+Michael Dummett
+Antony Flew
+Philippa Foot
+Peter Geach
+Paul Grice
+R. M. Hare
+Alasdair MacIntyre
+Derek Parfit
+Gilbert Ryle
+John Searle
+P. F. Strawson
+Richard Swinburne
+Charles Taylor
+Bernard Williams
+Timothy Williamson
+Logical positivists
+A. J. Ayer
+Ernest Nagel
+Berlin Circle
+Carl Gustav Hempel
+Hans Reichenbach
+Vienna Circle
+Rudolf Carnap
+Kurt Gödel
+Otto Neurath
+Moritz Schlick
+Harvard
+Roderick Chisholm
+Donald Davidson
+Daniel Dennett
+Nelson Goodman
+Christine Korsgaard
+Thomas Kuhn
+Thomas Nagel
+Robert Nozick
+Hilary Putnam
+W. V. O. Quine
+John Rawls
+Notre Dame
+Robert Audi
+Peter van Inwagen
+Alvin Plantinga
+Pittsburgh School
+Robert Brandom
+Patricia Churchland
+Paul Churchland
+Adolf Grünbaum
+John McDowell
+Ruth Millikan
+Alexander Pruss
+Nicholas Rescher
+Wilfrid Sellars
+Bas van Fraassen
+Pragmatism
+Susan Haack
+Nicholas Rescher
+Morton White
+Princeton
+Alonzo Church
+Jerry Fodor
+David Lewis
+Jaegwon Kim
+Saul Kripke
+Richard Rorty
+Quietism
+James F. Conant
+Alice Crary
+Cora Diamond
+Stanford School
+Nancy Cartwright
+John Dupré
+Peter Galison
+Ian Hacking
+Patrick Suppes
+Category
+Index
+PlatonistsAcademicsOld
+Plato
+Aristotle
+Eudoxus
+Philip of Opus
+Aristonymus
+Coriscus and Erastus of Scepsis
+Demetrius of Amphipolis
+Euaeon of Lampsacus
+Heraclides and Python of Aenus
+Hestiaeus of Perinthus
+Lastheneia of Mantinea
+Timolaus of Cyzicus
+Speusippus
+Axiothea of Phlius
+Heraclides Ponticus
+Menedemus of Pyrrha
+Xenocrates
+Crantor
+Polemon
+Crates of Athens
+SkepticsMiddle
+Arcesilaus
+Diocles of Cnidus
+Lacydes
+Telecles and Evander
+Hegesinus
+New
+Carneades
+Hagnon of Tarsus
+Metrodorus of Stratonicea
+Clitomachus
+Charmadas
+Aeschines of Neapolis
+Philo of Larissa
+Cicero
+Dio of Alexandria
+Middle Platonists
+Antiochus
+Philo of Alexandria
+Plutarch
+Justin Martyr
+Gaius
+Albinus
+Alcinous
+Alexander Peloplaton
+Apuleius
+Atticus
+Maximus of Tyre
+Numenius of Apamea
+Longinus
+Clement of Alexandria
+Origen the Pagan
+Calcidius
+NeoplatonistsAncient
+Ammonius Saccas
+Plotinus
+Disciples
+Origen
+Amelius
+Porphyry
+Iamblichus
+Sopater
+Eustathius of Cappadocia
+Sosipatra
+Aedesius
+Dexippus
+Chrysanthius
+Theodorus of Asine
+Julian
+Sallustius
+Maximus of Ephesus
+Eusebius of Myndus
+Priscus of Epirus
+Antoninus
+Gregory of Nyssa
+Hypatia
+Gaius Marius Victorinus
+Augustine
+Macrobius
+Academy
+Plutarch of Athens
+Asclepigenia
+Hierocles
+Syrianus
+Hermias
+Aedesia
+Proclus
+Ammonius Hermiae
+Asclepiodotus
+Hegias
+Zenodotus
+Marinus
+Agapius
+Isidore
+Damascius
+Simplicius
+Priscian
+Medieval
+Boethius
+John Philoponus
+Olympiodorus
+David the Invincible
+Pseudo-Dionysius the Areopagite
+John Scotus Eriugena
+Islamic Golden Age
+Al-Farabi
+Anselm
+Peter Abelard
+Chartres
+Bernard
+Gilbert
+Thierry
+Henry of Ghent
+Bonaventure
+Theodoric of Freiberg
+Meister Eckhart
+Berthold of Moosburg
+Paul of Venice
+ModernRenaissanceFlorentine Academy
+Plethon
+Marsilio Ficino
+Cristoforo Landino
+Giovanni Pico della Mirandola
+Cambridge
+Ralph Cudworth
+Henry More
+Anne Conway
+Petrus Ramus
+Giordano Bruno
+Blaise Pascal
+Emanuel Swedenborg
+Thomas Taylor
+Ralph Waldo Emerson
+Josiah Royce
+Søren Kierkegaard
+Henri Bergson
+Aleksei LosevContemporaryAnalytic
+Gottlob Frege
+G. E. Moore
+Kurt Gödel
+Alonzo Church
+Roderick Chisholm
+Michael Dummett
+W. V. O. Quine
+David Kaplan
+Saul Kripke
+Alvin Plantinga
+Peter van Inwagen
+Nicholas Wolterstorff
+Crispin Wright
+Edward N. Zalta
+Continental
+Edmund Husserl
+Roman Ingarden
+Leo Strauss
+Miscellaneous
+Philip K. Dick
+Joseph Ratzinger
+Bernard Bolzano
+Authority control General
+ISNI
+VIAF
+WorldCat
+National libraries
+Norway
+Spain
+France (data)
+Catalonia
+Germany
+Italy
+Israel
+United States
+Latvia
+Japan
+Czech Republic
+Australia
+Greece
+Korea
+Croatia
+Netherlands
+Poland
+Sweden
+Biographical dictionaries
+Germany
+Scientific databases
+CiNii (Japan)
+DBLP (computer science)
+MathSciNet
+Mathematics Genealogy Project
+Scopus author
+zbMATH
+Other
+Faceted Application of Subject Terminology
+RERO (Switzerland)
+Social Networks and Archival Context
+SUDOC (France)
+Trove (Australia)
+Retrieved from ""
+Navigation menu
+Personal tools
+Namespaces
+ArticleTalk
+English
+Views
+ReadEditView history
+More
+Search
+Navigation
+Contribute
+Tools
+Print/export
+Download as PDFPrintable version
+In other projects
+Wikimedia CommonsWikiquote
+Languages
+Edit links
+This page was last edited on 4 October 2022, at 19:08 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement

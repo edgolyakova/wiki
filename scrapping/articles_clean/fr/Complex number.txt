@@ -1,0 +1,790 @@
+Nombre complexe — Wikipédia
+Aller au contenu
+Afficher / masquer la barre latérale
+Rechercher
+Créer un compte
+Outils personnels
+Créer un compte
+Se connecter
+Pages pour les contributeurs déconnectés en savoir plus
+Navigation
+Contribuer
+Outils
+Imprimer / exporter
+Créer un livreTélécharger comme PDFVersion imprimable
+Dans d’autres projets
+Langues
+Sur cette version linguistique de Wikipédia, les liens interlangues sont placés en haut à droite du titre de l’article.Aller en haut.
+Sommaire
+déplacer vers la barre latérale
+masquer
+Début
+Afficher / masquer la sous-section Présentation
+Afficher / masquer la sous-section Opérations et relations
+Afficher / masquer la sous-section Construction
+Afficher / masquer la sous-section Développements en mathématiques
+Afficher / masquer la sous-section Emplois en physique et ingénierie
+Afficher / masquer la sous-section Notes et références
+Afficher / masquer la sous-section Voir aussi
+Basculer la table des matières
+Nombre complexe
+Modifier les liens
+français
+Plus
+Un article de Wikipédia, l'encyclopédie libre.
+Pour les articles homonymes, voir complexe.
+Représentation graphique du complexe x + i y = r eiφ à l'aide d'un vecteur.
+Mise en évidence de l'interprétation graphique de son module r et d'un de ses arguments φ.
+En mathématiques, l'ensemble des nombres complexes est créé comme extension de l'ensemble des nombres réels, contenant en particulier un nombre imaginaire noté i[a],[b] tel que i2 = −1. Le carré de (−i) est aussi égal à −1 : (−i)2 = −1.
+Tout nombre complexe peut s'écrire sous la forme a + i b où a et b sont des nombres réels.
+On peut munir l'ensemble des nombres complexes d'une addition et d'une multiplication qui en font un corps commutatif contenant le corps des nombres réels.
+Il est appelé corps des nombres complexes et se note ℂ. La notion de valeur absolue définie sur l'ensemble des nombres réels peut être étendue à l'ensemble des nombres complexes et prend alors le nom de module.
+Mais on ne peut pas munir l'ensemble des nombres complexes d'une relation d'ordre qui en ferait un corps totalement ordonné, c'est-à-dire qu'il n'est pas possible de comparer deux complexes en respectant les règles opératoires valables pour les nombres réels.
+Les nombres complexes furent introduits au XVIe siècle par les mathématiciens italiens Jérôme Cardan, Raphaël Bombelli, Nicolo Fontana, dit Tartaglia, et Ludovico Ferrari afin d'exprimer les solutions des équations du troisième degré en toute généralité par les formules de Cardan, en utilisant notamment des nombres de carré négatif, ainsi que les solutions des équations du quatrième degré (méthode de Ferrari).
+Ce n'est qu'à partir du XIXe siècle, sous l'impulsion de l'abbé Buée et de Jean-Robert Argand (plan d'Argand), puis avec les travaux de Gauss et de Cauchy, que se développe l'aspect géométrique des nombres complexes.
+On les associe à des vecteurs ou des points du plan.
+Les transformations du plan s'expriment alors sous forme de transformations complexes.
+En algèbre, le théorème de d'Alembert-Gauss énonce qu'un polynôme complexe non constant possède toujours au moins une racine complexe.
+Le corps des nombres complexes est dit algébriquement clos.
+On peut ainsi identifier le degré d'un polynôme complexe non nul au nombre de ses racines comptées avec leur ordre de multiplicité.
+En analyse, l'exponentielle complexe permet de simplifier l'étude des séries de Fourier, puis de définir la transformée de Fourier.
+La branche de l'analyse complexe concerne l'étude des fonctions dérivables au sens complexe, appelées fonctions holomorphes.
+En physique, les nombres complexes sont utilisés pour décrire le comportement d'oscillateurs électriques ou les phénomènes ondulatoires en électromagnétisme (Re(eiωt) représentant une sinusoïde). Dans le domaine de l'électricité et notamment de l'électrocinétique, on note souvent j l'unité imaginaire, la notation usuelle pouvant prêter à confusion avec le symbole d'une intensité électrique.
+Ils sont aussi essentiels dans la formulation mathématique de la mécanique quantique.
+L'ensemble de Mandelbrot (en noir), illustration d'un système dynamique dans le plan complexe.
+Présentation
+Les nombres complexes, notés habituellement z, peuvent être présentés sous plusieurs formes, algébriques, polaires, ou géométriques.
+Forme algébrique
+Un nombre complexe z se présente en général sous forme algébrique comme une somme a + ib, où a et b sont des nombres réels quelconques et où i (l’unité imaginaire) est un nombre particulier tel que i2 = –1.
+Le réel a est appelé partie réelle de z et se note Re(z) ou ℜ(z), le réel b est sa partie imaginaire et se note Im(z) ou ℑ(z).
+Deux nombres complexes sont égaux si et seulement s'ils ont la même partie réelle et la même partie imaginaire.
+Un nombre complexe z est dit imaginaire pur ou totalement imaginaire si sa partie réelle est nulle, dans ce cas il s'écrit sous la forme z =ib.
+Un nombre complexe dont la partie imaginaire est nulle est dit réel.
+Le nombre réel 0 est le seul qui soit à la fois réel et imaginaire pur.
+Bien sûr la plupart des nombres complexes ne sont ni réels ni imaginaires purs.
+Dans les textes anciens, de tels nombres, avant de s'appeler « complexes », s'appelaient « imaginaires », ce qui explique l'habitude persistante d'appeler « imaginaires purs » ceux ne comportant pas de partie réelle.
+Forme polaire
+Pour tout couple de réels (a , b) différent du couple (0,0), il existe un réel positif r et une famille d'angles θ déterminés à un multiple de 2π près tels que a = r cos(θ) et b = r sin(θ). Tout nombre complexe non nul peut donc s'écrire sous une forme trigonométrique : z = r (cos(θ) + i sin(θ)) avec r > 0.
+Le réel positif r est appelé le module du complexe z et est noté |z|.
+Le réel θ est appelé un argument du complexe z et est noté arg(z).
+On écrit parfois ce même complexe sous les formes suivantes :
+z = reiθ, forme exponentielle utilisant la formule d'Euler
+z = (r, θ) = r∠θ, forme polaire
+z = r (cosθ + i sinθ) = r cis(θ) (ce qui définit la notation cis)
+Le module du complexe z est la racine carrée de la somme des carrés des parties réelles et imaginaires :
+|
+|
+=
++
+Pour calculer un argument θ à partir de la forme algébrique a + ib, on peut utiliser les fonctions arccos, arcsin ou arctan :
+=
+{
+arccos
+⁡
+si 
+≥
+−
+arccos
+⁡
+si 
+<
+,
+=
+{
+arcsin
+⁡
+si 
+≥
+−
+arcsin
+⁡
+si 
+<
+et
+=
+{
+arctan
+⁡
+si 
+>
+arctan
+⁡
++
+si 
+<
+0.
+Par exemple, les réels strictement positifs ont un argument multiple de 2π, les réels strictement négatifs ont pour argument un multiple impair de π.
+Les imaginaires purs non nuls ont un argument congru à π/2 ou –π/2 modulo 2π, selon le signe de leur partie imaginaire.
+Forme géométrique
+Représentation géométrique d'un nombre complexe.
+Dans un plan complexe 
+muni d'un repère orthonormé 
+;
+,
+, l'image d'un nombre complexe z = a + ib est le point M de coordonnées (a, b), son image vectorielle est le vecteur 
+. Le nombre z est appelé affixe, du point M ou du vecteur 
+(dans ce contexte, affixe est féminin : une affixe).
+Le module |z| est alors la longueur du segment [OM].
+Si z est différent de 0, son image est distincte de l'origine O du repère.
+Est argument de z n'importe quelle mesure θ en radians de l'angle 
+,
+, bien définie à un multiple de 2π près.
+Puisque tous les plans complexes sont canoniquement isomorphes, on parle du plan complexe sans préciser davantage.
+Opérations et relations
+Addition
+Forme algébrique
+Dans l'ensemble des nombres complexes, on définit une addition de la manière suivante :
++
++
++
+=
++
++
++
+;
+Cette opération est associative, commutative, possède un élément neutre (le complexe nul) et tout complexe possède un opposé : opp(a + ib ) = –a +i (–b)
+L'ensemble des nombres complexes muni de l'addition forme donc un groupe commutatif.
+Interprétation géométrique
+Si M et M' sont les points d'affixes z et z', l'image M" de la somme z + z' est définie par la relation 
+″
+=
++
+′
+Pour tout complexe z0, la transformation qui, au point M d'affixe z, associe le point M'  d'affixe z' = z + z0 est une translation de vecteur u d'affixe z0.
+Multiplication
+Forme algébrique
+Dans l'ensemble des nombres complexes, on définit une multiplication de la manière suivante :
++
++
+=
+−
++
++
+Cette opération est associative, commutative, distributive pour l'addition et possède un élément neutre 1. Puisque r × i = i × r, un complexe est noté indifféremment  a + ib ou a + bi
+Ces propriétés permettent d'obtenir l'égalité suivante :
++
+−
+=
++
+Puisque la somme a2 + b2 de deux carrés de nombres réels est un nombre réel strictement positif (sauf si a = b = 0), il existe un inverse à tout nombre complexe non nul avec l'égalité :
++
+=
+−
++
+L'ensemble des nombres complexes munis de l'addition et de la multiplication est donc un corps commutatif.
+De plus, l'ensemble des nombres complexes muni de l'addition et de la multiplication par un réel est un espace vectoriel sur ℝ de dimension 2
+Forme polaire
+Cette écriture est adaptée au calcul du produit de deux nombres complexes du fait des formules d'addition :
+cos
+⁡
++
+=
+cos
+⁡
+cos
+⁡
+−
+sin
+⁡
+sin
+⁡
+sin
+⁡
++
+=
+sin
+⁡
+cos
+⁡
++
+cos
+⁡
+sin
+⁡
+Ces identités, appliquées à la forme trigonométrique des nombres complexes, permettent d'énoncer les règles suivantes : 
+le produit de deux nombres complexes non nuls a pour module le produit des modules et pour argument la somme des arguments ;
+le quotient de deux nombres complexes non nuls a pour module le quotient des modules et pour argument la différence des arguments.
+La forme exponentielle met en évidence ces propriétés
+′
+′
+=
+′
++
+′
+,
+−
+=
+−
+La forme polaire est également bien adaptée pour calculer la puissance d'un nombre complexe par la formule de Moivre :
+=
+[
+cos
+⁡
++
+sin
+⁡
+]
+=
+cos
+⁡
++
+sin
+⁡
+Interprétation géométrique
+Multiplication de 3 + i (triangle rouge) par 2 + i (triangle bleu). Le triangle rouge tourne pour venir se positionner sur l'hypoténuse du triangle bleu puis est agrandi d'un facteur √5 correspondant à la longueur de l'hypoténuse du triangle bleu.
+Si M est le point d'affixe z et si λ est un réel, l'image M' du produit λz est définie par la relation 
+′
+=
+L'action du nombre réel λ par multiplication scalaire s'interprète géométriquement comme une homothétie de centre O et de rapport λ sur le plan complexe.
+Si M est le point d'affixe z et si z0 est un complexe de module 1 et d'argument θ, l'image M' du produit z0z est définie par les relations
+′
+=
+,
+′
+=
+L'action d'un nombre complexe de module 1 par multiplication s'interprète géométriquement comme une rotation de centre l'origine et d'angle l'argument.
+Par composition d'une homothétie et d'une rotation, l'action d'un nombre complexe z non nul par multiplication s'interprète géométriquement comme une similitude directe de centre l'origine, de rapport |z| et d'angle arg(z).
+L'image de l'inverse 1/z de z est l'image de M par l'inversion par rapport au cercle unité, composée avec la symétrie par rapport à l'axe des abscisses.
+Conjugaison
+Article détaillé : Conjugué.
+Représentation géométrique du complexe z et de son conjugué z dans le plan complexe.
+Le complexe conjugué du nombre complexe z = a + ib est a − ib.
+Il est noté z ou z*.
+Le conjugué d'un complexe a donc même partie réelle que le complexe de départ mais une partie imaginaire opposée.
+Le complexe conjugué d'un complexe non nul a même module que le complexe de départ mais un argument opposé.
+Le conjugué d'une somme, d'une différence, d'un produit ou d'un quotient est respectivement la somme, la différence, le produit ou le quotient des conjugués.
+Le conjugué du conjugué d'un complexe est le complexe de départ. L'application de conjugaison est donc un automorphisme involutif.
+Si M est le point d'affixe z, l'image du complexe z est le symétrique de M par rapport à l'axe des abscisses.
+Partie réelle, partie imaginaire et module d'un complexe peuvent se définir à l'aide du complexe et de son conjugué : 
+Re
+=
++
+¯
+,
+Im
+=
+−
+¯
+|
+|
+=
+¯
+Module
+Article détaillé : Module d'un nombre complexe.
+Le module d'un nombre complexe s'interprète, dans le plan complexe comme la distance séparant l'image de ce complexe de l'origine du repère.
+Si M et M ' sont les points d'affixes z et z', |z' - z| est la distance M'M.
+Le seul complexe de module nul est le réel nul.
+Puisque le module du produit ou du quotient de deux complexes non nuls est respectivement le produit ou le quotient de leurs modules, l'application
+∗
++
+∗
+↦
+|
+|
+est un morphisme de groupes multiplicatifs.
+L'interprétation du module comme une distance conduit à l'inégalité triangulaire suivante : 
+|
++
+′
+|
+≤
+|
+|
++
+|
+′
+|
+L'application module est une valeur absolue car elle est strictement positive en dehors de 0, sous-additive et multiplicative.
+Relation d'ordre
+Dans un corps totalement ordonné, tout carré est positif et l'opposé d'un nombre positif non nul est négatif.
+Ces deux propriétés sont en contradiction avec le fait que dans le corps des nombres complexes 1 et son opposé -1 sont tous deux des carrés (de 1 et de i) mais ne peuvent pas être tous deux positifs.
+Il n'est donc pas possible de munir le corps des complexes d'une relation d'ordre total compatible avec les deux opérations.
+On peut cependant munir le corps des complexes d'un ordre partiel compatible avec la somme et le produit en posant :a + ib < a' + i b'  si et seulement si a < a'  et b = b' .On peut également munir l'ensemble des complexes, considéré comme un espace vectoriel sur ℝ, d'une relation d'ordre total, compatible avec l'addition, ainsi qu’avec la multiplication par des réels positifs, grâce à l'ordre lexicographique :a + ib < a' + i b'  si et seulement si a < a'  ou  a = a'  et b < b' . 
+Racine
+Articles détaillés : Racine d'un nombre complexe et Théorème fondamental de l'algèbre.
+La forme polaire d'un complexe permet de mettre en évidence le fait qu'un nombre complexe non nul possède exactement n racines nièmes, de même module égal à n√r et d'argument θ + 2kπ/n.
+Pour tout entier naturel n, l'ensemble des racines nièmes de l'unité Un est un groupe multiplicatif isomorphe au groupe additif ℤ/nℤ des congruences modulo n.
+On peut démontrer que tout polynôme à coefficients complexes possède au moins une racine complexe. C'est le théorème fondamental de l'algèbre.
+Cette propriété fait du corps des complexes un corps algébriquement clos.
+Un polynôme à coefficients complexes est donc entièrement factorisable en produit de polynômes de degré 1 et possède donc un nombre de racines (comptées avec leur ordre de multiplicité) égal au degré du polynôme.
+Exponentiation et logarithme
+Articles détaillés : Formule d'Euler et logarithme complexe.
+La formule d'Euler cosθ + i sinθ = eiθ qui se démontre à l'aide de limite de suites, ou d'équation différentielle permet de justifier la notation exponentielle des nombres complexes.
+La fonction exponentielle se prolonge en une fonction de la variable complexe de la manière suivante :
+exp
+⁡
++
+=
+exp
+⁡
+×
+cos
+⁡
++
+sin
+⁡
+,
+en conservant les propriétés algébriques de l'exponentielle. L'exponentielle complexe est un morphisme du groupe additif (ℂ,+) dans le groupe multiplicatif (ℂ*,×), ℂ* ensemble des nombres complexes non nuls.
+Cependant la fonction logarithme ne peut pas se prolonger en une fonction complexe en gardant ses propriétés.
+Dans l'histoire des nombres complexes, cette découverte a fait l'objet de nombreux échanges de lettres entre mathématiciens tels Jean Bernoulli, Gottfried Wilhelm Leibniz et Leonhard Euler.
+On peut le définir de manière multivaluée en posant
+ln
+⁡
+=
+ln
+⁡
+|
+|
++
+arg
+⁡
+,
+formule dans laquelle arg(z) est défini à un multiple de 2π près.
+Structures
+L'ensemble des nombres complexes est donc un corps commutatif algébriquement clos non totalement ordonnable.
+En fait, le corps des complexes est la clôture algébrique du corps des réels, c'est-à-dire le plus petit corps qui contienne le corps des réels et qui soit algébriquement clos.
+Du point de vue de la théorie de Galois, on peut considérer les automorphismes du corps des complexes : l'identité et la conjugaison sont ses seuls automorphismes continus (on peut remplacer l'hypothèse « continu » par, au choix, « mesurable » ou « tel que l'image de tout réel est un réel »). En supposant l'axiome du choix on peut construire des automorphismes « exotiques » de ce corps : voir Automorphismes de corps non continus de ℂ.
+C'est également un espace vectoriel sur ℝ totalement ordonné par l'ordre lexicographique.
+Construction
+Il existe plusieurs manières courantes de construire le corps des nombres complexes à partir de l'ensemble des nombres réels et de ses opérations arithmétiques élémentaires.
+Outre que les objets ainsi définis sont tous isomorphes, les constructions présentées ci-après mettent en lumière trois caractéristiques importantes :
+Le corps des réels est clairement identifié comme un sous-ensemble du corps des complexes et les opérations d'addition et de multiplication sont préservées dans la nouvelle structure.
+Le nombre réel 1 reste neutre pour la multiplication.
+Il existe un nombre complexe i canoniquement choisi dont le carré vaut –1 (son opposé vérifie aussi cette propriété, et le choix fait dans chacune des constructions présentées est donc en fait arbitraire, mais cela n'a pas d'importance en pratique).
+Deux paramètres réels sont nécessaires et suffisants pour décrire tous les nombres complexes, ce qui souligne la structure d'espace vectoriel réel de dimension 2 avec une base canonique.
+Couples de réels
+On peut définir un nombre complexe comme un couple (a, b) de nombres réels.
+Sur l'ensemble ℝ2 des couples de réels on définit une addition et une multiplication.
+Cette construction est essentiellement la « théorie des couples algébriques » due au mathématicien William Rowan Hamilton qui l'ayant conçue vers 1826, l'expose devant l'Académie Royale d'Irlande en 1833, et la publie en 1835. Carl Friedrich Gauss arrive à des résultats voisins en 1831 qu'il publie en 1837. Hamilton se préoccupait de justifier l'« existence » des nombres complexes.
+Ce qui est présenté ci-dessous comme de simples définitions, justifiées implicitement par les règles de calcul sur les nombres complexes mais indépendantes d'une existence préalable de ceux-ci, est le fruit d'une longue analyse chez Hamilton.
+L'addition est celle des composantes terme à terme :
+,
++
+,
+=
++
+,
++
+La multiplication est définie par :
+,
+×
+,
+=
+−
+,
++
+On vérifie alors que ℝ2 muni de ces deux lois, avec (0, 0) comme neutre additif et (1, 0) comme neutre multiplicatif, est un corps ; en particulier, l'inverse d'un élément (a, b) ≠ (0, 0) est (a/(a2 + b2), –b/(a2 + b2)), et (0, 1)×(0, 1) = (–1, 0).
+L'ensemble des réels s'identifie alors à la droite ℝ×{0} et l'élément i est le couple (0, 1).
+L'ensemble ℝ2 peut être muni de sa structure canonique de plan vectoriel euclidien.
+Un nombre complexe est alors un vecteur du plan ℝ2. La somme complexe est la somme vectorielle.
+La base canonique est constituée de deux vecteurs correspondant pour le premier (1, 0) au nombre complexe 1 et pour le second au nombre complexe i.
+On peut introduire enfin le module d'un nombre complexe qui correspond à la norme euclidienne du vecteur associé et l'argument qui est une mesure de l'angle formé par le vecteur associé avec le premier vecteur de base.
+Cette définition présente l'avantage de la simplicité, puisqu'elle exige peu de prérequis mathématiques.
+Elle est en outre adaptée à la représentation géométrique des nombres complexes.
+Matrice de similitude
+Il est intéressant de définir un nombre complexe non nul comme une matrice de similitude directe 
+−
+à coefficients réels, car les opérations matricielles induisent précisément la structure algébrique voulue.
+En outre, le module et l'argument deviennent respectivement le rapport et une mesure de l'angle de la similitude.
+Il faut cependant vérifier que l'ensemble de ces matrices, complété par la matrice nulle, est stable par produit :
+−
+−
+=
+−
+−
+−
++
+−
+,
+ce qui justifie au passage la commutativité du produit et assure l'isomorphisme entre cette structure et celle définie précédemment.
+L'ensemble des réels s'identifie alors à l'ensemble des matrices diagonales de la forme
+,
+l'unité étant représentée par la matrice identité.
+L'élément 
+désigne classiquement la matrice 
+−
+Le déterminant correspond au carré du module, ce qui entraîne que tous les éléments non nuls sont inversibles et la méthode des cofacteurs démontre la stabilité par inverse.
+Ce point de vue fournit une construction naturelle qui peut être adaptée pour obtenir l'algèbre réelle des quaternions.
+Il donne en outre une interprétation géométrique de la multiplication des nombres complexes comme composition de similitudes du plan.
+La conjugaison est enfin représentée par la transposition des matrices.
+Classe d'équivalence de polynômes
+Un nombre complexe peut enfin être vu comme un polynôme réel d'indéterminée i, où le carré i2 est identifié avec le polynôme constant de valeur –1, donc avec les identifications i3 = –i, i4 = 1…
+Formellement, cela revient à assimiler l'ensemble des nombres complexes à l'anneau quotient ℝ[X]/(X2 + 1), dans lequel deux polynômes appartiennent à la même classe d'équivalence si et seulement s'ils ont le même reste de division euclidienne par X2 + 1. Cette construction justifie l'écriture d'un nombre complexe sous la forme a+ib, le polynôme bX+a pouvant s'obtenir comme le reste de la division euclidienne d'un polynôme par X2 + 1.
+Le caractère irréductible du polynôme X2 + 1 assure directement la structure de corps.
+Les réels sont représentés par les polynômes constants et le degré 2 du polynôme diviseur est la dimension de l'ensemble comme espace vectoriel réel.
+Cette conception correspond à l'invention des nombres complexes, i ayant été introduit comme l'une des racines de l'équation X2 + 1 = 0. Elle est loin de la géométrie et nécessite un seul générateur algébrique et une seule relation.
+Le formalisme, plus récent, du quotient d'un anneau euclidien, ici l'anneau des polynômes réels à une indéterminée, par un de ses idéaux premiers est à la base de la construction des extensions algébriques de corps.
+Développements en mathématiques
+Analyse complexe
+Article détaillé : Analyse complexe.
+Les nombres complexes ont initialement été conçus pour répondre à un problème algébrique.
+Cependant, étendre les définitions de l'analyse au champ des nombres complexes s'avère tout aussi fécond.
+Par exemple la définition usuelle de la dérivée : 
+lim
++
+−
+(avec usage de la multiplication et de la soustraction complexes) permet d'obtenir une nouvelle notion de fonction dérivable, de variable complexe à valeurs complexes appelée fonction holomorphe.
+Cette notion s'avère plus restrictive que son pendant réel, notamment, toute fonction holomorphe voit sa dérivée être holomorphe, et même, toute fonction holomorphe est analytique, c'est-à-dire admet un développement en série entière en chacun des points de son domaine d'holomorphie.
+En théorie de l'intégration, en utilisant la notion d'intégrale le long d'un chemin, on obtient le théorème intégral de Cauchy, qui assure que l'intégrale d'une fonction holomorphe, sur un domaine vérifiant certaines propriétés topologiques, le long d'un chemin fermé, est nulle.
+Cette propriété cruciale permet d'obtenir la notion de primitive d'une fonction holomorphe, toujours sur un domaine adapté. Certaines de ces conditions topologiques peuvent être abandonnées, grâce à la notion de point singulier, aboutissant au théorème des résidus.
+Dynamique holomorphe
+Article détaillé : Dynamique holomorphe.
+La dynamique holomorphe à une variable consiste en l'étude du comportement des itérés d'une fonction holomorphe f définie sur une surface de Riemann.
+On distingue deux types de points sur ces surfaces : ceux où la famille des itérés est normale, en ces points la dynamique est assez simple (bassins d'attractions de cycles de points périodiques), dont l'ensemble est appelé ensemble de Fatou de f, puis ceux où le comportement est chaotique et dont l'ensemble est appelé ensemble de Julia de f.
+Les propriétés de ces itérés sont particulièrement bien connues dans le cadre de la sphère de Riemann : classification complète des composantes connexes de l'ensemble de Fatou selon les propriétés de f, propriétés de l'ensemble de Julia, étude des familles paramétrées  de polynômes…
+On étudie aussi la dynamique holomorphe à plusieurs variables, par exemple dans les espaces projectifs complexes où apparaissent de nouvelles difficultés par rapport à une variable telles que la présence d'ensembles de points où f n'est pas définie.
+Équations différentielles dans le champ complexe
+L'étude des équations différentielles holomorphes a les mêmes résultats de base que celle des équations sur des fonctions de variable réelle, et notamment le théorème de Cauchy-Lipschitz, qui donne l'existence et l'unicité d'une solution à un problème de Cauchy ; ou les résultats d'algèbre linéaire sur les espaces de solutions des équations différentielles linéaires.
+Cependant, l'étude des équations aux points singuliers est nettement plus féconde que les simples études de raccord du cas réel : la topologie du plan complexe au voisinage d'un point singulier fait qu'il y a une infinité de manières de l'approcher, et l'étude des raccords des solutions obtenues avec toutes les méthodes d'approche amène à la notion de monodromie.
+Cette notion est ensuite utilisée dans un cadre plus général : la théorie de Galois différentielle.
+Analyse de Fourier
+Article détaillé : Analyse harmonique.
+Nombres hypercomplexes
+Article détaillé : Nombre hypercomplexe.
+Le corps 
+des nombres complexes peut-être vu comme un sous-corps ou une sous-algèbre d’un corps ou d’une algèbre plus grande, dont les éléments sont alors qualifiés d’hypercomplexes.
+Par exemple 
+, le corps non commutatif des quaternions, ou 
+, l’algèbre à division, ni commutative ni associative, des octonions.
+En topologie
+En identifiant l'espace vectoriel ℝ2n avec l'espace vectoriel ℂn, la multiplication par i définit une application sans point fixe sur les sphères de dimension impaire.
+L'adjonction d'un « point à l'infini » au plan complexe définit la sphère de Riemann homéomorphe à la sphère usuelle S2, qui peut être vue comme le premier espace projectif complexe.
+La projection de la sphère S3, vue comme sphère unité de l'espace ℂ2, sur la sphère de Riemann par quotient de l'action du cercle unité S1 constitue alors la fibration de Hopf.
+Les espaces projectifs complexes de dimension paire engendrent rationnellement l'anneau de cobordisme orienté.
+Emplois en physique et ingénierie
+Représentation des phénomènes périodiques et analyse de Fourier
+La forme trigonométrique a permis de simplifier la modélisation et l’écriture de nombreux phénomènes, par exemple les phénomènes ondulatoires notamment à propos des ondes électromagnétiques, ou en électronique et plus précisément dans le domaine de l'analyse électronique des circuits contenant des auto-inductances (selfs ou bobines) notées L, des capacités notées C et des résistances notées R (exemples : R + jLω ou R – j/(Cω))[b]. On peut tracer alors le diagramme de Fresnel, et ce quelle que soit l'expression.
+En fait, on se sert du fait que ℂ contient ℝ pour simplifier les écritures.
+En effet, si l’on doit écrire qu’un paramètre vaut r cos(θ), il faut deux réels, r et θ. Mais avec des complexes, il suffit d’un seul nombre, ce qui est bien plus simple.
+Électromagnétisme
+En électromagnétisme toujours, mais dans un contexte différent, on peut écrire le champ électromagnétique comme une combinaison complexe du champ électrique et du champ magnétique.
+Pur artifice de calcul, on peut associer l'un ou l'autre de ces champs à la partie « imaginaire » du champ complexe obtenu : cela simplifie grandement les opérations.
+Formule d'Euler : 
+=
+cos
+⁡
++
+sin
+⁡
+Un autre exemple en électromagnétisme est le courant alternatif : puisque le voltage d'un tel circuit oscille, il peut être représenté comme un nombre complexe via la formule d'Euler :
+=
+=
+cos
+⁡
++
+sin
+⁡
+,
+Afin d'obtenir une quantité mesurable, on prend la partie réelle[c] :
+=
+[
+]
+=
+cos
+⁡
+Analyse de Fourier
+On emploie également les complexes pour l'analyse de Fourier, très utilisée dans de nombreux domaines, comme le traitement du signal. L'idée sous-jacente à l'introduction des séries de Fourier est de pouvoir obtenir une fonction admettant T pour période, par exemple continue, comme somme de fonctions sinusoïdales :
+=
+∑
+=
+−
+∞
++
+∞
+avec les coefficients cn(f), appelés coefficients de Fourier de f, définis par la formule :
+=
+∫
+−
+/
+/
+−
+Mécanique des fluides dans le plan
+En mécanique des fluides (hydro/aérodynamique), on fait apparaître des potentiels et des vitesses complexes.
+En effet, pour un écoulement à deux dimensions, on peut décomposer la vitesse du fluide en Vx et Vy.
+Or, on montre que :
+=
+∂
+∂
+=
+∂
+∂
+=
+∂
+∂
+=
+−
+∂
+∂
+Satisfaire à ces conditions (conditions de Cauchy-Riemann) équivaut à dire qu'il existe une fonction analytique telle que
+=
++
+où 
+=
++
+Ceci permet encore d’écrire :
+=
+∂
+∂
++
+∂
+∂
+=
+−
+On appelle f(z) le potentiel complexe, et sa dérivée par rapport à z, la vitesse complexe.
+Grâce à cette fonction, on obtient directement le module de la vitesse, et sa direction (en prenant la forme trigonométrique). Surtout, on peut modéliser simplement un écoulement autour d'un obstacle, d'une manière simple et compacte.
+La fonction ψ doit être constante le long du profil de cet obstacle, ce qui permet une résolution simple de f, grâce à des résultats simples d’analyse complexe.
+Fonction de structure
+Toujours dans l'analyse des phénomènes vibratoires, les propriétés des nombres complexes permettent non seulement de simplifier les calculs, mais aussi de déterminer des caractéristiques physiques d'un système oscillant, voire des propriétés fondamentales comme la causalité. Une fonction de structure est une certaine fonction complexe 
+où 
+est la fréquence complexifiée, la partie réelle étant la fréquence au sens usuel et la partie imaginaire représentant un facteur d'amortissement du phénomène oscillant.
+Les valeurs complexes de 
+où 
+diverge et tend vers l'infini sont nommés les pôles de 
+. Il s'avère qu'un pôle qui est d'un point de vue mathématique une singularité, possède un sens physique et représente une fréquence de résonance du système.
+De plus, l'étude de l'analyticité (en analyse complexe, il s'agit de l'holomorphicité) de la fonction de structure permet de connaitre des relations de causalité et savoir si un phénomène dépend d'excitations extérieures ou intrinsèques.
+Il est possible également de définir une autre fonction de structure complexe 
+, où t est un temps complexe. L'analyticité de 
+permet cette fois-ci d’analyser les propriétés de stabilité d'un système physique et les conditions de retour à un état d'équilibre.
+L'efficience et le pouvoir prédictif physique des fonctions de structure fait dire à Marc Lachièze-Rey que l'usage des nombres complexes dépasse le simple artifice de calcul et donne aux nombres complexes un degré de "réalité" physique comparable à celui des nombres réels.
+Mécanique quantique
+Article détaillé : Postulats de la mécanique quantique.
+Les nombres complexes sont omniprésents et indispensables à la mécanique quantique.
+Celle-ci est décrite dans des espaces vectoriels de Hilbert aux scalaires complexes, et dont les vecteurs représentent des états quantiques.
+Leur évolution est régie par l'équation de Schrödinger qui fait également intervenir des nombres complexes.
+Une grandeur physique est représentée par une observable qui est une application linéaire d'un espace de Hilbert dans lui-même.
+La projection du vecteur représentant l'état quantique sur un des vecteurs propres de cette observable donne une réalisation possible d'un état physique (une position donnée, une énergie donnée, etc.), et on quitte le domaine des nombres complexes en calculant la probabilité de réalisation de cet état physique, donnée par le module complexe au carré du vecteur projeté.
+La fonction de structure complexe (voir ci-dessus) joue également un grand rôle en physique quantique, car par dualité onde corpuscule tout phénomène quantique se réduit à des phénomènes vibratoires ou oscillants.
+Ici, c'est l'énergie d'un système qui est complexifiée avec la fréquence, via la relation de Planck-Einstein 
+=
+. Les pôles des fonctions de structure quantiques correspondent également à des phénomènes physiques essentiels comme l'apparition de nouvelles particules élémentaires lors de collisions, et l'analyticité permet également d'exprimer une forme de causalité sous-jacente aux phénomènes quantiques.
+Selon Roger Penrose, les propriétés mathématiques fondamentales des nombres complexes sous-tendent la physique du principe de superposition et de l'équation de Schrödinger et les conditions de quantification d'un champ physique dans la théorie quantique des champs, ce qui lui fait apparaître les nombres complexes comme étant un des fondements de la physique, avec les principes de symétrie.
+De son point de vue, la théorie quantique ne va pas assez loin dans le rôle fondamental donné aux nombres complexes car la théorie n'est totalement holomorphe qu'avec des conditions arbitraires d'hermiticité des opérateurs quantiques, et d'orthogonalité des résultats de mesure.
+Penrose va tenter de construire une théorie de gravité quantique entièrement fondée sur les propriétés des nombres complexes et entièrement holomorphe : la théorie des twisteurs.
+En janvier 2021, Miguel Navascués et ses collègues de l'Institut d'optique quantique et d'information quantique de Vienne montrent par un raisonnement théorique que les nombres complexes sont indispensables à la mécanique quantique, pas seulement des outils commodes comme pour la représentation des phénomènes périodiques, par exemple.
+Ils proposent aussi un test expérimental permettant d'exclure les théories quantiques à valeurs réelles.
+Deux groupes de recherche mènent ensuite l'expérience et confirment cette prédiction théorique,,.
+Relativité restreinte
+Article détaillé : Espace de Minkowski.
+Cette section est vide, insuffisamment détaillée ou incomplète.
+Votre aide est la bienvenue ! Comment faire ?
+Gravité et cosmologie quantique
+Selon l'hypothèse de Hawking-Hartle, la singularité initiale de l'univers, représentée ici par un pic, n'existe pas si on fait l'hypothèse que le temps aux alentours du Big Bang est un temps imaginaire complexe.
+La géométrie de cette région devient semblable à la surface lisse d'une sphère.
+Article détaillé : Temps imaginaire.
+Article détaillé : Théorie des twisteurs.
+Pour résoudre le problème de la singularité qui selon le modèle du Big Bang est à l'origine de l'univers, Stephen Hawking et James Hartle ont proposé une hypothèse d'un univers sans bords, où la singularité initiale serait absente.
+Cette hypothèse repose sur l'idée que le temps, près de l'origine, est un temps imaginaire 
+=
+. Ce temps imaginaire permet de transformer la métrique lorentzienne usuelle de l'univers 
+=
++
++
+−
+(métrique de l'espace de Minkowski) en métrique riemannienne définie positive, ou pseudo-euclidienne, 
+=
++
++
++
+Le pari de Hawking et Hartle est que ce temps imaginaire permet de décrire la fonction d'onde correcte de l'univers et sa véritable physique aux alentours du Big Bang, donnée par la somme des intégrales de chemin calculées dans cette métrique où elles sont convergentes (tandis qu'elles sont divergentes et inexploitables en métrique lorentzienne). Cette fonction d'onde décrit la région de l'espace-temps du Big Bang comme une superposition quantique d'espaces sans singularité semblables à une surface sphérique à 4 dimensions, où — comme la surface d'une sphère normale — la courbure est partout finie et varie continument, et où on peut évoluer sans rencontrer de « bords »,.
+Contrairement à la rotation de Wick qui n'est qu'une astuce de calcul, si l'hypothèse de Hartle-Hawking est correcte elle signifie que la nature physique du temps change à l'approche du Big Bang et devient une dimension semblable à une dimension d'espace.
+Historique
+Article détaillé : Histoire des nombres complexes.
+La première apparition d'une racine carrée de nombre négatif conçue comme une quantité impossible mais manipulable se trouve dans l’œuvre de Cardan en 1545. Mais c'est Raphaël Bombelli qui étudie ces quantités sophistiquées de manière rigoureuse en 1572 dans son Algebra, ce qui en fait selon Flament le créateur indiscutable des nombres complexes. C'est également Bombelli qui les utilise pour la résolution de l'équation de degré 3.
+Les nombres complexes interviennent dans l’œuvre d'Albert Girard quand il tente de démontrer que toute équation de degré n possède n racines vers 1629. Ils sont appelés sophistiqués, impossibles ou inexplicables jusqu'à René Descartes qui les qualifie de quantités imaginaires en 1637. Ce qualificatif va leur rester jusqu'en 1831 où Gauss les appelle pour la première fois complexes.
+Pour de nombreux mathématiciens du XVIIe siècle, écrire des quantités imaginaires, c'est s'autoriser l'utilisation des racines carrées de nombres négatifs, mais peu à peu se dégage une écriture normalisée sous la forme 
++
+−
+. Les mathématiciens tentent d'appliquer à ces nouvelles quantités les fonctions qu'ils connaissaient pour les quantités réelles en utilisant un principe de permanence[d]. Somme, produit, quotient ne posent pas de problème, mais la racine n-ième se révèle une fonction non univoque.
+Abraham de Moivre démontre en 1738 l'égalité :
+cos
+⁡
++
+sin
+⁡
+/
+=
+cos
+⁡
++
++
+sin
+⁡
++
+L'exponentielle ne pose pas de problème.
+Ainsi, dès 1748, Euler écrit sa formule
+cos
+⁡
++
+sin
+⁡
+=
+Mais la fonction logarithme complexe résiste longtemps à Jean Bernoulli et Gottfried Wilhelm Leibniz ; c'est Leonhard Euler qui les départage en 1749, en démontrant qu'elle prend une infinité de valeurs en un complexe donné.
+C'est à Euler également que l'on doit la notation i pour √-1 en 1777. Mais c'est surtout Carl Friedrich Gauss qui en popularise l'usage.
+Le qualificatif d'« unité imaginaire » lui a été attribué par Gauss qui la qualifie ensuite d'« unité latérale », tandis que Jean-Robert Argand lui préfère le terme d'« unité moyenne » et William Rowan Hamilton celui d'« unité secondaire ».
+L'association entre complexes et vecteurs ou points du plan est l’œuvre de nombreux mathématiciens dont Caspar Wessel, Argand et Gauss à la fin du XVIIIe siècle et dans la première moitié du XIXe siècle. L'interprétation d'un complexe comme couple de réels muni d'une multiplication spéciale est l’œuvre d'Hamilton en 1833. L'interprétation d'un complexe comme reste modulo X2 + 1 d'un polynôme à coefficient réel est l’œuvre d'Augustin Louis Cauchy en 1847. C'est également à Cauchy que l'on doit le développement de la théorie des fonctions de la variable complexe.
+L'utilisation en physique apparait dès le début du XIXe siècle dans l’œuvre d'Augustin Fresnel (1823) dans son mémoire sur les lois de réflexion.
+En électricité, Arthur Edwin Kennelly, dès 1893, montre comment on peut facilement généraliser la loi d'Ohm au courant alternatif grâce aux complexes.
+Introduction du vocabulaire et des notations
+Terme ou notation
+Signification
+Auteur
+Date
+℞. m. 15
+Un nombre impossible dont le carré vaudrait −15[e]
+Cardan
+« Imaginaire »
+Toute quantité contenant la racine carrée d'un nombre négatif
+Descartes
+−
+Euler
+Module
+Le module du complexe a + ib est 
++
+Argand
+|
+|
+Module de z (ou valeur absolue de z)
+Karl Weierstrass
+Conjugué
+Le conjugué de a + ib est a – ib
+Cauchy
+Nombre complexe
+a + ib
+Gauss
+Imaginaire pur
+ib
+Gauss
+« Norme »
+Carré du module
+Gauss
+Argument du complexe z
+Angle entre le vecteur associé à 1 et celui associé à z
+Cauchy
+Affixe
+L'affixe du point A de coordonnées 
+,
+est le complexe a + ib
+Cauchy
+Les complexes dans les œuvres de fiction
+Dans le livre Les Désarrois de l'élève Törless par Robert Musil et dans le film réalisé par Volker Schlöndorff (1966), Törless exprime devant le conseil de discipline de l'école sa difficulté à saisir le concept.
+Notes et références
+Notes
+Le nombre i est normalement représenté par un caractère romain, l'italique étant réservé aux noms de variables.
+a et b En électricité et en électronique, l'unité imaginaire est généralement notée j au lieu de i, pour éviter le risque de confusion entre i et i, symbole habituel de l'intensité d'un courant électrique.
+Il existe par ailleurs un nombre complexe, fréquemment noté j en mathématiques, qui correspond à l'unique racine cubique de 1 dont la partie imaginaire est positive.
+Voir des exemples dans : Electromagnetism (2e édition), I.S. Grant, W.R. Phillips, Manchester Physics Series, 2008  (ISBN 0-471-92712-0)
+Principe consistant à généraliser aux complexes les propriétés connues sur l'ensemble des réels.
+Cette quantité sera par la suite notée 
+−
+Références
+Alan Sultan et Alice F. Artzt, The mathematics that every secondary school math teacher needs to know, Studies in Mathematical Thinking and Learning, Taylor & Francis, 2010, p. 326
+Jean Dieudonné, Calcul infinitésimal, Hermann, 1980 (ISBN 978-2-7056-5907-3, OCLC 6787042), p. 24.
+« Programme de l'enseignement optionnel de mathématiques expertes de la classe terminale de la voie générale », Bulletin officiel spécial, no 8,‎ 25 juillet 2019 (lire en ligne, consulté le 20 juillet 2022).
+Flament 2003, chap.
+IV section 3, en particulier p. 386 et p. 413
+J. W. Milnor et J. D. Stasheff, Characteristic classes, Annals of Math.
+Studies 76, Priceton University Press (1974)
+a b c d et e Jacques Bros et Marc Lachièze-Rey, encadré "De l'usage des nombres complexes en physique", p. 55 Sciences et Avenir n°138 Avril-Mai 2004
+a et b Roger Penrose, A la découverte des lois de l'univers, 2007, Ed.
+Odile Jacob, 34.8
+Johanna L. Miller, « Does quantum mechanics need imaginary numbers? », Physics Today, vol. 75, no 3,‎ mars 2022, p. 14 (DOI 10.1063/PT.3.4955, lire en ligne , consulté le 3 mars 2022).
+Zheng-Da Li, Ya-Li Mao, Mirjam Weilenmann, Armin Tavakoli, Hu Chen et al., « Testing Real Quantum Theory in an Optical Quantum Network », Physical Review Letters, vol. 128,‎ 24 janvier 2022, article no 040402 (DOI 10.1103/PhysRevLett.128.040402).
+Ming-Cheng Chen, Can Wang, Feng-Ming Liu, Jian-Wen Wang, Chong Ying et al., « Ruling Out Real-Valued Standard Formalism of Quantum Theory », Physical Review Letters, vol. 128,‎ 24 janvier 2022, article no 040403 (DOI 10.1103/PhysRevLett.128.040403).
+a et b Roger Penrose, À la découverte des lois de l'univers, 2007, Éd.
+Odile Jacob, 28.9.
+a et b Modèle de Hartle-Hawking, Futura-Sciences.
+Flament 2003, p. 24
+(Study et Cartan 1908, p. 334)
+Communication d'Euler à l'académie des sciences de Berlin (en français, document PDF)
+Flament 2003, p. 177
+DahanPeiffer, p. 233
+Friedelmeyer 1998, p. 312.
+Voir aussi
+Sur les autres projets Wikimedia :
+nombre complexe, sur le WiktionnaireNombre complexe, sur WikiversityNombre complexe, sur Wikibooks
+Bibliographie
+A. Dahan-Dalmedico et J. Peiffer, Une histoire des mathématiques : Routes et dédales, 1986 [détail des éditions]
+Dominique Flament, Histoire des nombres complexes : Entre algèbre et géométrie, Paris, CNRS Éditions, 2003 (ISBN 2 271 06128 8)
+Jean-Pierre Friedelmeyer, « Le point de vue vectoriel, son application à la physique », dans Images, Imaginaires, Imaginations - Une perspective historique pour l'introduction de nombres complexes, 1998
+Jean-Denis Eiden, Géométrie analytique classique, Calvage & Mounet, 2009,  (ISBN 978-2-91-635208-4)
+E. Study et É. Cartan, « Les nombres complexes », dans Ency.
+Sci.
+Math., vol. 1, t. 1, 1908 (lire en ligne)
+Articles connexes
+Trigonométrie complexe
+Nombre complexe déployé
+Quaternion
+Liens externes
+Nombres complexes, G. Villemin
+J.-R. Argand, Essai sur une manière de représenter des quantités imaginaires dans les constructions géométriques, 1806, en ligne et commenté par l'historien des sciences C. Gérini, sur le site bibnum
+Vidéo sur les complexes (série de 9 épisodes sur la représentation des dimensions dans l'espace), Étienne Ghys
+Notion de nombre
+Ensembles usuels
+Entier naturel 
+· Entier relatif 
+· Nombre décimal 
+· Nombre rationnel 
+· Nombre réel 
+· Nombre complexe 
+Extensions
+Quaternion 
+· Octonion 
+· Sédénion 
+· Nombre complexe déployé · Tessarine · Nombre bicomplexe 
+· Nombre multicomplexe 
+· 
+· Biquaternion · Coquaternion · Quaternion hyperbolique · Octonion déployé · Nombre hypercomplexe · Nombre p-adique 
+· Nombre hyperréel · Nombre superréel · Nombre dual · Droite réelle achevée · Nombre cardinal · Nombre ordinal · Nombre surréel · Nombre pseudo-réel
+Propriétés particulières
+Parité · Nombre premier · Nombre composé · Nombre figuré · Nombre parfait · Nombre positif · Nombre négatif · Fraction dyadique ·  Nombre irrationnel · Nombre algébrique · Nombre transcendant · Nombre imaginaire pur · Nombre de Liouville · Période · Nombre normal · Nombre univers · Nombre constructible · Nombre réel calculable · Nombre transfini · Infiniment petit
+Exemples
+Pi (π) ·  Racine carrée de deux 
+·  Nombre d’or (φ) · Zéro (0) · Unité imaginaire (i) · Constante de Neper (e) · Aleph-zéro (ℵ0) · Table de constantes mathématiques
+Articles liés
+Chiffre · Numération · Fraction · Opération · Calcul · Algèbre · Arithmétique · Suite d'entiers · Infini (∞) · Chiffre significatif
+Nombres hypercomplexes
+Associatifs,
+commutatifs
+Nombre réel ℝ
+Nombre complexe ℂ · Nombre complexe déployé 
+╲
+· Nombre dual 𝔻
+Tessarine 𝓣 (≅ Nombre bicomplexe ℂ2)
+n D
+Nombre multicomplexe 𝓜ℂn
+Nombre multicomplexe ℂn
+Associatifs,
+non commutatifs
+Quaternion ℍ · Coquaternion 
+╲
+Biquaternion 𝔹 · Biquaternion de Clifford 
+╲
+· Quaternion dual  𝔻ℍ
+Construction de Cayley–Dickson · Algèbre de Clifford (classification · représentation)
+Non associatifs,
+non commutatifs
+Quaternion hyperbolique 𝕄
+Octonion 𝕆 · Octonion déployé 
+╲
+Sédénion 𝕊
+Sur ℤ
+Entier de Gauss ℤ[i] · Entier d'Eisenstein ℤ[j]
+Quaternions de Hurwitz 
+~
+Note : les dimensions sont données sur ℝ (ou ℤ).
+Arithmétique et théorie des nombres  
+Ce document provient de «  ».
+Catégories : Nombre complexeNombre hypercomplexeAnalyse complexeCatégories cachées : Article contenant un appel à traduction en anglaisArticle avec une section vide ou incomplètePortail:Arithmétique et théorie des nombres/Articles liésPortail:Sciences/Articles liésProjet:Mathématiques/ArticlesArticle de qualité en russePage qui utilise un format obsolète des balises mathématiques
+La dernière modification de cette page a été faite le 27 septembre 2022 à 18:30.
+Droit d'auteur : les textes sont disponibles sous licence Creative Commons attribution, partage dans les mêmes conditions ; d’autres conditions peuvent s’appliquer.
+Voyez les conditions d’utilisation pour plus de détails, ainsi que les crédits graphiques.
+En cas de réutilisation des textes de cette page, voyez comment citer les auteurs et mentionner la licence.
+Wikipedia® est une marque déposée de la Wikimedia Foundation, Inc., organisation de bienfaisance régie par le paragraphe 501(c)(3) du code fiscal des États-Unis.
+Politique de confidentialité
+À propos de Wikipédia
+Avertissements
+Contact
+Version mobile
+Développeurs
+Statistiques
+Déclaration sur les témoins (cookies)

@@ -1,0 +1,965 @@
+Video - Wikipedia
+Video
+From Wikipedia, the free encyclopedia
+Jump to navigation
+Jump to search
+Electronic moving image
+This article is about the storage and reproduction medium.
+For their content and production, see Film and Footage.
+For other uses, see Video (disambiguation).
+For the use of video in Wikipedia articles, see Wikipedia:Creation and usage of media files.
+Not to be confused with Vidio.
+A one-minute animated video showing stages of media production
+Video is an electronic medium for the recording, copying, playback, broadcasting, and display of moving visual media.
+Video was first developed for mechanical television systems, which were quickly replaced by cathode-ray tube (CRT) systems which, in turn, were replaced by flat panel displays of several types.
+Video systems vary in display resolution, aspect ratio, refresh rate, color capabilities and other qualities.
+Analog and digital variants exist and can be carried on a variety of media, including radio broadcast, magnetic tape, optical discs, computer files, and network streaming.
+Contents
+History
+See also: History of television
+Analog video
+See also: Analog television and Videotape
+NTSC composite video signal (analog)
+Video technology was first developed for mechanical television systems, which were quickly replaced by cathode-ray tube (CRT) television systems, but several new technologies for video display devices have since been invented.
+Video was originally exclusively a live technology.
+Charles Ginsburg led an Ampex research team developing one of the first practical video tape recorders (VTR). In 1951, the first VTR captured live images from television cameras by writing the camera's electrical signal onto magnetic videotape.
+Video recorders were sold for US$50,000 in 1956, and videotapes cost US$300 per one-hour reel.
+However, prices gradually dropped over the years; in 1971, Sony began selling videocassette recorder (VCR) decks and tapes into the consumer market.
+Digital video
+Main article: Digital video
+See also: Digital television and Video coding format
+Digital video is capable of higher quality and, eventually, much lower cost than earlier analog technology.
+After the invention of the DVD in 1997, and later the Blu-ray Disc in 2006, sales of videotape and recording equipment plummeted.
+Advances in computer technology allows even inexpensive personal computers and smartphones to capture, store, edit and transmit digital video, further reducing the cost of video production, allowing program-makers and broadcasters to move to tapeless production.
+The advent of digital broadcasting and the subsequent digital television transition is in the process of relegating analog video to the status of a legacy technology in most parts of the world.
+The development of high-resolution video cameras with improved dynamic range and color gamuts, along with the introduction of high-dynamic-range digital intermediate data formats with improved color depth, has caused digital video technology to converge with film technology.
+Since 2013,[update] the usage of digital cameras in Hollywood has surpassed use of film cameras.
+Characteristics of video streams
+Number of frames per second
+Frame rate, the number of still pictures per unit of time of video, ranges from six or eight frames per second (frame/s) for old mechanical cameras to 120 or more frames per second for new professional cameras.
+PAL standards  (Europe, Asia, Australia, etc.) and SECAM (France, Russia, parts of Africa etc.) specify 25 frame/s, while NTSC standards (USA, Canada, Japan, etc.) specify 29.97 frame/s.
+Film is shot at the slower frame rate of 24 frames per second, which slightly complicates the process of transferring a cinematic motion picture to video.
+The minimum frame rate to achieve a comfortable illusion of a moving image is about sixteen frames per second.
+Interlaced vs progressive
+Video can be interlaced or progressive.
+In progressive scan systems, each refresh period updates all scan lines in each frame in sequence.
+When displaying a natively progressive broadcast or recorded signal, the result is optimum spatial resolution of both the stationary and moving parts of the image.
+Interlacing was invented as a way to reduce flicker in early mechanical and CRT video displays without increasing the number of complete frames per second.
+Interlacing retains detail while requiring lower bandwidth compared to progressive scanning.
+In interlaced video, the horizontal scan lines of each complete frame are treated as if numbered consecutively, and captured as two fields: an odd field (upper field) consisting of the odd-numbered lines and an even field (lower field) consisting of the even-numbered lines.
+Analog display devices reproduce each frame, effectively doubling the frame rate as far as perceptible overall flicker is concerned.
+When the image capture device acquires the fields one at a time, rather than dividing up a complete frame after it is captured, the frame rate for motion is effectively doubled as well, resulting in smoother, more lifelike reproduction of rapidly moving parts of the image when viewed on an interlaced CRT display.
+NTSC, PAL and SECAM are interlaced formats.  Abbreviated video resolution specifications often include an i to indicate interlacing.  For example, PAL video format is often described as 576i50, where 576 indicates the total number of horizontal scan lines, i indicates interlacing, and 50 indicates 50 fields (half-frames) per second.
+When displaying a natively interlaced signal on a progressive scan device, overall spatial resolution is degraded by simple line doubling—artifacts such as flickering or "comb" effects in moving parts of the image which appear unless special signal processing eliminates them.
+A procedure known as deinterlacing can optimize the display of an interlaced video signal from an analog, DVD or satellite source on a progressive scan device such as an LCD television, digital video projector or plasma panel.
+Deinterlacing cannot, however, produce video quality that is equivalent to true progressive scan source material.
+Aspect ratio
+Comparison of common cinematography and traditional television (green) aspect ratios
+Aspect ratio describes the proportional relationship between the width and height of video screens and video picture elements.  All popular video formats are rectangular, and so can be described by a ratio between width and height.  The ratio width to height for a traditional television screen is 4:3, or about 1.33:1. High definition televisions use an aspect ratio of 16:9, or about 1.78:1. The aspect ratio of a full 35 mm film frame with soundtrack (also known as the Academy ratio) is 1.375:1.
+Pixels on computer monitors are usually square, but pixels used in digital video often have non-square aspect ratios, such as those used in the PAL and NTSC variants of the CCIR 601 digital video standard, and the corresponding anamorphic widescreen formats.
+The 720 by 480 pixel raster uses thin pixels on a 4:3 aspect ratio display and fat pixels on a 16:9 display.
+The popularity of viewing video on mobile phones has led to the growth of vertical video.
+Mary Meeker, a partner at Silicon Valley venture capital firm Kleiner Perkins Caufield & Byers, highlighted the growth of vertical video viewing in her 2015 Internet Trends Report –  growing from 5% of video viewing in 2010 to 29% in 2015. Vertical video ads like Snapchat’s are watched in their entirety nine times more frequently than landscape video ads.
+Color model and depth
+Example of U-V color plane, Y value=0.5
+The color model the video color representation and maps encoded color values to visible colors reproduced by the system.
+There are several such representations in common use: typically YIQ is used in NTSC television, YUV is used in PAL television, YDbDr is used by SECAM television and YCbCr is used for digital video.
+The number of distinct colors a pixel can represent depends on color depth expressed in the number of bits per pixel.
+A common way to reduce the amount of data required in digital video is by chroma subsampling (e.g., 4:4:4, 4:2:2, etc.).  Because the human eye is less sensitive to details in color than brightness, the luminance data for all pixels is maintained, while the chrominance data is averaged for a number of pixels in a block and that same value is used for all of them.
+For example, this results in a 50% reduction in chrominance data using 2-pixel blocks (4:2:2) or 75% using 4-pixel blocks (4:2:0). This process does not reduce the number of possible color values that can be displayed, but it reduces the number of distinct points at which the color changes. 
+Video quality
+Video quality can be measured with formal metrics like Peak signal-to-noise ratio (PSNR) or through subjective video quality assessment using expert observation.
+Many subjective video quality methods are described in the ITU-T recommendation BT.500. One of the standardized methods is the Double Stimulus Impairment Scale (DSIS).  In DSIS, each expert views an unimpaired reference video followed by an impaired version of the same video.  The expert then rates the impaired video using a scale ranging from "impairments are imperceptible" to "impairments are very annoying".
+Video compression method (digital only)
+Main article: Video compression
+Uncompressed video delivers maximum quality, but at a very high data rate.
+A variety of methods are used to compress video streams, with the most effective ones using a group of pictures (GOP) to reduce spatial and temporal redundancy.
+Broadly speaking, spatial redundancy is reduced by registering differences between parts of a single frame; this task is known as intraframe compression and is closely related to image compression.
+Likewise, temporal redundancy can be reduced by registering differences between frames; this task is known as interframe compression, including motion compensation and other techniques.
+The most common modern compression standards are MPEG-2, used for DVD, Blu-ray and satellite television, and MPEG-4, used for AVCHD, Mobile phones (3GP) and Internet.
+Stereoscopic
+Stereoscopic video for 3d film and other applications can be displayed using several different methods:
+Two channels: a right channel for the right eye and a left channel for the left eye.
+Both channels may be viewed simultaneously by using light-polarizing filters 90 degrees off-axis from each other on two video projectors.
+These separately polarized channels are viewed wearing eyeglasses with matching polarization filters.
+Anaglyph 3D where one channel is overlaid with two color-coded layers.
+This left and right layer technique is occasionally used for network broadcast or recent anaglyph releases of 3D movies on DVD. Simple red/cyan plastic glasses provide the means to view the images discretely to form a stereoscopic view of the content.
+One channel with alternating left and right frames for the corresponding eye, using LCD shutter glasses that synchronize to the video to alternately block the image to each eye, so the appropriate eye sees the correct frame.
+This method is most common in computer virtual reality applications such as in a Cave Automatic Virtual Environment, but reduces effective video framerate by a factor of two.
+Formats
+Different layers of video transmission and storage each provide their own set of formats to choose from.
+For transmission, there is a physical connector and signal protocol (see List of video connectors).  A given physical link can carry certain display standards that specify a particular refresh rate, display resolution, and color space.
+Many analog and digital recording formats are in use, and digital video clips can also be stored on a computer file system as files, which have their own formats.  In addition to the physical format used by the data storage device or transmission medium, the stream of ones and zeros that is sent must be in a particular digital video coding format, of which a number are available.
+Analog video
+Analog video is a video signal represented by one or more analog signals.
+Analog color video signals include luminance, brightness (Y) and chrominance (C).  When combined into one channel, as is the case, among others with NTSC, PAL and SECAM it is called composite video.
+Analog video may be carried in separate channels, as in two channel S-Video (YC) and multi-channel component video formats.
+Analog video is used in both consumer and professional television production applications.
+Composite video(single channel RCA)
+S-Video(2-channel YC)
+Component video(3-channel YPbPr)
+SCART
+VGA
+TRRS
+D-Terminal
+Digital video
+Digital video signal formats have been adopted, including serial digital interface (SDI), Digital Visual Interface (DVI), High-Definition Multimedia Interface (HDMI) and DisplayPort Interface.
+Serial digital interface (SDI)
+Digital Visual Interface (DVI)
+HDMI
+DisplayPort
+Transport medium
+Video can be transmitted or transported in a variety of ways including wireless terrestrial television as an analog or digital signal, coaxial cable in a closed-circuit system as an analog signal.
+Broadcast or studio cameras use a single or dual coaxial cable system using serial digital interface (SDI). See List of video connectors for information about physical connectors and related signal standards.
+Video may be transported over networks and other shared digital communications links using, for instance, MPEG transport stream, SMPTE 2022 and SMPTE 2110.
+Display standards
+Further information: Display technology, List of common resolutions, and Broadcast television systems
+Digital television
+Digital television broadcasts use the MPEG-2 and other video coding formats and include:
+ATSC – United States, Canada, Mexico, Korea
+Digital Video Broadcasting (DVB) – Europe
+ISDB – Japan
+ISDB-Tb – uses the MPEG-4 video coding format – Brazil, Argentina
+Digital Multimedia Broadcasting (DMB) – Korea
+Analog television
+Analog television broadcast standards include:
+Field-sequential color system (FCS) – US, Russia; obsolete
+Multiplexed Analogue Components (MAC) – Europe; obsolete
+Multiple sub-Nyquist sampling encoding (MUSE) – Japan
+NTSC – United States, Canada, Japan
+EDTV-II "Clear-Vision" - NTSC extension, Japan
+PAL  – Europe, Asia, Oceania
+PAL-M – PAL variation, Brazil
+PAL-N – PAL variation, Argentina, Paraguay and Uruguay
+PALplus – PAL extension, Europe
+RS-343 (military)
+SECAM – France, former Soviet Union, Central Africa
+CCIR System A
+CCIR System B
+CCIR System G
+CCIR System H
+CCIR System I
+CCIR System M
+An analog video format consists of more information than the visible content of the frame.
+Preceding and following the image are lines and pixels containing metadata and synchronization information.  This surrounding margin is known as a blanking interval or blanking region; the horizontal and vertical front porch and back porch are the building blocks of the blanking interval.
+Computer displays
+Computer display standards specify a combination of aspect ratio, display size, display resolution, color depth, and refresh rate.
+A list of common resolutions is available.
+Recording
+A VHS video cassette tape.
+Early television was almost exclusively a live medium with some programs recorded to film for distribution of historical purposes using Kinescope.
+The analog video tape recorder was commercially introduced in 1951. The following list is in rough chronological order.
+All formats listed were sold to and used by broadcasters, video producers or consumers; or were important historically.
+2" Quadruplex videotape (Ampex 1956)
+VERA (BBC experimental format ca. 1958)
+1" Type A videotape (Ampex)
+1/2" EIAJ (1969)
+U-matic 3/4" (Sony)
+1/2" Cartrivision (Avco)
+VCR, VCR-LP, SVR
+1" Type B videotape (Robert Bosch GmbH)
+1" Type C videotape (Ampex, Marconi and Sony)
+Betamax (Sony)
+VHS (JVC)
+Video 2000 (Philips)
+2" Helical Scan Videotape (IVC)
+1/4" CVC (Funai)
+Betacam (Sony)
+HDVS (Sony)
+Betacam SP (Sony)
+Video8 (Sony) (1986)
+S-VHS (JVC) (1987)
+VHS-C (JVC)
+Pixelvision (Fisher-Price)
+UniHi 1/2" HD (Sony)
+Hi8 (Sony) (mid-1990s)
+W-VHS (JVC) (1994)
+Digital video tape recorders offered improved quality compared to analog recorders.
+Betacam IMX (Sony)
+D-VHS (JVC)
+D-Theater
+D1 (Sony)
+D2 (Sony)
+D3
+D5 HD
+D6 (Philips)
+Digital-S D9 (JVC)
+Digital Betacam (Sony)
+Digital8 (Sony)
+DV (including DVC-Pro)
+HDCAM (Sony)
+HDV
+ProHD (JVC)
+MicroMV
+MiniDV
+Optical storage mediums offered an alternative, especially in consumer applications, to bulky tape formats.
+Blu-ray Disc (Sony)
+China Blue High-definition Disc (CBHD)
+DVD (was Super Density Disc, DVD Forum)
+Professional Disc
+Universal Media Disc (UMD) (Sony)
+Enhanced Versatile Disc (EVD, Chinese government-sponsored)
+HD DVD (NEC and Toshiba)
+HD-VMD
+Capacitance Electronic Disc
+Laserdisc (MCA and Philips)
+Television Electronic Disc (Teldec and Telefunken)
+VHD (JVC)
+Digital encoding formats
+See also: Video codec and List of codecsA video codec is software or hardware that compresses and decompresses digital video.
+In the context of video compression, codec is a portmanteau of encoder and decoder, while a device that only compresses is typically called an encoder, and one that only decompresses is a decoder.
+The compressed data format usually conforms to a standard video coding format.
+The compression is typically lossy, meaning that the compressed video lacks some information present in the original video.
+A consequence of this is that decompressed video has lower quality than the original, uncompressed video because there is insufficient information to accurately reconstruct the original video.
+CCIR 601 (ITU-T)
+H.261 (ITU-T)
+H.263 (ITU-T)
+H.264/MPEG-4 AVC (ITU-T + ISO)
+H.265
+M-JPEG (ISO)
+MPEG-1 (ISO)
+MPEG-2 (ITU-T + ISO)
+MPEG-4 (ISO)
+Ogg-Theora
+VP8-WebM
+VC-1 (SMPTE)
+See also
+General
+Index of video-related articles
+Sound recording and reproduction
+Video editing
+Videography
+Video format
+Cable television
+Color television
+Telecine
+Timecode
+Volumetric video
+Video usage
+Closed-circuit television
+Fulldome video
+Interactive video
+Video art
+Video feedback
+Video sender
+Video synthesizer
+Videotelephony
+Video screen recording software
+Bandicam
+CamStudio
+Camtasia
+CloudApp
+Fraps
+References
+"Video – HiDef Audio and Video". hidefnj.com.
+Archived from the original on 2017-05-14. Retrieved 2017-03-30.
+Elen, Richard. "TV Technology 10. Roll VTR". Archived from the original on 2011-10-27.
+"Vintage Umatic VCR – Sony VO-1600. The worlds first VCR. 1971". Rewind Museum.
+Archived from the original on 22 February 2014. Retrieved 21 February 2014.
+Follows, Stephen (11 February 2019). "The use of digital vs celluloid film on Hollywood movies". Archived from the original on 2022-04-11. Retrieved 2022-02-19.
+Soseman, Ned. "What's the difference between 59.94fps and 60fps?". Archived from the original on 29 June 2017. Retrieved 12 July 2017.
+Watson, Andrew B. (1986). "Temporal Sensitivity" (PDF). Sensory Processes and Perception.
+Archived from the original (PDF) on 2016-03-08.
+a b c Bovik, Alan C. (2005). Handbook of image and video processing (2nd ed.). Amsterdam: Elsevier Academic Press. pp. 14–21. ISBN 978-0-08-053361-2. OCLC 190789775. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b c d Wright, Steve (2002). Digital compositing for film and video.
+Boston: Focal Press.
+ISBN 978-0-08-050436-0. OCLC 499054489. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b c Brown, Blain (2013). Cinematography: Theory and Practice: Image Making for Cinematographers and Directors.
+Taylor & Francis. pp. 159–166. ISBN 9781136047381.
+a b Parker, Michael (2013). Digital Video Processing for Engineers : a Foundation for Embedded Systems Design.
+Suhel Dhanani.
+Amsterdam.
+ISBN 978-0-12-415761-3. OCLC 815408915. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b Bing, Benny (2010). 3D and HD broadband video networking.
+Boston: Artech House. pp. 57–70. ISBN 978-1-60807-052-7. OCLC 672322796. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b Stump, David (2022). Digital cinematography : fundamentals, tools, techniques, and workflows (2nd ed.). New York, NY: Routledge. pp. 125–139. ISBN 978-0-429-46885-8. OCLC 1233023513. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Constine, Josh (May 27, 2015). "The Most Important Insights From Mary Meeker's 2015 Internet Trends Report". TechCrunch.
+Archived from the original on August 4, 2015. Retrieved August 6, 2015.
+a b Li, Ze-Nian; Drew, Mark S.; Liu, Jiangchun (2021). Fundamentals of multimedia (3rd ed.). Cham, Switzerland: Springer. pp. 108–117. ISBN 978-3-030-62124-7. OCLC 1243420273. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b Banerjee, Sreeparna (2019). "Video in Multimedia". Elements of multimedia.
+Boca Raton: CRC Press.
+ISBN 978-0-429-43320-7. OCLC 1098279086. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Andy Beach (2008). Real World Video Compression.
+Peachpit Press.
+ISBN 978-0-13-208951-7. OCLC 1302274863. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Sanz, Jorge L. C. (1996). Image Technology : Advances in Image Processing, Multimedia and Machine Vision.
+Berlin, Heidelberg: Springer Berlin Heidelberg.
+ISBN 978-3-642-58288-2. OCLC 840292528. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Ekmekcioglu, Erhan; Fernando, Anil; Worrall, Stewart (2013). 3DTV : processing and transmission of 3D video signals.
+Chichester, West Sussex, United Kingdom: Wiley & Sons.
+ISBN 978-1-118-70573-5. OCLC 844775006. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Block, Bruce A.; McNally, Phillip (2013). 3D storytelling : how stereoscopic 3D works and how to use it.
+Burlington, MA: Taylor & Francis.
+ISBN 978-1-136-03881-5. OCLC 858027807. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b Tozer, E.P.J. (2013). Broadcast engineer's reference book (1st ed.). New York. pp. 470–476. ISBN 978-1-136-02417-7. OCLC 1300579454. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b Pizzi, Skip; Jones, Graham (2014). A Broadcast Engineering Tutorial for Non-Engineers (4th ed.). Hoboken: Taylor and Francis. pp. 145–152. ISBN 978-1-317-90683-4. OCLC 879025861. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+a b "Sony HD Formats Guide (2008)" (PDF). pro.sony.com.
+Archived (PDF) from the original on 6 March 2015. Retrieved 16 November 2014.
+Ward, Peter (2015). "Video Recording Formats". Multiskilling for television production.
+Alan Bermingham, Chris Wherry.
+New York: Focal Press.
+ISBN 978-0-08-051230-3. OCLC 958102392. Archived from the original on 2022-08-25. Retrieved 2022-08-25.
+Merskin, Debra L., ed. (2020). The Sage international encyclopedia of mass media and society.
+Thousand Oaks, California.
+ISBN 978-1-4833-7551-9. OCLC 1130315057. Archived from the original on 2020-06-03. Retrieved 2022-08-25.
+a b Ghanbari, Mohammed (2003). Standard Codecs: Image Compression to Advanced Video Coding.
+Institution of Engineering and Technology. pp. 1–12. ISBN 9780852967102. Archived from the original on 2019-08-08. Retrieved 2019-11-27.
+External links
+Wikimedia Commons has media related to Video.
+Wikiquote has quotations related to Video.
+Library resources about  Video 
+Resources in your library
+Video as Arts at Curlie
+Video as Media Production at Curlie
+Programmer's Guide to Video Systems: in-depth technical info on 480i, 576i, 1080i, 720p, etc.
+Format Descriptions for Moving Images
+Analog video standards
+RF connector
+Composite video
+S-Video (Y/C)
+Component video
+YPbPr
+RGB
+Broadcast video formatsTelevisionAnalog405 lines
+System A
+System M
+Color systems: NTSC, NTSC-J, Clear-Vision, PAL-M
+B-MAC
+System B, C, D, G, H, I, K, L, N
+Color systems: PAL, PAL-N, PALplus, SECAM
+MAC
+System E, F
+MUSE
+HD-MAC
+Audio
+BTSC (MTS)
+EIAJ
+NICAM
+SAP
+Sound-in-Syncs
+Zweikanalton (A2/IGR)
+Hidden signals
+Captioning
+CGMS-A
+EPG
+GCR
+PDC
+Teletext
+VBI
+VEIL
+VIT
+VITC
+WSS
+XDS
+Historical
+Pre-1940
+Mechanical television
+DigitalInterlaced
+SDTV
+HDTV
+Progressive
+LDTV
+EDTV
+HDTV
+UHDTV
+MPEG-2 Video
+ATSC
+DVB
+DVB 3D-TV
+ISDB
+DTMB
+AVS
+CMMB
+DTMB
+MPEG-4 AVC
+ATSC A/72
+CMMB
+DMB
+DTMB
+DVB
+ISDB
+SBTVD
+MPEG-H HEVC
+ATSC 3.0
+DVB
+HD DMB
+Audio
+AC-3 (5.1)
+AC-4
+DTS
+DRA
+MPEG-1 Audio Layer II
+MPEG Multichannel
+PCM
+LPCM
+AAC
+HE-AAC
+MPEG-H 3D Audio
+Hidden signals
+AFD
+Broadcast flag
+Captioning
+CPCM
+EPG
+Teletext
+Technical issues
+Broadcast-safe
+Digital cinema (DCI)
+Display motion blur
+Moving image formats
+MPEG transport stream
+Reverse Standards Conversion
+Standards conversion
+Television transmitter
+Test card
+Video on demand
+Video processing
+Widescreen signaling
+Templates (Analogue TV Topics)
+Video storage formatsVideotapeAnalog
+Quadruplex (1956)
+VERA (1958)
+Ampex 2 inch helical VTR (1961)
+Sony 2 inch helical VTR (1961)
+Type A (1965)
+CV-2000 (1965)
+Akai (1967)
+U-matic (1969)
+EIAJ-1 (1969)
+Cartrivision (1972)
+Philips VCR (1972)
+V-Cord (1974)
+VX (1974)
+Betamax (1975)
+IVC (1975)
+Type B (1976)
+Type C (1976)
+VHS (1976)
+VK (1977)
+SVR (1979)
+Video 2000 (1980)
+CVC (1980)
+VHS-C (1982)
+M (1982)
+Betacam (1982)
+Video8 (1985)
+Betacam SP (1986)
+MII (1986)
+S-VHS (1987)
+S-VHS-C (1987)
+Hi8 (1989)
+Ruvi (1998)
+Digital
+D1 (1986)
+D2 (1988)
+D3 (1991)
+DCT (1992)
+Digital Betacam (1993)
+D5 (1994)
+Digital-S (D9) (1995)
+Betacam SX (1996)
+Digital8 (1999)
+MPEG IMX (2001)
+MicroMV (2001)
+High Definition
+Sony HDVS (1984)
+UniHi (1984)
+BCH 1000 (1992)
+W-VHS (1994)
+HDCAM (1997)
+D-VHS (1998)
+D6 HDTV VTR (2000)
+HDV (2003)
+HDCAM SR (2003)
+VideodiscAnalog
+Phonovision (1927)
+Ampex-HS (1967)
+TeD (1975)
+LaserDisc (1978)
+CED (1981)
+VHD (1983)
+Laserfilm (1984)
+CD Video (1987)
+VSD (1990)
+Digital
+VCD (1993)
+MovieCD (1996)
+DVD (1996)
+MiniDVD (c. 1996)
+CVD (1998)
+SVCD (1998)
+EVD (2003)
+PVD (Personal Video Disc) (2003)
+UMD (2004)
+FVD (2005)
+High Definition
+MUSE Hi-Vision LD (1994)
+Professional Disc (PFD) (2003)
+HVD (High-Definition Versatile Disc) (2004)
+VMD (2006)
+HD DVD (2006)
+BD (Blu-ray Disc) (2006)
+MiniBD (c. 2006)
+HVD (Holographic Versatile Disc) (2007)
+CBHD (China Blue High-definition Disc) (2008)
+Ultra-High Definition
+UHD-BD (Ultra HD Blu-ray) (2016)
+VirtualMedia agnostic
+DV (1995)
+DVCPRO (1995)
+DVCAM (1996)
+DVCPRO50 (1997)
+DVCPRO HD (2000)
+Tapeless
+CamCutter Editcam (1995)
+XDCAM (2003)
+GBA-TV (2004)
+MOD (2005)
+AVCHD (2006)
+AVC-Intra (2006)
+TOD (2007)
+iFrame (2009)
+XAVC (2012)
+Solid state
+P2 (2004)
+SxS (2007)
+MicroP2 (2012)
+Video recorded to film
+Kinescope (1947)
+Electronicam kinescope (1950s)
+Electronic Video Recording (1967)
+Online video and sharing platforms
+Digital library
+Streaming media
+Video on demand
+Free
+Aparat
+Apple TV
+AcFun
+AfreecaTV
+Bilibili
+BitChute
+Brightcove
+Buzznet
+Dailymotion
+Daum
+Endeavor Streaming
+The Film Detective
+FilmOn
+Flickr
+Fotki
+Frame.io
+Funny or Die
+Funshion
+GOG.com
+GyaO
+IMDb TV
+Internet Archive
+iQIYI
+Le
+Mango TV
+Medici.tv
+MeWatch
+Niconico
+Noggin
+OverDrive
+LBRY/Odysee
+Pandora TV
+PeerTube
+PictureBox Films
+Pluto TV
+Pokémon TV
+Rumble
+Rutube
+SchoolTube
+Showroom
+Sohu
+TeacherTube
+Teaching Channel
+Telly
+thePlatform
+Tudou
+Twitch
+VBOX7
+Vimeo
+Vudu
+V.QQ.com
+Xigua Video
+Xunlei Kankan
+Youku
+YouTube
+Kids
+Zattoo
+Rental and purchase
+Aha
+Amazon Prime Video
+Fandango
+Vudu
+Google
+Google TV
+YouTube Movies & TV
+iTunes Store
+Microsoft Movies & TV
+Movies Anywhere
+Nintendo eShop
+Rakuten TV
+Discontinued
+Chicken Pork Adobo
+Azubu
+BBC Store
+Blip
+Break.com
+CinemaNow
+Daisuki
+Disney Movies Anywhere
+Fearnet
+FilmStruck
+Flixster
+Global Wrestling Network
+Google Video
+Hitbox
+imeem
+iMesh
+Intel AppUp
+In2TV
+Joost
+Justin.tv
+Kazaa
+LiveLeak
+LoveFilm
+Megaupload
+Mixer
+MUZU.TV
+Metacafe
+MyVideo
+Nintendo Channel
+Nintendo Video
+Nokia Store
+Openfilm
+Openload
+PlayStation Video
+PLUS7
+Presto
+Putlocker
+Quickflix
+Redbox
+Revver
+Smashcast
+Sony Connect
+Sony Entertainment Network
+Stage6
+Starlight Networks
+Streamworks International
+Super Deluxe
+TalkTalk TV Store
+Tank Top TV
+TouchVision
+Trilulilu
+Triton
+TroopTube
+Twango
+UltraViolet
+Total Access Impact Wrestling
+Vdio
+Vessel
+Viddler
+Vidme
+Vine
+Vongo
+Warner Archive Instant
+WeShow
+Windows Media Center
+WWE Classics on Demand
+Data compression methodsLosslessEntropy type
+Arithmetic
+Asymmetric numeral systems
+Golomb
+Huffman
+Adaptive
+Canonical
+Modified
+Range
+Shannon
+Shannon–Fano
+Shannon–Fano–Elias
+Tunstall
+Unary
+Universal
+Exp-Golomb
+Fibonacci
+Gamma
+Levenshtein
+Dictionary type
+Byte pair encoding
+Lempel–Ziv
+Brotli
+Deflate
+LZ4
+LZFSE
+LZJB
+LZMA
+LZO
+LZRW
+LZS
+LZSS
+LZW
+LZWL
+LZX
+Snappy
+Zstandard
+Other types
+BWT
+CTW
+Delta
+DMC
+DPCM
+LDCT
+MTF
+PAQ
+PPM
+RLE
+LossyTransform type
+Discrete cosine transform
+DCT
+MDCT
+DST
+FFT
+Wavelet
+Daubechies
+DWT
+SPIHT
+Predictive type
+DPCM
+ADPCM
+LPC
+ACELP
+CELP
+LAR
+LSP
+WLPC
+Motion
+Compensation
+Estimation
+Vector
+Psychoacoustic
+AudioConcepts
+Bit rate
+ABR
+CBR
+VBR
+Companding
+Convolution
+Dynamic range
+Latency
+Nyquist–Shannon theorem
+Sampling
+Sound quality
+Speech coding
+Sub-band coding
+Codec parts
+A-law
+μ-law
+DPCM
+ADPCM
+DM
+FT
+FFT
+LPC
+ACELP
+CELP
+LAR
+LSP
+WLPC
+MDCT
+Psychoacoustic model
+ImageConcepts
+Chroma subsampling
+Coding tree unit
+Color space
+Compression artifact
+Image resolution
+Macroblock
+Pixel
+PSNR
+Quantization
+Standard test image
+Methods
+Chain code
+DCT
+Deflate
+Fractal
+KLT
+LP
+RLE
+Wavelet
+Daubechies
+DWT
+EZW
+SPIHT
+VideoConcepts
+Bit rate
+ABR
+CBR
+VBR
+Display resolution
+Frame
+Frame rate
+Frame types
+Interlace
+Video characteristics
+Video quality
+Codec parts
+DCT
+DPCM
+Deblocking filter
+Lapped transform
+Motion
+Compensation
+Estimation
+Vector
+Wavelet
+Daubechies
+DWT
+Theory
+Entropy
+Grammar
+Information theory
+Timeline
+Kolmogorov complexity
+Quantization
+Rate–distortion
+Redundancy
+Compression formats
+Compression software (codecs)
+Independent productionReading
+Alternative comics
+Alternative manga
+Fanzine
+Webcomic
+business
+Webtoon
+Minicomic
+Co-ops
+Doujinshi
+conventions
+printers
+shops
+Self-publishing
+Small press
+Amateur press association
+Audio
+Independent music
+Record label
+Netlabel
+Open-source label
+Radio
+Station
+Pirate radio
+Cassette culture
+Doujin music
+Lo-fi music
+Tracker (MOD) music
+Podsafe
+Underground music
+Musical instruments
+Circuit bending
+Experimental musical instrument
+VideoAmateur
+Home movies
+Amateur film
+Amateur pornography
+Fan film
+Machinima
+Professional
+Independent animation
+Cinema of Transgression
+Independent film
+Exploitation film
+Guerrilla filmmaking
+B movie
+Golden Age
+Z movie
+Midnight movie
+Low-budget film
+No-budget film
+No Wave Cinema
+Double feature
+Software
+Cowboy coding
+Demoscene
+Free software
+Open-source software
+Software cracking
+Unofficial patch
+Warez scene
+Video games
+Indie games
+development
+developers
+Homebrew
+Fangame
+Doujin soft
+Mod
+Open-source video game
+ROM hack
+FoodDrinks
+Independent soft drink
+Homebrewing
+Microbrewery
+Other
+Indie art
+Amateur photography
+Mail art
+Naïve art
+Outsider art
+Visionary environment
+Indie RPG
+Independent circuit (wrestling)
+Independent TV station
+General
+Indie design
+Do it yourself (DIY ethic)
+Doujin
+Make (magazine)
+Maker Faire
+Social peer-to-peer processes
+Authority control National libraries
+France (data)
+Germany
+Israel
+United States
+Latvia
+Czech Republic
+Other
+Historical Dictionary of Switzerland
+Retrieved from ""
+Navigation menu
+Personal tools
+Namespaces
+ArticleTalk
+English
+Views
+ReadEditView history
+More
+Search
+Navigation
+Contribute
+Tools
+Print/export
+Download as PDFPrintable version
+In other projects
+Wikimedia CommonsMeta-WikiWikiquote
+Languages
+Edit links
+This page was last edited on 10 October 2022, at 08:08 (UTC).
+Text is available under the Creative Commons Attribution-ShareAlike License 3.0;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Mobile view
+Developers
+Statistics
+Cookie statement

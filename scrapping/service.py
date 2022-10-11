@@ -2,10 +2,45 @@ from bs4 import BeautifulSoup
 import requests
 import re
 from pathlib import Path
+import os
+import glob
+
+scrapping_path = os.environ['SCRAPPING']
 
 # Put a link to the folder
-html_folder = Path('/Users/egoliakova/wikipedia/wiki/scrapping/articles_html')
-text_folder = Path('/Users/egoliakova/wikipedia/wiki/scrapping/articles_text')
+html_folder = Path('{env_var}articles_html'.format(env_var=scrapping_path))
+text_folder = Path('{env_var}articles_text'.format(env_var=scrapping_path))
+
+replace_pairs = (
+    # remove the sign of quotation mark
+    (r'\^', ''),
+    # remove the arrows
+    (u'\u2191', ''),
+    ('←', ''),
+    ('→', ''),
+    # remove the quotation, like [1]
+    (r'\[\d+\]', ''),
+    # remove the list of languages, that should always contains this sequence
+    (r'.*(EspañolEsperanto|EsperantoEspañol).*', ''),
+    # remove urls beginning with https
+    (r'https?\://[\w \./\?\=&-]+', ''),
+    # remove urls beginning with www
+    (r'www\.[\w \./\?\=&-]+', ''),
+    # remove (en)|(en-GB)|(en-US) mark before the quoted resources
+    (r'\(en(?:\)|-GB\)|-US\))', ''),
+    # remove math figures
+    (r'{\\displaystyle .*', ''),
+    # remove a string if it's just one character
+    (r'^[\w০\.\:٠]$', ''),
+    # remove a broken parenthesis: if a string ends with (
+    (r'\($', ''),
+    # remove a broken parenthesis: if a string starts with )
+    (r'^\)', ''),
+    # remove a string if it's just separators and spaces
+    (r'^[٠ ]+$', ''),
+    # check lines containing multiple sentences and break them into different lines
+    (r'(?<=[a-z])\. (?=[A-Z][\w ])', '.\n')
+)
 
 
 def get_article_name(soup):
@@ -49,3 +84,28 @@ def dump_article_html(arcticle_soup, language, en_name):
 def dump_text_only(arcticle_soup, language, en_name):
     with open(f"{text_folder}/{language}/{en_name}.txt", 'w') as f:
         f.write(arcticle_soup.text)
+
+
+def replace_chars(s, replace_pairs):
+    # apply all the rules above in the order
+    for pair in replace_pairs:
+        s = re.sub(*pair, s)
+    s = remove_toc(s)
+    return s.lstrip()
+
+
+def remove_toc(s):
+    # completely removes all Table of Contents lines, since they are duplicated later in the text
+    regex = r"^(\d{1,2}(?:\.\d){0,}[A-Z« ])"
+    cond = re.match(regex, s)
+    if cond:
+        s = re.sub(regex, '', s)
+    return s
+
+
+def get_files_in_folder(path_from_scrapping):
+    return glob.glob(f'{scrapping_path}{path_from_scrapping}/*')
+
+
+def get_filename(filepath):
+    return filepath.split('/')[-1]
