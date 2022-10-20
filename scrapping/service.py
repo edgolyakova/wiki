@@ -138,13 +138,3 @@ def get_filename(filepath):
     return filepath.split('/')[-1]
 
 
-files = get_files_in_folder('articles_html/zh-cn')
-
-for file in files:
-    soup = load_soup_by_html(file)
-    filename = get_filename(file)
-
-    lines = get_article_lines(soup)
-    write_article_lines(lines, f'{scrapping_path}articles_text_ver2/zh-cn/{filename}')
-
-    print(filename)
