@@ -1,0 +1,142 @@
+Aire (géométrie)
+Définition formelle
+Propriétés
+Calcul de l'aire
+Problèmes d'aire
+Histoire
+Superficie
+Notes et références
+Voir aussi
+Surfaces usuelles
+Intégrale
+Méthode de Monte Carlo
+Quadrature du cercle
+Confusion entre aire et périmètre
+Isopérimétrie, surface minimale
+Grande surface
+Haute Antiquité
+Grèce antique
+Monde arabo-musulman
+Articles connexes
+Bibliographie
+Rectangle
+Triangle
+Disque
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Aire.
+En mathématiques, l'aire est une grandeur relative à certaines figures du plan ou des surfaces en géométrie dans l'espace.
+Le développement de cette notion mathématique est lié à la rationalisation du calcul de grandeur de surfaces agricoles, par des techniques d'arpentage.
+Cette évaluation assortie d'une unité de mesure est aujourd'hui plutôt appelée superficie.
+Informellement, l'aire permet d'exprimer un rapport de grandeur d'une figure relativement à une unité, par le biais de découpages et recollements, de déplacements et retournements et de passage à la limite par approximation.
+La mesure d'une aire peut être un nombre réel positif ou être infinie pour certaines surfaces comme le plan dans son ensemble.
+Diverses techniques ont été élaborées pour mesurer une aire, de la méthode des indivisibles au calcul intégral et aux méthodes probabilistes comme la méthode de Monte-Carlo.
+Dans un espace euclidien de dimension 2, un domaine a une aire s'il est un ensemble mesurable pour la mesure de Jordan et son aire est égale à cette mesure.
+L'aire S d'une surface plane suit quatre propriétés :
+La propriété d'additivité est étendue, par récurrence, à un entier naturel n supérieur à deux quelconque : si A1, A2… An sont des surfaces deux à deux disjointes d'aires respectives S(A1), S(A2)… S(An), alors
+ce qui se note plus rigoureusement :
+Mais cette propriété d'additivité finie ne suffit pas, ne serait-ce que pour prouver la formule de calcul de l'aire d'un disque (voir plus bas). Elle est donc étendue à une famille infinie dénombrable de surfaces planes (An)n∈ N∗ deux à deux disjointes dont les aires sont supposées connues, avec le résultat analogue au précédent :
+On parle alors de σ-additivité (« sigma-additivité »).
+Une unité de longueur (notée 1u.l.) étant préalablement choisie, on définit l'unité d'aire (notée 1u.a.) par 1u.a.=(1u.l.)2. Toutes les surfaces sont mesurées en unités d'aire.
+La figure de base pour le calcul d'une aire est le carré unité, de côté 1u.l. ; il permet de calculer l'aire du rectangle. À l'aide de l'aire du rectangle, il est possible de déterminer l'aire d'un triangle rectangle (vu comme un demi-rectangle) ou d'un parallélogramme, puis celle d'un triangle quelconque et, par suite, d'un polygone quelconque.
+La formule de l'aire d'un disque est plus complexe à démontrer : elle nécessite le passage par une limite de suite. L'idée d'approcher successivement une surface complexe par une suite de surfaces plus simples (en général, des rectangles ou des polygones) est fondamentale.
+Une surface qui peut être « correctement » approchée par des rectangles, au point qu'on puisse en déduire son aire par un calcul de limite est dite quarrable.
+Dans certains cas, l'analyse vient au secours de la géométrie, lorsque les raisonnements par découpage et recollement ne suffisent plus.
+Certains calculs d'aires nécessitent le recours à des intégrales (notion d' "aire sous la courbe"), qui peuvent parfois être calculées à partir de primitives d'une fonction.
+D'autres cas sont plus pathologiques : les mathématiciens ont établi une théorie de la mesure pour généraliser les résultats sur les aires.
+Pour les fractales, les aires ne sont pas calculables — ou non satisfaisantes.
+La notion de dimension de Hausdorff généralise celle d'aire, pour un objet fractal plan.
+Ci-dessous sont données les formules de calcul d'aire usuelles les plus courantes et des démonstrations, qui illustrent les raisonnements géométriques souvent utilisés pour résoudre les problèmes d'aire : « coupé-collé », parfois en imaginant une infinité de découpages par des considérations sur les limites.
+Aire d'un rectangle — L'aire d'un rectangle est égale au produit de sa longueur par sa largeur.
+Un rectangle dont la longueur et la largeur sont égales à des nombres entiers m et n peut être vu comme composé de m lignes contenant chacune n carrés unité. Son aire est donc égale à m × n.
+Si les dimensions du rectangle sont des fractions m/p et n/q, on considère qu'on a « découpé » le rectangle de dimensions m et n en p parts égales, puis chacune de ces parts à nouveau en q parts égales.
+Le rectangle de dimensions m et n contient donc p × q fois celui de dimensions m/p et n/q. L'aire de ce dernier rectangle est donc égale à m/p × n/q.
+Ce résultat se généralise au cas où la longueur et la largeur du rectangle sont des nombres réels, mais le raisonnement est plus abstrait : il nécessite un passage à la limite, en considérant que tout nombre réel est la limite d'une suite de nombres rationnels.
+Un carré est un rectangle dont la longueur et la largeur sont égales à un même nombre appelé côté du carré. Un carré de côté c possède une aire égale à c × c, ce qui se note c2. Réciproquement, tout nombre de la forme c2 (où c est positif) peut être considéré comme l'aire d'un carré de côté c, ce qui explique que c2 se lit « c au carré » ou « le carré de c ».
+La formule de calcul de l'aire d'un triangle la plus courante est :
+Aire d'un triangle — L'aire d'un triangle est égale à la moitié du produit de sa base par sa hauteur.
+Tout triangle rectangle dont les cathètes (ou petits côtés) mesurent a et b peut être considéré comme la moitié d'un rectangle de dimensions a et b partagé en deux par une de ses diagonales. L'aire de ce triangle rectangle est donc égale à 
+×
+Plus généralement, tout triangle de hauteur d'un triangle h et de côté associé b (dans ce cas, le côté est appelé base) est la moitié d'un rectangle de dimensions h et b, ce qui donne la formule classique de calcul d'aire d'un triangle :
+D'autres méthodes permettent de calculer l'aire d'un triangle et, par suite, l'aire d'un polygone quelconque, en utilisant le fait que tout polygone peut être partagé en un nombre fini de triangles. C'est notamment en partageant un polygone régulier en triangles dont un sommet est son centre qu'on obtient les formules usuelles de calcul de l'aire d'un polygone régulier.
+En accolant au triangle rectangle gris un autre triangle isométrique suivant l'hypoténuse, on obtient un rectangle.
+Un triangle vu comme un demi-rectangle.
+Un polygone partagé en triangles.
+Théorème — L'aire d'un disque de rayon R est égale à  π × R 2.
+On se convainc de ce résultat par un partage du disque en un nombre arbitrairement grand de triangles.
+En considérant n points A1, A2… An régulièrement espacés sur un cercle de centre O et de rayon R, on obtient un polygone régulier à n côtés constitué de n triangles isocèles de même aire OA1A2, OA2A3, etc. L'aire du polygone régulier est donc n fois celle de l'un de ces triangles.
+Si la hauteur de chacun de ses triangles est hn, l'aire de chaque triangle est 1/2hn × A1A2. En multipliant par n, l'aire du polygone égale donc la moitié de la hauteur hn multipliée par le périmètre du polygone.
+Lorsque le nombre n de points tend vers l'infini,
+la hauteur hn tend vers R, et le périmètre du polygone vers celui du cercle, soit 2πR, ce qui donne bien le résultat annoncé.
+Connaissant le rayon du cercle, une autre méthode, utilisée par Archimède consiste à diviser le disque en secteurs, comme montré sur la figure à droite.
+Chaque secteur a une forme à peu près triangulaire et les secteurs peuvent être réarrangés pour former un parallélogramme.  La hauteur de ce parallélogramme est r, et la largeur est la moitié de la circonférence du cercle, ou πr.  Ainsi, la surface totale du disque est πr2
+Bien que cette méthode de division en secteurs ne soit qu'approximative, l'erreur devient de plus en plus petite à mesure que le cercle est divisé en un plus grand nombre de secteurs.
+La limite de la somme des surfaces des parallélogrammes approximatifs est exactement πr2, qui est la surface totale du disque.
+Le plan euclidien étant muni d'un repère orthonormé, pour une fonction numérique f positive et continue, l'intégrale de Riemann de f sur un intervalle [a ; b] permet d'exprimer facilement l'aire du domaine délimité par :
+Cette aire vaut alors I(1u.a.) où le nombre I désigne l'intégrale 
+∫
+N.B. Lorsque le repère cartésien n'est plus orthonormé, la mesure de la surface (l'aire) précédente sera égale à I(Mu.a.) où Mu.a désigne l'aire de la "maille élémentaire" du repère (c'est-à-dire l'aire du parallélogramme construit sur les deux vecteurs de base du repère): l'intégrale correspond donc à la quantité de "mailles élémentaires" contenues dans la surface mesurée.
+Cette aire peut être évaluée par des méthodes numériques en approchant l'aire sous la courbe par des surfaces usuelles : rectangles ou trapèzes notamment.
+Dans certains cas, un calcul de limite permet de déterminer la valeur exacte de l'intégrale, par un raisonnement semblable à celui utilisé ci-dessus pour le disque.
+Un raisonnement mêlant des considérations sur les aires et du calcul différentiel permet de prouver que
+où F est une primitive de f sur [a ; b]. Ainsi, la connaissance de primitives d'une fonction permet d'élargir l'ensemble des aires calculables par « découpage » vues précédemment.
+Ainsi les raisonnements sur les aires et le calcul différentiel se nourrissent et s'enrichissent mutuellement.
+Les calculs d'aire ont de ce fait un retentissement sur de nombreux domaines des mathématiques, par le biais des intégrales, notamment les probabilités ou les statistiques par le calcul de la valeur moyenne d'une fonction.
+Si le calcul d'aires permet d'améliorer la connaissance de probabilités via les intégrales, la réciproque est également vraie.
+Soit une surface S, dont l'aire est connue, qui en contient une autre, L d'aire inconnue.
+La méthode de Monte-Carlo consiste à envoyer des points au hasard dans S. On dénombre alors le nombre total nS de points et le nombre nL qui se sont trouvés, par hasard, dans L. Il est alors probable que le rapport des aires de L et S soit proche du rapport de nL sur nS. La marge d'erreur sera statistiquement d'autant plus faible que le nombre de points nS sera grand.
+Un problème d'aire a traversé les siècles, depuis au moins Anaxagore (Ve siècle av. J.-C.) jusqu'à 1882, lorsque Ferdinand von Lindemann prouve que π est un nombre transcendant : celui de la quadrature du cercle qui consiste à construire, à la règle et au compas, un carré d'aire égale à celle d'un disque donné.
+Le périmètre est, avec l'aire, l'une des deux mesures principales des figures géométriques planes.
+Malgré le fait qu'elles ne s'expriment pas dans la même unité, il est fréquent de confondre ces deux notions ou de croire que, plus l'une est grande, plus l'autre l'est aussi.
+En effet l'agrandissement (ou la réduction) d'une figure géométrique fait croître (ou décroître) simultanément son aire et son périmètre.
+Par exemple, si un terrain est représenté sur une carte à l'échelle 1:10 000, le périmètre réel du terrain peut être calculé en multipliant le périmètre de la représentation par 10 000 et l'aire en multipliant celle de la représentation par 10 0002. Il n'existe cependant aucun lien direct entre l'aire et le périmètre d'une figure quelconque.
+Par exemple, un rectangle possédant une aire égale à un mètre carré peut avoir comme dimensions, en mètres : 0,5 et 2 (donc un périmètre égal à 5 m) mais aussi 0,001 et 1000 (donc un périmètre de plus de 2 000 m). Proclus (Ve siècle) rapporte que des paysans grecs se sont partagé « équitablement » des champs suivant leurs périmètres, mais avec des aires différentes,. Or, la production d'un champ est proportionnelle à l'aire, non au périmètre : certains paysans naïfs ont pu obtenir des champs avec de longs périmètres, mais une aire (et donc une récolte) médiocre.
+L'isopérimétrie traite, en particulier, la question de trouver la surface la plus vaste possible, pour un périmètre donné. La réponse est intuitive, c'est le disque. Ceci explique pourquoi, notamment, les yeux à la surface d'un bouillon ont une forme circulaire.
+Ce problème, d'apparence anodin, fait appel à des théories sophistiquées pour obtenir une démonstration rigoureuse.
+On simplifie parfois le problème isopérimétrique en limitant les surfaces autorisées.
+Par exemple on cherche le quadrilatère ou le triangle d'aire la plus vaste possible, toujours pour un périmètre donné. Les solutions respectives sont le carré et le triangle équilatéral.
+De manière générale, le polygone à n sommets ayant la plus grande surface, à périmètre donné, est celui qui se rapproche le plus du cercle, c'est le polygone régulier.
+L'isopérimétrie ne se limite pas à ces questions.
+On recherche aussi une zone d'aire la plus vaste possible pour un périmètre donné, avec des géométries différentes.
+Par exemple, dans le cas d'un demi-plan, la réponse est le demi-disque.
+Ce concept donne naissance à une famille de théorèmes, dit isopérimétriques, à des majorations dites inégalités isopérimétriques, ainsi qu'à un rapport, appelé quotient isopérimétrique. L'inégalité isopérimétrique indique qu'une surface de périmètre p et d'aire a vérifie la majoration suivante :
+Le terme de gauche, est appelé quotient isopérimétrique, il est égal à 1 si, et seulement si la surface est un disque.
+Si l'origine de cette question date d'au moins 2 900 ans, ce n'est qu'en 1895, à l'aide de méthodes dérivées du théorème de Minkowski que la question est définitivement résolue sous sa forme antique. Ces méthodes permettent de démontrer le théorème isopérimétrique et de le généraliser à des dimensions supérieures dans le cas d'une géométrie euclidienne.
+Le problème d'isopérimétrie dans l'espace à trois dimensions consiste à chercher, le plus grand volume contenu dans une surface d'aire donnée. La réponse est la sphère, ce qui entraîne notamment la forme des bulles de savon.
+Voir l'article isopérimétrie pour les aspects élémentaires de cette question.
+Des éléments de réponse, faisant usage d'outils mathématiques plus sophistiqués, sont proposés dans l'article Théorème isopérimétrique.
+Une surface minimale est une surface de l'espace à trois dimensions qui, sous certaines contraintes, minimise l'aire au voisinage de chacun de ses points.
+Cela signifie qu'une petite variation de cette surface rend l'aire plus grande. Pour un ensemble donné de contraintes, il peut exister plusieurs surfaces minimales.
+Les surfaces minimales sont spontanément prises par un film de savon qui s'appuie sur un cadre car de telles surfaces minimisent également les forces exercées sur le film.
+La recherche de telles surfaces est appelée en mathématiques problème de Plateau, elle nécessite des raisonnements de calcul différentiel.
+A contrario, le problème d'obtenir, pour un volume donné, la figure avec la plus grande superficie possible se pose.
+Une solution mathématiquement simple existe : une surface sans épaisseur possède un volume nul.
+De telles formes se trouvent dans la nature : une feuille de plante verte est généralement très peu épaisse mais large, afin d'exposer la plus grande surface possible au soleil, pour favoriser la photosynthèse. Mais une grande surface du limbe foliaire de la feuille favorise également la transpiration, les plantes devant lutter contre des périodes de sécheresse (pins, cactus…) ont ainsi souvent des feuilles plus épaisses afin de diminuer leur superficie et donc lutter contre le dessèchement.
+Une autre stratégie possible consiste à prendre une solide et à le percer d'un grand nombre de trous.
+Par exemple, l'éponge de Menger est construite à partir d'un cube qu'on partage trois tranches égales suivant chacune des trois dimensions.
+Cela donne vingt-sept cubes égaux, puis on enlève les cubes centraux.
+On obtient alors un nouveau solide, de volume inférieur et d'aire supérieure au précédent, constitué de vingt cubes.
+Puis on reprend le même procédé pour chacun de ces vingt cubes, puis à nouveau pour les cubes ainsi obtenus, etc.
+En répétant le procédé indéfiniment, on obtient un objet fractal qui possède une aire infinie et un volume égal à zéro, tout en ayant des dimensions (longueur, largeur, profondeur) égales à celles du cube de départ. Des formes très découpées comme l'éponge de Menger se trouvent dans la nature, lorsqu'il s'agit de favoriser les échanges entre deux milieux : par exemple les poumons de mammifères (afin de maximiser les échanges gazeux dans un volume réduit), les branchies, intestins…
+La surface spécifique d'un matériau est sa superficie par unité de masse : plus la surface spécifique est grande, plus l'objet peut échanger avec son environnement, plus il est poreux.
+La surface spécifique est notamment une caractéristique physique importante d'un sol, qui détermine sa capacité à retenir des éléments nutritifs et à les échanger avec des plantes,.
+Selon Hérodote, la géométrie dans l'Égypte antique prend son origine dans la nécessité de répartir équitablement les surfaces des champs cultivés après les crues du Nil. Les Égyptiens connaissaient les formules usuelles de calcul des aires des polygones et la majorité des problèmes de géométrie conservés de cette époque concernent des problèmes d'aires.
+À Babylone, l'aire A était calculée à partir du périmètre P d'un cercle suivant une procédure équivalente à la formule :
+Même lorsqu'ils connaissaient le diamètre d'un cercle, les scribes passaient toujours par le calcul de son périmètre (en multipliant le diamètre par 3) pour ensuite obtenir son aire.
+La procédure était la suivante, comme dans cet exemple, extrait de la résolution d'un problème où il est demandé de déterminer le volume d'une bûche cylindrique dont le diamètre était 1 + 2/3 :
+Méthode babylonienne — Triple 1 + 2/3, le dessus de la bûche, et 5, la circonférence de la bûche, viendra.
+Prends le carré de 5 et 25 viendra.
+Multiplie 25 par 1/12, la constante, et 2 + 1/12, l'aire, viendra.
+En Égypte,, le calcul s'effectuait à partir du diamètre D :
+Le raisonnement consistait probablement à inscrire un octogone et un cercle dans un carré,. La figure ci-contre illustre ce raisonnement : si le carré a pour côté le diamètre D du disque, l'octogone construit sur le tiers du côté du carré possède une aire de
+L'aire du disque est considérée comme légèrement supérieure à celle de l'octogone, soit
+Al-Khwârizmî, dans son Abrégé du calcul par la restauration et la comparaison, analyse et résout les équations du second degré par des considérations géométriques sur des aires de carrés, poursuivant en cela la tradition de l'algèbre géométrique remontant à l'Antiquité.
+La superficie d'un espace au sol ou d'une surface physique plane ou gauche est sa mesure physique exprimée avec une unité de mesure. L'unité correspondante du Système international est le mètre carré ou l'un de ses multiples ou sous-multiples, comme les ares ou hectares.
+Cette mesure est parfois désignée par le terme « surface » lui-même, qui partage la même étymologie.
+Les calculs de superficie liés à la notion de rendement agricole et à l'imposition fiscale ont motivé la notion d'aire en géométrie.
+La modélisation d'un terrain par une surface géométrique simple permet une évaluation efficace de sa superficie.
+La superficie des entités administratives (par exemple en France, celle d'une commune, d'un département…) peut prendre plusieurs valeurs différentes selon qu'elle est mesurée en se limitant aux terres émergées ou en prenant en compte les surfaces en eau.
+Pour le calcul de la densité de population, on utilise la superficie terrestre qui correspond à l'aire de l'ensemble des terres en excluant les eaux intérieures comme les lacs ou fleuves.
+Sur les autres projets Wikimedia :

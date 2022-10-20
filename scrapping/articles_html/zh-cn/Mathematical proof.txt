@@ -1,0 +1,1619 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>数学证明 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"4e7796d7-a359-4c2a-90da-5a614bf6612a","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"数学证明","wgTitle":"数学证明","wgCurRevisionId":71962957,"wgRevisionId":71962957,"wgArticleId":64074,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有过时参数的引用的页面","有蓝链却未移除内部链接助手模板的页面","几何术语","数学推理"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"数学证明","wgRelevantArticleId":64074,"wgUserVariant":"zh","wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q11538","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready",
+"user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices",
+"ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/1200px-P._Oxy._I_29.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="731" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/800px-P._Oxy._I_29.jpg" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="487" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/640px-P._Oxy._I_29.jpg" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="390" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="数学证明 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-数学证明 rootpage-数学证明 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-307af9e9"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">数学证明</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="thumb tright"><div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:P._Oxy._I_29.jpg"><img alt="" class="thumbimage" data-file-height="1032" data-file-width="1694" decoding="async" height="152" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/250px-P._Oxy._I_29.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/375px-P._Oxy._I_29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8d/P._Oxy._I_29.jpg/500px-P._Oxy._I_29.jpg 2x" width="250"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Oxyrhynchus_papyrus_with_Euclid%27s_Elements.jpg" title="放大"></a></div><a class="mw-redirect" href="/wiki/%E5%B9%BE%E4%BD%95%E5%8E%9F%E6%9C%AC" title="几何原本">几何原本</a>中有许多证明的技巧，图中是Book II, Proposition 5.<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup></div></div></div>
+<div class="noteTA" id="noteTA-307af9e9"><div class="noteTA-group"><div data-noteta-group="Math" data-noteta-group-source="module"></div></div></div>
+<p>在<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8" title="数学">数学</a>上，<b>数学证明</b>（Mathematical proof）是在一个特定的<a href="/wiki/%E5%85%AC%E7%90%86%E7%B3%BB%E7%BB%9F" title="公理系统">公理系统</a>中，根据一定的规则或标准，由<a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a>和<a href="/wiki/%E5%AE%9A%E7%90%86" title="定理">定理</a>推导出某些<a href="/wiki/%E5%91%BD%E9%A2%98" title="命题">命题</a>的过程。比起证据，数学证明一般依靠<a href="/wiki/%E6%BC%94%E7%BB%8E%E6%8E%A8%E7%90%86" title="演绎推理">演绎推理</a>，而不是依靠<a href="/wiki/%E5%BD%92%E7%BA%B3%E6%8E%A8%E7%90%86" title="归纳推理">自然归纳</a>和经验性的理据。这样推导出来的命题也叫做该系统中的<a href="/wiki/%E5%AE%9A%E7%90%86" title="定理">定理</a>。
+</p><p>数学证明建立在<a href="/wiki/%E9%80%BB%E8%BE%91" title="逻辑">逻辑</a>之上，但通常会包含若干程度的<a class="mw-redirect" href="/wiki/%E8%87%AA%E7%84%B6%E8%AA%9E%E8%A8%80" title="自然语言">自然语言</a>，因此可能会产生一些含糊的部分。
+</p><p>实际上，用文字形式写成的数学证明，在大多数情况都可以视为<a class="mw-redirect" href="/wiki/%E9%9D%9E%E5%BD%A2%E5%BC%8F%E9%82%8F%E8%BC%AF" title="非形式逻辑">非形式逻辑</a>的应用。在<a class="mw-redirect" href="/wiki/%E8%AD%89%E6%98%8E%E8%AB%96" title="证明论">证明论</a>的范畴内，则考虑那些用纯形式化的语言写出的证明。这个区别导致了对过往到现在的<a class="new" href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E5%AE%9E%E8%B7%B5&amp;action=edit&amp;redlink=1" title="数学实践（页面不存在）">数学实践</a>、<span class="ilh-all" data-foreign-title="Quasi-empiricism in mathematics" data-lang-code="en" data-lang-name="英语" data-orig-title="数学上的拟经验论"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E4%B8%8A%E7%9A%84%E6%93%AC%E7%B6%93%E9%A9%97%E8%AB%96&amp;action=edit&amp;redlink=1" title="数学上的拟经验论（页面不存在）">数学上的拟经验论</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Quasi-empiricism_in_mathematics" title="en:Quasi-empiricism in mathematics"><span dir="auto" lang="en">Quasi-empiricism in mathematics</span></a></span>）</span></span>和<span class="ilh-all" data-foreign-title="Folk mathematics" data-lang-code="en" data-lang-name="英语" data-orig-title="民俗数学"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%B0%91%E4%BF%97%E6%95%B0%E5%AD%A6&amp;action=edit&amp;redlink=1" title="民俗数学（页面不存在）">民俗数学</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Folk_mathematics" title="en:Folk mathematics"><span dir="auto" lang="en">Folk mathematics</span></a></span>）</span></span>的大部分检验。
+</p><p><a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8%E5%93%B2%E5%AD%B8" title="数学哲学">数学哲学</a>就关注<a href="/wiki/%E8%AA%9E%E8%A8%80" title="语言">语言</a>和逻辑在数学证明中的角色，和<a class="new" href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AA%9E%E8%A8%80&amp;action=edit&amp;redlink=1" title="数学语言（页面不存在）">作为语言的数学</a>。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#定义"><span class="tocnumber">1</span> <span class="toctext">定义</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#形式化证明"><span class="tocnumber">1.1</span> <span class="toctext">形式化证明</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-3"><a href="#常见的证明技巧"><span class="tocnumber">2</span> <span class="toctext">常见的证明技巧</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#直接证明"><span class="tocnumber">2.1</span> <span class="toctext">直接证明</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#构造法"><span class="tocnumber">2.2</span> <span class="toctext">构造法</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#非构造性证明"><span class="tocnumber">2.3</span> <span class="toctext">非构造性证明</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#穷举法"><span class="tocnumber">2.4</span> <span class="toctext">穷举法</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#换质位法"><span class="tocnumber">2.5</span> <span class="toctext">换质位法</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#个案分析"><span class="tocnumber">2.6</span> <span class="toctext">个案分析</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#算两次"><span class="tocnumber">2.7</span> <span class="toctext">算两次</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#间接证明"><span class="tocnumber">2.8</span> <span class="toctext">间接证明</span></a>
+<ul>
+<li class="toclevel-3 tocsection-12"><a href="#反证法"><span class="tocnumber">2.8.1</span> <span class="toctext">反证法</span></a></li>
+<li class="toclevel-3 tocsection-13"><a href="#数学归纳法"><span class="tocnumber">2.8.2</span> <span class="toctext">数学归纳法</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#其他证明方式"><span class="tocnumber">3</span> <span class="toctext">其他证明方式</span></a>
+<ul>
+<li class="toclevel-2 tocsection-15"><a href="#直观证明"><span class="tocnumber">3.1</span> <span class="toctext">直观证明</span></a></li>
+<li class="toclevel-2 tocsection-16"><a href="#计算机辅助证明"><span class="tocnumber">3.2</span> <span class="toctext">计算机辅助证明</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-17"><a href="#证明的结尾"><span class="tocnumber">4</span> <span class="toctext">证明的结尾</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#参见"><span class="tocnumber">5</span> <span class="toctext">参见</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#参考资料"><span class="tocnumber">6</span> <span class="toctext">参考资料</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#外部连结"><span class="tocnumber">7</span> <span class="toctext">外部连结</span></a></li>
+</ul>
+</div>
+<h2><span id=".E5.AE.9A.E7.BE.A9"></span><span class="mw-headline" id="定义">定义</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=1" title="编辑章节：定义">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>数学上的证明包括两个不同的概念。
+</p><p>首先是非形式化的证明：一种以<a href="/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80" title="自然语言">自然语言</a>写成的严密论证，用来说服听众或读者去接受某个定理或论断的真确性。由于这种证明使用了自然语言，因此对于非形式化证明在严谨性上的标准，将取决于听众或读者对课题的理解程度。非形式化证明出现在大多数的应用场合中，例如<a class="mw-redirect" href="/wiki/%E7%A7%91%E6%99%AE" title="科普">科普</a>讲座、口头辩论、初等教育或高等教育的某些部分。有时候非形式化的证明被称作“正式的”，但这只是强调其中论证的严谨性。
+</p><p>而当逻辑学家使用“正式证明”一词时，指的是另一种完全不同的证明——形式化证明。
+</p>
+<h4><span id=".E5.BD.A2.E5.BC.8F.E5.8C.96.E8.AD.89.E6.98.8E"></span><span class="mw-headline" id="形式化证明">形式化证明</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=2" title="编辑章节：形式化证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>在<a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a>中，形式化证明并不是以自然语言书写，而是以形式化的语言书写：这种语言包含了由一个给定的<a class="mw-redirect" href="/wiki/%E5%AD%97%E6%AF%8D%E8%A1%A8" title="字母表">字母表</a>中的字符所构成的字符串。而证明则是一种由该些字符串组成的有限长度的序列。这种定义使得人们可以谈论严格意义上的「证明」，而不涉及任何逻辑上的模糊之处。
+</p><p>研究证明的形式化和公理化的理论称为<a href="/wiki/%E8%AF%81%E6%98%8E%E8%AE%BA" title="证明论">证明论</a>。
+</p><p>尽管理论上来说，每个非形式化的证明都可以转化为形式化证明，但实际中很少会这样做。对形式化证明的研究主要应用在探讨关于可证明性的一般性质，或说明某些命题的不可证明性等等。
+</p>
+<h2><span id=".E5.B8.B8.E8.A6.8B.E7.9A.84.E8.AD.89.E6.98.8E.E6.8A.80.E5.B7.A7"></span><span class="mw-headline" id="常见的证明技巧">常见的证明技巧</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=3" title="编辑章节：常见的证明技巧">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E7.9B.B4.E6.8E.A5.E8.AD.89.E6.98.8E"></span><span class="mw-headline" id="直接证明">直接证明</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=4" title="编辑章节：直接证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><span class="ilh-all" data-foreign-title="Direct proof" data-lang-code="en" data-lang-name="英语" data-orig-title="直接证明"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%9B%B4%E6%8E%A5%E8%AF%81%E6%98%8E&amp;action=edit&amp;redlink=1" title="直接证明（页面不存在）">直接证明</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Direct_proof" title="en:Direct proof"><span dir="auto" lang="en">Direct proof</span></a></span>）</span></span>也称为逻辑演绎，是指从公认的事实或者<a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a>出发，运用逻辑<a href="/wiki/%E6%BC%94%E7%BB%8E%E6%8E%A8%E7%90%86" title="演绎推理">推演</a>而导出需要证明的<a href="/wiki/%E5%91%BD%E9%A2%98" title="命题">命题</a>的真伪的方法。直接证明法一般使用<a href="/wiki/%E8%B0%93%E8%AF%8D%E9%80%BB%E8%BE%91" title="谓词逻辑">谓词逻辑</a>，运用<a class="mw-redirect" href="/wiki/%E5%AD%98%E5%9C%A8%E9%87%8F%E8%AF%8D" title="存在量词">存在量词</a>或<a class="mw-redirect" href="/wiki/%E5%85%A8%E7%A7%B0%E9%87%8F%E8%AF%8D" title="全称量词">全称量词</a>。主要的证明方式有<a href="/wiki/%E8%82%AF%E5%AE%9A%E5%89%8D%E4%BB%B6" title="肯定前件">肯定前件</a>论式、<a href="/wiki/%E5%90%A6%E5%AE%9A%E5%BE%8C%E4%BB%B6" title="否定后件">否定后件</a>论式、<a href="/wiki/%E5%81%87%E8%A8%80%E4%B8%89%E6%AE%B5%E8%AE%BA" title="假言三段论">假言三段论</a>式以及<a href="/wiki/%E9%80%89%E8%A8%80%E4%B8%89%E6%AE%B5%E8%AE%BA" title="选言三段论">选言三段论</a>式等等。比如说要证明命题：“任何<a class="mw-redirect" href="/wiki/%E5%A5%87%E6%95%B0" title="奇数">奇数</a>乘以另一个<a class="mw-redirect" href="/wiki/%E5%A5%87%E6%95%B0" title="奇数">奇数</a>仍然是奇数”，可以直接证明如下：
+</p>
+<dl><dd>任何奇数都可以写成<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2a+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2</mn>
+<mi>a</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2a+1}</annotation>
+</semantics>
+</math></span><img alt="2a+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/082d2a14e82762143fffb8ea5be469aa82f9a6fd" style="vertical-align: -0.505ex; width:6.395ex; height:2.343ex;"/></span>的形式，其中<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>是<a href="/wiki/%E6%95%B4%E6%95%B0" title="整数">整数</a>。任取两个奇数，它们分别可以写作<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2a+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2</mn>
+<mi>a</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2a+1}</annotation>
+</semantics>
+</math></span><img alt="2a+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/082d2a14e82762143fffb8ea5be469aa82f9a6fd" style="vertical-align: -0.505ex; width:6.395ex; height:2.343ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2b+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2</mn>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2b+1}</annotation>
+</semantics>
+</math></span><img alt="2b+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c9edea4e387c0980bc2f2cf7bfc7e9110ccee796" style="vertical-align: -0.505ex; width:6.163ex; height:2.343ex;"/></span>，其中<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>是整数。它们的乘积为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (2a+1)\times (2b+1)=4ab+2a+2b+1=2(2ab+a+b)+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>a</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>4</mn>
+<mi>a</mi>
+<mi>b</mi>
+<mo>+</mo>
+<mn>2</mn>
+<mi>a</mi>
+<mo>+</mo>
+<mn>2</mn>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo>=</mo>
+<mn>2</mn>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>a</mi>
+<mi>b</mi>
+<mo>+</mo>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (2a+1)\times (2b+1)=4ab+2a+2b+1=2(2ab+a+b)+1}</annotation>
+</semantics>
+</math></span><img alt="(2a+1)\times (2b+1)=4ab+2a+2b+1=2(2ab+a+b)+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5384dd9fecca7fb2fa8bf75609688e313d9bc7b2" style="vertical-align: -0.838ex; width:61.112ex; height:2.843ex;"/></span>。所有能写成整数的两倍加1的数都是奇数。<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2ab+a+b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2</mn>
+<mi>a</mi>
+<mi>b</mi>
+<mo>+</mo>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2ab+a+b}</annotation>
+</semantics>
+</math></span><img alt="2ab+a+b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9294f076e8f5ff1e1010ca08b697c378fc55dfe8" style="vertical-align: -0.505ex; width:11.298ex; height:2.343ex;"/></span>是整数，所以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (2a+1)\times (2b+1)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>a</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (2a+1)\times (2b+1)}</annotation>
+</semantics>
+</math></span><img alt="(2a+1)\times (2b+1)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/180d00769ae6a4ba0841f110bb7cc115bdf35f6b" style="vertical-align: -0.838ex; width:19.017ex; height:2.843ex;"/></span>是奇数。证明完毕。</dd></dl>
+<h3><span id=".E6.A7.8B.E9.80.A0.E6.B3.95"></span><span class="mw-headline" id="构造法">构造法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=5" title="编辑章节：构造法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a class="mw-redirect" href="/wiki/%E6%9E%84%E9%80%A0%E6%B3%95" title="构造法">构造法</a>一般用于证明<a href="/wiki/%E5%AD%98%E5%9C%A8%E6%80%A7%E5%AE%9A%E7%90%86" title="存在性定理">存在性定理</a>，运用构造法的证明称为<a href="/wiki/%E6%9E%84%E9%80%A0%E6%80%A7%E8%AF%81%E6%98%8E" title="构造性证明">构造性证明</a>。具体做法是构造一个带有命题里所要求的特定性质的实例，以显示具有该性质的物体或概念的存在性。也可以构造一个<a href="/wiki/%E5%8F%8D%E4%BE%8B" title="反例">反例</a>，来证明命题是错误的<sup class="reference" id="cite_ref-gzfjt_2-0"><a href="#cite_note-gzfjt-2">[2]</a></sup>。例如证明命题“2的<a href="/wiki/%E8%B4%A8%E6%95%B0" title="质数">质数</a><a class="mw-redirect" href="/wiki/%E5%B9%82" title="幂">次幂</a>减一后不总是质数”，便可用构造法：
+</p>
+<dl><dd>只需证明存在某个质数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p}</annotation>
+</semantics>
+</math></span><img alt="p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/81eac1e205430d1f40810df36a0edffdc367af36" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.259ex; height:2.009ex;"/></span>，使得2的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p}</annotation>
+</semantics>
+</math></span><img alt="p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/81eac1e205430d1f40810df36a0edffdc367af36" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.259ex; height:2.009ex;"/></span>次幂减一后不是质数。为此，考察质数11。2的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 11}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>11</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 11}</annotation>
+</semantics>
+</math></span><img alt="11" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/da6aabe7c6af49fe640b2d401cb2dbe909bb7475" style="vertical-align: -0.338ex; width:2.325ex; height:2.176ex;"/></span>次幂减一等于<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2047}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2047</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2047}</annotation>
+</semantics>
+</math></span><img alt="2047" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5463813e085c63b34618bbc6ed8c657b2e8e5c42" style="vertical-align: -0.338ex; width:4.65ex; height:2.176ex;"/></span>。<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 2047=23\times 89}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>2047</mn>
+<mo>=</mo>
+<mn>23</mn>
+<mo>×<!-- × --></mo>
+<mn>89</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 2047=23\times 89}</annotation>
+</semantics>
+</math></span><img alt="2047=23\times 89" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bf342e2dde558b0c3235a5fd9709a56188183f29" style="vertical-align: -0.338ex; width:15.239ex; height:2.176ex;"/></span>不是质数。因此命题得证。</dd></dl>
+<p>有些构造法证明中并不直接构造满足命题要求的例子，而是构造某些辅助性的工具或对象，使得问题更容易解决。一个典型的例子是<a href="/wiki/%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="常微分方程">常微分方程</a>稳定性理论中的<a class="mw-redirect" href="/wiki/%E6%9D%8E%E9%9B%85%E6%99%AE%E8%AF%BA%E5%A4%AB%E5%87%BD%E6%95%B0" title="李雅普诺夫函数">李亚普诺夫函数</a>的构造<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>。又如许多几何证明题中常常用到的添加辅助线或辅助图形的办法。
+</p>
+<h3><span id=".E9.9D.9E.E6.9E.84.E9.80.A0.E6.80.A7.E8.AF.81.E6.98.8E"></span><span class="mw-headline" id="非构造性证明">非构造性证明</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=6" title="编辑章节：非构造性证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>与构造法证明相对的是<a href="/wiki/%E9%9D%9E%E6%9E%84%E9%80%A0%E6%80%A7%E8%AF%81%E6%98%8E" title="非构造性证明">非构造性证明</a>，即不给出具体的构造而证明命题所要求对象的存在性的证明方法。比如下面例子：
+</p>
+<dl><dd>命题：存在两个<a class="mw-redirect" href="/wiki/%E6%97%A0%E7%90%86%E6%95%B0" title="无理数">无理数</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span>，使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{y}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>y</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{y}}</annotation>
+</semantics>
+</math></span><img alt="x^{y}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c8561c712e86598255e8434a70affa18ffd7e0dd" style="vertical-align: -0.338ex; width:2.379ex; height:2.343ex;"/></span>是<a href="/wiki/%E6%9C%89%E7%90%86%E6%95%B0" title="有理数">有理数</a>。</dd>
+<dd>证明：考虑<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}^{\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}^{\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt  {2}}^{{{\sqrt  {2}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/50fb2611d11dbc1741aefae7aea2bd2b317a768f" style="vertical-align: -0.671ex; width:5.521ex; height:3.676ex;"/></span>，若它是有理数，则命题得证。若<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}^{\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}^{\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt  {2}}^{{{\sqrt  {2}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/50fb2611d11dbc1741aefae7aea2bd2b317a768f" style="vertical-align: -0.671ex; width:5.521ex; height:3.676ex;"/></span>不是有理数，则一定是无理数。考虑它的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt  {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4afc1e27d418021bf10898eb44a7f5f315735ff" style="vertical-align: -0.671ex; width:3.098ex; height:3.009ex;"/></span>次幂：
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ({\sqrt {2}}^{\sqrt {2}})^{\sqrt {2}}={\sqrt {2}}^{{\sqrt {2}}\cdot {\sqrt {2}}}={\sqrt {2}}^{2}=2}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mn>2</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ({\sqrt {2}}^{\sqrt {2}})^{\sqrt {2}}={\sqrt {2}}^{{\sqrt {2}}\cdot {\sqrt {2}}}={\sqrt {2}}^{2}=2}</annotation>
+</semantics>
+</math></span><img alt="({\sqrt  {2}}^{{{\sqrt  {2}}}})^{{{\sqrt  {2}}}}={\sqrt  {2}}^{{{\sqrt  {2}}\cdot {\sqrt  {2}}}}={\sqrt  {2}}^{2}=2" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/729ae66c9098e3c5cd37576eb31b7c48c8154065" style="vertical-align: -0.838ex; width:32.534ex; height:3.843ex;"/></span>为有理数，命题仍然正确。</dd></dl></dd>
+<dd>于是无论如何，都存在满足命题要求的无理数。</dd></dl>
+<p>在这个证明里并没有给出使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x^{y}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>x</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>y</mi>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x^{y}}</annotation>
+</semantics>
+</math></span><img alt="x^{y}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c8561c712e86598255e8434a70affa18ffd7e0dd" style="vertical-align: -0.338ex; width:2.379ex; height:2.343ex;"/></span>是<a href="/wiki/%E6%9C%89%E7%90%86%E6%95%B0" title="有理数">有理数</a>的两个具体的无理数<sup class="reference" id="cite_ref-gzfjt_2-1"><a href="#cite_note-gzfjt-2">[2]</a></sup>。
+</p>
+<h3><span id=".E7.A9.B7.E4.B8.BE.E6.B3.95"></span><span class="mw-headline" id="穷举法">穷举法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=7" title="编辑章节：穷举法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><span class="ilh-all" data-foreign-title="Proof by exhaustion" data-lang-code="en" data-lang-name="英语" data-orig-title="穷举法 (数学)"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%A9%B7%E4%B8%BE%E6%B3%95_(%E6%95%B0%E5%AD%A6)&amp;action=edit&amp;redlink=1" title="穷举法 (数学)（页面不存在）">穷举法</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Proof_by_exhaustion" title="en:Proof by exhaustion"><span dir="auto" lang="en">Proof by exhaustion</span></a></span>）</span></span>是一种列举出命题所包含的所有情况从而证明命题的方法<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>。例如证明“所有两位数中只有25和76的平方是以自己作为尾数”，只需计算所有两位数：10至99的平方，一一验证即可。显然，使用穷举法的条件是命题所包含的可能情况为有限种，否则无法一一罗列。
+</p>
+<h3><span id=".E6.8D.A2.E8.B4.A8.E4.BD.8D.E6.B3.95"></span><span class="mw-headline" id="换质位法">换质位法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=8" title="编辑章节：换质位法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>在<a href="/wiki/%E8%B0%93%E8%AF%8D%E9%80%BB%E8%BE%91" title="谓词逻辑">谓词逻辑</a>里，若同时否定一个命题的主词和谓词，则其结果称为原命题的<b>换质</b>。若交换主词和谓词的位置，则其结果被称作<b>换位</b>。先换质再换位则被称为<b>换质位</b>，同理先换位再换质则被称为<b><a href="/wiki/%E6%8F%9B%E8%B3%AA%E6%8F%9B%E4%BD%8D%E5%BE%8B" title="换质换位律">换位质</a></b>。例如“所有的S是P”的换质位是“所有的不是P的不是S”。<a href="/wiki/%E5%AF%B9%E4%BD%8D%E8%AF%81%E6%98%8E%E6%B3%95" title="对位证明法">换质位法</a>是指利用换质及换位，将一个命题改为一个与其逻辑<a class="mw-redirect" href="/wiki/%E7%AD%89%E5%83%B9" title="等价">等价</a>的命题，因此只要证明了后者就证明了原来的命题<sup class="reference" id="cite_ref-jinyuelin_5-0"><a href="#cite_note-jinyuelin-5">[5]</a></sup>。例如，要证明<a class="mw-redirect" href="/wiki/%E9%B8%BD%E7%AC%BC%E5%8E%9F%E7%90%86" title="鸽笼原理">鸽笼原理</a>：“如果n个鸽笼里装有多于n只<a class="mw-redirect" href="/wiki/%E9%B8%BD%E5%AD%90" title="鸽子">鸽子</a>，那么至少有一个笼子里有两只或者两只以上鸽子”，可以转证与其等价的<a href="/wiki/%E9%80%86%E5%90%A6%E5%91%BD%E9%A2%98" title="逆否命题">逆否命题</a>：“如果n个鸽笼的每一个中至多装有一只鸽子，那么n个鸽笼里至多装有n只鸽子”。而后者是明显的。
+</p>
+<h3><span id=".E5.80.8B.E6.A1.88.E5.88.86.E6.9E.90"></span><span class="mw-headline" id="个案分析">个案分析</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=9" title="编辑章节：个案分析">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>个案分析或分类讨论，是指将结论分成有限的个案，然后逐个证明的方法。
+</p>
+<h3><span id=".E7.AE.97.E5.85.A9.E6.AC.A1"></span><span class="mw-headline" id="算两次">算两次</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=10" title="编辑章节：算两次">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E7%AE%97%E5%85%A9%E6%AC%A1" title="算两次">算两次</a>是一种对同一个量进行两种虽不同但都正确的分析，得到两个虽不同但相等的表达式的方法，常用于证明<a href="/wiki/%E6%81%92%E7%AD%89%E5%BC%8F" title="恒等式">恒等式</a><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup>。
+</p>
+<h3><span id=".E9.96.93.E6.8E.A5.E8.AD.89.E6.98.8E"></span><span class="mw-headline" id="间接证明"><a class="new" href="/w/index.php?title=%E9%96%93%E6%8E%A5%E8%AD%89%E6%98%8E&amp;action=edit&amp;redlink=1" title="间接证明（页面不存在）">间接证明</a></span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=11" title="编辑章节：间接证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<h4><span id=".E5.8F.8D.E8.AD.89.E6.B3.95"></span><span class="mw-headline" id="反证法">反证法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=12" title="编辑章节：反证法">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p><a class="mw-redirect" href="/wiki/%E5%8F%8D%E8%AF%81%E6%B3%95" title="反证法">反证法</a>是一种古老的证明方法，其思想为：欲证明某命题是假命题，则反过来假设该命题为真。在这种情况下，若能通过正确有效的推理导致逻辑上的<a href="/wiki/%E7%9F%9B%E7%9B%BE" title="矛盾">矛盾</a>（如导出该命题自身为假，于是陷入命题既真且假的矛盾），则能证明原来的命题为假。<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup><a class="mw-redirect" href="/wiki/%E7%84%A1%E7%9F%9B%E7%9B%BE%E5%BE%8B" title="无矛盾律">无矛盾律</a>和<a href="/wiki/%E6%8E%92%E4%B8%AD%E5%BE%8B" title="排中律">排中律</a>是反证法的逻辑基础。反证法的好处是在反过来假设该命题为真的同时，等于多了一个已知条件，这样对题目的证明常有帮助<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>。
+</p><p>例子：证明命题“<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4afc1e27d418021bf10898eb44a7f5f315735ff" style="vertical-align: -0.671ex; width:3.098ex; height:3.009ex;"/></span>不是有理数”。
+</p>
+<dl><dd>命题：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4afc1e27d418021bf10898eb44a7f5f315735ff" style="vertical-align: -0.671ex; width:3.098ex; height:3.009ex;"/></span>不是有理数。</dd>
+<dd>证明：假设<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="{\sqrt {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4afc1e27d418021bf10898eb44a7f5f315735ff" style="vertical-align: -0.671ex; width:3.098ex; height:3.009ex;"/></span>是有理数，那么存在正整数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p}</annotation>
+</semantics>
+</math></span><img alt="p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/81eac1e205430d1f40810df36a0edffdc367af36" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:1.259ex; height:2.009ex;"/></span>使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p{\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p{\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="p{\sqrt  {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/23812378cac1d325a38bab3e362f59164f905c8d" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:4.357ex; height:3.009ex;"/></span>为整数。不妨设<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>为其中最小的（根据<span class="ilh-all ilh-blue" data-foreign-title="Well-ordering principle" data-lang-code="en" data-lang-name="英语" data-orig-title="良序原理"><span class="ilh-page"><a class="mw-redirect" href="/wiki/%E8%89%AF%E5%BA%8F%E5%8E%9F%E7%90%86" title="良序原理">良序原理</a></span></span>，必然存在最小的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>）。考虑<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b=a{\sqrt {2}}-a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+<mo>=</mo>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b=a{\sqrt {2}}-a}</annotation>
+</semantics>
+</math></span><img alt="b=a{\sqrt  {2}}-a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ae8d888b42865a20484829d9dcbfbed845156b2b" style="vertical-align: -0.671ex; width:12.494ex; height:3.009ex;"/></span>。<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>是一个比<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>小的正整数，但<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \ b{\sqrt {2}}=2a-a{\sqrt {2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mtext> </mtext>
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+<mo>=</mo>
+<mn>2</mn>
+<mi>a</mi>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mn>2</mn>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \ b{\sqrt {2}}=2a-a{\sqrt {2}}}</annotation>
+</semantics>
+</math></span><img alt="\ b{\sqrt  {2}}=2a-a{\sqrt  {2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/973fc613286908dd45a969d9ba5acb0c9cf599e6" style="vertical-align: -0.671ex; width:17.336ex; height:3.009ex;"/></span>也是整数。这与<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>的最小性矛盾。所以根号2不是有理数<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>。</dd></dl>
+<h4><span id=".E6.95.B8.E5.AD.B8.E6.AD.B8.E7.B4.8D.E6.B3.95"></span><span class="mw-headline" id="数学归纳法">数学归纳法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=13" title="编辑章节：数学归纳法">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:Dominoeffect.png"><img alt="" class="thumbimage" data-file-height="600" data-file-width="800" decoding="async" height="150" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dominoeffect.png/200px-Dominoeffect.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dominoeffect.png/300px-Dominoeffect.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/92/Dominoeffect.png/400px-Dominoeffect.png 2x" width="200"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Dominoeffect.png" title="放大"></a></div>骨牌一个接一个倒下，就如同一个值到下一个值的过程。</div></div></div>
+<p><a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8%E6%AD%B8%E7%B4%8D%E6%B3%95" title="数学归纳法">数学归纳法</a>是一种证明<a class="mw-redirect" href="/wiki/%E5%8F%AF%E6%95%B0" title="可数">可数</a><a class="mw-redirect" href="/wiki/%E7%84%A1%E7%AA%AE" title="无穷">无穷</a>个命题的技巧。欲证明以自然数<i>n</i>编号的一串命题，先证明命题1成立，并证明当命题<i>n</i>成立时命题<i>n</i>+1也成立，则对所有的命题都成立<sup class="reference" id="cite_ref-jinyuelin_5-1"><a href="#cite_note-jinyuelin-5">[5]</a></sup>。在<a href="/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86" title="皮亚诺公理">皮亚诺公理</a>系统中，自然数集合的公理化定义就包括了数学归纳法。数学归纳法有不少变体，比如从0以外的自然数开始归纳，证明当命题对小于等于<i>n</i>的自然数成立时命题<i>n</i>+1也成立，反向归纳法，递降归纳法等等。广义上的数学归纳法也可以用于证明一般<a class="mw-redirect" href="/wiki/%E8%89%AF%E5%9F%BA" title="良基">良基</a>结构，例如<a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a>中的<a href="/wiki/%E6%A0%91_(%E5%9B%BE%E8%AE%BA)" title="树 (图论)">树</a>。另外，<a class="mw-redirect" href="/wiki/%E8%B6%85%E9%99%90%E6%AD%B8%E7%B4%8D%E6%B3%95" title="超限归纳法">超限归纳法</a>提供了一种处理<a class="mw-redirect" href="/wiki/%E4%B8%8D%E5%8F%AF%E6%95%B8" title="不可数">不可数</a>无穷个命题的技巧，是数学归纳法的<a href="/wiki/%E5%B9%BF%E4%B9%89%E5%8C%96" title="广义化">推广</a><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup>。
+</p><p>例子：证明对所有自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>，命题<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(n):\;\;1^{2}+2^{2}+3^{2}+...+n^{2}={\frac {n(n+1)(2n+1)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+<mo>:</mo>
+<mspace width="thickmathspace"></mspace>
+<mspace width="thickmathspace"></mspace>
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>+</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>n</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>n</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(n):\;\;1^{2}+2^{2}+3^{2}+...+n^{2}={\frac {n(n+1)(2n+1)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="P(n):\;\;1^{2}+2^{2}+3^{2}+...+n^{2}={\frac  {n(n+1)(2n+1)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5090689049f829cdf78e06a883e26fa80abf99da" style="vertical-align: -1.838ex; width:50.58ex; height:5.676ex;"/></span>
+</p><p>当<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n=1}</annotation>
+</semantics>
+</math></span><img alt="n=1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d9ec7e1edc2e6d98f5aec2a39ae5f1c99d1e1425" style="vertical-align: -0.338ex; width:5.656ex; height:2.176ex;"/></span>，左边=1，右边=<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(1):\;\;{\frac {1(1+1)(2+1)}{6}}=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>:</mo>
+<mspace width="thickmathspace"></mspace>
+<mspace width="thickmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>1</mn>
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(1):\;\;{\frac {1(1+1)(2+1)}{6}}=1}</annotation>
+</semantics>
+</math></span><img alt="P(1):\;\;{\frac  {1(1+1)(2+1)}{6}}=1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d9fb7abd1ca14874cd720f27e3634c023c009068" style="vertical-align: -1.838ex; width:28.153ex; height:5.676ex;"/></span>
+</p><p>假设对某个自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k}</annotation>
+</semantics>
+</math></span><img alt="k" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c3c9a2c7b599b37105512c5d570edc034056dd40" style="vertical-align: -0.338ex; width:1.211ex; height:2.176ex;"/></span>，命题<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(k)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(k)}</annotation>
+</semantics>
+</math></span><img alt="P(k)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b41614fb84549b21f2c7f2793bbd8a87a2105027" style="vertical-align: -0.838ex; width:4.766ex; height:2.843ex;"/></span>成立：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1^{2}+2^{2}+3^{2}+...+k^{2}={\frac {k(k+1)(2k+1)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>+</mo>
+<msup>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>k</mi>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1^{2}+2^{2}+3^{2}+...+k^{2}={\frac {k(k+1)(2k+1)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="1^{2}+2^{2}+3^{2}+...+k^{2}={\frac  {k(k+1)(2k+1)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/045161e2e54b37b1cd283fa8279b135753fe4308" style="vertical-align: -1.838ex; width:41.669ex; height:5.676ex;"/></span>，以下证明<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(k+1)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(k+1)}</annotation>
+</semantics>
+</math></span><img alt="P(k+1)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c82953120fe42f14025a07cd09ba7eaee65fcee1" style="vertical-align: -0.838ex; width:8.769ex; height:2.843ex;"/></span>成立，即：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}={\frac {(k+1)(k+2)(2k+3)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>+</mo>
+<msup>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>2</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>k</mi>
+<mo>+</mo>
+<mn>3</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}={\frac {(k+1)(k+2)(2k+3)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}={\frac  {(k+1)(k+2)(2k+3)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e0c0b51358cbdbfda431f6ff8b5c7b1dff760cf6" style="vertical-align: -1.838ex; width:58.4ex; height:5.676ex;"/></span>：
+</p>
+<dl><dd>左边<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle =1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>=</mo>
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>+</mo>
+<msup>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle =1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}}</annotation>
+</semantics>
+</math></span><img alt="=1^{2}+2^{2}+3^{2}+...+k^{2}+(k+1)^{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/323b2199664612ea17e07843a1ea6268d1b0b02e" style="vertical-align: -0.838ex; width:34.686ex; height:3.176ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ={\frac {k(k+1)(2k+1)}{6}}+(k+1)^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>k</mi>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+<mo>+</mo>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ={\frac {k(k+1)(2k+1)}{6}}+(k+1)^{2}}</annotation>
+</semantics>
+</math></span><img alt="={\frac  {k(k+1)(2k+1)}{6}}+(k+1)^{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a40fed74dbed908d8c94c03a3892d398a715448e" style="vertical-align: -1.838ex; width:30.628ex; height:5.676ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ={\frac {(k+1)(2k^{2}+7k+6)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<msup>
+<mi>k</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mn>7</mn>
+<mi>k</mi>
+<mo>+</mo>
+<mn>6</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ={\frac {(k+1)(2k^{2}+7k+6)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="={\frac  {(k+1)(2k^{2}+7k+6)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb89ef0cce9767b023d6cb1af94a01a608b4bfd0" style="vertical-align: -1.838ex; width:24.767ex; height:5.843ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ={\frac {(k+1)(k+2)(2k+3)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi>k</mi>
+<mo>+</mo>
+<mn>2</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>k</mi>
+<mo>+</mo>
+<mn>3</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ={\frac {(k+1)(k+2)(2k+3)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="={\frac  {(k+1)(k+2)(2k+3)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/60b583ba782080cf0d6a30028bdc7238dc7e9e1a" style="vertical-align: -1.838ex; width:25.522ex; height:5.676ex;"/></span></dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle =}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>=</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle =}</annotation>
+</semantics>
+</math></span><img alt="=" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/505a4ceef454c69dffd23792c84b90f488543743" style="vertical-align: 0.307ex; margin-bottom: -0.478ex; width:1.808ex; height:1.343ex;"/></span>右边</dd></dl>
+<p>所以，对任意自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>，都有<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1^{2}+2^{2}+3^{2}+...+n^{2}={\frac {n(n+1)(2n+1)}{6}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<msup>
+<mn>3</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>+</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>.</mo>
+<mo>+</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>n</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mn>2</mn>
+<mi>n</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mrow>
+<mn>6</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1^{2}+2^{2}+3^{2}+...+n^{2}={\frac {n(n+1)(2n+1)}{6}}}</annotation>
+</semantics>
+</math></span><img alt="1^{2}+2^{2}+3^{2}+...+n^{2}={\frac  {n(n+1)(2n+1)}{6}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffba1599c9900849eef5c017323479efe6951cd9" style="vertical-align: -1.838ex; width:42.403ex; height:5.676ex;"/></span>
+</p>
+<h2><span id=".E5.85.B6.E4.BB.96.E8.AF.81.E6.98.8E.E6.96.B9.E5.BC.8F"></span><span class="mw-headline" id="其他证明方式">其他证明方式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=14" title="编辑章节：其他证明方式">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E7.9B.B4.E8.A7.82.E8.AF.81.E6.98.8E"></span><span class="mw-headline" id="直观证明">直观证明</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=15" title="编辑章节：直观证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E6%97%A0%E5%AD%97%E8%AF%81%E6%98%8E" title="无字证明">无字证明</a></div>
+<div class="thumb tright"><div class="thumbinner" style="width:122px;"><a class="image" href="/wiki/File:GouguAnim.gif"><img alt="" class="thumbimage" data-file-height="237" data-file-width="231" decoding="async" height="123" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/GouguAnim.gif/120px-GouguAnim.gif" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/GouguAnim.gif/180px-GouguAnim.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/e/e6/GouguAnim.gif 2x" width="120"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:GouguAnim.gif" title="放大"></a></div>勾股定理的一个图示证明</div></div></div>
+<p><a class="new" href="/w/index.php?title=%E7%9B%B4%E8%A7%82%E8%AF%81%E6%98%8E&amp;action=edit&amp;redlink=1" title="直观证明（页面不存在）">直观证明</a>或可视化证明是指用图像或表格等直观的手段证明命题的方法。这类证明可以达到不借助语言而证明的效果。如右图是<a href="/wiki/%E5%8B%BE%E8%82%A1%E5%AE%9A%E7%90%86" title="勾股定理">勾股定理</a>的一个图示证明。
+</p>
+<h3><span id=".E8.AE.A1.E7.AE.97.E6.9C.BA.E8.BE.85.E5.8A.A9.E8.AF.81.E6.98.8E"></span><span class="mw-headline" id="计算机辅助证明">计算机辅助证明</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=16" title="编辑章节：计算机辅助证明">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E9%9B%BB%E8%85%A6%E5%8D%94%E5%8A%A9%E8%AD%89%E6%98%8E" title="电脑协助证明">电脑协助证明</a></div>
+<p><a href="/wiki/%E9%9B%BB%E8%85%A6%E5%8D%94%E5%8A%A9%E8%AD%89%E6%98%8E" title="电脑协助证明">电脑协助证明</a>是二十世纪出现的证明方式。直到二十世纪中，人们一直认为任何的数学证明都应当能够被一个水平足够的<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%AE%B6" title="数学家">数学家</a>检验，以证实其正确性。然而，今天的数学家已经能够运用计算机来证明定理，并且完成人类难以做到的计算<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup>。1976年<a href="/wiki/%E5%9B%9B%E8%89%B2%E5%AE%9A%E7%90%86" title="四色定理">四色定理</a>的证明是计算机辅助证明的经典例子<sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup>。证明的方法是将地图上的无限种可能情况减少为1936种状态，并由计算机对每个可能的情况进行验证。有不少数学家对于计算机证明持谨慎态度，因为很多证明太长，不能由人手直接验证。此外，<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a>上的错误，输入时的失误甚至计算机运行期间出现的错误都有可能导致错误的结果。
+</p>
+<h2><span id=".E8.AD.89.E6.98.8E.E7.9A.84.E7.B5.90.E5.B0.BE"></span><span class="mw-headline" id="证明的结尾">证明的结尾</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=17" title="编辑章节：证明的结尾">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E8%AD%89%E6%98%8E%E5%AE%8C%E7%95%A2" title="证明完毕">证明完毕</a></div>
+<p>有时在证明的结尾会加上Q.E.D.三个字母，这是拉丁文Quod Erat Demonstrandum的缩写，意思是「证明完毕」。现在的证明完毕符号，通常是<span class="Unicode">■</span>（实心黑色正方形），称之为「<a class="mw-redirect" href="/wiki/%E5%A2%93%E7%A2%91_(%E6%95%B8%E5%AD%B8)" title="墓碑 (数学)">墓碑</a>」或「哈尔莫斯（Halmos symbol）」（因<a href="/wiki/%E4%BF%9D%E7%BE%85%C2%B7%E5%93%88%E7%88%BE%E8%8E%AB%E6%96%AF" title="保罗·哈尔莫斯">保罗·哈尔莫斯</a>最先采用此做法）。墓碑有时是空心的<span class="Unicode">□</span>。另一个简单方法是写「proven」、「shown」或「证毕」之类的文字。
+</p>
+<h2><span id=".E5.8F.83.E8.A6.8B"></span><span class="mw-headline" id="参见">参见</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=18" title="编辑章节：参见">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="mw-redirect" href="/wiki/%E8%AD%89%E6%98%8E%E8%AB%96" title="证明论">证明论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%A8%A1%E5%9E%8B%E8%AB%96" title="模型论">模型论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%87%AA%E5%8B%95%E5%AE%9A%E7%90%86%E8%AD%89%E6%98%8E" title="自动定理证明">自动定理证明</a></li>
+<li><a href="/wiki/%E7%84%A1%E6%95%88%E8%AD%89%E6%98%8E" title="无效证明">无效证明</a></li>
+<li><a class="mw-redirect" href="/wiki/Q.E.D." title="Q.E.D.">Q.E.D.</a></li>
+<li><a href="/wiki/%E5%A2%93%E7%A2%91%E7%AC%A6%E5%8F%B7" title="墓碑符号">墓碑符号</a></li></ul>
+<h2><span id=".E5.8F.82.E8.80.83.E8.B5.84.E6.96.99"></span><span class="mw-headline" id="参考资料">参考资料</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=19" title="编辑章节：参考资料">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web">Bill Casselman. <a class="external text" href="http://www.math.ubc.ca/~cass/Euclid/papyrus/papyrus.html" rel="nofollow">One of the Oldest Extant Diagrams from Euclid</a>. University of British Columbia.  <span class="reference-accessdate"> [<span class="nowrap">2008-09-26</span>]</span>. （原始内容<a class="external text" href="https://archive.is/20120604095737/http://www.math.ubc.ca/~cass/Euclid/papyrus/papyrus.html" rel="nofollow">存档</a>于2012-06-04）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=Bill+Casselman&amp;rft.btitle=One+of+the+Oldest+Extant+Diagrams+from+Euclid&amp;rft.genre=unknown&amp;rft.pub=University+of+British+Columbia&amp;rft_id=http%3A%2F%2Fwww.math.ubc.ca%2F~cass%2FEuclid%2Fpapyrus%2Fpapyrus.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-gzfjt-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-gzfjt_2-0"><sup><b>2.0</b></sup></a> <a href="#cite_ref-gzfjt_2-1"><sup><b>2.1</b></sup></a></span> <span class="reference-text"><cite class="citation book">余红兵; 严镇军. <a class="external text" href="http://books.google.com.tw/books?id=d_gPSQAACAAJ&amp;dq=%E6%9E%84%E9%80%A0%E6%B3%95%E8%A7%A3%E9%A2%98&amp;hl=en&amp;sa=X&amp;ei=HivRUq3ZLsXTkQW-0YCYDA&amp;redir_esc=y" rel="nofollow">《构造法解题》</a>. 中国科学技术大学出版社. 2009 <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7312024831" title="Special:网络书源/7312024831"><span title="国际标准书号">ISBN</span> 7312024831</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20190503015148/https://books.google.com.tw/books?id=d_gPSQAACAAJ&amp;dq=%E6%9E%84%E9%80%A0%E6%B3%95%E8%A7%A3%E9%A2%98&amp;hl=en&amp;sa=X&amp;ei=HivRUq3ZLsXTkQW-0YCYDA&amp;redir_esc=y" rel="nofollow">存档</a>于2019-05-03）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=%E4%BD%99%E7%BA%A2%E5%85%B5&amp;rft.btitle=%E3%80%8A%E6%9E%84%E9%80%A0%E6%B3%95%E8%A7%A3%E9%A2%98%E3%80%8B&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=7312024831&amp;rft.pub=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3Dd_gPSQAACAAJ%26dq%3D%25E6%259E%2584%25E9%2580%25A0%25E6%25B3%2595%25E8%25A7%25A3%25E9%25A2%2598%26hl%3Den%26sa%3DX%26ei%3DHivRUq3ZLsXTkQW-0YCYDA%26redir_esc%3Dy&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">王高雄; 周之铭、朱思铭、王寿松. <a class="external text" href="http://books.google.com.tw/books?id=2eF_AQAACAAJ&amp;dq=9787040193664&amp;hl=en&amp;sa=X&amp;ei=HizRUrCcGo6hlQXMnYC4Bw&amp;redir_esc=y" rel="nofollow">《常微分方程》（第三版）</a>. 高等教育出版社.  <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9787040193664" title="Special:网络书源/9787040193664"><span title="国际标准书号">ISBN</span> 9787040193664</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20190503043216/https://books.google.com.tw/books?id=2eF_AQAACAAJ&amp;dq=9787040193664&amp;hl=en&amp;sa=X&amp;ei=HizRUrCcGo6hlQXMnYC4Bw&amp;redir_esc=y" rel="nofollow">存档</a>于2019-05-03）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=%E7%8E%8B%E9%AB%98%E9%9B%84&amp;rft.btitle=%E3%80%8A%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B%E3%80%8B%EF%BC%88%E7%AC%AC%E4%B8%89%E7%89%88%EF%BC%89&amp;rft.genre=book&amp;rft.isbn=9787040193664&amp;rft.pub=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3D2eF_AQAACAAJ%26dq%3D9787040193664%26hl%3Den%26sa%3DX%26ei%3DHizRUrCcGo6hlQXMnYC4Bw%26redir_esc%3Dy&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">Reid, D. A. &amp; Knipping, C. (2010).<a class="external text" href="https://www.amazon.com/Proof-Mathematics-Education-Research-Learning/dp/9460912443" rel="nofollow"><i>Proof in Mathematics Education: Research, Learning, and Teaching</i></a> （<a class="external text" href="//web.archive.org/web/20190502145156/http://www.amazon.com/Proof-Mathematics-Education-Research-Learning/dp/9460912443" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） Sense Publishers, p. 133.</span>
+</li>
+<li id="cite_note-jinyuelin-5"><span class="mw-cite-backlink">^ <a href="#cite_ref-jinyuelin_5-0"><sup><b>5.0</b></sup></a> <a href="#cite_ref-jinyuelin_5-1"><sup><b>5.1</b></sup></a></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/%E9%87%91%E5%B2%B3%E9%9C%96" title="金岳霖">金岳霖</a>; 杨宝星. <a class="external text" href="http://books.google.com.tw/books?id=6y-CnQEACAAJ&amp;dq=9787010002033&amp;hl=en&amp;sa=X&amp;ei=AC3RUq6iBYXkkAXC64HgBw&amp;ved=0CCwQ6AEwAA" rel="nofollow">《形式逻辑》</a>. 辽宁人民出版社. 1979 <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7010002037" title="Special:网络书源/7010002037"><span title="国际标准书号">ISBN</span> 7010002037</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20140111125947/http://books.google.com.tw/books?id=6y-CnQEACAAJ&amp;dq=9787010002033&amp;hl=en&amp;sa=X&amp;ei=AC3RUq6iBYXkkAXC64HgBw&amp;ved=0CCwQ6AEwAA" rel="nofollow">存档</a>于2014-01-11）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=%E9%87%91%E5%B2%B3%E9%9C%96&amp;rft.btitle=%E3%80%8A%E5%BD%A2%E5%BC%8F%E9%80%BB%E8%BE%91%E3%80%8B&amp;rft.date=1979&amp;rft.genre=book&amp;rft.isbn=7010002037&amp;rft.pub=%E8%BE%BD%E5%AE%81%E4%BA%BA%E6%B0%91%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3D6y-CnQEACAAJ%26dq%3D9787010002033%26hl%3Den%26sa%3DX%26ei%3DAC3RUq6iBYXkkAXC64HgBw%26ved%3D0CCwQ6AEwAA&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation book">单壿. <a class="external text" href="http://books.google.com.tw/books?id=GIR_SQAACAAJ&amp;dq=%E7%AE%97%E4%B8%A4%E6%AC%A1&amp;hl=en&amp;sa=X&amp;ei=hy3RUtGGHsejlQXT9oDQBg&amp;ved=0CCwQ6AEwAA" rel="nofollow">《算两次》</a>. 中国科学技术大学出版社. 2009 <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7312024823" title="Special:网络书源/7312024823"><span title="国际标准书号">ISBN</span> 7312024823</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20140111130025/http://books.google.com.tw/books?id=GIR_SQAACAAJ&amp;dq=%E7%AE%97%E4%B8%A4%E6%AC%A1&amp;hl=en&amp;sa=X&amp;ei=hy3RUtGGHsejlQXT9oDQBg&amp;ved=0CCwQ6AEwAA" rel="nofollow">存档</a>于2014-01-11）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=%E5%8D%95%E5%A3%BF&amp;rft.btitle=%E3%80%8A%E7%AE%97%E4%B8%A4%E6%AC%A1%E3%80%8B&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=7312024823&amp;rft.pub=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3DGIR_SQAACAAJ%26dq%3D%25E7%25AE%2597%25E4%25B8%25A4%25E6%25AC%25A1%26hl%3Den%26sa%3DX%26ei%3Dhy3RUtGGHsejlQXT9oDQBg%26ved%3D0CCwQ6AEwAA&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">类似地，有更一般的<a href="/wiki/%E6%AD%B8%E8%AC%AC%E6%B3%95" title="归谬法">归谬法</a>：若然假设该命题为真，在通过正确有效的推理后会得出逻辑上的矛盾、与某个事实或公理相悖的结论、或荒谬难以接受的结果，亦可以证明原来的命题为假。反证法是归谬法的其中一种形式。</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://web.archive.org/web/20131228134723/http://www.lille.iufm.fr/IMG/pdf/Texte_Cambresy.pdf" rel="nofollow">Vinciane CAMBRÉSY-TANT，Dominique CAMBRÉSY，Stéphane CARPENTIER，''Autour du raisonnement par l'absurde''，IUFM Nord - Pas de Calais</a> <span style="font-size:85%;">(PDF)</span>.  <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. （<a class="external text" href="http://www.lille.iufm.fr/IMG/pdf/Texte_Cambresy.pdf" rel="nofollow">原始内容</a> <span style="font-size:85%;">(PDF)</span>存档于2013-12-28）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.btitle=Vinciane+CAMBR%C3%89SY-TANT%EF%BC%8CDominique+CAMBR%C3%89SY%EF%BC%8CSt%C3%A9phane+CARPENTIER%EF%BC%8C%27%26%2339%3BAutour+du+raisonnement+par+l%27absurde%27%26%2339%3B%EF%BC%8CIUFM+Nord+-+Pas+de+Calais&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.lille.iufm.fr%2FIMG%2Fpdf%2FTexte_Cambresy.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://blms.oxfordjournals.org/cgi/reprint/26/6/593.pdf" rel="nofollow">THEODOR ESTERMANN，1975</a> <span style="font-size:85%;">(PDF)</span>. Blms.oxfordjournals.org. 2013-12-06 <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.btitle=THEODOR+ESTERMANN%EF%BC%8C1975&amp;rft.date=2013-12-06&amp;rft.genre=unknown&amp;rft.pub=Blms.oxfordjournals.org&amp;rft_id=http%3A%2F%2Fblms.oxfordjournals.org%2Fcgi%2Freprint%2F26%2F6%2F593.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation book">苏淳. <a class="external text" href="http://books.google.com.tw/books?id=tww_SQAACAAJ&amp;dq=%E6%BC%AB%E8%A9%B1%E6%95%B8%E5%AD%B8%E6%AD%B8%E7%B4%8D%E6%B3%95&amp;hl=en&amp;sa=X&amp;ei=IS7RUpWSGYvHkwX6s4DgCA&amp;redir_esc=y" rel="nofollow">《漫话数学归纳法》</a>. 中国科学技术大学出版社. 2009 <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7312024866" title="Special:网络书源/7312024866"><span title="国际标准书号">ISBN</span> 7312024866</a>. （原始内容<a class="external text" href="https://web.archive.org/web/20190503032307/https://books.google.com.tw/books?id=tww_SQAACAAJ&amp;dq=%E6%BC%AB%E8%A9%B1%E6%95%B8%E5%AD%B8%E6%AD%B8%E7%B4%8D%E6%B3%95&amp;hl=en&amp;sa=X&amp;ei=IS7RUpWSGYvHkwX6s4DgCA&amp;redir_esc=y" rel="nofollow">存档</a>于2019-05-03）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.au=%E8%8B%8F%E6%B7%B3&amp;rft.btitle=%E3%80%8A%E6%BC%AB%E8%AF%9D%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95%E3%80%8B&amp;rft.date=2009&amp;rft.genre=book&amp;rft.isbn=7312024866&amp;rft.pub=%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3Dtww_SQAACAAJ%26dq%3D%25E6%25BC%25AB%25E8%25A9%25B1%25E6%2595%25B8%25E5%25AD%25B8%25E6%25AD%25B8%25E7%25B4%258D%25E6%25B3%2595%26hl%3Den%26sa%3DX%26ei%3DIS7RUpWSGYvHkwX6s4DgCA%26redir_esc%3Dy&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.math.wustl.edu/~sk/eolss.pdf" rel="nofollow">The History and Concept of Mathematical Proof, Steven G. Krantz. 1. February 5, 2007</a> <span style="font-size:85%;">(PDF)</span>.  <span class="reference-accessdate"> [<span class="nowrap">2014-01-11</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20070221150523/http://www.math.wustl.edu/~sk/eolss.pdf" rel="nofollow">存档</a> <span style="font-size:85%;">(PDF)</span>于2007-02-21）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.btitle=The+History+and+Concept+of+Mathematical+Proof%2C+Steven+G.+Krantz.+1.+February+5%2C+2007&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.math.wustl.edu%2F~sk%2Feolss.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.kepu.net.cn/gb/basic/szsx/8/8_81/8_81_1007.htm" rel="nofollow">相信数学，或相信电脑</a>. 中国科普博覽. 2004-04-29 <span class="reference-accessdate"> [<span class="nowrap">2014-01-14</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20170305011451/http://www.kepu.net.cn/gb/basic/szsx/8/8_81/8_81_1007.htm" rel="nofollow">存档</a>于2017-03-05）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;rft.btitle=%E7%9B%B8%E4%BF%A1%E6%95%B8%E5%AD%B8%EF%BC%8C%E6%88%96%E7%9B%B8%E4%BF%A1%E9%9B%BB%E8%85%A6&amp;rft.date=2004-04-29&amp;rft.genre=unknown&amp;rft.pub=%E4%B8%AD%E5%9C%8B%E7%A7%91%E6%99%AE%E5%8D%9A%E8%A6%BD&amp;rft_id=http%3A%2F%2Fwww.kepu.net.cn%2Fgb%2Fbasic%2Fszsx%2F8%2F8_81%2F8_81_1007.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+</ol>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span><span class="mw-headline" id="外部连结">外部连结</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit&amp;section=20" title="编辑章节：外部连结">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="external text" href="http://episte.math.ntu.edu.tw/articles/sm/sm_16_02_1/index.html" rel="nofollow">证明，曹亮吉</a> （<a class="external text" href="//web.archive.org/web/20200702201910/http://episte.math.ntu.edu.tw/articles/sm/sm_16_02_1/index.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li></ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0;text-align: left;"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Template:几何术语"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Template talk:几何术语"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a>术语</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E7%82%B9" title="点">点</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%A0%82%E9%BB%9E_(%E5%B9%BE%E4%BD%95)" title="顶点 (几何)">顶点</a></li>
+<li><a href="/wiki/%E4%BA%A4%E9%BB%9E" title="交点">交点</a></li>
+<li><a href="/wiki/%E4%B8%AD%E9%BB%9E" title="中点">中点</a></li>
+<li><a href="/wiki/%E8%A7%92" title="角">角</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%A5%B5%E5%80%BC%E9%BB%9E&amp;action=edit&amp;redlink=1" title="极值点（页面不存在）">极值点</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%80%E5%80%BC%E9%BB%9E&amp;action=edit&amp;redlink=1" title="最值点（页面不存在）">最值点</a></li>
+<li><a href="/wiki/%E4%B8%B4%E7%95%8C%E7%82%B9_(%E6%95%B0%E5%AD%A6)" title="临界点 (数学)">临界点</a></li>
+<li><a href="/wiki/%E9%A9%BB%E7%82%B9" title="驻点">驻点</a></li>
+<li><a href="/wiki/%E9%9E%8D%E9%BB%9E" title="鞍点">鞍点</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E7%9B%B4%E7%BA%BF" title="直线">直线</a>和<a href="/wiki/%E6%9B%B2%E7%BA%BF" title="曲线">曲线</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BA%BF%E6%AE%B5" title="线段">线段</a></li>
+<li><a href="/wiki/%E5%B0%84%E7%BA%BF" title="射线">射线</a></li>
+<li><a href="/wiki/%E7%9B%B4%E7%BA%BF" title="直线">直线</a></li>
+<li><a href="/wiki/%E5%88%87%E7%BA%BF" title="切线">切线</a></li>
+<li><a href="/wiki/%E6%B3%95%E7%BA%BF" title="法线">（主）法线</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%89%AF%E6%B3%95%E7%B7%9A&amp;action=edit&amp;redlink=1" title="副法线（页面不存在）">副法线</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%BA%BF" title="曲线">曲线</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF" title="圆锥曲线">圆锥曲线</a></li>
+<li><a href="/wiki/%E5%8F%8C%E6%9B%B2%E7%BA%BF" title="双曲线">双曲线</a></li>
+<li><a href="/wiki/%E6%8A%9B%E7%89%A9%E7%BA%BF" title="抛物线">抛物线</a></li>
+<li><a href="/wiki/%E6%AD%A3%E5%BC%A6%E6%9B%B2%E7%B7%9A" title="正弦曲线">正弦曲线</a></li>
+<li><a href="/wiki/%E8%9E%BA%E7%BA%BF" title="螺线">螺线</a>（<a href="/wiki/%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E8%9E%BA%E7%BA%BF" title="阿基米德螺线">阿基米德螺线</a>、<a href="/wiki/%E7%AD%89%E8%A7%92%E8%9E%BA%E7%BA%BF" title="等角螺线">等角螺线</a>……）</li>
+<li><a href="/wiki/%E6%91%86%E7%BA%BF" title="摆线">摆线</a>（<a href="/wiki/%E6%9C%80%E9%80%9F%E9%99%8D%E7%B7%9A%E5%95%8F%E9%A1%8C" title="最速降线问题">最速降线问题</a>）</li>
+<li><a href="/wiki/%E6%82%AC%E9%93%BE%E7%BA%BF" title="悬链线">悬链线</a></li>
+<li><a href="/wiki/%E6%9B%B3%E7%89%A9%E7%BA%BF" title="曳物线">曳物线</a></li>
+<li><a href="/wiki/%E6%BC%B8%E4%BC%B8%E7%B7%9A" title="渐伸线">渐开线</a></li>
+<li><a href="/wiki/%E6%B8%90%E5%B1%88%E7%BA%BF" title="渐屈线">渐屈线</a></li>
+<li><a href="/wiki/%E6%B8%90%E8%BF%91%E7%BA%BF" title="渐近线">渐近线</a></li>
+<li><a href="/wiki/%E6%B5%8B%E5%9C%B0%E7%BA%BF" title="测地线">测地线</a></li>
+<li><a href="/wiki/%E9%82%8A_(%E5%B9%BE%E4%BD%95)" title="边 (几何)">边</a></li>
+<li><a href="/wiki/%E5%91%A8%E9%95%BF" title="周长">周界</a></li>
+<li><a href="/wiki/%E5%BC%A6_(%E5%B9%BE%E4%BD%95)" title="弦 (几何)">弦</a></li>
+<li><a href="/wiki/%E5%BC%A7" title="弧">弧</a></li>
+<li><a href="/wiki/%E5%9E%82%E7%9B%B4%E5%B9%B3%E5%88%86%E7%B7%9A" title="垂直平分线">垂直平分线</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5%E6%9B%B2%E7%BA%BF" title="圆锥曲线">二次曲线</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%9B%B2%E7%B7%9A" title="代数曲线">代数曲线</a></li>
+<li><a href="/wiki/%E6%A4%AD%E5%9C%86%E6%9B%B2%E7%BA%BF" title="椭圆曲线">椭圆曲线</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%A9%A2%E5%9C%93" title="超椭圆">超椭圆</a></li>
+<li><a href="/wiki/%E6%98%9F%E5%BD%A2%E7%BA%BF" title="星形线">星形线</a></li>
+<li><a href="/wiki/%E4%B8%89%E5%B0%96%E7%93%A3%E7%BA%BF" title="三尖瓣线">三尖瓣线</a></li>
+<li><a href="/wiki/%E6%96%B9%E5%9C%93%E5%BD%A2" title="方圆形">方圆形</a></li>
+<li><a href="/wiki/%E5%8B%92%E6%B4%9B%E4%B8%89%E8%A7%92%E5%BD%A2" title="勒洛三角形">勒洛三角形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E5%B9%B3%E9%9D%A2_(%E6%95%B0%E5%AD%A6)" title="平面 (数学)">平面</a>图形</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%9C%86" title="圆">圆</a>（<a href="/wiki/%E5%B9%BF%E4%B9%89%E5%9C%86" title="广义圆">广义圆</a>）</li>
+<li><a href="/wiki/%E6%A4%AD%E5%9C%86" title="椭圆">椭圆</a></li>
+<li><a href="/wiki/%E6%89%87%E5%BD%A2" title="扇形">扇形</a></li>
+<li><a href="/wiki/%E5%BC%93%E5%BD%A2" title="弓形">弓形</a></li>
+<li><a href="/wiki/%E7%8E%AF%E5%BD%A2" title="环形">环形</a></li>
+<li><a href="/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="多边形">多边形</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a></li>
+<li><a href="/wiki/%E5%9B%9B%E9%82%8A%E5%BD%A2" title="四边形">四边形</a></li>
+<li><a href="/wiki/%E4%BA%94%E8%BE%B9%E5%BD%A2" title="五边形">五边形</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%BE%B9%E5%BD%A2" title="六边形">六边形</a></li>
+<li><a href="/wiki/%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="多边形">多边形</a></li>
+<li><a href="/wiki/%E6%AD%A3%E5%A4%9A%E8%BE%B9%E5%BD%A2" title="正多边形">正多边形</a></li>
+<li><a href="/wiki/%E6%A2%AF%E5%BD%A2" title="梯形">梯形</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C%E5%9B%9B%E8%BE%B9%E5%BD%A2" title="平行四边形">平行四边形</a></li>
+<li><a href="/wiki/%E8%8F%B1%E5%BD%A2" title="菱形">菱形</a></li>
+<li><a href="/wiki/%E7%9F%A9%E5%BD%A2" title="矩形">矩形</a></li>
+<li><a href="/wiki/%E6%AD%A3%E6%96%B9%E5%BD%A2" title="正方形">正方形</a></li>
+<li><a href="/wiki/%E9%B7%82%E5%BD%A2" title="鹞形">鹞形</a></li>
+<li><a href="/wiki/%E5%8D%B5%E5%BD%A2%E7%BA%BF" title="卵形线">卵形线</a></li>
+<li><a href="/wiki/%E7%B4%A1%E9%8C%98%E5%BD%A2" title="纺锤形">梭形</a></li>
+<li><a href="/wiki/%E6%98%9F%E5%BD%A2%E5%A4%9A%E9%82%8A%E5%BD%A2" title="星形多边形">星形</a></li>
+<li><a href="/wiki/%E4%BA%94%E8%A7%92%E6%98%9F" title="五角星">五角星</a></li>
+<li><a href="/wiki/%E5%85%AD%E8%A7%92%E6%98%9F" title="六角星">六角星</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E4%B8%89%E7%B6%AD%E7%A9%BA%E9%96%93" title="三维空间">立体</a>图形</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%A4%9A%E9%9D%A2%E4%BD%93" title="多面体">多面体</a></li>
+<li><a href="/wiki/%E6%9F%8F%E6%8B%89%E5%9C%96%E7%AB%8B%E9%AB%94" title="柏拉图立体">正多面体</a></li>
+<li><a href="/wiki/%E5%9B%9B%E9%9D%A2%E9%AB%94" title="四面体">四面体</a></li>
+<li><a href="/wiki/%E9%95%B7%E6%96%B9%E9%AB%94" title="长方体">长方体</a></li>
+<li><a href="/wiki/%E7%AB%8B%E6%96%B9%E9%AB%94" title="立方体">立方体</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C%E5%85%AD%E9%9D%A2%E4%BD%93" title="平行六面体">平行六面体</a></li>
+<li><a href="/wiki/%E6%A3%B1%E6%9F%B1" title="棱柱">棱柱</a></li>
+<li><a href="/wiki/%E5%8F%8D%E6%A3%B1%E6%9F%B1" title="反棱柱">反棱柱</a></li>
+<li><a href="/wiki/%E6%A3%B1%E9%94%A5" title="棱锥">棱锥</a></li>
+<li><a href="/wiki/%E9%94%A5%E5%8F%B0" title="锥台">棱台</a></li>
+<li><a href="/wiki/%E5%9C%86%E6%9F%B1%E4%BD%93" title="圆柱体">圆柱体</a></li>
+<li><a href="/wiki/%E5%9C%86%E9%94%A5" title="圆锥">圆锥</a></li>
+<li><a href="/wiki/%E5%9C%86%E5%8F%B0" title="圆台">圆台</a></li>
+<li><a href="/wiki/%E6%A4%AD%E7%90%83" title="椭球">椭球</a>（<a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="类球面">长球体</a>、<a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="类球面">扁球体</a>）</li>
+<li><a href="/wiki/%E7%90%83_(%E6%95%B0%E5%AD%A6)" title="球 (数学)">球体</a></li>
+<li><a href="/wiki/%E7%90%83%E7%BC%BA" title="球缺">球缺</a></li>
+<li><a href="/wiki/%E7%90%83%E5%86%A0" title="球冠">球冠</a></li>
+<li><a href="/wiki/%E7%90%83%E5%8F%B0" title="球台">球台</a></li>
+<li><a href="/wiki/%E9%9B%A2%E5%BF%83%E7%8E%87" title="离心率">准线</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%AF%8D%E7%BA%BF_(%E5%87%A0%E4%BD%95)&amp;action=edit&amp;redlink=1" title="母线 (几何)（页面不存在）">母线</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E6%9B%B2%E9%9D%A2" title="曲面">曲面</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%8C%E6%AC%A1%E6%9B%B2%E9%9D%A2" title="二次曲面">二次曲面</a></li>
+<li><a href="/wiki/%E6%97%8B%E8%BD%89%E6%9B%B2%E9%9D%A2" title="旋转曲面">旋转曲面</a></li>
+<li><a href="/wiki/%E6%8A%9B%E7%89%A9%E9%9D%A2" title="抛物面">抛物面</a></li>
+<li><a href="/wiki/%E9%9B%99%E6%9B%B2%E9%9D%A2" title="双曲面">双曲面</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%A9%AC%E9%9E%8D%E9%9D%A2&amp;action=edit&amp;redlink=1" title="马鞍面（页面不存在）">马鞍面</a></li>
+<li><a href="/wiki/%E7%90%83%E9%9D%A2" title="球面">球面</a></li>
+<li><a href="/wiki/%E6%A4%AD%E7%90%83" title="椭球">椭球面</a></li>
+<li><a href="/wiki/%E9%A1%9E%E7%90%83%E9%9D%A2" title="类球面">类球面</a></li>
+<li><a href="/wiki/%E7%8E%AF%E9%9D%A2" title="环面">环面</a></li>
+<li><a href="/wiki/%E8%8E%AB%E6%AF%94%E4%B9%8C%E6%96%AF%E5%B8%A6" title="莫比乌斯带">莫比乌斯带</a></li>
+<li><a href="/wiki/%E6%B5%81%E5%BD%A2" title="流形">流形</a></li>
+<li><a href="/wiki/%E9%BB%8E%E6%9B%BC%E6%9B%B2%E9%9D%A2" title="黎曼曲面">黎曼曲面</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">高维空间</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%B6%85%E5%B9%B3%E9%9D%A2" title="超平面">超平面</a></li>
+<li><a href="/wiki/%E7%B6%AD%E9%9D%A2" title="维面">超面</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%9B%B2%E9%9D%A2" title="超曲面">超曲面</a></li>
+<li><a href="/wiki/%E8%83%9E_(%E7%B5%90%E6%A7%8B)" title="胞 (结构)">胞</a></li>
+<li><a href="/wiki/%E5%A4%9A%E8%83%9E%E5%BD%A2" title="多胞形">多胞形</a></li>
+<li><a href="/wiki/%E8%B6%85%E7%90%83%E9%9D%A2" title="超球面">超球体</a></li>
+<li><a href="/wiki/%E8%B6%85%E6%96%B9%E5%BD%A2" title="超方形">超方形</a></li>
+<li><a href="/wiki/%E5%9B%9B%E7%B6%AD%E8%B6%85%E6%AD%A3%E6%96%B9%E9%AB%94" title="四维超正方体">超立方体</a></li>
+<li><a href="/wiki/%E5%85%8B%E8%8E%B1%E5%9B%A0%E7%93%B6" title="克莱因瓶">克莱因瓶</a></li>
+<li><a href="/wiki/%E5%9B%9B%E7%B6%AD%E6%9F%B1%E9%AB%94%E6%9F%B1" title="四维柱体柱">四维柱体柱</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">图形关系</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B8%E4%BC%BC_(%E5%B9%BE%E4%BD%95)" title="相似 (几何)">相似</a></li>
+<li><a href="/wiki/%E5%85%A8%E7%AD%89" title="全等">全等</a></li>
+<li><a href="/wiki/%E5%B0%8D%E7%A8%B1" title="对称">对称</a></li>
+<li><a href="/wiki/%E5%B9%B3%E8%A1%8C" title="平行">平行</a></li>
+<li><a href="/wiki/%E5%9E%82%E7%9B%B4" title="垂直">垂直</a></li>
+<li><a href="/wiki/%E7%9B%B8%E4%BA%A4" title="相交">相交</a></li>
+<li><a href="/wiki/%E5%88%87%E7%BA%BF" title="切线">相切</a></li>
+<li><a class="new" href="/w/index.php?title=%E7%9B%B8%E9%9B%A2&amp;action=edit&amp;redlink=1" title="相离（页面不存在）">相离</a></li>
+<li><a href="/wiki/%E9%95%9C%E5%83%8F_(%E5%87%A0%E4%BD%95)" title="镜像 (几何)">镜像</a></li>
+<li><a href="/wiki/%E6%97%8B%E8%BD%AC" title="旋转">旋转</a></li>
+<li><a href="/wiki/%E5%8F%8D%E6%BC%94" title="反演">反演</a></li>
+<li><a href="/wiki/%E6%88%AA%E9%9D%A2_(%E5%B9%BE%E4%BD%95)" title="截面 (几何)">截面</a></li>
+<li><a href="/wiki/%E7%BC%A9%E6%94%BE" title="缩放">缩放</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E4%B8%89%E8%A7%92%E5%BD%A2" title="三角形">三角形</a>关系</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B8%E4%BC%BC%E4%B8%89%E8%A7%92%E5%BD%A2" title="相似三角形">相似三角形</a></li>
+<li><a href="/wiki/%E5%85%A8%E7%AD%89%E4%B8%89%E8%A7%92%E5%BD%A2" title="全等三角形">全等三角形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;"><a href="/wiki/%E9%87%8F_(%E6%95%B0%E5%AD%A6)" title="量 (数学)">量</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%B7%9D%E7%A6%BB" title="距离">距离</a></li>
+<li><a href="/wiki/%E9%95%BF%E5%BA%A6" title="长度">长度</a></li>
+<li><a href="/wiki/%E5%91%A8%E9%95%BF" title="周长">周长</a></li>
+<li><a href="/wiki/%E5%BC%A7%E9%95%BF" title="弧长">弧长</a></li>
+<li><a href="/wiki/%E9%AB%98%E5%BA%A6" title="高度">高度</a></li>
+<li><a href="/wiki/%E9%9D%A2%E7%A7%AF" title="面积">面积</a></li>
+<li><a href="/wiki/%E8%A1%A8%E9%9D%A2%E7%A9%8D" title="表面积">表面积</a></li>
+<li><a href="/wiki/%E4%BD%93%E7%A7%AF" title="体积">体积</a></li>
+<li><a href="/wiki/%E5%AE%B9%E7%A9%8D" title="容积">容积</a></li>
+<li><a href="/wiki/%E5%BA%A6_(%E8%A7%92)" title="度 (角)">角度</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%8E%87" title="曲率">曲率</a></li>
+<li><a href="/wiki/%E6%9B%B2%E7%BA%BF%E7%9A%84%E6%8C%A0%E7%8E%87" title="曲线的挠率">挠率</a></li>
+<li><a href="/wiki/%E9%9B%A2%E5%BF%83%E7%8E%87" title="离心率">离心率</a></li>
+<li><a href="/wiki/%E5%87%B9%E5%87%B8%E6%80%A7_(%E5%B9%BE%E4%BD%95)" title="凹凸性 (几何)">凹凸性</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%89%E5%90%91%E6%9B%B2%E9%9D%A2&amp;action=edit&amp;redlink=1" title="有向曲面（页面不存在）">有向曲面</a></li>
+<li><a href="/wiki/%E5%8F%AF%E5%B1%95%E6%9B%B2%E9%9D%A2" title="可展曲面">可展曲面</a></li>
+<li><a href="/wiki/%E7%9B%B4%E7%B4%8B%E6%9B%B2%E9%9D%A2" title="直纹曲面">直纹曲面</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">作图</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%B0%BA" title="尺">尺</a>
+<ul><li><a href="/wiki/%E7%9B%B4%E5%B0%BA" title="直尺">直尺</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%B0%BA" title="三角尺">三角尺</a></li></ul></li>
+<li><a href="/wiki/%E5%9C%86%E8%A7%84" title="圆规">圆规</a></li>
+<li><a href="/wiki/%E5%B0%BA%E8%A7%84%E4%BD%9C%E5%9B%BE" title="尺规作图">尺规作图</a></li>
+<li><a href="/wiki/%E4%BA%8C%E5%88%BB%E5%B0%BA%E4%BD%9C%E5%9C%96" title="二刻尺作图">二刻尺作图</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">分支</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">平面几何</a></li>
+<li><a href="/wiki/%E7%AB%8B%E4%BD%93%E5%87%A0%E4%BD%95" title="立体几何">立体几何</a></li>
+<li><a href="/wiki/%E4%B8%89%E8%A7%92%E5%AD%A6" title="三角学">三角学</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95" title="微分几何">微分几何</a></li>
+<li><a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E6%91%BA%E7%B4%99%E6%95%B8%E5%AD%B8" title="折纸数学">折纸数学</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">欧几里得几何</a></li>
+<li><a href="/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何">非欧几里得几何</a>（<a href="/wiki/%E5%8F%8C%E6%9B%B2%E5%87%A0%E4%BD%95" title="双曲几何">双曲几何</a>、<a href="/wiki/%E7%90%83%E9%9D%A2%E5%B9%BE%E4%BD%95%E5%AD%B8" title="球面几何学">球面几何</a>……）</li>
+<li><a href="/wiki/%E5%88%86%E5%BD%A2" title="分形">分形</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row" style="text-align: right;">理论</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%AE%9A%E7%90%86" title="定理">定理</a></li>
+<li><a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a></li>
+<li><a href="/wiki/%E5%AE%9A%E4%B9%89" title="定义">定义</a></li>
+<li><a class="mw-selflink selflink">数学证明</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/><b><a href="/wiki/Category:%E5%87%A0%E4%BD%95%E5%AD%A6" title="Category:几何学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/><b><a href="/wiki/Portal:%E5%87%A0%E4%BD%95%E5%AD%A6" title="Portal:几何学">主题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Geometry" title="commons:Category:Geometry">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E5%87%A0%E4%BD%95%E5%AD%A6" title="WikiProject:几何学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1408
+Cached time: 20220925075449
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.351 seconds
+Real time usage: 0.465 seconds
+Preprocessor visited node count: 1266/1000000
+Post‐expand include size: 90596/2097152 bytes
+Template argument size: 420/2097152 bytes
+Highest expansion depth: 6/100
+Expensive parser function count: 6/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 19237/5000000 bytes
+Lua time usage: 0.114/10.000 seconds
+Lua memory usage: 5170439/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  237.325      1 -total
+ 25.11%   59.604      1 Template:NoteTA
+ 22.07%   52.382      5 Template:Cite_web
+ 11.84%   28.103      5 Template:Cite_book
+  9.81%   23.272      1 Template:几何术语
+  8.93%   21.193      1 Template:Navbox
+  8.53%   20.239      2 Template:Tsl
+  4.24%   10.074      4 Template:Icon
+  4.09%    9.698      3 Template:Main
+  3.47%    8.225      2 Template:Link-en
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:64074-0!canonical!zh and timestamp 20220925075449 and revision id 71962957.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=数学证明&amp;oldid=71962957">https://zh.wikipedia.org/w/index.php?title=数学证明&amp;oldid=71962957</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E5%87%A0%E4%BD%95%E6%9C%AF%E8%AF%AD" title="Category:几何术语">几何术语</a></li><li><a href="/wiki/Category:%E6%95%B8%E5%AD%B8%E6%8E%A8%E7%90%86" title="Category:数学推理">数学推理</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%BF%87%E6%97%B6%E5%8F%82%E6%95%B0%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有过时参数的引用的页面">含有过时参数的引用的页面</a></li><li><a href="/wiki/Category:%E6%9C%89%E8%93%9D%E9%93%BE%E5%8D%B4%E6%9C%AA%E7%A7%BB%E9%99%A4%E5%86%85%E9%83%A8%E9%93%BE%E6%8E%A5%E5%8A%A9%E6%89%8B%E6%A8%A1%E6%9D%BF%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:有蓝链却未移除内部链接助手模板的页面">有蓝链却未移除内部链接助手模板的页面</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;oldid=71962957" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;id=71962957&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11538" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Mathematical_proof" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Beweis_(Mathematik)" hreflang="gsw" lang="gsw" title="Beweis (Mathematik) – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Demostraci%C3%B3n_matematica" hreflang="an" lang="an" title="Demostración matematica – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%87%D8%A7%D9%86_%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A" hreflang="ar" lang="ar" title="برهان رياضي – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%97%E0%A6%BE%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%95_%E0%A6%AA%E0%A7%8D%E0%A7%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3" hreflang="as" lang="as" title="গাণিতিক প্ৰমাণ – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Demostraci%C3%B3n_matem%C3%A1tica" hreflang="ast" lang="ast" title="Demostración matemática – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Riyazi_isbat" hreflang="az" lang="az" title="Riyazi isbat – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA_%D0%B8%D2%AB%D0%B1%D0%B0%D1%82%D0%BB%D0%B0%D1%83" hreflang="ba" lang="ba" title="Математик иҫбатлау – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a class="interlanguage-link-target" href="https://bat-smg.wikipedia.org/wiki/Matemat%C4%97nis_iruod%C4%97ms" hreflang="sgs" lang="sgs" title="Matematėnis iruodėms – Samogitian"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D1%8B_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7" hreflang="be" lang="be" title="Матэматычны доказ – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D1%8D%D0%BC%D0%B0%D1%82%D1%8B%D1%87%D0%BD%D1%8B_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7" hreflang="be-tarask" lang="be-tarask" title="Матэматычны доказ – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%81%D1%82%D0%B2%D0%BE" hreflang="bg" lang="bg" title="Математическо доказателство – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%97%E0%A6%BE%E0%A6%A3%E0%A6%BF%E0%A6%A4%E0%A6%BF%E0%A6%95_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%AE%E0%A6%BE%E0%A6%A3" hreflang="bn" lang="bn" title="গাণিতিক প্রমাণ – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Matemati%C4%8Dki_dokaz" hreflang="bs" lang="bs" title="Matematički dokaz – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Demostraci%C3%B3_(matem%C3%A0tiques)" hreflang="ca" lang="ca" title="Demostració (matemàtiques) – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%B3%DB%95%D9%84%D9%85%D8%A7%D9%86%D8%AF%D9%86_(%D9%85%D8%A7%D8%AA%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)" hreflang="ckb" lang="ckb" title="سەلماندن (ماتماتیک) – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Matematick%C3%BD_d%C5%AFkaz" hreflang="cs" lang="cs" title="Matematický důkaz – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%C4%94%D0%BD%D0%B5%D0%BD%D1%82%D0%B5%D1%80%D3%B3_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="cv" lang="cv" title="Ĕнентерӳ (математика) – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Prawf_mathemategol" hreflang="cy" lang="cy" title="Prawf mathemategol – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Bevis_(matematik)" hreflang="da" lang="da" title="Bevis (matematik) – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Beweis_(Mathematik)" hreflang="de" lang="de" title="Beweis (Mathematik) – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9C%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AE_%CE%B1%CF%80%CF%8C%CE%B4%CE%B5%CE%B9%CE%BE%CE%B7" hreflang="el" lang="el" title="Μαθηματική απόδειξη – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Mathematical_proof" hreflang="en" lang="en" title="Mathematical proof – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Matematika_pruvo" hreflang="eo" lang="eo" title="Matematika pruvo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Demostraci%C3%B3n_en_matem%C3%A1tica" hreflang="es" lang="es" title="Demostración en matemática – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Froga_matematiko" hreflang="eu" lang="eu" title="Froga matematiko – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%A7%D8%AB%D8%A8%D8%A7%D8%AA_%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C" hreflang="fa" lang="fa" title="اثبات ریاضی – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Matemaattinen_todistus" hreflang="fi" lang="fi" title="Matemaattinen todistus – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/D%C3%A9monstration_(logique_et_math%C3%A9matique)" hreflang="fr" lang="fr" title="Démonstration (logique et mathématique) – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Bewis" hreflang="frr" lang="frr" title="Bewis – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="gan" lang="gan" title="数学证明 – 赣语"><span>赣语</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/D%C3%A9monstrasyon" hreflang="gcr" lang="gcr" title="Démonstrasyon – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Proba_matem%C3%A1tica" hreflang="gl" lang="gl" title="Proba matemática – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%94%D7%95%D7%9B%D7%97%D7%94" hreflang="he" lang="he" title="הוכחה – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4%E0%A5%80%E0%A4%AF_%E0%A4%89%E0%A4%AA%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A4%E0%A4%BF" hreflang="hi" lang="hi" title="गणितीय उपपत्ति – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Matemati%C4%8Dki_dokaz" hreflang="hr" lang="hr" title="Matematički dokaz – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Matematikai_bizony%C3%ADt%C3%A1s" hreflang="hu" lang="hu" title="Matematikai bizonyítás – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%84%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%BF%D5%AB%D5%AF%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A1%D5%BA%D5%A1%D6%81%D5%B8%D6%82%D5%B5%D6%81" hreflang="hy" lang="hy" title="Մաթեմատիկական ապացույց – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hyw mw-list-item"><a class="interlanguage-link-target" href="https://hyw.wikipedia.org/wiki/%D5%84%D5%A1%D5%A9%D5%A5%D5%B4%D5%A1%D5%A9%D5%AB%D5%AF%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A1%D5%BA%D5%A1%D6%81%D5%B8%D5%B5%D6%81" hreflang="hyw" lang="hyw" title="Մաթեմաթիկական ապացոյց – Western Armenian"><span>Արեւմտահայերէն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Prova_mathematic" hreflang="ia" lang="ia" title="Prova mathematic – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Pembuktian_matematika" hreflang="id" lang="id" title="Pembuktian matematika – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/St%C3%A6r%C3%B0fr%C3%A6%C3%B0ileg_s%C3%B6nnun" hreflang="is" lang="is" title="Stærðfræðileg sönnun – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Dimostrazione_matematica" hreflang="it" lang="it" title="Dimostrazione matematica – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E8%A8%BC%E6%98%8E_(%E6%95%B0%E5%AD%A6)" hreflang="ja" lang="ja" title="证明 (数学) – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Matimatikal_pruuf" hreflang="jam" lang="jam" title="Matimatikal pruuf – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a class="interlanguage-link-target" href="https://jbo.wikipedia.org/wiki/cipra" hreflang="jbo" lang="jbo" title="cipra – 逻辑语"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9B%E1%83%90%E1%83%97%E1%83%94%E1%83%9B%E1%83%90%E1%83%A2%E1%83%98%E1%83%99%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%93%E1%83%90%E1%83%9B%E1%83%A2%E1%83%99%E1%83%98%E1%83%AA%E1%83%94%E1%83%91%E1%83%90" hreflang="ka" lang="ka" title="მათემატიკური დამტკიცება – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%94%D3%99%D0%BB%D0%B5%D0%BB%D0%B4%D0%B5%D1%83" hreflang="kk" lang="kk" title="Дәлелдеу – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%A6%9D%EB%AA%85_(%EC%88%98%ED%95%99)" hreflang="ko" lang="ko" title="증명 (수학) – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Demonstratio_mathematica" hreflang="la" lang="la" title="Demonstratio mathematica – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Matematinis_%C4%AFrodymas" hreflang="lt" lang="lt" title="Matematinis įrodymas – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Matem%C4%81tisks_pier%C4%81d%C4%ABjums" hreflang="lv" lang="lv" title="Matemātisks pierādījums – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7" hreflang="mk" lang="mk" title="Математички доказ – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%A4%E0%B5%86%E0%B4%B3%E0%B4%BF%E0%B4%B5%E0%B5%8D_%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%B6%E0%B4%BE%E0%B4%B8%E0%B5%8D%E0%B4%A4%E0%B5%8D%E0%B4%B0%E0%B4%A4%E0%B5%8D%E0%B4%A4%E0%B4%BF%E0%B5%BD" hreflang="ml" lang="ml" title="തെളിവ് ഗണിതശാസ്ത്രത്തിൽ – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Bukti_matematik" hreflang="ms" lang="ms" title="Bukti matematik – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Bewies_(Mathematik)" hreflang="nds" lang="nds" title="Bewies (Mathematik) – 低地德语"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Wiskundig_bewijs" hreflang="nl" lang="nl" title="Wiskundig bewijs – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Matematisk_bevis" hreflang="nn" lang="nn" title="Matematisk bevis – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Matematisk_bevis" hreflang="nb" lang="nb" title="Matematisk bevis – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Demostracion_matematica" hreflang="oc" lang="oc" title="Demostracion matematica – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%97%E0%A8%A3%E0%A8%BF%E0%A8%A4%E0%A8%95_%E0%A8%B8%E0%A8%AC%E0%A9%82%E0%A8%A4" hreflang="pa" lang="pa" title="ਗਣਿਤਕ ਸਬੂਤ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Dow%C3%B3d_(matematyka)" hreflang="pl" lang="pl" title="Dowód (matematyka) – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%85%DB%8C%D8%AA%DA%BE%D9%85%DB%8C%D9%B9%DB%8C%DA%A9%D9%84_%D8%AB%D8%A8%D9%88%D8%AA" hreflang="pnb" lang="pnb" title="میتھمیٹیکل ثبوت – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a class="interlanguage-link-target" href="https://ps.wikipedia.org/wiki/%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%DA%A9%D9%8A_%D8%AB%D8%A8%D9%88%D8%AA" hreflang="ps" lang="ps" title="ریاضیکي ثبوت – 普什图语"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Prova_matem%C3%A1tica" hreflang="pt" lang="pt" title="Prova matemática – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Demonstra%C8%9Bie_matematic%C4%83" hreflang="ro" lang="ro" title="Demonstrație matematică – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE" hreflang="ru" lang="ru" title="Математическое доказательство – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D1%96%D1%87%D0%BD%D0%B5_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%BE" hreflang="rue" lang="rue" title="Математічне доказательство – 卢森尼亚文"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Dimustrazzioni_matim%C3%A0tica" hreflang="scn" lang="scn" title="Dimustrazzioni matimàtica – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Dokaz_(matematika)" hreflang="sh" lang="sh" title="Dokaz (matematika) – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%9C%E0%B6%AB%E0%B7%92%E0%B6%AD%E0%B6%B8%E0%B6%BA_%E0%B6%94%E0%B6%B4%E0%B7%8A%E0%B6%B4%E0%B7%94_%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8%E0%B7%8A" hreflang="si" lang="si" title="ගණිතමය ඔප්පු කිරීම් – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Mathematical_proof" hreflang="en-simple" lang="en-simple" title="Mathematical proof – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk badge-Q17437798 badge-goodarticle mw-list-item" title="优良条目"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/D%C3%B4kaz_(matematika)" hreflang="sk" lang="sk" title="Dôkaz (matematika) – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Matemati%C4%8Dni_dokaz" hreflang="sl" lang="sl" title="Matematični dokaz – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Provat_matematikore" hreflang="sq" lang="sq" title="Provat matematikore – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BA%D0%B8_%D0%B4%D0%BE%D0%BA%D0%B0%D0%B7" hreflang="sr" lang="sr" title="Математички доказ – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Matematiskt_bevis" hreflang="sv" lang="sv" title="Matematiskt bevis – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Thibitisho_la_kihisabati" hreflang="sw" lang="sw" title="Thibitisho la kihisabati – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4_%E0%AE%A8%E0%AE%BF%E0%AE%B1%E0%AF%81%E0%AE%B5%E0%AE%B2%E0%AF%8D" hreflang="ta" lang="ta" title="கணித நிறுவல் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%AA%E0%B8%B9%E0%B8%88%E0%B8%99%E0%B9%8C%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C" hreflang="th" lang="th" title="การพิสูจน์เชิงคณิตศาสตร์ – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Pang-matematikang_patibay" hreflang="tl" lang="tl" title="Pang-matematikang patibay – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Matematiksel_ispat" hreflang="tr" lang="tr" title="Matematiksel ispat – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA_%D0%B8%D1%81%D0%B1%D0%B0%D1%82%D0%BB%D0%B0%D1%83" hreflang="tt" lang="tt" title="Математик исбатлау – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%94%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%BD%D1%8F" hreflang="uk" lang="uk" title="Доведення – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA%DB%8C_%D8%AB%D8%A8%D9%88%D8%AA" hreflang="ur" lang="ur" title="ریاضیاتی ثبوت – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Ch%E1%BB%A9ng_minh_to%C3%A1n_h%E1%BB%8Dc" hreflang="vi" lang="vi" title="Chứng minh toán học – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Pruweba_panmatematika" hreflang="war" lang="war" title="Pruweba panmatematika – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E8%AF%81%E6%98%8E" hreflang="wuu" lang="wuu" title="证明 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%9E%D7%90%D7%98%D7%A2%D7%9E%D7%90%D7%98%D7%99%D7%A9%D7%A2%D7%A8_%D7%93%D7%A2%D7%A8%D7%95%D7%95%D7%99%D7%99%D7%96" hreflang="yi" lang="yi" title="מאטעמאטישער דערווייז – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E8%AD%89%E6%98%8E" hreflang="lzh" lang="lzh" title="证明 – Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/Ch%C3%A8ng-b%C3%AAng" hreflang="nan" lang="nan" title="Chèng-bêng – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E" hreflang="yue" lang="yue" title="数学证明 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q11538#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年6月2日 (星期四) 05:12。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.351","walltime":"0.465","ppvisitednodes":{"value":1266,"limit":1000000},"postexpandincludesize":{"value":90596,"limit":2097152},"templateargumentsize":{"value":420,"limit":2097152},"expansiondepth":{"value":6,"limit":100},"expensivefunctioncount":{"value":6,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":19237,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  237.325      1 -total"," 25.11%   59.604      1 Template:NoteTA"," 22.07%   52.382      5 Template:Cite_web"," 11.84%   28.103      5 Template:Cite_book","  9.81%   23.272      1 Template:几何术语","  8.93%   21.193      1 Template:Navbox","  8.53%   20.239      2 Template:Tsl","  4.24%   10.074      4 Template:Icon","  4.09%    9.698      3 Template:Main","  3.47%    8.225      2 Template:Link-en"]},"scribunto":{"limitreport-timeusage":{"value":"0.114","limit":"10.000"},"limitreport-memusage":{"value":5170439,"limit":52428800}},"cachereport":{"origin":"mw1408","timestamp":"20220925075449","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6578\u5b78\u8b49\u660e","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11538","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11538","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-12-25T02:08:17Z","dateModified":"2022-06-02T05:12:34Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8d\/P._Oxy._I_29.jpg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6578\u5b78\u8b49\u660e","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%95%B8%E5%AD%B8%E8%AD%89%E6%98%8E","sameAs":"http:\/\/www.wikidata.org\/entity\/Q11538","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q11538","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-12-25T02:08:17Z","dateModified":"2022-06-02T05:12:34Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/8d\/P._Oxy._I_29.jpg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":142,"wgHostname":"mw1393"});});</script>
+</body>
+</html>

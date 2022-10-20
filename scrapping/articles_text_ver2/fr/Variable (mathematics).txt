@@ -1,0 +1,924 @@
+Variable (mathématiques)
+Notion intuitive de variable[modifier | modifier le code]
+Variable d'une fonction[modifier | modifier le code]
+Variable libre et variable liée[modifier | modifier le code]
+Variables mathématiques et variables informatiques[modifier | modifier le code]
+Histoire[modifier | modifier le code]
+Une mathématique sans variables[modifier | modifier le code]
+Notes et références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+Exemples[modifier | modifier le code]
+Exemples[modifier | modifier le code]
+Exemple 1[modifier | modifier le code]
+Exemple 2[modifier | modifier le code]
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+				déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir variable.
+Dans les mathématiques supérieures  et en logique, une variable est un symbole représentant, a priori, un objet indéterminé. On peut cependant ajouter des conditions sur cet objet, tel que l'ensemble ou la collection le contenant. On peut alors utiliser une variable pour marquer un rôle dans un prédicat, une formule ou un algorithme, ou bien résoudre des équations et d'autres problèmes[1]. Il peut s'agir d'une simple valeur, ou d'un objet mathématique tel qu'un vecteur, une matrice ou même une fonction. Dans un polynôme, une fraction rationnelle ou une série formelle, la variable est remplacée par une indéterminée notée X.
+Il est d'usage d'utiliser un certain type de symbole pour l'objet que l'on souhaite représenter, par exemple les lettres de i à n pour les indices, les lettres de la fin de l'alphabet pour les vecteurs, ou bien ε pour un réel strictement positif ayant pour but de tendre vers 0.
+Pour calculer la longueur et la largeur d'une citerne dont on connait le volume, la hauteur et la différence entre la longueur et largeur, on peut décrire la méthode de calcul (l'algorithme sur les nombres et les opérations sur eux) sur un exemple, puis reproduire plusieurs exemples pour décrire complètement la méthode. C'est la méthode adoptée pendant l'Antiquité  par les  mathématiques babyloniennes[2].
+À la place des données et des résultats, qui changent dans chaque exemple, on peut décider de remplacer des valeurs fictives — appelées variables — par des symboles. Une variable est donc une entité syntaxique qui apparaît dans une expression et que l'on peut remplacer par une valeur, par exemple par un nombre.
+Dans l'exemple proposé par les  mathématiques babyloniennes, si V est le volume, h est la hauteur, et d est la différence entre la longueur L et la largeur l, on a
+En remplaçant les variables d par 6, V par 14 et h par 2, on obtient les résultats suivants :
+c'est-à-dire L=7 (la longueur est 7) et l=1 (la largeur est 1).
+Soient E et F deux ensembles. Soit une fonction 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ définie par :
+f
+:
+
+
+E
+
+
+⟶
+
+
+F
+
+
+
+
+
+x
+
+
+⟼
+
+
+f
+(
+x
+)
+
+
+
+
+.
+
+
+{\displaystyle {\begin{matrix}f:&E&\longrightarrow &F\\&x&\longmapsto &f(x)\end{matrix}}.}
+x est appelée la variable de l'expression f(x).
+f
+:
+
+
+
+R
+
+
+
+⟶
+
+
+
+R
+
+
+
+
+
+
+x
+
+
+⟼
+
+
+3
+x
++
+2
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}f:&\mathbb {R} &\longrightarrow &\mathbb {R} \\&x&\longmapsto &3x+2\end{matrix}}}
+x est appelée la variable de f(x).
+
+g
+:
+
+
+
+
+R
+
+
+n
+
+
+
+
+⟶
+
+
+
+R
+
+
+
+
+
+
+x
+
+
+⟼
+
+
+
+
+
+∑
+
+i
+=
+1
+
+
+n
+
+
+
+x
+
+i
+
+
+2
+
+
+
+
+
+
+
+
+
+
+{\displaystyle {\begin{matrix}g:&\mathbb {R} ^{n}&\longrightarrow &\mathbb {R} \\&x&\longmapsto &{\sqrt {\sum _{i=1}^{n}x_{i}^{2}}}\end{matrix}}}
+x est la variable de g(x). On peut aussi dire que chaque composante xi de x est une variable de g(x). Selon les points de vue, soit g(x) possède une variable qui est donc x de dimension n, soit g est une fonction de n variables de dimension 1.
+En mathématiques, une variable est dite :
+∀
+x
+∈
+
+N
+
+
+x
++
+1
+>
+0
+
+;
+
+
+∑
+
+k
+=
+1
+
+
+b
+
+
+k
+=
+
+
+
+b
+(
+b
++
+1
+)
+
+2
+
+
+
+;
+
+
+∏
+
+i
+=
+1
+
+
+10
+
+
+i
+=
+3628800
+
+;
+
+π
+=
+
+∫
+
+0
+
+
+∞
+
+
+
+
+2
+
+1
++
+
+t
+
+2
+
+
+
+
+
+
+d
+t
+
+
+
+{\displaystyle \forall x\in \mathbb {N} \quad x+1>0\quad ;\quad \sum _{k=1}^{b}k={\frac {b(b+1)}{2}}\quad ;\quad \prod _{i=1}^{10}i=3628800\quad ;\quad \pi =\int _{0}^{\infty }{\frac {2}{1+t^{2}}}\,dt\,}
+
+.
+On dit que les opérateurs, respectivement ∀, ∑, ∏ et ∫, lient ces variables : ce sont des signes mutificateurs.
+Les variables liées par un quantificateur universel ∀ traduisent l'universalité d'une propriété, c'est-à-dire le fait que la dite propriété est satisfaite par tous les objets d'un certain domaine.
+Par exemple, nous remarquons que
+Alors nous pouvons conjecturer que :
+Si par un raisonnement cette affirmation est démontrée alors il sera possible de l'utiliser pour n'importe quel nombre donné.
+Pour démontrer ce théorème, il suffit de considérer une variable 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ représentant un nombre réel quelconque et de développer:
+D'autre part nous savons que tout nombre réel élevé au carré est positif, donc 
+
+
+
+
+x
+
+2
+
+
+≥
+0
+
+
+{\displaystyle x^{2}\geq 0}
+
+. De plus en ajoutant de chaque côté de cette dernière inégalité 
+
+
+
+1
++
+2
+×
+x
+
+
+{\displaystyle 1+2\times x}
+
+, il vient
+donc
+La propriété est donc universelle.
+Les variables liées par un quantificateur existentiel ∃ traduisent l'existence d'objets vérifiant une certaine propriété.
+Par exemple, le théorème suivant :
+affirme qu'il existe un point appartenant à deux droites non parallèles, sans le donner par une formule.
+Dans le cadre d'une démonstration, en partant de deux droites non parallèles on pourra utiliser le théorème et affirmer qu'il existe un point 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ commun à ces deux droites. En fait 
+
+
+
+M
+
+
+{\displaystyle M}
+
+ est une variable représentant ce point et cette définition de la variable 
+
+
+
+M
+
+
+{\displaystyle M}
+
+, va nous permettre de travailler avec ce point.
+Soient 
+
+
+
+f
+:
+
+R
+
+⟶
+
+R
+
+
+
+{\displaystyle f:\mathbb {R} \longrightarrow \mathbb {R} }
+
+ et 
+
+
+
+x
+∈
+
+R
+
+
+
+{\displaystyle x\in \mathbb {R} }
+
+, les énoncés suivants signifient exactement la même chose :
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+η
+>
+0
+,
+∀
+y
+∈
+
+R
+
+,
+
+|
+
+x
+−
+y
+
+|
+
+<
+η
+⟹
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+y
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle i)\,\forall \epsilon >0,\exists \eta >0,\forall y\in \mathbb {R} ,|x-y|<\eta \Longrightarrow |f(x)-f(y)|<\epsilon }
+i
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+α
+>
+0
+,
+∀
+y
+∈
+
+R
+
+,
+
+|
+
+x
+−
+y
+
+|
+
+<
+α
+⟹
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+y
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle ii)\,\forall \epsilon >0,\exists \alpha >0,\forall y\in \mathbb {R} ,|x-y|<\alpha \Longrightarrow |f(x)-f(y)|<\epsilon }
+i
+i
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+α
+>
+0
+,
+∀
+♠
+∈
+
+R
+
+,
+
+|
+
+x
+−
+♠
+
+|
+
+<
+α
+⟹
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+♠
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle iii)\,\forall \epsilon >0,\exists \alpha >0,\forall \spadesuit \in \mathbb {R} ,|x-\spadesuit |<\alpha \Longrightarrow |f(x)-f(\spadesuit )|<\epsilon }
+i
+v
+)
+
+∀
+y
+>
+0
+,
+∃
+ϵ
+>
+0
+,
+∀
+α
+∈
+
+R
+
+,
+
+|
+
+x
+−
+α
+
+|
+
+<
+ϵ
+⟹
+
+|
+
+f
+(
+x
+)
+−
+f
+(
+α
+)
+
+|
+
+<
+y
+
+
+{\displaystyle iv)\,\forall y>0,\exists \epsilon >0,\forall \alpha \in \mathbb {R} ,|x-\alpha |<\epsilon \Longrightarrow |f(x)-f(\alpha )|<y}
+v
+)
+
+f
+
+ est continue en 
+
+x
+
+
+{\displaystyle v)\,f{\text{ est continue en }}x}
+Dans ce cas, les variables 
+
+
+
+ϵ
+,
+
+η
+,
+
+α
+,
+
+y
+,
+
+♠
+
+
+{\displaystyle \epsilon ,\,\eta ,\,\alpha ,\,y,\,\spadesuit }
+
+ sont liées[4], ceci se remarque très bien dans ce cas car l'énoncé se résume sans les utiliser.
+Et dans tout cet exemple, 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ et 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ sont des variables libres, en effet, tout cela est équivalent à :
+Soient 
+
+
+
+g
+:
+
+R
+
+⟶
+
+R
+
+
+
+{\displaystyle g:\mathbb {R} \longrightarrow \mathbb {R} }
+
+ et 
+
+
+
+z
+∈
+
+R
+
+
+
+{\displaystyle z\in \mathbb {R} }
+
+, les énoncés suivants signifient exactement la même chose :
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+η
+>
+0
+,
+∀
+y
+∈
+
+R
+
+,
+
+|
+
+z
+−
+y
+
+|
+
+<
+η
+⟹
+
+|
+
+g
+(
+z
+)
+−
+g
+(
+y
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle i)\,\forall \epsilon >0,\exists \eta >0,\forall y\in \mathbb {R} ,|z-y|<\eta \Longrightarrow |g(z)-g(y)|<\epsilon }
+i
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+α
+>
+0
+,
+∀
+y
+∈
+
+R
+
+,
+
+|
+
+z
+−
+y
+
+|
+
+<
+α
+⟹
+
+|
+
+g
+(
+z
+)
+−
+g
+(
+y
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle ii)\,\forall \epsilon >0,\exists \alpha >0,\forall y\in \mathbb {R} ,|z-y|<\alpha \Longrightarrow |g(z)-g(y)|<\epsilon }
+i
+i
+i
+)
+
+∀
+ϵ
+>
+0
+,
+∃
+α
+>
+0
+,
+∀
+♠
+∈
+
+R
+
+,
+
+|
+
+z
+−
+♠
+
+|
+
+<
+α
+⟹
+
+|
+
+g
+(
+z
+)
+−
+g
+(
+♠
+)
+
+|
+
+<
+ϵ
+
+
+{\displaystyle iii)\,\forall \epsilon >0,\exists \alpha >0,\forall \spadesuit \in \mathbb {R} ,|z-\spadesuit |<\alpha \Longrightarrow |g(z)-g(\spadesuit )|<\epsilon }
+i
+v
+)
+
+∀
+y
+>
+0
+,
+∃
+ϵ
+>
+0
+,
+∀
+α
+∈
+
+R
+
+,
+
+|
+
+z
+−
+α
+
+|
+
+<
+ϵ
+⟹
+
+|
+
+g
+(
+z
+)
+−
+g
+(
+α
+)
+
+|
+
+<
+y
+
+
+{\displaystyle iv)\,\forall y>0,\exists \epsilon >0,\forall \alpha \in \mathbb {R} ,|z-\alpha |<\epsilon \Longrightarrow |g(z)-g(\alpha )|<y}
+v
+)
+
+g
+
+ est continue en 
+
+z
+
+
+{\displaystyle v)\,g{\text{ est continue en }}z}
+Et si l'on pose, par exemple 
+
+
+
+f
+=
+exp
+
+
+{\displaystyle f=\exp }
+
+ et 
+
+
+
+x
+=
+0
+
+
+{\displaystyle x=0}
+
+, les énoncés précédent deviennent des propositions, qui sont, dans ce cas, vraies.
+Dans les langages de programmation impératifs, ce que les informaticiens appellent des variables sont des repères de valeurs qui évoluent au cours du temps, on parle aussi de références. Il s'agit donc plutôt de l'identification d'emplacements en mémoire. Si une variable informatique n'est pas initialisée, sa valeur est non définie. Quand on doit utiliser dans le même cadre le concept de variable mathématique et le concept de variable informatique, comme c'est le cas en sémantique des langages de programmation, on appelle la variable informatique un « emplacement » (« location » en anglais).
+Dans les langages fonctionnels, grâce à la transparence référentielle, les variables des programmes sont des variables mathématiques.
+Dans sa logistique spécieuse, François Viète ouvre la voie au formalisme en utilisant des lettres pour représenter les entités utilisées dans un problème mathématique. On utilise souvent la lettre x pour une variable. Cela viendrait de la lettre grec khi, transformation de l'arabe chay' (شيء), signifiant "chose"[5].
+Le mathématicien Moses Schönfinkel a eu l'idée que l'on pouvait fonder les mathématiques sur une logique sans variables[6].  Il a créé pour cela un système formel que l'on appelle la logique combinatoire. Ce système a été repris et complété par Haskell Curry[7].  Un tel système n'a pas les complications de la substitution, mais perd en lisibilité. En utilisant le calcul des relations, Tarski et Givant ont aussi défini une mathématique sans variables[8].  Les indices de De Bruijn sont encore une autre façon de se passer des variables.
+Sur les autres projets Wikimedia :

@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>牛顿运动定律 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"e8e3960b-9e53-4a00-a296-cad5ad56a85b","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"牛顿运动定律","wgTitle":"牛顿运动定律","wgCurRevisionId":71722324,"wgRevisionId":71722324,"wgArticleId":202247,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有英语的条目","引文格式1维护：冗余文本","包含GND标识符的维基百科条目","艾萨克·牛顿","基本物理概念","物理定律","经典力学","科学定律","哥白尼式革命"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"牛顿运动定律",
+"wgRelevantArticleId":202247,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q38433","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font"
+:"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","ext.scribunto.logs","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI",
+"ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="1869" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="1246" property="og:image:height"/>
+<meta content="640" property="og:image:width"/>
+<meta content="997" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="牛顿运动定律 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-牛顿运动定律 rootpage-牛顿运动定律 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-5ff6fd68"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">牛顿运动定律</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-5ff6fd68"><div class="noteTA-group"><div data-noteta-group="Physics" data-noteta-group-source="module"></div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:Newtons_laws_in_latin.jpg"><img alt="" class="thumbimage" data-file-height="461" data-file-width="296" decoding="async" height="389" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Newtons_laws_in_latin.jpg/250px-Newtons_laws_in_latin.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/5/5d/Newtons_laws_in_latin.jpg 1.5x" width="250"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Newtons_laws_in_latin.jpg" title="放大"></a></div>在巨着《<a class="mw-redirect" href="/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%B8%E7%9A%84%E6%95%B8%E5%AD%B8%E5%8E%9F%E7%90%86" title="自然哲学的数学原理">自然哲学的数学原理</a>》1687年版本里，以<a class="mw-redirect" href="/wiki/%E6%8B%89%E4%B8%81%E8%AA%9E" title="拉丁语">拉丁文</a>撰写的<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E7%AC%AC%E4%B8%80%E5%AE%9A%E5%BE%8B" title="牛顿第一定律">牛顿第一定律</a>及<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A0%93%E7%AC%AC%E4%BA%8C%E5%AE%9A%E5%BE%8B" title="牛顿第二定律">牛顿第二定律</a>。</div></div></div>
+<dl><dd><small>在这篇文章内，<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>与<a href="/wiki/%E6%A0%87%E9%87%8F_(%E6%95%B0%E5%AD%A6)" title="标量 (数学)">标量</a>分别用<a class="mw-redirect" href="/wiki/Help:%E6%95%B8%E5%AD%B8%E5%85%AC%E5%BC%8F#字体#正粗体" title="Help:数学公式">粗体</a>与<a class="mw-redirect" href="/wiki/Help:%E6%95%B8%E5%AD%B8%E5%85%AC%E5%BC%8F#斜体" title="Help:数学公式">斜体</a>显示。例如，位置向量通常用 <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {r} \,\!}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">r</mi>
+</mrow>
+<mspace width="thinmathspace"></mspace>
+<mspace width="negativethinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {r} \,\!}</annotation>
+</semantics>
+</math></span><img alt="\mathbf{r}\,\!" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3a1ffb0f7dee0c7f11111906fe55becd542d4d82" style="vertical-align: -0.338ex; margin-right: -0.387ex; width:1.489ex; height:1.676ex;"/></span> 表示；而其大小则用 <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r\,\!}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+<mspace width="thinmathspace"></mspace>
+<mspace width="negativethinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r\,\!}</annotation>
+</semantics>
+</math></span><img alt="r\,\!" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86937851b7cb70e8802197a7b5ddcf39c0b02445" style="vertical-align: -0.338ex; margin-right: -0.387ex; width:1.436ex; height:1.676ex;"/></span> 来表示。</small></dd></dl>
+<p><b>牛顿运动定律</b>（英语：<span lang="en">Newton's laws of motion</span>）描述施加于<a class="mw-redirect" href="/wiki/%E7%89%A9%E9%AB%94" title="物体">物体</a>的<a href="/wiki/%E5%8A%9B" title="力">外力</a>与物体所呈现出的运动彼此之间的关系。<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>这定律被誉为<a class="mw-redirect" href="/wiki/%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" title="经典力学">经典力学</a>的基础，是<a class="mw-redirect" href="/wiki/%E8%8B%B1%E5%9C%8B" title="英国">英国</a>物理泰斗<a class="mw-redirect" href="/wiki/%E8%89%BE%E8%96%A9%E5%85%8B%C2%B7%E7%89%9B%E9%A0%93" title="艾萨克·牛顿">艾萨克·牛顿</a>所提出的三条运动定律的总称。这定律的现代版本通常表述为<sup class="reference" id="cite_ref-Halliday_88_2-0"><a href="#cite_note-Halliday_88-2">[2]</a></sup><sup class="reference" id="cite_ref-Young2011_3-0"><a href="#cite_note-Young2011-3">[3]</a></sup>
+</p>
+<ul><li><b>第一定律</b>：假若施加于某物体的<a href="/wiki/%E5%8A%9B" title="力">外力</a>为零，则该物体的运动<a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>不变（<a href="/wiki/%E6%85%A3%E6%80%A7" title="惯性">惯性</a>定律）</li>
+<li><b>第二定律</b>：施加于物体的外力等于此物体的<a class="mw-redirect" href="/wiki/%E8%B3%AA%E9%87%8F" title="质量">质量</a>与<a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a>的乘积（加速度定律）</li>
+<li><b>第三定律</b>：当两个物体相互作用于对方时，彼此施加于对方的力，其大小相等、方向相反（作用力与<a class="mw-redirect" href="/wiki/%E5%8F%8D%E4%BD%9C%E7%94%A8%E5%8A%9B" title="反作用力">反作用力</a>定律）</li></ul>
+<p><a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A0%93" title="牛顿">牛顿</a>在发表于1687年7月5日的巨着《<a class="mw-redirect" href="/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%B8%E7%9A%84%E6%95%B8%E5%AD%B8%E5%8E%9F%E7%90%86" title="自然哲学的数学原理">自然哲学的数学原理</a>》裏提出这三条定律。<sup class="reference" id="cite_ref-Newton83_4-0"><a href="#cite_note-Newton83-4">[4]</a></sup>他将先前<a href="/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1" title="伽利略·伽利莱">伽利略·伽利莱</a>、<a href="/wiki/%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82%E5%AE%89%C2%B7%E6%83%A0%E6%9B%B4%E6%96%AF" title="克里斯蒂安·惠更斯">克里斯蒂安·惠更斯</a>等等物理大师想出的一些动力学原理整理并发展成为这三条精练简要的定律。<sup class="reference" id="cite_ref-Ray76_5-0"><a href="#cite_note-Ray76-5">[5]</a></sup>牛顿应用这些定律来分析各种各样的动力学运动。例如，牛顿应用这些定律与<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A0%93%E8%90%AC%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B" title="牛顿万有引力定律">牛顿万有引力定律</a>来解释<a class="mw-redirect" href="/wiki/%E5%85%8B%E5%8D%9C%E5%8B%92%E8%A1%8C%E6%98%9F%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" title="克卜勒行星运动定律">克卜勒行星运动定律</a>。<sup class="reference" id="cite_ref-Cohen_2002_6-0"><a href="#cite_note-Cohen_2002-6">[6]</a></sup>
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#概述"><span class="tocnumber">1</span> <span class="toctext">概述</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#牛顿第一运动定律"><span class="tocnumber">2</span> <span class="toctext">牛顿第一运动定律</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#牛顿第二运动定律"><span class="tocnumber">3</span> <span class="toctext">牛顿第二运动定律</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#牛顿第三运动定律"><span class="tocnumber">4</span> <span class="toctext">牛顿第三运动定律</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#牛顿定律适用范围"><span class="tocnumber">5</span> <span class="toctext">牛顿定律适用范围</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#与守恒定律之间的关系"><span class="tocnumber">6</span> <span class="toctext">与守恒定律之间的关系</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#参阅"><span class="tocnumber">7</span> <span class="toctext">参阅</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#注释"><span class="tocnumber">8</span> <span class="toctext">注释</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#参考文献"><span class="tocnumber">9</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#外部连结"><span class="tocnumber">10</span> <span class="toctext">外部连结</span></a></li>
+</ul>
+</div>
+<h2><span id=".E6.A6.82.E8.BF.B0"></span><span class="mw-headline" id="概述">概述</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=1" title="编辑章节：概述">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg"><img alt="" class="thumbimage" data-file-height="1916" data-file-width="1364" decoding="async" height="281" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/200px-GodfreyKneller-IsaacNewton-1689.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/300px-GodfreyKneller-IsaacNewton-1689.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/39/GodfreyKneller-IsaacNewton-1689.jpg/400px-GodfreyKneller-IsaacNewton-1689.jpg 2x" width="200"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg" title="放大"></a></div>物理界的泰斗<a href="/wiki/%E8%89%BE%E8%90%A8%E5%85%8B%C2%B7%E7%89%9B%E9%A1%BF" title="艾萨克·牛顿">艾萨克·牛顿</a>。</div></div></div>
+<p>在应用牛顿运动定律之前，必需先将物体理想化为<a class="mw-redirect" href="/wiki/%E8%B4%A8%E7%82%B9" title="质点">质点</a><span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[注 1]</a></sup></span>。在物理学里，质点又可称为<a href="/wiki/%E7%B2%92%E5%AD%90" title="粒子">粒子</a>，是被理想化成为一个只具有质量，不具有结构的物体。质点只能够进行<a href="/wiki/%E5%B9%B3%E7%A7%BB%E8%BF%90%E5%8A%A8" title="平移运动">平移运动</a>，<a href="/wiki/%E8%87%AA%E7%94%B1%E5%BA%A6_(%E7%89%A9%E7%90%86%E5%AD%A6)" title="自由度 (物理学)">自由度</a>为3。当与分析所涉及的距离相比较，物体的尺寸显得很微小，或者，当只考虑物体受的外力，而物体本身的内部结构、<a href="/wiki/%E5%BD%A2%E8%AE%8A" title="形变">形变</a>、<a class="mw-redirect" href="/wiki/%E6%97%8B%E8%BD%89" title="旋转">旋转</a>、温度等对于分析并不重要，对于这两类案例，质点模型适用。举例而言，在计算棒球的飞行轨道时，可以将棒球理想化为质点，在分析<a href="/wiki/%E8%A1%8C%E6%98%9F" title="行星">行星</a>环绕<a class="mw-redirect" href="/wiki/%E6%81%86%E6%98%9F" title="恒星">恒星</a>的轨道运动时，行星与恒星都可以被理想化为<a class="mw-redirect" href="/wiki/%E8%B4%A8%E7%82%B9" title="质点">质点</a>。<sup class="reference" id="cite_ref-Iro15_9-0"><a href="#cite_note-Iro15-9">[8]</a></sup><sup class="reference" id="cite_ref-Taylor13_10-0"><a href="#cite_note-Taylor13-10">[9]</a></sup>
+</p><p>原初版本的牛顿运动定律只适用于描述质点的动力学，不具有足够功能来描述<a class="mw-redirect" href="/wiki/%E5%89%9B%E9%AB%94" title="刚体">刚体</a>与<a href="/wiki/%E5%A1%91%E6%80%A7%E8%AE%8A%E5%BD%A2" title="塑性变形">可变形体</a>的运动。1750年，<a href="/wiki/%E8%90%8A%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E6%AD%90%E6%8B%89" title="莱昂哈德·欧拉">欧拉</a>在牛顿运动定律的基础上，推导出能够应用于刚体的<a href="/wiki/%E6%AD%90%E6%8B%89%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" title="欧拉运动定律">欧拉运动定律</a>。后来，这定律又被应用于假定为<a class="mw-redirect" href="/wiki/%E9%80%A3%E7%BA%8C%E4%BB%8B%E8%B3%AA" title="连续介质">连续介质</a>的可变形体。<sup class="reference" id="cite_ref-Beatty_11-0"><a href="#cite_note-Beatty-11">[10]</a></sup><sup class="reference" id="cite_ref-Taylor681_12-0"><a href="#cite_note-Taylor681-12">[11]</a></sup>假若物体被视为一群离散质点的组合，而其中每一个质点都遵守牛顿运动定律，则可以从牛顿运动定律推导出欧拉运动定律。可是，欧拉运动定律也可以直接被视为描述大块物体运动的<a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a>，完全不涉及到物体的内部结构。<sup class="reference" id="cite_ref-Lubliner27_13-0"><a href="#cite_note-Lubliner27-13">[12]</a></sup>
+</p><p>牛顿运动定律只成立于<a href="/wiki/%E6%83%AF%E6%80%A7%E5%8F%82%E8%80%83%E7%B3%BB" title="惯性参考系">惯性参考系</a>，又称为<a href="/wiki/%E6%83%AF%E6%80%A7%E5%8F%82%E8%80%83%E7%B3%BB" title="惯性参考系">牛顿参考系</a>。有些学者喜欢用第一定律来定义惯性参考系。假若采用这观点，则由于只有从惯性参考系观察，第二定律才成立，所以，不能从第二定律以特例的方式来推导出第一定律。另外又有一些学者青睐将第一定律视为第二定律的推论，而第二定律则是力的定义。<sup class="reference" id="cite_ref-O'Sullivan1980_14-0"><a href="#cite_note-O'Sullivan1980-14">[13]</a></sup><sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[14]</a></sup>
+</p><p>在整个牛顿运动定律里，力的概念扮演不可或缺的角色。第一定律聚焦于在零外力状况下物体的运动状态。第二定律探讨在各种不同外力作用下物体的运动状态。第三定律描述从物体与物体之间因相互作用而产生的力所具有的性质。<sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[15]</a></sup>
+</p>
+<h2><span id=".E7.89.9B.E9.A0.93.E7.AC.AC.E4.B8.80.E9.81.8B.E5.8B.95.E5.AE.9A.E5.BE.8B"></span><span class="mw-headline" id="牛顿第一运动定律">牛顿第一运动定律</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=2" title="编辑章节：牛顿第一运动定律">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A0%93%E7%AC%AC%E4%B8%80%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" title="牛顿第一运动定律">牛顿第一运动定律</a>和<a href="/wiki/%E6%85%A3%E6%80%A7" title="惯性">惯性</a></div>
+<p>牛顿第一定律表明，假若施加于某物体的<a href="/wiki/%E5%8A%9B" title="力">外力</a>为零，则该物体的运动<a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>不变。速度是向量，速度包括了运动的大小与方向。以方程式表达，<sup class="reference" id="cite_ref-Halliday_88_2-1"><a href="#cite_note-Halliday_88-2">[2]</a></sup>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum _{i}\mathbf {F} _{i}=0\Rightarrow {\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<munder>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</munder>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<mn>0</mn>
+<mo stretchy="false">⇒<!-- ⇒ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum _{i}\mathbf {F} _{i}=0\Rightarrow {\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}=0}</annotation>
+</semantics>
+</math></span><img alt="\sum _{i}{\mathbf  {F}}_{i}=0\Rightarrow {\frac  {{\mathrm  {d}}{\mathbf  {v}}}{{\mathrm  {d}}t}}=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/39237e483fe8f429c79d41aba6772b0ead02075b" style="vertical-align: -3.005ex; width:21.9ex; height:6.509ex;"/></span>；</dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} _{i}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} _{i}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {F}}_{i}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d49039f831a156e0c33270962d8d159d553a8bc" style="vertical-align: -0.671ex; width:2.482ex; height:2.509ex;"/></span>是第<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle i}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>i</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle i}</annotation>
+</semantics>
+</math></span><img alt="i" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20" style="vertical-align: -0.338ex; width:0.802ex; height:2.176ex;"/></span>个外力，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {v} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {v} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf {v} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/35c1866e359fbfd2e0f606c725ba5cc37a5195d6" style="vertical-align: -0.338ex; width:1.411ex; height:1.676ex;"/></span>是速度，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle t}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>t</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle t}</annotation>
+</semantics>
+</math></span><img alt="t" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/65658b7b223af9e1acc877d848888ecdb4466560" style="vertical-align: -0.338ex; width:0.84ex; height:2.009ex;"/></span>是时间。
+</p><p>根据这定律，
+</p>
+<ul><li>静止的物体会保持静止，直到有外力施加于这物体为止。</li>
+<li>运动中的物体会维持其运动速度的大小与方向，直到有外力施加于这物体为止。</li></ul>
+<p>根据第一定律，从测量物体的运动速度是否改变，可以判断是否有外力作用于物体。<sup class="reference" id="cite_ref-Maxwell27_17-0"><a href="#cite_note-Maxwell27-17">[16]</a></sup>注意到上述句子并未对于力给出严格定义，这可以用<a href="/wiki/%E6%93%8D%E4%BD%9C%E5%AE%9A%E4%B9%89" title="操作定义">操作定义</a>的方法来完成。两个同样的弹簧，假若被压缩同样的距离，则其各自产生的「弹力」（一种物理现象）必定相等。将这两个弹簧<a class="mw-redirect" href="/wiki/%E4%B8%A6%E8%81%AF" title="并联">并联</a>，可以产生两倍的弹力。将一物体的两边分别连接这两个弹簧的末端，使弹力的作用方向相反，则作用于物体的净力为零。为了对于弹力给出定量描述，设定「标准单位力」为某特定弹簧压缩特定距离所产生的弹力。任意数量的标准单位力都可以用几个弹簧所组成的系统来实现。弹簧系统这可以用来做测量实验，对于任意力给予比较，给出它的测量值。<sup class="reference" id="cite_ref-O'Sullivan1980_14-1"><a href="#cite_note-O'Sullivan1980-14">[13]</a></sup>
+</p><p>在做实验验证第一定律之时，必须测量速度与时间，这涉及到参考系的设定。因此，可以更详细地将第一定律表明为<sup class="reference" id="cite_ref-French162_18-0"><a href="#cite_note-French162-18">[17]</a></sup>
+</p>
+<style data-mw-deduplicate="TemplateStyles:r61209892">.mw-parser-output .templatequote{margin-top:0;overflow:hidden}.mw-parser-output .templatequote .templatequotecite{line-height:1em;text-align:left;padding-left:2em;margin-top:0}.mw-parser-output .templatequote .templatequotecite cite{font-size:small}</style>
+<blockquote class="templatequote"><p>采用某种参考系来做测量，假若施加于一个物体的外力为零，则该物体的运动速度不变。</p></blockquote>
+<p>在宇宙中，存在着无数可能的参考系，在这些参考系中，满足第一定律的参考系称为「惯性参考系」，而其它不满足第一定律的参考系称为「非惯性参考系」。从观察不受力物体的行为，就可以辨别出哪种是惯性参考系，哪种不是惯性参考系。因此，在本章节论述里，第一定律可以被视为惯性参考系的定义。牛顿在《<a class="mw-redirect" href="/wiki/%E8%87%AA%E7%84%B6%E5%93%B2%E5%AD%B8%E7%9A%84%E6%95%B8%E5%AD%B8%E5%8E%9F%E7%90%86" title="自然哲学的数学原理">自然哲学的数学原理</a>》裏采用就是这种诠释。<sup class="reference" id="cite_ref-O'Sullivan1980_14-2"><a href="#cite_note-O'Sullivan1980-14">[13]</a></sup>
+</p><p>还有其它种诠释，例如，基尔霍夫诠释、爱因斯坦诠释等等。更多内容，请点阅条目<a href="/wiki/%E7%89%9B%E9%A1%BF%E7%AC%AC%E4%B8%80%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="牛顿第一运动定律">牛顿第一运动定律</a>。
+</p>
+<h2><span id=".E7.89.9B.E9.A0.93.E7.AC.AC.E4.BA.8C.E9.81.8B.E5.8B.95.E5.AE.9A.E5.BE.8B"></span><span class="mw-headline" id="牛顿第二运动定律">牛顿第二运动定律</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=3" title="编辑章节：牛顿第二运动定律">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E7%89%9B%E9%A0%93%E7%AC%AC%E4%BA%8C%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" title="牛顿第二运动定律">牛顿第二运动定律</a></div>
+<p>牛顿第二定律表明，施加于物体的外力等于<a class="mw-redirect" href="/wiki/%E8%B3%AA%E9%87%8F" title="质量">质量</a>与<a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a>的乘积。这定律又称为「加速度定律」。以方程式表达，<sup class="reference" id="cite_ref-French161_19-0"><a href="#cite_note-French161-19">[18]</a></sup>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} =m\mathbf {a} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mo>=</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">a</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} =m\mathbf {a} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {F}}=m{\mathbf  {a}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d0c60fab89e8c3193952047dc565bcf8d233d115" style="vertical-align: -0.338ex; width:8.121ex; height:2.176ex;"/></span>；</dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf {F} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/da18bef8c979f3548bb0d8976f5844012d7b8256" style="vertical-align: -0.338ex; width:1.683ex; height:2.176ex;"/></span>是外力，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span>是质量，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {a} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">a</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {a} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf {a} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1a957216653a9ee0d0133dcefd13fb75e36b8b9d" style="vertical-align: -0.338ex; width:1.299ex; height:1.676ex;"/></span>是加速度。
+</p><p>第二定律也可以用动量来表明，即施加于物体的外力等于<a class="mw-redirect" href="/wiki/%E5%8B%95%E9%87%8F" title="动量">动量</a>的变率：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1738cbe14085332f1dc18499c2b47ac496cd09b4" style="vertical-align: -2.005ex; width:8.395ex; height:5.509ex;"/></span>；</dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf{p}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dd73e3862cb92b016721b8c492eadb4e8a577527" style="vertical-align: -0.671ex; width:1.485ex; height:2.009ex;"/></span>是动量，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle t}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>t</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle t}</annotation>
+</semantics>
+</math></span><img alt="t" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/65658b7b223af9e1acc877d848888ecdb4466560" style="vertical-align: -0.338ex; width:0.84ex; height:2.009ex;"/></span>是时间。
+</p><p>由于动量等于质量乘以速度，所以，假若质量不变，则可得到加速度定律，假若质量随着时间流易而改变，则该系统为<a class="mw-redirect" href="/wiki/%E5%8F%AF%E8%AE%8A%E8%B3%AA%E9%87%8F%E7%B3%BB%E7%B5%B1" title="可变质量系统">可变质量系统</a>，必须将时变质量纳入考量，更多内容，请参阅<a class="mw-redirect" href="/wiki/%E5%8F%AF%E8%AE%8A%E8%B3%AA%E9%87%8F%E7%B3%BB%E7%B5%B1" title="可变质量系统">可变质量系统</a>。
+</p><p>假设施加外力于某物体，则由于该物体的加速度只与外力、质量有关，在任何状况下，质量不变的物体都会表现出同样的加速度：<span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[注 2]</a></sup></span>
+</p>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {a} =\mathbf {F} /m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">a</mi>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {a} =\mathbf {F} /m}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbf {a} =\mathbf {F} /m}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/38034156225231c906b1c1a777fc77bbfde60f6c" style="vertical-align: -0.838ex; width:9.284ex; height:2.843ex;"/></span>。</dd></dl></dd></dl>
+<p>采用<a class="mw-redirect" href="/wiki/%E5%9C%8B%E9%9A%9B%E6%A8%99%E6%BA%96%E5%88%B6" title="国际标准制">国际标准制</a>，力、加速度、质量的单位分别规定为<a href="/wiki/%E7%89%9B%E9%A0%93_(%E5%96%AE%E4%BD%8D)" title="牛顿 (单位)">牛顿</a>（N）、公尺每二次方秒（m/s<sup>2</sup>），公斤（kg）。施加1牛顿的力于质量为1公斤的物体，则使此物体的加速度为1m/s<sup>2</sup>。也就是说，<sup class="reference" id="cite_ref-Serway102_21-0"><a href="#cite_note-Serway102-21">[19]</a></sup>
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1\mathrm {N} =1\mathrm {kg} \cdot \mathrm {m} /\mathrm {s} ^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">N</mi>
+</mrow>
+<mo>=</mo>
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">k</mi>
+<mi mathvariant="normal">g</mi>
+</mrow>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">m</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">s</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1\mathrm {N} =1\mathrm {kg} \cdot \mathrm {m} /\mathrm {s} ^{2}}</annotation>
+</semantics>
+</math></span><img alt="1{\mathrm  {N}}=1{\mathrm  {kg}}\cdot {\mathrm  {m}}/{\mathrm  {s}}^{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3c9aa52c284dea3bfb7da39526ac8626de7241e1" style="vertical-align: -0.838ex; width:16.304ex; height:3.176ex;"/></span>。</dd></dl>
+<h2><span id=".E7.89.9B.E9.A0.93.E7.AC.AC.E4.B8.89.E9.81.8B.E5.8B.95.E5.AE.9A.E5.BE.8B"></span><span class="mw-headline" id="牛顿第三运动定律">牛顿第三运动定律</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=4" title="编辑章节：牛顿第三运动定律">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E7%AC%AC%E4%B8%89%E5%AE%9A%E5%BE%8B" title="牛顿第三定律">牛顿第三定律</a>和<a class="mw-redirect" href="/wiki/%E5%8F%8D%E4%BD%9C%E7%94%A8%E5%8A%9B" title="反作用力">反作用力</a></div>
+<p>牛顿第三定律表明，当两个物体相互作用时，彼此施加于对方的力，其大小相等、方向相反。根据第三定律，力是物体与物体之间的交互作用，力必会成双结对地出现，其中一道力称为「作用力」，而另一道力则称为「反作用力」。<span id="noteTag-cite_ref-sup"><sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[注 3]</a></sup></span>这两道力的大小相等、方向相反。在这两道力之间，任何一道力都可以被称为作用力，而其对应的力自然成为伴随的反作用力。这成对的作用力与反作用力称为「配对力」。第三定律又称为「作用与反作用定律」。<sup class="reference" id="cite_ref-Halliday_99_24-0"><a href="#cite_note-Halliday_99-24">[21]</a></sup>
+</p><p>第三定律以方程式表达为
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum \mathbf {F} _{A,B}=-\sum \mathbf {F} _{B,A}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>∑<!-- ∑ --></mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>A</mi>
+<mo>,</mo>
+<mi>B</mi>
+</mrow>
+</msub>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mo>∑<!-- ∑ --></mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+<mo>,</mo>
+<mi>A</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum \mathbf {F} _{A,B}=-\sum \mathbf {F} _{B,A}}</annotation>
+</semantics>
+</math></span><img alt="\sum {\mathbf  {F}}_{{A,B}}=-\sum {\mathbf  {F}}_{{B,A}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1702771cf8544a9ffacbc159f99f86b8eececa2" style="vertical-align: -1.338ex; width:22.482ex; height:3.843ex;"/></span> ；</dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} _{A,B}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>A</mi>
+<mo>,</mo>
+<mi>B</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} _{A,B}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {F}}_{{A,B}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dfec5b0a5e34e538dadb5cdd62b447430315766e" style="vertical-align: -1.005ex; width:4.852ex; height:2.843ex;"/></span> 是物体B施加于物体A的力，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} _{B,A}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>B</mi>
+<mo>,</mo>
+<mi>A</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} _{B,A}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {F}}_{{B,A}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af200a7a283e74cdc4532dbd8645a2b6ec111070" style="vertical-align: -1.005ex; width:4.852ex; height:2.843ex;"/></span> 是物体A施加于物体B的力。
+</p>
+<h2><span id=".E7.89.9B.E9.A0.93.E5.AE.9A.E5.BE.8B.E9.81.A9.E7.94.A8.E8.8C.83.E5.9B.B4"></span><span class="mw-headline" id="牛顿定律适用范围">牛顿定律适用范围</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=5" title="编辑章节：牛顿定律适用范围">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>在过去两百年中，物理学者完成了很多个检验核对牛顿运动定律的实验与观测，对于一般的状况，牛顿定律能够计算出很好的近似结果。牛顿定律、牛顿万有引力定律、微积分数学方法，这些理论从所未有地对于各种各样的物理现象给出了一致的定量解释。
+</p><p>对于某些状况，牛顿运动定律并不适用，这时候需要更进阶的物理理论。超高速或非常强烈重力场的状况下，我们需要<a class="mw-redirect" href="/wiki/%E7%9B%B8%E5%B0%8D%E8%AB%96" title="相对论">相对论</a>修正和解释一些天体运动和现象，例如<a href="/wiki/%E9%BB%91%E6%B4%9E" title="黑洞">黑洞</a>。在原子尺寸，我们需要<a class="mw-redirect" href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%B8" title="量子力学">量子力学</a>解释原子的<a href="/wiki/%E7%99%BC%E5%B0%84%E5%85%89%E8%AD%9C" title="发射光谱">发射光谱</a>等物理现象。但是现代工程学裏，对于一般应用案例，像车辆或飞机的运动，牛顿运动定律已能准确地解释和计算工程师遇到的问题。所以，牛顿运动定律仍是中学物理科、大学工程和理科学生的必修和基础部份。
+</p><p>假若要将<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a>效应纳入考量，则必须修改第二定律。因为当速度接近<a href="/wiki/%E5%85%89%E9%80%9F" title="光速">光速</a>时，物体受到的净外力就不能精确地表示为<a href="/wiki/%E7%8B%B9%E7%BE%A9%E7%9B%B8%E5%B0%8D%E8%AB%96%E4%B8%AD%E7%9A%84%E8%B3%AA%E9%87%8F" title="狭义相对论中的质量">静质量</a>与加速度的乘积了。详尽细节，请参阅条目<a href="/wiki/%E5%9B%9B%E7%B6%AD%E7%9F%A2%E9%87%8F#四维力" title="四维矢量">四维力</a>。第三定律也不适用于狭义相对论，这是因为<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA#同时之相对性" title="狭义相对论">同时性之相对性</a>无法实现于第三定律。对于不是直接互相接触，而是相隔有限距离的两个物体，第三定律假定物体与物体之间的作用为瞬时的<a href="/wiki/%E8%B6%85%E8%B7%9D%E4%BD%9C%E7%94%A8" title="超距作用"><span class="rt-commentedText explain" title="action at a distance">超距作用</span></a>。假设互相作用的两个物体相隔一段距离，从参考系A观测，在时间<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle t}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>t</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle t}</annotation>
+</semantics>
+</math></span><img alt="t" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/65658b7b223af9e1acc877d848888ecdb4466560" style="vertical-align: -0.338ex; width:0.84ex; height:2.009ex;"/></span>，两个物体彼此施加于对方的力分别为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} (t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} (t)}</annotation>
+</semantics>
+</math></span><img alt="\mathbf{F}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e6021e03ed38ee7ada97d1f9e95e14b51f9af962" style="vertical-align: -0.838ex; width:4.332ex; height:2.843ex;"/></span>，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -\mathbf {F} (t)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>t</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -\mathbf {F} (t)}</annotation>
+</semantics>
+</math></span><img alt="-{\mathbf  {F}}(t)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3d2fb6faeb5ece35a34f89a3bb027a96b8974475" style="vertical-align: -0.838ex; width:6.14ex; height:2.843ex;"/></span>。但是从另外一个以相对速度<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {v} \neq 0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mo>≠<!-- ≠ --></mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {v} \neq 0}</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {v}}\neq 0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b4b9d8377af2a91280f8386a7d04d3cfc5cba4a2" style="vertical-align: -0.838ex; width:5.672ex; height:2.676ex;"/></span>的参考系B观测，这两个力的施加的时间不同，所以，第三定律不成立，需要加以修改。
+</p>
+<h2><span id=".E8.88.87.E5.AE.88.E6.81.86.E5.AE.9A.E5.BE.8B.E4.B9.8B.E9.96.93.E7.9A.84.E9.97.9C.E4.BF.82"></span><span class="mw-headline" id="与守恒定律之间的关系">与守恒定律之间的关系</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=6" title="编辑章节：与守恒定律之间的关系">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>在现代物理学裏，动量、角动量、能量的守恒定律比牛顿定律更为基础，因为这些守恒定律既适用于光波，也适用于物质，既适用于经典物理，也适用于非经典物理。这些守恒定律表明，在一个物理系统裏，
+</p>
+<ul><li>动量不能凭空生成或湮灭。</li>
+<li>角动量不能凭空生成或湮灭。</li>
+<li>能量不能凭空生成或湮灭。</li></ul>
+<p>由于力是动量对于时间的导数，与动量守恒的概念相比，力的概念显得多余与次要。量子力学、<a href="/wiki/%E9%87%8F%E5%AD%90%E9%9B%BB%E5%8B%95%E5%8A%9B%E5%AD%B8" title="量子电动力学">量子电动力学</a>、<a href="/wiki/%E5%BB%A3%E7%BE%A9%E7%9B%B8%E5%B0%8D%E8%AB%96" title="广义相对论">广义相对论</a>等等，这些现代物理基础理论都没有使用到力的概念。根据<a href="/wiki/%E6%A0%87%E5%87%86%E6%A8%A1%E5%9E%8B" title="标准模型">标准模型</a>，<a href="/wiki/%E9%9B%BB%E7%A3%81%E5%8A%9B" title="电磁力">电磁力</a>、<a href="/wiki/%E5%BC%B1%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="弱相互作用">弱核力</a>、<a href="/wiki/%E5%BC%BA%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8" title="强相互作用">强核力</a>，这三种称为<a href="/wiki/%E8%A7%84%E8%8C%83%E5%9C%BA%E8%AE%BA" title="规范场论">规范力</a>的基础力，可以解释为<a href="/wiki/%E8%99%9B%E7%B2%92%E5%AD%90" title="虚粒子">虚粒子</a>的交换<sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[22]</a></sup>。
+</p>
+<h2><span id=".E5.8F.83.E9.96.B1"></span><span class="mw-headline" id="参阅">参阅</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=7" title="编辑章节：参阅">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg"><img alt="icon" class="noviewer" data-file-height="600" data-file-width="530" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/25px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/37px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg/49px-Stylised_atom_with_three_Bohr_model_orbits_and_stylised_nucleus.svg.png 2x" width="25"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a class="mw-redirect" href="/wiki/Portal:%E7%89%A9%E7%90%86" title="Portal:物理">物理主题</a></span></li></ul></div>
+<ul><li><a href="/wiki/%E9%9A%94%E9%9B%A2%E9%AB%94%E5%9C%96" title="隔离体图">隔离体图</a></li>
+<li><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%AE%9A%E5%BE%8B%E5%88%97%E8%A1%A8" title="物理学定律列表">物理学定律列表</a></li>
+<li><a href="/wiki/%E7%89%9B%E9%A0%93%E6%97%8B%E8%BD%89%E8%BB%8C%E9%81%93%E5%AE%9A%E7%90%86" title="牛顿旋转轨道定理">牛顿旋转轨道定理</a></li>
+<li><a href="/wiki/%E6%B0%B4%E6%98%9F#公转" title="水星">水星运动轨道</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%BF%AE%E6%AD%A3%E7%89%9B%E9%A0%93%E5%8B%95%E5%8A%9B%E5%AD%B8&amp;action=edit&amp;redlink=1" title="修正牛顿动力学（页面不存在）"><span class="rt-commentedText explain" title="modified Newtonian dynamics">修正牛顿动力学</span></a></li></ul>
+<h2><span id=".E8.A8.BB.E9.87.8B"></span><span class="mw-headline" id="注释">注释</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=8" title="编辑章节：注释">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div id="references-NoteFoot"><ol class="references">
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">[...]牛顿在使用<a class="mw-redirect" href="/wiki/%E7%89%A9%E9%AB%94" title="物体">物体</a>这术语时，并没有给予严格定义，而<a href="/wiki/%E8%90%8A%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E6%AD%90%E6%8B%89" title="莱昂哈德·欧拉">莱昂哈德·欧拉</a>则察觉，只有当物体的质量都集中于孤独一点之时，牛顿的语句通常才会正确无误，欧拉因此引入了<a href="/wiki/%E8%B3%AA%E9%BB%9E" title="质点">质点</a>的概念。<sup class="reference" id="cite_ref-Truesdell207_7-0"><a href="#cite_note-Truesdell207-7">[7]</a></sup></span>
+</li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text">按照狭义相对论，加速度与物体的速度有关，因为，在高速度状况下，物体的质量与速度有关：<sup class="reference" id="cite_ref-French161_19-1"><a href="#cite_note-French161-19">[18]</a></sup>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m(v)={\frac {m_{0}}{(1-v^{2}/c^{2})^{1/2}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+<mo stretchy="false">(</mo>
+<mi>v</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+</msub>
+<mrow>
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<msup>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<mn>2</mn>
+</mrow>
+</msup>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m(v)={\frac {m_{0}}{(1-v^{2}/c^{2})^{1/2}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle m(v)={\frac {m_{0}}{(1-v^{2}/c^{2})^{1/2}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f948e859c1353a2d34b1d077f760601662d56c06" style="vertical-align: -2.838ex; width:22.828ex; height:5.676ex;"/></span>；</dd></dl></dd></dl>
+<dl><dd>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m(v)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+<mo stretchy="false">(</mo>
+<mi>v</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m(v)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle m(v)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/425a15be3154bd4ff922258ef203172c21ffee64" style="vertical-align: -0.838ex; width:4.977ex; height:2.843ex;"/></span>是物体的质量，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m_{0}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m_{0}}</annotation>
+</semantics>
+</math></span><img alt="m_{0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3a6ff51ee949104fe6fae553cfbdfba29d5fac1e" style="vertical-align: -0.671ex; width:3.095ex; height:2.009ex;"/></span>是静质量，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span>是物体的速度，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span>是光速。</dd></dl>
+</span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text">牛顿在《自然哲学的数学原理》裏表明，并不是太阳用一道作用力吸引木星，木星又用另一道作用力吸引太阳，而是太阳与木星彼此用一道作用力相互吸引靠近对方。<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[20]</a></sup></span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.83.E8.80.83.E6.96.87.E7.8D.BB"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=9" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://www.britannica.com/science/Newtons-laws-of-motion" rel="nofollow">Newton's laws of motion</a>. Encyclopedia Britannica.  <span class="reference-accessdate"> [<span class="nowrap">2018-12-29</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20210328071444/https://www.britannica.com/science/Newtons-laws-of-motion" rel="nofollow">存档</a>于2021-03-28）. <q>relations between the forces acting on a body and the motion of the body</q></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.atitle=Newton%27s+laws+of+motion&amp;rft.genre=unknown&amp;rft.jtitle=Encyclopedia+Britannica&amp;rft_id=https%3A%2F%2Fwww.britannica.com%2Fscience%2FNewtons-laws-of-motion&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-Halliday_88-2"><span class="mw-cite-backlink">^ <a href="#cite_ref-Halliday_88_2-0"><sup><b>2.0</b></sup></a> <a href="#cite_ref-Halliday_88_2-1"><sup><b>2.1</b></sup></a></span> <span class="reference-text"><a href="#CITEREFHallidayResnickWalker2005">Halliday, Resnick &amp; Walker 2005</a>，第88f页</span>
+</li>
+<li id="cite_note-Young2011-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Young2011_3-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFYoungFreedmanFord2011">Young, Freedman &amp; Ford 2011</a>，第104页</span>
+</li>
+<li id="cite_note-Newton83-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-Newton83_4-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFNewton1846">Newton 1846</a>，第83-93页</span>
+</li>
+<li id="cite_note-Ray76-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-Ray76_5-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFRay1910">Ray 1910</a>，第76页</span>
+</li>
+<li id="cite_note-Cohen_2002-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-Cohen_2002_6-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFCohenSmith2002">Cohen &amp; Smith 2002</a>，第202f页</span>
+</li>
+<li id="cite_note-Truesdell207-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-Truesdell207_7-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFTruesdellBecchiBenvenuto2003">Truesdell, Becchi &amp; Benvenuto 2003</a>，第207页</span>
+</li>
+<li id="cite_note-Iro15-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-Iro15_9-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFIro2002">Iro 2002</a>，第15页</span>
+</li>
+<li id="cite_note-Taylor13-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-Taylor13_10-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFTaylor2005">Taylor 2005</a>，第13, 681页</span>
+</li>
+<li id="cite_note-Beatty-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-Beatty_11-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFBeatty2006">Beatty 2006</a>，第24页</span>
+</li>
+<li id="cite_note-Taylor681-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Taylor681_12-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFTaylor2005">Taylor 2005</a>，第681页</span>
+</li>
+<li id="cite_note-Lubliner27-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-Lubliner27_13-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFLubliner2008">Lubliner 2008</a>，第27-28页</span>
+</li>
+<li id="cite_note-O'Sullivan1980-14"><span class="mw-cite-backlink">^ <a href="#cite_ref-O'Sullivan1980_14-0"><sup><b>13.0</b></sup></a> <a href="#cite_ref-O'Sullivan1980_14-1"><sup><b>13.1</b></sup></a> <a href="#cite_ref-O'Sullivan1980_14-2"><sup><b>13.2</b></sup></a></span> <span class="reference-text"><cite class="citation" id="CITEREFO'Sullivan1980">O'Sullivan, Colm, <a class="external text" href="https://aapt.scitation.org/doi/abs/10.1119/1.12186?journalCode=ajp" rel="nofollow">Newton's Laws of Motion: Some interpretations of the formalism</a>, American Journal of Physics, 1980, <b>48</b> (2): 131–133 <span class="reference-accessdate"> [<span class="nowrap">2018-08-20</span>]</span>, <a class="external text" href="https://dx.doi.org/10.1119%2F1.12186" rel="nofollow"><span title="数位物件识别号">doi:10.1119/1.12186</span></a>, （原始内容<a class="external text" href="https://web.archive.org/web/20190502030011/https://aapt.scitation.org/doi/abs/10.1119/1.12186?journalCode=ajp" rel="nofollow">存档</a>于2019-05-02）</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.atitle=Newton%27s+Laws+of+Motion%3A+Some+interpretations+of+the+formalism&amp;rft.aufirst=Colm&amp;rft.aulast=O%27Sullivan&amp;rft.date=1980&amp;rft.genre=article&amp;rft.issue=2&amp;rft.jtitle=American+Journal+of+Physics&amp;rft.pages=131-133&amp;rft.volume=48&amp;rft_id=https%3A%2F%2Faapt.scitation.org%2Fdoi%2Fabs%2F10.1119%2F1.12186%3FjournalCode%3Dajp&amp;rft_id=info%3Adoi%2F10.1119%2F1.12186&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFRigden1998">Rigden, John, High thoughts about Newton's First Law, American Journal of Physics, 1998, <b>55</b> (4): 297, <a class="external text" href="https://dx.doi.org/10.1119%2F1.15191" rel="nofollow"><span title="数位物件识别号">doi:10.1119/1.15191</span></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.atitle=High+thoughts+about+Newton%27s+First+Law&amp;rft.aufirst=John&amp;rft.aulast=Rigden&amp;rft.date=1998&amp;rft.genre=article&amp;rft.issue=4&amp;rft.jtitle=American+Journal+of+Physics&amp;rft.pages=297&amp;rft.volume=55&amp;rft_id=info%3Adoi%2F10.1119%2F1.15191&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFBrown1986">Brown, David, Students' concept of force: the importance of understanding Newton's third law, Physics Education, 1986, <b>24</b> (6): 353, <a class="external text" href="https://dx.doi.org/10.1088%2F0031-9120%2F24%2F6%2F007" rel="nofollow"><span title="数位物件识别号">doi:10.1088/0031-9120/24/6/007</span></a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.atitle=Students%27+concept+of+force%3A+the+importance+of+understanding+Newton%27s+third+law&amp;rft.aufirst=David&amp;rft.aulast=Brown&amp;rft.date=1986&amp;rft.genre=article&amp;rft.issue=6&amp;rft.jtitle=Physics+Education&amp;rft.pages=353&amp;rft.volume=24&amp;rft_id=info%3Adoi%2F10.1088%2F0031-9120%2F24%2F6%2F007&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-Maxwell27-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-Maxwell27_17-0">^</a></b></span> <span class="reference-text"><a href="#CITEREF马克士威1878">马克士威 1878</a>，第27页</span>
+</li>
+<li id="cite_note-French162-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-French162_18-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFFrench1971">French 1971</a>，第162-163页</span>
+</li>
+<li id="cite_note-French161-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-French161_19-0"><sup><b>18.0</b></sup></a> <a href="#cite_ref-French161_19-1"><sup><b>18.1</b></sup></a></span> <span class="reference-text"><a href="#CITEREFFrench1971">French 1971</a>，第161-172页</span>
+</li>
+<li id="cite_note-Serway102-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-Serway102_21-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFSerway2006">Serway 2006</a>，第102页</span>
+</li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation journal">C Hellingman. Newton's third law revisited. Phys. Educ. 1992, <b>27</b> (2): 112–115. <a class="external text" href="https://ui.adsabs.harvard.edu/abs/1992PhyEd..27..112H" rel="nofollow"><span title="Bibcode">Bibcode:1992PhyEd..27..112H</span></a>. <a class="external text" href="https://dx.doi.org/10.1088%2F0031-9120%2F27%2F2%2F011" rel="nofollow"><span title="数位物件识别号">doi:10.1088/0031-9120/27/2/011</span></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.atitle=Newton%27s+third+law+revisited&amp;rft.au=C+Hellingman&amp;rft.date=1992&amp;rft.genre=article&amp;rft.issue=2&amp;rft.jtitle=Phys.+Educ.&amp;rft.pages=112-115&amp;rft.volume=27&amp;rft_id=info%3Abibcode%2F1992PhyEd..27..112H&amp;rft_id=info%3Adoi%2F10.1088%2F0031-9120%2F27%2F2%2F011&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-Halliday_99-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-Halliday_99_24-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFHallidayResnickWalker2005">Halliday, Resnick &amp; Walker 2005</a>，第99-100页</span>
+</li>
+<li id="cite_note-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-25">^</a></b></span> <span class="reference-text">斯蒂芬·霍金，《时间简史》，第5章.</span>
+</li>
+</ol></div>
+<ul><li><cite class="citation" id="CITEREFBeatty2006">Beatty, Millard, Principles of engineering mechanics Volume 2 of Principles of Engineering Mechanics: Dynamics-The Analysis of Motion,, Springer, 2006, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0387237046" title="Special:网络书源/0387237046"><span title="国际标准书号">ISBN</span> 0387237046</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Millard&amp;rft.aulast=Beatty&amp;rft.btitle=Principles+of+engineering+mechanics+Volume+2+of+Principles+of+Engineering+Mechanics%3A+Dynamics-The+Analysis+of+Motion%2C&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=0387237046&amp;rft.pub=Springer&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFCohenSmith2002">Cohen, I. Bernard; Smith, George, The Cambridge Companion to Newton, Cambridge University Press, 2002, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-521-65696-2" title="Special:网络书源/978-0-521-65696-2"><span title="国际标准书号">ISBN</span> 978-0-521-65696-2</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.au=Smith%2C+George&amp;rft.aufirst=I.+Bernard&amp;rft.aulast=Cohen&amp;rft.btitle=The+Cambridge+Companion+to+Newton&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=978-0-521-65696-2&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFFrench1971">French, Anthony, Newtonian Mechanics, 1971</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Anthony&amp;rft.aulast=French&amp;rft.btitle=Newtonian+Mechanics&amp;rft.date=1971&amp;rft.genre=book&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFHallidayResnickWalker2005">Halliday, David; Resnick, Robert; Walker, Jerl, Fundamental of Physics 7th, USA: John Wiley and Sons, Inc., 2005, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-471-23231-9" title="Special:网络书源/0-471-23231-9"><span title="国际标准书号">ISBN</span> 0-471-23231-9</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.au=Resnick%2C+Robert&amp;rft.au=Walker%2C+Jerl&amp;rft.aufirst=David&amp;rft.aulast=Halliday&amp;rft.btitle=Fundamental+of+Physics&amp;rft.date=2005&amp;rft.edition=7th&amp;rft.genre=book&amp;rft.isbn=0-471-23231-9&amp;rft.place=USA&amp;rft.pub=John+Wiley+and+Sons%2C+Inc.&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFIro2002">Iro, Harald, A Modern Approach to Classical Mechanics, World Scientific, 2002, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-981-238-213-9" title="Special:网络书源/978-981-238-213-9"><span title="国际标准书号">ISBN</span> 978-981-238-213-9</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Harald&amp;rft.aulast=Iro&amp;rft.btitle=A+Modern+Approach+to+Classical+Mechanics&amp;rft.date=2002&amp;rft.genre=book&amp;rft.isbn=978-981-238-213-9&amp;rft.pub=World+Scientific&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFLubliner2008">Lubliner, Jacob, <a class="external text" href="https://web.archive.org/web/20100331022415/http://www.ce.berkeley.edu/~coby/plas/pdf/book.pdf" rel="nofollow">Plasticity Theory (Revised Edition)</a> <span style="font-size:85%;">(PDF)</span>, Dover Publications: pp. 27–28, 2008, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0486462900" title="Special:网络书源/0486462900"><span title="国际标准书号">ISBN</span> 0486462900</a>, （<a class="external text" href="http://www.ce.berkeley.edu/~coby/plas/pdf/book.pdf" rel="nofollow">原始内容</a> <span style="font-size:85%;">(PDF)</span>存档于2010-03-31）</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Jacob&amp;rft.aulast=Lubliner&amp;rft.btitle=Plasticity+Theory+%28Revised+Edition%29&amp;rft.date=2008&amp;rft.genre=book&amp;rft.isbn=0486462900&amp;rft.pages=pp.+27-28&amp;rft.pub=Dover+Publications&amp;rft_id=http%3A%2F%2Fwww.ce.berkeley.edu%2F~coby%2Fplas%2Fpdf%2Fbook.pdf&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></li>
+<li><cite class="citation" id="CITEREF马克士威1878"><a class="mw-redirect" href="/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81" title="詹姆斯·马克士威">马克士威, 詹姆斯</a>, <a class="external text" href="http://www.archive.org/details/matterandmotion02maxwgoog" rel="nofollow">Matter and Motion</a>, D.Van Nostrand, 1878</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=%E8%A9%B9%E5%A7%86%E6%96%AF&amp;rft.aulast=%E9%A6%AC%E5%85%8B%E5%A3%AB%E5%A8%81&amp;rft.btitle=Matter+and+Motion&amp;rft.date=1878&amp;rft.genre=book&amp;rft.pub=D.Van+Nostrand&amp;rft_id=http%3A%2F%2Fwww.archive.org%2Fdetails%2Fmatterandmotion02maxwgoog&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFNewton1846">Newton, Isaac, <a class="external text" href="http://www.archive.org/details/newtonspmathema00newtrich" rel="nofollow">Newton's Principia : the mathematical principles of natural philosophy</a>, New York: Daniel Adee, 1846</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Isaac&amp;rft.aulast=Newton&amp;rft.btitle=Newton%27s+Principia+%3A+the+mathematical+principles+of+natural+philosophy&amp;rft.date=1846&amp;rft.genre=book&amp;rft.place=New+York&amp;rft.pub=Daniel+Adee&amp;rft_id=http%3A%2F%2Fwww.archive.org%2Fdetails%2Fnewtonspmathema00newtrich&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span>　请上网阅读作者Andrew Motte的英文翻译。</li>
+<li><cite class="citation" id="CITEREFRay1910">Ray, David, <a class="external text" href="https://archive.org/details/ahistorymechani01raygoog/page/n7" rel="nofollow">A history of mechanics</a>, The New Era Printing Co., 1910</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=David&amp;rft.aulast=Ray&amp;rft.btitle=A+history+of+mechanics&amp;rft.date=1910&amp;rft.genre=book&amp;rft.pub=The+New+Era+Printing+Co.&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fahistorymechani01raygoog%2Fpage%2Fn7&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFSerway2006">Serway, Raymond, Principles of physics: a calculus-based text, Cengage Learning, 2006, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780534491437" title="Special:网络书源/9780534491437"><span title="国际标准书号">ISBN</span> 9780534491437</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=Raymond&amp;rft.aulast=Serway&amp;rft.btitle=Principles+of+physics%3A+a+calculus-based+text&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=9780534491437&amp;rft.pub=Cengage+Learning&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFTaylor2005">Taylor, John, Classical Mechanics, University Science Books, 2005, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-1-891389-22-1" title="Special:网络书源/978-1-891389-22-1"><span title="国际标准书号">ISBN</span> 978-1-891389-22-1</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.aufirst=John&amp;rft.aulast=Taylor&amp;rft.btitle=Classical+Mechanics&amp;rft.date=2005&amp;rft.genre=book&amp;rft.isbn=978-1-891389-22-1&amp;rft.pub=University+Science+Books&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFTruesdellBecchiBenvenuto2003">Truesdell, Clifford A.; Becchi, Antonio; Benvenuto, Edoardo, Essays on the history of mechanics: in memory of Clifford Ambrose Truesdell and Edoardo Benvenuto, New York: Birkhäuser: 207, 2003, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/3764314761" title="Special:网络书源/3764314761"><span title="国际标准书号">ISBN</span> 3764314761</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.au=Becchi%2C+Antonio&amp;rft.au=Benvenuto%2C+Edoardo&amp;rft.aufirst=Clifford+A.&amp;rft.aulast=Truesdell&amp;rft.btitle=Essays+on+the+history+of+mechanics%3A+in+memory+of+Clifford+Ambrose+Truesdell+and+Edoardo+Benvenuto&amp;rft.date=2003&amp;rft.genre=book&amp;rft.isbn=3764314761&amp;rft.pages=207&amp;rft.place=New+York&amp;rft.pub=Birkh%C3%A4user&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation" id="CITEREFYoungFreedmanFord2011">Young, Hughy; Freedman, Roger; Ford, A., Sears and Zemansky's University Physics with Modern Physics 13, Addison-Wesley, 2011, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0321696861" title="Special:网络书源/978-0321696861"><span title="国际标准书号">ISBN</span> 978-0321696861</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;rft.au=Ford%2C+A.&amp;rft.au=Freedman%2C+Roger&amp;rft.aufirst=Hughy&amp;rft.aulast=Young&amp;rft.btitle=Sears+and+Zemansky%27s+University+Physics+with+Modern+Physics&amp;rft.date=2011&amp;rft.edition=13&amp;rft.genre=book&amp;rft.isbn=978-0321696861&amp;rft.pub=Addison-Wesley&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li></ul>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span><span class="mw-headline" id="外部连结">外部连结</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit&amp;section=10" title="编辑章节：外部连结">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>麻省理工学院物理影音讲课：<a class="external text" href="https://web.archive.org/web/20170209230310/https://ocw.mit.edu/courses/physics/8-01-physics-i-classical-mechanics-fall-1999/video-lectures/lecture-6/" rel="nofollow">牛顿定律</a>。</li>
+<li>第一定律的<a class="external text" href="http://phy.hk/wiki/englishhtm/firstlaw.htm" rel="nofollow">电脑模拟</a> （<a class="external text" href="//web.archive.org/web/20080327073346/http://phy.hk/wiki/englishhtm/firstlaw.htm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）。</li></ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q38433" title="编辑维基数据链接"><img alt="编辑维基数据链接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4642395-3" rel="nofollow">4642395-3</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" title="Template:经典力学"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" title="Template talk:经典力学"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">经典力学</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">表述形式</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">矢量力学</a></li>
+<li><a href="/wiki/%E5%88%86%E6%9E%90%E5%8A%9B%E5%AD%A6" title="分析力学">分析力学</a>（<a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%8A%9B%E5%AD%A6" title="拉格朗日力学">拉格朗日力学</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%8A%9B%E5%AD%A6" title="哈密顿力学">哈密顿力学</a>）</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">基础概念</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A9%BA%E9%97%B4_(%E7%89%A9%E7%90%86)" title="空间 (物理)">空间</a></li>
+<li><a href="/wiki/%E6%97%B6%E9%97%B4" title="时间">时间</a></li>
+<li><a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a></li>
+<li><a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a></li>
+<li><a href="/wiki/%E8%B4%A8%E9%87%8F" title="质量">质量</a></li>
+<li><a href="/wiki/%E5%BC%95%E5%8A%9B" title="引力">引力</a></li>
+<li><a href="/wiki/%E5%8A%9B%E7%9F%A9" title="力矩">力矩</a></li>
+<li><a href="/wiki/%E5%8F%82%E8%80%83%E7%B3%BB" title="参考系">参考系</a></li>
+<li><a href="/wiki/%E5%8A%9B" title="力">力</a></li>
+<li><a href="/wiki/%E5%8A%9B%E5%81%B6" title="力偶">力偶</a></li>
+<li><a href="/wiki/%E5%86%B2%E9%87%8F" title="冲量">冲量</a></li>
+<li><a href="/wiki/%E5%8A%A8%E9%87%8F" title="动量">动量</a></li>
+<li><a href="/wiki/%E5%88%9A%E4%BD%93" title="刚体">刚体</a></li>
+<li><a href="/wiki/%E8%A7%92%E5%8A%A8%E9%87%8F" title="角动量">角动量</a></li>
+<li><a href="/wiki/%E6%85%A3%E6%80%A7" title="惯性">惯性</a></li>
+<li><a href="/wiki/%E8%BD%89%E5%8B%95%E6%85%A3%E9%87%8F" title="转动惯量">转动惯量</a></li>
+<li><a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a></li>
+<li><a href="/wiki/%E5%8A%A8%E8%83%BD" title="动能">动能</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BD%8D%E8%83%BD" title="位能">位能</a></li>
+<li><a href="/wiki/%E8%99%9B%E5%8A%9F" title="虚功">虚功</a></li>
+<li><a href="/wiki/%E4%BD%9C%E7%94%A8%E9%87%8F" title="作用量">作用量</a></li>
+<li><a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E9%87%8F" title="拉格朗日量">拉格朗日量</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%8A%9B%E5%AD%A6" title="哈密顿力学">哈密顿量</a></li>
+<li><a href="/wiki/%E5%8A%9F" title="功">功</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">重要理论</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-selflink selflink">牛顿运动定律</a></li>
+<li><a href="/wiki/%E8%83%A1%E5%85%8B%E5%AE%9A%E5%BE%8B" title="胡克定律">胡克定律</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B" title="牛顿万有引力定律">牛顿万有引力定律</a></li>
+<li><a href="/wiki/%E7%B0%A1%E8%AB%A7%E9%81%8B%E5%8B%95" title="简谐运动">简谐运动</a></li>
+<li><a href="/wiki/%E9%81%94%E6%9C%97%E8%B2%9D%E7%88%BE%E5%8E%9F%E7%90%86" title="达朗贝尔原理">达朗贝尔原理</a></li>
+<li><a href="/wiki/%E6%AC%A7%E6%8B%89%E6%96%B9%E7%A8%8B_(%E5%88%9A%E4%BD%93%E8%BF%90%E5%8A%A8)" title="欧拉方程 (刚体运动)">欧拉方程式</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A0%93%E5%8E%9F%E7%90%86" title="哈密顿原理">哈密顿原理</a></li>
+<li><a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%96%B9%E7%A8%8B%E5%BC%8F" title="拉格朗日方程式">拉格朗日方程式</a></li>
+<li><a href="/wiki/%E6%9C%80%E5%B0%8F%E4%BD%9C%E7%94%A8%E9%87%8F%E5%8E%9F%E7%90%86" title="最小作用量原理">最小作用量原理</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">应用</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%80%E5%8D%95%E6%9C%BA%E6%A2%B0" title="简单机械">简单机械</a></li>
+<li><a href="/wiki/%E6%96%9C%E9%9D%A2" title="斜面">斜面</a></li>
+<li><a href="/wiki/%E6%9D%A0%E6%9D%86" title="杠杆">杠杆</a></li>
+<li><a href="/wiki/%E6%BB%91%E8%BD%AE" title="滑轮">滑轮</a></li>
+<li><a href="/wiki/%E8%9E%BA%E6%97%8B_(%E7%B0%A1%E5%96%AE%E6%A9%9F%E6%A2%B0)" title="螺旋 (简单机械)">螺旋</a></li>
+<li><a href="/wiki/%E6%A5%94%E5%AD%90" title="楔子">楔子</a></li>
+<li><a href="/wiki/%E8%BC%AA%E8%BB%B8" title="轮轴">轮轴</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">科学史</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2#力学的发展史" title="物理学史">发展史</a></li>
+<li><a href="/wiki/%E7%BA%A6%E7%BF%B0%E5%86%85%E6%96%AF%C2%B7%E5%BC%80%E6%99%AE%E5%8B%92" title="约翰内斯·开普勒">开普勒</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%89%BE%E8%96%A9%E5%85%8B%C2%B7%E7%89%9B%E9%A0%93" title="艾萨克·牛顿">牛顿</a></li>
+<li><a href="/wiki/%E8%90%8A%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E6%AD%90%E6%8B%89" title="莱昂哈德·欧拉">欧拉</a></li>
+<li><a href="/wiki/%E8%AE%A9%C2%B7%E5%8B%92%E6%9C%97%C2%B7%E8%BE%BE%E6%9C%97%E8%B4%9D%E5%B0%94" title="让·勒朗·达朗贝尔">达朗贝尔</a></li>
+<li><a href="/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%93%88%E5%AF%86%E9%A0%93" title="威廉·哈密顿">哈密顿</a></li>
+<li><a href="/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E8%B5%AB%E5%85%B9" title="海因里希·赫兹">赫兹</a></li>
+<li><a href="/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5" title="约瑟夫·拉格朗日">拉格朗日</a></li>
+<li><a href="/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94-%E8%A5%BF%E8%92%99%C2%B7%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF" title="皮埃尔-西蒙·拉普拉斯">拉普拉斯</a></li>
+<li><a href="/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1" title="伽利略·伽利莱">伽利略</a></li>
+<li><a href="/wiki/%E5%8D%A1%E7%88%BE%C2%B7%E9%9B%85%E5%8F%AF%E6%AF%94" title="卡尔·雅可比">雅可比</a></li>
+<li><a href="/wiki/%E5%9F%83%E7%B1%B3%C2%B7%E8%AF%BA%E7%89%B9" title="埃米·诺特">诺特</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">分支</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%9D%99%E5%8A%9B%E5%AD%A6" title="静力学">静力学</a></li>
+<li><a href="/wiki/%E5%8B%95%E5%8A%9B%E5%AD%B8" title="动力学">动力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%81%8B%E5%8B%95%E5%AD%B8" title="运动学">运动学</a></li>
+<li><a href="/wiki/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6" title="工程力学">工程力学</a></li>
+<li><a href="/wiki/%E5%A4%A9%E9%AB%94%E5%8A%9B%E5%AD%B8" title="天体力学">天体力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%80%A3%E7%BA%8C%E4%BB%8B%E8%B3%AA%E5%8A%9B%E5%AD%B8" title="连续介质力学">连续介质力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%B5%B1%E8%A8%88%E5%8A%9B%E5%AD%B8" title="统计力学">统计力学</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1365
+Cached time: 20220921183045
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.542 seconds
+Real time usage: 0.779 seconds
+Preprocessor visited node count: 2010/1000000
+Post‐expand include size: 87671/2097152 bytes
+Template argument size: 1348/2097152 bytes
+Highest expansion depth: 11/100
+Expensive parser function count: 3/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 15935/5000000 bytes
+Lua time usage: 0.295/10.000 seconds
+Lua memory usage: 20914584/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  480.171      1 -total
+ 25.41%  122.024      1 Template:Reflist
+ 23.46%  112.655      1 Template:Lang-en
+ 17.24%   82.768     16 Template:Citation
+ 10.53%   50.545      1 Template:Authority_control
+ 10.32%   49.569      1 Template:NoteTA
+  8.59%   41.231     16 Template:Harvnb
+  8.10%   38.916      1 Template:Cite_web
+  2.38%   11.435      3 Template:Main
+  2.37%   11.398      2 Template:Tooltip
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:202247-0!canonical!zh and timestamp 20220921183045 and revision id 71722324.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=牛顿运动定律&amp;oldid=71722324">https://zh.wikipedia.org/w/index.php?title=牛顿运动定律&amp;oldid=71722324</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E8%89%BE%E8%90%A8%E5%85%8B%C2%B7%E7%89%9B%E9%A1%BF" title="Category:艾萨克·牛顿">艾萨克·牛顿</a></li><li><a href="/wiki/Category:%E5%9F%BA%E6%9C%AC%E7%89%A9%E7%90%86%E6%A6%82%E5%BF%B5" title="Category:基本物理概念">基本物理概念</a></li><li><a href="/wiki/Category:%E7%89%A9%E7%90%86%E5%AE%9A%E5%BE%8B" title="Category:物理定律">物理定律</a></li><li><a href="/wiki/Category:%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="Category:经典力学">经典力学</a></li><li><a href="/wiki/Category:%E7%A7%91%E5%AD%A6%E5%AE%9A%E5%BE%8B" title="Category:科学定律">科学定律</a></li><li><a href="/wiki/Category:%E5%93%A5%E7%99%BD%E5%B0%BC%E5%BC%8F%E9%9D%A9%E5%91%BD" title="Category:哥白尼式革命">哥白尼式革命</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英语的条目">含有英语的条目</a></li><li><a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">引文格式1维护：冗余文本</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;oldid=71722324" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;id=71722324&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q38433" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Newton%27s_laws_of_motion" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Newton_se_bewegingswette" hreflang="af" lang="af" title="Newton se bewegingswette – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Newtonsche_Gesetze" hreflang="gsw" lang="gsw" title="Newtonsche Gesetze – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%D9%8A%D9%86_%D9%86%D9%8A%D9%88%D8%AA%D9%86_%D9%84%D9%84%D8%AD%D8%B1%D9%83%D8%A9" hreflang="ar" lang="ar" title="قوانين نيوتن للحركة – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%A8%E0%A7%B0_%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A7%B0_%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A7%B0" hreflang="as" lang="as" title="নিউটনৰ গতিৰ সূত্ৰ – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Lleis_de_Newton" hreflang="ast" lang="ast" title="Lleis de Newton – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Nyuton_qanunlar%C4%B1" hreflang="az" lang="az" title="Nyuton qanunları – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D8%AA%D9%88%D9%86_%DB%8C%D8%A7%D8%B3%D8%A7%D9%84%D8%A7%D8%B1%DB%8C" hreflang="azb" lang="azb" title="نیوتون یاسالاری – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-bar mw-list-item"><a class="interlanguage-link-target" href="https://bar.wikipedia.org/wiki/Newtonsche_Axiome" hreflang="bar" lang="bar" title="Newtonsche Axiome – 巴伐利亚文"><span>Boarisch</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%B0%D0%BD%D0%B0" hreflang="be" lang="be" title="Законы Ньютана – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%B0%D0%BD%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Законы Ньютана – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%BD%D0%B0_%D0%9D%D1%8E%D1%82%D0%BE%D0%BD" hreflang="bg" lang="bg" title="Закони на Нютон – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8%E0%A4%95%E0%A4%B0_%E0%A4%97%E0%A4%A4%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="bh" lang="bh" title="न्यूटनकर गति नियम – Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%A8%E0%A6%BF%E0%A6%89%E0%A6%9F%E0%A6%A8%E0%A7%87%E0%A6%B0_%E0%A6%97%E0%A6%A4%E0%A6%BF%E0%A6%B8%E0%A7%82%E0%A6%A4%E0%A7%8D%E0%A6%B0%E0%A6%B8%E0%A6%AE%E0%A7%82%E0%A6%B9" hreflang="bn" lang="bn" title="নিউটনের গতিসূত্রসমূহ – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Newtonovi_zakoni_kretanja" hreflang="bs" lang="bs" title="Newtonovi zakoni kretanja – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%BE%D0%B9_%D1%85%D1%83%D1%83%D0%BB%D0%B8%D0%BD%D1%83%D1%83%D0%B4" hreflang="bxr" lang="bxr" title="Ньютоной хуулинууд – Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Lleis_de_Newton" hreflang="ca" lang="ca" title="Lleis de Newton – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-cdo mw-list-item"><a class="interlanguage-link-target" href="https://cdo.wikipedia.org/wiki/Newton_%C3%B4ng-d%C3%B4ng_d%C3%AAng-l%C5%ADk" hreflang="cdo" lang="cdo" title="Newton ông-dông dêng-lŭk – Min Dong Chinese"><span>Mìng-dĕ̤ng-ngṳ̄</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DB%8C%D8%A7%D8%B3%D8%A7%DA%A9%D8%A7%D9%86%DB%8C_%D8%AC%D9%88%D9%88%DA%B5%DB%95%DB%8C_%D9%86%DB%8C%D9%88%D8%AA%D9%86" hreflang="ckb" lang="ckb" title="یاساکانی جووڵەی نیوتن – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Newtonovy_pohybov%C3%A9_z%C3%A1kony" hreflang="cs" lang="cs" title="Newtonovy pohybové zákony – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D1%81%D0%B0%D0%BA%D0%BA%D1%83%D0%BD%C4%95%D1%81%D0%B5%D0%BC" hreflang="cv" lang="cv" title="Ньютон саккунĕсем – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Deddfau_mudiant_Newton" hreflang="cy" lang="cy" title="Deddfau mudiant Newton – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Newtons_love" hreflang="da" lang="da" title="Newtons love – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Newtonsche_Gesetze" hreflang="de" lang="de" title="Newtonsche Gesetze – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9D%CF%8C%CE%BC%CE%BF%CE%B9_%CE%BA%CE%AF%CE%BD%CE%B7%CF%83%CE%B7%CF%82_%CF%84%CE%BF%CF%85_%CE%9D%CE%B5%CF%8D%CF%84%CF%89%CE%BD%CE%B1" hreflang="el" lang="el" title="Νόμοι κίνησης του Νεύτωνα – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Newton%27s_laws_of_motion" hreflang="en" lang="en" title="Newton's laws of motion – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Le%C4%9Doj_de_Newton_pri_movo" hreflang="eo" lang="eo" title="Leĝoj de Newton pri movo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Leyes_de_Newton" hreflang="es" lang="es" title="Leyes de Newton – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Newtoni_seadused" hreflang="et" lang="et" title="Newtoni seadused – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Newtonen_legeak" hreflang="eu" lang="eu" title="Newtonen legeak – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86_%D8%AD%D8%B1%DA%A9%D8%AA_%D9%86%DB%8C%D9%88%D8%AA%D9%86" hreflang="fa" lang="fa" title="قوانین حرکت نیوتن – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Newtonin_lait" hreflang="fi" lang="fi" title="Newtonin lait – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Lois_du_mouvement_de_Newton" hreflang="fr" lang="fr" title="Lois du mouvement de Newton – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a class="interlanguage-link-target" href="https://fy.wikipedia.org/wiki/Wetten_fan_Newton" hreflang="fy" lang="fy" title="Wetten fan Newton – 西弗里西亚语"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Dl%C3%ADthe_gluaisne_Newton" hreflang="ga" lang="ga" title="Dlíthe gluaisne Newton – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Lalwa_di_mouvman_di_Newton" hreflang="gcr" lang="gcr" title="Lalwa di mouvman di Newton – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Leis_de_Newton" hreflang="gl" lang="gl" title="Leis de Newton – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%97%E0%AA%A4%E0%AA%BF%E0%AA%A8%E0%AA%BE_%E0%AA%A8%E0%AA%BF%E0%AA%AF%E0%AA%AE%E0%AB%8B" hreflang="gu" lang="gu" title="ગતિના નિયમો – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%97%D7%95%D7%A7%D7%99_%D7%94%D7%AA%D7%A0%D7%95%D7%A2%D7%94_%D7%A9%D7%9C_%D7%A0%D7%99%D7%95%D7%98%D7%95%D7%9F" hreflang="he" lang="he" title="חוקי התנועה של ניוטון – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8_%E0%A4%95%E0%A5%87_%E0%A4%97%E0%A4%A4%E0%A4%BF_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="hi" lang="hi" title="न्यूटन के गति नियम – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Newtonovi_zakoni_gibanja" hreflang="hr" lang="hr" title="Newtonovi zakoni gibanja – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Newton_t%C3%B6rv%C3%A9nyei" hreflang="hu" lang="hu" title="Newton törvényei – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%86%D5%B5%D5%B8%D6%82%D5%BF%D5%B8%D5%B6%D5%AB_%D6%85%D6%80%D5%A5%D5%B6%D6%84%D5%B6%D5%A5%D6%80" hreflang="hy" lang="hy" title="Նյուտոնի օրենքներ – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Leges_de_Newton" hreflang="ia" lang="ia" title="Leges de Newton – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Hukum_gerak_Newton" hreflang="id" lang="id" title="Hukum gerak Newton – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Legi_di_Newton" hreflang="io" lang="io" title="Legi di Newton – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/L%C3%B6gm%C3%A1l_Newtons" hreflang="is" lang="is" title="Lögmál Newtons – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Principi_della_dinamica" hreflang="it" lang="it" title="Principi della dinamica – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%88%E3%83%B3%E5%8A%9B%E5%AD%A6" hreflang="ja" lang="ja" title="ニュートン力学 – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Nyuutan_laa_a_muoshan" hreflang="jam" lang="jam" title="Nyuutan laa a muoshan – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9C%E1%83%98%E1%83%A3%E1%83%A2%E1%83%9D%E1%83%9C%E1%83%98%E1%83%A1_%E1%83%99%E1%83%90%E1%83%9C%E1%83%9D%E1%83%9C%E1%83%94%E1%83%91%E1%83%98" hreflang="ka" lang="ka" title="ნიუტონის კანონები – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/Newton_ciiduu_pa%C9%A3t%CA%8B_nd%C9%A9_nd%C9%A9" hreflang="kbp" lang="kbp" title="Newton ciiduu paɣtʋ ndɩ ndɩ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-ki mw-list-item"><a class="interlanguage-link-target" href="https://ki.wikipedia.org/wiki/Mawatho_matano_ma_Newton" hreflang="ki" lang="ki" title="Mawatho matano ma Newton – 吉库尤语"><span>Gĩkũyũ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%B7%D0%B0%D2%A3%D0%B4%D0%B0%D1%80%D1%8B" hreflang="kk" lang="kk" title="Ньютон заңдары – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%85%E1%9F%92%E1%9E%94%E1%9E%B6%E1%9E%94%E1%9F%8B%E1%9E%85%E1%9E%9B%E1%9E%93%E1%9E%B6%E1%9E%9A%E1%9E%94%E1%9E%9F%E1%9F%8B%E1%9E%89%E1%9E%BC%E1%9E%8F%E1%9E%BB%E1%9E%93" hreflang="km" lang="km" title="ច្បាប់ចលនារបស់ញូតុន – 高棉语"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%A8%E0%B3%8D%E0%B2%AF%E0%B3%82%E0%B2%9F%E0%B2%A8%E0%B3%8D%E2%80%8D%E0%B2%A8_%E0%B2%9A%E0%B2%B2%E0%B2%A8%E0%B3%86%E0%B2%AF_%E0%B2%A8%E0%B2%BF%E0%B2%AF%E0%B2%AE%E0%B2%97%E0%B2%B3%E0%B3%81" hreflang="kn" lang="kn" title="ನ್ಯೂಟನ್‍ನ ಚಲನೆಯ ನಿಯಮಗಳು – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%89%B4%ED%84%B4_%EC%9A%B4%EB%8F%99_%EB%B2%95%EC%B9%99" hreflang="ko" lang="ko" title="뉴턴 운동 법칙 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Leges_motus_Newtoni" hreflang="la" lang="la" title="Leges motus Newtoni – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lg mw-list-item"><a class="interlanguage-link-target" href="https://lg.wikipedia.org/wiki/Amateeka_ga_Newton_Ag%27Okuva(Newton%27s_Laws_of_Motion)" hreflang="lg" lang="lg" title="Amateeka ga Newton Ag'Okuva(Newton's Laws of Motion) – 卢干达语"><span>Luganda</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/W%C3%A8tte_van_Newton" hreflang="li" lang="li" title="Wètte van Newton – 林堡语"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Niutono_d%C4%97sniai" hreflang="lt" lang="lt" title="Niutono dėsniai – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/%C5%85%C5%ABtona_likumi" hreflang="lv" lang="lv" title="Ņūtona likumi – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%8A%D1%83%D1%82%D0%BD%D0%BE%D0%B2%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8" hreflang="mk" lang="mk" title="Њутнови закони – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%A8%E0%B5%8D%E0%B4%AF%E0%B5%82%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B4%A8%E0%B5%8D%E0%B4%B1%E0%B5%86_%E0%B4%9A%E0%B4%B2%E0%B4%A8%E0%B4%A8%E0%B4%BF%E0%B4%AF%E0%B4%AE%E0%B4%99%E0%B5%8D%E0%B4%99%E0%B5%BE" hreflang="ml" lang="ml" title="ന്യൂട്ടന്റെ ചലനനിയമങ്ങൾ – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D1%8B_%D1%85%D1%83%D1%83%D0%BB%D0%B8%D1%83%D0%B4" hreflang="mn" lang="mn" title="Ньютоны хуулиуд – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%82%E0%A4%9F%E0%A4%A8%E0%A4%9A%E0%A5%87_%E0%A4%97%E0%A4%A4%E0%A5%80%E0%A4%9A%E0%A5%87_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" hreflang="mr" lang="mr" title="न्यूटनचे गतीचे नियम – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Hukum-hukum_gerakan_Newton" hreflang="ms" lang="ms" title="Hukum-hukum gerakan Newton – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%94%E1%80%9A%E1%80%B0%E1%80%90%E1%80%94%E1%80%BA%E1%81%8F_%E1%80%9B%E1%80%BD%E1%80%B1%E1%80%B7%E1%80%9C%E1%80%BB%E1%80%AC%E1%80%B8%E1%80%99%E1%80%BE%E1%80%AF%E1%80%86%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%9B%E1%80%AC_%E1%80%94%E1%80%AD%E1%80%9A%E1%80%AC%E1%80%99%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8" hreflang="my" lang="my" title="နယူတန်၏ ရွေ့လျားမှုဆိုင်ရာ နိယာမများ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds-nl mw-list-item"><a class="interlanguage-link-target" href="https://nds-nl.wikipedia.org/wiki/Newton_zien_wetten" hreflang="nds-NL" lang="nds-NL" title="Newton zien wetten – 低萨克森语"><span>Nedersaksies</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A5%81%E0%A4%9F%E0%A4%A8%E0%A4%95%E0%A5%8B_%E0%A4%97%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%B9%E0%A4%B0%E0%A5%82" hreflang="ne" lang="ne" title="न्युटनको गतिका नियमहरू – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Wetten_van_Newton" hreflang="nl" lang="nl" title="Wetten van Newton – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Newtons_r%C3%B8rslelover" hreflang="nn" lang="nn" title="Newtons rørslelover – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Newtons_bevegelseslover" hreflang="nb" lang="nb" title="Newtons bevegelseslover – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Leis_de_Newton" hreflang="oc" lang="oc" title="Leis de Newton – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%A8%E0%A8%BF%E0%A8%8A%E0%A8%9F%E0%A8%A8_%E0%A8%A6%E0%A9%87_%E0%A8%97%E0%A8%A4%E0%A9%80_%E0%A8%A6%E0%A9%87_%E0%A8%A8%E0%A8%BF%E0%A8%AF%E0%A8%AE" hreflang="pa" lang="pa" title="ਨਿਊਟਨ ਦੇ ਗਤੀ ਦੇ ਨਿਯਮ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Zasady_dynamiki_Newtona" hreflang="pl" lang="pl" title="Zasady dynamiki Newtona – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Lej_d%C3%ABl_moviment_%C3%ABd_Newton" hreflang="pms" lang="pms" title="Lej dël moviment ëd Newton – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D9%B9%D9%86_%D8%AF%DB%92_%DA%86%D9%84%D9%86_%D8%AF%DB%92_%D9%82%D9%86%D9%88%D9%86" hreflang="pnb" lang="pnb" title="نیوٹن دے چلن دے قنون – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a class="interlanguage-link-target" href="https://ps.wikipedia.org/wiki/%D8%AF_%D8%AE%D9%88%DA%81%DA%9A%D8%AA_%D9%BE%D9%87_%D8%A7%DA%93%D9%87_%D8%AF_%D9%86%DB%8C%D9%88%D9%BC%D9%86_%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86" hreflang="ps" lang="ps" title="د خوځښت په اړه د نیوټن قوانین – 普什图语"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Leis_de_Newton" hreflang="pt" lang="pt" title="Leis de Newton – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Legile_lui_Newton" hreflang="ro" lang="ro" title="Legile lui Newton – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D1%8B_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0" hreflang="ru" lang="ru" title="Законы Ньютона – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D1%81%D0%BE%D0%BA%D1%83%D0%BE%D0%BD%D0%BD%D0%B0%D1%80%D0%B0" hreflang="sah" lang="sah" title="Ньютон сокуоннара – 萨哈语"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Liggi_di_Newton" hreflang="scn" lang="scn" title="Liggi di Newton – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a class="interlanguage-link-target" href="https://sd.wikipedia.org/wiki/%D9%86%D9%8A%D9%88%D9%BD%D9%86_%D8%AC%D9%8A_%D8%AD%D8%B1%DA%AA%D8%AA_%D8%AC%D8%A7_%D9%82%D8%A7%D9%86%D9%88%D9%86" hreflang="sd" lang="sd" title="نيوٽن جي حرڪت جا قانون – 信德语"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Newtonovi_zakoni_kretanja" hreflang="sh" lang="sh" title="Newtonovi zakoni kretanja – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-shi mw-list-item"><a class="interlanguage-link-target" href="https://shi.wikipedia.org/wiki/Islgan_n_umussu_n_Nyu%E1%B9%ADun" hreflang="shi" lang="shi" title="Islgan n umussu n Nyuṭun – 希尔哈语"><span>Taclḥit</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%A0%E0%B6%BD%E0%B7%92%E0%B6%AD%E0%B6%BA_%E0%B6%B4%E0%B7%92%E0%B7%85%E0%B7%92%E0%B6%B6%E0%B6%B3_%E0%B6%B1%E0%B7%92%E0%B7%80%E0%B7%8A%E0%B6%A7%E0%B6%B1%E0%B7%8A_%E0%B6%B1%E0%B7%92%E0%B6%BA%E0%B6%B8" hreflang="si" lang="si" title="චලිතය පිළිබඳ නිව්ටන් නියම – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Newton%27s_laws_of_motion" hreflang="en-simple" lang="en-simple" title="Newton's laws of motion – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Newtonove_pohybov%C3%A9_z%C3%A1kony" hreflang="sk" lang="sk" title="Newtonove pohybové zákony – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Newtonovi_zakoni_gibanja" hreflang="sl" lang="sl" title="Newtonovi zakoni gibanja – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Mitemo_yaNewton_paMuhambo" hreflang="sn" lang="sn" title="Mitemo yaNewton paMuhambo – 绍纳语"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Ligjet_e_Njutonit" hreflang="sq" lang="sq" title="Ligjet e Njutonit – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%8A%D1%83%D1%82%D0%BD%D0%BE%D0%B2%D0%B8_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8" hreflang="sr" lang="sr" title="Њутнови закони – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Hukum_gerak_Newton" hreflang="su" lang="su" title="Hukum gerak Newton – 巽他语"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Newtons_r%C3%B6relselagar" hreflang="sv" lang="sv" title="Newtons rörelselagar – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%BF%E0%AE%AF%E0%AF%82%E0%AE%9F%E0%AF%8D%E0%AE%9F%E0%AE%A9%E0%AE%BF%E0%AE%A9%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%95%E0%AF%8D%E0%AE%95_%E0%AE%B5%E0%AE%BF%E0%AE%A4%E0%AE%BF%E0%AE%95%E0%AE%B3%E0%AF%8D" hreflang="ta" lang="ta" title="நியூட்டனின் இயக்க விதிகள் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%A8%E0%B1%8D%E0%B0%AF%E0%B1%82%E0%B0%9F%E0%B0%A8%E0%B1%8D_%E0%B0%B8%E0%B1%82%E0%B0%A4%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B2%E0%B1%81" hreflang="te" lang="te" title="న్యూటన్ సూత్రాలు – 泰卢固语"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%8E%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%84%E0%B8%A5%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B4%E0%B8%A7%E0%B8%95%E0%B8%B1%E0%B8%99" hreflang="th" lang="th" title="กฎการเคลื่อนที่ของนิวตัน – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Mga_batas_ng_mosyon_ni_Newton" hreflang="tl" lang="tl" title="Mga batas ng mosyon ni Newton – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Newton%27un_hareket_yasalar%C4%B1" hreflang="tr" lang="tr" title="Newton'un hareket yasaları – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD_%D0%B7%D0%B0%D0%BA%D0%BE%D0%BD%D0%BD%D0%B0%D1%80%D1%8B" hreflang="tt" lang="tt" title="Ньютон законнары – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%B8_%D0%9D%D1%8C%D1%8E%D1%82%D0%BE%D0%BD%D0%B0" hreflang="uk" lang="uk" title="Закони Ньютона – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%86%DB%8C%D9%88%D9%B9%D9%86_%DA%A9%DB%92_%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86_%D8%AD%D8%B1%DA%A9%D8%AA" hreflang="ur" lang="ur" title="نیوٹن کے قوانین حرکت – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Newtonning_mexanika_qonunlari" hreflang="uz" lang="uz" title="Newtonning mexanika qonunlari – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/C%C3%A1c_%C4%91%E1%BB%8Bnh_lu%E1%BA%ADt_v%E1%BB%81_chuy%E1%BB%83n_%C4%91%E1%BB%99ng_c%E1%BB%A7a_Newton" hreflang="vi" lang="vi" title="Các định luật về chuyển động của Newton – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Balaod_nga_mosyon_ha_Newton" hreflang="war" lang="war" title="Balaod nga mosyon ha Newton – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" hreflang="wuu" lang="wuu" title="牛顿运动定律 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/%C3%80w%E1%BB%8Dn_%C3%B2fin_%C3%ACm%C3%BAr%C3%ACn_Newton" hreflang="yo" lang="yo" title="Àwọn òfin ìmúrìn Newton – 约鲁巴语"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E7%89%9B%E9%A0%93%E5%AE%9A%E5%BE%8B" hreflang="lzh" lang="lzh" title="牛顿定律 – Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E7%89%9B%E9%A0%93%E9%81%8B%E5%8B%95%E5%AE%9A%E5%BE%8B" hreflang="yue" lang="yue" title="牛顿运动定律 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q38433#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年5月20日 (星期五) 04:26。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.542","walltime":"0.779","ppvisitednodes":{"value":2010,"limit":1000000},"postexpandincludesize":{"value":87671,"limit":2097152},"templateargumentsize":{"value":1348,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":3,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":15935,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  480.171      1 -total"," 25.41%  122.024      1 Template:Reflist"," 23.46%  112.655      1 Template:Lang-en"," 17.24%   82.768     16 Template:Citation"," 10.53%   50.545      1 Template:Authority_control"," 10.32%   49.569      1 Template:NoteTA","  8.59%   41.231     16 Template:Harvnb","  8.10%   38.916      1 Template:Cite_web","  2.38%   11.435      3 Template:Main","  2.37%   11.398      2 Template:Tooltip"]},"scribunto":{"limitreport-timeusage":{"value":"0.295","limit":"10.000"},"limitreport-memusage":{"value":20914584,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n    [\"CITEREFBeatty2006\"] = 1,\n    [\"CITEREFBrown1986\"] = 1,\n    [\"CITEREFC_Hellingman1992\"] = 1,\n    [\"CITEREFCohenSmith2002\"] = 1,\n    [\"CITEREFFrench1971\"] = 1,\n    [\"CITEREFHallidayResnickWalker2005\"] = 1,\n    [\"CITEREFIro2002\"] = 1,\n    [\"CITEREFLubliner2008\"] = 1,\n    [\"CITEREFNewton1846\"] = 1,\n    [\"CITEREFO\u0026#039;Sullivan1980\"] = 1,\n    [\"CITEREFRay1910\"] = 1,\n    [\"CITEREFRigden1998\"] = 1,\n    [\"CITEREFSerway2006\"] = 1,\n    [\"CITEREFTaylor2005\"] = 1,\n    [\"CITEREFTruesdellBecchiBenvenuto2003\"] = 1,\n    [\"CITEREFYoungFreedmanFord2011\"] = 1,\n    [\"CITEREF马克士威1878\"] = 1,\n}\ntemplate_list = table#1 {\n    [\"Authority control\"] = 1,\n    [\"Citation\"] = 16,\n    [\"Cite journal\"] = 1,\n    [\"Cite web\"] = 1,\n    [\"DEFAULTSORT:N\"] = 1,\n    [\"Harvnb\"] = 16,\n    [\"Lang-en\"] = 1,\n    [\"Main\"] = 3,\n    [\"NoteFoot\"] = 1,\n    [\"NoteTA\"] = 1,\n    [\"NoteTag\"] = 2,\n    [\"Notetag\"] = 1,\n    [\"Portal\"] = 1,\n    [\"Quote\"] = 1,\n    [\"Reflist\"] = 1,\n    [\"Tooltip\"] = 2,\n    [\"Wayback\"] = 1,\n    [\"向量字体常规\"] = 1,\n    [\"经典力学\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1365","timestamp":"20220921183045","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u725b\u987f\u8fd0\u52a8\u5b9a\u5f8b","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B","sameAs":"http:\/\/www.wikidata.org\/entity\/Q38433","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q38433","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-12-10T03:39:35Z","dateModified":"2022-05-20T04:26:25Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5d\/Newtons_laws_in_latin.jpg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u725b\u987f\u8fd0\u52a8\u5b9a\u5f8b","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B","sameAs":"http:\/\/www.wikidata.org\/entity\/Q38433","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q38433","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-12-10T03:39:35Z","dateModified":"2022-05-20T04:26:25Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/5\/5d\/Newtons_laws_in_latin.jpg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":169,"wgHostname":"mw1411"});});</script>
+</body>
+</html>

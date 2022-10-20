@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>线性代数 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"2a81bf5a-28d0-4075-b2b7-94ed5e0cbad6","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"线性代数","wgTitle":"线性代数","wgCurRevisionId":72938747,"wgRevisionId":72938747,"wgArticleId":20316,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["引文格式1维护：冗余文本","自2012年1月需要专业人士关注的页面","含有英语的条目","使用抬升式引用的条目","包含BNE标识符的维基百科条目","包含BNF标识符的维基百科条目","包含FAST标识符的维基百科条目","包含GND标识符的维基百科条目",
+"包含LCCN标识符的维基百科条目","包含LNB标识符的维基百科条目","包含NDL标识符的维基百科条目","包含NKC标识符的维基百科条目","线性代数","高等教育"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"线性代数","wgRelevantArticleId":20316,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,
+"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q82571","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents",
+"ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/1200px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="871" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/800px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="581" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/640px-Linear_subspaces_with_shading.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="465" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="线性代数 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-线性代数 rootpage-线性代数 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-dcec086b"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">线性代数</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><table class="box-Expert_needed plainlinks metadata ambox ambox-content" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" data-file-height="40" data-file-width="40" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/40px-Ambox_important.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/60px-Ambox_important.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Ambox_important.svg/80px-Ambox_important.svg.png 2x" width="40"/></div></td><td class="mbox-text"><span class="mbox-text-span">此条目需要<b>精通或熟悉相关主题的编者</b>参与及协助编辑。<span class="hide-when-compact"></span> <small class="date-container"><i>(<span class="date">2012年1月1日</span>)</i></small><span class="hide-when-compact"><br/><small>请<a href="/wiki/Wikipedia:%E5%B0%88%E5%AE%B6%E9%82%80%E8%AB%8B%E5%B7%A5%E4%BD%9C%E5%B0%8F%E7%B5%84" title="Wikipedia:专家邀请工作小组">邀请</a>适合的人士<a class="external text" href="https://zh.wikipedia.org/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit">改善本条目</a>。更多的细节与详情请参见<a href="/wiki/Talk:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="Talk:线性代数">讨论页</a>。</small></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+<div class="noteTA" id="noteTA-dcec086b"><div class="noteTA-group"><div data-noteta-group="Math" data-noteta-group-source="module"></div></div><div class="noteTA-local"><div data-noteta-code="zh-cn:域; zh-tw:体;"></div><div data-noteta-code="zh-hans:领域; zh-hant:领域"></div><div data-noteta-code="zh-hans:繁体; zh-hant:繁体"></div><div data-noteta-code="zh-hans:简体; zh-hant:简体"></div><div data-noteta-code="zh-cn:数乘; zh-tw:系数积"></div></div></div>
+<div class="hatnote navigation-not-searchable" role="note"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="Disambig gray.svg" data-file-height="168" data-file-width="220" decoding="async" height="19" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" width="25"/></a>  「<b>线代</b>」重定向至此。关于<b>在线代理</b>，请见「<b><a href="/wiki/%E7%BD%91%E9%A1%B5%E4%BB%A3%E7%90%86" title="网页代理">网页代理</a></b>」。</div>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:Linear_subspaces_with_shading.svg"><img alt="" class="thumbimage" data-file-height="236" data-file-width="325" decoding="async" height="182" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/250px-Linear_subspaces_with_shading.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/375px-Linear_subspaces_with_shading.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Linear_subspaces_with_shading.svg/500px-Linear_subspaces_with_shading.svg.png 2x" width="250"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Linear_subspaces_with_shading.svg" title="放大"></a></div>三维<a class="mw-redirect" href="/wiki/%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4" title="欧氏空间">欧氏空间</a><b>R</b><sup>3</sup>是一个向量空间，而通过<a href="/wiki/%E5%8E%9F%E9%BB%9E" title="原点">原点</a>的线及平面是<b>R</b><sup>3</sup>的向量子空间</div></div></div>
+<table class="infobox noprint" style="width:210px; float: right; clear: right; text-align:center; margin-top:1em;">
+<tbody><tr>
+<th style="font-size:90%; background:#DCF0FF"><a class="mw-selflink selflink">线性代数</a>
+</th></tr>
+<tr>
+<td><div style="padding-top: 7px; padding-bottom: 4px;"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {A} ={\begin{bmatrix}1&amp;2\\3&amp;4\end{bmatrix}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">A</mi>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow>
+<mo>[</mo>
+<mtable columnspacing="1em" rowspacing="4pt">
+<mtr>
+<mtd>
+<mn>1</mn>
+</mtd>
+<mtd>
+<mn>2</mn>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mn>3</mn>
+</mtd>
+<mtd>
+<mn>4</mn>
+</mtd>
+</mtr>
+</mtable>
+<mo>]</mo>
+</mrow>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {A} ={\begin{bmatrix}1&amp;2\\3&amp;4\end{bmatrix}}}</annotation>
+</semantics>
+</math></span><img alt="\mathbf {A} ={\begin{bmatrix}1&amp;2\\3&amp;4\end{bmatrix}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a31efc33ac33577d719a3ccd162a9bf21e4847ea" style="vertical-align: -2.505ex; width:12.972ex; height:6.176ex;"/></span></div>
+</td></tr>
+<tr style="font-size: 90%; line-height: 150%;">
+<td>
+<p><span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%9F%A2%E9%87%8F" title="矢量">向量</a><span style="white-space:nowrap; font-weight:bold;"> ·</span> <a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a> <span style="white-space:nowrap; font-weight:bold;"> ·</span> <a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a> <span style="white-space:nowrap; font-weight:bold;"> ·</span> <a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>
+</span>
+</p>
+</td></tr>
+<tr>
+<td>
+<table class="collapsible collapsed" width="100%">
+<tbody><tr>
+<th style="text-align: left; background: #DCF0FF; font-size: 90%;">向量
+</th></tr>
+<tr style="font-size: 90%; line-height: 150%;">
+<td>
+<p><span class="nowrap"><a href="/wiki/%E6%A0%87%E9%87%8F_(%E6%95%B0%E5%AD%A6)" title="标量 (数学)">标量</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E5%90%91%E9%87%8F%E6%8A%95%E5%BD%B1" title="向量投影">向量投影</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%A4%96%E7%A7%AF" title="外积">外积</a>（<a class="mw-redirect" href="/wiki/%E5%90%91%E9%87%8F%E7%A7%AF" title="向量积">向量积</a>） ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E5%86%85%E7%A7%AF" title="内积">内积</a>（<a class="mw-redirect" href="/wiki/%E6%95%B0%E9%87%8F%E7%A7%AF" title="数量积">数量积</a>）
+</span>
+</p>
+</td></tr></tbody></table>
+<table class="collapsible collapsed" width="100%">
+<tbody><tr>
+<th style="text-align: left; background: #DCF0FF; font-size: 90%;">矩阵与行列式
+</th></tr>
+<tr style="font-size: 90%; line-height: 150%;">
+<td>
+<p><span class="nowrap"><a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84" title="线性方程组">线性方程组</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%A7%A9_(%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)" title="秩 (线性代数)">秩</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%A0%B8_(%E7%9F%A9%E9%98%B5)" title="核 (矩阵)">核</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E8%BF%B9" title="迹">迹</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%96%AE%E4%BD%8D%E7%9F%A9%E9%99%A3" title="单位矩阵">单位矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%88%9D%E7%AD%89%E7%9F%A9%E9%98%B5" title="初等矩阵">初等矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%96%B9%E5%9D%97%E7%9F%A9%E9%98%B5" title="方块矩阵">方块矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%88%86%E5%A1%8A%E7%9F%A9%E9%99%A3" title="分块矩阵">分块矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E4%B8%89%E8%A7%92%E7%9F%A9%E9%98%B5" title="三角矩阵">三角矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E9%9D%9E%E5%A5%87%E5%BC%82%E6%96%B9%E9%98%B5" title="非奇异方阵">非奇异方阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E8%BD%AC%E7%BD%AE%E7%9F%A9%E9%98%B5" title="转置矩阵">转置矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E9%80%86%E7%9F%A9%E9%98%B5" title="逆矩阵">逆矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%B0%8D%E8%A7%92%E7%9F%A9%E9%99%A3" title="对角矩阵">对角矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%8F%AF%E5%AF%B9%E8%A7%92%E5%8C%96%E7%9F%A9%E9%98%B5" title="可对角化矩阵">可对角化矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%B0%8D%E7%A8%B1%E7%9F%A9%E9%99%A3" title="对称矩阵">对称矩阵</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E5%8F%8D%E5%AF%B9%E7%A7%B0%E7%9F%A9%E9%98%B5" title="反对称矩阵">反对称矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%AD%A3%E4%BA%A4%E7%9F%A9%E9%98%B5" title="正交矩阵">正交矩阵</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E5%B9%BA%E6%AD%A3%E7%9F%A9%E9%98%B5" title="幺正矩阵">幺正矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%9F%83%E5%B0%94%E7%B1%B3%E7%89%B9%E7%9F%A9%E9%98%B5" title="埃尔米特矩阵">埃尔米特矩阵</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E5%8F%8D%E5%9F%83%E5%B0%94%E7%B1%B3%E7%89%B9%E7%9F%A9%E9%98%B5" title="反埃尔米特矩阵">反埃尔米特矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%AD%A3%E8%A7%84%E7%9F%A9%E9%98%B5" title="正规矩阵">正规矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E4%BC%B4%E9%9A%8F%E7%9F%A9%E9%98%B5" title="伴随矩阵">伴随矩阵</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E4%BD%99%E5%9B%A0%E5%AD%90%E7%9F%A9%E9%98%B5" title="余因子矩阵">余因子矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%85%B1%E8%BD%AD%E8%BD%AC%E7%BD%AE" title="共轭转置">共轭转置</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%AD%A3%E5%AE%9A%E7%9F%A9%E9%98%B5" title="正定矩阵">正定矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%B9%82%E9%9B%B6%E7%9F%A9%E9%98%B5" title="幂零矩阵">幂零矩阵</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3" title="矩阵分解">矩阵分解</a> （<a href="/wiki/LU%E5%88%86%E8%A7%A3" title="LU分解">LU分解</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%A5%87%E5%BC%82%E5%80%BC%E5%88%86%E8%A7%A3" title="奇异值分解">奇异值分解</a> ·</span> <span class="nowrap"><a href="/wiki/QR%E5%88%86%E8%A7%A3" title="QR分解">QR分解</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%9E%81%E5%88%86%E8%A7%A3" title="极分解">极分解</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%89%B9%E5%BE%81%E5%88%86%E8%A7%A3" title="特征分解">特征分解</a>）  ·</span> <span class="nowrap"><a href="/wiki/%E5%AD%90%E5%BC%8F%E5%92%8C%E4%BD%99%E5%AD%90%E5%BC%8F" title="子式和余子式">子式和余子式</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E5%B1%95%E5%BC%80" title="拉普拉斯展开">拉普拉斯展开</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%85%8B%E7%BD%97%E5%86%85%E5%85%8B%E7%A7%AF" title="克罗内克积">克罗内克积</a>
+</span>
+</p>
+</td></tr></tbody></table>
+<table class="collapsible collapsed" width="100%">
+<tbody><tr>
+<th style="text-align: left; background: #DCF0FF; font-size: 90%;">线性空间与线性变换
+</th></tr>
+<tr style="font-size: 90%; line-height: 150%;">
+<td>
+<p><span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4" title="线性空间">线性空间</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2" title="线性变换">线性变换</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%BA%BF%E6%80%A7%E5%AD%90%E7%A9%BA%E9%97%B4" title="线性子空间">线性子空间</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%BA%BF%E6%80%A7%E7%94%9F%E6%88%90%E7%A9%BA%E9%97%B4" title="线性生成空间">线性生成空间</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%9F%BA_(%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)" title="基 (线性代数)">基</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84" title="线性映射">线性映射</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8A%95%E5%BD%B1_(%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)" title="投影 (线性代数)">线性投影</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E6%97%A0%E5%85%B3" title="线性无关">线性无关</a> ·</span> <span class="nowrap"><a href="/wiki/%E7%BA%BF%E6%80%A7%E7%BB%84%E5%90%88" title="线性组合">线性组合</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E6%B3%9B%E5%87%BD" title="线性泛函">线性泛函</a> ·</span> <span class="nowrap"><a href="/wiki/%E8%A1%8C%E7%A9%BA%E9%97%B4%E4%B8%8E%E5%88%97%E7%A9%BA%E9%97%B4" title="行空间与列空间">行空间与列空间</a> ·</span> <span class="nowrap"><a href="/wiki/%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4" title="对偶空间">对偶空间</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%AD%A3%E4%BA%A4" title="正交">正交</a> ·</span> <span class="nowrap"><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F" title="特征向量">特征向量</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%9C%80%E5%B0%8F%E4%BA%8C%E4%B9%98%E6%B3%95" title="最小二乘法">最小二乘法</a> ·</span> <span class="nowrap"><a href="/wiki/%E6%A0%BC%E6%8B%89%E5%A7%86-%E6%96%BD%E5%AF%86%E7%89%B9%E6%AD%A3%E4%BA%A4%E5%8C%96" title="格拉姆-施密特正交化">格拉姆-施密特正交化</a>
+</span>
+</p>
+</td></tr></tbody></table>
+</td></tr>
+<tr style="text-align: center; font-size: 90%;">
+<td><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="Template:线性代数"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a class="new" href="/w/index.php?title=Template_talk:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;redlink=1" title="Template talk:线性代数（页面不存在）"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit"><abbr title="编辑该模板">编</abbr></a></li></ul></div>
+</td></tr></tbody></table>
+<p><b>线性代数</b>（英语：<span lang="en">linear algebra</span>）是关于<a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a>和<a href="/wiki/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84" title="线性映射">线性映射</a>的一个<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>分支。它包括对线、面和子空间的研究，同时也涉及到所有的向量空间的一般性质。
+</p><p>坐标满足线性方程的点集形成<a class="mw-redirect" href="/wiki/%E6%AD%90%E5%B9%BE%E9%87%8C%E5%BE%97%E7%A9%BA%E9%96%93" title="欧几里得空间"><i>n</i>维空间</a>中的一个<a href="/wiki/%E8%B6%85%E5%B9%B3%E9%9D%A2" title="超平面">超平面</a>。<i>n</i>个超平面相交于一点的条件是线性代数研究的一个重要焦点。此项研究源于包含多个未知数的<a href="/wiki/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84" title="线性方程组">线性方程组</a>。这样的方程组可以很自然地表示为<a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>和<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>的形式。<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>
+</p><p>线性代数既是纯数学也是应用数学的核心。例如，放宽向量空间的公理就产生<a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a>，也就出现若干推广。<a href="/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析">泛函分析</a>研究无穷维情形的向量空间理论。线性代数与微积分结合，使得<a href="/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程">微分方程</a>线性系统的求解更加便利。线性代数的理论已被泛化为<span class="ilh-all" data-foreign-title="Operator theory" data-lang-code="en" data-lang-name="英语" data-orig-title="算子理论"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%AE%97%E5%AD%90%E7%90%86%E8%AE%BA&amp;action=edit&amp;redlink=1" title="算子理论（页面不存在）">算子理论</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Operator_theory" title="en:Operator theory"><span dir="auto" lang="en">Operator theory</span></a></span>）</span></span>。
+</p><p>线性代数的方法还用在<a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a>、<a href="/wiki/%E5%B7%A5%E7%A8%8B%E5%AD%A6" title="工程学">工程</a>、<a class="mw-redirect" href="/wiki/%E7%89%A9%E7%90%86" title="物理">物理</a>、<a href="/wiki/%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%A6" title="自然科学">自然科学</a>、<a class="mw-redirect" href="/wiki/%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8" title="计算机科学">计算机科学</a>、<a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8A%A8%E7%94%BB" title="计算机动画">计算机动画</a>和<a href="/wiki/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6" title="社会科学">社会科学</a>（尤其是<a href="/wiki/%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="经济学">经济学</a>）中。由于线性代数是一套完善的理论，非线性<a href="/wiki/%E6%95%B0%E5%AD%A6%E6%A8%A1%E5%9E%8B" title="数学模型">数学模型</a>通常可以被<a href="/wiki/%E8%BF%91%E4%BC%BC" title="近似">近似</a>为<a class="mw-redirect" href="/wiki/%E4%B8%80%E8%88%AC%E7%B7%9A%E6%80%A7%E6%A8%A1%E5%9E%8B" title="一般线性模型">一般线性模型</a>。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#历史"><span class="tocnumber">1</span> <span class="toctext">历史</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#基本介绍"><span class="tocnumber">2</span> <span class="toctext">基本介绍</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#研究范围"><span class="tocnumber">3</span> <span class="toctext">研究范围</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#向量空间"><span class="tocnumber">3.1</span> <span class="toctext">向量空间</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#线性变换"><span class="tocnumber">3.2</span> <span class="toctext">线性变换</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#子空间"><span class="tocnumber">3.3</span> <span class="toctext">子空间</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#矩阵理论"><span class="tocnumber">3.4</span> <span class="toctext">矩阵理论</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#特征值和特征向量"><span class="tocnumber">3.5</span> <span class="toctext">特征值和特征向量</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#内积空间"><span class="tocnumber">3.6</span> <span class="toctext">内积空间</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#相关定理"><span class="tocnumber">4</span> <span class="toctext">相关定理</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#一般化和相关主题"><span class="tocnumber">5</span> <span class="toctext">一般化和相关主题</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#注解"><span class="tocnumber">6</span> <span class="toctext">注解</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#参见"><span class="tocnumber">7</span> <span class="toctext">参见</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#拓展阅读"><span class="tocnumber">8</span> <span class="toctext">拓展阅读</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#外部链接"><span class="tocnumber">9</span> <span class="toctext">外部链接</span></a>
+<ul>
+<li class="toclevel-2 tocsection-16"><a href="#在线资源"><span class="tocnumber">9.1</span> <span class="toctext">在线资源</span></a></li>
+<li class="toclevel-2 tocsection-17"><a href="#在线书籍"><span class="tocnumber">9.2</span> <span class="toctext">在线书籍</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<h2><span id=".E5.8E.86.E5.8F.B2"></span><span class="mw-headline" id="历史">历史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=1" title="编辑章节：历史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:222px;"><a class="image" href="/w/index.php?title=File:Linear_Algebra_by_Hussein_Tevfik.pdf&amp;page=14"><img alt="" class="thumbimage" data-file-height="1666" data-file-width="1287" decoding="async" height="285" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-220px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-330px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Linear_Algebra_by_Hussein_Tevfik.pdf/page14-440px-Linear_Algebra_by_Hussein_Tevfik.pdf.jpg 2x" width="220"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Linear_Algebra_by_Hussein_Tevfik.pdf?page=14" title="放大"></a></div><span class="ilh-all" data-foreign-title="Hüseyin Tevfik Paşa" data-lang-code="tr" data-lang-name="土耳其语" data-orig-title="Hüseyin Tevfik Paşa"><span class="ilh-page"><a class="new" href="/w/index.php?title=H%C3%BCseyin_Tevfik_Pa%C5%9Fa&amp;action=edit&amp;redlink=1" title="Hüseyin Tevfik Paşa（页面不存在）">帕萨</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">土耳其语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://tr.wikipedia.org/wiki/H%C3%BCseyin_Tevfik_Pa%C5%9Fa" title="tr:Hüseyin Tevfik Paşa"><span dir="auto" lang="tr">Hüseyin Tevfik Paşa</span></a></span>）</span></span>的《线性代数》</div></div></div>
+<p>线性代数的研究最初出现于对<a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a>的研究上。行列式当时被用来求解线性方程组。<a href="/wiki/%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%8E%B1%E5%B8%83%E5%B0%BC%E8%8C%A8" title="戈特弗里德·莱布尼茨">莱布尼茨</a>在1693年使用行列式。随后，<a href="/wiki/%E5%8A%A0%E5%B8%83%E9%87%8C%E5%B0%94%C2%B7%E5%85%8B%E6%8B%89%E9%BB%98" title="加布里尔·克拉默">加布里尔·克拉默</a>在1750年推导出求解线性方程组的<a href="/wiki/%E5%85%8B%E8%90%8A%E5%A7%86%E6%B3%95%E5%89%87" title="克莱姆法则">克莱姆法则</a>。然后，<a href="/wiki/%E5%8D%A1%E7%88%BE%C2%B7%E5%BC%97%E9%87%8C%E5%BE%B7%E9%87%8C%E5%B8%8C%C2%B7%E9%AB%98%E6%96%AF" title="卡尔·弗里德里希·高斯">高斯</a>利用<a class="mw-redirect" href="/wiki/%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95" title="高斯消元法">高斯消元法</a>发展出求解线性系统的理论。这也被列为<a href="/wiki/%E5%A4%A7%E5%9C%B0%E6%B5%8B%E9%87%8F%E5%AD%A6" title="大地测量学">大地测量学</a>的一项进展。<sup class="reference" id="cite_ref-vitulli_3-0"><a href="#cite_note-vitulli-3">[3]</a></sup><sup class="reference" id="cite_ref-O'Connor_4-0"><a href="#cite_note-O'Connor-4">[4]</a></sup>
+</p><p>现代线性代数的历史可以上溯到19世纪中期的英国。1843年，<a class="mw-redirect" href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF" title="哈密顿">哈密顿</a>发现<a class="mw-redirect" href="/wiki/%E5%9B%9B%E5%85%83%E6%95%B0" title="四元数">四元数</a>。1844年，<a href="/wiki/%E8%B5%AB%E7%88%BE%E6%9B%BC%C2%B7%E6%A0%BC%E6%8B%89%E6%96%AF%E6%9B%BC" title="赫尔曼·格拉斯曼">赫尔曼·格拉斯曼</a>发表他的着作《线性外代数》（Die lineare Ausdehnungslehre），包括今日线性代数的一些主题。1848年，<a href="/wiki/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E7%B4%84%E7%91%9F%E5%A4%AB%C2%B7%E8%A5%BF%E7%88%BE%E7%B6%AD%E6%96%AF%E7%89%B9" title="詹姆斯·约瑟夫·西尔维斯特">詹姆斯·西尔维斯特</a>引入<a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>（matrix），该词是“<a href="/wiki/%E5%AD%90%E5%AE%AB" title="子宫">子宫</a>”的拉丁语。<a class="mw-redirect" href="/wiki/%E9%98%BF%E7%91%9F%C2%B7%E5%87%AF%E8%8E%B1" title="阿瑟·凯莱">阿瑟·凯莱</a>在研究线性变换时引入矩阵乘法和转置的概念。很重要的是，凯莱使用一个字母来代表一个矩阵，因此将矩阵当做了聚合对象。他也意识到矩阵和行列式之间的联系。<sup class="reference" id="cite_ref-vitulli_3-1"><a href="#cite_note-vitulli-3">[3]</a></sup>
+</p><p>不过除了这些早期的文献以外．线性代数主要是在二十世纪发展的。在<a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a>的<a href="/wiki/%E7%8E%AF%E8%AE%BA" title="环论">环论</a>开发之前，<a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>只有模糊不清的定义。随着<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a>的到来，很多开拓者发现线性代数的微妙。进一步的，解<a href="/wiki/%E5%81%8F%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="偏微分方程">偏微分方程</a>的<a class="mw-redirect" href="/wiki/%E5%85%8B%E8%8E%B1%E5%A7%86%E6%B3%95%E5%88%99" title="克莱姆法则">克莱姆法则</a>的例行应用导致大学的标准教育中包括线性代数。例如，E.T. Copson写到：
+</p>
+<table class="cquote pullquote" role="presentation" style="margin:auto; display:table; border-collapse: collapse; border: none; background-color: transparent; width: auto;">
+<tbody><tr>
+<td style="width: 20px; vertical-align: top; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: left; padding: 10px; text-orientation: upright">“
+</td>
+<td style="vertical-align: top; border: none; padding: 4px 10px;">当我在1922年到<a href="/wiki/%E7%88%B1%E4%B8%81%E5%A0%A1" title="爱丁堡">爱丁堡</a>做年轻的讲师的时候，我惊奇的发现不同于牛津的课程。这里包括我根本就不知道的主题如<a href="/wiki/%E5%8B%92%E8%B2%9D%E6%A0%BC%E7%A9%8D%E5%88%86" title="勒贝格积分">勒贝格积分</a>、<a class="mw-redirect" href="/wiki/%E7%9F%A9%E9%98%B5%E8%AE%BA" title="矩阵论">矩阵论</a>、<a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a>、<a href="/wiki/%E9%BB%8E%E6%9B%BC%E5%87%A0%E4%BD%95" title="黎曼几何">黎曼几何</a>...
+</td>
+<td style="width: 20px; vertical-align: bottom; border: none; color: #B2B7F2; font-size: 40px; font-family: 'Times New Roman', Times, serif; font-weight: bold; line-height: .6em; text-align: right; padding: 10px; text-orientation: upright">”
+</td></tr>
+<tr>
+<td class="cquotecite" colspan="3" style="border: none; padding-right: 4%; font-size: smaller; text-align: right;"><cite>——E.T. Copson，《偏微分方程》前言, 1973</cite>
+</td></tr></tbody></table>
+<p>1882年，<span class="ilh-all" data-foreign-title="Hüseyin Tevfik Pasha" data-lang-code="en" data-lang-name="英语" data-orig-title="Hüseyin Tevfik Pasha"><span class="ilh-page"><a class="new" href="/w/index.php?title=H%C3%BCseyin_Tevfik_Pasha&amp;action=edit&amp;redlink=1" title="Hüseyin Tevfik Pasha（页面不存在）">Hüseyin Tevfik Pasha</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/H%C3%BCseyin_Tevfik_Pasha" title="en:Hüseyin Tevfik Pasha"><span dir="auto" lang="en">Hüseyin Tevfik Pasha</span></a></span>）</span></span>(<span class="ilh-all" data-foreign-title="Hüseyin Tevfik Paşa" data-lang-code="tr" data-lang-name="土耳其语" data-orig-title="Hüseyin Tevfik Paşa"><span class="ilh-page"><a class="new" href="/w/index.php?title=H%C3%BCseyin_Tevfik_Pa%C5%9Fa&amp;action=edit&amp;redlink=1" title="Hüseyin Tevfik Paşa（页面不存在）">TR</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">土耳其语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://tr.wikipedia.org/wiki/H%C3%BCseyin_Tevfik_Pa%C5%9Fa" title="tr:Hüseyin Tevfik Paşa"><span dir="auto" lang="tr">Hüseyin Tevfik Paşa</span></a></span>）</span></span>)写了一本书，名为《Linear Algebra》(线性代数)。<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup>第一次现代化精确定义向量空间是在1888年，由<a href="/wiki/%E6%9C%B1%E5%A1%9E%E4%BD%A9%C2%B7%E7%9A%AE%E4%BA%9E%E8%AB%BE" title="朱塞佩·皮亚诺">朱塞佩·皮亚诺</a>提出。在1888年，<a class="mw-redirect" href="/wiki/%E5%BC%97%E5%85%B0%E8%A5%BF%E6%96%AF%C2%B7%E9%AB%98%E5%B0%94%E9%A1%BF" title="弗兰西斯·高尔顿">弗兰西斯·高尔顿</a>还发起<a href="/wiki/%E7%9B%B8%E5%85%B3%E7%B3%BB%E6%95%B0" title="相关系数">相关系数</a>的应用。经常有多于一个<a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F" title="随机变量">随机变量</a>出现并且它们可以<a href="/wiki/%E4%BA%92%E7%9B%B8%E5%85%B3" title="互相关">互相关</a>。在多变元随机变量的<a class="mw-redirect" href="/wiki/%E7%BB%9F%E8%AE%A1%E5%88%86%E6%9E%90" title="统计分析">统计分析</a>中，<a class="mw-redirect" href="/wiki/%E7%9B%B8%E5%85%B3%E7%9F%A9%E9%98%B5" title="相关矩阵">相关矩阵</a>是自然的工具。所以这种随机向量的统计研究帮助矩阵用途的开发。到1900年，一种有限维向量空间的线性变换理论被提出。在20世纪上半叶，许多前几世纪的想法和方法被总结成<a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a>，线性代数第一次有了它的现代形式。矩阵在<a href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6" title="量子力学">量子力学</a>、<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a>和<a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a>上的应用帮助线性代数的主题超越纯数学的范畴。计算机的发展导致更多地研究致力于有关高斯消元法和矩阵分解的有效<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a>上。线性代数成为数字模拟和模型的基本工具。<sup class="reference" id="cite_ref-vitulli_3-2"><a href="#cite_note-vitulli-3">[3]</a></sup>
+</p>
+<h2><span id=".E5.9F.BA.E6.9C.AC.E4.BB.8B.E7.BB.8D"></span><span class="mw-headline" id="基本介绍">基本介绍</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=2" title="编辑章节：基本介绍">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>线性代数起源于对二维和三维<a class="mw-redirect" href="/wiki/%E7%9B%B4%E8%A7%92%E5%9D%90%E6%A0%87%E7%B3%BB" title="直角坐标系">直角坐标系</a>的研究。在这里，一个向量是一个有方向的<a href="/wiki/%E7%BA%BF%E6%AE%B5" title="线段">线段</a>，由长度和方向同时表示。这样向量可以用来表示物理量，比如<a href="/wiki/%E5%8A%9B" title="力">力</a>，也可以和<a class="mw-disambig" href="/wiki/%E6%A0%87%E9%87%8F" title="标量">标量</a>做加法和乘法。这就是<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a><a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a>的第一个例子。
+</p><p>现代线性代数已经扩展到研究任意或无限维空间。一个维数为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>的向量空间叫做<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span></i>维空间。在二维和三维空间中大多数有用的结论可以扩展到这些高维空间。尽管许多人不容易想象<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span></i>维空间中的向量，这样的向量（即<a href="/wiki/%E5%A4%9A%E5%85%83%E7%BB%84" title="多元组">n元组</a>）用来表示数据非常有效。由于作为<i>n</i>元组，向量是<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span></i>个元素的“有序”列表，大多数人可以在这种框架中有效地概括和操纵数据。比如，在<a href="/wiki/%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="经济学">经济学</a>中可以使用8维向量来表示8个国家的<a href="/wiki/%E5%9B%BD%E6%B0%91%E7%94%9F%E4%BA%A7%E6%80%BB%E5%80%BC" title="国民生产总值">国民生产总值</a>（GNP）。当所有国家的顺序排定之后，比如（<a class="mw-redirect" href="/wiki/%E4%B8%AD%E5%9B%BD" title="中国">中国</a>，<a href="/wiki/%E7%BE%8E%E5%9B%BD" title="美国">美国</a>，<a href="/wiki/%E8%8B%B1%E5%9B%BD" title="英国">英国</a>，<a href="/wiki/%E6%B3%95%E5%9B%BD" title="法国">法国</a>，<a href="/wiki/%E5%BE%B7%E5%9B%BD" title="德国">德国</a>，<a href="/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99" title="西班牙">西班牙</a>，<a href="/wiki/%E5%8D%B0%E5%BA%A6" title="印度">印度</a>，<a href="/wiki/%E6%BE%B3%E5%A4%A7%E5%88%A9%E4%BA%9A" title="澳大利亚">澳大利亚</a>），可以使用向量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (v_{1},v_{2},v_{3},v_{4},v_{5},v_{6},v_{7},v_{8})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>4</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>5</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>6</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>7</mn>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>8</mn>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (v_{1},v_{2},v_{3},v_{4},v_{5},v_{6},v_{7},v_{8})}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle (v_{1},v_{2},v_{3},v_{4},v_{5},v_{6},v_{7},v_{8})}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4588965b05273e24e3a0ee1538532872fd672638" style="vertical-align: -0.838ex; width:26.502ex; height:2.843ex;"/></span>显示这些国家某一年各自的GNP。这里，每个国家的GNP都在各自的位置上。
+</p><p>作为证明<a href="/wiki/%E5%AE%9A%E7%90%86" title="定理">定理</a>而使用的纯抽象概念，<a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a>（线性空间）属于抽象代数的一部分，而且已经非常好地融入这个领域。一些显着的例子有：不可逆线性映射或<a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>的<a href="/wiki/%E7%BE%A4" title="群">群</a>，向量空间的线性映射的<a href="/wiki/%E7%8E%AF_(%E4%BB%A3%E6%95%B0)" title="环 (代数)">环</a>。
+</p><p>线性代数也在数学分析中扮演重要角色，特别在向量分析中描述高阶导数，研究张量积和可交换映射等领域。
+</p><p>向量空间是在<a href="/wiki/%E5%9F%9F_(%E6%95%B0%E5%AD%A6)" title="域 (数学)">域</a>上定义的，比如<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a>域或<a href="/wiki/%E5%A4%8D%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="复数 (数学)">复数</a>域。<a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E7%AE%97%E5%AD%90" title="线性算子">线性算子</a>将线性空间的元素映射到另一个线性空间（也可以是同一个线性空间），保持向量空间上加法和标量乘法的一致性。所有这种变换组成的集合本身也是一个向量空间。如果一个线性空间的基是确定的，所有线性变换都可以表示为一个数表，称为<a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a>。对矩阵性质和矩阵<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a>的深入研究（包括<a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a>和<a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F" title="特征向量">特征向量</a>）也被认为是线性代数的一部分。
+</p><p>我们可以简单地说<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>中的<a class="mw-redirect" href="/wiki/%E7%B7%9A%E6%80%A7" title="线性">线性</a>问题——-那些表现出<a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E5%85%B3%E7%B3%BB" title="线性关系">线性</a>的问题——是最容易被解决的。比如<a href="/wiki/%E5%BE%AE%E5%88%86%E5%AD%A6" title="微分学">微分学</a>研究很多函数线性近似的问题。在实践中与<a class="mw-redirect" href="/wiki/%E9%9D%9E%E7%BA%BF%E6%80%A7" title="非线性">非线性</a>问题的差异是很重要的。
+</p><p>线性代数方法是指使用线性观点看待问题，并用线性代数的语言描述它、解决它（必要时可使用矩阵运算）的方法。这是数学与工程学中最主要的应用之一。
+</p>
+<h2><span id=".E7.A0.94.E7.A9.B6.E8.8C.83.E5.9B.B4"></span><span class="mw-headline" id="研究范围">研究范围</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=3" title="编辑章节：研究范围">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E5.90.91.E9.87.8F.E7.A9.BA.E9.97.B4"></span><span class="mw-headline" id="向量空间">向量空间</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=4" title="编辑章节：向量空间">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a></div>
+<p><a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a>是线性代数的主要结构。<a class="mw-redirect" href="/wiki/%E5%9F%9F_(%E6%95%B8%E5%AD%B8)" title="域 (数学)">域</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span>上的向量空间是<a href="/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)" title="集合 (数学)">集合</a><i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V}</annotation>
+</semantics>
+</math></span><img alt="V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af0f6064540e84211d0ffe4dac72098adfa52845" style="vertical-align: -0.338ex; width:1.787ex; height:2.176ex;"/></span></i>再加上两个<a href="/wiki/%E4%BA%8C%E5%85%83%E8%BF%90%E7%AE%97" title="二元运算">二元运算</a>。<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V}</annotation>
+</semantics>
+</math></span><img alt="V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af0f6064540e84211d0ffe4dac72098adfa52845" style="vertical-align: -0.338ex; width:1.787ex; height:2.176ex;"/></span>的元素叫做向量而<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span></i>的<a class="mw-redirect" href="/wiki/%E5%85%83%E7%B4%A0_(%E6%95%B0%E5%AD%A6)" title="元素 (数学)">元素</a>叫做标量。第一个运算，<b><a class="mw-redirect" href="/wiki/%E5%90%91%E9%87%8F%E5%92%8C" title="向量和">向量加法</a></b>，取任意两个向量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle w}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>w</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle w}</annotation>
+</semantics>
+</math></span><img alt="w" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88b1e0c8e1be5ebe69d18a8010676fa42d7961e6" style="vertical-align: -0.338ex; width:1.664ex; height:1.676ex;"/></span>，然后输出第三个向量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v+w}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>+</mo>
+<mi>w</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v+w}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle v+w}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/42b54eebfe21e642e25499aabb366f90701f9838" style="vertical-align: -0.505ex; width:5.632ex; height:2.176ex;"/></span>。第二个运算，<b><a href="/wiki/%E5%90%91%E9%87%8F#纯量乘法" title="向量">向量乘法</a></b>，取任意标量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>和任意向量<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span></i>并输出新向量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle av}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle av}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle av}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3f8eecf879de9bedc98aba7985923ec68f872825" style="vertical-align: -0.338ex; width:2.357ex; height:1.676ex;"/></span>。从第一个例子来看，其中乘法是以标量<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span></i>将向量<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span></i>缩放后完成的，这种乘法叫做<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span><b><a class="mw-redirect" href="/wiki/%E6%95%B0%E4%B9%98" title="数乘">数乘</a></b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>。向量空间内的加法和乘法运算满足下列<a href="/wiki/%E5%85%AC%E7%90%86" title="公理">公理</a>。<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup>在下表中，令<b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle u,v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>u</mi>
+<mo>,</mo>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle u,v}</annotation>
+</semantics>
+</math></span><img alt="u,v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7e66f4b32a0181923cc1337a5634f38241e5c697" style="vertical-align: -0.671ex; width:3.491ex; height:2.009ex;"/></span></b>和<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle w}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>w</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle w}</annotation>
+</semantics>
+</math></span><img alt="w" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88b1e0c8e1be5ebe69d18a8010676fa42d7961e6" style="vertical-align: -0.338ex; width:1.664ex; height:1.676ex;"/></span></i>为<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V}</annotation>
+</semantics>
+</math></span><img alt="V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af0f6064540e84211d0ffe4dac72098adfa52845" style="vertical-align: -0.338ex; width:1.787ex; height:2.176ex;"/></span></i>中的任意向量，<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span></i>和<b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span></b>为<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span></i>中的标量。<b></b>
+</p>
+<table border="0" style="width:100%;">
+<tbody><tr>
+<td><b>公理</b></td>
+<td><b>意义</b>
+</td></tr>
+<tr>
+<td>加法<a href="/wiki/%E7%BB%93%E5%90%88%E5%BE%8B" title="结合律">结合律</a></td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle u+\left(v+w\right)=\left(u+v\right)+w}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>u</mi>
+<mo>+</mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>v</mi>
+<mo>+</mo>
+<mi>w</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>u</mi>
+<mo>+</mo>
+<mi>v</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>+</mo>
+<mi>w</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle u+\left(v+w\right)=\left(u+v\right)+w}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle u+\left(v+w\right)=\left(u+v\right)+w}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f0ffc6fb725b50a0021f3fcc545fef50ce038ee8" style="vertical-align: -0.838ex; width:26.322ex; height:2.843ex;"/></span>
+</td></tr>
+<tr style="background:#F8F4FF;">
+<td>加法<a class="mw-redirect" href="/wiki/%E4%BA%A4%E6%8D%A2%E5%BE%8B" title="交换律">交换律</a></td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle u+v=v+u}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>u</mi>
+<mo>+</mo>
+<mi>v</mi>
+<mo>=</mo>
+<mi>v</mi>
+<mo>+</mo>
+<mi>u</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle u+v=v+u}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle u+v=v+u}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5e1228fcf7d0591c9ef04b6269a8b3407dd825d8" style="vertical-align: -0.505ex; width:13.694ex; height:2.176ex;"/></span>
+</td></tr>
+<tr>
+<td>加法的<a href="/wiki/%E5%96%AE%E4%BD%8D%E5%85%83" title="单位元">单位元</a></td>
+<td>存在元素<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 0\in V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>0</mn>
+<mo>∈<!-- ∈ --></mo>
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 0\in V}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle 0\in V}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6d2f0cd30055c16c302a901c4f0fb6583b0faf89" style="vertical-align: -0.338ex; width:5.79ex; height:2.176ex;"/></span>，称作<a href="/wiki/%E9%9B%B6%E5%90%91%E9%87%8F" title="零向量">零向量</a>，使得对所有<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v\in V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>∈<!-- ∈ --></mo>
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v\in V}</annotation>
+</semantics>
+</math></span><img alt="v\in V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/99886ebbde63daa0224fb9bf56fa11b3c8a6f4fb" style="vertical-align: -0.338ex; width:5.756ex; height:2.176ex;"/></span>，都有<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v+0=v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>+</mo>
+<mn>0</mn>
+<mo>=</mo>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v+0=v}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle v+0=v}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8a6ba4d56e199cd30aa1ed9641c8f4bdf0eb9b91" style="vertical-align: -0.505ex; width:9.357ex; height:2.343ex;"/></span>。
+</td></tr>
+<tr style="background:#F8F4FF;">
+<td>加法的<a href="/wiki/%E9%80%86%E5%85%83%E7%B4%A0" title="逆元素">逆元素</a></td>
+<td>对每个<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v\in V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>∈<!-- ∈ --></mo>
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v\in V}</annotation>
+</semantics>
+</math></span><img alt="v\in V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/99886ebbde63daa0224fb9bf56fa11b3c8a6f4fb" style="vertical-align: -0.338ex; width:5.756ex; height:2.176ex;"/></span>，存在一元素<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle -v\in V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>−<!-- − --></mo>
+<mi>v</mi>
+<mo>∈<!-- ∈ --></mo>
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle -v\in V}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle -v\in V}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d0a4cac3c1de4025605d4a2b4b0e0450f1a77a6" style="vertical-align: -0.505ex; width:7.564ex; height:2.343ex;"/></span>，称作<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span>的<a class="mw-redirect" href="/wiki/%E7%9B%B8%E5%8F%8D%E6%95%B0" title="相反数">相反数</a>，使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v+(-v)=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+<mo>+</mo>
+<mo stretchy="false">(</mo>
+<mo>−<!-- − --></mo>
+<mi>v</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v+(-v)=0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle v+(-v)=0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87eacadcfb41a64b127e4f84a86055207b39b7fc" style="vertical-align: -0.838ex; width:12.974ex; height:2.843ex;"/></span>
+</td></tr>
+<tr>
+<td>相对于向量加法的数乘<a href="/wiki/%E5%88%86%E9%85%8D%E5%BE%8B" title="分配律">分配律</a>  </td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\left(u+v\right)=au+av}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>u</mi>
+<mo>+</mo>
+<mi>v</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mi>a</mi>
+<mi>u</mi>
+<mo>+</mo>
+<mi>a</mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\left(u+v\right)=au+av}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a\left(u+v\right)=au+av}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c28e3f70f278798f5202c629cdd83920f35bd79b" style="vertical-align: -0.838ex; width:19.58ex; height:2.843ex;"/></span>
+</td></tr>
+<tr style="background:#F8F4FF;">
+<td>相对于域加法的数乘分配律</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left(a+b\right)v=av+bv}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mi>v</mi>
+<mo>=</mo>
+<mi>a</mi>
+<mi>v</mi>
+<mo>+</mo>
+<mi>b</mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left(a+b\right)v=av+bv}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \left(a+b\right)v=av+bv}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9d810a56cea7d4217eec9f5acaa04980cd67220d" style="vertical-align: -0.838ex; width:18.813ex; height:2.843ex;"/></span>
+</td></tr>
+<tr>
+<td>数乘与域乘法的相容性</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\left(bv\right)=\left(ab\right)v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>b</mi>
+<mi>v</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>a</mi>
+<mi>b</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\left(bv\right)=\left(ab\right)v}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle a\left(bv\right)=\left(ab\right)v}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/880aed4875c91a2567fc6f4b43d0ff64570364dd" style="vertical-align: -0.838ex; width:14.201ex; height:2.843ex;"/></span> <sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[nb 1]</a></sup>
+</td></tr>
+<tr style="background:#F8F4FF;">
+<td>数乘的单位元</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1v=v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>1</mn>
+<mi>v</mi>
+<mo>=</mo>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1v=v}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle 1v=v}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/512c0a597d4eb9a620d96c64268aaf625220e791" style="vertical-align: -0.338ex; width:6.516ex; height:2.176ex;"/></span>，其中1表示<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F}</annotation>
+</semantics>
+</math></span><img alt="F" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/545fd099af8541605f7ee55f08225526be88ce57" style="vertical-align: -0.338ex; width:1.741ex; height:2.176ex;"/></span>内的<a class="mw-redirect" href="/wiki/%E4%B9%98%E6%B3%95%E5%8D%95%E4%BD%8D" title="乘法单位">乘法单位</a>。
+</td></tr></tbody></table>
+<p>一般向量空间<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle V}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>V</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle V}</annotation>
+</semantics>
+</math></span><img alt="V" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/af0f6064540e84211d0ffe4dac72098adfa52845" style="vertical-align: -0.338ex; width:1.787ex; height:2.176ex;"/></span></i>可能有不同性质的元素，例如，<a href="/wiki/%E5%87%BD%E6%95%B0" title="函数">函数</a>、<a class="mw-redirect" href="/wiki/%E5%A4%9A%E9%A1%B9%E5%BC%8F" title="多项式">多项式</a>、向量或矩阵。线性代数关注的是所有向量空间的共同性质。
+</p>
+<h3><span id=".E7.BA.BF.E6.80.A7.E5.8F.98.E6.8D.A2"></span><span class="mw-headline" id="线性变换">线性变换</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=5" title="编辑章节：线性变换">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2" title="线性变换">线性变换</a></div>
+<h3><span id=".E5.AD.90.E7.A9.BA.E9.97.B4"></span><span class="mw-headline" id="子空间">子空间</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=6" title="编辑章节：子空间">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a class="mw-redirect" href="/wiki/%E7%B7%9A%E6%80%A7%E5%AD%90%E7%A9%BA%E9%96%93" title="线性子空间">线性子空间</a></div>
+<h3><span id=".E7.9F.A9.E9.98.B5.E7.90.86.E8.AE.BA"></span><span class="mw-headline" id="矩阵理论">矩阵理论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=7" title="编辑章节：矩阵理论">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a class="mw-redirect" href="/wiki/%E7%9F%A9%E9%98%B5%E7%90%86%E8%AE%BA" title="矩阵理论">矩阵理论</a></div>
+<p>矩阵是一个矩形的数学方阵。一个方阵可看作两个矢量空间的线性变阵，故矩阵理论可当作线性代数的一个分枝。
+</p><p>在图论，每一个加上标示图对应唯一的非负矩阵，称为邻接矩阵。
+</p><p>排列矩阵是排列的矩阵表达式，在组合数学极为重要。
+</p><p>正定矩阵及半正定矩阵可用来寻找实数函数的极大值或极小值。
+</p><p>任意环矩阵亦非常重要。举例说，多项式环的矩阵用于控制理论。
+</p><p>另外，不同的矩阵环经常是提供数学上反例的素材。
+</p>
+<h3><span id=".E7.89.B9.E5.BE.81.E5.80.BC.E5.92.8C.E7.89.B9.E5.BE.81.E5.90.91.E9.87.8F"></span><span class="mw-headline" id="特征值和特征向量">特征值和特征向量</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=8" title="编辑章节：特征值和特征向量">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>一般情况下，线性变换可能相当复杂。一些低维的例子，让我们领会不同的类型。一般的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>维变换<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span>的一个技巧是找到在<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span></i>下的不变集——特征线。如果<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span>是一个非零向量，使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle Tv}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle Tv}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle Tv}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d7088500c82c7841fd9a9ccb98b6826762f97c24" style="vertical-align: -0.338ex; width:2.764ex; height:2.176ex;"/></span>为<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span></i>的标量倍，那么通过0和<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span></i>的直线就是在<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span></i>下的不变集，而<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v}</annotation>
+</semantics>
+</math></span><img alt="v" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e07b00e7fc0847fbd16391c778d65bc25c452597" style="vertical-align: -0.338ex; width:1.128ex; height:1.676ex;"/></span></i>被称为<b><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F" title="特征向量">特征向量</a></b>。使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle Tv-\lambda v}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+<mi>v</mi>
+<mo>−<!-- − --></mo>
+<mi>λ<!-- λ --></mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle Tv-\lambda v}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle Tv-\lambda v}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6945de496ce83fa1434335e3ab8f61ffd6c0d5b8" style="vertical-align: -0.505ex; width:8.087ex; height:2.343ex;"/></span>的标量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \lambda }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>λ<!-- λ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \lambda }</annotation>
+</semantics>
+</math></span><img alt="\lambda " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b43d0ea3c9c025af1be9128e62a18fa74bedda2a" style="vertical-align: -0.338ex; width:1.355ex; height:2.176ex;"/></span>叫做<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T}</annotation>
+</semantics>
+</math></span><img alt="T" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec7200acd984a1d3a3d7dc455e262fbe54f7f6e0" style="vertical-align: -0.338ex; width:1.636ex; height:2.176ex;"/></span></i>的<b><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%80%BC" title="特征值">特征值</a></b>。
+</p><p>要求一个特征向量或特征值，我们注意到
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle Tv-\lambda v=(T-\lambda \,{\text{I}})v=0,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+<mi>v</mi>
+<mo>−<!-- − --></mo>
+<mi>λ<!-- λ --></mi>
+<mi>v</mi>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>T</mi>
+<mo>−<!-- − --></mo>
+<mi>λ<!-- λ --></mi>
+<mspace width="thinmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>I</mtext>
+</mrow>
+<mo stretchy="false">)</mo>
+<mi>v</mi>
+<mo>=</mo>
+<mn>0</mn>
+<mo>,</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle Tv-\lambda v=(T-\lambda \,{\text{I}})v=0,}</annotation>
+</semantics>
+</math></span><img alt="Tv-\lambda v=(T-\lambda \,{\text{I}})v=0," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4e5666d0efd896ffeac8b42d8e347569b7c5dfbb" style="vertical-align: -0.838ex; width:26.089ex; height:2.843ex;"/></span></dd></dl>
+<p>其中<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle I}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>I</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle I}</annotation>
+</semantics>
+</math></span><img alt="I" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/535ea7fc4134a31cbe2251d9d3511374bc41be9f" style="vertical-align: -0.338ex; width:1.172ex; height:2.176ex;"/></span>是<a class="mw-redirect" href="/wiki/%E5%8D%95%E4%BD%8D%E7%9F%A9%E9%98%B5" title="单位矩阵">单位矩阵</a>。为使该方程存在非平凡解，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \det \left(T-\lambda I\right)=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo form="prefix" movablelimits="true">det</mo>
+<mrow>
+<mo>(</mo>
+<mrow>
+<mi>T</mi>
+<mo>−<!-- − --></mo>
+<mi>λ<!-- λ --></mi>
+<mi>I</mi>
+</mrow>
+<mo>)</mo>
+</mrow>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \det \left(T-\lambda I\right)=0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \det \left(T-\lambda I\right)=0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/626e2d2a6338922593bcabb4dd67d7d0ae7ff673" style="vertical-align: -0.838ex; width:16.691ex; height:2.843ex;"/></span>。行列式是一个<a class="mw-redirect" href="/wiki/%E5%A4%9A%E9%A1%B9%E5%BC%8F" title="多项式">多项式</a>，所以在域<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>内不保证存在特征值。
+</p>
+<h3><span id=".E5.86.85.E7.A7.AF.E7.A9.BA.E9.97.B4"></span><span class="mw-headline" id="内积空间">内积空间</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=9" title="编辑章节：内积空间">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a href="/wiki/%E5%86%85%E7%A7%AF%E7%A9%BA%E9%97%B4" title="内积空间">内积空间</a></div>
+<h2><span id=".E7.9B.B8.E5.85.B3.E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="相关定理">相关定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=10" title="编辑章节：相关定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>每一个线性空间都有一个<a href="/wiki/%E5%9F%BA_(%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)" title="基 (线性代数)">基</a>。<sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[8]</a></sup></li>
+<li>对一个<i>n</i>阶<a href="/wiki/%E6%96%B9%E5%9D%97%E7%9F%A9%E9%98%B5" title="方块矩阵">方阵</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle A}</annotation>
+</semantics>
+</math></span><img alt="A" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3" style="vertical-align: -0.338ex; width:1.743ex; height:2.176ex;"/></span>，如果存在一个<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span></i>阶方阵<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle B}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>B</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle B}</annotation>
+</semantics>
+</math></span><img alt="B" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/47136aad860d145f75f3eed3022df827cee94d7a" style="vertical-align: -0.338ex; width:1.764ex; height:2.176ex;"/></span>使<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle AB=BA=I}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>A</mi>
+<mi>B</mi>
+<mo>=</mo>
+<mi>B</mi>
+<mi>A</mi>
+<mo>=</mo>
+<mi>I</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle AB=BA=I}</annotation>
+</semantics>
+</math></span><img alt="AB=BA=I" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b5adf5ba25c38c92570372dd3e6bbad249e617ef" style="vertical-align: -0.338ex; width:14.383ex; height:2.176ex;"/></span>（<i>I</i>是<a class="mw-redirect" href="/wiki/%E5%8D%95%E4%BD%8D%E7%9F%A9%E9%98%B5" title="单位矩阵">单位矩阵</a>），则<i><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle A}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>A</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle A}</annotation>
+</semantics>
+</math></span><img alt="A" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7daff47fa58cdfd29dc333def748ff5fa4c923e3" style="vertical-align: -0.338ex; width:1.743ex; height:2.176ex;"/></span></i>为<a href="/wiki/%E9%9D%9E%E5%A5%87%E5%BC%82%E6%96%B9%E9%98%B5" title="非奇异方阵">非奇异方阵</a><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[9]</a></sup>。</li>
+<li>一个方阵<a href="/wiki/%E9%9D%9E%E5%A5%87%E5%BC%82%E6%96%B9%E9%98%B5" title="非奇异方阵">非奇异</a><a href="/wiki/%E5%BD%93%E4%B8%94%E4%BB%85%E5%BD%93" title="当且仅当">当且仅当</a>它的<a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a>不为零。</li>
+<li>一个方阵非奇异当且仅当它代表的<a class="mw-redirect" href="/wiki/%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2" title="线性变换">线性变换</a>是个<a href="/wiki/%E8%87%AA%E5%90%8C%E6%9E%84" title="自同构">自同构</a>。</li>
+<li>一个矩阵<a class="mw-redirect" href="/wiki/%E5%8D%8A%E6%AD%A3%E5%AE%9A" title="半正定">半正定</a>当且仅当它的每个<a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%80%BC" title="特征值">特征值</a>大于或等于零。</li>
+<li>一个矩阵<a href="/wiki/%E6%AD%A3%E5%AE%9A%E7%9F%A9%E9%98%B5" title="正定矩阵">正定</a>当且仅当它的每个特征值都大于零。</li></ul>
+<h2><span id=".E4.B8.80.E8.88.AC.E5.8C.96.E5.92.8C.E7.9B.B8.E5.85.B3.E4.B8.BB.E9.A2.98"></span><span class="mw-headline" id="一般化和相关主题">一般化和相关主题</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=11" title="编辑章节：一般化和相关主题">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>线性代数是一个成功的理论，其方法已被应用于数学的其他分支。<a href="/wiki/%E6%A8%A1" title="模">模</a>论就是将线性代数中的标量的<a class="mw-redirect" href="/wiki/%E5%9F%9F_(%E6%95%B8%E5%AD%B8)" title="域 (数学)">域</a>用<a href="/wiki/%E7%8E%AF_(%E4%BB%A3%E6%95%B0)" title="环 (代数)">环</a>替代，并进行研究，像<a href="/wiki/%E7%B7%9A%E6%80%A7%E7%84%A1%E9%97%9C" title="线性无关">线性无关</a>、<a href="/wiki/%E7%BA%BF%E6%80%A7%E7%94%9F%E6%88%90%E7%A9%BA%E9%97%B4" title="线性生成空间">线性生成空间</a>、<a href="/wiki/%E5%9F%BA_(%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)" title="基 (线性代数)">基底</a>、<a href="/wiki/%E7%A7%A9_(%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)" title="秩 (线性代数)">秩</a>等概念仍然可以适用。不过许多线性代数中的定理在模论中不成立，例如不是所有的模都有基底（有基底的模称为<a href="/wiki/%E8%87%AA%E7%94%B1%E6%A8%A1" title="自由模">自由模</a>），自由模的秩不唯一，不是所有模中的线性独立的子集都可以延伸成为基底，也不是所有模生成空间的子集都包括基底。
+</p><p><a href="/wiki/%E5%A4%9A%E9%87%8D%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="多重线性代数">多重线性代数</a>推广线性代数的方法。和线性代数一样也是建立在<a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量</a>的概念上，发展<a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a>的理论。在应用上，出现许多类型的<a class="mw-redirect" href="/wiki/%E5%BC%A0%E9%87%8F" title="张量">张量</a>。
+</p><p>在算子的谱理论中，通过<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a>，可以控制无限维矩阵。<a href="/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析">泛函分析</a>混合线性代数和<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a>中的方式，研究许多不同函数空间，例如<a href="/wiki/Lp%E7%A9%BA%E9%97%B4" title="Lp空间">Lp空间</a>。
+</p>
+<h2><span id=".E6.B3.A8.E8.A7.A3"></span><span class="mw-headline" id="注解">注解</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=12" title="编辑章节：注解">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation" id="CITEREFStrang2005">Strang, Gilbert, Linear Algebra and Its Applications 4th, Brooks Cole, July 19, 2005, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-03-010567-8" title="Special:网络书源/978-0-03-010567-8"><span title="国际标准书号">ISBN</span> 978-0-03-010567-8</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.aufirst=Gilbert&amp;rft.aulast=Strang&amp;rft.btitle=Linear+Algebra+and+Its+Applications&amp;rft.date=2005-07-19&amp;rft.edition=4th&amp;rft.genre=book&amp;rft.isbn=978-0-03-010567-8&amp;rft.pub=Brooks+Cole&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation web">Weisstein, Eric. <a class="external text" href="https://web.archive.org/web/20210209114724/https://mathworld.wolfram.com/LinearAlgebra.html" rel="nofollow">Linear Algebra</a>. From MathWorld--A Wolfram Web Resource. Wolfram.  <span class="reference-accessdate"> [<span class="nowrap">16 April</span> 2012]</span>. （<a class="external text" href="http://mathworld.wolfram.com/LinearAlgebra.html" rel="nofollow">原始内容</a>存档于2021-02-09）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.atitle=Linear+Algebra&amp;rft.aufirst=Eric&amp;rft.aulast=Weisstein&amp;rft.genre=unknown&amp;rft.jtitle=From+MathWorld--A+Wolfram+Web+Resource.&amp;rft_id=http%3A%2F%2Fmathworld.wolfram.com%2FLinearAlgebra.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-vitulli-3"><span class="mw-cite-backlink">^ <a href="#cite_ref-vitulli_3-0"><sup><b>3.0</b></sup></a> <a href="#cite_ref-vitulli_3-1"><sup><b>3.1</b></sup></a> <a href="#cite_ref-vitulli_3-2"><sup><b>3.2</b></sup></a></span> <span class="reference-text"><cite class="citation web">Vitulli, Marie. <a class="external text" href="https://web.archive.org/web/20120910034016/http://darkwing.uoregon.edu/~vitulli/441.sp04/LinAlgHistory.html" rel="nofollow">A Brief History of Linear Algebra and Matrix Theory</a>. Department of Mathematics. University of Oregon.  <span class="reference-accessdate"> [<span class="nowrap">2012-01-24</span>]</span>. （<a class="external text" href="http://darkwing.uoregon.edu/~vitulli/441.sp04/LinAlgHistory.html" rel="nofollow">原始内容</a>存档于2012-09-10）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.atitle=A+Brief+History+of+Linear+Algebra+and+Matrix+Theory&amp;rft.aufirst=Marie&amp;rft.aulast=Vitulli&amp;rft.genre=unknown&amp;rft.jtitle=Department+of+Mathematics&amp;rft_id=http%3A%2F%2Fdarkwing.uoregon.edu%2F~vitulli%2F441.sp04%2FLinAlgHistory.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-O'Connor-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-O'Connor_4-0">^</a></b></span> <span class="reference-text"><cite class="citation web">O'Connor J J  and Robertson E F. <a class="external text" href="https://web.archive.org/web/20150308120526/http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Matrices_and_determinants.html" rel="nofollow">Matrices and determinants</a>. School of Mathematical and Computational Sciences, University of St Andrews.  <span class="reference-accessdate"> [<span class="nowrap">2013-10-14</span>]</span>. （<a class="external text" href="http://www-groups.dcs.st-and.ac.uk/~history/HistTopics/Matrices_and_determinants.html" rel="nofollow">原始内容</a>存档于2015-03-08）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.au=O%27Connor+J+J+and+Robertson+E+F&amp;rft.btitle=Matrices+and+determinants&amp;rft.genre=unknown&amp;rft.pub=School+of+Mathematical+and+Computational+Sciences%2C+University+of+St+Andrews&amp;rft_id=http%3A%2F%2Fwww-groups.dcs.st-and.ac.uk%2F~history%2FHistTopics%2FMatrices_and_determinants.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation book">Hussein Tevfik. <a class="external text" href="http://archive.org/details/linearalgebra00tevfgoog" rel="nofollow">Linear Algebra</a>. A.H. Boyajian. 1882 <span class="reference-accessdate"> [<span class="nowrap">2013-10-13</span>]</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.au=Hussein+Tevfik&amp;rft.btitle=Linear+Algebra&amp;rft.date=1882&amp;rft.genre=book&amp;rft.pub=A.H.+Boyajian&amp;rft_id=http%3A%2F%2Farchive.org%2Fdetails%2Flinearalgebra00tevfgoog&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web">Gert Schubring. <a class="external text" href="https://archive.today/20140316195422/http://www.journals.istanbul.edu.tr/tr/index.php/oba/article/download/9103/8452" rel="nofollow">HÜSEYİN TEVFİK PASHA – THE INVENTOR OF‘LINEAR ALGEBRA’</a>. 2007 <span class="reference-accessdate"> [<span class="nowrap">2013-10-14</span>]</span>. （<a class="external text" href="http://www.journals.istanbul.edu.tr/tr/index.php/oba/article/download/9103/8452" rel="nofollow">原始内容</a>存档于2014-03-16）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.au=Gert+Schubring&amp;rft.btitle=H%C3%9CSEY%C4%B0N+TEVF%C4%B0K+PASHA+%E2%80%93+THE+INVENTOR+OF%E2%80%98LINEAR+ALGEBRA%E2%80%99&amp;rft.date=2007&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.journals.istanbul.edu.tr%2Ftr%2Findex.php%2Foba%2Farticle%2Fdownload%2F9103%2F8452&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text"><cite class="inline">Roman <a href="#CITEREFRoman2005">2005</a>, ch. 1, p. 27</cite></span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">对于<a class="new" href="/w/index.php?title=%E6%9C%89%E9%99%90%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B&amp;action=edit&amp;redlink=1" title="有限生成模型（页面不存在）">有限生成</a>的向量空间存在一个基是直接了当的，但是在<a class="new" href="/w/index.php?title=%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4%E7%9A%84%E7%BB%B4%E6%95%B0%E5%AE%9A%E7%90%86&amp;action=edit&amp;redlink=1" title="向量空间的维数定理（页面不存在）">完全一般性</a>的情况下，它逻辑上等价于<a href="/wiki/%E9%80%89%E6%8B%A9%E5%85%AC%E7%90%86" title="选择公理">选择公理</a>。</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation book">段正敏、王汉明. <a class="external text" href="https://web.archive.org/web/20131021172814/http://books.google.com.tw/books?id=6G7BGw1S7VIC&amp;pg=PA66#v=onepage&amp;q&amp;f=false" rel="nofollow">线性代数</a>. 北京: 清华大学出版社有限公司. 2006: p66 <span class="reference-accessdate"> [<span class="nowrap">2013-10-21</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/7302123500" title="Special:网络书源/7302123500"><span title="国际标准书号">ISBN</span> 7302123500</a>. （<a class="external text" href="http://books.google.com.tw/books?id=6G7BGw1S7VIC&amp;pg=PA66#v=onepage&amp;q&amp;f=false" rel="nofollow">原始内容</a>存档于2013-10-21）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.au=%E6%AE%B5%E6%AD%A3%E6%95%8F%E3%80%81%E7%8E%8B%E6%B1%89%E6%98%8E&amp;rft.btitle=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.date=2006&amp;rft.genre=book&amp;rft.isbn=7302123500&amp;rft.pages=p66&amp;rft.place=%E5%8C%97%E4%BA%AC&amp;rft.pub=%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E5%87%BA%E7%89%88%E7%A4%BE%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8&amp;rft_id=http%3A%2F%2Fbooks.google.com.tw%2Fbooks%3Fid%3D6G7BGw1S7VIC%26pg%3DPA66%23v%3Donepage%26q%26f%3Dfalse&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span><span class="citation-comment" style="display:none; color:#33aa33"> 引文格式1维护：冗余文本 (<a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">link</a>)</span></span>
+</li>
+</ol></div>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">This axiom is not asserting the associativity of an operation, since there are two operations in question, scalar multiplication: <i>bv</i>; and field multiplication: <i>ab</i>.</span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.82.E8.A7.81"></span><span class="mw-headline" id="参见">参见</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=13" title="编辑章节：参见">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/%E6%95%B0%E5%80%BC%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="数值线性代数">数值线性代数</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F" title="特征向量">特征向量</a></li>
+<li><a href="/wiki/%E5%9F%BA%E7%A1%80%E7%9F%A9%E9%98%B5" title="基础矩阵">基础矩阵</a></li>
+<li><a href="/wiki/%E7%B7%9A%E6%80%A7%E5%9B%9E%E6%AD%B8" title="线性回归">线性回归</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%96%AE%E7%B4%94%E5%BD%A2%E6%B3%95" title="单纯形法">单纯形法</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92" title="线性规划">线性规划</a></li>
+<li><a href="/wiki/%E5%8F%98%E6%8D%A2%E7%9F%A9%E9%98%B5" title="变换矩阵">变换矩阵</a></li></ul>
+<h2><span id=".E6.8B.93.E5.B1.95.E9.98.85.E8.AF.BB"></span><span class="mw-headline" id="拓展阅读">拓展阅读</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=14" title="编辑章节：拓展阅读">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="references-small">
+<ul><li><b>Beezer, Rob</b>, <a class="external text" href="http://linear.ups.edu/index.html" rel="nofollow"><i>A First Course in Linear Algebra</i></a> （<a class="external text" href="//web.archive.org/web/20131104171816/http://linear.ups.edu/index.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, licensed under <a class="mw-redirect" href="/wiki/GFDL" title="GFDL">GFDL</a>.</li>
+<li><b>Fearnley-Sander, Desmond</b>, <a class="external text" href="https://web.archive.org/web/20061206002841/http://www.maths.utas.edu.au/People/dfs/Papers/GrassmannLinAlgpaper/GrassmannLinAlgpaper.html" rel="nofollow">Hermann Grassmann and the Creation of Linear Algebra</a>, American Mathematical Monthly <b>86</b> (1979), pp. 809–817.</li>
+<li><b>Grassmann, Hermann</b>, <i>Die lineale Ausdehnungslehre ein neuer Zweig der Mathematik: dargestellt und durch Anwendungen auf die übrigen Zweige der Mathematik, wie auch auf die Statik, Mechanik, die Lehre vom Magnetismus und die Krystallonomie erläutert</i>, O. Wigand, Leipzig, 1844.</li>
+<li>Jim Hefferon: <i><a class="external text" href="http://joshua.smcvt.edu/linalg.html/" rel="nofollow">Linear Algebra</a> （<a class="external text" href="//web.archive.org/web/20140314091938/http://joshua.smcvt.edu/linalg.html/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</i>（Online textbook）</li>
+<li>Edwin H. Connell: <i><a class="external text" href="http://www.math.miami.edu/~ec/book/" rel="nofollow">Elements of Abstract and Linear Algebra</a> （<a class="external text" href="//web.archive.org/web/20140327171830/http://www.math.miami.edu/~ec/book/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</i>（Online textbook）</li></ul>
+</div>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.93.BE.E6.8E.A5"></span><span class="mw-headline" id="外部链接">外部链接</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=15" title="编辑章节：外部链接">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E5.9C.A8.E7.BA.BF.E8.B5.84.E6.BA.90"></span><span class="mw-headline" id="在线资源">在线资源</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=16" title="编辑章节：在线资源">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a class="external text" href="http://www.cyut.edu.tw/~ckhung/b/la/" rel="nofollow">朝阳科技大学线性代数讲义</a> （<a class="external text" href="//web.archive.org/web/20200630123524/http://www.cyut.edu.tw/~ckhung/b/la/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）<span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文网页">（繁体中文）</span></li>
+<li><a class="external text" href="https://web.archive.org/web/20090412062858/http://web.tongji.edu.cn/~math/xxds/" rel="nofollow">同济大学线性代数精品课程</a><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文网页">（简体中文）</span></li>
+<li><a class="external text" href="https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/" rel="nofollow">MIT Linear Algebra Video Lectures</a> （<a class="external text" href="//web.archive.org/web/20210503042042/https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, a series of 34 recorded lectures by professor Gilbert Strang (Spring 2010)<span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span></li>
+<li><a class="external text" href="http://www.math.odu.edu/~bogacki/lat/" rel="nofollow">Linear Algebra Toolkit</a> （<a class="external text" href="//web.archive.org/web/20140316062428/http://www.math.odu.edu/~bogacki/lat/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）.</li>
+<li><a class="external text" href="http://www.algebra.com/algebra/college/linear/" rel="nofollow">Linear Algebra Workbench</a> （<a class="external text" href="//web.archive.org/web/20210421154757/http://www.algebra.com/algebra/college/linear/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）: multiply and invert matrices, solve systems, eigenvalues etc.</li>
+<li><cite class="citation" id="CITEREFHazewinkel2001">Hazewinkel, Michiel (编), <a class="external text" href="http://www.encyclopediaofmath.org/index.php?title=p/l059040" rel="nofollow">Linear algebra</a>, <a href="/wiki/%E6%95%B0%E5%AD%A6%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6" title="数学百科全书">数学百科全书</a>, <a class="mw-redirect" href="/wiki/Springer_Science%2BBusiness_Media" title="Springer Science+Business Media">Springer</a>, 2001, <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-1-55608-010-4" title="Special:网络书源/978-1-55608-010-4"><span title="国际标准书号">ISBN</span> 978-1-55608-010-4</a></cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;rft.atitle=Linear+algebra&amp;rft.aufirst=Michiel&amp;rft.aulast=Hazewinkel&amp;rft.btitle=%E6%95%B0%E5%AD%A6%E7%99%BE%E7%A7%91%E5%85%A8%E4%B9%A6&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft.isbn=978-1-55608-010-4&amp;rft.pub=Springer&amp;rft_id=http%3A%2F%2Fwww.encyclopediaofmath.org%2Findex.php%3Ftitle%3Dp%2Fl059040&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><a class="external text" href="http://mathworld.wolfram.com/topics/LinearAlgebra.html" rel="nofollow">Linear Algebra</a> （<a class="external text" href="//web.archive.org/web/20140323225732/http://mathworld.wolfram.com/topics/LinearAlgebra.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） on <a href="/wiki/MathWorld" title="MathWorld">MathWorld</a>.</li>
+<li><a class="external text" href="https://planetmath.org/encyclopedia/LinearAlgebra.html" rel="nofollow">Linear Algebra overview</a> （<a class="external text" href="//web.archive.org/web/20120612024609/http://planetmath.org/encyclopedia/LinearAlgebra.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） and <a class="external text" href="https://planetmath.org/encyclopedia/NotationInLinearAlgebra.html" rel="nofollow">notation summary</a> （<a class="external text" href="//web.archive.org/web/20120925063845/http://planetmath.org/encyclopedia/NotationInLinearAlgebra.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） on <a href="/wiki/PlanetMath" title="PlanetMath">PlanetMath</a>.</li>
+<li><a class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/matrices.htm" rel="nofollow">Matrix and Linear Algebra Terms</a> （<a class="external text" href="//web.archive.org/web/20150708215551/http://www.economics.soton.ac.uk/staff/aldrich/matrices.htm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） on <a class="external text" href="https://web.archive.org/web/19990117033417/http://members.aol.com/jeff570/mathword.html" rel="nofollow">Earliest Known Uses of Some of the Words of Mathematics</a></li>
+<li><a class="external text" href="https://web.archive.org/web/20070629111825/http://www.egwald.com/linearalgebra/index.php" rel="nofollow">Linear Algebra</a> by Elmer G. Wiens. Interactive web pages for vectors, matrices, linear equations, etc.</li>
+<li><a class="external text" href="https://web.archive.org/web/20080418023739/http://www.mathlinks.ro/Forum/index.php?f=346" rel="nofollow">Linear Algebra Solved Problems</a>: Interactive forums for discussion of linear algebra problems, from the lowest up to the hardest level (<a class="new" href="/w/index.php?title=William_Lowell_Putnam_Mathematical_Competition&amp;action=edit&amp;redlink=1" title="William Lowell Putnam Mathematical Competition（页面不存在）"><i>Putnam</i></a>).</li>
+<li><a class="external text" href="https://web.archive.org/web/20130417094243/http://xmlearning.maths.ed.ac.uk/" rel="nofollow">Linear Algebra for Informatics</a>. José Figueroa-O'Farrill, <a class="mw-redirect" href="/wiki/University_of_Edinburgh" title="University of Edinburgh">University of Edinburgh</a></li>
+<li><a class="external text" href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" rel="nofollow">Essence of linear algebra</a> （<a class="external text" href="//web.archive.org/web/20210415170724/https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>），<a href="/wiki/3Blue1Brown" title="3Blue1Brown">3Blue1Brown</a>的关于线性代数基础的视频演示，重点介绍向量、矩阵及线性代数理解方面的总结。</li></ul>
+<h3><span id=".E5.9C.A8.E7.BA.BF.E4.B9.A6.E7.B1.8D"></span><span class="mw-headline" id="在线书籍">在线书籍</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit&amp;section=17" title="编辑章节：在线书籍">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li><a class="external text" href="http://joshua.smcvt.edu/linearalgebra/" rel="nofollow">Linear Algebra by Jim Hefferon</a> （<a class="external text" href="//web.archive.org/web/20140301110706/http://joshua.smcvt.edu/linearalgebra/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）: A free textbook with exercises and a solutions guide written by a professor at <a class="new" href="/w/index.php?title=Saint_Michael%27s_College&amp;action=edit&amp;redlink=1" title="Saint Michael's College（页面不存在）">Saint Michael's College</a>.<span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span></li>
+<li><a class="external text" href="https://web.archive.org/web/20070617011730/http://tutorial.math.lamar.edu/AllBrowsers/2318/2318.asp" rel="nofollow">Online Notes / Linear Algebra</a> Paul Dawkins, <a class="new" href="/w/index.php?title=Lamar_University&amp;action=edit&amp;redlink=1" title="Lamar University（页面不存在）">Lamar University</a><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span></li>
+<li>Matthews, Keith, <i><a class="external text" href="http://www.numbertheory.org/book/" rel="nofollow">Elementary Linear Algebra textbook with solutions</a> （<a class="external text" href="//web.archive.org/web/20140319170816/http://www.numbertheory.org/book/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</i><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span></li>
+<li>Treil, Sergei, <i><a class="external text" href="http://www.math.brown.edu/~treil/papers/LADW/LADW.html" rel="nofollow">Linear Algebra Done Wrong</a> （<a class="external text" href="//web.archive.org/web/20140131014517/http://www.math.brown.edu/~treil/papers/LADW/LADW.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</i><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span></li></ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="3" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template:数学领域"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="Template talk:数学领域"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>（<a href="/wiki/%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="数学领域">数学领域</a>）</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">历史</a></li>
+<li><span class="ilh-all" data-foreign-title="Outline of mathematics" data-lang-code="en" data-lang-name="英语" data-orig-title="数学纲要"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E7%BA%B2%E8%A6%81&amp;action=edit&amp;redlink=1" title="数学纲要（页面不存在）">纲要</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Outline_of_mathematics" title="en:Outline of mathematics"><span dir="auto" lang="en">Outline of mathematics</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8" title="数学符号表">符号表</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80" title="数学基础">数学基础</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%8C%83%E7%95%B4%E8%AE%BA" title="范畴论">范畴论</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%93%B2%E5%AD%A6" title="数学哲学">数学哲学</a></li></ul>
+</div></td><td class="navbox-image" rowspan="23" style="width:0%;padding:0px 0px 0px 2px"><div><a class="image" href="/wiki/File:Math.svg"><img alt="Math.svg" data-file-height="800" data-file-width="800" decoding="async" height="80" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/80px-Math.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/120px-Math.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Math.svg/160px-Math.svg.png 2x" width="80"/></a></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BB%A3%E6%95%B0" title="代数">代数</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0" title="抽象代数">抽象代数</a></li>
+<li><a href="/wiki/%E5%88%9D%E7%AD%89%E4%BB%A3%E6%95%B8" title="初等代数">初等代数</a></li>
+<li><a class="mw-selflink selflink">线性代数</a></li>
+<li><a href="/wiki/%E5%A4%9A%E9%87%8D%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="多重线性代数">多重线性代数</a></li>
+<li><a href="/wiki/%E6%B3%9B%E4%BB%A3%E6%95%B0" title="泛代数">泛代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A7%AF%E5%88%86" title="微积分">微积分</a></li>
+<li><a href="/wiki/%E5%AE%9E%E5%8F%98%E5%87%BD%E6%95%B0%E8%AE%BA" title="实变函数论">实变函数</a></li>
+<li><a href="/wiki/%E8%A4%87%E5%88%86%E6%9E%90" title="复分析">复变函数</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="微分方程">微分方程</a></li>
+<li><a href="/wiki/%E6%B3%9B%E5%87%BD%E5%88%86%E6%9E%90" title="泛函分析">泛函分析</a></li>
+<li><a href="/wiki/%E8%AA%BF%E5%92%8C%E5%88%86%E6%9E%90" title="调和分析">调和分析</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6" title="离散数学">离散数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%84%E5%90%88%E6%95%B0%E5%AD%A6" title="组合数学">组合数学</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E5%BA%8F%E7%90%86%E8%AE%BA" title="序理论">序理论</a></li>
+<li><a href="/wiki/%E5%8D%9A%E5%BC%88%E8%AE%BA" title="博弈论">博弈论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%87%A0%E4%BD%95%E5%AD%A6" title="几何学">几何学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E5%87%A0%E4%BD%95" title="代数几何">代数几何</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95" title="解析几何">解析几何</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95" title="微分几何">微分几何</a></li>
+<li><a href="/wiki/%E7%A6%BB%E6%95%A3%E5%87%A0%E4%BD%95%E5%AD%A6" title="离散几何学">离散几何学</a></li>
+<li><a href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="欧几里得几何">欧几里得几何</a></li>
+<li><a href="/wiki/%E9%9D%9E%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E5%87%A0%E4%BD%95" title="非欧几里得几何">非欧几里得几何</a></li>
+<li><a href="/wiki/%E6%9C%89%E9%99%90%E5%B9%BE%E4%BD%95%E5%AD%B8" title="有限几何学">有限几何学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E8%AE%BA" title="数论">数论</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%97%E6%9C%AF" title="算术">算术</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8%E8%AB%96" title="代数数论">代数数论</a></li>
+<li><a href="/wiki/%E8%A7%A3%E6%9E%90%E6%95%B0%E8%AE%BA" title="解析数论">解析数论</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%95%B0%E8%AE%BA" title="几何数论">几何数论</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%9C%AF%E5%87%A0%E4%BD%95" title="算术几何">算术几何</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%B8%A2%E7%95%AA%E5%9B%BE%E5%87%A0%E4%BD%95" title="丢番图几何">丢番图几何</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%8B%93%E6%89%91%E5%AD%A6" title="拓扑学">拓扑学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BB%A3%E6%95%B0%E6%8B%93%E6%89%91" title="代数拓扑">代数拓扑</a></li>
+<li><a href="/wiki/%E5%BE%AE%E5%88%86%E6%8B%93%E6%89%91" title="微分拓扑">微分拓扑</a></li>
+<li><a href="/wiki/%E5%87%A0%E4%BD%95%E6%8B%93%E6%89%91%E5%AD%A6" title="几何拓扑学">几何拓扑</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%B5%8B%E5%BA%A6" title="测度">测度与概率</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="数理统计学">数理统计学</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6" title="数据科学">数据科学</a></li>
+<li><a href="/wiki/%E6%8E%A8%E8%AB%96%E7%B5%B1%E8%A8%88%E5%AD%B8" title="推论统计学">统计推断</a></li>
+<li><a href="/wiki/%E8%BF%B4%E6%AD%B8%E5%88%86%E6%9E%90" title="回归分析">回归分析</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E7%90%86%E8%AE%BA" title="统计学习理论">统计学习理论</a></li>
+<li><a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a></li>
+<li><a href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">人工智能</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84" title="数据结构">数据结构</a>与<a href="/wiki/%E7%AE%97%E6%B3%95" title="算法">算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%BF%90%E7%AE%97%E6%95%B0%E5%AD%A6" title="运算数学">计算数学</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a href="/wiki/%E6%9C%80%E4%BC%98%E5%8C%96" title="最优化">最优化</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E6%A9%9F%E4%BB%A3%E6%95%B8%E7%B3%BB%E7%B5%B1" title="计算机代数系统">计算机代数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6" title="应用数学">应用数学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8E%A7%E5%88%B6%E8%AE%BA" title="控制论">控制论</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6" title="计算化学">计算化学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E7%94%9F%E7%89%A9%E5%AD%B8" title="数理生物学">数理生物学</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="数理经济学">数理经济学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E9%87%8F%E7%BB%8F%E6%B5%8E%E5%AD%A6" title="计量经济学">计量经济学</a></li>
+<li><a href="/wiki/%E6%95%B8%E7%90%86%E9%87%91%E8%9E%8D%E5%AD%B8" title="数理金融学">数理金融学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%BF%83%E7%90%86%E5%AD%A6" title="数学心理学">数学心理学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E7%89%A9%E7%90%86" title="数学物理">数学物理学</a></li>
+<li><a href="/wiki/%E7%94%9F%E7%89%A9%E7%B5%B1%E8%A8%88%E5%AD%B8" title="生物统计学">生物统计学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其它</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%8F%B2" title="数学史">数学史</a></li>
+<li><a href="/wiki/%E5%A8%9B%E6%A8%82%E6%95%B8%E5%AD%B8" title="娱乐数学">娱乐数学</a></li>
+<li><span class="ilh-all" data-foreign-title="Mathematics and art" data-lang-code="en" data-lang-name="英语" data-orig-title="数学与艺术"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B0%E5%AD%A6%E4%B8%8E%E8%89%BA%E6%9C%AF&amp;action=edit&amp;redlink=1" title="数学与艺术（页面不存在）">数学与艺术</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Mathematics_and_art" title="en:Mathematics and art"><span dir="auto" lang="en">Mathematics and art</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E6%95%99%E8%82%B2" title="数学教育">数学教育</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">注释</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>数学的领域也可根据“<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E6%A0%87%E5%87%86" title="数学学科分类标准">MSC分类标准</a>”或“<a href="/wiki/%E4%B8%AD%E5%9B%BD%E5%AD%A6%E7%A7%91%E5%88%86%E7%B1%BB%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86/110" title="中国学科分类国家标准/110">中国学科分类国家标准</a>”进行分类。</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="3"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E6%95%B0%E5%AD%A6" title="Category:数学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E6%95%B0%E5%AD%A6" title="Portal:数学">主题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/><b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Mathematics" title="commons:Category:Mathematics">共享资源</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E6%95%B0%E5%AD%A6" title="WikiProject:数学">专题</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5" title="Template:线性代数的相关概念"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a class="new" href="/w/index.php?title=Template_talk:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5&amp;action=edit&amp;redlink=1" title="Template talk:线性代数的相关概念（页面不存在）"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E5%BF%B5&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a class="mw-selflink selflink">线性代数</a>的相关概念</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">重要概念</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%A0%87%E9%87%8F_(%E6%95%B0%E5%AD%A6)" title="标量 (数学)">标量</a></li>
+<li><a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a></li>
+<li><a href="/wiki/%E5%90%91%E9%87%8F%E7%A9%BA%E9%97%B4" title="向量空间">向量空间</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E5%AD%90%E7%A9%BA%E9%97%B4" title="线性子空间">向量子空间</a></li></ul>
+<ul><li><a href="/wiki/%E7%BA%BF%E6%80%A7%E7%94%9F%E6%88%90%E7%A9%BA%E9%97%B4" title="线性生成空间">线性生成空间</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84" title="线性映射">线性映射</a></li>
+<li><a href="/wiki/%E6%8A%95%E5%BD%B1" title="投影">投影</a></li>
+<li><a href="/wiki/%E7%B7%9A%E6%80%A7%E7%84%A1%E9%97%9C" title="线性无关">线性无关</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E7%BB%84%E5%90%88" title="线性组合">线性组合</a></li></ul>
+<ul><li><a href="/wiki/%E5%9F%BA_(%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)" title="基 (线性代数)">基</a></li>
+<li><a href="/wiki/%E6%A8%99%E8%A8%98_(%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8)" title="标记 (线性代数)">标记</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%88%97%E7%A9%BA%E9%97%B4" title="列空间">列空间</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%A1%8C%E7%A9%BA%E9%97%B4" title="行空间">行空间</a></li>
+<li><a href="/wiki/%E9%9B%B6%E7%A9%BA%E9%97%B4" title="零空间">零空间</a></li>
+<li><a href="/wiki/%E5%AF%B9%E5%81%B6%E7%A9%BA%E9%97%B4" title="对偶空间">对偶空间</a></li>
+<li><a href="/wiki/%E6%AD%A3%E4%BA%A4" title="正交">正交</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%80%BC" title="特征值">特征值</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F" title="特征向量">特征向量</a></li></ul>
+<ul><li><a href="/wiki/%E7%82%B9%E7%A7%AF" title="点积">数量积</a></li>
+<li><a href="/wiki/%E5%86%85%E7%A7%AF%E7%A9%BA%E9%97%B4" title="内积空间">内积空间</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%82%B9%E4%B9%98" title="点乘">点乘</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%BD%89%E7%BD%AE" title="转置">转置</a></li>
+<li><a href="/wiki/%E6%A0%BC%E6%8B%89%E5%A7%86-%E6%96%BD%E5%AF%86%E7%89%B9%E6%AD%A3%E4%BA%A4%E5%8C%96" title="格拉姆-施密特正交化">格拉姆-施密特正交化</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84" title="线性方程组">线性方程组</a></li>
+<li><a href="/wiki/%E5%85%8B%E8%90%8A%E5%A7%86%E6%B3%95%E5%89%87" title="克莱姆法则">克莱姆法则</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">矩阵</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9F%A9%E9%98%B5" title="矩阵">矩阵</a></li>
+<li><a href="/wiki/%E7%9F%A9%E9%99%A3%E4%B9%98%E6%B3%95" title="矩阵乘法">矩阵乘法</a></li>
+<li><a href="/wiki/%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3" title="矩阵分解">矩阵分解</a></li>
+<li><a href="/wiki/%E8%A1%8C%E5%88%97%E5%BC%8F" title="行列式">行列式</a></li>
+<li><a href="/wiki/%E5%AD%90%E5%BC%8F%E5%92%8C%E4%BD%99%E5%AD%90%E5%BC%8F" title="子式和余子式">子式和余子式</a></li>
+<li><a href="/wiki/%E7%A7%A9_(%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0)" title="秩 (线性代数)">矩阵的秩</a></li>
+<li><a href="/wiki/%E5%85%8B%E8%90%8A%E5%A7%86%E6%B3%95%E5%89%87" title="克莱姆法则">克莱姆法则</a></li>
+<li><a href="/wiki/%E9%80%86%E7%9F%A9%E9%98%B5" title="逆矩阵">逆矩阵</a></li>
+<li><a href="/wiki/%E9%AB%98%E6%96%AF%E6%B6%88%E5%8E%BB%E6%B3%95" title="高斯消去法">高斯消去法</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84" title="线性映射">线性变换</a></li>
+<li><a href="/wiki/%E5%88%86%E5%A1%8A%E7%9F%A9%E9%99%A3" title="分块矩阵">分块矩阵</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%95%B0%E5%80%BC%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="数值线性代数">数值线性代数</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%B5%AE%E7%82%B9%E6%95%B0" title="浮点数">浮点数</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E7%A8%B3%E5%AE%9A%E6%80%A7" title="数值稳定性">数值稳定性</a></li>
+<li><a href="/wiki/BLAS" title="BLAS">基础线性代数程序集</a></li>
+<li><a href="/wiki/%E7%A8%80%E7%96%8F%E7%9F%A9%E9%98%B5" title="稀疏矩阵">稀疏矩阵</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q82571" title="编辑维基数据链接"><img alt="编辑维基数据链接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="西班牙国家图书馆">BNE</a>: <span class="uid"><a class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX527736" rel="nofollow">XX527736</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%B3%95%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="法国国家图书馆">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb11937509n" rel="nofollow">cb11937509n</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb11937509n" rel="nofollow">(data)</a></span></span></li>
+<li><span class="nowrap"><a class="extiw" href="https://www.wikidata.org/wiki/Property:P2163" title="d:Property:P2163">FAST</a>: <span class="uid"><a class="external text" href="//experimental.worldcat.org/fast/804946" rel="nofollow">804946</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4035811-2" rel="nofollow">4035811-2</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E4%BC%9A%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%A7%E5%88%B6%E5%8F%B7" title="美国国会图书馆控制号">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh85003441" rel="nofollow">sh85003441</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8B%89%E6%89%98%E7%BB%B4%E4%BA%9A%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="拉托维亚国家图书馆">LNB</a>: <span class="uid"><a class="external text" href="https://kopkatalogs.lv/F?func=direct&amp;local_base=lnc10&amp;doc_number=000082525&amp;P_CON_LNG=ENG" rel="nofollow">000082525</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%9C%8B%E7%AB%8B%E5%9C%8B%E6%9C%83%E5%9C%96%E6%9B%B8%E9%A4%A8" title="国立国会图书馆">NDL</a>: <span class="uid"><a class="external text" href="https://id.ndl.go.jp/auth/ndlna/00570681" rel="nofollow">00570681</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8D%B7%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="捷克国家图书馆">NKC</a>: <span class="uid"><a class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph122353&amp;CON_LNG=ENG" rel="nofollow">ph122353</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1362
+Cached time: 20220925075450
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.785 seconds
+Real time usage: 0.986 seconds
+Preprocessor visited node count: 2724/1000000
+Post‐expand include size: 127109/2097152 bytes
+Template argument size: 6035/2097152 bytes
+Highest expansion depth: 10/100
+Expensive parser function count: 24/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 12705/5000000 bytes
+Lua time usage: 0.361/10.000 seconds
+Lua memory usage: 23004133/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  660.552      1 -total
+ 20.07%  132.604      2 Template:Reflist
+ 18.08%  119.461      1 Template:Lang-en
+ 11.90%   78.588      1 Template:Authority_control
+ 10.76%   71.091      2 Template:Navbox
+  8.39%   55.395      1 Template:NoteTA
+  8.23%   54.361      2 Template:Citation
+  7.45%   49.196      1 Template:Expert-subject
+  6.98%   46.134      1 Template:数学主要领域
+  6.92%   45.734      1 Template:Ambox
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:20316-0!canonical!zh and timestamp 20220925075449 and revision id 72938747.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=线性代数&amp;oldid=72938747">https://zh.wikipedia.org/w/index.php?title=线性代数&amp;oldid=72938747</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" title="Category:线性代数">线性代数</a></li><li><a href="/wiki/Category:%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2" title="Category:高等教育">高等教育</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E7%BB%B4%E6%8A%A4%EF%BC%9A%E5%86%97%E4%BD%99%E6%96%87%E6%9C%AC" title="Category:引文格式1维护：冗余文本">引文格式1维护：冗余文本</a></li><li><a href="/wiki/Category:%E8%87%AA2012%E5%B9%B41%E6%9C%88%E9%9C%80%E8%A6%81%E4%B8%93%E4%B8%9A%E4%BA%BA%E5%A3%AB%E5%85%B3%E6%B3%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:自2012年1月需要专业人士关注的页面">自2012年1月需要专业人士关注的页面</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英语的条目">含有英语的条目</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8%E6%8A%AC%E5%8D%87%E5%BC%8F%E5%BC%95%E7%94%A8%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:使用抬升式引用的条目">使用抬升式引用的条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNE%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNE标识符的维基百科条目">包含BNE标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNF%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNF标识符的维基百科条目">包含BNF标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABFAST%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含FAST标识符的维基百科条目">包含FAST标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLCCN%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LCCN标识符的维基百科条目">包含LCCN标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLNB%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LNB标识符的维基百科条目">包含LNB标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNDL%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NDL标识符的维基百科条目">包含NDL标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNKC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NKC标识符的维基百科条目">包含NKC标识符的维基百科条目</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;oldid=72938747" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;id=72938747&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q82571" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Linear_algebra" hreflang="en"><span>维基共享资源</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://zh.wikibooks.org/wiki/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" hreflang="zh"><span>维基教科书</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://zh.wikiversity.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="zh"><span>维基学院</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Line%C3%AAre_algebra" hreflang="af" lang="af" title="Lineêre algebra – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Lineare_Algebra" hreflang="gsw" lang="gsw" title="Lineare Algebra – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Alchebra_lineal" hreflang="an" lang="an" title="Alchebra lineal – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D8%AE%D8%B7%D9%8A" hreflang="ar" lang="ar" title="جبر خطي – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/%C3%81lxebra_llinial" hreflang="ast" lang="ast" title="Álxebra llinial – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/X%C9%99tti_c%C9%99br" hreflang="az" lang="az" title="Xətti cəbr – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D2%BA%D1%8B%D2%99%D1%8B%D2%A1%D0%BB%D1%8B_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ba" lang="ba" title="Һыҙыҡлы алгебра – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be" lang="be" title="Лінейная алгебра – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D1%8C%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="be-tarask" lang="be-tarask" title="Лінейная альгебра – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="bg" lang="bg" title="Линейна алгебра – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B0%E0%A7%88%E0%A6%96%E0%A6%BF%E0%A6%95_%E0%A6%AC%E0%A7%80%E0%A6%9C%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4" hreflang="bn" lang="bn" title="রৈখিক বীজগণিত – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Linearna_algebra" hreflang="bs" lang="bs" title="Linearna algebra – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/%C3%80lgebra_lineal" hreflang="ca" lang="ca" title="Àlgebra lineal – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%AC%DB%95%D8%A8%D8%B1%DB%8C_%DA%BE%DB%8E%DA%B5%DB%8C" hreflang="ckb" lang="ckb" title="جەبری ھێڵی – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Line%C3%A1rn%C3%AD_algebra" hreflang="cs" lang="cs" title="Lineární algebra – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BB%C4%95_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="cv" lang="cv" title="Линейлĕ алгебра – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Algebra_llinol" hreflang="cy" lang="cy" title="Algebra llinol – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="da" lang="da" title="Lineær algebra – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Lineare_Algebra" hreflang="de" lang="de" title="Lineare Algebra – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%93%CF%81%CE%B1%CE%BC%CE%BC%CE%B9%CE%BA%CE%AE_%CE%AC%CE%BB%CE%B3%CE%B5%CE%B2%CF%81%CE%B1" hreflang="el" lang="el" title="Γραμμική άλγεβρα – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Linear_algebra" hreflang="en" lang="en" title="Linear algebra – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Lineara_algebro" hreflang="eo" lang="eo" title="Lineara algebro – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/%C3%81lgebra_lineal" hreflang="es" lang="es" title="Álgebra lineal – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Lineaaralgebra" hreflang="et" lang="et" title="Lineaaralgebra – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aljebra_lineal" hreflang="eu" lang="eu" title="Aljebra lineal – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AC%D8%A8%D8%B1_%D8%AE%D8%B7%DB%8C" hreflang="fa" lang="fa" title="جبر خطی – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Lineaarialgebra" hreflang="fi" lang="fi" title="Lineaarialgebra – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Alg%C3%A8bre_lin%C3%A9aire" hreflang="fr" lang="fr" title="Algèbre linéaire – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Lineaar_algebra" hreflang="frr" lang="frr" title="Lineaar algebra – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" hreflang="gan" lang="gan" title="线性代数 – 赣语"><span>赣语</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Alj%C3%A8b_lin%C3%A9y%C3%A8r" hreflang="gcr" lang="gcr" title="Aljèb linéyèr – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/%C3%81lxebra_lineal" hreflang="gl" lang="gl" title="Álxebra lineal – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%91%D7%A8%D7%94_%D7%9C%D7%99%D7%A0%D7%99%D7%90%D7%A8%D7%99%D7%AA" hreflang="he" lang="he" title="אלגברה ליניארית – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B0%E0%A5%88%E0%A4%96%E0%A4%BF%E0%A4%95_%E0%A4%AC%E0%A5%80%E0%A4%9C%E0%A4%97%E0%A4%A3%E0%A4%BF%E0%A4%A4" hreflang="hi" lang="hi" title="रैखिक बीजगणित – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Linearna_algebra" hreflang="hr" lang="hr" title="Linearna algebra – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Line%C3%A1ris_algebra" hreflang="hu" lang="hu" title="Lineáris algebra – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B3%D5%AE%D5%A1%D5%B5%D5%AB%D5%B6_%D5%B0%D5%A1%D5%B6%D6%80%D5%A1%D5%B0%D5%A1%D5%B7%D5%AB%D5%BE" hreflang="hy" lang="hy" title="Գծային հանրահաշիվ – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Algebra_linear" hreflang="ia" lang="ia" title="Algebra linear – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Aljabar_linear" hreflang="id" lang="id" title="Aljabar linear – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/L%C3%ADnuleg_algebra" hreflang="is" lang="is" title="Línuleg algebra – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Algebra_lineare" hreflang="it" lang="it" title="Algebra lineare – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E7%B7%9A%E5%9E%8B%E4%BB%A3%E6%95%B0%E5%AD%A6" hreflang="ja" lang="ja" title="线型代数学 – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Linia_haljibra" hreflang="jam" lang="jam" title="Linia haljibra – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%AC%E1%83%A0%E1%83%A4%E1%83%98%E1%83%95%E1%83%98_%E1%83%90%E1%83%9A%E1%83%92%E1%83%94%E1%83%91%E1%83%A0%E1%83%90" hreflang="ka" lang="ka" title="წრფივი ალგებრა – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%A1%D1%8B%D0%B7%D1%8B%D2%9B%D1%82%D1%8B%D2%9B_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="kk" lang="kk" title="Сызықтық алгебра – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95%EB%8C%80%EC%88%98%ED%95%99" hreflang="ko" lang="ko" title="선형대수학 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Algebra_linearis" hreflang="la" lang="la" title="Algebra linearis – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lez mw-list-item"><a class="interlanguage-link-target" href="https://lez.wikipedia.org/wiki/%D0%A6%D3%80%D0%B0%D1%80%D1%86%D3%80%D0%B8%D0%BD_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="lez" lang="lez" title="ЦӀарцӀин алгебра – 列兹金语"><span>Лезги</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Aljebra_linial" hreflang="lfn" lang="lfn" title="Aljebra linial – 新共同语言"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Algebra_lineara" hreflang="lmo" lang="lmo" title="Algebra lineara – 伦巴底文"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Tiesin%C4%97_algebra" hreflang="lt" lang="lt" title="Tiesinė algebra – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Line%C4%81r%C4%81_algebra" hreflang="lv" lang="lv" title="Lineārā algebra – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B0%D1%80%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="mk" lang="mk" title="Линеарна алгебра – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B0%E0%B5%87%E0%B4%96%E0%B5%80%E0%B4%AF_%E0%B4%AC%E0%B5%80%E0%B4%9C%E0%B4%97%E0%B4%A3%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="രേഖീയ ബീജഗണിതം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Algebra_linear" hreflang="ms" lang="ms" title="Algebra linear – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Lineaire_algebra" hreflang="nl" lang="nl" title="Lineaire algebra – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="nn" lang="nn" title="Lineær algebra – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Line%C3%A6r_algebra" hreflang="nb" lang="nb" title="Lineær algebra – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Alg%C3%A8bra_lineara" hreflang="oc" lang="oc" title="Algèbra lineara – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Algebra_liniowa" hreflang="pl" lang="pl" title="Algebra liniowa – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/%C3%80lgebra_linear" hreflang="pms" lang="pms" title="Àlgebra linear – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/%C3%81lgebra_linear" hreflang="pt" lang="pt" title="Álgebra linear – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Algebr%C4%83_liniar%C4%83" hreflang="ro" lang="ro" title="Algebră liniară – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="ru" lang="ru" title="Линейная алгебра – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Algibbra_liniari" hreflang="scn" lang="scn" title="Algibbra liniari – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Linear_algebra" hreflang="sco" lang="sco" title="Linear algebra – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Linearna_algebra" hreflang="sh" lang="sh" title="Linearna algebra – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Linear_algebra" hreflang="en-simple" lang="en-simple" title="Linear algebra – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Line%C3%A1rna_algebra" hreflang="sk" lang="sk" title="Lineárna algebra – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Linearna_algebra" hreflang="sl" lang="sl" title="Linearna algebra – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Algjebra_lineare" hreflang="sq" lang="sq" title="Algjebra lineare – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BD%D0%B5%D0%B0%D1%80%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="sr" lang="sr" title="Линеарна алгебра – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Linj%C3%A4r_algebra" hreflang="sv" lang="sv" title="Linjär algebra – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Aljebra_mstari" hreflang="sw" lang="sw" title="Aljebra mstari – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AF%87%E0%AE%B0%E0%AE%BF%E0%AE%AF%E0%AE%B2%E0%AF%8D_%E0%AE%87%E0%AE%AF%E0%AE%B1%E0%AF%8D%E0%AE%95%E0%AE%A3%E0%AE%BF%E0%AE%A4%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="நேரியல் இயற்கணிதம் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0%D0%B8_%D1%85%D0%B0%D1%82%D1%82%D3%A3" hreflang="tg" lang="tg" title="Алгебраи хаттӣ – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%9E%E0%B8%B5%E0%B8%8A%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B9%80%E0%B8%8A%E0%B8%B4%E0%B8%87%E0%B9%80%E0%B8%AA%E0%B9%89%E0%B8%99" hreflang="th" lang="th" title="พีชคณิตเชิงเส้น – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Alhebrang_linyar" hreflang="tl" lang="tl" title="Alhebrang linyar – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Lineer_cebir" hreflang="tr" lang="tr" title="Lineer cebir – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9B%D1%96%D0%BD%D1%96%D0%B9%D0%BD%D0%B0_%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0" hreflang="uk" lang="uk" title="Лінійна алгебра – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%AE%D8%B7%DB%8C_%D8%A7%D9%84%D8%AC%D8%A8%D8%B1%D8%A7" hreflang="ur" lang="ur" title="خطی الجبرا – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Chiziqli_algebra" hreflang="uz" lang="uz" title="Chiziqli algebra – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A1i_s%E1%BB%91_tuy%E1%BA%BFn_t%C3%ADnh" hreflang="vi" lang="vi" title="Đại số tuyến tính – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Alhebra_Linyal" hreflang="war" lang="war" title="Alhebra Linyal – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0" hreflang="wuu" lang="wuu" title="线性代数 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%9C%D7%99%D7%A0%D7%A2%D7%90%D7%A8%D7%A2_%D7%90%D7%9C%D7%92%D7%A2%D7%91%D7%A8%D7%A2" hreflang="yi" lang="yi" title="לינעארע אלגעברע – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/%C3%81lj%E1%BA%B9%CC%81br%C3%A0_on%C3%ADgb%E1%BB%8Dr%E1%BB%8D" hreflang="yo" lang="yo" title="Áljẹ́brà onígbọrọ – 约鲁巴语"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/S%C3%B2a%E2%81%BF-s%C3%A8ng_t%C4%81i-s%C3%B2%CD%98" hreflang="nan" lang="nan" title="Sòaⁿ-sèng tāi-sò͘ – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8" hreflang="yue" lang="yue" title="线性代数 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q82571#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年7月28日 (星期四) 08:39。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.785","walltime":"0.986","ppvisitednodes":{"value":2724,"limit":1000000},"postexpandincludesize":{"value":127109,"limit":2097152},"templateargumentsize":{"value":6035,"limit":2097152},"expansiondepth":{"value":10,"limit":100},"expensivefunctioncount":{"value":24,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":12705,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  660.552      1 -total"," 20.07%  132.604      2 Template:Reflist"," 18.08%  119.461      1 Template:Lang-en"," 11.90%   78.588      1 Template:Authority_control"," 10.76%   71.091      2 Template:Navbox","  8.39%   55.395      1 Template:NoteTA","  8.23%   54.361      2 Template:Citation","  7.45%   49.196      1 Template:Expert-subject","  6.98%   46.134      1 Template:数学主要领域","  6.92%   45.734      1 Template:Ambox"]},"scribunto":{"limitreport-timeusage":{"value":"0.361","limit":"10.000"},"limitreport-memusage":{"value":23004133,"limit":52428800}},"cachereport":{"origin":"mw1362","timestamp":"20220925075450","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7ebf\u6027\u4ee3\u6570","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0","sameAs":"http:\/\/www.wikidata.org\/entity\/Q82571","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q82571","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-02T07:54:23Z","dateModified":"2022-07-28T08:39:49Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2f\/Linear_subspaces_with_shading.svg"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7ebf\u6027\u4ee3\u6570","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0","sameAs":"http:\/\/www.wikidata.org\/entity\/Q82571","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q82571","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-02T07:54:23Z","dateModified":"2022-07-28T08:39:49Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/2\/2f\/Linear_subspaces_with_shading.svg"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":158,"wgHostname":"mw1436"});});</script>
+</body>
+</html>

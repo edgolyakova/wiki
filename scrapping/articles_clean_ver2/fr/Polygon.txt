@@ -1,0 +1,126 @@
+Polygone
+Vocabulaire de base
+Typologie des polygones
+Somme des angles
+Polygones équivalents (combinatoire)
+Notes et références
+Voir aussi
+Ordre d'un polygone
+Éléments opposés
+Côtés prolongés et diagonales
+Classement suivant le nombre de côtés
+Classement par convexité
+Classement par symétrie
+Classement par les angles
+Autres classements
+Articles connexes
+Liens externes
+Polygone croisé
+Polygone simple
+Notion d'élément de symétrie
+Notion de polygone régulier
+Symétrie axiale
+Symétrie centrale
+Polygone équiangle
+Angles droits
+Polygone inscriptible (dans un cercle)
+Polygone circonscriptible (à un cercle)
+Polygone bicentrique
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Polygone (homonymie).
+En géométrie euclidienne, un polygone (du grec polus, nombreux, et gônia, angle) est une figure géométrique plane formée d'une ligne brisée (appelée aussi ligne polygonale) fermée, c'est-à-dire d'une suite cyclique de segments consécutifs.
+Les segments sont appelés bords ou côtés et les extrémités des côtés sont appelés sommets ou coins du polygone.
+Un polygone est dit croisé si au moins deux côtés non consécutifs sont sécants, et simple si l'intersection de deux côtés est vide ou réduite à un sommet pour deux côtés consécutifs.
+La somme des angles d'un polygone simple (convexe ou non) ne dépend que de son nombre de sommets.
+Dans le cas des polygones simples, on confond souvent le polygone et son intérieur en appelant polygone la surface délimitée par la ligne polygonale fermée.
+La notion de polygone est généralisée :
+Un polygone est constitué :
+Un polygone est en général désigné par la juxtaposition des lettres désignant les sommets, dans l'ordre de la suite.
+La désignation d'un polygone en toute généralité s'écrit donc A1A2A3···An, constitué de n sommets et de n segments [A1, A2], [A2, A3], …, [An–1, An] et [An, A1].
+À chaque sommet distinct de ses deux voisins est associé un angle interne : c'est l'angle entre les deux côtés qui aboutissent au sommet.
+Le périmètre d'un polygone est la somme des longueurs de ses côtés.
+L'ordre d'un polygone est le nombre de ses côtés. C'est évidemment aussi le nombre de ses sommets ou celui de ses angles.
+Les droites qui portent les côtés d'un polygone sont appelées les côtés prolongés de ce polygone.
+Une diagonale d'un polygone est un segment qui joint deux sommets non consécutifs, c'est-à-dire un segment qui joint deux sommets et qui n'est pas un côté du polygone.
+Un polygone à n côtés possède ainsi 
+−
+=
+−
+diagonales.
+Il existe de nombreuses manières de classer les polygones : en fonction de leur convexité, de leurs symétries, de leurs angles... Mais on les classe d'abord suivant leur nombre de côtés.
+Les polygones peuvent être classés entre eux suivant leur ordre.
+Les polygones d'ordre 1 et 2 sont dits dégénérés : ils correspondent respectivement à un point, et à un segment, et possèdent en particulier de ce fait une aire nulle.
+Le polygone non dégénéré le plus élémentaire est le triangle.
+Vient ensuite le quadrilatère, d'ordre 4.
+À partir de l'ordre 5, chaque nom de polygone est formé d'une racine grecque correspondant à l'ordre du polygone suivie du suffixe -gone.
+Pour s'y retrouver dans la dénomination des polygones, il faut retenir que -kai- signifie « et » en grec, et que -conta- signifie « dizaine ». Par exemple, le mot triacontakaiheptagone signifie trois (tria-) dizaines (-conta-) et (-kai-) sept (-hepta-) unités, et correspond donc à un polygone de trente-sept côtés, « et » étant interprété ici comme « plus ».
+Au-delà de 12 côtés, la coutume est de parler de polygone à n côtés.
+Il existe cependant plusieurs dénominations anciennes pour des nombres « ronds » comme pour un polygone à vingt côtés (icosa-), à cent côtés (hecto-), à mille côtés (chilio-) et à dix mille côtés (myria-).
+d’Alembert, Le Blond, L’Encyclopédie, 1re éd., t. Tome 12, 1751 (lire sur Wikisource), p. 941-943
+L'Encyclopédie donne le principe, auquel la numération du grec ancien doit être ajoutée.
+Les mêmes principes s'appliquent aux polyèdres, où il suffit de remplacer le suffixe -gone par le suffixe -èdre.
+Un polygone est dit croisé si au moins deux de ses côtés sont sécants, c'est-à-dire si au moins deux de ses côtés non consécutifs se coupent. C'est le cas du pentagone ABCDE ci-contre.
+Un polygone est dit simple si deux côtés non consécutifs ne se rencontrent pas et deux côtés consécutifs n'ont en commun que l'un de leurs sommets. Un polygone simple est toujours non croisé.
+Il forme alors une courbe de Jordan, qui délimite une partie bornée du plan, appelée son intérieur.
+On appelle aire d'un polygone simple l'aire de son intérieur.
+Un polygone simple est dit non convexe si son intérieur n'est pas convexe, autrement dit si l'une de ses diagonales n'est pas entièrement dans son intérieur.
+Par exemple, le pentagone simple ACDBE ci-contre est non convexe car les diagonales [B, C] et [C, E] ne sont pas dans l'intérieur du polygone.
+Le segment ouvert ]B, C[ est même complètement à l'extérieur. L'existence d'une telle « bouche » est une propriété générale des polygones simples non convexes.
+Un polygone est dit convexe s'il est simple et si son intérieur est convexe.
+Ainsi, l'hexagone MNOPQR ci-contre est convexe.
+Les symétries d'un polygone d'ordre n sont les isométries du plan euclidien qui permutent à la fois ses n sommets et ses n côtés. Une telle application affine fixe nécessairement l'isobarycentre G des sommets donc ne peut être que de deux types :
+L'ensemble des symétries de n'importe quelle figure plane est un sous-groupe du groupe des isométries du plan.
+En effet, lorsqu'on compose deux de ces symétries ou qu'on prend la bijection réciproque de l'une d'elles, le résultat est encore une symétrie de la figure.
+Les symétries d'un polygone d'ordre n forment même un groupe fini, qui est égal, pour un certain diviseur d de n :
+Un polygone d'ordre n est dit régulier s'il est équilatéral (côtés égaux) et équiangle (angles égaux), ou encore s'il est « le plus symétrique possible », c'est-à-dire si son groupe de symétrie est Dn. Il suffit pour cela que le polygone possède n axes de symétrie, ou encore : une rotation d'ordre n. Lorsqu'on dit « le polygone régulier d'ordre n », il s'agit de l'« unique » polygone convexe de cette famille (on calcule facilement son périmètre et son aire). Les autres sont dits étoilés.
+Le groupe de symétrie est diédral si et seulement si le polygone admet un axe de symétrie.
+Si le polygone n'est pas croisé, un tel axe passe nécessairement par un sommet ou le milieu d'un côté.[réf. nécessaire]
+Plus précisément :
+Dans un polygone d'ordre n, pour que l'isobarycentre soit un centre de symétrie — c'est-à-dire pour que le groupe de symétrie Cd ou Dd contienne la rotation d'angle π — il faut et il suffit que d soit pair, donc il faut que n soit pair.
+Les côtés opposés sont alors parallèles et de même longueur.
+Les quadrilatères non croisés possédant une symétrie centrale sont les parallélogrammes.
+Un polygone est dit équiangle quand tous ses angles internes sont égaux.
+Dans un polygone convexe équiangle à n côtés, chaque angle interne mesure (1 – 2/n)×180° (cf. § « Somme des angles » ci-dessous).
+Un triangle rectangle comporte un angle droit et deux angles aigus.
+Les quadrilatères convexes à au moins deux angles droits sont les trapèzes rectangles et cerfs-volants à deux angles droits  (constitués de deux triangles rectangles accolés par leur hypoténuse).
+Les quadrilatères comportant au moins trois angles droits sont les rectangles.
+Un polygone convexe ne peut présenter plus de quatre angles droits.
+Un polygone est dit inscriptible quand tous ses sommets se trouvent sur un même cercle, dit cercle circonscrit au polygone.
+Ses côtés sont alors des cordes de ce cercle.
+Parmi les quadrilatères inscriptibles, on trouve les trapèzes isocèles, les antiparallélogrammes et les cerfs-volants à deux angles droits.
+Un polygone est dit circonscriptible quand tous ses côtés sont tangents à un même cercle, dit cercle inscrit dans le polygone.
+Les anglophones et les germanophones ont baptisé « polygone tangent » ce type de polygone.
+Un polygone à la fois inscriptible et circonscriptible est dit bicentrique . Les triangles et les polygones réguliers sont bicentriques.
+Voir aussi : « Grand théorème de Poncelet » et « Quadrilatère bicentrique  ».
+La somme des angles internes d'un polygone simple d'ordre n ne dépend pas de sa forme.
+Elle vaut (en radians et en degrés) :
+En effet, cette formule, bien connue pour n = 3, se généralise en découpant le polygone en n – 2 triangles accolés deux à deux par un côté commun, qui est une diagonale de ce polygone (dans le cas particulier d'un polygone convexe, il suffit de considérer tous les segments joignant un certain sommet à tous les autres).
+Une autre façon de démontrer cette formule est de remarquer que (pour des angles orientés convenablement) la somme des n angles externes est égale à 360° et les angles externe et interne associés à un même sommet ont pour somme 180°.
+Deux polygones sont dits équivalents s'ils peuvent s'obtenir par rotation ou réflexion l'un de l'autre.
+Ainsi pour 
+=
+…
+il existe 
+12
+39
+202
+…
+polygones non équivalents (suite A000940 de l'OEIS).
+Parmi eux certains sont chiraux 
+15
+130
+…
+polygones chiraux pour 
+=
+…
+côtés).
+Le nombre de polygones non équivalents par rotation seulement vaut donc 
+14
+54
+332
+…
+(suite A000939 de l'OEIS).
+Sur les autres projets Wikimedia :

@@ -1,0 +1,128 @@
+Droite (mathématiques)
+Point de vue concret
+L'approche euclidienne
+Approche algébrique
+Logique et géométrie
+Géométrie analytique
+Notes et références
+Articles connexes
+Définition formelle
+Applications
+Motivations
+Géométrie vectorielle
+Géométrie affine
+Applications
+Motivation
+Rôle de Hilbert
+Géométries non euclidiennes
+Espace affine de dimension 2
+Espace affine de dimension n
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Droite.
+En géométrie, la droite désigne un objet géométrique formé de points alignés. Elle est illimitée des deux côtés, et sans épaisseur.
+Dans la pratique, elle est représentée sur une feuille par une ligne droite ayant bien entendu des limites — celles de la feuille — et une épaisseur —celle du crayon.
+Pour les Anciens, la droite était un concept « allant de soi », si « évident » que l'on négligeait de préciser de quoi l'on parlait. L'un des premiers à formaliser la notion de droite fut le Grec Euclide dans ses Éléments.
+Avec le développement du calcul algébrique et du calcul vectoriel, d'autres définitions vinrent s'ajouter.
+Mais c'est la naissance des géométries non euclidiennes qui a conduit à la découverte de nouveaux types de « droites » et, par là-même, nous a forcés à éclaircir et approfondir ce concept.
+« La ligne droite est le plus court chemin pour aller d'un point à un autre ». On définit ainsi le segment de droite limité par ces deux points.
+Ensuite on dit que trois points sont alignés si et seulement si l'un de ces trois points appartient au segment déterminé par les deux autres.
+Et enfin on appelle droite définie par deux points A et B l'ensemble des points alignés avec A et B, y compris ces points A et B.
+Cette définition simple suffit à certaines applications concrètes.
+Elle permet par exemple au jardinier de tracer ses lignes de semis : en tendant une corde entre deux piquets, il matérialise une ligne « tirée au cordeau ». Une autre image habituelle est celle du fil à plomb. C'est-à-dire, dans les deux cas, un fil tendu dont on néglige l'épaisseur.
+Différentes limitations de cette définition ont conduit les mathématiciens à lui en préférer d'autres.
+Par exemple, si on assimile la Terre à une sphère, le chemin le plus court entre deux points n'est plus une ligne droite, mais un arc de cercle.
+Cependant, à l'échelle d'un être humain, ce cercle est si grand qu'une ligne droite en est une bonne approximation. La notion de « chemin le plus court » est étudiée sous le nom de géodésique.
+Dans ses Éléments, Euclide définit les objets relevant de la géométrie dite euclidienne (point, droite, plan, angle) et leur affecte un certain nombre de postulats. À l'aide de ces éléments de base, il construit, par des démonstrations rigoureuses, l'ensemble des autres propriétés.
+Pour Euclide :
+Il part d'une droite finie qu'il définit comme un segment.
+Il a besoin d'un postulat pour la prolonger au-delà de ses extrémités, d'un autre pour en prouver l'existence (par deux points distincts passe une droite) et d'un autre appelé le cinquième postulat d'Euclide pour traiter des positions relatives des droites (si deux lignes sont sécantes avec une troisième de telle façon que la somme des angles intérieurs d'un côté est strictement inférieure à deux angles droits, alors ces deux lignes sont forcément sécantes de ce côté).
+L'approche d'Euclide est féconde, elle permet de démontrer de nombreux théorèmes considérés comme élémentaires au regard des mathématiques au sens moderne du terme.
+On peut citer le théorème de Thalès, le théorème de Pythagore ou encore le problème de Napoléon.
+La définition axiomatique d'Euclide apparaît trop pauvre pour résoudre plusieurs familles de problèmes.
+On peut citer historiquement ceux associés à la construction à la règle et au compas, par exemple la trisection de l'angle, la duplication du cube ou encore la construction d'un polygone régulier.
+Une approche algébrique est utilisée pour pallier cette faiblesse. À l'aide de la notion de polynôme cyclotomique, Gauss réalise une percée majeure dans ce domaine en 1801 qu'il publie dans son livre Disquisitiones arithmeticae.
+Les progrès de la physique engendrent une nouvelle branche des mathématiques, initialement appelée calcul infinitésimal et maintenant calcul différentiel.
+Elle obtient comme premier succès la compréhension de la mécanique céleste.
+Une fois encore, la modélisation d'Euclide est insuffisante pour formaliser convenablement ce domaine.
+Une nouvelle construction est alors proposée, elle se fonde sur des structures algébriques.
+Les groupes abéliens et les corps commutatifs sont utilisés pour définir un espace vectoriel puis un espace affine.
+En géométrie vectorielle, une droite vectorielle est un espace vectoriel de dimension 1.
+Si v est un vecteur non nul, la droite vectorielle engendrée par 
+est l'ensemble des vecteurs 
+pour lesquels il existe un scalaire k (un réel pour un espace vectoriel sur ℝ) k tel que
+On dit alors que les vecteurs 
+et 
+sont colinéaires.
+En géométrie affine, une droite est un espace affine de dimension 1, c'est-à-dire dont l'espace vectoriel associé est une droite vectorielle.
+Si A est un point et 
+un vecteur non nul, la droite affine passant par A et de vecteur directeur 
+est l'ensemble des points M pour lesquels il existe un scalaire k tel que
+Si A et B sont deux points distincts, la droite (AB), passant par A et B, est l'ensemble des barycentres des points A et B.
+La notion de droite est alors largement généralisée.
+En algèbre linéaire, l'espace vectoriel est un ensemble qui n'a plus nécessairement de lien avec la géométrie. L'espace vectoriel peut être une extension de corps comme dans le cadre de la théorie de Galois, l'ensemble des nombres rationnels dans le corps des réels possède les propriétés géométriques d'une droite.
+Par ailleurs, on peut étendre la notion aux ensembles finis, comme pour les codes linéaires utilisés dans la théorie de l'information, ou en arithmétique.
+Une droite est alors elle aussi un ensemble fini de points.
+En analyse, et particulièrement en analyse fonctionnelle une droite est un ensemble de fonctions.
+Par exemple les primitives d'une fonction continue réelle de la variable réelle forment une droite.
+L'approche algébrique permet d'enrichir très largement la géométrie et offre des réponses satisfaisantes à bon nombre de problèmes.
+En revanche une vieille conjecture reste ouverte : comment démontrer le cinquième postulat d'Euclide.
+Proclos l'exprime de la manière suivante : dans un plan, par un point distinct d'une droite d, il existe une unique droite parallèle à d.
+Déjà, les grecs savaient qu'une sphère semble pouvoir définir une géométrie, les droites seraient alors les grands cercles de la sphère.
+En revanche, la connexion entre une sphère et la définition d'une géométrie reste à cette époque hors de portée.
+David Hilbert apporte un élément de réponse.
+La construction d'Euclide n'est pas entièrement rigoureuse : il manque en effet quinze axiomes pour bâtir les fondements d'un système logique à même de supporter la géométrie euclidienne.
+Une telle formalisation existe, on parle par exemple d'axiomes de Hilbert.
+La réponse à la question que pose le cinquième postulat est donc de l'ordre de la logique.
+La base axiomatique d'Euclide constituée des quatre premiers postulats est trop faible pour garantir le cinquième.
+Si l'approche de Hilbert permet de résoudre cette question, elle est peu opérationnelle pour bâtir la théorie de la géométrie euclidienne.
+On utilise en général la Peano pour construire l'ensemble des entiers naturels puis les différentes structures algébriques utilisées. L'intérêt des travaux de Hilbert sur cette question est donc surtout de l'ordre de la logique et peu géométrique.
+Bien avant de comprendre la dimension logique de la problématique, dans le courant du XIXe sont nées d'autres géométries dans lesquelles la droite n'avait plus les mêmes propriétés que dans la géométrie euclidienne : les géométries non euclidiennes.
+En géométrie projective, des droites parallèles se coupent en un point impropre et par deux points ne passe qu'une seule droite.
+En géométrie hyperbolique, par un point donné, non situé sur une droite donnée, il passe au moins deux droites qui ne coupent pas la droite donnée.
+En géométrie elliptique, deux droites sont toujours sécantes.
+Un exemple classique de géométrie elliptique est la géométrie sur une sphère où le plus court chemin pour aller d'un point à un autre est une partie d'un grand cercle.
+Une droite est alors définie comme un grand cercle.
+Deux droites distinctes se coupent alors en deux points diamétralement opposés qui n'en forment qu'un pour cette géométrie.
+On retrouve la propriété : par deux points distincts passe une seule droite.
+De plus on peut aussi définir une droite comme un cercle de rayon infini.
+Cette définition est incompatible avec celle issue de l'algèbre linéaire.
+Dans ce contexte, on parle en général de géodésique pour éviter une confusion.
+Si l'espace vectoriel est muni d'une base, ou l'espace affine d'un repère, la droite peut être caractérisée par des équations.
+Une droite affine est l'ensemble des points 
+de coordonnées 
+;
+tels que 
++
++
+=
+où 
+;
+≠
+;
+Un vecteur directeur de la droite est le vecteur de coordonnées 
+−
+;
+L'équation précédente est appelée équation cartésienne de la droite.
+Dans cette famille de droites, on rencontre
+La lettre m représente la pente de la droite.
+En dimension n, la droite passant par 
+;
+;
+…
+;
+et de vecteur 
+;
+;
+…
+;
+est l'ensemble des points 
+;
+;
+…
+;
+pour lesquels il existe un scalaire k tel que
+Ce système d'équations s'appelle un système d'équations paramétrées de la droite.
+Cas particulier de l'espace (dimension 3), en :

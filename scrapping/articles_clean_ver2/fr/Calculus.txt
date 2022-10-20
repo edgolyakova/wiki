@@ -1,0 +1,63 @@
+Calcul infinitésimal
+Historique
+Principes
+Branches
+Applications
+Notes et références
+Voir aussi
+Bases
+Théorème fondamental de l'analyse
+Calcul différentiel
+Calcul intégral
+Bibliographie
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Le calcul infinitésimal (ou calcul différentiel et intégral) est une branche des mathématiques, développée à partir de l'algèbre et de la géométrie, qui implique deux idées majeures complémentaires :
+Ces deux concepts définissent des opérations inverses au sens précis défini par les théorèmes fondamentaux du calcul infinitésimal.
+Ceci veut dire qu'ils ont une priorité équivalente.
+Cependant l'approche pédagogique habituelle commence par le calcul différentiel.
+Le développement du calcul infinitésimal est attribué à Archimède, Fermat, Leibniz et Newton.
+Cependant, lorsque le calcul infinitésimal a été initialement développé, une controverse fut soulevée sur qui en avait la paternité entre Leibniz et Newton, occultant auprès du grand public l'apport de Fermat. L'algorithme du passage à la limite pour calculer la tangente à une courbe est en effet une invention de Fermat (méthode des maxima et minima) en 1636 et était public dès 1667, car rapporté par Huygens à l'Académie des sciences.
+Les évolutions ultérieures, de Leibniz et Newton (qui étaient en rapport avec Huygens), portent sur les notations.
+La contribution majeure de Leibniz fut sans conteste son système de notation.
+La controverse fut cependant malheureuse car elle a divisé pendant de nombreuses années les mathématiciens anglophones et ceux du reste de l'Europe.
+Cela a retardé le progrès de l'analyse (mathématiques basées sur le calcul infinitésimal) en Grande-Bretagne pendant longtemps.
+La terminologie et les notations de Newton étaient clairement moins flexibles que celles de Leibniz.
+Elles furent malgré tout conservées jusqu'au début du XIXe siècle lorsque le travail de l'Analytical Society introduisit avec succès la notation de Leibniz en Grande-Bretagne.
+Barrow, Descartes, Huygens et Wallis contribuèrent également dans une moindre mesure au développement du calcul infinitésimal.
+Kowa Seki, un mathématicien japonais contemporain de Leibniz et Newton, a aussi énoncé quelques principes fondamentaux du calcul intégral.
+Cependant la coupure des contacts avec l'Extrême-Orient à cette époque ne permit pas la diffusion de ses travaux en Europe.
+La justification première du développement du calcul différentiel était de trouver une solution du « problème de la tangente ».
+Les bases conceptuelles du calcul infinitésimal incluent les notions de fonctions, limites, suites infinies, séries infinies et continuité. Ces outils incluent les techniques de manipulation symbolique associées à l'algèbre élémentaire et l'induction mathématique.
+La version moderne du calcul infinitésimal, appelée « analyse réelle », consiste en une dérivation rigoureuse des résultats du calcul infinitésimal ainsi qu'en généralisations comme la théorie de la mesure et l'analyse fonctionnelle.
+Le théorème fondamental de l'analyse montre que la différentiation et l'intégration sont, dans un certain sens, des opérations inverses. C'est cette « découverte » par Newton et Leibniz qui est à l'origine de l'explosion des résultats analytiques.
+Ce lien nous permet de retrouver la variation totale d'une fonction sur un intervalle à partir de sa variation instantanée, en intégrant cette dernière.
+Le théorème fondamental nous donne aussi une méthode pour calculer beaucoup d'intégrales définies de façon algébrique, sans passer réellement à la limite, en trouvant la primitive.
+Il nous permet aussi de résoudre certaines équations différentielles.
+Une équation différentielle est une équation qui lie une fonction à ses dérivées.
+Les équations différentielles sont fondamentales en sciences.
+Le calcul différentiel consiste à trouver les taux de variation instantanés (ou dérivées) de la valeur d'une fonction par rapport aux variations du (des) paramètre(s) de celle-ci.
+Ce concept est au cœur de nombreux problèmes de physique.
+Par exemple, la théorie de base des circuits électriques est formulée en termes d'équations différentielles pour décrire les systèmes oscillants.
+La dérivée d'une fonction permet de trouver ses extrema (minima et maxima) en étudiant ses variations.
+Une autre application du calcul différentiel est la méthode de Newton, un algorithme qui permet de trouver les zéros d'une fonction en l'approchant localement par ses tangentes.
+Ceci n'est qu'un très bref aperçu des nombreuses applications du calcul infinitésimal dans des problèmes qui, à première vue, ne sont pas formulés en ces termes.
+Certains attribuent à Fermat la paternité du calcul différentiel.
+Le calcul intégral étudie les méthodes permettant de trouver l'intégrale d'une fonction.
+Elle peut être définie comme la limite de la somme de termes qui correspondent chacun à la surface d'une fine bandelette sous-tendue par le graphe de la fonction.
+Ainsi définie, l'intégration donne un moyen effectif de calculer l'aire sous une courbe ainsi que la surface et le volume de solides comme la sphère ou le cône.
+Pour rendre concrètes ces notions, on considère dans le plan (xOy) un rectangle de côtés x et y dont deux points opposés sont O et M(x,y). Sa surface est égale à xy et dépend des coordonnées x et y du point M. En suivant une démarche intuitive, on convient de noter par dx une très petite variation de la variable x. Lorsqu'on fait subir au point M un déplacement très faible, la surface va changer et on peut écrire que S + dS = (x + dx)×(y + dy) = xy + x dy + y dx + dx dy,
+et on en déduit facilement que dS = x dy + y dx + dx dy.
+Une simple application numérique où x et y seraient des mètres et dx et dy des centimètres illustre que dx dy est négligeable par rapport aux autres grandeurs.
+On peut donner un statut mathématique précis aux notations dx et dy (qui sont des formes différentielles), et à la quantité dx dy qui est alors du second ordre.
+Le calcul précédent est en fait un calcul de développement limité à l'ordre 1, faisant intervenir les dérivées premières de la fonction xy par rapport aux deux variables.
+On écrit donc :
+Toutes ces égalités sont différentes façons d'écrire un produit scalaire de deux vecteurs :
+L'intérêt de l'introduction de ces vecteurs pour exprimer la variation d'une fonction de plusieurs paramètres est de visualiser le fait que la fonction va varier le plus dans la direction du vecteur gradient et qu'elle ne va pas varier pour tout changement des paramètres dans une direction perpendiculaire au gradient.
+Le développement et l'utilisation du calcul infinitésimal a eu des conséquences importantes dans pratiquement tous les domaines.
+Il est à la base de beaucoup de sciences, notamment la physique.
+Presque toutes les techniques et technologies modernes font un usage fondamental du calcul infinitésimal.
+Celui-ci s'est étendu avec les équations différentielles, le calcul vectoriel, le calcul des variations, l'analyse complexe, ou la géométrie différentielle.
+Sur les autres projets Wikimedia :

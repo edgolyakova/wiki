@@ -1,0 +1,1516 @@
+函数
+目录
+简介[编辑]
+历史[编辑]
+正式定义[编辑]
+函数图形[编辑]
+像和原像[编辑]
+函数的限制及扩张[编辑]
+点态运算[编辑]
+函数范例[编辑]
+函数的分类[编辑]
+范畴论观点下的函数[编辑]
+参考文献[编辑]
+外部链接[编辑]
+导航菜单
+函数值的简记[编辑]
+定义域与值域[编辑]
+一对一与满射[编辑]
+实函数的判别[编辑]
+个人工具
+命名空间
+查看
+搜索
+导航
+帮助
+工具
+打印/导出
+在其他项目中
+其他语言
+函数（英语：Function）是数学描述对应关系的一种特殊集合。
+若
+
+
+
+x
+
+
+{\displaystyle x}
+
+是实数，以有序对 
+
+
+
+(
+x
+,
+
+
+x
+
+2
+
+
+)
+
+
+{\displaystyle (x,\,x^{2})}
+
+ 为元素所构成的集合就是一个函数。直观上代表＂输入＂ 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 就可以得到唯一值 
+
+
+
+
+x
+
+2
+
+
+
+
+{\displaystyle x^{2}}
+
+ 的对应关系。
+一般会以英文字母 
+
+
+
+f
+,
+
+g
+,
+
+h
+
+
+{\displaystyle f,\,g,\,h}
+
+  表示函数，并把 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 依据函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的对应规则所得到的值写作
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ ，并读作"f of x"。函数的概念不限于数之间的对应关系，例定义函数 
+
+
+
+Capital
+
+
+{\displaystyle \operatorname {Capital} }
+
+ 为世界上所有国家跟它现在的首都的对应关系，那输入英国就会输出唯一值伦敦：
+
+
+
+Capital
+⁡
+(
+
+U
+.
+K
+.
+
+)
+=
+
+L
+o
+n
+d
+o
+n
+
+
+
+{\displaystyle \operatorname {Capital} (\mathrm {U.K.} )=\mathrm {London} }
+
+。
+直观上的"多变数函数"其实也可以概括到一般函数的定义里。例如算式 
+
+
+
+x
+×
+y
+
+
+{\displaystyle x\times y}
+
+ 有两个实数参数 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 和 
+
+
+
+y
+
+
+{\displaystyle y}
+
+。可以将这两个参数看作一个实数有序对 
+
+
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle (x,y)}
+
+ ，然后定义一个以 
+
+
+
+(
+(
+x
+,
+
+y
+)
+,
+
+x
+×
+y
+)
+
+
+{\displaystyle ((x,\,y),\,x\times y)}
+
+ 为元素所构成的函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ ，然后把 
+
+
+
+f
+[
+(
+x
+,
+
+y
+)
+]
+=
+x
+×
+y
+
+
+{\displaystyle f[(x,\,y)]=x\times y}
+
+ 简记成符合直观的 
+
+
+
+f
+(
+x
+,
+
+y
+)
+=
+x
+×
+y
+
+
+{\displaystyle f(x,\,y)=x\times y}
+
+  。
+数学中，对应、映射、变换通常都是函数的别称，但也可能有别的意思，如在拓扑学的映射有时代表的是连续函数。
+在类型论的λ演算中，"对应关系"可以是作为一个原始概念(也就是无定义名词)，而不像上述的定义把函数视为集合的衍伸物。
+函数这个数学名词是莱布尼兹在1694年开始使用的，用来描述跟曲线相关的一个量，如曲线的斜率或者曲线上的某一点。莱布尼兹所指的函数现在被称作可导函数，数学家之外的普通人一般接触到的函数即属此类。对于可导函数可以讨论它的极限和导数，此两者描述了函数输出值的变化同输入值变化的关系，是微积分学的基础。中文的“函数”一词由清朝数学家李善兰译出。其《代数学》书中解释：“凡此变数中函（包含）彼变数者，则此为彼之函数”。
+函数( 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ )是一种特殊的二元关系 (也就是元素都是 
+
+
+
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle (x,\,y)}
+
+ 这样形式的二元有序对的集合) ，满足
+若以正式的逻辑符号表述就是(设下面这条合式公式简记为 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ ，等等的讨论会用到)
+也就是直观上，可以把有序对 
+
+
+
+(
+x
+,
+
+y
+)
+
+
+{\displaystyle (x,\,y)}
+
+ 看成 (输入值, 输出值)；而函数本身是穷举输出入值来详尽定义的对应规则。而且依照函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的规则，若 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 同时对应 到 
+
+
+
+y
+
+
+{\displaystyle y}
+
+ 和 
+
+
+
+
+y
+
+′
+
+
+
+
+{\displaystyle y^{\prime }}
+
+，则必然 
+
+
+
+y
+=
+
+y
+
+′
+
+
+
+
+{\displaystyle y=y^{\prime }}
+
+，也就是说一个 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 只能对应到仅仅唯一的一个输出。
+习惯上把 
+
+
+
+(
+x
+,
+
+y
+)
+∈
+f
+
+
+{\displaystyle (x,\,y)\in f}
+
+ 等价的写为 
+
+
+
+y
+=
+f
+(
+x
+)
+
+
+{\displaystyle y=f(x)}
+
+ 。但事实上， 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ 是在一阶逻辑公理化集合论下，基于 
+
+
+
+
+
+A
+
+
+
+
+{\displaystyle {\mathcal {A}}}
+
+ 所确保的唯一性，而新增的双元函数符号 ( 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 和 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 各为一个变数) ，而它的＂定义＂本质上是以下额外增加的公理 ( 唯一性保证新增这条公理后，"新理论"所拥有的定理和"旧理论"是一样的，详请参见函数符号与唯一性)
+其中 
+
+
+
+
+
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ 为以下合式公式的简写
+B
+
+
+
+
+{\displaystyle {\mathcal {B}}}
+
+ 事实上就是 
+
+
+
+f
+
+
+{\displaystyle f}
+
+  为二元关系的正式逻辑符号表述。
+直观上＂n变数＂的函数，也就是以
+为元素的函数 
+
+
+
+
+
+f
+
+
+
+
+{\displaystyle {\mathcal {f}}}
+
+，习惯上会把以下的项
+进一步简写为
+实用上如果能指出函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的 "输入值范围" 跟 "输出值范围" ，对数学的讨论是相当方便的；事实上公理化集合论确保对任意集合 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ 有以下两个单元函数符号 
+
+
+
+
+D
+
+A
+
+
+
+
+{\displaystyle D_{A}}
+
+ 和 
+
+
+
+
+I
+
+A
+
+
+
+
+{\displaystyle I_{A}}
+
+ 以及以下公理
+简单来说， 
+
+
+
+
+D
+
+A
+
+
+
+
+{\displaystyle D_{A}}
+
+ 是所有搜集所有 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ 里所有有序对的第一个元素所构成的集合；  
+
+
+
+
+I
+
+A
+
+
+
+
+{\displaystyle I_{A}}
+
+ 是所有搜集所有 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ 里所有有序对的第二个元素所构成的集合，集合论保证了两者一定唯一存在（就算是空集合）。如果 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ 本身就是函数的话，直观上 
+
+
+
+
+D
+
+A
+
+
+
+
+{\displaystyle D_{A}}
+
+ 就是＂输入值范围＂，所以被称为定义域；而直观上  
+
+
+
+
+I
+
+A
+
+
+
+
+{\displaystyle I_{A}}
+
+ 就是 ＂输出值范围＂，所以被称为值域。
+所以在 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 是函数的情况下，有以下惯用的记号
+这个记号严格上来说代表
+也就是函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的＂输入值范围＂为 
+
+
+
+X
+
+
+{\displaystyle X}
+
+ ， ＂输出值范围＂包含于 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+。 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ 通常会被称为对应域(特别注意对应域不是唯一的)
+属于定义域 
+
+
+
+
+D
+
+f
+
+
+
+
+{\displaystyle D_{f}}
+
+ 的元素 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 常被俗称为自变量（independent variable），而项 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ 则被俗称为因变量（dependent variable），但是这跟实验上的自变量和因变量是稍有不同的，因为一个是以现实手段操纵所得到的实验值之间的关联，但另一个是源于集合论的抽象逻辑概念。
+满足
+的函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 被称为一对一函数。这种状况下，很容易证明以下的集合：
+也是一个函数，称为 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的反函数。
+另外基于 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ 这个简记里只有指出 "输出值" 不会超出 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ "，所以通常会定义满射为一个值域就是 
+
+
+
+Y
+
+
+{\displaystyle Y}
+
+ 的函数，但这只是一个为了弥补这个惯用简记法的缺陷所延伸出的冗余定义而已。
+
+如果函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的值域跟定义域都是实数集合(俗称 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 为实函数)，可以x轴代表定义域的范围；y轴代表值域的范围，把函数的每个元素标示在平面直角坐标上，这被称为实函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 在平面上的函数图形。
+对于"双变数"的实函数 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ ，也就是以 (
+
+
+
+x
+,
+
+y
+,
+
+z
+∈
+
+R
+
+
+
+{\displaystyle x,\,y,\,z\in \mathbb {R} }
+
+)
+为元素的函数，可以取
+然后以 x 轴为 
+
+
+
+
+D
+
+x
+
+
+
+
+{\displaystyle D_{x}}
+
+ 变化范围；y 轴为 
+
+
+
+
+D
+
+y
+
+
+
+
+{\displaystyle D_{y}}
+
+ 变化范围；最后取z 轴为 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ 的值域变化范围，这样就可以在三维直角坐标绘出 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ 的函数图形。
+平面上的任意图形可用竖直判别法判断是否为实函数的图形，即图形与任何一条平行于 y 轴的直线不能有一个以上的交点。但实际上这仅仅是函数正式定义的一种应用，因为平行于 y 轴的直线代表的是形如
+的集合，也就是此直线交 x 轴于 
+
+
+
+(
+c
+,
+
+0
+)
+
+
+{\displaystyle (c,\,0)}
+
+ ，那这样直线与实函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+  的交集就是
+而属于这个交集里的平面点最多只能有一个，否则就会跟每个 
+
+
+
+x
+∈
+
+D
+
+f
+
+
+
+
+{\displaystyle x\in D_{f}}
+
+ 只能对应一个 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ 的基本定义矛盾。
+像可以指两种不同的概念
+第一种是形如 
+
+
+
+f
+(
+x
+)
+
+
+{\displaystyle f(x)}
+
+ 的项，直观上代表的是依照函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的对应规则，使 
+
+
+
+x
+
+
+{\displaystyle x}
+
+ 能对应到的那个"值"。(严谨的意义请回去参考函数值的简记)
+第二种指的是集合 
+
+
+
+A
+
+
+{\displaystyle A}
+
+ 在函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 下定义的集合 
+
+
+
+f
+(
+A
+)
+
+
+{\displaystyle f(A)}
+注意 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的值域就是定义域 
+
+
+
+
+D
+
+f
+
+
+
+
+{\displaystyle D_{f}}
+
+ 的像 
+
+
+
+f
+(
+
+D
+
+f
+
+
+)
+
+
+{\displaystyle f(D_{f})}
+
+ 。在正式定义一节的最后例子中， 
+
+
+
+{
+2
+,
+3
+}
+
+
+{\displaystyle \{2,3\}}
+
+ 在 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的像是 
+
+
+
+f
+(
+{
+2
+,
+3
+}
+)
+=
+{
+c
+,
+d
+}
+
+
+{\displaystyle f(\{2,3\})=\{c,d\}}
+
+，而 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 的值域是 
+
+
+
+{
+c
+,
+d
+}
+
+
+{\displaystyle \{c,d\}}
+
+ 。
+类似的，集合 
+
+
+
+B
+
+
+{\displaystyle B}
+
+ 在函数 
+
+
+
+f
+
+
+{\displaystyle f}
+
+  下的原像（或逆像）定义为：
+沿用同一例子，可以看到 
+
+
+
+{
+a
+,
+b
+}
+
+
+{\displaystyle \{a,b\}}
+
+ 的原像是 
+
+
+
+
+f
+
+−
+1
+
+
+(
+{
+a
+,
+b
+}
+)
+=
+∅
+
+
+{\displaystyle f^{-1}(\{a,b\})=\varnothing }
+
+ ，即空集。
+以下是
+
+
+
+f
+
+
+{\displaystyle f}
+
+及
+
+
+
+
+f
+
+−
+1
+
+
+
+
+{\displaystyle f^{-1}}
+
+的一些特性：
+这些特性适合定义域的任意子集
+
+
+
+A
+,
+
+A
+
+1
+
+
+
+
+{\displaystyle A,A_{1}}
+
+及
+
+
+
+
+A
+
+2
+
+
+
+
+{\displaystyle A_{2}}
+
+和到达域的任意子集
+
+
+
+B
+,
+
+B
+
+1
+
+
+
+
+{\displaystyle B,B_{1}}
+
+及
+
+
+
+
+B
+
+2
+
+
+
+
+{\displaystyle B_{2}}
+
+，甚至可推广到任意子集群的交集和并集。
+若 
+
+
+
+f
+:
+X
+→
+Y
+
+
+{\displaystyle f:X\to Y}
+
+ 且 
+
+
+
+
+X
+
+′
+
+
+⊂
+X
+
+
+{\displaystyle X^{\prime }\subset X}
+
+ ， 那以下定义的集合
+
+
+
+f
+
+
+|
+
+
+
+X
+
+′
+
+
+
+
+
+
+{\displaystyle f|_{X^{\prime }}}
+
+ ( 注意到 
+
+
+
+×
+
+
+{\displaystyle \times }
+
+ 代表笛卡儿积 )
+显然为一函数，称为 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 在 
+
+
+
+
+X
+
+′
+
+
+
+
+{\displaystyle X^{\prime }}
+
+ 的限制。
+反之，若 
+
+
+
+g
+:
+X
+→
+Z
+
+
+{\displaystyle g:X\to Z}
+
+ 、 
+
+
+
+X
+⊆
+Y
+
+
+{\displaystyle X\subseteq Y}
+
+ 、 
+
+
+
+f
+:
+Y
+→
+Z
+
+
+{\displaystyle f:Y\to Z}
+
+ 且 
+
+
+
+f
+
+
+|
+
+
+X
+
+
+=
+g
+
+
+{\displaystyle f|_{X}=g}
+
+，那 
+
+
+
+f
+
+
+{\displaystyle f}
+
+ 称为 
+
+
+
+g
+
+
+{\displaystyle g}
+
+ 的扩张。
+设 
+
+
+
+f
+:
+X
+→
+R
+
+
+{\displaystyle f:X\to R}
+
+ 且 
+
+
+
+g
+:
+X
+→
+R
+
+
+{\displaystyle g:X\to R}
+
+ 且 
+
+
+
+(
+R
+,
+
++
+,
+
+×
+)
+
+
+{\displaystyle (R,\,+,\,\times )}
+
+ 为环。这样可以定义＂函数和＂  
+
+
+
+f
++
+g
+
+
+{\displaystyle f+g}
+
+ 与＂函数积＂ 
+
+
+
+f
+×
+g
+
+
+{\displaystyle f\times g}
+
+ 如下：
+很容易证明以上两者也是函数，类似的对任意的 
+
+
+
+r
+∈
+R
+
+
+{\displaystyle r\in R}
+
+ 可以定义下面这两个集合
+也是函数，其中 
+
+
+
+
+r
+
+R
+
+
+
+
+{\displaystyle r_{R}}
+
+ 被称为常数函数。
+常用的数学函数包括多项式函数、根式函数、幂函数、对数函数、有理函数、三角函数、反三角函数等。它们都是初等函数。非初等函数（或特殊函数）包括伽马函数和贝塞尔函数等。
+函数可分为
+在范畴论中，函数的槪念被推广为态射的槪念。
+一个范畴包括一组物件与一组态射，每一个态射是个三元组(X, Y, f)，X称为源物件（定义域的类比），Y称为目标物件（到达域的类比），而源物件与目标物件是范畴内的物件。基于这种解释，可以把函数看作集合范畴里面的态射。

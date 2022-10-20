@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>变数 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"786283dc-3e22-46c9-9ae4-def02fd8f3f0","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"变数","wgTitle":"变数","wgCurRevisionId":71216314,"wgRevisionId":71216314,"wgArticleId":50440,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有过时参数的引用的页面","CS1法语来源 (fr)","CS1英语来源 (en)","代数","微积分","初等数学","变量（数学）"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"变数","wgRelevantArticleId":50440,"wgUserVariant":"zh","wgIsProbablyEditable":true,
+"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":7000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q50701","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready",
+"user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices",
+"ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="变数 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E8%AE%8A%E6%95%B8" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E8%AE%8A%E6%95%B8" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E8%AE%8A%E6%95%B8" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E8%AE%8A%E6%95%B8" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-变数 rootpage-变数 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-766c0497"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">变数</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-766c0497"><div class="noteTA-group"><div data-noteta-group="Math" data-noteta-group-source="module"></div><div data-noteta-group="IT" data-noteta-group-source="module"></div></div></div>
+<div class="hatnote navigation-not-searchable" role="note"><a href="/wiki/Wikipedia:%E6%B6%88%E6%AD%A7%E4%B9%89" title="Wikipedia:消歧义"><img alt="Disambig gray.svg" data-file-height="168" data-file-width="220" decoding="async" height="19" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/25px-Disambig_gray.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/38px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Disambig_gray.svg/50px-Disambig_gray.svg.png 2x" width="25"/></a>  此条目介绍的是<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8" title="数学">数学</a>中的变数。关于<a class="mw-redirect" href="/wiki/%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88" title="程式设计">程式设计</a>中的变数，请见「<b><a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变量 (程序设计)</a></b>」。关于<a href="/wiki/%E4%B8%8D%E5%8F%8A%E7%89%A9%E5%8B%95%E8%A9%9E" title="不及物动词">不及物动词</a>的<a class="mw-redirect" href="/wiki/%E4%B8%BB%E8%AF%AD" title="主语">主语</a>，请见「<b><a class="mw-redirect" href="/wiki/%E5%8F%98%E5%85%83_(%E8%AF%AD%E6%B3%95)" title="变元 (语法)">变元 (语法)</a></b>」。</div>
+<p><b>变数</b>（variable）又称<b>变数</b>、<b>变项</b>、<b>变元</b>、<b>元</b>，<a href="/wiki/%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6" title="初等数学">初等数学</a>里也称<b>未知数</b>，是一个用来表示值的<a class="mw-redirect" href="/wiki/%E7%AC%A6%E8%99%9F" title="符号">符号</a>，该值可以是随意的，也可能是未指定或未定的。在代数运算时，将变数当作明确的数值代入运算中，可以于单次运算时解出多个问题。一个典型的例子为<a href="/wiki/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B#公式解" title="一元二次方程">一元二次公式</a>，该公式可以解出每个<a href="/wiki/%E4%B8%80%E5%85%83%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A8%8B" title="一元二次方程">一元二次方程</a>的值，只需要将<a href="/wiki/%E6%96%B9%E7%A8%8B" title="方程">方程</a>的系数代入公式中的变数即可。
+</p><p>变数这个概念在<a class="mw-redirect" href="/wiki/%E5%BE%AE%E7%A9%8D%E5%88%86" title="微积分">微积分</a>中也非常重要。一般，一个<a class="mw-redirect" href="/wiki/%E5%87%BD%E6%95%B8" title="函数">函数</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=f(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=f(x)}</annotation>
+</semantics>
+</math></span><img alt="y = f(x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2311a6a75c54b0ea085a381ba472c31d59321514" style="vertical-align: -0.838ex; width:8.672ex; height:2.843ex;"/></span>会包含两个变数，参数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>和值<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span>。这也是「变数」这个名称的由来，当参数「变动」时，值也会相对应地「变动」<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>。另外在更多<a href="/wiki/%E6%95%B0%E5%AD%A6%E9%A2%86%E5%9F%9F" title="数学领域">数学领域</a>中，变数也可以只代表某个数据，一般为数字，但也可能为<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>、<a class="mw-redirect" href="/wiki/%E7%9F%A9%E9%99%A3" title="矩阵">矩阵</a>或函数等<a href="/wiki/%E6%95%B8%E5%AD%B8%E7%AC%A6%E8%99%9F" title="数学符号">数学符号</a>表达的内容。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#起源及概念之演进"><span class="tocnumber">1</span> <span class="toctext">起源及概念之演进</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#计算机科学上"><span class="tocnumber">2</span> <span class="toctext">计算机科学上</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#命名"><span class="tocnumber">2.1</span> <span class="toctext">命名</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#统计学上"><span class="tocnumber">3</span> <span class="toctext">统计学上</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#参考文献"><span class="tocnumber">4</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#参见"><span class="tocnumber">5</span> <span class="toctext">参见</span></a></li>
+</ul>
+</div>
+<h2><span id=".E8.B5.B7.E6.BA.90.E5.8F.8A.E6.A6.82.E5.BF.B5.E4.B9.8B.E6.BC.94.E9.80.B2"></span><span class="mw-headline" id="起源及概念之演进">起源及概念之演进</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=1" title="编辑章节：起源及概念之演进">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a class="mw-redirect" href="/wiki/%E5%BC%97%E6%9C%97%E7%B4%A2%E7%93%A6%C2%B7%E9%9F%8B%E9%81%94" title="弗朗索瓦·韦达">弗朗索瓦·韦达</a>于16世纪末引入了使用字母表示已知及未知数字的想法，并将这些字母视同数字般运算，以在最后简单代入数值求解。弗朗索瓦·韦达习惯会以子音字母表示已知值，以母音字母表示未知值<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup> 。
+</p><p>1637年，<a class="mw-redirect" href="/wiki/%E5%8B%92%E5%86%85%C2%B7%E7%AC%9B%E5%8D%A1%E5%84%BF" title="勒内·笛卡儿">勒内·笛卡儿</a>引入以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x,y,z}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+<mo>,</mo>
+<mi>y</mi>
+<mo>,</mo>
+<mi>z</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x,y,z}</annotation>
+</semantics>
+</math></span><img alt="x, y, z" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bbeca34b28f569a407ef74a955d041df9f360268" style="vertical-align: -0.671ex; width:5.641ex; height:2.009ex;"/></span>表示公式中的未知数，以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a,b,c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>,</mo>
+<mi>b</mi>
+<mo>,</mo>
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a,b,c}</annotation>
+</semantics>
+</math></span><img alt="a, b, c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f13f068df656c1b1911ae9f81628c49a6181194d" style="vertical-align: -0.671ex; width:5.302ex; height:2.509ex;"/></span>表示已知数的习惯<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>，此一习惯至到今日依然常见。
+</p><p>1660年代起，<a class="mw-redirect" href="/wiki/%E8%89%BE%E8%96%A9%E5%85%8B%C2%B7%E7%89%9B%E9%A0%93" title="艾萨克·牛顿">艾萨克·牛顿</a>及<a class="mw-redirect" href="/wiki/%E5%93%A5%E7%89%B9%E4%BD%9B%E8%90%8A%E5%BE%B7%C2%B7%E8%90%8A%E5%B8%83%E5%B0%BC%E8%8C%B2" title="哥特佛莱德·莱布尼兹">哥特佛莱德·莱布尼兹</a>分别独立发展出<a href="/wiki/%E6%97%A0%E7%A9%B7%E5%B0%8F%E6%BC%94%E7%AE%97" title="无穷小演算">无穷小演算</a>，主要研究一个「可变量」的无穷小变动如何导致另一个量（第一个变数（量）的<a class="mw-redirect" href="/wiki/%E5%87%BD%E6%95%B8" title="函数">函数</a>值）相对应的变动。之后过了近一个世纪，<a class="mw-redirect" href="/wiki/%E6%9D%8E%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E5%B0%A4%E6%8B%89" title="李昂哈德·尤拉">李昂哈德·尤拉</a>修正了无穷小微积分的用语，并引入<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y=f(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+<mo>=</mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y=f(x)}</annotation>
+</semantics>
+</math></span><img alt="y = f(x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2311a6a75c54b0ea085a381ba472c31d59321514" style="vertical-align: -0.838ex; width:8.672ex; height:2.843ex;"/></span>的概念，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f}</annotation>
+</semantics>
+</math></span><img alt="f" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/132e57acb643253e7810ee9702d9581f159a1c61" style="vertical-align: -0.671ex; width:1.279ex; height:2.509ex;"/></span>是个函数，具有参数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>及值<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span>。直到19世纪末，「变数」这一词几乎都被用来指函数的参数及值。
+</p><p>19世纪下半叶，人们发觉无穷小微积分的基础似乎不够形式化，不足以处理像是处处<a href="/wiki/%E5%8F%AF%E5%BE%AE%E5%87%BD%E6%95%B0" title="可微函数">不可微</a>之<a class="mw-redirect" href="/wiki/%E9%80%A3%E7%BA%8C%E5%87%BD%E6%95%B8" title="连续函数">连续函数</a>这类自相矛盾的问题。为了解决此类问题，<a class="mw-redirect" href="/wiki/%E5%8D%A1%E5%B0%94%C2%B7%E9%AD%8F%E5%B0%94%E6%96%AF%E7%89%B9%E6%8B%89%E6%96%AF" title="卡尔·魏尔斯特拉斯">卡尔·魏尔斯特拉斯</a>引入了新的定义，以取代之前对<a class="mw-redirect" href="/wiki/%E6%A5%B5%E9%99%90_(%E6%95%B8%E5%AD%B8)" title="极限 (数学)">极限</a>的直观概念。对极限，旧的概念描述「当「变数」<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>变动且趋近于<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>时，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(x)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(x)}</annotation>
+</semantics>
+</math></span><img alt="f(x)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/202945cce41ecebb6f643f31d119c514bec7a074" style="vertical-align: -0.838ex; width:4.418ex; height:2.843ex;"/></span>会趋近于<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle L}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>L</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle L}</annotation>
+</semantics>
+</math></span><img alt="L" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/103168b86f781fe6e9a4a87b8ea1cebe0ad4ede8" style="vertical-align: -0.338ex; width:1.583ex; height:2.176ex;"/></span>，其中的「趋近」并没有明确的定义或上下文。魏尔斯特拉斯则将上述句子以下列公式取代：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (\forall \epsilon &gt;0)(\exists \eta &gt;0)(\forall x)\;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>ϵ<!-- ϵ --></mi>
+<mo>&gt;</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∃<!-- ∃ --></mi>
+<mi>η<!-- η --></mi>
+<mo>&gt;</mo>
+<mn>0</mn>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">∀<!-- ∀ --></mi>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mspace width="thickmathspace"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>x</mi>
+<mo>−<!-- − --></mo>
+<mi>a</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mo>&lt;</mo>
+<mi>η<!-- η --></mi>
+<mo stretchy="false">⇒<!-- ⇒ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>L</mi>
+<mo>−<!-- − --></mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>x</mi>
+<mo stretchy="false">)</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mo>&lt;</mo>
+<mi>ϵ<!-- ϵ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (\forall \epsilon &gt;0)(\exists \eta &gt;0)(\forall x)\;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle (\forall \epsilon &gt;0)(\exists \eta &gt;0)(\forall x)\;|x-a|&lt;\eta \Rightarrow |L-f(x)|&lt;\epsilon }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e1a2690b12bb7ab3780af066e231a32bbf2a6bf6" style="vertical-align: -0.838ex; width:50.668ex; height:2.843ex;"/></span></dd></dl>
+<p>其中的5个变数均不被视为是变动的。
+</p><p>此一静态公式导致今日对变数只是表示<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8%E7%89%A9%E4%BB%B6" title="数学物件">数学物件</a>（可以是未知的，或可被给定<a href="/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)" title="集合 (数学)">集合</a>中的任何元素取代）之符号的概念。<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>。
+</p>
+<h2><span id=".E8.A8.88.E7.AE.97.E6.A9.9F.E7.A7.91.E5.AD.B8.E4.B8.8A"></span><span class="mw-headline" id="计算机科学上">计算机科学上</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=2" title="编辑章节：计算机科学上">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变量 (程序设计)</a></div>
+<p><a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变数</a>可以指在<a href="/wiki/%E9%9B%BB%E8%85%A6%E8%A8%98%E6%86%B6%E9%AB%94" title="电脑记忆体">电脑记忆体</a>裏存在值的被命名的存储空间。
+</p><p>变量通常是可被修改的，即可以用来表示可变的状态。这是许多语言（如<a href="/wiki/Java" title="Java">Java</a>）的基本概念之一。有的语言可能定义其它术语，如<a href="/wiki/C%E8%AF%AD%E8%A8%80" title="C语言">C语言</a>的<a class="mw-redirect" href="/wiki/%E5%B7%A6%E5%80%BC" title="左值">左值</a>来精确地表示这里的（可能匿名的）存储空间的概念，而“变量”则在变量名的意义上被强调。
+</p><p>当某个已宣告<a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变数</a>开始使用，直译器或编译器通常会设定一个空间来储存所给出的值。稍后该变数不再使用时，那些空间可以<a class="mw-redirect" href="/wiki/%E5%9E%83%E5%9C%BE%E5%9B%9E%E6%94%B6" title="垃圾回收">回收</a>。
+</p><p>也有观点认为，变量应该和数学的原意一致，不需要允许它储存的<i>值</i>可变，不需要有能力表示可变状态。<a href="/wiki/Haskell" title="Haskell">Haskell</a>的类型变量仍然符合这个含义。
+</p><p>有些<a class="mw-redirect" href="/wiki/%E7%B7%A8%E7%A8%8B%E8%AA%9E%E8%A8%80" title="编程语言">编程语言</a>中的变数必须带有<a class="mw-redirect" href="/wiki/%E5%9E%8B%E5%88%A5" title="型别">型别</a>。
+</p>
+<h3><span id=".E5.91.BD.E5.90.8D"></span><span class="mw-headline" id="命名">命名</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=3" title="编辑章节：命名">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>每种编程语言都有规则指定甚么才可作为<a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变数</a>的名字。
+</p><p>使用<a href="/wiki/C%E8%AF%AD%E8%A8%80" title="C语言">C</a>和其相关语言，<a href="/wiki/%E5%8F%98%E9%87%8F_(%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1)" title="变量 (程序设计)">变数</a>名称在语法上称为<a class="mw-redirect" href="/wiki/%E6%A0%87%E8%AF%86%E7%AC%A6" title="标识符">标识符</a>，必须是由英文字母、数字和底线组成，且必须由字母起头。有时还不可以使用某些<a href="/wiki/%E4%BF%9D%E7%95%99%E5%AD%97" title="保留字">保留字</a>命名。
+</p><p>使用某些语言，变数的名字同时告诉了这个变数带有甚么种类的值。例如<a class="mw-redirect" href="/wiki/FORTRAN" title="FORTRAN">FORTRAN</a>的程式裏，变数的首个字母显示了它是<a class="mw-redirect" href="/wiki/%E6%95%B4%E6%95%B8" title="整数">整数</a>还是<a href="/wiki/%E6%B5%AE%E7%82%B9%E6%95%B0" title="浮点数">浮点数</a>。变数名字首个字符是$的话，在<a href="/wiki/BASIC" title="BASIC">BASIC</a>的程式裏表示其值是字串。<a href="/wiki/Perl" title="Perl">Perl</a>透过字首如$,@,%和&amp;来分辨哪是纯量、阵列、杂凑或副程式。
+</p><p>每个编程组织都有非正式的命名规矩——单打独斗的程式员亦是如此。有人喜欢所有变数都用简单的英文字母取名，认为能增加输入程式码的速度，但只要变数一多，就会容易混淆，甚至以后自己看回程式码也不懂在写甚么。
+</p><p><a class="mw-redirect" href="/wiki/%E7%A8%8B%E5%BC%8F%E8%BF%B4%E5%9C%88" title="程式回圈">回圈</a>控制变数这样的<a class="new" href="/w/index.php?title=%E8%99%9A%E5%8F%98%E9%87%8F&amp;action=edit&amp;redlink=1" title="虚变量（页面不存在）">虚变量</a>和数学上的习惯类似，通常以<code>i</code>, <code>j</code>, <code>k</code>命名。
+</p>
+<h2><span id=".E7.BB.9F.E8.AE.A1.E5.AD.A6.E4.B8.8A"></span><span class="mw-headline" id="统计学上">统计学上</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=4" title="编辑章节：统计学上">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>变量是<a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a>研究中对象的特征。它可以是定性的也可以是定量的，一个定量变量要么是<a href="/wiki/%E9%9B%A2%E6%95%A3" title="离散">离散</a>的，要么是<a class="mw-redirect" href="/wiki/%E8%BF%9E%E7%BB%AD" title="连续">连续</a>的。社会科学中研究变量的关系，通常采用数学中<a href="/wiki/%E6%98%A0%E5%B0%84" title="映射">对应</a>的观念，把一个变量称为<a class="mw-redirect" href="/wiki/%E8%87%AA%E5%8F%98%E9%87%8F" title="自变量">自变量</a>（独立变量），另一个变量称之为<a class="mw-redirect" href="/wiki/%E5%9B%A0%E5%8F%98%E9%87%8F" title="因变量">因变量</a>（依赖变量）<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>。
+</p>
+<h2><span id=".E5.8F.83.E8.80.83.E6.96.87.E7.8D.BB"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=5" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><i><a class="mw-redirect" href="/wiki/Syracuse_University" title="Syracuse University">Syracuse University</a></i>. <a class="external text" href="https://web.archive.org/web/20140116020503/http://cstl.syr.edu/fipse/algebra/part4/append1.htm" rel="nofollow">Appendix One Review of Constants and Variables</a>. cstl.syr.edu.  <span class="reference-accessdate"> [<span class="nowrap">2014-01-23</span>]</span>. （<a class="external text" href="http://cstl.syr.edu/fipse/algebra/unit1/..%5Cpart4%5Cappend1.htm" rel="nofollow">原始内容</a>存档于2014-01-16）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%AE%8A%E6%95%B8&amp;rft.au=%27%27Syracuse+University%27%27&amp;rft.btitle=Appendix+One+Review+of+Constants+and+Variables&amp;rft.genre=unknown&amp;rft.pub=cstl.syr.edu&amp;rft_id=http%3A%2F%2Fcstl.syr.edu%2Ffipse%2Falgebra%2Funit1%2F..%255Cpart4%255Cappend1.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book">Fraleigh, John B. <a class="external text" href="https://archive.org/details/firstcourseinabs0000fral" rel="nofollow">A First Course in Abstract Algebra</a> 4. United States: <a class="mw-redirect" href="/wiki/Addison-Wesley" title="Addison-Wesley">Addison-Wesley</a>. 1989: <a class="external text" href="https://archive.org/details/firstcourseinabs0000fral/page/276" rel="nofollow">276</a>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-201-52821-5" title="Special:网络书源/0-201-52821-5"><span title="国际标准书号">ISBN</span> 0-201-52821-5</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%AE%8A%E6%95%B8&amp;rft.aufirst=John+B.&amp;rft.aulast=Fraleigh&amp;rft.btitle=A+First+Course+in+Abstract+Algebra&amp;rft.date=1989&amp;rft.edition=4&amp;rft.genre=book&amp;rft.isbn=0-201-52821-5&amp;rft.pages=276&amp;rft.place=United+States&amp;rft.pub=Addison-Wesley&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Ffirstcourseinabs0000fral&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">Tom Sorell, <i>Descartes: A Very Short Introduction</i>, (2000). New York: Oxford University Press. p. 19.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation book">Marie-Cécile Darracq; Jean-Étienne Rombaldi. Algèbre et géométrie pour la Licence: Cours complet avec 200 exercices corrigés. DE BOECK SUP. 2021. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9782807332218" title="Special:网络书源/9782807332218"><span title="国际标准书号">ISBN</span> 9782807332218</a> <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到法语网页">（法语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%AE%8A%E6%95%B8&amp;rft.au=Marie-C%C3%A9cile+Darracq&amp;rft.btitle=Alg%C3%A8bre+et+g%C3%A9om%C3%A9trie+pour+la+Licence%3A+Cours+complet+avec+200+exercices+corrig%C3%A9s&amp;rft.date=2021&amp;rft.genre=book&amp;rft.isbn=9782807332218&amp;rft.pub=DE+BOECK+SUP&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthor</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation book">David Freedman; Robert Pisani, Roger Purves. <a class="external text" href="https://archive.org/details/statistics00free" rel="nofollow">Statistics</a>. Norton &amp; Company. 1998: <a class="external text" href="https://archive.org/details/statistics00free/page/136" rel="nofollow">136</a>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780393960433" title="Special:网络书源/9780393960433"><span title="国际标准书号">ISBN</span> 9780393960433</a>. 3 <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英语）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%AE%8A%E6%95%B8&amp;rft.au=David+Freedman&amp;rft.btitle=Statistics&amp;rft.date=1998&amp;rft.genre=book&amp;rft.isbn=9780393960433&amp;rft.pages=136&amp;rft.pub=Norton+%26+Company&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fstatistics00free&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.83.E8.A6.8B"></span><span class="mw-headline" id="参见">参见</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit&amp;section=6" title="编辑章节：参见">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/wiki/%E8%87%AA%E5%8F%98%E9%87%8F%E5%92%8C%E5%9B%A0%E5%8F%98%E9%87%8F" title="自变量和因变量">自变量和因变量</a></li></ul>
+<!-- 
+NewPP limit report
+Parsed by mw1342
+Cached time: 20220925075450
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.354 seconds
+Real time usage: 0.431 seconds
+Preprocessor visited node count: 401/1000000
+Post‐expand include size: 236597/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 5/100
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 6336/5000000 bytes
+Lua time usage: 0.115/10.000 seconds
+Lua memory usage: 6046253/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  202.470      1 -total
+ 42.73%   86.518      1 Template:NoteTA
+ 36.97%   74.859      1 Template:Reflist
+ 22.14%   44.836      1 Template:Cite_web
+ 13.71%   27.760      1 Template:About
+  7.99%   16.182      3 Template:Cite_book
+  1.96%    3.959      1 Template:Main
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:50440-0!canonical!zh and timestamp 20220925075450 and revision id 71216314.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=变数&amp;oldid=71216314">https://zh.wikipedia.org/w/index.php?title=变数&amp;oldid=71216314</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E4%BB%A3%E6%95%B0" title="Category:代数">代数</a></li><li><a href="/wiki/Category:%E5%BE%AE%E7%A7%AF%E5%88%86" title="Category:微积分">微积分</a></li><li><a href="/wiki/Category:%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6" title="Category:初等数学">初等数学</a></li><li><a href="/wiki/Category:%E5%8F%98%E9%87%8F%EF%BC%88%E6%95%B0%E5%AD%A6%EF%BC%89" title="Category:变量（数学）">变量（数学）</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%BF%87%E6%97%B6%E5%8F%82%E6%95%B0%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有过时参数的引用的页面">含有过时参数的引用的页面</a></li><li><a href="/wiki/Category:CS1%E6%B3%95%E8%AF%AD%E6%9D%A5%E6%BA%90_(fr)" title="Category:CS1法语来源 (fr)">CS1法语来源 (fr)</a></li><li><a href="/wiki/Category:CS1%E8%8B%B1%E8%AF%AD%E6%9D%A5%E6%BA%90_(en)" title="Category:CS1英语来源 (en)">CS1英语来源 (en)</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E8%AE%8A%E6%95%B8" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E8%AE%8A%E6%95%B8" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E8%AE%8A%E6%95%B8" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E8%AE%8A%E6%95%B8" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E8%AE%8A%E6%95%B8" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E8%AE%8A%E6%95%B8" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E8%AE%8A%E6%95%B8" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E8%AE%8A%E6%95%B8"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E8%AE%8A%E6%95%B8" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E8%AE%8A%E6%95%B8" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;oldid=71216314" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E8%AE%8A%E6%95%B8&amp;id=71216314&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50701" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E8%AE%8A%E6%95%B8&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Veranderlike" hreflang="af" lang="af" title="Veranderlike – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%D9%8A%D8%B1_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA)" hreflang="ar" lang="ar" title="متغير (رياضيات) – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/D%C9%99yi%C5%9F%C9%99n_(riyaziyyat)" hreflang="az" lang="az" title="Dəyişən (riyaziyyat) – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%AF%DB%8C%DB%8C%D8%B4%D9%86_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="azb" lang="azb" title="دییشن (ریاضیات) – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D2%AE%D2%99%D0%B3%D3%99%D1%80%D0%B5%D2%AF%D1%81%D3%99%D0%BD_%D0%B4%D3%99%D2%AF%D0%BC%D3%99%D0%BB" hreflang="ba" lang="ba" title="Үҙгәреүсән дәүмәл – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D0%BB%D1%96%D1%87%D1%8B%D0%BD%D1%8F" hreflang="be" lang="be" title="Пераменная велічыня – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%97%D1%8C%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F" hreflang="be-tarask" lang="be-tarask" title="Зьменная – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D0%BB%D0%B8%D0%B2%D0%B0_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0" hreflang="bg" lang="bg" title="Променлива величина – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%9A%E0%A6%B2%E0%A6%95_(%E0%A6%97%E0%A6%A3%E0%A6%BF%E0%A6%A4)" hreflang="bn" lang="bn" title="চলক (গণিত) – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Variable_(matem%C3%A0tiques)" hreflang="ca" lang="ca" title="Variable (matemàtiques) – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Prom%C4%9Bnn%C3%A1" hreflang="cs" lang="cs" title="Proměnná – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%A3%D0%BB%D1%88%C4%83%D0%BD%D0%B0%D0%B2%C3%A7%C4%83" hreflang="cv" lang="cv" title="Улшăнавçă – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Newidyn" hreflang="cy" lang="cy" title="Newidyn – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Variabel_(matematik)" hreflang="da" lang="da" title="Variabel (matematik) – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Variable_(Mathematik)" hreflang="de" lang="de" title="Variable (Mathematik) – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9C%CE%B5%CF%84%CE%B1%CE%B2%CE%BB%CE%B7%CF%84%CE%AE_(%CE%BC%CE%B1%CE%B8%CE%B7%CE%BC%CE%B1%CF%84%CE%B9%CE%BA%CE%AC)" hreflang="el" lang="el" title="Μεταβλητή (μαθηματικά) – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Variable_(mathematics)" hreflang="en" lang="en" title="Variable (mathematics) – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Variablo" hreflang="eo" lang="eo" title="Variablo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Variable_(matem%C3%A1tica)" hreflang="es" lang="es" title="Variable (matemática) – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Muutuja" hreflang="et" lang="et" title="Muutuja – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Aldagai_(matematika)" hreflang="eu" lang="eu" title="Aldagai (matematika) – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%DB%8C%D8%B1_(%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C%D8%A7%D8%AA)" hreflang="fa" lang="fa" title="متغیر (ریاضیات) – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Muuttuja_(matematiikka)" hreflang="fi" lang="fi" title="Muuttuja (matematiikka) – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/Muutuja" hreflang="vro" lang="vro" title="Muutuja – võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Variabul" hreflang="fo" lang="fo" title="Variabul – 法罗语"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Variable_(math%C3%A9matiques)" hreflang="fr" lang="fr" title="Variable (mathématiques) – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Athr%C3%B3g_(anail%C3%ADs_uimhri%C3%BAil)" hreflang="ga" lang="ga" title="Athróg (anailís uimhriúil) – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E8%AE%8A%E9%87%8F" hreflang="gan" lang="gan" title="变量 – 赣语"><span>赣语</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Varyab_(mat%C3%A9matik)" hreflang="gcr" lang="gcr" title="Varyab (matématik) – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gd mw-list-item"><a class="interlanguage-link-target" href="https://gd.wikipedia.org/wiki/Caochladair" hreflang="gd" lang="gd" title="Caochladair – 苏格兰盖尔语"><span>Gàidhlig</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Vari%C3%A1bel" hreflang="gl" lang="gl" title="Variábel – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%9A%E0%AA%B2" hreflang="gu" lang="gu" title="ચલ – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%AA%D7%A0%D7%94" hreflang="he" lang="he" title="משתנה – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%9A%E0%A4%B0" hreflang="hi" lang="hi" title="चर – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Varijabla" hreflang="hr" lang="hr" title="Varijabla – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/V%C3%A1ltoz%C3%B3" hreflang="hu" lang="hu" title="Változó – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%93%D5%B8%D6%83%D5%B8%D5%AD%D5%A1%D5%AF%D5%A1%D5%B6_%D5%B4%D5%A5%D5%AE%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Փոփոխական մեծություն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Variabile_(mathematica)" hreflang="ia" lang="ia" title="Variabile (mathematica) – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Variabel_(matematika)" hreflang="id" lang="id" title="Variabel (matematika) – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Breyta" hreflang="is" lang="is" title="Breyta – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Variabile_(matematica)" hreflang="it" lang="it" title="Variabile (matematica) – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E5%A4%89%E6%95%B0_(%E6%95%B0%E5%AD%A6)" hreflang="ja" lang="ja" title="変数 (数学) – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Vieriebl" hreflang="jam" lang="jam" title="Vieriebl – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/L%C9%9B%C9%9Bz%C9%A9y%CA%8A" hreflang="kbp" lang="kbp" title="Lɛɛzɩyʊ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%90%D0%B9%D0%BD%D1%8B%D0%BC%D0%B0%D0%BB%D1%8B" hreflang="kk" lang="kk" title="Айнымалы – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EB%B3%80%EC%88%98_(%EC%88%98%ED%95%99)" hreflang="ko" lang="ko" title="변수 (수학) – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Quantitas_variabilis" hreflang="la" lang="la" title="Quantitas variabilis – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Main%C4%ABgais_lielums" hreflang="lv" lang="lv" title="Mainīgais lielums – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D0%BB%D0%B8%D0%B2%D0%B0" hreflang="mk" lang="mk" title="Променлива – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%9A%E0%B4%B0%E0%B4%82" hreflang="ml" lang="ml" title="ചരം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%A5%D1%83%D0%B2%D1%8C%D1%81%D0%B0%D0%B3%D1%87" hreflang="mn" lang="mn" title="Хувьсагч – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Pemboleh_ubah" hreflang="ms" lang="ms" title="Pemboleh ubah – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Variabele" hreflang="nl" lang="nl" title="Variabele – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Variabel" hreflang="nn" lang="nn" title="Variabel – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Variabel" hreflang="nb" lang="nb" title="Variabel – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%85%E0%A8%B8%E0%A8%A5%E0%A8%BF%E0%A8%B0%E0%A8%BE%E0%A8%82%E0%A8%95_(%E0%A8%97%E0%A8%A3%E0%A8%BF%E0%A8%A4)" hreflang="pa" lang="pa" title="ਅਸਥਿਰਾਂਕ (ਗਣਿਤ) – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Zmienna_(matematyka)" hreflang="pl" lang="pl" title="Zmienna (matematyka) – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Vari%C3%A1vel_(matem%C3%A1tica)" hreflang="pt" lang="pt" title="Variável (matemática) – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Variabil%C4%83" hreflang="ro" lang="ro" title="Variabilă – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F_%D0%B2%D0%B5%D0%BB%D0%B8%D1%87%D0%B8%D0%BD%D0%B0" hreflang="ru" lang="ru" title="Переменная величина – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%A2%D1%83%D1%82%D1%83%D0%BB%D1%83%D0%B3%D0%B0%D1%80_%D1%81%D1%83%D0%BE%D1%85_%D1%83%D0%BB%D0%B0%D1%80%D1%8B%D0%B9%D0%B0%D0%B0%D1%87%D1%87%D1%8B" hreflang="sah" lang="sah" title="Тутулугар суох уларыйааччы – 萨哈语"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Variable_(mathematics)" hreflang="sco" lang="sco" title="Variable (mathematics) – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sd mw-list-item"><a class="interlanguage-link-target" href="https://sd.wikipedia.org/wiki/%DA%A6%D8%B1%DA%BB%D9%88_%DA%AF%D9%87%D8%B1%DA%BB%D9%88_(%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A)" hreflang="sd" lang="sd" title="ڦرڻو گهرڻو (رياضي) – 信德语"><span>سنڌي</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Promenljiva_(matematika)" hreflang="sh" lang="sh" title="Promenljiva (matematika) – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Variable" hreflang="en-simple" lang="en-simple" title="Variable – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Premenn%C3%A1_(matematika)" hreflang="sk" lang="sk" title="Premenná (matematika) – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Spremenljivka" hreflang="sl" lang="sl" title="Spremenljivka – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B5%D0%BD%D1%99%D0%B8%D0%B2%D0%B0_(%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0)" hreflang="sr" lang="sr" title="Променљива (математика) – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Variabel" hreflang="sv" lang="sv" title="Variabel – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AE%E0%AE%BE%E0%AE%B1%E0%AE%BF" hreflang="ta" lang="ta" title="மாறி – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%95%E0%B8%B1%E0%B8%A7%E0%B9%81%E0%B8%9B%E0%B8%A3_(%E0%B8%84%E0%B8%93%E0%B8%B4%E0%B8%95%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C)" hreflang="th" lang="th" title="ตัวแปร (คณิตศาสตร์) – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Baryable" hreflang="tl" lang="tl" title="Baryable – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/De%C4%9Fi%C5%9Fken_(matematik)" hreflang="tr" lang="tr" title="Değişken (matematik) – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%97%D0%BC%D1%96%D0%BD%D0%BD%D0%B0" hreflang="uk" lang="uk" title="Змінна – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%85%D8%AA%D8%BA%DB%8C%D8%B1" hreflang="ur" lang="ur" title="متغیر – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz badge-Q17437798 badge-goodarticle mw-list-item" title="优良条目"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/O%CA%BBzgaruvchi" hreflang="uz" lang="uz" title="Oʻzgaruvchi – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Bi%E1%BA%BFn_s%E1%BB%91" hreflang="vi" lang="vi" title="Biến số – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%8F%98%E9%87%8F" hreflang="wuu" lang="wuu" title="变量 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%A5%D2%AF%D0%B2%D1%80%D2%AF%D0%BB%D2%BB%D0%B0%D0%BD" hreflang="xal" lang="xal" title="Хүврүлһан – 卡尔梅克语"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a class="interlanguage-link-target" href="https://xh.wikipedia.org/wiki/I-Variable" hreflang="xh" lang="xh" title="I-Variable – 科萨语"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%9C%AA%E7%9F%A5%E6%95%B8" hreflang="yue" lang="yue" title="未知数 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q50701#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年4月19日 (星期二) 04:12。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E8%AE%8A%E6%95%B8&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.354","walltime":"0.431","ppvisitednodes":{"value":401,"limit":1000000},"postexpandincludesize":{"value":236597,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":5,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":6336,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  202.470      1 -total"," 42.73%   86.518      1 Template:NoteTA"," 36.97%   74.859      1 Template:Reflist"," 22.14%   44.836      1 Template:Cite_web"," 13.71%   27.760      1 Template:About","  7.99%   16.182      3 Template:Cite_book","  1.96%    3.959      1 Template:Main"]},"scribunto":{"limitreport-timeusage":{"value":"0.115","limit":"10.000"},"limitreport-memusage":{"value":6046253,"limit":52428800}},"cachereport":{"origin":"mw1342","timestamp":"20220925075450","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u8b8a\u6578","url":"https:\/\/zh.wikipedia.org\/wiki\/%E8%AE%8A%E6%95%B8","sameAs":"http:\/\/www.wikidata.org\/entity\/Q50701","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q50701","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-10-30T04:58:27Z","dateModified":"2022-04-19T04:12:07Z","headline":"\u53ef\u4ee5\u6539\u8b8a\u7684\u503c\uff0c\u901a\u5e38\u5728\u65b9\u7a0b\u6216\u904b\u7b97\u7684\u4e0a\u4e0b\u6587\u4e2d"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u8b8a\u6578","url":"https:\/\/zh.wikipedia.org\/wiki\/%E8%AE%8A%E6%95%B8","sameAs":"http:\/\/www.wikidata.org\/entity\/Q50701","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q50701","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-10-30T04:58:27Z","dateModified":"2022-04-19T04:12:07Z","headline":"\u53ef\u4ee5\u6539\u8b8a\u7684\u503c\uff0c\u901a\u5e38\u5728\u65b9\u7a0b\u6216\u904b\u7b97\u7684\u4e0a\u4e0b\u6587\u4e2d"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":122,"wgHostname":"mw1407"});});</script>
+</body>
+</html>

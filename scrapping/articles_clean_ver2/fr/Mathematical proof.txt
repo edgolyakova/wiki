@@ -1,0 +1,60 @@
+Démonstration (logique et mathématique)
+Définition
+Éléments d'histoire
+Les démonstrations dans l'architecture des mathématiques
+Typologie des démonstrations
+Théorie de la démonstration
+Notes et références
+Voir aussi
+Démonstration absolue et relative
+Les démonstrations en mathématiques au XVIIe et au XIXe siècle
+Incomplétude et indépendance
+Outils d'aide à la démonstration
+Notes
+Références
+Bibliographie
+Articles connexes
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Démonstration.
+En mathématiques et en logique, une démonstration est un ensemble structuré d'étapes correctes de raisonnement.
+Dans une démonstration, chaque étape est soit un axiome (un fait acquis), soit l'application d'une règle qui permet d'affirmer qu'une proposition, la conclusion, est une conséquence logique d'une ou plusieurs autres propositions, les prémisses de la règle.
+Les prémisses sont soit des axiomes, soit des propositions déjà obtenues comme conclusions de l'application d'autres règles.
+Une proposition qui est la conclusion de l'étape ultime d'une démonstration est un théorème.
+Le terme « preuve » est parfois employé comme un synonyme de « démonstration » par attraction de l'anglais proof[réf. souhaitée].
+La démonstration est foncièrement différente de l'argumentation, qui est une autre forme de raisonnement, employant des arguments qualitatifs, en faisant référence éventuellement à des données chiffrées, dans le but de pousser quelqu'un à agir.
+Dans le style de Fitch pour la déduction naturelle, une démonstration est « une suite finie de formules dont chacune est soit un axiome, soit une conséquence immédiate des formes précédentes en vertus d'une règle d'inférence ». En déduction naturelle, une démonstration est un arbre[note 1].
+De manière générale, une démonstration est un « raisonnement qui permet d'établir une proposition ».
+Dans son documentaire consacré au dernier théorème de Fermat, Simon Singh demande à des mathématiciens parmi lesquels John Conway, Bary Mazur, Ken Ribet, John Coates, Richard Taylor de préciser la notion de démonstration en mathématiques.
+Ils proposent, informellement : « suite d'arguments basée sur des déductions logiques, qui découlent les unes des autres, étape par étape, jusqu'à ce que vous établissiez une preuve rigoureuse ».
+On trouve les premières démonstrations rigoureuses chez Euclide.
+Avant l'avènement de la logique formelle, le concept de la démonstration absolue renvoyait à l'idée d'une démonstration prouvant incontestablement la proposition à démontrer, décisive pour tous, partout et toujours, montrant que la solution donnée était implicitement admise par toutes personnes raisonnées.
+Cependant, le concept même de la démonstration requiert une connaissance antécédente afin d'établir les prémisses. L'idée d'une démonstration absolue, c'est-à-dire sans aucun supposé, apparaît alors absurde puisque la démonstration est un discours qui va du connu à l'inconnu. À partir de ce constat, une démonstration se voit enclin à être démonstration relative à la vérité de ses prémisses.
+Pour établir la vérité de ces prémisses, il faut établir la véracité des principes, des sujets et des propriétés que ces prémisses impliquent.
+Concernant « les principes, on doit savoir qu'ils sont vrais », leurs véracités sont établies soit par le fait qu'ils sont évidents ou qu'ils ont été préalablement démontrés. Cette idée d'évidence revoit à une vérité apodictique. et explique pourquoi la notion de démonstration apodictique est parfois utilisé comme synonyme de démonstration absolue.
+Concernant les sujets, ils sont connus par leur essence et leur existence. L'essence est connue par définition et l'existence ne se démontre pas, elle est toujours supposée.
+Bref, dans l'absolu, il faudrait qu’ultimement les prémisses premières s'auto-démontrent afin d'établir un fondement vrai et absolu.
+Autrement dit, le plus haut niveau de vérité possible d'une prémisse relève au mieux d'une vérité apodictique. À cet effet, plusieurs logiciens à tenter de fonder des systèmes de logique ou de mathématique sur des fondements démontrables, notamment pendant la crise des fondements mathématiques.
+Dans son Cours d'Analyse de l'École royale polytechnique publié en 1821, Cauchy donne un énoncé du théorème des valeurs intermédiaires comme le théorème IV du chapitre II, puis il en donne une démonstration (voir figures ci-dessus).
+Théorème des valeurs intermédiaires (début)
+Théorème des valeurs intermédiaires (fin)
+Une proposition une fois démontrée peut ensuite être elle-même utilisée dans d'autres démonstrations.
+Dans toute situation où les propositions initiales sont vraies, la proposition démontrée devrait être vraie[note 2] ; on ne pourrait la remettre en cause qu'en remettant en cause une ou plusieurs des propositions initiales ou le système de règles de déduction lui-même.
+Cette description peut s'avérer idéale.
+Il arrive qu'une démonstration s'appuie partiellement sur l'intuition, géométrique par exemple, et donc que toutes les propriétés admises, les axiomes, ne soient pas explicites.
+Les démonstrations de géométrie que l'on peut trouver dans les Éléments d'Euclide sont par exemple considérées encore aujourd'hui comme des modèles de rigueur, alors qu'Euclide s'appuie en partie sur des axiomes implicites, comme l'a montré David Hilbert dans ses « fondements de la géométrie ». Par ailleurs, les démonstrations des mathématiciens ne sont pas formelles et une démonstration peut être considérée comme correcte dans les grandes lignes, alors que des points resteraient à expliciter en toute rigueur, voire que d'autres sont entachés d'erreurs « mineures ». On rédige une démonstration pour être lue et convaincre les lecteurs, et le niveau de détail nécessaire n'est pas le même suivant les connaissances de ceux-ci.
+Cependant avec l'avènement des ordinateurs et des systèmes d'aide à la démonstration, certains mathématiciens contemporains rédigent des démonstrations qui sont amenées à être vérifiées par des programmes.
+Les démonstrations mathématiques passent par diverses étapes en suivant une certaine ligne de déduction.
+Certains grands types de démonstrations ont reçu des dénominations spécifiques.
+La logique mathématique a développé une branche qui est consacrée à l'étude des démonstrations et des systèmes déductifs et s'appelle pour cela la théorie de la démonstration.
+Ainsi, la notion de démonstration est formalisée. On parle alors de démonstration formelle en tant qu'objet mathématique qui contient toutes les étapes de la déduction.
+Une formule F d’un langage L est dite démontrée dans une théorie T si et seulement s’il existe une suite finie de formules se terminant par F, telle que :
+Il est parfois possible de démontrer qu'une certaine assertion ne peut pas être démontrée dans un certain système axiomatique.
+En géométrie, le postulat d'Euclide, appelé aussi axiome des parallèles, est indépendant des autres axiomes de la géométrie.
+L'axiome du choix ne peut pas être démontré dans la théorie des ensembles de Zermelo-Fraenkel, pas plus que sa négation.
+De façon analogue, ni l'hypothèse du continu ni sa négation ne sont démontrables dans la théorie de Zermelo-Fraenkel avec axiome du choix.
+On dit que ces assertions sont indépendantes de ce système d'axiomes : il est par conséquent possible d'ajouter aussi bien l'axiome du choix que sa négation à la théorie des ensembles, la théorie restera cohérente (en supposant que la théorie des ensembles le soit).
+En fait, comme l'énonce le théorème d'incomplétude de Gödel, dans toute théorie axiomatique « raisonnable » qui contient les nombres naturels, il existe des propositions qui ne peuvent pas être démontrées alors qu'elles sont en fait « vraies », c'est-à-dire, plus précisément, que toutes les instances, par chacun des entiers naturels, des propositions en question sont démontrables.
+L'informatique a construit des outils d'aide à la démonstration qui sont de deux ordres :

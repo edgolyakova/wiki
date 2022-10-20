@@ -1,0 +1,338 @@
+Radar
+Origine du mot
+Histoire
+Description générale
+Technologie
+Principes de fonctionnement
+Traitement des signaux radar
+Applications
+Effets sur la santé
+Notes et références
+Voir aussi
+Composantes d'un système radar
+Radar monostatique, bistatique, multistatique
+Génération de l'onde
+Plages de fréquences utilisées
+Antennes
+Réfrigérant de radar
+Réflexion
+Calcul de la réflectivité
+Volume radar et résolution
+Ecartométrie radar
+Polarisation
+Interférences
+Mesure de distance
+Mesure de vitesse
+Réduction des interférences
+Bibliographie
+Articles connexes
+Liens externes
+Généralités
+Noms des bandes de fréquence
+Antennes filaires
+Antenne à ouverture
+Guide d'ondes à fentes
+Antennes patch
+Antennes réseau à commande de phase
+Antenne synthétique
+Bruit
+Échos parasites
+Brouillage
+Temps de retour du signal
+Modulation de fréquence
+Horizon-radar
+Distance aveugle
+Vitesse Doppler avec radar à impulsions
+Dilemme Doppler
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Cet article concerne les radars véritables.
+Pour les « radars acoustiques » ou « radars sonores », voir Sodar et Sonar.
+Pour les articles homonymes, voir Radar (homonymie).
+modifier - modifier le code - modifier Wikidata
+Le radar (acronyme issu de l'anglais radio detection and ranging) est un système qui utilise les ondes électromagnétiques pour détecter la présence et déterminer la position ainsi que la vitesse d'objets tels que les avions, les bateaux, ou la pluie.
+Les ondes envoyées par l'émetteur sont réfléchies par la cible, et les signaux de retour (appelés écho radar ou écho-radar) sont captés et analysés par le récepteur, souvent situé au même endroit que l'émetteur.
+La distance est obtenue grâce au temps aller/retour du signal, la direction grâce à la position angulaire de l'antenne où le signal de retour a été capté et la vitesse avec le décalage de fréquence du signal de retour généré selon l'effet Doppler.
+Il existe également différentes informations trouvées par le rapport entre les retours captées selon des plans de polarisation orthogonaux.
+Le radar est utilisé dans de nombreux contextes : en météorologie pour détecter les orages, pour le contrôle du trafic aérien, pour la surveillance du trafic routier, par les militaires pour détecter les objets volants mais aussi les navires, en astronautique, etc.
+Le mot radar est un néologisme obtenu par lexicalisation de RADAR, acronyme de l'anglais RAdio Detection And Ranging (« détection et estimation de la distance par ondes radio », « détection et télémétrie radio » ou plus simplement « radiorepérage »). Cet acronyme d'origine américaine a remplacé le sigle anglais précédemment utilisé, RDF (Radio Direction Finding, « radiocompas »).
+En 1864, James Clerk Maxwell décrit les lois de l’électromagnétisme, ce qui permet pour la première fois de travailler sur leur source.
+En 1888, Heinrich Rudolf Hertz montre que les ondes électromagnétiques sont réfléchies par les surfaces métalliques.
+Au début du XXe siècle, le développement de la radio et de la TSF (par Marconi, entre autres) permet de développer les antennes nécessaires à l'utilisation du radar.
+Plusieurs inventeurs, scientifiques, et ingénieurs ont contribué ensuite au développement du concept du radar.
+Les fondements théoriques datent de 1904 avec le dépôt du brevet du « Telemobiloskop » (Reichspatent Nr. 165546) par l'allemand Christian Hülsmeyer. Celui-ci a démontré la possibilité de détecter la présence de bateaux dans un brouillard très dense.
+En envoyant une onde à l'aide d'une antenne multipolaire, son système notait le retour depuis un obstacle avec une antenne dipolaire sans pouvoir cependant en définir plus qu'un azimut approximatif et aucunement sa distance. C'était donc le RAD (radio détection) mais pas le AR (azimut et rayon).
+Il faut ensuite résoudre les problèmes de longueur d’onde et de puissance soulevés en 1917 par le physicien serbe, naturalisé américain, Nikola Tesla. Durant les années 1920, on commence donc les expériences de détection avec des antennes. À l’automne 1922, Albert H. Taylor et Leo C. Young, du Naval Research Laboratory (NRL) aux États-Unis, effectuaient des essais de communication radio dans le fleuve Potomac.
+Ils remarquèrent que les bateaux en bois traversant la trajectoire de leur signal d’onde continu causaient des interférences, redécouvrant ainsi le même principe qu’Hülsmeyer.
+Au début des années 1930, Taylor confia à un de ses ingénieurs, Robert M. Page, la tâche de développer un émetteur à impulsion et une antenne d’émission que lui et Young avaient imaginé pour contourner ce problème.
+En 1934, faisant suite à une étude systématique du magnétron, des essais sur des systèmes de détection par ondes courtes sont menés en France par la CSF (16 et 80 cm de longueur d'onde). Un brevet est déposé (brevet français no 788795). C'est ainsi que naissent les « radars » à ondes décimétriques.
+Le premier équipa en 1934 le cargo Orégon, suivi en 1935 par celui du paquebot Normandie.
+En 1935, faisant suite à un brevet déposé par Robert Watson-Watt (l’inventeur dit « officiel » du radar) (brevet anglais GB593017,,), le premier réseau de radars est commandé par les Britanniques à MetroVick et portera le nom de code Chain Home.
+Le Hongrois Zoltán Lajos Bay a produit un autre des premiers modèles opérationnels en 1936 dans le laboratoire de la compagnie Tungsram (Hongrie). L’Allemagne nazie, l'Union soviétique, les Américains et d'autres pays ont également poursuivi des recherches dans ce domaine.
+On peut considérer que l'architecture des radars était quasiment finalisée à l'aube de la Seconde Guerre mondiale.
+Il manquait cependant l'expérience opérationnelle au combat qui a poussé les ingénieurs à trouver de nombreuses améliorations techniques.
+Ainsi, les radars aéroportés ont été développés pour donner la possibilité à l'arme aérienne de procéder aux bombardements et à la chasse de nuit.
+On mena également des expériences sur la polarisation.
+Lors de l'utilisation du radar de manière opérationnelle, les opérateurs ont constaté la présence d'artéfacts.
+Par exemple, les opérateurs des radars micro-ondes des armées alliées remarquèrent du bruit dans les images.
+Ces bruits s'avérèrent être des échos venant de précipitations (pluie, neige, etc.), constat qui a mené au développement des radars météorologiques après la fin des combats.
+Sont également mis au point les premières techniques de brouillage et de contre-mesures électroniques.
+Depuis cette guerre, les radars sont utilisés dans de nombreux domaines allant de la météorologie à l'astrométrie en passant par le contrôle routier et aérien.
+Dans les années 1950, l'invention du radar à synthèse d'ouverture a ouvert la voie à l'obtention d'images radar à très haute résolution.
+En 1965, Cooley et Tuckey (re)découvrent la transformée de Fourier rapide qui a pris tout son intérêt surtout lorsque l'informatique a commencé à devenir suffisamment performante.
+Cet algorithme est à la base de la plupart des traitements radar numériques d'aujourd'hui.
+Un radar émet de puissantes ondes, produites par un oscillateur radio et transmises par une antenne.
+La portion de l'énergie du faisceau qui est réfléchie et renvoyée au récepteur lorsque le faisceau rencontre un obstacle dans l'atmosphère est appelée l’écho radar (ou écho-radar). Bien que la puissance des ondes émises soit grande, l’amplitude de l'écho est le plus souvent très petite mais ces signaux radio sont facilement détectables électroniquement et peuvent être amplifiés de nombreuses fois.
+Il existe différentes façons d'émettre ces ondes.
+Les plus utilisées sont :
+En analysant le signal réfléchi, il est possible de localiser et d’identifier l’objet responsable de la réflexion, ainsi que de calculer sa vitesse de déplacement grâce à l'effet Doppler.
+Le radar peut détecter des objets ayant une large gamme de propriétés réflectives, alors que les autres types de signaux, tels que le son ou la lumière visible, revenant de ces objets, seraient trop faibles pour être détectés. De plus, les ondes radio peuvent se propager avec une faible atténuation à travers l'air et divers obstacles, tels les nuages, le brouillard ou la fumée, qui absorbent rapidement un signal lumineux.
+Cela rend possible la détection et le pistage dans des conditions qui paralysent les autres technologies.
+Un radar est formé de différentes composantes :
+Dans la plupart des cas, l'émetteur et le récepteur du radar partagent une électronique et une antenne commune.
+On parle alors de radar monostatique.
+Rien n'empêche cependant de considérer un système radar où l'émetteur et le récepteur sont séparés (exemple : le système GRAVES et les radars trans-horizon de Jindalee en Australie) ; on parle alors de radar bistatique, ou même de configuration multistatique, si l'on a un émetteur et plusieurs récepteurs distincts ou plusieurs émetteurs et un récepteur distinct. L'une et l'autre configuration offrent des avantages et des inconvénients :
+Lorsque l'on parle de radar bistatique, on suppose implicitement que l'émetteur et le récepteur sont réellement séparés (soit du point de vue de la distance, soit d'un point de vue angulaire). Si l'émetteur et le récepteur sont distincts physiquement (antennes différentes) mais situés presque au même endroit, le signal reçu est qualitativement proche d'un signal monostatique.
+On parle ainsi de configurations fortement bistatiques ou faiblement bistatiques pour intégrer ces deux possibilités.
+L'émetteur au site du radar comprend : un oscillateur permanent, un amplificateur et un modulateur.
+Pour les radars à hyperfréquences, qui forment l'immense majorité des radars en service, la génération d'impulsions courtes et très énergétiques demande une technologie qui est différente de celle d'un émetteur radio utilisé en télécommunications.
+Ainsi, la génération de l'onde se fait de la manière suivante :
+La fréquence est principalement choisie en fonction de l'application visée. De manière générale, une grande longueur d'onde (bandes HF) permettra de profiter des phénomènes de propagation et de rebond sur l'ionosphère, ce qui permet de porter à des milliers de kilomètres (cas des radar trans-horizon). D'autre part, seuls les objets dont la taille typique est au moins de l'ordre de grandeur de la longueur d'onde sont visibles.
+Par exemple, une forêt sera partiellement transparente pour les grandes longueurs d'onde (seuls les troncs d'arbres sont visibles) ; tandis que la forêt sera opaque en bande X (seule la canopée sera visible), car la longueur d'onde est de l'ordre de la taille des feuilles et des branches.
+La taille de l'antenne influe également sur la longueur d'onde à utiliser (et réciproquement).
+Les bandes de fréquences civiles et militaires sont allouées de manière internationale au sein de la Conférence Mondiale des Radiocommunications réunie tous les trois ans au sein de l'Union Internationale des Télécommunications, avec également la participation d'organismes internationaux comme l'OTAN. Les demandes de bande doivent être déposées longtemps à l'avance dans la mesure où les ordres du jour des conférences sont généralement fixées plusieurs années à l'avance. D'autre part, au sein d'un pays, les institutions régaliennes peuvent s'arroger des bandes de fréquence pour l'utilisation exclusive des forces militaires ou de police.
+Toutefois, ces institutions subissent des pressions de plus en plus importantes de la part des industriels dans la mesure où les nouvelles technologies civiles (GSM, Wi-Fi, etc) ont une occupation spectrale grandissante, mais offrant un profit financier très large. L'heure est donc à la coopération entre les différents acteurs et à une cohabitation (pas toujours très réussie) de manière à limiter les brouillages entre les différentes applications.
+Toujours est-il que la bande de fréquence la plus adaptée d'un point de vue applicatif n'est pas toujours disponible et qu'il faut souvent trouver un compromis.
+Le nom des plages de fréquences utilisées dans le monde des radars provient de la Seconde Guerre mondiale.
+En effet, pour garder secret le développement de ce système, les militaires ont décidé de donner à ces plages des noms de code qui sont demeurés en usage depuis.
+Ils ont été adoptés aux États-Unis par le Institute of Electrical and Electronics Engineers (IEEE) et internationalement par l’Union internationale des télécommunications.
+Cependant, certains utilisateurs des bandes radios, comme les télédiffuseurs et l’industrie des contre-mesures militaires, ont remplacé les vocables traditionnels par leur propre identification.
+En toute généralité, une antenne (radio ou radar) peut être vue comme un transducteur :
+Cette conversion d'énergie ne se fait pas sans pertes ; ainsi, une antenne est caractérisée par un coefficient de rendement entre 0 et 1, que l'on souhaite être le plus élevé possible.
+Si l'on désire utiliser le radar pour localiser une cible, il faut concevoir l'antenne de manière qu'elle ne reçoive les ondes ne provenant que d'une direction privilégiée; cette opération a également un effet secondaire bénéfique dans la mesure où l'antenne aura une meilleure portée tant en réception qu'en émission dans cette direction. L'antenne est donc également caractérisée par sa directivité et son « gain » maximal.
+On verra plus loin dans ce paragraphe que la directivité de l'antenne est influencée par la longueur d'onde du signal émis et des dimensions de l'antenne; dans certaines applications (radar embarqué sur avion ou satellite), les dimensions de l'antenne peuvent être une contrainte forte qui doit donc également être considérée.
+Pour des raisons techniques (le magnétron n'étant pas encore totalement maîtrisé), les premiers radars de la Seconde Guerre mondiale travaillaient à des fréquences basses pour lesquelles il était commode d'utiliser des antennes filaires.
+Ces antennes sont bien connues du grand public car leur forme n'est à la base pas différente de celle des antennes de nos postes radio ou de nos télévisions.
+En fonction de l'agencement des brins composant l'antenne, il est possible d'obtenir une antenne plus ou moins directive.
+Une antenne monobrin sera omnidirectionnelle dans le plan médian de l'antenne; au contraire, une antenne Yagi est très directive dans son axe principal.
+Cette dernière est la célèbre « antenne râteau » qui est typiquement utilisée en télévision.
+Plusieurs possibilités d'utilisations ont été explorées au cours du temps.
+Ainsi, le système Chain Home britannique durant la Seconde Guerre mondiale, était formé d'antennes dipolaires qui émettaient de façon omni-directionnelle, et d'antennes réceptrices directionnelles.
+Ces dernières étaient formées de deux antennes dipolaires placées à angle droit.
+En effet, pour une antenne dipolaire, la réception est maximale à angle droit de la source d'échos, et minimale lorsque l'antenne pointe sa direction. L'opérateur radar peut donc déterminer la direction du signal en tournant les antennes pour déterminer ce doublet max/min des affichages de ses deux antennes.
+Les premiers radars aéroportés, comme le radar allemand Liechtenstein de la Seconde Guerre mondiale étaient souvent formés de réseaux d'antennes Yagi montés sur le nez de l'avion.
+Ces antennes ajoutaient une traînée supplémentaire à l'avion, ce qui n'est généralement pas désirable ; or il n'était pas possible d'utiliser des antennes moins encombrantes, car celles-ci n'étaient pas adaptées à la fréquence basse qui était alors utilisée.
+Les antennes filaires restent utilisées de nos jours pour les radars à « basse » fréquence (en dessous de quelques centaines de mégahertz, mais il n'y a pas de limite exacte).
+Pour les radars à hyperfréquences, un type classique d'antenne est l'antenne à ouverture.
+Cette antenne fonctionne de la manière suivante :
+Si le « réflecteur » est de forme parabolique, et si le cornet est situé au foyer de la parabole, alors les rayons réfléchis par la surface repartiront grosso modo de manière parallèle vers l'infini dans la direction x, tout comme l'ampoule d'un phare de voiture est située au foyer d'un réflecteur parabolique métallisé qui réfléchit les rayons lumineux loin sur la route.
+Toutefois, à la différence du phare de voiture, la taille de la surface formant le réflecteur est relativement petite devant la longueur d'onde du signal émis et il n'est alors pas possible de négliger les phénomènes de diffraction.
+Chaque point de la surface du réflecteur va rayonner comme une source ponctuelle, et le champ total émis en un point est la somme cohérente de tous les champs infinitésimaux.
+Tout se passe comme dans le cas de la diffraction d'une onde par une ouverture.
+Afin de mieux sentir la physique du phénomène, considérons le cas idéalisé suivant :
+Soit à mesurer l'amplitude de l'onde émise dans une direction repérée par les angles 
+(angle azimutal horizontal ou gisement) et 
+(angle d'élévation ou de site), et mesurée à une distance 
+de l'antenne suffisamment grande pour que l'approximation de Fraunhofer soit vérifiée. La théorie de la diffraction montre que celle-ci vaut :
+Dans cette expression, 
+est la fonction sinus cardinal définie par 
+sin
+⁡
+/
+L'amplitude maximale est obtenue sur l'axe X.
+Le diagramme de droite donne l'allure de l'évolution de la puissance de l'onde, normalisée par rapport à la puissance maximale émise, en fonction du site et du gisement (échelle logarithmique). On voit apparaître un pic central qui représente le lobe principal du radar, ainsi que des pics secondaires représentant des lobes secondaires.
+Ici, l'antenne a pour dimensions 20 cm par 10 cm, ce qui a pour avantage de rendre les lobes bien visibles ; dans la réalité, il peut être désirable d'avoir des antennes plus grandes pour avoir un lobe principal plus fin (de l'ordre du degré). La majeure partie de l'énergie émise ou reçue par une antenne vient du lobe principal ; en particulier, si un signal réfléchi est reçu par l'antenne, il y aura une forte probabilité pour que la cible se trouve dans la direction donnée par le lobe principal.
+On désire cependant réduire les lobes secondaires le plus possible, car ils ne sont pas négligeables.
+La réduction des lobes secondaires peut être réalisée, par exemple, en s'arrangeant pour que l'illumination du réflecteur ne soit plus constante, mais importante au centre et doucement décroissante aux bords.
+Si 
+=
+l'ensemble des angles pour lesquels la puissance est au moins égale à la moitié de la puissance maximale correspond aux angles donnant un argument supérieur à 
+dans le premier sinus cardinal; numériquement, l'ouverture angulaire 
+de ce domaine vaut, pour de petites ouvertures :
+Il vient une relation similaire si 
+=
+en remplaçant l par L. On voit que pour réduire l'ouverture angulaire de l'antenne, il y a deux méthodes :
+La popularité des antennes à ouverture décroît en 2008 en faveur des antennes patch et des antennes à fentes (surtout dans le domaine civil), sauf dans quelques applications où la puissance à l'émission est importante; cependant, la théorie n'est pas très différente et les résultats énoncés ci-dessus restent valides qualitativement.
+En général, le signal venant de l'émetteur se déplace dans un guide d'ondes dans l'antenne émettrice.
+Il est cependant possible de transformer le guide d'ondes lui-même en antenne en y perçant des fentes. L'interférence entre les différentes fentes crée en effet un patron de diffusion avec un pic central intense et des pics secondaires plus faibles dans la direction selon laquelle sont dirigées les fentes.
+On obtient ainsi un faisceau radar directionnel semblable à celui d'une antenne parabolique.
+Ce type d'antenne a une bonne résolution selon son axe, mais aucune dans l'axe perpendiculaire.
+Il suffit ensuite de faire tourner mécaniquement le guide d'ondes ainsi troué sur 360 degrés pour obtenir un balayage de l'horizon.
+Ce type d'antenne est particulièrement utilisé dans les cas où on ne s'intéresse qu'à ce qui se trouve dans le plan balayé sans nécessiter une très grande précision. C'est ce type d'antennes que l'on voit sur les navires, le long des pistes des aéroports et dans les ports et qui ressemblent à de longs haut-parleurs placés horizontalement et en rotation sur un mât. Ils sont très économiques et moins affectés par le vent que d'autres types d'antenne.
+Les antennes à plaque ou planaire (souvent connues sous l'anglicisme de « antenne patch ») sont constituées d'un circuit imprimé double face métallisé. Elles ont l'avantage d'être très peu onéreuses, légères et très flexibles à l'utilisation.
+Pour cela, elles trouvent souvent un usage pour les applications d'imagerie à antenne synthétique où elles peuvent être montées de manière conforme sur la coque d'un avion, d'un drone, ou embarquées sur un satellite.
+Le radar français RAMSES (Radar Aéroporté Multi-Spectral d'Étude des Signatures) utilise par exemple une telle technologie. Les résultats démontrés pour les antennes à ouverture restent qualitativement valides pour les antennes patch, c'est-à-dire l'ouverture angulaire diminue quand la dimension de l'antenne augmente et la longueur d'onde diminue.
+Une autre méthode utilisée pour diffuser le faisceau radar est celui des antennes réseau à commande de phase.
+Dans ce système, on divise le guide d'ondes venant de l'émetteur en un très grand nombre de sous-guides d'ondes.
+Ces derniers se terminent chacun par une fente sur une plaque faisant face à une direction.
+En contrôlant la phase de l'onde passant dans chacune de ces fentes, on peut créer une figure d'interférences qui donne une émission dans une direction particulière.
+On peut changer la direction vers laquelle l'antenne émet sans avoir à bouger celle-ci : il n'y a qu'à changer l'arrangement des phases des fentes.
+Comme le changement de l'arrangement se fait électroniquement, on peut procéder à un balayage de l'horizon et de la verticale en un temps beaucoup plus rapide que ne le ferait une antenne parabolique en rotation mécanique.
+On peut même arranger le diagramme d'émission de telle sorte qu'on ait deux faisceaux, ce qui crée deux radars virtuels.
+Cependant, le faisceau n'est pas très précis dans la direction rasant la plaque et c'est pourquoi on arrange généralement trois ou quatre plaques de ce type dans des directions différentes pour couvrir tout le volume autour du radar.
+Ceci donne un radar tridimensionnel à balayage électronique.
+Les antennes réseau à commande de phase ont été utilisées en premier durant la Seconde Guerre mondiale mais les limitations de l'électronique du temps n'ont pas permis d'avoir des résultats de bonne résolution.
+Durant la Guerre froide, un grand effort a été fourni pour leur développement, car les cibles très rapides comme les avions de chasse et les missiles se déplacent trop rapidement pour être suivis par les systèmes conventionnels.
+Elles sont le cœur du système de combat Aegis des navires de guerre et du système anti-missiles Patriot.
+Elles sont de plus en plus utilisées, malgré leur coût important, dans d'autres domaines où la vitesse de sondage et l'encombrement sont critiques, comme à bord des avions de chasse.
+Dans ces derniers, elles sont très appréciées pour leur capacité à suivre plusieurs cibles.
+Elles y furent introduites en premier dans le Mikoyan MiG-31. Son antenne à commande de phase, la Zaslon SBI-16, est considérée comme la plus puissante des antennes pour avions de chasse.
+Avec la baisse du prix des pièces électroniques, ce genre d'antennes se répand de plus en plus.
+Presque tous les systèmes militaires de radar utilisent ce concept, car le coût additionnel est facilement compensé par sa polyvalence et sa fiabilité (moins de pièces mobiles). L'antenne réseau à commande de phase pour radar se retrouve également dans les satellites et on procède même à des essais au National Weather Service américain pour son utilisation dans les radars météorologiques. L'antenne parabolique est encore utilisée dans l'aviation générale et les autres utilisations civiles mais cela pourrait changer si les coûts continuent à décliner.
+On distingue généralement les antennes à balayage électronique actives des antennes à balayage électronique passives.
+Dans le cas des antennes à balayage électronique passives, une seule source produit l'onde, qui est ensuite déphasée de manière adéquate pour chacun des éléments radiatifs de l'antenne.
+Dans les antennes à balayage électronique actives, l'antenne est en réalité un ensemble de plusieurs (1000 à 1500, typiquement) sous-antennes indépendantes les unes des autres et disposant chacune de leur source propre. L'avantage de cette dernière approche est de pouvoir assurer le fonctionnement du système après reconfiguration même si l'une des sous-antennes est défectueuse.
+Le radar RBE-2 qui équipe le chasseur français Rafale est un exemple de radar à balayage électronique à antenne passive.
+Le radar AN/APG 77 équipant le chasseur américain F-22 est équipé d'antennes actives.
+Comme son nom l'indique, il ne s'agit pas à proprement parler d'une antenne physique, mais d'un traitement appliqué au signal brut reçu par le radar, en fin de chaîne.
+En utilisant une antenne sur un porteur (avion ou satellite) en mouvement, on réalise la sommation cohérente du signal reçu correspondant à un même point de l'espace, sur plusieurs instants successifs, en s'arrangeant pour que l'objet reste dans le lobe principal de l'antenne sur cette durée. Cette sommation augmente artificiellement la résolution de l'image, sans pour autant devoir augmenter la taille physique de l'antenne.
+Cette solution a un intérêt certain pour des radars embarqués sur satellite ou sur avion, car elle permet d'avoir de bonnes performances pour un poids et un encombrement minimes.
+Le coolanol et le PAO (poly alpha olefin) sont les deux principaux réfrigérants utilisés dans les radars aéroportés. La U.S. Navy ayant institué un programme anti-pollution pour réduire les déchets toxiques, le Coolanol est moins en usage depuis quelques années.
+Le PAO est un lubrifiant synthétique composé d'esters de polyol, d'anti-oxydants, d'inhibiteurs de rouille et de triazole un « yellow metal pacifier ».
+Les ondes électromagnétiques sont réfléchies par tout changement significatif des constantes diélectriques ou diamagnétiques du milieu traversé. Cela signifie qu’un objet solide dans l’air ou le vide, ou tout autre changement significatif de la densité atomique entre l’objet et ce qui l’entoure, disperse les ondes radar. C’est particulièrement vrai pour les matériaux conducteurs d’électricité, tels les métaux et la fibre de carbone, ce qui rend les radars très adaptés à la détection d’avions et bateaux.
+La portion de l'onde qui est retournée au radar par une cible est appelée sa réflectivité. La propension de la cible à réfléchir ou disperser ces ondes est appelée sa surface efficace radar.
+En fait, les ondes radar se dispersent de façons différentes suivant la longueur d'onde utilisée, la forme de la cible et sa composition :
+Les premiers radars utilisaient des longueurs d’onde beaucoup plus importantes que la taille des cibles et recevaient un signal vague, tandis que certains radars modernes utilisent des longueurs d’onde plus courtes (quelques centimètres, voire moins) qui peuvent voir des objets plus petits, comme la pluie ou les insectes.
+Les ondes radio courtes sont réfléchies par les courbes et des angles aigus comme la lumière sur un morceau de verre arrondi.
+Les cibles les plus réfléchissantes pour des courtes longueurs d’onde présentent des angles de 90° entre leurs surfaces réfléchissantes.
+Une structure composée de trois surfaces planes se rejoignant en un seul coin (par exemple le coin d’une boîte) réfléchira toujours les ondes entrantes directement vers leur source.
+Ces types de réflexion sont couramment utilisés comme réflecteurs radar afin de détecter plus facilement des objets difficilement décelables autrement, et sont souvent présents sur des bateaux afin d’améliorer leur détection en cas de sauvetage et pour réduire les risques de collision.
+Pour les mêmes raisons, les objets voulant éviter d’être détectés vont orienter leurs surfaces afin d’éliminer les coins intérieurs et éviter les surfaces et arêtes perpendiculaires aux directions de détection courantes.
+Cela conduit à des avions furtifs aux formes particulières.
+Ces précautions n’éliminent pas complètement les réflexions à cause du phénomène de diffraction, particulièrement pour les grandes longueurs d’onde.
+Des câbles ayant pour longueur la moitié de la longueur d’onde ou des bandes de matériau conducteur (comme les « paillettes » de contre-mesures radar) sont très réfléchissants mais ne renvoient pas l’onde vers sa source.
+Une autre façon de se camoufler est d'utiliser des matériaux absorbant les ondes des radars, c'est-à-dire contenant des substances résistantes ou/et magnétiques.
+On les utilise sur les véhicules militaires afin de réduire la réflexion de l’onde. C’est en quelque sorte équivalent de peindre quelque chose de couleur sombre dans le spectre visible.
+Selon l'équation radar, la puissance 
+retournée au radar depuis la cible est :
+La réflectivité étant définie comme 
+/
+on voit que :
+Une impulsion sonde un volume de l'atmosphère qui augmente avec la distance au radar comme 
+×
+(h : largeur de l'impulsion, R la distance au radar, 
+et 
+les angles d’ouverture du faisceau latéral et vertical). Avec les dimensions typiques d'un faisceau radar, le volume sondé varie donc de 0,001 km³ près du radar, jusqu'à 1 km³ à 200 km de celui-ci.
+Il s'agit du « volume radar ». La résolution d'un radar est sa capacité à distinguer deux cibles très proches l'une de l'autre, en azimut ou en distance dans ce volume.
+Elle se divise en deux parties : la résolution en distance et la résolution angulaire.
+La résolution angulaire des données est l'écart angulaire minimum qui permet au radar de distinguer deux cibles identiques se présentant à la même distance.
+La résolution angulaire d'un radar est déterminée par la largeur de son lobe d'antenne définie comme les points du diagramme de rayonnement de l'antenne qui reçoivent la moitié de la puissance émise (−3 dB). Deux cibles identiques et à la même distance du radar sont de fait vues par un radar à des azimuts différents lorsqu'elles sont espacées angulairement d'une valeur supérieure à la largeur du lobe.
+Plus le lobe est étroit, plus la directivité de l'antenne est importante.
+La résolution angulaire en azimut et en élévation rapportée à une distance entre deux cibles peut être calculée par la formule suivante :
+où :
+La résolution en distance est la capacité d'un système radar à distinguer deux ou plusieurs cibles situées dans la même direction mais à des distances différentes.
+Elle dépend de la longueur de l'impulsion émise, du type et de la taille des cibles, et de l'efficacité du récepteur.
+La largeur d'impulsion devrait être capable de distinguer des cibles espacées d'un temps égal à une demi-longueur d'impulsion (τ). En conséquence, la résolution en distance théorique d'un radar peut être calculée grâce à la formule suivante :
+où : C0 est la vitesse de la lumière dans le milieu traversé.
+En combinant les deux résolutions, il est possible de définir le « volume de résolution » qui sera plus petit que le volume sondé.
+Pour les applications nécessitant une grande résolution angulaire : radar de conduite de tir (pilotage d'une pièce d'artillerie, guidage d'un missile) ou radar de trajectographie (restitution de la trajectoire d'un mobile dans l'espace tel qu'un aéronef, une fusée, un missile), l'ajout d'un système d'écartométrie se trouve nécessaire.
+Ce système d'écartométrie se présente principalement sous trois formes :
+Dans le signal émis par le radar, le champ électrique est perpendiculaire à la direction de propagation, et la direction de ce champ électrique est la polarisation de l’onde.
+Les radars utilisent une polarisation verticale, horizontale et circulaire pour détecter différents types de réflexions.
+Il existe de nombreuses sources de signaux malvenus, que les radars doivent pouvoir ignorer plus ou moins, afin de se focaliser uniquement sur les cibles intéressantes.
+Ces signaux malvenus peuvent avoir des origines internes et externes, passives et actives.
+La capacité d’un radar à surmonter ces nuisances définit son rapport signal sur bruit (SNR) : plus le SNR est grand, plus le radar peut séparer efficacement une cible des signaux parasites alentour.
+Le bruit est une source interne de variations aléatoires du signal, que tous les composants électroniques produisent de façon inhérente à différents degrés. Le bruit apparaît typiquement comme constitué de variations aléatoires superposées au signal d’écho reçu par le radar, lequel est celui qu'on recherche.
+Plus la puissance du signal désiré est faible, plus il est difficile de le discerner du bruit (tenter d’entendre un murmure près d’une route encombrée est similaire). Ainsi, les sources de bruit les plus importunes apparaissent au niveau du récepteur et beaucoup d’efforts sont faits pour minimiser ces facteurs.
+La facteur de bruit est une mesure du bruit produit par un récepteur comparé à celui produit par un récepteur idéal, et ce ratio doit être minimal.
+Le bruit est aussi généré par des sources extérieures, principalement par les radiations thermiques naturelles de l’environnement entourant la cible du radar.
+Dans le cas des radars modernes, grâce aux hautes performances de leurs récepteurs, le bruit interne est inférieur ou égal au bruit de l’environnement extérieur, sauf si le radar est pointé vers un ciel dégagé, auquel cas l’environnement est si froid qu’il produit très peu de bruit thermique.
+Les échos parasites sont des retours venant de cibles qui sont par définition inintéressantes pour l'opérateur radar.
+Les causes de ces échos sont :
+Il est à noter que ce qui est un écho indésirable pour certains peut cependant être le but recherché par d'autres.
+Ainsi les opérateurs à l'aviation veulent éliminer tout ce dont on vient de parler mais les météorologistes considèrent que les avions sont du bruit et ne veulent garder que les signaux provenant des précipitations.
+Autre exemple, plusieurs études universitaires et gouvernementales ont permis d'extraire les données sur la période, la hauteur et la trajectoire de migration des oiseaux et des papillons Monarques de ces échos parasites,. Ces informations sont utiles pour les programmes d'aménagement des aires naturelles, la planification des parcs éoliens et toute autre activité qui peut influencer les populations d'oiseaux ou d'insectes.
+Les échos parasites sont considérés comme une source d’interférences passive, puisqu’ils ne sont détectés qu'en réponse aux signaux émis par le radar.
+Il existe plusieurs façons d'éliminer ces échos.
+Plusieurs de ces méthodes reposent sur le fait que ces échos tendent à être stationnaires lors des balayages du radar.
+Ainsi, en comparant des sondages radar successifs, la cible désirée sera mobile et tous les échos stationnaires pourront être éliminés. Les échos de mer peuvent être réduits en utilisant une polarisation horizontale, tandis que la pluie est réduite avec une polarisation circulaire (notez que les radars météorologiques souhaitent obtenir l’effet inverse, utilisant donc une polarisation horizontale afin de détecter les précipitations). Les autres méthodes visent à augmenter le rapport signal sur bruit.
+La méthode CFAR (Constant false alarm rate, parfois appelée AGC pour Automatic Gain Control) repose sur le fait que les échos dus aux parasites sont beaucoup plus nombreux que ceux dus à la cible.
+Le gain du récepteur est automatiquement ajusté afin de maintenir un niveau constant des échos parasites visibles.
+Les cibles ayant un retour plus important que les parasites ressortiront facilement de ces derniers, même si les cibles plus faibles se perdent dans le bruit.
+Par le passé, le CFAR était contrôlé électroniquement et affectait également tout le volume sondé. Maintenant, le CFAR est contrôlé par ordinateur et peut être réglé différemment en chaque zone de l'affichage.
+Ainsi, il s'adapte au niveau des échos parasites selon la distance et l'azimut.
+On peut utiliser également des masques de régions connues d'échos parasites permanents (par ex. les montagnes) ou incorporer une carte des environs du radar pour éliminer tous les échos ayant une origine située sous le niveau du sol ou au-dessus d’une certaine hauteur.
+Pour réduire les retours des supports du cornet d'émission sans diminuer la portée, il est nécessaire d’ajuster la période muette entre le moment où l’émetteur envoie une impulsion et le moment où le récepteur est activé, afin de ne pas tenir compte de retours internes à l’antenne.
+Le brouillage radar se réfère aux fréquences radios originaires de sources extérieures au radar, émettant à la fréquence du radar et masquant donc les cibles intéressantes.
+Le brouillage peut être intentionnel (un dispositif antiradars dans le cas d’une guerre électronique) ou non voulu (par exemple dans le cas de forces alliées utilisant du matériel qui émet dans la même gamme de fréquences). Le brouillage est considéré comme une source d’interférences active, puisqu’il est causé par des éléments extérieurs au radar et généralement sans lien avec les signaux du radar.
+Le brouillage pose des problèmes aux radars puisque les signaux de brouillage n’ont besoin de parcourir qu’un aller (du brouilleur au récepteur du radar) alors que les échos du radar parcourent un aller-retour (radar-cible-radar) et sont donc beaucoup moins puissants une fois de retour au récepteur.
+Les brouilleurs ont donc besoin d’être beaucoup moins puissants que les radars afin de masquer efficacement les sources le long du champ de vision depuis le brouilleur vers le radar (brouillage du lobe principal). Les brouilleurs ont un effet supplémentaire sur les radars situés le long d’autres champs de visions, à cause des lobes secondaires du récepteur du radar (brouillage des lobes latéraux).
+Le brouillage du lobe principal peut généralement être réduit seulement en réduisant son angle solide, et ne peut jamais être complètement éliminé si le brouilleur est situé directement face au radar et s’il utilise les mêmes fréquences et polarisation que le radar.
+Le brouillage des lobes secondaires peut être surmonté en réduisant les lobes de réception secondaires dans la conception de l’antenne du radar et en utilisant une antenne unidirectionnelle afin de détecter et ignorer tous les signaux non destinés au lobe principal.
+Des travaux sont également menés actuellement sur les antennes à balayage électronique actif afin de leur permettre de repositionner dynamiquement leurs lobes secondaires en cas de brouillage.
+Enfin, on peut citer d’autres techniques antibrouillage : le frequency hopping et la polarisation par exemple.
+Se référer aux contre-contre-mesures électroniques pour plus de détails.
+Les interférences sont récemment devenues un problème pour les radars météorologiques de bande C (5,66 GHz) à cause de la prolifération des équipements Wi-Fi à 5,4 GHz.
+Une manière de mesurer la distance à un objet est d'émettre une courte impulsion de signal radio, et de mesurer le temps que prend l'onde pour revenir après avoir été réfléchie.
+La distance est la moitié du temps de retour de l'onde (car le signal doit aller à la cible puis revenir) multipliée par la vitesse du signal (qui est proche de la vitesse de la lumière dans le vide si le milieu traversé est l'atmosphère).
+Quand l'antenne est à la fois émettrice et réceptrice (ce qui est le cas le plus courant), l'antenne ne peut pas détecter l'onde réfléchie (aussi appelée retour) pendant que le signal est émis - on ne peut pas savoir si le signal mesuré est l'original ou le retour.
+Cela implique qu'un radar a une portée minimale, qui est la moitié de la durée de l'impulsion multipliée par la vitesse de la lumière.
+Pour détecter des cibles plus proches, il faut utiliser une durée d'impulsion plus courte.
+Un effet similaire impose de la même manière une portée maximale.
+Si le retour arrive quand l'impulsion suivante est émise, une fois encore le récepteur ne peut pas faire la différence.
+La portée maximale est donc calculée par :
+La forme de l'impulsion joue sur la capacité du radar à distinguer deux objets proches (notion de Pouvoir de résolution). Voir l'article consacré à la compression d'impulsion pour plus de détails.
+Cette forme d'émission est utilisée par les radars à impulsions.
+Une autre façon de mesurer la distance au radar est d'utiliser une modulation de la fréquence d'un radar à émission continue. L'onde est émise par une antenne et reçue par une seconde antenne puisque le même électronique ne peut émettre et recevoir à la fois.
+Dans ce cas le signal émis au temps T a une fréquence A mais une fréquence B au temps T' ultérieur.
+Le signal émis à T qui frappe une cible et revient au radar aura donc une fréquence différente de celle émise à ce moment par le radar.
+En faisant la différence entre les deux fréquences, on peut déduire la distance parcourue, aller-retour, entre le radar et la cible.
+On utilise généralement une variation sinusoïdale de fréquences qu'il est facile d'étalonner et la comparaison entre les deux fréquences est faite en utilisant les battements inter-fréquentiels.
+Cette technique est utilisée depuis longtemps dans les altimètres pour mesurer l'altitude de vol et peut être utilisée dans les radars comme les détecteurs de vitesse de la police routière.
+Cette forme d'émission est utilisé par les radars à émission continue.
+Les ondes électromagnétiques suivent les règles de l’optique pour les hautes fréquences (>100 MHz). Même le faisceau d’un radar pointant vers l’horizon va s’éloigner de la surface de la Terre parce que celle-ci a une courbure.
+Une cible qui se trouve à une distance à l’intérieur de la portée maximale du radar mais sous l’horizon du radar ne pourra donc pas être détectée, elle se trouve dans la « zone d’ombre ».
+Cependant, l’horizon du radar est à une plus grande distance que l'horizon optique en ligne directe parce que la variation de l’indice de réfraction avec l’altitude dans l’atmosphère permet à l’onde radar de courber.
+Le rayon de courbure de la trajectoire de l’onde est ainsi plus grand que celui de la Terre ce qui permet au faisceau radar de dépasser la ligne de visée directe et donc de réduire la zone d’ombre.
+Le rayon de courbure de la Terre est de 6,4 × 106 m alors que celui de l’onde radar est de 8,5 × 106 m.
+Dans le cas d'un radar à impulsion monostatique, l'antenne du radar est utilisée à la fois dans l'émission que dans la réception.
+Lorsque l'antenne émet, celle-ci ne peut recevoir de signal.
+On parle donc de « distance aveugle » pour parler de la distance minimale pour laquelle un objet peut être détecté par le radar.
+La distance minimale pour recevoir un signal est donnée par :
+=
++
+où : 
+est la durée de l'impulsion exprimée en secondes
+est le temps de mise en service de la réception de l'antenne
+Il existe différentes méthodes pour mesurer la vitesse de déplacement d'une cible :
+Au lieu de mesurer la différence de fréquence entre l'onde émise et celle reçue, qui peut être trop minime pour l'électronique, on utilise la différence de phase entre deux impulsions successives revenant d'un même volume sondé (paire d'ondes pulsées). Entre chaque impulsion, les cibles se déplacent légèrement et sont frappées par l'onde à une partie légèrement différente de son cycle. C'est cette différence de phase que le radar note au retour.
+L'intensité d'une impulsion après un aller-retour est donnée par :
+où : 
+{
+=
+−
+=
+′
+=
+L'intensité d'une impulsion subséquente revenant du même volume sondé mais où les cibles ont légèrement bougé est donnée par :
+donc :
+Comme on n'obtient que la composante radiale du déplacement, il faut donc le suivre pour savoir l’angle que fait sa véritable direction de déplacement avec le rayon au radar.
+Par la suite, un simple calcul trigonométrique donne la véritable vitesse de la cible.
+Intéressons-nous maintenant à la vitesse maximale qu'on peut mesurer sans ambiguïté. Comme on ne peut déterminer à partir d'un sinus qu'un angle compris entre -
+et +
+on ne peut mesurer une vitesse supérieure à :
+C'est ce qu'on appelle la vitesse de Nyquist.
+Pour obtenir une meilleure détermination de la vitesse des cibles, il faut envoyer des impulsions très rapprochées, donc avec 
+très petit.
+Mais on sait également que la portée en réflectivité est directement proportionnelle à 
+ce qui demande un grand 
+pour être sûr de la position des échos revenant de loin sans ambiguïté.
+Ce dilemme Doppler limite la portée utile des radars Doppler à impulsions.
+Il existe cependant une façon de le contourner en utilisant une fréquence de répétition des impulsions radar multiple.
+La position et la vitesse des vrais échos demeure la même avec les différents taux de répétition alors que celles des échos fantôme changent.
+Le traitement du signal est nécessaire pour éliminer les interférences (dues à des sources radio autres que celle du radar) ainsi que les échos parasites.
+On utilise les techniques suivantes :
+Les premières utilisations opérationnelles du radar eurent lieu pendant la Seconde Guerre mondiale afin de détecter depuis la côte l'approche de formations aériennes, et de navires, tant par le Royaume-Uni que par les forces allemandes.
+Déjà en 1936, le paquebot français « Normandie » et l'aviso « Ville d'Ys » qui était affecté à l'assistance des pêches à Terre-Neuve, étaient équipés d'un appareil SFR utilisant les ondes électromagnétiques pour détecter les icebergs et que l'on peut considérer comme la première application du radar embarqué sur des navires.
+Les radars ont aujourd'hui une très grande variété d'applications dans de nombreux domaines :
+Une étude a porté sur la santé de professionnels exposés au rayonnement micro-ondes pulsé provenant des radars marins (champ électromagnétique de 3 GHz, 5,5 GHz et 9,4 GHz). Elle a précisé les valeurs de taux d'absorption spécifiques correspondantes.
+Le test des comètes et le test du micronoyau ont été faits chez ces travailleurs, et chez un groupe témoin (sujets non exposés). Les deux tests ont montré que les personnes exposées sont significativement affectés, avec une intensité moyenne de la queue de comète de 0,67 vs 1,22 et le moment (0,08 vs 0,16) et un nombre accru de (micronoyaux, ponts nucléoplasmiques et bourgeons nucléaires) suggérant que des altérations cytogénétiques. Par ailleurs, le taux de glutathion était significativement diminué chez les professionnels exposés (1,24 vs 0,53), alors que celui de malondialdéhyde était chez eux nettement plus élevée (1,74 vs 3,17), montrant un stress oxydatif.
+Cette étude confirme que les micro-ondes pulsées semblent bien induire un stress oxydatif et altérer le génome (avec donc un effet mutagène potentiel). Cependant, il faut comprendre que les résultats ci-dessus sont pour des travailleurs exposés à relativement faible distance dans le cadre d'un travail. L'effet radiatif diminuant selon le carré de la distance à l'émetteur radar, les impacts à plusieurs kilomètres du site sont négligeables par rapport à la radiation naturelle.
+Sur les autres projets Wikimedia :
+Histoire :
+Introductions :
+Antennes :
+Ouvrages de référence :
+Documentaire :

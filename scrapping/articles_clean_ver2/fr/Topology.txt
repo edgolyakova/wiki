@@ -1,0 +1,66 @@
+Topologie
+Étymologie
+Histoire
+Principes fondateurs
+Branches de la topologie
+Notes et références
+Voir aussi
+Articles connexes
+Bibliographie
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Topologie (homonymie).
+Cet article ne cite pas suffisamment ses sources (octobre 2019).
+Si vous disposez d'ouvrages ou d'articles de référence ou si vous connaissez des sites web de qualité traitant du thème abordé ici, merci de compléter l'article en donnant les références utiles à sa vérifiabilité et en les liant à la section « Notes et références »
+En pratique : Quelles sources sont attendues ? Comment ajouter mes sources ?
+La topologie est la branche des mathématiques qui étudie les propriétés d'objets géométriques préservées par déformation continue sans arrachage ni recollement, comme un élastique que l’on peut tendre sans le rompre.
+Par exemple, on identifie le cercle et l’ellipse, la couronne et la paroi latérale d’un cylindre de révolution, une tasse et un tore (voir animation) ; c’est-à-dire qu’ils sont respectivement homéomorphes.
+En topologie, on étudie des espaces topologiques : ce sont des ensembles munis d’une notion de voisinage autour de chaque point.
+Les applications continues entre ces espaces préservent cette notion.
+La définition du voisinage est parfois induite par une distance entre les points, ce qui donne une structure d’espace métrique. C’est le cas notamment de la droite réelle, du plan, de l’espace tridimensionnel ou plus généralement d’un espace euclidien, et de leurs sous-ensemble comme le cercle, la sphère, le tore et d’autres variétés riemanniennes.
+Dans un espace topologique, la notion locale de voisinage peut être remplacée par la notion globale d’ouvert, qui est un voisinage de chacun de ses points. L’ensemble des ouverts est également appelé « topologie ». Cette topologie peut être compatible avec une structure algébrique, d’où la définition de groupe topologique et d’espace vectoriel topologique, en particulier en analyse fonctionnelle.
+La topologie générale définit les notions et constructions usuelles d’espaces topologiques.
+La topologie algébrique associe à chaque espace topologique des invariants algébriques comme des nombres, des groupes, des modules ou des anneaux qui permettent de les distinguer, en particulier dans le cadre de la théorie des nœuds.
+La topologie différentielle se restreint à l’étude des variétés différentielles, dans lesquelles chaque point admet un voisinage homéomorphe à une boule de dimension finie.
+Le mot « topologie » (en grec ἡ τοπολογία) procède de l'association de deux noms grecs ὁ τόπος (ho topos, masculin) et ἡ λογία (hē logia, féminin) qui signifient respectivement « le lieu » et « l'étude ». Littéralement, topologie signifie l'« étude d'un lieu » ou « étude topique ». Elle s’intéresse donc à définir ce qu’est un lieu (appelé aussi « espace ») et quelles peuvent en être les propriétés.
+Une ancienne dénomination fut analysis situs, c'est-à-dire « l'étude du lieu ».
+Le terme « topologie », fut introduit en allemand en 1847 par Johann Benedict Listing dans Vorstudien zur Topologie.
+La topologie se fonde sur les notions de limite et de continuité, appliquées d’abord aux suites et aux fonctions réelles d’une variable réelle.
+Ces notions d’analyse sont utilisées dès le XVIIIe siècle notamment par Euler et Lagrange, mais ne seront formalisées qu’au XIXe siècle : Cauchy définit la convergence d’une suite ou d’une série, Abel met en évidence la convergence uniforme, et Bolzano explicite la continuité pour démontrer le théorème des valeurs intermédiaires.
+À la même époque, Riemann introduit les variétés qui porteront son nom, et qui deviennent des espaces d’étude à part entière dans le cadre de la topologie différentielle.
+Le traitement commun de ces espaces et de l’analyse réelle viendra de la définition des voisinages par Hilbert.
+Vers 1860, Weierstrass définit la notion de point d'accumulation, dont il démontre l’existence dans tout ensemble infini et borné de nombres réels.
+Henri Poincaré publie Analysis Situs en 1895, introduisant les concepts d'homotopie et d'homologie.
+Ces invariants rejoignent le nombre d'enlacement et la caractéristique d'Euler (définie plus d’un siècle auparavant) dans ce qui deviendra la topologie algébrique.
+Ce n'est qu'en 1906, à force d'étudier des ensembles de plus en plus abstraits, qu'apparut le concept d'espace métrique, introduit par Fréchet, qui unifia les travaux sur les espaces de fonctions de Cantor, Volterra, Arzelà, Hadamard, Ascoli et d’autres.
+En 1914, Felix Hausdorff généralisa la notion d’espace métrique ; il inventa le terme d'« espace topologique » et définit ce qui s'appelle aujourd'hui un espace séparé ou espace de Hausdorff.
+Finalement, une autre légère généralisation en 1922, par Kuratowski, donna le concept actuel d'espace topologique.
+Le développement des espaces vectoriels normés (en particulier de dimensions infinies) est d'abord dû à Hilbert ; Banach compléta largement cette théorie dans les années 1930.
+La notion d'ensemble compact, en germe dès 1900, se développa avec les travaux d’Alexandroff, Urysohn et Tychonov.
+Aucun des vingt-trois problèmes de Hilbert ne portait sur la topologie, encore en germe au début du XXe siècle.
+La conjecture de Poincaré est mise à l’honneur parmi les sept problèmes du prix du millénaire en 2000. Ce problème sera le premier à être démontré complètement par Perelman au début du XXIe siècle à l’aide de la conjecture de géométrisation de Thurston.
+Le concept central en topologie est la notion de limite.
+Prenons l'exemple d'une surface fermée, un disque par exemple. D'un strict point de vue ensembliste, il y a les points qui sont dans le disque et ceux qui ne sont pas dedans.
+Pourtant, ce point de vue n'est pas satisfaisant géométriquement.
+Les points qui sont sur le cercle délimitant le disque ont un statut particulier, ils sont à la limite. D'ailleurs, dans la définition d'un disque, on a un choix à faire : considère-t-on l'ensemble des points dont la distance au centre est inférieure ou égale au rayon ou considère-t-on l'ensemble des points dont la distance au centre est strictement inférieure au rayon ? Dans le premier cas, on dit que le disque est fermé, dans le second cas, on dira que le disque est ouvert.
+Plus généralement, on dira qu'une surface est fermée lorsqu'elle contient tous ses points limites.
+On dira qu'une surface est ouverte si pour chacun de ses points il existe un disque centré en ce point qui est inclus dans cette surface.
+Cette idée de limite est très visuelle.
+La topologie cherche à formaliser cette notion.
+Il y a plusieurs moyens d'y parvenir.
+La façon la plus simple est de définir une distance.
+Dans notre exemple, on utilise simplement la distance euclidienne.
+Les points limites sont ceux qui sont proches (c'est-à-dire à une distance aussi faible que désirée) à la fois de points dans notre surface et de points qui ne sont pas dedans.
+Définir une distance sur un ensemble lui confère une structure d'espace métrique.
+Cette façon de voir est suffisante pour résoudre de nombreux problèmes.
+Cependant, utiliser une distance passe par l'intermédiaire des nombres réels et introduit donc une contrainte qu'il a fallu dépasser.
+Pour cela, on a été amené à définir le concept de proximité de façon plus abstraite, sans faire appel à un argument numérique, c'est le concept de voisinage.
+Pour des raisons  techniques, il est équivalent et plus simple de définir directement les ouverts avant les voisinages, c'est donc ainsi que l'on définit usuellement une topologie : en décidant quelles sont les parties ouvertes.
+La notion de limite n'est pas seulement statique mais aussi dynamique.
+La topologie permet d'appréhender les limites de fonctions ou de suites.
+Regardons la suite des inverses des nombres entiers à partir de 1 : 1/1, 1/2, 1/3, 1/4, … , 1/n, … À la limite, cette suite va tendre vers 0. Cela rejoint plus ou moins le fait que 0 est un point limite de l'ensemble des 1/n.
+Il est important de noter que la plupart des notions de topologie, notamment la continuité sont des conséquences de la notion de limite. C'est le cas notamment de la notion de dérivée qui se conçoit comme limite du taux d’accroissement, de la tangente qui est la limite des cordes.
+La topologie est donc une théorie unificatrice : elle explique avec peu d'axiomes initiaux un grand nombre de phénomènes.
+Sur les autres projets Wikimedia :

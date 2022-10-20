@@ -1,0 +1,404 @@
+Nombre réel
+Dans la vie courante[modifier | modifier le code]
+Aspect historique[modifier | modifier le code]
+Nature : mathématiques et philosophie[modifier | modifier le code]
+Définitions axiomatiques de ℝ et premières propriétés[modifier | modifier le code]
+Notes et références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+En science[modifier | modifier le code]
+Autres remarques sur la notion de « développement décimal infini »[modifier | modifier le code]
+Origine des nombres[modifier | modifier le code]
+Problèmes d'incomplétude[modifier | modifier le code]
+Après 2 200 ans : la solution[modifier | modifier le code]
+De la Grèce antique au début des Temps modernes[modifier | modifier le code]
+Histoire de l'analyse[modifier | modifier le code]
+Approche axiomatique[modifier | modifier le code]
+Premières propriétés[modifier | modifier le code]
+Clôture algébrique[modifier | modifier le code]
+Topologie[modifier | modifier le code]
+Cardinalité[modifier | modifier le code]
+Espace vectoriel sur ℚ[modifier | modifier le code]
+Notes[modifier | modifier le code]
+Références[modifier | modifier le code]
+Sources historiques[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Mise en place des fractions[modifier | modifier le code]
+Correspondance avec des longueurs[modifier | modifier le code]
+Irrationalité de la racine carrée de 2[modifier | modifier le code]
+Développement décimal illimité non périodique[modifier | modifier le code]
+Suites et séries[modifier | modifier le code]
+Le calcul infinitésimal[modifier | modifier le code]
+La droite réelle[modifier | modifier le code]
+La construction[modifier | modifier le code]
+La solution est plus riche que prévu[modifier | modifier le code]
+Histoire des mathématiques[modifier | modifier le code]
+Livres historiques de mathématiques[modifier | modifier le code]
+Références sur les nombres réels et l'analyse élémentaire[modifier | modifier le code]
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+				déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Réel.
+Ne doit pas être confondu avec Nombre pseudo-réel, Nombre surréel, Nombre superréel ou Nombre hyperréel.
+Certaines informations figurant dans cet article ou cette section devraient être mieux reliées aux sources mentionnées dans les sections « Bibliographie », « Sources » ou « Liens externes » (juin 2009).
+Vous pouvez améliorer la vérifiabilité en associant ces informations à des références à l'aide d'appels de notes.
+En mathématiques, un nombre réel est un nombre qui peut être représenté par une partie entière et une liste finie ou infinie de décimales. Cette définition s'applique donc aux nombres rationnels, dont les décimales se répètent de façon périodique à partir d'un certain rang[note 1], mais aussi à d'autres nombres dits irrationnels, tels que la racine carrée de 2, π et e.
+La notion de nombre réel émerge progressivement de la manipulation des rapports de grandeurs géométriques autres que les rapports d'entiers naturels depuis leur prise en compte par Eudoxe de Cnide[1] au IVe siècle av. J.-C. Elle s'insère aussi dans l'approximation des solutions de problèmes algébriques et donne même lieu, au milieu du XIXe siècle, à la mise en évidence de nombres transcendants. Mais la définition des nombres réels n'est formalisée que quelques décennies plus tard avec les constructions de Dedekind d'une part et de Cantor et Méray d'autre part.
+L'ensemble des nombres réels, noté[2] ℝ, est alors un corps totalement ordonné, c'est-à-dire qu'il est muni des quatre opérations arithmétiques satisfaisant les mêmes règles que celles sur les fractions et ces opérations sont compatibles avec la relation d'ordre. Mais il satisfait en plus la propriété de la borne supérieure qui fonde l'analyse réelle. Enfin, cet ensemble est caractérisé par Hilbert comme plus grand corps archimédien. Dans la droite réelle achevée les valeurs infinies ne satisfont plus les règles opératoires de corps, l'extension au corps des nombres complexes rend impossible la relation d'ordre total compatible, tandis que l'analyse non standard adjoint des nombres infiniment petits qui invalident le caractère archimédien.
+L'adjectif « réel » est utilisé pour qualifier des nombres dès le XVIIe siècle[H 1], mais il n'est explicitement défini par opposition aux nombres imaginaires qu'à la fin du XIXe siècle[3] Il a aussi été opposé à « nombre formel » dans certains traités de théologie ou de philosophie de la même époque[H 2].
+Les nombres réels sont utilisés pour représenter n'importe quelle mesure physique telle que : le prix d'un produit, la durée entre deux événements, l'altitude (positive ou négative) d'un site géographique, la masse d'un atome ou la distance de la galaxie la plus proche. Ces mesures dépendent du choix d'une unité de mesure, et le résultat s'exprime comme le produit d'un nombre réel par une unité. Les nombres réels sont utilisés tous les jours, par exemple en économie, en informatique, en mathématique, en physique ou en ingénierie.
+Le plus souvent, seuls certains sous-ensembles de réels sont utilisés :
+Bien que tous ces sous-ensembles des réels soient de cardinal infini, ils sont tous dénombrables et ne représentent donc qu'une infime partie de l'ensemble des réels. Ils ont chacun des propriétés propres. Deux sont particulièrement étudiés par les mathématiciens : les nombres rationnels et les nombres algébriques ; on appelle « irrationnels » les réels qui ne sont pas rationnels et « transcendants » ceux qui ne sont pas algébriques.
+La physique utilise les nombres réels dans l'expression des mesures pour deux raisons essentielles :
+En revanche, le physicien ne peut réaliser des mesures de précision infinie. La représentation numérique du résultat d'un calcul peut être approchée aussi précisément qu'il le souhaite par un nombre décimal. Dans l'état actuel de la physique, il est même théoriquement impossible[réf. nécessaire] de réaliser des mesures de précision infinie. C'est pourquoi, aussi bien pour des besoins expérimentaux que théoriques, si le physicien calcule les mesures dans ℝ, il exprime les résultats numériques sous forme de nombres décimaux.
+Ainsi le physicien utilise les propriétés des nombres réels qui permettent de donner un sens aux mesures qu'il réalise et offrent des théorèmes puissants pour démontrer ses théories. Pour les valeurs numériques, il se contente des nombres décimaux. Quand il mesure la distance que parcourt un point matériel sur un cercle complet, il utilise la valeur 
+
+
+
+π
+
+
+{\displaystyle \pi }
+
+ sans se poser de question sur son existence, mais un nombre de décimales souvent petit lui suffit pour les calculs.
+Enfin, bien que les nombres réels puissent représenter n'importe quelle grandeur physique, les nombres réels ne sont pas les mieux adaptés pour l'étude de très nombreux problèmes physiques. Des sur-ensembles construits autour des réels ont été créés pour pouvoir manipuler certains espaces physiques. Par exemple :
+Tout nombre réel peut être représenté sous la forme de « nombre à développement décimal infini ». Cette définition peut sembler plus simple que d'autres utilisées couramment par les mathématiciens, par exemple la limite d'une suite convergente. Pourtant, elle apparaît rapidement comme peu adaptée et implique des définitions et des démonstrations bien plus complexes. En effet les nombres réels sont intéressants pour la structure et les propriétés de l'ensemble qu'ils forment : addition, multiplication, relation d'ordre, et les propriétés qui lient ces notions. Ces propriétés sont mal reflétées par la définition « développement décimal infini » et des problèmes théoriques apparaissent :
+Cependant, une fois établie la structure de l'ensemble des nombres réels, la notation par développement décimal permet des calculs effectifs, en gardant à l'esprit que ce n'est pas tant les décimales exactes d'un nombre qui comptent, que la position du nombre vis-à-vis des autres réels.
+Depuis l'Antiquité la représentation d'une grandeur mesurable — par exemple une longueur ou une durée — a répondu à un besoin. La première réponse fut la construction des fractions (quotient de deux entiers positifs). Cette solution, mise en place très tôt chez les Sumériens et les Égyptiens, est finalement performante. Elle permet d'approcher une longueur quelconque avec toute la précision souhaitée.
+La première formalisation construite en système que l'on connaisse est le fruit du travail d'Euclide au IIIe siècle av. J.-C. Sa construction, inscrite dans ses Éléments, apporte deux grandes idées d'un apport majeur dans l'histoire des mathématiques.
+Supposons une longueur donnée choisie comme unité. Un raisonnement géométrique, certainement déjà connu des babyloniens, montre que si A est un carré de côté l'unité et B un carré de côté égal à la diagonale d de A, alors l'aire de B est double de celle de A, autrement dit : d2 = 2.
+Probablement au Ve siècle av. J.-C.[4], des mathématiciens grecs démontrent que les longueurs de la diagonale du carré et de son côté sont incommensurables : il n'existe pas de segment, aussi petit soit-il, qui permette de « mesurer » exactement ces deux grandeurs. Nous disons aujourd'hui que ce rapport de longueur, qui est la racine carrée de 2, est irrationnel, c'est-à-dire qu'il n'est pas égal à une fraction : si c'était une fraction m/n, en divisant la diagonale du carré en m parties égales et son côté en n parties égales on obtiendrait bien des segments tous de même longueurs.
+Ceci met en évidence que les fractions ne peuvent suffire pour représenter les grandeurs mesurables.
+Il existe une démonstration arithmétique simple de ce résultat, qui repose sur un argument de parité. Au IVe siècle av. J.-C., Aristote y fait allusion dans un de ses écrits[4]. On la trouve plus détaillée dans le livre X des Éléments d'Euclide.
+Si les fractions permettent effectivement d'exprimer toute longueur avec la précision souhaitée, il faut néanmoins comprendre que les opérations et particulièrement la division deviennent complexes si le système de numération n'est pas adapté. Le problème est décrit par l'article fraction égyptienne qui propose quelques exemples concrets.
+Il faut attendre le Ve siècle pour voir l'école indienne découvrir le concept du zéro et développer un système de numération décimal et positionnel.
+Un deuxième problème apparaît alors. Toutes les fractions possèdent un développement décimal dans la mesure où ce développement est infini et périodique, c'est-à-dire que la suite des décimales ne s'arrête pas mais boucle sur un nombre fini de valeurs. La question se pose alors de savoir quel sens donner à un objet caractérisé par une suite de décimales non périodique. Par exemple, le nombre à développement décimal infini qui s'exprime comme
+Dans la deuxième moitié du XVIIe siècle, on assiste à un extraordinaire épanouissement des mathématiques dans le domaine du calcul des séries et des suites.
+Nicolaus Mercator, les Bernoulli, James Gregory, Gottfried Wilhelm Leibniz, et d'autres travaillent sur des séries qui semblent converger mais dont la limite n'est pas rationnelle. C'est le cas par exemple :
+Pire, Liouville en 1844, prouve l'existence de nombres transcendants c'est-à-dire non racine d'un polynôme à coefficients entiers. Il ne suffit donc pas de compléter les rationnels en y ajoutant les nombres algébriques pour obtenir l'ensemble de tous les nombres.
+Isaac Newton.
+Gottfried Wilhelm Leibniz.
+Durant la deuxième partie du XVIIe siècle, Isaac Newton et Gottfried Wilhelm Leibniz inventent une toute nouvelle branche des mathématiques. On l'appelle maintenant l'analyse, à l'époque elle était connue sous le nom de calcul infinitésimal. Cette branche acquiert presque immédiatement une renommée immense car elle est la base d'une toute nouvelle théorie physique universelle : la théorie de la gravité newtonienne. Une des raisons de cette renommée est la résolution d'une vieille question, à savoir si la Terre tourne autour du Soleil ou l'inverse.
+Or le calcul infinitésimal ne peut se démontrer rigoureusement dans l'ensemble des nombres rationnels. Si les calculs sont justes, ils sont exprimés dans un langage d'une grande complexité et les preuves procèdent plus de l'intuition géométrique que d'une explicitation rigoureuse au sens de notre époque.
+L'impossibilité de la construction de l'analyse dans l'ensemble des fractions réside dans le fait que cette branche des mathématiques se fonde sur l'analyse des infiniment petits. Or, on peut comparer les nombres rationnels à une infinité de petits grains de sable (de taille infiniment petite) sur la droite réelle laissant infiniment plus de trous que de matière. L'analyse ne peut se contenter d'un tel support. Elle demande pour support un espace complet. Le mot est ici utilisé dans un double sens, le sens intuitif qui signifie que les petits trous en nombre infini doivent être bouchés et le sens que les mathématiciens donnent aujourd'hui plus abstrait mais rigoureusement formalisé.
+Cette notion est tellement importante qu'elle deviendra à l'aube du XXe siècle une large branche des mathématiques appelée topologie.
+L'analyse suppose qu'une fonction réelle de la variable réelle est essentiellement connue par son comportement infinitésimal. Par exemple, si l'accélération d'une planète est connue à chaque instant et que sa position et sa vitesse initiales sont connues, alors il est possible d'en déduire la trajectoire exacte. Une chaîne de théorèmes, celle du théorème des accroissements finis qui se prouve par le théorème de Rolle qui se prouve par le théorème des bornes devient fausse sur les fractions rationnelles. Si on représente ce théorème en termes imagés, on peut décrire ces théorèmes de la manière suivante : pour le théorème des accroissements finis, si une voiture parcourt 120 km en 2 heures alors cette voiture se déplace au moins une fois à 60 km/h ; pour le théorème de Rolle (respectivement le théorème des bornes), si une voiture part et arrive du même endroit sans jamais changer de route alors elle a fait au moins une fois demi-tour (respectivement il existe un moment où la voiture est le plus loin de son point de départ).
+Ce sont ces théorèmes qui intuitivement sont si évidents, que l'on se demande même comment il est possible de les démontrer. Newton a poussé tellement loin les conséquences de ces évidences, que seules quelques rares personnes pouvaient à son époque véritablement comprendre son ouvrage majeur Philosophiae Naturalis Principia Mathematica. Les preuves se fondaient toujours in fine sur une intuition.
+Explicitons alors pourquoi la démonstration du théorème des bornes impose une compréhension profonde de la nature topologique des nombres réels. Pour cela considérons la fonction f sur les rationnels de l'intervalle 
+
+
+
+
+[
+
+1
+,
+3
+
+]
+
+
+
+{\displaystyle \left[1,3\right]}
+
+ dans ℚ, où ℚ désigne l'ensemble des nombres rationnels, définie par :
+Si l'existence des nombres négatifs apparaît très tôt dans l'histoire (mathématiques indiennes), il faut attendre 1770 pour qu'ils obtiennent grâce à Euler un vrai statut de nombre et perdent leur caractère d'artifice de calcul. Mais il faut attendre encore un siècle pour voir l'ensemble des réels associé à l'ensemble des points d'une droite orientée, appelée droite réelle.
+On considère une droite D contenant un point O que l'on appellera, par convention, origine. Soit un point I distinct de O appartenant à D que l'on identifie au nombre 1. Par convention, on dira que la distance de O à I est égale à 1 et que l'orientation de la droite est celle de O vers I. À tout point M de la droite, on associe la distance entre O et M. Si M et I sont du même côté par rapport à O alors la distance est comptée positivement, sinon elle est négative.
+Cette relation que la formalisation actuelle appelle bijection permet d'identifier un nombre réel à un point d'une droite.
+Le développement de l'analyse au cours des XVIIIe et XIXe siècles a conduit les mathématiciens français et allemands à s'interroger sur la nature des nombres réels. Ces interrogations les ont conduits à dégager des propriétés fondamentales (complétude, suites adjacentes, etc.) sur lesquelles pouvaient se fonder les constructions possibles de ℝ, qui ont été formalisées autour de 1870 par Cantor, Méray et Dedekind.
+Dans son cours d'analyse à l'École polytechnique, Augustin Louis Cauchy propose la première définition rigoureuse d'une limite. Une séquence de nombres réels indexée par les entiers naturels (appelée suite) converge vers une limite (nécessairement unique) x lorsque la distance |x-xn| devient aussi petite que souhaitée pour n suffisamment grand. Il énonce un critère qui porte aujourd'hui son nom, le critère de Cauchy : il faut et il suffit que les distances |xn-xm| soient aussi petites que souhaitées pour n et m suffisamment grands. Par l'énoncé de ce critère, Cauchy affirme la complétude du corps des nombres réels, propriété sur laquelle peut être fondée sa définition. Cette approche est formalisée par Méray[H 3] en 1869 puis par Cantor en 1872. Cette idée, particulièrement adaptée à l'analyse, trouve des prolongements dans les méthodes de complétion.
+Une seconde construction est publiée par Richard Dedekind[H 4] en 1872. Elle découle de l'étude de la relation d'ordre sur les fractions. Une coupure de Dedekind est un ensemble A de rationnels, tel que tout rationnel de A est inférieur à tout rationnel du complémentaire de A. Un réel est alors représenté par une coupure de Dedekind. Par exemple, la racine carrée de 2 est représentée par l'ensemble des rationnels négatifs et des rationnels positifs de carrés inférieurs à 2. Il existe des variantes de la définition de coupure selon les auteurs.
+Une troisième construction s'appuie sur la méthode des segments emboîtés. Un emboîtement est une suite décroissante d'intervalles fermés de nombres rationnels dont la longueur tend vers 0. Un nombre réel est alors défini comme une classe d'emboîtements modulo une relation d'équivalence. Selon Mainzer (de)[5], « la vérification des propriétés de corps ordonné est relativement pénible », ce qui explique pourquoi cette approche apparaît moins avantageuse que les deux précédentes. Il existe aussi une autre méthode à partir des développements décimaux, cependant l'addition puis la multiplication ne sont pas des opérations simples à définir.
+En 1899, David Hilbert[H 5] donne la première définition axiomatique du corps des nombres réels. Les méthodes précédentes construisent toutes le « même » ensemble, celui des nombres réels.
+Le XIXe siècle montre que cette nouvelle structure, l'ensemble des nombres réels, ses opérations et sa relation d'ordre, non seulement remplit ses promesses mais va au-delà.
+La notion invoquée par cet article  est trop technique ou pas assez détaillée.Il serait bien de la préciser au moyen d’un lien wiki ou d’une note.
+Pour plus de renseignements, consultez Aide:Wikification et Aide:Note.
+L'évolution des concepts de nombre réel et de continuité est tout aussi philosophique que mathématique. Que les nombres réels forment une entité continue veut dire qu'il n'y a pas de « saut » ou de « bande interdite ». Intuitivement, c'est tout comme la perception humaine de l'espace ou de l'écoulement du temps. Certains philosophes conçoivent qu'il en est d'ailleurs exactement de même pour tous les phénomènes naturels. Ce concept est résumé par la devise du mathématicien et philosophe Leibniz : natura non facit saltus, « la nature ne fait pas de sauts ».
+L'histoire de la continuité débute en Grèce antique. Au Ve siècle av. J.-C., les atomistes ne croient pas seulement que la nature est faite de « sauts », mais aussi qu'il existe des particules de base non divisibles, les atomes. Les synéchistes quant à eux clament que tout est connecté, continu[6]. Démocrite est un tenant d'une nature faite d'atomes intercalés de vide, tandis que Eudoxe le contredit, faisant de ses travaux certains des plus anciens précurseurs de l'analyse. Ceux-ci évoluent plus tard en ce que l'on connaît sous le nom de géométrie euclidienne.
+Encore au XVIIe siècle, des mathématiciens énonçaient qu'une fonction continue est en fait constituée de lignes droites infiniment petites, c'est-à-dire infinitésimales. C'est ainsi que le concept d'infiniment petit, vu dans l'optique atomiste, peut promouvoir cette façon de concevoir la nature. La question d'infini est donc centrale à la compréhension de la continuité et des nombres réels.
+Les paradoxes de Zénon illustrent la contre-intuitivité de la notion d'infini. L'un des plus connus est celui de la flèche, dans lequel on imagine une flèche en vol. À chaque instant, la flèche se trouve à une position précise et si l'instant est trop court, alors la flèche n'a pas le temps de se déplacer et reste au repos pendant cet instant. Les instants suivants, elle reste immobile pour la même raison. La flèche est toujours immobile et ne peut pas se déplacer : le mouvement est impossible. Pour résoudre ce paradoxe, il faut additionner ces infiniment petits un nombre infini de fois, par la méthode de la limite, découverte au cours de l'évolution de l'analyse.
+Le concept de continuité des nombres réels est central en analyse, dès le début de son histoire. Une question fondamentale est de déterminer si une fonction donnée est en fait une fonction continue. Au XVIIIe siècle, on formulait cette question comme « est-ce qu'une variation infinitésimale dans son domaine engendre une variation infinitésimale dans son image ? ». Au XIXe siècle, cette formulation est abandonnée et remplacée par celle des limites.
+Dès le XVIIIe siècle, les infinitésimales tombent en disgrâce : elles sont dites d'utilité pratique, mais erronées, non nécessaires et contradictoires. Les limites les remplacent tout à fait et à partir du début du XXe siècle, les infinitésimales ne sont plus le soubassement de l'analyse. En mathématiques elles demeurent en quelque sorte des non-concepts, jusqu'à ce qu'on les réintroduise à grands frais en géométrie différentielle, leur donnant le statut mathématique de champ tensoriel.
+Dans les sciences appliquées, en particulier en physique et en génie, on se sert toujours des infinitésimales. Ceci cause évidemment des problèmes de communication entre ces sciences et les mathématiques.
+On peut caractériser brièvement l'ensemble des nombres réels, que l'on note en général ℝ, par la phrase de David Hilbert : ℝ est le dernier corps commutatif archimédien et il est complet. « Dernier » signifie que tout corps commutatif archimédien est isomorphe à un sous-ensemble de ℝ. Ici « isomorphe » signifie intuitivement qu'il possède la même forme, ou se comporte exactement de la même manière, on peut donc, sans grande difficulté, dire qu'ils sont les mêmes.
+Une approche axiomatique consiste à caractériser un concept par une série de définitions. Ce point de vue, dont Hilbert est le précurseur dans son formalisme moderne, s'est révélé extrêmement fécond au XXe siècle. Des notions comme la topologie, la théorie de la mesure, ou les probabilités se définissent maintenant par une axiomatique. Une approche axiomatique suppose une compréhension parfaite de la structure en question et permet une démonstration des théorèmes uniquement à partir de ces définitions. C'est la raison pour laquelle de bonnes définitions peuvent en mathématiques s'avérer si puissantes. Une définition axiomatique de ℝ ne montre néanmoins pas qu'un tel ensemble existe. Il apparaît alors nécessaire de construire cette structure (voir l'article Construction des nombres réels).
+On dispose de plusieurs définitions axiomatiques équivalentes :
+La définition 1 est présentée en début de section. L'équivalence entre les définitions 2 et 3 est démontrée dans l'article Construction des nombres réels. L'équivalence entre les définitions 3 et 4 est essentiellement un résultat sur les ensembles ordonnés (voir l'article Topologie de l'ordre).
+L'unicité est à isomorphisme (unique) près, c'est-à-dire que si K est un corps totalement ordonné vérifiant les mêmes hypothèses, alors il existe un (unique) isomorphisme strictement croissant de K dans ℝ.
+Détaillons la définition 2 :
+Cette section est essentiellement technique. Elle traite des propriétés essentielles et élémentaires pour un travail analytique sur ℝ.
+La propriété suivante peut se déduire du fait que ℝ est archimédien.
+Les autres propriétés sont des conséquences de la propriété de la borne supérieure.
+Il existe un ensemble de fonctions particulièrement intéressantes, les polynômes. Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits. L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b). Cette propriété dépend du corps sur lequel on construit ces polynômes. Par exemple sur le corps des rationnels, quel que soit n entier supérieur ou égal à 2, il existe des polynômes de degré n irréductibles, c'est-à-dire que l'on ne peut pas les exprimer sous forme de produit de polynômes de degrés plus petits.
+Pour les nombres réels, on démontre que le plus grand degré d'un polynôme irréductible est égal à deux. En d'autres termes, si le polynôme ne se décompose pas, c'est qu'il est de la forme ax2 + bx + c. Les corps qui n'ont comme polynômes irréductibles que les polynômes de degré 1 sont dits algébriquement clos.
+Si ℝ n'est pas algébriquement clos, on peut plonger ce corps dans un corps plus vaste. Il s'agit d'un nouveau corps, le corps des nombres complexes. Cependant ce corps n'est pas globalement « meilleur ». Sa clôture algébrique est une propriété fort intéressante, mais elle a un coût : le corps des complexes ne peut pas posséder de relation d'ordre compatible avec ses deux opérations. En quelque sorte, ce qui est gagné d'un côté est perdu d'un autre.
+La raison d'être des nombres réels est d'offrir un ensemble de nombres avec les bonnes propriétés permettant la construction de l'analyse. Deux approches utilisant deux concepts différents sont possibles.
+L'élégance favorise la base axiomatique la plus faible. Au XXe siècle un travail de reformulation générale des mathématiques est entrepris par l'association Bourbaki et se traduit par la rédaction d'un ouvrage appelé Éléments de mathématique. Cet ouvrage traite, de manière rigoureuse, d'une vaste partie des mathématiques actuelles. Pour cette raison, les Éléments développent et démontrent les propriétés de l'ensemble des réels à partir de la topologie. C'est le choix que nous suivrons ici.
+Combien y a-t-il de nombres réels ? Une infinité, mais laquelle ? Deux ensembles ont même cardinal (intuitivement : même « nombre d'éléments ») s'ils sont équipotents. Par exemple les ensembles ℕ, ℤ, ℚ ou ℚ, bien qu'emboîtés et contenant même chacun plusieurs « copies » du précédent, ont même « taille » : c'est le cardinal des ensembles dénombrables, noté ℵ₀. Georg Cantor a montré qu'il existe des cardinaux infinis strictement plus grands en fournissant, par son argument diagonal, une preuve que ℝ n'est pas dénombrable : voir l'article Argument de la diagonale de Cantor. En voici une autre.
+Montrons que l'intervalle [0, 1] n'est pas dénombrable, en montrant qu'une suite 
+
+
+
+(
+
+u
+
+i
+
+
+)
+
+
+{\displaystyle (u_{i})}
+
+ dans [0, 1] n'est jamais surjective. Il suffit de trouver un point 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ dans [0, 1] qui n'est pas dans l'ensemble image de la suite. Pour cela, définissons par récurrence deux suites 
+
+
+
+(
+
+a
+
+i
+
+
+)
+
+
+{\displaystyle (a_{i})}
+
+, 
+
+
+
+(
+
+b
+
+i
+
+
+)
+
+
+{\displaystyle (b_{i})}
+
+ telles que :
+Initialisons nos deux suites en posant :
+Il est évident que la propriété (1) est vraie si n est égal à 0.
+Définissons alors nos suites pour le rang n + 1.
+L'intervalle 
+
+
+
+[
+
+a
+
+n
++
+1
+
+
+,
+
+b
+
+n
++
+1
+
+
+]
+
+
+{\displaystyle [a_{n+1},b_{n+1}]}
+
+ étant inclus dans l'intervalle 
+
+
+
+[
+
+a
+
+n
+
+
+,
+
+b
+
+n
+
+
+]
+
+
+{\displaystyle [a_{n},b_{n}]}
+
+, il ne peut contenir d'élément de la suite 
+
+
+
+(
+
+u
+
+i
+
+
+)
+
+
+{\displaystyle (u_{i})}
+
+ d'ordre strictement inférieur à n, par hypothèse de récurrence. Par construction, il ne peut pas non plus contenir 
+
+
+
+
+u
+
+n
+
+
+
+
+{\displaystyle u_{n}}
+
+ et la propriété (1) est vérifiée.
+Les deux suites 
+
+
+
+(
+
+a
+
+n
+
+
+)
+,
+(
+
+b
+
+n
+
+
+)
+
+
+{\displaystyle (a_{n}),(b_{n})}
+
+ étant adjacentes (
+
+
+
+
+b
+
+n
+
+
+−
+
+a
+
+n
+
+
+=
+1
+
+/
+
+
+3
+
+n
+
+
+
+
+{\displaystyle b_{n}-a_{n}=1/3^{n}}
+
+), leur limite commune 
+
+
+
+l
+
+
+{\displaystyle l}
+
+ appartient, pour tout n, à l'intervalle 
+
+
+
+[
+
+a
+
+n
+
+
+,
+
+b
+
+n
+
+
+]
+
+
+{\displaystyle [a_{n},b_{n}]}
+
+, donc est différente des n premières valeurs de la suite 
+
+
+
+(
+
+u
+
+i
+
+
+)
+
+
+{\displaystyle (u_{i})}
+
+. Comme n est quelconque, la proposition est démontrée.
+Le cardinal de l'ensemble des nombres réels est appelé la puissance du continu et parfois noté c. Il est aussi noté 2ℵ₀ car ℝ est en fait équipotent à l'ensemble des parties de ℕ — ce qui, par un autre théorème de Cantor, fournit une preuve plus précise de sa non-dénombrabilité :
+Cantor s'est posé la question de l'existence d'un cardinal strictement compris entre ℵ₀ et c. Son hypothèse, appelée hypothèse du continu, est qu'un tel cardinal n'existe pas. La question des cardinaux a été englobée par Cantor dans une théorie plus vaste, la théorie des ensembles, qui sert maintenant de fondement à la majeure partie des mathématiques. Il a fallu attendre la deuxième moitié du XXe siècle pour trouver la réponse à la question de l'hypothèse du continu : elle est indécidable dans la théorie des ensembles usuelle (ZFC). Cela signifie qu'il est impossible de démontrer aussi bien l'existence que la non-existence d'un tel cardinal si l'on ne modifie pas la base axiomatique utilisée.
+L'ensemble des réels muni de l'addition usuelle et de la multiplication par des rationnels est un espace vectoriel sur ℚ (ensemble des rationnels). En 1905, lors de la recherche de solutions non continues à l'équation fonctionnelle de Cauchy[7], Georg Hamel exhibe une base de ℝ considéré comme espace vectoriel sur 
+
+
+
+
+
+Q
+
+
+
+
+{\displaystyle \scriptstyle \mathbb {Q} }
+
+. L'existence d'une telle base est assurée si l'on suppose l'axiome du choix[8]. Une base de Hamel de ℝ est non dénombrable[9].
+Sur les autres projets Wikimedia :

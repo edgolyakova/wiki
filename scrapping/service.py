@@ -4,6 +4,7 @@ import re
 from pathlib import Path
 import os
 import glob
+import chinese_converter
 
 scrapping_path = os.environ['SCRAPPING']
 
@@ -12,6 +13,10 @@ html_folder = Path('{env_var}articles_html'.format(env_var=scrapping_path))
 text_folder = Path('{env_var}articles_text'.format(env_var=scrapping_path))
 
 replace_pairs = (
+    # check lines containing multiple sentences and break them into different lines
+    (r'(?<=[a-z][a-z])\. (?=[A-Z][\w ])', '.\n'),
+    # remove strings beginning with special characters
+    (r'^[\.\:,\?]', ''),
     # remove the sign of quotation mark
     (r'\^', ''),
     # remove the arrows
@@ -38,8 +43,10 @@ replace_pairs = (
     (r'^\)', ''),
     # remove a string if it's just separators and spaces
     (r'^[٠ ]+$', ''),
-    # check lines containing multiple sentences and break them into different lines
-    (r'(?<=[a-z])\. (?=[A-Z][\w ])', '.\n')
+    # remove space in the beginning of line
+    (r'^ ', ''),
+    #replace multiple line breaks with one
+    (r'\n+', '\n')
 )
 
 
@@ -54,8 +61,21 @@ def load_page_soup(url):
     return soup
 
 
+def get_article_lines(soup):
+    lines = []
+    for el in ['h1', 'h2', 'h3', 'h4', 'p']:
+        lines.extend(x.text.strip() for x in soup.find_all(el))
+    return lines
+
+
 def construct_url(language, partial):
     return f'https://{language}.wikipedia.org{partial}'
+
+
+def write_article_lines(lines, filename):
+    with open(filename, 'w') as f:
+        for line in lines:
+            f.write(f'{line}\n')
 
 
 def get_list_of_articles(language, soup):
@@ -86,6 +106,13 @@ def dump_text_only(arcticle_soup, language, en_name):
         f.write(arcticle_soup.text)
 
 
+def load_soup_by_html(filename):
+    with open(filename, 'r') as f:
+        html = f.read()
+    soup = BeautifulSoup(html, 'html.parser')
+    return soup
+
+
 def replace_chars(s, replace_pairs):
     # apply all the rules above in the order
     for pair in replace_pairs:
@@ -109,3 +136,15 @@ def get_files_in_folder(path_from_scrapping):
 
 def get_filename(filepath):
     return filepath.split('/')[-1]
+
+
+files = get_files_in_folder('articles_html/zh-cn')
+
+for file in files:
+    soup = load_soup_by_html(file)
+    filename = get_filename(file)
+
+    lines = get_article_lines(soup)
+    write_article_lines(lines, f'{scrapping_path}articles_text_ver2/zh-cn/{filename}')
+
+    print(filename)

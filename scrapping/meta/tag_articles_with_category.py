@@ -51,12 +51,12 @@ for cat in categories:
                 fr_url = "NA"
                 fr_name = "NA"
 
-            zh_url = get_in_another_language(en_article_soup, 'zh')
+            zh_url = get_in_another_language(en_article_soup, 'zh-cn')
             if zh_url:
                 zh_article_soup = load_page_soup(zh_url)
                 zh_name = get_article_name(zh_article_soup)
-                dump_article_html(zh_article_soup, 'zh', en_name)
-                dump_text_only(zh_article_soup, 'zh', en_name)
+                dump_article_html(zh_article_soup, 'zh-cn', en_name)
+                dump_text_only(zh_article_soup, 'zh-cn', en_name)
             else:
                 zh_url = "NA"
                 zh_name = "NA"

@@ -1,0 +1,1884 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>动量 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"dfcc83d5-5c84-45ef-bc88-75e8eedf492e","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"动量","wgTitle":"动量","wgCurRevisionId":71935358,"wgRevisionId":71935358,"wgArticleId":35889,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["使用ISBN魔术链接的页面","物理量","经典力学"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"动量","wgRelevantArticleId":35889,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{
+"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q41273","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":
+"ready","ext.math.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector"
+,"ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/1200px-Billard.JPG" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="800" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/800px-Billard.JPG" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="533" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/640px-Billard.JPG" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="427" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="动量 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E5%8A%A8%E9%87%8F" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E5%8A%A8%E9%87%8F" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E5%8A%A8%E9%87%8F" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E5%8A%A8%E9%87%8F" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-动量 rootpage-动量 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-44056d91"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">动量</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-44056d91"><div class="noteTA-group"><div data-noteta-group="Physics" data-noteta-group-source="module"></div></div><div class="noteTA-local"><div data-noteta-code="zh-hans:动量; zh-hk:动量; zh-tw:动量;"></div><div data-noteta-code="zh-hans:恒力; zh-hant:定力;"></div><div data-noteta-code="zh-hans:机械能; zh-hant:力学能;"></div><div data-noteta-code="zh-hans:洛伦兹变换; zh-hant:劳伦兹变换;"></div><div data-noteta-code="zh-hans:普朗克常量; zh-hant:普朗克常数;"></div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:202px;"><a class="image" href="/wiki/File:Billard.JPG"><img alt="" class="thumbimage" data-file-height="2304" data-file-width="3456" decoding="async" height="133" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/200px-Billard.JPG" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/300px-Billard.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/86/Billard.JPG/400px-Billard.JPG 2x" width="200"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:Billard.JPG" title="放大"></a></div>除去因<a class="mw-redirect" href="/wiki/%E6%91%A9%E6%93%A6" title="摩擦">摩擦</a>与<a href="/wiki/%E4%BC%A0%E7%83%AD" title="传热">传热</a>因素所造成的微小损失，在<a href="/wiki/%E6%92%9E%E7%90%83" title="撞球">撞球</a>运动裏，可以很明显的观察到，所有圆球都遵循<a class="mw-redirect" href="/wiki/%E5%8B%95%E9%87%8F%E5%AE%88%E6%81%86%E5%AE%9A%E5%BE%8B" title="动量守恒定律">动量守恒定律</a>。当圆球A击中圆球B时，假若圆球A因此停住，则它的原本动量都会传给圆球B；假若圆球A仍旧移动，则它的原本动量只有一部分会传给圆球B，剩余的动量存留在圆球A。</div></div></div>
+<p>在<a class="mw-redirect" href="/wiki/%E5%8F%A4%E5%85%B8%E5%8A%9B%E5%AD%B8" title="古典力学">古典力学</a>裏，<b>动量</b>（momentum）被<a class="mw-disambig" href="/wiki/%E9%87%8F%E5%8C%96" title="量化">量化</a>为物体的<a href="/wiki/%E8%B4%A8%E9%87%8F" title="质量">质量</a>和<a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>的乘积。例如，一辆快速移动的重型卡车拥有很大的动量。若要使这重型卡车从零速度加速到移动速度，则需要使到很大的作用力；若要使重型卡车从移动速度减速到零，则也需要使到很大的作用力；若卡车轻一点或移动速度慢一点，则它的动量也会小一点。
+</p><p>动量在<a href="/wiki/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6" title="国际单位制">国际单位制</a>中的单位为kg·m/s。有关动量的更精确的量度的内容，请参见本页的<a href="#动量的现代定义">动量的现代定义</a>部分。
+</p><p>一般而言，一个<a href="/wiki/%E7%89%A9%E4%BD%93" title="物体">物体</a>的动量指的是这个物体在它运动方向上保持运动的<a class="mw-redirect" href="/wiki/%E8%B6%8B%E5%8A%BF" title="趋势">趋势</a>。动量实际上是<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E7%AC%AC%E4%B8%80%E5%AE%9A%E5%BE%8B" title="牛顿第一定律">牛顿第一定律</a>的一个推论。动量是个<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>，其方向与速度方向相同。动量同时也是一个<a href="/wiki/%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B" title="守恒定律">守恒</a>量，这表示为在一个<a href="/wiki/%E5%B0%81%E9%96%89%E7%B3%BB%E7%B5%B1" title="封闭系统">封闭系统</a>内动量的总和不可改变。在<a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">经典力学</a>中，动量守恒暗含在牛顿定律中，但在<a href="/wiki/%E7%8B%AD%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="狭义相对论">狭义相对论</a>中依然成立，（广义）动量在<a class="mw-redirect" href="/wiki/%E7%94%B5%E5%8A%A8%E5%8A%9B%E5%AD%A6" title="电动力学">电动力学</a>、<a href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6" title="量子力学">量子力学</a>、<a href="/wiki/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA" title="量子场论">量子场论</a>、<a class="mw-redirect" href="/wiki/%E5%B9%BF%E4%B9%89%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="广义相对论">广义相对论</a>中也成立。
+</p><p><a class="mw-redirect" href="/wiki/%E5%8B%92%E5%86%85%C2%B7%E7%AC%9B%E5%8D%A1%E5%84%BF" title="勒内·笛卡儿">勒内·笛卡儿</a>认为宇宙中总的“运动的量”是保持守恒的，这里所说的“运动的量”被理解为“物体大小和速度的乘积”——但这不宜被解读为现代动量定律的表达方式，因为笛卡尔并没有把“质量”这个概念与物体“重量”和“大小”之间的关系区分开来，更重要的是他认为速率（标量）而不是速度（向量）是守恒的。因此对于笛卡儿来说：一个移动的物体从另一个表面弹回来的时候，该物体的方向发生了改变但速率没有发生改变，运动的量应该没有发生改变<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#古典力学中的动量"><span class="tocnumber">1</span> <span class="toctext">古典力学中的动量</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#定理"><span class="tocnumber">1.1</span> <span class="toctext">定理</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#推导"><span class="tocnumber">1.2</span> <span class="toctext">推导</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#碰撞中的动量守恒"><span class="tocnumber">2</span> <span class="toctext">碰撞中的动量守恒</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#弹性碰撞"><span class="tocnumber">3</span> <span class="toctext">弹性碰撞</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#正向碰撞（一维）"><span class="tocnumber">3.1</span> <span class="toctext">正向碰撞（一维）</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#斜向碰撞（二维）"><span class="tocnumber">3.2</span> <span class="toctext">斜向碰撞（二维）</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-8"><a href="#动量守恒定律"><span class="tocnumber">4</span> <span class="toctext">动量守恒定律</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#动量的现代定义"><span class="tocnumber">5</span> <span class="toctext">动量的现代定义</span></a>
+<ul>
+<li class="toclevel-2 tocsection-10"><a href="#相对论力学中的动量"><span class="tocnumber">5.1</span> <span class="toctext">相对论力学中的动量</span></a>
+<ul>
+<li class="toclevel-3 tocsection-11"><a href="#无静止质量物体的动量"><span class="tocnumber">5.1.1</span> <span class="toctext">无静止质量物体的动量</span></a></li>
+<li class="toclevel-3 tocsection-12"><a href="#动量的普适性"><span class="tocnumber">5.1.2</span> <span class="toctext">动量的普适性</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-13"><a href="#量子力学中的动量"><span class="tocnumber">5.2</span> <span class="toctext">量子力学中的动量</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#电磁学中的动量守恒"><span class="tocnumber">5.3</span> <span class="toctext">电磁学中的动量守恒</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#参考文献"><span class="tocnumber">6</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#参看条目"><span class="tocnumber">7</span> <span class="toctext">参看条目</span></a></li>
+</ul>
+</div>
+<h2><span id=".E5.8F.A4.E5.85.B8.E5.8A.9B.E5.AD.A6.E4.B8.AD.E7.9A.84.E5.8A.A8.E9.87.8F"></span><span class="mw-headline" id="古典力学中的动量">古典力学中的动量</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=1" title="编辑章节：古典力学中的动量">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>物体在任何一个<a href="/wiki/%E5%8F%82%E8%80%83%E7%B3%BB" title="参考系">参考系</a>中运动时，它都具有在<i>该参考系</i>中的动量。需要注意的是，动量是一个参考系决定量。也就是说，同一个物体在一个参考系中具有确定的动量，但在另一个参考系中却有可能具有不同的动量。
+</p><p>物体动量的数值取决于两个物理量的数值：运动物体在<a href="/wiki/%E5%8F%82%E8%80%83%E7%B3%BB" title="参考系">参考系</a>中的<a href="/wiki/%E8%B4%A8%E9%87%8F" title="质量">质量</a>与<a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>。在物理学中，动量以小写的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf{p}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dd73e3862cb92b016721b8c492eadb4e8a577527" style="vertical-align: -0.671ex; width:1.485ex; height:2.009ex;"/></span>（黑体代表<b><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf{p}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dd73e3862cb92b016721b8c492eadb4e8a577527" style="vertical-align: -0.671ex; width:1.485ex; height:2.009ex;"/></span></b>是一个<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>）表示，动量的定义如下：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} =m\mathbf {v} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+<mo>=</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} =m\mathbf {v} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbf {p} =m\mathbf {v} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a271a96e7b925fd39686375167c76d406e87c813" style="vertical-align: -0.671ex; width:8.035ex; height:2.009ex;"/></span></dd></dl>
+<p>动量对时间的一阶<a href="/wiki/%E5%AF%BC%E6%95%B0" title="导数">导数</a>的定义如下：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}={\frac {\mathrm {d} (m\mathbf {v} )}{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}+v{\frac {\mathrm {d} m}{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>+</mo>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>m</mi>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}={\frac {\mathrm {d} (m\mathbf {v} )}{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}+v{\frac {\mathrm {d} m}{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}={\frac {\mathrm {d} (m\mathbf {v} )}{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}+v{\frac {\mathrm {d} m}{\mathrm {d} t}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f97a29b1e184c78257287f4e8a56eb2821d41a46" style="vertical-align: -2.005ex; width:30.917ex; height:5.843ex;"/></span></dd></dl>
+<p>其中<b>p</b>为动量，t为时间，d为<a href="/wiki/%E5%BE%AE%E5%88%86" title="微分">微分</a>算符。
+</p><p>当物体在运动中质量不变的情形下，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\mathrm {d} m}{\mathrm {d} t}}=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>m</mi>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\mathrm {d} m}{\mathrm {d} t}}=0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {\mathrm {d} m}{\mathrm {d} t}}=0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/06a2b9792c0b6626f586ac87c198b810d279d920" style="vertical-align: -2.005ex; width:8.43ex; height:5.509ex;"/></span>，此时，可以将动量对时间的一阶导数简写作
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}=m{\frac {\mathrm {d} \mathbf {v} }{\mathrm {d} t}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ec5297deeb210569b680d2e1441e2ff505b70303" style="vertical-align: -2.005ex; width:12.292ex; height:5.509ex;"/></span></dd></dl>
+<p>一个物体的速度包括了该物体的速率与运动方向。因为动量由速度决定，所以动量也具有<a class="mw-redirect" href="/wiki/%E6%95%B0%E9%87%8F" title="数量">数量</a>与方向，是一个<a class="mw-redirect" href="/wiki/%E7%A9%BA%E9%97%B4" title="空间">空间</a><a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>。例如，要表示出5 kg的保龄球的动量的话，可以以它有以2m/s的速率向西运动的状态来说明；但是，只认为该保龄球具有10 kg·m/s的动量的想法是不全面的，因为没有表示出它的运动方向。
+</p>
+<h3><span id=".E5.AE.9A.E7.90.86"></span><span class="mw-headline" id="定理">定理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=2" title="编辑章节：定理">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><b>动量定理</b>指出：
+</p>
+<blockquote class="toccolours" style="float:none; display:table;"><div style="padding: 10px 15px 10px 15px;">物体所受<a class="mw-redirect" href="/wiki/%E5%90%88%E5%8A%9B" title="合力">合力</a>的<a href="/wiki/%E5%86%B2%E9%87%8F" title="冲量">冲量</a>等于物体的<b>动量</b>变化。</div></blockquote>
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \sum \mathbf {I} =\Delta \mathbf {p} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">I</mi>
+</mrow>
+<mo>=</mo>
+<mi mathvariant="normal">Δ<!-- Δ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \sum \mathbf {I} =\Delta \mathbf {p} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sum \mathbf {I} =\Delta \mathbf {p} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ef0e5060134ad6fb86ade8c57dd2c445786988a3" style="vertical-align: -1.338ex; width:11.276ex; height:3.843ex;"/></span>
+</p>
+<h3><span id=".E6.8E.A8.E5.AF.BC"></span><span class="mw-headline" id="推导">推导</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=3" title="编辑章节：推导">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>设一个质量为m的物体，初<a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>为v，那么初动量为p=mv,在合力F的作用下，经过一段时间t速度变为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v^{'}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v^{'}}</annotation>
+</semantics>
+</math></span><img alt="v^{'}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ba99edc3eaec55c313c4fdb18ce9f04ac7dc8412" style="vertical-align: -0.338ex; width:1.891ex; height:2.843ex;"/></span>，末动量则变为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p^{'}=mv^{'}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+<mo>=</mo>
+<mi>m</mi>
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p^{'}=mv^{'}}</annotation>
+</semantics>
+</math></span><img alt="p^{'}=mv^{'}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/00b1d6f92fb72ab043e83ad0543a93b25fff9e29" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:9.053ex; height:3.176ex;"/></span>。物体的<a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a>为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a={\frac {v^{'}-v}{t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>v</mi>
+</mrow>
+<mi>t</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a={\frac {v^{'}-v}{t}}}</annotation>
+</semantics>
+</math></span><img alt="a={\frac  {v^{'}-v}{t}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/759ec31eb96f99fcd7a166153c551f8d7b1b7e61" style="vertical-align: -1.838ex; width:11.024ex; height:5.843ex;"/></span>。由<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E7%AC%AC%E4%BA%8C%E5%AE%9A%E5%BE%8B" title="牛顿第二定律">牛顿第二定律</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle F=ma={\frac {mv^{'}-mv}{t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+<mo>=</mo>
+<mi>m</mi>
+<mi>a</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>m</mi>
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>m</mi>
+<mi>v</mi>
+</mrow>
+<mi>t</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle F=ma={\frac {mv^{'}-mv}{t}}}</annotation>
+</semantics>
+</math></span><img alt="F=ma={\frac  {mv^{'}-mv}{t}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/88a85e1447ebfc423c2d76e539699ca02b682506" style="vertical-align: -1.838ex; width:21.984ex; height:5.843ex;"/></span>可得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle Ft=mv^{'}-mv}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+<mi>t</mi>
+<mo>=</mo>
+<mi>m</mi>
+<msup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>m</mi>
+<mi>v</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle Ft=mv^{'}-mv}</annotation>
+</semantics>
+</math></span><img alt="Ft=mv^{'}-mv" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ad0ff149573da568500be5d776f3fa390a128c86" style="vertical-align: -0.505ex; width:15.619ex; height:3.009ex;"/></span>，即<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle Ft=p^{'}-p}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>F</mi>
+<mi>t</mi>
+<mo>=</mo>
+<msup>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<msup>
+<mi></mi>
+<mo>′</mo>
+</msup>
+</mrow>
+</msup>
+<mo>−<!-- − --></mo>
+<mi>p</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle Ft=p^{'}-p}</annotation>
+</semantics>
+</math></span><img alt="Ft=p^{'}-p" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aa9595be517f4abe3c372e00e89e4bc80cc419e3" style="vertical-align: -0.671ex; width:11.622ex; height:3.176ex;"/></span>。<br/>在动量定理的推导过程中，我们假定合力F是恒定的，但是在实际生活当中要比这个复杂的多。如用球拍击打球或是用脚踢踢球时作用力就不是恒定的。但可以证明<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>，动量定理不但适用于恒力，也可以随时间而变化的变力，对于变力的情况，动量定理中的F应理解为在作用时间内的平均值。此时作用力<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">F</mi>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+</mrow>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">d</mi>
+</mrow>
+<mi>t</mi>
+</mrow>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbf {F} ={\frac {\mathrm {d} \mathbf {p} }{\mathrm {d} t}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1738cbe14085332f1dc18499c2b47ac496cd09b4" style="vertical-align: -2.005ex; width:8.395ex; height:5.509ex;"/></span>
+也称作动量的变化率。
+</p>
+<h2><span id=".E7.A2.B0.E6.92.9E.E4.B8.AD.E7.9A.84.E5.8A.A8.E9.87.8F.E5.AE.88.E6.81.92"></span><span class="mw-headline" id="碰撞中的动量守恒">碰撞中的动量守恒</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=4" title="编辑章节：碰撞中的动量守恒">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>动量具有一个特殊属性：只要是在一个<a href="/wiki/%E5%B0%81%E9%96%89%E7%B3%BB%E7%B5%B1" title="封闭系统">封闭系统</a>中，它总会保持恒定，即使是物体<a href="/wiki/%E7%A2%B0%E6%92%9E" title="碰撞">碰撞</a>发生时。而对<a href="/wiki/%E5%8A%A8%E8%83%BD" title="动能">动能</a>而言，<a href="/wiki/%E9%9D%9E%E5%BC%B9%E6%80%A7%E7%A2%B0%E6%92%9E" title="非弹性碰撞">非弹性碰撞</a>的物体的动能将不会守恒。因此，当碰撞过后可利用动量守恒来计算未知速度。
+</p><p>在物理学上，这个特殊属性被用来来解决两个相碰物体的问题。因为动量始终保持恒定，碰撞前动量的总和一定与碰撞后动量的总和相等：
+</p>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m_{1}\mathbf {v} _{1{\text{i}}}+m_{2}\mathbf {v} _{2{\text{i}}}=m_{1}\mathbf {v} _{1{\text{f}}}+m_{2}\mathbf {v} _{2{\text{f}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>=</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m_{1}\mathbf {v} _{1{\text{i}}}+m_{2}\mathbf {v} _{2{\text{i}}}=m_{1}\mathbf {v} _{1{\text{f}}}+m_{2}\mathbf {v} _{2{\text{f}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle m_{1}\mathbf {v} _{1{\text{i}}}+m_{2}\mathbf {v} _{2{\text{i}}}=m_{1}\mathbf {v} _{1{\text{f}}}+m_{2}\mathbf {v} _{2{\text{f}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6015a19de22de652b46102d91c400782ce3ed5ae" style="vertical-align: -0.671ex; width:33.157ex; height:2.343ex;"/></span></dd></dl></dd>
+<dd>其中，i表示碰撞前的初量，f表示碰撞后的末量。要注意的是此时<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {v} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">v</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {v} }</annotation>
+</semantics>
+</math></span><img alt="\mathbf {v} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/35c1866e359fbfd2e0f606c725ba5cc37a5195d6" style="vertical-align: -0.338ex; width:1.411ex; height:1.676ex;"/></span>为<a href="/wiki/%E5%90%91%E9%87%8F" title="向量">向量</a>。</dd></dl>
+<p>通常来说，我们只需知道碰撞前（或碰撞后）物体的速度便可计算出碰撞后（或碰撞前）物体的速度。碰撞有两种类型，两种类型中动量都守恒：
+</p>
+<ul><li><a href="/wiki/%E5%BD%88%E6%80%A7%E7%A2%B0%E6%92%9E" title="弹性碰撞">弹性碰撞</a>中，<a href="/wiki/%E5%8A%A8%E8%83%BD" title="动能">动能</a>保持恒定；</li>
+<li><a href="/wiki/%E9%9D%9E%E5%BC%B9%E6%80%A7%E7%A2%B0%E6%92%9E" title="非弹性碰撞">非弹性碰撞</a>中，动能不保持恒定</li></ul>
+<h2><span id=".E5.BC.B9.E6.80.A7.E7.A2.B0.E6.92.9E"></span><span class="mw-headline" id="弹性碰撞">弹性碰撞</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=5" title="编辑章节：弹性碰撞">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E5%BD%88%E6%80%A7%E7%A2%B0%E6%92%9E" title="弹性碰撞">弹性碰撞</a></div>
+<p>弹性碰撞的一个较好的例子是两个台球之间的碰撞。当两个球相碰时，除了动量保持恒定外，碰撞前后动能的总和也将保持不变：
+</p>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d30b08523001522f2b91072951b054fb8c8c585d" style="vertical-align: -1.838ex; width:40.018ex; height:5.176ex;"/></span></dd></dl></dd></dl>
+<p>因为每个因式中都含有系数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {1}{2}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {1}{2}}}</annotation>
+</semantics>
+</math></span><img alt="{\frac {1}{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a11cfb2fdb143693b1daf78fcb5c11a023cb1c55" style="vertical-align: -1.838ex; width:1.999ex; height:5.176ex;"/></span>，所以亦可将该系数移除。
+</p>
+<h3><span id=".E6.AD.A3.E5.90.91.E7.A2.B0.E6.92.9E.EF.BC.88.E4.B8.80.E7.BB.B4.EF.BC.89"></span><span class="mw-headline" id="正向碰撞（一维）">正向碰撞（一维）</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=6" title="编辑章节：正向碰撞（一维）">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>正碰即<a class="new" href="/w/index.php?title=%E5%AF%B9%E5%BF%83%E7%A2%B0%E6%92%9E&amp;action=edit&amp;redlink=1" title="对心碰撞（页面不存在）">对心碰撞</a>（head on collision），两物体沿着一条直线碰撞后仍沿原来直线运动，属于弹性碰撞中的一种。
+</p>
+<ul><li>遵循<a class="mw-redirect" href="/wiki/%E5%8A%A8%E9%87%8F%E5%AE%88%E6%81%92" title="动量守恒">动量守恒</a></li></ul>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m_{1}v_{1{\text{i}}}+m_{2}v_{2{\text{i}}}=m_{1}v_{1{\text{f}}}+m_{2}v_{2{\text{f}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>=</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m_{1}v_{1{\text{i}}}+m_{2}v_{2{\text{i}}}=m_{1}v_{1{\text{f}}}+m_{2}v_{2{\text{f}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle m_{1}v_{1{\text{i}}}+m_{2}v_{2{\text{i}}}=m_{1}v_{1{\text{f}}}+m_{2}v_{2{\text{f}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d248ea040e03652686be501c9b14b6016de528a" style="vertical-align: -0.671ex; width:32.024ex; height:2.343ex;"/></span></dd></dl></dd></dl>
+<ul><li>遵循<a class="mw-redirect" href="/wiki/%E8%83%BD%E9%87%8F%E5%AE%88%E6%81%92" title="能量守恒">能量守恒</a></li></ul>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<mn>2</mn>
+</mfrac>
+</mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<msubsup>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msubsup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle {\frac {1}{2}}m_{1}v_{1{\text{i}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{i}}}^{2}={\frac {1}{2}}m_{1}v_{1{\text{f}}}^{2}+{\frac {1}{2}}m_{2}v_{2{\text{f}}}^{2}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d30b08523001522f2b91072951b054fb8c8c585d" style="vertical-align: -1.838ex; width:40.018ex; height:5.176ex;"/></span></dd></dl></dd></dl>
+<p>联立两方程式可得出，两物体最终速度
+<br/>
+</p>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v_{1{\text{f}}}={\frac {m_{1}-m_{2}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {2m_{2}}{m_{1}+m_{2}}}v_{2{\text{i}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>−<!-- − --></mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v_{1{\text{f}}}={\frac {m_{1}-m_{2}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {2m_{2}}{m_{1}+m_{2}}}v_{2{\text{i}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle v_{1{\text{f}}}={\frac {m_{1}-m_{2}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {2m_{2}}{m_{1}+m_{2}}}v_{2{\text{i}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b9cd926ea5390e6dee421e062b98b1f1797de869" style="vertical-align: -2.171ex; width:33.743ex; height:5.509ex;"/></span></dd></dl></dd></dl>
+<dl><dd><dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle v_{2{\text{f}}}={\frac {2m_{1}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {m_{2}-m_{1}}{m_{1}+m_{2}}}v_{2{\text{i}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>f</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mn>2</mn>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+<mo>+</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+<mo>−<!-- − --></mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+</mrow>
+<mrow>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>+</mo>
+<msub>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msub>
+</mrow>
+</mfrac>
+</mrow>
+<msub>
+<mi>v</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mtext>i</mtext>
+</mrow>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle v_{2{\text{f}}}={\frac {2m_{1}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {m_{2}-m_{1}}{m_{1}+m_{2}}}v_{2{\text{i}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle v_{2{\text{f}}}={\frac {2m_{1}}{m_{1}+m_{2}}}v_{1{\text{i}}}+{\frac {m_{2}-m_{1}}{m_{1}+m_{2}}}v_{2{\text{i}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/59bcd1a03931b2273f924111d766892de1d1e11c" style="vertical-align: -2.171ex; width:33.743ex; height:5.509ex;"/></span></dd></dl></dd></dl>
+<h3><span id=".E6.96.9C.E5.90.91.E7.A2.B0.E6.92.9E.EF.BC.88.E4.BA.8C.E7.BB.B4.EF.BC.89"></span><span class="mw-headline" id="斜向碰撞（二维）">斜向碰撞（二维）</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=7" title="编辑章节：斜向碰撞（二维）">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>可以分别以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>方向以及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle y}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>y</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle y}</annotation>
+</semantics>
+</math></span><img alt="y" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b8a6208ec717213d4317e666f1ae872e00620a0d" style="vertical-align: -0.671ex; width:1.155ex; height:2.009ex;"/></span>方向的动量守恒决定出碰撞前后的速度关系。
+</p>
+<h2><span id=".E5.8B.95.E9.87.8F.E5.AE.88.E6.81.86.E5.AE.9A.E5.BE.8B"></span><span class="mw-headline" id="动量守恒定律">动量守恒定律</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=8" title="编辑章节：动量守恒定律">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E5%8B%95%E9%87%8F%E5%AE%88%E6%81%86%E5%AE%9A%E5%BE%8B" title="动量守恒定律">动量守恒定律</a></div>
+<p>动量是<a href="/wiki/%E5%AE%88%E6%81%86%E9%87%8F" title="守恒量">守恒量</a>。<a class="mw-redirect" href="/wiki/%E5%8B%95%E9%87%8F%E5%AE%88%E6%81%86%E5%AE%9A%E5%BE%8B" title="动量守恒定律">动量守恒定律</a>表示为：一个系统不受外力或者所受外力之和为零，这个系统中所有物体的总动量保持不变。它的一个推论为：在没有外力干预的情况下，任何系统的<a href="/wiki/%E8%B3%AA%E5%BF%83" title="质心">质心</a>都将保持<a class="mw-redirect" href="/wiki/%E5%8B%BB%E9%80%9F%E7%9B%B4%E7%B7%9A%E9%81%8B%E5%8B%95" title="匀速直线运动">匀速直线运动</a>或静止状态不变。动量守恒定律可由机械能对空间平移对称性推出。
+</p><p>在隔离系统（不存在外力）中总动量将是一个守恒量，这暗含在牛顿<a href="/wiki/%E6%85%A3%E6%80%A7" title="惯性">运动第一定律</a>之中。
+</p><p>因为动量是矢量，所以<a href="/wiki/%E5%AD%90%E5%BD%88" title="子弹">子弹</a>从起先静止的<a href="/wiki/%E6%A7%8D" title="枪">枪</a>中射出后，尽管子弹和枪都在运动，但由于子弹的动量与枪的动量等值反向，它们相互抵消，使得子弹与枪形成的系统中动量的总和依然为零。
+</p><p>若有系统外合（净）力为零，则系统内各质点相互作用力亦为零（可视为牛顿第三定律，作用力反作用力原理），故动量变化为零，所以动量守恒。定律具有普遍意义，适用于<a href="/wiki/%E5%AE%8F%E8%A7%82" title="宏观">宏观</a>、<a href="/wiki/%E5%BE%AE%E8%A7%80" title="微观">微观</a>。
+</p>
+<h2><span id=".E5.8A.A8.E9.87.8F.E7.9A.84.E7.8E.B0.E4.BB.A3.E5.AE.9A.E4.B9.89"></span><span class="mw-headline" id="动量的现代定义">动量的现代定义</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=9" title="编辑章节：动量的现代定义">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E7.9B.B8.E5.AF.B9.E8.AE.BA.E5.8A.9B.E5.AD.A6.E4.B8.AD.E7.9A.84.E5.8A.A8.E9.87.8F"></span><span class="mw-headline" id="相对论力学中的动量">相对论力学中的动量</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=10" title="编辑章节：相对论力学中的动量">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>在<a href="/wiki/%E7%9B%B8%E5%AF%B9%E8%AE%BA" title="相对论">相对论力学</a>中，动量被定义为：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} =\gamma m\mathbf {u} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+<mo>=</mo>
+<mi>γ<!-- γ --></mi>
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">u</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} =\gamma m\mathbf {u} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {p}}=\gamma m{\mathbf  {u}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c21b38eff40d2898cecf0ec51470c1368e33a7f5" style="vertical-align: -0.838ex; width:9.372ex; height:2.176ex;"/></span></dd></dl>
+<p>其中：
+</p>
+<ul><li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span>表示运动物体的静止质量；</li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \gamma ={\frac {1}{\sqrt {1-u^{2}/c^{2}}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>γ<!-- γ --></mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mn>1</mn>
+<msqrt>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>u</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</msqrt>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \gamma ={\frac {1}{\sqrt {1-u^{2}/c^{2}}}}}</annotation>
+</semantics>
+</math></span><img alt="\gamma ={\frac  {1}{{\sqrt  {1-u^{2}/c^{2}}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3ef8ed72a2590d00e560a96d2f4c65b9c65bb53c" style="vertical-align: -3.171ex; width:17.131ex; height:6.509ex;"/></span>；</li>
+<li><i>u</i>表示物体与观察者之间的相对速度；</li>
+<li><i>c</i>表示<a href="/wiki/%E5%85%89%E9%80%9F" title="光速">光速</a>。</li></ul>
+<p>当物体在低速极限（u/c -&gt; 0）下运动时，相对论力学的动量式可变化为牛顿力学的动量式：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m\mathbf {u} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">u</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m\mathbf {u} }</annotation>
+</semantics>
+</math></span><img alt="m{\mathbf  {u}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86edd54beae3cf819d512f3f1f70c94e4511b43c" style="vertical-align: -0.338ex; width:3.526ex; height:1.676ex;"/></span>。
+</p><p><a href="/wiki/%E9%98%BF%E5%B0%94%E4%BC%AF%E7%89%B9%C2%B7%E7%88%B1%E5%9B%A0%E6%96%AF%E5%9D%A6" title="阿尔伯特·爱因斯坦">阿尔伯特·爱因斯坦</a>由<a href="/wiki/%E6%B4%9B%E4%BC%A6%E5%85%B9%E5%8F%98%E6%8D%A2" title="洛伦兹变换">洛伦兹变换</a>下的<a class="mw-redirect" href="/wiki/%E5%9B%9B%E7%B6%AD%E5%90%91%E9%87%8F" title="四维向量">四维矢量</a>守恒发展提出了相对论的<a href="/wiki/%E5%9B%9B%E7%BB%B4%E5%8A%A8%E9%87%8F" title="四维动量">四维动量</a>。其中<a class="mw-redirect" href="/wiki/%E5%9B%9B%E7%B6%AD%E5%90%91%E9%87%8F" title="四维向量">四维矢量</a>可从<a href="/wiki/%E9%87%8F%E5%AD%90%E5%9C%BA%E8%AE%BA" title="量子场论">量子场论</a>使用<a href="/wiki/%E6%A0%BC%E6%9E%97%E5%87%BD%E6%95%B8" title="格林函数">格林函数</a>自然导出。四维动量被定义为：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \left({E \over c},p_{x},p_{y},p_{z}\right)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow>
+<mo>(</mo>
+<mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>E</mi>
+<mi>c</mi>
+</mfrac>
+</mrow>
+<mo>,</mo>
+<msub>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>y</mi>
+</mrow>
+</msub>
+<mo>,</mo>
+<msub>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>z</mi>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \left({E \over c},p_{x},p_{y},p_{z}\right)}</annotation>
+</semantics>
+</math></span><img alt="\left({E \over c},p_{x},p_{y},p_{z}\right)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2c5ba5e8669f76152892a0d88ea4c43475df39b8" style="vertical-align: -2.505ex; width:15.866ex; height:6.176ex;"/></span></dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p_{x}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi>p</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>x</mi>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p_{x}}</annotation>
+</semantics>
+</math></span><img alt="p_{x}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5a5055ed65713825b48aa6ee05118c072e6f026a" style="vertical-align: -0.671ex; margin-left: -0.089ex; width:2.431ex; height:2.009ex;"/></span>表示<i>相对论</i>动量的<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle x}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>x</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle x}</annotation>
+</semantics>
+</math></span><img alt="x" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/87f9e315fd7e2ba406057a97300593c4802b53e4" style="vertical-align: -0.338ex; width:1.33ex; height:1.676ex;"/></span>分量，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle E}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>E</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle E}</annotation>
+</semantics>
+</math></span><img alt="E" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4232c9de2ee3eec0a9c0a19b15ab92daa6223f9b" style="vertical-align: -0.338ex; width:1.776ex; height:2.176ex;"/></span>表示系统的总能量：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle E=\gamma mc^{2}\;}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>E</mi>
+<mo>=</mo>
+<mi>γ<!-- γ --></mi>
+<mi>m</mi>
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mspace width="thickmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle E=\gamma mc^{2}\;}</annotation>
+</semantics>
+</math></span><img alt="E=\gamma mc^{2}\;" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b5d503b5cdeafc60d08617014bc23fabdf9ec152" style="vertical-align: -0.838ex; width:10.883ex; height:3.176ex;"/></span></dd></dl>
+<p>令速度等于零，可得到一个物体的静止质量和能量之间的关系<a class="mw-redirect" href="/wiki/E%3Dmc%C2%B2" title="E=mc²">E=mc²</a>。
+</p><p>矢量的“长度”保持恒定被定义为：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} \cdot \mathbf {p} -E^{2}/c^{2}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+<mo>⋅<!-- ⋅ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+<mo>−<!-- − --></mo>
+<msup>
+<mi>E</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>/</mo>
+</mrow>
+<msup>
+<mi>c</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} \cdot \mathbf {p} -E^{2}/c^{2}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {p}}\cdot {\mathbf  {p}}-E^{2}/c^{2}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a6f322452e2879efbf0d54913392b3ab2af6e9c0" style="vertical-align: -0.838ex; width:13.562ex; height:3.176ex;"/></span></dd></dl>
+<h4><span id=".E6.97.A0.E9.9D.99.E6.AD.A2.E8.B4.A8.E9.87.8F.E7.89.A9.E4.BD.93.E7.9A.84.E5.8A.A8.E9.87.8F"></span><span class="mw-headline" id="无静止质量物体的动量">无静止质量物体的动量</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=11" title="编辑章节：无静止质量物体的动量">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>无<a class="mw-redirect" href="/wiki/%E9%9D%99%E6%AD%A2%E8%B4%A8%E9%87%8F" title="静止质量">静止质量</a>物体，譬如<a href="/wiki/%E5%85%89%E5%AD%90" title="光子">光子</a>亦有动量。计算的公式为：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle p={\frac {h}{\lambda }}={\frac {E}{c}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>p</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>h</mi>
+<mi>λ<!-- λ --></mi>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi>E</mi>
+<mi>c</mi>
+</mfrac>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle p={\frac {h}{\lambda }}={\frac {E}{c}}}</annotation>
+</semantics>
+</math></span><img alt="p={\frac  {h}{\lambda }}={\frac  {E}{c}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/adc6c90b509eceb31495f857538e3f7f08429b1f" style="vertical-align: -2.005ex; margin-left: -0.089ex; width:12.259ex; height:5.509ex;"/></span>
+<dl><dd><dl><dd>其中
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle h}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>h</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle h}</annotation>
+</semantics>
+</math></span><img alt="h" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b26be3e694314bc90c3215047e4a2010c6ee184a" style="vertical-align: -0.338ex; width:1.339ex; height:2.176ex;"/></span>表示<a class="mw-redirect" href="/wiki/%E6%99%AE%E6%9C%97%E5%85%8B%E5%B8%B8%E9%87%8F" title="普朗克常量">普朗克常量</a>；</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \lambda }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>λ<!-- λ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \lambda }</annotation>
+</semantics>
+</math></span><img alt="\lambda " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b43d0ea3c9c025af1be9128e62a18fa74bedda2a" style="vertical-align: -0.338ex; width:1.355ex; height:2.176ex;"/></span>表示光子的波长；</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle E}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>E</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle E}</annotation>
+</semantics>
+</math></span><img alt="E" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4232c9de2ee3eec0a9c0a19b15ab92daa6223f9b" style="vertical-align: -0.338ex; width:1.776ex; height:2.176ex;"/></span>表示光子的<a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a>；</dd>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span>表示<a href="/wiki/%E5%85%89%E9%80%9F" title="光速">光速</a>。</dd></dl></dd></dl></dd></dl></dd></dl>
+<h4><span id=".E5.8A.A8.E9.87.8F.E7.9A.84.E6.99.AE.E9.80.82.E6.80.A7"></span><span class="mw-headline" id="动量的普适性">动量的普适性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=12" title="编辑章节：动量的普适性">编辑</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>动量是平移守恒的<a class="mw-redirect" href="/wiki/%E8%AF%BA%E7%89%B9%E8%8D%B7" title="诺特荷">诺特荷</a>。因此，甚至连<a class="mw-disambig" href="/wiki/%E5%9C%BA" title="场">场</a>也与其他物质一样具有动量，而不止是<a href="/wiki/%E7%B2%92%E5%AD%90" title="粒子">粒子</a>。但是，在<a class="mw-redirect" href="/wiki/%E5%BD%8E%E6%9B%B2%E6%99%82%E7%A9%BA" title="弯曲时空">弯曲时空</a>（非<a class="mw-redirect" href="/wiki/%E9%97%B5%E5%8F%AF%E5%A4%AB%E6%96%AF%E5%9F%BA%E7%A9%BA%E9%97%B4" title="闵可夫斯基空间">闵可夫斯基</a>式）中，动量根本没有被定义。
+</p>
+<h3><span id=".E9.87.8F.E5.AD.90.E5.8A.9B.E5.AD.A6.E4.B8.AD.E7.9A.84.E5.8A.A8.E9.87.8F"></span><span class="mw-headline" id="量子力学中的动量">量子力学中的动量</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=13" title="编辑章节：量子力学中的动量">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a href="/wiki/%E5%8B%95%E9%87%8F%E7%AE%97%E7%AC%A6" title="动量算符">动量算符</a></div>
+<p>在<a href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%A6" title="量子力学">量子力学</a>中，动量被定义为<a href="/wiki/%E6%B3%A2%E5%87%BD%E6%95%B0" title="波函数">波函数</a>的一个<a href="/wiki/%E7%AE%97%E7%AC%A6" title="算符">算符</a>。<a class="mw-redirect" href="/wiki/%E6%B2%83%E7%BA%B3%C2%B7%E6%B5%B7%E6%A3%AE%E5%A0%A1" title="沃纳·海森堡">海森堡</a><a href="/wiki/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7%E5%8E%9F%E7%90%86" title="不确定性原理">不确定性原理</a>定义了单一观测系统中一次测定动量和位置的精确极限。在量子力学中，动量与位置是一对<a href="/wiki/%E5%85%B1%E8%BD%AD%E7%89%A9%E7%90%86%E9%87%8F" title="共轭物理量">共轭物理量</a>。
+</p><p>对单个不带<a class="mw-redirect" href="/wiki/%E7%94%B5%E8%8D%B7" title="电荷">电荷</a>且没有<a href="/wiki/%E8%87%AA%E6%97%8B" title="自旋">自旋</a>的粒子来说，动量算符可被写作：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbf {p} ={\hbar  \over i}\nabla =-i\hbar \nabla }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="bold">p</mi>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mi class="MJX-variant">ℏ<!-- ℏ --></mi>
+<mi>i</mi>
+</mfrac>
+</mrow>
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+<mo>=</mo>
+<mo>−<!-- − --></mo>
+<mi>i</mi>
+<mi class="MJX-variant">ℏ<!-- ℏ --></mi>
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbf {p} ={\hbar  \over i}\nabla =-i\hbar \nabla }</annotation>
+</semantics>
+</math></span><img alt="{\mathbf  {p}}={\hbar  \over i}\nabla =-i\hbar \nabla " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/038620308dd0cb73d2880bba9a68535f36a9cf0c" style="vertical-align: -1.838ex; width:17.614ex; height:5.343ex;"/></span></dd></dl>
+<p>其中，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \nabla }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi mathvariant="normal">∇<!-- ∇ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \nabla }</annotation>
+</semantics>
+</math></span><img alt="\nabla " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a3d0e93b78c50237f9ea83d027e4ebbdaef354b2" style="vertical-align: -0.338ex; width:1.936ex; height:2.176ex;"/></span>表示<a href="/wiki/%E6%A2%AF%E5%BA%A6" title="梯度">梯度</a>算符。这是动量算符的一个普通形式，而非最普遍的一个。
+</p>
+<h3><span id=".E7.94.B5.E7.A3.81.E5.AD.A6.E4.B8.AD.E7.9A.84.E5.8A.A8.E9.87.8F.E5.AE.88.E6.81.92"></span><span class="mw-headline" id="电磁学中的动量守恒">电磁学中的动量守恒</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=14" title="编辑章节：电磁学中的动量守恒">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>当电场和/或磁场移动时，它们带有动量。电磁波（可见光、紫外线、无线电波等）也有动量，即使是没有静止质量的<a href="/wiki/%E5%85%89%E5%AD%90" title="光子">光子</a>，也同样带有动量。这被应用在诸如<a href="/wiki/%E5%A4%AA%E9%98%B3%E5%B8%86" title="太阳帆">太阳帆</a>上。
+</p>
+<h2><span id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=15" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Daniel Garber. Descartes' Physics. John Cottingham  (编). The Cambridge Companion to Descartes. Cambridge: Cambridge University Press. 1992: 310–319. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-521-36696-8" title="Special:网络书源/0-521-36696-8"><span title="国际标准书号">ISBN</span> 0-521-36696-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E5%8A%A8%E9%87%8F&amp;rft.atitle=Descartes%27+Physics&amp;rft.au=Daniel+Garber&amp;rft.btitle=The+Cambridge+Companion+to+Descartes&amp;rft.date=1992&amp;rft.genre=bookitem&amp;rft.isbn=0-521-36696-8&amp;rft.pages=310-319&amp;rft.place=Cambridge&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book">Rothman, Milton A. <a class="external text" href="https://archive.org/details/discoveringnatur0000roth" rel="nofollow">Discovering the natural laws : the experimental basis of physics</a> 2nd. New York: Dover Publications. 1989: <a class="external text" href="https://archive.org/details/discoveringnatur0000roth/page/83" rel="nofollow">83</a>–88. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780486261782" title="Special:网络书源/9780486261782"><span title="国际标准书号">ISBN</span> 9780486261782</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E5%8A%A8%E9%87%8F&amp;rft.aufirst=Milton+A.&amp;rft.aulast=Rothman&amp;rft.btitle=Discovering+the+natural+laws+%3A+the+experimental+basis+of+physics&amp;rft.date=1989&amp;rft.edition=2nd&amp;rft.genre=book&amp;rft.isbn=9780486261782&amp;rft.pages=83-88&amp;rft.place=New+York&amp;rft.pub=Dover+Publications&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fdiscoveringnatur0000roth&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">人民教育出版社物理室《全日制普通高级中学教科书物理》第二册<a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9787107165009">ISBN 978-7-107-16500-9</a> </span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.82.E7.9C.8B.E6.9D.A1.E7.9B.AE"></span><span class="mw-headline" id="参看条目">参看条目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit&amp;section=16" title="编辑章节：参看条目">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="mw-redirect" href="/wiki/%E8%A7%92%E5%8B%95%E9%87%8F" title="角动量">角动量</a></li>
+<li><a href="/wiki/%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B" title="守恒定律">守恒定律</a></li>
+<li><a href="/wiki/%E7%89%9B%E9%A1%BF%E6%91%86" title="牛顿摆">牛顿摆</a></li></ul>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style="background:#C0C0C0;"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D" title="Template:经典力学国际单位"><abbr style=";background:#C0C0C0;;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a class="new" href="/w/index.php?title=Template_talk:%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D&amp;action=edit&amp;redlink=1" title="Template talk:经典力学国际单位（页面不存在）"><abbr style=";background:#C0C0C0;;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D&amp;action=edit"><abbr style=";background:#C0C0C0;;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">经典力学</a><a href="/wiki/%E5%9B%BD%E9%99%85%E5%8D%95%E4%BD%8D%E5%88%B6" title="国际单位制">国际单位</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0;"><table class="wikitable" style="text-align:center;line-height:0.9;border-collapse:collapse;margin:auto;border:none;background:none;">
+<tbody><tr>
+<th colspan="4">线性（平动）的量</th>
+<td rowspan="12" style="border:none;backgound:none;"></td>
+<th colspan="4">角度（转动）的量</th>
+</tr>
+<tr>
+<th style="font-weight:normal;font-size:80%;">量纲</th>
+<th style="font-weight:normal;">—</th>
+<th style="font-weight:normal;">L</th>
+<th style="font-weight:normal;">L<sup>2</sup></th>
+<th style="font-weight:normal;font-size:80%;">量纲</th>
+<th style="font-weight:normal;">—</th>
+<th style="font-weight:normal;">—</th>
+<th style="font-weight:normal;">—</th>
+</tr>
+<tr>
+<th style="font-weight:normal;">T</th>
+<td><a href="/wiki/%E6%97%B6%E9%97%B4" title="时间">时间</a>: <style data-mw-deduplicate="TemplateStyles:r58896141">.mw-parser-output .serif{font-family:Times,serif}</style><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">t</span></span><br/><a href="/wiki/%E7%A7%92" title="秒">s</a></td>
+<td><span class="ilh-all" data-foreign-title="absement" data-lang-code="en" data-lang-name="英语" data-orig-title="absement"><span class="ilh-page"><a class="new" href="/w/index.php?title=Absement&amp;action=edit&amp;redlink=1" title="Absement（页面不存在）">absement</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/absement" title="en:absement"><span dir="auto" lang="en">absement</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>A</b></span></span><br/><span class="ilh-all" data-foreign-title="meter second" data-lang-code="en" data-lang-name="英语" data-orig-title="m s"><span class="ilh-page"><a class="new" href="/w/index.php?title=M_s&amp;action=edit&amp;redlink=1" title="M s（页面不存在）">m s</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/meter_second" title="en:meter second"><span dir="auto" lang="en">meter second</span></a></span>）</span></span></td>
+<td></td>
+<th style="font-weight:normal;">T</th>
+<td><a href="/wiki/%E6%97%B6%E9%97%B4" title="时间">时间</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">t</span></span><br/><a href="/wiki/%E7%A7%92" title="秒">s</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">—</th>
+<td></td>
+<td><a href="/wiki/%E8%B7%9D%E7%A6%BB" title="距离">距离</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">d</span></span>, <span class="nowrap"><a href="/wiki/%E4%BD%8D%E7%BD%AE%E5%90%91%E9%87%8F" title="位置向量">位矢</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>r</b></span></span>, <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>s</b></span></span>, <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>x</b></span></span></span>, <a href="/wiki/%E4%BD%8D%E7%A7%BB" title="位移">位移</a><br/><a href="/wiki/%E7%B1%B3_(%E5%8D%95%E4%BD%8D)" title="米 (单位)">m</a></td>
+<td><a href="/wiki/%E9%9D%A2%E7%A7%AF" title="面积">面积</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><i>A</i></span></span><br/><a href="/wiki/%E5%B9%B3%E6%96%B9%E7%B1%B3" title="平方米">m<sup>2</sup></a></td>
+<th style="font-weight:normal;">—</th>
+<td></td>
+<td><a href="/wiki/%E8%A7%92" title="角">角度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">θ</span></span>, <a href="/wiki/%E8%A7%92%E7%A7%BB" title="角移">角移</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>θ</b></span></span><br/><a href="/wiki/%E5%BC%A7%E5%BA%A6" title="弧度">rad</a></td>
+<td><span class="nowrap"><a href="/wiki/%E7%AB%8B%E9%AB%94%E8%A7%92" title="立体角">立体角</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">Ω</span></span><br/><a href="/wiki/%E7%90%83%E9%9D%A2%E5%BA%A6" title="球面度">rad<sup>2</sup>, sr</a></span></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">T<sup>−1</sup></th>
+<td><span class="nowrap"><a href="/wiki/%E9%A0%BB%E7%8E%87" title="频率">频率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">f</span></span></span><br/><span class="ilh-all" data-foreign-title="inverse second" data-lang-code="en" data-lang-name="英语" data-orig-title="每秒"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%AF%8F%E7%A7%92&amp;action=edit&amp;redlink=1" title="每秒（页面不存在）">s<sup>−1</sup></a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/inverse_second" title="en:inverse second"><span dir="auto" lang="en">inverse second</span></a></span>）</span></span>, <a href="/wiki/%E8%B5%AB%E5%85%B9" title="赫兹">Hz</a></td>
+<td><a href="/wiki/%E9%80%9F%E7%8E%87" title="速率">速率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">v</span></span>, <a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>v</b></span></span><br/><a href="/wiki/%E7%B1%B3%E6%AF%8F%E7%A7%92" title="米每秒">m s<sup>−1</sup></a></td>
+<td><a href="/wiki/%E9%BB%8F%E5%BA%A6" title="黏度">面积速率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">ν</span></span>,<br/><span class="ilh-all" data-foreign-title="specific angular momentum" data-lang-code="en" data-lang-name="英语" data-orig-title="比角动量"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%AF%94%E8%A7%92%E5%8A%A8%E9%87%8F&amp;action=edit&amp;redlink=1" title="比角动量（页面不存在）">比角动量</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/specific_angular_momentum" title="en:specific angular momentum"><span dir="auto" lang="en">specific angular momentum</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>h</b></span></span><br/><a class="extiw" href="https://en.wikipedia.org/wiki/metre_squared_per_second" title="en:metre squared per second">m<sup>2</sup> s<sup>−1</sup></a></td>
+<th style="font-weight:normal;">T<sup>−1</sup></th>
+<td><span class="nowrap"><a href="/wiki/%E9%A0%BB%E7%8E%87" title="频率">频率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">f</span></span></span><br/><span class="ilh-all" data-foreign-title="inverse second" data-lang-code="en" data-lang-name="英语" data-orig-title="每秒"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%AF%8F%E7%A7%92&amp;action=edit&amp;redlink=1" title="每秒（页面不存在）">s<sup>−1</sup></a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/inverse_second" title="en:inverse second"><span dir="auto" lang="en">inverse second</span></a></span>）</span></span>, <a href="/wiki/%E8%B5%AB%E5%85%B9" title="赫兹">Hz</a></td>
+<td><a class="mw-redirect" href="/wiki/%E8%A7%92%E9%80%9F%E7%8E%87" title="角速率">角速率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">ω</span></span>, <a href="/wiki/%E8%A7%92%E9%80%9F%E5%BA%A6" title="角速度">角速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>ω</b></span></span><br/><a href="/wiki/%E5%BC%A7%E5%BA%A6%E6%AF%8F%E7%A7%92" title="弧度每秒">rad<span style="letter-spacing:0.1em"> </span>s<sup>−1</sup></a></td>
+<td></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">T<sup>−2</sup></th>
+<td></td>
+<td><a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>a</b></span></span><br/><a href="/wiki/%E7%B1%B3%E6%AF%8F%E4%BA%8C%E6%AC%A1%E6%96%B9%E7%A7%92" title="米每二次方秒">m s<sup>−2</sup></a></td>
+<td></td>
+<th style="font-weight:normal;">T<sup>−2</sup></th>
+<td></td>
+<td><a href="/wiki/%E8%A7%92%E5%8A%A0%E9%80%9F%E5%BA%A6" title="角加速度">角加速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>α</b></span></span><br/>rad<span style="letter-spacing:0.1em"> </span>s<sup>−2</sup></td>
+<td></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">T<sup>−3</sup></th>
+<td></td>
+<td><a href="/wiki/%E5%8A%A0%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加加速度">加加速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>j</b></span></span><br/>m s<sup>−3</sup></td>
+<td></td>
+<th style="font-weight:normal;">T<sup>−3</sup></th>
+<td></td>
+<td><a href="/wiki/%E5%8A%A0%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加加速度">角加加速度</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>ζ</b></span></span><br/>rad<span style="letter-spacing:0.1em"> </span>s<sup>−3</sup></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4" style="padding-top:0;"></td>
+<td colspan="4" style="padding-top:0;"></td>
+</tr>
+<tr><th style="font-weight:normal;">M</th>
+<td><a href="/wiki/%E8%B4%A8%E9%87%8F" title="质量">质量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">m</span></span><br/><a href="/wiki/%E5%8D%83%E5%85%8B" title="千克">kg</a></td>
+<td></td>
+<td></td>
+<th style="font-weight:normal;">ML<sup>2</sup></th>
+<td><a class="mw-redirect" href="/wiki/%E8%BD%AC%E5%8A%A8%E6%83%AF%E9%87%8F" title="转动惯量">转动惯量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">I</span></span><br/>kg<span style="letter-spacing:0.1em"> </span>m<sup>2</sup></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">MT<sup>−1</sup></th>
+<td></td>
+<td><a class="mw-selflink selflink">动量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>p</b></span></span>, <a href="/wiki/%E5%86%B2%E9%87%8F" title="冲量">冲量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>J</b></span></span><br/>kg<span style="letter-spacing:0.1em"> </span>m s<sup>−1</sup>, <span class="ilh-all" data-foreign-title="newton second" data-lang-code="en" data-lang-name="英语" data-orig-title="N s"><span class="ilh-page"><a class="new" href="/w/index.php?title=N_s&amp;action=edit&amp;redlink=1" title="N s（页面不存在）">N s</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/newton_second" title="en:newton second"><span dir="auto" lang="en">newton second</span></a></span>）</span></span></td>
+<td><a href="/wiki/%E4%BD%9C%E7%94%A8%E9%87%8F" title="作用量">作用量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">𝒮</span></span>, <span class="ilh-all" data-foreign-title="actergy" data-lang-code="en" data-lang-name="英语" data-orig-title="actergy"><span class="ilh-page"><a class="new" href="/w/index.php?title=Actergy&amp;action=edit&amp;redlink=1" title="Actergy（页面不存在）">actergy</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/actergy" title="en:actergy"><span dir="auto" lang="en">actergy</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">ℵ</span></span><br/>kg<span style="letter-spacing:0.1em"> </span>m<sup>2</sup> s<sup>−1</sup>, <span class="ilh-all" data-foreign-title="joule-second" data-lang-code="en" data-lang-name="英语" data-orig-title="J s"><span class="ilh-page"><a class="new" href="/w/index.php?title=J_s&amp;action=edit&amp;redlink=1" title="J s（页面不存在）">J s</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/joule-second" title="en:joule-second"><span dir="auto" lang="en">joule-second</span></a></span>）</span></span></td>
+<th style="font-weight:normal;">ML<sup>2</sup>T<sup>−1</sup></th>
+<td></td>
+<td><a href="/wiki/%E8%A7%92%E5%8A%A8%E9%87%8F" title="角动量">角动量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>L</b></span></span>, 角冲量: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">Δ<b>L</b></span></span><br/>kg<span style="letter-spacing:0.1em"> </span>m<sup>2</sup> s<sup>−1</sup></td>
+<td><a href="/wiki/%E4%BD%9C%E7%94%A8%E9%87%8F" title="作用量">作用量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">𝒮</span></span>, <span class="ilh-all" data-foreign-title="actergy" data-lang-code="en" data-lang-name="英语" data-orig-title="actergy"><span class="ilh-page"><a class="new" href="/w/index.php?title=Actergy&amp;action=edit&amp;redlink=1" title="Actergy（页面不存在）">actergy</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/actergy" title="en:actergy"><span dir="auto" lang="en">actergy</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml">ℵ</span></span><br/>kg<span style="letter-spacing:0.1em"> </span>m<sup>2</sup> s<sup>−1</sup>, <span class="ilh-all" data-foreign-title="joule-second" data-lang-code="en" data-lang-name="英语" data-orig-title="J s"><span class="ilh-page"><a class="new" href="/w/index.php?title=J_s&amp;action=edit&amp;redlink=1" title="J s（页面不存在）">J s</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/joule-second" title="en:joule-second"><span dir="auto" lang="en">joule-second</span></a></span>）</span></span></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">MT<sup>−2</sup></th>
+<td></td>
+<td><a href="/wiki/%E5%8A%9B" title="力">力</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>F</b></span></span>, <a href="/wiki/%E9%87%8D%E9%87%8F" title="重量">重量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>F</b><sub>g</sub></span></span><br/><span style="margin-right:0.1em;">kg </span> m s<sup>−2</sup>, <a href="/wiki/%E7%89%9B%E9%A0%93_(%E5%96%AE%E4%BD%8D)" title="牛顿 (单位)">N</a></td>
+<td><a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">E</span></span>, <a href="/wiki/%E5%8A%9F" title="功">功</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">W</span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−2</sup>, <a href="/wiki/%E7%84%A6%E8%80%B3" title="焦耳">J</a></td>
+<th style="font-weight:normal;">ML<sup>2</sup>T<sup>−2</sup></th>
+<td></td>
+<td><a href="/wiki/%E5%8A%9B%E7%9F%A9" title="力矩">力矩</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>τ</b></span></span>, <span class="ilh-all" data-foreign-title="Moment (physics)" data-lang-code="en" data-lang-name="英语" data-orig-title="Moment (physics)"><span class="ilh-page"><a class="new" href="/w/index.php?title=Moment_(physics)&amp;action=edit&amp;redlink=1" title="Moment (physics)（页面不存在）">moment</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Moment_(physics)" title="en:Moment (physics)"><span dir="auto" lang="en">Moment (physics)</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>M</b></span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−2</sup>, <a href="/wiki/%E7%89%9B%E9%A0%93%E7%B1%B3" title="牛顿米">N m</a></td>
+<td><a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">E</span></span>, <a href="/wiki/%E5%8A%9F" title="功">功</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">W</span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−2</sup>, <a href="/wiki/%E7%84%A6%E8%80%B3" title="焦耳">J</a></td>
+</tr>
+<tr>
+<th style="font-weight:normal;">MT<sup>−3</sup></th>
+<td></td>
+<td><span class="ilh-all" data-foreign-title="List_of_equations_in_classical_mechanics#Dynamics" data-lang-code="en" data-lang-name="英语" data-orig-title="yank"><span class="ilh-page"><a class="new" href="/w/index.php?title=Yank&amp;action=edit&amp;redlink=1" title="Yank（页面不存在）">yank</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/List_of_equations_in_classical_mechanics#Dynamics" title="en:List of equations in classical mechanics"><span dir="auto" lang="en">List_of_equations_in_classical_mechanics#Dynamics</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>Y</b></span></span><br/><span style="margin-right:0.1em;">kg</span> m s<sup>−3</sup>, N s<sup>−1</sup></td>
+<td><a href="/wiki/%E5%8A%9F%E7%8E%87" title="功率">功率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">P</span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−3</sup>, <a href="/wiki/%E7%93%A6%E7%89%B9" title="瓦特">W</a></td>
+<th style="font-weight:normal;">ML<sup>2</sup>T<sup>−3</sup></th>
+<td></td>
+<td><span class="ilh-all" data-foreign-title="rotatum" data-lang-code="en" data-lang-name="英语" data-orig-title="rotatum"><span class="ilh-page"><a class="new" href="/w/index.php?title=Rotatum&amp;action=edit&amp;redlink=1" title="Rotatum（页面不存在）">rotatum</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/rotatum" title="en:rotatum"><span dir="auto" lang="en">rotatum</span></a></span>）</span></span>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><b>P</b></span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−3</sup>, N m s<sup>−1</sup></td>
+<td><a href="/wiki/%E5%8A%9F%E7%8E%87" title="功率">功率</a>: <link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml mvar" style="font-style:italic;margin-left:2px;margin-right:2px;">P</span></span><br/><span style="margin-right:0.1em;">kg</span> m<sup>2</sup> s<sup>−3</sup>, <a href="/wiki/%E7%93%A6%E7%89%B9" title="瓦特">W</a></td>
+</tr>
+</tbody></table></div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" title="Template:经典力学"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8" title="Template talk:经典力学"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%B6%93%E5%85%B8%E5%8A%9B%E5%AD%B8&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">经典力学</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">表述形式</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="经典力学">矢量力学</a></li>
+<li><a href="/wiki/%E5%88%86%E6%9E%90%E5%8A%9B%E5%AD%A6" title="分析力学">分析力学</a>（<a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E5%8A%9B%E5%AD%A6" title="拉格朗日力学">拉格朗日力学</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%8A%9B%E5%AD%A6" title="哈密顿力学">哈密顿力学</a>）</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">基础概念</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A9%BA%E9%97%B4_(%E7%89%A9%E7%90%86)" title="空间 (物理)">空间</a></li>
+<li><a href="/wiki/%E6%97%B6%E9%97%B4" title="时间">时间</a></li>
+<li><a href="/wiki/%E9%80%9F%E5%BA%A6" title="速度">速度</a></li>
+<li><a href="/wiki/%E5%8A%A0%E9%80%9F%E5%BA%A6" title="加速度">加速度</a></li>
+<li><a href="/wiki/%E8%B4%A8%E9%87%8F" title="质量">质量</a></li>
+<li><a href="/wiki/%E5%BC%95%E5%8A%9B" title="引力">引力</a></li>
+<li><a href="/wiki/%E5%8A%9B%E7%9F%A9" title="力矩">力矩</a></li>
+<li><a href="/wiki/%E5%8F%82%E8%80%83%E7%B3%BB" title="参考系">参考系</a></li>
+<li><a href="/wiki/%E5%8A%9B" title="力">力</a></li>
+<li><a href="/wiki/%E5%8A%9B%E5%81%B6" title="力偶">力偶</a></li>
+<li><a href="/wiki/%E5%86%B2%E9%87%8F" title="冲量">冲量</a></li>
+<li><a class="mw-selflink selflink">动量</a></li>
+<li><a href="/wiki/%E5%88%9A%E4%BD%93" title="刚体">刚体</a></li>
+<li><a href="/wiki/%E8%A7%92%E5%8A%A8%E9%87%8F" title="角动量">角动量</a></li>
+<li><a href="/wiki/%E6%85%A3%E6%80%A7" title="惯性">惯性</a></li>
+<li><a href="/wiki/%E8%BD%89%E5%8B%95%E6%85%A3%E9%87%8F" title="转动惯量">转动惯量</a></li>
+<li><a href="/wiki/%E8%83%BD%E9%87%8F" title="能量">能量</a></li>
+<li><a href="/wiki/%E5%8A%A8%E8%83%BD" title="动能">动能</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BD%8D%E8%83%BD" title="位能">位能</a></li>
+<li><a href="/wiki/%E8%99%9B%E5%8A%9F" title="虚功">虚功</a></li>
+<li><a href="/wiki/%E4%BD%9C%E7%94%A8%E9%87%8F" title="作用量">作用量</a></li>
+<li><a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E9%87%8F" title="拉格朗日量">拉格朗日量</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A1%BF%E5%8A%9B%E5%AD%A6" title="哈密顿力学">哈密顿量</a></li>
+<li><a href="/wiki/%E5%8A%9F" title="功">功</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">重要理论</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%89%9B%E9%A1%BF%E8%BF%90%E5%8A%A8%E5%AE%9A%E5%BE%8B" title="牛顿运动定律">牛顿运动定律</a></li>
+<li><a href="/wiki/%E8%83%A1%E5%85%8B%E5%AE%9A%E5%BE%8B" title="胡克定律">胡克定律</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A1%BF%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B" title="牛顿万有引力定律">牛顿万有引力定律</a></li>
+<li><a href="/wiki/%E7%B0%A1%E8%AB%A7%E9%81%8B%E5%8B%95" title="简谐运动">简谐运动</a></li>
+<li><a href="/wiki/%E9%81%94%E6%9C%97%E8%B2%9D%E7%88%BE%E5%8E%9F%E7%90%86" title="达朗贝尔原理">达朗贝尔原理</a></li>
+<li><a href="/wiki/%E6%AC%A7%E6%8B%89%E6%96%B9%E7%A8%8B_(%E5%88%9A%E4%BD%93%E8%BF%90%E5%8A%A8)" title="欧拉方程 (刚体运动)">欧拉方程式</a></li>
+<li><a href="/wiki/%E5%93%88%E5%AF%86%E9%A0%93%E5%8E%9F%E7%90%86" title="哈密顿原理">哈密顿原理</a></li>
+<li><a href="/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E6%96%B9%E7%A8%8B%E5%BC%8F" title="拉格朗日方程式">拉格朗日方程式</a></li>
+<li><a href="/wiki/%E6%9C%80%E5%B0%8F%E4%BD%9C%E7%94%A8%E9%87%8F%E5%8E%9F%E7%90%86" title="最小作用量原理">最小作用量原理</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">应用</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%80%E5%8D%95%E6%9C%BA%E6%A2%B0" title="简单机械">简单机械</a></li>
+<li><a href="/wiki/%E6%96%9C%E9%9D%A2" title="斜面">斜面</a></li>
+<li><a href="/wiki/%E6%9D%A0%E6%9D%86" title="杠杆">杠杆</a></li>
+<li><a href="/wiki/%E6%BB%91%E8%BD%AE" title="滑轮">滑轮</a></li>
+<li><a href="/wiki/%E8%9E%BA%E6%97%8B_(%E7%B0%A1%E5%96%AE%E6%A9%9F%E6%A2%B0)" title="螺旋 (简单机械)">螺旋</a></li>
+<li><a href="/wiki/%E6%A5%94%E5%AD%90" title="楔子">楔子</a></li>
+<li><a href="/wiki/%E8%BC%AA%E8%BB%B8" title="轮轴">轮轴</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">科学史</th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%89%A9%E7%90%86%E5%AD%A6%E5%8F%B2#力学的发展史" title="物理学史">发展史</a></li>
+<li><a href="/wiki/%E7%BA%A6%E7%BF%B0%E5%86%85%E6%96%AF%C2%B7%E5%BC%80%E6%99%AE%E5%8B%92" title="约翰内斯·开普勒">开普勒</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%89%BE%E8%96%A9%E5%85%8B%C2%B7%E7%89%9B%E9%A0%93" title="艾萨克·牛顿">牛顿</a></li>
+<li><a href="/wiki/%E8%90%8A%E6%98%82%E5%93%88%E5%BE%B7%C2%B7%E6%AD%90%E6%8B%89" title="莱昂哈德·欧拉">欧拉</a></li>
+<li><a href="/wiki/%E8%AE%A9%C2%B7%E5%8B%92%E6%9C%97%C2%B7%E8%BE%BE%E6%9C%97%E8%B4%9D%E5%B0%94" title="让·勒朗·达朗贝尔">达朗贝尔</a></li>
+<li><a href="/wiki/%E5%A8%81%E5%BB%89%C2%B7%E5%93%88%E5%AF%86%E9%A0%93" title="威廉·哈密顿">哈密顿</a></li>
+<li><a href="/wiki/%E6%B5%B7%E5%9B%A0%E9%87%8C%E5%B8%8C%C2%B7%E8%B5%AB%E5%85%B9" title="海因里希·赫兹">赫兹</a></li>
+<li><a href="/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%C2%B7%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5" title="约瑟夫·拉格朗日">拉格朗日</a></li>
+<li><a href="/wiki/%E7%9A%AE%E5%9F%83%E5%B0%94-%E8%A5%BF%E8%92%99%C2%B7%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF" title="皮埃尔-西蒙·拉普拉斯">拉普拉斯</a></li>
+<li><a href="/wiki/%E4%BC%BD%E5%88%A9%E7%95%A5%C2%B7%E4%BC%BD%E5%88%A9%E8%8E%B1" title="伽利略·伽利莱">伽利略</a></li>
+<li><a href="/wiki/%E5%8D%A1%E7%88%BE%C2%B7%E9%9B%85%E5%8F%AF%E6%AF%94" title="卡尔·雅可比">雅可比</a></li>
+<li><a href="/wiki/%E5%9F%83%E7%B1%B3%C2%B7%E8%AF%BA%E7%89%B9" title="埃米·诺特">诺特</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">分支</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%9D%99%E5%8A%9B%E5%AD%A6" title="静力学">静力学</a></li>
+<li><a href="/wiki/%E5%8B%95%E5%8A%9B%E5%AD%B8" title="动力学">动力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%81%8B%E5%8B%95%E5%AD%B8" title="运动学">运动学</a></li>
+<li><a href="/wiki/%E5%B7%A5%E7%A8%8B%E5%8A%9B%E5%AD%A6" title="工程力学">工程力学</a></li>
+<li><a href="/wiki/%E5%A4%A9%E9%AB%94%E5%8A%9B%E5%AD%B8" title="天体力学">天体力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%80%A3%E7%BA%8C%E4%BB%8B%E8%B3%AA%E5%8A%9B%E5%AD%B8" title="连续介质力学">连续介质力学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%B5%B1%E8%A8%88%E5%8A%9B%E5%AD%B8" title="统计力学">统计力学</a></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1401
+Cached time: 20220921195522
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.297 seconds
+Real time usage: 0.501 seconds
+Preprocessor visited node count: 2083/1000000
+Post‐expand include size: 119836/2097152 bytes
+Template argument size: 4212/2097152 bytes
+Highest expansion depth: 11/100
+Expensive parser function count: 11/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11324/5000000 bytes
+Lua time usage: 0.092/10.000 seconds
+Lua memory usage: 3678187/52428800 bytes
+Number of Wikibase entities loaded: 0/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  219.211      1 -total
+ 34.61%   75.863      2 Template:Navbox
+ 34.45%   75.524      1 Template:经典力学国际单位
+ 27.11%   59.437      1 Template:NoteTA
+ 22.72%   49.795      1 Template:Reflist
+ 18.76%   41.131      2 Template:Cite_book
+ 16.33%   35.793     13 Template:Tsl
+  6.42%   14.065     45 Template:Serif
+  5.65%   12.389      2 Template:Main
+  5.08%   11.140     17 Template:Mvar
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:35889-0!canonical!zh and timestamp 20220921195521 and revision id 71935358.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=动量&amp;oldid=71935358">https://zh.wikipedia.org/w/index.php?title=动量&amp;oldid=71935358</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E7%89%A9%E7%90%86%E9%87%8F" title="Category:物理量">物理量</a></li><li><a href="/wiki/Category:%E7%BB%8F%E5%85%B8%E5%8A%9B%E5%AD%A6" title="Category:经典力学">经典力学</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8ISBN%E9%AD%94%E6%9C%AF%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用ISBN魔术链接的页面">使用ISBN魔术链接的页面</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E5%8A%A8%E9%87%8F" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E5%8A%A8%E9%87%8F" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E5%8A%A8%E9%87%8F" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E5%8A%A8%E9%87%8F" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E5%8A%A8%E9%87%8F" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E5%8A%A8%E9%87%8F" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E5%8A%A8%E9%87%8F" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E5%8A%A8%E9%87%8F"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E5%8A%A8%E9%87%8F" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E5%8A%A8%E9%87%8F" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;oldid=71935358" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E5%8A%A8%E9%87%8F&amp;id=71935358&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q41273" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E5%8A%A8%E9%87%8F&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Momentum" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Momentum" hreflang="af" lang="af" title="Momentum – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Impuls_(Physik)" hreflang="gsw" lang="gsw" title="Impuls (Physik) – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%B2%D8%AE%D9%85_%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D8%A9" hreflang="ar" lang="ar" title="زخم الحركة – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%AD%E0%A7%B0%E0%A6%AC%E0%A7%87%E0%A6%97" hreflang="as" lang="as" title="ভৰবেগ – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Cantid%C3%A1_de_movimientu" hreflang="ast" lang="ast" title="Cantidá de movimientu – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/%C4%B0mpuls" hreflang="az" lang="az" title="İmpuls – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Momentum" hreflang="bcl" lang="bcl" title="Momentum – Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%86%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81" hreflang="be" lang="be" title="Імпульс – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%86%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81" hreflang="be-tarask" lang="be-tarask" title="Імпульс – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%81_(%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0)" hreflang="bg" lang="bg" title="Импулс (механика) – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bh mw-list-item"><a class="interlanguage-link-target" href="https://bh.wikipedia.org/wiki/%E0%A4%B5%E0%A5%87%E0%A4%97%E0%A4%AE%E0%A4%BE%E0%A4%A8" hreflang="bh" lang="bh" title="वेगमान – Bhojpuri"><span>भोजपुरी</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%AD%E0%A6%B0%E0%A6%AC%E0%A7%87%E0%A6%97" hreflang="bn" lang="bn" title="ভরবেগ – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Koli%C4%8Dina_kretanja" hreflang="bs" lang="bs" title="Količina kretanja – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81" hreflang="bxr" lang="bxr" title="Импульс – Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Quantitat_de_moviment" hreflang="ca" lang="ca" title="Quantitat de moviment – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DA%95%D8%A7%D9%88%DB%95%D8%B4" hreflang="ckb" lang="ckb" title="ڕاوەش – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Hybnost" hreflang="cs" lang="cs" title="Hybnost – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81" hreflang="cv" lang="cv" title="Импульс – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Momentwm" hreflang="cy" lang="cy" title="Momentwm – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Impuls_(fysik)" hreflang="da" lang="da" title="Impuls (fysik) – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Impuls" hreflang="de" lang="de" title="Impuls – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%9F%CF%81%CE%BC%CE%AE" hreflang="el" lang="el" title="Ορμή – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Momentum" hreflang="en" lang="en" title="Momentum – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Movokvanto" hreflang="eo" lang="eo" title="Movokvanto – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Cantidad_de_movimiento" hreflang="es" lang="es" title="Cantidad de movimiento – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Impulss" hreflang="et" lang="et" title="Impulss – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Momentu_lineal" hreflang="eu" lang="eu" title="Momentu lineal – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%AA%DA%A9%D8%A7%D9%86%D9%87" hreflang="fa" lang="fa" title="تکانه – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Liikem%C3%A4%C3%A4r%C3%A4" hreflang="fi" lang="fi" title="Liikemäärä – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Quantit%C3%A9_de_mouvement" hreflang="fr" lang="fr" title="Quantité de mouvement – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-fy mw-list-item"><a class="interlanguage-link-target" href="https://fy.wikipedia.org/wiki/Ympuls_(natuerkunde)" hreflang="fy" lang="fy" title="Ympuls (natuerkunde) – 西弗里西亚语"><span>Frysk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/M%C3%B3iminteam" hreflang="ga" lang="ga" title="Móiminteam – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Cantidade_de_movemento" hreflang="gl" lang="gl" title="Cantidade de movemento – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%B5%E0%AB%87%E0%AA%97%E0%AA%AE%E0%AA%BE%E0%AA%A8_%E0%AA%B8%E0%AA%82%E0%AA%B0%E0%AA%95%E0%AB%8D%E0%AA%B7%E0%AA%A3%E0%AA%A8%E0%AB%8B_%E0%AA%A8%E0%AA%BF%E0%AA%AF%E0%AA%AE" hreflang="gu" lang="gu" title="વેગમાન સંરક્ષણનો નિયમ – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%AA%D7%A0%D7%A2" hreflang="he" lang="he" title="תנע – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A5%87%E0%A4%97_(%E0%A4%AD%E0%A5%8C%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A5%80)" hreflang="hi" lang="hi" title="संवेग (भौतिकी) – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Koli%C4%8Dina_gibanja" hreflang="hr" lang="hr" title="Količina gibanja – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-ht mw-list-item"><a class="interlanguage-link-target" href="https://ht.wikipedia.org/wiki/Elan" hreflang="ht" lang="ht" title="Elan – 海地克里奥尔语"><span>Kreyòl ayisyen</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Lend%C3%BClet" hreflang="hu" lang="hu" title="Lendület – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%BB%D5%B4%D5%BA%D5%B8%D6%82%D5%AC%D5%BD_(%D5%B7%D5%A1%D6%80%D5%AA%D5%B4%D5%A1%D5%B6_%D6%84%D5%A1%D5%B6%D5%A1%D5%AF)" hreflang="hy" lang="hy" title="Իմպուլս (շարժման քանակ) – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Momentum" hreflang="id" lang="id" title="Momentum – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Skri%C3%B0%C3%BEungi" hreflang="is" lang="is" title="Skriðþungi – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Quantit%C3%A0_di_moto" hreflang="it" lang="it" title="Quantità di moto – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E9%81%8B%E5%8B%95%E9%87%8F" hreflang="ja" lang="ja" title="运动量 – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/Mom%C3%A8ntum" hreflang="jv" lang="jv" title="Momèntum – 爪哇语"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9B%E1%83%9E%E1%83%A3%E1%83%9A%E1%83%A1%E1%83%98" hreflang="ka" lang="ka" title="იმპულსი – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%94%D0%B5%D0%BD%D0%B5_%D0%B8%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81%D1%96" hreflang="kk" lang="kk" title="Дене импульсі – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%86%E0%B2%B5%E0%B3%87%E0%B2%97_(%E0%B2%AD%E0%B3%8C%E0%B2%A4%E0%B2%B6%E0%B2%BE%E0%B2%B8%E0%B3%8D%E0%B2%A4%E0%B3%8D%E0%B2%B0)" hreflang="kn" lang="kn" title="ಆವೇಗ (ಭೌತಶಾಸ್ತ್ರ) – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%9A%B4%EB%8F%99%EB%9F%89" hreflang="ko" lang="ko" title="운동량 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Momentum" hreflang="la" lang="la" title="Momentum – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Judesio_kiekis" hreflang="lt" lang="lt" title="Judesio kiekis – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Impulss" hreflang="lv" lang="lv" title="Impulss – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%81_(%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0)" hreflang="mk" lang="mk" title="Импулс (механика) – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%86%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%82" hreflang="ml" lang="ml" title="ആക്കം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%9C%D0%BE%D0%BC%D0%B5%D0%BD%D1%82" hreflang="mn" lang="mn" title="Момент – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%B8%E0%A4%82%E0%A4%B5%E0%A5%87%E0%A4%97" hreflang="mr" lang="mr" title="संवेग – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Momentum" hreflang="ms" lang="ms" title="Momentum – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%9F%E1%80%AF%E1%80%94%E1%80%BA" hreflang="my" lang="my" title="အဟုန် – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Impuls_(Physik)" hreflang="nds" lang="nds" title="Impuls (Physik) – 低地德语"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%97" hreflang="ne" lang="ne" title="परिवेग – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Impuls_(natuurkunde)" hreflang="nl" lang="nl" title="Impuls (natuurkunde) – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/R%C3%B8rslemengd" hreflang="nn" lang="nn" title="Rørslemengd – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Bevegelsesmengde" hreflang="nb" lang="nb" title="Bevegelsesmengde – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%B8%E0%A9%B0%E0%A8%B5%E0%A9%87%E0%A8%97" hreflang="pa" lang="pa" title="ਸੰਵੇਗ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/P%C4%99d_(fizyka)" hreflang="pl" lang="pl" title="Pęd (fizyka) – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Quantit%C3%A0_%C3%ABd_moviment" hreflang="pms" lang="pms" title="Quantità ëd moviment – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%85%D9%88%D9%85%D9%86%D9%B9%D9%85" hreflang="pnb" lang="pnb" title="مومنٹم – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Momento_linear" hreflang="pt" lang="pt" title="Momento linear – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Impuls" hreflang="ro" lang="ro" title="Impuls – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81" hreflang="ru" lang="ru" title="Импульс – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Impuls" hreflang="sh" lang="sh" title="Impuls – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%9C%E0%B6%B8%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B6%AD%E0%B7%8F%E0%B7%80%E0%B6%BA" hreflang="si" lang="si" title="ගම්‍යතාවය – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Momentum" hreflang="en-simple" lang="en-simple" title="Momentum – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Hybnos%C5%A5" hreflang="sk" lang="sk" title="Hybnosť – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Gibalna_koli%C4%8Dina" hreflang="sl" lang="sl" title="Gibalna količina – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sn mw-list-item"><a class="interlanguage-link-target" href="https://sn.wikipedia.org/wiki/Runhanhira" hreflang="sn" lang="sn" title="Runhanhira – 绍纳语"><span>ChiShona</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Vrulli" hreflang="sq" lang="sq" title="Vrulli – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%98%D0%BC%D0%BF%D1%83%D0%BB%D1%81" hreflang="sr" lang="sr" title="Импулс – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Mom%C3%A9ntum" hreflang="su" lang="su" title="Moméntum – 巽他语"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/R%C3%B6relsem%C3%A4ngd" hreflang="sv" lang="sv" title="Rörelsemängd – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%89%E0%AE%A8%E0%AF%8D%E0%AE%A4%E0%AE%AE%E0%AF%8D" hreflang="ta" lang="ta" title="உந்தம் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%A6%E0%B1%8D%E0%B0%B0%E0%B0%B5%E0%B1%8D%E0%B0%AF%E0%B0%B5%E0%B1%87%E0%B0%97%E0%B0%82" hreflang="te" lang="te" title="ద్రవ్యవేగం – 泰卢固语"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B9%82%E0%B8%A1%E0%B9%80%E0%B8%A1%E0%B8%99%E0%B8%95%E0%B8%B1%E0%B8%A1" hreflang="th" lang="th" title="โมเมนตัม – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Momentum" hreflang="tl" lang="tl" title="Momentum – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Momentum" hreflang="tr" lang="tr" title="Momentum – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%C4%B0mpuls" hreflang="tt" lang="tt" title="İmpuls – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%86%D0%BC%D0%BF%D1%83%D0%BB%D1%8C%D1%81_(%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D1%96%D0%BA%D0%B0)" hreflang="uk" lang="uk" title="Імпульс (механіка) – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%85%D8%B9%DB%8C%D8%A7%D8%B1_%D8%AD%D8%B1%DA%A9%D8%AA" hreflang="ur" lang="ur" title="معیار حرکت – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Impuls" hreflang="uz" lang="uz" title="Impuls – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%99ng_l%C6%B0%E1%BB%A3ng" hreflang="vi" lang="vi" title="Động lượng – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E5%8A%A8%E9%87%8F" hreflang="wuu" lang="wuu" title="动量 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%90%D7%99%D7%9E%D7%A4%D7%A2%D7%98" hreflang="yi" lang="yi" title="אימפעט – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E5%8B%95%E9%87%8F" hreflang="lzh" lang="lzh" title="动量 – Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/%C5%AAn-t%C5%8Dng-li%C5%8Dng" hreflang="nan" lang="nan" title="Ūn-tōng-liōng – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E5%8B%95%E9%87%8F" hreflang="yue" lang="yue" title="动量 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q41273#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年5月31日 (星期二) 07:26。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E5%8A%A8%E9%87%8F&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.297","walltime":"0.501","ppvisitednodes":{"value":2083,"limit":1000000},"postexpandincludesize":{"value":119836,"limit":2097152},"templateargumentsize":{"value":4212,"limit":2097152},"expansiondepth":{"value":11,"limit":100},"expensivefunctioncount":{"value":11,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11324,"limit":5000000},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  219.211      1 -total"," 34.61%   75.863      2 Template:Navbox"," 34.45%   75.524      1 Template:经典力学国际单位"," 27.11%   59.437      1 Template:NoteTA"," 22.72%   49.795      1 Template:Reflist"," 18.76%   41.131      2 Template:Cite_book"," 16.33%   35.793     13 Template:Tsl","  6.42%   14.065     45 Template:Serif","  5.65%   12.389      2 Template:Main","  5.08%   11.140     17 Template:Mvar"]},"scribunto":{"limitreport-timeusage":{"value":"0.092","limit":"10.000"},"limitreport-memusage":{"value":3678187,"limit":52428800}},"cachereport":{"origin":"mw1401","timestamp":"20220921195522","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u52a8\u91cf","url":"https:\/\/zh.wikipedia.org\/wiki\/%E5%8A%A8%E9%87%8F","sameAs":"http:\/\/www.wikidata.org\/entity\/Q41273","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q41273","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-07-05T21:31:23Z","dateModified":"2022-05-31T07:26:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/86\/Billard.JPG"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u52a8\u91cf","url":"https:\/\/zh.wikipedia.org\/wiki\/%E5%8A%A8%E9%87%8F","sameAs":"http:\/\/www.wikidata.org\/entity\/Q41273","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q41273","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-07-05T21:31:23Z","dateModified":"2022-05-31T07:26:27Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/86\/Billard.JPG"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":164,"wgHostname":"mw1354"});});</script>
+</body>
+</html>

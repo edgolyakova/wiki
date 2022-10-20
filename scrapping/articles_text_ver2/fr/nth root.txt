@@ -1,0 +1,1043 @@
+Racine d'un nombre
+Racine d'un réel[modifier | modifier le code]
+Racines d'un complexe[modifier | modifier le code]
+Résolution par radicaux[modifier | modifier le code]
+Racine en typographie[modifier | modifier le code]
+Notes et références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+Racine carrée[modifier | modifier le code]
+Racine cubique[modifier | modifier le code]
+Racine n-ième d'un nombre réel positif[modifier | modifier le code]
+Racine n-ième d'un nombre réel négatif[modifier | modifier le code]
+Les propriétés des racines[modifier | modifier le code]
+Exposant fractionnaire[modifier | modifier le code]
+Fonction racine n-ième[modifier | modifier le code]
+Développement en série entière[modifier | modifier le code]
+Nombres réels positifs[modifier | modifier le code]
+Racines de l'unité[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+				déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir racine.
+En mathématiques, une  racine n-ième d'un nombre a est un nombre b tel que bn = a, où n est un entier naturel non nul.
+Selon que l'on travaille dans l'ensemble des réels positifs, l'ensemble des réels ou l'ensemble des complexes, le nombre de racines n-ièmes d'un nombre peut être 0, 1, 2 ou n.
+Pour un nombre réel a positif, il existe un unique réel b positif tel que bn = a. Ce réel est appelé la racine n-ième de a (ou racine n-ième principale de a) et se note n√a avec le symbole radical (√ ) ou a1/n. La racine la plus connue est la racine carrée d'un réel. Cette définition se généralise pour a négatif et b négatif à condition que n soit impair.
+Le terme de racine d'un nombre ne doit pas être confondu avec celui de racine d'un polynôme qui désigne la (ou les) valeur(s) où le polynôme s'annule.
+Pour tout réel r strictement positif, l'équation x2 = r admet deux solutions réelles opposées, et lorsque r = 0, l'équation x2 = 0 admet comme seule solution 0.
+La racine carrée d'un réel positif r est par définition l'unique solution réelle positive de l'équation x2 = r d'inconnue x.
+Elle est notée √r.
+La racine cubique d'un réel r quelconque est l'unique racine réelle de l'équation
+Elle est notée 
+
+
+
+
+
+r
+
+3
+
+
+
+
+
+{\displaystyle {\sqrt[{3}]{r}}}
+
+ .
+Exemple :
+Pour tout entier naturel non nul 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, l'application 
+
+
+
+x
+↦
+
+x
+
+n
+
+
+
+
+{\displaystyle x\mapsto x^{n}}
+
+ est une bijection de 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} _{+}}
+
+ sur 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} _{+}}
+
+ et donc pour tout réel 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ positif, l'équation 
+
+
+
+
+x
+
+n
+
+
+=
+r
+
+
+{\displaystyle x^{n}=r}
+
+ admet une unique solution dans 
+
+
+
+
+
+R
+
+
++
+
+
+
+
+{\displaystyle \mathbb {R} _{+}}
+
+.
+La racine énième (ou racine n-ième) d'un réel r positif (r ≥ 0, n > 0) est l'unique solution réelle positive de l'équation
+Elle est notée 
+
+
+
+
+
+r
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{r}}}
+
+.
+Remarquons que la racine n-ième de 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ est aussi l'unique racine positive du polynôme 
+
+
+
+
+X
+
+n
+
+
+−
+r
+
+
+{\displaystyle X^{n}-r}
+
+.
+Lorsque n est pair, l'équation
+possède deux solutions qui sont 
+
+
+
+
+
+r
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{r}}}
+
+ et 
+
+
+
+−
+
+
+r
+
+n
+
+
+
+
+
+{\displaystyle -{\sqrt[{n}]{r}}}
+
+.
+Lorsque n est impair, l'équation
+ne possède qu'une seule solution 
+
+
+
+
+
+r
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{r}}}
+
+.
+Le traitement des racines de nombres négatifs n'est pas uniforme. Par exemple, il n'existe pas de racine carrée réelle de -1 puisque pour tout réel 
+
+
+
+x
+
+
+{\displaystyle x}
+
+, 
+
+
+
+
+x
+
+2
+
+
++
+1
+>
+0
+
+
+{\displaystyle x^{2}+1>0}
+
+, mais la racine cubique de -27 existe et est égale à -3.
+Pour tout entier naturel impair 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, l'application 
+
+
+
+x
+↦
+
+x
+
+n
+
+
+
+
+{\displaystyle x\mapsto x^{n}}
+
+ est une bijection de 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ sur 
+
+
+
+
+R
+
+
+
+{\displaystyle \mathbb {R} }
+
+ donc tout nombre réel admet exactement une racine 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-ième.
+Pour tout entier naturel impair 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, la racine énième (ou racine 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-ième) d'un réel 
+
+
+
+r
+
+
+{\displaystyle r}
+
+ quelconque est l'unique solution réelle de l'équation
+d'inconnue 
+
+
+
+x
+
+
+{\displaystyle x}
+
+.
+Il s'ensuit que les racines d'ordres impairs de nombres réels négatifs sont négatives.
+Remarquons que pour les entiers naturels impairs 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ et pour tout réel 
+
+
+
+a
+
+
+{\displaystyle a}
+
+, on a
+Le besoin de travailler avec des racines de nombres négatifs a conduit à la mise en place des nombres complexes, mais il y a également dans le domaine des nombres complexes des restrictions pour les racines. Voir ci-dessous.
+Les règles de calcul des racines découlent des propriétés des puissances.
+Pour les nombres strictement positifs, 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ et 
+
+
+
+b
+
+
+{\displaystyle b}
+
+, on a les règles de calcul suivantes :
+Dans le cas des nombres négatifs, ces règles de calcul ne pourront être appliquées que si 
+
+
+
+m
+
+
+{\displaystyle m}
+
+ et 
+
+
+
+n
+
+
+{\displaystyle n}
+
+ sont des nombres impairs. Dans le cas des nombres complexes, elles sont à éviter.
+Dans l'ensemble des réels strictement positifs, le nombre qui, élevé à la puissance n, donne a est noté 
+
+
+
+
+
+a
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{a}}}
+
+. L'idée est de noter ce nombre comme une puissance de a, quitte à prendre un exposant non entier. Il s'agissait donc de trouver un exposant p tel que 
+
+
+
+
+
+(
+
+a
+
+p
+
+
+)
+
+
+n
+
+
+=
+a
+
+
+{\displaystyle \left(a^{p}\right)^{n}=a}
+
+. En utilisant des opérations connues sur des exposants entiers que l'on généraliserait à des exposants non entiers, on obtiendrait 
+
+
+
+
+a
+
+p
+n
+
+
+=
+
+a
+
+1
+
+
+
+
+{\displaystyle a^{pn}=a^{1}}
+
+, soit pn = 1 et 
+
+
+
+p
+=
+
+
+1
+n
+
+
+
+
+{\displaystyle p={\frac {1}{n}}}
+
+.
+Ainsi on peut noter la racine carrée de a , 
+
+
+
+
+
+a
+
+
+
+
+{\displaystyle {\sqrt {a}}}
+
+ ou 
+
+
+
+
+a
+
+
+1
+2
+
+
+
+
+
+{\displaystyle a^{\frac {1}{2}}}
+
+, la racine cubique de a , 
+
+
+
+
+
+a
+
+3
+
+
+
+
+
+{\displaystyle {\sqrt[{3}]{a}}}
+
+ ou 
+
+
+
+
+a
+
+
+1
+3
+
+
+
+
+
+{\displaystyle a^{\frac {1}{3}}}
+
+ et la racine n-ième de a , 
+
+
+
+
+
+a
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{a}}}
+
+ ou 
+
+
+
+
+a
+
+
+1
+n
+
+
+
+
+
+{\displaystyle a^{\frac {1}{n}}}
+
+.
+Cette extension des valeurs possibles pour l'exposant est due au travail de Newton et Leibniz[1]. On peut poursuivre le travail en observant que
+et vérifier que cette notation est compatible avec les propriétés déjà connues sur les exposants entiers.
+C'est chez Newton que l'on voit apparaître pour la première fois un exposant fractionnaire. Mais Newton et Leibniz ne s'arrêteront pas là et se poseront même la question de travailler sur des exposants irrationnels sans être pour autant capables de leur donner un sens. Ce n'est qu'un siècle plus tard que ces notations prendront un sens précis avec la mise en place de la fonction exponentielle et la traduction :
+Pour tout entier naturel non nul 
+
+
+
+n
+
+
+{\displaystyle n}
+
+, l'application 
+
+
+
+x
+↦
+
+x
+
+n
+
+
+
+
+{\displaystyle x\mapsto x^{n}}
+
+ est une bijection de ℝ+ sur ℝ+ dont l'application réciproque est la fonction racine n-ième. Il est donc loisible de construire sa représentation graphique, à l'aide de celle de la fonction puissance par symétrie d'axe la droite d'équation 
+
+
+
+y
+=
+x
+
+
+{\displaystyle y=x}
+
+.
+On remarque que cette fonction est continue sur l'intervalle 
+
+
+
+
+[
+
+0
+,
++
+∞
+
+[
+
+
+
+{\displaystyle \left[0,+\infty \right[}
+
+ et l'existence à l'origine d'une tangente confondue avec l'axe des y donc d'une non-dérivabilité en 0 ainsi qu'une branche parabolique d'axe (Ox).
+Les formules sur la dérivée de la réciproque permettent d'établir que la fonction racine n-ième est dérivable sur l'intervalle 
+
+
+
+
+]
+
+0
+,
++
+∞
+
+[
+
+
+
+{\displaystyle \left]0,+\infty \right[}
+
+ et que sa dérivée est 
+
+
+
+x
+↦
+
+
+
+x
+
+n
+
+
+
+n
+x
+
+
+
+
+
+{\displaystyle x\mapsto {\frac {\sqrt[{n}]{x}}{nx}}}
+
+, soit encore, avec l'exposant fractionnaire 
+
+
+
+x
+↦
+
+
+1
+n
+
+
+
+x
+
+
+
+1
+n
+
+
+−
+1
+
+
+
+
+{\displaystyle x\mapsto {\frac {1}{n}}x^{{\frac {1}{n}}-1}}
+
+ montrant ainsi que la formule sur la dérivée d'une fonction puissance entière se généralise à celle d'une puissance inverse.
+Le radical ou racine peut être représenté par la série de Taylor au point 1, qui s'obtient à partir de la formule du binôme généralisée : pour tout réel h tel que |h| ≤ 1,
+En effet, cette égalité, a priori seulement pour |h| < 1, assure en fait la convergence normale sur [–1, 1] puisque
+On peut remarquer (cf. « Théorème d'Eisenstein ») que tous les n2k–1ak sont entiers (dans le cas n = 2, ce sont les nombres de Catalan Ck–1).
+Pour tout entier naturel non nul n, une racine n-ième d'un nombre complexe z est un nombre qui, élevé à la puissance n donne z, c'est-à-dire une solution de l'équation
+d'inconnue x.
+Lorsque z est différent de 0, il existe n racines n-ièmes distinctes de z. En effet, les racines n-ièmes d'un complexe z non nul sont aussi les racines du polynôme Xn – z, qui admet bien n solutions dans l'ensemble des nombres complexes d'après le théorème de d'Alembert-Gauss.
+Toutes les racines de n'importe quel nombre, réel ou complexe, peuvent être trouvées avec un simple algorithme. Le nombre doit d'abord être écrit sous la forme 
+
+
+
+a
+
+e
+
+i
+φ
+
+
+
+
+{\displaystyle ae^{i\varphi }}
+
+ (voir la formule d'Euler). Alors, toutes les racines n-ièmes sont données par :
+pour 
+
+
+
+k
+=
+0
+,
+1
+,
+2
+,
+…
+,
+n
+−
+1
+
+
+{\displaystyle k=0,1,2,\ldots ,n-1}
+
+, où 
+
+
+
+
+
+a
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{a}}}
+
+ représente la racine n-ième principale de a.
+Toutes les solutions complexes de 
+
+
+
+
+x
+
+n
+
+
+=
+a
+
+
+{\displaystyle x^{n}=a}
+
+, autrement dit les racines n-ièmes de a, où a est un nombre réel positif, sont données par l'équation simplifiée :
+pour 
+
+
+
+k
+=
+0
+,
+1
+,
+2
+,
+…
+,
+n
+−
+1
+
+
+{\displaystyle k=0,1,2,\ldots ,n-1}
+
+, où 
+
+
+
+
+
+a
+
+n
+
+
+
+
+
+{\displaystyle {\sqrt[{n}]{a}}}
+
+ représente la racine n-ième principale de a.
+Lorsque 
+
+
+
+z
+=
+1
+
+
+{\displaystyle z=1}
+
+, une telle racine s'appelle une racine 
+
+
+
+n
+
+
+{\displaystyle n}
+
+-ième de l'unité, et l'ensemble des racines n-ièmes de l'unité, noté 
+
+
+
+
+
+
+U
+
+
+
+n
+
+
+
+
+{\displaystyle {\mathcal {U}}_{n}}
+
+, est formé des n racines du polynôme complexe
+Il s'agit d'un sous-groupe cyclique du groupe multiplicatif des complexes de module 1. Il est formé des éléments 
+
+
+
+{
+1
+,
+
+e
+
+i
+
+
+
+2
+π
+
+n
+
+
+
+
+,
+
+e
+
+i
+
+
+
+4
+π
+
+n
+
+
+
+
+,
+…
+,
+
+e
+
+i
+
+
+
+(
+2
+n
+−
+2
+)
+π
+
+n
+
+
+
+
+}
+
+
+{\displaystyle \{1,e^{i{\frac {2\pi }{n}}},e^{i{\frac {4\pi }{n}}},\ldots ,e^{i{\frac {(2n-2)\pi }{n}}}\}}
+On appelle racine n-ième primitive de l'unité tout générateur du groupe cyclique 
+
+
+
+
+
+
+U
+
+
+
+n
+
+
+
+
+{\displaystyle {\mathcal {U}}_{n}}
+
+. Ces racines primitives sont les éléments 
+
+
+
+
+e
+
+i
+
+
+
+2
+k
+π
+
+n
+
+
+
+
+
+
+{\displaystyle e^{i{\frac {2k\pi }{n}}}}
+
+ où k est premier avec n. Leur nombre est égal à 
+
+
+
+φ
+(
+n
+)
+
+
+{\displaystyle \varphi (n)}
+
+ où 
+
+
+
+φ
+
+
+{\displaystyle \varphi }
+
+ désigne l'indicatrice d'Euler.
+Ludovico Ferrari a démontré que les racines des polynômes du quatrième degré pouvaient, comme pour ceux du deuxième et troisième degré, être calculées par radicaux, c'est-à-dire par un nombre fini d'opérations élémentaires sur les coefficients du polynôme, comportant des calculs de racines n-ièmes. Ceci n'est plus vrai en général pour les équations quintiques ou d'un degré supérieur, comme l'énonce le théorème d'Abel-Ruffini. Par exemple, les solutions de l'équation 
+
+
+
+ 
+
+x
+
+5
+
+
+=
+x
++
+1
+
+
+{\displaystyle \ x^{5}=x+1}
+
+ ne peuvent pas être exprimées en termes de radicaux.
+Pour résoudre « numériquement » n'importe quelle équation du n-ième degré, voir l'algorithme de recherche de racines.
+En typographie, une racine est composée de trois parties : le radical, l'indice et le radicande.

@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>算法 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"49e34bf9-57f4-430e-bafc-194db0859859","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"算法","wgTitle":"算法","wgCurRevisionId":72368886,"wgRevisionId":72368886,"wgArticleId":2672,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有过时参数的引用的页面","自2018年11月带有失效链接的条目","条目有永久失效的外部链接","自2020年1月带有失效链接的条目","需要校对的页面","含有英语的条目","含有波斯语的条目","包含AAT标识符的维基百科条目","包含BNE标识符的维基百科条目",
+"包含BNF标识符的维基百科条目","包含FAST标识符的维基百科条目","包含GND标识符的维基百科条目","包含LCCN标识符的维基百科条目","包含NDL标识符的维基百科条目","包含NKC标识符的维基百科条目","带有代码示例的条目","算法","代数","计算机科学","理论计算机科学","问题解决"],"wgPageContentLanguage":"zh","wgPageContentModel":"wikitext","wgRelevantPageName":"算法","wgRelevantArticleId":2672,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],
+"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q8366","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","ext.pygments":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc",
+"skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.pygments%2CwikimediaBadges%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/1200px-LampFlowchart_ZhS.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="1637" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/800px-LampFlowchart_ZhS.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="1091" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/640px-LampFlowchart_ZhS.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="873" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="算法 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E7%AE%97%E6%B3%95" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E7%AE%97%E6%B3%95" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E7%AE%97%E6%B3%95" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E7%AE%97%E6%B3%95" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E7%AE%97%E6%B3%95" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E7%AE%97%E6%B3%95" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-算法 rootpage-算法 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-f3e2a619"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">算法</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><table class="box-Copy_edit plainlinks metadata ambox ambox-style" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><a class="image" href="/wiki/File:Ambox_spelling.svg"><img alt="Ambox spelling.svg" data-file-height="620" data-file-width="620" decoding="async" height="48" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ambox_spelling.svg/48px-Ambox_spelling.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ambox_spelling.svg/72px-Ambox_spelling.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Ambox_spelling.svg/96px-Ambox_spelling.svg.png 2x" width="48"/></a></div></td><td class="mbox-text"><span class="mbox-text-span">此条目<b>需要<a class="mw-redirect" href="/wiki/Wikipedia:%E5%A6%82%E4%BD%95%E5%AF%A9%E6%A0%B8%E6%A0%A1%E5%B0%8D" title="Wikipedia:如何审核校对">编修</a>，以确保文法、<a class="mw-redirect" href="/wiki/Wikipedia:%E9%81%BF%E5%85%8D%E4%BD%BF%E7%94%A8%E7%9A%84%E5%AD%97%E8%A9%9E" title="Wikipedia:避免使用的字词">用词、语气</a>、<a href="/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8C" title="Wikipedia:格式手册">格式</a>、<a href="/wiki/Wikipedia:%E6%A0%BC%E5%BC%8F%E6%89%8B%E5%86%8C/%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7" title="Wikipedia:格式手册/标点符号">标点</a>等使用恰当。</b><span class="hide-when-compact"></span><span class="hide-when-compact"><br/><small>请按照<a class="mw-redirect" href="/wiki/Wikipedia:%E5%A6%82%E4%BD%95%E5%AF%A9%E6%A0%B8%E6%A0%A1%E5%B0%8D" title="Wikipedia:如何审核校对">校对指引</a>，帮助<a class="external text" href="https://zh.wikipedia.org/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit">编辑</a>这个条目。（<a class="mw-redirect" href="/wiki/Help:%E7%BC%96%E8%BE%91" title="Help:编辑">帮助</a>、<a href="/wiki/Talk:%E7%AE%97%E6%B3%95" title="Talk:算法">讨论</a>）</small></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+<div class="noteTA" id="noteTA-f3e2a619"><div class="noteTA-group"><div data-noteta-group="IT" data-noteta-group-source="module"></div></div></div>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a class="image" href="/wiki/File:LampFlowchart_ZhS.svg"><img alt="" class="thumbimage" data-file-height="442" data-file-width="324" decoding="async" height="341" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/250px-LampFlowchart_ZhS.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/375px-LampFlowchart_ZhS.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/15/LampFlowchart_ZhS.svg/500px-LampFlowchart_ZhS.svg.png 2x" width="250"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:LampFlowchart_ZhS.svg" title="放大"></a></div>应对灯辔不亮的简单算法<a href="/wiki/%E6%B5%81%E7%A8%8B%E5%9B%BE" title="流程图">流程图</a></div></div></div>
+<p><b>算法</b>（英语：<span lang="en">algorithm</span>），在<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8" title="数学">数学</a>（<a href="/wiki/%E7%AE%97%E5%AD%B8" title="算学">算学</a>）和<a class="mw-redirect" href="/wiki/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="电脑科学">电脑科学</a>之中，指一个被定义好的、计算机可施行其指示的有限步骤或次序<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>，常用于<a class="mw-redirect" href="/wiki/%E8%A8%88%E7%AE%97" title="计算">计算</a>、<span class="ilh-all" data-foreign-title="Data processing" data-lang-code="en" data-lang-name="英语" data-orig-title="数据处理"><span class="ilh-page"><a href="/wiki/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86" title="数据处理">数据处理</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Data_processing" title="en:Data processing"><span dir="auto" lang="en">Data processing</span></a></span>）</span></span>和<a href="/wiki/%E8%87%AA%E5%8A%A8%E6%8E%A8%E7%90%86" title="自动推理">自动推理</a>。算法是<span class="ilh-all" data-foreign-title="Effective method" data-lang-code="en" data-lang-name="英语" data-orig-title="有效方法"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95&amp;action=edit&amp;redlink=1" title="有效方法（页面不存在）">有效方法</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Effective_method" title="en:Effective method"><span dir="auto" lang="en">Effective method</span></a></span>）</span></span>，包含一系列定义清晰的指令<sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>，并可于<a class="extiw" href="https://zh.wiktionary.org/wiki/Special:Search/%E6%9C%89%E9%99%90%E7%9A%84" title="wikt:Special:Search/有限的">有限的</a>时间及空间内清楚的表述出来<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>。
+</p><p>算法中的指令描述的是一个<a class="mw-redirect" href="/wiki/%E8%A8%88%E7%AE%97" title="计算">计算</a>，它<span class="ilh-all" data-foreign-title="Execution (computing)" data-lang-code="en" data-lang-name="英语" data-orig-title="执行"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%9F%B7%E8%A1%8C&amp;action=edit&amp;redlink=1" title="执行（页面不存在）">执行</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Execution_(computing)" title="en:Execution (computing)"><span dir="auto" lang="en">Execution (computing)</span></a></span>）</span></span>时从一个初始状态和初始输入（可能爲<a class="mw-redirect" href="/wiki/%E7%A9%BA%E5%AD%97%E5%85%83%E4%B8%B2" title="空字元串">空</a>）开始，<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>经过一系列<b>有限</b><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>而清晰定义的状态最终产生<b>输出</b><sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup>并<b>停止</b>于一个终态。一个状态到另一个状态的转移不一定是<a href="/wiki/%E7%A1%AE%E5%AE%9A%E6%80%A7%E7%AE%97%E6%B3%95" title="确定性算法">确定的</a>。包括<a class="mw-redirect" href="/wiki/%E9%9A%A8%E6%A9%9F%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机化算法</a>在内的一些算法，都包含了一些随机输入。<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>
+</p><p>早在尝试解决<a href="/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9" title="大卫·希尔伯特">希尔伯特</a>提出的<a href="/wiki/%E5%8F%AF%E5%88%A4%E5%AE%9A%E6%80%A7" title="可判定性">判定问题</a>时，算法的不完整概念已经初步定型；在其后的正式化阶段中人们尝试去定义“<span class="ilh-all" data-foreign-title="Effective calculability" data-lang-code="en" data-lang-name="英语" data-orig-title="有效可计算性"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%9C%89%E6%95%88%E5%8F%AF%E8%A8%88%E7%AE%97%E6%80%A7&amp;action=edit&amp;redlink=1" title="有效可计算性（页面不存在）">有效可计算性</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Effective_calculability" title="en:Effective calculability"><span dir="auto" lang="en">Effective calculability</span></a></span>）</span></span><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>”或者“<span class="ilh-all" data-foreign-title="Effective method" data-lang-code="en" data-lang-name="英语" data-orig-title="有效方法"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95&amp;action=edit&amp;redlink=1" title="有效方法（页面不存在）">有效方法</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Effective_method" title="en:Effective method"><span dir="auto" lang="en">Effective method</span></a></span>）</span></span><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup>”。这些尝试包括<a href="/wiki/%E5%BA%93%E5%B0%94%E7%89%B9%C2%B7%E5%93%A5%E5%BE%B7%E5%B0%94" title="库尔特·哥德尔">库尔特·哥德尔</a>、<a href="/wiki/%E9%9B%85%E5%85%8B%C2%B7%E5%9F%83%E5%B0%94%E5%B8%83%E6%9C%97" title="雅克·埃尔布朗">雅克·埃尔布朗</a>和<a href="/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E7%A7%91%E5%B0%94%C2%B7%E5%85%8B%E8%8E%B1%E5%B0%BC" title="斯蒂芬·科尔·克莱尼">斯蒂芬·科尔·克莱尼</a>分别于1930年、1934年和1935年提出的<a class="mw-redirect" href="/wiki/%E9%81%9E%E6%AD%B8_(%E8%A8%88%E7%AE%97%E6%A9%9F%E7%A7%91%E5%AD%B8)" title="递归 (计算机科学)">递归函数</a>，<a href="/wiki/%E9%98%BF%E9%9A%86%E4%BD%90%C2%B7%E9%82%B1%E5%A5%87" title="阿隆佐·邱奇">阿隆佐·邱奇</a>于1936年提出的<a href="/wiki/%CE%9B%E6%BC%94%E7%AE%97" title="Λ演算">λ演算</a>，1936年<span class="ilh-all" data-foreign-title="Emil Leon Post" data-lang-code="en" data-lang-name="英语" data-orig-title="埃米尔·莱昂·珀斯特"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%9F%83%E7%B1%B3%E7%88%BE%C2%B7%E8%90%8A%E6%98%82%C2%B7%E7%8F%80%E6%96%AF%E7%89%B9&amp;action=edit&amp;redlink=1" title="埃米尔·莱昂·珀斯特（页面不存在）">埃米尔·莱昂·珀斯特</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Emil_Leon_Post" title="en:Emil Leon Post"><span dir="auto" lang="en">Emil Leon Post</span></a></span>）</span></span>的<a href="/wiki/%E6%B3%A2%E6%96%AF%E7%89%B9-%E5%9B%BE%E7%81%B5%E6%9C%BA" title="波斯特-图灵机">Formulation 1</a>和<a class="mw-redirect" href="/wiki/%E8%89%BE%E5%80%AB%C2%B7%E5%9C%96%E9%9D%88" title="艾伦·图灵">艾伦·图灵</a>1937年提出的<a class="mw-redirect" href="/wiki/%E5%9C%96%E9%9D%88%E6%A9%9F" title="图灵机">图灵机</a>。即使在当下，依然常有符合直觉的想法难以定义爲形式化算法的情况。<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup>
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#历史"><span class="tocnumber">1</span> <span class="toctext">历史</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#特征"><span class="tocnumber">2</span> <span class="toctext">特征</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#基本要素"><span class="tocnumber">3</span> <span class="toctext">基本要素</span></a>
+<ul>
+<li class="toclevel-2 tocsection-4"><a href="#常用设计模式"><span class="tocnumber">3.1</span> <span class="toctext">常用设计模式</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#常用实现方法"><span class="tocnumber">3.2</span> <span class="toctext">常用实现方法</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-6"><a href="#形式化算法"><span class="tocnumber">4</span> <span class="toctext">形式化算法</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#复杂度"><span class="tocnumber">5</span> <span class="toctext">复杂度</span></a>
+<ul>
+<li class="toclevel-2 tocsection-8"><a href="#时间复杂度"><span class="tocnumber">5.1</span> <span class="toctext">时间复杂度</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#空间复杂度"><span class="tocnumber">5.2</span> <span class="toctext">空间复杂度</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#非确定性多项式时间（NP）"><span class="tocnumber">6</span> <span class="toctext">非确定性多项式时间（NP）</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#实现"><span class="tocnumber">7</span> <span class="toctext">实现</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#范例"><span class="tocnumber">8</span> <span class="toctext">范例</span></a>
+<ul>
+<li class="toclevel-2 tocsection-13"><a href="#求最大值演算法"><span class="tocnumber">8.1</span> <span class="toctext">求最大值演算法</span></a></li>
+<li class="toclevel-2 tocsection-14"><a href="#求最大公约数演算法"><span class="tocnumber">8.2</span> <span class="toctext">求最大公约数演算法</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-15"><a href="#分类"><span class="tocnumber">9</span> <span class="toctext">分类</span></a></li>
+<li class="toclevel-1 tocsection-16"><a href="#注释"><span class="tocnumber">10</span> <span class="toctext">注释</span></a></li>
+<li class="toclevel-1 tocsection-17"><a href="#参考文献"><span class="tocnumber">11</span> <span class="toctext">参考文献</span></a></li>
+<li class="toclevel-1 tocsection-18"><a href="#参阅"><span class="tocnumber">12</span> <span class="toctext">参阅</span></a></li>
+<li class="toclevel-1 tocsection-19"><a href="#延伸阅读"><span class="tocnumber">13</span> <span class="toctext">延伸阅读</span></a></li>
+<li class="toclevel-1 tocsection-20"><a href="#外部链接"><span class="tocnumber">14</span> <span class="toctext">外部链接</span></a></li>
+</ul>
+</div>
+<h2><span id=".E5.8E.86.E5.8F.B2"></span><span class="mw-headline" id="历史">历史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=1" title="编辑章节：历史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>算法在中国古代文献中称为“术”，最早出现在《<a href="/wiki/%E5%91%A8%E9%AB%80%E7%AE%97%E7%B6%93" title="周髀算经">周髀算经</a>》、《<a href="/wiki/%E4%B9%9D%E7%AB%A0%E7%AE%97%E6%9C%AF" title="九章算术">九章算术</a>》。特别是《九章算术》，给出<a href="/wiki/%E5%9B%9B%E5%88%99%E8%BF%90%E7%AE%97" title="四则运算">四则运算</a>、<a class="mw-redirect" href="/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0" title="最大公约数">最大公约数</a>、最小公倍数、开<a href="/wiki/%E5%B9%B3%E6%96%B9%E6%A0%B9" title="平方根">平方根</a>、开<a href="/wiki/%E7%AB%8B%E6%96%B9%E6%A0%B9" title="立方根">立方根</a>、求<a class="mw-redirect" href="/wiki/%E7%B4%A0%E6%95%B0" title="素数">素数</a>的<a class="mw-redirect" href="/wiki/%E5%9F%83%E6%B0%8F%E7%AF%A9" title="埃氏筛">埃氏筛</a>，线性方程组求解的<a class="mw-redirect" href="/wiki/%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E6%B3%95" title="高斯消元法">高斯消元法</a>。三国时代的<a href="/wiki/%E5%88%98%E5%BE%BD" title="刘徽">刘徽</a>给出求圆周率的算法：<a class="mw-redirect" href="/wiki/%E5%88%98%E5%BE%BD%E5%89%B2%E5%9C%86%E6%9C%AF" title="刘徽割圆术">刘徽割圆术</a>。
+</p><p>自唐代以来，历代更有许多专门论述“算法”的专着：
+</p>
+<ul><li>唐代：《一位算法》 一卷，《算法》 一卷；</li>
+<li>宋代：《算法绪论》 一卷、《算法秘诀》 一卷；最着名的是<a href="/wiki/%E6%9D%A8%E8%BE%89" title="杨辉">杨辉</a>的《<a href="/wiki/%E6%9D%A8%E8%BE%89%E7%AE%97%E6%B3%95" title="杨辉算法">杨辉算法</a>》；</li>
+<li>元代：《<a href="/wiki/%E4%B8%81%E5%B7%A8%E7%AE%97%E6%B3%95" title="丁巨算法">丁巨算法</a>》；</li>
+<li>明代：<a href="/wiki/%E7%A8%8B%E5%A4%A7%E4%BD%8D" title="程大位">程大位</a> 《<a href="/wiki/%E7%AE%97%E6%B3%95%E7%B5%B1%E5%AE%97" title="算法统宗">算法统宗</a>》</li>
+<li>清代：《开平算法》、《算法一得》、《<a class="new" href="/w/index.php?title=%E7%AE%97%E6%B3%95%E5%85%A8%E4%B9%A6&amp;action=edit&amp;redlink=1" title="算法全书（页面不存在）">算法全书</a>》。</li></ul>
+<p>而英文名称「algorithm」来自于9世纪<a href="/wiki/%E6%B3%A2%E6%96%AF" title="波斯">波斯</a>数学家<a href="/wiki/%E8%8A%B1%E6%8B%89%E5%AD%90%E7%B1%B3" title="花拉子米">花拉子米</a>（比阿勒·霍瓦里松，波斯语：<span lang="fa">خوارزمی </span>‎，拉丁转写：al-Khwarizmi），因为比阿勒·霍瓦里松在<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>上提出了算法这个概念。「算法」原为「algorism」，即“al-Khwarizmi”的音转，意思是“<a href="/wiki/%E8%8A%B1%E6%8B%89%E5%AD%90%E7%B1%B3" title="花拉子米">花拉子米</a>”的运算法则，在18世纪演变为「algorithm」。
+</p><p><a class="mw-redirect" href="/wiki/%E6%AC%A7%E5%87%A0%E9%87%8C%E5%BE%97%E7%AE%97%E6%B3%95" title="欧几里得算法">欧几里得算法</a>被人们认为是史上第一个算法。
+</p><p>第一次编写程序是<a href="/wiki/%E6%84%9B%E9%81%94%C2%B7%E5%8B%92%E8%8A%99%E8%95%BE%E7%B5%B2" title="爱达·勒芙蕾丝">爱达·勒芙蕾丝</a>（<span lang="en">Ada Byron</span>）于1842年为<a class="mw-redirect" href="/wiki/%E5%B7%B4%E8%B4%9D%E5%A5%87%E5%88%86%E6%9E%90%E6%9C%BA" title="巴贝奇分析机">巴贝奇分析机</a>编写求解解<a href="/wiki/%E4%BC%AF%E5%8A%AA%E5%88%A9%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B" title="伯努利微分方程">伯努利微分方程</a>的<a class="mw-disambig" href="/wiki/%E7%A8%8B%E5%BA%8F" title="程序">程序</a>，因此爱达·勒芙蕾丝被大多数人认为是世界上第一位<a href="/wiki/%E7%A8%8B%E5%BA%8F%E5%91%98" title="程序员">程序员</a><sup class="reference" id="cite_ref-Lovelace_Google_12-0"><a href="#cite_note-Lovelace_Google-12">[12]</a></sup>。因为<a href="/wiki/%E6%9F%A5%E5%B0%94%E6%96%AF%C2%B7%E5%B7%B4%E8%B4%9D%E5%A5%87" title="查尔斯·巴贝奇">查尔斯·巴贝奇</a>（<span lang="en">Charles Babbage</span>）未能完成他的巴贝奇分析机，这个算法未能在巴贝奇分析机上执行。
+</p><p>因为「well-defined procedure」缺少数学上精确的定义，19世纪和20世纪早期的数学家、<a href="/wiki/%E9%80%BB%E8%BE%91%E5%AD%A6%E5%AE%B6" title="逻辑学家">逻辑学家</a>在定义算法上出现了困难。20世纪的<a href="/wiki/%E8%8B%B1%E5%9B%BD" title="英国">英国</a>数学家<a class="mw-redirect" href="/wiki/%E5%9B%BE%E7%81%B5" title="图灵">图灵</a>提出了着名的<a href="/wiki/%E9%82%B1%E5%A5%87%EF%BC%8D%E5%9B%BE%E7%81%B5%E8%AE%BA%E9%A2%98" title="邱奇－图灵论题">图灵论题</a>，并提出一种假想的<a class="mw-redirect mw-disambig" href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA" title="计算机">计算机</a>的抽象模型，这个模型被称为<a href="/wiki/%E5%9B%BE%E7%81%B5%E6%9C%BA" title="图灵机">图灵机</a>。图灵机的出现解决了算法定义的难题，图灵的思想对算法的发展起到了重要的作用。
+</p>
+<h2><span id=".E7.89.B9.E5.BE.81"></span><span class="mw-headline" id="特征">特征</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=2" title="编辑章节：特征">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>以下是<a href="/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3" title="高德纳">高德纳</a>在他的着作《<a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%89%BA%E6%9C%AF" title="计算机程序设计艺术">计算机程序设计艺术</a>》里对演算法的特征归纳：
+</p>
+<div class="floatright"><a class="image" href="/wiki/File:MerkleTree1.JPG"><img alt="MerkleTree1.JPG" data-file-height="1612" data-file-width="2000" decoding="async" height="161" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/12/MerkleTree1.JPG/200px-MerkleTree1.JPG" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/12/MerkleTree1.JPG/300px-MerkleTree1.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/12/MerkleTree1.JPG/400px-MerkleTree1.JPG 2x" width="200"/></a></div>
+<ol><li>输入：一个算法必须有零个或以上输入量。</li>
+<li>输出：一个算法应有一个或以上输出量，输出量是算法计算的结果。</li>
+<li>明确性：算法的描述必须无歧义，以保证算法的实际执行结果是精确地符合要求或期望，通常要求实际执行结果是确定的。</li>
+<li>有限性：依据图灵的定义，一个演算法是能够被任何<a class="mw-redirect" href="/wiki/%E5%9B%BE%E7%81%B5%E5%AE%8C%E5%85%A8" title="图灵完全">图灵完备</a>系统模拟的一串运算，而<a class="mw-redirect" href="/wiki/%E5%9C%96%E9%9D%88%E6%A9%9F" title="图灵机">图灵机</a>只有有限个状态、有限个输入符号和有限个转移函数（指令）。而一些定义更规定演算法必须在有限个步骤内完成任务。</li>
+<li>有效性：又称可行性。能够实现，算法中描述的操作都是可以通过已经实现的基本运算执行有限次来实现。</li></ol>
+<h2><span id=".E5.9F.BA.E6.9C.AC.E8.A6.81.E7.B4.A0"></span><span class="mw-headline" id="基本要素">基本要素</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=3" title="编辑章节：基本要素">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>算法的核心是建立问题抽象的模型和明确求解目标，之后可以根据具体的问题选择不同的模式和方法完成算法的设计。
+</p>
+<h3><span id=".E5.B8.B8.E7.94.A8.E8.AE.BE.E8.AE.A1.E6.A8.A1.E5.BC.8F"></span><span class="mw-headline" id="常用设计模式">常用设计模式</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=4" title="编辑章节：常用设计模式">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>完全<a class="new" href="/w/index.php?title=%E9%81%8D%E6%AD%B7%E6%B3%95&amp;action=edit&amp;redlink=1" title="遍历法（页面不存在）">遍历法</a>和不完全遍历法：在问题的解是有限离散解空间，且可以验证正确性和最优性时，最简单的算法就是把解空间的所有元素完全遍历一遍，逐个检测元素是否是我们要的解。这是最直接的算法，实现往往最简单。但是当解空间特别庞大时，这种算法很可能导致工程上无法承受的计算量。这时候可以利用不完全遍历方法——例如各种搜索法和规划法——来减少计算量。
+</p><p><a href="/wiki/%E5%88%86%E6%B2%BB%E6%B3%95" title="分治法">分治法</a>：把一个问题分割成互相独立的多个部分分别求解的思路。这种求解思路带来的好处之一是便于进行并行计算。
+</p><p><a href="/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92" title="动态规划">动态规划</a>法：当问题的整体最优解就是由局部最优解组成的时候，经常采用的一种方法。
+</p><p><a class="mw-redirect" href="/wiki/%E8%B4%AA%E5%BF%83%E6%B3%95" title="贪心法">贪婪算法</a>：常见的近似求解思路。当问题的整体最优解不是（或无法证明是）由局部最优解组成，且对解的最优性没有要求的时候，可以采用的一种方法。
+</p><p><a href="/wiki/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92" title="线性规划">线性规划</a>法：见条目。
+</p><p>简并法：把一个问题通过逻辑或数学推理，简化成与之等价或者近似的、相对简单的模型，进而求解的方法。
+</p>
+<h3><span id=".E5.B8.B8.E7.94.A8.E5.AE.9E.E7.8E.B0.E6.96.B9.E6.B3.95"></span><span class="mw-headline" id="常用实现方法">常用实现方法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=5" title="编辑章节：常用实现方法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a href="/wiki/%E9%80%92%E5%BD%92" title="递归">递归方法</a>与<a href="/wiki/%E8%BF%AD%E4%BB%A3" title="迭代">迭代方法</a>
+</p><p>顺序计算、<a href="/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97" title="并行计算">并行计算</a>和<a href="/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97" title="分布式计算">分布式计算</a>：顺序计算就是把形式化算法用编程语言进行单线程序列化后执行。
+</p><p>确定性算法和非确定性算法
+</p><p>精确求解和近似求解
+</p>
+<h2><span id=".E5.BD.A2.E5.BC.8F.E5.8C.96.E7.AE.97.E6.B3.95"></span><span class="mw-headline" id="形式化算法">形式化算法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=6" title="编辑章节：形式化算法">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>算法是计算机处理信息的本质，因为计算机程序本质上是一个算法来告诉计算机确切的步骤来执行一个指定的任务，如计算职工的薪水或打印学生的成绩单。一般地，当算法在处理信息时，会从<a href="/wiki/%E8%BE%93%E5%85%A5%E8%AE%BE%E5%A4%87" title="输入设备">输入设备</a>或数据的存储地址读取数据，把结果写入<a href="/wiki/%E8%BE%93%E5%87%BA%E8%AE%BE%E5%A4%87" title="输出设备">输出设备</a>或某个存储地址供以后再调用。
+</p>
+<h2><span id=".E5.A4.8D.E6.9D.82.E5.BA.A6"></span><span class="mw-headline" id="复杂度">复杂度</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=7" title="编辑章节：复杂度">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E6.97.B6.E9.97.B4.E5.A4.8D.E6.9D.82.E5.BA.A6"></span><span class="mw-headline" id="时间复杂度">时间复杂度</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=8" title="编辑章节：时间复杂度">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>算法的<a href="/wiki/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6" title="时间复杂度">时间复杂度</a>是指算法需要消耗的时间资源。一般来说，计算机算法是问题规模<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>的函数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(n)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(n)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1c49fad1eccc4e9af1e4f23f32efdc3ac4da973" style="vertical-align: -0.838ex; width:4.483ex; height:2.843ex;"/></span>，算法的时间复杂度也因此记做
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle T(n)={\mathcal {O}}(f(n))}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>T</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mrow class="MJX-TeXAtom-ORD">
+<mi class="MJX-tex-caligraphic" mathvariant="script">O</mi>
+</mrow>
+</mrow>
+<mo stretchy="false">(</mo>
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle T(n)={\mathcal {O}}(f(n))}</annotation>
+</semantics>
+</math></span><img alt="T(n)={\mathcal {O}}(f(n))" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3b098b3f64dbd9cbd1acf15043aa0811516cfb4b" style="vertical-align: -0.838ex; width:16.081ex; height:2.843ex;"/></span></dd></dl>
+<p>算法执行时间的增长率与<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle f(n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>f</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle f(n)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle f(n)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1c49fad1eccc4e9af1e4f23f32efdc3ac4da973" style="vertical-align: -0.838ex; width:4.483ex; height:2.843ex;"/></span>的增长率正相关，称作<span class="ilh-all" data-foreign-title="Asymptotic computational complexity" data-lang-code="en" data-lang-name="英语" data-orig-title="渐近时间复杂度"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%B8%90%E8%BF%91%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6&amp;action=edit&amp;redlink=1" title="渐近时间复杂度（页面不存在）">渐近时间复杂度</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Asymptotic_computational_complexity" title="en:Asymptotic computational complexity"><span dir="auto" lang="en">Asymptotic computational complexity</span></a></span>）</span></span>，简称时间复杂度。
+</p><p>常见的时间复杂度有：常数阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(1)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(1)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(1)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e66384bc40452c5452f33563fe0e27e803b0cc21" style="vertical-align: -0.838ex; width:4.745ex; height:2.843ex;"/></span>，对数阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(\log n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<mi>log</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(\log n)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(\log n)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/aae0f22048ba6b7c05dbae17b056bfa16e21807d" style="vertical-align: -0.838ex; width:8.336ex; height:2.843ex;"/></span>，线性阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(n)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(n)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/34109fe397fdcff370079185bfdb65826cb5565a" style="vertical-align: -0.838ex; width:4.977ex; height:2.843ex;"/></span>，线性对数阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(n\log n)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<mi>n</mi>
+<mi>log</mi>
+<mo>⁡<!-- ⁡ --></mo>
+<mi>n</mi>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(n\log n)}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(n\log n)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9d2320768fb54880ca4356e61f60eb02a3f9d9f1" style="vertical-align: -0.838ex; width:10.118ex; height:2.843ex;"/></span>，平方阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(n^{2})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>2</mn>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(n^{2})}</annotation>
+</semantics>
+</math></span><img alt="O(n^{2})" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6cd9594a16cb898b8f2a2dff9227a385ec183392" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;"/></span>，立方阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(n^{3})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>3</mn>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(n^{3})}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(n^{3})}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/6b04f5c5cfea38f43406d9442387ad28555e2609" style="vertical-align: -0.838ex; width:6.032ex; height:3.176ex;"/></span>，...，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle k}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>k</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle k}</annotation>
+</semantics>
+</math></span><img alt=" k " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c3c9a2c7b599b37105512c5d570edc034056dd40" style="vertical-align: -0.338ex; width:1.211ex; height:2.176ex;"/></span>次方阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(n^{k})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>n</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>k</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(n^{k})}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(n^{k})}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1247a36dbf5f27981eb76f42c2848931af165029" style="vertical-align: -0.838ex; width:6.066ex; height:3.176ex;"/></span>,指数阶<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle O(2^{n})}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>O</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mn>2</mn>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>n</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle O(2^{n})}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle O(2^{n})}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/d4b1a4ff0bc4f81ebf79f28260c6fb54ee08ff8d" style="vertical-align: -0.838ex; width:5.964ex; height:2.843ex;"/></span>。随着问题规模<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>的不断增大，上述时间复杂度不断增大，算法的执行效率越低。
+</p>
+<h3><span id=".E7.A9.BA.E9.97.B4.E5.A4.8D.E6.9D.82.E5.BA.A6"></span><span class="mw-headline" id="空间复杂度">空间复杂度</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=9" title="编辑章节：空间复杂度">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>算法的<a href="/wiki/%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6" title="空间复杂度">空间复杂度</a>是指算法需要消耗的空间资源。其计算和表示方法与时间复杂度类似，一般都用复杂度的<a class="new" href="/w/index.php?title=%E6%B8%90%E8%BF%91%E6%80%A7&amp;action=edit&amp;redlink=1" title="渐近性（页面不存在）">渐近性</a>来表示。同时间复杂度相比，空间复杂度的分析要简单得多。
+</p>
+<h2><span id=".E9.9D.9E.E7.A2.BA.E5.AE.9A.E6.80.A7.E5.A4.9A.E9.A0.85.E5.BC.8F.E6.99.82.E9.96.93.EF.BC.88NP.EF.BC.89"></span><span class="mw-headline" id="非确定性多项式时间（NP）">非确定性多项式时间（NP）</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=10" title="编辑章节：非确定性多项式时间（NP）">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/NP_(%E8%A4%87%E9%9B%9C%E5%BA%A6)" title="NP (复杂度)">NP (复杂度)</a></div>
+<h2><span id=".E5.AE.9E.E7.8E.B0"></span><span class="mw-headline" id="实现">实现</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=11" title="编辑章节：实现">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>算法不单单可以用计算机程序来实现，也可以在<a href="/wiki/%E4%BA%BA%E5%B7%A5%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C" title="人工神经网络">人工神经网络</a>、<a href="/wiki/%E7%94%B5%E8%B7%AF" title="电路">电路</a>或者<a href="/wiki/%E6%9C%BA%E6%A2%B0" title="机械">机械</a>设备上实现。
+</p>
+<h2><span id=".E7.AF.84.E4.BE.8B"></span><span class="mw-headline" id="范例">范例</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=12" title="编辑章节：范例">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E6.B1.82.E6.9C.80.E5.A4.A7.E5.80.BC.E6.BC.94.E7.AE.97.E6.B3.95"></span><span class="mw-headline" id="求最大值演算法">求最大值演算法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=13" title="编辑章节：求最大值演算法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>这是算法的一个简单的例子。
+</p><p>我们有一串随机<a href="/wiki/%E6%95%B0%E5%88%97" title="数列">数列</a>。我们的目的是找到这个数列中最大的数。如果将数列中的每一个数字看成是一颗豆子的大小，可以将下面的算法形象地称为「捡豆子」：
+</p>
+<ol><li>首先将第一颗豆子放入口袋中。</li>
+<li>从第二颗豆子开始检查，如果正在检查的豆子比口袋中的还大，则将它捡起放入口袋中，同时丢掉原先口袋中的豆子。反之则继续下一颗豆子。直到最后一颗豆子。</li>
+<li>最后口袋中的豆子就是所有的豆子中最大的一颗。</li></ol>
+<p>以上算法在中国大陆的教科书中通常被叫做“打擂法”或者“循环打擂”<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup><sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup>：在一个for循环中，每轮循环都有新的挑战者。若挑战者胜的话，挑战者做新擂主，否则擂主卫冕。for循环结束后输出最后的擂主。
+</p><p>下面是一个形式算法，用<a href="/wiki/C%E8%AF%AD%E8%A8%80" title="C语言">ANSI C</a>代码表示
+</p>
+<div class="mw-highlight mw-highlight-lang-c mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">max</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">array</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">size</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">mval</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">array</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="p">(</span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">size</span><span class="p">;</span><span class="w"> </span><span class="n">i</span><span class="o">++</span><span class="p">)</span><span class="w"></span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="n">mval</span><span class="p">)</span><span class="w"></span>
+<span class="w">      </span><span class="n">mval</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">array</span><span class="p">[</span><span class="n">i</span><span class="p">];</span><span class="w"></span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">mval</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<h3><span id=".E6.B1.82.E6.9C.80.E5.A4.A7.E5.85.AC.E7.B4.84.E6.95.B8.E6.BC.94.E7.AE.97.E6.B3.95"></span><span class="mw-headline" id="求最大公约数演算法">求最大公约数演算法</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=14" title="编辑章节：求最大公约数演算法">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>求两个自然数的<a class="mw-redirect" href="/wiki/%E6%9C%80%E5%A4%A7%E5%85%AC%E7%BA%A6%E6%95%B0" title="最大公约数">最大公约数</a>
+设两个变量<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle M}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>M</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle M}</annotation>
+</semantics>
+</math></span><img alt="M" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f82cade9898ced02fdd08712e5f0c0151758a0dd" style="vertical-align: -0.338ex; width:2.442ex; height:2.176ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>
+</p>
+<ol><li>如果<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle M&lt;N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>M</mi>
+<mo>&lt;</mo>
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle M&lt;N}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle M&lt;N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/be32b91e39f22b1e04a7d846607170fe0c7c128b" style="vertical-align: -0.338ex; width:7.604ex; height:2.176ex;"/></span>，则交换<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle M}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>M</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle M}</annotation>
+</semantics>
+</math></span><img alt="M" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f82cade9898ced02fdd08712e5f0c0151758a0dd" style="vertical-align: -0.338ex; width:2.442ex; height:2.176ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span></li>
+<li><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle M}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>M</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle M}</annotation>
+</semantics>
+</math></span><img alt="M" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f82cade9898ced02fdd08712e5f0c0151758a0dd" style="vertical-align: -0.338ex; width:2.442ex; height:2.176ex;"/></span>除以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>，得到余数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle R}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>R</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle R}</annotation>
+</semantics>
+</math></span><img alt="R" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4b0bfb3769bf24d80e15374dc37b0441e2616e33" style="vertical-align: -0.338ex; width:1.764ex; height:2.176ex;"/></span></li>
+<li>判断<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle R=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>R</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle R=0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle R=0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b7e38203eea12f5613721e2fc5e185b8eef9e800" style="vertical-align: -0.338ex; width:6.025ex; height:2.176ex;"/></span>，正确则<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>即为“最大公约数”，否则下一步</li>
+<li>将<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>赋值给<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle M}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>M</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle M}</annotation>
+</semantics>
+</math></span><img alt="M" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f82cade9898ced02fdd08712e5f0c0151758a0dd" style="vertical-align: -0.338ex; width:2.442ex; height:2.176ex;"/></span>，将<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle R}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>R</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle R}</annotation>
+</semantics>
+</math></span><img alt="R" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4b0bfb3769bf24d80e15374dc37b0441e2616e33" style="vertical-align: -0.338ex; width:1.764ex; height:2.176ex;"/></span>赋值给<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>，重做第一步。</li></ol>
+<p>用<a href="/wiki/C%E8%AF%AD%E8%A8%80" title="C语言">ANSI C</a>代码表示
+</p>
+<div class="mw-highlight mw-highlight-lang-c mw-content-ltr" dir="ltr"><pre><span></span><span class="c1">//交换2数</span>
+<span class="kt">void</span><span class="w"> </span><span class="nf">swapi</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">tmp</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">*</span><span class="n">y</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="o">*</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">tmp</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+
+<span class="kt">int</span><span class="w"> </span><span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">m</span><span class="p">,</span><span class="w"> </span><span class="kt">int</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">  </span><span class="kt">int</span><span class="w"> </span><span class="n">r</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="k">do</span><span class="w"></span>
+<span class="w">  </span><span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">m</span><span class="w"> </span><span class="o">&lt;</span><span class="w"> </span><span class="n">n</span><span class="p">)</span><span class="w"></span>
+<span class="w">      </span><span class="n">swapi</span><span class="p">(</span><span class="o">&amp;</span><span class="n">m</span><span class="p">,</span><span class="w"> </span><span class="o">&amp;</span><span class="n">n</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="n">r</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">m</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">m</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">n</span><span class="p">;</span><span class="w"></span>
+<span class="w">    </span><span class="n">n</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">r</span><span class="p">;</span><span class="w"></span>
+<span class="w">  </span><span class="p">}</span><span class="w"> </span><span class="k">while</span><span class="w"> </span><span class="p">(</span><span class="n">r</span><span class="p">);</span><span class="w"></span>
+<span class="w">  </span><span class="k">return</span><span class="w"> </span><span class="n">m</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<p>利用if函式以及递回则能做出更为精简的程式码，更可省去交换的麻烦。（但是也因为递回呼叫，其空间复杂度提高）
+</p>
+<div class="mw-highlight mw-highlight-lang-c mw-content-ltr" dir="ltr"><pre><span></span><span class="kt">int</span><span class="w"> </span><span class="nf">gcd</span><span class="p">(</span><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="p">,</span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="p">)</span><span class="w"></span>
+<span class="p">{</span><span class="w"></span>
+<span class="w">    </span><span class="k">if</span><span class="p">(</span><span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">)</span><span class="w"></span>
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="n">gcd</span><span class="p">(</span><span class="n">b</span><span class="p">,</span><span class="n">a</span><span class="o">%</span><span class="n">b</span><span class="p">);</span><span class="w"></span>
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"></span>
+<span class="p">}</span><span class="w"></span>
+</pre></div>
+<h2><span id=".E5.88.86.E7.B1.BB"></span><span class="mw-headline" id="分类">分类</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=15" title="编辑章节：分类">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li>基本算法
+<ul><li><a href="/wiki/%E6%9E%9A%E4%B8%BE" title="枚举">枚举</a></li>
+<li><a href="/wiki/%E6%90%9C%E7%B4%A2_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" title="搜索 (计算机)">搜索</a>
+<ul><li><a href="/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2" title="深度优先搜索">深度优先搜索</a></li>
+<li><a href="/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2" title="广度优先搜索">广度优先搜索</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%90%AF%E5%8F%91%E5%BC%8F%E6%90%9C%E7%B4%A2&amp;action=edit&amp;redlink=1" title="启发式搜索（页面不存在）">启发式搜索</a></li>
+<li><a href="/wiki/%E9%81%97%E4%BC%A0%E7%AE%97%E6%B3%95" title="遗传算法">遗传算法</a></li></ul></li></ul></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84" title="数据结构">数据结构</a>的算法</li>
+<li><a class="new" href="/w/index.php?title=%E6%95%B0%E8%AE%BA%E4%B8%8E%E4%BB%A3%E6%95%B0%E7%AE%97%E6%B3%95&amp;action=edit&amp;redlink=1" title="数论与代数算法（页面不存在）">数论与代数算法</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95" title="计算几何">计算几何</a>的算法
+<ul><li><a href="/wiki/%E5%87%B8%E5%8C%85" title="凸包">凸包</a>算法</li></ul></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a>的算法
+<ul><li><a class="mw-redirect" href="/wiki/%E5%93%88%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81" title="哈夫曼编码">哈夫曼编码</a></li>
+<li><a href="/wiki/%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86" title="树的遍历">树的遍历</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84" title="最短路径">最短路径</a>算法</li>
+<li><a href="/wiki/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91" title="最小生成树">最小生成树</a>算法</li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%80%E5%B0%8F%E6%A0%91%E5%BD%A2%E5%9B%BE&amp;action=edit&amp;redlink=1" title="最小树形图（页面不存在）">最小树形图</a></li>
+<li><a href="/wiki/%E7%BD%91%E7%BB%9C%E6%B5%81" title="网络流">网络流</a>算法</li>
+<li><a class="new" href="/w/index.php?title=%E5%8C%B9%E9%85%8D%E7%AE%97%E6%B3%95&amp;action=edit&amp;redlink=1" title="匹配算法（页面不存在）">匹配算法</a></li>
+<li><a href="/wiki/%E5%88%86%E5%9C%98%E5%95%8F%E9%A1%8C" title="分团问题">分团问题</a></li></ul></li>
+<li><a href="/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92" title="动态规划">动态规划</a></li>
+<li>其他
+<ul><li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%8A%A0%E5%AF%86%E7%AE%97%E6%B3%95" title="加密算法">加密算法</a></li>
+<li><a href="/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95" title="排序算法">排序算法</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%AA%A2%E7%B4%A2" title="检索">检索</a>算法</li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机化算法</a></li>
+<li>关于并行算法，请参阅<a href="/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97" title="并行计算">并行计算</a>一文。</li></ul></li></ul>
+<h2><span id=".E8.A8.BB.E9.87.8B"></span><span class="mw-headline" id="注释">注释</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=16" title="编辑章节：注释">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-count references-column-count-2" style="-moz-column-count: 2; -webkit-column-count: 2; column-count: 2; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book"><a href="/wiki/%E7%BD%97%E7%BA%B3%E5%BE%B7%C2%B7%E6%9D%8E%E7%BB%B4%E6%96%AF%E7%89%B9" title="罗纳德·李维斯特">Thomas H. Cormen</a>; Charles E. Leiserson; Ronald L. Rivest; Clifford Stein; 殷建平等译. 第1章 算法在计算机中的作用. <a class="external text" href="https://archive.org/details/suanfadaolun0000unse" rel="nofollow">算法导论</a> 原书第3版. 北京: 机械工业出版社. 2013年1月: 3[5] <span class="reference-accessdate"> [<span class="nowrap">2017-11-14</span>]</span>. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-7-111-40701-0" title="Special:网络书源/978-7-111-40701-0"><span title="国际标准书号">ISBN</span> 978-7-111-40701-0</a> <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文网页">（中文）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=%E7%AC%AC1%E7%AB%A0+%E7%AE%97%E6%B3%95%E5%9C%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%B8%AD%E7%9A%84%E4%BD%9C%E7%94%A8&amp;rft.au=Charles+E.+Leiserson&amp;rft.au=Clifford+Stein&amp;rft.au=Ronald+L.+Rivest&amp;rft.au=Thomas+H.+Cormen&amp;rft.btitle=%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA&amp;rft.date=2013-01&amp;rft.edition=%E5%8E%9F%E4%B9%A6%E7%AC%AC3%E7%89%88&amp;rft.genre=bookitem&amp;rft.isbn=978-7-111-40701-0&amp;rft.pages=35&amp;rft.place=%E5%8C%97%E4%BA%AC&amp;rft.pub=%E6%9C%BA%E6%A2%B0%E5%B7%A5%E4%B8%9A%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fsuanfadaolun0000unse&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">引文使用过时参数<code style="color:inherit; border:inherit; padding:inherit;">coauthors</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#deprecated_params" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text">Well defined with respect to the agent that executes the algorithm: "There is a computing agent, usually human, which can react to the instructions and carry out the computations"（Rogers 1987:2）.</span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text">"Any classical mathematical algorithm, for example, can be described in a finite number of English words"（Rogers 1987:2）.</span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text">"An algorithm has zero or more inputs, i.e., quantities which are given to it initially before the algorithm begins"（Knuth 1973:5）</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">"A procedure which has all the characteristics of an algorithm except that it possibly lacks finiteness may be called a 'computational method'"（Knuth 1973:5）</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">"An algorithm has one or more outputs, i.e. quantities which have a specified relation to the inputs"（Knuth 1973:5）</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Whether or not a process with random interior processes (not including the input) is an algorithm is debatable. Rogers opines that: "a computation is carried out in a discrete stepwise fashion, without use of continuous methods or analogue devices... carried forward deterministically, without resort to random methods or devices, e.g., dice" Rogers 1987:2).</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Whether or not a process with random interior processes (not including the input) is an algorithm is debatable. Rogers opines that: "a computation is carried out in a discrete stepwise fashion, without use of continuous methods or analogue devices ... carried forward deterministically, without resort to random methods or devices, e.g., dice" Rogers 1987:2).</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Kleene（斯蒂芬·科尔·克莱尼）1943 in Davis 1965:274</span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text">Rosser（巴克利·罗瑟）1939 in Davis 1965:225</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation book">Moschovakis, Yiannis N. What is an algorithm?. Engquist, B.; Schmid, W.  (编). <a class="external text" href="http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.32.8093" rel="nofollow">Mathematics Unlimited—2001 and beyond</a>. Springer. 2001: 919–936 (Part II).</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=What+is+an+algorithm%3F&amp;rft.aufirst=Yiannis+N.&amp;rft.aulast=Moschovakis&amp;rft.btitle=Mathematics+Unlimited%E2%80%942001+and+beyond&amp;rft.date=2001&amp;rft.genre=bookitem&amp;rft.pages=919-936+%28Part+II%29&amp;rft.pub=Springer&amp;rft_id=http%3A%2F%2Fciteseer.ist.psu.edu%2Fviewdoc%2Fsummary%3Fdoi%3D10.1.1.32.8093&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-Lovelace_Google-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Lovelace_Google_12-0">^</a></b></span> <span class="reference-text"><cite class="citation news"><a class="external text" href="http://www.guardian.co.uk/technology/2012/dec/10/ada-lovelace-honoured-google-doodle" rel="nofollow">Ada Lovelace honoured by Google doodle</a>. The Guardian. 10 December 2012 <span class="reference-accessdate"> [<span class="nowrap">10 December</span> 2012]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20181225024306/https://www.theguardian.com/technology/2012/dec/10/ada-lovelace-honoured-google-doodle" rel="nofollow">存档</a>于2018-12-25）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=Ada+Lovelace+honoured+by+Google+doodle&amp;rft.date=2012-12-10&amp;rft.genre=article&amp;rft.jtitle=The+Guardian&amp;rft_id=http%3A%2F%2Fwww.guardian.co.uk%2Ftechnology%2F2012%2Fdec%2F10%2Fada-lovelace-honoured-google-doodle&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="https://web.archive.org/web/20170324044038/http://book.51cto.com/art/201303/383482.htm" rel="nofollow">2.4 赛场统分</a>. 读书频道-IT技术图书-51CTO.COM.  <span class="reference-accessdate"> [<span class="nowrap">2017-06-07</span>]</span>. （<a class="external text" href="http://book.51cto.com/art/201303/383482.htm" rel="nofollow">原始内容</a>存档于2017-03-24）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=2.4+%E8%B5%9B%E5%9C%BA%E7%BB%9F%E5%88%86&amp;rft.genre=unknown&amp;rft.jtitle=%E8%AF%BB%E4%B9%A6%E9%A2%91%E9%81%93-IT%E6%8A%80%E6%9C%AF%E5%9B%BE%E4%B9%A6-51CTO.COM&amp;rft_id=http%3A%2F%2Fbook.51cto.com%2Fart%2F201303%2F383482.htm&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://acm.hnust.edu.cn/JudgeOnline/problem.php?cid=1312&amp;pid=18" rel="nofollow">实验3-9：循环打擂</a>. 湖南科技大学程序设计在线评测（Online Judge）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=%E5%AE%9E%E9%AA%8C3-9%EF%BC%9A%E5%BE%AA%E7%8E%AF%E6%89%93%E6%93%82&amp;rft.genre=unknown&amp;rft.jtitle=%E6%B9%96%E5%8D%97%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%9C%A8%E7%BA%BF%E8%AF%84%E6%B5%8B%EF%BC%88Online+Judge%EF%BC%89&amp;rft_id=http%3A%2F%2Facm.hnust.edu.cn%2FJudgeOnline%2Fproblem.php%3Fcid%3D1312%26pid%3D18&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span><sup class="noprint Inline-Template"><span style="white-space: nowrap;">[<a href="/wiki/Wikipedia:%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5" title="Wikipedia:失效链接"><span title="自2018年11月失效">永久失效连结</span></a>]</span></sup></span>
+</li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://www.zaidian.com/gaozhongjiaoan/648112.html" rel="nofollow">高中,算法与程序设计,教案</a>. 在点网.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.atitle=%E9%AB%98%E4%B8%AD%2C%E7%AE%97%E6%B3%95%E4%B8%8E%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%2C%E6%95%99%E6%A1%88&amp;rft.genre=unknown&amp;rft.jtitle=%E5%9C%A8%E7%82%B9%E7%BD%91&amp;rft_id=http%3A%2F%2Fwww.zaidian.com%2Fgaozhongjiaoan%2F648112.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span><sup class="noprint Inline-Template"><span style="white-space: nowrap;">[<a href="/wiki/Wikipedia:%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5" title="Wikipedia:失效链接"><span title="自2020年1月失效">永久失效连结</span></a>]</span></sup></span>
+</li>
+</ol></div>
+<h2><span id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=17" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<style data-mw-deduplicate="TemplateStyles:r61209943">.mw-parser-output .refbegin{font-size:90%;margin-bottom:0.5em}.mw-parser-output .refbegin-hanging-indents>ul{list-style-type:none;margin-left:0}.mw-parser-output .refbegin-hanging-indents>ul>li,.mw-parser-output .refbegin-hanging-indents>dl>dd{margin-left:0;padding-left:3.2em;text-indent:-3.2em;list-style:none}.mw-parser-output .refbegin-100{font-size:100%}</style><div class="refbegin" style="">
+<ul><li><cite class="citation book">Rogers, Jr, Hartley. Theory of Recursive Functions and Effective Computability. The MIT Press. 1987. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-262-68052-1" title="Special:网络书源/0-262-68052-1"><span title="国际标准书号">ISBN</span> 0-262-68052-1</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.aufirst=Hartley&amp;rft.aulast=Rogers%2C+Jr&amp;rft.btitle=Theory+of+Recursive+Functions+and+Effective+Computability&amp;rft.date=1987&amp;rft.genre=book&amp;rft.isbn=0-262-68052-1&amp;rft.pub=The+MIT+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></li>
+<li><cite class="citation book">Davis, Martin. <a class="external text" href="https://archive.org/details/undecidablebasic0000davi" rel="nofollow">The Undecidable: Basic Papers On Undecidable Propositions, Unsolvable Problems and Computable Functions</a>. New York: Raven Press. 1965. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-486-43228-9" title="Special:网络书源/0-486-43228-9"><span title="国际标准书号">ISBN</span> 0-486-43228-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E7%AE%97%E6%B3%95&amp;rft.aufirst=Martin&amp;rft.aulast=Davis&amp;rft.btitle=The+Undecidable%3A+Basic+Papers+On+Undecidable+Propositions%2C+Unsolvable+Problems+and+Computable+Functions&amp;rft.date=1965&amp;rft.genre=book&amp;rft.isbn=0-486-43228-9&amp;rft.place=New+York&amp;rft.pub=Raven+Press&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2Fundecidablebasic0000davi&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> Davis此书中有列出许多相关的论文，包括<a href="/wiki/%E5%BA%93%E5%B0%94%E7%89%B9%C2%B7%E5%93%A5%E5%BE%B7%E5%B0%94" title="库尔特·哥德尔">哥德尔</a>、<a href="/wiki/%E9%98%BF%E9%9A%86%E4%BD%90%C2%B7%E9%82%B1%E5%A5%87" title="阿隆佐·邱奇">邱奇</a>、<a href="/wiki/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5" title="艾伦·图灵">图灵</a>、<span class="ilh-all" data-foreign-title="Rosser" data-lang-code="en" data-lang-name="英语" data-orig-title="巴克利·罗瑟"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%B7%B4%E5%85%8B%E5%88%A9%C2%B7%E7%BE%85%E7%91%9F&amp;action=edit&amp;redlink=1" title="巴克利·罗瑟（页面不存在）">巴克利·罗瑟</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Rosser" title="en:Rosser"><span dir="auto" lang="en">Rosser</span></a></span>）</span></span>、<a href="/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E7%A7%91%E5%B0%94%C2%B7%E5%85%8B%E8%8E%B1%E5%B0%BC" title="斯蒂芬·科尔·克莱尼">斯蒂芬·科尔·克莱尼</a>及<span class="ilh-all" data-foreign-title="Emil Post" data-lang-code="en" data-lang-name="英语" data-orig-title="埃米尔·波斯特"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%9F%83%E7%B1%B3%E7%88%BE%C2%B7%E6%B3%A2%E6%96%AF%E7%89%B9&amp;action=edit&amp;redlink=1" title="埃米尔·波斯特（页面不存在）">埃米尔·波斯特</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Emil_Post" title="en:Emil Post"><span dir="auto" lang="en">Emil Post</span></a></span>）</span></span>的论文。在参考文献中也会列出原作者的姓名。</li></ul>
+</div>
+<h2><span id=".E5.8F.82.E9.96.B1"></span><span class="mw-headline" id="参阅">参阅</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=18" title="编辑章节：参阅">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><img alt="" class="noviewer" data-file-height="28" data-file-width="32" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/48px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/64px-Portal-puzzle.svg.png 2x" width="32"/></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a class="mw-redirect" href="/wiki/Portal:%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="Portal:计算机科学">计算机科学主题</a></span></li>
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:8bit-dynamiclist_(reversed).gif"><img alt="icon" class="noviewer" data-file-height="32" data-file-width="32" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/8bit-dynamiclist_%28reversed%29.gif/28px-8bit-dynamiclist_%28reversed%29.gif" srcset="//upload.wikimedia.org/wikipedia/commons/c/cc/8bit-dynamiclist_%28reversed%29.gif 1.5x" width="28"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a class="mw-redirect" href="/wiki/Portal:%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1" title="Portal:计算机程序设计">计算机程序设计主题</a></span></li></ul></div>
+<style data-mw-deduplicate="TemplateStyles:r64841240">.mw-parser-output .div-col{margin-top:0.3em;column-width:30em;column-count:2}.mw-parser-output .div-col-small{font-size:90%}.mw-parser-output .div-col-rules{column-rule:1px solid #aaa}.mw-parser-output .div-col dl,.mw-parser-output .div-col ol,.mw-parser-output .div-col ul{margin-top:0}.mw-parser-output .div-col li,.mw-parser-output .div-col dd{page-break-inside:avoid;break-inside:avoid-column}</style><div class="div-col" style="column-width:auto; column-count:2;">
+<ul><li><a href="/wiki/%E6%8A%BD%E8%B1%A1%E6%A9%9F%E5%99%A8" title="抽象机器">抽象机器</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%B3%95%E4%BD%9C%E6%9B%B2" title="算法作曲">算法作曲</a></li>
+<li><a href="/wiki/%E9%AB%98%E7%BA%A7%E7%BB%BC%E5%90%88" title="高级综合">高级综合</a></li>
+<li><a href="/wiki/%E5%9E%83%E5%9C%BE%E8%BF%9B%EF%BC%8C%E5%9E%83%E5%9C%BE%E5%87%BA" title="垃圾进，垃圾出">垃圾进，垃圾出</a></li>
+<li>《<a href="/wiki/%E7%AE%97%E6%B3%95%E5%AF%BC%E8%AE%BA" title="算法导论">算法导论</a>》</li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a>
+<ul><li><a href="/wiki/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E7%90%86%E8%AE%BA" title="可计算性理论">可计算性理论</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E8%A4%87%E9%9B%9C%E6%80%A7%E7%90%86%E8%AB%96" title="计算复杂性理论">计算复杂性理论</a></li></ul></li></ul>
+</div>
+<h2><span id=".E5.BB.B6.E4.BC.B8.E9.98.85.E8.AF.BB"></span><span class="mw-headline" id="延伸阅读">延伸阅读</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=19" title="编辑章节：延伸阅读">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><span class="mw-editsection-like plainlinks" style="float: right;"><span class="mw-editsection-bracket">[</span><a class="extiw" href="https://www.wikidata.org/wiki/Q8366" title="wikidata:Q8366"><span class="nomobile">在维基数据</span>编<span class="nomobile">辑</span></a><span class="mw-editsection-bracket">]</span></span>
+</p>
+<dl><dd><img alt="维基文库中的相关文本：" class="noviewer" data-file-height="430" data-file-width="410" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/15px-Wikisource-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/23px-Wikisource-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/30px-Wikisource-logo.svg.png 2x" title="维基文库" width="15"/> 《<a class="extiw" href="https://zh.wikisource.org/wiki/%E6%AC%BD%E5%AE%9A%E5%8F%A4%E4%BB%8A%E5%9C%96%E6%9B%B8%E9%9B%86%E6%88%90/%E6%9B%86%E8%B1%A1%E5%BD%99%E7%B7%A8/%E6%9B%86%E6%B3%95%E5%85%B8/%E7%AE%97%E6%B3%95%E9%83%A8" title="s:钦定古今图书集成/历象汇编/历法典/算法部">钦定古今图书集成·历象汇编·历法典·算法部</a>》，出自<a href="/wiki/%E9%99%88%E6%A2%A6%E9%9B%B7" title="陈梦雷">陈梦雷</a>《<a href="/wiki/%E5%8F%A4%E4%BB%8A%E5%9B%BE%E4%B9%A6%E9%9B%86%E6%88%90" title="古今图书集成">古今图书集成</a>》</dd></dl>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.93.BE.E6.8E.A5"></span><span class="mw-headline" id="外部链接">外部链接</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit&amp;section=20" title="编辑章节：外部链接">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a class="external text" href="http://www.uta.edu/faculty/rcli/TopTen/topten.pdf" rel="nofollow">20世纪十大算法</a></li>
+<li><a class="external text" href="http://www.csie.ntnu.edu.tw/~u91029/" rel="nofollow">演算法笔记</a></li>
+<li><a class="external text" href="https://dev.gameres.com/Program/Abstract/Geometry.htm" rel="nofollow">计算几何算法概览</a></li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%AE%97%E6%B3%95" title="Template:算法"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%AE%97%E6%B3%95" title="Template talk:算法"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%AE%97%E6%B3%95&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a class="mw-selflink selflink">算法</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95" title="排序算法">排序</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%AF%94%E8%BE%83%E6%8E%92%E5%BA%8F" title="比较排序">比较排序</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F" title="冒辔排序">冒辔排序</a></li>
+<li><a href="/wiki/%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F" title="选择排序">选择排序</a></li>
+<li><a href="/wiki/%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F" title="插入排序">插入排序</a></li>
+<li><a href="/wiki/%E5%B8%8C%E5%B0%94%E6%8E%92%E5%BA%8F" title="希尔排序">希尔排序</a></li>
+<li><a href="/wiki/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F" title="快速排序">快速排序</a></li>
+<li><a href="/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F" title="归并排序">归并排序</a></li>
+<li><a href="/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F" title="堆排序">堆排序</a></li>
+<li><a href="/wiki/%E9%B8%A1%E5%B0%BE%E9%85%92%E6%8E%92%E5%BA%8F" title="鸡尾酒排序">鸡尾酒排序</a></li>
+<li><a href="/wiki/%E6%A2%B3%E6%8E%92%E5%BA%8F" title="梳排序">梳排序</a></li>
+<li><a href="/wiki/%E4%BE%8F%E5%84%92%E6%8E%92%E5%BA%8F" title="侏儒排序">侏儒排序</a></li>
+<li><a href="/wiki/%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%92%E5%BA%8F" title="图书馆排序">图书馆排序</a></li>
+<li><a href="/wiki/%E5%86%85%E7%9C%81%E6%8E%92%E5%BA%8F" title="内省排序">内省排序</a></li>
+<li><a href="/wiki/%E5%A5%87%E5%81%B6%E6%8E%92%E5%BA%8F" title="奇偶排序">奇偶排序</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%B7%9A%E6%80%A7%E6%99%82%E9%96%93" title="线性时间">线性时间</a>排序</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%B8%BD%E5%B7%A2%E6%8E%92%E5%BA%8F" title="鸽巢排序">鸽巢排序</a></li>
+<li><a href="/wiki/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F" title="基数排序">基数排序</a></li>
+<li><a href="/wiki/%E8%AE%A1%E6%95%B0%E6%8E%92%E5%BA%8F" title="计数排序">计数排序</a></li>
+<li><a href="/wiki/%E6%A1%B6%E6%8E%92%E5%BA%8F" title="桶排序">桶排序</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%B9%B6%E8%A1%8C%E6%8E%92%E5%BA%8F" title="并行排序">并行排序</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="ilh-all" data-foreign-title="Sorting network" data-lang-code="en" data-lang-name="英语" data-orig-title="排序网络"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%8E%92%E5%BA%8F%E7%BD%91%E7%BB%9C&amp;action=edit&amp;redlink=1" title="排序网络（页面不存在）">排序网络</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Sorting_network" title="en:Sorting network"><span dir="auto" lang="en">Sorting network</span></a></span>）</span></span></li>
+<li><a href="/wiki/Batcher%E5%BD%92%E5%B9%B6%E7%BD%91%E7%BB%9C" title="Batcher归并网络">Batcher归并网络</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">不实用的</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/Bogo%E6%8E%92%E5%BA%8F" title="Bogo排序">Bogo排序</a></li>
+<li><a href="/wiki/%E8%87%AD%E7%9A%AE%E5%8C%A0%E6%8E%92%E5%BA%8F" title="臭皮匠排序">臭皮匠排序</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%9B%BE_(%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)" title="图 (数据结构)">图</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%8B%93%E6%92%B2%E6%8E%92%E5%BA%8F" title="拓扑排序">拓扑排序</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%90%9C%E7%B4%A2_(%E8%AE%A1%E7%AE%97%E6%9C%BA)" title="搜索 (计算机)">搜索</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%B8%B2%E5%88%97_(%E6%8A%BD%E8%B1%A1%E8%B3%87%E6%96%99%E5%9E%8B%E5%88%A5)" title="串列 (抽象资料型别)">列表</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BA%BF%E6%80%A7%E6%90%9C%E7%B4%A2" title="线性搜索">线性搜索</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BA%8C%E5%88%86%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95" title="二分搜索算法">二分搜索</a></li>
+<li><a href="/wiki/%E6%8F%92%E5%80%BC%E6%90%9C%E5%B0%8B" title="插值搜寻">插值搜寻</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%A0%91_(%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)" title="树 (数据结构)">树</a>・<a href="/wiki/%E5%9B%BE_(%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84)" title="图 (数据结构)">图</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2" title="广度优先搜索">广度优先搜索</a>
+<ul><li><span class="ilh-all" data-foreign-title="Best-first search" data-lang-code="en" data-lang-name="英语" data-orig-title="最良优先搜索"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%9C%80%E8%89%AF%E5%84%AA%E5%85%88%E6%90%9C%E7%B4%A2&amp;action=edit&amp;redlink=1" title="最良优先搜索（页面不存在）">最良优先搜索</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Best-first_search" title="en:Best-first search"><span dir="auto" lang="en">Best-first search</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95" title="戴克斯特拉算法">均一开销搜索</a></li>
+<li><a class="mw-redirect" href="/wiki/A*" title="A*">A*</a></li></ul></li>
+<li><a href="/wiki/%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2" title="深度优先搜索">深度优先搜索</a>
+<ul><li><a href="/wiki/%E8%BF%AD%E4%BB%A3%E6%B7%B1%E5%8C%96%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2" title="迭代深化深度优先搜索">迭代深化深度优先搜索</a></li>
+<li><span class="ilh-all" data-foreign-title="深さ制限探索" data-lang-code="ja" data-lang-name="日语" data-orig-title="深度限制搜索"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%B7%B1%E5%BA%A6%E9%99%90%E5%88%B6%E6%90%9C%E7%B4%A2&amp;action=edit&amp;redlink=1" title="深度限制搜索（页面不存在）">深度限制搜索</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">日语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://ja.wikipedia.org/wiki/%E6%B7%B1%E3%81%95%E5%88%B6%E9%99%90%E6%8E%A2%E7%B4%A2" title="ja:深さ制限探索"><span dir="auto" lang="ja">深さ制限探索</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E5%8F%8C%E5%90%91%E6%90%9C%E7%B4%A2" title="双向搜索">双向搜索</a></li></ul></li>
+<li><span class="ilh-all" data-foreign-title="Branch and bound" data-lang-code="en" data-lang-name="英语" data-orig-title="分枝限定法"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%88%86%E6%9E%9D%E9%99%90%E5%AE%9A%E6%B3%95&amp;action=edit&amp;redlink=1" title="分枝限定法（页面不存在）">分枝限定法</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Branch_and_bound" title="en:Branch and bound"><span dir="auto" lang="en">Branch and bound</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%AD%97%E7%AC%A6%E4%B8%B2" title="字符串">字符串</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/KMP%E7%AE%97%E6%B3%95" title="KMP算法">KMP算法</a></li>
+<li><a href="/wiki/%E5%8D%9A%E8%80%B6-%E7%A9%86%E5%B0%94%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95" title="博耶-穆尔字符串搜索算法">博耶-穆尔字符串搜索算法</a></li>
+<li><a href="/wiki/AC%E8%87%AA%E5%8A%A8%E6%9C%BA%E7%AE%97%E6%B3%95" title="AC自动机算法">AC自动机算法</a></li>
+<li><a href="/wiki/%E6%8B%89%E5%AE%BE-%E5%8D%A1%E6%99%AE%E7%AE%97%E6%B3%95" title="拉宾-卡普算法">拉宾-卡普算法</a></li>
+<li><a href="/wiki/Bitap%E7%AE%97%E6%B3%95" title="Bitap算法">bitap算法</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%9C%80%E7%9F%AD%E8%B7%AF%E9%97%AE%E9%A2%98" title="最短路问题">最短路问题</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%88%B4%E5%85%8B%E6%96%AF%E7%89%B9%E6%8B%89%E7%AE%97%E6%B3%95" title="戴克斯特拉算法">戴克斯特拉算法</a></li>
+<li><a href="/wiki/%E8%B4%9D%E5%B0%94%E6%9B%BC-%E7%A6%8F%E7%89%B9%E7%AE%97%E6%B3%95" title="贝尔曼-福特算法">贝尔曼-福特算法</a></li>
+<li><a href="/wiki/A*%E6%90%9C%E5%B0%8B%E6%BC%94%E7%AE%97%E6%B3%95" title="A*搜寻演算法">A*搜寻演算法</a></li>
+<li><a href="/wiki/Floyd-Warshall%E7%AE%97%E6%B3%95" title="Floyd-Warshall算法">Floyd-Warshall算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91" title="最小生成树">最小生成树</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%99%AE%E6%9E%97%E5%A7%86%E7%AE%97%E6%B3%95" title="普林姆算法">普林姆算法</a></li>
+<li><a href="/wiki/%E5%85%8B%E9%B2%81%E6%96%AF%E5%85%8B%E5%B0%94%E6%BC%94%E7%AE%97%E6%B3%95" title="克鲁斯克尔演算法">克鲁斯克尔演算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a class="mw-redirect" href="/wiki/%E6%9C%80%E5%A4%A7%E6%B5%81" title="最大流">最大流</a><br/><a href="/wiki/%E6%9C%80%E5%B0%8F%E5%89%B2" title="最小割">最小割</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A6%8F%E7%89%B9-%E5%AF%8C%E5%B0%94%E5%85%8B%E6%A3%AE%E7%AE%97%E6%B3%95" title="福特-富尔克森算法">福特-富尔克森算法</a></li>
+<li><a href="/wiki/%E5%9F%83%E5%BE%B7%E8%92%99%E5%85%B9-%E5%8D%A1%E6%99%AE%E7%AE%97%E6%B3%95" title="埃德蒙兹-卡普算法">埃德蒙兹-卡普算法</a></li>
+<li><a href="/wiki/%E8%BF%AA%E5%B0%BC%E8%8C%A8%E7%AE%97%E6%B3%95" title="迪尼茨算法">迪尼茨算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%BA%BF%E6%80%A7%E8%A7%84%E5%88%92" title="线性规划">线性规划</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%8D%95%E7%BA%AF%E5%BD%A2%E6%B3%95" title="单纯形法">单纯形法</a></li>
+<li><span class="ilh-all" data-foreign-title="Karmarkar's algorithm" data-lang-code="en" data-lang-name="英语" data-orig-title="卡马卡尔算法"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%8D%A1%E9%A9%AC%E5%8D%A1%E5%B0%94%E7%AE%97%E6%B3%95&amp;action=edit&amp;redlink=1" title="卡马卡尔算法（页面不存在）">卡马卡尔算法</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Karmarkar%27s_algorithm" title="en:Karmarkar's algorithm"><span dir="auto" lang="en">Karmarkar's algorithm</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E9%A1%BA%E5%BA%8F%E7%BB%9F%E8%AE%A1%E9%87%8F" title="顺序统计量">顺序统计量</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%80%89%E6%8B%A9%E7%AE%97%E6%B3%95" title="选择算法">选择算法</a></li>
+<li><span class="ilh-all" data-foreign-title="Median of medians" data-lang-code="en" data-lang-name="英语" data-orig-title="中位数的中位数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%AD%E4%BD%8D%E6%95%B0%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0&amp;action=edit&amp;redlink=1" title="中位数的中位数（页面不存在）">中位数的中位数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Median_of_medians" title="en:Median of medians"><span dir="auto" lang="en">Median of medians</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">种类</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%BF%91%E4%BC%BC%E7%AE%97%E6%B3%95" title="近似算法">近似算法</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机化算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其他</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%88%86%E6%B2%BB%E6%B3%95" title="分治法">分治法</a></li>
+<li><a href="/wiki/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92" title="动态规划">动态规划</a></li>
+<li><a href="/wiki/%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95" title="贪心算法">贪心算法</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><b><a href="/wiki/Category:%E7%AE%97%E6%B3%95" title="Category:算法">Category:算法</a></b></div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="Template:电脑科学"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="Template talk:电脑科学"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a>的主要领域</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>注：该模板大致遵循<a href="/wiki/ACM_%E7%94%B5%E8%84%91%E5%88%86%E7%B1%BB%E7%B3%BB%E7%BB%9F" title="ACM 电脑分类系统">ACM 电脑分类系统</a>。</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A1%AC%E4%BB%B6" title="计算机硬件">计算机硬件</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E5%8D%B0%E5%88%B7%E7%94%B5%E8%B7%AF%E6%9D%BF" title="印刷电路板">印刷电路板</a></li>
+<li><a href="/wiki/%E5%A4%96%E9%83%A8%E8%AE%BE%E5%A4%87" title="外部设备">外部设备</a></li>
+<li><a href="/wiki/%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF" title="集成电路">集成电路</a></li>
+<li><a href="/wiki/%E8%B6%85%E5%A4%A7%E8%A7%84%E6%A8%A1%E9%9B%86%E6%88%90%E7%94%B5%E8%B7%AF" title="超大规模集成电路">超大规模集成电路</a></li>
+<li><a href="/wiki/%E7%BB%BF%E8%89%B2%E8%AE%A1%E7%AE%97" title="绿色计算">绿色计算</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%AD%90%E8%A8%AD%E8%A8%88%E8%87%AA%E5%8B%95%E5%8C%96" title="电子设计自动化">电子设计自动化</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%B3%BB%E7%BB%9F%E6%9E%B6%E6%9E%84" title="系统架构">系统架构</a>组织</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E7%BB%93%E6%9E%84" title="计算机系统结构">电脑系统架构</a></li>
+<li><a href="/wiki/%E5%B5%8C%E5%85%A5%E5%BC%8F%E7%B3%BB%E7%BB%9F" title="嵌入式系统">嵌入式系统</a></li>
+<li><a href="/wiki/%E5%AE%9E%E6%97%B6%E8%AE%A1%E7%AE%97" title="实时计算">实时计算</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C" title="计算机网络">网络</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BD%91%E7%BB%9C%E4%BC%A0%E8%BE%93%E5%8D%8F%E8%AE%AE" title="网络传输协议">网络传输协议</a></li>
+<li><a href="/wiki/%E8%B7%AF%E7%94%B1" title="路由">路由</a></li>
+<li><a href="/wiki/%E7%BD%91%E7%BB%9C%E6%8B%93%E6%89%91" title="网络拓扑">网络拓扑</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1" title="网络服务">网络服务</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">软件组织</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B4%E8%AD%AF%E5%99%A8" title="直译器">直译器</a></li>
+<li><a href="/wiki/%E4%B8%AD%E9%97%B4%E4%BB%B6" title="中间件">中间件</a></li>
+<li><a href="/wiki/%E8%99%9B%E6%93%AC%E6%A9%9F%E5%99%A8" title="虚拟机器">虚拟机器</a></li>
+<li><a href="/wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F" title="操作系统">操作系统</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F" title="软件质量">软件质量</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80%E7%90%86%E8%AB%96" title="程式语言理论">软件符号</a>和<a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7" title="软件开发工具">工具</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BC%96%E7%A8%8B%E8%8C%83%E5%9E%8B" title="编程范型">编程范型</a></li>
+<li><a href="/wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80" title="编程语言">编程语言</a></li>
+<li><a href="/wiki/%E7%B7%A8%E8%AD%AF%E5%99%A8" title="编译器">编译器</a></li>
+<li><a href="/wiki/%E9%A2%86%E5%9F%9F%E7%89%B9%E5%AE%9A%E8%AF%AD%E8%A8%80" title="领域特定语言">领域特定语言</a></li>
+<li><a href="/wiki/%E8%BB%9F%E9%AB%94%E6%A1%86%E6%9E%B6" title="软体框架">软体框架</a></li>
+<li><a href="/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83" title="集成开发环境">集成开发环境</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E9%85%8D%E7%BD%AE%E7%AE%A1%E7%90%86" title="软件配置管理">软件配置管理</a></li>
+<li><a href="/wiki/%E5%87%BD%E5%BC%8F%E5%BA%AB" title="函式库">函式库</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91" title="软件开发">软件开发</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B" title="软件开发过程">软件开发过程</a></li>
+<li><a href="/wiki/%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90" title="需求分析">需求分析</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1" title="软件设计">软件设计</a></li>
+<li><a href="/wiki/%E8%BD%AF%E4%BB%B6%E9%83%A8%E7%BD%B2" title="软件部署">软件部署</a></li>
+<li><a href="/wiki/%E8%BB%9F%E9%AB%94%E7%B6%AD%E8%AD%B7" title="软体维护">软体维护</a></li>
+<li><a href="/wiki/%E5%BC%80%E6%BA%90%E8%BD%AF%E4%BB%B6" title="开源软件">开源模式</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA" title="计算理论">计算理论</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E8%87%AA%E5%8A%A8%E6%9C%BA" title="自动机">自动机</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7" title="可计算性">可计算性理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AE%A1%E7%AE%97%E5%A4%8D%E6%9D%82%E6%80%A7%E7%90%86%E8%AE%BA" title="计算复杂性理论">计算复杂性理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%87%8F%E5%AD%90%E8%AE%A1%E7%AE%97" title="量子计算">量子计算</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%95%B0%E5%80%BC%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95" title="数值计算方法">数值计算方法</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%BB%E8%BE%91" title="计算机逻辑">计算机逻辑</a></li>
+<li><a href="/wiki/%E5%BD%A2%E5%BC%8F%E8%AF%AD%E4%B9%89%E5%AD%A6" title="形式语义学">形式语义学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a class="mw-selflink selflink">算法</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90" title="算法分析">算法分析</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1" title="算法设计">算法设计</a></li>
+<li><a href="/wiki/%E7%AE%97%E6%B3%95%E6%95%88%E7%8E%87" title="算法效率">算法效率</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8C%96%E7%AE%97%E6%B3%95" title="随机化算法">随机化算法</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%87%A0%E4%BD%95" title="计算几何">计算几何</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">计算数学</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6" title="离散数学">离散数学</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BF%A1%E6%81%AF%E4%B8%8E%E8%AE%A1%E7%AE%97%E7%A7%91%E5%AD%A6" title="信息与计算科学">信息与计算科学</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E8%BD%AF%E4%BB%B6" title="数学软件">数学软件</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li>
+<li><a href="/wiki/%E6%95%B0%E8%AE%BA" title="数论">数论</a></li>
+<li><a href="/wiki/%E5%9B%BE%E8%AE%BA" title="图论">图论</a></li>
+<li><a href="/wiki/%E7%B1%BB%E5%9E%8B%E8%AE%BA" title="类型论">类型论</a></li>
+<li><a href="/wiki/%E8%8C%83%E7%95%B4%E8%AE%BA" title="范畴论">范畴论</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90" title="数值分析">数值分析</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90" title="数学分析">数学分析</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F" title="信息系统">信息系统</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F" title="数据库管理系统">数据库管理系统</a></li>
+<li><a href="/wiki/%E9%9B%BB%E8%85%A6%E6%95%B8%E6%93%9A%E5%AD%98%E8%B2%AF%E5%99%A8" title="电脑数据存贮器">电脑数据</a></li>
+<li><span class="ilh-all" data-foreign-title="Enterprise information system" data-lang-code="en" data-lang-name="英语" data-orig-title="企业信息系统"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BC%81%E4%B8%9A%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F&amp;action=edit&amp;redlink=1" title="企业信息系统（页面不存在）">企业信息系统</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Enterprise_information_system" title="en:Enterprise information system"><span dir="auto" lang="en">Enterprise information system</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E7%A4%BE%E4%BC%9A%E6%80%A7%E8%BD%AF%E4%BB%B6" title="社会性软件">社会性软件</a></li>
+<li><a href="/wiki/%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F" title="地理信息系统">地理信息系统</a></li>
+<li><a href="/wiki/%E5%86%B3%E7%AD%96%E6%94%AF%E6%8C%81%E7%B3%BB%E7%BB%9F" title="决策支持系统">决策支持系统</a></li>
+<li><a href="/wiki/%E8%BF%87%E7%A8%8B%E6%8E%A7%E5%88%B6" title="过程控制">过程控制</a></li>
+<li><a href="/wiki/%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98" title="数据挖掘">数据挖掘</a></li>
+<li><a href="/wiki/%E6%95%B8%E4%BD%8D%E5%9C%96%E6%9B%B8%E9%A4%A8" title="数位图书馆">数位图书馆</a></li>
+<li><a href="/wiki/%E7%B3%BB%E7%BB%9F%E5%B9%B3%E5%8F%B0" title="系统平台">系统平台</a></li>
+<li><a href="/wiki/%E6%95%B8%E4%BD%8D%E8%A1%8C%E9%8A%B7" title="数位行销">数位行销</a></li>
+<li><a href="/wiki/%E4%B8%87%E7%BB%B4%E7%BD%91" title="万维网">万维网</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E6%AA%A2%E7%B4%A2" title="信息检索">信息检索</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8" title="计算机安全">安全</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%AF%86%E7%A0%81%E5%AD%A6" title="密码学">密码学</a></li>
+<li><a href="/wiki/%E5%BD%A2%E5%BC%8F%E5%8C%96%E6%96%B9%E6%B3%95" title="形式化方法">形式化方法</a></li>
+<li><a href="/wiki/%E5%85%A5%E4%BE%B5%E6%A3%80%E6%B5%8B%E7%B3%BB%E7%BB%9F" title="入侵检测系统">入侵检测系统</a></li>
+<li><a href="/wiki/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8" title="网络安全">网络安全</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8" title="信息安全">信息安全</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BA%BA%E6%9C%BA%E4%BA%A4%E4%BA%92" title="人机交互">人机交互</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BE%85%E5%8A%A9%E5%8A%9F%E8%83%BD" title="计算机辅助功能">计算机辅助功能</a></li>
+<li><a href="/wiki/%E7%94%A8%E6%88%B7%E7%95%8C%E9%9D%A2" title="用户界面">用户界面</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%8F%AF%E7%A9%BF%E6%88%B4%E8%AE%A1%E7%AE%97%E6%9C%BA" title="可穿戴计算机">可穿戴计算机</a></li>
+<li><a href="/wiki/%E6%99%AE%E9%80%82%E8%AE%A1%E7%AE%97" title="普适计算">普适计算</a></li>
+<li><a href="/wiki/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E" title="虚拟现实">虚拟现实</a></li>
+<li><a href="/wiki/%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA" title="聊天机器人">聊天机器人</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%B9%B6%E5%8F%91%E6%80%A7" title="并发性">并发性</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%B9%B6%E5%8F%91%E8%AE%A1%E7%AE%97" title="并发计算">并发计算</a></li>
+<li><a href="/wiki/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97" title="并行计算">并行计算</a></li>
+<li><a href="/wiki/%E5%88%86%E5%B8%83%E5%BC%8F%E8%AE%A1%E7%AE%97" title="分布式计算">分布式计算</a></li>
+<li><a href="/wiki/%E5%A4%9A%E7%BA%BF%E7%A8%8B" title="多线程">多线程</a></li>
+<li><a href="/wiki/%E5%A4%9A%E5%85%83%E8%99%95%E7%90%86" title="多元处理">多元处理</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD" title="人工智能">人工智能</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%87%AA%E5%8A%A8%E6%8E%A8%E7%90%86" title="自动推理">自动推理</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E8%AF%AD%E8%A8%80%E5%AD%A6" title="计算语言学">计算语言学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89" title="计算机视觉">计算机视觉</a></li>
+<li><a href="/wiki/%E8%BF%9B%E5%8C%96%E8%AE%A1%E7%AE%97" title="进化计算">进化计算</a></li>
+<li><a href="/wiki/%E4%B8%93%E5%AE%B6%E7%B3%BB%E7%BB%9F" title="专家系统">专家系统</a></li>
+<li><a href="/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86" title="自然语言处理">自然语言处理</a></li>
+<li><a href="/wiki/%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%AD%A6" title="机器人学">机器人学</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E7%9B%A3%E7%9D%A3%E5%BC%8F%E5%AD%B8%E7%BF%92" title="监督式学习">监督式学习</a></li>
+<li><a href="/wiki/%E7%84%A1%E7%9B%A3%E7%9D%A3%E5%AD%B8%E7%BF%92" title="无监督学习">无监督学习</a></li>
+<li><a href="/wiki/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0" title="强化学习">强化学习</a></li>
+<li><a href="/wiki/%E4%BA%A4%E5%8F%89%E9%A9%97%E8%AD%89" title="交叉验证">交叉验证</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6" title="计算机图形学">计算机图形学</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%8A%A8%E7%94%BB" title="计算机动画">计算机动画</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%8F%AF%E8%A7%86%E5%8C%96_(%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6)&amp;action=edit&amp;redlink=1" title="可视化 (计算机图形学)（页面不存在）">可视化</a></li>
+<li><a href="/wiki/%E6%B8%B2%E6%9F%93" title="渲染">渲染</a></li>
+<li><a href="/wiki/%E4%BF%AE%E9%A3%BE%E7%85%A7%E7%89%87" title="修饰照片">修饰照片</a></li>
+<li><a href="/wiki/%E5%9C%96%E5%BD%A2%E8%99%95%E7%90%86%E5%99%A8" title="图形处理器">图形处理器</a></li>
+<li><a href="/wiki/%E6%B7%B7%E5%90%88%E7%8E%B0%E5%AE%9E" title="混合现实">混合现实</a></li>
+<li><a href="/wiki/%E8%99%9A%E6%8B%9F%E7%8E%B0%E5%AE%9E" title="虚拟现实">虚拟现实</a></li>
+<li><a href="/wiki/%E5%9B%BE%E5%83%8F%E5%A4%84%E7%90%86" title="图像处理">图像处理</a></li>
+<li><a href="/wiki/%E5%9B%BE%E5%83%8F%E5%8E%8B%E7%BC%A9" title="图像压缩">图像压缩</a></li>
+<li><a href="/wiki/%E5%AE%9E%E4%BD%93%E9%80%A0%E5%9E%8B" title="实体造型">实体造型</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">应用计算</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1" title="电子商务">电子商务</a></li>
+<li><a href="/wiki/%E4%BC%81%E4%B8%9A%E7%BA%A7%E8%BD%AF%E4%BB%B6" title="企业级软件">企业级软件</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AE%A1%E7%AE%97%E6%95%B0%E5%AD%A6" title="计算数学">计算数学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%89%A9%E7%90%86%E5%AD%A6" title="计算物理学">计算物理学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6" title="计算化学">计算化学</a></li>
+<li><a href="/wiki/%E8%AE%A1%E7%AE%97%E7%94%9F%E7%89%A9%E5%AD%A6" title="计算生物学">计算生物学</a></li>
+<li><a href="/wiki/%E8%A8%88%E7%AE%97%E7%A4%BE%E6%9C%83%E7%A7%91%E5%AD%B8" title="计算社会科学">计算社会科学</a></li>
+<li><a href="/wiki/%E5%8C%BB%E5%AD%A6%E4%BF%A1%E6%81%AF%E5%AD%A6" title="医学信息学">医学信息学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%97%E8%89%BA%E6%9C%AF" title="数字艺术">数字艺术</a></li>
+<li><a href="/wiki/%E9%9B%BB%E5%AD%90%E5%87%BA%E7%89%88" title="电子出版">电子出版</a></li>
+<li><a href="/wiki/%E7%B6%B2%E7%B5%A1%E6%88%B0" title="网络战">网络战</a></li>
+<li><a href="/wiki/%E7%94%B5%E5%AD%90%E6%B8%B8%E6%88%8F" title="电子游戏">电子游戏</a></li>
+<li><a href="/wiki/%E6%96%87%E5%AD%97%E5%A4%84%E7%90%86%E5%99%A8" title="文字处理器">文字处理器</a></li>
+<li><a href="/wiki/%E9%81%8B%E7%B1%8C%E5%AD%B8" title="运筹学">运筹学</a></li>
+<li><a href="/wiki/%E6%95%99%E8%82%B2%E6%8A%80%E6%9C%AF%E5%AD%A6" title="教育技术学">教育技术学</a></li>
+<li><a href="/wiki/%E7%94%9F%E7%89%A9%E4%BF%A1%E6%81%AF%E5%AD%A6" title="生物信息学">生物信息学</a></li>
+<li><a href="/wiki/%E8%AE%A4%E7%9F%A5%E7%A7%91%E5%AD%A6" title="认知科学">认知科学</a></li>
+<li><span class="ilh-all" data-foreign-title="Document management system" data-lang-code="en" data-lang-name="英语" data-orig-title="文件管理系统"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F&amp;action=edit&amp;redlink=1" title="文件管理系统（页面不存在）">文件管理系统</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Document_management_system" title="en:Document management system"><span dir="auto" lang="en">Document management system</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div>
+<ul><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/> <b><a href="/wiki/Category:%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="Category:计算机科学">分类</a></b></li>
+<li><img alt="主题" data-file-height="28" data-file-width="32" decoding="async" height="14" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/16px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/24px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png 2x" title="主题" width="16"/> <b><a href="/wiki/Portal:%E8%B3%87%E8%A8%8A%E7%A7%91%E6%8A%80" title="Portal:资讯科技">主题</a></b></li>
+<li><img alt="专题" data-file-height="100" data-file-width="100" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/16px-People_icon.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/24px-People_icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/37/People_icon.svg/32px-People_icon.svg.png 2x" title="专题" width="16"/><b><a href="/wiki/WikiProject:%E7%94%B5%E8%84%91%E5%92%8C%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF" title="WikiProject:电脑和信息技术">专题</a></b></li>
+<li><img alt="共享资源页面" data-file-height="1376" data-file-width="1024" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/18px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Commons-logo.svg/24px-Commons-logo.svg.png 2x" title="共享资源页面" width="12"/> <b><a class="extiw" href="https://commons.wikimedia.org/wiki/Category:Computer_science" title="commons:Category:Computer science">维基共享</a></b></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q8366" title="编辑维基数据链接"><img alt="编辑维基数据链接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E8%97%9D%E8%A1%93%E8%88%87%E5%BB%BA%E7%AF%89%E7%B4%A2%E5%BC%95%E5%85%B8" title="艺术与建筑索引典">AAT</a>: <span class="uid"><a class="external text" href="http://vocab.getty.edu/page/aat/300065585" rel="nofollow">300065585</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E8%A5%BF%E7%8F%AD%E7%89%99%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="西班牙国家图书馆">BNE</a>: <span class="uid"><a class="external text" href="http://catalogo.bne.es/uhtbin/authoritybrowse.cgi?action=display&amp;authority_id=XX527980" rel="nofollow">XX527980</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%B3%95%E5%9B%BD%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="法国国家图书馆">BNF</a>: <span class="uid"><a class="external text" href="http://catalogue.bnf.fr/ark:/12148/cb119358199" rel="nofollow">cb119358199</a> <a class="external text" href="http://data.bnf.fr/ark:/12148/cb119358199" rel="nofollow">(data)</a></span></span></li>
+<li><span class="nowrap"><a class="extiw" href="https://www.wikidata.org/wiki/Property:P2163" title="d:Property:P2163">FAST</a>: <span class="uid"><a class="external text" href="//experimental.worldcat.org/fast/805020" rel="nofollow">805020</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4001183-5" rel="nofollow">4001183-5</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E4%BC%9A%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%A7%E5%88%B6%E5%8F%B7" title="美国国会图书馆控制号">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh85003487" rel="nofollow">sh85003487</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E5%9C%8B%E7%AB%8B%E5%9C%8B%E6%9C%83%E5%9C%96%E6%9B%B8%E9%A4%A8" title="国立国会图书馆">NDL</a>: <span class="uid"><a class="external text" href="https://id.ndl.go.jp/auth/ndlna/00560337" rel="nofollow">00560337</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8D%B7%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="捷克国家图书馆">NKC</a>: <span class="uid"><a class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph114026&amp;CON_LNG=ENG" rel="nofollow">ph114026</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1416
+Cached time: 20221004202128
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.645 seconds
+Real time usage: 0.855 seconds
+Preprocessor visited node count: 4041/1000000
+Post‐expand include size: 311751/2097152 bytes
+Template argument size: 2996/2097152 bytes
+Highest expansion depth: 30/100
+Expensive parser function count: 35/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 20652/5000000 bytes
+Lua time usage: 0.295/10.000 seconds
+Lua memory usage: 22339525/52428800 bytes
+Number of Wikibase entities loaded: 7/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  568.280      1 -total
+ 17.45%   99.138      1 Template:Reflist
+ 17.11%   97.226      1 Template:Lang-en
+ 12.59%   71.532      1 Template:Wikisource_further_reading
+ 10.23%   58.110      4 Template:Navbox
+ 10.13%   57.590      7 Template:Category_handler
+  8.79%   49.980      1 Template:NoteTA
+  8.34%   47.416      4 Template:Cite_book
+  8.01%   45.498      1 Template:Copy_edit
+  6.38%   36.277     14 Template:Link-en
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:2672-0!canonical!zh and timestamp 20221004202128 and revision id 72368886.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=算法&amp;oldid=72368886">https://zh.wikipedia.org/w/index.php?title=算法&amp;oldid=72368886</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E7%AE%97%E6%B3%95" title="Category:算法">算法</a></li><li><a href="/wiki/Category:%E4%BB%A3%E6%95%B0" title="Category:代数">代数</a></li><li><a href="/wiki/Category:%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="Category:计算机科学">计算机科学</a></li><li><a href="/wiki/Category:%E7%90%86%E8%AE%BA%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="Category:理论计算机科学">理论计算机科学</a></li><li><a href="/wiki/Category:%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3" title="Category:问题解决">问题解决</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%BF%87%E6%97%B6%E5%8F%82%E6%95%B0%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有过时参数的引用的页面">含有过时参数的引用的页面</a></li><li><a href="/wiki/Category:%E8%87%AA2018%E5%B9%B411%E6%9C%88%E5%B8%A6%E6%9C%89%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:自2018年11月带有失效链接的条目">自2018年11月带有失效链接的条目</a></li><li><a href="/wiki/Category:%E6%9D%A1%E7%9B%AE%E6%9C%89%E6%B0%B8%E4%B9%85%E5%A4%B1%E6%95%88%E7%9A%84%E5%A4%96%E9%83%A8%E9%93%BE%E6%8E%A5" title="Category:条目有永久失效的外部链接">条目有永久失效的外部链接</a></li><li><a href="/wiki/Category:%E8%87%AA2020%E5%B9%B41%E6%9C%88%E5%B8%A6%E6%9C%89%E5%A4%B1%E6%95%88%E9%93%BE%E6%8E%A5%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:自2020年1月带有失效链接的条目">自2020年1月带有失效链接的条目</a></li><li><a href="/wiki/Category:%E9%9C%80%E8%A6%81%E6%A0%A1%E5%B0%8D%E7%9A%84%E9%A0%81%E9%9D%A2" title="Category:需要校对的页面">需要校对的页面</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%8B%B1%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有英语的条目">含有英语的条目</a></li><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E6%B3%A2%E6%96%AF%E8%AA%9E%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:含有波斯语的条目">含有波斯语的条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABAAT%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含AAT标识符的维基百科条目">包含AAT标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNE%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNE标识符的维基百科条目">包含BNE标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABBNF%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含BNF标识符的维基百科条目">包含BNF标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABFAST%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含FAST标识符的维基百科条目">包含FAST标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLCCN%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LCCN标识符的维基百科条目">包含LCCN标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNDL%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NDL标识符的维基百科条目">包含NDL标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNKC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NKC标识符的维基百科条目">包含NKC标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%B8%A6%E6%9C%89%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:带有代码示例的条目">带有代码示例的条目</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E7%AE%97%E6%B3%95" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E7%AE%97%E6%B3%95" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E7%AE%97%E6%B3%95" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E7%AE%97%E6%B3%95" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E7%AE%97%E6%B3%95" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E7%AE%97%E6%B3%95" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E7%AE%97%E6%B3%95" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E7%AE%97%E6%B3%95" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E7%AE%97%E6%B3%95" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E7%AE%97%E6%B3%95"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E7%AE%97%E6%B3%95" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E7%AE%97%E6%B3%95" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;oldid=72368886" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E7%AE%97%E6%B3%95&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E7%AE%97%E6%B3%95&amp;id=72368886&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q8366" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E7%AE%97%E6%B3%95&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Algorithms" hreflang="en"><span>维基共享资源</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Algoritme" hreflang="af" lang="af" title="Algoritme – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Algorithmus" hreflang="gsw" lang="gsw" title="Algorithmus – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8A%A0%E1%88%8D%E1%8C%8E%E1%88%AA%E1%8B%9D%E1%88%9D" hreflang="am" lang="am" title="አልጎሪዝም – 阿姆哈拉语"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Algorismo" hreflang="an" lang="an" title="Algorismo – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%AE%D9%88%D8%A7%D8%B1%D8%B2%D9%85%D9%8A%D8%A9" hreflang="ar" lang="ar" title="خوارزمية – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a class="interlanguage-link-target" href="https://arz.wikipedia.org/wiki/%D8%A7%D9%84%D8%AC%D9%88%D8%B1%D9%8A%D8%B2%D9%85" hreflang="arz" lang="arz" title="الجوريزم – 埃及阿拉伯文"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%8F%E0%A6%B2%E0%A6%97%E0%A7%B0%E0%A6%BF%E0%A6%A5%E0%A6%AE_%E0%A6%86%E0%A7%B0%E0%A7%81_%E0%A6%A1%E0%A7%87%E0%A6%87%E0%A6%9F%E0%A6%BE_%E0%A6%B7%E0%A7%8D%E0%A6%9F%E0%A7%8D%E0%A7%B0%E0%A6%BE%E0%A6%95%E0%A6%9A%E0%A6%BE%E0%A7%B0" hreflang="as" lang="as" title="এলগৰিথম আৰু ডেইটা ষ্ট্ৰাকচাৰ – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Algoritmu" hreflang="ast" lang="ast" title="Algoritmu – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Alqoritm" hreflang="az" lang="az" title="Alqoritm – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%A7%D9%84%D9%82%D9%88%D8%B1%DB%8C%D8%AA%D9%85" hreflang="azb" lang="azb" title="القوریتم – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="ba" lang="ba" title="Алгоритм – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bcl mw-list-item"><a class="interlanguage-link-target" href="https://bcl.wikipedia.org/wiki/Algoritmo" hreflang="bcl" lang="bcl" title="Algoritmo – Central Bikol"><span>Bikol Central</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%B0%D1%80%D1%8B%D1%82%D0%BC" hreflang="be" lang="be" title="Алгарытм – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%90%D0%BB%D1%8C%D0%B3%D0%B0%D1%80%D1%8B%D1%82%D0%BC" hreflang="be-tarask" lang="be-tarask" title="Альгарытм – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D1%8A%D0%BC" hreflang="bg" lang="bg" title="Алгоритъм – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%B2%E0%A6%97%E0%A6%B0%E0%A6%BF%E0%A6%A6%E0%A6%AE" hreflang="bn" lang="bn" title="অ্যালগরিদম – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Algoritm" hreflang="br" lang="br" title="Algoritm – 布列塔尼语"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Algoritam" hreflang="bs" lang="bs" title="Algoritam – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Algorisme" hreflang="ca" lang="ca" title="Algorisme – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%A6%DB%95%D9%84%DA%AF%DB%86%D8%B1%DB%8C%D8%AA%D9%85" hreflang="ckb" lang="ckb" title="ئەلگۆریتم – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Algoritmus" hreflang="cs" lang="cs" title="Algoritmus – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cu mw-list-item"><a class="interlanguage-link-target" href="https://cu.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D1%B7%D1%B3%D0%BC%D1%8A" hreflang="cu" lang="cu" title="Алгорѷѳмъ – 教会斯拉夫语"><span>Словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Algorithm" hreflang="cy" lang="cy" title="Algorithm – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Algoritme" hreflang="da" lang="da" title="Algoritme – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Algorithmus" hreflang="de" lang="de" title="Algorithmus – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-diq mw-list-item"><a class="interlanguage-link-target" href="https://diq.wikipedia.org/wiki/Algoritma" hreflang="diq" lang="diq" title="Algoritma – Zazaki"><span>Zazaki</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%91%CE%BB%CE%B3%CF%8C%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CF%82" hreflang="el" lang="el" title="Αλγόριθμος – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Algorithm" hreflang="en" lang="en" title="Algorithm – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Algoritmo" hreflang="eo" lang="eo" title="Algoritmo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Algoritmo" hreflang="es" lang="es" title="Algoritmo – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Algoritm" hreflang="et" lang="et" title="Algoritm – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Algoritmo" hreflang="eu" lang="eu" title="Algoritmo – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%D8%B1%DB%8C%D8%AA%D9%85" hreflang="fa" lang="fa" title="الگوریتم – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Algoritmi" hreflang="fi" lang="fi" title="Algoritmi – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Algoritma" hreflang="fo" lang="fo" title="Algoritma – 法罗语"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Algorithme" hreflang="fr" lang="fr" title="Algorithme – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Algoritmus" hreflang="frr" lang="frr" title="Algoritmus – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Algartam" hreflang="ga" lang="ga" title="Algartam – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Algoritm" hreflang="gcr" lang="gcr" title="Algoritm – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Algoritmo" hreflang="gl" lang="gl" title="Algoritmo – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%95%D7%A8%D7%99%D7%AA%D7%9D" hreflang="he" lang="he" title="אלגוריתם – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AE" hreflang="hi" lang="hi" title="अल्गोरिद्म – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Algoritam" hreflang="hr" lang="hr" title="Algoritam – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Algoritmus" hreflang="hu" lang="hu" title="Algoritmus – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B1%D5%AC%D5%A3%D5%B8%D6%80%D5%AB%D5%A9%D5%B4" hreflang="hy" lang="hy" title="Ալգորիթմ – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Algorithmo" hreflang="ia" lang="ia" title="Algorithmo – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Algoritma" hreflang="id" lang="id" title="Algoritma – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a class="interlanguage-link-target" href="https://ilo.wikipedia.org/wiki/Algoritmo" hreflang="ilo" lang="ilo" title="Algoritmo – 伊洛卡诺语"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Algoritmo" hreflang="io" lang="io" title="Algoritmo – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/Reiknirit" hreflang="is" lang="is" title="Reiknirit – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Algoritmo" hreflang="it" lang="it" title="Algoritmo – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AB%E3%82%B4%E3%83%AA%E3%82%BA%E3%83%A0" hreflang="ja" lang="ja" title="アルゴリズム – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%92%E1%83%9D%E1%83%A0%E1%83%98%E1%83%97%E1%83%9B%E1%83%98" hreflang="ka" lang="ka" title="ალგორითმი – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a class="interlanguage-link-target" href="https://kaa.wikipedia.org/wiki/Algoritm" hreflang="kaa" lang="kaa" title="Algoritm – 卡拉卡尔帕克语"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-ki mw-list-item"><a class="interlanguage-link-target" href="https://ki.wikipedia.org/wiki/Algorithm" hreflang="ki" lang="ki" title="Algorithm – 吉库尤语"><span>Gĩkũyũ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="kk" lang="kk" title="Алгоритм – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%86%E0%B2%B2%E0%B3%8D%E0%B2%97%E0%B2%BE%E0%B2%B0%E0%B2%BF%E0%B2%A4%E0%B2%82" hreflang="kn" lang="kn" title="ಆಲ್ಗಾರಿತಂ – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" hreflang="ko" lang="ko" title="알고리즘 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a class="interlanguage-link-target" href="https://ku.wikipedia.org/wiki/Algor%C3%AEtma" hreflang="ku" lang="ku" title="Algorîtma – 库尔德语"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="ky" lang="ky" title="Алгоритм – 柯尔克孜语"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Algorithmus" hreflang="la" lang="la" title="Algorithmus – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Algorithmus" hreflang="lb" lang="lb" title="Algorithmus – 卢森堡语"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Algoritmo" hreflang="lfn" lang="lfn" title="Algoritmo – 新共同语言"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/Algoritm" hreflang="lmo" lang="lmo" title="Algoritm – 伦巴底文"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a class="interlanguage-link-target" href="https://lo.wikipedia.org/wiki/%E0%BA%82%E0%BA%B1%E0%BB%89%E0%BA%99%E0%BA%95%E0%BA%AD%E0%BA%99%E0%BA%A7%E0%BA%B4%E0%BA%97%E0%BA%B5" hreflang="lo" lang="lo" title="ຂັ້ນຕອນວິທີ – 老挝语"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Algoritmas" hreflang="lt" lang="lt" title="Algoritmas – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Algoritms" hreflang="lv" lang="lv" title="Algoritms – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mhr mw-list-item"><a class="interlanguage-link-target" href="https://mhr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="mhr" lang="mhr" title="Алгоритм – Eastern Mari"><span>Олык марий</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%B0%D0%BC" hreflang="mk" lang="mk" title="Алгоритам – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%85%E0%B5%BD%E0%B4%97%E0%B5%8A%E0%B4%B0%E0%B4%BF%E0%B4%A4%E0%B4%82" hreflang="ml" lang="ml" title="അൽഗൊരിതം – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="mn" lang="mn" title="Алгоритм – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%A6%E0%A4%AE" hreflang="mr" lang="mr" title="अल्गोरिदम – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Algoritma" hreflang="ms" lang="ms" title="Algoritma – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mwl mw-list-item"><a class="interlanguage-link-target" href="https://mwl.wikipedia.org/wiki/Algoritmo" hreflang="mwl" lang="mwl" title="Algoritmo – 米兰德斯语"><span>Mirandés</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%A1%E1%80%86%E1%80%84%E1%80%B7%E1%80%BA%E1%80%86%E1%80%84%E1%80%B7%E1%80%BA%E1%80%90%E1%80%BD%E1%80%80%E1%80%BA%E1%80%94%E1%80%8A%E1%80%BA%E1%80%B8" hreflang="my" lang="my" title="အဆင့်ဆင့်တွက်နည်း – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%A6%E0%A4%AE" hreflang="ne" lang="ne" title="अल्गोरिदम – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a class="interlanguage-link-target" href="https://new.wikipedia.org/wiki/%E0%A4%85%E0%A4%B2%E0%A5%8D%E0%A4%97%E0%A5%8B%E0%A4%B0%E0%A4%BF%E0%A4%A5%E0%A4%AE" hreflang="new" lang="new" title="अल्गोरिथम – 尼瓦尔语"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Algoritme" hreflang="nl" lang="nl" title="Algoritme – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Algoritme" hreflang="nn" lang="nn" title="Algoritme – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Algoritme" hreflang="nb" lang="nb" title="Algoritme – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Algoritme" hreflang="oc" lang="oc" title="Algoritme – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-om mw-list-item"><a class="interlanguage-link-target" href="https://om.wikipedia.org/wiki/Seermurtoo" hreflang="om" lang="om" title="Seermurtoo – 奥罗莫语"><span>Oromoo</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A8%B2%E0%A8%A8_%E0%A8%B5%E0%A8%BF%E0%A8%A7%E0%A9%80" hreflang="pa" lang="pa" title="ਕਲਨ ਵਿਧੀ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Algorytm" hreflang="pl" lang="pl" title="Algorytm – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D8%A7%D9%84%DA%AF%D9%88%D8%B1%D8%AA%DA%BE%D9%85" hreflang="pnb" lang="pnb" title="الگورتھم – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Algoritmo" hreflang="pt" lang="pt" title="Algoritmo – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Algoritm" hreflang="ro" lang="ro" title="Algoritm – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="ru" lang="ru" title="Алгоритм – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-rue mw-list-item"><a class="interlanguage-link-target" href="https://rue.wikipedia.org/wiki/%D0%90%D0%BB%D2%91%D0%BE%D1%80%D1%96%D1%82%D0%BC" hreflang="rue" lang="rue" title="Алґорітм – 卢森尼亚文"><span>Русиньскый</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="sah" lang="sah" title="Алгоритм – 萨哈语"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a class="interlanguage-link-target" href="https://sc.wikipedia.org/wiki/Algoritmu" hreflang="sc" lang="sc" title="Algoritmu – 萨丁语"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Alguritmu" hreflang="scn" lang="scn" title="Alguritmu – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Algorithm" hreflang="sco" lang="sco" title="Algorithm – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Algoritam" hreflang="sh" lang="sh" title="Algoritam – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B6%87%E0%B6%BD%E0%B7%8A%E0%B6%9C%E0%B7%9C%E0%B6%BB%E0%B7%92%E0%B6%AD%E0%B6%B8" hreflang="si" lang="si" title="ඇල්ගොරිතම – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Algorithm" hreflang="en-simple" lang="en-simple" title="Algorithm – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Algoritmus" hreflang="sk" lang="sk" title="Algoritmus – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Algoritem" hreflang="sl" lang="sl" title="Algoritem – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Algoritmi" hreflang="sq" lang="sq" title="Algoritmi – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%B0%D0%BC" hreflang="sr" lang="sr" title="Алгоритам – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Algoritma" hreflang="su" lang="su" title="Algoritma – 巽他语"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Algoritm" hreflang="sv" lang="sv" title="Algoritm – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Algorithm" hreflang="sw" lang="sw" title="Algorithm – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%AA%E0%AE%9F%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%B1%E0%AF%88%E0%AE%A4%E0%AF%8D_%E0%AE%A4%E0%AF%80%E0%AE%B0%E0%AF%8D%E0%AE%B5%E0%AF%81" hreflang="ta" lang="ta" title="படிமுறைத் தீர்வு – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%85%E0%B0%B2%E0%B1%8D%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B0%BF%E0%B0%A5%E0%B0%82" hreflang="te" lang="te" title="అల్గారిథం – 泰卢固语"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="tg" lang="tg" title="Алгоритм – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%82%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%95%E0%B8%AD%E0%B8%99%E0%B8%A7%E0%B8%B4%E0%B8%98%E0%B8%B5" hreflang="th" lang="th" title="ขั้นตอนวิธี – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Algoritmo" hreflang="tl" lang="tl" title="Algoritmo – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Algoritma" hreflang="tr" lang="tr" title="Algoritma – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt badge-Q17437796 badge-featuredarticle mw-list-item" title="典范条目"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="tt" lang="tt" title="Алгоритм – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk badge-Q17437798 badge-goodarticle mw-list-item" title="优良条目"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC" hreflang="uk" lang="uk" title="Алгоритм – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%A7%D9%84%D8%AE%D9%88%D8%A7%D8%B1%D8%B2%D9%85" hreflang="ur" lang="ur" title="الخوارزم – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Algoritm" hreflang="uz" lang="uz" title="Algoritm – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/Thu%E1%BA%ADt_to%C3%A1n" hreflang="vi" lang="vi" title="Thuật toán – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-wa mw-list-item"><a class="interlanguage-link-target" href="https://wa.wikipedia.org/wiki/Algorisse" hreflang="wa" lang="wa" title="Algorisse – 瓦隆语"><span>Walon</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Algoritmo" hreflang="war" lang="war" title="Algoritmo – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E7%AE%97%E6%B3%95" hreflang="wuu" lang="wuu" title="算法 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%90%D7%9C%D7%92%D7%90%D7%A8%D7%99%D7%98%D7%9D" hreflang="yi" lang="yi" title="אלגאריטם – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/I%C3%A1n-s%C7%B9g-hoat" hreflang="nan" lang="nan" title="Ián-sǹg-hoat – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%BC%94%E7%AE%97%E6%B3%95" hreflang="yue" lang="yue" title="演算法 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q8366#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年6月26日 (星期日) 12:07。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E7%AE%97%E6%B3%95&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.645","walltime":"0.855","ppvisitednodes":{"value":4041,"limit":1000000},"postexpandincludesize":{"value":311751,"limit":2097152},"templateargumentsize":{"value":2996,"limit":2097152},"expansiondepth":{"value":30,"limit":100},"expensivefunctioncount":{"value":35,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":20652,"limit":5000000},"entityaccesscount":{"value":7,"limit":400},"timingprofile":["100.00%  568.280      1 -total"," 17.45%   99.138      1 Template:Reflist"," 17.11%   97.226      1 Template:Lang-en"," 12.59%   71.532      1 Template:Wikisource_further_reading"," 10.23%   58.110      4 Template:Navbox"," 10.13%   57.590      7 Template:Category_handler","  8.79%   49.980      1 Template:NoteTA","  8.34%   47.416      4 Template:Cite_book","  8.01%   45.498      1 Template:Copy_edit","  6.38%   36.277     14 Template:Link-en"]},"scribunto":{"limitreport-timeusage":{"value":"0.295","limit":"10.000"},"limitreport-memusage":{"value":22339525,"limit":52428800}},"cachereport":{"origin":"mw1416","timestamp":"20221004202128","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7b97\u6cd5","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%AE%97%E6%B3%95","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8366","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8366","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-07-17T03:01:19Z","dateModified":"2022-06-26T12:07:53Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/15\/LampFlowchart_ZhS.svg","headline":"\u4e00\u7cfb\u5217\u7684\u8a08\u7b97\u904e\u7a0b"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u7b97\u6cd5","url":"https:\/\/zh.wikipedia.org\/wiki\/%E7%AE%97%E6%B3%95","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8366","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8366","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-07-17T03:01:19Z","dateModified":"2022-06-26T12:07:53Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/15\/LampFlowchart_ZhS.svg","headline":"\u4e00\u7cfb\u5217\u7684\u8a08\u7b97\u904e\u7a0b"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":151,"wgHostname":"mw1373"});});</script>
+</body>
+</html>

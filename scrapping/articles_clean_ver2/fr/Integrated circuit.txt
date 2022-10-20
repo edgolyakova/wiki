@@ -1,0 +1,72 @@
+Circuit intégré
+Historique
+Composition
+Échelle d'intégration
+La technique de fabrication la plus courante
+Industrie
+Écologie
+Notes et références
+Voir aussi
+Premières utilisations
+Circuit intégré analogique
+Circuit intégré numérique
+Le boîtier
+Le Die
+Matière première
+La photolithogravure
+Articles connexes
+Liens externes
+Étapes de fabrication
+Phases finales
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir CI et Intégration.
+modifier - modifier le code - modifier Wikidata
+Le circuit intégré (CI), aussi appelé puce électronique, est un composant électronique, basé sur un semi-conducteur, reproduisant une ou plusieurs fonctions électroniques plus ou moins complexes, intégrant souvent plusieurs types de composants électroniques de base dans un volume réduit (sur une petite plaque), rendant le circuit facile à mettre en œuvre.
+Il existe une très grande variété de ces composants divisés en deux grandes catégories : analogique et numérique.
+En 1958, l’Américain Jack Kilby invente le premier circuit intégré, jetant ainsi les bases du matériel informatique moderne.
+Jack Kilby, qui venait de rejoindre la compagnie, a fait cette découverte alors que ses collègues profitaient de vacances organisées par Texas Instruments. À l'époque, Kilby avait tout simplement relié entre eux différents transistors en les câblant à la main.
+Il ne faudra par la suite que quelques mois pour passer du stade de prototype à la production de masse de puces en silicium contenant plusieurs transistors.
+Ces ensembles de transistors interconnectés en circuits microscopiques dans un même bloc, permettaient la réalisation de mémoires, ainsi que d’unités logiques et arithmétiques.
+Ce concept révolutionnaire concentrait dans un volume incroyablement réduit, un maximum de fonctions logiques, auxquelles l'extérieur accédait à travers des connexions réparties à la périphérie du circuit. Le brevet est finalement accordé à Texas Instrument en 1964. Cette découverte a valu à Kilby un prix Nobel de physique en 2000, alors que ce dernier siégeait toujours au directoire de Texas Instruments et détenait plus de 60 brevets à son nom.
+Le programme de missiles balistiques Minuteman II a été essentiel au développement économique de l'industrie du circuit intégré. C'est le premier objet produit en série qui intégrait un ordinateur conçu à partir de ceux-ci (le D-37C d'Autonetics), il a d'ailleurs été le seul consommateur de ce type d'ordinateur de 1962 à 1967. L'ordinateur comprenait des circuits fabriqués par Texas Instruments de types DTL et DL. Le seul autre ordinateur qui a fait appel à cette technologie est celui destiné à contrôler les missions Apollo, ordinateur qui avait des contraintes semblables du point de vue de la masse et de la fiabilité.
+Les circuits intégrés analogiques les plus simples peuvent être de simples transistors encapsulés les uns à côté des autres sans liaison entre eux, jusqu'à des assemblages complexes pouvant réunir toutes les fonctions requises pour le fonctionnement d'un appareil dont il est le seul composant.
+Les amplificateurs opérationnels sont des représentants de moyenne complexité de cette grande famille où l'on retrouve aussi des composants réservés à l'électronique haute fréquence et de télécommunication.
+De nombreuses applications analogiques sont à base d'amplificateurs opérationnels.
+Les circuits intégrés numériques les plus simples sont des portes logiques (et, ou et non), les plus complexes sont les microprocesseurs et les plus denses sont les mémoires.
+On trouve de nombreux circuits intégrés dédiés à des applications spécifiques (ou ASIC pour Application-specific integrated circuit), notamment pour le traitement du signal (traitement d'image, compression vidéo…) on parle alors de processeur de signal numérique (ou DSP pour Digital Signal Processor). Une famille importante de circuits intégrés est celle des composants de logique programmable (FPGA, CPLD). Ces composants sont amenés à remplacer les portes logiques simples en raison de leur grande densité d'intégration.
+Les circuits intégrés sont généralement protégés dans un boîtier en plastique (parfois céramique) rectangulaire, noirs.
+Les circuits intégrés "classiques" sont équipés sur 2 côtés opposés de broches de connexion (appelées aussi pattes ou pins) permettant d'établir les connexions électriques avec l'extérieur du boîtier.
+Ces composants sont brasés avec de l'étain, ("soudé" étant terme impropre) sur un circuit imprimé, ou enfichés, à des fins de démontage, dans des supports eux-mêmes brasés sur un circuit imprimé. Avec les besoins de miniaturisation, les broches ont été réduites à de simples surfaces de connexion directement à même le boîtier, permettant une un montage en surface du circuit imprimé (boîtiers CMS).
+Sur le boîtier peuvent être imprimés : le logo du fabricant, une référence qui permet d'identifier le composant, un code correspondant à des variantes ou révisions, la date de fabrication (4 chiffres codés AASS : année et semaine). Les progrès de l'intégration sont tels que les circuits intégrés peuvent devenir très petits.
+Leur taille ne dépend plus guère que de la capacité du boîtier à dissiper la chaleur produite par effet Joule et, bien souvent du nombre, de la taille des broches de sortie du circuit ainsi que de leur espacement.
+Différents types de boîtiers permettent d'adapter le circuit intégré à son environnement de destination.
+Bien d'autres types existent :
+Le die est la partie élémentaire, de forme rectangulaire, reproduite à l’identique à l’aide d’une matrice sur une tranche de silicium en cours de fabrication.
+Il correspond à un circuit intégré qui sera ensuite découpé et que l’on appellera une puce avant qu’elle ne soit encapsulée pour donner un circuit intégré complet, prêt à être monté sur une carte.
+Le Die d'un circuit intégré comprend sous des formes miniaturisées principalement des transistors, des diodes, des résistances, des condensateurs, plus rarement des inductances, car elles sont plus difficilement miniaturisables.
+L'échelle d'intégration (en anglais scale integration) définit le nombre de portes logiques par boîtier :
+Ces distinctions ont peu à peu perdu de leur utilité avec la croissance exponentielle du nombre de portes.
+Aujourd'hui plusieurs centaines de millions de transistors (plusieurs dizaines de millions de portes) représentent un nombre normal (pour un microprocesseur ou un circuit intégré graphique haut de gamme). Afin de parvenir à de tels niveaux d'intégrations, un flot de conception complexe est utilisé.
+La fabrication d'un circuit intégré est un procédé complexe dont la tendance est à se compliquer de plus en plus.
+La matière première de base habituellement utilisée pour fabriquer les circuits intégrés est le silicium, néanmoins, d'autres matériaux sont parfois employés, comme le germanium ou l'arséniure de gallium.
+Le silicium est employé depuis la découverte de l'effet transistor en 1947 par les chercheurs du Laboratoire Bell qui reçoivent le prix Nobel de physique en 1956 pour cette découverte.
+Le silicium est un semi-conducteur dans sa forme monocristalline.
+Ce matériau doit être pur à 99,99 %.
+On fabrique d'abord un barreau cylindrique de silicium en le cristallisant très lentement.
+Ce barreau est ensuite découpé pour être utilisé sous forme de galettes de 100 à 800 μm d'épaisseur et ayant jusqu'à 300 mm de diamètre, appelé wafer (galette, en anglais). Un wafer va supporter de nombreux circuits intégrés.
+La photolithographie, désigne l'ensemble des opérations permettant de délimiter l'extension latérale des matériaux sur la surface d'un substrat semi-conducteur, dont la structure est plus ou moins bidimensionnelle car basée sur l'empilement de couches à la surface d'une plaquette de silicium.
+Les motifs deviendront par la suite les différentes zones actives des composants électroniques (exemple : contact, drain...) ou les jonctions entre ces composants.
+Ce procédé est actuellement le plus répandu.
+Le nombre d'étapes de la fabrication des circuits intégrés a crû considérablement depuis 20 ans.
+Il peut atteindre plusieurs dizaines pour certaines productions spécialisées.
+Toutefois, on retrouve à peu près toujours la même série d'étapes :
+Les 20 plus importants fabricants de circuits intégrés en 2011 et leur part de marché sont (fonderies exclues) :
+Source : IHS iSuppli 2011
+Notes :
+Les principales entreprises de production de circuits intégrés présentes en France sont :
+Il faut une quantité considérable de matière première pour fabriquer une puce électronique : le sac à dos écologique (qui représente la quantité de matières premières nécessaires à la fabrication du produit) d'une puce électronique de 0,09 g est de 20 kg.
+« Even within companies producing both analog and digital products… »
+Sur les autres projets Wikimedia :

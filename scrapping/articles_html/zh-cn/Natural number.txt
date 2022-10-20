@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>自然数 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"56b4f291-bcfe-4ddb-8111-d70afbe25bbe","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"自然数","wgTitle":"自然数","wgCurRevisionId":72699883,"wgRevisionId":72699883,"wgArticleId":342,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["含有访问日期但无网址的引用的页面","自2020年7月需要从英语维基百科翻译的条目","模板中使用无效日期参数的条目","需要从英语维基百科翻译的条目","使用过时的math标签格式的页面","数论","集合论","初等数学"],"wgPageContentLanguage":"zh","wgPageContentModel":
+"wikitext","wgRelevantPageName":"自然数","wgRelevantArticleId":342,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":9000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q21199","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled"
+:false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.math.styles":"ready","ext.cite.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.math.scripts","ext.cite.ux-enhancements","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips","ext.gadget.shortURL","ext.gadget.Difflink",
+"ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/1200px-NumberSetinC.svg.png" property="og:image"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="940" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/800px-NumberSetinC.svg.png" property="og:image"/>
+<meta content="800" property="og:image:width"/>
+<meta content="627" property="og:image:height"/>
+<meta content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/640px-NumberSetinC.svg.png" property="og:image"/>
+<meta content="640" property="og:image:width"/>
+<meta content="501" property="og:image:height"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="自然数 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-自然数 rootpage-自然数 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">自然数</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><table class="box-Expand_language plainlinks metadata ambox ambox-notice" role="presentation"><tbody><tr><td class="mbox-image"><div style="width:52px"><img alt="" data-file-height="20" data-file-width="60" decoding="async" height="17" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/50px-Translation_to_zh_arrow.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/75px-Translation_to_zh_arrow.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/da/Translation_to_zh_arrow.svg/100px-Translation_to_zh_arrow.svg.png 2x" width="50"/></div></td><td class="mbox-text"><span class="mbox-text-span">此条目<b>可参照<a class="extiw" href="https://en.wikipedia.org/wiki/Natural_number" title="en:Natural number">英语维基百科</a>相应条目来扩充</b>。<span class="hide-when-compact"></span> <small class="date-container"><i>(<span class="date">2020年7月23日</span>)</i></small><span class="hide-when-compact"><br/><small>若您熟悉来源语言和主题，请协助<a class="mw-redirect" href="/wiki/Wikipedia:%E7%BF%BB%E8%AF%91%E5%AE%88%E5%88%99" title="Wikipedia:翻译守则">参考外语维基百科扩充条目</a>。请勿直接提交机械翻译，也不要翻译不可靠、低品质内容。依<a href="/wiki/Wikipedia:%E5%9C%A8%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E5%86%85%E5%A4%8D%E5%88%B6%E5%86%85%E5%AE%B9" title="Wikipedia:在维基百科内复制内容">版权协议</a>，译文需<a href="/wiki/Wikipedia:%E7%B7%A8%E8%BC%AF%E6%91%98%E8%A6%81#翻译文章" title="Wikipedia:编辑摘要">在编辑摘要注明来源</a>，或于讨论页顶部标记<code>{{<a href="/wiki/Template:Translated_page" title="Template:Translated page">Translated page</a>}}</code>标签。</small></span><span class="hide-when-compact"></span></span></td></tr></tbody></table>
+<table class="floatright toc" style="width:260px; margin: 0 0 1em 1em">
+<tbody><tr align="center" style="background:#ccccff">
+<td style="border-bottom: 2px solid #303060"><b>各种各样的<a href="/wiki/%E6%95%B0" title="数">数</a></b>
+</td></tr>
+<tr align="center" style="background:#ccccff">
+<td><b>基本</b>
+</td></tr>
+<tr align="center">
+<td>
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} \subseteq \mathbb {Z} \subseteq \mathbb {Q} \subseteq \mathbb {R} \subseteq \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mo>⊆<!-- ⊆ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mo>⊆<!-- ⊆ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+<mo>⊆<!-- ⊆ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mo>⊆<!-- ⊆ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} \subseteq \mathbb {Z} \subseteq \mathbb {Q} \subseteq \mathbb {R} \subseteq \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {N} \subseteq \mathbb {Z} \subseteq \mathbb {Q} \subseteq \mathbb {R} \subseteq \mathbb {C} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5ba5a9ecbc18a9d9c1b0af89662b4452b7e9c0a6" style="vertical-align: -0.671ex; width:20.787ex; height:2.509ex;"/></span>
+<a class="image" href="/wiki/File:NumberSetinC.svg"><img alt="NumberSetinC.svg" data-file-height="470" data-file-width="600" decoding="async" height="196" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/250px-NumberSetinC.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/375px-NumberSetinC.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a0/NumberSetinC.svg/500px-NumberSetinC.svg.png 2x" width="250"/></a>
+</p>
+<div>
+<table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:100%;"><tbody><tr>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a href="/wiki/%E6%AD%A3%E6%95%B8" title="正数">正数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{+}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {R}}^{+}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/97dc5e850d079061c24290bac160c8d3b62ee139" style="vertical-align: -0.338ex; width:3.189ex; height:2.509ex;"/></span><br/>
+<a class="mw-selflink selflink">自然数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span><br/>
+<a class="mw-selflink selflink">正整数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} ^{+}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} ^{+}}</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {Z}}^{+}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/628778fcf14bd3629e9b9ebacffa172b0ad6ce41" style="vertical-align: -0.338ex; width:3.061ex; height:2.509ex;"/></span><br/>
+<a href="/wiki/%E5%B0%8F%E6%95%B0" title="小数">小数</a><br/>
+<a href="/wiki/%E6%9C%89%E9%99%90%E5%B0%8F%E6%95%B0" title="有限小数">有限小数</a><br/>
+<a href="/wiki/%E6%97%A0%E9%99%90%E5%B0%8F%E6%95%B0" title="无限小数">无限小数</a><br/>
+<a href="/wiki/%E5%BE%AA%E7%8E%AF%E5%B0%8F%E6%95%B0" title="循环小数">循环小数</a><br/>
+<a href="/wiki/%E6%9C%89%E7%90%86%E6%95%B0" title="有理数">有理数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Q}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5909f0b54e4718fa24d5fd34d54189d24a66e9a" style="vertical-align: -0.671ex; width:1.808ex; height:2.509ex;"/></span><br/>
+<a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8" title="代数数">代数数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {A} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">A</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {A} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{A}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3fb423c16a5f403edbaf66438b75e7a36e725af6" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {R} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E5%A4%8D%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="复数 (数学)">复数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {C} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E9%AB%98%E6%96%AF%E6%95%B4%E6%95%B8" title="高斯整数">高斯整数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} [i]}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mo stretchy="false">[</mo>
+<mi>i</mi>
+<mo stretchy="false">]</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} [i]}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Z}[i]" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9ffa94e9e2e6d9e5e5373d5fafb954b902743fde" style="vertical-align: -0.838ex; width:3.646ex; height:2.843ex;"/></span><br/>
+</p>
+</td>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a href="/wiki/%E8%B4%9F%E6%95%B0" title="负数">负数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} ^{-}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} ^{-}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{R}^-" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/158001a03e958f49f5885033776a420fc47b7267" style="vertical-align: -0.338ex; width:3.189ex; height:2.509ex;"/></span><br/>
+<a href="/wiki/%E6%95%B4%E6%95%B0" title="整数">整数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Z} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E8%B2%A0%E6%95%B4%E6%95%B8" title="负整数">负整数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} ^{-}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>−<!-- − --></mo>
+</mrow>
+</msup>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} ^{-}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {Z} ^{-}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1d265f6ad41c1623a6477b2cb4336208c7b6c1d6" style="vertical-align: -0.338ex; width:3.061ex; height:2.509ex;"/></span><br/>
+<a href="/wiki/%E5%88%86%E6%95%B8" title="分数">分数</a><br/>
+<a href="/wiki/%E5%96%AE%E4%BD%8D%E5%88%86%E6%95%B8" title="单位分数">单位分数</a><br/>
+<a href="/wiki/%E4%BA%8C%E8%BF%9B%E5%88%86%E6%95%B0" title="二进分数">二进分数</a><br/>
+<a href="/wiki/%E8%A6%8F%E7%9F%A9%E6%95%B8" title="规矩数">规矩数</a><br/>
+<a href="/wiki/%E7%84%A1%E7%90%86%E6%95%B8" title="无理数">无理数</a><br/>
+<a href="/wiki/%E8%B6%85%E8%B6%8A%E6%95%B8" title="超越数">超越数</a><br/>
+<a href="/wiki/%E8%99%9A%E6%95%B0" title="虚数">虚数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {I} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">I</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {I} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {I}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/8205f06e0d279689ed04a1ac04a3d9c249c637df" style="vertical-align: -0.338ex; width:0.905ex; height:2.176ex;"/></span><br/>
+<a class="mw-redirect" href="/wiki/%E4%BA%8C%E6%AC%A1%E6%97%A0%E7%90%86%E6%95%B0" title="二次无理数">二次无理数</a><br/>
+<a href="/wiki/%E8%89%BE%E6%A3%AE%E6%96%AF%E5%9D%A6%E6%95%B4%E6%95%B0" title="艾森斯坦整数">艾森斯坦整数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} [\omega ]}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mo stretchy="false">[</mo>
+<mi>ω<!-- ω --></mi>
+<mo stretchy="false">]</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} [\omega ]}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {Z} [\omega ]}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7ae955a9a0d0f342fc73aaafe28af604d23267f7" style="vertical-align: -0.838ex; width:4.29ex; height:2.843ex;"/></span><br/>
+</p>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr align="center" style="background:#ccccff">
+<td><b>延伸</b>
+</td></tr>
+<tr align="center">
+<td><div>
+<table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:100%;"><tbody><tr>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a href="/wiki/%E4%BA%8C%E5%85%83%E6%95%B0" title="二元数">二元数</a><br/>
+<a href="/wiki/%E5%9B%9B%E5%85%83%E6%95%B8" title="四元数">四元数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {H} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">H</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {H} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  {H}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e050965453c42bcc6bd544546703c836bdafeac9" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E5%85%AB%E5%85%83%E6%95%B0" title="八元数">八元数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {O} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">O</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {O} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{O}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1ed2664a4fe515e6fbed25a7193ce663b82920c" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E5%8D%81%E5%85%AD%E5%85%83%E6%95%B8" title="十六元数">十六元数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {S} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">S</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {S} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {S} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9f9d5874c5d7f68eba1cec9da9ccbe53903303bb" style="vertical-align: -0.338ex; width:1.293ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E8%B6%85%E5%AE%9E%E6%95%B0_(%E9%9D%9E%E6%A0%87%E5%87%86%E5%88%86%E6%9E%90)" title="超实数 (非标准分析)">超实数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ^{*}\mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mi></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ^{*}\mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle ^{*}\mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4df367c74a9138be68469102a92d2fa8cbc15f6f" style="vertical-align: -0.338ex; width:2.732ex; height:2.343ex;"/></span><br/>
+<a class="new" href="/w/index.php?title=%E5%A4%A7%E5%AF%A6%E6%95%B8&amp;action=edit&amp;redlink=1" title="大实数（页面不存在）">大实数</a><br/>
+<a class="new" href="/w/index.php?title=%E4%B8%8A%E8%B6%85%E5%AF%A6%E6%95%B8&amp;action=edit&amp;redlink=1" title="上超实数（页面不存在）">上超实数</a><br/>
+</p>
+</td>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a href="/wiki/%E9%9B%99%E6%9B%B2%E8%A4%87%E6%95%B8" title="双曲复数">双曲复数</a><br/>
+<a href="/wiki/%E9%9B%99%E8%A4%87%E6%95%B8" title="双复数">双复数</a><br/>
+<a href="/wiki/%E8%A4%87%E5%9B%9B%E5%85%83%E6%95%B8" title="复四元数">复四元数</a><br/>
+<span class="ilh-all" data-foreign-title="Dual quaternion" data-lang-code="en" data-lang-name="英语" data-orig-title="共四元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%85%B1%E5%9B%9B%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="共四元数（页面不存在）">共四元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Dual_quaternion" title="en:Dual quaternion"><span dir="auto" lang="en">Dual quaternion</span></a></span>）</span></span><br/>
+<a href="/wiki/%E8%B6%85%E5%A4%8D%E6%95%B0" title="超复数">超复数</a><br/>
+<a class="new" href="/w/index.php?title=%E8%B6%85%E6%95%B8&amp;action=edit&amp;redlink=1" title="超数（页面不存在）">超数</a><br/>
+<a href="/wiki/%E8%B6%85%E7%8F%BE%E5%AF%A6%E6%95%B8" title="超现实数">超现实数</a><br/>
+</p>
+</td></tr></tbody></table></div>
+</td></tr>
+<tr align="center" style="background:#ccccff">
+<td><b>其他</b>
+</td></tr>
+<tr align="center">
+<td><div>
+<table class="multicol" role="presentation" style="border-collapse: collapse; padding: 0; border: 0; background:transparent; width:100%;"><tbody><tr>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a class="mw-redirect" href="/wiki/%E7%B4%A0%E6%95%B0" title="素数">质数</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {P} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">P</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {P} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {P} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1053af9e662ceaf56c4455f90e0f67273422eded" style="vertical-align: -0.338ex; width:1.42ex; height:2.176ex;"/></span><br/>
+<a href="/wiki/%E5%8F%AF%E8%A8%88%E7%AE%97%E6%95%B8" title="可计算数">可计算数</a><br/>
+<a href="/wiki/%E5%9F%BA%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="基数 (数学)">基数</a><br/>
+<a href="/wiki/%E9%98%BF%E5%88%97%E5%A4%AB%E6%95%B8" title="阿列夫数">阿列夫数</a><br/>
+<a href="/wiki/%E5%90%8C%E9%A4%98" title="同余">同余</a><br/>
+<a href="/wiki/%E6%95%B4%E6%95%B8%E6%95%B8%E5%88%97" title="整数数列">整数数列</a><br/>
+<a class="new" href="/w/index.php?title=%E5%85%AC%E7%A8%B1%E5%80%BC&amp;action=edit&amp;redlink=1" title="公称值（页面不存在）">公称值</a><br/>
+</p>
+</td>
+<td style="width: 50%;text-align: left; vertical-align: top;">
+<p><a href="/wiki/%E8%A6%8F%E7%9F%A9%E6%95%B8" title="规矩数">规矩数</a><br/>
+<a class="mw-redirect" href="/wiki/%E5%8F%AF%E5%AE%9A%E7%BE%A9%E6%95%B8" title="可定义数">可定义数</a><br/>
+<a href="/wiki/%E5%BA%8F%E6%95%B0" title="序数">序数</a><br/>
+<a href="/wiki/%E8%B6%85%E9%99%90%E6%95%B0" title="超限数">超限数</a><br/>
+<a href="/wiki/P%E9%80%B2%E6%95%B8" title="P进数"><style data-mw-deduplicate="TemplateStyles:r58896141">'"`UNIQ--templatestyles-00000016-QINU`"'</style><span class="serif"><span class="texhtml"><i>p</i></span></span>进数</a><br/>
+<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8%E5%B8%B8%E6%95%B8" title="数学常数">数学常数</a><br/>
+</p>
+</td></tr></tbody></table></div>
+<p><a href="/wiki/%E5%9C%93%E5%91%A8%E7%8E%87" title="圆周率">圆周率</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \pi =3.14159265}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>π<!-- π --></mi>
+<mo>=</mo>
+<mn>3.14159265</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \pi =3.14159265}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \pi =3.14159265}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5d789e69af1e86cd0404c764423ff0c104108f1c" style="vertical-align: -0.338ex; width:15.539ex; height:2.176ex;"/></span>…<br/>
+<a href="/wiki/E_(%E6%95%B0%E5%AD%A6%E5%B8%B8%E6%95%B0)" title="E (数学常数)">自然对数的底</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle e=2.718281828}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>e</mi>
+<mo>=</mo>
+<mn>2.718281828</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle e=2.718281828}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle e=2.718281828}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/1855c2b5b2d2768a0b909ffbc16cf9a18bb11845" style="vertical-align: -0.338ex; width:16.453ex; height:2.176ex;"/></span>…<br/>
+<a href="/wiki/%E8%99%9B%E6%95%B8%E5%96%AE%E4%BD%8D" title="虚数单位">虚数单位</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle i={\sqrt {-{1}}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>i</mi>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<msqrt>
+<mo>−<!-- − --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msqrt>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle i={\sqrt {-{1}}}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle i={\sqrt {-{1}}}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b13bc2b4f7e103e92342633692e46d585913f342" style="vertical-align: -0.838ex; width:8.807ex; height:3.009ex;"/></span><br/>
+<a href="/wiki/%E6%97%A0%E7%A9%B7" title="无穷">无穷大</a> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \infty }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \infty }</annotation>
+</semantics>
+</math></span><img alt="\infty" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c26c105004f30c27aa7c2a9c601550a4183b1f21" style="vertical-align: -0.338ex; width:2.324ex; height:1.676ex;"/></span>
+</p>
+</td></tr>
+<tr>
+<td align="right"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%95%B8" title="Template:数"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E6%95%B8" title="Template talk:数"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E6%95%B8&amp;action=edit"><abbr title="编辑该模板">编</abbr></a></li></ul></div>
+</td></tr></tbody></table>
+<p><b>自然数</b>（参考<a href="/wiki/ISO_80000-2" title="ISO 80000-2">ISO 80000-2</a>和<a class="new" href="/w/index.php?title=ISO_2382&amp;action=edit&amp;redlink=1" title="ISO 2382（页面不存在）">ISO 2382</a>中所采用的定义）指<b>非负整数</b> <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (0,1,2,3,4,\ldots )}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mn>3</mn>
+<mo>,</mo>
+<mn>4</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (0,1,2,3,4,\ldots )}</annotation>
+</semantics>
+</math></span><img alt="( 0, 1, 2, 3, 4, \ldots)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2c86b55de37c3d81f680a5a13fe5287d59941101" style="vertical-align: -0.838ex; width:15.515ex; height:2.843ex;"/></span><sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>，为免歧义有时也直接以非负整数代替自然数使用。<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a>中，一般以<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>代表以自然数组成的<a href="/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)" title="集合 (数学)">集合</a>。自然数集是一个<a href="/wiki/%E5%8F%AF%E6%95%B8%E9%9B%86" title="可数集">可数</a>的，无<a class="mw-redirect" href="/wiki/%E4%B8%8A%E7%95%8C" title="上界">上界</a>的<a href="/wiki/%E6%97%A0%E9%99%90%E9%9B%86%E5%90%88" title="无限集合">无穷集合</a>。非零自然数即指<a class="mw-redirect" href="/wiki/%E6%AD%A3%E6%95%B4%E6%95%B0" title="正整数">正整数</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (1,2,3,4,\ldots )}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mn>3</mn>
+<mo>,</mo>
+<mn>4</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (1,2,3,4,\ldots )}</annotation>
+</semantics>
+</math></span><img alt="( 1, 2, 3, 4, \ldots)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c944da0f3cd2c364456d6c6bea2e4073024267f3" style="vertical-align: -0.838ex; width:13.318ex; height:2.843ex;"/></span>。
+</p><p>自然数可用于<a class="mw-redirect" href="/wiki/%E8%AE%A1%E6%95%B0" title="计数">计数</a>（如：桌子上有“三”个苹果）和<a href="/wiki/%E5%85%A8%E5%BA%8F%E5%85%B3%E7%B3%BB" title="全序关系">定序</a>（如：国内“第三”大城市）。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#符号"><span class="tocnumber">1</span> <span class="toctext">符号</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#定义"><span class="tocnumber">2</span> <span class="toctext">定义</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#基于序数理论"><span class="tocnumber">2.1</span> <span class="toctext">基于序数理论</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#基于基数理论"><span class="tocnumber">2.2</span> <span class="toctext">基于基数理论</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#性质"><span class="tocnumber">3</span> <span class="toctext">性质</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#无限性"><span class="tocnumber">3.1</span> <span class="toctext">无限性</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#可加性"><span class="tocnumber">3.2</span> <span class="toctext">可加性</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#可乘性"><span class="tocnumber">3.3</span> <span class="toctext">可乘性</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#加乘关系"><span class="tocnumber">3.4</span> <span class="toctext">加乘关系</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#有序性"><span class="tocnumber">3.5</span> <span class="toctext">有序性</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#可除性"><span class="tocnumber">3.6</span> <span class="toctext">可除性</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-12"><a href="#历史与0的争议"><span class="tocnumber">4</span> <span class="toctext">历史与0的争议</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#推广"><span class="tocnumber">5</span> <span class="toctext">推广</span></a></li>
+<li class="toclevel-1 tocsection-14"><a href="#参考来源"><span class="tocnumber">6</span> <span class="toctext">参考来源</span></a></li>
+</ul>
+</div>
+<h2><span id=".E7.AC.A6.E5.8F.B7"></span><span class="mw-headline" id="符号">符号</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=1" title="编辑章节：符号">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:172px;"><a class="image" href="/wiki/File:U%2B2115.svg"><img alt="" class="thumbimage" data-file-height="21" data-file-width="23" decoding="async" height="155" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/U%2B2115.svg/170px-U%2B2115.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/U%2B2115.svg/255px-U%2B2115.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/4f/U%2B2115.svg/340px-U%2B2115.svg.png 2x" width="170"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:U%2B2115.svg" title="放大"></a></div>常用双线的大写 N 符号来表示自然数集合。</div></div></div>
+<p>数学家们使用<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle N}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>N</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle N}</annotation>
+</semantics>
+</math></span><img alt="N" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f5e3890c981ae85503089652feb48b191b57aae3" style="vertical-align: -0.338ex; width:2.064ex; height:2.176ex;"/></span>或<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>来表示所有自然数的<a href="/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)" title="集合 (数学)">集合</a>。较早的教科书也有使用<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle J}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>J</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle J}</annotation>
+</semantics>
+</math></span><img alt="J" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/359e4f407b49910e02c27c2f52e87a36cd74c053" style="vertical-align: -0.338ex; width:1.471ex; height:2.176ex;"/></span>来表示这一集合的情况。<sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>
+</p><p>为了消除是否包含0的歧义，有时通过上、下标的形式表示集合中是否包含0：<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>
+</p>
+<ul><li>自然数：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} _{0}=\mathbb {N} ^{0}=\{0,1,2,\dots \}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+</msub>
+<mo>=</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+</msup>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo fence="false" stretchy="false">}</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} _{0}=\mathbb {N} ^{0}=\{0,1,2,\dots \}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {N} _{0}=\mathbb {N} ^{0}=\{0,1,2,\dots \}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/dc568775f10c59285a302be3b2810383cbb63b45" style="vertical-align: -0.838ex; width:23.299ex; height:3.176ex;"/></span></li>
+<li>非零自然数：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} ^{*}=\mathbb {N} ^{+}=\mathbb {N} _{1}=\mathbb {N} _{&gt;0}=\{1,2,\dots \}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>∗<!-- ∗ --></mo>
+</mrow>
+</msup>
+<mo>=</mo>
+<msup>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>+</mo>
+</mrow>
+</msup>
+<mo>=</mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>1</mn>
+</mrow>
+</msub>
+<mo>=</mo>
+<msub>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mo>&gt;</mo>
+<mn>0</mn>
+</mrow>
+</msub>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo fence="false" stretchy="false">}</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} ^{*}=\mathbb {N} ^{+}=\mathbb {N} _{1}=\mathbb {N} _{&gt;0}=\{1,2,\dots \}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {N} ^{*}=\mathbb {N} ^{+}=\mathbb {N} _{1}=\mathbb {N} _{&gt;0}=\{1,2,\dots \}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/eb7e33b177bdc869f50b5b7e0fa89d5aff1a31f2" style="vertical-align: -0.838ex; width:34.499ex; height:3.009ex;"/></span></li></ul>
+<h2><span id=".E5.AE.9A.E4.B9.89"></span><span class="mw-headline" id="定义">定义</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=2" title="编辑章节：定义">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86" title="皮亚诺公理">皮亚诺公理</a>和<a class="mw-redirect" href="/wiki/%E8%87%AA%E7%84%B6%E6%95%B8%E7%9A%84%E9%9B%86%E5%90%88%E8%AB%96%E5%AE%9A%E7%BE%A9" title="自然数的集合论定义">自然数的集合论定义</a></div>
+<h3><span id=".E5.9F.BA.E4.BA.8E.E5.BA.8F.E6.95.B0.E7.90.86.E8.AE.BA"></span><span class="mw-headline" id="基于序数理论">基于序数理论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=3" title="编辑章节：基于序数理论">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>基于序数理论提出的<a href="/wiki/%E7%9A%AE%E4%BA%9A%E8%AF%BA%E5%85%AC%E7%90%86" title="皮亚诺公理">皮亚诺公理</a>可以得到自然数的许多特性，这五条公理用非形式化的方法叙述如下：
+</p>
+<ol><li>0是自然数；</li>
+<li>每一个确定的自然数<i>a</i>，都有一个确定的后继数<i>a' </i>，<i>a' </i>也是自然数；</li>
+<li>对于每个自然数<i>b</i>、<i>c</i>，<i>b</i>=<i>c</i>当且仅当<i>b</i>的后继数=<i>c</i>的后继数；</li>
+<li>0不是任何自然数的后继数；</li>
+<li>任意关于自然数的命题，如果证明：它对自然数0是真的，且假定它对自然数<i>a</i>为真时，可以证明对<i>a' </i>也真。那么，命题对所有自然数都真。</li></ol>
+<p>其中，一个数的后继数指紧接在这个数后面的数，例如，0的后继数是1，1的后继数是2等等；公理5保证了<a href="/wiki/%E6%95%B0%E5%AD%A6%E5%BD%92%E7%BA%B3%E6%B3%95" title="数学归纳法">数学归纳法</a>的正确性，从而被称为归纳法原理。
+</p>
+<h3><span id=".E5.9F.BA.E4.BA.8E.E5.9F.BA.E6.95.B0.E7.90.86.E8.AE.BA"></span><span class="mw-headline" id="基于基数理论">基于基数理论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=4" title="编辑章节：基于基数理论">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>在基数理论中，<a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a>的一般做法是将0定义为<a href="/wiki/%E7%A9%BA%E9%9B%86" title="空集">空集</a>后，将任一非零自然数看作是所有比该数小的自然数组成的集合，即
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 0=\{\},1=\{0\},2=\{0,1\},3=\{0,1,2\},\ldots }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>0</mn>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mo fence="false" stretchy="false">}</mo>
+<mo>,</mo>
+<mn>1</mn>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>0</mn>
+<mo fence="false" stretchy="false">}</mo>
+<mo>,</mo>
+<mn>2</mn>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo fence="false" stretchy="false">}</mo>
+<mo>,</mo>
+<mn>3</mn>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo fence="false" stretchy="false">}</mo>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 0=\{\},1=\{0\},2=\{0,1\},3=\{0,1,2\},\ldots }</annotation>
+</semantics>
+</math></span><img alt="0 = \{\}, 1 = \{0\}, 2 = \{0,1\}, 3 = \{0,1,2\}, \ldots" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/886ab8f52a0c51551bd3f058258ce0a42ae44017" style="vertical-align: -0.838ex; width:43.279ex; height:2.843ex;"/></span></dd></dl>
+<p>通过<a class="mw-redirect" href="/wiki/%E7%84%A1%E7%AA%AE%E5%85%AC%E7%90%86" title="无穷公理">无穷公理</a>，可以得到存在一个只包含全体自然数的自然数集<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>。
+</p><p>另外，在此定义下，在集合<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>内就有<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>个元素；而若<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>小于<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span>，则<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle n}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>n</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle n}</annotation>
+</semantics>
+</math></span><img alt="n" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a601995d55609f2d9f5e233e36fbe9ea26011b3b" style="vertical-align: -0.338ex; width:1.395ex; height:1.676ex;"/></span>会是 <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle m}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>m</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle m}</annotation>
+</semantics>
+</math></span><img alt="m" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0a07d98bb302f3856cbabc47b2b9016692e3f7bc" style="vertical-align: -0.338ex; width:2.04ex; height:1.676ex;"/></span>的<a href="/wiki/%E5%AD%90%E9%9B%86" title="子集">子集</a>。
+</p>
+<h2><span id=".E6.80.A7.E8.B4.A8"></span><span class="mw-headline" id="性质">性质</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=5" title="编辑章节：性质">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E6.97.A0.E9.99.90.E6.80.A7"></span><span class="mw-headline" id="无限性">无限性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=6" title="编辑章节：无限性">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>自然数的集合是<a href="/wiki/%E6%97%A0%E9%99%90%E9%9B%86%E5%90%88" title="无限集合">无限集</a>。根据定义，这种无限称为可数无限。可以与自然数建立双射关系的所有集合都具有这种无限性，称作，这个集合的<a href="/wiki/%E5%8A%BF_(%E6%95%B0%E5%AD%A6)" title="势 (数学)">势</a>为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \aleph _{0}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<msub>
+<mi mathvariant="normal">ℵ<!-- ℵ --></mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mn>0</mn>
+</mrow>
+</msub>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \aleph _{0}}</annotation>
+</semantics>
+</math></span><img alt="\aleph _{0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/721cd7f8c15a2e72ad162bdfa5baea8eef98aab1" style="vertical-align: -0.671ex; width:2.475ex; height:2.509ex;"/></span>。
+</p>
+<h3><span id=".E5.8F.AF.E5.8A.A0.E6.80.A7"></span><span class="mw-headline" id="可加性">可加性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=7" title="编辑章节：可加性">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>自然数<a href="/wiki/%E5%8A%A0%E6%B3%95" title="加法">加法</a>可经<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a+0=a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>+</mo>
+<mn>0</mn>
+<mo>=</mo>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a+0=a}</annotation>
+</semantics>
+</math></span><img alt="a+0=a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4564e28f0f8274644ca4e58664c0593ed48de541" style="vertical-align: -0.505ex; width:9.561ex; height:2.343ex;"/></span>及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a+(b+1)=(a+b)+1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>+</mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mo stretchy="false">(</mo>
+<mi>a</mi>
+<mo>+</mo>
+<mi>b</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a+(b+1)=(a+b)+1}</annotation>
+</semantics>
+</math></span><img alt="a+(b+1)=(a+b)+1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/4582e35d27afe437c80e60aa1b05d5fb04644288" style="vertical-align: -0.838ex; width:24.858ex; height:2.843ex;"/></span>递归定义而成。因而得出<a class="mw-redirect" href="/wiki/%E4%BA%A4%E6%8D%A2%E5%BE%8B" title="交换律">交换</a><a href="/wiki/%E5%B9%BA%E5%8D%8A%E7%BE%A4" title="幺半群">幺半群</a><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (N,+)}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>N</mi>
+<mo>,</mo>
+<mo>+</mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (N,+)}</annotation>
+</semantics>
+</math></span><img alt="(N,+)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3f7e9551747abd2f297e808fe07b500f7edb008d" style="vertical-align: -0.838ex; width:6.715ex; height:2.843ex;"/></span>，是由<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 1}</annotation>
+</semantics>
+</math></span><img alt="1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/92d98b82a3778f043108d4e20960a9193df57cbf" style="vertical-align: -0.338ex; width:1.162ex; height:2.176ex;"/></span>生出的自由幺半群，其中<a class="mw-redirect" href="/wiki/%E5%B9%BA%E5%85%83" title="幺元">幺元</a>为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle 0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle 0}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle 0}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2aae8864a3c1fec9585261791a809ddec1489950" style="vertical-align: -0.338ex; width:1.162ex; height:2.176ex;"/></span>。此幺半群服从<a class="mw-redirect" href="/wiki/%E6%B6%88%E5%8E%BB%E5%BE%8B" title="消去律">消去律</a>，可嵌入一<a href="/wiki/%E7%BE%A4" title="群">群</a>内：最小的是<a href="/wiki/%E6%95%B4%E6%95%B0" title="整数">整数</a>群。
+</p>
+<h3><span id=".E5.8F.AF.E4.B9.98.E6.80.A7"></span><span class="mw-headline" id="可乘性">可乘性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=8" title="编辑章节：可乘性">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>同理，自然数乘法<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \times }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>×<!-- × --></mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \times }</annotation>
+</semantics>
+</math></span><img alt="\times" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ffafff1ad26cbe49045f19a67ce532116a32703" style="vertical-align: 0.019ex; margin-bottom: -0.19ex; width:1.808ex; height:1.509ex;"/></span>可经<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\times 0=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>×<!-- × --></mo>
+<mn>0</mn>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\times 0=0}</annotation>
+</semantics>
+</math></span><img alt="a \times 0=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/5c086c199718699c3a64124ef56a1fec50cc071c" style="vertical-align: -0.338ex; width:9.494ex; height:2.176ex;"/></span>及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\times (b+1)=ab+a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo>+</mo>
+<mn>1</mn>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>a</mi>
+<mi>b</mi>
+<mo>+</mo>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\times (b+1)=ab+a}</annotation>
+</semantics>
+</math></span><img alt="a \times (b+1)=ab+a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/bc9a890e37407019ec14870694af87938028e243" style="vertical-align: -0.838ex; width:20.276ex; height:2.843ex;"/></span> 得出。
+</p>
+<h3><span id=".E5.8A.A0.E4.B9.98.E5.85.B3.E7.B3.BB"></span><span class="mw-headline" id="加乘关系">加乘关系</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=9" title="编辑章节：加乘关系">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>而<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (N,\times )}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>N</mi>
+<mo>,</mo>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (N,\times )}</annotation>
+</semantics>
+</math></span><img alt="(N, \times)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/107d1e5a8374ced05537dc37a7f6c74d83332940" style="vertical-align: -0.838ex; width:6.715ex; height:2.843ex;"/></span>亦是交换幺半群；<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \times }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>×<!-- × --></mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \times }</annotation>
+</semantics>
+</math></span><img alt="\times" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0ffafff1ad26cbe49045f19a67ce532116a32703" style="vertical-align: 0.019ex; margin-bottom: -0.19ex; width:1.808ex; height:1.509ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle +}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo>+</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle +}</annotation>
+</semantics>
+</math></span><img alt="+" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fe6ef363cd19902d1a7a71fb1c8b21e8ede52406" style="vertical-align: -0.505ex; width:1.808ex; height:2.176ex;"/></span>符合<a href="/wiki/%E5%88%86%E9%85%8D%E5%BE%8B" title="分配律">分配律</a>：
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\times (b+c)=ab+ac}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>×<!-- × --></mo>
+<mo stretchy="false">(</mo>
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>a</mi>
+<mi>b</mi>
+<mo>+</mo>
+<mi>a</mi>
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\times (b+c)=ab+ac}</annotation>
+</semantics>
+</math></span><img alt="a \times (b+c)=ab+ac" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fb2cc2e3cb1153157ef198f5aa0f577e0a6d08a9" style="vertical-align: -0.838ex; width:21.127ex; height:2.843ex;"/></span>。</dd></dl>
+<h3><span id=".E6.9C.89.E5.BA.8F.E6.80.A7"></span><span class="mw-headline" id="有序性">有序性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=10" title="编辑章节：有序性">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>我们说<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\leq b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>≤<!-- ≤ --></mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\leq b}</annotation>
+</semantics>
+</math></span><img alt="a \le b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/41558abc50886fdf38817495b243958d7b3dd39b" style="vertical-align: -0.505ex; width:5.326ex; height:2.343ex;"/></span>当且仅当有自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span>使得<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a+c=b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo>=</mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a+c=b}</annotation>
+</semantics>
+</math></span><img alt="a+c=b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/b9ecaa31a2d87fb9d9558a322398b954b8f02ce2" style="vertical-align: -0.505ex; width:9.173ex; height:2.343ex;"/></span>。<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle (N,\leq )}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mo stretchy="false">(</mo>
+<mi>N</mi>
+<mo>,</mo>
+<mo>≤<!-- ≤ --></mo>
+<mo stretchy="false">)</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle (N,\leq )}</annotation>
+</semantics>
+</math></span><img alt="(N, \le)" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f1eefe0fe2afe2639680e5c838afebb4c7d4e806" style="vertical-align: -0.838ex; width:6.715ex; height:2.843ex;"/></span>是一个<a class="mw-redirect" href="/wiki/%E8%89%AF%E5%BA%8F%E9%9B%86" title="良序集">良序集</a>，即每个非空子集都有一个最小的自然数。 
+</p><p>此序也和加法及乘法兼容，即若<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle c}</annotation>
+</semantics>
+</math></span><img alt="c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/86a67b81c2de995bd608d5b2df50cd8cd7d92455" style="vertical-align: -0.338ex; width:1.007ex; height:1.676ex;"/></span>都是自然数且<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a\leq b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>≤<!-- ≤ --></mo>
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a\leq b}</annotation>
+</semantics>
+</math></span><img alt="a \le b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/41558abc50886fdf38817495b243958d7b3dd39b" style="vertical-align: -0.505ex; width:5.326ex; height:2.343ex;"/></span>，则<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a+c\leq b+c}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>+</mo>
+<mi>c</mi>
+<mo>≤<!-- ≤ --></mo>
+<mi>b</mi>
+<mo>+</mo>
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a+c\leq b+c}</annotation>
+</semantics>
+</math></span><img alt="a+c \le b+c" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/878af0e64fb866c2e3e1955d3bda821def919ce0" style="vertical-align: -0.505ex; width:13.02ex; height:2.343ex;"/></span>及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle ac\leq bc}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mi>c</mi>
+<mo>≤<!-- ≤ --></mo>
+<mi>b</mi>
+<mi>c</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle ac\leq bc}</annotation>
+</semantics>
+</math></span><img alt="ac \le bc" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2dd77306a687391107efb2ab53af7cad02020d4c" style="vertical-align: -0.505ex; width:7.34ex; height:2.343ex;"/></span>。
+</p>
+<h3><span id=".E5.8F.AF.E9.99.A4.E6.80.A7"></span><span class="mw-headline" id="可除性">可除性</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=11" title="编辑章节：可除性">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a href="/wiki/%E5%85%B3%E7%B3%BB_(%E6%95%B0%E5%AD%A6)#可除性" title="关系 (数学)">可除性</a></div>
+<p>给定两个自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>和<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span>，其中<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b\neq 0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+<mo>≠<!-- ≠ --></mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b\neq 0}</annotation>
+</semantics>
+</math></span><img alt="b \ne 0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ad073253b4c817f2ec7e3dd7517b7f89a8e581dc" style="vertical-align: -0.838ex; width:5.258ex; height:2.676ex;"/></span>，可找到唯一的两个自然数<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle q}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>q</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle q}</annotation>
+</semantics>
+</math></span><img alt="q" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/06809d64fa7c817ffc7e323f85997f783dbdf71d" style="vertical-align: -0.671ex; width:1.07ex; height:2.009ex;"/></span>及<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+</semantics>
+</math></span><img alt="r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;"/></span>使得
+</p>
+<dl><dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a=bq+r,\ 0\leq r&lt;q}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+<mo>=</mo>
+<mi>b</mi>
+<mi>q</mi>
+<mo>+</mo>
+<mi>r</mi>
+<mo>,</mo>
+<mtext> </mtext>
+<mn>0</mn>
+<mo>≤<!-- ≤ --></mo>
+<mi>r</mi>
+<mo>&lt;</mo>
+<mi>q</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a=bq+r,\ 0\leq r&lt;q}</annotation>
+</semantics>
+</math></span><img alt="a=bq+r,\ 0\le r &lt; q" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/92d1324a365af271203dd74c4f2a4da2b62ee34c" style="vertical-align: -0.671ex; width:21.377ex; height:2.509ex;"/></span></dd></dl>
+<p><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle q}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>q</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle q}</annotation>
+</semantics>
+</math></span><img alt="q" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/06809d64fa7c817ffc7e323f85997f783dbdf71d" style="vertical-align: -0.671ex; width:1.07ex; height:2.009ex;"/></span>称为“<a href="/wiki/%E5%95%86%E6%95%B8" title="商数">商数</a>”而<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r}</annotation>
+</semantics>
+</math></span><img alt="r" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0d1ecb613aa2984f0576f70f86650b7c2a132538" style="vertical-align: -0.338ex; width:1.049ex; height:1.676ex;"/></span>称为“<a href="/wiki/%E4%BD%99%E6%95%B0" title="余数">余数</a>”。 若<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle r=0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>r</mi>
+<mo>=</mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle r=0}</annotation>
+</semantics>
+</math></span><img alt="r=0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/894a83e863728b4ee2e12f3a999a09f5f2bf1c89" style="vertical-align: -0.338ex; width:5.31ex; height:2.176ex;"/></span>，则称<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle a}</annotation>
+</semantics>
+</math></span><img alt="a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ffd2487510aa438433a2579450ab2b3d557e5edc" style="vertical-align: -0.338ex; width:1.23ex; height:1.676ex;"/></span>可被<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b}</annotation>
+</semantics>
+</math></span><img alt="b" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f11423fbb2e967f986e36804a8ae4271734917c3" style="vertical-align: -0.338ex; width:0.998ex; height:2.176ex;"/></span><a class="mw-redirect" href="/wiki/%E6%95%B4%E9%99%A4" title="整除">整除</a>，记为<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle b|a}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>b</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>a</mi>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle b|a}</annotation>
+</semantics>
+</math></span><img alt="b|a" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ab3f6e79545c1061d5a86254314f0d4d01187ea8" style="vertical-align: -0.838ex; width:2.874ex; height:2.843ex;"/></span>。
+</p><p>相关概念有<a href="/wiki/%E8%BC%BE%E8%BD%89%E7%9B%B8%E9%99%A4%E6%B3%95" title="辗转相除法">辗转相除</a>、<a href="/wiki/%E8%B4%A8%E6%95%B0" title="质数">质数</a>及其它<a href="/wiki/%E6%95%B0%E8%AE%BA" title="数论">数论</a>概念。
+</p>
+<h2><span id=".E5.8E.86.E5.8F.B2.E4.B8.8E0.E7.9A.84.E4.BA.89.E8.AE.AE"></span><span class="mw-headline" id="历史与0的争议">历史与0的争议</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=12" title="编辑章节：历史与0的争议">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>自然数由数数而起。古希腊人最早研究其抽象特性，当中<a href="/wiki/%E6%AF%95%E8%BE%BE%E5%93%A5%E6%8B%89%E6%96%AF%E4%B8%BB%E4%B9%89" title="毕达哥拉斯主义">毕达哥拉斯主义</a>更视之为宇宙之基本。其它古文明也对其研究作出极大贡献，尤其以<a href="/wiki/%E5%8D%B0%E5%BA%A6" title="印度">印度</a>对0的接受，为人称道。
+</p><p>零早于公元前400年被巴比伦人用作<a class="mw-redirect" href="/wiki/%E6%95%B0%E7%A0%81" title="数码">数码</a>使用。玛雅人于公元200年将零视为数字，但未与其它文明有所交流。现代的观念由印度学者<a href="/wiki/%E5%A9%86%E7%BE%85%E6%91%A9%E7%AC%88%E5%A4%9A" title="婆罗摩笈多">婆罗摩笈多</a>于公元628年提出，经阿拉伯人传至欧洲。欧洲人一开始仍对零作为数字感到抗拒，认为零不是一个“自然”数。
+</p><p>19世纪末，<a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a>者给自然数一个较严谨的定义。据此定义，把零（对应于<a href="/wiki/%E7%A9%BA%E9%9B%86" title="空集">空集</a>）包括于自然数内更为方便。<a href="/wiki/%E9%80%BB%E8%BE%91" title="逻辑">逻辑</a>论者及<a href="/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6" title="计算机科学">计算机科学</a>家，接受集合论者的定义。而其他一些数学家，主要是数论学家，则依从传统把零拒之于自然数之外。
+</p><p>在全球范围内，目前针对0是否属于自然数的争论依旧存在。
+</p><p>在中国大陆，2000年左右之前的中小学教材一般不将0列入自然数之内，或称其属于“扩大的自然数列”<sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>。在2000年左右之后的新版中小学教材中，普遍将0列入自然数。<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup><sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup>
+</p><p>认为自然数不包含零的其中一个理由是自然数所指为自然界中存在的数，例如一棵大树、两条鱼、十亿个细胞等等，而鲜少有人说零个物品。
+</p><p>国际标准<span class="ilh-all" data-foreign-title="ISO 31-11" data-lang-code="en" data-lang-name="英语" data-orig-title="ISO 31-11:1992"><span class="ilh-page"><a class="new" href="/w/index.php?title=ISO_31-11:1992&amp;action=edit&amp;redlink=1" title="ISO 31-11:1992（页面不存在）">ISO 31-11:1992</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/ISO_31-11" title="en:ISO 31-11"><span dir="auto" lang="en">ISO 31-11</span></a></span>）</span></span>《量和单位 第十一部分：物理科学和技术中使用的数学标志与符号》（已被<span class="ilh-all" data-foreign-title="ISO/IEC 80000" data-lang-code="en" data-lang-name="英语" data-orig-title="ISO/IEC 80000-2"><span class="ilh-page"><a class="new" href="/w/index.php?title=ISO/IEC_80000-2&amp;action=edit&amp;redlink=1" title="ISO/IEC 80000-2（页面不存在）">ISO/IEC 80000-2</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/ISO/IEC_80000" title="en:ISO/IEC 80000"><span dir="auto" lang="en">ISO/IEC 80000</span></a></span>）</span></span>取代）中，从集合论角度规定：符号 <span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span> 所表示的自然数集是包括正整数和0。
+</p><p>中国大陆于1993年制定的强制性国家标准《物理科学和技术中使用的数学符号》(GB 3102.11-93)参照国际标准ISO 31-11规定：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>表示“非负整数集；自然数集”，<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} =\{0,1,2,3,\ldots \}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+<mo>=</mo>
+<mo fence="false" stretchy="false">{</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo>,</mo>
+<mn>2</mn>
+<mo>,</mo>
+<mn>3</mn>
+<mo>,</mo>
+<mo>…<!-- … --></mo>
+<mo fence="false" stretchy="false">}</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} =\{0,1,2,3,\ldots \}}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{N}=\{0,1,2,3,\ldots\}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/63e3652529d7af2451345ae27b4824d6118e1258" style="vertical-align: -0.838ex; width:18.61ex; height:2.843ex;"/></span>。但自2017年3月23日起，该标准转化为推荐性标准，不再强制执行。<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>
+</p>
+<h2><span id=".E6.8E.A8.E5.B9.BF"></span><span class="mw-headline" id="推广">推广</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=13" title="编辑章节：推广">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>自然数用于计数时称之为<a href="/wiki/%E5%9F%BA%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="基数 (数学)">基数</a>，用于定序时称之为<a href="/wiki/%E5%BA%8F%E6%95%B0" title="序数">序数</a>。基数用于判定集合的大小，序数用作排列。
+</p><p>对于<a class="mw-redirect" href="/wiki/%E6%9C%89%E9%99%90" title="有限">有限</a>序列或有限集合，序数及基数皆与自然数同。
+</p>
+<h2><span id=".E5.8F.82.E8.80.83.E4.BE.86.E6.BA.90"></span><span class="mw-headline" id="参考来源">参考来源</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit&amp;section=14" title="编辑章节：参考来源">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="300" data-file-width="300" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/60px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/80px-Wikibooks-logo.svg.png 2x" width="40"/></td>
+<td class="mbox-text plainlist"><a href="/wiki/%E7%B6%AD%E5%9F%BA%E6%95%99%E7%A7%91%E6%9B%B8" title="维基教科书">维基教科书</a>中的相关电子教程：<b><a class="extiw" href="https://zh.wikibooks.org/wiki/%E5%B0%8F%E5%AD%A6%E6%95%B0%E5%AD%A6/%E8%87%AA%E7%84%B6%E6%95%B0" title="b:小学数学/自然数">小学数学/自然数</a></b></td></tr></tbody></table>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="512" data-file-width="626" decoding="async" height="33" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/40px-Wikiversity_logo_2017.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/60px-Wikiversity_logo_2017.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/80px-Wikiversity_logo_2017.svg.png 2x" width="40"/></td>
+<td class="mbox-text plainlist"><a class="mw-redirect" href="/wiki/%E7%B6%AD%E5%9F%BA%E5%AD%B8%E9%99%A2" title="维基学院">维基学院</a>中的相关研究或学习资源：<b><a class="extiw" href="https://zh.wikiversity.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" title="v:自然数">自然数</a></b></td></tr></tbody></table>
+<div class="reflist" style="list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation book">Standard number sets and intervals. <a class="external text" href="https://web.archive.org/web/20210224184825/https://www.iso.org/standard/64973.html" rel="nofollow">ISO 80000-2:2019 Quantities and units — Part 2: Mathematics</a>. <a class="mw-redirect" href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">International Organization for Standardization</a>. 2019-08: 6 <span class="reference-accessdate"> [<span class="nowrap">2020-07-23</span>]</span>. （<a class="external text" href="https://www.iso.org/standard/64973.html" rel="nofollow">原始内容</a>存档于2021-02-24）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%87%AA%E7%84%B6%E6%95%B0&amp;rft.atitle=Standard+number+sets+and+intervals&amp;rft.btitle=ISO+80000-2%3A2019+Quantities+and+units+%E2%80%94+Part+2%3A+Mathematics&amp;rft.date=2019-08&amp;rft.genre=bookitem&amp;rft.pages=6&amp;rft.pub=International+Organization+for+Standardization&amp;rft_id=https%3A%2F%2Fwww.iso.org%2Fstandard%2F64973.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation book">Terms and definitions. <a class="external text" href="https://web.archive.org/web/20210424220048/https://www.iso.org/standard/63598.html" rel="nofollow">Information technology — Vocabulary</a>. <a class="mw-redirect" href="/wiki/International_Organization_for_Standardization" title="International Organization for Standardization">International Organization for Standardization</a>. 2015-05 <span class="reference-accessdate"> [<span class="nowrap">2020-07-23</span>]</span>. （<a class="external text" href="https://www.iso.org/standard/63598.html" rel="nofollow">原始内容</a>存档于2021-04-24）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%87%AA%E7%84%B6%E6%95%B0&amp;rft.atitle=Terms+and+definitions&amp;rft.btitle=Information+technology+%E2%80%94+Vocabulary&amp;rft.date=2015-05&amp;rft.genre=bookitem&amp;rft.pub=International+Organization+for+Standardization&amp;rft_id=https%3A%2F%2Fwww.iso.org%2Fstandard%2F63598.html&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation book">Rudin, W. <a class="external text" href="https://archive.org/details/1979RudinW" rel="nofollow">Principles of Mathematical Analysis</a>. New York: McGraw-Hill. 1976: 25. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/978-0-07-054235-8" title="Special:网络书源/978-0-07-054235-8"><span title="国际标准书号">ISBN</span> 978-0-07-054235-8</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%87%AA%E7%84%B6%E6%95%B0&amp;rft.aufirst=W.&amp;rft.aulast=Rudin&amp;rft.btitle=Principles+of+Mathematical+Analysis&amp;rft.date=1976&amp;rft.genre=book&amp;rft.isbn=978-0-07-054235-8&amp;rft.pages=25&amp;rft.place=New+York&amp;rft.pub=McGraw-Hill&amp;rft_id=https%3A%2F%2Farchive.org%2Fdetails%2F1979RudinW&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation book">人民教育出版社 课程教材研究所。中国数学课程教材研究开发中心. 普通高中标准课程实验教科书 数学1 必修 A版. 人民教育出版社. 2004年5月. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9787107177057" title="Special:网络书源/9787107177057"><span title="国际标准书号">ISBN</span> 9787107177057</a> <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文（简体）网页">（中文（简体））</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%87%AA%E7%84%B6%E6%95%B0&amp;rft.au=%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE+%E8%AF%BE%E7%A8%8B%E6%95%99%E6%9D%90%E7%A0%94%E7%A9%B6%E6%89%80%E3%80%82%E4%B8%AD%E5%9B%BD%E6%95%B0%E5%AD%A6%E8%AF%BE%E7%A8%8B%E6%95%99%E6%9D%90%E7%A0%94%E7%A9%B6%E5%BC%80%E5%8F%91%E4%B8%AD%E5%BF%83&amp;rft.btitle=%E6%99%AE%E9%80%9A%E9%AB%98%E4%B8%AD%E6%A0%87%E5%87%86%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C%E6%95%99%E7%A7%91%E4%B9%A6+%E6%95%B0%E5%AD%A61+%E5%BF%85%E4%BF%AE+A%E7%89%88&amp;rft.date=2004-05&amp;rft.genre=book&amp;rft.isbn=9787107177057&amp;rft.pub=%E4%BA%BA%E6%B0%91%E6%95%99%E8%82%B2%E5%87%BA%E7%89%88%E7%A4%BE&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span> <span class="error citation-comment" style="display:none;font-size:100%">使用<code style="color:inherit; border:inherit; padding:inherit;">|accessdate=</code>需要含有<code style="color:inherit; border:inherit; padding:inherit;">|url=</code> (<a href="/wiki/Help:%E5%BC%95%E6%96%87%E6%A0%BC%E5%BC%8F1%E9%94%99%E8%AF%AF#accessdate_missing_url" title="Help:引文格式1错误">帮助</a>)</span></span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text">王好民，《谈谈中学数学中的“0”》。曲阜师院学报(自然科学版)，1979年03期。</span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">（沧州市第一中学）李元星，潘峰，《关于0是自然数的探讨》。教育实践与研究，2004年01期。</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">（江苏省连云港市墟沟实验小学）傅海洋，《“0是自然数”引发的教学问题》。现代中小学教育，2007年08期。</span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web">中国国家标准化管理委员会. <a class="external text" href="https://web.archive.org/web/20220423023137/http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=3DE79450D562E62D41CB6E79FF411054" rel="nofollow">国家标准|GB/T 3102.11-1993</a>. openstd.samr.gov.cn.  <span class="reference-accessdate"> [<span class="nowrap">2021-10-13</span>]</span>. （<a class="external text" href="http://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=3DE79450D562E62D41CB6E79FF411054" rel="nofollow">原始内容</a>存档于2022-04-23）.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E8%87%AA%E7%84%B6%E6%95%B0&amp;rft.atitle=%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%7CGB%2FT+3102.11-1993&amp;rft.au=%E4%B8%AD%E5%9B%BD%E5%9B%BD%E5%AE%B6%E6%A0%87%E5%87%86%E5%8C%96%E7%AE%A1%E7%90%86%E5%A7%94%E5%91%98%E4%BC%9A&amp;rft.genre=unknown&amp;rft.jtitle=openstd.samr.gov.cn&amp;rft_id=http%3A%2F%2Fopenstd.samr.gov.cn%2Fbzgk%2Fgb%2FnewGbInfo%3Fhcno%3D3DE79450D562E62D41CB6E79FF411054&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+</ol></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E6%95%B8%E7%9A%84%E7%B3%BB%E7%B5%B1" title="Template:数的系统"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a class="new" href="/w/index.php?title=Template_talk:%E6%95%B8%E7%9A%84%E7%B3%BB%E7%B5%B1&amp;action=edit&amp;redlink=1" title="Template talk:数的系统（页面不存在）"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E6%95%B8%E7%9A%84%E7%B3%BB%E7%B5%B1&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a class="mw-redirect" href="/wiki/%E6%95%B8" title="数">数</a>的系统</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%8F%AF%E6%95%B8%E9%9B%86" title="可数集">可数集</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-selflink selflink">自然数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {N} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">N</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {N} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  N}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/fdf9a96b565ea202d0f4322e9195613fb26a9bed" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E6%95%B4%E6%95%B0" title="整数">整数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb Z" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/449494a083e0a1fda2b61c62b2f09b6bee4633dc" style="vertical-align: -0.338ex; width:1.55ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E6%9C%89%E7%90%86%E6%95%B0" title="有理数">有理数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Q} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Q</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Q} }</annotation>
+</semantics>
+</math></span><img alt="\mathbb {Q} " aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c5909f0b54e4718fa24d5fd34d54189d24a66e9a" style="vertical-align: -0.671ex; width:1.808ex; height:2.509ex;"/></span>)</li>
+<li><a href="/wiki/%E8%A6%8F%E7%9F%A9%E6%95%B8" title="规矩数">规矩数</a></li>
+<li><a href="/wiki/%E4%BB%A3%E6%95%B8%E6%95%B8" title="代数数">代数数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {A} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">A</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {A} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {A} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/3fb423c16a5f403edbaf66438b75e7a36e725af6" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><span class="ilh-all" data-foreign-title="Period (algebraic geometry)" data-lang-code="en" data-lang-name="英语" data-orig-title="周期 (代数几何)"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%91%A8%E6%9C%9F_(%E4%BB%A3%E6%95%B8%E5%B9%BE%E4%BD%95)&amp;action=edit&amp;redlink=1" title="周期 (代数几何)（页面不存在）">周期</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Period_(algebraic_geometry)" title="en:Period (algebraic geometry)"><span dir="auto" lang="en">Period (algebraic geometry)</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E5%8F%AF%E8%A8%88%E7%AE%97%E6%95%B8" title="可计算数">可计算数</a></li>
+<li><a href="/wiki/%E5%8F%AF%E5%AE%9A%E4%B9%89%E6%95%B0" title="可定义数">可定义数</a></li>
+<li><a href="/wiki/%E9%AB%98%E6%96%AF%E6%95%B4%E6%95%B8" title="高斯整数">高斯整数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {Z} [i]}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">Z</mi>
+</mrow>
+<mo stretchy="false">[</mo>
+<mi>i</mi>
+<mo stretchy="false">]</mo>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {Z} [i]}</annotation>
+</semantics>
+</math></span><img alt="\mathbb{Z}[i]" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9ffa94e9e2e6d9e5e5373d5fafb954b902743fde" style="vertical-align: -0.838ex; width:3.646ex; height:2.843ex;"/></span>)</li>
+<li><a href="/wiki/%E8%89%BE%E6%A3%AE%E6%96%AF%E5%9D%A6%E6%95%B4%E6%95%B0" title="艾森斯坦整数">艾森斯坦整数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><span class="ilh-all" data-foreign-title="Composition algebra" data-lang-code="en" data-lang-name="英语" data-orig-title="合成代数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%90%88%E6%88%90%E4%BB%A3%E6%95%B8&amp;action=edit&amp;redlink=1" title="合成代数（页面不存在）">合成代数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Composition_algebra" title="en:Composition algebra"><span dir="auto" lang="en">Composition algebra</span></a></span>）</span></span></th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="ilh-all" data-foreign-title="Division algebra" data-lang-code="en" data-lang-name="英语" data-orig-title="可除代数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%8F%AF%E9%99%A4%E4%BB%A3%E6%95%B8&amp;action=edit&amp;redlink=1" title="可除代数（页面不存在）">可除代数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Division_algebra" title="en:Division algebra"><span dir="auto" lang="en">Division algebra</span></a></span>）</span></span>：<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%A4%8D%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="复数 (数学)">复数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {C} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%9B%9B%E5%85%83%E6%95%B8" title="四元数">四元数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {H} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">H</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {H} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  H}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e050965453c42bcc6bd544546703c836bdafeac9" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%85%AB%E5%85%83%E6%95%B0" title="八元数">八元数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {O} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">O</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {O} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  O}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1ed2664a4fe515e6fbed25a7193ce663b82920c" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span>)</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E5%87%AF%E8%8E%B1-%E8%BF%AA%E5%85%8B%E6%A3%AE%E7%BB%93%E6%9E%84" title="凯莱-迪克森结构">凯莱-迪克森结构</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%A4%8D%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="复数 (数学)">复数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {C} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%9B%9B%E5%85%83%E6%95%B8" title="四元数">四元数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {H} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">H</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {H} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  H}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e050965453c42bcc6bd544546703c836bdafeac9" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%85%AB%E5%85%83%E6%95%B0" title="八元数">八元数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {O} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">O</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {O} }</annotation>
+</semantics>
+</math></span><img alt="{\mathbb  O}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c1ed2664a4fe515e6fbed25a7193ce663b82920c" style="vertical-align: -0.338ex; width:1.808ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E5%8D%81%E5%85%AD%E5%85%83%E6%95%B8" title="十六元数">十六元数</a> (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {S} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">S</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {S} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {S} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9f9d5874c5d7f68eba1cec9da9ccbe53903303bb" style="vertical-align: -0.338ex; width:1.293ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E4%B8%89%E5%8D%81%E4%BA%8C%E5%85%83%E6%95%B8" title="三十二元数">三十二元数</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%85%AD%E5%8D%81%E5%9B%9B%E5%85%83%E6%95%B8" title="六十四元数">六十四元数</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%B8%80%E7%99%BE%E4%BA%8C%E5%8D%81%E5%85%AB%E5%85%83%E6%95%B8" title="一百二十八元数">一百二十八元数</a></li>
+<li>二百五十六元数……</li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">分裂<br/>形式</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li>于<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {R} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">R</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {R} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {R} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/786849c765da7a84dbc3cce43e96aad58a5868dc" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span></a>：<a href="/wiki/%E9%9B%99%E6%9B%B2%E8%A4%87%E6%95%B8" title="双曲复数">双曲复数</a></li>
+<li><a href="/wiki/%E5%88%86%E8%A3%82%E5%9B%9B%E5%85%83%E6%95%B0" title="分裂四元数">分裂四元数</a></li>
+<li><span class="ilh-all" data-foreign-title="Split-biquaternion" data-lang-code="en" data-lang-name="英语" data-orig-title="分裂复四元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%88%86%E8%A3%82%E8%A4%87%E5%9B%9B%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="分裂复四元数（页面不存在）">分裂复四元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Split-biquaternion" title="en:Split-biquaternion"><span dir="auto" lang="en">Split-biquaternion</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Split-octonion" data-lang-code="en" data-lang-name="英语" data-orig-title="分裂八元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%88%86%E8%A3%82%E5%85%AB%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="分裂八元数（页面不存在）">分裂八元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Split-octonion" title="en:Split-octonion"><span dir="auto" lang="en">Split-octonion</span></a></span>）</span></span><br/> 于<a class="mw-redirect" href="/wiki/%E8%A4%87%E6%95%B8_(%E6%95%B8%E5%AD%B8)" title="复数 (数学)"><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {C} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">C</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {C} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {C} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/f9add4085095b9b6d28d045fd9c92c2c09f549a7" style="vertical-align: -0.338ex; width:1.678ex; height:2.176ex;"/></span></a>：<a href="/wiki/%E9%9B%99%E8%A4%87%E6%95%B8" title="双复数">双复数</a></li>
+<li><a href="/wiki/%E8%A4%87%E5%9B%9B%E5%85%83%E6%95%B8" title="复四元数">复四元数</a></li>
+<li><span class="ilh-all" data-foreign-title="Bioctonion" data-lang-code="en" data-lang-name="英语" data-orig-title="复八元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E8%A4%87%E5%85%AB%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="复八元数（页面不存在）">复八元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Bioctonion" title="en:Bioctonion"><span dir="auto" lang="en">Bioctonion</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其他<a href="/wiki/%E8%B6%85%E5%A4%8D%E6%95%B0" title="超复数">超复数</a></th><td class="navbox-list navbox-odd hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E4%BA%8C%E5%85%83%E6%95%B0" title="二元数">二元数</a></li>
+<li><span class="ilh-all" data-foreign-title="Dual quaternion" data-lang-code="en" data-lang-name="英语" data-orig-title="二元四元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%8C%E5%85%83%E5%9B%9B%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="二元四元数（页面不存在）">二元四元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Dual_quaternion" title="en:Dual quaternion"><span dir="auto" lang="en">Dual quaternion</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Applications of dual quaternions to 2D geometry" data-lang-code="en" data-lang-name="英语" data-orig-title="二元复数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%8C%E5%85%83%E8%A4%87%E6%95%B8&amp;action=edit&amp;redlink=1" title="二元复数（页面不存在）">二元复数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Applications_of_dual_quaternions_to_2D_geometry" title="en:Applications of dual quaternions to 2D geometry"><span dir="auto" lang="en">Applications of dual quaternions to 2D geometry</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Hyperbolic quaternion" data-lang-code="en" data-lang-name="英语" data-orig-title="双曲四元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E9%9B%99%E6%9B%B2%E5%9B%9B%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="双曲四元数（页面不存在）">双曲四元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Hyperbolic_quaternion" title="en:Hyperbolic quaternion"><span dir="auto" lang="en">Hyperbolic quaternion</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E5%8D%81%E5%85%AD%E5%85%83%E6%95%B8" title="十六元数">十六元数</a>  (<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle \mathbb {S} }" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="double-struck">S</mi>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle \mathbb {S} }</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \mathbb {S} }" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9f9d5874c5d7f68eba1cec9da9ccbe53903303bb" style="vertical-align: -0.338ex; width:1.293ex; height:2.176ex;"/></span>)</li>
+<li><a href="/wiki/%E4%B8%89%E5%8D%81%E4%BA%8C%E5%85%83%E6%95%B8" title="三十二元数">三十二元数</a></li>
+<li><span class="ilh-all" data-foreign-title="Split-biquaternion" data-lang-code="en" data-lang-name="英语" data-orig-title="分裂复四元数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%88%86%E8%A3%82%E8%A4%87%E5%9B%9B%E5%85%83%E6%95%B8&amp;action=edit&amp;redlink=1" title="分裂复四元数（页面不存在）">分裂复四元数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Split-biquaternion" title="en:Split-biquaternion"><span dir="auto" lang="en">Split-biquaternion</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E5%A4%9A%E9%87%8D%E5%A4%8D%E6%95%B0" title="多重复数">多重复数</a></li>
+<li><span class="ilh-all" data-foreign-title="Geometric algebra" data-lang-code="en" data-lang-name="英语" data-orig-title="几何代数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%B9%BE%E4%BD%95%E4%BB%A3%E6%95%B8&amp;action=edit&amp;redlink=1" title="几何代数（页面不存在）">几何代数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Geometric_algebra" title="en:Geometric algebra"><span dir="auto" lang="en">Geometric algebra</span></a></span>）</span></span>
+<ul><li><span class="ilh-all" data-foreign-title="Algebra of physical space" data-lang-code="en" data-lang-name="英语" data-orig-title="物理空间代数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%89%A9%E7%90%86%E7%A9%BA%E9%96%93%E4%BB%A3%E6%95%B8&amp;action=edit&amp;redlink=1" title="物理空间代数（页面不存在）">物理空间代数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Algebra_of_physical_space" title="en:Algebra of physical space"><span dir="auto" lang="en">Algebra of physical space</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Spacetime algebra" data-lang-code="en" data-lang-name="英语" data-orig-title="时空代数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%99%82%E7%A9%BA%E4%BB%A3%E6%95%B8&amp;action=edit&amp;redlink=1" title="时空代数（页面不存在）">时空代数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Spacetime_algebra" title="en:Spacetime algebra"><span dir="auto" lang="en">Spacetime algebra</span></a></span>）</span></span></li></ul></li>
+<li><a href="/wiki/%E4%B8%89%E5%85%83%E6%95%B8" title="三元数">三元数</a>
+<ul><li>无法良好构建</li></ul></li>
+<li><a class="mw-redirect" href="/wiki/%E5%85%AD%E5%85%83%E6%95%B8" title="六元数">六元数</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其他系统</th><td class="navbox-list navbox-even hlist" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%9F%BA%E6%95%B0_(%E6%95%B0%E5%AD%A6)" title="基数 (数学)">基数</a></li>
+<li><span class="ilh-all" data-foreign-title="Extended natural numbers" data-lang-code="en" data-lang-name="英语" data-orig-title="扩展自然数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%93%B4%E5%B1%95%E8%87%AA%E7%84%B6%E6%95%B8&amp;action=edit&amp;redlink=1" title="扩展自然数（页面不存在）">扩展自然数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Extended_natural_numbers" title="en:Extended natural numbers"><span dir="auto" lang="en">Extended natural numbers</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E7%84%A1%E7%90%86%E6%95%B8" title="无理数">无理数</a></li>
+<li><span class="ilh-all" data-foreign-title="Fuzzy number" data-lang-code="en" data-lang-name="英语" data-orig-title="模糊数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%A8%A1%E7%B3%8A%E6%95%B8&amp;action=edit&amp;redlink=1" title="模糊数（页面不存在）">模糊数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Fuzzy_number" title="en:Fuzzy number"><span dir="auto" lang="en">Fuzzy number</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E8%B6%85%E5%AE%9E%E6%95%B0_(%E9%9D%9E%E6%A0%87%E5%87%86%E5%88%86%E6%9E%90)" title="超实数 (非标准分析)">超实数</a></li>
+<li><span class="ilh-all" data-foreign-title="Levi-Civita field" data-lang-code="en" data-lang-name="英语" data-orig-title="列维-奇维塔域"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%88%97%E7%B6%AD-%E5%A5%87%E7%B6%AD%E5%A1%94%E5%9F%9F&amp;action=edit&amp;redlink=1" title="列维-奇维塔域（页面不存在）">列维-奇维塔域</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Levi-Civita_field" title="en:Levi-Civita field"><span dir="auto" lang="en">Levi-Civita field</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E8%B6%85%E7%8F%BE%E5%AF%A6%E6%95%B8" title="超现实数">超现实数</a></li>
+<li><a href="/wiki/%E8%B6%85%E8%B6%8A%E6%95%B8" title="超越数">超越数</a></li>
+<li><a href="/wiki/%E5%BA%8F%E6%95%B0" title="序数">序数</a></li>
+<li><a href="/wiki/P%E9%80%B2%E6%95%B8" title="P进数"><link href="mw-data:TemplateStyles:r58896141" rel="mw-deduplicated-inline-style"/><span class="serif"><span class="texhtml"><i>p</i></span></span>进数</a></li>
+<li><span class="ilh-all" data-foreign-title="Supernatural number" data-lang-code="en" data-lang-name="英语" data-orig-title="超自然数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E8%B6%85%E8%87%AA%E7%84%B6%E6%95%B8&amp;action=edit&amp;redlink=1" title="超自然数（页面不存在）">超自然数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Supernatural_number" title="en:Supernatural number"><span dir="auto" lang="en">Supernatural number</span></a></span>）</span></span></li>
+<li><span class="ilh-all" data-foreign-title="Superreal number" data-lang-code="en" data-lang-name="英语" data-orig-title="上超实数"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%B8%8A%E8%B6%85%E5%AF%A6%E6%95%B8&amp;action=edit&amp;redlink=1" title="上超实数（页面不存在）">上超实数</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Superreal_number" title="en:Superreal number"><span dir="auto" lang="en">Superreal number</span></a></span>）</span></span></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow hlist" colspan="2"><div>
+<ul><li><a href="/wiki/%E6%95%B0#数的类别" title="数">分类</a></li>
+<li><img alt="列表级条目" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/23px-Symbol_list_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/db/Symbol_list_class.svg/31px-Symbol_list_class.svg.png 2x" title="列表级条目" width="16"/> <span class="ilh-all" data-foreign-title="List of types of numbers" data-lang-code="en" data-lang-name="英语" data-orig-title="数的类别列表"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E6%95%B8%E7%9A%84%E9%A1%9E%E5%88%A5%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="数的类别列表（页面不存在）">列表</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/List_of_types_of_numbers" title="en:List of types of numbers"><span dir="auto" lang="en">List of types of numbers</span></a></span>）</span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1366
+Cached time: 20221008150218
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.526 seconds
+Real time usage: 1.399 seconds
+Preprocessor visited node count: 2651/1000000
+Post‐expand include size: 86708/2097152 bytes
+Template argument size: 1257/2097152 bytes
+Highest expansion depth: 23/100
+Expensive parser function count: 37/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 11578/5000000 bytes
+Lua time usage: 0.202/10.000 seconds
+Lua memory usage: 7378728/52428800 bytes
+Number of Wikibase entities loaded: 13/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  497.441      1 -total
+ 28.23%  140.423      1 Template:数的系统
+ 27.84%  138.478      1 Template:Navbox
+ 26.63%  132.451      1 Template:Numbers
+ 20.04%   99.692      1 Template:Expand_language
+ 17.80%   88.534     13 Template:Link-wd
+ 17.65%   87.793      3 Template:计算结果
+ 17.15%   85.322      3 Template:计算结果/mathtag
+ 15.88%   79.015      9 Template:Safeyesno
+ 15.70%   78.123      1 Template:Ambox
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:342-0!canonical!zh and timestamp 20221008150217 and revision id 72699883.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=自然数&amp;oldid=72699883">https://zh.wikipedia.org/w/index.php?title=自然数&amp;oldid=72699883</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E6%95%B0%E8%AE%BA" title="Category:数论">数论</a></li><li><a href="/wiki/Category:%E9%9B%86%E5%90%88%E8%AE%BA" title="Category:集合论">集合论</a></li><li><a href="/wiki/Category:%E5%88%9D%E7%AD%89%E6%95%B0%E5%AD%A6" title="Category:初等数学">初等数学</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:%E5%90%AB%E6%9C%89%E8%AE%BF%E9%97%AE%E6%97%A5%E6%9C%9F%E4%BD%86%E6%97%A0%E7%BD%91%E5%9D%80%E7%9A%84%E5%BC%95%E7%94%A8%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:含有访问日期但无网址的引用的页面">含有访问日期但无网址的引用的页面</a></li><li><a href="/wiki/Category:%E8%87%AA2020%E5%B9%B47%E6%9C%88%E9%9C%80%E8%A6%81%E4%BB%8E%E8%8B%B1%E8%AF%AD%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E7%BF%BB%E8%AF%91%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:自2020年7月需要从英语维基百科翻译的条目">自2020年7月需要从英语维基百科翻译的条目</a></li><li><a href="/wiki/Category:%E6%A8%A1%E6%9D%BF%E4%B8%AD%E4%BD%BF%E7%94%A8%E6%97%A0%E6%95%88%E6%97%A5%E6%9C%9F%E5%8F%82%E6%95%B0%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:模板中使用无效日期参数的条目">模板中使用无效日期参数的条目</a></li><li><a href="/wiki/Category:%E9%9C%80%E8%A6%81%E5%BE%9E%E8%8B%B1%E8%AA%9E%E7%B6%AD%E5%9F%BA%E7%99%BE%E7%A7%91%E7%BF%BB%E8%AD%AF%E7%9A%84%E6%A2%9D%E7%9B%AE" title="Category:需要从英语维基百科翻译的条目">需要从英语维基百科翻译的条目</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8%E8%BF%87%E6%97%B6%E7%9A%84math%E6%A0%87%E7%AD%BE%E6%A0%BC%E5%BC%8F%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用过时的math标签格式的页面">使用过时的math标签格式的页面</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E8%87%AA%E7%84%B6%E6%95%B0" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E8%87%AA%E7%84%B6%E6%95%B0" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E8%87%AA%E7%84%B6%E6%95%B0" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E8%87%AA%E7%84%B6%E6%95%B0"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E8%87%AA%E7%84%B6%E6%95%B0" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E8%87%AA%E7%84%B6%E6%95%B0" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;oldid=72699883" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E8%87%AA%E7%84%B6%E6%95%B0&amp;id=72699883&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q21199" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E8%87%AA%E7%84%B6%E6%95%B0&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Natural_numbers" hreflang="en"><span>维基共享资源</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://zh.wikibooks.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B8" hreflang="zh"><span>维基教科书</span></a></li><li class="wb-otherproject-link wb-otherproject-wikiversity mw-list-item"><a href="https://zh.wikiversity.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="zh"><span>维基学院</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-ab mw-list-item"><a class="interlanguage-link-target" href="https://ab.wikipedia.org/wiki/%D0%98%D4%A5%D1%81%D0%B0%D0%B1%D0%B0%D1%80%D0%B0%D1%82%D3%99%D1%83_%D0%B0%D1%85%D1%8B%D4%A5%D1%85%D1%8C%D0%B0%D3%A1%D0%B0%D1%80%D0%B0" hreflang="ab" lang="ab" title="Иԥсабаратәу ахыԥхьаӡара – 阿布哈西亚语"><span>Аԥсшәа</span></a></li><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Natuurlike_getal" hreflang="af" lang="af" title="Natuurlike getal – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Nat%C3%BCrliche_Zahl" hreflang="gsw" lang="gsw" title="Natürliche Zahl – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8B%A8%E1%89%B0%E1%8D%88%E1%8C%A5%E1%88%AE_%E1%89%81%E1%8C%A5%E1%88%AD" hreflang="am" lang="am" title="የተፈጥሮ ቁጥር – 阿姆哈拉语"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Numero_natural" hreflang="an" lang="an" title="Numero natural – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%B9%D8%AF%D8%AF_%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A" hreflang="ar" lang="ar" title="عدد طبيعي – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-ary mw-list-item"><a class="interlanguage-link-target" href="https://ary.wikipedia.org/wiki/%D8%B9%D8%A7%D8%AF%D8%A7%D8%AF_%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A" hreflang="ary" lang="ary" title="عاداد طبيعي – 摩洛哥阿拉伯文"><span>الدارجة</span></a></li><li class="interlanguage-link interwiki-arz mw-list-item"><a class="interlanguage-link-target" href="https://arz.wikipedia.org/wiki/%D8%B9%D8%AF%D8%AF_%D8%B7%D8%A8%D9%8A%D8%B9%D9%89" hreflang="arz" lang="arz" title="عدد طبيعى – 埃及阿拉伯文"><span>مصرى</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A7%B1%E0%A6%BF%E0%A6%95_%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE" hreflang="as" lang="as" title="স্বাভাৱিক সংখ্যা – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/N%C3%BAmberu_natural" hreflang="ast" lang="ast" title="Númberu natural – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Natural_%C9%99d%C9%99dl%C9%99r" hreflang="az" lang="az" title="Natural ədədlər – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%B7%D8%A8%DB%8C%D8%B9%DB%8C_%D8%B3%D8%A7%DB%8C%DB%8C" hreflang="azb" lang="azb" title="طبیعی سایی – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C_%D2%BB%D0%B0%D0%BD" hreflang="ba" lang="ba" title="Натураль һан – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bat-smg mw-list-item"><a class="interlanguage-link-target" href="https://bat-smg.wikipedia.org/wiki/Nat%C5%ABral%C4%97%CC%84j%C4%97_skaitl%C4%93" hreflang="sgs" lang="sgs" title="Natūralė̄jė skaitlē – Samogitian"><span>Žemaitėška</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B_%D0%BB%D1%96%D0%BA" hreflang="be" lang="be" title="Натуральны лік – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B_%D0%BB%D1%96%D0%BA" hreflang="be-tarask" lang="be-tarask" title="Натуральны лік – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%95%D1%81%D1%82%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BE_%D1%87%D0%B8%D1%81%D0%BB%D0%BE" hreflang="bg" lang="bg" title="Естествено число – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A7%8D%E0%A6%AC%E0%A6%BE%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%BF%E0%A6%95_%E0%A6%B8%E0%A6%82%E0%A6%96%E0%A7%8D%E0%A6%AF%E0%A6%BE" hreflang="bn" lang="bn" title="স্বাভাবিক সংখ্যা – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bo mw-list-item"><a class="interlanguage-link-target" href="https://bo.wikipedia.org/wiki/%E0%BD%A2%E0%BD%84%E0%BC%8B%E0%BD%96%E0%BE%B1%E0%BD%B4%E0%BD%84%E0%BC%8B%E0%BD%82%E0%BE%B2%E0%BD%84%E0%BD%A6%E0%BC%8D" hreflang="bo" lang="bo" title="རང་བྱུང་གྲངས། – 藏语"><span>བོད་ཡིག</span></a></li><li class="interlanguage-link interwiki-br mw-list-item"><a class="interlanguage-link-target" href="https://br.wikipedia.org/wiki/Niver_naturel" hreflang="br" lang="br" title="Niver naturel – 布列塔尼语"><span>Brezhoneg</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Prirodan_broj" hreflang="bs" lang="bs" title="Prirodan broj – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Nombre_natural" hreflang="ca" lang="ca" title="Nombre natural – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%DA%98%D9%85%D8%A7%D8%B1%DB%95%DB%8C_%D8%B3%D8%B1%D9%88%D8%B4%D8%AA%DB%8C" hreflang="ckb" lang="ckb" title="ژمارەی سروشتی – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/P%C5%99irozen%C3%A9_%C4%8D%C3%ADslo" hreflang="cs" lang="cs" title="Přirozené číslo – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9F%D1%83%D1%80%D0%BB%C4%83%D1%85_%D1%85%D0%B8%D1%81%D0%B5%D0%BF%C4%95" hreflang="cv" lang="cv" title="Пурлăх хисепĕ – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Rhif_naturiol" hreflang="cy" lang="cy" title="Rhif naturiol – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Naturligt_tal" hreflang="da" lang="da" title="Naturligt tal – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Nat%C3%BCrliche_Zahl" hreflang="de" lang="de" title="Natürliche Zahl – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%A6%CF%85%CF%83%CE%B9%CE%BA%CF%8C%CF%82_%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CF%8C%CF%82" hreflang="el" lang="el" title="Φυσικός αριθμός – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-eml mw-list-item"><a class="interlanguage-link-target" href="https://eml.wikipedia.org/wiki/N%C3%B3mmer_natur%C3%A8l" hreflang="egl" lang="egl" title="Nómmer naturèl – Emiliano-Romagnolo"><span>Emiliàn e rumagnòl</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Natural_number" hreflang="en" lang="en" title="Natural number – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Natura_nombro" hreflang="eo" lang="eo" title="Natura nombro – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/N%C3%BAmero_natural" hreflang="es" lang="es" title="Número natural – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/Naturaalarv" hreflang="et" lang="et" title="Naturaalarv – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Zenbaki_arrunt" hreflang="eu" lang="eu" title="Zenbaki arrunt – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%B9%D8%AF%D8%AF_%D8%B7%D8%A8%DB%8C%D8%B9%DB%8C" hreflang="fa" lang="fa" title="عدد طبیعی – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Luonnollinen_luku" hreflang="fi" lang="fi" title="Luonnollinen luku – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fiu-vro mw-list-item"><a class="interlanguage-link-target" href="https://fiu-vro.wikipedia.org/wiki/T%C3%BCk%C3%BCarv" hreflang="vro" lang="vro" title="Tüküarv – võro"><span>Võro</span></a></li><li class="interlanguage-link interwiki-fj mw-list-item"><a class="interlanguage-link-target" href="https://fj.wikipedia.org/wiki/Naba_vakatamata" hreflang="fj" lang="fj" title="Naba vakatamata – 斐济语"><span>Na Vosa Vakaviti</span></a></li><li class="interlanguage-link interwiki-fo mw-list-item"><a class="interlanguage-link-target" href="https://fo.wikipedia.org/wiki/Teljital" hreflang="fo" lang="fo" title="Teljital – 法罗语"><span>Føroyskt</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Entier_naturel" hreflang="fr" lang="fr" title="Entier naturel – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Nat%C3%BC%C3%BCrelk_taal" hreflang="frr" lang="frr" title="Natüürelk taal – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/Uimhir_aiceanta" hreflang="ga" lang="ga" title="Uimhir aiceanta – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B8" hreflang="gan" lang="gan" title="自然数 – 赣语"><span>赣语</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Anty%C3%A9_natir%C3%A8l" hreflang="gcr" lang="gcr" title="Antyé natirèl – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/N%C3%BAmero_natural" hreflang="gl" lang="gl" title="Número natural – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a class="interlanguage-link-target" href="https://gu.wikipedia.org/wiki/%E0%AA%AA%E0%AB%8D%E0%AA%B0%E0%AA%BE%E0%AA%95%E0%AB%83%E0%AA%A4%E0%AA%BF%E0%AA%95_%E0%AA%B8%E0%AA%82%E0%AA%96%E0%AB%8D%E0%AA%AF%E0%AA%BE%E0%AA%93" hreflang="gu" lang="gu" title="પ્રાકૃતિક સંખ્યાઓ – 古吉拉特语"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%9E%D7%A1%D7%A4%D7%A8_%D7%98%D7%91%D7%A2%D7%99" hreflang="he" lang="he" title="מספר טבעי – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95_%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE" hreflang="hi" lang="hi" title="प्राकृतिक संख्या – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Prirodni_broj" hreflang="hr" lang="hr" title="Prirodni broj – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hsb mw-list-item"><a class="interlanguage-link-target" href="https://hsb.wikipedia.org/wiki/P%C5%99irodna_li%C4%8Dba" hreflang="hsb" lang="hsb" title="Přirodna ličba – 上索布语"><span>Hornjoserbsce</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a class="interlanguage-link-target" href="https://hu.wikipedia.org/wiki/Term%C3%A9szetes_sz%C3%A1mok" hreflang="hu" lang="hu" title="Természetes számok – 匈牙利语"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D4%B2%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A9%D5%AB%D5%BE" hreflang="hy" lang="hy" title="Բնական թիվ – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-hyw mw-list-item"><a class="interlanguage-link-target" href="https://hyw.wikipedia.org/wiki/%D4%B2%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6_%D5%A9%D5%AB%D6%82" hreflang="hyw" lang="hyw" title="Բնական թիւ – Western Armenian"><span>Արեւմտահայերէն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Numero_natural" hreflang="ia" lang="ia" title="Numero natural – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Bilangan_asli" hreflang="id" lang="id" title="Bilangan asli – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-inh mw-list-item"><a class="interlanguage-link-target" href="https://inh.wikipedia.org/wiki/%D0%91%D0%BE%D0%BA%D1%8A%D0%BE%D0%BD%D1%86%D0%B0_%D0%B4%D0%BE%D0%BB%D0%B0_%D1%82%D0%B0%D1%8C%D1%80%D0%B0%D1%85%D1%8C" hreflang="inh" lang="inh" title="Бокъонца дола таьрахь – 印古什语"><span>ГӀалгӀай</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/N%C3%A1tt%C3%BArlegar_t%C3%B6lur" hreflang="is" lang="is" title="Náttúrlegar tölur – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Numero_naturale" hreflang="it" lang="it" title="Numero naturale – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="ja" lang="ja" title="自然数 – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Nachral_nomba" hreflang="jam" lang="jam" title="Nachral nomba – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-jbo mw-list-item"><a class="interlanguage-link-target" href="https://jbo.wikipedia.org/wiki/kacna%27u" hreflang="jbo" lang="jbo" title="kacna'u – 逻辑语"><span>La .lojban.</span></a></li><li class="interlanguage-link interwiki-jv mw-list-item"><a class="interlanguage-link-target" href="https://jv.wikipedia.org/wiki/Wilangan_asli" hreflang="jv" lang="jv" title="Wilangan asli – 爪哇语"><span>Jawa</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%9C%E1%83%90%E1%83%A2%E1%83%A3%E1%83%A0%E1%83%90%E1%83%9A%E1%83%A3%E1%83%A0%E1%83%98_%E1%83%A0%E1%83%98%E1%83%AA%E1%83%AE%E1%83%95%E1%83%98" hreflang="ka" lang="ka" title="ნატურალური რიცხვი – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/Pilim_%C3%B1%CA%8A%CA%8A" hreflang="kbp" lang="kbp" title="Pilim ñʊʊ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%94%D0%B0%D2%93%D0%B4%D1%8B%D0%BB%D1%8B_%D1%81%D0%B0%D0%BD" hreflang="kk" lang="kk" title="Дағдылы сан – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-km mw-list-item"><a class="interlanguage-link-target" href="https://km.wikipedia.org/wiki/%E1%9E%85%E1%9F%86%E1%9E%93%E1%9E%BD%E1%9E%93%E1%9E%82%E1%9E%8F%E1%9F%8B%E1%9E%92%E1%9E%98%E1%9F%92%E1%9E%98%E1%9E%87%E1%9E%B6%E1%9E%8F%E1%9E%B7" hreflang="km" lang="km" title="ចំនួនគត់ធម្មជាតិ – 高棉语"><span>ភាសាខ្មែរ</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%B8%E0%B3%8D%E0%B2%B5%E0%B2%BE%E0%B2%AD%E0%B2%BE%E0%B2%B5%E0%B2%BF%E0%B2%95_%E0%B2%B8%E0%B2%82%E0%B2%96%E0%B3%8D%E0%B2%AF%E0%B3%86" hreflang="kn" lang="kn" title="ಸ್ವಾಭಾವಿಕ ಸಂಖ್ಯೆ – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%EC%9E%90%EC%97%B0%EC%88%98" hreflang="ko" lang="ko" title="자연수 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-ksh mw-list-item"><a class="interlanguage-link-target" href="https://ksh.wikipedia.org/wiki/Nat%C3%B6rliche_Zahle" hreflang="ksh" lang="ksh" title="Natörliche Zahle – 科隆语"><span>Ripoarisch</span></a></li><li class="interlanguage-link interwiki-ku mw-list-item"><a class="interlanguage-link-target" href="https://ku.wikipedia.org/wiki/Hejmar%C3%AAn_xwezay%C3%AE" hreflang="ku" lang="ku" title="Hejmarên xwezayî – 库尔德语"><span>Kurdî</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a class="interlanguage-link-target" href="https://ky.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D0%B4%D1%8B%D0%BA_%D1%81%D0%B0%D0%BD" hreflang="ky" lang="ky" title="Натуралдык сан – 柯尔克孜语"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Numerus_naturalis" hreflang="la" lang="la" title="Numerus naturalis – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Natierlech_Zuel" hreflang="lb" lang="lb" title="Natierlech Zuel – 卢森堡语"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lfn mw-list-item"><a class="interlanguage-link-target" href="https://lfn.wikipedia.org/wiki/Numero_natural" hreflang="lfn" lang="lfn" title="Numero natural – 新共同语言"><span>Lingua Franca Nova</span></a></li><li class="interlanguage-link interwiki-li mw-list-item"><a class="interlanguage-link-target" href="https://li.wikipedia.org/wiki/Natuurlek_getal" hreflang="li" lang="li" title="Natuurlek getal – 林堡语"><span>Limburgs</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a class="interlanguage-link-target" href="https://lmo.wikipedia.org/wiki/N%C3%BCmar_nat%C3%BCraal" hreflang="lmo" lang="lmo" title="Nümar natüraal – 伦巴底文"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a class="interlanguage-link-target" href="https://lo.wikipedia.org/wiki/%E0%BA%88%E0%BA%B3%E0%BA%99%E0%BA%A7%E0%BA%99%E0%BA%97%E0%BA%B3%E0%BA%A1%E0%BA%B0%E0%BA%8A%E0%BA%B2%E0%BA%94" hreflang="lo" lang="lo" title="ຈຳນວນທຳມະຊາດ – 老挝语"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Nat%C5%ABralusis_skai%C4%8Dius" hreflang="lt" lang="lt" title="Natūralusis skaičius – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Natur%C4%81ls_skaitlis" hreflang="lv" lang="lv" title="Naturāls skaitlis – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mg mw-list-item"><a class="interlanguage-link-target" href="https://mg.wikipedia.org/wiki/Isa_nanahary" hreflang="mg" lang="mg" title="Isa nanahary – 马拉加斯语"><span>Malagasy</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%D0%BD_%D0%B1%D1%80%D0%BE%D1%98" hreflang="mk" lang="mk" title="Природен број – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%8E%E0%B4%A3%E0%B5%8D%E0%B4%A3%E0%B5%BD_%E0%B4%B8%E0%B4%82%E0%B4%96%E0%B5%8D%E0%B4%AF" hreflang="ml" lang="ml" title="എണ്ണൽ സംഖ്യ – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a class="interlanguage-link-target" href="https://mn.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB_%D1%82%D0%BE%D0%BE" hreflang="mn" lang="mn" title="Натурал тоо – 蒙古语"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-mr mw-list-item"><a class="interlanguage-link-target" href="https://mr.wikipedia.org/wiki/%E0%A4%A8%E0%A5%88%E0%A4%B8%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%BF%E0%A4%95_%E0%A4%B8%E0%A4%82%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE" hreflang="mr" lang="mr" title="नैसर्गिक संख्या – 马拉地语"><span>मराठी</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Nombor_asli" hreflang="ms" lang="ms" title="Nombor asli – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mwl mw-list-item"><a class="interlanguage-link-target" href="https://mwl.wikipedia.org/wiki/N%C3%BAmaro_natural" hreflang="mwl" lang="mwl" title="Númaro natural – 米兰德斯语"><span>Mirandés</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%9E%E1%80%98%E1%80%AC%E1%80%9D%E1%80%80%E1%80%AD%E1%80%94%E1%80%BA%E1%80%B8" hreflang="my" lang="my" title="သဘာဝကိန်း – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nds mw-list-item"><a class="interlanguage-link-target" href="https://nds.wikipedia.org/wiki/Nat%C3%BCrliche_Tall" hreflang="nds" lang="nds" title="Natürliche Tall – 低地德语"><span>Plattdüütsch</span></a></li><li class="interlanguage-link interwiki-ne mw-list-item"><a class="interlanguage-link-target" href="https://ne.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95_%E0%A4%B8%E0%A4%99%E0%A5%8D%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE" hreflang="ne" lang="ne" title="प्राकृतिक सङ्ख्या – 尼泊尔语"><span>नेपाली</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a class="interlanguage-link-target" href="https://new.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95_%E0%A4%B2%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%96%E0%A4%81" hreflang="new" lang="new" title="प्राकृतिक ल्याखँ – 尼瓦尔语"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Natuurlijk_getal" hreflang="nl" lang="nl" title="Natuurlijk getal – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Naturleg_tal" hreflang="nn" lang="nn" title="Naturleg tal – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Naturlig_tall" hreflang="nb" lang="nb" title="Naturlig tall – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Enti%C3%A8r_natural" hreflang="oc" lang="oc" title="Entièr natural – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-or mw-list-item"><a class="interlanguage-link-target" href="https://or.wikipedia.org/wiki/%E0%AC%97%E0%AC%A3%E0%AC%A8_%E0%AC%B8%E0%AC%82%E0%AC%96%E0%AD%8D%E0%AD%9F%E0%AC%BE" hreflang="or" lang="or" title="ଗଣନ ସଂଖ୍ୟା – 奥里亚语"><span>ଓଡ଼ିଆ</span></a></li><li class="interlanguage-link interwiki-os mw-list-item"><a class="interlanguage-link-target" href="https://os.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D0%BE%D0%BD_%D0%BD%D1%8B%D0%BC%C3%A6%D1%86" hreflang="os" lang="os" title="Натуралон нымæц – 奥塞梯语"><span>Ирон</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%95%E0%A9%81%E0%A8%A6%E0%A8%B0%E0%A8%A4%E0%A9%80_%E0%A8%85%E0%A9%B0%E0%A8%95" hreflang="pa" lang="pa" title="ਕੁਦਰਤੀ ਅੰਕ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Liczby_naturalne" hreflang="pl" lang="pl" title="Liczby naturalne – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/N%C3%B9mer_natural" hreflang="pms" lang="pms" title="Nùmer natural – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%D9%86%DB%8C%DA%86%D8%B1%D9%84_%D9%86%D9%85%D8%A8%D8%B1" hreflang="pnb" lang="pnb" title="نیچرل نمبر – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/N%C3%BAmero_natural" hreflang="pt" lang="pt" title="Número natural – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Num%C4%83r_natural" hreflang="ro" lang="ro" title="Număr natural – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D1%87%D0%B8%D1%81%D0%BB%D0%BE" hreflang="ru" lang="ru" title="Натуральное число – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sa mw-list-item"><a class="interlanguage-link-target" href="https://sa.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%95%E0%A5%83%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%B8%E0%A4%99%E0%A5%8D%E0%A4%96%E0%A5%8D%E0%A4%AF%E0%A4%BE" hreflang="sa" lang="sa" title="प्राकृतिकसङ्ख्या – 梵语"><span>संस्कृतम्</span></a></li><li class="interlanguage-link interwiki-sah mw-list-item"><a class="interlanguage-link-target" href="https://sah.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D0%B9_%D1%87%D1%8B%D1%8Bh%D1%8B%D0%BB%D0%B0%D2%95%D0%B0" hreflang="sah" lang="sah" title="Натуральнай чыыhылаҕа – 萨哈语"><span>Саха тыла</span></a></li><li class="interlanguage-link interwiki-sc mw-list-item"><a class="interlanguage-link-target" href="https://sc.wikipedia.org/wiki/N%C3%B9meru_naturale" hreflang="sc" lang="sc" title="Nùmeru naturale – 萨丁语"><span>Sardu</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/N%C3%B9mmuru_naturali" hreflang="scn" lang="scn" title="Nùmmuru naturali – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Naitural_nummer" hreflang="sco" lang="sco" title="Naitural nummer – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Prirodan_broj" hreflang="sh" lang="sh" title="Prirodan broj – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a class="interlanguage-link-target" href="https://si.wikipedia.org/wiki/%E0%B7%83%E0%B7%8A%E0%B7%80%E0%B7%8F%E0%B6%B7%E0%B7%8F%E0%B7%80%E0%B7%92%E0%B6%9A_%E0%B7%83%E0%B6%82%E0%B6%9B%E0%B7%8A%E2%80%8D%E0%B6%BA%E0%B7%8F" hreflang="si" lang="si" title="ස්වාභාවික සංඛ්‍යා – 僧伽罗语"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Natural_number" hreflang="en-simple" lang="en-simple" title="Natural number – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Prirodzen%C3%A9_%C4%8D%C3%ADslo" hreflang="sk" lang="sk" title="Prirodzené číslo – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Naravno_%C5%A1tevilo" hreflang="sl" lang="sl" title="Naravno število – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a class="interlanguage-link-target" href="https://so.wikipedia.org/wiki/Tiro_tirsiimo" hreflang="so" lang="so" title="Tiro tirsiimo – 索马里语"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Numrat_natyral%C3%AB" hreflang="sq" lang="sq" title="Numrat natyralë – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0%D0%BD_%D0%B1%D1%80%D0%BE%D1%98" hreflang="sr" lang="sr" title="Природан број – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Naturliga_tal" hreflang="sv" lang="sv" title="Naturliga tal – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Namba_asilia" hreflang="sw" lang="sw" title="Namba asilia – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-szl mw-list-item"><a class="interlanguage-link-target" href="https://szl.wikipedia.org/wiki/Naturalno_n%C5%AFmera" hreflang="szl" lang="szl" title="Naturalno nůmera – 西利西亚文"><span>Ślůnski</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%AF%E0%AE%B2%E0%AF%8D_%E0%AE%8E%E0%AE%A3%E0%AF%8D" hreflang="ta" lang="ta" title="இயல் எண் – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-te mw-list-item"><a class="interlanguage-link-target" href="https://te.wikipedia.org/wiki/%E0%B0%B8%E0%B0%B9%E0%B0%9C_%E0%B0%B8%E0%B0%82%E0%B0%96%E0%B1%8D%E0%B0%AF" hreflang="te" lang="te" title="సహజ సంఖ్య – 泰卢固语"><span>తెలుగు</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%90%D0%B4%D0%B0%D0%B4%D0%B8_%D0%BD%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D3%A3" hreflang="tg" lang="tg" title="Адади натуралӣ – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%B3%E0%B8%99%E0%B8%A7%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4" hreflang="th" lang="th" title="จำนวนธรรมชาติ – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tk mw-list-item"><a class="interlanguage-link-target" href="https://tk.wikipedia.org/wiki/Natural_sanlar" hreflang="tk" lang="tk" title="Natural sanlar – 土库曼语"><span>Türkmençe</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Likas_na_bilang" hreflang="tl" lang="tl" title="Likas na bilang – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Do%C4%9Fal_say%C4%B1lar" hreflang="tr" lang="tr" title="Doğal sayılar – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%A2%D0%B0%D0%B1%D0%B8%D0%B3%D1%8B%D0%B9_%D1%81%D0%B0%D0%BD" hreflang="tt" lang="tt" title="Табигый сан – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%9D%D0%B0%D1%82%D1%83%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%96_%D1%87%D0%B8%D1%81%D0%BB%D0%B0" hreflang="uk" lang="uk" title="Натуральні числа – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D9%82%D8%AF%D8%B1%D8%AA%DB%8C_%D8%B9%D8%AF%D8%AF" hreflang="ur" lang="ur" title="قدرتی عدد – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Natural_son" hreflang="uz" lang="uz" title="Natural son – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/S%E1%BB%91_t%E1%BB%B1_nhi%C3%AAn" hreflang="vi" lang="vi" title="Số tự nhiên – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-vls mw-list-item"><a class="interlanguage-link-target" href="https://vls.wikipedia.org/wiki/Natuurlik_getal" hreflang="vls" lang="vls" title="Natuurlik getal – 西佛兰德文"><span>West-Vlams</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Unob_nga_ihap" hreflang="war" lang="war" title="Unob nga ihap – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0" hreflang="wuu" lang="wuu" title="自然数 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-xal mw-list-item"><a class="interlanguage-link-target" href="https://xal.wikipedia.org/wiki/%D0%99%D0%B8%D1%80%D1%82%D0%B8%D0%BC%D2%97%D0%B8%D0%BD_%D1%82%D0%BE%D0%B9%D0%B3" hreflang="xal" lang="xal" title="Йиртимҗин тойг – 卡尔梅克语"><span>Хальмг</span></a></li><li class="interlanguage-link interwiki-xh mw-list-item"><a class="interlanguage-link-target" href="https://xh.wikipedia.org/wiki/Amanani_a-natural" hreflang="xh" lang="xh" title="Amanani a-natural – 科萨语"><span>IsiXhosa</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%A0%D7%90%D7%98%D7%99%D7%A8%D7%9C%D7%A2%D7%9B%D7%A2_%D7%A6%D7%90%D7%9C" hreflang="yi" lang="yi" title="נאטירלעכע צאל – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a class="interlanguage-link-target" href="https://yo.wikipedia.org/wiki/N%E1%BB%8D%CC%81mb%C3%A0_%C3%A0d%C3%A1b%C3%A1y%C3%A9" hreflang="yo" lang="yo" title="Nọ́mbà àdábáyé – 约鲁巴语"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-zh-classical mw-list-item"><a class="interlanguage-link-target" href="https://zh-classical.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B8" hreflang="lzh" lang="lzh" title="自然数 – Classical Chinese"><span>文言</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/Ch%C5%AB-ji%C3%A2n-s%C3%B2%CD%98" hreflang="nan" lang="nan" title="Chū-jiân-sò͘ – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B8" hreflang="yue" lang="yue" title="自然数 – Cantonese"><span>粤语</span></a></li><li class="interlanguage-link interwiki-zu mw-list-item"><a class="interlanguage-link-target" href="https://zu.wikipedia.org/wiki/Inombolo_Yokubala" hreflang="zu" lang="zu" title="Inombolo Yokubala – 祖鲁语"><span>IsiZulu</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q21199#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年7月16日 (星期六) 02:16。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E8%87%AA%E7%84%B6%E6%95%B0&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.526","walltime":"1.399","ppvisitednodes":{"value":2651,"limit":1000000},"postexpandincludesize":{"value":86708,"limit":2097152},"templateargumentsize":{"value":1257,"limit":2097152},"expansiondepth":{"value":23,"limit":100},"expensivefunctioncount":{"value":37,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":11578,"limit":5000000},"entityaccesscount":{"value":13,"limit":400},"timingprofile":["100.00%  497.441      1 -total"," 28.23%  140.423      1 Template:数的系统"," 27.84%  138.478      1 Template:Navbox"," 26.63%  132.451      1 Template:Numbers"," 20.04%   99.692      1 Template:Expand_language"," 17.80%   88.534     13 Template:Link-wd"," 17.65%   87.793      3 Template:计算结果"," 17.15%   85.322      3 Template:计算结果/mathtag"," 15.88%   79.015      9 Template:Safeyesno"," 15.70%   78.123      1 Template:Ambox"]},"scribunto":{"limitreport-timeusage":{"value":"0.202","limit":"10.000"},"limitreport-memusage":{"value":7378728,"limit":52428800}},"cachereport":{"origin":"mw1366","timestamp":"20221008150218","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u81ea\u7136\u6570","url":"https:\/\/zh.wikipedia.org\/wiki\/%E8%87%AA%E7%84%B6%E6%95%B0","sameAs":"http:\/\/www.wikidata.org\/entity\/Q21199","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q21199","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-02T08:26:36Z","dateModified":"2022-07-16T02:16:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a0\/NumberSetinC.svg","headline":"\u81ea\u7136\u6578\u96c6\u5408\u4e2d\u7684\u6578\u5b57\uff08\u6f84\u6e05\u662f\u5426\u5305\u542b\u96f6\uff0c\u4f7f\u7528Q28920044\u6216Q28920052\uff09"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u81ea\u7136\u6570","url":"https:\/\/zh.wikipedia.org\/wiki\/%E8%87%AA%E7%84%B6%E6%95%B0","sameAs":"http:\/\/www.wikidata.org\/entity\/Q21199","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q21199","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-03-02T08:26:36Z","dateModified":"2022-07-16T02:16:26Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/a\/a0\/NumberSetinC.svg","headline":"\u81ea\u7136\u6578\u96c6\u5408\u4e2d\u7684\u6578\u5b57\uff08\u6f84\u6e05\u662f\u5426\u5305\u542b\u96f6\uff0c\u4f7f\u7528Q28920044\u6216Q28920052\uff09"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":133,"wgHostname":"mw1403"});});</script>
+</body>
+</html>

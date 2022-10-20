@@ -1,0 +1,207 @@
+Limite (mathématiques)
+Limite de suite
+Limite de fonction
+Propriétés
+Espaces métriques
+Notes et références
+Voir aussi
+Premiers exemples avec des suites réelles
+Formalisation
+Conditions d’existence
+Application aux séries
+Limite finie en une valeur finie
+Limite à gauche ou à droite
+Expression générale
+Exemples
+Limite et opérations algébriques
+Limite et relation d'ordre
+Indétermination
+Exemples
+Propriétés
+Généralisations pour les espaces topologiques
+Article connexe
+Liens externes
+Bibliographie
+Limite finie
+Limite infinie
+Formulation topologique
+Cas des suites monotones
+Autres conditions
+Définition
+Application
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Limite.
+Ne pas confondre avec la notion de limite en théorie des catégories
+En analyse mathématique, la notion de limite décrit l’approximation des valeurs d'une suite lorsque l'indice tend vers l’infini, ou d'une fonction lorsque la variable se rapproche d’un point (éventuellement infini) au bord du domaine de définition.
+Si une telle limite existe dans l’ensemble d’arrivée, on dit que la suite ou la fonction est convergente (au point étudié). Si ce n’est pas le cas, elle est divergente, comme dans le cas de suites et fonctions périodiques non constantes (telle la fonction sinus en +∞).
+Sous condition d’existence, le calcul des limites est simplifié par la compatibilité avec les opérations arithmétiques élémentaires, mais plusieurs formes indéterminées font obstacle à cette technique calculatoire.
+La comparaison de croissance permet de lever bien souvent ces indéterminations.
+La détermination d’une limite peut être raffinée par l’expression d’un équivalent (notamment dans le cas d’une limite nulle ou infinie), d’asymptotes obliques ou de branches paraboliques, voire de développement limité ou asymptotique.
+La limite d’une fonction en un point appartenant à son domaine de définition est liée à la caractérisation de sa continuité. Ce constat permet d’exprimer plus généralement la limite dans un cadre topologique à l’aide de la notion de voisinage.
+Elle peut même s’étendre hors de ce cadre avec la notion de filtre.
+Pour une fonction d’une variable à valeurs vectorielles, et notamment une courbe intégrale d’un champ de vecteurs (par exemple associé à l’espace des phases pour une équation différentielle ordinaire du second ordre), l’absence de limite est parfois compensée par l’existence d’un cycle limite.
+Lorsque n est un très grand nombre (entier), son inverse 
+est très proche de 0. Ce phénomène s’exprime par l’égalité 
+lim
+∞
+=
+De même, on peut écrire 
+lim
+∞
+=
++
+∞
+car la racine carrée peut être rendue arbitrairement grande en prenant l’entier n suffisamment grand (par exemple, pour obtenir 
+>
+1000
+il suffit d’avoir n > 1 000 000).
+A contrario, il n’existe pas de limite pour la suite périodique 
+−
+∈
+qui prend alternativement les valeurs 1 et −1, mais qui ne tend ni vers 1, ni vers −1, ni vers quoi que ce soit d’autre dans l’intervalle ]−1, 1[ ou en dehors.
+En tant que suite bornée, elle ne peut pas non plus tendre vers +∞ ou vers −∞.
+La définition par Weierstrass de la convergence d’une suite réelle 
+∈
+vers une limite finie 
+∈
+s’exprime par la formule
+ou encore, par une formulation équivalente dans le cas des suites réelles, mais qui s’adapte au cas des suites à valeurs complexes,
+Cette définition s’étend encore aux suites dans un espace vectoriel normé en remplaçant la valeur absolue par la norme, et plus généralement aux suites dans un espace métrique avec la formulation
+Dans chacun de ces cas, il ne peut y avoir deux limites différentes pour une même suite, ce qui permet d’exprimer la limite avec une égalité 
+lim
+∞
+=
+On trouve parfois aussi la notation 
+⟶
+∞
+On dit qu’une suite réelle 
+∈
+diverge vers +∞ dans le cas suivant :
+Par analogie, elle diverge vers −∞ dans le cas
+Les trois cas de limite (finie, infinie positive ou infinie négative) sont mutuellement exclusifs et ne recouvrent pas l’ensemble des suites réelles, puisque certaines n’ont pas de limite du tout.
+On dit alors qu’elles divergent sans limite.
+Pour une suite 
+∈
+à valeurs dans un espace topologique E, on dit que la suite converge vers un élément L ∈ E si pour tout ouvert U contenant L, il existe un rang n0 tel que pour tout n > n0 on a xn ∈ U. Mais l’unicité de la limite repose alors sur l’hypothèse que l’espace soit séparé.
+Cette définition recouvre celles des limites de suites à valeurs réelles, complexes ou dans des espaces métriques, mais s’applique également à d’autres espaces non métrisables, comme des espaces fonctionnels non normés. Pour une même suite de fonctions, différentes normes ou topologies peuvent être prises en compte conduisant à l’existence ou non de limites (convergence simple, convergence uniforme, convergence en norme p ou au sens des distributions…)
+Toute suite réelle croissante a une limite, qui est finie si et seulement si la suite est majorée. Dans ce cas, la limite de la suite est égale à la borne supérieure de ses valeurs.
+De même, toute suite réelle décroissante a une limite qui est finie si et seulement si la suite est minorée, et dans ce cas la limite de la suite est égale à la borne inférieure de ses valeurs.
+Ces propriétés découlent de la propriété de la borne supérieure dans l’ensemble des réels, et elles permettent de définir également la limite inférieure d’une suite minorée et la limite supérieure d’une suite majorée :
+En particulier, une suite bornée converge si et seulement si sa limite inférieure est égale à sa limite supérieure, et dans ce cas la limite de la suite est cette valeur commune.
+Cette propriété se généralise avec l’étude des valeurs d’adhérence d’une suite à valeurs dans un espace compact.
+Toute suite convergente est bornée mais une suite bornée n’est pas nécessairement convergente.
+Deux suites adjacentes convergent toutes deux vers la même limite réelle.
+Pour une suite 
+∈
+à valeurs réelles, complexes ou dans n’importe quel espace complet, la convergence est équivalente au critère de Cauchy :
+Pour une suite récurrente (xn) avec une fonction de récurrence f, si la suite converge vers un élément L en lequel la fonction f est continue, alors L est un point fixe de f.
+Pour une suite 
+∈
+(à valeurs réelles complexes ou vectorielles), la série associée est aussi une suite, définie pour tout entier n ≥ 0 par
+=
+∑
+=
+et si elle converge sa limite est la somme de la série, notée 
+∑
+=
++
+∞
+La convergence de la série n’est alors possible que si la suite initiale tend vers 0. Dans le cas contraire, on dit que la série diverge grossièrement.
+Dans le cas d’une suite réelle positive, la série est nécessairement croissante et admet toujours une limite finie ou infinie.
+Dans le cas d’une série alternée s’écrivant 
+=
+∑
+=
+−
+pour tout entier n ≥ 0, si la suite 
+∈
+est (positive) décroissante de limite nulle, la suite des termes de rang pair 
+∈
+et la suite des termes de rang impair 
++
+∈
+forment des suites adjacentes donc la série converge, et le reste 
+=
+∑
+=
++
++
+∞
+−
+est toujours inférieur en valeur absolue au premier terme négligé 
++
+La notion de limite de fonction ressemble à celle de la limite d’une suite, à ceci près que la variable de la fonction peut tendre vers n’importe quelle valeur de son domaine de définition ou à la frontière de celui-ci.
+Ainsi, pour une fonction définie sur un intervalle ]a, b[ ⊂ R, on peut étudier les éventuelles limites de la fonction en tout réel c de l’intervalle, mais aussi aux bornes a et b, que ces bornes soient finies ou infinies.
+Pour une fonction réelle ou complexe d’une variable réelle ou complexe, la formulation d’une limite finie en une valeur finie est semblable à celle de la limite d’une suite :
+Cette définition moderne, cohérente avec la définition topologique générale (voir infra) et désormais en vigueur en France, supplante la définition historique de Weierstrass, appelée aussi « limite épointée » ou « limite par valeurs différentes », enseignée encore parfois dans les universités françaises et dans d’autres pays :
+Lorsque la fonction f est définie en un réel a, si elle admet une limite en a alors cette limite est nécessairement, égale à f(a). Plus précisément, la fonction admet une limite finie en un point a de son domaine de définition si et seulement si elle est continue en a. Cette condition peut aussi s’exprimer par l’égalité avec la limite épointée :
+La définition de cette limite est particulièrement utile pour déterminer le nombre dérivé comme limite du taux d'accroissement.
+Pour une fonction f d’une variable réelle x, lorsque x se rapproche d’un réel a, il se peut que les valeurs f(x) soient très contrastées selon que la variable x soit inférieure ou supérieure à a, comme dans le cas particulier de la fonction inverse en 0, où l’on ne peut définir de limite cohérente.
+Dans ce cas, on peut définir une limite à gauche et une limite à droite éventuellement différentes.
+La limite d’une fonction f à gauche en un réel a s’écrit 
+lim
+<
+ou 
+lim
+−
+voire f(a−) ou fg(a).
+Sa limite à droite en a s’écrit 
+lim
+>
+ou 
+lim
++
+voire f(a+) ou fd(a).
+Pour une fonction définie au voisinage à gauche et à droite d’un réel a, l’existence et l’égalité des limites à gauche et à droite est équivalente à l’existence d’une limite épointée (avec la même valeur).
+Afin d’unifier les différentes formulations de limites, on recourt à la notion de voisinage, qui s’applique à tout réel (éventuellement à droite ou à gauche) et à l’infini (en +∞ ou en −∞). On utilise aussi la notation R = R ∪ {−∞, +∞} de la droite réelle achevée.
+Soit f une fonction définie au voisinage (éventuellement à gauche ou à droite) de a ∈ R et soit L ∈ R. On dit que la fonction f admet la limite L en a si pour tout voisinage V de L, il existe un voisinage U (à gauche ou à droite) de a tel que f(U) ⊂ V.
+On démontre que le réel L de la définition, lorsqu'il existe, est unique et on l'appelle limite de f au point p. On le note :
+(La dernière propriété suppose que L2 n'est pas nulle.)
+Ces propriétés sont aussi valables pour les limites à droite et à gauche, pour le cas p = ±∞, et aussi pour les limites infinies en utilisant les règles suivantes :
+(Voir l'article « Droite réelle achevée ».)
+Remarquons qu'il n'y a pas de règle générale pour le cas q / 0 : cela dépend de la façon dont on s'approche de 0. Certains cas, comme 0/0, 0×∞, ∞ – ∞ ou ∞/∞, ne sont pas non plus couverts par ces règles.
+Il existe certaines formes de limite où il n'est pas possible de conclure directement en utilisant des opérations sur les limites, ce sont les formes dites « indéterminées » :
+Les nombres réels forment un espace métrique pour la fonction distance définie par la valeur absolue : d(x ; y) = |x – y|. Il en est de même des nombres complexes avec le module.
+De plus, l'espace euclidien ℝn forme un espace métrique avec la distance euclidienne.
+Voici quelques exemples motivant une généralisation des définitions de limite données précédemment.
+Si (xn) est une suite dans un espace métrique (M ; d), alors on dit que la suite a pour limite L si pour tout réel ε > 0, il existe un entier naturel n0 tel que pour tout entier n > n0 on ait d(xn ; L) < ε.
+Si l'espace métrique (M, d) est complet (ce qui est le cas pour l'ensemble des nombres réels ou complexes et l'espace euclidien, et tout autre espace de Banach), alors toute suite de Cauchy de M converge.
+Ceci permet de montrer que la suite est convergente sans nécessairement connaître la limite.
+Si M est un espace vectoriel normé réel ou complexe, alors l'opération de passage à la limite est linéaire, comme dans le cas des suites de nombres réels.
+Maintenant supposons que M et N sont deux espaces métriques, A une partie de M, p un élément de M adhérent à A, L un élément de N et f une application de A dans N. On dit que la limite de f(x) quand x tend vers p est égale à L et l'on écrit :
+si :
+ce qui est équivalent à la caractérisation séquentielle de la limite d'une fonction sur un espace métrique (voir infra).
+Si l'espace d'arrivée est complet, on peut, de même que dans le cas particulier d'une suite, démontrer l'existence d'une limite pour f en p sans nécessairement connaître cette limite :
+Critère de Cauchy pour une fonction — Soient M un espace métrique, N un espace métrique complet, A une partie de M et p un point de M adhérent à A.
+Une application f : A  N admet une limite en p si (et seulement si) pour tout réel ε > 0 il existe un réel δ > 0 tel que pour tous x, y dans A ∩ B(p ; δ), on ait d(f(x) ; f(y)) < ε.
+(Ce théorème se généralise au cas où M est seulement un espace topologique, en remplaçant les boules B(p ; δ) par des voisinages de p.)
+Une application f de M dans N est continue en p si et seulement si la limite de f(x) quand x tend vers p existe (elle est alors égale à f(p)). De manière équivalente, f transforme toute suite de M convergeant vers p en une suite de N convergeant vers f(p).
+À nouveau, si N est un espace vectoriel normé, alors l'opération de passage à la limite est linéaire dans le sens suivant : si la limite de f(x) quand  x tend vers p est égale à L et la limite de g(x) quand x tend vers p est égale à P, alors la limite de f(x) + g(x) quand x tend vers p est égale à L + P. Si a est un scalaire du corps de base, alors la limite de af(x) quand x tend vers p est égale à aL.
+Si N est égal à ℝ, alors on peut définir des limites infinies ; si M est égal à ℝ, alors on peut définir des limites à droite et à gauche de manière analogue aux définitions précédentes.
+Toute sous-suite d'une suite convergente converge vers la même limite.
+L'opération de passage à la limite est linéaire dans le sens suivant :
+si (xn) et (yn) sont des suites réelles convergentes et que lim xn = L et lim yn = P, alors la suite (xn + yn) est aussi convergente et a pour limite L + P. Si a est un nombre réel, alors la suite (a xn) est convergente de limite aL. Ainsi, l'ensemble c de toutes les suites réelles convergentes est un espace vectoriel réel et l'opération de passage à la limite est une forme linéaire sur c à valeurs réelles.
+Si (xn) et (yn) sont des suites réelles convergentes de limites respectives L et P, alors la suite (xnyn) est convergente de limite LP. Si ni P ni aucun des termes yn n'est nul, alors la suite (xn/yn) est convergente de limite L/P.
+Toute suite convergente est une suite de Cauchy et est ainsi bornée.
+Si (xn) est une suite de réels, bornée et croissante (i. e. pour tout entier n, xn ≤ xn+1), alors elle est nécessairement convergente.
+Une suite de nombres réels est convergente si et seulement si ses limites inférieure et supérieure sont finies et égales.
+Toutes les notions de limite ci-dessus peuvent être unifiées et généralisées encore à des espaces topologiques M et N arbitraires : si A est une partie de M, p un élément de M adhérent à A, L un élément de N et f une application de A dans N, on dit que
+(On ne modifie pas cette caractérisation en remplaçant l'ensemble des voisinages de L (ou de p) par une base de voisinages de ce point, par exemple par l'ensemble des ouverts contenant ce point.)
+Un espace N est séparé si et seulement si toute application f : A  N (pour tout espace M et toute partie A de M) possède, en tout point adhérent à A, au plus une limite.
+La définition de limite d'une suite est un cas particulier de la définition précédente :
+Si M est métrisable (ou plus généralement : héréditairement séquentiel), on dispose de la caractérisation séquentielle des limites de fonctions :
+Si de plus N est T1 (ou même seulement à unique limite séquentielle), 
+admet une limite en 
+si (et seulement si) pour toute suite 
+dans 
+de limite 
+la suite 
+admet une limite.
+D'autres généralisations de cette notion, permettant par exemple de parler de limites « à l'infini » pour un espace métrique quelconque, ou de dire qu'une intégrale est une limite de sommes de Riemann, ont été définies ; les plus puissantes utilisent la notion de filtre.
+On en trouvera des exemples aux divers articles traitant de convergence : convergence simple, convergence uniforme, convergence normale, convergence presque sûre, convergence en moyenne, etc.
+Sur les autres projets Wikimedia :
+Théorème d'interversion des limites
+Christian Houzel, « Limite (notion de) », Dictionnaire de mathématiques – algèbre, analyse, géométrie, Encyclopædia Universalis et Albin Michel, Paris 1997

@@ -1,0 +1,225 @@
+e (nombre)
+Définition par les logarithmes
+Redéfinition par l'exponentielle
+Propriétés
+Applications
+Décimales connues
+Dans la culture informatique
+Notes et références
+Voir aussi
+Logarithme népérien
+Logarithme décimal
+Logarithme naturel
+Nouvelle notation
+Relation avec la base du logarithme naturel
+Irrationalité
+Fraction continue
+Transcendance
+Problème des intérêts composés
+Notes
+Références
+Articles connexes
+Lien externe
+Bibliographie
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir E et Nombres d'Euler.
+Le nombre e[a] est la base des logarithmes naturels, c'est-à-dire le nombre défini par ln(e) = 1. Cette constante mathématique, également appelée nombre d'Euler[b] ou constante de Néper en référence aux mathématiciens Leonhard Euler et John Napier[c], vaut environ 2,71828.
+Ce nombre est défini à la fin du XVIIe siècle, dans une correspondance entre Leibniz et Christian Huygens, comme étant la base du logarithme naturel.
+Autrement dit, il est caractérisé par la relation ln(e) = 1 ou de façon équivalente il est l'image de 1 par la fonction exponentielle, d'où la notation exp(x) = ex.
+La décomposition de cette fonction en série entière mène à la définition de e par Euler comme somme de la série :
+=
++
++
+×
++
+×
+×
++
+×
+×
+×
++
+⋯
+=
+∑
+=
++
+∞
+!
+Ce nombre apparaît aussi comme limite de la suite numérique de terme général 
++
+et dans de nombreuses formules en analyse telles que l'identité d'Euler eiπ = −1 ou la formule de Stirling qui donne un équivalent de la factorielle.
+Il intervient aussi en théorie des probabilités ou en combinatoire.
+Euler démontre en 1737 que e est irrationnel, donc que son développement décimal n'est pas périodique, et en donne une première approximation avec 23 décimales.
+Il explicite pour cela son développement en fraction continue.
+En 1873, Charles Hermite montre que le nombre e est même transcendant, c'est-à-dire qu'il n'est racine d'aucun polynôme non nul à coefficients entiers.
+Au début du XVIIe siècle, le mathématicien écossais John Napier construit les premières tables de logarithmes, qui permettent de simplifier des calculs de produits et quotients mais aussi racines carrées, cubiques et autres.
+Elles consistent à associer à chaque nombre d'une liste un autre nombre (appelé logarithme), de façon qu'une relation de proportionnalité entre quatre termes de la première liste se traduise par des différences égales entre les termes correspondants de la seconde liste : si a, b, c et d ont pour logarithmes respectifs A, B, C et D, alors la relation a⁄b = c⁄d est équivalente à la relation A − B = C − D.
+Plus précisément, Napier fixe un rayon initial de dix millions[d] et construit une liste dans laquelle chaque nombre permet de calculer le suivant en lui soustrayant un dix-millionième de sa valeur.
+Ces opérations successives sont donc des multiplications itérées par 1 – 10–7 et la liste constitue une suite géométrique de premier terme 107. Le logarithme de chaque nombre de la liste étant son rang d'apparition, la formule du logarithme ainsi obtenu par Napier s'écrit alors :
+Napier interprète cette construction à l'aide d'un problème cinématique dans lequel un mobile se déplace à vitesse constante et un autre se déplace sur une longueur finie avec une vitesse proportionnelle à la distance qui lui reste à parcourir.
+En termes modernes, le problème se traduit donc par deux équations différentielles dont les solutions sont linéaire pour le premier mobile et exponentielle pour le second.
+En égalant les vitesses initiales des deux mobiles et en fixant à 107 la longueur à parcourir pour le second mobile, la position L du premier mobile s'obtient à partir de la distance restante x du premier mobile par la formule :
+=
+−
+10
+ln
+⁡
+10
+−
+Or l'approximation affine du logarithme naturel en 1 permet d'approcher ln(1 − 10−7) par −10−7 avec une précision de l'ordre de 10−14, soit 7 chiffres significatifs.
+Les tables de valeurs obtenues par Napier offrent donc à la lecture les mêmes premières décimales que celles du logarithme naturel et en particulier, son logarithme vaut 107 entre les sinus de 21°35' et de 21°36, où l'on retrouve les premières décimales de 1⁄e (à savoir 3678…). Mais ce nombre n'est pas mis en évidence par Napier.
+En 1624, Henry Briggs, correspondant avec Napier, modifie les paramètres de construction des tables de logarithmes. D'abord il fixe à 0 le logarithme de 1, ce qui revient à choisir un rayon unitaire.
+Ses tables transforment alors les produits en sommes, ce qui s'écrit en formulation moderne : log(ab) = log(a) + log(b). Ensuite, il fixe à 1 le logarithme de 10, ce qui fait qu'une multiplication par 10 d'un nombre se traduit par un ajout d'une unité à son logarithme.
+Briggs obtient ainsi une table de valeurs du logarithme décimal, fondé sur le système de numération en base 10, mais la notion de fonction n'a pas encore émergé à l'époque.
+En particulier, il n'y a pas de trace d'une évaluation d'un taux d'accroissement en 1, qui aurait pu faire apparaître une approximation de log10(e).
+En 1647, Grégoire de Saint-Vincent met en évidence une relation analogue à celle du logarithme entre les aires de domaines délimités par une branche d'hyperbole et son asymptote.
+En 1661, Christian Huygens fait le lien entre les logarithmes et la quadrature de l'hyperbole, et en particulier celle d'équation x y = 1. Le logarithme naturel est donc mis en évidence, mais sa base (e) n'est pas identifiée.
+C’est dans une lettre de Leibniz à Huygens que ce nombre est enfin identifié comme la base du logarithme naturel, vers 1690, mais Leibniz le note b.
+Euler, dans un article écrit en 1727 ou 1728, est le premier à noter e « le nombre dont le logarithme est l'unité ». Il utilise cette notation, avec la même définition, dans une lettre à Goldbach en 1731.
+Le choix de la lettre e comme un hommage au nom d'Euler lui-même étant par conséquent peu probable, d'autres suppositions ont été avancées : première voyelle ou première lettre non utilisée dans un calcul littéral, initiale de « exponentielle », etc..
+Euler voyait dans les fonctions exponentielles et les fonctions logarithmes des fonctions réciproques l'une de l'autre.
+Ecrivant l'équivalence 
+=
+⇔
+=
+il appelait le logarithme l en question le logarithme de base a et remarquait que l(a) = 1. Selon cette correspondance, il existe un nombre appelé par Euler e vérifiant l'équivalence 
+=
+⇔
+=
+ln
+⁡
+ce nombre vérifie ln(e) = 1. La fonction exponentielle admettant une décomposition en série entière, Euler obtient le développement de e comme série des inverses des factorielles des entiers naturels.
+Selon Hervé Lehning, il aurait eu  « l'intuition absolument géniale d'écrire l'exponentielle de base a quelconque comme un polynôme de l'exposant » :
+=
++
++
++
++
++
+⋯
+Il va exprimer tous les coefficients en fonction de B. Voici comment. D'abord, en posant x=0, il obtient A=1. Puis, il calcule :
+=
++
++
++
++
++
+⋯
+=
++
++
++
++
+16
++
+⋯
+mais puisque a2x= (ax)2, il pose également
+=
++
++
++
++
++
+⋯
+donc,
++
++
++
++
+16
++
+⋯
+=
++
++
++
++
++
+⋯
+Il développe le membre de droite de façon à pouvoir identifier les coefficients de gauche à ceux de droite : 2B=2B, 4C=B2+ 2C (d'où C=B2⁄2), 8D=2D+ 2BC (d'où D=B3⁄6), etc.
+Il parvient donc à cette équation :
+=
++
++
++
++
+24
++
+⋯
+La base e étant la seule permettant l'égalité entre l'exponentielle et sa dérivée, il reste à trouver B tel que ce polynôme et sa dérivée sont égaux.
+La solution est triviale : B=1. Enfin, on observe que 1, 2, 6, 24 sont les valeurs successives de la factorielle, ce qui mène Euler à conclure :
+=
++
+!
++
+!
++
+⋯
++
+!
++
+⋯
+dont une valeur approchée avait déjà été calculée par Isaac Newton en 1669.
+Les différentes caractérisations de la fonction exponentielle parmi les autres fonctions exponentielles de base quelconque permettent aussi de redéfinir e comme l'unique réel tel que la fonction qui à x associe ex coïncide avec sa dérivée en tout point, ou simplement au point 0 (ce qui est équivalent).
+La première preuve de l'irrationalité de e est due à Euler (voir infra). Fourier donna la preuve plus simple suivante,, en utilisant la décomposition de e par la série exponentielle et en raisonnant par l'absurde.
+Il s'agit de prouver que pour tout entier n > 0, le nombre ne n'est pas entier.
+Pour cela, il montre que n!e lui-même n'est pas entier, en le décomposant sous la forme
+!
+=
++
+où les nombres x et y sont définis par :
+=
+!
+∑
+=
+!
+=
+!
+∑
+=
++
+∞
+!
+Ainsi, n!e est somme d'un entier et d'un non-entier ; il n'est donc pas entier ; a fortiori, ne n'est pas entier.
+Cette conclusion étant valable quel que soit l'entier n > 0, e est irrationnel.
+Une autre démonstration de l'irrationalité de e consiste à utiliser les fractions continues.
+Si la preuve est plus complexe, elle offre aussi plus de possibilités de généralisation.
+En 1737, Euler a obtenu le développement en fraction continue de e[f] :
+=
++
++
++
++
++
++
++
++
++
+…
+Ce développement étant infini, ce nombre est irrationnel.
+En 1761, Lambert étend la preuve donnée par Euler et montre, à l'aide de développements en fractions continues généralisées, que pour tout rationnel r non nul (en particulier pour tout entier non nul), er est irrationnel[g].
+Cette approche permet aussi d’établir que e n’est pas un irrationnel quadratique, c’est-à-dire n’est solution d’aucune équation du second degré à coefficients rationnels (cf.
+Fraction continue et approximation diophantienne).
+Cependant, la mesure d'irrationalité de e est égale à 2, comme celle des nombres irrationnels algébriques ainsi que l'indique le théorème de Roth.
+Pour aller plus loin, c’est-à-dire que pour montrer que e n’est solution d’aucune équation du troisième degré à coefficients rationnels puis, qu’il est transcendant, ce qui signifie qu’il n’est solution d’aucune équation polynomiale à coefficients rationnels, de nouvelles idées sont nécessaires.
+La transcendance de e fut établie par Charles Hermite en 1873[h], par une méthode préfigurant la théorie des approximants de Padé, développée en 1892 dans la thèse de son élève Henri Padé. Les différents approximants de Padé de la fonction exponentielle fournissent en effet de nombreuses expressions de e sous forme de fractions continues généralisées.
+Puisque e est transcendant, er l'est aussi, pour tout rationnel r non nul (et plus généralement : f(e), pour toute fonction algébrique f non constante).
+Le théorème de Gelfond-Schneider permet de démontrer également que, par exemple, eπ est transcendant, mais on ne sait pas encore, en 2020, si ee et πe sont transcendants ou non (il est cependant conjecturé que tous les nombres de cette forme le sont).
+Il est également conjecturé que e est un nombre normal.
+En 1685, Jacques Bernoulli étudie le problème des intérêts composés en progression continue : si un montant a rapporte un montant b d'intérêts au bout d'un temps fini, on peut considérer que ces intérêts s'acquièrent linéairement en fonction du temps.
+Mais sur l'intervalle de temps considéré, ces intérêts devraient eux-mêmes produire des intérêts, et ainsi de suite.
+Bernoulli obtient ainsi une expression qui évoque le développement en série exponentielle.
+Parmi les rationnels de numérateur et dénominateur inférieurs à 1 000, le plus proche de e est 878/323 ≈ 2,71827.
+La valeur numérique de e tronquée à 15 décimales est 2,718281828459045.
+Le nombre de décimales connues de la constante e a beaucoup augmenté au cours des dernières décennies.
+Cette précision est due à l’augmentation des performances des ordinateurs ainsi qu’au perfectionnement des algorithmes,.
+Le nombre e fait l'objet de nombreux hommages dans le milieu informatique.
+Pour son introduction en bourse en 2004, Google a annoncé vouloir lever non pas un chiffre rond comme c'est généralement le cas, mais 2 718 281 828 $, soit e milliards de dollars (au dollar près). Google est aussi à l'origine d'une campagne de recrutement originale en juillet 2004 : des panneaux mentionnant « {first 10-digit prime found in the consecutive digits of e}.com » ({premier nombre premier à 10 chiffres trouvé dans les décimales successives de e}.com) affichés dans un premier temps dans la Silicon Valley, puis à Cambridge, Seattle et Austin incitaient les curieux à se rendre sur le site aujourd'hui disparu 7427466391.com.
+Là, le visiteur devait résoudre un problème encore plus difficile, qui lui-même le renvoyait sur le site Google Labs où il était invité à soumettre un CV,. Le premier nombre premier à dix chiffres dans les décimales de e est 7 427 466 391, qui commence à la 99e décimale.
+L'informaticien Donald Knuth a numéroté les différentes versions de son programme Metafont d'après les décimales de e : 2, 2,7, 2,71, 2,718, et ainsi de suite.
+De la même façon, les numéros de versions de son programme TeX approchent π.
+Edward Kasner et James R. Newman, Mathematics and the Imagination , Dover, 2013 (1re éd. 1940), 400 p. (ISBN 978-0-486-32027-4, lire en ligne), p. 84

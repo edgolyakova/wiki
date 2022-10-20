@@ -1,0 +1,878 @@
+Angle
+Histoire[modifier | modifier le code]
+L'angle comme figure du plan ou de l'espace[modifier | modifier le code]
+Angle géométrique[modifier | modifier le code]
+Angles orientés dans le plan[modifier | modifier le code]
+Angles dans l'espace[modifier | modifier le code]
+Usages des angles[modifier | modifier le code]
+Notes et références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+Secteur angulaire et angle[modifier | modifier le code]
+Valeur d'un angle[modifier | modifier le code]
+Nom des angles[modifier | modifier le code]
+Une approche multiple[modifier | modifier le code]
+Arcs de cercle orientés[modifier | modifier le code]
+Angles orientés de vecteurs par classe d'équivalence[modifier | modifier le code]
+Angle orienté de deux droites[modifier | modifier le code]
+Articles connexes[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Un angle orienté de vecteurs est une classe d'équivalence[modifier | modifier le code]
+Chaque angle orienté correspond à une rotation[modifier | modifier le code]
+Les angles orientés de vecteurs forment un groupe[modifier | modifier le code]
+Effet des isométries sur les angles orientés de vecteurs[modifier | modifier le code]
+Enfin presque une vraie mesure d'angles[modifier | modifier le code]
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+				déplacer vers la barre latérale
+masquer
+Pour les articles homonymes, voir Angle (homonymie) et Angles.
+En géométrie, la notion générale d'angle se décline en plusieurs concepts.
+Dans son sens ancien, l'angle est une figure plane, portion de plan délimitée par deux demi-droites. C'est ainsi qu'on parle des angles d'un polygone. Cependant, l'usage est maintenant d'employer le terme « secteur angulaire » pour une telle figure. L'angle peut désigner également une portion de l'espace délimitée par deux plans (angle dièdre). La mesure de tels angles porte couramment mais abusivement le nom d'angle, elle aussi.
+En un sens plus abstrait, l'angle est une classe d'équivalence, c'est-à-dire un ensemble obtenu en assimilant entre eux tous les angles-figures identifiables par isométrie. L'une quelconque des figures identifiées est alors appelée représentant de l'angle. Tous ces représentants ayant même mesure, on peut parler de mesure de l'angle abstrait.
+Il est possible de définir une notion d'angle orienté en géométrie euclidienne du plan, ainsi que d'étendre la notion d'angle au cadre des espaces vectoriels préhilbertiens ou des variétés riemanniennes.
+Il y a plusieurs sortes d'angles : Angle droit, Angle aigu et Angle obtus
+Le mot angle dérive du latin angulus, mot qui signifie « le coin ». Selon le mathématicien Carpos d'Antioche, l'angle est une quantité et l'intervalle des lignes ou des surfaces qui le comprennent ; cet intervalle est dimensionné d'une seule manière, et pourtant l'angle n'est pas une ligne pour cela.
+Dans le plan, deux demi-droites de même origine délimitent deux régions, appelées secteurs angulaires.
+On dit que deux secteurs angulaires définissent le même angle lorsqu'ils sont superposables (plus formellement : l'angle d'un secteur angulaire est sa classe de congruence). On parle traditionnellement d'angle géométrique pour cette notion d'angle[1] mais ce terme peut aussi désigner, dans la terminologie moderne, une notion voisine moins fine (voir infra).
+Un angle est dit saillant si les secteurs angulaires qui le représentent sont convexes, et rentrant sinon.
+Une paire de demi-droites de même origine définit donc en général deux angles : l'un saillant et l'autre rentrant (le cas exceptionnel est celui de l'angle plat).
+Dans le plan, on peut parler de l'angle de deux droites sécantes. Deux droites sécantes découpent le plan en 4 secteurs angulaires saillants, correspondant à deux paires d'angles opposés par le sommet. Les angles opposés sont égaux et les angles adjacents sont supplémentaires[2]. Il y a en général deux valeurs possibles pour ces angles. On choisit parfois  de privilégier le plus petit des angles, c'est-à-dire l'angle aigu ou droit
+La mesure de l'angle d'un secteur angulaire est le nombre réel positif qui mesure la proportion du plan occupée par le secteur angulaire. Les unités utilisées pour le quantifier sont le radian, le quadrant et ses subdivisions, le degré, ses sous-unités et le grade. Les angles sont fréquemment notés par une lettre grecque minuscule, par exemple α, β, θ, ρ… Lorsque l'angle est au sommet d'un polygone et qu'il n'y a pas d'ambiguïté, on utilise alors le nom du sommet surmonté d'un chapeau, par exemple Â.
+Pour évaluer cet angle, cette « proportion de surface », on prend un disque centré au point d'intersection, et on effectue le rapport entre l'aire de la portion de disque interceptée par le secteur angulaire et l'aire totale du disque. On peut montrer que cela revient également à faire le rapport entre la longueur de l'arc intercepté et la circonférence du cercle ; cette valeur inférieure à 1 est appelée nombre de tour. La valeur 1/4 (quart de tour) correspond au quadrant.
+Une unité couramment utilisée est le degré, qui est le résultat de la division du quadrant en 90 parts égales. Le tour complet correspond donc à 360 degrés. La minute d'arc est un sous-multiple du degré, égale à 1/60 de degré. De même, la seconde d'arc est égale à 1/60 de la minute d'arc, soit 1/3 600 de degré. On utilise plus rarement le grade, qui correspond à une subdivision centésimale du quadrant.
+L'unité internationale de mesure des angles est cependant le radian, défini comme le rapport entre la longueur de l'arc intercepté et le rayon du cercle. Le tour complet correspond donc à 
+
+
+
+2
+π
+
+
+{\displaystyle 2\pi }
+
+ radians.
+Les angles peuvent être calculés à partir des longueurs des côtés de polygones, notamment de triangles, en utilisant la trigonométrie.
+L'unité de mesure des angles utilisée principalement par les militaires est le millième. Il est l'angle sous lequel on voit 1 mètre à 1 kilomètre. 6283 millièmes correspond à 2π radians ou 360 degrés, soit 360°/arctan(1 m/1 000 m). Autrement-dit, millième = mrad (milliradian).
+« Sur le terrain », les angles peuvent être mesurés avec un appareil appelé goniomètre ; il comporte en général une règle courbe graduée en degrés, appelée rapporteur.
+En informatique, le 1/16ième de degré peut être utilisé, soit 5760 pour 360°.
+Les angles correspondant à un nombre entier de quadrants portent un nom particulier. Le tableau suivant représente les valeurs des angles particuliers dans les diverses unités.
+L'angle droit est obtenu en considérant deux droites qui divisent le plan en quatre secteurs égaux. De telles droites sont dites orthogonales ou perpendiculaires.
+On confond fréquemment l'angle avec sa mesure. Ainsi par exemple un angle plat est abusivement dit « égal » à 180°. Cet abus est pratiqué largement dans la suite de cet article.
+Les qualificatifs suivants sont employés pour les angles prenant des valeurs intermédiaires entre ces valeurs remarquables :
+Pour qualifier les valeurs relatives de deux angles, on emploie les expressions suivantes :
+On emploie encore d'autres expressions pour qualifier la position des angles sur une figure, c'est-à-dire plus justement, la position relative de secteurs angulaires :
+Remarque, deux angles complémentaires ou supplémentaires ne sont pas nécessairement adjacents : 
+Par exemple, dans un triangle ABE rectangle en B, les angles Â et Ê sont complémentaires.
+Par extension, on définit également les angles entre des demi-droites, des segments de droite et des vecteurs, en prolongeant les droites portant ces objets jusqu'à leur intersection. La définition par des demi-droites ou des vecteurs permet de lever l'indétermination entre les angles supplémentaires, c'est-à-dire de définir sans ambiguïté quel secteur angulaire utiliser pour définir l'inclinaison des directions.
+Un angle géométrique est, dans la terminologie actuelle, la classe d'équivalence d'un couple de demi-droites de même origine, deux tels couples étant considérées comme équivalents s'ils sont superposables[3].
+Si l'on note 
+
+
+
+
+
+
+
+x
+O
+y
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {xOy}}}
+
+ l'angle géométrique associé au couple de demi-droites 
+
+
+
+
+(
+
+[
+O
+x
+)
+,
+[
+O
+y
+)
+
+)
+
+
+
+{\displaystyle \left([Ox),[Oy)\right)}
+
+, on a (par symétrie par rapport à la bissectrice) : 
+
+
+
+
+
+
+
+x
+O
+y
+
+^
+
+
+
+=
+
+
+
+
+y
+O
+x
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {xOy}}={\widehat {yOx}}}
+
+, c'est-à-dire que cet angle ne dépend que de la paire 
+
+
+
+{
+[
+O
+x
+)
+,
+[
+O
+y
+)
+}
+
+
+{\displaystyle \{[Ox),[Oy)\}}
+
+.
+L'angle saillant et l'angle rentrant associés à une telle paire (voir supra) correspondent donc, avec cette nouvelle terminologie, à un même « angle géométrique », dont le représentant privilégié est l'angle saillant[4],[5] (de mesure comprise entre 0 et 180°).
+On peut l'interpréter de plusieurs façons : divergence entre deux directions, directions des faces d'un objet (coin), direction visée par rapport au nord (angle donné par une boussole)… L'angle peut aussi s'interpréter comme l'ouverture du secteur angulaire. C'est la mesure de l'inclinaison d'une demi-droite par rapport à l'autre.
+Si une translation transforme 
+
+
+
+[
+O
+x
+)
+
+
+{\displaystyle [Ox)}
+
+ en 
+
+
+
+[
+
+O
+′
+
+
+x
+′
+
+)
+
+
+{\displaystyle [O'x')}
+
+ et 
+
+
+
+[
+O
+y
+)
+
+
+{\displaystyle [Oy)}
+
+ en 
+
+
+
+[
+
+O
+′
+
+
+y
+′
+
+)
+
+
+{\displaystyle [O'y')}
+
+, elle ne modifie pas l'angle géométrique : 
+
+
+
+
+
+
+
+
+x
+′
+
+
+O
+′
+
+
+y
+′
+
+
+^
+
+
+
+=
+
+
+
+
+x
+O
+y
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {x'O'y'}}={\widehat {xOy}}}
+
+. On peut donc définir l'angle géométrique 
+
+
+
+
+
+
+
+(
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+)
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {({\vec {u}},{\vec {v}})}}}
+
+ de deux vecteurs non nuls 
+
+
+
+
+
+
+u
+→
+
+
+
+
+
+{\displaystyle {\vec {u}}}
+
+ et 
+
+
+
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {v}}}
+
+ comme l'angle entre deux demi-droites dirigées par ces deux vecteurs, et d'origine commune arbitraire. Ou encore : deux couples 
+
+
+
+(
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+)
+
+
+{\displaystyle ({\vec {u}},{\vec {v}})}
+
+ et 
+
+
+
+(
+
+
+
+
+u
+→
+
+
+
+′
+
+,
+
+
+
+
+v
+→
+
+
+
+′
+
+)
+
+
+{\displaystyle ({\vec {u}}',{\vec {v}}')}
+
+ de vecteurs non nuls sont équivalents (représentent le même angle géométrique) s'il existe une isométrie vectorielle qui transforme les vecteurs unitaires 
+
+
+
+
+
+
+
+u
+→
+
+
+
+‖
+
+
+
+u
+→
+
+
+
+‖
+
+
+
+
+
+{\displaystyle {\frac {\vec {u}}{\|{\vec {u}}\|}}}
+
+ et 
+
+
+
+
+
+
+
+v
+→
+
+
+
+‖
+
+
+
+v
+→
+
+
+
+‖
+
+
+
+
+
+{\displaystyle {\frac {\vec {v}}{\|{\vec {v}}\|}}}
+
+ en 
+
+
+
+
+
+
+
+
+
+u
+→
+
+
+
+′
+
+
+‖
+
+
+
+
+u
+→
+
+
+
+′
+
+‖
+
+
+
+
+
+{\displaystyle {\frac {{\vec {u}}'}{\|{\vec {u}}'\|}}}
+
+ et 
+
+
+
+
+
+
+
+
+
+v
+→
+
+
+
+′
+
+
+‖
+
+
+
+
+v
+→
+
+
+
+′
+
+‖
+
+
+
+
+
+{\displaystyle {\frac {{\vec {v}}'}{\|{\vec {v}}'\|}}}
+
+. (On définit bien ainsi une relation d'équivalence entre couples, parce que les isométries vectorielles forment un groupe.)
+La présentation des angles orientés dans un plan peut se faire de manière intuitive ou plus formaliste.
+La première approche consiste à voir l'angle comme la trace d'une rotation : la rotation qui envoie la demi-droite (Ox) sur la demi-droite (Oy) est en général différente de celle envoyant (Oy) sur (Ox). On considère alors comme distincts les angles (Ox, Oy) et (Oy, Ox)  en signalant qu'ils ont même mesure mais des sens de parcours différents[6].
+Une autre approche consiste à confondre l'angle orienté et sa mesure[7]. Cette démarche nécessite de définir une orientation préalable du plan pour pouvoir définir le sens dit positif. C'est ce type d'approche que l'on retrouve quand on définit la mesure de l'angle orienté d'un couple de vecteurs unitaires à l'aide de la longueur de l'arc de cercle orienté qu'il détermine sur un cercle unité[8].
+La dernière approche, plus formalisée consiste à voir un angle orienté comme une classe d'équivalence de couple de demi-droites vectorielles modulo les rotations planes, ou ce qui revient au même, comme des orbites de couples de demi-droites vectorielles par l'action de groupe des isométries positives[9].
+Par la suite seront présentées les approches par les longueurs d'arcs de cercle et comme classes d'équivalence. Par les mêmes techniques que ci-dessus, il revient au même, lorsqu'on parle d'angles, de considérer deux demi-droites de même origine, deux vecteurs non nuls, ou deux vecteurs unitaires. Nous limitons donc l'exposé à ce dernier cas.
+Dans un cercle de centre O et de rayon 1, on définit un sens de parcours dit positif, en général le sens inverse des aiguilles d'une montre, appelé sens trigonométrique. Si A et B sont deux points du cercle, on appelle longueur de l'arc orienté AB, la longueur de tout parcours sur le cercle partant de A et arrivant à B. Il existe plusieurs parcours possibles consistant à ajouter des tours complets du cercle parcourus dans le sens positif ou dans le sens négatif.
+Une longueur a étant connue, les autres longueurs de l'arc orienté sont donc toutes de la forme a + 2kπ où k est un entier relatif quelconque. La longueur correspondant au trajet le plus court pour se rendre de A à B est appelé la mesure principale de l'arc AB (s'il existe deux trajets possibles, on choisit celui de mesure positive). La mesure principale est donc un nombre appartenant à l'intervalle ]-π, π].
+Soient 
+
+
+
+
+
+
+u
+→
+
+
+
+
+
+{\displaystyle {\vec {u}}}
+
+ et 
+
+
+
+
+
+
+v
+→
+
+
+
+
+
+{\displaystyle {\vec {v}}}
+
+ deux vecteurs unitaires, et A et B les points tels que 
+
+
+
+
+
+
+u
+→
+
+
+
+=
+
+
+
+O
+A
+
+→
+
+
+
+
+{\displaystyle {\vec {u}}={\overrightarrow {OA}}}
+
+ et 
+
+
+
+
+
+
+v
+→
+
+
+
+=
+
+
+
+O
+B
+
+→
+
+
+
+
+{\displaystyle {\vec {v}}={\overrightarrow {OB}}}
+
+, on appelle mesure de l'angle orienté 
+
+
+
+(
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+)
+
+
+{\displaystyle ({\vec {u}},{\vec {v}})}
+
+ toute  longueur de l'arc orienté AB. La mesure principale de l'angle 
+
+
+
+(
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+)
+
+
+{\displaystyle ({\vec {u}},{\vec {v}})}
+
+ a donc pour valeur absolue la mesure de l'angle géométrique  
+
+
+
+
+
+
+
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {{\vec {u}},{\vec {v}}}}}
+
+ . Le signe de cette mesure principale est positif si le plus court chemin pour se rendre de A vers B est dans le sens direct , il est négatif dans le cas contraire. Deux couples de vecteurs ayant même mesure définissent le même angle orienté.
+Dans cette approche, il est nécessaire que soit perçu comme naturel l'«enroulement» de la droite réelle sur le cercle[10], enroulement qu'il resterait à formaliser.
+Le plan a la particularité suivante, par rapport aux dimensions supérieures : on peut y affiner la relation de congruence définie pour l'angle géométrique de telle façon que les couples 
+
+
+
+(
+
+
+
+u
+→
+
+
+
+,
+
+
+
+v
+→
+
+
+
+)
+
+
+{\displaystyle ({\vec {u}},{\vec {v}})}
+
+ et 
+
+
+
+(
+
+
+
+v
+→
+
+
+
+,
+
+
+
+u
+→
+
+
+
+)
+
+
+{\displaystyle ({\vec {v}},{\vec {u}})}
+
+ ne représentent plus le même angle en général[11]. Pour cela, on évite de faire intervenir les réflexions parmi les isométries autorisées pour définir une nouvelle relation entre les couples, c'est-à-dire qu'on se limite au sous-groupe des rotations du plan vectoriel (en dimension 3 par exemple, cette limitation échouerait car les deux couples sont transformés l'un de l'autre non seulement par réflexion par rapport au plan bissecteur, mais aussi par une rotation d'un demi-tour). Cela conduit à la définition suivante :
+(On se dispense désormais des traditionnelles flèches sur les vecteurs.)
+Deux couples (u, v) et (u', v') de vecteurs unitaires du plan représentent le même angle orienté s'il existe une rotation g telle que u' = g(u) et v' = g(v).
+En confondant abusivement un couple et l'angle orienté qu'il représente, on a par exemple : (–u, –v) = (u, v) par le demi-tour g = –Id.
+Cette nouvelle relation d'équivalence est plus fine que celle qui définit les angles géométriques. Plus précisément, en tant que classe d'équivalence, l'angle géométrique 
+
+
+
+
+
+
+
+(
+u
+,
+v
+)
+
+^
+
+
+
+
+
+{\displaystyle {\widehat {(u,v)}}}
+
+ est la réunion des deux angles orientés 
+
+
+
+(
+u
+,
+v
+)
+
+
+{\displaystyle (u,v)}
+
+ et 
+
+
+
+(
+v
+,
+u
+)
+
+
+{\displaystyle (v,u)}
+
+.
+Étant donnés deux vecteurs unitaires, il existe une unique rotation du plan qui envoie le premier sur le second[12].
+Cette unicité permet de définir une application qui au couple (u, v) de vecteurs unitaires associe la rotation f telle que f(u) = v.
+Cette application T : (u, v) ↦ f, des couples de vecteurs vers les rotations, « passe au quotient », et définit ainsi une bijection S, des angles orientés vers les rotations. En effet :
+Théorème — (u, v) et (u', v') représentent le même angle orienté si et seulement si la rotation qui envoie u sur v est la même que celle qui envoie u' sur v'.
+Cela est dû au fait que le groupe des rotations du plan vectoriel est abélien.
+Par définition, (u, v) et (u', v') représentent le même angle orienté si et seulement si la rotation qui envoie u sur u' est la même que celle qui envoie v sur v', autrement dit : T(u,u') = T(v,v'). Par commutativité du groupe des rotations, ceci équivaut à T(u',v)∘T(u,u') = T(v,v')∘T(u',v), c.-à-d. T(u,v) = T(u',v').
+En utilisant cette bijection S, on peut alors « plaquer » la structure (en) de groupe abélien du groupe des rotations sur l'ensemble des angles, c'est-à-dire définir l'addition des angles à partir de la composition des rotations, en posant[13] :
+On va définir, sur les angles orientés, une mesure, de telle façon que la mesure de la somme soit égale à la somme des mesures (pour les angles géométriques, on pouvait définir partiellement une addition des angles et des mesures correspondantes : seulement pour des angles « pas trop grands »).
+Le choix de l'une des deux orientations possibles du plan détermine l'un des deux isomorphismes du groupe des rotations avec le groupe SO(2) des matrices de rotations planes ou encore avec le groupe U des nombres complexes de module 1. L'exponentielle complexe permet alors de définir la mesure de l'angle d'une rotation à 2π près, ou « modulo 2π » (en radians). Si θ est une mesure de l'angle de la rotation f = T(u, v), on dira que θ est aussi une mesure de l'angle orienté de vecteurs (u, v).
+Par exemple, la mesure de l'angle droit de sens direct est notée :
+ou bien
+En résumé, une orientation du plan étant choisie, la mesure d'un angle orienté de vecteurs est définie par :
+où la matrice est celle de T(u, v) dans n'importe quelle base orthonormée directe.
+C'est un isomorphisme du groupe des angles orientés dans le groupe additif des « réels modulo 2π ». Ainsi, la mesure des angles est enfin additive.
+Rappelons cependant qu'elle dépend d'un choix d'orientation du plan : inverser ce choix change toutes les mesures en leurs opposées. On retrouve ici le fait qu'un angle géométrique, de mesure α comprise entre 0 et π, correspond à deux angles orientés opposés, l'attribution (modulo 2π) de la mesure α à l'un et donc –α à l'autre étant fonction de l'orientation du plan.
+De plus, Daniel Perrin et Jean Dieudonné font remarquer que l'on ne peut parler stricto sensu de mesure car aucune comparaison entre deux mesures d'angles n'est possible[15].
+Dans un plan, l'angle orienté de deux droites est la classe modulo π de l'angle orienté formé par leurs vecteurs directeurs. Ce travail modulo π provient du fait que l'on peut prendre comme vecteur directeur d'une droite u ou -u et que changer un vecteur en son opposé revient à ajouter π à la mesure de l'angle correspondant[16].
+Les angles orientés de droites sont utilisés pour déterminer l'angle d'une rotation composée de deux réflexions. Cette notion est également utile pour tous les problèmes d'alignement et de cyclicité[16].
+Deux droites sécantes sont nécessairement coplanaires, donc l'angle entre les droites est défini dans ce plan, de la même manière que ci-dessus.
+Dans l'espace, il n'existe pas de notion d'angle orienté de droites mais on peut définir l'angle de deux droites quelconques de l'espace, sécantes ou non, à condition de travailler sur leurs vecteurs directeurs. On appelle angle de deux droites l'angle géométrique formé par leurs vecteurs directeurs. Il y a en général deux valeurs possibles pour cet angle, selon les vecteurs directeurs choisis. Il arrive que l'on privilégie le plus petit des angles[17]. Ainsi l'angle entre deux droites parallèles est nul et celui entre deux droites orthogonales est de 90° ou π/2 rad.
+L'angle de deux droites de vecteurs directeurs u et v peut se déterminer à l'aide du produit scalaire : c'est l'angle dont le cosinus vaut 
+
+
+
+
+
+
+
+|
+
+u
+⋅
+v
+
+|
+
+
+
+‖
+u
+‖
+‖
+v
+‖
+
+
+
+
+
+{\displaystyle {\frac {|u\cdot v|}{\|u\|\|v\|}}}
+
+[17].
+On peut aussi considérer la notion voisine d'angle de deux axes, dans laquelle l'orientation des axes impose une unique valeur à l'angle qu'ils forment[18].
+Pour définir l'angle entre deux plans, ou angle dièdre, on considère l'angle que font leurs normales.
+Pour définir l'angle entre un plan et une droite, on considère l'angle α entre la droite et sa projection orthogonale sur le plan, ou encore l'angle complémentaire entre la droite et la normale au plan : on retranche l'angle β entre la droite et la normale au plan de l'angle droit (α = π/2 – β en radians).
+On définit également les angles solides : on prend un point (parfois appelé « point d'observation ») et une surface dans l'espace (la « surface observée »), l'angle solide est la portion de l'espace délimitée par le cône ayant pour sommet le point considéré et s'appuyant sur le contour de la surface. On mesure l'angle solide en calculant l'aire de la calotte découpée par le cône sur la sphère de rayon un et de centre le sommet du cône. L'unité de mesure d'angle solide est le stéradian (sr en abrégé), l'espace complet fait 4π sr.
+Sur les autres projets Wikimedia :

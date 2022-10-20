@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+
+<html class="client-nojs" dir="ltr" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<title>概率 - 维基百科，自由的百科全书</title>
+<script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"zh","wgMonthNames":["","1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"],"wgRequestId":"3405e770-0b63-4076-8b8e-f80dca6807fe","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"概率","wgTitle":"概率","wgCurRevisionId":73970097,"wgRevisionId":73970097,"wgArticleId":20840,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive模板wayback链接","有未列明来源语句的条目","使用ISBN魔术链接的页面","包含AAT标识符的维基百科条目","包含GND标识符的维基百科条目","包含LCCN标识符的维基百科条目","包含NKC标识符的维基百科条目","概率","概率与统计","无量纲"],"wgPageContentLanguage":"zh",
+"wgPageContentModel":"wikitext","wgRelevantPageName":"概率","wgRelevantArticleId":20840,"wgUserVariant":"zh","wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgVisualEditor":{"pageLanguageCode":"zh","pageLanguageDir":"ltr","pageVariantFallbacks":["zh-hans","zh-hant","zh-cn","zh-tw","zh-hk","zh-sg","zh-mo","zh-my"]},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":true,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgNoticeProject":"wikipedia","wgVector2022PreviewPages":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"中文","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q9492","GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,
+"wgGEStructuredTaskRejectionReasonTextInputEnabled":false};RLSTATE={"ext.gadget.large-font":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","ext.math.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","ext.math.scripts","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.edit0","ext.gadget.WikiMiniAtlas","ext.gadget.ReferenceTooltips","ext.gadget.UnihanTooltips",
+"ext.gadget.shortURL","ext.gadget.Difflink","ext.gadget.pseudonamespace-UI","ext.gadget.SpecialWikitext","ext.gadget.switcher","ext.gadget.AdvancedSiteNotices","ext.gadget.hideConversionTab","ext.gadget.internalLinkHelper-altcolor","ext.gadget.noteTA","ext.gadget.noteTAvector","ext.gadget.NavFrame","ext.gadget.collapsibleTables","ext.gadget.notifyConversion","ext.gadget.CollapsibleSidebar","ext.gadget.scrollUpButton","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script>
+<link href="/w/load.php?lang=zh&amp;modules=ext.cite.styles%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<script async="" src="/w/load.php?lang=zh&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script>
+<meta content="" name="ResourceLoaderDynamicStyles"/>
+<link href="/w/load.php?lang=zh&amp;modules=ext.gadget.large-font&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<link href="/w/load.php?lang=zh&amp;modules=site.styles&amp;only=styles&amp;skin=vector" rel="stylesheet"/>
+<meta content="MediaWiki 1.40.0-wmf.4" name="generator"/>
+<meta content="origin" name="referrer"/>
+<meta content="origin-when-crossorigin" name="referrer"/>
+<meta content="origin-when-cross-origin" name="referrer"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta content="width=1000" name="viewport"/>
+<meta content="概率 - 维基百科，自由的百科全书" property="og:title"/>
+<meta content="website" property="og:type"/>
+<link href="//upload.wikimedia.org" rel="preconnect"/>
+<link href="//zh.m.wikipedia.org/wiki/%E6%A6%82%E7%8E%87" media="only screen and (max-width: 720px)" rel="alternate"/>
+<link href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit" rel="alternate" title="编辑本页" type="application/x-wiki"/>
+<link href="/static/apple-touch/wikipedia.png" rel="apple-touch-icon"/>
+<link href="/static/favicon/wikipedia.ico" rel="icon"/>
+<link href="/w/opensearch_desc.php" rel="search" title="Wikipedia (zh)" type="application/opensearchdescription+xml"/>
+<link href="//zh.wikipedia.org/w/api.php?action=rsd" rel="EditURI" type="application/rsd+xml"/>
+<link href="/zh/%E6%A6%82%E7%8E%87" hreflang="zh" rel="alternate"/>
+<link href="/zh-hans/%E6%A6%82%E7%8E%87" hreflang="zh-Hans" rel="alternate"/>
+<link href="/zh-hant/%E6%A6%82%E7%8E%87" hreflang="zh-Hant" rel="alternate"/>
+<link href="/zh-cn/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-CN" rel="alternate"/>
+<link href="/zh-hk/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-HK" rel="alternate"/>
+<link href="/zh-mo/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-MO" rel="alternate"/>
+<link href="/zh-my/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-MY" rel="alternate"/>
+<link href="/zh-sg/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-SG" rel="alternate"/>
+<link href="/zh-tw/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-TW" rel="alternate"/>
+<link href="/wiki/%E6%A6%82%E7%8E%87" hreflang="x-default" rel="alternate"/>
+<link href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license"/>
+<link href="https://zh.wikipedia.org/wiki/%E6%A6%82%E7%8E%87" rel="canonical"/>
+<link href="//meta.wikimedia.org" rel="dns-prefetch"/>
+<link href="//login.wikimedia.org" rel="dns-prefetch"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-概率 rootpage-概率 skin-vector action-view skin-vector-legacy vector-toc-not-collapsed vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-language-alert-in-sidebar-enabled vector-feature-sticky-header-disabled vector-feature-sticky-header-edit-disabled vector-feature-table-of-contents-legacy-toc-disabled vector-feature-visual-enhancement-next-disabled vector-feature-article-tools-disabled"><div class="noprint" id="mw-page-base"></div>
+<div class="noprint" id="mw-head-base"></div>
+<div class="mw-body" id="content" role="main">
+<a id="top"></a>
+<div id="siteNotice"><!-- CentralNotice --></div>
+<div class="mw-indicators">
+<div class="mw-indicator" id="mw-indicator-noteTA-b7798292"><div class="mw-parser-output"><img alt="本页使用了标题或全文手工转换" data-file-height="20" data-file-width="32" decoding="async" height="22" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/35px-Zh_conversion_icon_m.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/53px-Zh_conversion_icon_m.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Zh_conversion_icon_m.svg/70px-Zh_conversion_icon_m.svg.png 2x" title="本页使用了标题或全文手工转换" width="35"/></div></div>
+</div>
+<h1 class="firstHeading mw-first-heading" id="firstHeading"><span class="mw-page-title-main">概率</span></h1>
+<div class="vector-body" id="bodyContent">
+<div class="noprint" id="siteSub">维基百科，自由的百科全书</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<a class="mw-jump-link" href="#mw-head">跳到导航</a>
+<a class="mw-jump-link" href="#searchInput">跳到搜索</a>
+<div class="mw-body-content mw-content-ltr" dir="ltr" id="mw-content-text" lang="zh"><div class="mw-parser-output"><div class="noteTA" id="noteTA-b7798292"><div class="noteTA-title" data-noteta-code="zh-cn:概率;zh-tw:机率;zh-hk:概率;"></div><div class="noteTA-group"><div data-noteta-group="Math" data-noteta-group-source="module"></div><div data-noteta-group="Economics" data-noteta-group-source="module"></div></div></div>
+<table class="vertical-navbox nowraplinks" style="float:right;clear:right;width:22.0em;margin:0 0 1.0em 1.0em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%"><tbody><tr><th style="padding:0.2em 0.4em 0.2em;font-size:145%;line-height:1.2em"><a href="/wiki/%E7%A2%BA%E5%AE%9A%E6%80%A7" title="确定性">确定性</a></th></tr><tr><td style="padding:0.2em 0 0.4em"><img alt="" data-file-height="128" data-file-width="128" decoding="async" height="100" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Nuvola_apps_atlantik.png/100px-Nuvola_apps_atlantik.png" srcset="//upload.wikimedia.org/wikipedia/commons/7/77/Nuvola_apps_atlantik.png 1.5x" width="100"/></td></tr><tr><td class="hlist" style="padding:0 0.1em 0.4em;padding-left:0.5em;padding-right:0.5em;">
+<ul><li><a href="/wiki/%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89" title="虚无主义">虚无主义</a></li>
+<li><a href="/wiki/%E4%B8%8D%E5%8F%AF%E7%9F%A5%E8%AE%BA" title="不可知论">不可知论</a></li>
+<li><a href="/wiki/%E4%B8%8D%E7%A1%AE%E5%AE%9A%E6%80%A7" title="不确定性">不确定性</a></li>
+<li><a class="mw-selflink selflink">概率</a></li>
+<li><a href="/wiki/%E8%BF%91%E4%BC%BC" title="近似">近似</a></li>
+<li><a href="/wiki/%E4%BF%A1%E5%BF%B5" title="信念">信念</a></li>
+<li><a href="/wiki/%E7%9F%A5%E8%AF%86%E8%AE%BA" title="知识论">知识论</a></li>
+<li><a href="/wiki/%E7%A2%BA%E5%AE%9A%E6%80%A7" title="确定性">确定</a></li>
+<li><a href="/wiki/%E6%B1%BA%E5%AE%9A%E8%AB%96" title="决定论">决定论</a></li>
+<li><a href="/wiki/%E5%81%B6%E7%84%B6%E6%80%A7" title="偶然性">偶然性</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%83%BD%E4%B8%96%E7%95%8C" title="可能世界">必然性</a></li>
+<li><a href="/wiki/%E6%80%80%E7%96%91" title="怀疑">怀疑</a></li>
+<li><a href="/wiki/%E5%81%87%E8%AF%B4" title="假说">假说</a></li>
+<li><span class="ilh-all" data-foreign-title="Theory of justification" data-lang-code="en" data-lang-name="英语" data-orig-title="证成理论"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E8%AD%89%E6%88%90%E7%90%86%E8%AB%96&amp;action=edit&amp;redlink=1" title="证成理论（页面不存在）">理由</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Theory_of_justification" title="en:Theory of justification"><span dir="auto" lang="en">Theory of justification</span></a></span>）</span></span></li>
+<li><a href="/wiki/%E7%A7%91%E5%AD%A6%E7%90%86%E8%AE%BA" title="科学理论">科学理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%90%86%E8%AE%BA" title="理论">理论</a></li>
+<li><a href="/wiki/%E7%9C%9F%E7%90%86" title="真理">真理</a></li>
+<li><a href="/wiki/%E5%AE%BF%E5%91%BD%E8%AE%BA" title="宿命论">宿命论</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%AC%AC%E8%AB%96" title="可谬论">可谬论</a></li>
+<li><a href="/wiki/%E6%80%80%E7%96%91%E8%AE%BA" title="怀疑论">怀疑论</a></li>
+<li><a href="/wiki/%E5%94%AF%E6%88%91%E8%AB%96" title="唯我论">唯我论</a></li></ul></td>
+</tr><tr><td style="text-align:right;line-height:1.6"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E7%A2%BA%E5%AE%9A%E6%80%A7" title="Template:确定性"><abbr title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E7%A2%BA%E5%AE%9A%E6%80%A7" title="Template talk:确定性"><abbr title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E7%A2%BA%E5%AE%9A%E6%80%A7&amp;action=edit"><abbr title="编辑该模板">编</abbr></a></li></ul></div></td></tr></tbody></table>
+<table cellspacing="3" class="infobox" style="border-spacing:3px;width:22em;text-align:left;font-size:small;line-height:1.5em;margin: 0 0 1em 1em; float: right;"><tbody><tr><th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;background-color:#eee;">「机率」的各地常用别名</th></tr><tr><th scope="row" style="text-align:left;white-space: nowrap; background-color:#eee; width:4em;;">中国大陆</th><td style="white-space: nowrap; font-size: 1rem;;">概率 </td></tr><tr><th scope="row" style="text-align:left;white-space: nowrap; background-color:#eee; width:4em;;">台湾</th><td style="white-space: nowrap; font-size: 1rem;;">机率 </td></tr><tr><th scope="row" style="text-align:left;white-space: nowrap; background-color:#eee; width:4em;;">港澳</th><td style="white-space: nowrap; font-size: 1rem;;">概率 </td></tr><tr><th scope="row" style="text-align:left;white-space: nowrap; background-color:#eee; width:4em;;">日本、韩国汉字</th><td style="white-space: nowrap; font-size: 1rem;;">确率</td></tr></tbody></table>
+<p><b>概率</b>（香港作<b>概率</b>，台湾作<b>机率</b>，旧称<b>几率</b>，又称<b>机会率</b>或<b>或然率</b>），是对<a class="mw-redirect" href="/wiki/%E9%9A%8F%E6%9C%BA%E4%BA%8B%E4%BB%B6" title="随机事件">随机事件</a>发生之可能性的度量<sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>，为<a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a><a href="/wiki/%E6%A6%82%E7%8E%87%E8%AE%BA" title="概率论">概率论</a>的基本概念；机率的值是一个在0到1之间的<a href="/wiki/%E5%AE%9E%E6%95%B0" title="实数">实数</a>，也常以<a class="mw-redirect" href="/wiki/%E7%99%BE%E5%88%86%E6%95%B8" title="百分数">百分数</a>来表示。
+</p><p>概率常用来量化对于某些不确定<a href="/wiki/%E5%91%BD%E9%A2%98" title="命题">命题</a>的想法<sup class="reference" id="cite_ref-Stuart_and_Ord_2009_2-0"><a href="#cite_note-Stuart_and_Ord_2009-2">[2]</a></sup>，命题一般会是以下的形式：「某个特定<a href="/wiki/%E4%BA%8B%E4%BB%B6_(%E6%A6%82%E7%8E%87%E8%AE%BA)" title="事件 (概率论)">事件</a>会发生吗？」，对应的想法则是：「我们可以多确定这个事件会发生？」。确定的程度可以用0到1之间的数值来表示，这个数值就是机率<sup class="reference" id="cite_ref-Feller_3-0"><a href="#cite_note-Feller-3">[3]</a></sup>。因此若事件发生的机率越高，表示我们越认为这个事件可能发生。像抛硬币就是一个简单的例子，正面朝上及背面朝上的两种结果看来机率相同，每个的机率都是1/2，也就是正面朝上及背面朝上的机率各有50%。
+</p><p>这些概念可以形成<a href="/wiki/%E6%A6%82%E7%8E%87%E8%AE%BA" title="概率论">机率论</a>中的数学<a class="mw-redirect" href="/wiki/%E6%A9%9F%E7%8E%87%E5%85%AC%E7%90%86" title="机率公理">公理</a>（参考<a class="mw-redirect" href="/wiki/%E6%A6%82%E7%8E%87%E5%85%AC%E7%90%86" title="概率公理">概率公理</a>），在像<a class="mw-redirect" href="/wiki/%E6%95%B8%E5%AD%B8" title="数学">数学</a>、<a class="mw-redirect" href="/wiki/%E7%B5%B1%E8%A8%88%E5%AD%B8" title="统计学">统计学</a>、<a href="/wiki/%E9%87%91%E8%9E%8D" title="金融">金融</a>、<a class="mw-redirect" href="/wiki/%E5%8D%9A%E5%BC%88%E8%AB%96" title="博弈论">博弈论</a>、<a class="mw-redirect" href="/wiki/%E7%A7%91%E5%AD%B8" title="科学">科学</a>（特别是<a class="mw-redirect" href="/wiki/%E7%89%A9%E7%90%86" title="物理">物理</a>）、<a class="mw-redirect" href="/wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E6%85%A7" title="人工智慧">人工智慧</a>/<a href="/wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0" title="机器学习">机器学习</a>、<a class="mw-redirect" href="/wiki/%E9%9B%BB%E8%85%A6%E7%A7%91%E5%AD%B8" title="电脑科学">电脑科学</a>及<a class="mw-redirect" href="/wiki/%E5%93%B2%E5%AD%B8" title="哲学">哲学</a>等<a class="mw-redirect" href="/wiki/%E5%AD%B8%E7%A7%91%E5%88%97%E8%A1%A8" title="学科列表">学科</a>中都会用到。机率论也可以描述<a class="mw-redirect" href="/wiki/%E8%A4%87%E9%9B%9C%E7%B3%BB%E7%B5%B1" title="复杂系统">复杂系统</a>中的内在机制及规律性<sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>。
+</p><p>应用到具体问题，「概率」常常被用来视作是对某一事件是否发生（过）的「推测」。这种涵义下，在宏观世界（非量子力学情况）中，概率来源于信息的缺失，有效信息越多，对某一事件发生的把握度（概率）就越大，直至「必然发生」——例如理论上知道抛一枚硬币时的位置、受力情况，便可以计算出落下时正面还是反面，所知参数越精确，算得概率就能越接近1。但「混沌效应」仍然会制约所得概率的大小。
+</p>
+<div aria-labelledby="mw-toc-heading" class="toc" id="toc" role="navigation"><input class="toctogglecheckbox" id="toctogglecheckbox" role="button" style="display:none" type="checkbox"/><div class="toctitle" dir="ltr" lang="zh"><h2 id="mw-toc-heading">目录</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#历史"><span class="tocnumber">1</span> <span class="toctext">历史</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#概念"><span class="tocnumber">2</span> <span class="toctext">概念</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#理论"><span class="tocnumber">3</span> <span class="toctext">理论</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#应用"><span class="tocnumber">4</span> <span class="toctext">应用</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#数学处理"><span class="tocnumber">5</span> <span class="toctext">数学处理</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#表示机率"><span class="tocnumber">5.1</span> <span class="toctext">表示机率</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#分布"><span class="tocnumber">5.2</span> <span class="toctext">分布</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#概率计算总结"><span class="tocnumber">5.3</span> <span class="toctext">概率计算总结</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-9"><a href="#和随机的关系"><span class="tocnumber">6</span> <span class="toctext">和随机的关系</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#译名"><span class="tocnumber">7</span> <span class="toctext">译名</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#参考文献"><span class="tocnumber">8</span> <span class="toctext">参考文献</span></a>
+<ul>
+<li class="toclevel-2 tocsection-12"><a href="#引用"><span class="tocnumber">8.1</span> <span class="toctext">引用</span></a></li>
+<li class="toclevel-2 tocsection-13"><a href="#书目"><span class="tocnumber">8.2</span> <span class="toctext">书目</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-14"><a href="#外部连结"><span class="tocnumber">9</span> <span class="toctext">外部连结</span></a></li>
+<li class="toclevel-1 tocsection-15"><a href="#参见"><span class="tocnumber">10</span> <span class="toctext">参见</span></a></li>
+</ul>
+</div>
+<h2><span id=".E5.8E.86.E5.8F.B2"></span><span class="mw-headline" id="历史">历史</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=1" title="编辑章节：历史">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>第一个系统地推算概率的人是16世纪的<a class="mw-redirect" href="/wiki/%E5%8D%A1%E5%B0%94%E8%BE%BE%E8%AF%BA" title="卡尔达诺">卡尔达诺</a><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>。记载在他的着作Liber de Ludo Aleae中。书中关于概率的内容是由Gould从拉丁文翻译出来的。
+</p><p>Cardano的数学着作中有很多给赌徒的建议。这些建议都写成短文。例如：《谁，在什么时候，应该赌博？》、《为什么亚里士多德谴责赌博？》、《那些教别人赌博的人是否也擅长赌博呢？》等。
+</p><p>然而，首次提出系统研究概率的是在<a class="mw-redirect" href="/wiki/%E5%B8%83%E8%8E%B1%E5%A3%AB%C2%B7%E5%B8%95%E6%96%AF%E5%8D%A1" title="布莱士·帕斯卡">帕斯卡</a>和<a class="mw-redirect" href="/wiki/%E8%B4%B9%E9%A9%AC" title="费马">费马</a>来往的一系列信件中。这些通信最初是由帕斯卡提出的，他想找费马请教几个关于由Chevalier de Méré提出的问题。Chevalier de Méré是一知名作家，<a href="/wiki/%E8%B7%AF%E6%98%93%E5%8D%81%E5%9B%9B" title="路易十四">路易十四</a>宫廷的显要，也是一名狂热的赌徒。问题主要是两个：掷骰问题和比赛奖金应分配问题。
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:242px;"><a class="image" href="/wiki/File:India_climatic_disaster_risk_map_en.svg"><img alt="" class="thumbimage" data-file-height="1852" data-file-width="1639" decoding="async" height="271" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/India_climatic_disaster_risk_map_en.svg/240px-India_climatic_disaster_risk_map_en.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/India_climatic_disaster_risk_map_en.svg/360px-India_climatic_disaster_risk_map_en.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/35/India_climatic_disaster_risk_map_en.svg/480px-India_climatic_disaster_risk_map_en.svg.png 2x" width="240"/></a> <div class="thumbcaption"><div class="magnify"><a class="internal" href="/wiki/File:India_climatic_disaster_risk_map_en.svg" title="放大"></a></div>印度各地天灾风险机率</div></div></div>
+<h2><span id=".E6.A6.82.E5.BF.B5"></span><span class="mw-headline" id="概念">概念</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=2" title="编辑章节：概念">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>在日常生活中，我们常常会遇到一些涉及可能性或发生机会等概念的事件（event）。一个事件的可能性或一个事件的发生机会是与数学有关的。例如：
+</p><p>「从一班40名学生中随意选出一人，这人是男生吗？」
+</p><p>事实上，人们问「……可能会发生吗？」时，他们是在关注这个事件发生的机会。在数学上，事件发生的机会可用一个数来表示。称该数为<b>概率</b>（Probability）。
+</p><p>我们日常所见所闻的事件大致可分为两种：
+</p><p>一种是确定性事件。确定性事件包含必然事件和不可能事件。
+如太阳从东方升起，或者在标准大气压下，水在100℃时会沸腾。我们称这些事件为必然事件。
+如掷一个点数只有1到6的骰子，向上一面的数字是7。我们称这些事件为不可能事件。
+</p><p>此外，有大量事件在一定条件下是否发生，是无法确定的。如明天的气温比今天低、掷一枚硬币得正面向上，又或者在下一年度的<a href="/wiki/NBA" title="NBA">NBA</a>比赛中，芝加哥公牛队会夺得全年总冠军。像以上可能发生也可能不会发生的事件称为随机事件。
+</p>
+<h2><span id=".E7.90.86.E8.AB.96"></span><span class="mw-headline" id="理论">理论</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=3" title="编辑章节：理论">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E6%A9%9F%E7%8E%87%E8%AB%96" title="机率论">机率论</a></div>
+<p>机率论是一种用正式的用语表达机率概念的方式，这些词语可以用数学及逻辑的规则处理，结果再转换到和原来问题有关的领域。
+</p><p>至少有两种成功的将机率公式化的理论，分别是<a href="/wiki/%E5%AE%89%E5%BE%B7%E9%9B%B7%C2%B7%E6%9F%AF%E7%88%BE%E8%8E%AB%E5%93%A5%E6%B4%9B%E5%A4%AB" title="安德雷·柯尔莫哥洛夫">柯尔莫哥洛夫</a>公式化以及<span class="ilh-all" data-foreign-title="Cox" data-lang-code="en" data-lang-name="英语" data-orig-title="理察·T·考克斯"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E7%90%86%E5%AF%9F%C2%B7T%C2%B7%E8%80%83%E5%85%8B%E6%96%AF&amp;action=edit&amp;redlink=1" title="理察·T·考克斯（页面不存在）">考克斯</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Cox" title="en:Cox"><span dir="auto" lang="en">Cox</span></a></span>）</span></span>公式化。在柯尔莫哥洛夫公式化（参考<a class="mw-redirect" href="/wiki/%E6%A6%82%E7%8E%87%E7%A9%BA%E9%96%93" title="概率空间">概率空间</a>）中，用<a href="/wiki/%E9%9B%86%E5%90%88_(%E6%95%B0%E5%AD%A6)" title="集合 (数学)">集合</a>代表<a class="mw-redirect" href="/wiki/%E4%BA%8B%E4%BB%B6_(%E6%A9%9F%E7%8E%87%E8%AB%96)" title="事件 (机率论)">事件</a>，机率则是对集合的测度。在<span class="ilh-all" data-foreign-title="Cox's theorem" data-lang-code="en" data-lang-name="英语" data-orig-title="考克斯定理"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E8%80%83%E5%85%8B%E6%96%AF%E5%AE%9A%E7%90%86&amp;action=edit&amp;redlink=1" title="考克斯定理（页面不存在）">考克斯定理</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Cox%27s_theorem" title="en:Cox's theorem"><span dir="auto" lang="en">Cox's theorem</span></a></span>）</span></span>中，机率是不能再进一步分析的基元，强调在机率值及命题之间建立一致性的关系。在二种公式化方法中，<a class="mw-redirect" href="/wiki/%E6%A6%82%E7%8E%87%E5%85%AC%E7%90%86" title="概率公理">概率公理</a>都相同，只有一些技术细节不同。
+</p><p>有其他量度不确定性的方式，例如<span class="ilh-all" data-foreign-title="Dempster–Shafer theory" data-lang-code="en" data-lang-name="英语" data-orig-title="Dempster-Shafer理论"><span class="ilh-page"><a class="new" href="/w/index.php?title=Dempster-Shafer%E7%90%86%E8%AB%96&amp;action=edit&amp;redlink=1" title="Dempster-Shafer理论（页面不存在）">Dempster-Shafer理论</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Dempster%E2%80%93Shafer_theory" title="en:Dempster–Shafer theory"><span dir="auto" lang="en">Dempster–Shafer theory</span></a></span>）</span></span>或是<span class="ilh-all" data-foreign-title="possibility theory" data-lang-code="en" data-lang-name="英语" data-orig-title="可能性理论"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%8F%AF%E8%83%BD%E6%80%A7%E7%90%86%E8%AB%96&amp;action=edit&amp;redlink=1" title="可能性理论（页面不存在）">可能性理论</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/possibility_theory" title="en:possibility theory"><span dir="auto" lang="en">possibility theory</span></a></span>）</span></span>，但两者都有本质上的不同，无法和一般了解的机率论相容。
+</p>
+<h2><span id=".E6.87.89.E7.94.A8"></span><span class="mw-headline" id="应用">应用</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=4" title="编辑章节：应用">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>概率的概念常常应用在生活中，例如<a class="mw-redirect" href="/wiki/%E9%A2%A8%E9%9A%AA" title="风险">风险</a>评估及以<a class="mw-redirect" href="/wiki/%E9%87%91%E8%9E%8D%E5%B8%82%E5%A0%B4" title="金融市场">金融市场</a>的交易等。政府也在<a href="/wiki/%E7%8E%AF%E5%A2%83%E6%B3%95%E5%AD%A6" title="环境法学">环境法</a>中应用概率，称为路径分析（pathway analysis）。例如中东冲突可能会对油价有某程度的影响，而油价对世界经济可能会有<a href="/wiki/%E6%BC%A3%E6%BC%AA%E6%95%88%E6%87%89" title="涟漪效应">涟漪效应</a>的影响。某个油品交易商认为中东冲突会使油价上升或下降，并将他的意见提供给其他交易商。因此机率不是各自独立的进行评估，评估的过程也不一定合理。<a href="/wiki/%E8%A1%8C%E7%82%BA%E7%B6%93%E6%BF%9F%E5%AD%B8" title="行为经济学">行为经济学</a>就是描述<a href="/wiki/%E5%9C%98%E9%AB%94%E8%BF%B7%E6%80%9D" title="团体迷思">团体迷思</a>对定价、政策甚至和平或冲突的影响<sup class="reference" id="cite_ref-6"><a href="#cite_note-6">[6]</a></sup>。
+</p><p>有关概率评估及组合的严谨方式也改变了社会。对大部份的社会大众而言，重要的是了解概率评估的方式以及概率和决策之间的关系。
+</p><p>概率理论另一个明显的应用是<span class="ilh-all" data-foreign-title="Reliability theory" data-lang-code="en" data-lang-name="英语" data-orig-title="可靠度理论"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%8F%AF%E9%9D%A0%E5%BA%A6%E7%90%86%E8%AB%96&amp;action=edit&amp;redlink=1" title="可靠度理论（页面不存在）">可靠度理论</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Reliability_theory" title="en:Reliability theory"><span dir="auto" lang="en">Reliability theory</span></a></span>）</span></span>。像汽车及消费性产品会在产品开发时应用可靠度理论来减少产品失效的机率。失效机率会影响厂商在产品<a href="/wiki/%E4%BF%9D%E7%94%A8%E8%AD%89" title="保用证">保用证</a>上的决策<sup class="reference" id="cite_ref-7"><a href="#cite_note-7">[7]</a></sup>。
+</p><p>像<a href="/wiki/%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86" title="自然语言处理">自然语言处理</a>中用的<span class="ilh-all" data-foreign-title="cache language model" data-lang-code="en" data-lang-name="英语" data-orig-title="快取语言模型"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%BF%AB%E5%8F%96%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B&amp;action=edit&amp;redlink=1" title="快取语言模型（页面不存在）">快取语言模型</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/cache_language_model" title="en:cache language model"><span dir="auto" lang="en">cache language model</span></a></span>）</span></span>及其他<a href="/wiki/%E8%AA%9E%E8%A8%80%E6%A8%A1%E5%9E%8B" title="语言模型">语言模型</a>等也属于是概率理论的应用。
+</p>
+<h2><span id=".E6.95.B8.E5.AD.B8.E8.99.95.E7.90.86"></span><span class="mw-headline" id="数学处理">数学处理</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=5" title="编辑章节：数学处理">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">主条目：<a class="mw-redirect" href="/wiki/%E6%A9%9F%E7%8E%87%E5%85%AC%E7%90%86" title="机率公理">机率公理</a></div>
+<p><a class="mw-redirect" href="/wiki/%E4%BA%8B%E4%BB%B6_(%E6%A9%9F%E7%8E%87%E8%AB%96)" title="事件 (机率论)">事件</a><i>A</i>的机率一般会写成<i>P</i>(<i>A</i>)、<i>p</i>(<i>A</i>)或Pr(<i>A</i>)<sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>。机率的数学概念可延伸到无限的样本空间甚至不可数的样本空间，但需要用上<a href="/wiki/%E6%A6%82%E7%8E%87%E6%B5%8B%E5%BA%A6" title="概率测度">概率测度</a>的概念。
+</p><p>概率的公理化定义将概率的相关范畴从具体问题中抽象出来，从而可以在数学意义下考察概率的相关概念和由之引出的问题。以下给出概率的公理化定义：
+</p><p>设随机事件的<a href="/wiki/%E6%A0%B7%E6%9C%AC%E7%A9%BA%E9%97%B4" title="样本空间">样本空间</a>为Ω，Ω的一个子集称为事件。对于Ω中的每一个事件A，都有实函数P(A)，满足：
+</p>
+<ol><li>非负性：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(A)\geq 0}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mo>≥<!-- ≥ --></mo>
+<mn>0</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(A)\geq 0}</annotation>
+</semantics>
+</math></span><img alt="P(A)\geq 0" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9500aab9da652d07c31a340225e0fe7cfa9c0d51" style="vertical-align: -0.838ex; width:9.559ex; height:2.843ex;"/></span>；</li>
+<li>规范性：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(\Omega )=1}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi mathvariant="normal">Ω<!-- Ω --></mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>1</mn>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(\Omega )=1}</annotation>
+</semantics>
+</math></span><img alt="P(\Omega )=1" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/a66a50d3879f50fc0efb4fbd61cdc832b823640b" style="vertical-align: -0.838ex; width:9.494ex; height:2.843ex;"/></span></li>
+<li>可数可加性：对可数个两两互斥事件{A<sub>i</sub>}<sub>i∈<b>N</b></sub>有：<span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\displaystyle \sum _{i=1}^{\infty }P(A_{i})=P\left(\bigcup _{i=1}^{\infty }A_{i}\right)}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<munderover>
+<mo>∑<!-- ∑ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<msub>
+<mi>A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>P</mi>
+<mrow>
+<mo>(</mo>
+<mrow>
+<munderover>
+<mo>⋃<!-- ⋃ --></mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+<mo>=</mo>
+<mn>1</mn>
+</mrow>
+<mrow class="MJX-TeXAtom-ORD">
+<mi mathvariant="normal">∞<!-- ∞ --></mi>
+</mrow>
+</munderover>
+<msub>
+<mi>A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>i</mi>
+</mrow>
+</msub>
+</mrow>
+<mo>)</mo>
+</mrow>
+</mstyle>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\displaystyle \sum _{i=1}^{\infty }P(A_{i})=P\left(\bigcup _{i=1}^{\infty }A_{i}\right)}}</annotation>
+</semantics>
+</math></span><img alt="{\displaystyle \sum _{i=1}^{\infty }P(A_{i})=P\left(\bigcup _{i=1}^{\infty }A_{i}\right)}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/de9588d7946cbaa28335560321161443d2269859" style="vertical-align: -3.171ex; width:24.35ex; height:7.509ex;"/></span></li></ol>
+<p>任意一个满足上述条件的函数P都可以作为样本空间Ω的概率函数，称函数值P(A)为Ω中事件A的概率。
+</p>
+<h3><span id=".E8.A1.A8.E7.A4.BA.E6.A9.9F.E7.8E.87"></span><span class="mw-headline" id="表示机率">表示机率</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=6" title="编辑章节：表示机率">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>一个事件的机率值通常以一个介于0到1的实数表示。一个不可能事件其机率值为0，而确定事件其机率值则为1。 但反推并不一定成立，也就是说机率值为0的事件不表示它就是一个不可能事件，同理，机率值为1的事件不表示它就一定发生。例如，在一个正方形内作一条线段，由于这条线段的面积是0，所以一个此正方形内的点落在这条线段上的概率就是0，但它并不是不可能事件。
+</p><p>实际上大多数的机率值都是介于0与1之间的数，这个数示代表事件在'不可能发生'与'确定发生'之间的相对位置。事件的机率值越接近1，事件发生的机会就越高。
+</p><p>举例来说，假设两个事件有相同的发生机率，就像被抛掷而落地的铜板不是正面向上就是反面向上一样，但是我们不能说：每2次抛掷会出现1次，只能说事件发生的机率是平均每2次出现一次，或说是 "50%" 或 "1/2"。
+</p>
+<h3><span id=".E5.88.86.E5.B8.83"></span><span class="mw-headline" id="分布">分布</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=7" title="编辑章节：分布">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p><a class="mw-redirect" href="/wiki/%E6%A6%82%E7%8E%87%E5%88%86%E5%B8%83%E5%87%BD%E6%95%B0" title="概率分布函数">概率分布函数</a>是一个把概率分配给事件或者命题的函数。对于任何一个事件或者命题，总有很多分配概率的方法，所以选择不同的分布等同于对一个问题中的事件或者命题作出不同的假设。
+</p><p>分布还可分为「离散」和「连续」的。
+</p>
+<h3><span id=".E6.A6.82.E7.8E.87.E8.AE.A1.E7.AE.97.E6.80.BB.E7.BB.93"></span><span class="mw-headline" id="概率计算总结">概率计算总结</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=8" title="编辑章节：概率计算总结">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<table class="wikitable">
+<caption>概率计算总结
+</caption>
+<tbody><tr>
+<th>事件</th>
+<th>概率
+</th></tr>
+<tr>
+<td align="center">A</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(A)\in [0,1]\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mo>∈<!-- ∈ --></mo>
+<mo stretchy="false">[</mo>
+<mn>0</mn>
+<mo>,</mo>
+<mn>1</mn>
+<mo stretchy="false">]</mo>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(A)\in [0,1]\,}</annotation>
+</semantics>
+</math></span><img alt="P(A)\in [0,1]\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/c6df63430bc1da57222a7254204e1f0959bcb515" style="vertical-align: -0.838ex; width:13.178ex; height:2.843ex;"/></span>
+</td></tr>
+<tr>
+<td align="center">非A</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(A^{c})=1-P(A)\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<msup>
+<mi>A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mi>c</mi>
+</mrow>
+</msup>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mn>1</mn>
+<mo>−<!-- − --></mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(A^{c})=1-P(A)\,}</annotation>
+</semantics>
+</math></span><img alt="P(A^{c})=1-P(A)\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9eafcb764932e92eb27f0c6b77dfd54801894090" style="vertical-align: -0.838ex; width:19.028ex; height:2.843ex;"/></span>
+</td></tr>
+<tr>
+<td align="center">A或B
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{aligned}P(A\cup B)&amp;=P(A)+P(B)-P(A\cap B)\\P(A\cup B)&amp;=P(A)+P(B)\qquad {\mbox{if A and B are mutually exclusive}}\\\end{aligned}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="right left right left right left right left right left right left" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em" displaystyle="true" rowspacing="3pt">
+<mtr>
+<mtd>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∪<!-- ∪ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>−<!-- − --></mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∩<!-- ∩ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∪<!-- ∪ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mo>+</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mspace width="2em"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext>if A and B are mutually exclusive</mtext>
+</mstyle>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{aligned}P(A\cup B)&amp;=P(A)+P(B)-P(A\cap B)\\P(A\cup B)&amp;=P(A)+P(B)\qquad {\mbox{if A and B are mutually exclusive}}\\\end{aligned}}}</annotation>
+</semantics>
+</math></span><img alt="{\begin{aligned}P(A\cup B)&amp;=P(A)+P(B)-P(A\cap B)\\P(A\cup B)&amp;=P(A)+P(B)\qquad {\mbox{if A and B are mutually exclusive}}\\\end{aligned}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/65c4d0c6db14685663e754e1dc7d0ce72572cf4e" style="vertical-align: -2.505ex; width:64.846ex; height:6.176ex;"/></span>
+</td></tr>
+<tr>
+<td align="center">A和B
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle {\begin{aligned}P(A\cap B)&amp;=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap B)&amp;=P(A)P(B)\qquad {\mbox{if A and B are independent}}\\\end{aligned}}}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mrow class="MJX-TeXAtom-ORD">
+<mtable columnalign="right left right left right left right left right left right left" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em" displaystyle="true" rowspacing="3pt">
+<mtr>
+<mtd>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∩<!-- ∩ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∩<!-- ∩ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mtd>
+<mtd>
+<mi></mi>
+<mo>=</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mspace width="2em"></mspace>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="false" scriptlevel="0">
+<mtext>if A and B are independent</mtext>
+</mstyle>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle {\begin{aligned}P(A\cap B)&amp;=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap B)&amp;=P(A)P(B)\qquad {\mbox{if A and B are independent}}\\\end{aligned}}}</annotation>
+</semantics>
+</math></span><img alt="{\begin{aligned}P(A\cap B)&amp;=P(A|B)P(B)=P(B|A)P(A)\\P(A\cap B)&amp;=P(A)P(B)\qquad {\mbox{if A and B are independent}}\\\end{aligned}}" aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/17dc5877448c0aa0c71b59f8af57252c7c3b8622" style="vertical-align: -2.505ex; width:55.664ex; height:6.176ex;"/></span>
+</td></tr>
+<tr>
+<td align="center">B的情况下A的概率
+</td>
+<td><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math alttext="{\displaystyle P(A\mid B)={\frac {P(A\cap B)}{P(B)}}={\frac {P(B|A)P(A)}{P(B)}}\,}" xmlns="http://www.w3.org/1998/Math/MathML">
+<semantics>
+<mrow class="MJX-TeXAtom-ORD">
+<mstyle displaystyle="true" scriptlevel="0">
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∣<!-- ∣ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo>∩<!-- ∩ --></mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+<mo>=</mo>
+<mrow class="MJX-TeXAtom-ORD">
+<mfrac>
+<mrow>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mrow class="MJX-TeXAtom-ORD">
+<mo stretchy="false">|</mo>
+</mrow>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>A</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+<mrow>
+<mi>P</mi>
+<mo stretchy="false">(</mo>
+<mi>B</mi>
+<mo stretchy="false">)</mo>
+</mrow>
+</mfrac>
+</mrow>
+<mspace width="thinmathspace"></mspace>
+</mstyle>
+</mrow>
+<annotation encoding="application/x-tex">{\displaystyle P(A\mid B)={\frac {P(A\cap B)}{P(B)}}={\frac {P(B|A)P(A)}{P(B)}}\,}</annotation>
+</semantics>
+</math></span><img alt="P(A\mid B)={\frac {P(A\cap B)}{P(B)}}={\frac {P(B|A)P(A)}{P(B)}}\," aria-hidden="true" class="mwe-math-fallback-image-inline" src="https://wikimedia.org/api/rest_v1/media/math/render/svg/7b08fd4f5b0007f40ccb2dbf77fc849b240e789e" style="vertical-align: -2.671ex; width:39.906ex; height:6.509ex;"/></span>
+</td></tr></tbody></table>
+<h2><span id=".E5.92.8C.E9.9A.A8.E6.A9.9F.E7.9A.84.E9.97.9C.E4.BF.82"></span><span class="mw-headline" id="和随机的关系">和随机的关系</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=9" title="编辑章节：和随机的关系">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="hatnote navigation-not-searchable" role="note">参见：<a class="mw-redirect" href="/wiki/%E9%9A%A8%E6%A9%9F" title="随机">随机</a></div>
+<p>在<a class="mw-redirect" href="/wiki/%E7%89%9B%E9%A0%93%E5%8A%9B%E5%AD%B8" title="牛顿力学">牛顿力学</a>的概念中，<a href="/wiki/%E6%B1%BA%E5%AE%9A%E8%AB%96" title="决定论">决定论</a>的世界中，若所有条件都是已知，都没有任何概率性的成份在内（<a class="mw-redirect" href="/wiki/%E6%8B%89%E6%99%AE%E6%8B%89%E6%96%AF%E7%9A%84%E6%83%A1%E9%AD%94" title="拉普拉斯的恶魔">拉普拉斯的恶魔</a>），不过有可能一些系统<a href="/wiki/%E6%B7%B7%E6%B2%8C" title="混沌">对初始条件敏感</a>，敏感程度甚至到超过可能量测的范围。以<a href="/wiki/%E4%BF%84%E7%BE%85%E6%96%AF%E8%BC%AA%E7%9B%A4" title="俄罗斯轮盘">俄罗斯轮盘</a>为例，若手的施力，出力的时间等资讯已知，轮盘最后停止的位置是可以计算而得的，不过此时需要知道轮盘的惯量及摩擦系数，球的质量、光滑度及圆度，出力过程中手速度的变化等。此时，相较于用牛顿力学的方式分析，概率性的描述可能更适合描述重覆玩数次俄罗斯轮盘的结果。科学家发现在气体动力论中也有类似的情形，系统理论上是确定的，但因为气体分子个数约和<a href="/wiki/%E9%98%BF%E4%BC%8F%E4%BC%BD%E5%BE%B7%E7%BD%97%E5%B8%B8%E6%95%B0" title="阿伏伽德罗常数">阿伏伽德罗常数</a>（≈<span class="nowrap"><span class="sortkey" style="display:none">7023602200000000000♠</span>6.022<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>23</sup> mol<sup>−1</sup></span>）量级相当，因此也只能用概率性的描述。
+</p><p>在描述量子理论时一定会用到<a class="mw-redirect" href="/wiki/%E6%A6%82%E7%8E%87%E8%AB%96" title="概率论">概率论</a><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>。二十世纪初期，物理学界有一个革命性发现，所有次原子层级的物理过程有随机性，依循<a class="mw-redirect" href="/wiki/%E9%87%8F%E5%AD%90%E5%8A%9B%E5%AD%B8" title="量子力学">量子力学</a>。物理的<a class="mw-redirect" href="/wiki/%E6%B3%A2%E5%87%BD%E6%95%B8" title="波函数">波函数</a>是确定的，是数个状态的叠加，但根据<a href="/wiki/%E5%93%A5%E6%9C%AC%E5%93%88%E6%A0%B9%E8%A9%AE%E9%87%8B" title="哥本哈根诠释">哥本哈根诠释</a>，观察会带来<a class="mw-redirect" href="/wiki/%E6%B3%A2%E5%87%BD%E6%95%B8%E5%A1%8C%E7%B8%AE" title="波函数塌缩">波函数塌缩</a>，因此只能观察到其中一个状态。不过这种缺乏决定论的观点未受到所有人的同意。<a class="mw-redirect" href="/wiki/%E6%84%9B%E5%9B%A0%E6%96%AF%E5%9D%A6" title="爱因斯坦">爱因斯坦</a>在给<a href="/wiki/%E9%A9%AC%E5%85%8B%E6%96%AF%C2%B7%E7%8E%BB%E6%81%A9" title="马克斯·玻恩">马克斯·玻恩</a>的信上提到「我相信上帝不会玩骰子。」<sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup>。而发现波函数的<a href="/wiki/%E5%9F%83%E5%B0%94%E6%B8%A9%C2%B7%E8%96%9B%E5%AE%9A%E8%B0%94" title="埃尔温·薛定谔">埃尔温·薛定谔</a>认为量子力学只是内部决定论状态的<a class="mw-redirect" href="/wiki/%E7%B5%B1%E8%A8%88" title="统计">统计</a>近似<sup class="reference" id="cite_ref-11"><a href="#cite_note-11">[11]</a></sup>。在近代的诠释中，<a href="/wiki/%E9%87%8F%E5%AD%90%E9%80%80%E7%9B%B8%E5%B9%B2" title="量子退相干">量子退相干</a>有相当的概率性质。
+</p>
+<h2><span id=".E8.AF.91.E5.90.8D"></span><span class="mw-headline" id="译名">译名</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=10" title="编辑章节：译名">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p><a href="/wiki/%E6%A6%82%E7%8E%87%E8%AE%BA" title="概率论">概率论</a>在19世纪30年代就已传入中国，长期以来，其译名并无统一，曾用译名有「决疑」、「可遇率」、「或是率」、「或然率」、「适遇率」、「公算」、「几率」、「机率」、「或然率」、「概率」等，也有借用<a href="/wiki/%E5%92%8C%E8%A3%BD%E6%BC%A2%E8%AA%9E" title="和制汉语">日本汉字词</a>作「确率」的。<sup class="reference" id="cite_ref-赖景耀_12-0"><a href="#cite_note-赖景耀-12">[12]</a></sup><a href="/wiki/1935%E5%B9%B4" title="1935年">1935年</a>，<a href="/wiki/%E5%9C%8B%E7%AB%8B%E7%B7%A8%E8%AD%AF%E9%A4%A8" title="国立编译馆">国立编译馆</a>将译名范围缩小到「概率」和「几率」两个。<sup class="reference" id="cite_ref-赖景耀_12-1"><a href="#cite_note-赖景耀-12">[12]</a></sup>其中「几率」的「几」表示「接近」，和「几乎」的「几」类似。<sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup><a href="/wiki/1964%E5%B9%B4" title="1964年">1964年</a>，<a href="/wiki/%E4%B8%AD%E5%9B%BD%E7%A7%91%E5%AD%A6%E9%99%A2" title="中国科学院">中国科学院</a>编写的《数学名词补编》确定使用「概率」作为正式译名。<sup class="reference" id="cite_ref-赖景耀_12-2"><a href="#cite_note-赖景耀-12">[12]</a></sup>大陆的物理学界在一段时间内仍然沿用「几率」，但于1988年的《物理学名词》中采用了与数学界一致的「概率」，「最可几的」相应地改称「最概然的」。<sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup>而现代台湾则选用了「机率」作为标准译名。一说「机率」的由来是因为「几率」的「几」含义被误认为是「机会」（英语为opportunity）的意思，进而误写成「机率」，但实际上「机率」也是早期译名之一，例如「<a href="/wiki/%E8%90%AC%E6%9C%89%E6%96%87%E5%BA%AB" title="万有文库">万有文库</a>」收录的《统计学原理》（<i>Elements of Statistics</i>，<span class="ilh-all" data-foreign-title="Arthur Lyon Bowley" data-lang-code="en" data-lang-name="英语" data-orig-title="亚瑟·里昂·鲍利"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E4%BA%9E%E7%91%9F%C2%B7%E9%87%8C%E6%98%82%C2%B7%E9%AE%91%E5%88%A9&amp;action=edit&amp;redlink=1" title="亚瑟·里昂·鲍利（页面不存在）">鲍莱</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Arthur_Lyon_Bowley" title="en:Arthur Lyon Bowley"><span dir="auto" lang="en">Arthur Lyon Bowley</span></a></span>）</span></span>着，李植泉译）就使用了「机率」的译法。
+</p>
+<h2><span id=".E5.8F.82.E8.80.83.E6.96.87.E7.8C.AE"></span><span class="mw-headline" id="参考文献">参考文献</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=11" title="编辑章节：参考文献">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<h3><span id=".E5.BC.95.E7.94.A8"></span><span class="mw-headline" id="引用">引用</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=12" title="编辑章节：引用">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><a class="external text" href="http://machaut.uchicago.edu/?resource=Webster%27s&amp;word=probability&amp;use1913=on" rel="nofollow">"Probability"</a> <a class="mw-redirect" href="/wiki/Wayback_Machine" title="Wayback Machine">互联网档案馆</a>的<a class="external text" href="https://web.archive.org/web/20150428142545/http://machaut.uchicago.edu/?resource=Webster%27s&amp;word=probability&amp;use1913=on" rel="nofollow">存档</a>，存档日期2015-04-28.. <i><a class="mw-redirect" href="/wiki/Webster%27s_Dictionary" title="Webster's Dictionary">Webster's Revised Unabridged Dictionary</a></i>. G &amp; C Merriam, 1913</span>
+</li>
+<li id="cite_note-Stuart_and_Ord_2009-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-Stuart_and_Ord_2009_2-0">^</a></b></span> <span class="reference-text">"Kendall's Advanced Theory of Statistics, Volume 1: Distribution Theory", Alan Stuart and Keith Ord, 6th Ed, (2009), <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780534243128">ISBN 978-0-534-24312-8</a></span>
+</li>
+<li id="cite_note-Feller-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-Feller_3-0">^</a></b></span> <span class="reference-text">William Feller, "An Introduction to Probability Theory and Its Applications", (Vol 1),  3rd Ed, (1968),Wiley ,<a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780471257080">ISBN 978-0-471-25708-0</a></span>
+</li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a class="external text" href="http://www.britannica.com/EBchecked/topic/477530/probability-theory" rel="nofollow">Probability Theory</a> （<a class="external text" href="//web.archive.org/web/20150430191831/http://www.britannica.com/EBchecked/topic/477530/probability-theory" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） The Britannica website</span>
+</li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web"><a class="external text" href="http://highscope.ch.ntu.edu.tw/wordpress/?p=28666" rel="nofollow">机率空间 (1)机率论的诞生</a>. 国科会高瞻自然科学教学资源平台. 2011-06-07 <span class="reference-accessdate"> [<span class="nowrap">2014-10-21</span>]</span>. （原始内容<a class="external text" href="https://web.archive.org/web/20210209201745/http://highscope.ch.ntu.edu.tw/wordpress/?p=28666" rel="nofollow">存档</a>于2021-02-09） <span style="font-family: sans-serif; cursor: default; color:#555; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到中文网页">（中文）</span>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%A6%82%E7%8E%87&amp;rft.btitle=%E6%A9%9F%E7%8E%87%E7%A9%BA%E9%96%93+%281%29%E6%A9%9F%E7%8E%87%E8%AB%96%E7%9A%84%E8%AA%95%E7%94%9F&amp;rft.date=2011-06-07&amp;rft.genre=unknown&amp;rft.pub=%E5%9C%8B%E7%A7%91%E6%9C%83%E9%AB%98%E7%9E%BB%E8%87%AA%E7%84%B6%E7%A7%91%E5%AD%B8%E6%95%99%E5%AD%B8%E8%B3%87%E6%BA%90%E5%B9%B3%E5%8F%B0&amp;rft_id=http%3A%2F%2Fhighscope.ch.ntu.edu.tw%2Fwordpress%2F%3Fp%3D28666&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text">Singh, Laurie (2010) "Whither Efficient Markets? Efficient Market Theory and Behavioral Finance". The Finance Professionals' Post, 2010.</span>
+</li>
+<li id="cite_note-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-7">^</a></b></span> <span class="reference-text">Gorman, Michael (2011) "Management Insights". <i>Management Science</i> <sup class="noprint Template-Fact"><a href="/wiki/Wikipedia:%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90" title="Wikipedia:列明来源"><span style="white-space: nowrap;" title="需要提供完整来源。">[需要完整来源]</span></a></sup></span>
+</li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text">Olofsson (2005) Page 8.</span>
+</li>
+<li id="cite_note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text">Burgi, Mark (2010) "Interpretations of Negative Probabilities", p. 1. <a href="/wiki/ArXiv" title="ArXiv">arXiv</a>:<a class="external text" href="https://arxiv.org/abs/1008.1287v1" rel="nofollow">1008.1287v1</a></span>
+</li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><i>Jedenfalls bin ich überzeugt, daß der Alte nicht würfelt.</i> Letter to Max Born, 4 December 1926, in: <a class="external text" href="http://books.google.de/books?id=LQIsAQAAIAAJ&amp;q=achtung-gebietend" rel="nofollow">Einstein/Born Briefwechsel 1916-1955</a> （<a class="external text" href="//web.archive.org/web/20131029192849/http://books.google.de/books?id=LQIsAQAAIAAJ&amp;q=achtung-gebietend" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）.</span>
+</li>
+<li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><cite class="citation book">Moore, W.J. Schrödinger: Life and Thought. <a class="mw-redirect" href="/wiki/Cambridge_University_Press" title="Cambridge University Press">Cambridge University Press</a>. 1992: 479. <a href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/0-521-43767-9" title="Special:网络书源/0-521-43767-9"><span title="国际标准书号">ISBN</span> 0-521-43767-9</a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%A6%82%E7%8E%87&amp;rft.aufirst=W.J.&amp;rft.aulast=Moore&amp;rft.btitle=Schr%C3%B6dinger%3A+Life+and+Thought&amp;rft.date=1992&amp;rft.genre=book&amp;rft.isbn=0-521-43767-9&amp;rft.pages=479&amp;rft.pub=Cambridge+University+Press&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-赖景耀-12"><span class="mw-cite-backlink">^ <a href="#cite_ref-赖景耀_12-0"><sup><b>12.0</b></sup></a> <a href="#cite_ref-赖景耀_12-1"><sup><b>12.1</b></sup></a> <a href="#cite_ref-赖景耀_12-2"><sup><b>12.2</b></sup></a></span> <span class="reference-text"><cite class="citation journal">赖景耀. <a class="external text" href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&amp;dbname=CJFDLASN2019&amp;filename=SXJY198501007&amp;uniplatform=NZKPT&amp;v=aRtJw7u0BrziP7yDa92ux2uYmRP0Nl65WtRjNBH4vtVDBAeJnLMQAL-S5ZxTJnoi" rel="nofollow">“概率”译名的演变</a>. 数学教学研究. 1985, (01): 16.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%A6%82%E7%8E%87&amp;rft.atitle=%E2%80%9C%E6%A6%82%E7%8E%87%E2%80%9D%E8%AF%91%E5%90%8D%E7%9A%84%E6%BC%94%E5%8F%98&amp;rft.au=%E8%B5%96%E6%99%AF%E8%80%80&amp;rft.date=1985&amp;rft.genre=article&amp;rft.issue=01&amp;rft.jtitle=%E6%95%B0%E5%AD%A6%E6%95%99%E5%AD%A6%E7%A0%94%E7%A9%B6&amp;rft.pages=16&amp;rft_id=https%3A%2F%2Fkns.cnki.net%2Fkcms%2Fdetail%2Fdetail.aspx%3Fdbcode%3DCJFD%26dbname%3DCJFDLASN2019%26filename%3DSXJY198501007%26uniplatform%3DNZKPT%26v%3DaRtJw7u0BrziP7yDa92ux2uYmRP0Nl65WtRjNBH4vtVDBAeJnLMQAL-S5ZxTJnoi&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation journal">梁北夕. “几率”“概率”“机率”，到底哪个对？. 咬文嚼字. 2020, (6): 9–10.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%A6%82%E7%8E%87&amp;rft.atitle=%E2%80%9C%E5%87%A0%E7%8E%87%E2%80%9D%E2%80%9C%E6%A6%82%E7%8E%87%E2%80%9D%E2%80%9C%E6%9C%BA%E7%8E%87%E2%80%9D%EF%BC%8C%E5%88%B0%E5%BA%95%E5%93%AA%E4%B8%AA%E5%AF%B9%EF%BC%9F&amp;rft.au=%E6%A2%81%E5%8C%97%E5%A4%95&amp;rft.date=2020&amp;rft.genre=article&amp;rft.issue=6&amp;rft.jtitle=%E5%92%AC%E6%96%87%E5%9A%BC%E5%AD%97&amp;rft.pages=9-10&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation journal">喀兴林. 国家审定的《物理学名词》简介. 大学物理. 1989, (10): 1–4. <a class="external text" href="https://dx.doi.org/10.16854%2Fj.cnki.1000-0712.1989.10.001" rel="nofollow"><span title="数位物件识别号">doi:10.16854/j.cnki.1000-0712.1989.10.001</span></a>.</cite><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzh.wikipedia.org%3A%E6%A6%82%E7%8E%87&amp;rft.atitle=%E5%9B%BD%E5%AE%B6%E5%AE%A1%E5%AE%9A%E7%9A%84%E3%80%8A%E7%89%A9%E7%90%86%E5%AD%A6%E5%90%8D%E8%AF%8D%E3%80%8B%E7%AE%80%E4%BB%8B&amp;rft.au=%E5%96%80%E5%85%B4%E6%9E%97&amp;rft.date=1989&amp;rft.genre=article&amp;rft.issue=10&amp;rft.jtitle=%E5%A4%A7%E5%AD%A6%E7%89%A9%E7%90%86&amp;rft.pages=1-4&amp;rft_id=info%3Adoi%2F10.16854%2Fj.cnki.1000-0712.1989.10.001&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal"><span style="display:none;"> </span></span></span>
+</li>
+</ol></div>
+<h3><span id=".E4.B9.A6.E7.9B.AE"></span><span class="mw-headline" id="书目">书目</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=13" title="编辑章节：书目">编辑</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>Olofsson, Peter (2005). <i>Probability, Statistics, and Stochastic Processes</i>, Wiley-Interscience. p. 504. <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9780471679691">ISBN 978-0-471-67969-1</a></li></ul>
+<h2><span id=".E5.A4.96.E9.83.A8.E9.80.A3.E7.B5.90"></span><span class="mw-headline" id="外部连结">外部连结</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=14" title="编辑章节：外部连结">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="355" data-file-width="300" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/34px-Wikiquote-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/51px-Wikiquote-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/68px-Wikiquote-logo.svg.png 2x" width="34"/></td>
+<td class="mbox-text plainlist"><a href="/wiki/%E7%BB%B4%E5%9F%BA%E8%AF%AD%E5%BD%95" title="维基语录">维基语录</a>上的<b><a class="extiw" href="https://zh.wikiquote.org/wiki/Special:Search/%E6%A6%82%E7%8E%87" title="q:Special:Search/概率">概率语录</a></b></td></tr></tbody></table>
+<table class="mbox-small plainlinks sistersitebox" style="border:1px solid #aaa;background-color:#f9f9f9;font-size:small;">
+<tbody><tr>
+<td class="mbox-image"><img alt="" class="noviewer" data-file-height="300" data-file-width="300" decoding="async" height="40" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/40px-Wikibooks-logo.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/60px-Wikibooks-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/80px-Wikibooks-logo.svg.png 2x" width="40"/></td>
+<td class="mbox-text plainlist"><a href="/wiki/%E7%B6%AD%E5%9F%BA%E6%95%99%E7%A7%91%E6%9B%B8" title="维基教科书">维基教科书</a>中的相关电子教程：<b><a class="extiw" href="https://zh.wikibooks.org/wiki/Probability" title="b:Probability">Probability</a></b></td></tr></tbody></table>
+<table class="vertical-navbox nowraplinks infobox" style="float:right;clear:right;width:auto;margin:0 0 1.0em 1.0em;background:#f8f9fa;border:1px solid #aaa;padding:0.2em;border-spacing:0.4em 0;text-align:center;line-height:1.4em;font-size:88%"><tbody><tr><td style="padding-top:0.4em;line-height:1.2em">关于<b>Probability</b><br/>的<a class="mw-redirect" href="/wiki/Wikipedia:LIBRARY" title="Wikipedia:LIBRARY">图书馆资源</a> <hr/></td></tr><tr><td class="plainlist" style="padding:0 0.1em 0.4em;text-align:left;">
+<ul><li><a class="external text" href="//tools.wmflabs.org/ftl/cgi-bin/ftl?st=wp&amp;su=%E6%A6%82%E7%8E%87">您的图书馆的资源</a></li></ul></td>
+</tr></tbody></table>
+<ul><li><a class="external text" href="http://mathdb.org/notes_download/elementary/combinatorics/dc_D3/c_control.htm" rel="nofollow">概率笔记</a> （<a class="external text" href="//web.archive.org/web/20060504141241/http://mathdb.org/notes_download/elementary/combinatorics/dc_D3/c_control.htm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="https://www.khanacademy.org/cs/program/1354580712" rel="nofollow">出现字的实验</a> （<a class="external text" href="//web.archive.org/web/20130313051528/http://www.khanacademy.org/cs/program/1354580712" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="https://www.khanacademy.org/cs/random-space-for-probability/1356370731" rel="nofollow">乱数出现可被整除的机率实验</a></li>
+<li><a class="external text" href="http://www.math.uah.edu/stat/" rel="nofollow">Virtual Laboratories in Probability and Statistics (Univ. of Ala.-Huntsville)</a> （<a class="external text" href="//web.archive.org/web/20170905000457/http://www.math.uah.edu/stat/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="http://wiki.stat.ucla.edu/socr/index.php/EBook" rel="nofollow">Probability and Statistics EBook</a> （<a class="external text" href="//web.archive.org/web/20081216153436/http://wiki.stat.ucla.edu/socr/index.php/EBook" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li>Edwin Thompson Jaynes. <i>Probability Theory: The Logic of Science</i>. Preprint: Washington University, (1996). — <a class="external text" href="https://web.archive.org/web/20160119131820/http://omega.albany.edu:8008/JaynesBook.html" rel="nofollow">HTML index with links to PostScript files</a> and <a class="external text" href="http://bayes.wustl.edu/etj/prob/book.pdf" rel="nofollow">PDF</a> （<a class="external text" href="//web.archive.org/web/20110113214144/http://bayes.wustl.edu/etj/prob/book.pdf" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） (first three chapters)</li>
+<li><a class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/Figures.htm" rel="nofollow">People from the History of Probability and Statistics (Univ. of Southampton)</a> （<a class="external text" href="//web.archive.org/web/20080225024019/http://www.economics.soton.ac.uk/staff/aldrich/Figures.htm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="http://www.economics.soton.ac.uk/staff/aldrich/Probability%20Earliest%20Uses.htm" rel="nofollow">Probability and Statistics on the Earliest Uses Pages (Univ. of Southampton)</a> （<a class="external text" href="//web.archive.org/web/20081201151446/http://www.economics.soton.ac.uk/staff/aldrich/Probability%20Earliest%20Uses.htm" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="http://jeff560.tripod.com/stat.html" rel="nofollow">Earliest Uses of Symbols in Probability and Statistics</a> （<a class="external text" href="//web.archive.org/web/20210224023647/http://jeff560.tripod.com/stat.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） on <a class="external text" href="http://jeff560.tripod.com/mathsym.html" rel="nofollow">Earliest Uses of Various Mathematical Symbols</a> （<a class="external text" href="//web.archive.org/web/20160220073955/http://jeff560.tripod.com/mathsym.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external text" href="http://www.celiagreen.com/charlesmccreery/statistics/bayestutorial.pdf" rel="nofollow">A tutorial on probability and Bayes' theorem devised for first-year Oxford University students</a> （<a class="external text" href="//web.archive.org/web/20080821122153/http://www.celiagreen.com/charlesmccreery/statistics/bayestutorial.pdf" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</li>
+<li><a class="external autonumber" href="http://ubu.com/historical/young/index.html" rel="nofollow">[1]</a> （<a class="external text" href="//web.archive.org/web/20081004232921/http://ubu.com/historical/young/index.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） pdf file of An Anthology of Chance Operations (1963) at UbuWeb</li>
+<li><a class="external text" href="http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html" rel="nofollow">Introduction to Probability - eBook</a> （<a class="external text" href="//web.archive.org/web/20110727200156/http://www.dartmouth.edu/~chance/teaching_aids/books_articles/probability_book/book.html" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）, by Charles Grinstead, Laurie Snell <a class="external text" href="https://bitbucket.org/shabbychef/numas_text/" rel="nofollow">Source</a> （<a class="external text" href="//web.archive.org/web/20120325135243/http://bitbucket.org/shabbychef/numas_text/" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>） <i>(GNU Free Documentation License)</i></li>
+<li><span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到英语网页">（英文）</span> <span style="font-family: sans-serif; cursor: default; color:#54595d; font-size: 0.8em; bottom: 0.1em; font-weight: bold;" title="连接到义大利语网页">（意大利文）</span> Bruno de Finetti, <i><a class="external text" href="http://amshistorica.unibo.it/35" rel="nofollow">Probabilità e induzione</a> （<a class="external text" href="//web.archive.org/web/20130408012019/http://amshistorica.unibo.it/35" rel="nofollow">页面存档备份</a>，存于<a href="/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E6%A1%A3%E6%A1%88%E9%A6%86" title="互联网档案馆">互联网档案馆</a>）</i>, Bologna, CLUEB, 1993. <a class="internal mw-magiclink-isbn" href="/wiki/Special:%E7%BD%91%E7%BB%9C%E4%B9%A6%E6%BA%90/9788880911760">ISBN 978-88-8091-176-0</a> (digital version)</li></ul>
+<h2><span id=".E5.8F.83.E8.A6.8B"></span><span class="mw-headline" id="参见">参见</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit&amp;section=15" title="编辑章节：参见">编辑</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div aria-label="Portals" class="noprint portal plainlist tright" role="navigation" style="margin:0.5em 0 0.5em 1em;border:solid #aaa 1px">
+<ul style="display:table;box-sizing:border-box;padding:0.1em;max-width:175px;background:#f9f9f9;font-size:85%;line-height:110%;font-weight:bold">
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><a class="image" href="/wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg"><img alt="icon" class="noviewer" data-file-height="128" data-file-width="128" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/28px-Nuvola_apps_edu_mathematics_blue-p.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/42px-Nuvola_apps_edu_mathematics_blue-p.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nuvola_apps_edu_mathematics_blue-p.svg/56px-Nuvola_apps_edu_mathematics_blue-p.svg.png 2x" width="28"/></a></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a href="/wiki/Portal:%E6%95%B0%E5%AD%A6" title="Portal:数学">数学主题</a></span></li>
+<li style="display:table-row"><span style="display:table-cell;padding:0.2em;vertical-align:middle;text-align:center"><img alt="" class="noviewer" data-file-height="28" data-file-width="32" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/32px-Portal-puzzle.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/48px-Portal-puzzle.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Portal-puzzle.svg/64px-Portal-puzzle.svg.png 2x" width="32"/></span><span style="display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle"><a class="mw-redirect" href="/wiki/Portal:%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="Portal:统计学">统计学主题</a></span></li></ul></div>
+<ul><li><a href="/wiki/%E6%A6%82%E7%8E%87%E8%AE%BA" title="概率论">概率论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%B4%9D%E5%8F%B6%E6%96%AF%E6%A6%82%E7%8E%87" title="贝叶斯概率">贝叶斯概率</a></li>
+<li><a href="/wiki/%E4%BC%AF%E5%8A%AA%E5%88%A9%E8%BF%87%E7%A8%8B" title="伯努利过程">伯努利过程</a></li>
+<li><span class="ilh-all" data-foreign-title="Cox's theorem" data-lang-code="en" data-lang-name="英语" data-orig-title="考克斯定理"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E8%80%83%E5%85%8B%E6%96%AF%E5%AE%9A%E7%90%86&amp;action=edit&amp;redlink=1" title="考克斯定理（页面不存在）">考克斯定理</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/Cox%27s_theorem" title="en:Cox's theorem"><span dir="auto" lang="en">Cox's theorem</span></a></span>）</span></span></li>
+<li><a class="mw-redirect" href="/wiki/%E6%B1%BA%E7%AD%96%E7%90%86%E8%AB%96" title="决策理论">决策理论</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%BA%E4%BC%9A%E6%B8%B8%E6%88%8F&amp;action=edit&amp;redlink=1" title="机会游戏（页面不存在）">机会游戏</a></li>
+<li><a href="/wiki/%E4%BF%A1%E6%81%AF%E8%AE%BA" title="信息论">信息论</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%B9%B3%E5%9D%87%E6%B3%95%E5%88%99&amp;action=edit&amp;redlink=1" title="平均法则（页面不存在）">平均法则</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%A4%A7%E6%95%B0%E6%B3%95%E5%88%99" title="大数法则">大数法则</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%B5%8B%E5%BA%A6%E8%AE%BA" title="测度论">测度论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%B8%B8%E6%85%8B%E5%88%86%E4%BD%88" title="常态分布">常态分布</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%9C%BA" title="随机场">随机场</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E5%8F%98%E9%87%8F" title="随机变量">随机变量</a></li>
+<li><a href="/wiki/%E7%BB%9F%E8%AE%A1%E5%AD%A6" title="统计学">统计学</a></li>
+<li><a href="/wiki/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B" title="随机过程">随机过程</a></li>
+<li><a class="mw-redirect" href="/wiki/Wiener%E8%BF%87%E7%A8%8B" title="Wiener过程">Wiener过程</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%8E%92%E9%9A%8A%E7%90%86%E8%AB%96" title="排队理论">排队理论</a></li></ul>
+<div style="clear: both; height: 1em"></div>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-title" colspan="2" scope="col"><div class="plainlinks hlist navbar mini"><ul><li class="nv-view"><a href="/wiki/Template:%E9%80%BB%E8%BE%91" title="Template:逻辑"><abbr style=";;background:none transparent;border:none;" title="查看该模板">查</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:%E9%80%BB%E8%BE%91" title="Template talk:逻辑"><abbr style=";;background:none transparent;border:none;" title="讨论该模板">论</abbr></a></li><li class="nv-edit"><a class="external text" href="https://zh.wikipedia.org/w/index.php?title=Template:%E9%80%BB%E8%BE%91&amp;action=edit"><abbr style=";;background:none transparent;border:none;" title="编辑该模板">编</abbr></a></li></ul></div><div style="font-size:110%"><a href="/wiki/%E9%80%BB%E8%BE%91" title="逻辑">逻辑</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%">概要</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row">学术领域</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="new" href="/w/index.php?title=%E8%BE%A9%E8%AE%BA%E6%B3%95&amp;action=edit&amp;redlink=1" title="辩论法（页面不存在）">辩论法</a></li>
+<li><a href="/wiki/%E5%83%B9%E5%80%BC%E8%AB%96" title="价值论">价值论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%AE%A1%E8%BE%A9%E5%BC%8F%E6%80%9D%E7%BB%B4" title="审辩式思维">审辩式思维</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%AE%A1%E7%AE%97%E6%80%A7%E7%90%86%E8%AE%BA" title="可计算性理论">可计算性理论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%80%BB%E8%BE%91%E7%9A%84%E8%AF%AD%E4%B9%89" title="逻辑的语义">形式语义学</a></li>
+<li><a href="/wiki/%E9%80%BB%E8%BE%91%E5%8F%B2" title="逻辑史">逻辑史</a></li>
+<li><a href="/wiki/%E9%9D%9E%E5%BD%A2%E5%BC%8F%E9%80%BB%E8%BE%91" title="非形式逻辑">非形式逻辑</a></li>
+<li><a class="new" href="/w/index.php?title=Category:%E8%AE%A1%E7%AE%97%E5%99%A8%E9%80%BB%E8%BE%91&amp;action=edit&amp;redlink=1" title="Category:计算器逻辑（页面不存在）">计算器逻辑</a></li>
+<li><a href="/wiki/%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91" title="数理逻辑">数理逻辑</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6" title="数学">数学</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%85%83%E9%80%BB%E8%BE%91&amp;action=edit&amp;redlink=1" title="元逻辑（页面不存在）">元逻辑</a></li>
+<li><a href="/wiki/%E5%85%83%E6%95%B0%E5%AD%A6" title="元数学">元数学</a></li>
+<li><a href="/wiki/%E6%A8%A1%E5%9E%8B%E8%AE%BA" title="模型论">模型论</a></li>
+<li><a href="/wiki/%E5%93%B2%E5%AD%A6%E9%80%BB%E8%BE%91" title="哲学逻辑">哲学逻辑</a></li>
+<li><a href="/wiki/%E5%93%B2%E5%AD%A6" title="哲学">哲学</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%80%BB%E8%BE%91%E5%93%B2%E5%AD%A6&amp;action=edit&amp;redlink=1" title="逻辑哲学（页面不存在）">逻辑哲学</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%93%B2%E5%AD%A6" title="数学哲学">数学哲学</a></li>
+<li><a href="/wiki/%E8%AF%81%E6%98%8E%E8%AE%BA" title="证明论">证明论</a></li>
+<li><a href="/wiki/%E9%9B%86%E5%90%88%E8%AE%BA" title="集合论">集合论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">基础概念</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%BA%AF%E5%9B%A0%E6%8E%A8%E7%90%86" title="溯因推理">溯因推理</a></li>
+<li><a href="/wiki/%E5%88%86%E6%9E%90-%E7%B6%9C%E5%90%88%E5%8D%80%E5%88%A5" title="分析-綜合区别">分析真理</a></li>
+<li><a href="/wiki/%E4%BA%8C%E5%BE%8B%E8%83%8C%E5%8F%8D" title="二律背反">二律背反</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%85%88%E9%AA%8C" title="先验">先验</a></li>
+<li><a href="/wiki/%E6%BC%94%E7%BB%8E%E6%8E%A8%E7%90%86" title="演绎推理">演绎推理</a></li>
+<li><a href="/wiki/%E5%AE%9A%E4%B9%89" title="定义">定义</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%8F%8F%E8%BF%B0&amp;action=edit&amp;redlink=1" title="描述（页面不存在）">描述</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%95%B0%E6%B6%B5&amp;action=edit&amp;redlink=1" title="蕰涵（页面不存在）">蕰涵</a></li>
+<li><a href="/wiki/%E5%BD%92%E7%BA%B3%E6%8E%A8%E7%90%86" title="归纳推理">归纳推理</a></li>
+<li><a href="/wiki/%E6%8E%A8%E8%AE%BA" title="推论">推论</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%95%B0%E6%B6%B5&amp;action=edit&amp;redlink=1" title="蕰涵（页面不存在）">逻辑结论</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%80%BB%E8%BE%91%E5%BD%A2%E5%BC%8F&amp;action=edit&amp;redlink=1" title="逻辑形式（页面不存在）">逻辑形式</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%95%B0%E6%B6%B5&amp;action=edit&amp;redlink=1" title="蕰涵（页面不存在）">逻辑蕰涵</a></li>
+<li><a href="/wiki/%E9%82%8F%E8%BC%AF%E7%9C%9F%E7%90%86" title="逻辑真理">逻辑真理</a></li>
+<li><a href="/wiki/%E5%90%8D%E7%A7%B0" title="名称">名称</a></li>
+<li><a href="/wiki/%E5%85%85%E5%88%86%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6" title="充分必要条件">充分条件</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%84%8F%E4%B9%89_(%E8%AF%AD%E8%A8%80%E5%AD%A6)&amp;action=edit&amp;redlink=1" title="意义 (语言学)（页面不存在）">意义</a></li>
+<li><a href="/wiki/%E6%82%96%E8%AE%BA" title="悖论">悖论</a></li>
+<li><a href="/wiki/%E5%8F%AF%E8%83%BD%E4%B8%96%E7%95%8C" title="可能世界">可能世界</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%81%87%E5%AE%9A&amp;action=edit&amp;redlink=1" title="假定（页面不存在）">假定</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%9C%BA%E7%8E%87" title="机率">机率</a></li>
+<li><a href="/wiki/%E7%90%86%E6%99%BA" title="理智">理智</a></li>
+<li><a href="/wiki/%E7%90%86%E6%99%BA" title="理智">推理</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%8C%87%E6%B6%89" title="指涉">指涉</a></li>
+<li><a href="/wiki/%E8%AF%AD%E4%B9%89%E5%AD%A6" title="语义学">语义学</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%AF%AD%E5%8F%A5_(%E9%80%BB%E8%BE%91)&amp;action=edit&amp;redlink=1" title="语句 (逻辑)（页面不存在）">语句</a></li>
+<li><a href="/wiki/%E4%B8%A5%E6%A0%BC%E6%9D%A1%E4%BB%B6" title="严格条件">严格条件</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%BA%A4%E6%8D%A2%E5%8C%BA_(%E9%80%BB%E8%BE%91)&amp;action=edit&amp;redlink=1" title="交换区 (逻辑)（页面不存在）">交换区</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%AF%AD%E6%B3%95%E5%AD%A6_(%E9%80%BB%E8%BE%91)&amp;action=edit&amp;redlink=1" title="语法学 (逻辑)（页面不存在）">语法学</a></li>
+<li><a href="/wiki/%E7%9C%9F%E7%90%86" title="真理">真理</a></li>
+<li><a href="/wiki/%E7%9C%9F%E5%80%BC" title="真值">真值</a></li>
+<li><a href="/wiki/%E6%9C%89%E6%95%88%E6%80%A7" title="有效性">有效性</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-even" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%"><a href="/wiki/%E5%93%B2%E5%AD%A6%E9%80%BB%E8%BE%91" title="哲学逻辑">哲学逻辑</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row"><a class="mw-redirect" href="/wiki/%E5%AE%A1%E8%BE%A9%E5%BC%8F%E6%80%9D%E7%BB%B4" title="审辩式思维">审辩式思维</a><br/>和<a href="/wiki/%E9%9D%9E%E5%BD%A2%E5%BC%8F%E9%80%BB%E8%BE%91" title="非形式逻辑">非形式逻辑</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%93%B2%E5%AD%B8%E5%88%86%E6%9E%90" title="哲学分析">分析</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%AD%A7%E7%BE%A9%E6%80%A7" title="歧义性">歧义性</a></li>
+<li><a href="/wiki/%E9%80%BB%E8%BE%91%E8%AE%BA%E8%AF%81" title="逻辑论证">论证</a></li>
+<li><a href="/wiki/%E4%BF%A1%E4%BB%B0" title="信仰">信仰</a></li>
+<li><a href="/wiki/%E5%81%8F%E8%A6%8B" title="偏见">偏见</a></li>
+<li><a href="/wiki/%E5%85%AC%E4%BF%A1%E5%8A%9B" title="公信力">公信力</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AF%81%E6%8D%AE" title="证据">证据</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%A7%A3%E9%87%8A" title="解释">解释</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%A7%A3%E9%87%8A%E5%8A%9B&amp;action=edit&amp;redlink=1" title="解释力（页面不存在）">解释力</a></li>
+<li><a href="/wiki/%E4%BA%8B%E5%AF%A6" title="事实">事实</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%B0%AC%E8%AE%BA" title="谬论">谬论</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%8E%A2%E7%A9%B6&amp;action=edit&amp;redlink=1" title="探究（页面不存在）">探究</a></li>
+<li><a href="/wiki/%E6%84%8F%E8%A7%81" title="意见">意见</a></li>
+<li><a href="/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80" title="奥卡姆剃刀">奥卡姆剃刀</a></li>
+<li><a href="/wiki/%E5%89%8D%E6%8F%90" title="前提">前提</a></li>
+<li><a href="/wiki/%E6%94%BF%E6%B2%BB%E5%AE%A3%E4%BC%A0" title="政治宣传">政治宣传</a></li>
+<li><a href="/wiki/%E5%AF%A9%E6%85%8E" title="审慎">审慎</a></li>
+<li><a href="/wiki/%E7%90%86%E6%99%BA" title="理智">推理</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%85%B3%E8%81%94" title="关联">关联</a></li>
+<li><a href="/wiki/%E4%BF%AE%E8%BE%9E%E5%AD%A6" title="修辞学">修辞学</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%B8%A5%E6%A0%BC&amp;action=edit&amp;redlink=1" title="严格（页面不存在）">严格</a></li>
+<li><a href="/wiki/%E5%90%AB%E7%B3%8A" title="含糊">含糊</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a class="new" href="/w/index.php?title=%E9%80%BB%E8%BE%91%E5%93%B2%E5%AD%A6&amp;action=edit&amp;redlink=1" title="逻辑哲学（页面不存在）">演绎理论</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="mw-redirect" href="/wiki/%E6%95%B0%E5%AD%A6%E7%BB%93%E6%9E%84%E4%B8%BB%E4%B9%89" title="数学结构主义">结构主义</a></li>
+<li><a href="/wiki/%E5%8F%8C%E9%9D%A2%E7%9C%9F%E7%90%86%E8%AF%B4" title="双面真理说">双面真理说</a></li>
+<li><a class="new" href="/w/index.php?title=%E8%99%9A%E6%9E%84%E4%B8%BB%E4%B9%89&amp;action=edit&amp;redlink=1" title="虚构主义（页面不存在）">虚构主义</a></li>
+<li><a href="/wiki/%E6%9C%89%E9%99%90%E4%B8%BB%E7%BE%A9" title="有限主义">有限主义</a></li>
+<li><a href="/wiki/%E5%BD%A2%E5%BC%8F%E4%B8%BB%E4%B9%89" title="形式主义">形式主义</a></li>
+<li><a class="mw-redirect" href="/wiki/%E6%95%B0%E5%AD%A6%E7%9B%B4%E8%A7%89%E4%B8%BB%E4%B9%89" title="数学直觉主义">直觉主义</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%80%BB%E8%BE%91%E5%8E%9F%E5%AD%90%E8%AE%BA&amp;action=edit&amp;redlink=1" title="逻辑原子论（页面不存在）">逻辑原子论</a></li>
+<li><a href="/wiki/%E9%82%8F%E8%BC%AF%E4%B8%BB%E7%BE%A9" title="逻辑主义">逻辑主义</a></li>
+<li><a href="/wiki/%E5%94%AF%E5%90%8D%E8%AB%96" title="唯名论">唯名论</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9F%8F%E6%8B%89%E5%9B%BE%E5%94%AF%E5%AE%9E%E8%AE%BA&amp;action=edit&amp;redlink=1" title="柏拉图唯实论（页面不存在）">柏拉图唯实论</a></li>
+<li><a href="/wiki/%E5%AE%9E%E7%94%A8%E4%B8%BB%E4%B9%89" title="实用主义">实用主义</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%94%AF%E5%AF%A6%E8%AB%96" title="唯实论">唯实论</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%"><span class="ilh-all" data-foreign-title="metalogic" data-lang-code="en" data-lang-name="英语" data-orig-title="元逻辑"><span class="ilh-page"><a class="new" href="/w/index.php?title=%E5%85%83%E9%80%BB%E8%BE%91&amp;action=edit&amp;redlink=1" title="元逻辑（页面不存在）">元逻辑</a></span><span class="noprint ilh-comment">（<span class="ilh-lang">英语</span><span class="ilh-colon">：</span><span class="ilh-link"><a class="extiw" href="https://en.wikipedia.org/wiki/metalogic" title="en:metalogic"><span dir="auto" lang="en">metalogic</span></a></span>）</span></span>和<a href="/wiki/%E5%85%83%E6%95%B0%E5%AD%A6" title="元数学">元数学</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%BA%B7%E6%89%98%E5%B0%94%E5%AE%9A%E7%90%86" title="康托尔定理">康托尔定理</a></li>
+<li><a href="/wiki/%E5%8F%AF%E5%88%A4%E5%AE%9A%E6%80%A7" title="可判定性">可判定性</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%82%B1%E5%A5%87-%E5%9B%BE%E7%81%B5%E8%AE%BA%E9%A2%98" title="邱奇-图灵论题">邱奇-图灵论题</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%BD%A2%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%85%BC%E5%AE%B9%E6%80%A7&amp;action=edit&amp;redlink=1" title="形式系统兼容性（页面不存在）">兼容性</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%9C%89%E6%95%88%E6%96%B9%E6%B3%95&amp;action=edit&amp;redlink=1" title="有效方法（页面不存在）">有效方法</a></li>
+<li><a href="/wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80" title="数学基础">数学基础</a></li>
+<li><a href="/wiki/%E5%93%A5%E5%BE%B7%E5%B0%94%E5%AE%8C%E5%A4%87%E6%80%A7%E5%AE%9A%E7%90%86" title="哥德尔完备性定理">哥德尔完备性定理</a></li>
+<li><a href="/wiki/%E5%93%A5%E5%BE%B7%E5%B0%94%E4%B8%8D%E5%AE%8C%E5%A4%87%E5%AE%9A%E7%90%86" title="哥德尔不完备定理">哥德尔不完备定理</a></li>
+<li><a href="/wiki/%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9A%E7%90%86" title="可靠性定理">可靠性</a></li>
+<li><a href="/wiki/%E5%AE%8C%E5%A4%87%E6%80%A7" title="完备性">完备性</a></li>
+<li><a href="/wiki/%E5%8F%AF%E5%88%A4%E5%AE%9A%E6%80%A7" title="可判定性">可判定性</a></li>
+<li><a href="/wiki/%E8%A7%A3%E9%87%8B_(%E9%82%8F%E8%BC%AF)" title="解释 (逻辑)">解释</a></li>
+<li><a href="/wiki/%E5%8B%92%E6%96%87%E6%B5%B7%E5%A7%86%E2%80%93%E6%96%AF%E7%A7%91%E4%BC%A6%E5%AE%9A%E7%90%86" title="勒文海姆–斯科伦定理">勒文海姆–斯科伦定理</a></li>
+<li><a href="/wiki/%E5%85%83%E5%AE%9A%E7%90%86" title="元定理">元定理</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%8F%AF%E6%BB%A1%E8%B6%B3%E6%80%A7&amp;action=edit&amp;redlink=1" title="可满足性（页面不存在）">可满足性</a></li>
+<li><a class="new" href="/w/index.php?title=%E7%8B%AC%E7%AB%8B%E6%80%A7_(%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91)&amp;action=edit&amp;redlink=1" title="独立性 (数理逻辑)（页面不存在）">独立性</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%B1%BB%E5%9E%8B-%E8%AE%B0%E5%8F%B7%E5%8C%BA%E5%88%AB" title="类型-记号区别">类型-记号区别</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BD%BF%E7%94%A8-%E6%8F%90%E5%8F%8A%E5%8C%BA%E5%88%AB" title="使用-提及区别">使用-提及区别</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-even" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%">非传统逻辑</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%A8%A1%E6%80%81%E9%80%BB%E8%BE%91" title="模态逻辑">模态逻辑</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="new" href="/w/index.php?title=%E7%9C%9F%E6%80%A7%E6%A8%A1%E6%80%81&amp;action=edit&amp;redlink=1" title="真性模态（页面不存在）">真性逻辑</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%A8%A1%E6%80%81%E8%BF%90%E7%AE%97%E7%AC%A6&amp;action=edit&amp;redlink=1" title="模态运算符（页面不存在）">价值逻辑</a></li>
+<li><a href="/wiki/%E9%81%93%E4%B9%89%E9%80%BB%E8%BE%91" title="道义逻辑">道义逻辑</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%BF%A1%E5%BF%B5%E9%80%BB%E8%BE%91&amp;action=edit&amp;redlink=1" title="信念逻辑（页面不存在）">信念逻辑</a></li>
+<li><a href="/wiki/%E8%AE%A4%E8%AF%86%E9%80%BB%E8%BE%91" title="认识逻辑">认识逻辑</a></li>
+<li><a href="/wiki/%E6%97%B6%E9%97%B4%E9%80%BB%E8%BE%91" title="时间逻辑">时间逻辑</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a class="mw-redirect" href="/wiki/%E6%95%B0%E5%AD%A6%E7%9B%B4%E8%A7%89%E4%B8%BB%E4%B9%89" title="数学直觉主义">直觉主义</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%9B%B4%E8%A7%89%E4%B8%BB%E4%B9%89%E9%80%BB%E8%BE%91" title="直觉主义逻辑">直觉主义逻辑</a></li>
+<li><a href="/wiki/%E7%BB%93%E6%9E%84%E5%88%86%E6%9E%90" title="结构分析">结构分析</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%B5%B7%E5%BB%B7%E7%AE%97%E6%9C%AF&amp;action=edit&amp;redlink=1" title="海廷算术（页面不存在）">海廷算术</a></li>
+<li><a href="/wiki/%E7%9B%B4%E8%A7%89%E7%B1%BB%E5%9E%8B%E8%AE%BA" title="直觉类型论">直觉类型论</a></li>
+<li><a class="new" href="/w/index.php?title=%E7%BB%93%E6%9E%84%E9%9B%86%E5%90%88%E8%AE%BA&amp;action=edit&amp;redlink=1" title="结构集合论（页面不存在）">结构集合论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%A8%A1%E7%B3%8A%E9%80%BB%E8%BE%91" title="模糊逻辑">模糊逻辑</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="new" href="/w/index.php?title=%E7%9C%9F%E5%AE%9E%E5%BA%A6&amp;action=edit&amp;redlink=1" title="真实度（页面不存在）">真实度</a></li>
+<li><a href="/wiki/%E6%A8%A1%E7%B3%8A%E8%A7%84%E5%88%99" title="模糊规则">模糊规则</a></li>
+<li><a href="/wiki/%E6%A8%A1%E7%B3%8A%E9%9B%86" title="模糊集">模糊集</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%A8%A1%E7%B3%8A%E6%9C%89%E9%99%90%E5%85%83%E7%B4%A0&amp;action=edit&amp;redlink=1" title="模糊有限元素（页面不存在）">模糊有限元素</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%A8%A1%E7%B3%8A%E9%9B%86%E5%90%88%E8%BF%90%E7%AE%97&amp;action=edit&amp;redlink=1" title="模糊集合运算（页面不存在）">模糊集合运算</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E4%BA%9A%E7%BB%93%E6%9E%84%E9%80%BB%E8%BE%91" title="亚结构逻辑">亚结构逻辑</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E7%BB%93%E6%9E%84%E8%A7%84%E5%88%99" title="结构规则">结构规则</a></li>
+<li><a href="/wiki/%E7%9B%B8%E5%B9%B2%E9%80%BB%E8%BE%91" title="相干逻辑">相干逻辑</a></li>
+<li><a href="/wiki/%E7%BA%BF%E6%80%A7%E9%80%BB%E8%BE%91" title="线性逻辑">线性逻辑</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%AC%A1%E5%8D%8F%E8%B0%83%E9%80%BB%E8%BE%91" title="次协调逻辑">次协调逻辑</a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E5%8F%8C%E9%9D%A2%E7%9C%9F%E7%90%86%E8%AF%B4" title="双面真理说">双面真理说</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row"><a href="/wiki/%E6%8F%8F%E8%BF%B0%E9%80%BB%E8%BE%91" title="描述逻辑">描述逻辑</a></th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E6%9C%AC%E4%BD%93%E8%AE%BA_(%E5%93%B2%E5%AD%A6)" title="本体论 (哲学)">本体论</a></li>
+<li><a href="/wiki/%E6%9C%AC%E4%BD%93%E8%AF%AD%E8%A8%80" title="本体语言">本体语言</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%"><a href="/wiki/%E9%80%BB%E8%BE%91%E5%AD%A6%E5%AE%B6" title="逻辑学家">逻辑学家</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="new" href="/w/index.php?title=%E9%9B%85%E4%BC%A6%C2%B7%E7%BD%97%E6%96%AF%C2%B7%E5%AE%89%E5%BE%B7%E9%80%8A&amp;action=edit&amp;redlink=1" title="雅伦·罗斯·安德逊（页面不存在）">安德逊</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BA%9A%E9%87%8C%E6%96%AF%E5%A4%9A%E5%BE%B7" title="亚里斯多德">亚里斯多德</a></li>
+<li><a class="mw-redirect" href="/wiki/%E4%BC%8A%E6%9C%AC%C2%B7%E9%B2%81%E4%B8%96%E5%BE%B7" title="伊本·鲁世德">鲁世德</a></li>
+<li><a href="/wiki/%E4%BC%8A%E6%9C%AC%C2%B7%E8%A5%BF%E9%82%A3" title="伊本·西那">西那</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%BA%9A%E5%8E%86%E5%B1%B1%E5%A4%A7%C2%B7%E8%B4%9D%E6%81%A9&amp;action=edit&amp;redlink=1" title="亚历山大·贝恩（页面不存在）">贝恩</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%B9%94%E6%81%A9%C2%B7%E5%B7%B4%E5%A8%81%E6%96%AF&amp;action=edit&amp;redlink=1" title="乔恩·巴威斯（页面不存在）">巴威斯</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%BF%9D%E7%BD%97%C2%B7%E5%8D%9A%E5%86%85%E6%96%AF&amp;action=edit&amp;redlink=1" title="保罗·博内斯（页面不存在）">博内斯</a></li>
+<li><a href="/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%B8%83%E5%B0%94" title="乔治·布尔">布尔</a></li>
+<li><a class="new" href="/w/index.php?title=%E4%B9%94%E6%B2%BB%C2%B7%E5%B8%83%E5%8B%92%E6%96%AF&amp;action=edit&amp;redlink=1" title="乔治·布勒斯（页面不存在）">布勒斯</a></li>
+<li><a href="/wiki/%E6%A0%BC%E5%A5%A5%E5%B0%94%E6%A0%BC%C2%B7%E5%BA%B7%E6%89%98%E5%B0%94" title="格奥尔格·康托尔">康托尔</a></li>
+<li><a href="/wiki/%E9%B2%81%E9%81%93%E5%A4%AB%C2%B7%E5%8D%A1%E5%B0%94%E7%BA%B3%E6%99%AE" title="鲁道夫·卡尔纳普">卡尔纳普</a></li>
+<li><a href="/wiki/%E9%98%BF%E9%9A%86%E4%BD%90%C2%B7%E9%82%B1%E5%A5%87" title="阿隆佐·邱奇">邱奇</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%85%8B%E5%90%95%E8%A5%BF%E6%B3%A2&amp;action=edit&amp;redlink=1" title="克吕西波（页面不存在）">克吕西波</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%93%88%E6%96%AF%E5%87%B1%E7%88%BE%C2%B7%E5%8A%A0%E9%87%8C" title="哈斯凯尔·加里">加里</a></li>
+<li><a href="/wiki/%E5%A5%A7%E5%8F%A4%E6%96%AF%E5%A1%94%E6%96%AF%C2%B7%E5%BE%B7%E6%91%A9%E6%A0%B9" title="奥古斯塔斯·德摩根">德摩根</a></li>
+<li><a href="/wiki/%E6%88%88%E7%89%B9%E6%B4%9B%E5%B8%83%C2%B7%E5%BC%97%E9%9B%B7%E6%A0%BC" title="戈特洛布·弗雷格">弗雷格</a></li>
+<li><a class="new" href="/w/index.php?title=%E5%BD%BC%E5%BE%97%C2%B7%E5%90%89%E5%A5%87&amp;action=edit&amp;redlink=1" title="彼得·吉奇（页面不存在）">吉奇</a></li>
+<li><a href="/wiki/%E6%A0%BC%E5%93%88%E5%BE%B7%C2%B7%E6%A0%B9%E5%B2%91" title="格哈德·根岑">根岑</a></li>
+<li><a href="/wiki/%E5%BA%93%E5%B0%94%E7%89%B9%C2%B7%E5%93%A5%E5%BE%B7%E5%B0%94" title="库尔特·哥德尔">哥德尔</a></li>
+<li><a href="/wiki/%E5%A4%A7%E5%8D%AB%C2%B7%E5%B8%8C%E5%B0%94%E4%BC%AF%E7%89%B9" title="大卫·希尔伯特">希尔伯特</a></li>
+<li><a href="/wiki/%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E7%A7%91%E5%B0%94%C2%B7%E5%85%8B%E8%8E%B1%E5%B0%BC" title="斯蒂芬·科尔·克莱尼">克莱尼</a></li>
+<li><a href="/wiki/%E7%B4%A2%E5%B0%94%C2%B7%E9%98%BF%E4%BC%A6%C2%B7%E5%85%8B%E9%87%8C%E6%99%AE%E5%85%8B" title="索尔·阿伦·克里普克">克里普克</a></li>
+<li><a href="/wiki/%E6%88%88%E7%89%B9%E5%BC%97%E9%87%8C%E5%BE%B7%C2%B7%E8%8E%B1%E5%B8%83%E5%B0%BC%E8%8C%A8" title="戈特弗里德·莱布尼茨">莱布尼兹</a></li>
+<li><a href="/wiki/%E6%9D%8E%E5%A5%A7%E5%B8%95%E5%BE%B7%C2%B7%E5%8B%92%E6%96%87%E6%B5%B7%E5%A7%86" title="李奥帕德·勒文海姆">勒文海姆</a></li>
+<li><a href="/wiki/%E6%9C%B1%E5%A1%9E%E4%BD%A9%C2%B7%E7%9A%AE%E4%BA%9E%E8%AB%BE" title="朱塞佩·皮亚诺">皮亚诺</a></li>
+<li><a href="/wiki/%E6%9F%A5%E5%B0%94%E6%96%AF%C2%B7%E6%A1%91%E5%BE%B7%E6%96%AF%C2%B7%E7%9A%AE%E5%B0%94%E5%A3%AB" title="查尔斯·桑德斯·皮尔士">皮尔士</a></li>
+<li><a href="/wiki/%E5%B8%8C%E6%8B%89%E9%87%8C%C2%B7%E6%80%80%E7%89%B9%E5%93%88%E5%B0%94%C2%B7%E6%99%AE%E7%89%B9%E5%8D%97" title="希拉里·怀特哈尔·普特南">普特南</a></li>
+<li><a class="mw-redirect" href="/wiki/%E5%A8%81%E6%8B%89%E5%BE%B7%C2%B7%E5%86%AF%C2%B7%E5%A5%A5%E6%9B%BC%C2%B7%E8%92%AF%E5%9B%A0" title="威拉德·冯·奥曼·蒯因">奎因</a></li>
+<li><a href="/wiki/%E4%BC%AF%E7%89%B9%E5%85%B0%C2%B7%E7%BD%97%E7%B4%A0" title="伯特兰·罗素">罗素</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%81%A9%E6%96%AF%E7%89%B9%C2%B7%E6%96%BD%E7%BD%97%E5%BE%B7&amp;action=edit&amp;redlink=1" title="恩斯特·施罗德（页面不存在）">施罗德</a></li>
+<li><a href="/wiki/%E9%82%93%E6%96%AF%C2%B7%E5%8F%B8%E5%90%84%E8%84%B1" title="邓斯·司各脱">司各脱</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%89%98%E6%8B%89%E5%B0%94%E5%A4%AB%C2%B7%E6%96%AF%E7%A7%91%E4%BC%A6&amp;action=edit&amp;redlink=1" title="托拉尔夫·斯科伦（页面不存在）">斯科伦</a></li>
+<li><a class="mw-redirect" href="/wiki/%E9%9B%B7%E8%92%99%C2%B7%E5%8F%B2%E6%85%95%E6%8F%9A" title="雷蒙·史慕扬">史慕扬</a></li>
+<li><a href="/wiki/%E9%98%BF%E5%B0%94%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E5%A1%94%E6%96%AF%E5%9F%BA" title="阿尔弗雷德·塔斯基">塔斯基</a></li>
+<li><a href="/wiki/%E8%89%BE%E4%BC%A6%C2%B7%E5%9B%BE%E7%81%B5" title="艾伦·图灵">图灵</a></li>
+<li><a href="/wiki/%E9%98%BF%E7%88%BE%E5%BC%97%E9%9B%B7%E5%BE%B7%C2%B7%E8%AB%BE%E6%80%9D%C2%B7%E6%87%B7%E7%89%B9%E9%BB%91%E5%BE%B7" title="阿尔弗雷德·诺思·怀特黑德">怀特黑德</a></li>
+<li><a href="/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E7%9A%84%E5%A8%81%E5%BB%89" title="奥卡姆的威廉">奥卡姆的威廉</a></li>
+<li><a class="mw-redirect" href="/wiki/%E7%BB%B4%E6%A0%B9%E6%96%AF%E5%9D%A6" title="维根斯坦">维根斯坦</a></li>
+<li><a href="/wiki/%E6%81%A9%E6%96%AF%E7%89%B9%C2%B7%E7%AD%96%E6%A2%85%E6%B4%9B" title="恩斯特·策梅洛">策梅洛</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-even" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%">列表</div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-group" scope="row">主题</th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a class="new" href="/w/index.php?title=%E9%80%BB%E8%BE%91%E6%A6%82%E8%A6%81&amp;action=edit&amp;redlink=1" title="逻辑概要（页面不存在）">逻辑概要</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%95%B0%E7%90%86%E9%80%BB%E8%BE%91%E4%B8%BB%E9%A2%98%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="数理逻辑主题列表（页面不存在）">数理逻辑</a></li>
+<li><a href="/wiki/%E5%B8%83%E5%B0%94%E4%BB%A3%E6%95%B0%E4%B8%BB%E9%A2%98%E5%88%97%E8%A1%A8" title="布尔代数主题列表">布尔代数</a></li>
+<li><a class="new" href="/w/index.php?title=%E9%9B%86%E5%90%88%E8%AE%BA%E4%B8%BB%E9%A2%98%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="集合论主题列表（页面不存在）">集合论</a></li></ul>
+</div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><th class="navbox-group" scope="row">其它</th><td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><a href="/wiki/%E9%80%BB%E8%BE%91%E5%AD%A6%E5%AE%B6" title="逻辑学家">逻辑学家</a></li>
+<li><a class="new" href="/w/index.php?title=%E6%8E%A8%E7%90%86%E8%A7%84%E5%88%99%E5%88%97%E8%A1%A8&amp;action=edit&amp;redlink=1" title="推理规则列表（页面不存在）">推理规则</a></li>
+<li><a href="/wiki/%E6%82%96%E8%AE%BA%E5%88%97%E8%A1%A8" title="悖论列表">悖论</a></li>
+<li><a class="mw-redirect" href="/wiki/%E8%AC%AC%E8%AB%96%E5%88%97%E8%A1%A8" title="谬论列表">谬论</a></li>
+<li><a href="/wiki/%E9%80%BB%E8%BE%91%E7%AC%A6%E5%8F%B7%E8%A1%A8" title="逻辑符号表">逻辑符号</a></li></ul>
+</div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"></div><table cellspacing="0" class="nowraplinks collapsible collapsed navbox-subgroup" style="border-spacing:0"><tbody><tr><th class="navbox-title" colspan="2" scope="col" style=";"><span style="float:left;width:8em;font-size:80%;margin-right:0.5em"> </span><div style="font-size:110%"><a href="/wiki/%E9%80%BB%E8%BE%91%E7%AC%A6%E5%8F%B7%E8%A1%A8" title="逻辑符号表">常见逻辑符号</a></div></th></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-list navbox-odd" colspan="2" style="width:100%;padding:0px"><div style="padding:0em 0.25em"><div style="font-size:130%;">
+<p><a href="/wiki/%26" title="&amp;">&amp;</a>   
+<a class="mw-redirect" href="/wiki/%E2%88%A8" title="∨">∨</a>   
+<a class="mw-redirect" href="/wiki/%C2%AC" title="¬">¬</a>   
+<a class="mw-redirect" href="/wiki/%E6%B3%A2%E6%B5%AA%E5%8F%B7" title="波浪号">~</a>   
+<a href="/wiki/%E7%AE%AD%E5%A4%B4" title="箭头">→</a>   
+<a class="mw-redirect" href="/wiki/%E2%8A%83" title="⊃">⊃</a>   
+<a class="mw-redirect" href="/wiki/%E8%8B%A5%E4%B8%94%E5%94%AF%E8%8B%A5" title="若且唯若">≡</a>   
+<a href="/wiki/%E8%B0%A2%E8%B4%B9%E5%B0%94%E7%AB%96%E7%BA%BF" title="谢费尔竖线"><span class="Unicode">|</span></a>   
+<a href="/wiki/%E5%85%A8%E7%A7%B0%E9%87%8F%E5%8C%96" title="全称量化">∀</a>   
+<a href="/wiki/%E5%AD%98%E5%9C%A8%E9%87%8F%E5%8C%96" title="存在量化">∃</a>   
+<a class="new" href="/w/index.php?title=%E2%8A%A4&amp;action=edit&amp;redlink=1" title="⊤（页面不存在）">⊤</a>   
+<a class="mw-redirect" href="/wiki/%E2%8A%A5" title="⊥">⊥</a>   
+<a class="new" href="/w/index.php?title=%E2%8A%A2&amp;action=edit&amp;redlink=1" title="⊢（页面不存在）">⊢</a>   
+<a class="new" href="/w/index.php?title=%E2%8A%A8&amp;action=edit&amp;redlink=1" title="⊨（页面不存在）">⊨</a>   
+<a class="new" href="/w/index.php?title=%E5%9B%A0%E4%B8%BA%E7%AC%A6%E5%8F%B7&amp;action=edit&amp;redlink=1" title="因为符号（页面不存在）">∴</a>   
+<a class="new" href="/w/index.php?title=%E5%9B%A0%E4%B8%BA%E7%AC%A6%E5%8F%B7&amp;action=edit&amp;redlink=1" title="因为符号（页面不存在）">∵</a>
+</p>
+</div></div></td></tr></tbody></table><div></div></td></tr><tr style="height:2px"><td colspan="3"></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><style data-mw-deduplicate="TemplateStyles:r69020019">.mw-parser-output .hlist ul,.mw-parser-output .hlist ol{padding-left:0}.mw-parser-output .hlist li,.mw-parser-output .hlist dd,.mw-parser-output .hlist dt{margin:0;display:inline}.mw-parser-output .hlist dt:after,.mw-parser-output .hlist dd:after,.mw-parser-output .hlist li:after{white-space:normal}.mw-parser-output .hlist dt:after{content:" :"}.mw-parser-output .hlist dd:after,.mw-parser-output .hlist li:after{content:" · ";font-weight:bold}.mw-parser-output .hlist-pipe dd:after,.mw-parser-output .hlist-pipe li:after{content:" | ";font-weight:normal}.mw-parser-output .hlist-hyphen dd:after,.mw-parser-output .hlist-hyphen li:after{content:" - ";font-weight:normal}.mw-parser-output .hlist-comma dd:after,.mw-parser-output .hlist-comma li:after{content:"、";font-weight:normal}.mw-parser-output .hlist dd:last-child:after,.mw-parser-output .hlist dt:last-child:after,.mw-parser-output .hlist li:last-child:after{content:none}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li:before{content:" "counter(listitem)" ";white-space:nowrap}.mw-parser-output .hlist dd ol>li:first-child:before,.mw-parser-output .hlist dt ol>li:first-child:before,.mw-parser-output .hlist li ol>li:first-child:before{content:" ("counter(listitem)" "}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li:before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child:before,.mw-parser-output .hlist dt ol>li:first-child:before,.mw-parser-output .hlist li ol>li:first-child:before{content:" ("counter(listitem)"\a0 "}.mw-parser-output ul.cslist,.mw-parser-output ul.sslist{margin:0;padding:0;display:inline-block;list-style:none}.mw-parser-output .cslist li,.mw-parser-output .sslist li{margin:0;display:inline-block}.mw-parser-output .cslist li:after{content:"，"}.mw-parser-output .sslist li:after{content:"；"}.mw-parser-output .cslist li:last-child:after,.mw-parser-output .sslist li:last-child:after{content:none}</style><div class="hlist"><ul><li>参见：<a class="image" href="/wiki/File:Socrates.png"><img alt="Socrates.png" class="noviewer" data-file-height="500" data-file-width="326" decoding="async" height="28" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/18px-Socrates.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/27px-Socrates.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Socrates.png/36px-Socrates.png 2x" width="18"/></a> <a href="/wiki/Portal:%E5%93%B2%E5%AD%A6" title="Portal:哲学">哲学主题</a></li><li><img alt="分类" data-file-height="185" data-file-width="180" decoding="async" height="16" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/16px-Symbol_category_class.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/23px-Symbol_category_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/96/Symbol_category_class.svg/31px-Symbol_category_class.svg.png 2x" title="分类" width="16"/><a href="/wiki/Category:%E9%82%8F%E8%BC%AF" title="Category:逻辑">分类</a></li></ul></div></div></td></tr></tbody></table></td></tr></tbody></table>
+<table cellspacing="0" class="navbox" style="border-spacing:0"><tbody><tr><td style="padding:2px"><table cellspacing="0" class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th class="navbox-group nowrap" scope="row"><a href="/wiki/Help:%E8%A7%84%E8%8C%83%E6%8E%A7%E5%88%B6" title="Help:规范控制">规范控制</a> <a href="https://www.wikidata.org/wiki/Q9492" title="编辑维基数据链接"><img alt="编辑维基数据链接" data-file-height="20" data-file-width="20" decoding="async" height="10" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" style="vertical-align: text-top" width="10"/></a></th><td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px"><div style="padding:0em 0.25em">
+<ul><li><span class="nowrap"><a href="/wiki/%E8%97%9D%E8%A1%93%E8%88%87%E5%BB%BA%E7%AF%89%E7%B4%A2%E5%BC%95%E5%85%B8" title="艺术与建筑索引典">AAT</a>: <span class="uid"><a class="external text" href="http://vocab.getty.edu/page/aat/300055653" rel="nofollow">300055653</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E6%95%B4%E5%90%88%E8%A7%84%E8%8C%83%E6%96%87%E6%A1%A3" title="整合规范文档">GND</a>: <span class="uid"><a class="external text" href="https://d-nb.info/gnd/4137007-7" rel="nofollow">4137007-7</a></span></span></li>
+<li><span class="nowrap"><a href="/wiki/%E7%BE%8E%E5%9B%BD%E5%9B%BD%E4%BC%9A%E5%9B%BE%E4%B9%A6%E9%A6%86%E6%8E%A7%E5%88%B6%E5%8F%B7" title="美国国会图书馆控制号">LCCN</a>: <span class="uid"><a class="external text" href="http://id.loc.gov/authorities/subjects/sh85107090" rel="nofollow">sh85107090</a></span></span></li>
+<li><span class="nowrap"><a class="mw-redirect" href="/wiki/%E6%8D%B7%E5%85%8B%E5%9B%BD%E5%AE%B6%E5%9B%BE%E4%B9%A6%E9%A6%86" title="捷克国家图书馆">NKC</a>: <span class="uid"><a class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph360289&amp;CON_LNG=ENG" rel="nofollow">ph360289</a></span></span></li></ul>
+</div></td></tr></tbody></table></td></tr></tbody></table>
+<!-- 
+NewPP limit report
+Parsed by mw1346
+Cached time: 20221009141650
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [show‐toc]
+CPU time usage: 0.732 seconds
+Real time usage: 0.934 seconds
+Preprocessor visited node count: 3315/1000000
+Post‐expand include size: 195371/2097152 bytes
+Template argument size: 12390/2097152 bytes
+Highest expansion depth: 14/100
+Expensive parser function count: 15/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 13104/5000000 bytes
+Lua time usage: 0.291/10.000 seconds
+Lua memory usage: 9556219/52428800 bytes
+Number of Wikibase entities loaded: 1/400
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  648.976      1 -total
+ 18.04%  117.049      1 Template:Reflist
+ 17.12%  111.103      1 Template:逻辑
+ 16.70%  108.404      1 Template:Navbox_with_collapsible_sections
+ 15.29%   99.209      1 Template:NoteTA
+  8.81%   57.190      1 Template:Authority_control
+  8.05%   52.265      1 Template:Cite_web
+  7.40%   48.027      1 Template:Hlist
+  6.45%   41.830      1 Template:Val
+  5.19%   33.674      1 Template:确定性
+-->
+<!-- Saved in parser cache with key zhwiki:pcache:idhash:20840-0!canonical!zh and timestamp 20221009141650 and revision id 73970097.
+ -->
+</div><noscript><img alt="" height="1" src="//zh.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" style="border: none; position: absolute;" title="" width="1"/></noscript>
+<div class="printfooter" data-nosnippet="">取自“<a dir="ltr" href="https://zh.wikipedia.org/w/index.php?title=概率&amp;oldid=73970097">https://zh.wikipedia.org/w/index.php?title=概率&amp;oldid=73970097</a>”</div></div>
+<div class="catlinks" data-mw="interface" id="catlinks"><div class="mw-normal-catlinks" id="mw-normal-catlinks"><a href="/wiki/Special:%E9%A1%B5%E9%9D%A2%E5%88%86%E7%B1%BB" title="Special:页面分类">分类</a>：​<ul><li><a href="/wiki/Category:%E6%A6%82%E7%8E%87" title="Category:概率">概率</a></li><li><a href="/wiki/Category:%E6%A6%82%E7%8E%87%E4%B8%8E%E7%BB%9F%E8%AE%A1" title="Category:概率与统计">概率与统计</a></li><li><a href="/wiki/Category:%E6%97%A0%E9%87%8F%E7%BA%B2" title="Category:无量纲">无量纲</a></li></ul></div><div class="mw-hidden-catlinks mw-hidden-cats-hidden" id="mw-hidden-catlinks">隐藏分类：​<ul><li><a href="/wiki/Category:Webarchive%E6%A8%A1%E6%9D%BFwayback%E9%93%BE%E6%8E%A5" title="Category:Webarchive模板wayback链接">Webarchive模板wayback链接</a></li><li><a href="/wiki/Category:%E6%9C%89%E6%9C%AA%E5%88%97%E6%98%8E%E6%9D%A5%E6%BA%90%E8%AF%AD%E5%8F%A5%E7%9A%84%E6%9D%A1%E7%9B%AE" title="Category:有未列明来源语句的条目">有未列明来源语句的条目</a></li><li><a href="/wiki/Category:%E4%BD%BF%E7%94%A8ISBN%E9%AD%94%E6%9C%AF%E9%93%BE%E6%8E%A5%E7%9A%84%E9%A1%B5%E9%9D%A2" title="Category:使用ISBN魔术链接的页面">使用ISBN魔术链接的页面</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABAAT%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含AAT标识符的维基百科条目">包含AAT标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABGND%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含GND标识符的维基百科条目">包含GND标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABLCCN%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含LCCN标识符的维基百科条目">包含LCCN标识符的维基百科条目</a></li><li><a href="/wiki/Category:%E5%8C%85%E5%90%ABNKC%E6%A0%87%E8%AF%86%E7%AC%A6%E7%9A%84%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91%E6%9D%A1%E7%9B%AE" title="Category:包含NKC标识符的维基百科条目">包含NKC标识符的维基百科条目</a></li></ul></div></div>
+</div>
+</div>
+<div id="mw-navigation">
+<h2>导航菜单</h2>
+<div id="mw-head">
+<nav aria-labelledby="p-personal-label" class="vector-menu mw-portlet mw-portlet-personal vector-user-menu-legacy" id="p-personal" role="navigation">
+<h3 class="vector-menu-heading" id="p-personal-label">
+<span class="vector-menu-heading-label">个人工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="pt-anonuserpage"><span title="您编辑本站所用IP的对应用户页">没有登录</span></li><li class="mw-list-item" id="pt-anontalk"><a accesskey="n" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%AE%A8%E8%AE%BA%E9%A1%B5" title="对于来自此IP地址编辑的讨论[n]"><span>讨论</span></a></li><li class="mw-list-item" id="pt-anoncontribs"><a accesskey="y" href="/wiki/Special:%E6%88%91%E7%9A%84%E8%B4%A1%E7%8C%AE" title="来自此IP地址的编辑列表[y]"><span>贡献</span></a></li><li class="mw-list-item" id="pt-createaccount"><a href="/w/index.php?title=Special:%E5%88%9B%E5%BB%BA%E8%B4%A6%E6%88%B7&amp;returnto=%E6%A6%82%E7%8E%87" title="建议您创建一个账户并登录，不过这不是强制的"><span>创建账号</span></a></li><li class="mw-list-item" id="pt-login"><a accesskey="o" href="/w/index.php?title=Special:%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95&amp;returnto=%E6%A6%82%E7%8E%87" title="建议你登录，尽管并非必须。[o]"><span>登录</span></a></li></ul>
+</div>
+</nav>
+<div id="left-navigation">
+<nav aria-labelledby="p-namespaces-label" class="vector-menu mw-portlet mw-portlet-namespaces vector-menu-tabs vector-menu-tabs-legacy" id="p-namespaces" role="navigation">
+<h3 class="vector-menu-heading" id="p-namespaces-label">
+<span class="vector-menu-heading-label">命名空间</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected mw-list-item" id="ca-nstab-main"><a accesskey="c" href="/wiki/%E6%A6%82%E7%8E%87" title="浏览条目正文[c]"><span>条目</span></a></li><li class="mw-list-item" id="ca-talk"><a accesskey="t" href="/wiki/Talk:%E6%A6%82%E7%8E%87" rel="discussion" title="关于此页面的讨论[t]"><span>讨论</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-variants-label" class="vector-menu mw-portlet mw-portlet-variants vector-menu-dropdown-noicon vector-menu-dropdown" id="p-variants" role="navigation">
+<input aria-haspopup="true" aria-labelledby="p-variants-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-variants" id="p-variants-checkbox" role="button" type="checkbox"/>
+<label aria-label="更改语言变体" class="vector-menu-heading" id="p-variants-label">
+<span class="vector-menu-heading-label">不转换</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected ca-variants-zh mw-list-item" id="ca-varlang-0"><a href="/zh/%E6%A6%82%E7%8E%87" hreflang="zh" lang="zh"><span>不转换</span></a></li><li class="ca-variants-zh-Hans mw-list-item" id="ca-varlang-1"><a href="/zh-hans/%E6%A6%82%E7%8E%87" hreflang="zh-Hans" lang="zh-Hans"><span>简体</span></a></li><li class="ca-variants-zh-Hant mw-list-item" id="ca-varlang-2"><a href="/zh-hant/%E6%A6%82%E7%8E%87" hreflang="zh-Hant" lang="zh-Hant"><span>繁体</span></a></li><li class="ca-variants-zh-Hans-CN mw-list-item" id="ca-varlang-3"><a href="/zh-cn/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-CN" lang="zh-Hans-CN"><span>大陆简体</span></a></li><li class="ca-variants-zh-Hant-HK mw-list-item" id="ca-varlang-4"><a href="/zh-hk/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-HK" lang="zh-Hant-HK"><span>香港繁体</span></a></li><li class="ca-variants-zh-Hant-MO mw-list-item" id="ca-varlang-5"><a href="/zh-mo/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-MO" lang="zh-Hant-MO"><span>澳门繁体</span></a></li><li class="ca-variants-zh-Hans-MY mw-list-item" id="ca-varlang-6"><a href="/zh-my/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-MY" lang="zh-Hans-MY"><span>大马简体</span></a></li><li class="ca-variants-zh-Hans-SG mw-list-item" id="ca-varlang-7"><a href="/zh-sg/%E6%A6%82%E7%8E%87" hreflang="zh-Hans-SG" lang="zh-Hans-SG"><span>新加坡简体</span></a></li><li class="ca-variants-zh-Hant-TW mw-list-item" id="ca-varlang-8"><a href="/zh-tw/%E6%A6%82%E7%8E%87" hreflang="zh-Hant-TW" lang="zh-Hant-TW"><span>台湾正体</span></a></li></ul>
+</div>
+</nav>
+</div>
+<div id="right-navigation">
+<nav aria-labelledby="p-views-label" class="vector-menu mw-portlet mw-portlet-views vector-menu-tabs vector-menu-tabs-legacy" id="p-views" role="navigation">
+<h3 class="vector-menu-heading" id="p-views-label">
+<span class="vector-menu-heading-label">查看</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="selected vector-tab-noicon mw-list-item" id="ca-view"><a href="/wiki/%E6%A6%82%E7%8E%87"><span>阅读</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-edit"><a accesskey="e" href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=edit" title="编辑本页[e]"><span>编辑</span></a></li><li class="vector-tab-noicon mw-list-item" id="ca-history"><a accesskey="h" href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=history" title="本页面的早前版本。[h]"><span>查看历史</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-cactions-label" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu-dropdown" id="p-cactions" role="navigation" title="更多选项">
+<input aria-haspopup="true" aria-labelledby="p-cactions-label" class="vector-menu-checkbox" data-event-name="ui.dropdown-p-cactions" id="p-cactions-checkbox" role="button" type="checkbox"/>
+<label class="vector-menu-heading" id="p-cactions-label">
+<span class="vector-menu-heading-label">更多</span>
+</label>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"></ul>
+</div>
+</nav>
+<div class="vector-search-box-vue vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box" id="p-search" role="search">
+<div>
+<h3>
+<label for="searchInput">搜索</label>
+</h3>
+<form action="/w/index.php" class="vector-search-box-form" id="searchform">
+<div class="vector-search-box-inner" data-search-loc="header-navigation" id="simpleSearch">
+<input accesskey="f" aria-label="搜索维基百科" autocapitalize="sentences" class="vector-search-box-input" id="searchInput" name="search" placeholder="搜索维基百科" title="搜索维基百科[f]" type="search"/>
+<input name="title" type="hidden" value="Special:搜索"/>
+<input class="searchButton mw-fallbackSearchButton" id="mw-searchButton" name="fulltext" title="搜索含这些文字的页面" type="submit" value="搜索"/>
+<input class="searchButton" id="searchButton" name="go" title="若相同标题存在，则直接前往该页面" type="submit" value="前往"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div id="mw-panel">
+<div id="p-logo" role="banner">
+<a class="mw-wiki-logo" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="首页"></a>
+</div>
+<nav aria-labelledby="p-navigation-label" class="vector-menu mw-portlet mw-portlet-navigation vector-menu-portal portal" id="p-navigation" role="navigation">
+<h3 class="vector-menu-heading" id="p-navigation-label">
+<span class="vector-menu-heading-label">导航</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-mainpage-description"><a accesskey="z" href="/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" title="访问首页[z]"><span>首页</span></a></li><li class="mw-list-item" id="n-indexpage"><a href="/wiki/Wikipedia:%E5%88%86%E7%B1%BB%E7%B4%A2%E5%BC%95" title="以分类索引搜寻中文维基百科"><span>分类索引</span></a></li><li class="mw-list-item" id="n-Featured_content"><a href="/wiki/Portal:%E7%89%B9%E8%89%B2%E5%85%A7%E5%AE%B9" title="查看中文维基百科的特色内容"><span>特色内容</span></a></li><li class="mw-list-item" id="n-currentevents"><a href="/wiki/Portal:%E6%96%B0%E8%81%9E%E5%8B%95%E6%85%8B" title="提供当前新闻事件的背景资料"><span>新闻动态</span></a></li><li class="mw-list-item" id="n-recentchanges"><a accesskey="r" href="/wiki/Special:%E6%9C%80%E8%BF%91%E6%9B%B4%E6%94%B9" title="列出维基百科中的最近修改[r]"><span>最近更改</span></a></li><li class="mw-list-item" id="n-randompage"><a accesskey="x" href="/wiki/Special:%E9%9A%8F%E6%9C%BA%E9%A1%B5%E9%9D%A2" title="随机载入一个页面[x]"><span>随机条目</span></a></li><li class="mw-list-item" id="n-sitesupport"><a href="https://donate.wikimedia.org/?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=spontaneous&amp;uselang=zh-hans" title="如果您在维基百科受益良多，您可以考虑资助我们"><span>资助维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-help-label" class="vector-menu mw-portlet mw-portlet-help vector-menu-portal portal" id="p-help" role="navigation">
+<h3 class="vector-menu-heading" id="p-help-label">
+<span class="vector-menu-heading-label">帮助</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="n-help"><a href="/wiki/Help:%E7%9B%AE%E5%BD%95" title="寻求帮助"><span>帮助</span></a></li><li class="mw-list-item" id="n-portal"><a href="/wiki/Wikipedia:%E7%A4%BE%E7%BE%A4%E9%A6%96%E9%A1%B5" title="关于本计划、你可以做什么、应该如何做"><span>维基社群</span></a></li><li class="mw-list-item" id="n-policy"><a href="/wiki/Wikipedia:%E6%96%B9%E9%87%9D%E8%88%87%E6%8C%87%E5%BC%95" title="查看维基百科的方针和指引"><span>方针与指引</span></a></li><li class="mw-list-item" id="n-villagepump"><a href="/wiki/Wikipedia:%E4%BA%92%E5%8A%A9%E5%AE%A2%E6%A0%88" title="参与维基百科社群的讨论"><span>互助客栈</span></a></li><li class="mw-list-item" id="n-Information_desk"><a href="/wiki/Wikipedia:%E7%9F%A5%E8%AF%86%E9%97%AE%E7%AD%94" title="解答任何与维基百科无关的问题的地方"><span>知识问答</span></a></li><li class="mw-list-item" id="n-conversion"><a href="/wiki/Wikipedia:%E5%AD%97%E8%AF%8D%E8%BD%AC%E6%8D%A2" title="提出字词转换请求"><span>字词转换</span></a></li><li class="mw-list-item" id="n-IRC"><a href="/wiki/Wikipedia:IRC%E8%81%8A%E5%A4%A9%E9%A2%91%E9%81%93"><span>IRC即时聊天</span></a></li><li class="mw-list-item" id="n-contact"><a href="/wiki/Wikipedia:%E8%81%94%E7%BB%9C%E6%88%91%E4%BB%AC" title="如何联络维基百科"><span>联络我们</span></a></li><li class="mw-list-item" id="n-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E" title="查看维基百科的简介"><span>关于维基百科</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-tb-label" class="vector-menu mw-portlet mw-portlet-tb vector-menu-portal portal" id="p-tb" role="navigation">
+<h3 class="vector-menu-heading" id="p-tb-label">
+<span class="vector-menu-heading-label">工具</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="t-whatlinkshere"><a accesskey="j" href="/wiki/Special:%E9%93%BE%E5%85%A5%E9%A1%B5%E9%9D%A2/%E6%A6%82%E7%8E%87" title="列出所有与本页相链的页面[j]"><span>链入页面</span></a></li><li class="mw-list-item" id="t-recentchangeslinked"><a accesskey="k" href="/wiki/Special:%E9%93%BE%E5%87%BA%E6%9B%B4%E6%94%B9/%E6%A6%82%E7%8E%87" rel="nofollow" title="页面链出所有页面的更改[k]"><span>相关更改</span></a></li><li class="mw-list-item" id="t-upload"><a accesskey="u" href="/wiki/Project:%E4%B8%8A%E4%BC%A0" title="上传图像或多媒体文件[u]"><span>上传文件</span></a></li><li class="mw-list-item" id="t-specialpages"><a accesskey="q" href="/wiki/Special:%E7%89%B9%E6%AE%8A%E9%A1%B5%E9%9D%A2" title="全部特殊页面的列表[q]"><span>特殊页面</span></a></li><li class="mw-list-item" id="t-permalink"><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;oldid=73970097" title="此页面该修订版本的固定链接"><span>固定链接</span></a></li><li class="mw-list-item" id="t-info"><a href="/w/index.php?title=%E6%A6%82%E7%8E%87&amp;action=info" title="关于此页面的更多信息"><span>页面信息</span></a></li><li class="mw-list-item" id="t-cite"><a href="/w/index.php?title=Special:%E5%BC%95%E7%94%A8%E6%AD%A4%E9%A1%B5%E9%9D%A2&amp;page=%E6%A6%82%E7%8E%87&amp;id=73970097&amp;wpFormIdentifier=titleform" title="关于如何引用本页的信息"><span>引用本页</span></a></li><li class="mw-list-item" id="t-wikibase"><a accesskey="g" href="https://www.wikidata.org/wiki/Special:EntityPage/Q9492" title="链接到连接的数据仓库项目[g]"><span>维基数据项目</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-electronpdfservice-sidebar-portlet-heading-label" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading vector-menu-portal portal" id="p-electronpdfservice-sidebar-portlet-heading" role="navigation">
+<h3 class="vector-menu-heading" id="p-electronpdfservice-sidebar-portlet-heading-label">
+<span class="vector-menu-heading-label">打印/导出</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="mw-list-item" id="electron-print_pdf"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=%E6%A6%82%E7%8E%87&amp;action=show-download-screen"><span>下载为PDF</span></a></li><li class="mw-list-item" id="t-print"><a accesskey="p" href="javascript:print();" rel="alternate" title="本页面的可打印版本[p]"><span>打印页面</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-wikibase-otherprojects-label" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects vector-menu-portal portal" id="p-wikibase-otherprojects" role="navigation">
+<h3 class="vector-menu-heading" id="p-wikibase-otherprojects-label">
+<span class="vector-menu-heading-label">在其他项目中</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Probability" hreflang="en"><span>维基共享资源</span></a></li><li class="wb-otherproject-link wb-otherproject-wikibooks mw-list-item"><a href="https://zh.wikibooks.org/wiki/%E6%A6%82%E7%8E%87%E8%AE%BA" hreflang="zh"><span>维基教科书</span></a></li></ul>
+</div>
+</nav>
+<nav aria-labelledby="p-lang-label" class="vector-menu mw-portlet mw-portlet-lang vector-menu-portal portal" id="p-lang" role="navigation">
+<h3 class="vector-menu-heading" id="p-lang-label">
+<span class="vector-menu-heading-label">其他语言</span>
+</h3>
+<div class="vector-menu-content">
+<ul class="vector-menu-content-list"><li class="interlanguage-link interwiki-af mw-list-item"><a class="interlanguage-link-target" href="https://af.wikipedia.org/wiki/Waarskynlikheid" hreflang="af" lang="af" title="Waarskynlikheid – 南非荷兰语"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-als mw-list-item"><a class="interlanguage-link-target" href="https://als.wikipedia.org/wiki/Wahrscheinlichkeit" hreflang="gsw" lang="gsw" title="Wahrscheinlichkeit – Alemannisch"><span>Alemannisch</span></a></li><li class="interlanguage-link interwiki-am mw-list-item"><a class="interlanguage-link-target" href="https://am.wikipedia.org/wiki/%E1%8B%95%E1%8B%B5%E1%88%8D_%E1%8C%A5%E1%8A%93%E1%89%B5" hreflang="am" lang="am" title="ዕድል ጥናት – 阿姆哈拉语"><span>አማርኛ</span></a></li><li class="interlanguage-link interwiki-an mw-list-item"><a class="interlanguage-link-target" href="https://an.wikipedia.org/wiki/Probabilidat" hreflang="an" lang="an" title="Probabilidat – 阿拉贡语"><span>Aragonés</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a class="interlanguage-link-target" href="https://ar.wikipedia.org/wiki/%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84" hreflang="ar" lang="ar" title="احتمال – 阿拉伯语"><span>العربية</span></a></li><li class="interlanguage-link interwiki-as mw-list-item"><a class="interlanguage-link-target" href="https://as.wikipedia.org/wiki/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A7%B1%E0%A6%BF%E0%A6%A4%E0%A6%BE" hreflang="as" lang="as" title="সম্ভাৱিতা – 阿萨姆语"><span>অসমীয়া</span></a></li><li class="interlanguage-link interwiki-ast mw-list-item"><a class="interlanguage-link-target" href="https://ast.wikipedia.org/wiki/Probabilid%C3%A1" hreflang="ast" lang="ast" title="Probabilidá – 阿斯图里亚斯语"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-ay mw-list-item"><a class="interlanguage-link-target" href="https://ay.wikipedia.org/wiki/Inas" hreflang="ay" lang="ay" title="Inas – 艾马拉语"><span>Aymar aru</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a class="interlanguage-link-target" href="https://az.wikipedia.org/wiki/Ehtimal" hreflang="az" lang="az" title="Ehtimal – 阿塞拜疆语"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-azb mw-list-item"><a class="interlanguage-link-target" href="https://azb.wikipedia.org/wiki/%D8%A7%D9%88%D9%84%D8%A7%D8%B3%DB%8C%D9%84%DB%8C%D9%82" hreflang="azb" lang="azb" title="اولاسیلیق – South Azerbaijani"><span>تۆرکجه</span></a></li><li class="interlanguage-link interwiki-ba mw-list-item"><a class="interlanguage-link-target" href="https://ba.wikipedia.org/wiki/%D0%98%D1%85%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D0%BB%D1%8B%D2%A1" hreflang="ba" lang="ba" title="Ихтималлыҡ – 巴什基尔语"><span>Башҡортса</span></a></li><li class="interlanguage-link interwiki-bar mw-list-item"><a class="interlanguage-link-target" href="https://bar.wikipedia.org/wiki/Woarscheinlichkeit" hreflang="bar" lang="bar" title="Woarscheinlichkeit – 巴伐利亚文"><span>Boarisch</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a class="interlanguage-link-target" href="https://be.wikipedia.org/wiki/%D0%86%D0%BC%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%81%D1%86%D1%8C" hreflang="be" lang="be" title="Імавернасць – 白俄罗斯语"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a class="interlanguage-link-target" href="https://be-tarask.wikipedia.org/wiki/%D0%86%D0%BC%D0%B0%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%81%D1%8C%D1%86%D1%8C" hreflang="be-tarask" lang="be-tarask" title="Імавернасьць – Belarusian (Taraškievica orthography)"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a class="interlanguage-link-target" href="https://bg.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82" hreflang="bg" lang="bg" title="Вероятност – 保加利亚语"><span>Български</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a class="interlanguage-link-target" href="https://bn.wikipedia.org/wiki/%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AD%E0%A6%BE%E0%A6%AC%E0%A6%A8%E0%A6%BE" hreflang="bn" lang="bn" title="সম্ভাবনা – 孟加拉语"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a class="interlanguage-link-target" href="https://bs.wikipedia.org/wiki/Vjerovatno%C4%87a" hreflang="bs" lang="bs" title="Vjerovatnoća – 波斯尼亚语"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-bxr mw-list-item"><a class="interlanguage-link-target" href="https://bxr.wikipedia.org/wiki/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B4%D0%BB%D0%B0%D0%BB" hreflang="bxr" lang="bxr" title="Магадлал – Russia Buriat"><span>Буряад</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a class="interlanguage-link-target" href="https://ca.wikipedia.org/wiki/Probabilitat" hreflang="ca" lang="ca" title="Probabilitat – 加泰罗尼亚语"><span>Català</span></a></li><li class="interlanguage-link interwiki-ce mw-list-item"><a class="interlanguage-link-target" href="https://ce.wikipedia.org/wiki/%D0%A5%D0%B8%D0%BB%D0%B0_%D1%82%D0%B0%D1%80%D0%B4%D0%B0%D0%BB%D0%B0%D1%80" hreflang="ce" lang="ce" title="Хила тардалар – 车臣语"><span>Нохчийн</span></a></li><li class="interlanguage-link interwiki-ckb mw-list-item"><a class="interlanguage-link-target" href="https://ckb.wikipedia.org/wiki/%D8%A6%DB%95%DA%AF%DB%95%D8%B1" hreflang="ckb" lang="ckb" title="ئەگەر – 中库尔德语"><span>کوردی</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a class="interlanguage-link-target" href="https://cs.wikipedia.org/wiki/Pravd%C4%9Bpodobnost" hreflang="cs" lang="cs" title="Pravděpodobnost – 捷克语"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-cv mw-list-item"><a class="interlanguage-link-target" href="https://cv.wikipedia.org/wiki/%D0%9F%D1%83%D0%BB%D0%B0%D1%8F%D1%81%D0%BB%C4%83%D1%85" hreflang="cv" lang="cv" title="Пулаяслăх – 楚瓦什语"><span>Чӑвашла</span></a></li><li class="interlanguage-link interwiki-cy mw-list-item"><a class="interlanguage-link-target" href="https://cy.wikipedia.org/wiki/Tebygolrwydd" hreflang="cy" lang="cy" title="Tebygolrwydd – 威尔士语"><span>Cymraeg</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a class="interlanguage-link-target" href="https://da.wikipedia.org/wiki/Sandsynlighed" hreflang="da" lang="da" title="Sandsynlighed – 丹麦语"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a class="interlanguage-link-target" href="https://de.wikipedia.org/wiki/Wahrscheinlichkeit" hreflang="de" lang="de" title="Wahrscheinlichkeit – 德语"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a class="interlanguage-link-target" href="https://el.wikipedia.org/wiki/%CE%A0%CE%B9%CE%B8%CE%B1%CE%BD%CF%8C%CF%84%CE%B7%CF%84%CE%B1" hreflang="el" lang="el" title="Πιθανότητα – 希腊语"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-en mw-list-item"><a class="interlanguage-link-target" href="https://en.wikipedia.org/wiki/Probability" hreflang="en" lang="en" title="Probability – 英语"><span>English</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a class="interlanguage-link-target" href="https://eo.wikipedia.org/wiki/Probablo" hreflang="eo" lang="eo" title="Probablo – 世界语"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a class="interlanguage-link-target" href="https://es.wikipedia.org/wiki/Probabilidad" hreflang="es" lang="es" title="Probabilidad – 西班牙语"><span>Español</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a class="interlanguage-link-target" href="https://et.wikipedia.org/wiki/T%C3%B5en%C3%A4osus" hreflang="et" lang="et" title="Tõenäosus – 爱沙尼亚语"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a class="interlanguage-link-target" href="https://eu.wikipedia.org/wiki/Probabilitate" hreflang="eu" lang="eu" title="Probabilitate – 巴斯克语"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a class="interlanguage-link-target" href="https://fa.wikipedia.org/wiki/%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84%D8%A7%D8%AA" hreflang="fa" lang="fa" title="احتمالات – 波斯语"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a class="interlanguage-link-target" href="https://fi.wikipedia.org/wiki/Todenn%C3%A4k%C3%B6isyys" hreflang="fi" lang="fi" title="Todennäköisyys – 芬兰语"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a class="interlanguage-link-target" href="https://fr.wikipedia.org/wiki/Probabilit%C3%A9" hreflang="fr" lang="fr" title="Probabilité – 法语"><span>Français</span></a></li><li class="interlanguage-link interwiki-frr mw-list-item"><a class="interlanguage-link-target" href="https://frr.wikipedia.org/wiki/Woorskiinelkhaid" hreflang="frr" lang="frr" title="Woorskiinelkhaid – 北弗里西亚语"><span>Nordfriisk</span></a></li><li class="interlanguage-link interwiki-ga mw-list-item"><a class="interlanguage-link-target" href="https://ga.wikipedia.org/wiki/D%C3%B3ch%C3%BAlacht" hreflang="ga" lang="ga" title="Dóchúlacht – 爱尔兰语"><span>Gaeilge</span></a></li><li class="interlanguage-link interwiki-gan mw-list-item"><a class="interlanguage-link-target" href="https://gan.wikipedia.org/wiki/%E6%A9%9F%E7%8E%87" hreflang="gan" lang="gan" title="机率 – 赣语"><span>赣语</span></a></li><li class="interlanguage-link interwiki-gcr mw-list-item"><a class="interlanguage-link-target" href="https://gcr.wikipedia.org/wiki/Probabilit%C3%A9" hreflang="gcr" lang="gcr" title="Probabilité – Guianan Creole"><span>Kriyòl gwiyannen</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a class="interlanguage-link-target" href="https://gl.wikipedia.org/wiki/Probabilidade" hreflang="gl" lang="gl" title="Probabilidade – 加利西亚语"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a class="interlanguage-link-target" href="https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%AA%D7%91%D7%A8%D7%95%D7%AA" hreflang="he" lang="he" title="הסתברות – 希伯来语"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a class="interlanguage-link-target" href="https://hi.wikipedia.org/wiki/%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AF%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE" hreflang="hi" lang="hi" title="प्रायिकता – 印地语"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a class="interlanguage-link-target" href="https://hr.wikipedia.org/wiki/Vjerojatnost" hreflang="hr" lang="hr" title="Vjerojatnost – 克罗地亚语"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a class="interlanguage-link-target" href="https://hy.wikipedia.org/wiki/%D5%80%D5%A1%D5%BE%D5%A1%D5%B6%D5%A1%D5%AF%D5%A1%D5%B6%D5%B8%D6%82%D5%A9%D5%B5%D5%B8%D6%82%D5%B6" hreflang="hy" lang="hy" title="Հավանականություն – 亚美尼亚语"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-ia mw-list-item"><a class="interlanguage-link-target" href="https://ia.wikipedia.org/wiki/Probabilitate" hreflang="ia" lang="ia" title="Probabilitate – 国际语"><span>Interlingua</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a class="interlanguage-link-target" href="https://id.wikipedia.org/wiki/Peluang_(matematika)" hreflang="id" lang="id" title="Peluang (matematika) – 印度尼西亚语"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-ilo mw-list-item"><a class="interlanguage-link-target" href="https://ilo.wikipedia.org/wiki/Probabilidad" hreflang="ilo" lang="ilo" title="Probabilidad – 伊洛卡诺语"><span>Ilokano</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a class="interlanguage-link-target" href="https://io.wikipedia.org/wiki/Probableso" hreflang="io" lang="io" title="Probableso – 伊多语"><span>Ido</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a class="interlanguage-link-target" href="https://is.wikipedia.org/wiki/L%C3%ADkindi" hreflang="is" lang="is" title="Líkindi – 冰岛语"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a class="interlanguage-link-target" href="https://it.wikipedia.org/wiki/Probabilit%C3%A0" hreflang="it" lang="it" title="Probabilità – 意大利语"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a class="interlanguage-link-target" href="https://ja.wikipedia.org/wiki/%E7%A2%BA%E7%8E%87" hreflang="ja" lang="ja" title="确率 – 日语"><span>日本语</span></a></li><li class="interlanguage-link interwiki-jam mw-list-item"><a class="interlanguage-link-target" href="https://jam.wikipedia.org/wiki/Prabebiliti" hreflang="jam" lang="jam" title="Prabebiliti – 牙买加克里奥尔英文"><span>Patois</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a class="interlanguage-link-target" href="https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%9A%E1%83%91%E1%83%90%E1%83%97%E1%83%9D%E1%83%91%E1%83%90" hreflang="ka" lang="ka" title="ალბათობა – 格鲁吉亚语"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kbp mw-list-item"><a class="interlanguage-link-target" href="https://kbp.wikipedia.org/wiki/P%CA%8At%C9%94ma_kal%CA%8A%CA%8A" hreflang="kbp" lang="kbp" title="Pʊtɔma kalʊʊ – Kabiye"><span>Kabɩyɛ</span></a></li><li class="interlanguage-link interwiki-kk mw-list-item"><a class="interlanguage-link-target" href="https://kk.wikipedia.org/wiki/%D0%AB%D2%9B%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D0%B4%D1%8B%D2%9B" hreflang="kk" lang="kk" title="Ықтималдық – 哈萨克语"><span>Қазақша</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a class="interlanguage-link-target" href="https://kn.wikipedia.org/wiki/%E0%B2%B8%E0%B2%82%E0%B2%AD%E0%B2%BE%E0%B2%B5%E0%B3%8D%E0%B2%AF%E0%B2%A4%E0%B3%86" hreflang="kn" lang="kn" title="ಸಂಭಾವ್ಯತೆ – 卡纳达语"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a class="interlanguage-link-target" href="https://ko.wikipedia.org/wiki/%ED%99%95%EB%A5%A0" hreflang="ko" lang="ko" title="확률 – 韩语"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a class="interlanguage-link-target" href="https://la.wikipedia.org/wiki/Probabilitas" hreflang="la" lang="la" title="Probabilitas – 拉丁语"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lb mw-list-item"><a class="interlanguage-link-target" href="https://lb.wikipedia.org/wiki/Warscheinlechkeet" hreflang="lb" lang="lb" title="Warscheinlechkeet – 卢森堡语"><span>Lëtzebuergesch</span></a></li><li class="interlanguage-link interwiki-lt mw-list-item"><a class="interlanguage-link-target" href="https://lt.wikipedia.org/wiki/Tikimyb%C4%97" hreflang="lt" lang="lt" title="Tikimybė – 立陶宛语"><span>Lietuvių</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a class="interlanguage-link-target" href="https://lv.wikipedia.org/wiki/Varb%C5%ABt%C4%ABba" hreflang="lv" lang="lv" title="Varbūtība – 拉脱维亚语"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a class="interlanguage-link-target" href="https://mk.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BE%D1%98%D0%B0%D1%82%D0%BD%D0%BE%D1%81%D1%82" hreflang="mk" lang="mk" title="Веројатност – 马其顿语"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a class="interlanguage-link-target" href="https://ml.wikipedia.org/wiki/%E0%B4%B8%E0%B4%82%E0%B4%AD%E0%B4%BE%E0%B4%B5%E0%B5%8D%E0%B4%AF%E0%B4%A4" hreflang="ml" lang="ml" title="സംഭാവ്യത – 马拉雅拉姆语"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a class="interlanguage-link-target" href="https://ms.wikipedia.org/wiki/Kebarangkalian" hreflang="ms" lang="ms" title="Kebarangkalian – 马来语"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mt mw-list-item"><a class="interlanguage-link-target" href="https://mt.wikipedia.org/wiki/Probabbilt%C3%A0" hreflang="mt" lang="mt" title="Probabbiltà – 马耳他语"><span>Malti</span></a></li><li class="interlanguage-link interwiki-my mw-list-item"><a class="interlanguage-link-target" href="https://my.wikipedia.org/wiki/%E1%80%96%E1%80%BC%E1%80%85%E1%80%BA%E1%80%94%E1%80%AD%E1%80%AF%E1%80%84%E1%80%BA%E1%80%81%E1%80%BC%E1%80%B1" hreflang="my" lang="my" title="ဖြစ်နိုင်ခြေ – 缅甸语"><span>မြန်မာဘာသာ</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a class="interlanguage-link-target" href="https://nl.wikipedia.org/wiki/Kans_(kansrekening)" hreflang="nl" lang="nl" title="Kans (kansrekening) – 荷兰语"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a class="interlanguage-link-target" href="https://nn.wikipedia.org/wiki/Sannsyn" hreflang="nn" lang="nn" title="Sannsyn – 挪威尼诺斯克语"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a class="interlanguage-link-target" href="https://no.wikipedia.org/wiki/Sannsynlighet" hreflang="nb" lang="nb" title="Sannsynlighet – 书面挪威语"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-oc mw-list-item"><a class="interlanguage-link-target" href="https://oc.wikipedia.org/wiki/Probabilitat" hreflang="oc" lang="oc" title="Probabilitat – 奥克语"><span>Occitan</span></a></li><li class="interlanguage-link interwiki-pa mw-list-item"><a class="interlanguage-link-target" href="https://pa.wikipedia.org/wiki/%E0%A8%B8%E0%A9%B0%E0%A8%AD%E0%A8%BE%E0%A8%B5%E0%A8%A8%E0%A8%BE" hreflang="pa" lang="pa" title="ਸੰਭਾਵਨਾ – 旁遮普语"><span>ਪੰਜਾਬੀ</span></a></li><li class="interlanguage-link interwiki-pcd mw-list-item"><a class="interlanguage-link-target" href="https://pcd.wikipedia.org/wiki/Probabilit%C3%A9" hreflang="pcd" lang="pcd" title="Probabilité – 庇卡底文"><span>Picard</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a class="interlanguage-link-target" href="https://pl.wikipedia.org/wiki/Prawdopodobie%C5%84stwo" hreflang="pl" lang="pl" title="Prawdopodobieństwo – 波兰语"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a class="interlanguage-link-target" href="https://pms.wikipedia.org/wiki/Probabilit%C3%A0" hreflang="pms" lang="pms" title="Probabilità – 皮埃蒙特文"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pnb mw-list-item"><a class="interlanguage-link-target" href="https://pnb.wikipedia.org/wiki/%DB%81%D9%88%D9%86_%D8%B4%DA%A9" hreflang="pnb" lang="pnb" title="ہون شک – Western Punjabi"><span>پنجابی</span></a></li><li class="interlanguage-link interwiki-ps mw-list-item"><a class="interlanguage-link-target" href="https://ps.wikipedia.org/wiki/%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84" hreflang="ps" lang="ps" title="احتمال – 普什图语"><span>پښتو</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a class="interlanguage-link-target" href="https://pt.wikipedia.org/wiki/Probabilidade" hreflang="pt" lang="pt" title="Probabilidade – 葡萄牙语"><span>Português</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a class="interlanguage-link-target" href="https://ro.wikipedia.org/wiki/Probabilitate" hreflang="ro" lang="ro" title="Probabilitate – 罗马尼亚语"><span>Română</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a class="interlanguage-link-target" href="https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C" hreflang="ru" lang="ru" title="Вероятность – 俄语"><span>Русский</span></a></li><li class="interlanguage-link interwiki-scn mw-list-item"><a class="interlanguage-link-target" href="https://scn.wikipedia.org/wiki/Prubbabbilit%C3%A0" hreflang="scn" lang="scn" title="Prubbabbilità – 西西里语"><span>Sicilianu</span></a></li><li class="interlanguage-link interwiki-sco mw-list-item"><a class="interlanguage-link-target" href="https://sco.wikipedia.org/wiki/Define:Probability" hreflang="sco" lang="sco" title="Define:Probability – 苏格兰语"><span>Scots</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a class="interlanguage-link-target" href="https://sh.wikipedia.org/wiki/Vjerojatnost" hreflang="sh" lang="sh" title="Vjerojatnost – 塞尔维亚-克罗地亚语"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a class="interlanguage-link-target" href="https://simple.wikipedia.org/wiki/Probability" hreflang="en-simple" lang="en-simple" title="Probability – Simple English"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a class="interlanguage-link-target" href="https://sk.wikipedia.org/wiki/Pravdepodobnos%C5%A5" hreflang="sk" lang="sk" title="Pravdepodobnosť – 斯洛伐克语"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-sl mw-list-item"><a class="interlanguage-link-target" href="https://sl.wikipedia.org/wiki/Verjetnost" hreflang="sl" lang="sl" title="Verjetnost – 斯洛文尼亚语"><span>Slovenščina</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a class="interlanguage-link-target" href="https://so.wikipedia.org/wiki/Itimaal" hreflang="so" lang="so" title="Itimaal – 索马里语"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a class="interlanguage-link-target" href="https://sq.wikipedia.org/wiki/Probabiliteti" hreflang="sq" lang="sq" title="Probabiliteti – 阿尔巴尼亚语"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a class="interlanguage-link-target" href="https://sr.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D0%BD%D0%BE%D1%9B%D0%B0" hreflang="sr" lang="sr" title="Вероватноћа – 塞尔维亚语"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a class="interlanguage-link-target" href="https://su.wikipedia.org/wiki/Probabilitas" hreflang="su" lang="su" title="Probabilitas – 巽他语"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a class="interlanguage-link-target" href="https://sv.wikipedia.org/wiki/Sannolikhet" hreflang="sv" lang="sv" title="Sannolikhet – 瑞典语"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-sw mw-list-item"><a class="interlanguage-link-target" href="https://sw.wikipedia.org/wiki/Yamkini" hreflang="sw" lang="sw" title="Yamkini – 斯瓦希里语"><span>Kiswahili</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a class="interlanguage-link-target" href="https://ta.wikipedia.org/wiki/%E0%AE%A8%E0%AE%BF%E0%AE%95%E0%AE%B4%E0%AF%8D%E0%AE%A4%E0%AE%95%E0%AE%B5%E0%AF%81" hreflang="ta" lang="ta" title="நிகழ்தகவு – 泰米尔语"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-tg mw-list-item"><a class="interlanguage-link-target" href="https://tg.wikipedia.org/wiki/%D0%AD%D2%B3%D1%82%D0%B8%D0%BC%D0%BE%D0%BB%D0%B8%D1%8F%D1%82" hreflang="tg" lang="tg" title="Эҳтимолият – 塔吉克语"><span>Тоҷикӣ</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a class="interlanguage-link-target" href="https://th.wikipedia.org/wiki/%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%99%E0%B9%88%E0%B8%B2%E0%B8%88%E0%B8%B0%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99" hreflang="th" lang="th" title="ความน่าจะเป็น – 泰语"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a class="interlanguage-link-target" href="https://tl.wikipedia.org/wiki/Probabilidad" hreflang="tl" lang="tl" title="Probabilidad – 他加禄语"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a class="interlanguage-link-target" href="https://tr.wikipedia.org/wiki/Olas%C4%B1l%C4%B1k" hreflang="tr" lang="tr" title="Olasılık – 土耳其语"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-tt mw-list-item"><a class="interlanguage-link-target" href="https://tt.wikipedia.org/wiki/%D0%98%D1%85%D1%82%D0%B8%D0%BC%D0%B0%D0%BB%D0%BB%D1%8B%D0%BA" hreflang="tt" lang="tt" title="Ихтималлык – 鞑靼语"><span>Татарча/tatarça</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a class="interlanguage-link-target" href="https://uk.wikipedia.org/wiki/%D0%86%D0%BC%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D1%96%D1%81%D1%82%D1%8C" hreflang="uk" lang="uk" title="Імовірність – 乌克兰语"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a class="interlanguage-link-target" href="https://ur.wikipedia.org/wiki/%D8%A7%D8%AD%D8%AA%D9%85%D8%A7%D9%84_(%D8%B9%D8%A7%D9%85)" hreflang="ur" lang="ur" title="احتمال (عام) – 乌尔都语"><span>اردو</span></a></li><li class="interlanguage-link interwiki-uz mw-list-item"><a class="interlanguage-link-target" href="https://uz.wikipedia.org/wiki/Ehtimollik" hreflang="uz" lang="uz" title="Ehtimollik – 乌兹别克语"><span>Oʻzbekcha/ўзбекча</span></a></li><li class="interlanguage-link interwiki-vec mw-list-item"><a class="interlanguage-link-target" href="https://vec.wikipedia.org/wiki/Probabi%C5%82it%C3%A0" hreflang="vec" lang="vec" title="Probabiłità – 威尼斯文"><span>Vèneto</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a class="interlanguage-link-target" href="https://vi.wikipedia.org/wiki/X%C3%A1c_su%E1%BA%A5t" hreflang="vi" lang="vi" title="Xác suất – 越南语"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-war mw-list-item"><a class="interlanguage-link-target" href="https://war.wikipedia.org/wiki/Probabilidad" hreflang="war" lang="war" title="Probabilidad – 瓦瑞语"><span>Winaray</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a class="interlanguage-link-target" href="https://wuu.wikipedia.org/wiki/%E6%A6%82%E7%8E%87" hreflang="wuu" lang="wuu" title="概率 – 吴语"><span>吴语</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a class="interlanguage-link-target" href="https://yi.wikipedia.org/wiki/%D7%9E%D7%A9%D7%9E%D7%A2%D7%95%D7%AA%D7%93%D7%99%D7%A7%D7%99%D7%99%D7%98" hreflang="yi" lang="yi" title="משמעותדיקייט – 意第绪语"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a class="interlanguage-link-target" href="https://zh-min-nan.wikipedia.org/wiki/Ki-lu%CC%8Dt" hreflang="nan" lang="nan" title="Ki-lu̍t – Chinese (Min Nan)"><span>Bân-lâm-gú</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a class="interlanguage-link-target" href="https://zh-yue.wikipedia.org/wiki/%E6%A6%82%E7%8E%87" hreflang="yue" lang="yue" title="概率 – Cantonese"><span>粤语</span></a></li></ul>
+<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a class="wbc-editpage" href="https://www.wikidata.org/wiki/Special:EntityPage/Q9492#sitelinks-wikipedia" title="编辑跨语言链接">编辑链接</a></span></div>
+</div>
+</nav>
+</div>
+</div>
+<footer class="mw-footer" id="footer" role="contentinfo">
+<ul id="footer-info">
+<li id="footer-info-lastmod"> 本页面最后修订于2022年10月6日 (星期四) 13:11。</li>
+<li id="footer-info-copyright">本站的全部文字在<a href="//zh.wikipedia.org/wiki/Wikipedia:CC-BY-SA-3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" rel="license" title="Wikipedia:CC-BY-SA-3.0协议文本">知识共享 署名-相同方式共享 3.0协议</a><a href="//creativecommons.org/licenses/by-sa/3.0/deed.zh" rel="license" style="display:none;"></a>之条款下提供，附加条款亦可能应用。（请参阅<a href="//foundation.wikimedia.org/wiki/Terms_of_Use">使用条款</a>）<br/>
+Wikipedia®和维基百科标志是<a href="//wikimediafoundation.org">维基媒体基金会</a>的注册商标；维基™是维基媒体基金会的商标。<br/>
+维基媒体基金会是按美国国内税收法501(c)(3)登记的<a href="//donate.wikimedia.org/wiki/Tax_deductibility">非营利慈善机构</a>。<br/></li>
+</ul>
+<ul id="footer-places">
+<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy">隐私政策</a></li>
+<li id="footer-places-about"><a href="/wiki/Wikipedia:%E5%85%B3%E4%BA%8E">关于维基百科</a></li>
+<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:%E5%85%8D%E8%B4%A3%E5%A3%B0%E6%98%8E">免责声明</a></li>
+<li id="footer-places-mobileview"><a class="noprint stopMobileRedirectToggle" href="//zh.m.wikipedia.org/w/index.php?title=%E6%A6%82%E7%8E%87&amp;mobileaction=toggle_view_mobile">手机版视图</a></li>
+<li id="footer-places-developers"><a href="https://developer.wikimedia.org">开发者</a></li>
+<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/zh.wikipedia.org">统计</a></li>
+<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie声明</a></li>
+</ul>
+<ul class="noprint" id="footer-icons">
+<li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img alt="Wikimedia Foundation" height="31" loading="lazy" src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88"/></a></li>
+<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img alt="Powered by MediaWiki" height="31" loading="lazy" src="/static/images/footer/poweredby_mediawiki_88x31.png" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88"/></a></li>
+</ul>
+</footer>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.732","walltime":"0.934","ppvisitednodes":{"value":3315,"limit":1000000},"postexpandincludesize":{"value":195371,"limit":2097152},"templateargumentsize":{"value":12390,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":15,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":13104,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  648.976      1 -total"," 18.04%  117.049      1 Template:Reflist"," 17.12%  111.103      1 Template:逻辑"," 16.70%  108.404      1 Template:Navbox_with_collapsible_sections"," 15.29%   99.209      1 Template:NoteTA","  8.81%   57.190      1 Template:Authority_control","  8.05%   52.265      1 Template:Cite_web","  7.40%   48.027      1 Template:Hlist","  6.45%   41.830      1 Template:Val","  5.19%   33.674      1 Template:确定性"]},"scribunto":{"limitreport-timeusage":{"value":"0.291","limit":"10.000"},"limitreport-memusage":{"value":9556219,"limit":52428800}},"cachereport":{"origin":"mw1346","timestamp":"20221009141650","ttl":1814400,"transientcontent":false}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6982\u7387","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%A6%82%E7%8E%87","sameAs":"http:\/\/www.wikidata.org\/entity\/Q9492","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q9492","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-05T14:36:55Z","dateModified":"2022-10-06T13:11:34Z","headline":"\u6578\u5b78\u57fa\u672c\u6982\u5ff5"}</script><script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"\u6982\u7387","url":"https:\/\/zh.wikipedia.org\/wiki\/%E6%A6%82%E7%8E%87","sameAs":"http:\/\/www.wikidata.org\/entity\/Q9492","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q9492","author":{"@type":"Organization","name":"\u7ef4\u57fa\u5a92\u4f53\u9879\u76ee\u8d21\u732e\u8005"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2004-04-05T14:36:55Z","dateModified":"2022-10-06T13:11:34Z","headline":"\u6578\u5b78\u57fa\u672c\u6982\u5ff5"}</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":162,"wgHostname":"mw1407"});});</script>
+</body>
+</html>

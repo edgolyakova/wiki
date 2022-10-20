@@ -1,0 +1,61 @@
+Algorithme
+Définition générale
+Algorithmes numériques
+Algorithmes non numériques
+Algorithmes dans la vie quotidienne
+Nouveaux enjeux, éthiques liés à l'intelligence artificielle
+Critiques
+Éthique des algorithmes
+Notes et références
+Annexes
+Quelques définitions connexes
+Articles connexes
+Liens externes
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+déplacer vers la barre latérale
+masquer
+Un algorithme est une suite finie et non ambiguë d'instructions et d’opérations permettant de résoudre une classe de problèmes.
+Le mot algorithme vient d'Al-Khwârizmî (en arabe : الخوارزمي), nom d'un mathématicien persan du IXe siècle.
+Le domaine qui étudie les algorithmes est appelé l'algorithmique.
+On retrouve aujourd'hui des algorithmes dans de nombreuses applications telles que le fonctionnement des ordinateurs, la cryptographie, le routage d'informations, la planification et l'utilisation optimale des ressources, le traitement d'images, le traitement de textes, la bio-informatique, etc.
+Un algorithme est une méthode générale pour résoudre un type de problèmes.
+Il est dit correct lorsque, pour chaque instance du problème, il se termine en produisant la bonne sortie, c'est-à-dire qu'il résout le problème posé.
+L'efficacité d'un algorithme est mesurée notamment par :
+Les ordinateurs sur lesquels s'exécutent ces algorithmes ne sont pas infiniment rapides, car le temps de machine reste une ressource limitée, malgré une augmentation constante des performances des ordinateurs.
+Un algorithme sera donc dit performant s'il utilise avec parcimonie les ressources dont il dispose, c'est-à-dire le temps CPU, la mémoire vive et (objet de recherches récentes) la consommation électrique. L’analyse de la complexité algorithmique permet de prédire l'évolution en temps calcul nécessaire pour amener un algorithme à son terme, en fonction de la quantité de données à traiter.
+Donald Knuth (1938-) liste, comme prérequis d'un algorithme, cinq propriétés :
+George Boolos (1940-1996), philosophe et mathématicien, propose la définition suivante :
+Gérard Berry (1948-), chercheur en science informatique, en donne la définition grand public suivante :
+Les algorithmes sont des objets historiquement dédiés à la résolution de problèmes arithmétiques, comme la multiplication de deux nombres.
+Ils ont été formalisés bien plus tard avec l'avènement de la logique mathématique et l'émergence des machines qui permettaient de les mettre en œuvre, à savoir les ordinateurs.
+La plupart des algorithmes ne sont pas numériques.
+On peut distinguer :
+Voir aussi : Liste de sujets généraux sur les algorithmes 
+L'algorithmique intervient de plus en plus dans la vie quotidienne.
+Les progrès de ce qu'on appelle l'intelligence artificielle s'appuient sur un algorithmique de plus en plus complexe qui devient l'un des rouages cachés du Web 2.0 et des grands réseaux sociaux.
+À partir des années 2000, ce qui est appelé « algorithmique » est un ensemble de « boîtes noires » (autrement dit de processus informatiques dont on ne sait pas ce qu'il y a à l'intérieur) qui exploitent et influencent les comportements inconscients des consommateurs, et des électeurs.
+Au milieu des années 2010 la plate-forme logicielle Ripon permet secrètement l'élection de Donald Trump.
+Elle le fait grâce à une intelligence artificielle s'appuyant sur des logiciels issus de la guerre psychologique telle que développée en Afghanistan, et désormais nourrie du big data disponible sur l'Internet, et en particulier de données personnelles piratées dans plusieurs dizaines de millions de comptes Facebook.
+Ce piratage a été réalisé par Cambridge analytica au Royaume-Uni (devenu Emerdata en aout 2017) sur la plate-forme Facebook insuffisamment protégée. Les données ont été analysées et utilisées par sa société-sœur canadienne, Aggregate IQ, sous le contrôle du groupe SCL (leur société-mère) via Ripon.
+Cette plateforme Ripon ayant été conçue pour produire des profils psychographiques et des processus d'utilisation dans des campagnes électorales microciblées.
+Ces campagnes visaient à influer sur les émotions des électeurs, pour modifier leurs intentions de vote, ou les inciter à rester ou devenir abstentionnistes,,.
+Ces processus plus ou moins frauduleux (la législation de protection des individus sur l'Internet étant encore émergente) seront découvertes tardivement, dans le cadre du scandale Facebook-Cambridge Analytica/Aggregate IQ, après que ces outils aient conduits à l'élection de D. Trump, puis au Brexit, et qu'ils aient influencé au moins une vingtaine d'élections ou de référendums dans le monde.
+Dans les années 2010, les lanceurs d'alertes comme le canadien Christopher Wylie, Carole Cadwalladr, Shahmir Sanni, Brittany Kaiser, David Caroll, des journalistes comme Carole Cadwalladr et des ONG telles que AlgorithmWatch alertent sur les dérives éthiques qu'ils constatent dans l'usage malhonnête des algorithmes.
+Dans la vie quotidienne, un glissement de sens s'est opéré, ces dernières années, dans le concept d'« algorithme » qui devient à la fois plus réducteur, puisque ce sont pour l'essentiel des algorithmes de gestion du big data, et d'autre part plus universel en ce sens qu'il intervient dans tous les domaines du comportement quotidien. La famille des algorithmes dont il est question effectue des calculs à partir de grandes masses de données (les big data). Ils réalisent des classements, sélectionnent des informations et en déduisent un profil, en général de consommation, qui est ensuite utilisé ou exploité commercialement.
+Les implications sont nombreuses et touchent les domaines les plus variés. Mais les libertés individuelles et collectives pourraient être finalement mises en péril, comme le montre la mathématicienne américaine Cathy O'Neil dans le livre Weapons of Math Destruction, publié en 2016 et sorti en français en 2018 sous le titre Algorithmes : la bombe à retardement (aux éditions Les Arènes).
+« Aujourd’hui, les modèles mathématiques et les algorithmes prennent des décisions majeures, servent à classer et catégoriser les personnes et les institutions, influent en profondeur sur le fonctionnement des États sans le moindre contrôle extérieur.
+Et avec des effets de bords incontrôlables. […] Il s’agit d’un pouvoir utilisé contre les gens.
+Et pourquoi ça marche ? Parce que les gens ne connaissent pas les maths, parce qu’ils sont intimidés. C’est cette notion de pouvoir et de politique qui m’a fait réaliser que j’avais déjà vu ça quelque part.
+La seule différence entre les modèles de risque en finances et ce modèle de plus-value en science des données, c’est que, dans le premier cas, en 2008, tout le monde a vu la catastrophe liée à la crise financière.
+Mais, dans le cas des profs, personne ne voit l’échec. Ça se passe à un niveau individuel.
+Des gens se font virer en silence, ils se font humilier, ils ont honte d’eux. »
+Dans cet ouvrage, l'auteure alerte le lecteur sur les décisions majeures que nous déléguons aujourd'hui aux algorithmes dans des domaines aussi variés que l'éducation, la santé, l'emploi et la justice, sous prétexte qu'ils sont neutres et objectifs, alors que, dans les faits, ils donnent lieu à « des choix éminemment subjectifs, des opinions, voire des préjugés insérés dans des équations mathématiques ».
+L'opacité des algorithmes est l'une des raisons principales de ces critiques.
+Une meilleure information sur leur mode de fonctionnement spécifique permettrait de rendre plus clair le « contrat social passé entre les internautes et les calculateurs ». La description pour chaque algorithme de son propre principe de classement de l'information aide l'utilisateur à mieux comprendre les choix proposés par l'algorithme et les résultats obtenus.
+Les philosophes Wendell Wallach et Colin Allen ont soulevé des questions liées à l'implantation par les programmeurs de règles morales dans les algorithmes d'intelligence artificielle : « Aujourd'hui, les systèmes [automatiques] s'approchent d'un niveau de complexité qui, selon nous, exige qu'ils prennent eux-mêmes des décisions morales […]. Cela va élargir le cercle des agents moraux au-delà des humains à des systèmes artificiellement intelligents, que nous appellerons des agents moraux artificiels ». Dans son livre Faire la morale aux robots : une introduction à l'éthique des algorithmes, Martin Gibert met en évidence le rôle de la programmation dans l'éthique des robots, en traitant plus précisément des enjeux moraux liés à la construction des algorithmes.
+Il définit un algorithme comme « rien de plus qu'une suite d'instructions – ou de règles – pour parvenir à un objectif donné ». L'éthique des algorithmes poserait donc une question : « Quelles règles implanter dans les robots, et comment le faire ? ». Gibert souligne notamment l'ambiguïté de ces agents moraux artificiels :
+« Les agents moraux artificiels (AMA) ne sont pas cependant des agents moraux au sens fort du terme.
+Contrairement aux humains, ils ne semblent pas imputables [sic] de leurs actes.
+Ils n'ont toutefois pas besoin de l'être pour prendre des décisions moralement significatives et soulever tout un tas de questions en éthique des algorithmes. »
+Sur les autres projets Wikimedia :

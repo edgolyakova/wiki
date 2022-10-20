@@ -1,0 +1,207 @@
+Chaleur (thermodynamique)
+Mécanismes de transfert de chaleur[modifier | modifier le code]
+Notation et unités[modifier | modifier le code]
+Thermodynamique[modifier | modifier le code]
+Histoire[modifier | modifier le code]
+Transfert thermique[modifier | modifier le code]
+Approches de la chaleur[modifier | modifier le code]
+Chaleur latente et chaleur sensible[modifier | modifier le code]
+Capacité thermique[modifier | modifier le code]
+« Chaud »[modifier | modifier le code]
+Références[modifier | modifier le code]
+Voir aussi[modifier | modifier le code]
+Chaleur et entropie[modifier | modifier le code]
+Chaleur et enthalpie[modifier | modifier le code]
+Transfert thermique entre deux corps[modifier | modifier le code]
+Machine thermique[modifier | modifier le code]
+Pompe à chaleur[modifier | modifier le code]
+Approche macroscopique[modifier | modifier le code]
+Approche microscopique[modifier | modifier le code]
+Calorimétrie[modifier | modifier le code]
+Ingénierie[modifier | modifier le code]
+Bibliographie[modifier | modifier le code]
+Liens externes[modifier | modifier le code]
+Pages pour les contributeurs déconnectés en savoir plus
+Sommaire
+				déplacer vers la barre latérale
+masquer
+En thermodynamique, la chaleur est l'énergie échangée lors d'un transfert thermique vers ou depuis un système thermodynamique en raison d'une différence de température et par des mécanismes autres que le travail thermodynamique ou le transfert de matière[1],[2],[3],[4],[5],[6].
+Le transfert de chaleur est un processus impliquant plus d'un système, et non une propriété d'un seul système. En thermodynamique, l'énergie transférée sous forme de chaleur contribue au changement de la fonction d'état d'énergie interne ou d'enthalpie du système. Ceci doit être distingué de la conception du langage ordinaire de la chaleur comme propriété d'un système isolé.
+La quantité d'énergie transférée sous forme de chaleur dans un processus est la quantité d'énergie transférée à l'exclusion de tout travail thermodynamique effectué et de toute énergie contenue dans la matière transférée. Pour avoir une définition précise de la chaleur, il faut qu'elle se produise par un chemin qui n'inclut pas de transfert de matière[7].
+La quantité d'énergie transférée sous forme de chaleur peut être mesurée par son effet sur les états des corps en interaction. Par exemple, le transfert de chaleur peut être mesuré par la quantité de glace fondue, ou par le changement de température d'un corps dans l'environnement du système[8]. Ces méthodes font partie de la calorimétrie.
+Le symbole conventionnel utilisé pour représenter la quantité de chaleur transférée dans un processus thermodynamique est Q. En tant que quantité d'énergie transférée, l'unité SI de chaleur est le joule (J).
+Les mécanismes de transfert de chaleur comprennent la conduction, due à la diffusion progressive de l'agitation thermique dans la matière par contact direct de corps immobiles ; la convection, transfert thermique qui accompagne les déplacements macroscopiques de la matière ; et le rayonnement, entre des corps séparés par propagation de photons.
+L'échauffement peut par exemple se faire par frottement du à un travail mécanique, électrique, magnétique ou gravitationnel. Lorsqu'il existe un chemin approprié entre deux systèmes avec des températures différentes, le transfert de chaleur se produit nécessairement et spontanément du système le plus chaud vers le système le plus froid. La conduction thermique se produit par le mouvement stochastique (aléatoire) de particules microscopiques (telles que des atomes ou des molécules). En revanche, le travail thermodynamique est défini par des mécanismes qui agissent macroscopiquement et directement sur les variables d'état du corps entier du système. Par exemple, un changement du volume du système par le mouvement d'un piston avec une force mesurable de l'extérieur ou un changement de polarisation diélectrique du système par un changement mesurable d'un champ électrique.
+La définition du transfert de chaleur n'exige pas que le processus soit continu ou étalé dans le temps. Par exemple, un éclair peut transférer de la chaleur vers un corps.
+La circulation convective permet à un corps de chauffer un autre, à travers un fluide de circulation intermédiaire qui transporte l'énergie d'une frontière de l'un à une limite de l'autre. Le transfert de chaleur proprement dit se fait donc par conduction et rayonnement entre le fluide et les corps respectifs[9],[10],[11]. La circulation convective, bien que spontanée, ne se produit pas nécessairement et immédiatement lors de l'apparition d'une légère différence de température. Pour qu'elle se produise, il est nécessaire de dépasser un certain seuil donné par le nombre de Rayleigh.
+Bien que la chaleur circule spontanément d'un corps plus chaud vers un corps plus froid, il est possible de construire une pompe à chaleur qui dépense du travail pour transférer l'énergie d'un corps plus froid vers un corps plus chaud. En revanche, une machine thermique réduit une différence de température existante pour fournir du travail à un autre système. Un autre type de dispositif thermodynamique de transfert de chaleur est un dissipateur de chaleur actif, qui consacre du travail à accélérer le transfert d'énergie vers un environnement plus froid à partir d'un corps plus chaud, par exemple pour refroidir un composant informatique[12].
+En tant qu'énergie, la chaleur a pour unité joule (J) dans le Système international d'unités (SI). Cependant, dans des domaines appliqués à l'ingénierie, la calorie ou la British thermal unit (BTU, pour les pays anglo-saxons) sont souvent utilisées. L'unité standard pour le taux de chaleur transférée est le watt (W), défini comme un joule par seconde.
+L'utilisation du symbole Q pour la quantité totale d'énergie transférée sous forme de chaleur est due à Rudolf Clausius en 1850 : « Que la quantité de chaleur qui doit être transmise lors de la transition du gaz de manière définie d'un état donné à un autre, dans lequel son volume est v et sa température t, soit appelée Q. »
+La chaleur dégagée par un système vers son environnement est par convention une quantité négative (Q < 0) ; tandis que lorsqu'un système absorbe la chaleur de son environnement, elle est respectivement positive (Q > 0). Le flux thermique, ou flux de chaleur, est noté 
+
+
+
+ϕ
+
+
+{\displaystyle \phi }
+
+ ou  
+
+
+
+
+
+
+Q
+˙
+
+
+
+
+
+{\displaystyle {\dot {Q}}}
+
+. Cette dernière notation ne doit pas être confondu avec une dérivée temporelle d'une fonction d'état — qui peut également être écrite avec la notation par points — car la chaleur n'est pas une fonction d'état[13]. La densité de flux thermique est définie comme le taux de transfert de chaleur par unité de section transversale (watts par mètre carré).
+En 1856, Rudolf Clausius, se référant à des systèmes fermés dans lesquels les transferts de matière ne se produisent pas, définit ainsi le deuxième principe de la thermodynamique : "si deux transformations, sans nécessiter d'autre changement permanent, peuvent se remplacer mutuellement, et être appelées équivalentes, alors les générations de la quantité de chaleur Q du travail à la température T, ont la valeur d'équivalence[14],[15] :
+En 1865, il en vient à définir l'entropie symbolisée par S, de telle sorte que, du fait de l'apport de la quantité de chaleur Q à la température T, l'entropie du système est augmentée de
+Dans un transfert d'énergie sous forme de chaleur sans travail, il y a des changements d'entropie à la fois dans l'environnement qui perd de la chaleur et dans le système qui en gagne. L'augmentation, ΔS, de l'entropie dans le système peut être décomposée en deux parties : un incrément, ΔS′, qui correspond à la variation −ΔS′ d'entropie dans l'environnement, et un incrément supplémentaire, ΔS′′, qui peut être considéré comme «généré» ou «produit» dans le système. D'où :
+Le changement total d'entropie dans le système et dans son environnement est donc
+On dit alors qu'une quantité d'entropie ΔS′ a été transférée de l'environnement vers le système.
+Du deuxième principe de la thermodynamique découle celui du transfert spontané de chaleur, dans lequel la température du système est différente de celle de l'environnement :
+Pour l'analyse mathématique des transferts, on utilise souvent des processus fictifs dits réversibles, la température T du système étant à peine inférieure à celle du milieu environnant et le transfert se déroulant à une vitesse imperceptiblement lente.
+Selon la définition de la formule (1), pour un tel processus fictif réversible, une quantité de chaleur transférée δQ (différentielle inexacte) est analysée comme une quantité T dS, avec dS un différentiel exact :
+Cette égalité n'est valable que pour un transfert fictif dans lequel il n'y a pas de production d'entropie, c'est-à-dire qu'on a 
+
+
+
+Δ
+
+S
+
+′
+′
+
+
+=
+0.
+
+
+{\displaystyle \Delta S^{\prime \prime }=0.}
+Si, au contraire, le processus est réel avec irréversibilité, alors il y a production d'entropie telle que dS = 0. La quantité T dS est appelée par Clausius la "chaleur non compensée", bien que cela ne concorde pas avec la terminologie actuelle.
+Cela conduit à 
+
+
+
+T
+
+
+d
+
+S
+≥
+δ
+Q
+.
+
+
+{\displaystyle T\,\mathrm {d} S\geq \delta Q.}
+
+ qui est le deuxième principe de la thermodynamique pour les systèmes fermés.
+En thermodynamique hors équilibre, qui fait l'hypothèse d'un équilibre thermodynamique local, une notation spéciale est définie. Le transfert d'énergie sous forme de chaleur est supposé avoir lieu à travers une différence de température infinitésimale, de sorte que l'élément du système et son environnement ont presque la même température T. On écrit
+où par définition
+δ
+Q
+=
+T
+
+
+d
+
+
+S
+
+
+e
+
+
+
+.
+
+
+{\displaystyle \delta Q=T\,\mathrm {d} S_{\mathrm {e} }.}
+Le deuxième principe pour un processus naturel affirme ainsi que
+Pour un système fermé (un système à partir duquel aucune matière ne peut entrer ou sortir), une version du premier principe de la thermodynamique stipule que le changement d'énergie interne ΔU du système est égal à la quantité de chaleur Q fournie au système moins la quantité de travail thermodynamique W effectué par le système sur son environnement.
+Cette formule peut être réécrite de manière à exprimer une définition de la quantité d'énergie transférée sous forme de chaleur, basée uniquement sur le concept de travail adiabatique, si l'on suppose que ΔU est défini et mesuré uniquement par des processus de travail adiabatique :
+Le travail thermodynamique effectué par le système passe par des mécanismes définis par ses variables d'état thermodynamique, par exemple son volume V, et non par des variables qui impliquent nécessairement des mécanismes dans l'environnement.
+L'énergie interne, U, est une fonction d'état. Dans les processus cycliques, tels que le fonctionnement d'une machine thermique, les fonctions d'état reviennent à leurs valeurs initiales à la fin d'un cycle. Le différentiel, ou incrément infinitésimal, d'énergie interne dans un processus infinitésimal est un différentiel exact dU. En revanche, aucun des incréments infinitésimaux δQ ni δW dans un processus infinitésimal ne représente l'état du système. Ainsi, des incréments infinitésimaux de chaleur et de travail sont des différentiels inexacts.
+Le deuxième principe de la thermodynamique observe que si de la chaleur est fournie à un système dans lequel aucun processus irréversible n'a lieu et qui a une température T bien définie, l'incrément de chaleur δQ et la température T forment le différentiel exact
+et S, l'entropie du corps, est une fonction d'état. De même, avec une pression bien définie, P, derrière la frontière mobile, le différentiel de travail, δW, et la pression, P, se combinent pour former le différentiel exact
+avec V le volume du système, qui est une variable d'état. En général, pour les systèmes homogènes,
+Cette équation illustre le fait que l'énergie interne peut être considérée comme une fonction de ses variables naturelles S et V :
+Si V est constant :
+et si P est constant
+avec H l'enthalpie définie par
+L'enthalpie peut être considérée comme une fonction de ses variables naturelles S et P, pouvant s'écrire :
+Comme l'énergie interne, l'enthalpie exprimée en fonction de ses variables naturelles est un potentiel thermodynamique et contient toutes les informations thermodynamiques sur un corps[22],[23].
+Si une quantité Q de chaleur est ajoutée à un corps pendant qu'il effectue un travail d'expansion W sur son environnement, on a
+Si cela est contraint de se produire à pression constante avec ΔP = 0, le travail d'expansion W effectué par le corps est donné par W = P ΔV . Avec le premier principe de la thermodynamique, on a
+Par conséquent, par substitution, on a
+Dans ce cas particulier, l'augmentation d'enthalpie est égale à la quantité de chaleur ajoutée au système. Étant donné que de nombreux processus se déroulent à pression constante, ou approximativement à la pression atmosphérique, l'enthalpie est couramment utilisée pour calculer la chaleur[24]. Elle est parfois également appelée fonction de chaleur[25].
+En termes des variables naturelles S and P de la fonction d'état H, ce processus de changement d'état de l'état 1 à l'état 2 peut être exprimé comme
+Par conséquent,
+Dans ce cas, l'intégrale spécifie une quantité de chaleur transférée à pression constante.
+En langage commun, la chaleur (tout comme l'anglais heat, l'allemand Wärme, le latin calor, le grec θάλπος, etc.) désigne la perception humaine de l'énergie thermique et de la température. La spéculation sur l'énergie thermique ou la "chaleur" en tant que forme distincte de la matière possède une longue histoire, incarnée notamment par la théorie calorique, le phlogistique et le signe feu.
+La compréhension moderne de l'énergie thermique provient de la théorie mécanique de la chaleur de Thompson de 1798 (An Experimental Enquiry Concerning the Source of the Heat which is Excited by Friction), postulant un équivalent mécanique de la chaleur. Une collaboration entre Nicolas Clément et Sadi Carnot (Réflexions sur la puissance motrice du feu) dans les années 1820 aboutit à des réflexions proches[26]. En 1845, James Prescott Joule publie un article intitulé The Mechanical Equivalent of Heat, dans lequel il spécifie une valeur numérique pour la quantité de travail mécanique nécessaire pour "produire une unité de chaleur". La théorie de la thermodynamique classique mûrit dans les années 1850 à 1860. Dans Heat Considered as Mode of Motion (1863), John Tyndall contribue à populariser l'idée de la chaleur comme un mouvement auprès du public anglophone. La théorie est développée dans des publications académiques en français, anglais et allemand. Dès ce moment, le terme technique français chaleur utilisé par Carnot est traduit par l'anglais heat et l'allemand Wärme.
+La fonction Q est introduite par Rudolf Clausius en 1850. Clausius la décrit avec le composé allemand Wärmemenge, traduisible par «quantité de chaleur».
+James Clerk Maxwell dans sa Theory of Heat (1871) énonce quatre stipulations pour la définition de la chaleur:
+L'utilisation de «chaleur» comme forme abrégée du concept spécifique de «quantité d'énergie transférée sous forme de chaleur» conduit à une certaine confusion terminologique au début du XXe siècle. Le sens générique de «chaleur», même en thermodynamique classique, est simplement «énergie thermique»[28]. Depuis les années 1920, il est recommandé d'utiliser énergie thermique lorsque l'on entend «chaleur» au sens général, tandis que «chaleur» est réservée au contexte très spécifique du transfert d'énergie thermique entre deux systèmes. Leonard Benedict Loeb dans sa Kinetic Theory of Gases (1927) met un point d'honneur à utiliser «quantité de chaleur» en se référant à Q :
+Une définition fréquente de la chaleur est basée sur les travaux de Constantin Carathéodory (1909), faisant référence aux processus en système fermé[29],[30],[31],[32],[33],[34].
+L'énergie interne UX d'un corps dans un état arbitraire X peut être déterminée par des quantités de travail adiabatiquement effectuées par le corps sur son environnement lorsqu'il part d'un état de référence O. Un tel travail est évalué à travers des quantités définies dans l'environnement du corps. On suppose qu'un tel travail peut être évalué avec précision, sans erreur due au frottement dans l'environnement.
+Pour la définition de la quantité d'énergie transférée sous forme de chaleur, on envisage habituellement qu'un état d'intérêt arbitraire Y soit atteint à partir de l'état O par un processus à deux composants, l'un adiabatique et l'autre non adiabatique. Pour plus de commodité, on peut dire que la composante adiabatique est la somme : du travail effectué par le corps à travers le changement de volume par le mouvement des parois tandis que la paroi non adiabatique est temporairement rendue adiabatique ; et du travail adiabatique isochore.
+Ensuite, la composante non adiabatique est un processus de transfert d'énergie à travers la paroi qui ne laisse passer que la chaleur, nouvellement rendue accessible aux fins de ce transfert, de l'environnement vers le corps. Le changement d'énergie interne pour atteindre l'état Y partir de l'état O est la différence des deux quantités d'énergie transférées.
+Bien que Carathéodory lui-même n'ait pas énoncé une telle définition, il est de coutume dans les études théoriques de définir la chaleur Q par rapport à son environnement de façon similaire à sa nomenclature. Ainsi, le processus combiné de changement de l'état Y partir de l'état O permet d'obtenir la chaleur Q = ΔUY − W avec ΔUY le changement de énergie interne et W la quantité de travail effectuée par le corps sur son pourtour par le processus adiabatique.
+Avant la définition mathématique rigoureuse de la chaleur basée sur l'article de Carathéodory de 1909, la chaleur, la température et l'équilibre thermique étaient historiquement présentés dans les manuels de thermodynamique comme des notions conjointement primitives[35]. Carathéodory introduit ainsi son article de 1909 par : "La proposition selon laquelle la discipline de la thermodynamique peut être justifiée sans recourir à aucune hypothèse qui ne peut être vérifiée expérimentalement doit être considérée comme l'un des résultats les plus remarquables de la recherche en thermodynamique accomplie au cours du siècle dernier"[36],[37].
+L'affirmation que le transfert de chaleur est purement dû à la non-uniformité spatiale de la température, et se fait par conduction et rayonnement, des corps plus chauds aux corps plus froids est parfois critiqué car reposant nécessairement sur un «raisonnement circulaire». Pour infirmer cette proposition, Truesdell et Bharatha (1977) ont notamment réalisé le développement mathématique rigoureusement logique de la théorie[38].
+A propos de la conduction, J. R. Partington écrit en 1949 : "si un corps chaud est mis en contact conducteur avec un corps froid, la température du corps chaud baisse et celle du corps froid augmente, et on dit qu'une quantité de chaleur est passée du corps chaud au corps froid[39]".
+A propos du rayonnement, James Clerk Maxwell écrit : "dans le rayonnement, le corps plus chaud perd de la chaleur, et le corps plus froid reçoit de la chaleur au moyen d'un processus se produisant dans un milieu intermédiaire qui ne devient pas lui-même chaud"[40].
+Maxwell écrit que la convection en tant que telle "n'est pas un phénomène purement thermique"[41]. En thermodynamique, la convection est considérée de façon générale comme un transport d'énergie interne. Si, cependant, la convection est fermée et circulaire, alors elle peut être considérée comme un intermédiaire qui transfère l'énergie sous forme de chaleur entre les corps source et de destination, car elle ne transfère que de l'énergie et non de la matière entre la source et le corps de destination[11].
+Conformément au premier principe pour les systèmes fermés, l'énergie transférée uniquement sous forme de chaleur quitte un corps et entre dans un autre, modifiant les énergies internes de chacun. Le transfert, entre les corps, d'énergie en tant que travail est une manière complémentaire de changer les énergies internes.
+Les moteurs à fonctionnement cyclique, qui n'utilisent que des transferts de chaleur et de travail, ont deux sources thermiques, une chaude et une froide. Ils peuvent être classés en fonction de la plage de températures de fonctionnement du corps de travail, par rapport à ces réservoirs. Dans un moteur thermique, le corps de travail est à tout moment plus froid que le réservoir chaud et plus chaud que le réservoir froid. Dans un sens, il utilise le transfert de chaleur pour produire du travail. Dans une pompe à chaleur, le corps de travail devient à la fois plus chaud que le réservoir chaud et plus froid que le réservoir froid. Dans un sens, il utilise le travail pour produire un transfert de chaleur.
+En thermodynamique classique, un mécanisme couramment considéré est la machine thermique. Elle se compose de trois corps : une turbine/moteur, une source chaude et une source froide. Au cours d'un processus cyclique, un fluide échange avec l'extérieur de l'énergie sous forme de travail et de chaleur.
+La source chaude fournit toujours et uniquement de l'énergie et la source froide reçoit toujours et uniquement de l'énergie. Les machines thermiques atteignent un meilleur rendement lorsque la différence entre la température initiale et finale est plus grande.
+Un autre modèle couramment considéré est la pompe à chaleur. Ce dispositif permet de transférer de l'énergie thermique d'un milieu à basse température (source froide) vers un milieu à haute température (source chaude). Ce dispositif permet donc d'inverser le sens naturel du transfert spontané de l'énergie thermique.
+Néanmoins, pour la description thermodynamique des processus hors équilibre, il est souhaitable de considérer l'effet d'un gradient de température établi par l'environnement à travers le système d'intérêt lorsqu'il n'y a pas de barrière physique entre le système et l'environnement, c'est-à-dire quand ils sont ouverts l'un par rapport à l'autre. L'impossibilité d'une définition mécanique en termes de travail pour cette circonstance n'altère en rien le fait physique qu'un gradient de température provoque un flux diffusif d'énergie interne, processus qui, du point de vue thermodynamique, pourrait être proposé comme concept candidat au transfert d'énergie sous forme de chaleur.
+Fonctionnellement, une pompe à chaleur peut être utilisée de deux manières. Elle peut servir pour du chauffage, en augmentant la température de la source chaude, ou pour de la réfrigération, en baissant la température de la source froide.
+Selon Max Planck, il existe trois principales approches conceptuelles de la chaleur[42]. L'une est l'approche de la théorie microscopique ou cinétique. Les deux autres sont des approches macroscopiques.
+La première approche macroscopique est l'approche depuis la loi de conservation de l'énergie prise comme antérieure à la thermodynamique, avec une analyse mécanique des processus, par exemple dans les travaux de Hermann von Helmholtz. Cette vision est surtout employée en théorie.
+L'autre approche macroscopique est la thermodynamique, qui admet la chaleur comme concept primitif, qui contribue, par induction scientifique à la connaissance de la loi de conservation de l'énergie[43]. Cette vision est largement considérée comme pratique, la quantité de chaleur étant mesurée par calorimétrie. Un calorimètre est un corps dans l'environnement du système, avec sa propre température et son énergie interne. Lorsqu'il est connecté au système par un chemin de transfert de chaleur, les changements d'énergie interner permettent de mesurer le transfert de chaleur.
+Martin Bailyn distingue également les deux approches macroscopiques comme une mécanique et une thermodynamique[44]. Le point de vue thermodynamique est adopté par les fondateurs de la thermodynamique au XIXe siècle.
+L'approche mécanique est lancée par Helmholtz et développée et utilisée au XXe siècle, en grande partie grâce à l'influence de Max Born[45]. La quantité de chaleur transférée comme chaleur est considérée comme un concept dérivé, défini uniquement pour les systèmes fermés comme la quantité de chaleur transférée par des mécanismes autres que le transfert de travail, ce dernier étant considéré comme primitif pour la thermodynamique, définie par la mécanique macroscopique. Selon Born, le transfert d'énergie interne entre systèmes ouverts qui accompagne le transfert de matière "ne peut être réduit à la mécanique"[46]. Il s'ensuit qu'il n'y a pas de définition bien fondée des quantités d'énergie transférées sous forme de chaleur ou de travail associées à un transfert de matière.
+Dans cette circonstance, on peut s'attendre à ce qu'il puisse également y avoir d'autres facteurs actifs du flux diffusif d'énergie interne, tels qu'un gradient de potentiel chimique qui entraîne le transfert de matière, ou un gradient de potentiel électrique qui entraîne le courant électrique et l'iontophorèse. Ces effets interagissent généralement avec le flux diffusif d'énergie interne entraîné par le gradient de température, et ces interactions sont appelées effets de diffusion croisés[47].
+Si les effets croisés qui entraînent un transfert diffusif d'énergie interne étaient également étiquetés comme des transferts de chaleur, ils enfreindraient parfois la règle selon laquelle le transfert de chaleur ne peut se produire que dans le sens d'un gradient décroissant de température. Ils pourraient également contredire le principe selon lequel tout transfert de chaleur est d'un seul et même type, principe fondé sur l'idée de conduction thermique entre systèmes fermés.
+Lorsqu'il y a transfert de matière, les lois exactes par lesquelles le gradient de température entraîne le flux diffusif d'énergie interne doivent généralement être supposées plutôt que d'être exactement connaissables et, dans de nombreux cas, sont pratiquement invérifiables. Par conséquent, lorsqu'il y a transfert de matière, le calcul de la composante correspondant uniquement au flux thermique dans le flux diffusif d'énergie interne repose sur des hypothèses pratiquement invérifiables[48],[49]. C'est une raison pour concevoir la chaleur comme un concept spécialisé qui concerne principalement et précisément les systèmes fermés, et qui ne s'applique que de manière très restreinte aux systèmes ouverts.
+Dans de nombreux écrits sur ce contexte, le terme «flux de chaleur» est utilisé lorsque ce que l'on entend serait précisément appelé flux diffusif d'énergie interne. Un tel usage du terme «flux de chaleur» est un résidu d'un langage plus ancien et désormais obsolète[50].
+Dans la théorie cinétique des gaz, la chaleur est expliquée via les mouvements microscopiques et les interactions des particules de la matière, telles que les électrons, les atomes et les molécules[51]. La signification immédiate de l'énergie cinétique des particules n'est pas la chaleur mais plutôt une composante de l'énergie interne.
+En termes microscopiques, la chaleur est une quantité transférée et est décrite par une théorie du transport, non comme une énergie cinétique régulièrement localisée des particules. Le transfert de chaleur provient de gradients ou de différences de température, par l'échange diffus d'énergie cinétique et potentielle des particules, par des collisions de particules et d'autres interactions. Une expression précoce et vague de ceci est faite par Francis Bacon[52],[53]. Des versions précises et détaillées de cette théorie sont développées au XIXe siècle[54].
+En mécanique statistique, pour un système fermé sans transfert de matière, la chaleur est le transfert d'énergie associé à une action microscopique désordonnée sur le système, c'est-à-dire des sauts de nombres d'occupation des niveaux d'énergie du système, sans changement des valeurs des niveaux d'énergie eux-mêmes[55]. Il est possible que le travail thermodynamique macroscopique modifie les nombres d'occupation sans changer les valeurs des niveaux d'énergie du système eux-mêmes, mais le transfert de chaleur se distingue car il est entièrement dû à une action microscopique désordonnée, y compris le transfert radiatif. Une définition mathématique du concept de micro-état peut être formulée pour de petits incréments de travail adiabatique quasi-statique en termes de distribution statistique d'un ensemble de micro-états.
+La quantité de chaleur transférée peut être mesurée par calorimétrie ou déterminée par des calculs basés sur d'autres quantités. La calorimétrie est la base empirique de l'idée de quantité de chaleur transférée dans un processus. La chaleur transférée est mesurée par des changements dans un corps de propriétés connues : une élévation de température, un changement de volume ou de longueur, un changement de phase (comme la fonte de la glace), etc.[56],[57]
+Un calcul de quantité de chaleur transférée peut s'appuyer sur une quantité hypothétique d'énergie transférée sous forme de processus adiabatique et sur le premier principe de la thermodynamique. Un tel calcul est la principale approche de nombreuses études théoriques sur la quantité de chaleur transférée[29],[58],[59].
+La discipline du transfert thermique, considérée comme un aspect du génie mécanique et du génie chimique, traite des méthodes appliquées spécifiques par lesquelles l'énergie thermique d'un système est générée, convertie ou transférée à un autre système. Bien que la définition de la chaleur signifie implicitement le transfert d'énergie, le terme "transfert de chaleur" ou transfert thermique englobe cet usage traditionnel dans de nombreuses disciplines d'ingénierie et dans le langage courant.
+Le "transfert thermique" est généralement décrit comme incluant les mécanismes de conduction thermique, de convection thermique, de rayonnement thermique, mais peut inclure un transfert de masse ou un processus de transition de phase.
+La convection peut être décrite comme les effets combinés de la conduction et de l'écoulement de fluide. Du point de vue thermodynamique, la chaleur s'écoule dans un fluide par diffusion pour augmenter son énergie, le fluide transfère alors par advection cette énergie interne accrue d'un endroit à un autre, et ceci est alors suivi d'une seconde interaction thermique qui transfère la chaleur à un deuxième corps ou système, toujours par diffusion. L'ensemble de ce processus est souvent considéré comme un mécanisme supplémentaire de transfert thermique bien que, techniquement, le "transfert thermique" et donc le chauffage et le refroidissement se produisent uniquement à chaque extrémité d'un tel écoulement conducteur (et donc pas de façon continue tout au long du fluide). Ainsi, on peut dire que la conduction "transfère" de la chaleur comme résultat net du processus, mais peut ne pas le faire à chaque instant dans le processus de convection compliqué.
+Dans une conférence de 1847 intitulée On Matter, Living Force, and Heat, James Prescott Joule caractérise les termes chaleur latente et chaleur sensible comme des composants de la chaleur affectant chacun des phénomènes physiques distincts, l'énergie potentielle et l'énergie cinétique des particules, respectivement[60]. Il décrit la chaleur latente comme une énergie caractérisée par la distanciation des particules, c'est-à-dire une forme d'énergie potentielle, et la chaleur sensible comme une énergie impliquant le mouvement des particules, c'est-à-dire l'énergie cinétique.
+La chaleur latente est la chaleur libérée ou absorbée par une substance chimique ou un système thermodynamique lors d'un changement d'état qui se produit sans changement de température. Un tel processus peut être une transition de phase, comme la fonte de la glace ou l'ébullition de l'eau[61],[62].
+La capacité thermique est une grandeur physique mesurable égale à la quantité d'énergie (de chaleur) qu'il faut lui transférer pour augmenter sa température d'un kelvin[63]. La capacité thermique molaire est la capacité thermique par unité de quantité (unité SI: mole) d'une substance pure, et la capacité thermique massique, souvent appelée simplement chaleur spécifique, est la capacité thermique par unité de masse d'un matériau. La capacité thermique est une propriété physique du corps, ce qui signifie qu'elle dépend de son état et des propriétés du corps considérée.
+Les chaleurs spécifiques des gaz monoatomiques, comme l'hélium, sont presque constantes avec la température. Les gaz diatomiques tels que l'hydrogène voient leur chaleur spécifique influencées par la température, et les gaz triatomiques (par exemple, le dioxyde de carbone) encore plus.
+Avant le développement des principes de la thermodynamique, la chaleur était mesurée par les changements des états des corps participants. En général, la plupart des corps se dilatent en chauffant. Dans ce cas, chauffer un corps à volume constant augmente la pression qu'il exerce sur ses parois contraignantes, tandis que chauffer à pression constante augmente son volume.
+Au-delà de cela, la plupart des substances ont trois états de matière généralement reconnus : solide, liquide et gazeux. Certains peuvent également exister sous l'état plasma. Beaucoup ont d'autres états de la matière, plus finement différenciés, comme par exemple le verre et le cristal liquide. Dans de nombreux cas, à température et pression fixes, une substance peut exister dans plusieurs états distincts de la matière dans ce qui pourrait être considéré comme le même «corps». Par exemple, la glace peut flotter dans un verre d'eau. On dit alors que la glace et l'eau constituent deux phases dans le «corps». Des règles des phases sont connues, indiquant comment des phases distinctes peuvent coexister au sein d'un même «corps».
+La plupart du temps, à une pression fixe, il existe une température définie à laquelle le chauffage fait fondre ou s'évaporer un solide, et une température définie à laquelle le chauffage provoque l'évaporation d'un liquide. Dans de tels cas, le refroidissement a des effets inverses.
+Les cas les plus courants correspondent à une règle selon laquelle le chauffage peut être mesuré par les changements d'état d'un corps. De tels cas fournissent ce que l'on appelle des "substances thermométriques", utilisables dans des thermomètres, qui permettent de définir des températures empiriques. Avant 1848, toutes les températures sont définies de cette manière. Il y a donc un lien étroit, apparemment déterminé logiquement, entre la chaleur et la température, bien qu'elles aient été reconnues comme conceptuellement complètement distinctes, en particulier par Joseph Black à la fin du XVIIIe siècle.
+Il existe des exceptions importantes. Elles rompent le lien manifestement apparent entre chaleur et température. Elles indiquent clairement que les définitions empiriques de la température dépendent des propriétés particulières de certaines substances thermométriques et ne sont donc pas absolues. Par exemple, la molécule d'eau se contracte lorsqu'elle est chauffée à près de 277 K. Elle ne peut donc pas être utilisée comme substance thermométrique à proximité de cette température. De plus, sur une certaine plage de températures, la glace se contracte en chauffant.
+Au début de la mesure des températures élevées, un autre facteur est important et utilisé par Josiah Wedgwood dans son pyromètre. La température atteinte dans un procédé est alors estimée par le retrait d'un échantillon d'argile. Plus la température est élevée, plus le retrait est important. Il s'agissait de la seule méthode disponible plus ou moins fiable de mesure des températures supérieures à 1000 °C. Cependant, un tel retrait est irréversible car l'argile ne se dilate plus au refroidissemen. L'argile est donc utilisable pour la mesure une unique fois.
+Selon Kenneth Denbigh (en) (1981), la propriété d'être « chaud » (en anglais : hotness) est une préoccupation de la thermodynamique qui devrait être définie sans référence au concept de chaleur. La prise en compte de la chaleur conduit au concept de température empirique[64]. Tous les systèmes physiques sont capables d'en chauffer ou d'en refroidir d'autres[65]. En ce qui concerne ce qui est « chaud », les expressions comparatives « plus chaud » et « plus froid » sont définies par la règle selon laquelle la chaleur s'écoule du corps le plus chaud vers le plus froid[66],[67],[68].
+Si un système physique est inhomogène ou en évolution très rapide ou irrégulière, par exemple par turbulence, il peut être impossible de le caractériser par une température, mais il peut néanmoins y avoir transfert d'énergie sous forme de chaleur entre lui et un autre système. Si un système a un état physique suffisamment régulier et persiste suffisamment longtemps pour lui permettre d'atteindre l'équilibre thermique avec un thermomètre spécifié, alors il a une température en fonction de ce thermomètre. Un thermomètre empirique enregistre le degré de chaleur pour un tel système et une telle température est appelée empirique[69],[70],[71]. Par exemple, Clifford Truesdell écrit à propos de la thermodynamique classique : « À chaque fois, le corps se voit attribuer un nombre réel appelé température. Ce nombre est une mesure de combien le corps est chaud[72]. »
+Les systèmes physiques qui sont trop turbulents pour avoir des températures peuvent encore différer en matière de chaleur. Un système physique qui transmet de la chaleur à un autre est le plus chaud des deux. Il en faut davantage pour que le système ait une température thermodynamique. Son comportement doit être si régulier que sa température empirique est la même pour tous les thermomètres convenablement calibrés et mis à l'échelle. C'est en partie la raison pour laquelle la chaleur est définie, après Carathéodory et Born, uniquement comme se produisant autrement que par le travail ou le transfert de matière.
+C'est aussi la raison pour laquelle le principe zéro de la thermodynamique est énoncé explicitement. Si trois systèmes physiques, A, B et C, ne sont pas chacun dans leur propre état d'équilibre thermodynamique interne, il est possible qu'avec des connexions physiques appropriées établies entre eux, A puisse chauffer B et B puisse chauffer C et C puisse chauffer A. En situation de non-équilibre, des cycles d'écoulement sont possibles. C'est la caractéristique spéciale et unique de l'équilibre thermodynamique interne que cela n'est pas possible pour des systèmes thermodynamiques qui sont dans leurs propres états d'équilibre thermodynamique internes ; c'est la raison pour laquelle le principe zéro de la thermodynamique nécessite une déclaration explicite. C'est-à-dire que la relation « n'est pas plus froid que » entre les systèmes physiques généraux hors équilibre n'est pas transitive. Au contraire, la relation « n'a pas de température plus basse que » entre des systèmes thermodynamiques étant chacun dans leur propre état d'équilibre thermodynamique interne est transitive. Il en découle que la relation « est en équilibre thermique avec » est transitive, ce qui est une manière d'énoncer le principe zéro.
+Tout comme la température peut être indéfinie pour un système suffisamment inhomogène, l'entropie peut également être indéfinie pour un système qui n'est pas dans son propre état d'équilibre thermodynamique interne. Par exemple, la «température du système solaire» n'est pas une quantité définie. De même, «l'entropie du système solaire» n'est pas définie dans la thermodynamique classique. Il n'est pas possible de définir l'entropie hors équilibre, comme un simple nombre pour un système entier, d'une manière clairement satisfaisante[73].

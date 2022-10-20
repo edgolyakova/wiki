@@ -1,0 +1,744 @@
+Limit (mathematics)
+Contents
+History
+Types of limits
+Uses
+Properties
+See also
+Notes
+References
+External links
+Navigation menu
+In sequences
+In functions
+Nonstandard analysis
+Limit sets
+Series
+Continuity of a function at a point
+Continuous functions
+Limit points
+Derivative
+Sequences of real numbers
+Order of convergence
+Computability
+Personal tools
+Namespaces
+Views
+Search
+Navigation
+Contribute
+Tools
+Print/export
+In other projects
+Languages
+Real numbers
+Infinity as a limit
+Metric space
+Topological space
+Function space
+One-sided limit
+Infinity in limits of functions
+Limit set of a sequence
+Limit set of a trajectory
+Power series
+Cauchy sequences
+In mathematics, a limit is the value that a function (or sequence) approaches as the input (or index) approaches some value. Limits are essential to calculus and mathematical analysis, and are used to define continuity, derivatives, and integrals.
+The concept of a limit of a sequence is further generalized to the concept of a limit of a topological net, and is closely related to limit and direct limit in category theory.
+In formulas, a limit of a function is usually written as
+(although a few authors may use "Lt" instead of "lim")
+and is read as "the limit of f of x as x approaches c equals L". The fact that a function f approaches the limit L as x approaches c is sometimes denoted by a right arrow ( or 
+, as in
+which reads "
+of 
+tends to 
+as 
+tends to 
+".
+Grégoire de Saint-Vincent gave the first definition of limit (terminus) of a geometric series in his work Opus Geometricum (1647): "The terminus of a progression is the end of the series, which none progression can reach, even not if she is continued in infinity, but which she can approach nearer than a given segment."
+The modern definition of a limit goes back to Bernard Bolzano who, in 1817, introduced the basics of the epsilon-delta technique to define continuous functions.
+However, his work was not known during his lifetime.
+Augustin-Louis Cauchy in 1821, followed by Karl Weierstrass, formalized the definition of the limit of a function which became known as the (ε, δ)-definition of limit.
+The modern notation of placing the arrow below the limit symbol is due to G. H. Hardy, who introduced it in his book A Course of Pure Mathematics in 1908.
+The expression 0.999... should be interpreted as the limit of the sequence 0.9, 0.99, 0.999, ... and so on.
+This sequence can be rigorously shown to have the limit 1, and therefore this expression is meaningfully interpreted as having the value 1.
+Formally, suppose a1, a2, … is a sequence of real numbers.
+When the limit of the sequence exists, the real number L is the limit of this sequence if and only if for every real number ε > 0, there exists a natural number N such that for all n > N, we have |an − L| < ε.
+The notation
+lim
+∞
+=
+is often used, and which is read as
+The formal definition intuitively means that eventually, all elements of the sequence get arbitrarily close to the limit, since the absolute value |an − L| is the distance between an and L.
+Not every sequence has a limit.
+If it does, then it is called convergent, and if it does not, then it is divergent.
+One can show that a convergent sequence has only one limit.
+The limit of a sequence and the limit of a function are closely related.
+On one hand, the limit as n approaches infinity of a sequence {an} is simply the limit at infinity of a function a(n)—defined on the natural numbers {n}. On the other hand, if X is the domain of a function f(x) and if the limit as n approaches infinity of f(xn) is L for every arbitrary sequence of points {xn} in {X – {x0}} which converges to x0, then the limit of the function f(x) as x approaches x0 is L. One such sequence would be {x0 + 1/n}.
+There is also a notion of having a limit "at infinity", as opposed to at some finite 
+A sequence 
+{
+}
+is said to "tend to infinity" if, for each real number 
+>
+known as the bound, there exists an integer 
+such that for each 
+>
+|
+|
+>
+That is, for every possible bound, the magnitude of the sequence eventually exceeds the bound.
+This is often written 
+lim
+∞
+=
+∞
+or simply 
+∞
+Such sequences are also called unbounded.
+It is possible for a sequence to be divergent, but not tend to infinity.
+Such sequences are called oscillatory.
+An example of an oscillatory sequence is 
+=
+−
+For the real numbers, there are corresponding notions of tending to positive infinity and negative infinity, by removing the modulus sign from the above definition:
+>
+defines tending to positive infinity, while 
+−
+>
+defines tending to negative infinity.
+Sequences which do not tend to infinity are called bounded.
+Sequences which do not tend to positive infinity are called bounded above, while those which do not tend to negative infinity are bounded below.
+The discussion of sequences above is for sequences of real numbers.
+The notion of limits can be defined for sequences valued in more abstract spaces.
+One example of a more abstract space is metric spaces.
+If 
+is a metric space with distance function 
+and 
+{
+}
+≥
+is a sequence in 
+then the limit (when it exists) of the sequence is an element 
+∈
+such that, given 
+>
+there exists an 
+such that for each 
+>
+the equation
+<
+is satisfied.
+An equivalent statement is that 
+if the sequence of real numbers 
+An important example is the space of 
+-dimensional real vectors, with elements 
+=
+⋯
+where each of the 
+are real, an example of a suitable distance function is the Euclidean distance, defined by
+=
+|
+−
+|
+=
+∑
+−
+The sequence of points 
+{
+}
+≥
+converges to 
+if the limit exists and 
+|
+−
+|
+In some sense the most abstract space in which limits can be defined are topological spaces.
+If 
+is a topological space with topology 
+and 
+{
+}
+≥
+is a sequence in 
+then the limit (when it exists) of the sequence is a point 
+∈
+such that, given a (open) neighborhood 
+∈
+of 
+there exists an 
+such that for every 
+>
+∈
+is satisfied.
+This section deals with the idea of limits of sequences of functions, not to be confused with the idea of limits of functions, discussed below.
+The field of functional analysis partly seeks to identify useful notions of convergence on function spaces.
+For example, consider the space of functions from a generic set 
+to 
+Given a sequence of functions 
+{
+}
+>
+such that each is a function 
+suppose that there exists a function such that for each 
+∈
+or equivalently 
+lim
+∞
+=
+Then the sequence 
+is said to  converge pointwise to 
+However, such sequences can exhibit unexpected behavior.
+For example, it is possible to construct a sequence of continuous functions which has a discontinuous pointwise limit.
+Another notion of convergence is uniform convergence.
+The uniform distance between two functions 
+is the maximum difference between the two functions as the argument 
+∈
+is varied.
+That is, 
+=
+max
+∈
+|
+−
+|
+Then the sequence 
+is said to uniformly converge or have a uniform limit of 
+if 
+with respect to this distance.
+The uniform limit has "nicer" properties than the pointwise limit.
+For example, the uniform limit of a sequence of continuous functions is continuous.
+Many different notions of convergence can be defined on function spaces.
+This is sometimes dependent on the  regularity of the space.
+Prominent examples of function spaces with some notion of convergence are Lp spaces and Sobolev space.
+Suppose f is a real-valued function and c is a real number.
+Intuitively speaking, the expression
+means that f(x) can be made to be as close to L as desired, by making x sufficiently close to c.  In that case, the above equation can be read as "the limit of f of x, as x approaches c, is L".
+Formally, the definition of the "limit of 
+as 
+approaches 
+" is given as follows.
+The limit is a real number 
+so that, given an arbitrary real number 
+>
+(thought of as the "error"), there is a 
+>
+such that, for any 
+satisfying 
+<
+|
+−
+|
+<
+it holds that 
+|
+−
+|
+<
+This is known as the (ε, δ)-definition of limit.
+The inequality 
+<
+|
+−
+|
+is used to exclude 
+from the set of points under consideration, but some authors do not include this in their definition of limits, replacing 
+<
+|
+−
+|
+<
+with simply 
+|
+−
+|
+<
+This replacement is equivalent to additionally requiring that 
+be continuous at 
+It can be proven that there is an equivalent definition which makes manifest the connection between limits of sequences and limits of functions. The equivalent definition is given as follows.
+First observe that for every sequence 
+{
+}
+in the domain of 
+there is an associated sequence 
+{
+}
+the image of the sequence under 
+The limit is a real number 
+so that, for all sequences 
+the associated sequence 
+It is possible to define the notion of having a limit "from above" or "left limit", and a notion of a limit "from below" or "right limit". These need not agree.
+An example is given by the positive indicator function, 
+defined such that 
+=
+if 
+≤
+and 
+=
+if 
+>
+At 
+=
+the function has a "left limit" of 0, a "right limit" of 1, and its limit does not exist.
+It is possible to define the notion of "tending to infinity" in the domain of 
+lim
+∞
+=
+In this expression, the infinity is considered to be signed: either 
++
+∞
+or 
+−
+∞
+The "limit of f as x tends to positive infinity" is defined as follows.
+It is a real number 
+such that, given any real 
+>
+there exists an 
+>
+so that if 
+>
+|
+−
+|
+<
+Equivalently, for any sequence 
++
+∞
+we have 
+It is also possible to define the notion of "tending to infinity" in the value of 
+lim
+=
+∞
+The definition is given as follows.
+Given any real number 
+>
+there is a 
+>
+so that for 
+<
+|
+−
+|
+<
+the absolute value of the function 
+|
+|
+>
+Equivalently, for any sequence 
+the sequence 
+∞
+In non-standard analysis (which involves a hyperreal enlargement of the number system), the limit of a sequence 
+can be expressed as the standard part of the value 
+of the natural extension of the sequence at an infinite hypernatural index n=H.  Thus,
+Here, the standard part function "st" rounds off each finite hyperreal number to the nearest real number (the difference between them is infinitesimal). This formalizes the natural intuition that for "very large" values of the index, the terms in the sequence are "very close" to the limit value of the sequence.
+Conversely, the standard part of a hyperreal 
+=
+[
+]
+represented in the ultrapower construction by a Cauchy sequence 
+is simply the limit of that sequence:
+In this sense, taking the limit and taking the standard part are equivalent procedures.
+Let 
+{
+}
+>
+be a sequence in a topological space 
+For concreteness, 
+can be thought of as 
+but the definitions hold more generally.
+The limit set is the set of points such that if there is a convergent subsequence 
+{
+}
+>
+with 
+then 
+belongs to the limit set.
+In this context, such an 
+is sometimes called a limit point.
+A use of this notion is to characterize the "long-term behavior" of oscillatory sequences.
+For example, consider the sequence 
+=
+−
+Starting from n=1, the first few terms of this sequence are 
+−
++
+−
++
+⋯
+It can be checked that it is oscillatory, so has no limit, but has limit points 
+{
+−
++
+}
+This notion is used in dynamical systems, to study limits of trajectories.
+Defining a trajectory to be a function 
+the point 
+is thought of as the "position" of the trajectory at "time" 
+The limit set of a trajectory is defined as follows.
+To any sequence of increasing times 
+{
+}
+there is an associated sequence of positions 
+{
+}
+=
+{
+}
+If 
+is the limit set of the sequence 
+{
+}
+for any sequence of increasing times, then 
+is a limit set of the trajectory.
+Technically, this is the 
+-limit set.
+The corresponding limit set for sequences of decreasing time is called the 
+-limit set.
+An illustrative example is the circle trajectory: 
+=
+cos
+⁡
+sin
+⁡
+This has no unique limit, but for each 
+∈
+the point 
+cos
+⁡
+sin
+⁡
+is a limit point, given by the sequence of times 
+=
++
+But the limit points need not be attained on the trajectory.
+The trajectory 
+=
+/
++
+cos
+⁡
+sin
+⁡
+also has the unit circle as its limit set.
+Limits are used to define a number of important concepts in analysis.
+A particular expression of interest which is formalized as the limit of a sequence is sums of infinite series.
+These are "infinite sums" of real numbers, generally written as
+∑
+=
+∞
+This is defined through limits as follows: given a sequence of real numbers 
+{
+}
+the sequence of partial sums is defined by
+=
+∑
+=
+If the limit of the sequence 
+{
+}
+exists, the value of the expression 
+∑
+=
+∞
+is defined to be the limit.
+Otherwise, the series is said to be divergent.
+A classic example is the Basel problem, where 
+=
+/
+Then 
+∑
+=
+∞
+=
+However, while for sequences there is essentially a unique notion of convergence, for series there are different notions of convergence.
+This is due to the fact that the expression 
+∑
+=
+∞
+does not discriminate between different orderings of the sequence 
+{
+}
+while the convergence properties of the sequence of partial sums can depend on the ordering of the sequence.
+A series which converges for all orderings is called unconditionally convergent.
+It can be proven to be equivalent to absolute convergence.
+This is defined as follows.
+A series is absolutely convergent if 
+∑
+=
+∞
+|
+|
+is well defined.
+Furthermore, all possible orderings give the same value.
+Otherwise, the series is conditionally convergent.
+A surprising result for conditionally convergent series is the Riemann series theorem: depending on the ordering, the partial sums can be made to converge to any real number, as well as 
+±
+∞
+A useful application of the theory of sums of series is for power series.
+These are sums of series of the form
+=
+∑
+=
+∞
+Often 
+is thought of as a complex number, and a suitable notion of convergence of complex sequences is needed.
+The set of values of 
+∈
+for which the series sum converges is a circle, with its radius known as the radius of convergence.
+The definition of continuity at a point is given through limits.
+The above definition of a limit is true even if 
+≠
+Indeed, the function f need not even be defined at c. However, if 
+is defined and is equal to 
+then the function is said to be continuous at the point 
+Equivalently, the function is continuous at 
+if 
+as 
+or in terms of sequences, whenever 
+then 
+An example of a limit where 
+is not defined at 
+is given below.
+Consider the function
+=
+−
+−
+then f(1) is not defined (see Indeterminate form), yet as x moves arbitrarily close to 1, f(x) correspondingly approaches 2:
+Thus, f(x) can be made arbitrarily close to the limit of 2—just by making x sufficiently close to 1.
+In other words,
+lim
+−
+−
+=
+2.
+This can also be calculated algebraically, as 
+−
+−
+=
++
+−
+−
+=
++
+{\textstyle {\frac {x{2}-1}{x-1}}={\frac {(x+1)(x-1)}{x-1}}=x+1}
+for all real numbers x ≠ 1.
+Now, since x + 1 is continuous in x at 1, we can now plug in 1 for x, leading to the equation
+lim
+−
+−
+=
++
+=
+2.
+In addition to limits at finite values, functions can also have limits at infinity.
+For example, consider the function
+=
+−
+where:
+As x becomes extremely large, the value of f(x) approaches 2, and the value of f(x) can be made as close to 2 as one could wish—by making x sufficiently large.
+So in this case, the limit of f(x) as x approaches infinity is 2, or in mathematical notation,
+lim
+∞
+−
+=
+2.
+An important class of functions when considering limits are continuous functions.
+These are precisely those functions which preserve limits, in the sense that if 
+is a continuous function, then whenever 
+in the domain of 
+then the limit 
+exists and furthermore is 
+In the most general setting of topological spaces, a short proof is given below:
+Let 
+be a continuous function between topological spaces 
+and 
+By definition, for each open set 
+in 
+the preimage 
+−
+is open in 
+Now suppose 
+is a sequence with limit 
+in 
+Then 
+is a sequence in 
+and 
+is some point.
+Choose a neighborhood 
+of 
+Then 
+−
+is an open set (by continuity of 
+which in particular contains 
+and therefore 
+−
+is a neighborhood of 
+By the convergence of 
+to 
+there exists an 
+such that for 
+>
+we have 
+∈
+−
+Then applying 
+to both sides gives that, for the same 
+for each 
+>
+we have 
+∈
+Originally 
+was an arbitrary neighborhood of 
+so 
+This concludes the proof.
+In real analysis, for the more concrete case of real-valued functions defined on a subset 
+⊂
+that is, 
+a continuous function may also be defined as a function which is continuous at every point of its domain.
+In topology, limits are used to define limit points of a subset of a topological space, which in turn give a useful characterization of closed sets.
+In a topological space 
+consider a subset 
+A point 
+is called a limit point if there is a sequence 
+{
+}
+in 
+∖
+{
+}
+such that 
+The reason why 
+{
+}
+is defined to be in 
+∖
+{
+}
+rather than just 
+is illustrated by the following example.
+Take 
+=
+and 
+=
+[
+]
+∪
+{
+}
+Then 
+∈
+and therefore is the limit of the constant sequence 
+⋯
+But 
+is not a limit point of 
+A closed set, which is defined to be the complement of an open set, is equivalently any set 
+which contains all its limit points.
+The derivative is defined formally as a limit.
+In the scope of real analysis, the derivative is first defined for real functions 
+defined on a subset 
+⊂
+The derivative at 
+∈
+is defined as follows.
+If the limit
++
+−
+as 
+exists, then the derivative at 
+is this limit.
+Equivalently, it is the limit as 
+of
+−
+−
+If the derivative exists, it is commonly denoted by 
+′
+For sequences of real numbers, a number of properties can be proven. Suppose 
+{
+}
+and 
+{
+}
+are two sequences converging to 
+and 
+respectively.
++
++
+⋅
+⋅
+equivalently, the function 
+=
+/
+is continuous about positive 
+A property of convergent sequences of real numbers is that they are Cauchy sequences. The definition of a Cauchy sequence 
+{
+}
+is that for every real number 
+>
+there is an 
+such that whenever 
+>
+|
+−
+|
+<
+Informally, for any arbitrarily small error 
+it is possible to find an interval of diameter 
+such that eventually the sequence is contained within the interval.
+Cauchy sequences are closely related to convergent sequences.
+In fact, for sequences of real numbers they are equivalent: any Cauchy sequence is convergent.
+In general metric spaces, it continues to hold that convergent sequences are also Cauchy.
+But the converse is not true: not every Cauchy sequence is convergent in a general metric space.
+A classic counterexample is the rational numbers, 
+with the usual distance.
+The sequence of decimal approximations to 
+truncated at the 
+th decimal place is a Cauchy sequence, but does not converge in 
+A metric space in which every Cauchy sequence is also convergent, that is, Cauchy sequences are equivalent to convergent sequences, is known as a complete metric space.
+One reason Cauchy sequences can be "easier to work with" than convergent sequences is that they are a property of the sequence 
+{
+}
+alone, while convergent sequences require not just the sequence 
+{
+}
+but also the limit of the sequence 
+Beyond whether or not a sequence 
+{
+}
+converges to a limit 
+it is possible to describe how fast a sequence converges to a limit.
+One way to quantify this is using the order of convergence of a sequence.
+A formal definition of order of convergence can be stated as follows.
+Suppose 
+{
+}
+>
+is a sequence of real numbers which is convergent with limit 
+Furthermore, 
+≠
+for all 
+If positive constants 
+and 
+exist such that
+lim
+∞
+|
++
+−
+|
+|
+−
+|
+=
+then 
+is said to converge to 
+with order of convergence 
+The constant 
+is known as the asymptotic error constant.
+Order of convergence is used for example the field of numerical analysis, in error analysis.
+Limits can be difficult to compute.
+There exist limit expressions whose modulus of convergence is undecidable.
+In recursion theory, the limit lemma proves that it is possible to encode undecidable problems using limits.
+There are several theorems or tests that indicate whether the limit exists.
+These are known as convergence tests.
+Examples include the ratio test and the squeeze theorem.
+However they may not tell how to compute the limit.
