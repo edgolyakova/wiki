@@ -1,4 +1,5 @@
 from wiki.scrapping.service import replace_pairs, replace_chars, scrapping_path, get_files_in_folder, get_filename
+from wiki.scrapping.service import scrapping_path
 import re
 
 zh_replacement_pairs = [
@@ -26,13 +27,14 @@ zh_replacement_pairs = [
 
 zh_replacement_pairs.extend(list(replace_pairs))
 
-zh_articles = get_files_in_folder('/articles_text_ver2/zh-cn')
+zh_articles = get_files_in_folder('/ver2/articles_text_ver2/zh-cn')
+
 for article in zh_articles:
     filename = get_filename(article)
     with open(article, 'r') as f:
         example_text = [replace_chars(y, zh_replacement_pairs) for y in f.readlines()]
         clean = ''.join(example_text).replace('\n\n', '\n')
 
-        with open(f'{scrapping_path}/articles_clean_ver2/zh-cn/{filename}', 'w') as f2:
+        with open(f'{scrapping_path}ver2/articles_clean_ver2/zh-cn/{filename}', 'w') as f2:
             f2.write(clean)
         print(filename)

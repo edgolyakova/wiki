@@ -17,7 +17,7 @@ fr_replace_pairs.extend(
     ]
 )
 
-fr_articles = get_files_in_folder('/articles_text_ver2/fr')
+fr_articles = get_files_in_folder('/ver2/articles_text_ver2/fr')
 
 for article in fr_articles:
     filename = get_filename(article)
@@ -25,7 +25,7 @@ for article in fr_articles:
         example_text = [replace_chars(y, fr_replace_pairs) for y in filter(lambda x: x != '\n', f.readlines())]
 
         clean = ''.join(example_text)
-        with open(f'{scrapping_path}/articles_clean_ver2/fr/{filename}', 'w') as f2:
+        with open(f'{scrapping_path}ver2/articles_clean_ver2/fr/{filename}', 'w') as f2:
             f2.write(clean)
         print(filename)
 

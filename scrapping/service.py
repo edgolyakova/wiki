@@ -25,6 +25,8 @@ replace_pairs = (
     ('→', ''),
     # remove the quotation, like [1]
     (r'\[\d+\]', ''),
+    # remove update link
+    (r'\[update\]', ''),
     # remove the list of languages, that should always contains this sequence
     (r'.*(EspañolEsperanto|EsperantoEspañol).*', ''),
     # remove urls beginning with https

@@ -19,7 +19,7 @@ en_replace_pairs = [
 
 en_replace_pairs.extend(list(replace_pairs))
 
-en_articles = get_files_in_folder('/articles_text_ver2/en')
+en_articles = get_files_in_folder('/ver2/articles_text_ver2/en')
 
 for article in en_articles:
     filename = get_filename(article)
@@ -28,7 +28,7 @@ for article in en_articles:
 
             clean = ''.join(example_text).replace('\n\n', '\n')
 
-            with open(f'{scrapping_path}/articles_clean_ver2/en/{filename}', 'w') as f2:
+            with open(f'{scrapping_path}ver2/articles_clean_ver2/en/{filename}', 'w') as f2:
                 f2.write(clean)
             print(filename)
 

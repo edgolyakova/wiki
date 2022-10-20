@@ -92,7 +92,7 @@ The expected shrinking of feature sizes and the needed progress in related areas
 Initially, ICs were strictly electronic devices.
 The success of ICs has led to the integration of other technologies, in an attempt to obtain the same advantages of small size and low cost.
 These technologies include mechanical devices, optics, and sensors.
-As of 2018[update], the vast majority of all transistors are MOSFETs fabricated in a single layer on one side of a chip of silicon in a flat two-dimensional planar process.
+As of 2018, the vast majority of all transistors are MOSFETs fabricated in a single layer on one side of a chip of silicon in a flat two-dimensional planar process.
 Researchers have produced prototypes of several promising alternatives, such as:
 As it becomes more difficult to manufacture ever smaller transistors, companies are using multi-chip modules, three-dimensional integrated circuits, package on package, High Bandwidth Memory and through-silicon vias with die stacking to increase performance and reduce size, without having to reduce the size of the transistors.
 Such techniques are collectively known as advanced packaging. Advanced packaging is mainly divided into 2.5D and 3D packaging. 2.5D describes approaches such as multi-chip modules while 3D describes approaches where dies are stacked in one way or another, such as package on package and high bandwidth memory.
@@ -143,7 +143,7 @@ Thermosonic bonding was first introduced by A. Coucoulas which provided a reliab
 After packaging, the devices go through final testing on the same or similar ATE used during wafer probing.
 Industrial CT scanning can also be used.
 Test cost can account for over 25% of the cost of fabrication on lower-cost products, but can be negligible on low-yielding, larger, or higher-cost devices.
-As of 2016[update], a fabrication facility (commonly known as a semiconductor fab) can cost over US$8 billion to construct. The cost of a fabrication facility rises over time because of increased complexity of new products; this is known as Rock's law.
+As of 2016, a fabrication facility (commonly known as a semiconductor fab) can cost over US$8 billion to construct. The cost of a fabrication facility rises over time because of increased complexity of new products; this is known as Rock's law.
 Such a facility features:
 ICs can be manufactured either in-house by integrated device manufacturers (IDMs) or using the foundry model.
 IDMs are vertically integrated companies (like Intel and Samsung) that design, manufacture and sell their own ICs, and may offer design and/or manufacturing (foundry) services to other companies (the latter often to fabless companies). In the foundry model, fabless companies (like Nvidia) only design and sell ICs and outsource all manufacturing to pure play foundries such as TSMC. These foundries may offer IC design services.
@@ -157,7 +157,7 @@ Ball grid array (BGA) packages have existed since the 1970s. Flip-chip Ball Grid
 FCBGA packages allow an array of input-output signals (called Area-I/O) to be distributed over the entire die rather than being confined to the die periphery.
 BGA devices have the advantage of not needing a dedicated socket but are much harder to replace in case of device failure.
 Intel transitioned away from PGA to land grid array (LGA) and BGA beginning in 2004, with the last PGA socket released in 2014 for mobile platforms.
-As of 2018[update], AMD uses PGA packages on mainstream desktop processors, BGA packages on mobile processors, and high-end desktop and server microprocessors use LGA packages.
+As of 2018, AMD uses PGA packages on mainstream desktop processors, BGA packages on mobile processors, and high-end desktop and server microprocessors use LGA packages.
 Electrical signals leaving the die must pass through the material electrically connecting the die to the package, through the conductive traces (paths) in the package, through the leads connecting the package to the conductive traces on the printed circuit board.
 The materials and structures used in the path these electrical signals must travel have very different electrical properties, compared to those that travel to different parts of the same die.
 As a result, they require special design techniques to ensure the signals are not corrupted, and much more electric power than signals confined to the die itself.

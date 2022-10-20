@@ -57,7 +57,7 @@ called trial division, tests whether
 is a multiple of any integer between 2 and 
 Faster algorithms include the Miller–Rabin primality test, which is fast but has a small chance of error, and the AKS primality test, which always produces the correct answer in polynomial time but is too slow to be practical.
 Particularly fast methods are available for numbers of special forms, such as Mersenne numbers.
-As of December 2018[update] the largest known prime number is a Mersenne prime with 24,862,048 decimal digits.
+As of December 2018 the largest known prime number is a Mersenne prime with 24,862,048 decimal digits.
 There are infinitely many primes, as demonstrated by Euclid around 300 BC. No known simple formula separates prime numbers from composite numbers.
 However, the distribution of primes within the natural numbers in the large can be statistically modelled.
 The first result in that direction is the prime number theorem, proven at the end of the 19th century, which says that the probability of a randomly chosen large number being prime is inversely proportional to its number of digits, that is, to its logarithm.
@@ -206,7 +206,7 @@ However, these are not useful for generating primes, as the primes must be gener
 or 
 Many conjectures revolving about primes have been posed.
 Often having an elementary formulation, many of these conjectures have withstood proof for decades: all four of Landau's problems from 1912 are still unsolved. One of them is Goldbach's conjecture, which asserts that every even integer 
-greater than 2 can be written as a sum of two primes. As of 2014[update], this conjecture has been verified for all numbers up to 
+greater than 2 can be written as a sum of two primes. As of 2014, this conjecture has been verified for all numbers up to 
 =
 ⋅
 10
@@ -593,7 +593,7 @@ The big O notation means that each time bound should be multiplied by a constant
 and 
 In addition to the aforementioned tests that apply to any natural number, some numbers of a special form can be tested for primality more quickly.
 For example, the Lucas–Lehmer primality test can determine whether a Mersenne number (one less than a power of two) is prime, deterministically,
-in the same time as a single iteration of the Miller–Rabin test. This is why since 1992 (as of December 2018[update]) the largest known prime has always been a Mersenne prime.
+in the same time as a single iteration of the Miller–Rabin test. This is why since 1992 (as of December 2018) the largest known prime has always been a Mersenne prime.
 It is conjectured that there are infinitely many Mersenne primes.
 The following table gives the largest known primes of various types.
 Some of these primes have been found using distributed computing.
@@ -604,9 +604,9 @@ It is significantly more difficult than primality testing, and although many fac
 Trial division and Pollard's rho algorithm can be used to find very small factors of 
 and elliptic curve factorization can be effective when 
 has factors of moderate size. Methods suitable for arbitrary large numbers that do not depend on the size of its factors include the quadratic sieve and general number field sieve.
-As with primality testing, there are also factorization algorithms that require their input to have a special form, including the special number field sieve. As of December 2019[update] the largest number known to have been factored by a general-purpose algorithm is RSA-240, which has 240 decimal digits (795 bits) and is the product of two large primes.
+As with primality testing, there are also factorization algorithms that require their input to have a special form, including the special number field sieve. As of December 2019 the largest number known to have been factored by a general-purpose algorithm is RSA-240, which has 240 decimal digits (795 bits) and is the product of two large primes.
 Shor's algorithm can factor any integer in a polynomial number of steps on a quantum computer. However, current technology can only run this algorithm for very small numbers.
-As of October 2012[update] the largest number that has been factored by a quantum computer running Shor's algorithm is 21.
+As of October 2012 the largest number that has been factored by a quantum computer running Shor's algorithm is 21.
 Several public-key cryptography algorithms, such as RSA and the Diffie–Hellman key exchange, are based on large prime numbers (2048-bit primes are common). RSA relies on the assumption that it is much easier (that is, more efficient) to perform the multiplication of two (large) numbers 
 and 
 than to calculate 
