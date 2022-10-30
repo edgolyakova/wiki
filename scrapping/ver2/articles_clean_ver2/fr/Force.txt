@@ -27,20 +27,19 @@ Sommaire
 déplacer vers la barre latérale
 masquer
 Pour les articles homonymes, voir Force.
-= 
 modifier
 Une force modélise, en physique classique, une action mécanique exercée sur un objet ou une partie d'un objet par un autre objet ou partie d'objet. L'ensemble des forces appliquées à un objet a pour effet de lui communiquer une accélération ou de le déformer.
 Introduit antérieurement — notamment à partir de la sensation corporelle des contractions musculaires —, le concept de force a été précisé en 1684 par Isaac Newton, qui en a fait l'un des fondements de la mécanique newtonienne.
 Le concept de force est ancien, mais il a mis longtemps à obtenir une nouvelle définition utilisable.
 En effet, à la différence de grandeurs physiques telles que la longueur ou la masse, qui sont représentées par des grandeurs scalaires, les forces peuvent être représentées par des vecteurs.
 Les représentations vectorielles des forces doivent être distinguées des forces proprement dites.
-Certains philosophes et physiciens, dits opérationnalistes ou instrumentalistes  au sujet des forces, nient qu'il existe des forces : selon eux, les vecteurs de forces utilisés en mécanique sont  des outils utiles du physicien, mais ils ne décrivent rien dans la réalité. Un de leurs arguments est que les forces sont imperceptibles.
+Certains philosophes et physiciens, dits opérationnalistes ou instrumentalistes au sujet des forces, nient qu'il existe des forces : selon eux, les vecteurs de forces utilisés en mécanique sont des outils utiles du physicien, mais ils ne décrivent rien dans la réalité. Un de leurs arguments est que les forces sont imperceptibles.
 Les réalistes au sujet des forces, à l'opposé, soutiennent que les vecteurs de forces réfèrent à des forces qui existent indépendamment de leur représentation. À l'objection selon laquelle les forces seraient imperceptibles, ils répondent souvent que la perception tactile ou le sens musculaire nous permettent d'expérimenter de telles entités physiques.[réf. souhaitée]
 Archimède, lors de l'étude du problème du bras de levier, évoquait le poids des corps, sans expliquer plus explicitement ce qu'il entendait par là. Lors des études sur les poulies, la notion de force est utilisée confusément comme étant la tension dans les fils.
 Même le problème du plan incliné ou celui de la chute des corps sont résolus par Galilée sans faire appel explicitement à la notion de force.
 Parallèlement, la composition des forces apparaît implicitement dans les travaux de Simon Stevin (De Beghinselen der Weeghconst, 1586). Toutefois, la distinction entre la notion de force et de vitesse n'y est pas encore nette.
 À la suite des travaux de Huygens, Leibniz définit mathématiquement la force vive comme la masse multipliée par le carré de la vitesse, ainsi que l'action comme cette force (m·v2) multipliée par le temps, autrement dit la somme de toutes les forces vives d'un système pendant une durée, concept que répandront Wolff, Maupertuis et Lagrange.
-Newton définit la force accélératrice dans ses Philosophiae Naturalis Principia Mathematica (1687), qui correspond encore à la définition de la force en physique de nos jours.
+Newton définit la force accélératrice dans ses Philosophiae Naturalis Principia Mathematica , qui correspond encore à la définition de la force en physique de nos jours.
 Elle avait permis une présentation simple de la mécanique classique (lois du mouvement de Newton).
 Aujourd'hui, la notion de force en physique reste très utilisée, en particulier dans l'enseignement et dans l'ingénierie.
 Pourtant, alors que les moments, l'énergie et les quantités de mouvement ou impulsions sont des grandeurs fondamentales de la physique, la force peut être vue comme un artifice de modélisation, commode mais non indispensable.
@@ -63,19 +62,21 @@ Mais les propriétés de ces objets (couleurs, dureté, fonctionnement d'un appa
 Quand on étudie le comportement d'un système physique constitué de plusieurs objets et qu'on fait le bilan des forces 
 appliquées au système (c'est-à-dire à ses différents objets), il est utile de distinguer les forces intérieures 
 (exercées par d'autres objets du système) des forces extérieures 
-(exercées par des objets extérieurs au système). On montre en effet que la résultante des forces intérieures est nulle et donc qu'elles ne contribuent en rien à l'accélération globale du système (c'est-à-dire l'accélération de son centre de gravité). Par contre elles interviennent dans le bilan énergétique (parce que deux forces opposées deux-à-deux peuvent très bien fournir un travail non nul).
+(exercées par des objets extérieurs au système).
+On montre en effet que la résultante des forces intérieures est nulle et donc qu'elles ne contribuent en rien à l'accélération globale du système (c'est-à-dire l'accélération de son centre de gravité). Par contre elles interviennent dans le bilan énergétique (parce que deux forces opposées deux-à-deux peuvent très bien fournir un travail non nul).
 En physique, on modélise une force par un vecteur lié. Un représentant du vecteur force est caractérisé par quatre éléments :
 Il est également possible d'employer un vecteur glissant, en remplaçant la donnée du point d'application par celle de la droite support.
 Le théorème du parallélogramme des forces provient de la constatation du fait que des mouvements peuvent être combinés entre eux sans que l'ordre de cette combinaison ait une quelconque influence sur le mouvement final.
 Dans le parallélogramme ci-contre, on peut distinguer deux types de mouvement :
 Quand un solide est situé initialement au point A, l'ordre de parcours AB puis BC ou bien AD puis DC n'a aucune influence sur le résultat final : quel que soit l'ordre des mouvements, le solide est déplacé au point C.
-Fort de cette constatation, l'observation  entre les forces (les causes) et les mouvements (les effets) fut fait et Simon Stevin puis Isaac Newton purent énoncer le théorème du parallélogramme des forces :
+Fort de cette constatation, l'observation entre les forces (les causes) et les mouvements (les effets) fut fait et Simon Stevin puis Isaac Newton purent énoncer le théorème du parallélogramme des forces :
 La force F3 est appelée la force « résultante » des deux forces F1 et F2.
 Cette dernière propriété des forces permet de séparer une force en plusieurs composantes et est utilisée par exemple pour décomposer une force de réaction R en ses composantes normale (l'effort d'appui N) et tangentielle (l'effort de frottement T).
 Le parallélogramme des forces amène naturellement à modéliser celles-ci par un vecteur souvent noté 
-Le sens et la direction du vecteur indiquent respectivement le sens et la direction de l'action, la longueur du vecteur indiquant l'intensité de cette même action.
+. Le sens et la direction du vecteur indiquent respectivement le sens et la direction de l'action, la longueur du vecteur indiquant l'intensité de cette même action.
 Avec cette notation, le parallélogramme des forces se résume simplement à la relation vectorielle suivante :
-Une force exerce son action en un point appelé point d'application (ou point d'impact). La connaissance de ce point est importante pour déterminer le moment de la force.
+Une force exerce son action en un point appelé point d'application (ou point d'impact).
+La connaissance de ce point est importante pour déterminer le moment de la force.
 L'action d'une force peut être transmise aux autres points de l'objet par déformation élastique, par exemple, si l'on pousse une voiture, la force exercée par la paume de la main est transmise au reste du véhicule.
 La notion de point d'application est évidente dans le cas d'une cause « ponctuelle » : si l'on pousse un objet à la main, le point d'application est le point de contact entre l'objet et la main, et si on le tire avec une corde, c'est le point d'attache de la corde.
 Cependant, à y regarder de plus près, la paume de la main fait une certaine surface, et la corde a une section non nulle.
@@ -95,11 +96,11 @@ est la quantité de mouvement de l'objet, c'est-à-dire le produit de la masse p
 Si la masse est constante, alors on a
 où 
 est l'accélération.
-Ernst Mach a fait remarquer dans son ouvrage La mécanique : Exposé historique et critique de son développement (1883) que la deuxième loi de Newton contient la définition de la force donnée par Isaac Newton lui-même.
+Ernst Mach a fait remarquer dans son ouvrage La mécanique : Exposé historique et critique de son développement que la deuxième loi de Newton contient la définition de la force donnée par Isaac Newton lui-même.
 En effet, définir une force comme étant ce qui crée l'accélération n'apprend rien de plus que ce qui est dans 
-=
 et n'est finalement qu'une reformulation (incomplète) de cette dernière équation.
-Cette impuissance à définir une force autrement que par des définitions circulaires était problématique pour de nombreux physiciens parmi lesquels Ernst Mach, Clifford Truesdell et Walter Noll. Ces derniers ont donc cherché, en vain, à établir une définition explicite de la notion de force.
+Cette impuissance à définir une force autrement que par des définitions circulaires était problématique pour de nombreux physiciens parmi lesquels Ernst Mach, Clifford Truesdell et Walter Noll.
+Ces derniers ont donc cherché, en vain, à établir une définition explicite de la notion de force.
 Les théories modernes de la physique ne font pas appel aux forces en tant que sources ou symptômes d'une interaction.
 La relativité générale utilise le concept de courbure de l'espace-temps pour décrire les effets gravitationnels, en revanche, l'effet d'un champ électromagnétique sur une particule reste, même dans ce cadre, décrit par une force.
 La mécanique quantique décrit les échanges entre particules élémentaires sous la forme de photons, bosons et gluons.
@@ -114,11 +115,12 @@ Les phénomènes qui provoquent l'accélération ou la déformation d'un corps s
 Par exemple, on peut classer les forces selon leur distance d'action :
 Dans le cas le plus simple de la déformation élastique, l'allongement ou la compression modérée d'un ressort dans son axe engendre une force proportionnelle à l'allongement relatif, soit :
 où k est la constante de raideur du ressort et x son allongement (longueur finale moins longueur initiale ; 
-=
-le vecteur unitaire 
-étant dirigé du point d'attache du ressort vers son extrémité mobile). La déformation des solides est étudiée par la mécanique des milieux continus (MMC).
+, le vecteur unitaire 
+étant dirigé du point d'attache du ressort vers son extrémité mobile).
+La déformation des solides est étudiée par la mécanique des milieux continus (MMC).
 Lorsqu'une force s'exerce sur une surface, il est parfois intéressant de considérer la répartition de la force selon la surface.
-Par exemple, si l'on enfonce une punaise dans du bois, la punaise s'enfonce car la force est répartie sur une toute petite surface (l'extrémité de la pointe) ; si l'on appuie simplement avec le doigt, le doigt ne va pas s'enfoncer dans le bois car la force est répartie sur une grande surface (l'extrémité du doigt). Pour ce type d'études, on divise l'intensité de la force par la surface sur laquelle elle s'exerce, c'est la pression.
+Par exemple, si l'on enfonce une punaise dans du bois, la punaise s'enfonce car la force est répartie sur une toute petite surface (l'extrémité de la pointe) ; si l'on appuie simplement avec le doigt, le doigt ne va pas s'enfoncer dans le bois car la force est répartie sur une grande surface (l'extrémité du doigt).
+Pour ce type d'études, on divise l'intensité de la force par la surface sur laquelle elle s'exerce, c'est la pression.
 Au sein d'un matériau solide, cette pression est appelée contrainte (stress).
 Par définition, la pression p vaut :
 où :
@@ -146,4 +148,5 @@ On applique la force à mesurer sur l'autre extrémité du ressort et l'on mesur
 On en déduit la force F par la relation que nous avons vue plus haut :
 La mesure de la longueur Δl est généralement faite par un comparateur.
 La force F étant directement proportionnelle à Δl, il suffit de graduer le cadran du comparateur en newtons plutôt qu'en mètres.
-Lorsque la force à mesurer est importante, on peut utiliser une barre massive comme « ressort » (cf. la loi de Hooke). La déformation élastique de la barre est alors mesurée avec un extensomètre (ou jauge de déformation) ; il s'agit en général d'un fil en zig-zag collé sur la barre, et dont la résistance électrique varie avec l'allongement relatif.
+Lorsque la force à mesurer est importante, on peut utiliser une barre massive comme « ressort » (cf. la loi de Hooke).
+La déformation élastique de la barre est alors mesurée avec un extensomètre (ou jauge de déformation) ; il s'agit en général d'un fil en zig-zag collé sur la barre, et dont la résistance électrique varie avec l'allongement relatif.

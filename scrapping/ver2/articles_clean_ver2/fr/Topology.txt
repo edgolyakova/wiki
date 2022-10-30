@@ -57,7 +57,7 @@ Définir une distance sur un ensemble lui confère une structure d'espace métri
 Cette façon de voir est suffisante pour résoudre de nombreux problèmes.
 Cependant, utiliser une distance passe par l'intermédiaire des nombres réels et introduit donc une contrainte qu'il a fallu dépasser.
 Pour cela, on a été amené à définir le concept de proximité de façon plus abstraite, sans faire appel à un argument numérique, c'est le concept de voisinage.
-Pour des raisons  techniques, il est équivalent et plus simple de définir directement les ouverts avant les voisinages, c'est donc ainsi que l'on définit usuellement une topologie : en décidant quelles sont les parties ouvertes.
+Pour des raisons techniques, il est équivalent et plus simple de définir directement les ouverts avant les voisinages, c'est donc ainsi que l'on définit usuellement une topologie : en décidant quelles sont les parties ouvertes.
 La notion de limite n'est pas seulement statique mais aussi dynamique.
 La topologie permet d'appréhender les limites de fonctions ou de suites.
 Regardons la suite des inverses des nombres entiers à partir de 1 : 1/1, 1/2, 1/3, 1/4, … , 1/n, … À la limite, cette suite va tendre vers 0. Cela rejoint plus ou moins le fait que 0 est un point limite de l'ensemble des 1/n.

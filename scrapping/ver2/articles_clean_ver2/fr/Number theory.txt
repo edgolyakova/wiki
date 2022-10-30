@@ -32,7 +32,8 @@ Pages pour les contributeurs déconnectés en savoir plus
 Sommaire
 déplacer vers la barre latérale
 masquer
-Traditionnellement, la théorie des nombres est une branche des mathématiques qui s'occupe des propriétés des nombres entiers (qu'ils soient entiers naturels ou entiers relatifs). Plus généralement, le champ d'étude de cette théorie concerne une large classe de problèmes qui proviennent naturellement de l'étude des entiers.
+Traditionnellement, la théorie des nombres est une branche des mathématiques qui s'occupe des propriétés des nombres entiers (qu'ils soient entiers naturels ou entiers relatifs).
+Plus généralement, le champ d'étude de cette théorie concerne une large classe de problèmes qui proviennent naturellement de l'étude des entiers.
 La théorie des nombres occupe une place particulière en mathématiques, à la fois par ses connexions avec de nombreux autres domaines, et par la fascination qu'exercent ses théorèmes et ses problèmes ouverts, dont les énoncés sont souvent faciles à comprendre, même pour les non-mathématiciens. C'est ce qu'exprime la citation suivante, de Jürgen Neukirch :
 « La théorie des nombres occupe parmi les disciplines mathématiques une position idéalisée analogue à celle qu'occupent les mathématiques elles-mêmes parmi les autres sciences. »
 Le terme « arithmétique » est aussi utilisé pour faire référence à la théorie des nombres. C'est un terme assez ancien, qui n'est plus aussi populaire que par le passé ; pour éviter des confusions, on désignait aussi parfois, jusqu'au début du vingtième siècle, la théorie des nombres par le terme « arithmétique supérieure ». Néanmoins, l'adjectif arithmétique reste assez répandu, en particulier pour désigner des champs mathématiques (géométrie algébrique arithmétique, arithmétique des courbes et surfaces elliptiques, etc.), où la restriction des questions et des solutions aux entiers, ou à certaines de leurs extensions, joue un rôle déterminant.
@@ -48,16 +49,12 @@ Beaucoup de questions en théorie élémentaire des nombres apparaissent simples
 La théorie des équations diophantiennes a même été montrée comme étant indécidable, c’est-à-dire qu’on peut construire une équation explicite dont l’existence de solutions ne peut être démontrée à l’aide des axiomes usuels des mathématiques (c’est le théorème de Matiyasevich).
 La théorie analytique des nombres peut être définie :
 Certains sujets généralement considérés comme faisant partie de la théorie analytique des nombres, par exemple la théorie des cribles, sont définis plutôt par la seconde définition.
-Voici des exemples de problèmes en théorie analytique des nombres : le théorème des nombres premiers, la conjecture de Goldbach (ou la conjecture des nombres premiers jumeaux ou les conjectures de Hardy-Littlewood), le problème de Waring ou encore l'hypothèse de Riemann. Certains des outils les plus importants de la théorie analytique des nombres sont la méthode du cercle, les méthodes des cribles et les fonctions L. La théorie des formes modulaires (et plus généralement des formes automorphes) occupe également une place de plus en plus centrale en théorie analytique des nombres.
+Voici des exemples de problèmes en théorie analytique des nombres : le théorème des nombres premiers, la conjecture de Goldbach (ou la conjecture des nombres premiers jumeaux ou les conjectures de Hardy-Littlewood), le problème de Waring ou encore l'hypothèse de Riemann.
+Certains des outils les plus importants de la théorie analytique des nombres sont la méthode du cercle, les méthodes des cribles et les fonctions L. La théorie des formes modulaires (et plus généralement des formes automorphes) occupe également une place de plus en plus centrale en théorie analytique des nombres.
 Un nombre algébrique est un nombre complexe qui est solution d'une équation polynomiale à coefficients dans le corps 
-Par exemple, toute solution 
+. Par exemple, toute solution 
 de 
-+
 11
-/
-−
-+
-=
 est un nombre algébrique.
 La théorie algébrique des nombres étudie les champs de nombres algébriques.
 Ainsi, les théories analytique et algébrique des nombres peuvent se chevaucher : la première est définie par ses méthodes, la seconde par ses objets d'étude.
@@ -71,34 +68,18 @@ Plus généralement, une équation, ou un système d'équations, à deux ou plus
 En géométrie diophantienne, on se demande s'il existe des points rationnels (points dont toutes les coordonnées sont rationnelles) ou des points entiers (points dont toutes les coordonnées sont des entiers) sur la courbe ou la surface. S'il y a de tels points, l'étape suivante consiste à demander combien il y en a et comment ils sont répartis.
 Une question fondamentale dans cette direction est la suivante : existe-t-il un nombre fini ou infini de points rationnels sur une courbe (ou surface) donnée ? Qu'en est-il des points entiers ?
 Un exemple serait l'équation de Pythagore 
-+
-=
 ; nous voudrions étudier ses solutions rationnelles, c'est-à-dire ses solutions 
 telles que x et y soient tous deux rationnels.
 Cela revient à demander toutes les solutions entières de 
-+
-=
 ; toute solution à cette dernière équation nous donne une solution 
-=
-/
-=
-/
-Cela est équivalent au fait de demander tous les points à coordonnées rationnelles sur la courbe décrite par 
-+
-=
+. Cela est équivalent au fait de demander tous les points à coordonnées rationnelles sur la courbe décrite par 
 (cette courbe se trouve être le cercle unité).
 La reformulation des questions sur les équations en termes de points sur les courbes s'avère fructueuse.
 La finitude ou non du nombre de points rationnels ou entiers sur une courbe algébrique, s'avère dépendre de façon cruciale du genre de la courbe.
 Ce domaine est étroitement lié aux approximations diophantiennes : étant donné un nombre, à quel point peut-il être approché par des rationnels ? (On considère qu'un rationnel 
-/
-avec a et b premiers entre eux, est une bonne approximation de 
+, avec a et b premiers entre eux, est une bonne approximation de 
 si 
-|
-−
-/
-|
-<
-où 
+, où 
 est grand.) Cette question est d'un intérêt particulier si 
 est un nombre algébrique.
 Si 
@@ -115,12 +96,6 @@ Une grande partie de la théorie probabiliste des nombres peut être considéré
 Parfois, une approche probabiliste non rigoureuse conduit à un certain nombre d'algorithmes heuristiques et de problèmes ouverts, notamment la conjecture de Cramér.
 Soit A un ensemble de N entiers.
 Considérons l'ensemble A + A = { m + n | m, n ∈ A } constitué de toutes les sommes de deux éléments de A. A + A est-il beaucoup plus grand que A? À peine plus grand ? A ressemble-t-il à une suite arithmétique? Si nous partons d'un ensemble infini A assez grand, contient-il beaucoup d'éléments dans la progression arithmétique 
-+
-+
-+
-…
-+
-?
 Ces questions sont caractéristiques de la théorie combinatoire des nombres.
 Son intérêt pour les questions de croissance et de distribution tient en partie au développement de ses liens avec la théorie ergodique, la théorie des groupes finis, la théorie des modèles et d'autres domaines.
 Les ensembles étudiés n'ont pas besoin d'être des ensembles d'entiers, mais plutôt des sous-ensembles de groupes non commutatifs, pour lesquels le symbole de multiplication, et non le symbole d'addition, est traditionnellement utilisé; ils peuvent également être des sous-ensembles d'anneaux.
@@ -128,62 +103,62 @@ Il y a deux questions principales: « pouvons-nous calculer cela ? » et « 
 La difficulté d'un calcul peut être utile : les protocoles modernes de chiffrement de messages (par exemple, le RSA) dépendent de fonctions connues de tous, mais dont les inverses ne sont connus que d'un petit nombre, et les trouver par ses propres moyens prendrait trop de temps.
 Alors que de nombreux problèmes de calcul en dehors de la théorie des nombres sont connus, la plupart des protocoles de chiffrement actuels sont basés sur la difficulté de quelques problèmes théoriques.
 Il s'avère que certaines choses peuvent ne pas être calculables du tout ; cela peut être prouvé dans certains cas.
-Par exemple, en 1970, il a été prouvé, résolvant ainsi le dixième problème de Hilbert, qu'il n'existe pas de machine de Turing capable de résoudre toutes les équations diophantiennes. Cela signifie que, compte tenu d'un ensemble d'axiomes calculables et énumérables, il existe des équations diophantiennes pour lesquelles il n'existe aucune démonstration, à partir des axiomes, de savoir si l'ensemble des équations a ou non des solutions entières.
+Par exemple, en 1970, il a été prouvé, résolvant ainsi le dixième problème de Hilbert, qu'il n'existe pas de machine de Turing capable de résoudre toutes les équations diophantiennes.
+Cela signifie que, compte tenu d'un ensemble d'axiomes calculables et énumérables, il existe des équations diophantiennes pour lesquelles il n'existe aucune démonstration, à partir des axiomes, de savoir si l'ensemble des équations a ou non des solutions entières.
 La découverte historique d'une nature arithmétique est un fragment de tableau : la tablette d'argile brisée Plimpton 322 (Larsa, Mésopotamie, vers 1800 avant notre ère) contient une liste « triplets pythagoriciens », c'est-à-dire des entiers tels que 
-+
-=
-. Ceux-ci sont trop grands pour avoir été obtenus par recherche exhaustive. La disposition de la tablette suggère qu'elle a été construite au moyen de ce qui équivaut, dans un langage moderne, à l'identité
-Alors que la théorie des nombres babylonienne consiste en ce seul fragment, l'algèbre babylonienne (au sens de l'« algèbre » des études secondaires) était exceptionnellement bien développée. Pythagore aurait appris les mathématiques auprès des Babyloniens. Beaucoup de sources antérieures déclarent que Thalès et Pythagore ont voyagé et étudié en Égypte.
-La découverte de l'irrationalité de √2 est attribuée aux premiers pythagoriciens,,. Cette découverte semble avoir provoqué la première crise de l'histoire mathématique ; sa preuve et sa diffusion sont parfois attribuées à Hippase, qui a été expulsé de la secte pythagoricienne. Cela a forcé à faire une distinction entre les nombres (entiers et rationnels), d'une part, et les longueurs et les proportions (nombres réels), d'autre part.
+. Ceux-ci sont trop grands pour avoir été obtenus par recherche exhaustive.
+La disposition de la tablette suggère qu'elle a été construite au moyen de ce qui équivaut, dans un langage moderne, à l'identité
+Alors que la théorie des nombres babylonienne consiste en ce seul fragment, l'algèbre babylonienne (au sens de l'« algèbre » des études secondaires) était exceptionnellement bien développée. Pythagore aurait appris les mathématiques auprès des Babyloniens.
+Beaucoup de sources antérieures déclarent que Thalès et Pythagore ont voyagé et étudié en Égypte.
+La découverte de l'irrationalité de √2 est attribuée aux premiers pythagoriciens,,. Cette découverte semble avoir provoqué la première crise de l'histoire mathématique ; sa preuve et sa diffusion sont parfois attribuées à Hippase, qui a été expulsé de la secte pythagoricienne.
+Cela a forcé à faire une distinction entre les nombres (entiers et rationnels), d'une part, et les longueurs et les proportions (nombres réels), d'autre part.
 Le théorème des restes chinois apparaît comme un exercice dans le traité Sunzi Suanjing (IIIe, IVe, ou Ve siècle av. J.-C.),.
-En dehors de quelques fragments, les mathématiques de la Grèce antique nous sont connues soit par les rapports de non-mathématiciens contemporains ou à travers des œuvres mathématiques de la période hellénistique. Dans le cas de la théorie des nombres, cela inclus Platon et Euclide.
+En dehors de quelques fragments, les mathématiques de la Grèce antique nous sont connues soit par les rapports de non-mathématiciens contemporains ou à travers des œuvres mathématiques de la période hellénistique.
+Dans le cas de la théorie des nombres, cela inclus Platon et Euclide.
 Platon s'intéressait aux mathématiques et distinguait nettement l'arithmétique et le calcul. (Par arithmétique, il entendait la théorisation sur le nombre.) C'est à travers un des dialogues de Platon, Théétète, que nous savons que Théodore a prouvé que 
-…
 17
 sont des nombres irrationnels.
 Théétète était, comme Platon, un disciple de Théodore; il a travaillé sur la distinction des différents types de commensurabilité, et était donc sans doute un pionnier dans l'étude des systèmes numériques.
-Euclide a consacré une partie de ses Éléments aux nombres premiers et à la divisibilité, sujets centraux en théorie des nombres (Livres VII à IX des Éléments d'Euclide). En particulier, il a donné un algorithme pour calculer le plus grand commun diviseur de deux nombres (Éléments, Prop.
+Euclide a consacré une partie de ses Éléments aux nombres premiers et à la divisibilité, sujets centraux en théorie des nombres (Livres VII à IX des Éléments d'Euclide).
+En particulier, il a donné un algorithme pour calculer le plus grand commun diviseur de deux nombres (Éléments, Prop.
 VII.2) et la première preuve connue de l’existence d'une infinité des nombres premiers (Éléments, Prop.
 IX.20).
 Nous ne savons que très peu de choses sur Diophante d'Alexandrie ; il a probablement vécu au troisième siècle de notre ère, c'est-à-dire environ cinq cents ans après Euclide. L'Arithmetica est une collection de problèmes où la tâche est de trouver des solutions rationnelles à des équations polynomiales, généralement de la forme ou 
-=
 ou 
-=
-Ainsi, de nos jours, on parle d'équations diophantiennes quand on parle d'équations polynomiales dont on doit trouver des solutions rationnelles ou entières.
+. Ainsi, de nos jours, on parle d'équations diophantiennes quand on parle d'équations polynomiales dont on doit trouver des solutions rationnelles ou entières.
 Tandis que Diophante s'intéressait surtout aux solutions rationnelles, il émettait des conjectures sur les entiers naturels, comme le fait que tout entier est la somme de quatre carrés.
 Alors que l'astronomie grecque a probablement influencé l'apprentissage indien, au point d'introduire la trigonométrie, il semble que les mathématiques indiennes soient une tradition indigène ; en effet, il n'y a aucune preuve que les Éléments d'Euclide aient atteint l'Inde avant le XVIIIe siècle.
 Āryabhaṭa (476-550 av. J.C.) a montré que les paires de congruences 
-≡
 mod
-≡
 mod
 pouvaient être résolues par une méthode qu'il a appelée kuṭṭaka ; c'est une procédure proche et généralisée de l'algorithme d'Euclide, qui a probablement été découvert indépendamment en Inde,. Brahmagupta (628 avant J.C.) a commencé l'étude des équations quadratiques, en particulier l'équation de Pell-Fermat, à laquelle Archimède s'était déjà intéressé, et qui n'a commencé à être résolue en Occident qu'avec Fermat et Euler.
-Une procédure générale (la méthode chakravala) pour résoudre l'équation de Pell-Fermat a été trouvée par Jayadeva (cité au XIe siècle, son travail est perdu) ; la première exposition survivante apparaît dans Bīja-gaṇita de Bhāskara II. Les mathématiques indiennes sont restées inconnues en Europe jusqu'à la fin du XVIIIe siècle. Le travail de Brahmagupta et Bhāskara a été traduit en anglais en 1817 par Henry Colebrooke.
+Une procédure générale (la méthode chakravala) pour résoudre l'équation de Pell-Fermat a été trouvée par Jayadeva (cité au XIe siècle, son travail est perdu) ; la première exposition survivante apparaît dans Bīja-gaṇita de Bhāskara II.
+Les mathématiques indiennes sont restées inconnues en Europe jusqu'à la fin du XVIIIe siècle.
+Le travail de Brahmagupta et Bhāskara a été traduit en anglais en 1817 par Henry Colebrooke.
 Au début du IXe siècle, le calife Al-Ma'mūn ordonna la traduction de nombreuses œuvres mathématiques grecques et d'au moins une œuvre sanscrite (le Sindhind, qui pourrait ou non être le Brāhmasphuṭasiddhānta de Brahmagupta). L'œuvre principale de Diophante, l'Arithmetica, a été traduite en arabe par Qusta ibn Luqa (820-912). Selon Roshdi Rashed, Alhazen, contemporain d'Al-Karaji, connaissait ce qui sera plus tard appelé le théorème de Wilson.
 À part un traité sur les carrés en progression arithmétique par Fibonacci, aucun progrès en théorie des nombres ne fut effectuée en Europe de l'Ouest au Moyen Âge.
 Les choses ont commencé à changer en Europe à la fin de la Renaissance, grâce à une étude renouvelée des œuvres de l'Antiquité grecque.
-Pierre de Fermat (1601-1665) n'a jamais publié ses écrits ; en particulier, son travail sur la théorie des nombres est contenu presque entièrement dans des lettres aux mathématiciens et dans les notes et marges privées. Il n'a presque écrit aucune démonstration en théorie des nombres.
-Il n'avait aucun modèle dans le domaine. Il a fait un usage répété du raisonnement par récurrence, en introduisant la méthode de descente infinie.
-Un des premiers intérêts de Fermat était les nombres parfaits (qui apparaissent dans les Éléments IX d'Euclide) et les nombres amicaux ; ceci l'amène à travailler sur des diviseurs entiers, qui furent dès le début parmi les sujets de la correspondance (année 1636 et suivantes) qui le mettent en contact avec la communauté mathématique de l'époque. Il avait déjà étudié attentivement l'édition de Bachet de Diophante ; après 1643, ses intérêts se sont portés vers les problèmes diophantiens et somme de carrés (aussi traités par Diophante).
+Pierre de Fermat (1601-1665) n'a jamais publié ses écrits ; en particulier, son travail sur la théorie des nombres est contenu presque entièrement dans des lettres aux mathématiciens et dans les notes et marges privées.
+Il n'a presque écrit aucune démonstration en théorie des nombres.
+Il n'avait aucun modèle dans le domaine.
+Il a fait un usage répété du raisonnement par récurrence, en introduisant la méthode de descente infinie.
+Un des premiers intérêts de Fermat était les nombres parfaits (qui apparaissent dans les Éléments IX d'Euclide) et les nombres amicaux ; ceci l'amène à travailler sur des diviseurs entiers, qui furent dès le début parmi les sujets de la correspondance (année 1636 et suivantes) qui le mettent en contact avec la communauté mathématique de l'époque.
+Il avait déjà étudié attentivement l'édition de Bachet de Diophante ; après 1643, ses intérêts se sont portés vers les problèmes diophantiens et somme de carrés (aussi traités par Diophante).
 Les résultats de Fermat en arithmétique incluent :
 La déclaration de Fermat (« dernier théorème de Fermat ») d'avoir montré qu'il n'y a pas de solutions à l'équation 
-+
-=
 pour tout 
-≥
 apparaît seulement en marge d'une copie d'Arithmetica de Diophante.
-L'intérêt de Leonhard Euler (1707-1783) pour la théorie des nombres fut d'abord stimulé en 1729, quand un de ses amis, l'amateur Goldbach, l'orienta vers une partie du travail de Fermat sur le sujet,. Cela a été appelé la « renaissance » de la théorie moderne des nombres, après le relatif manque de succès de Fermat pour attirer l'attention de ses contemporains sur le sujet. Le travail d'Euler sur la théorie des nombres comprend les éléments suivants :
+L'intérêt de Leonhard Euler (1707-1783) pour la théorie des nombres fut d'abord stimulé en 1729, quand un de ses amis, l'amateur Goldbach, l'orienta vers une partie du travail de Fermat sur le sujet,. Cela a été appelé la « renaissance » de la théorie moderne des nombres, après le relatif manque de succès de Fermat pour attirer l'attention de ses contemporains sur le sujet.
+Le travail d'Euler sur la théorie des nombres comprend les éléments suivants :
 Joseph-Louis Lagrange (1736-1813) fut le premier à donner des preuves complètes à certains travaux et observations de Fermat et Euler – par exemple, le théorème des quatre carrés et la théorie de l'équation de Pell-Fermat.
 Il a également étudié les formes quadratiques définissant leur relation d'équivalence, montrant comment les mettre sous forme réduite, etc.
 Adrien-Marie Legendre (1752-1833) fut le premier à énoncer la loi de réciprocité quadratique.
 Il a également conjecturé ce qui équivaut aujourd'hui au théorème des nombres premiers et au théorème de Dirichlet sur les progressions arithmétiques.
 Il a donné une analyse complète de l'équation 
-+
-+
-=
 . Durant la fin de sa vie, il fut le premier à prouver le dernier théorème de Fermat pour n = 5.
-Dans ses Disquisitiones Arithmeticae (1798), Carl Friedrich Gauss (1777-1855) a démontré la loi de réciprocité quadratique et développé la théorie des formes quadratiques.
-Il a également introduit la notation de congruence et a consacré une section aux tests de primalité. La dernière section des Disquisitiones établit un lien entre les racines de l'unité et la théorie des nombres. De cette façon, Gauss a sans doute amorcé le travail d'Évariste Galois et de la théorie algébrique des nombres.
+Dans ses Disquisitiones Arithmeticae , Carl Friedrich Gauss (1777-1855) a démontré la loi de réciprocité quadratique et développé la théorie des formes quadratiques.
+Il a également introduit la notation de congruence et a consacré une section aux tests de primalité. La dernière section des Disquisitiones établit un lien entre les racines de l'unité et la théorie des nombres.
+De cette façon, Gauss a sans doute amorcé le travail d'Évariste Galois et de la théorie algébrique des nombres.
 Commençant au début du XIXe siècle, les développements suivants ont progressivement eu lieu :
 « La mathématique est la reine des sciences et la théorie des nombres est la reine des mathématiques. » Gauss
 Texte anglais à traduire :
@@ -201,7 +176,8 @@ Texte anglais à traduire :
 The initial subjects of Fermat's correspondence included divisors ("aliquot parts") and many subjects outside number theory; see the list in the letter from Fermat to Roberval, 22.IX.1636
 Texte anglais à traduire :
 All of the following citations from Fermat's Varia Opera are taken from Weil 1984, chap.
-II. The standard Tannery & Henry work includes a revision of Fermat's posthumous Varia Opera Mathematica originally prepared by his son
+II.
+The standard Tannery & Henry work includes a revision of Fermat's posthumous Varia Opera Mathematica originally prepared by his son
 Texte anglais à traduire :
 Euler was generous in giving credit to others (Varadarajan 2006, p. 14), not always correctly.
 Texte anglais à traduire :
@@ -209,7 +185,7 @@ From the preface of
 Texte anglais à traduire :
 the translation is taken from
 Texte anglais à traduire :
-See the discussion in section 5 of Goldstein et Schappacher 2007. Early signs of self-consciousness are present already in letters by Fermat: thus his remarks on what number theory is, and how "Diophantus's work [...] does not really belong to [it]" (quoted in
+See the discussion in section 5 of Goldstein et Schappacher 2007. Early signs of self-consciousness are present already in letters by Fermat: thus his remarks on what number theory is, and how "Diophantus's work [...] does not really belong to " (quoted in
 Texte anglais à traduire :
 See the proof in Davenport et Montgomery 2000, section 1.
 Texte anglais à traduire :

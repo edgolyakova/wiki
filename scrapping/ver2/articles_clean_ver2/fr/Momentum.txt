@@ -41,33 +41,24 @@ En physique, la quantité de mouvement est le produit de la masse
 par le vecteur vitesse 
 d'un corps matériel supposé ponctuel.
 Il s'agit donc d'une grandeur vectorielle, définie par 
-=
-qui dépend du référentiel d'étude. Par additivité, il est possible de définir la quantité de mouvement d'un corps non ponctuel (ou système matériel), dont il est possible de démontrer qu'elle est égale à la quantité de mouvement de son centre d'inertie affecté de la masse totale du système, soit 
+, qui dépend du référentiel d'étude.
+Par additivité, il est possible de définir la quantité de mouvement d'un corps non ponctuel (ou système matériel), dont il est possible de démontrer qu'elle est égale à la quantité de mouvement de son centre d'inertie affecté de la masse totale du système, soit 
 système
-=
 système
 (C étant le centre d'inertie du système).
 La notion de quantité de mouvement s'introduit naturellement en dynamique : en fait, la relation fondamentale de la dynamique exprime le fait que l'action d'une force extérieure sur un système conduit à une variation de sa quantité de mouvement : 
-=
-Par ailleurs elle fait partie, avec l'énergie, des grandeurs qui se conservent pour un système isolé, c'est-à-dire soumis à aucune action extérieure, ou si celles-ci sont négligeables ou se compensent.
+. Par ailleurs elle fait partie, avec l'énergie, des grandeurs qui se conservent pour un système isolé, c'est-à-dire soumis à aucune action extérieure, ou si celles-ci sont négligeables ou se compensent.
 Cette propriété est utilisée notamment en théorie des collisions.
 En mécanique analytique ou quantique la quantité de mouvement apparaît naturellement comme la grandeur liée à l'invariance du hamiltonien ou du lagrangien dans une translation d'espace, c'est-à-dire à la propriété d'homogénéité de l'espace, qui est effectivement vérifiée en l'absence de forces ou champs extérieurs.
 Sur un plan plus général il s'agit en fait d'une des conséquences du théorème de Noether qui permet de relier symétrie continue d'un système et lois de conservation.
 La notion d'impulsion ou moment linéaire généralise en mécanique analytique celle de quantité de mouvement, en tant que moment conjugué des coordonnées cartésiennes 
-soit 
-=
-∂
-∂
-˙
-Quantité de mouvement et impulsion sont souvent confondues en raison de leur coïncidence dans la majorité des cas.
+, soit 
+. Quantité de mouvement et impulsion sont souvent confondues en raison de leur coïncidence dans la majorité des cas.
 Néanmoins ces deux grandeurs sont distinctes,. L'impulsion coïncide avec la quantité de mouvement lorsque les forces appliquées à la particule dérivent d'une énergie potentielle. L'analogue « angulaire » du moment linéaire est le moment angulaire généralement confondu avec le moment cinétique.
 Il est aussi possible de définir la quantité de mouvement, plus souvent alors appelée impulsion, pour le champ électromagnétique.
 Le plus souvent, il est fait référence à la densité volumique d'impulsion du champ donnée par 
-=
-∧
 En mécanique relativiste, les notions de quantité de mouvement et d'énergie sont liées par l'introduction du quadrivecteur énergie-impulsion 
-=
-où γ est le facteur de Lorentz.
+, où γ est le facteur de Lorentz.
 En mécanique quantique, la quantité de mouvement est définie comme un « opérateur vectoriel », c'est-à-dire comme un ensemble de trois opérateurs (un par composante spatiale) qui respectent certaines relations de commutation (dites canoniques) avec les composantes de l'opérateur de position.
 On trouve une première formulation de la quantité de mouvement chez Jean Buridan (1292 - 1363), dans ses Questiones sur la physique d'Aristote : L'impetus implanté augmente dans le même rapport que la vitesse.
 Quand un déménageur met un corps en mouvement, il y implante un certain impetus. C'est une certaine force qui permet au corps de se déplacer dans la direction dans laquelle le déménageur démarre ce mouvement, qu'il soit vers le haut, vers le bas, vers le côté ou en cercle. C'est à cause de cet impetus, dit-il, qu'une pierre se déplace après que le lanceur a cessé de la déplacer.
@@ -90,13 +81,8 @@ est définie comme produit de la masse et de la vitesse :
 C'est donc, comme la vitesse, une grandeur vectorielle, dont l'unité SI est le kilogramme mètre par seconde (kg m s−1).
 Cette grandeur est additive, ainsi pour un système matériel composé de N particules, la quantité de mouvement totale (ou résultante cinétique) du système est définie par :
 En introduisant le centre d'inertie C du système dont le vecteur position est par définition 
-=
-∑
-∑
 il vient aussitôt par dérivation la relation :
 autrement dit la quantité de mouvement totale du système est égale à la quantité de mouvement de son centre d'inertie C affectée de la masse totale 
-=
-∑
 du système :
 Cette relation est valable pour tout type de système matériel, déformable ou non.
 En mécanique du solide, la quantité de mouvement est la résultante du torseur cinétique.
@@ -104,9 +90,9 @@ La relation fondamentale de la dynamique exprime le fait que l'action d'une forc
 Cette relation se généralise aisément à un système matériel en ce qui concerne la quantité de mouvement totale du système, c'est-à-dire celle de son centre d'inertie C affecté de la masse totale du système, :
 Ce résultat est connu sous le nom de théorème de la résultante cinétique ou encore théorème du centre d'inertie: il montre que pour un système matériel l'action des forces extérieures conduit à une variation de la quantité de mouvement du centre d'inertie du système,.
 En l'absence de forces extérieures, ou si leur résultante est nulle, la quantité de mouvement d'un système matériel est donc une constante du mouvement, puisque alors 
-=
-En mécanique analytique cette loi de conservation peut être reliée à l'invariance par translation dans l'espace du Lagrangien, cf. ci-après.
-Une illustration classique de la conservation de la quantité de mouvement est fournie par le pendule de Newton, qui est souvent utilisé comme objet décoratif (cf. illustration ci-contre). Une bille à une extrémité est lâchée sans vitesse et acquiert une certaine quantité de mouvement, puis entre en collision avec les autres billes accolées.
+. En mécanique analytique cette loi de conservation peut être reliée à l'invariance par translation dans l'espace du Lagrangien, cf. ci-après.
+Une illustration classique de la conservation de la quantité de mouvement est fournie par le pendule de Newton, qui est souvent utilisé comme objet décoratif (cf. illustration ci-contre).
+Une bille à une extrémité est lâchée sans vitesse et acquiert une certaine quantité de mouvement, puis entre en collision avec les autres billes accolées.
 La bille à l'autre extrémité repart dans le même sens que la bille incidente, ayant acquis sa quantité de mouvement, qui se « transmet » à travers les billes accolées.
 De façon générale, la conservation de la quantité de mouvement est très importante dans l'étude des chocs de particules ou de la désintégration (séparation en plusieurs parties) d'un système.
 En effet dans le cas d'un choc de deux (ou plus) corps matériel, la durée de l'interaction entre les corps est très brève et il est possible de négliger l'effet des interactions extérieures au système constitué par les corps en collision, dont la quantité de mouvement totale peut donc être considérée comme conservée. Il est important de souligner que l'énergie cinétique n'est en général pas conservée dans une collision, car il y a souvent changement de l'état interne des corps durant la collision : par exemple deux particules qui restent accolées au cours d'une collision, ce n'est que si la collision est élastique que l'énergie cinétique est conservée, en plus de la quantité de mouvement (cf. illustrations ci-contre).
@@ -115,116 +101,63 @@ où
 est la variation de la vitesse de la première boule pendant le choc.
 Si le choc est de plein fouet alors 
 et 
-′
 sont colinéaires et alors la deuxième boule part à la vitesse de valeur 
-′
-=
-′
-|
-|
-À la limite il peut y avoir transfert de la totalité de la quantité de mouvement de la première boule sur la deuxième et alors 
-′
-=
-′
+. À la limite il peut y avoir transfert de la totalité de la quantité de mouvement de la première boule sur la deuxième et alors 
 Par suite, il y a un phénomène de recul de l'arme à la vitesse 
 arme
-=
-−
 balle
 arme
 balle
 Le même phénomène intervient lorsqu'un objet lourd (une pierre) est projeté depuis une barque (image ci-contre). C'est la fameuse expérience de la barque de Tsiolkovski.
 De façon générale ce phénomène permet de comprendre le principe du moteur-fusée (cf. figure ci-contre) : l'expulsion d'une masse 
-−
 (dm étant la variation de masse du vaisseau qui est négative) de matière à la vitesse d'éjection 
 pendant dt conduit — du fait de la conservation de la quantité de mouvement — (et en négligeant l'action des forces extérieures) à faire varier la vitesse de la fusée spatiale de 
-=
-En intégrant sur une durée finie 
-la vitesse de la fusée (de masse initiale m0) varie donc de 
-=
+. En intégrant sur une durée finie 
+, la vitesse de la fusée (de masse initiale m0) varie donc de 
 ln
-⁡
-+
 avec Δm < 0 puisque la fusée perd de la masse.
 Ainsi, la fusée se déplace dans le sens opposé aux gaz éjectés (voir Équation de Tsiolkovski).
 Une variation de quantité de mouvement consécutive à l'action d'une force est donc calculée comme étant l'intégrale de la force pendant la durée d'action de la force.
 Pour un objet de quantité de mouvement initiale 
-=
 à un instant t1, qui subit une force 
 pendant une durée t2 – t1, l'intégrale de cette force par rapport au temps, pendant cette durée, est égale à :
 En utilisant la relation fondamentale de la dynamique 
-=
-on obtient :
+, on obtient :
 L'usage, dérivé de l'appellation anglo-saxonne impulse, est d'appeler cette grandeur « impulsion ». Néanmoins, en toute rigueur, en français impulsion désigne le moment conjugué, grandeur de la mécanique lagrangienne.
 Lorsque la durée d'action de la force est très courte, la grandeur I précédente est appelée percussion mécanique, en raison de son importance dans la théorie des chocs.
 En mécanique lagrangienne, l'état d'un système de N particules (3N degrés de liberté) est décrit par son Lagrangien noté 
-˙
-où 
+, où 
 et 
-˙
 désigne les coordonnées et vitesses généralisées sous formes vectorielles de la i-ème particule (i = 1,...,N).
 Pour chaque particule il est possible de définir le moment conjugué (ou impulsion généralisée) de 
 par la relation, :
 Le symbole 
-∂
-∂
-˙
 désignant l'opérateur gradient évalué par rapport aux composantes de la vitesse généralisée 
-˙
 de la i-ème particule.
 D'après les équations de Lagrange, qui s'écrivent avec les mêmes notations 
-∂
-∂
-˙
-−
-∂
-∂
-=
 il vient aussitôt 
-˙
-=
-∂
-∂
-et si la coordonnée 
+, et si la coordonnée 
 est cyclique, c'est-à-dire que le lagrangien 
 ne dépend pas de celle-ci, alors 
-˙
-=
 et donc le moment conjugué 
 est conservé.
 La notion de moment linéaire ne correspond pas en général à celle de la quantité de mouvement.
 Par exemple, dans le cas du mouvement d'un seul point matériel dans un potentiel central V(r), ne dépendant que de la distance r à une origine O, le mouvement est plan (2 degrés de liberté) et le Lagrangien du système peut s'écrire aisément en coordonnées cylindro-polaires sous la forme :
 et le moment conjugué de 
 est donc 
-=
-∂
-∂
-˙
-=
-˙
 qui est la valeur du moment cinétique de la particule (qui dans ce cas est conservée car L ne dépend pas de θ).
 Ce n'est que si les coordonnées généralisées coïncident avec les coordonnées cartésiennes (i.e. qi = (xi, yi, zi)) et en l'absence de champ électromagnétique que 
-=
 et donc que le moment linéaire correspond à la quantité de mouvement de chaque particule.
 En effet dans ce cas les équations de Lagrange s'identifient avec celles données par la relation fondamentale de dynamique appliquée à chaque particule.
 Si les coordonnées cartésiennes sont utilisées et que les particules, qui portent une charge Qi sont en présence d'un champ électromagnétique, défini par les potentiels scalaire et vecteur du champ notés 
-le Lagrangien du système fait intervenir le potentiel généralisé :
-˙
-=
-∑
-−
-⋅
-,
+, le Lagrangien du système fait intervenir le potentiel généralisé :
 et dans ce cas le moment linéaire s'écrit du fait des équations de Lagrange
 Le moment conjugué 
 est alors dans ce cas désigné sous le nom d'impulsion pour le distinguer de la quantité de mouvement 
 Une translation infinitésimale du système dans l'espace est définie par la transformation 
-+
 appliquée à chaque particule, 
 étant le vecteur de translation élémentaire.
 Il est évident puisque 
-˙
-=
 que cette translation laisse inchangée les vecteurs vitesses 
 des particules, qui coïncident avec les vitesses généralisées pour les coordonnées cartésiennes.
 Si le Lagrangien du système est invariant par translation dans l'espace, alors nécessairement sa variation élémentaire 
@@ -232,35 +165,18 @@ correspondante est nulle au premier ordre en
 D'après les équations de Lagrange, et en opérant en coordonnées cartésiennes, cette condition s'écrit sous la forme :
 or la translation élémentaire 
 envisagée étant arbitraire, l'invariance par translation du Lagrangien implique que la quantité de mouvement totale du système 
-=
-∑
 est conservée.
 Ainsi la quantité de mouvement apparaît naturellement en mécanique analytique comme la grandeur conservée associée à l'invariance par translation du Lagrangien (ou du Hamiltonien), c'est-à-dire à la propriété d'homogénéité de l'espace.
 Il s'agit d'un cas particulier du théorème de Noether.
 Dans le formalisme hamiltonien la description de l'état du système à N degrés de liberté se fait en termes des N coordonnées et impulsions généralisées qi et pi, qui interviennent dans l'expression du Hamiltonien H(q, p, t) du système.
 Il est possible d'introduire le crochet de Poisson de deux grandeurs arbitraires f(q, p) et g(q, p) fonction des coordonnées et impulsions généralisées, défini par :
 Dans le cas particulier où f = qi et g = pi il vient {qi, pi} = 1 : ce résultat permet de généraliser la notion de position et de quantité de mouvement en mécanique quantique, en permettant de définir par le principe de correspondance une relation de commutation canonique entre les deux opérateurs.
-Dans le cadre de la description eulérienne des fluides, les équations sont généralement présentées sous forme locale (en un point). On s'affranchit alors de la notion de volume en définissant en tout point du fluide le vecteur quantité de mouvement par
+Dans le cadre de la description eulérienne des fluides, les équations sont généralement présentées sous forme locale (en un point).
+On s'affranchit alors de la notion de volume en définissant en tout point du fluide le vecteur quantité de mouvement par
 avec ρ la masse volumique du fluide étudié au point M à l'instant t et 
 la vitesse de la particule de fluide se trouvant au point M à l'instant t. Si le fluide est incompressible, ρ est constant dans le temps et dans l'espace.
 Le théorème de la quantité de mouvement pour un fluide s'écrit :
-∑
-/
-=
-∭
-∂
-∂
-+
-∬
-⋅
-⋅
 À noter que les forces exercées par l'extérieur sur le fluide sont de deux types : les forces à distance (volumiques) et les forces au contact (surfaciques) :
-∑
-/
-=
-∭
-+
-∬
 Un exemple de force volumique est le poids et un exemple de force surfacique sont les forces de friction (on parle plutôt de viscosité).
 Lorsqu'Albert Einstein formula sa théorie de la relativité restreinte, il adapta la définition de la quantité de mouvement en un vecteur en quatre dimensions (quadrivecteur) appelé le quadri-moment, égal à la quadrivitesse multipliée par la masse du corps.
 Le quadri-moment reste lui aussi constant au cours du temps en l'absence de force extérieure.
@@ -269,18 +185,10 @@ Plus précisément, la pseudo-norme est invariante par les transformations de Lo
 L'expression de la quadri-vitesse d'une particule de vitesse spatiale v inférieure à c est :
 où 
 représente le vecteur vitesse classique de la particule, et 
-=
-−
 est un facteur appelé gamma relativiste ou facteur de Lorentz, c étant la vitesse de la lumière.
 Le carré de la norme de ce quadrivecteur est donné par 
-⋅
-=
-−
-=
 Le quadrivecteur impulsion-énergie qui généralise en mécanique relativiste la notion de quantité de mouvement s'obtient en considérant pα = μα par analogie avec la définition classique, ce qui donne 
-=
-=
-avec :
+, avec :
 Le carré de la norme de ce quadrivecteur est la grandeur qui reste invariante lors d'une transformation de Lorentz, et qui est nécessairement égale au carré de la norme de μα
 soit m2c2, par suite
 L'invariant relativiste associé à ce quadrivecteur est donc l'énergie de masse de la particule (de même que la masse demeure inchangée en mécanique newtonienne par changement de référentiel).
@@ -288,142 +196,84 @@ Les objets de masse nulle, tels que les photons, possèdent aussi un 4-moment o�
 On a dans ce cas :
 La notion de quantité de mouvement n'est pas limitée à un corps matériel, mais peut être étendue à un champ comme le champ électromagnétique, pour lequel elle porte plutôt le nom d'impulsion, pour éviter toute confusion. L'impulsion du champ électromagnétique correspondant à un volume V est donnée par :
 La quantité 
-=
-∧
 correspond à la densité d'impulsion électromagnétique, c'est-à-dire à l'impulsion du champ électromagnétique par unité de volume.
 Elle est directement liée au vecteur de Poynting 
-=
-∧
 puisque 
-=
 Il est possible de montrer que cette quantité correspond bien à la densité d'impulsion liée au champ électromagnétique en considérant son interaction avec les charges et les courants présents dans un volume V arbitraire, délimité par la surface fermée (S) : de par la conservation de l'impulsion du système global {charges + courants + champ e.m}, la variation des densités d'impulsions des charges et courants et du champ doit être égale au flux de densité d'impulsion à travers la surface (S).
 L'interaction entre le champ et les charges et les courants fait intervenir la densité de force de Lorentz 
-=
-+
-∧
-or d'après les équations de Maxwell, il vient :
+, or d'après les équations de Maxwell, il vient :
 ce qui donne par substitution :
 or d'après l'identité 
-∂
-∂
-∧
-=
-∂
-∂
-∧
-+
-∧
-∂
-∂
-il vient :
+, il vient :
 le terme de droite pouvant être rendu plus symétrique en utilisant les deux équations de Maxwell donnant la structure du champ :
 ce qui donne finalement :
 le terme de droite peut alors se mettre sous la forme de la divergence du tenseur des contraintes de Maxwell :
 soit finalement :
 cette dernière équation apparaît bien sous la forme d'une équation locale de bilan, le terme de gauche donnant la variation temporelle de la densité locale d'impulsion du système des charges et courants 
 et du champ (terme en 
-∂
-∂
-=
-∂
-∂
-∧
 , le terme de droite correspondant aux échanges avec le reste.
 Ainsi, 
 peut être assimilée à la densité d'impulsion du champ électromagnétique.
 En mécanique quantique, l'état d'un système à un instant t est décrit par un vecteur d'état noté 
-|
-⟩
 appartenant à l'espace des états 
-du système (celui-ci possède une structure d'espace de Hilbert). Les différentes grandeurs physiques usuelles (position, énergie, etc.) sont alors des opérateurs hermitiens, donc à valeurs propres réelles, appelé observables.
+du système (celui-ci possède une structure d'espace de Hilbert).
+Les différentes grandeurs physiques usuelles (position, énergie, etc.) sont alors des opérateurs hermitiens, donc à valeurs propres réelles, appelé observables.
 La notion d'impulsion — qui est souvent confondue avec la quantité de mouvement — d'une particule, correspond à un opérateur, en fait un ensemble de trois opérateurs correspondant chacun aux trois composantes d'espaces, dits opérateurs scalaires, qu'il est possible de regrouper, par analogie avec le cas classique en un opérateur dit vectoriel, dit opérateur impulsion, noté 
 Par définition, l'opérateur de position 
 et l'opérateur impulsion 
 sont des opérateurs vectoriels, dont les trois opérateurs scalaires agissant sur les différentes composantes j=x,y,z correspondent aux diverses directions d'espace et obéissent aux relations de commutation canoniques suivantes :
 La première relation de commutation se déduit formellement par analogie avec le crochet de Poisson {qj, pk} = δjk entre coordonnées et impulsions généralisées en mécanique hamiltonienne, en appliquant la prescription (principe de correspondance): 
-[
-]
-↔
-{
-}
 La non-commutativité entre 
 et 
 (idem pour les autres composantes) implique qu'il n'est pas possible de mesurer simultanément la position et la quantité de mouvement (et donc la vitesse) d'une particule.
-Il existe donc des inégalités, dites de Heisenberg, sur les écart-types moyens notés Δx et Δ px de la mesure de chacune des deux grandeurs[a] : 
-⩾
+Il existe donc des inégalités, dites de Heisenberg, sur les écart-types moyens notés Δx et Δ px de la mesure de chacune des deux grandeurs : 
 La conséquence de ces relations est que la notion de trajectoire n'existe pas pour une particule quantique.
 De façon heuristique, cette situation peut aisément se comprendre.
 En effet si l'on cherche à localiser avec précision une particule, il faut utiliser une onde de courte longueur d'onde, donc de grande énergie.
 Or cette énergie va être nécessairement transmise, en tout ou en partie à la particule, modifiant de façon appréciable sa quantité de mouvement.
 Il sera possible d'utiliser une onde de plus grande longueur d'onde, mais alors l'incertitude sur la mesure de la position augmentera.
 En représentation position, où l'état du système peut être décrit par sa fonction d'onde 
-=
-⟨
-|
-⟩
-l'opérateur position pour une composante x donnée correspond simplement à la multiplication de la fonction d'onde par celle-ci :
+, l'opérateur position pour une composante x donnée correspond simplement à la multiplication de la fonction d'onde par celle-ci :
 il est alors facile de vérifier que du fait de la relation de commutation canonique entre 
 et 
 la quantité de mouvement dans la direction 
-pour une particule sans charge électrique et sans spin, est donné par l'opérateur :
+, pour une particule sans charge électrique et sans spin, est donné par l'opérateur :
 l'opérateur vectoriel de quantité de mouvement 
 s'écrit ainsi sous forme intrinsèque :
 En représentation impulsion l'état du système est décrit par la fonction d'onde « en impulsion » 
-=
-⟨
-|
-⟩
-l'opérateur impulsion pour une composante x donnée correspond simplement à la multiplication de la fonction d'onde par celui-ci:
+, l'opérateur impulsion pour une composante x donnée correspond simplement à la multiplication de la fonction d'onde par celui-ci:
 il est alors facile de vérifier que du fait de la relation de commutation canonique entre 
 et 
 l'expression de l'opérateur position 
-pour une particule sans charge électrique et sans spin, est donné par:
+, pour une particule sans charge électrique et sans spin, est donné par:
 l'opérateur vectoriel de position 
 s'écrit ainsi dans cette représentation sous forme intrinsèque :
 Les états propres de l'opérateur quantité de mouvement, c'est-à-dire les états pour lequel la quantité de mouvement de la particule a une valeur déterminée, sont donnés en représentation position à une dimension selon x par l'équation aux valeurs propres :
 La valeur de px n'est pas quantifiée a priori, sauf si des conditions particulières sont imposées à la particule, par exemple si elle confinée dans une boîte.
 Ce résultat se généralise aussitôt à trois dimensions sous la forme 
-=
 exp
-⁡
-⋅
-=
 exp
-⁡
-⋅
-où 
-=
+, où 
 est le vecteur d'onde de la particule.
 Ces états ne sont pas normalisables au sens usuel (ce ne sont pas des fonctions de carré sommable), mais il est possible de les normaliser « au sens des distributions » :
 Avec cette condition de normalisation il est possible de montrer que 
-=
-/
-en prenant pour convention de phase C réel et les états propres normalisés de l'opérateur impulsion s'écrivent ainsi en représentation position:
+, en prenant pour convention de phase C réel et les états propres normalisés de l'opérateur impulsion s'écrivent ainsi en représentation position:
 Pour un système stationnaire, l'opérateur hamiltonien du système s'exprime en fonction de l'opérateur quantité de mouvement : 
-=
-+
-(particule sans spin en l'absence de champ magnétique). En général du fait de la non-commutation entre opérateur impulsion et position, les états propres de l'impulsion ne sont pas états propres du hamiltonien.
+(particule sans spin en l'absence de champ magnétique).
+En général du fait de la non-commutation entre opérateur impulsion et position, les états propres de l'impulsion ne sont pas états propres du hamiltonien.
 Toutefois, dans le cas d'une particule libre 
-=
 dans tout l'espace, et les états propres du hamiltonien sont ceux de l'impulsion, car alors 
 et 
 commutent entre eux.
 Les états propres d'énergie 
-=
-=
 ne sont donc pas quantifiés, et sont qualifiés de continus.
-Ils correspondent chacun à une valeur donnée de l'impulsion. Cette situation correspond en mécanique quantique à la conservation de la quantité de mouvement classique.
+Ils correspondent chacun à une valeur donnée de l'impulsion.
+Cette situation correspond en mécanique quantique à la conservation de la quantité de mouvement classique.
 La fonction d'onde « complète » d'un tel système, c'est-à-dire la solution de l'équation de Schrödinger dépendant du temps, est alors donnée par 
-=
 exp
-⁡
-±
-⋅
-−
 , avec 
-=
-/
-fréquence associée à l'énergie E. Les états propres ont donc la forme d'ondes progressives, traduisant sur le plan quantique le déplacement classique de la particule selon la direction de l'impulsion.
+, fréquence associée à l'énergie E. Les états propres ont donc la forme d'ondes progressives, traduisant sur le plan quantique le déplacement classique de la particule selon la direction de l'impulsion.
 Le caractère continu de ces états propres de l'impulsion disparaît si la particule n'est plus strictement libre, mais confinée dans une région donnée de l'espace (« barrière de potentiel infinie »). Du point de vue mathématique cela revient à imposer des conditions aux limites à la fonction d'onde, qui devra s'annuler sur la « frontière » de la « boîte » dans laquelle est confinée la particule, puisque celle-ci a une probabilité de présence nulle en dehors de cette région.
-Ces conditions aux limites se traduisent physiquement par une quantification de l'énergie et donc de l'impulsion (cf. pour plus de détails l'article Particule dans une boîte). Les états propres correspondants se mettront sous la forme d'une somme des états propres libres, et correspondront à des ondes stationnaires, traduisant sur le plan quantique le confinement de la particule, cf. figure ci-contre.
+Ces conditions aux limites se traduisent physiquement par une quantification de l'énergie et donc de l'impulsion (cf. pour plus de détails l'article Particule dans une boîte).
+Les états propres correspondants se mettront sous la forme d'une somme des états propres libres, et correspondront à des ondes stationnaires, traduisant sur le plan quantique le confinement de la particule, cf. figure ci-contre.
 Sur les autres projets Wikimedia :

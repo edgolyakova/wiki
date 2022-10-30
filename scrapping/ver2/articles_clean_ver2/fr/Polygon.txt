@@ -46,9 +46,6 @@ L'ordre d'un polygone est le nombre de ses côtés. C'est évidemment aussi le n
 Les droites qui portent les côtés d'un polygone sont appelées les côtés prolongés de ce polygone.
 Une diagonale d'un polygone est un segment qui joint deux sommets non consécutifs, c'est-à-dire un segment qui joint deux sommets et qui n'est pas un côté du polygone.
 Un polygone à n côtés possède ainsi 
-−
-=
-−
 diagonales.
 Il existe de nombreuses manières de classer les polygones : en fonction de leur convexité, de leurs symétries, de leurs angles... Mais on les classe d'abord suivant leur nombre de côtés.
 Les polygones peuvent être classés entre eux suivant leur ordre.
@@ -63,7 +60,8 @@ d’Alembert, Le Blond, L’Encyclopédie, 1re éd., t. Tome 12, 1751 (lire sur
 L'Encyclopédie donne le principe, auquel la numération du grec ancien doit être ajoutée.
 Les mêmes principes s'appliquent aux polyèdres, où il suffit de remplacer le suffixe -gone par le suffixe -èdre.
 Un polygone est dit croisé si au moins deux de ses côtés sont sécants, c'est-à-dire si au moins deux de ses côtés non consécutifs se coupent. C'est le cas du pentagone ABCDE ci-contre.
-Un polygone est dit simple si deux côtés non consécutifs ne se rencontrent pas et deux côtés consécutifs n'ont en commun que l'un de leurs sommets. Un polygone simple est toujours non croisé.
+Un polygone est dit simple si deux côtés non consécutifs ne se rencontrent pas et deux côtés consécutifs n'ont en commun que l'un de leurs sommets.
+Un polygone simple est toujours non croisé.
 Il forme alors une courbe de Jordan, qui délimite une partie bornée du plan, appelée son intérieur.
 On appelle aire d'un polygone simple l'aire de son intérieur.
 Un polygone simple est dit non convexe si son intérieur n'est pas convexe, autrement dit si l'une de ses diagonales n'est pas entièrement dans son intérieur.
@@ -75,7 +73,8 @@ Les symétries d'un polygone d'ordre n sont les isométries du plan euclidien qu
 L'ensemble des symétries de n'importe quelle figure plane est un sous-groupe du groupe des isométries du plan.
 En effet, lorsqu'on compose deux de ces symétries ou qu'on prend la bijection réciproque de l'une d'elles, le résultat est encore une symétrie de la figure.
 Les symétries d'un polygone d'ordre n forment même un groupe fini, qui est égal, pour un certain diviseur d de n :
-Un polygone d'ordre n est dit régulier s'il est équilatéral (côtés égaux) et équiangle (angles égaux), ou encore s'il est « le plus symétrique possible », c'est-à-dire si son groupe de symétrie est Dn. Il suffit pour cela que le polygone possède n axes de symétrie, ou encore : une rotation d'ordre n. Lorsqu'on dit « le polygone régulier d'ordre n », il s'agit de l'« unique » polygone convexe de cette famille (on calcule facilement son périmètre et son aire). Les autres sont dits étoilés.
+Un polygone d'ordre n est dit régulier s'il est équilatéral (côtés égaux) et équiangle (angles égaux), ou encore s'il est « le plus symétrique possible », c'est-à-dire si son groupe de symétrie est Dn. Il suffit pour cela que le polygone possède n axes de symétrie, ou encore : une rotation d'ordre n. Lorsqu'on dit « le polygone régulier d'ordre n », il s'agit de l'« unique » polygone convexe de cette famille (on calcule facilement son périmètre et son aire).
+Les autres sont dits étoilés.
 Le groupe de symétrie est diédral si et seulement si le polygone admet un axe de symétrie.
 Si le polygone n'est pas croisé, un tel axe passe nécessairement par un sommet ou le milieu d'un côté.[réf. nécessaire]
 Plus précisément :
@@ -101,26 +100,19 @@ En effet, cette formule, bien connue pour n = 3, se généralise en découpant l
 Une autre façon de démontrer cette formule est de remarquer que (pour des angles orientés convenablement) la somme des n angles externes est égale à 360° et les angles externe et interne associés à un même sommet ont pour somme 180°.
 Deux polygones sont dits équivalents s'ils peuvent s'obtenir par rotation ou réflexion l'un de l'autre.
 Ainsi pour 
-=
-…
 il existe 
 12
 39
 202
-…
 polygones non équivalents (suite A000940 de l'OEIS).
 Parmi eux certains sont chiraux 
 15
 130
-…
 polygones chiraux pour 
-=
-…
 côtés).
 Le nombre de polygones non équivalents par rotation seulement vaut donc 
 14
 54
 332
-…
 (suite A000939 de l'OEIS).
 Sur les autres projets Wikimedia :

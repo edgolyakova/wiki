@@ -30,113 +30,61 @@ En mathématiques, la notion de série permet de généraliser la notion de somm
 Étant donnée une suite de terme général un, étudier la série de terme général un c'est étudier la suite obtenue en prenant la somme des premiers termes de la suite (un), autrement dit la suite de terme général Sn défini par :
 L'étude d'une série peut passer par la recherche d'une écriture simplifiée des sommes finies en jeu et par la recherche éventuelle d'une limite finie quand n tend vers l'infini.
 Quand cette limite existe, la série est dite convergente, et la limite de la suite (Sn) est alors appelée somme de la série, et notée 
-∑
-=
-+
-∞
-Le calcul d'une somme finie ne pouvant pas toujours être simplifié, un certain nombre de méthodes permettent de déterminer la nature (convergence ou non) d'une série sans réaliser explicitement les calculs. Toutefois, certaines règles de calcul sur les sommes finies ne sont pas nécessairement conservées par cette notion de série, comme la commutativité ou l'associativité, c'est-à-dire la possibilité de permuter les termes de la suite ou de regrouper certains d'entre eux sans modifier ni la convergence ni la somme de la série.
+Le calcul d'une somme finie ne pouvant pas toujours être simplifié, un certain nombre de méthodes permettent de déterminer la nature (convergence ou non) d'une série sans réaliser explicitement les calculs.
+Toutefois, certaines règles de calcul sur les sommes finies ne sont pas nécessairement conservées par cette notion de série, comme la commutativité ou l'associativité, c'est-à-dire la possibilité de permuter les termes de la suite ou de regrouper certains d'entre eux sans modifier ni la convergence ni la somme de la série.
 La notion de série peut être étendue à des sommes infinies dont les termes un ne sont pas nécessairement des nombres, mais par exemple des vecteurs, des fonctions ou des matrices.
 Une série de terme général xn peut être définie formellement comme le couple formé des deux suites 
-∈
 et 
-∑
-=
-∈
 Le terme d'ordre n de la seconde suite, 
-=
-∑
-=
-est la somme des n + 1 premiers termes de la suite 
-∈
-appelé également somme partielle d'ordre n. La suite 
-∈
+, est la somme des n + 1 premiers termes de la suite 
+, appelé également somme partielle d'ordre n. La suite 
 est appelée suite des sommes partielles de la série de terme xn.
 Ainsi, la suite des sommes partielles associée à la série de terme général xn peut s'écrire :
 Les séries numériques sont les séries dont les termes xn sont des nombres réels ou des nombres complexes.
 Il existe également des séries vectorielles, dont les termes sont des vecteurs d'un certain espace vectoriel.
 On peut ainsi étudier par exemple des séries de matrices ou des séries de fonctions.
 On note la série de terme général xn :
-∑
 ou 
-∑
-≥
 [réf. souhaitée].
 Dire que la série numérique 
-∑
 est convergente signifie, par définition, que la suite des sommes partielles 
-∈
 est convergente ; sa limite S est alors appelée somme de la série, elle est notée 
-∑
-=
-+
-∞
-et son calcul est la sommation de la série. [réf. nécessaire] Dans le cas contraire, la série est dite divergente.
+, et son calcul est la sommation de la série. [réf. nécessaire] Dans le cas contraire, la série est dite divergente.
 Deux séries sont dites de même nature si elles sont toutes deux convergentes ou toutes deux divergentes.
 On parle de série absolument convergente lorsque la série de terme général |xk| est elle-même convergente (|x| signifiant ici « valeur absolue de x » si x est un nombre réel, « module de x » si x est un nombre complexe, norme s'il s'agit d'un élément d'un espace vectoriel normé). Si la série est convergente sans être absolument convergente, alors on parle de série semi-convergente.
 Le fait qu'une série puisse être convergente résout beaucoup de problèmes, comme certains des paradoxes de Zénon.
 En revanche, il est rare qu'on sache calculer de façon explicite la somme d'une série.
 Hormis quelques calculs classiques, la théorie des séries a pour objectif de déterminer la nature d'une série sans calcul de la suite des sommes partielles, et éventuellement de procéder à un calcul approché de la somme.
 Si la série converge, alors son terme général tend vers zéro.
-La réciproque est fausse (exemple de la série harmonique, dont le terme général tend vers zéro tout en étant divergente). Si une série ne respecte pas cette condition, on dit qu'elle diverge grossièrement.
+La réciproque est fausse (exemple de la série harmonique, dont le terme général tend vers zéro tout en étant divergente).
+Si une série ne respecte pas cette condition, on dit qu'elle diverge grossièrement.
 La série de terme général (1/2)n est convergente et sa somme vaut :
 + 1/2 + 1/4 + 1/8 + 1/16 + ⋯ = 2.
 Il est possible de « visualiser » sa convergence sur la droite réelle : on peut imaginer un segment de longueur 2, que l'on découpe en segments successifs de longueurs 1, 1/2, 1/4, etc.
 Il y a toujours assez de place pour marquer le segment suivant, parce que la longueur restante est constamment égale à la longueur du segment qui vient d'être marqué. Lorsque nous avons marqué 1/2, il reste un morceau de longueur 1/2 non marqué, ainsi nous pouvons encore certainement marquer le prochain 1/4. Cet argument ne peut en aucune façon servir de démonstration que la somme de toutes les longueurs des segments est égale à 2, mais permet de deviner que cette somme va rester inférieure à 2 et donc que la suite des sommes partielles est croissante et majorée.
 Cette série est une série géométrique ; on démontre sa convergence en écrivant pour tout entier naturel n, sa somme partielle au rang n qui vaut :
 La suite géométrique 
-∈
 de raison 1/2 est convergente et de limite nulle donc
 Si la série 
-∑
 est convergente, alors pour tout entier naturel n, la somme 
-=
-∑
-=
-+
-∞
 existe, et 
 lim
-+
-∞
-=
-Le terme Rn s'appelle le reste d'ordre n de la série 
-∑
+. Le terme Rn s'appelle le reste d'ordre n de la série 
 Il est facile, par un procédé itératif, de calculer un terme de la suite des sommes partielles.
 Pour une série convergente, et pour tout naturel n, la relation entre la somme, la somme partielle d'ordre n et le reste d'ordre n s'écrit
-=
-+
 Ainsi, si l'on sait borner le reste, la somme partielle peut être vue comme une valeur approchée de la somme, avec une incertitude connue.
 Il est possible de retrouver le terme général à partir de la suite des sommes partielles par les formules
-=
-∀
-∈
-∗
-=
-−
-−
-Ainsi toute somme partielle est une suite, mais toute suite est également une somme partielle (associée à la série des différences des termes consécutifs, avec un premier terme nul). Selon le cas, on aura intérêt à considérer une suite comme une somme partielle, ou inversement, selon la facilité de l'analyse des termes.
+Ainsi toute somme partielle est une suite, mais toute suite est également une somme partielle (associée à la série des différences des termes consécutifs, avec un premier terme nul).
+Selon le cas, on aura intérêt à considérer une suite comme une somme partielle, ou inversement, selon la facilité de l'analyse des termes.
 Par ailleurs, si la série 
-∑
 est convergente, alors la suite 
-∈
 converge vers 0. En effet, si l'on suppose que la série converge et a pour somme S, alors on a 
-=
-−
-−
-⟶
-+
-∞
-−
-=
-La réciproque est fausse (on peut prendre la série harmonique comme contre-exemple). Lorsque le terme général d'une série ne tend pas vers 0, celle-ci est dite trivialement ou grossièrement divergente.
+La réciproque est fausse (on peut prendre la série harmonique comme contre-exemple).
+Lorsque le terme général d'une série ne tend pas vers 0, celle-ci est dite trivialement ou grossièrement divergente.
 Exemples : 
-∑
-−
 est une série grossièrement divergente ; en revanche, pour 
-∑
 ln
-⁡
-bien que le terme général tende vers zéro, on ne peut pas trancher sans d'autres théorèmes.
+, bien que le terme général tende vers zéro, on ne peut pas trancher sans d'autres théorèmes.
 La considération de véritables sommes infinies est une question étroitement liée à celle du passage à la limite. L'absence persistante des concepts satisfaisants engendra de nombreuses interrogations et spéculations, à l'exemple des paradoxes de Zénon.
 On trouve néanmoins déjà chez Archimède (La quadrature de la parabole) les premières sommations explicites, avec les progressions géométriques comme 1/4 + 1/16 + 1/64 + 1/256 + ⋯.
 En Angleterre, Richard Suiseth (XIVe siècle) calcule la somme de la série de terme général n/2n et son contemporain Nicole Oresme établit que la série harmonique (de terme général 1/n) est divergente. À la même époque, le mathématicien et astronome indien Madhava est le premier à considérer des développements de fonctions trigonométriques, sous forme de séries, séries de Taylor, séries trigonométriques.
@@ -148,61 +96,34 @@ Au XVIIIe siècle également, Leonhard Euler établit de nombreuses relations r
 Il est rare de pouvoir calculer explicitement tous les termes de la suite des sommes partielles.
 Il existe un grand nombre de règles pour les séries à termes positifs.
 Elles sont toutes basées sur le principe de comparaison : si, pour tout entier n, on a 
-≤
-≤
-alors
+, alors
 Cela reste vrai si l'on a les inégalités précédentes non plus pour tout entier n, mais pour tout entier n « assez grand » (c'est-à-dire à partir d'un certain rang), et conduit
 au résultat suivant :
 Pour ces séries à termes positifs, il convient donc de déterminer la nature de certaines séries de références (telles que les séries géométriques ou les séries de Riemann), puis de comparer à ces séries.
 L'étude des séries à termes réels ou complexes, sans hypothèse particulière, peut poser plus de problèmes.
 Une condition suffisante a une grande importance : si la série des valeurs absolues (série à termes réels) ou des modules (séries à termes complexes) 
-∑
-|
-|
 converge, alors la série 
-∑
 converge également.
 Elle est alors dite absolument convergente.
 Il existe des séries convergentes sans être absolument convergentes, comme la série harmonique alternée 
-∑
-−
-Les méthodes d'étude pour ce type de série, plus techniques, (critère de convergence des séries alternées, théorème d'Abel, …) sont présentées dans l'article détaillé Série convergente.
+. Les méthodes d'étude pour ce type de série, plus techniques, (critère de convergence des séries alternées, théorème d'Abel, …) sont présentées dans l'article détaillé Série convergente.
 Attention : les critères de convergence concernant les séries à termes positifs peuvent ne pas s'appliquer dans le cas général.
 Un exemple typique est celui de la série 
-∑
-=
-∞
-−
 Elle est convergente, car c'est une série alternée dont le terme général tend vers zéro en décroissant en valeur absolue, mais pas
 absolument convergente : la série des valeurs absolues est une série de Riemann divergente.
 Par contre, la série 
-∑
-=
-∞
-−
-+
-−
-+
 est divergente.
 Cet exemple illustre deux phénomènes :
 Le critère de comparaison entre série et intégrale est très utile, c'est lui qui permet de déterminer notamment la convergence ou la divergence des séries de Riemann et de Bertrand.
 Soit 
-[
-+
-∞
-[
 une fonction décroissante et positive.
 Alors la série 
-∑
-=
-∞
 et l'intégrale 
-∫
-∞
 sont simultanément convergentes ou divergentes.
 Si E est un espace vectoriel normé, une série dont les termes sont à valeurs dans E est dite convergente lorsque la suite des sommes partielles converge pour la norme choisie.
 Si E est de dimension finie, tous les choix de normes donneront la même notion de convergence.
-Dans le cas des espaces de Banach, beaucoup de critères de convergence peuvent être énoncés, puisqu'il suffit de prouver la convergence absolue de la série pour montrer qu'elle converge (on parle dans ce cas de convergence normale). Cela permet fréquemment de conclure avec les outils d'étude des séries à termes positifs.
+Dans le cas des espaces de Banach, beaucoup de critères de convergence peuvent être énoncés, puisqu'il suffit de prouver la convergence absolue de la série pour montrer qu'elle converge (on parle dans ce cas de convergence normale).
+Cela permet fréquemment de conclure avec les outils d'étude des séries à termes positifs.
 Plus généralement, la notion de série peut être définie dans tout groupe abélien topologique.
 Formellement, les séries de fonctions sont simplement des séries dont le terme général appartient à un espace vectoriel de fonctions.
 Ainsi la fonction exponentielle est somme d'une série de fonctions puissances puisque

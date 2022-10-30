@@ -48,7 +48,7 @@ Ainsi les limites de la cryptographie quant à sa capacité à préserver la vie
 Deux exemples qui illustrent bien ce sujet sont à trouver dans le domaine de la santé et celui de la blockchain.
 La santé est un domaine sensible quant à la protection des données : le secret médical est remis en question avec l’informatisation de la médecine.
 La cryptographie permet en théorie de protéger les données médicales pour qu’elles ne soient pas accessible à n’importe qui, mais elle n’est pas suffisante.
-Car tant que le droit n’est pas suffisamment large[pas clair], il existe des failles qui permettent à certains acteurs d’utiliser des données personnelles dès l'accord de l'usager donné, or cet accord est exigé pour l'accès au service, faisant ainsi perdre à l'utilisateur la possibilité de contrôle de ses  accès à nos données personnelles.
+Car tant que le droit n’est pas suffisamment large[pas clair], il existe des failles qui permettent à certains acteurs d’utiliser des données personnelles dès l'accord de l'usager donné, or cet accord est exigé pour l'accès au service, faisant ainsi perdre à l'utilisateur la possibilité de contrôle de ses accès à nos données personnelles.
 De plus l’inviolabilité des données médicales est remise en question par les développements qui permettent le déchiffrement de ces données, en effet selon Bourcier et Filippi, l’« anonymat ne semble plus garanti de façon absolue en l’état actuel des techniques de cryptographie ». Avec cette double constatation ils proposent de protéger nos données médicales avec une réforme juridique qui permettrait de faire rentrer les données personnelles médicales non pas dans le droit à la vie privée qui est un droit personnel, mais dans un droit collectif qui permettrait de protéger plus efficacement des données telles que les données génétiques qui concernent plusieurs individus.
 La création d’un droit collectif pour la santé permettrait ainsi de compenser les limites de la cryptographie qui n’est pas en mesure d’assurer à elle seule la protection de ce type de données.
 La blockchain est elle aussi l’une des applications de la cryptographie en lien avec la protection de la vie privée. C’est un système décentralisé qui se base entre autres sur des techniques de cryptographie destinées à assurer la fiabilité des échanges tout en garantissant en principe la vie privée. Qui dit système décentralisé implique qu’il n’y a pas de tierce personne par laquelle passe les informations.
@@ -66,7 +66,8 @@ Cet amendement formalise précisément le moyen législatif d’accéder à des 
 D’autre part, certains services gouvernementaux développent des systèmes d’inspection de réseaux afin de tirer des informations malgré le chiffrement des données.
 On peut notamment citer le programme de surveillance électronique Carnivore aux États-Unis.
 Toutefois, la réglementation sur les systèmes de cryptographie ne laisse que peu de place à un contrôle par des entités telles que des gouvernements.
-En effet, les logiciels et algorithmes les plus performants et répandus sont issus de la connaissance et des logiciels libres comme PGP ou OpenSSH. Ceux-ci offrent une implémentation fonctionnelle des algorithmes de chiffrement modernes pour assurer le chiffrement de courriels, de fichiers, de disques durs ou encore la communication dite sécurisée entre plusieurs ordinateurs.
+En effet, les logiciels et algorithmes les plus performants et répandus sont issus de la connaissance et des logiciels libres comme PGP ou OpenSSH.
+Ceux-ci offrent une implémentation fonctionnelle des algorithmes de chiffrement modernes pour assurer le chiffrement de courriels, de fichiers, de disques durs ou encore la communication dite sécurisée entre plusieurs ordinateurs.
 Ces logiciels étant sous licence libre, leur code source est accessible, reproductible et modifiable.
 Cela implique qu’il est techniquement très difficile de les rendre exclusifs à une entité — étatique par exemple — et d’en avoir le contrôle.
 Le chiffrement devient alors utilisable par nombre de personnes, permettant de contrevenir à une loi.
@@ -85,7 +86,7 @@ Celui-ci pourrait ensuite répondre à une demande d'une autorité légale comp�
 Cette solution, bien que paraissant optimale du point de vue de la théorie démocratique, présente déjà un certain nombre de difficultés techniques comme la mise en place et l'entretien de l’infrastructure requise.
 De plus, il est utopique d’imaginer que la mise en place de cadres légaux plus sévères découragera les criminels et organisations anticonstitutionnelles d’arrêter leurs activités. Cela s’applique à la stratégie du tiers de confiance et à celle de prohibition.
 La stratégie libérale répandue dans le monde laisse un accès "total" aux technologies de cryptographie, pour sécuriser la vie privée des citoyens, défendre la liberté d’expression dans l’ère numérique, laisser les entreprises garder leurs secrets et laisser les entreprises exporter des solutions informatiques sécurisées sur les marchés internationaux.
-Cependant, les criminels et opposants de la Constitution[Laquelle ?] peuvent utiliser cette technologie à des fins illicites — ou anticonstitutionnelles —[Laquelle ?] comme  armes, drogue ou pédopornographie sur le Dark Web.
+Cependant, les criminels et opposants de la Constitution[Laquelle ?] peuvent utiliser cette technologie à des fins illicites — ou anticonstitutionnelles —[Laquelle ?] comme armes, drogue ou pédopornographie sur le Dark Web.
 Les États-Unis et la France interdisent l'exportation de certaines formes de cryptographie, voir Lois sur les chiffrement sur wikipedia anglophone.
 Les premiers algorithmes utilisés pour le chiffrement d'une information étaient assez rudimentaires dans leur ensemble.
 Ils consistaient notamment au remplacement de caractères par d'autres.
@@ -99,7 +100,8 @@ Comme son nom l'indique, la clé publique est mise à la disposition de quiconqu
 Ce dernier ne pourra être déchiffré qu'avec la clé privée, qui doit rester confidentielle.
 Quelques algorithmes de cryptographie asymétrique très utilisés :
 Le principal inconvénient de RSA et des autres algorithmes à clés publiques est leur grande lenteur par rapport aux algorithmes à clés secrètes.
-RSA est par exemple 1000 fois plus lent que DES. En pratique, dans le cadre de la confidentialité, on s'en sert pour chiffrer un nombre aléatoire qui sert ensuite de clé secrète pour un algorithme de chiffrement symétrique. C'est le principe qu'utilisent des logiciels comme PGP par exemple.
+RSA est par exemple 1000 fois plus lent que DES.
+En pratique, dans le cadre de la confidentialité, on s'en sert pour chiffrer un nombre aléatoire qui sert ensuite de clé secrète pour un algorithme de chiffrement symétrique. C'est le principe qu'utilisent des logiciels comme PGP par exemple.
 La cryptographie asymétrique est également utilisée pour assurer l'authenticité d'un message. L'empreinte du message est chiffrée à l'aide de la clé privée et est jointe au message.
 Les destinataires déchiffrent ensuite le cryptogramme à l'aide de la clé publique et retrouvent normalement l'empreinte.
 Cela leur assure que l'émetteur est bien l'auteur du message.

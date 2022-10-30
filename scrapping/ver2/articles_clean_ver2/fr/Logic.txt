@@ -44,9 +44,11 @@ La logique est à l'origine la recherche de règles générales et formelles per
 Elle trouve ses premiers tâtonnements dans les mathématiques et surtout dans la géométrie mais c'est principalement sous l'impulsion des Mégariques et ensuite d'Aristote qu'elle prend son envol.
 La logique a très tôt été utilisée contre elle-même, c'est-à-dire contre les conditions mêmes du discours : le sophiste Gorgias l'utilise dans son Traité du non-être afin de prouver qu'il n'y a pas d'ontologie possible : « ce n'est pas l'être qui est l'objet de nos pensées » : la vérité matérielle de la logique est ainsi ruinée. Le langage acquiert ainsi sa propre loi, celle de la logique, indépendante de la réalité. Mais les sophistes ont été écartés de l'histoire de la philosophie (sophiste a pris un sens péjoratif), si bien que la logique, dans la compréhension qu'on en a eu par exemple au Moyen Âge, est restée soumise à la pensée de l'être.
 Au XVIIe siècle, le philosophe Gottfried Wilhelm Leibniz réalise des recherches fondamentales en logique qui révolutionnent profondément la logique aristotélicienne.
-Il se réclame constamment de la tradition des syllogismes d'Aristote et tente de l'intégrer à son propre système. Il est le premier à imaginer et à développer une logique formelle.
+Il se réclame constamment de la tradition des syllogismes d'Aristote et tente de l'intégrer à son propre système.
+Il est le premier à imaginer et à développer une logique formelle.
 Emmanuel Kant, quant à lui, définit la logique comme « une science qui expose dans le détail et démontre avec rigueur les règles formelles de toute pensée ». Les six œuvres d’Aristote regroupées sous le titre d’Organon, où figurent notamment les Catégories et l'étude du syllogisme, furent longtemps considérées comme la référence sur ce sujet.
-En 1847 est publié le livre de George Boole, intitulé Mathematical Analysis of Logic, puis An Investigation Into the Laws of Thought, on Which are Founded the Mathematical Theories of Logic and Probabilities. Boole y développe une nouvelle forme de logique, à la fois symbolique et mathématique.
+En 1847 est publié le livre de George Boole, intitulé Mathematical Analysis of Logic, puis An Investigation Into the Laws of Thought, on Which are Founded the Mathematical Theories of Logic and Probabilities.
+Boole y développe une nouvelle forme de logique, à la fois symbolique et mathématique.
 Son but est de traduire des idées et des concepts en expressions et équations, de leur appliquer certains calculs et de traduire le résultat en termes logiques, marquant ainsi le début de la logique moderne, fondée sur une approche algébrique et sémantique, que l'on a appelée plus tard algèbre de Boole en son honneur.
 De manière très générale, il existe quatre approches de la logique :
 L'Organon est le principal ouvrage de logique d'Aristote, comprenant notamment les Premiers Analytiques ; il constitue le premier travail explicite de logique formelle, avec notamment l'introduction de la syllogistique.
@@ -56,14 +58,9 @@ Le calcul des propositions est un système formel dans lequel les formules repr�
 Un calcul des prédicats est un système formel, qui peut être soit la logique du premier ordre, soit la logique du second ordre, soit la logique d'ordre supérieur, soit la logique infinitaire.
 Il exprime par la quantification un large échantillon de propositions du langage naturel.
 Par exemple, le paradoxe du barbier de Bertrand Russell, «il y a un homme qui rase tous les hommes, qui ne se rasent pas » peut être formalisé par la formule :
-∃
 homme
-∧
-∀
 homme
 rase
-↔
-¬
 rase
 en utilisant le prédicat 
 homme
@@ -98,7 +95,8 @@ La signification des connecteurs est définie à l'aide de fonctions de booléen
 Ces fonctions peuvent être représentées sous la forme de table de vérité.
 La signification d'une formule dépend donc de la valeur de vérité de ses variables.
 On parle d'interprétation ou d'affectation.
-Toutefois, il est difficile, au sens de la complexité algorithmique, d'utiliser la sémantique pour décider si une formule est satisfaisante (ou non) voire valide (ou non). Il faudrait pour cela pouvoir énumérer toutes les interprétations qui sont exponentielles en nombre.
+Toutefois, il est difficile, au sens de la complexité algorithmique, d'utiliser la sémantique pour décider si une formule est satisfaisante (ou non) voire valide (ou non).
+Il faudrait pour cela pouvoir énumérer toutes les interprétations qui sont exponentielles en nombre.
 Une alternative à la sémantique consiste à examiner les preuves bien formées et à considérer leurs conclusions.
 Cela se fait dans un système de déduction.
 Un système de déduction est un couple (A, R), où A est un ensemble de formules appelées axiomes et R un ensemble de règles d'inférence, c'est-à-dire de relations entre des ensembles de formules (les prémisses) et des formules (la conclusion).

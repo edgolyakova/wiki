@@ -31,24 +31,34 @@ Languages
 Electronics is a branch of physics and electrical engineering that deals with the emission, behaviour and effects of electrons using electronic devices.
 Electronics uses active devices to control electron flow by amplification and rectification, which distinguishes it from classical electrical engineering, which only uses passive effects such as resistance, capacitance and inductance to control electric current flow.
 Electronics has hugely influenced the development of modern society.
-The identification of the electron in 1897, along with the subsequent invention of the vacuum tube which could amplify and rectify small electrical signals, inaugurated the field of electronics and the electron age. Practical applications started with the invention of the diode by Ambrose Fleming and the triode by Lee De Forest in the early 1900s, which made the detection of small electrical voltages such as radio signals from a radio antenna possible with a non-mechanical device.
+The identification of the electron in 1897, along with the subsequent invention of the vacuum tube which could amplify and rectify small electrical signals, inaugurated the field of electronics and the electron age.
+Practical applications started with the invention of the diode by Ambrose Fleming and the triode by Lee De Forest in the early 1900s, which made the detection of small electrical voltages such as radio signals from a radio antenna possible with a non-mechanical device.
 Vacuum tubes (Thermionic valves) were the first active electronic components which controlled current flow by influencing the flow of individual electrons, They were responsible for the electronics revolution of the first half of the twentieth century, They enabled the construction of equipment that used current amplification and rectification to give us radio, television, radar, long-distance telephony and much more.
 The early growth of electronics was rapid, and by the 1920s, commercial radio broadcasting and communications were becoming widespread and electronic amplifiers were being used in such diverse applications as long-distance telephony and the music recording industry.
 The next big technological step took several decades to appear, when the first working point-contact transistor was invented by John Bardeen and Walter Houser Brattain at Bell Labs in 1947.
-However, vacuum tubes played a leading role in the field of microwave and high power transmission as well as television receivers until the middle of the 1980s. 
+However, vacuum tubes played a leading role in the field of microwave and high power transmission as well as television receivers until the middle of the 1980s.
 Since then, solid-state devices have all but completely taken over.
 Vacuum tubes are still used in some specialist applications such as high power RF amplifiers, cathode ray tubes, specialist audio equipment, guitar amplifiers and some microwave devices.
-In April 1955, the IBM 608 was the first IBM product to use transistor circuits without any vacuum tubes and is believed to be the first all-transistorized calculator to be manufactured for the commercial market. The 608 contained more than 3,000 germanium transistors.
-Thomas J. Watson Jr. ordered all future IBM products to use transistors in their design.
+In April 1955, the IBM 608 was the first IBM product to use transistor circuits without any vacuum tubes and is believed to be the first all-transistorized calculator to be manufactured for the commercial market.
+The 608 contained more than 3,000 germanium transistors.
+Thomas J.
+Watson Jr. ordered all future IBM products to use transistors in their design.
 From that time on transistors were almost exclusively used for computer logic and peripherals.
 However, early junction transistors were relatively bulky devices that were difficult to manufacture on a mass-production basis, which limited them to a number of specialised applications.
-The MOSFET (MOS transistor) was invented by Mohamed Atalla and Dawon Kahng at Bell Labs in 1959. The MOSFET was the first truly compact transistor that could be miniaturised and mass-produced for a wide range of uses. Its advantages include high scalability, affordability, low power consumption, and high density. It revolutionized the electronics industry, becoming the most widely used electronic device in the world. The MOSFET is the basic element in most modern electronic equipment.
-As the complexity of circuits grew, problems arose. One problem was the size of the circuit.
+The MOSFET (MOS transistor) was invented by Mohamed Atalla and Dawon Kahng at Bell Labs in 1959.
+The MOSFET was the first truly compact transistor that could be miniaturised and mass-produced for a wide range of uses.
+Its advantages include high scalability, affordability, low power consumption, and high density.
+It revolutionized the electronics industry, becoming the most widely used electronic device in the world.
+The MOSFET is the basic element in most modern electronic equipment.
+As the complexity of circuits grew, problems arose.
+One problem was the size of the circuit.
 A complex circuit like a computer was dependent on speed.
 If the components were large, the wires interconnecting them must be long.
-The electric signals took time to go through the circuit, thus slowing the computer. The invention of the integrated circuit by Jack Kilby and Robert Noyce solved this problem by making all the components and the chip out of the same block (monolith) of semiconductor material.
+The electric signals took time to go through the circuit, thus slowing the computer.
+The invention of the integrated circuit by Jack Kilby and Robert Noyce solved this problem by making all the components and the chip out of the same block (monolith) of semiconductor material.
 The circuits could be made smaller, and the manufacturing process could be automated.
-This led to the idea of integrating all components on a single-crystal silicon wafer, which led to small-scale integration (SSI) in the early 1960s, and then medium-scale integration (MSI) in the late 1960s, followed by VLSI. In 2008, billion-transistor processors became commercially available.
+This led to the idea of integrating all components on a single-crystal silicon wafer, which led to small-scale integration (SSI) in the early 1960s, and then medium-scale integration (MSI) in the late 1960s, followed by VLSI.
+In 2008, billion-transistor processors became commercially available.
 An electronic component is any component in an electronic system either active or passive.
 Components are connected together, usually by being soldered to a printed circuit board (PCB), to create an electronic circuit with a particular function.
 Components may be packaged singly, or in more complex groups as integrated circuits.
@@ -70,20 +80,25 @@ In fact, many digital circuits are actually implemented as variations of analog 
 Digital circuits are electric circuits based on a number of discrete voltage levels.
 Digital circuits are the most common physical representation of Boolean algebra and are the basis of all digital computers.
 To most engineers, the terms "digital circuit", "digital system" and "logic" are interchangeable in the context of digital circuits.
-Most digital circuits use a binary system with two voltage levels labelled "0" and "1". Often logic "0" will be a lower voltage and referred to as "Low" while logic "1" is referred to as "High". However, some systems use the reverse definition ("0" is "High") or are current based.
+Most digital circuits use a binary system with two voltage levels labelled "0" and "1".
+Often logic "0" will be a lower voltage and referred to as "Low" while logic "1" is referred to as "High".
+However, some systems use the reverse definition ("0" is "High") or are current based.
 Quite often the logic designer may reverse these definitions from one circuit to the next as they see fit to facilitate their design.
 The definition of the levels as "0" or "1" is arbitrary.
 Ternary (with three states) logic has been studied, and some prototype computers made.
-Mass-produced binary systems have caused lower significance for using ternary logic. Computers, electronic clocks, and programmable logic controllers (used to control industrial processes) are constructed of digital circuits.
+Mass-produced binary systems have caused lower significance for using ternary logic.
+Computers, electronic clocks, and programmable logic controllers (used to control industrial processes) are constructed of digital circuits.
 Digital signal processors, which measure, filter or compress continuous real-world analog signals, are another example.
 Transistors such as MOSFET are used to control binary states.
 Highly integrated devices:
 Electronic systems design deals with the multi-disciplinary design issues of complex electronic devices and systems, such as mobile phones and computers.
-The subject covers a broad spectrum, from the design and development of an electronic system (new product development) to assuring its proper function, service life and disposal. Electronic systems design is therefore the process of defining and developing complex electronic devices to satisfy specified requirements of the user.
+The subject covers a broad spectrum, from the design and development of an electronic system (new product development) to assuring its proper function, service life and disposal.
+Electronic systems design is therefore the process of defining and developing complex electronic devices to satisfy specified requirements of the user.
 Due to the complex nature of electronics theory, laboratory experimentation is an important part of the development of electronic devices.
 These experiments are used to test or verify the engineer's design and detect errors.
 Historically, electronics labs have consisted of electronics devices and equipment located in a physical space, although in more recent years the trend has been towards electronics lab simulation software, such as CircuitLogix, Multisim, and PSpice.
-Today's electronics engineers have the ability to design circuits using premanufactured building blocks such as power supplies, semiconductors (i.e. semiconductor devices, such as transistors), and integrated circuits.
+Today's electronics engineers have the ability to design circuits using premanufactured building blocks such as power supplies, semiconductors (i.e.
+semiconductor devices, such as transistors), and integrated circuits.
 Electronic design automation software programs include schematic capture programs and printed circuit board design programs.
 Popular names in the EDA software world are NI Multisim, Cadence (ORCAD), EAGLE PCB and Schematic, Mentor (PADS PCB and LOGIC Schematic), Altium (Protel), LabCentre Electronics (Proteus), gEDA, KiCad and many others.
 Heat generated by electronic circuitry must be dissipated to prevent immediate failure and improve long term reliability.
@@ -102,9 +117,13 @@ Most modern day electronics now use printed circuit boards made of materials suc
 Health and environmental concerns associated with electronics assembly have gained increased attention in recent years, especially for products destined to go to European markets.
 Electrical components are generally mounted in the following ways:
 The electronics industry consists of various sectors.
-The central driving force behind the entire electronics industry is the semiconductor industry sector, which has annual sales of over $481 billion as of 2018. The largest industry sector is e-commerce, which generated over $29 trillion in 2017. The most widely manufactured electronic device is the metal-oxide-semiconductor field-effect transistor (MOSFET), with an estimated 13 sextillion MOSFETs having been manufactured between 1960 and 2018. In the 1960s, U.S. manufacturers were unable to compete with Japanese companies such as Sony and Hitachi who could produce high-quality goods at lower prices.
+The central driving force behind the entire electronics industry is the semiconductor industry sector, which has annual sales of over $481 billion as of 2018.
+The largest industry sector is e-commerce, which generated over $29 trillion in 2017.
+The most widely manufactured electronic device is the metal-oxide-semiconductor field-effect transistor (MOSFET), with an estimated 13 sextillion MOSFETs having been manufactured between 1960 and 2018.
+In the 1960s, U.S. manufacturers were unable to compete with Japanese companies such as Sony and Hitachi who could produce high-quality goods at lower prices.
 By the 1980s, however, U.S. manufacturers became the world leaders in semiconductor development and assembly.
 However, during the 1990s and subsequently, the industry shifted overwhelmingly to East Asia (a process begun with the initial movement of microchip mass-production there in the 1970s), as plentiful, cheap labor, and increasing technological sophistication, became widely available there.
-Over three decades, the United States' global share of  semiconductor manufacturing capacity fell, from 37% in 1990, to 12% in 2022. America's pre-eminient semiconductor manufacturer, Intel Corporation, fell far behind its subcontractor Taiwan Semiconductor Manufacturing Company (TSMC) in manufacturing technology.
+Over three decades, the United States' global share of semiconductor manufacturing capacity fell, from 37% in 1990, to 12% in 2022.
+America's pre-eminient semiconductor manufacturer, Intel Corporation, fell far behind its subcontractor Taiwan Semiconductor Manufacturing Company (TSMC) in manufacturing technology.
 By that time, Taiwan had become the world's leading source of advanced semiconductors—followed by South Korea, the United States, Japan, Singapore, and China.
 Important semiconductor industry facilities (which often are subsidiaries of a leading producer based elsewhere) also exist in Europe (notably the Netherlands), Southeast Asia, South America, and Israel.

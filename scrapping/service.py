@@ -13,20 +13,20 @@ html_folder = Path('{env_var}articles_html'.format(env_var=scrapping_path))
 text_folder = Path('{env_var}articles_text'.format(env_var=scrapping_path))
 
 replace_pairs = (
-    # check lines containing multiple sentences and break them into different lines
-    (r'(?<=[a-z][a-z])\. (?=[A-Z][\w ])', '.\n'),
-    # remove strings beginning with special characters
-    (r'^[\.\:,\?]', ''),
+    # remove the quotation, like [1]
+    (r'\[[\d\w ]+]', ''),
+    # remove citation like (1)
+    (r'\(\d+\)', ''),
+    # remove math figures
+    (r'{\\displaystyle .*', ''),
+    # remove space in the beginning of line
+    (r'^ ', ''),
     # remove the sign of quotation mark
     (r'\^', ''),
     # remove the arrows
     (u'\u2191', ''),
     ('←', ''),
     ('→', ''),
-    # remove the quotation, like [1]
-    (r'\[\d+\]', ''),
-    # remove update link
-    (r'\[update\]', ''),
     # remove the list of languages, that should always contains this sequence
     (r'.*(EspañolEsperanto|EsperantoEspañol).*', ''),
     # remove urls beginning with https
@@ -35,20 +35,26 @@ replace_pairs = (
     (r'www\.[\w \./\?\=&-]+', ''),
     # remove (en)|(en-GB)|(en-US) mark before the quoted resources
     (r'\(en(?:\)|-GB\)|-US\))', ''),
-    # remove math figures
-    (r'{\\displaystyle .*', ''),
-    # remove a string if it's just one character
-    (r'^[\w০\.\:٠]$', ''),
+    # check lines containing multiple sentences and break them into different lines
+    (r'(?<=[a-z][a-z"»』」\)])\. (?=[A-Z«"『「][\w ])', '.\n'),
+    # break lines if sentence ends with an abbreviation
+    (r'(?<=[A-Z][A-Z])\. (?=[A-Z«"『「][\w ])', '.\n'),
+    # break lines abbreviation and quotaion
+    (r'(?<=[A-Z][A-Z]["»』」\)]) (?=[A-Z«"『「][\w ])', '\n'),
+    # break a quoted sentence into different lines
+    (r'(?<=[a-z]\.[»』」"]) (?=[A-Z«"『「][\w ])', '\n'),
     # remove a broken parenthesis: if a string ends with (
     (r'\($', ''),
     # remove a broken parenthesis: if a string starts with )
     (r'^\)', ''),
     # remove a string if it's just separators and spaces
-    (r'^[٠ ]+$', ''),
-    # remove space in the beginning of line
-    (r'^ ', ''),
-    #replace multiple line breaks with one
-    (r'\n+', '\n')
+    (r'^\W+$', ''),
+    # remove a string that's just one letter
+    (r'^\w$', ''),
+    # replace multiple line breaks with one
+    (r'\n+', '\n'),
+    # replace multiple spaces with one
+    (r' +', ' ')
 )
 
 

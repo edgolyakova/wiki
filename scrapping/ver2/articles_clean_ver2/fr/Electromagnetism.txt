@@ -29,18 +29,20 @@ L'électromagnétisme est, avec la mécanique, une des grandes branches de la ph
 Ainsi, dans son article de 1864, « A Dynamical Theory of the Electromagnetic Field », Maxwell écrit : « L'accord des résultats semble montrer que la lumière et le magnétisme sont deux phénomènes de même nature et que la lumière est une perturbation électromagnétique se propageant dans l'espace suivant les lois de l'électromagnétisme ».
 De ce point de vue, l'optique toute entière peut être vue comme une application de l'électromagnétisme. L'interaction électromagnétique, force forte, est également une des quatre interactions fondamentales ; elle permet de comprendre (avec la mécanique quantique) l'existence, la cohésion et la stabilité des édifices chimiques tels que les atomes ou les molécules, des plus simples aux plus complexes.
 Du point de vue de la physique fondamentale, le développement théorique de l'électromagnétisme classique est à la source de la théorie de la relativité restreinte au début du XXe siècle.
-La nécessité de concilier théorie électromagnétique et mécanique quantique a conduit à construire l'électrodynamique quantique, qui interprète l'interaction électromagnétique comme un échange de particules appelées photons[N 1]. En physique des particules, l'interaction électromagnétique et l'« interaction faible » sont unifiées dans le cadre de la théorie électrofaible.
-Pendant longtemps les phénomènes électriques et les phénomènes magnétiques ont été considérés comme indépendants. En 1600, William Gilbert explicite, dans son ouvrage De Magnete, la distinction entre corps électriques (il introduit ce terme) et magnétiques.
+La nécessité de concilier théorie électromagnétique et mécanique quantique a conduit à construire l'électrodynamique quantique, qui interprète l'interaction électromagnétique comme un échange de particules appelées photons.
+En physique des particules, l'interaction électromagnétique et l'« interaction faible » sont unifiées dans le cadre de la théorie électrofaible.
+Pendant longtemps les phénomènes électriques et les phénomènes magnétiques ont été considérés comme indépendants.
+En 1600, William Gilbert explicite, dans son ouvrage De Magnete, la distinction entre corps électriques (il introduit ce terme) et magnétiques.
 Il assimile la Terre à un aimant, note les répulsions et attractions des aimants par leurs pôles et l'influence de la chaleur sur le magnétisme du fer.
 Il donne aussi les premières notions sur l'électricité, dont une liste des corps électrisables par frottement.
-Les Grecs avaient seulement remarqué que des morceaux d'ambre frottés pouvaient attirer des corps légers, tels des copeaux ou de la poussière, et par ailleurs qu'il existait un minéral, la « pierre d'aimant » ou magnétite[N 2], capable d'attirer le fer et les métaux ferreux.
+Les Grecs avaient seulement remarqué que des morceaux d'ambre frottés pouvaient attirer des corps légers, tels des copeaux ou de la poussière, et par ailleurs qu'il existait un minéral, la « pierre d'aimant » ou magnétite, capable d'attirer le fer et les métaux ferreux.
 La découverte au XIXe siècle par Ørsted, Ampère et Faraday de l'existence d'effets magnétiques de l'électricité a conduit progressivement à envisager que les forces « électrique » et « magnétique » puissent être en fait unifiées, et Maxwell propose en 1860 une théorie générale de l'électromagnétisme classique, qui pose les fondements de la théorie moderne.
 Hans Christian Ørsted
 James Clerk Maxwell
 Michael Faraday
 L'électromagnétisme dit classique correspond à la théorie « usuelle » de l'électromagnétisme, élaborée à partir du travail de Maxwell et Faraday.
 Il s'agit d'une théorie classique, car elle se fonde sur des champs continus, par opposition à la théorie quantique.
-En revanche, il ne s'agit pas d'une théorie non relativiste : en effet, bien que proposées antérieurement à la théorie de la relativité restreinte, les équations de Maxwell, qui sont à la base de la théorie classique, sont invariantes par transformations de Lorentz[N 3].
+En revanche, il ne s'agit pas d'une théorie non relativiste : en effet, bien que proposées antérieurement à la théorie de la relativité restreinte, les équations de Maxwell, qui sont à la base de la théorie classique, sont invariantes par transformations de Lorentz.
 Le concept fondamental de la théorie est la notion de champ électromagnétique, entité qui englobe le champ électrique et le champ magnétique, qui se réduit dans certains cas particuliers :
 L'interaction électromagnétique, présentée en termes fondamentaux de la physique théorique, s'appelle l'électrodynamique ; si on tient compte de l'aspect quantique, c'est l'électrodynamique quantique relativiste.
 Ce formalisme est semblable à celui de la mécanique quantique : la résolution de l'équation de Schrödinger, ou de sa version relativiste (l'équation de Dirac), donne la probabilité de présence de l'électron, et la solution de l'équation de Maxwell, longtemps interprétée comme une onde, est à la base une équation de probabilité pour le photon, qui n'a ni charge ni masse, et qui ne se déplace qu'à la vitesse de la lumière dans le vide.
@@ -58,42 +60,28 @@ centré autour d'un point repéré par le vecteur position
 {\textstyle {\vec {r}}}
 à l'instant t, contenant la charge électrique 
 {\textstyle \delta q}
-La densité de charge est alors définie par 
-=
+. La densité de charge est alors définie par 
 lim
-Elle s'exprime en C.m−3. Avec cette définition, la charge électrique contenue dans un élément de volume infinitésimal dV de l'espace est 
-=
-⋅
+. Elle s'exprime en C.m−3. Avec cette définition, la charge électrique contenue dans un élément de volume infinitésimal dV de l'espace est 
 {\textstyle \mathrm {d} q=\rho \cdot \mathrm {d} V}
-et la charge contenue dans un volume (V) quelconque de l'espace à l'instant t est 
-=
-∭
+, et la charge contenue dans un volume (V) quelconque de l'espace à l'instant t est 
 {\textstyle q(t)=\iiint _{(V)}\rho \,\mathrm {d} V}
-En ce qui concerne la densité de courant, il convient de considérer un élément de surface orienté 
+. En ce qui concerne la densité de courant, il convient de considérer un élément de surface orienté 
 {\textstyle \mathrm {d} {\vec {S}}}
-centré en 
+, centré en 
 {\textstyle {\vec {r}}}
-si 
+, si 
 désigne la vitesse de déplacement des charges en ce point, alors 
-=
-⋅
 {\textstyle \mathrm {d} q=\rho {\vec {v}}\cdot \mathrm {d} {\vec {S}}\,\mathrm {d} t}
-représente la charge électrique passant à travers l'élément de surface pendant une durée dt[N 7], par suite l'intensité correspondante à travers cet élément de surface est 
-=
-=
-⋅
+représente la charge électrique passant à travers l'élément de surface pendant une durée dt, par suite l'intensité correspondante à travers cet élément de surface est 
 {\textstyle \mathrm {d} i={\frac {\mathrm {d} q}{\mathrm {d} t}}={\vec {\jmath }}\cdot \mathrm {d} {\vec {S}}}
-où 
-=
+, où 
 {\textstyle {\vec {\jmath }}({\vec {r}},t)=\rho \,{\vec {v}}}
 est la densité de courant.
 Cette grandeur s'exprime en A.m−2. Avec cette définition, l'intensité à travers une surface finie (S) quelconque s'écrit 
-=
-∬
-⋅
 {\textstyle i_{S}(t)=\iint _{(S)}{\vec {\jmath }}\cdot \mathrm {d} {\vec {S}}}
-c'est-à-dire correspond au flux du vecteur densité de courant à travers la surface (S).
-Ces deux définitions négligent, bien sûr, tant la structure granulaire de la matière[N 8] que la quantification de la charge électrique.
+, c'est-à-dire correspond au flux du vecteur densité de courant à travers la surface (S).
+Ces deux définitions négligent, bien sûr, tant la structure granulaire de la matière que la quantification de la charge électrique.
 En fait, il faut considérer que, lors du passage à la limite, le volume 
 {\textstyle \delta V}
 ne tend pas vers zéro au sens mathématique du terme, mais demeure à une échelle intermédiaire entre l'échelle macroscopique et l'échelle microscopique.
@@ -101,63 +89,42 @@ Plus précisément
 {\textstyle \delta V}
 demeure « suffisamment grand » pour contenir une charge électrique totale certes faible du point de vue macroscopique, mais très supérieure à la charge élémentaire e : les densités de charge et de courant sont qualifiées de grandeurs nivelées.
 En raison de la conservation de la charge électrique, les densités de charge et de courant sont liées par l'équation dite de continuité : 
-∂
-∂
-+
 div
-⁡
-=
 {\textstyle {\frac {\partial \rho }{\partial t}}+\operatorname {div} {\vec {\jmath }}=0}
-Cette équation doit être vue comme une condition à laquelle les équations de l’électromagnétisme reliant le champ électromagnétique aux sources doivent impérativement satisfaire.
+. Cette équation doit être vue comme une condition à laquelle les équations de l’électromagnétisme reliant le champ électromagnétique aux sources doivent impérativement satisfaire.
 En régime statique, lorsque les distributions de charge et de courant sont indépendantes du temps, les champs électriques et magnétiques sont directement reliés, respectivement, aux densités de charge et de courant :
-Ce lien direct, en régime statique, entre les champs électrique et magnétique d'une part, et les distributions de charge et de courant d'autre part, fait que les champs statiques ne sont pas des variables dynamiques indépendantes. En revanche, en régime variable, le couplage entre les deux champs est la source d'une dynamique complexe (retard, propagation, ...), qui élève conceptuellement le champ électromagnétique au rang de véritable système physique[N 9], doté d'une énergie, d'une impulsion et d'un moment cinétique, ainsi que d'une dynamique propre.
+Ce lien direct, en régime statique, entre les champs électrique et magnétique d'une part, et les distributions de charge et de courant d'autre part, fait que les champs statiques ne sont pas des variables dynamiques indépendantes.
+En revanche, en régime variable, le couplage entre les deux champs est la source d'une dynamique complexe (retard, propagation, ...), qui élève conceptuellement le champ électromagnétique au rang de véritable système physique, doté d'une énergie, d'une impulsion et d'un moment cinétique, ainsi que d'une dynamique propre.
 L'électromagnétisme se fonde sur une théorie de l'électrodynamique pour décrire le couplage entre le champ électromagnétique et le système mécanique que sont les charges électriques. L'électrodynamique classique utilise, par exemple, un faible nombre d'équations fondamentales :
 Les équations de Maxwell peuvent être facilement mises sous forme d'intégrales :
-La notion de champ électromagnétique est centrale en électromagnétisme, qui peut aussi se définir comme l'étude de ce champ et de son interaction avec les charges et courants électriques (qui sont des déplacements de charges). Ce champ a une structure bien définie, qui résulte des propriétés des équations locales de Maxwell, et possède la propriété de pouvoir se propager dans l'espace, sous forme d'ondes électromagnétiques, ce qui est à la base d'un très grand nombre d'applications de l'électromagnétisme, (radio, téléphonie mobile, réseaux sans fils, etc.).
+La notion de champ électromagnétique est centrale en électromagnétisme, qui peut aussi se définir comme l'étude de ce champ et de son interaction avec les charges et courants électriques (qui sont des déplacements de charges).
+Ce champ a une structure bien définie, qui résulte des propriétés des équations locales de Maxwell, et possède la propriété de pouvoir se propager dans l'espace, sous forme d'ondes électromagnétiques, ce qui est à la base d'un très grand nombre d'applications de l'électromagnétisme, (radio, téléphonie mobile, réseaux sans fils, etc.).
 Les deux premières équations de Maxwell, dites de structure, imposent de strictes conditions sur les champs électriques et magnétiques.
 Au champ électromagnétique 
 il est possible d'associer les potentiels électromagnétiques 
 Toutefois, cette correspondance n'est pas univoque : en effet, plusieurs choix sont possibles pour les potentiels scalaire et vecteur correspondant à un même champ électromagnétique, qui seul a une réalité physique.
 En effet, il est facile de vérifier que la transformation suivante sur les potentiels, appelée transformation de jauge : 
-{
-′
-=
-−
-∂
-∂
-′
-=
-+
 grad
 où 
-=
 étant un champ scalaire quelconque, appelé fonction de jauge, laisse invariant le champ électromagnétique 
-puisque 
+, puisque 
 rot
 grad
-=
 pour tout champ scalaire 
 Cette invariance de jauge du champ électromagnétique requiert, notamment, de fixer une condition supplémentaire sur les potentiels, dite condition de jauge, pour en diminuer l'indétermination.
 Les jauges les plus fréquentes sont celles de Coulomb, où la condition 
 div
-⁡
-=
 est imposée, et celle de Lorenz (de type relativiste), qui impose 
-∂
-∂
-+
 div
-⁡
-=
-À un niveau plus fondamental, l'invariance de jauge est directement liée à la loi de conservation de la charge électrique (conséquence du théorème de Noether, qui associe à toute symétrie locale une loi de conservation). Dans la théorie quantique de l'électromagnétisme, l'invariance de jauge est liée à la nullité de la masse du photon, qui elle-même est liée à la portée infinie de l'interaction électromagnétique.
+À un niveau plus fondamental, l'invariance de jauge est directement liée à la loi de conservation de la charge électrique (conséquence du théorème de Noether, qui associe à toute symétrie locale une loi de conservation).
+Dans la théorie quantique de l'électromagnétisme, l'invariance de jauge est liée à la nullité de la masse du photon, qui elle-même est liée à la portée infinie de l'interaction électromagnétique.
 Le champ électromagnétique possède la propriété, très importante sur le plan pratique, de pouvoir se propager dans le vide, c'est-à-dire en l'absence de toute charge ou courant électrique, sous la forme d'ondes électromagnétiques.
 Dans le vide, les équations de Maxwell s'écrivent en effet :
 En prenant le rotationnel membre à membre de la première et de la dernière de ces équations, et en utilisant les identités classiques d'analyse vectorielle, ainsi que les deux autres équations, il est possible de montrer que le champ électrique 
 et le champ magnétique 
 vérifient les équations d'ondes :
 avec 
-=
-c étant la célérité de la lumière dans le vide.
+, c étant la célérité de la lumière dans le vide.
 Une telle équation décrit une propagation des champs 
 et 
 dans le vide à cette vitesse, qui est donc non seulement indépendante de la fréquence de ces ondes, mais également du référentiel d'étude.
@@ -165,36 +132,15 @@ Cette dernière propriété est en violation flagrante avec la loi de compositio
 Cette contradiction entre électromagnétisme et mécanique newtonienne fut un des facteurs principaux dans la genèse de la théorie de la relativité restreinte.
 Il est également possible de montrer qu'en imposant aux potentiels la condition de jauge dite de Lorenz, soit 
 div
-⁡
-+
-∂
-∂
-=
-ceux-ci obéissent à des équations d'onde (vectorielle pour 
-scalaire pour V) de formes identiques à celles du champ électromagnétique.
+, ceux-ci obéissent à des équations d'onde (vectorielle pour 
+, scalaire pour V) de formes identiques à celles du champ électromagnétique.
 L'électromagnétisme est une théorie relativiste : il est possible de montrer que les équations de Maxwell sont invariantes par la transformation de Lorentz. C'est au demeurant la réflexion sur les difficultés à concilier les résultats de l'électromagnétisme, qui prévoit une vitesse des ondes électromagnétiques dans le vide indépendante du référentiel d'étude, avec ceux de la mécanique classique, qui a conduit à la formulation de la théorie de la relativité restreinte.
 De fait il est possible d'utiliser le formalisme relativiste des quadrivecteurs pour réécrire les équations de Maxwell :
 Les quatre équations de Maxwell peuvent être alors mises sous la forme de deux équations covariantes, une correspondant à la paire d'équations de structure, et la seconde à celle du couplage champ - sources :
 et
 les indices i, j, et k variant de 0 à 3, la sommation sur les indices répétés (convention d'Einstein) étant sous-entendue. L'invariance des équations de Maxwell par transformation de Lorentz résulte alors de l'invariance générale des quadrivecteurs (et « quadritenseurs ») dans une telle transformation, qui correspond à une rotation dans l'espace quadridimensionnel.
 En jauge de Lorenz, la deuxième équation peut s'exprimer sous la forme 
-∂
-∂
-=
-−
-où 
-∂
-∂
-=
-∂
-∂
-−
-∇
-=
-◻
-appelé opérateur d'alembertien, d'où l'équation 
-◻
-=
-−
+, où 
+, appelé opérateur d'alembertien, d'où l'équation 
 L'électromagnétisme englobe l'électricité, regroupant les phénomènes électriques et magnétiques suivants :
 Sur les autres projets Wikimedia :

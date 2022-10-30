@@ -16,9 +16,10 @@ déplacer vers la barre latérale
 masquer
 Pour les articles homonymes, voir Ensemble (homonymie).
 En mathématiques, un ensemble désigne intuitivement une collection d’objets (les éléments de l'ensemble), « une multitude qui peut être comprise comme un tout » (au sens d'omnis).
-Dans une approche axiomatique, la théorie des ensembles est une théorie de l'appartenance (un élément d'un ensemble est dit « appartenir » à cet ensemble). Le mot ensemble désigne alors un objet du domaine de cette théorie, dont les axiomes régissent les propriétés. La théorie des ensembles est utilisée pour fonder les mathématiques, et dans cette approche tout objet mathématique est in fine un ensemble.
+Dans une approche axiomatique, la théorie des ensembles est une théorie de l'appartenance (un élément d'un ensemble est dit « appartenir » à cet ensemble).
+Le mot ensemble désigne alors un objet du domaine de cette théorie, dont les axiomes régissent les propriétés. La théorie des ensembles est utilisée pour fonder les mathématiques, et dans cette approche tout objet mathématique est in fine un ensemble.
 Mais la notion d'ensemble est aussi une notion de base qui intervient dans à peu près tous les domaines des mathématiques.
-La formulation en reviendrait au mathématicien Georg Cantor, qui énonçait : « Par ensemble, nous entendons toute collection M d'objets m de notre intuition ou de notre pensée, définis et distincts, ces objets étant appelés les éléments de M »[trad 1],. Ceci était particulièrement novateur, s'agissant d'ensembles éventuellement infinis (ce sont ces derniers qui intéressaient Cantor).
+La formulation en reviendrait au mathématicien Georg Cantor, qui énonçait : « Par ensemble, nous entendons toute collection M d'objets m de notre intuition ou de notre pensée, définis et distincts, ces objets étant appelés les éléments de M »,. Ceci était particulièrement novateur, s'agissant d'ensembles éventuellement infinis (ce sont ces derniers qui intéressaient Cantor).
 Ce qui est en jeu au premier chef dans la notion d'ensemble, c'est la relation d’appartenance : un élément appartient à un ensemble.
 Ce sont les propriétés de cette relation que Zermelo, puis d'autres, ont axiomatisées en théorie des ensembles.
 Il est assez remarquable que l'on puisse s'en contenter pour une théorie qui peut potentiellement formaliser les mathématiques.
@@ -28,11 +29,13 @@ Un ensemble peut être vu comme une sorte de sac virtuel entourant ses élément
 Souvent (ce n'est pas toujours possible), on essaye de le distinguer typographiquement de ses éléments, par exemple en utilisant une lettre latine majuscule, par exemple « E » ou « A », pour représenter l'ensemble, et des minuscules, telles que « x » ou « n », pour ses éléments.
 Les éléments peuvent être de n’importe quelle nature : nombres, points géométriques, droites, fonctions, autres ensembles… On donne donc volontiers des exemples d'ensembles en dehors du monde mathématique.
 Par exemple : lundi est un élément de l’ensemble des jours de la semaine ; une bibliothèque est un ensemble de livres, etc.
-Un même objet peut être élément de plusieurs ensembles : 4 est un élément de l'ensemble des nombres entiers, ainsi que de l’ensemble des nombres pairs (forcément entiers). Ces deux derniers ensembles sont infinis, ils ont une infinité d’éléments.
+Un même objet peut être élément de plusieurs ensembles : 4 est un élément de l'ensemble des nombres entiers, ainsi que de l’ensemble des nombres pairs (forcément entiers).
+Ces deux derniers ensembles sont infinis, ils ont une infinité d’éléments.
 L'appartenance d'un élément, noté par exemple x, à un ensemble, noté par exemple A, s’écrit : x ∈ A.
 Cet énoncé peut se lire :
 Le symbole « ∈ », dérive de la lettre grecque ε (epsilon) introduite par Giuseppe Peano dès 1889.
-Pour Peano « x ε A » se lit « x est un A », par exemple « x ε N » se lit « x est un entier positif ou nul». Le ε renvoie à l'initiale du mot « est » (en latin, langue de l'article de Peano de 1889 !), en français, ou en italien (« è »).  Bertrand Russell reprend les notations de Peano en 1903 dans les Principles of Mathematics, ouvrage qui va participer à leur diffusion, et où est utilisée la forme arrondie vieillie du epsilon : « ϵ », en usage dans l'édition mathématique anglo-saxonne.
+Pour Peano « x ε A » se lit « x est un A », par exemple « x ε N » se lit « x est un entier positif ou nul».
+Le ε renvoie à l'initiale du mot « est » (en latin, langue de l'article de Peano de 1889 !), en français, ou en italien (« è »). Bertrand Russell reprend les notations de Peano en 1903 dans les Principles of Mathematics, ouvrage qui va participer à leur diffusion, et où est utilisée la forme arrondie vieillie du epsilon : « ϵ », en usage dans l'édition mathématique anglo-saxonne.
 Comme souvent pour les relations, on barre ce symbole pour indiquer sa négation, la non-appartenance d’un objet à un ensemble :
 En mathématiques – et pas seulement en mathématiques d'ailleurs –, on considère que deux objets sont égaux quand ils ont les mêmes propriétés, que l'on ne peut donc les distinguer l'un de l'autre – c'est la définition de l'égalité de Leibniz.
 Dire que deux objets sont égaux, c'est-à-dire que deux expressions désignent en fait le même objet, c'est donc donner une information sur ce que sont ces objets.
@@ -71,7 +74,8 @@ La formulation générale est :
 Cette construction a besoin d'un ensemble déjà existant E et d'une propriété P définie sur tous les éléments de E. Elle permet donc de construire des sous-ensembles mais pas la réunion d'une famille d'ensembles, ni l'ensemble des parties d'un ensemble, ni même les ensembles finis définis par la liste de leurs éléments comme au paragraphe précédent.
 On pourrait pourtant écrire, par exemple pour l'ensemble des parties P(E) = { A | A ⊂ E }
 Il n'est pas pour autant possible de définir un ensemble par n'importe quelle propriété, et lever entièrement la restriction de la compréhension.
-Si c'était le cas on pourrait définir l'ensemble {x | x ∉ x}, ce qui conduit à une contradiction (c'est le paradoxe de Russell). La restriction de la compréhension à un ensemble connu protège contre ce genre de paradoxes, elle correspond directement au schéma d'axiomes de compréhension de la théorie de Zermelo.
+Si c'était le cas on pourrait définir l'ensemble {x | x ∉ x}, ce qui conduit à une contradiction (c'est le paradoxe de Russell).
+La restriction de la compréhension à un ensemble connu protège contre ce genre de paradoxes, elle correspond directement au schéma d'axiomes de compréhension de la théorie de Zermelo.
 Cette restriction ne peut se lever que dans des cas particuliers précis, qui correspondent à d'autres axiomes de la théorie de Zermelo (axiome de la paire, axiome de la réunion, axiome de l'ensemble des parties).
 On n'a pas dit ce que l'on entendait par « propriété » ou « condition ». Malgré la restriction précédente, on ne peut tout autoriser, sous peine d'autres paradoxes comme le paradoxe de Richard ou le paradoxe de Berry, qui fait intervenir, par exemple, « l'ensemble des entiers naturels définissables en moins de quinze mots français ». Il est nécessaire de préciser le langage dans lequel on peut définir ces conditions.
 En particulier ce langage doit être défini a priori, et ne peut être étendu qu'à l'aide de définitions qui sont soit de simples abréviations, soit résultent de preuves d'existence et d'unicité.

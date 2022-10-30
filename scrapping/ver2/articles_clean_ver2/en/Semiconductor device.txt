@@ -41,11 +41,13 @@ Semiconductor materials are useful because their behavior can be easily manipula
 Semiconductor conductivity can be controlled by the introduction of an electric or magnetic field, by exposure to light or heat, or by the mechanical deformation of a doped monocrystalline silicon grid; thus, semiconductors can make excellent sensors.
 Current conduction in a semiconductor occurs due to mobile or "free" electrons and electron holes, collectively known as charge carriers.
 Doping a semiconductor with a small proportion of an atomic impurity, such as phosphorus or boron, greatly increases the number of free electrons or holes within the semiconductor.
-When a doped semiconductor contains excess holes, it is called a p-type semiconductor (p for positive electric charge); when it contains excess free electrons, it is called an n-type semiconductor (n for negative electric charge). A majority of mobile charge carriers have negative charge.
+When a doped semiconductor contains excess holes, it is called a p-type semiconductor (p for positive electric charge); when it contains excess free electrons, it is called an n-type semiconductor (n for negative electric charge).
+A majority of mobile charge carriers have negative charge.
 The manufacture of semiconductors controls precisely the location and concentration of p- and n-type dopants.
 The connection of n-type and p-type semiconductors form p–n junctions.
 The most common semiconductor device in the world is the MOSFET (metal–oxide–semiconductor field-effect transistor), also called the MOS transistor.
-As of 2013, billions of MOS transistors are manufactured every day. Semiconductor devices made per year have been growing by 9.1% on average since 1978, and shipments in 2018 are predicted for the first time to exceed 1 trillion, meaning that well over 7  trillion have been made to date.
+As of 2013, billions of MOS transistors are manufactured every day.
+Semiconductor devices made per year have been growing by 9.1% on average since 1978, and shipments in 2018 are predicted for the first time to exceed 1 trillion, meaning that well over 7 trillion have been made to date.
 A semiconductor diode is a device typically made from a single p–n junction.
 At the junction of a p-type and an n-type semiconductor there forms a depletion region where current conduction is inhibited by the lack of mobile charge carriers.
 When the device is forward biased (connected with the p-side at higher electric potential than the n-side), this depletion region is diminished, allowing for significant conduction, while only very small current can be achieved when the diode is reverse biased and thus the depletion region expanded.
@@ -63,10 +65,12 @@ The field may be applied by a reverse-biased p–n junction, forming a junction 
 The metal-oxide-semiconductor FET (MOSFET, or MOS transistor), a solid-state device, is by far the most used widely semiconductor device today.
 It accounts for at least 99.9% of all transistors, and there have been an estimated 13 sextillion MOSFETs manufactured between 1960 and 2018.
 The gate electrode is charged to produce an electric field that controls the conductivity of a "channel" between two terminals, called the source and drain.
-Depending on the type of carrier in the channel, the device may be an n-channel (for electrons) or a p-channel (for holes) MOSFET. Although the MOSFET is named in part for its "metal" gate, in modern devices polysilicon is typically used instead.
+Depending on the type of carrier in the channel, the device may be an n-channel (for electrons) or a p-channel (for holes) MOSFET.
+Although the MOSFET is named in part for its "metal" gate, in modern devices polysilicon is typically used instead.
 By far, silicon (Si) is the most widely used material in semiconductor devices.
 Its combination of low raw material cost, relatively simple processing, and a useful temperature range makes it currently the best compromise among the various competing materials.
-Silicon used in semiconductor device manufacturing is currently fabricated into boules that are large enough in diameter to allow the production of 300 mm (12 in.) wafers.
+Silicon used in semiconductor device manufacturing is currently fabricated into boules that are large enough in diameter to allow the production of 300 mm (12 in.)
+wafers.
 Germanium (Ge) was a widely used early semiconductor material but its thermal sensitivity makes it less useful than silicon.
 Today, germanium is often alloyed with silicon for use in very-high-speed SiGe devices; IBM is a major producer of such devices.
 Gallium arsenide (GaAs) is also widely used in high-speed devices but so far, it has been difficult to form large-diameter boules of this material, limiting the wafer diameter to sizes significantly smaller than silicon wafers thus making mass production of GaAs devices significantly more expensive than silicon.
@@ -92,14 +96,15 @@ Nevertheless, there have been attempts at creating standards for type codes, and
 For discrete devices, for example, there are three standards: JEDEC JESD370B in United States, Pro Electron in Europe, and Japanese Industrial Standards (JIS).
 Semiconductors had been used in the electronics field for some time before the invention of the transistor.
 Around the turn of the 20th century they were quite common as detectors in radios, used in a device called a "cat's whisker" developed by Jagadish Chandra Bose and others.
-These detectors were somewhat troublesome, however, requiring the operator to move a small tungsten filament (the whisker) around the surface of a galena (lead sulfide) or carborundum (silicon carbide) crystal until it suddenly started working. Then, over a period of a few hours or days, the cat's whisker would slowly stop working and the process would have to be repeated.
+These detectors were somewhat troublesome, however, requiring the operator to move a small tungsten filament (the whisker) around the surface of a galena (lead sulfide) or carborundum (silicon carbide) crystal until it suddenly started working.
+Then, over a period of a few hours or days, the cat's whisker would slowly stop working and the process would have to be repeated.
 At the time their operation was completely mysterious.
 After the introduction of the more reliable and amplified vacuum tube based radios, the cat's whisker systems quickly disappeared.
 The "cat's whisker" is a primitive example of a special type of diode still popular today, called a Schottky diode.
 Another early type of semiconductor device is the metal rectifier in which the semiconductor is copper oxide or selenium.
-Westinghouse Electric (1886) was a major manufacturer of these rectifiers.
+Westinghouse Electric was a major manufacturer of these rectifiers.
 During World War II, radar research quickly pushed radar receivers to operate at ever higher frequencies and the traditional tube based radio receivers no longer worked well.
-The introduction of the cavity magnetron from Britain to the United States in 1940 during the Tizard Mission resulted in a pressing need for a practical high-frequency amplifier.[citation needed]
+The introduction of the cavity magnetron from Britain to the United States in 1940 during the Tizard Mission resulted in a pressing need for a practical high-frequency amplifier.
 On a whim, Russell Ohl of Bell Laboratories decided to try a cat's whisker.
 By this point they had not been in use for a number of years, and no one at the labs had one.
 After hunting one down at a used radio store in Manhattan, he found that it worked much better than tube-based systems.
@@ -111,7 +116,11 @@ However as he moved about the room trying to test it, the detector would mysteri
 After some study he found that the behaviour was controlled by the light in the room – more light caused more conductance in the crystal.
 He invited several other people to see this crystal, and Walter Brattain immediately realized there was some sort of junction at the crack.
 Further research cleared up the remaining mystery.
-The crystal had cracked because either side contained very slightly different amounts of the impurities Ohl could not remove – about 0.2%. One side of the crystal had impurities that added extra electrons (the carriers of electric current) and made it a "conductor". The other had impurities that wanted to bind to these electrons, making it (what he called) an "insulator". Because the two parts of the crystal were in contact with each other, the electrons could be pushed out of the conductive side which had extra electrons (soon to be known as the emitter) and replaced by new ones being provided (from a battery, for instance) where they would flow into the insulating portion and be collected by the whisker filament (named the collector). However, when the voltage was reversed the electrons being pushed into the collector would quickly fill up the "holes" (the electron-needy impurities), and conduction would stop almost instantly.
+The crystal had cracked because either side contained very slightly different amounts of the impurities Ohl could not remove – about 0.2%.
+One side of the crystal had impurities that added extra electrons (the carriers of electric current) and made it a "conductor".
+The other had impurities that wanted to bind to these electrons, making it (what he called) an "insulator".
+Because the two parts of the crystal were in contact with each other, the electrons could be pushed out of the conductive side which had extra electrons (soon to be known as the emitter) and replaced by new ones being provided (from a battery, for instance) where they would flow into the insulating portion and be collected by the whisker filament (named the collector).
+However, when the voltage was reversed the electrons being pushed into the collector would quickly fill up the "holes" (the electron-needy impurities), and conduction would stop almost instantly.
 This junction of the two crystals (or parts of one crystal) created a solid-state diode, and the concept soon became known as semiconduction.
 The mechanism of action when the diode is off has to do with the separation of charge carriers around the junction.
 This is called a "depletion region".
@@ -133,7 +142,8 @@ Sometimes the system would work but then stop working unexpectedly.
 In one instance a non-working system started working when placed in water.
 Ohl and Brattain eventually developed a new branch of quantum mechanics, which became known as surface physics, to account for the behaviour.
 The electrons in any one piece of the crystal would migrate about due to nearby charges.
-Electrons in the emitters, or the "holes" in the collectors, would cluster at the surface of the crystal where they could find their opposite charge "floating around" in the air (or water). Yet they could be pushed away from the surface with the application of a small amount of charge from any other location on the crystal.
+Electrons in the emitters, or the "holes" in the collectors, would cluster at the surface of the crystal where they could find their opposite charge "floating around" in the air (or water).
+Yet they could be pushed away from the surface with the application of a small amount of charge from any other location on the crystal.
 Instead of needing a large supply of injected electrons, a very small number in the right place on the crystal would accomplish the same thing.
 Their understanding solved the problem of needing a very small control area to some degree.
 Instead of needing two separate semiconductors connected by a common, but tiny, region, a single larger surface would serve.
@@ -150,23 +160,36 @@ The point-contact transistor had been invented.
 While the device was constructed a week earlier, Brattain's notes describe the first demonstration to higher-ups at Bell Labs on the afternoon of 23 December 1947, often given as the birthdate of the transistor.
 What is now known as the "p–n–p point-contact germanium transistor" operated as a speech amplifier with a power gain of 18 in that trial.
 John Bardeen, Walter Houser Brattain, and William Bradford Shockley were awarded the 1956 Nobel Prize in physics for their work.
-Bell Telephone Laboratories needed a generic name for their new invention: "Semiconductor Triode", "Solid Triode", "Surface States Triode" [sic], "Crystal Triode" and "Iotatron" were all considered, but "transistor", coined by John R. Pierce, won an internal ballot.
-The rationale for the name is described in the following extract from the company's Technical Memoranda (May 28, 1948)  calling for votes:
+Bell Telephone Laboratories needed a generic name for their new invention: "Semiconductor Triode", "Solid Triode", "Surface States Triode" , "Crystal Triode" and "Iotatron" were all considered, but "transistor", coined by John R.
+Pierce, won an internal ballot.
+The rationale for the name is described in the following extract from the company's Technical Memoranda (May 28, 1948) calling for votes:
 Transistor.
-This is an abbreviated combination of the words "transconductance" or "transfer", and "varistor". The device logically belongs in the varistor family, and has the transconductance or transfer impedance of a device having gain, so that this combination is descriptive.
+This is an abbreviated combination of the words "transconductance" or "transfer", and "varistor".
+The device logically belongs in the varistor family, and has the transconductance or transfer impedance of a device having gain, so that this combination is descriptive.
 Shockley was upset about the device being credited to Brattain and Bardeen, who he felt had built it "behind his back" to take the glory.
 Matters became worse when Bell Labs lawyers found that some of Shockley's own writings on the transistor were close enough to those of an earlier 1925 patent by Julius Edgar Lilienfeld that they thought it best that his name be left off the patent application.
-Shockley was incensed, and decided to demonstrate who was the real brains of the operation.[citation needed] A few months later he invented an entirely new, considerably more robust, type of transistor with a layer or 'sandwich' structure.
+Shockley was incensed, and decided to demonstrate who was the real brains of the operation.
+A few months later he invented an entirely new, considerably more robust, type of transistor with a layer or 'sandwich' structure.
 This structure went on to be used for the vast majority of all transistors into the 1960s, and evolved into the bipolar junction transistor.
 With the fragility problems solved, a remaining problem was purity.
 Making germanium of the required purity was proving to be a serious problem, and limited the yield of transistors that actually worked from a given batch of material.
 Germanium's sensitivity to temperature also limited its usefulness.
 Scientists theorized that silicon would be easier to fabricate, but few investigated this possibility.
-Gordon K. Teal was the first to develop a working silicon transistor, and his company, the nascent Texas Instruments, profited from its technological edge.
+Gordon K.
+Teal was the first to develop a working silicon transistor, and his company, the nascent Texas Instruments, profited from its technological edge.
 From the late 1960s most transistors were silicon-based.
 Within a few years transistor-based products, most notably easily portable radios, were appearing on the market.
-The static induction transistor, the first high frequency transistor, was invented by Japanese engineers Jun-ichi Nishizawa and Y. Watanabe in 1950. It was the fastest transistor through to the 1980s.
-A major improvement in manufacturing yield came when a chemist advised the companies fabricating semiconductors to use distilled rather than tap water: calcium ions present in tap water were the cause of the poor yields. "Zone melting", a technique using a band of molten material moving through the crystal, further increased crystal purity.
+The static induction transistor, the first high frequency transistor, was invented by Japanese engineers Jun-ichi Nishizawa and Y.
+Watanabe in 1950.
+It was the fastest transistor through to the 1980s.
+A major improvement in manufacturing yield came when a chemist advised the companies fabricating semiconductors to use distilled rather than tap water: calcium ions present in tap water were the cause of the poor yields.
+"Zone melting", a technique using a band of molten material moving through the crystal, further increased crystal purity.
 In the 1950s, Mohamed Atalla investigated the surface properties of silicon semiconductors at Bell Labs, where he proposed a new method of semiconductor device fabrication, coating a silicon wafer with an insulating layer of silicon oxide so that electricity could reliably penetrate to the conducting silicon below, overcoming the surface states that prevented electricity from reaching the semiconducting layer.
-This is known as surface passivation, a method that became critical to the semiconductor industry as it made possible the mass-production of silicon integrated circuits (ICs). Building on his surface passivation method, he developed the metal oxide semiconductor (MOS) process, which he proposed could be used to build the first working silicon field-effect transistor (FET). The led to the invention of the MOSFET (MOS field-effect transistor) by Mohamed Atalla and Dawon Kahng in 1959. With its scalability, and much lower power consumption and higher density than bipolar junction transistors, the MOSFET became the most common type of transistor in computers, electronics, and communications technology such as smartphones. The US Patent and Trademark Office calls the MOSFET a "groundbreaking invention that transformed life and culture around the world".
-CMOS (complementary MOS) was invented by Chih-Tang Sah and Frank Wanlass at Fairchild Semiconductor in 1963. The first report of a floating-gate MOSFET was made by Dawon Kahng and Simon Sze in 1967. FinFET (fin field-effect transistor), a type of 3D multi-gate MOSFET, was developed by Digh Hisamoto and his team of researchers at Hitachi Central Research Laboratory in 1989.
+This is known as surface passivation, a method that became critical to the semiconductor industry as it made possible the mass-production of silicon integrated circuits (ICs).
+Building on his surface passivation method, he developed the metal oxide semiconductor (MOS) process, which he proposed could be used to build the first working silicon field-effect transistor (FET).
+The led to the invention of the MOSFET (MOS field-effect transistor) by Mohamed Atalla and Dawon Kahng in 1959.
+With its scalability, and much lower power consumption and higher density than bipolar junction transistors, the MOSFET became the most common type of transistor in computers, electronics, and communications technology such as smartphones.
+The US Patent and Trademark Office calls the MOSFET a "groundbreaking invention that transformed life and culture around the world".
+CMOS (complementary MOS) was invented by Chih-Tang Sah and Frank Wanlass at Fairchild Semiconductor in 1963.
+The first report of a floating-gate MOSFET was made by Dawon Kahng and Simon Sze in 1967.
+FinFET (fin field-effect transistor), a type of 3D multi-gate MOSFET, was developed by Digh Hisamoto and his team of researchers at Hitachi Central Research Laboratory in 1989.

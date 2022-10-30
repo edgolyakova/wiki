@@ -46,91 +46,33 @@ Dans un plan (p), on considère une droite (D) et un point F non situé sur (D).
 On appelle conique de droite directrice (D), de foyer F et d'excentricité e l'ensemble des points M du plan (p) vérifiant :
 où
 et
-Le paramètre e  définit la forme de la conique, c'est-à-dire que deux coniques ayant même excentricité sont image l'une de l'autre par une similitude.
+Le paramètre e définit la forme de la conique, c'est-à-dire que deux coniques ayant même excentricité sont image l'une de l'autre par une similitude.
 Toutes ces courbes possèdent comme axe de symétrie la droite passant par F et perpendiculaire à (D) appelé axe principal de la conique.
 On note K le projeté orthogonal du point F sur la droite (D) et h la distance de K à F (le produit p = eh s'appelle le paramètre de la conique depuis Pierre Hérigone).
 Pour tout point O de l'axe principal, on peut construire le repère orthonormal 
 où 
-=
 dans lequel F a pour abscisse α.
 Pour un point M de coordonnées (x , y) on peut exprimer les distances précédentes à l'aide des deux formules suivantes :
-[
-]
-=
-−
-+
-−
-[
-]
-=
-−
-+
-ce qui implique en élevant  au carré et en utilisant  et  :
-[
-]
-−
-+
-=
-−
-+
+ce qui implique en élevant au carré et en utilisant et  :
 soit après réduction :
-[
-]
-−
-+
-=
-+
 où
-=
-−
-+
-=
-−
-−
 Un choix judicieux de O permet de simplifier cette équation.
 En prenant 
-=
-+
-le coefficient C s'annule et O est un point de la conique appelé sommet. L'équation s'écrit :
-−
-+
-=
+, le coefficient C s'annule et O est un point de la conique appelé sommet. L'équation s'écrit :
 En particulier, dans le cas où e = 1, on retrouve l'équation caractéristique de la parabole :
 Dans le cas où e est différent de 1, pour 
-=
-−
-le coefficient B s'annule et le point O est centre de symétrie de la conique. L'équation s'écrit :
-−
-+
-=
-−
+, le coefficient B s'annule et le point O est centre de symétrie de la conique. L'équation s'écrit :
 dans laquelle on retrouve, en posant 
-=
-−
-=
-|
-−
-|
 les équations caractéristiques suivantes :
 Dans les équations précédentes, on trouve l'équation d'un cercle de rayon r dans le cas où e = 0 et p = r. On considère alors le cercle comme un cas particulier d'ellipse d'excentricité nulle, dont le foyer est situé au centre du cercle et dont la directrice est envoyée à l'infini.
 Dans le repère d'origine F et de direction 
-=
-une telle conique a pour équation polaire :
-=
-+
+, une telle conique a pour équation polaire :
 cos
-⁡
 Réciproquement, toute courbe dont l'équation polaire dans un repère 
 est :
-=
 cos
-⁡
-+
 sin
-⁡
-+
 où p est un réel non nul, et (A, B) un couple de réels différent de (0, 0), est une conique de foyer O, d'excentricité 
-+
 et d'axe la droite d'équation Ay = Bx.
 Cette forme d'équation polaire est utile dans l'étude de la trajectoire des planètes.
 L'ellipse peut être définie comme le lieu des points M dont la somme des distances MF et MF' à deux points fixes F et F', appelés foyers de l'ellipse, est constante et égale à une valeur fixée. Cette définition reste valable dans le cas du cercle, pour lequel les foyers sont confondus.
@@ -154,65 +96,31 @@ Une conique étant donnée, avec son équation dans un repère quelconque, on ch
 On se place d'emblée dans le cas où l'équation est donnée dans un repère orthonormal, si ce n'est pas le cas, on peut s'y ramener par changement de base.
 On peut également éliminer le terme en xy en changeant de base par rotation.
 En effet, les équations de changement de base, pour une rotation d'angle θ, sont :
-{
-=
 cos
-⁡
-−
 sin
-⁡
-=
 sin
-⁡
-+
 cos
-⁡
 Le coefficient devant XY s'écrit alors :
-−
 sin
-⁡
-+
 cos
-⁡
 et si B est non nul, ce coefficient s'annule lorsque 2θ est un argument de C – A – 2Bi
 On suppose désormais que la conique a pour équation :
 et l'on distingue trois éventualités.
 Un changement d'origine en prenant O1(− D1/A1,− E1/C1) permet d'éliminer les termes en x et y. La conique a pour équation dans ce nouveau repère :
-+
-+
-=
 Trois cas se présentent alors :
 Le même changement de repère conduit à l'équation :
-+
-+
-=
 et l'on peut même, en permutant éventuellement les vecteurs de la base, supposer que C1F1 ≥ 0. Deux cas se présentent alors :
 On peut, en permutant éventuellement les vecteurs de la base, supposer que A1 est nul et C1 non nul.
 Un changement d'origine en prenant O1(0, −E1/C1) conduit à l'équation
-+
-+
-=
 et deux cas se présentent :
 Ces équations réduites permettent de mettre en évidence les orbites des coniques pour les isométries : toutes les coniques d'une même classe avec les mêmes paramètres sont isométriques.
 On se place dans le cadre d'un plan affine réel muni d'un repère et on considère l'ensemble des fonctions f définies pour tout point M(x, y) par
-=
-+
-+
-+
-+
-+
 où A, B, C, D, E, F sont des constantes réelles telles que (A,B,C) ≠ (0,0,0).
 On note Cf la conique d'équation f(M) = 0. La question qui se pose est de savoir quel est l'effet des transformations affines sur la conique Cf, plus exactement de déterminer son orbite pour les transformations affines.
 Pour deux coniques Cf1 et Cf2, on observe que s'il existe une transformation affine et un réel λ non nul tels que f1 ∘ φ = λf2, alors φ(Cf2) = Cf1. On dit alors que f1 et f2 sont affinement équivalentes.
 Le but de la classification affine est de ranger les fonctions f en classe d'équivalence.
 On définit pour cela
 On obtient les écritures matricielles de f suivantes
-=
-+
-+
-=
-~
-~
 On démontre ensuite que f1 et f2 sont affinement équivalentes si et seulement si Qf1 et Qf2 ont même signature (à l'ordre près) ainsi que Mf1 et Mf2. De plus la signature de Qf (à l'ordre près) caractérise le signe de son déterminant AC -B2. On obtient alors une classification des coniques en fonction des signatures de ces deux matrices :
 Quand le déterminant de Mf est nul, on dit que la conique est dégénérée.
 En géométrie projective, les coniques sont encore les courbes planes algébriques du second degré, c'est-à-dire les courbes planes caractérisées dans un certain repère projectif par une équation polynomiale homogène de degré 2. Une telle équation a pour forme (voir coordonnées homogènes)
@@ -221,12 +129,15 @@ Les coordonnées (X, Y,Z) d'un point dans un repère de l'espace projectif ne so
 On travaille plus précisément dans le plan projectif réel P(E), où E est l'espace vectoriel réel de dimension 3. Une conique projective réelle est une courbe qui possède une équation polynomiale homogène du second degré dans un repère projectif de P(E).
 Même pour les coniques réelles (les coefficients A, B, C, D, E, F ci-dessus sont réels), il peut être utile de considérer le complexifié P(EC) de P(E), qui est le plan projectif complexe.
 Un repère de P(E) est aussi un repère de P(EC), les coordonnées étant complexes.
-Les points réels sont ceux de P(E), les points imaginaires ceux de P(EC) qui ne sont pas dans P(E). Les points imaginaires sont ceux qui ont au moins une coordonnée non réelle dans un repère de P(E) (ceci ne dépend pas du repère). Sauf précision, les points de la conique sont les points réels qui satisfont l'équation, mais on peut parler des points imaginaires d'une conique réelle.
+Les points réels sont ceux de P(E), les points imaginaires ceux de P(EC) qui ne sont pas dans P(E). Les points imaginaires sont ceux qui ont au moins une coordonnée non réelle dans un repère de P(E) (ceci ne dépend pas du repère).
+Sauf précision, les points de la conique sont les points réels qui satisfont l'équation, mais on peut parler des points imaginaires d'une conique réelle.
 Les coordonnées homogènes sont les coordonnées dans la base de E déterminée par le repère projectif choisi.
 On voit alors qu'une conique de P(E) est définie par une forme quadratique sur E. Plus précisément la conique (Cq) de P(E) associée à une forme quadratique q de E est l'ensemble des points de P(E) déterminés par des vecteurs non nuls u de E tels que q(u) = 0. Deux formes quadratiques proportionnelles définissent la même conique.
 Une conique est dite propre si elle est associée à une forme quadratique non dégénérée, dégénérée sinon.
 Une forme quadratique dégénérée est soit le carré d'une forme linéaire, soit la somme ou la différence de carrés de formes linéaires.
-Elle se factorise donc toujours comme produit de deux formes linéaires (éventuellement complexes). Les noyaux de ses formes linéaires sont des plans qui définissent des droites projectives (éventuellement complexes). Une conique dégénérée réelle non vide (sur l'espace réel) est donc soit une droite, soit la réunion de deux droites (éventuellement complexes).
+Elle se factorise donc toujours comme produit de deux formes linéaires (éventuellement complexes).
+Les noyaux de ses formes linéaires sont des plans qui définissent des droites projectives (éventuellement complexes).
+Une conique dégénérée réelle non vide (sur l'espace réel) est donc soit une droite, soit la réunion de deux droites (éventuellement complexes).
 L'image d'une conique par une homographie est encore une conique, puisque celle-ci correspond à une transformation linéaire f sur E, si la conique est associée à la forme quadratique q, l'image de celle-ci est associée à la forme quadratique q ∘ f−1.
 La classification projective des coniques est la classification à homographie près : deux coniques sont dans la même classe si l'une est image de l'autre par une homographie.
 Elle se déduit donc de la classification des formes quadratiques, sachant que deux coniques proportionnelles (opposées en particulier) définissent la même conique.
@@ -255,29 +166,34 @@ Le théorème des cinq points, cas particulier du paradoxe de Cramer, permet de 
 Plus précisément, elle sera déterminée de façon unique si aucun sous-ensemble de quatre points n'est aligné, et non dégénérée si et seulement si les cinq points sont non alignés trois par trois.
 On note les cinq points A1, A2, A3, A4, A5, qu'on suppose donc non alignés quatre à quatre.
 En se plaçant dans le repère affine 
-on note les coordonnées barycentriques dans ce repère (X,Y,Z). Alors toute conique passant par A1, A2, A3 dans ce repère a une équation de la forme :
+, on note les coordonnées barycentriques dans ce repère (X,Y,Z). Alors toute conique passant par A1, A2, A3 dans ce repère a une équation de la forme :
 Les points A4, A5, de coordonnées barycentriques dans ce repère (x4, y4, z4) et (x5, y5, z5) étant également sur la conique, les coefficients p, q, r vérifient
 Ce système linéaire est de rang exactement 2, car sinon, au moins quatre points parmi A1, A2, A3, A4, A5 seraient alignés, ce qui est exclu.
 Ainsi, l'ensemble solution de ce système est une droite vectorielle, donc défini à une constante près. Les équations sont donc toutes proportionnelles et définissent bien la même courbe.
-L'étude des coniques remonte, en Grèce, au moins jusqu'au IVe siècle av. J.-C. quand Ménechme recherchant une double moyenne proportionnelle entre deux segments, la trouve comme l'intersection de deux courbes, une parabole et une hyperbole. Ménechme ne donne pas de nom à ses courbes.
+L'étude des coniques remonte, en Grèce, au moins jusqu'au IVe siècle av. J.-C. quand Ménechme recherchant une double moyenne proportionnelle entre deux segments, la trouve comme l'intersection de deux courbes, une parabole et une hyperbole.
+Ménechme ne donne pas de nom à ses courbes.
 Elles furent également étudiées par Euclide et Aristée. Pour eux, un cône est obtenu comme rotation d'un triangle (ABC) rectangle en B autour d'un côté de l'angle droit AB, l'hypoténuse est appelée génératrice du cône.
 Le cône est dit rectangle si l'angle de sommet A est égal à 45°, acutangle (respectivement obtusangle) si l'angle de sommet A est inférieur (respectivement supérieur) à 45°. Pour Aristée, une conique est obtenue par intersection d'un cône avec un plan perpendiculaire à une génératrice.
-Si le cône est rectangle, la section (parabole) est appelée une section rectangle, si le cône est acutangle, la section (ellipse) est appelée section acutangle et si le cône est obtusangle, la section (hyperbole) est appelée section obtusangle du cône. Pour Apollonius de Perge, le cône est généré par un cercle, un point non situé dans le plan du cercle et un faisceau de droites passant par le point et s'appuyant sur le cercle (le cône n'est donc pas nécessairement droit). Il parle de surface conique et envisage les deux nappes du cône. Une conique est l'intersection d'un plan avec le cône, il est donc un des premiers à voir que l'hyperbole est formée de deux parties : une section et sa section opposée.
+Si le cône est rectangle, la section (parabole) est appelée une section rectangle, si le cône est acutangle, la section (ellipse) est appelée section acutangle et si le cône est obtusangle, la section (hyperbole) est appelée section obtusangle du cône.
+Pour Apollonius de Perge, le cône est généré par un cercle, un point non situé dans le plan du cercle et un faisceau de droites passant par le point et s'appuyant sur le cercle (le cône n'est donc pas nécessairement droit).
+Il parle de surface conique et envisage les deux nappes du cône.
+Une conique est l'intersection d'un plan avec le cône, il est donc un des premiers à voir que l'hyperbole est formée de deux parties : une section et sa section opposée.
 C'est également dans ses écrits que l'on trouve les termes d’abscisse et d’ordonnée : il remarque que dans une conique, des cordes parallèles ont des milieux alignés. La droite passant par ces milieux est appelée un diamètre, les segments parallèles sont appelés segment ordonnés et les segments découpés sur un diamètre par les ordonnées sont les abscisa (découpées).
 Il caractérise également les coniques par une égalité d'aire : l'aire du carré s'appuyant sur une ordonnée est fonction de l'aire d'un rectangle s'appuyant sur l'abscisse.
-Il définit une longueur constante qu'il appelle le côté droit  et qui portera plus tard le nom de paramètre (mesuré à côté) et s'en sert pour exprimer la relation d'aire :
+Il définit une longueur constante qu'il appelle le côté droit et qui portera plus tard le nom de paramètre (mesuré à côté) et s'en sert pour exprimer la relation d'aire :
 Il précise par une construction la relation exacte entre l'aire du carré et l'aire d'un rectangle s'appuyant sur l'abscisse.
 Cette propriété est illustrée par les équations de coniques dans un repère orthonormé (S, u, v) où S est un sommet de la conique et u le vecteur unitaire de l'axe principal orientant la demi-droite [S, u) vers l'intérieur de la conique :
-=
-+
-−
 où p = eh dans le cas des coniques à foyer et directrice et où p = R dans le cas du cercle pour e = 0. On voit en effet que l'aire du carré est égale à l'aire du rectangle dans le cas de la parabole (e = 1), excède celle du rectangle dans le cas de l'hyperbole (e > 1) et est en déficit par rapport à celle du rectangle dans le cas de l'ellipse (e < 1).
 Il étudie également les asymptotes de l'hyperbole, les tangentes, les propriétés des foyers et les intersections de coniques
-Apollonius accorde peu de place à la définition par foyer et directrice qui est plus spécialement étudiée par Pappus. C'est également Pappus qui montre comment déterminer les éléments remarquables d'une ellipse (centre et diamètre) lorsque 5 points sont connus. Les propriétés optiques des coniques sont utilisées dans les problèmes de réflexions notamment dans l'étude des miroirs ardents.
+Apollonius accorde peu de place à la définition par foyer et directrice qui est plus spécialement étudiée par Pappus. C'est également Pappus qui montre comment déterminer les éléments remarquables d'une ellipse (centre et diamètre) lorsque 5 points sont connus.
+Les propriétés optiques des coniques sont utilisées dans les problèmes de réflexions notamment dans l'étude des miroirs ardents.
 Les quadratures (c'est-à-dire les calculs d'aire de surfaces délimitées par des coniques sont étudiées par Archimède qui entreprend la quadrature de la parabole, du cercle et montre la relation entre l'aire de l'ellipse et l'aire de son cercle directeur.
-Les écrits d'Apollonius sont ensuite traduits en arabeet les coniques et leurs intersections sont exploitées pour théoriser la classification des équations de degré trois. Les mathématiciens de langue arabe élaborent des procédés mécaniques de tracés de coniques en continu (méthode du jardinier et sa variante pour l'hyperbole d'Ibn Sahl, compas parfait d'al Quhi). Ils exploitent les propriétés géométriques des coniques dans des problèmes optiques de réflexion et de réfraction.
+Les écrits d'Apollonius sont ensuite traduits en arabeet les coniques et leurs intersections sont exploitées pour théoriser la classification des équations de degré trois.
+Les mathématiciens de langue arabe élaborent des procédés mécaniques de tracés de coniques en continu (méthode du jardinier et sa variante pour l'hyperbole d'Ibn Sahl, compas parfait d'al Quhi).
+Ils exploitent les propriétés géométriques des coniques dans des problèmes optiques de réflexion et de réfraction.
 Au XVIIe siècle, on assiste en Europe à un renouveau dans l'étude des coniques.
 La géométrie algébrique de René Descartes permet un traitement algébrique de ces courbes avec leur représentations paramétriques, travail entrepris pas Descartes, Pierre de Fermat, Isaac Newton qui démontre la relation entre les coniques et les trajectoires des planètes observée par Johannes Kepler, le marquis de l'Hôpital et, au siècle suivant, par Leonhard Euler.
-Mais le bond le plus important est lié aux avancées de la géométrie projective avec les travaux de Girard Desargues sur les involutions et les polaires de points par rapport à des coniques. Blaise Pascal démontre son théorème sur un hexagramme construit sur une conique. D'autres mathématiciens s'intéressent à ce sujet : Grégoire de Saint-Vincent qui entreprend le calcul d'aire sous l'hyperbole origine de la fonction logarithme, Jean de Witt s'intéresse aux tracés continus de coniques, Philippe de La Hire écrit une Nouvelle méthode en géométrie pour les sections et superficies coniques  et Sectione Conicae faisant une recension des propriétés des coniques et présentant des démonstrations claires utilisant des propriétés projectives, des rapports harmoniques et des propriétés sur pôles et polaires.
+Mais le bond le plus important est lié aux avancées de la géométrie projective avec les travaux de Girard Desargues sur les involutions et les polaires de points par rapport à des coniques.
+Blaise Pascal démontre son théorème sur un hexagramme construit sur une conique. D'autres mathématiciens s'intéressent à ce sujet : Grégoire de Saint-Vincent qui entreprend le calcul d'aire sous l'hyperbole origine de la fonction logarithme, Jean de Witt s'intéresse aux tracés continus de coniques, Philippe de La Hire écrit une Nouvelle méthode en géométrie pour les sections et superficies coniques et Sectione Conicae faisant une recension des propriétés des coniques et présentant des démonstrations claires utilisant des propriétés projectives, des rapports harmoniques et des propriétés sur pôles et polaires.
 Le XIXe siècle voit l'avènement de la géométrie projective et de l'étude projective des coniques avec les écrits de Jean-Victor Poncelet, Michel Chasles qui énonce le théorème récemment découvert par Dandelin et Adolphe Quetelet, Jakob Steiner et Georg von Staudt.
 L'étude des coniques est associée à celle des formes quadratiques avec les travaux d'Adrien-Marie Legendre, Carl Friedrich Gauss, Leonhard Euler, Augustin Louis Cauchy, Carl Jacobi, James J. Sylvester et Julius Plücker.

@@ -16,52 +16,28 @@ Sommaire
 déplacer vers la barre latérale
 masquer
 Pour les articles homonymes, voir variable.
-Dans les mathématiques supérieures  et en logique, une variable est un symbole représentant, a priori, un objet indéterminé. On peut cependant ajouter des conditions sur cet objet, tel que l'ensemble ou la collection le contenant.
-On peut alors utiliser une variable pour marquer un rôle dans un prédicat, une formule ou un algorithme, ou bien résoudre des équations et d'autres problèmes. Il peut s'agir d'une simple valeur, ou d'un objet mathématique tel qu'un vecteur, une matrice ou même une fonction.
+Dans les mathématiques supérieures et en logique, une variable est un symbole représentant, a priori, un objet indéterminé. On peut cependant ajouter des conditions sur cet objet, tel que l'ensemble ou la collection le contenant.
+On peut alors utiliser une variable pour marquer un rôle dans un prédicat, une formule ou un algorithme, ou bien résoudre des équations et d'autres problèmes.
+Il peut s'agir d'une simple valeur, ou d'un objet mathématique tel qu'un vecteur, une matrice ou même une fonction.
 Dans un polynôme, une fraction rationnelle ou une série formelle, la variable est remplacée par une indéterminée notée X.
 Il est d'usage d'utiliser un certain type de symbole pour l'objet que l'on souhaite représenter, par exemple les lettres de i à n pour les indices, les lettres de la fin de l'alphabet pour les vecteurs, ou bien ε pour un réel strictement positif ayant pour but de tendre vers 0.
-Pour calculer la longueur et la largeur d'une citerne dont on connait le volume, la hauteur et la différence entre la longueur et largeur, on peut décrire la méthode de calcul (l'algorithme sur les nombres et les opérations sur eux) sur un exemple, puis reproduire plusieurs exemples pour décrire complètement la méthode. C'est la méthode adoptée pendant l'Antiquité  par les  mathématiques babyloniennes.
+Pour calculer la longueur et la largeur d'une citerne dont on connait le volume, la hauteur et la différence entre la longueur et largeur, on peut décrire la méthode de calcul (l'algorithme sur les nombres et les opérations sur eux) sur un exemple, puis reproduire plusieurs exemples pour décrire complètement la méthode. C'est la méthode adoptée pendant l'Antiquité par les mathématiques babyloniennes.
 À la place des données et des résultats, qui changent dans chaque exemple, on peut décider de remplacer des valeurs fictives — appelées variables — par des symboles.
 Une variable est donc une entité syntaxique qui apparaît dans une expression et que l'on peut remplacer par une valeur, par exemple par un nombre.
-Dans l'exemple proposé par les  mathématiques babyloniennes, si V est le volume, h est la hauteur, et d est la différence entre la longueur L et la largeur l, on a
+Dans l'exemple proposé par les mathématiques babyloniennes, si V est le volume, h est la hauteur, et d est la différence entre la longueur L et la largeur l, on a
 En remplaçant les variables d par 6, V par 14 et h par 2, on obtient les résultats suivants :
 c'est-à-dire L=7 (la longueur est 7) et l=1 (la largeur est 1).
 Soient E et F deux ensembles.
 Soit une fonction 
 définie par :
-⟶
-⟼
 x est appelée la variable de l'expression f(x).
-⟶
-⟼
-+
 x est appelée la variable de f(x).
-⟶
-⟼
-∑
-=
-x est la variable de g(x). On peut aussi dire que chaque composante xi de x est une variable de g(x). Selon les points de vue, soit g(x) possède une variable qui est donc x de dimension n, soit g est une fonction de n variables de dimension 1.
+x est la variable de g(x).
+On peut aussi dire que chaque composante xi de x est une variable de g(x).
+Selon les points de vue, soit g(x) possède une variable qui est donc x de dimension n, soit g est une fonction de n variables de dimension 1.
 En mathématiques, une variable est dite :
-∀
-∈
-+
->
-;
-∑
-=
-=
-+
-;
-∏
-=
 10
-=
 3628800
-;
-=
-∫
-∞
-+
 On dit que les opérateurs, respectivement ∀, ∑, ∏ et ∫, lient ces variables : ce sont des signes mutificateurs.
 Les variables liées par un quantificateur universel ∀ traduisent l'universalité d'une propriété, c'est-à-dire le fait que la dite propriété est satisfaite par tous les objets d'un certain domaine.
 Par exemple, nous remarquons que
@@ -70,11 +46,8 @@ Si par un raisonnement cette affirmation est démontrée alors il sera possible 
 Pour démontrer ce théorème, il suffit de considérer une variable 
 représentant un nombre réel quelconque et de développer:
 D'autre part nous savons que tout nombre réel élevé au carré est positif, donc 
-≥
-De plus en ajoutant de chaque côté de cette dernière inégalité 
-+
-×
-il vient
+. De plus en ajoutant de chaque côté de cette dernière inégalité 
+, il vient
 donc
 La propriété est donc universelle.
 Les variables liées par un quantificateur existentiel ∃ traduisent l'existence d'objets vérifiant une certaine propriété.
@@ -84,157 +57,24 @@ Dans le cadre d'une démonstration, en partant de deux droites non parallèles o
 commun à ces deux droites.
 En fait 
 est une variable représentant ce point et cette définition de la variable 
-va nous permettre de travailler avec ce point.
+, va nous permettre de travailler avec ce point.
 Soient 
-⟶
 et 
-∈
-les énoncés suivants signifient exactement la même chose :
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
-∀
->
-∃
->
-∀
-♠
-∈
-|
-−
-♠
-|
-<
-⟹
-|
-−
-♠
-|
-<
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
+, les énoncés suivants signifient exactement la même chose :
 est continue en 
 Dans ce cas, les variables 
-♠
 sont liées, ceci se remarque très bien dans ce cas car l'énoncé se résume sans les utiliser.
 Et dans tout cet exemple, 
 et 
 sont des variables libres, en effet, tout cela est équivalent à :
 Soient 
-⟶
 et 
-∈
-les énoncés suivants signifient exactement la même chose :
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
-∀
->
-∃
->
-∀
-♠
-∈
-|
-−
-♠
-|
-<
-⟹
-|
-−
-♠
-|
-<
-∀
->
-∃
->
-∀
-∈
-|
-−
-|
-<
-⟹
-|
-−
-|
-<
+, les énoncés suivants signifient exactement la même chose :
 est continue en 
 Et si l'on pose, par exemple 
-=
 exp
 et 
-=
-les énoncés précédent deviennent des propositions, qui sont, dans ce cas, vraies.
+, les énoncés précédent deviennent des propositions, qui sont, dans ce cas, vraies.
 Dans les langages de programmation impératifs, ce que les informaticiens appellent des variables sont des repères de valeurs qui évoluent au cours du temps, on parle aussi de références.
 Il s'agit donc plutôt de l'identification d'emplacements en mémoire.
 Si une variable informatique n'est pas initialisée, sa valeur est non définie.
@@ -243,6 +83,6 @@ Dans les langages fonctionnels, grâce à la transparence référentielle, les v
 Dans sa logistique spécieuse, François Viète ouvre la voie au formalisme en utilisant des lettres pour représenter les entités utilisées dans un problème mathématique.
 On utilise souvent la lettre x pour une variable.
 Cela viendrait de la lettre grec khi, transformation de l'arabe chay' (شيء), signifiant "chose".
-Le mathématicien Moses Schönfinkel a eu l'idée que l'on pouvait fonder les mathématiques sur une logique sans variables.  Il a créé pour cela un système formel que l'on appelle la logique combinatoire.
-Ce système a été repris et complété par Haskell Curry.  Un tel système n'a pas les complications de la substitution, mais perd en lisibilité. En utilisant le calcul des relations, Tarski et Givant ont aussi défini une mathématique sans variables.  Les indices de De Bruijn sont encore une autre façon de se passer des variables.
+Le mathématicien Moses Schönfinkel a eu l'idée que l'on pouvait fonder les mathématiques sur une logique sans variables. Il a créé pour cela un système formel que l'on appelle la logique combinatoire.
+Ce système a été repris et complété par Haskell Curry. Un tel système n'a pas les complications de la substitution, mais perd en lisibilité. En utilisant le calcul des relations, Tarski et Givant ont aussi défini une mathématique sans variables. Les indices de De Bruijn sont encore une autre façon de se passer des variables.
 Sur les autres projets Wikimedia :

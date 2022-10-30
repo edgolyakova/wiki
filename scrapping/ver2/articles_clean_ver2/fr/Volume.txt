@@ -27,48 +27,45 @@ Pour les solides simples (parallélépipède et objets de révolution), il exist
 Le volume est une grandeur additive : le volume d'un système physique est la somme des volumes de ses parties.
 Ce n'est en revanche pas une grandeur algébrique : physiquement, il n'existe pas de « volume négatif » (dont serait fait le sac de voyage de Mary Poppins) dont la superposition avec un système physique de volume positif donnerait un système composé de volume globalement nul, ou du moins réduit : tous les volumes sont de même signe, et par convention, sont comptés positivement. C'est pour cette raison que dans la formule du produit mixte, le résultat est pris en valeur absolue.
 L'interprétation physique du produit mixte est qu'un volume physique est le produit scalaire d'une surface par un déplacement :
-Le déplacement est un vecteur, mais la surface orientée est un pseudovecteur, si bien que le volume ainsi défini est théoriquement une grandeur qui change de signe lorsqu'on fait subir au système une isométrie indirecte (symétrie miroir par exemple). De fait, si par exemple le volume d'une sphère est 4⁄3π R3, une inversion polaire changera effectivement R en –R et conduira logiquement à un volume négatif.
+Le déplacement est un vecteur, mais la surface orientée est un pseudovecteur, si bien que le volume ainsi défini est théoriquement une grandeur qui change de signe lorsqu'on fait subir au système une isométrie indirecte (symétrie miroir par exemple).
+De fait, si par exemple le volume d'une sphère est 4⁄3π R3, une inversion polaire changera effectivement R en –R et conduira logiquement à un volume négatif.
 Sur le plan de l'équation aux dimensions, et en tenant compte de la grandeur d'orientation, le déplacement est un vecteur de dimension L·1x et la surface un pseudovecteur de dimension L 2·1y, le produit des deux est un pseudoscalaire de dimension L 3·1z, c'est-à-dire qu'il a le même caractère qu'un flux.
-La physique reste effectivement inchangée si tous les volumes sont comptés négativement, mais en pratique les volumes physiques sont comptés positivement, ce qui revient à multiplier le volume au sens précédent par le symbole de Levi-Civita (lui-même en 1z). Le volume d'un corps physique est alors un scalaire vrai, à cause de la convention d'orientation.
+La physique reste effectivement inchangée si tous les volumes sont comptés négativement, mais en pratique les volumes physiques sont comptés positivement, ce qui revient à multiplier le volume au sens précédent par le symbole de Levi-Civita (lui-même en 1z).
+Le volume d'un corps physique est alors un scalaire vrai, à cause de la convention d'orientation.
 De même, alors qu'un élément de surface est normalement un pseudovecteur en 1y, la convention d'orientation qui veut que son orientation sur une surface fermée soit dirigée vers l'extérieur revient à le multiplier par la convention d'orientation en 1z, ce qui en fait alors un vecteur vrai en 1x. L'utilisation de cette convention d'orientation peut être problématique dans l'analyse dimensionnelle, parce qu'elle correspond à une grandeur par ailleurs généralement invisible dans les données du problème.
 Un domaine de dimension 3 peut généralement être décrit par trois paramètres indépendants u, v et w. Pour tout point M(u,v,w) appartenant à ce domaine, le vecteur position 
 (où O désigne une origine fixe quelconque) a pour différentielle :
 Une variation élémentaire du, dv, dw) des trois paramètres forme l'élément de volume (ou volume élémentaire) d3V (ou simplement dV si l'on n'a pas besoin de rappeler que trois variables varient indépendamment), défini par :
 Le module d'un vecteur position s'exprimant en mètres (m), un élément de volume s'exprime en mètres cubes (m3). Le signe de d3V est positif si les vecteurs 
-∂
-/
-∂
-∂
-/
-∂
 et 
-∂
-/
-∂
-pris dans cet ordre, forment un trièdre direct, et négatif s'ils forment un trièdre inverse.
+, pris dans cet ordre, forment un trièdre direct, et négatif s'ils forment un trièdre inverse.
 En coordonnées cartésiennes orthonormées, le point courant M est repéré par x, y et z, de telle sorte que :
 où 
 et 
-sont les vecteurs unitaires, fixes, de trois axes orthogonaux (et, pris dans cet ordre, forment un trièdre direct). On a alors :
+sont les vecteurs unitaires, fixes, de trois axes orthogonaux (et, pris dans cet ordre, forment un trièdre direct).
+On a alors :
 On en déduit aisément que :
 En coordonnées cylindriques, le point courant M est repéré par r, φ et z, de telle sorte que :
 où 
 est le vecteur unitaire de l'axe Oz d'un repère orthonormé, tandis que 
-vecteur unitaire, a pour coordonnées cartésiennes cos(φ), sin(φ) et 0. On a alors :
+, vecteur unitaire, a pour coordonnées cartésiennes cos(φ), sin(φ) et 0. On a alors :
 où 
 est le vecteur unitaire de coordonnées cartésiennes –sin(φ), cos(φ) et 0. Les vecteurs 
 et 
-sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct). On en déduit aisément que :
+sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct).
+On en déduit aisément que :
 En coordonnées sphériques, le point courant M est repéré par ρ, θ et φ, de telle sorte que :
 où 
-vecteur unitaire, a pour coordonnées cartésiennes sin(θ)cos(φ), sin(θ)sin(φ) et cos(θ). On a alors :
+, vecteur unitaire, a pour coordonnées cartésiennes sin(θ)cos(φ), sin(θ)sin(φ) et cos(θ). On a alors :
 où 
 est le vecteur unitaire de coordonnées cartésiennes cos(θ)cos(φ), cos(θ)sin(φ) et –sin(θ), et 
 celui de coordonnées –sin(φ), cos(φ) et 0. Les vecteurs 
 et 
-sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct). On en déduit aisément que :
+sont unitaires et orthogonaux deux à deux (et, pris dans cet ordre, forment un trièdre direct).
+On en déduit aisément que :
 L'unité de volume du Système international est le mètre cube (m3) et ses dérivés (dm3, cm3, mm3). Mais d'autres unités de volume persistent surtout dans les pays anglo-saxons (voir Conversion des unités).
-Les volumes de matière liquide ont souvent leurs unités propres (litre, pinte, baril). La mise en place du système métrique a grandement simplifié le nombre d'unités de volume utilisées qui dans l'Ancien Régime en comptait plus de vingt (voir Unités de mesure de l'Ancien Régime).
+Les volumes de matière liquide ont souvent leurs unités propres (litre, pinte, baril).
+La mise en place du système métrique a grandement simplifié le nombre d'unités de volume utilisées qui dans l'Ancien Régime en comptait plus de vingt (voir Unités de mesure de l'Ancien Régime).
 Pour les gaz où l'on veut connaître la quantité de matière (nombre de molécules) contenue dans un volume donné quelles que soient la pression et la température, deux définitions de correction existent :
 Les volumes décrits ci-dessus correspondent à des volumes dits corrigés. Le volume qui ne tient pas compte de ces corrections est dit brut.
 On rencontre ces volumes dans l'élaboration des débits et du pouvoir calorifique des gaz.
@@ -85,32 +82,29 @@ Le théorème de Guldin (ou règle de Pappus) permet de calculer le volume d'un 
 Cette formule permet de déterminer les volumes suivants :
 Si 
 est une partie bornée de 
-le volume du cylindre ayant pour génératrice la frontière de 
-délimité par le plan z = 0 et la surface d'équation z = 'f(x,y) – avec f positive et continue sur 
+, le volume du cylindre ayant pour génératrice la frontière de 
+, délimité par le plan z = 0 et la surface d'équation z = 'f(x,y) – avec f positive et continue sur 
 – est :
 Dans le cas où le domaine 
 est défini par des conditions simples x1 < x < x2, y1(x) < y(x) < y2(x), ce calcul se ramène à :
 Si 
 est une partie bornée de 
 et si la fonction constante 1 est intégrable sur 
-le volume de 
+, le volume de 
 est alors :
 Dans le cas où le domaine 
 est défini par des conditions simples x1(z,y) < x (z,y)< x2(z,y), y1(z) < y(z) < y2(z) et z1 < z < z2, ce calcul se ramène à :
 Par linéarité de l'intégration, un domaine difficile à définir peut être partitionné en plusieurs sous-domaines exprimables eux en conditions simples.
 Si le domaine 
 s'exprime mieux en coordonnées cylindriques par des conditions simples 
-′
-le calcul peut s'exprimer par :
+, le calcul peut s'exprimer par :
 Si le domaine 
 s'exprime mieux en coordonnées sphériques par des conditions simples 
-″
-le calcul peut s'exprimer par :
+, le calcul peut s'exprimer par :
 Dans le cas où le domaine 
 est un solide de révolution dont la frontière est engendrée par la rotation d'une courbe d'équation y = 'f(x) autour de l'axe (Ox), le calcul du volume se réduit à une intégrale simple :
 Enfin, le théorème de flux-divergence permet de réduire le calcul de volume à une intégrale de surface :
 où 
-∂
 est la frontière de 
-et 
+, et 
 le vecteur unitaire normal à dS dirigé vers l'extérieur de 

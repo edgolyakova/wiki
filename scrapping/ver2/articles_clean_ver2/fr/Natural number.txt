@@ -32,9 +32,10 @@ L’étude des entiers naturels est l’objet de l’arithmétique, branche des 
 Chaque nombre entier a un successeur unique, c'est-à-dire un entier qui lui est immédiatement supérieur, et la liste des entiers naturels est infinie.
 Les définitions modernes d’entier naturel sont fondées sur :
 La définition originelle, due à Richard Dedekind, de l'ensemble des entiers naturels ne comprend pas le nombre zéro ; plus récemment une autre définition a été proposée qui inclut zéro.
-Ces deux définitions coexistent encore aujourd'hui. Selon les acceptions, la liste des entiers naturels est donc :
+Ces deux définitions coexistent encore aujourd'hui.
+Selon les acceptions, la liste des entiers naturels est donc :
 ou
-Quelle que soit la définition choisie (entiers commençant à zéro ou commençant à un), l'ensemble des entiers naturels est conventionnellement noté « N » ou  « ℕ », avec tous les risques induits de mésinterprétation.
+Quelle que soit la définition choisie (entiers commençant à zéro ou commençant à un), l'ensemble des entiers naturels est conventionnellement noté « N » ou « ℕ », avec tous les risques induits de mésinterprétation.
 La notation est due à Dedekind en 1888, qui l'utilise pour l'ensemble des entiers commençant à un.
 On trouve parfois des notations moins ambiguës exposées dans la section Notations.
 Les entiers naturels s'identifient aux entiers relatifs positifs (ou nuls), ainsi qu'aux nombres rationnels positifs (ou nuls) pouvant s'écrire sous la forme d'une fraction de dénominateur 1, et d'une manière plus générale aux réels positifs (ou nuls) de partie fractionnaire nulle.
@@ -46,17 +47,18 @@ Le nombre est enfin représenté lorsque le sac de cailloux ou le bâton à enco
 Cependant, le concept d'entier ne naît véritablement que lorsqu'il est départi de son représentant, c'est-à-dire lorsqu'il ne représente plus ni cailloux, ni encoches, ni vache : il y a là une première abstraction où chaque objet est considéré comme une unité pure et sans qualité. Ce processus mental est connu sous le nom d'abstraction : il est fait abstraction de la qualité de l'objet pour s'intéresser uniquement à la quantité. Une seconde abstraction mène alors à la considération de ces unités comme une collection d'unités.
 Euclide donne au Livre VII des Éléments la définition suivante : « L'unité est ce relativement à quoi tout objet est appelé Un. » Cette abstraction lui permet de définir ensuite le nombre (entier naturel) comme « collection d'unités ».
 Frege a songé (dans Les Fondements de l'arithmétique, 1884) à définir les entiers en termes de classe de bijectabilité.
-Cette idée consiste à définir chaque entier n comme le rassemblement de tous les ensembles ayant n  éléments.
+Cette idée consiste à définir chaque entier n comme le rassemblement de tous les ensembles ayant n éléments.
 Cette très séduisante définition se heurte au paradoxe de Russell si l'on souhaite, en vue d'un monisme ontologique, qu'un tel rassemblement soit, aussi, un ensemble.
 Ceci car, sauf pour l'entier 0, identifié à l'ensemble contenant uniquement l'ensemble vide, pour tout autre entier n le rassemblement des ensembles ayant n éléments est une classe propre et donc n'est pas un ensemble.
 La définition de Frege conduit donc à une impasse.
 Pour en sortir, les mathématiciens ont cherché à définir un représentant dans chaque classe de bijectabilité, appelé cardinal de chacun des éléments de la classe.
-Cela peut être réalisé par le τ de Hilbert ou par un axiome adéquat  garantissant la possibilité du choix d’un tel représentant dans chaque classe de bijectabilité. Un cardinal a est dit fini s’il est différent de a + 1. Les entiers naturels sont définis comme les cardinaux finis.
+Cela peut être réalisé par le τ de Hilbert ou par un axiome adéquat garantissant la possibilité du choix d’un tel représentant dans chaque classe de bijectabilité. Un cardinal a est dit fini s’il est différent de a + 1. Les entiers naturels sont définis comme les cardinaux finis.
 Les entiers naturels peuvent être définis comme des ordinaux, c'est-à-dire, par la méthode de von Neumann, comme des ensembles bien ordonnés tous comparables par inclusion.
 Les entiers naturels sont les ordinaux finis, ceux dont l'ordre réciproque est aussi un bon ordre, ou encore les ordinaux successeurs dont tous les minorants sont aussi des ordinaux successeurs.
 La désignation des entiers dans le langage n'est pas la même d'une langue à l'autre, même si elle se fonde en général sur quelques méthodes simples.
 Les premiers entiers ont un nom spécifique sans lien les uns avec les autres.
-En français, il s'agit des entiers de un à dix (les noms des entiers de onze à seize sont en fait des déformations de noms composés). Certaines langues n'ont pas de mot spécifique au-delà de deux.
+En français, il s'agit des entiers de un à dix (les noms des entiers de onze à seize sont en fait des déformations de noms composés).
+Certaines langues n'ont pas de mot spécifique au-delà de deux.
 L'accolement de deux noms peut désigner le résultat de l'addition (comme dans dix-sept) ou de la multiplication (comme dans quatre-vingts) des entiers correspondants. D'autres procédés existent utilisant la soustraction, la division ou la protraction.
 Certains « grands » nombres reçoivent également un nom spécifique, en général certaines puissances d'une base particulière.
 La base dix est la plus répandue aujourd'hui, mais la désignation des entiers en français par exemple conserve la trace d'un usage partiel de la base vingt.
@@ -86,32 +88,20 @@ Il en existe une infinité et chaque nombre se décompose de manière unique en 
 Cette décomposition permet entre autres de comprendre la structure de l’ensemble des diviseurs.
 Quelle que soit la manière d’introduire les entiers naturels, l’existence d’un ensemble les contenant tous, repose sur une forme ou une autre de l’axiome de l’infini.
 Si les entiers naturels sont introduits avant la théorie des ensembles, celle-ci étant construite comme une extension de l’arithmétique, l’axiome de l’infini sous sa forme la plus simple énonce : il existe au moins un ensemble (infini) contenant tous les entiers naturels. D’où l’existence de l’ensemble des entiers naturels par application de l’axiome de compréhension.
-Si les entiers naturels sont introduits comme les cardinaux finis, l’existence peut être démontrée à partir de l’axiome : il existe au moins un ensemble infini. On montre que tout cardinal fini est inférieur au cardinal d’un ensemble infini.
+Si les entiers naturels sont introduits comme les cardinaux finis, l’existence peut être démontrée à partir de l’axiome : il existe au moins un ensemble infini.
+On montre que tout cardinal fini est inférieur au cardinal d’un ensemble infini.
 Par ailleurs le schéma d'axiomes de remplacement permet de montrer que pour tout cardinal, il existe un ensemble des cardinaux qui lui sont inférieurs. L’ensemble des cardinaux inférieurs au cardinal d’un ensemble infini contient donc tous les entiers naturels.
-Si les entiers naturels sont introduits par la méthode de Von Neumann, l’existence résulte directement de l’axiome de l’infini sous la forme : Il existe un ensemble auquel appartient l'ensemble vide et qui est clos par application du successeur x ↦ x ∪ {x}   . L’ensemble des entiers naturels est alors l’intersection de tous les ensembles vérifiant cette propriété.
-=
-=
-=
-{
-…
-}
-≠
-=
->
-=
-{
-…
-}
-En 1894, Giuseppe Peano utilise les notations « N » pour  « nombre entier positif » et « N0 » pour « nombre entier positif ou nul » dans ses Notations de logique mathématique, qui servent d'introduction à son grand projet de formalisation des mathématiques, le Formulaire de mathématiques.
+Si les entiers naturels sont introduits par la méthode de Von Neumann, l’existence résulte directement de l’axiome de l’infini sous la forme : Il existe un ensemble auquel appartient l'ensemble vide et qui est clos par application du successeur x ↦ x ∪ {x} . L’ensemble des entiers naturels est alors l’intersection de tous les ensembles vérifiant cette propriété.
+En 1894, Giuseppe Peano utilise les notations « N » pour « nombre entier positif » et « N0 » pour « nombre entier positif ou nul » dans ses Notations de logique mathématique, qui servent d'introduction à son grand projet de formalisation des mathématiques, le Formulaire de mathématiques.
 Il l'utilise comme prédicat une notion très proche de celle d'ensemble.
 Ainsi Peano écrit « x ε N » (qu'on écrit aujourd'hui « 
-∈
 ») ce qui pour lui se lit « x est un nombre entier positif ».
 La notation historique de l'ensemble des entiers naturels en imprimerie devient « N », lettre capitale grasse.
 En écriture manuscrite (et particulièrement au tableau noir), ce caractère a été distingué de la lettre « N » utilisée pour d'autres usages par le doublement de la première barre verticale, ou de la barre oblique, « 
 ». Ce dernier choix a été adopté pour la police gras de tableau noir. L'édition mathématique moderne utilise maintenant les caractères « doublés », mais l'usage du gras typographique perdure également.
 Le plus petit ordinal infini est la borne supérieure de tous les ordinaux finis, qui sont les entiers naturels.
-Il a été introduit par Georg Cantor qui l'a noté ω (lettre minuscule grecque oméga) ou  ω0. John von Neumann a montré que les ordinaux pouvaient être définis de façon à identifier un ordinal à l'ensemble de ses minorants stricts, et l'ordinal ω s'identifie alors à l'ensemble des entiers naturels (un entier naturel étant lui-même identifié à l'ensemble des entiers naturels qui lui sont strictement inférieurs). En théorie des ensembles, la lettre ω est donc aussi utilisée pour désigner l'ensemble des entiers naturels. L'axiome de l'infini permet de montrer l'existence de cet ensemble.
+Il a été introduit par Georg Cantor qui l'a noté ω (lettre minuscule grecque oméga) ou ω0. John von Neumann a montré que les ordinaux pouvaient être définis de façon à identifier un ordinal à l'ensemble de ses minorants stricts, et l'ordinal ω s'identifie alors à l'ensemble des entiers naturels (un entier naturel étant lui-même identifié à l'ensemble des entiers naturels qui lui sont strictement inférieurs).
+En théorie des ensembles, la lettre ω est donc aussi utilisée pour désigner l'ensemble des entiers naturels. L'axiome de l'infini permet de montrer l'existence de cet ensemble.
 Un ensemble dénombrable est un ensemble qui a même cardinal que l'ensemble des entiers naturels (on précise parfois « infini dénombrable », dénombrable pouvant aussi signifier « fini ou de même cardinal que N »). Le cardinal du dénombrable, celui de N, est le plus petit cardinal infini, il est noté ℵ0, aleph-zéro.
 En théorie des ensembles, formellement ℵ0, se définit comme le plus petit ordinal infini dénombrable, soit ω, et donc à nouveau comme l'ensemble des entiers naturels.
 Les opérations d'addition et de multiplication étant associatives, commutatives, munies de neutres et satisfaisant une propriété de distributivité, l'ensemble des entiers naturels est un semi-anneau.
@@ -124,7 +114,8 @@ Quelle que soit la façon d'introduire les entiers naturels, ceux-ci ont les mê
 Richard Dedekind et Giuseppe Peano en ont proposé indépendamment des axiomatisations qui étaient essentiellement équivalentes.
 Il s'agissait d'axiomatisation que l'on dit parfois aujourd'hui du second ordre : la notion d'ensemble (ou de prédicat) est supposée connue et n'est pas prise en compte par l'axiomatisation.
 Voici une présentation moderne de ces axiomes (dits axiomes de Peano) :
-Le premier axiome permet de poser que l'ensemble des entiers naturels n'est pas vide, le second que le successeur est une fonction, le quatrième que cette fonction est injective, le troisième qu'il possède un premier élément (ces deux axiomes assurent que l'ensemble des entiers naturels est infini). Le cinquième est une formulation du principe de récurrence.
+Le premier axiome permet de poser que l'ensemble des entiers naturels n'est pas vide, le second que le successeur est une fonction, le quatrième que cette fonction est injective, le troisième qu'il possède un premier élément (ces deux axiomes assurent que l'ensemble des entiers naturels est infini).
+Le cinquième est une formulation du principe de récurrence.
 Une propriété importante, démontrée par Richard Dedekind à partir de ces axiomes, est le principe de définition par récurrence.
 Il permet par exemple de définir les opérations usuelles.
 Sur les autres projets Wikimedia :

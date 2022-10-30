@@ -55,8 +55,9 @@ Le développement de ces techniques constitue d'ailleurs une branche des mathém
 Hors de la géométrie euclidienne, les côtés d'un triangle sont remplacés par des arcs géodésiques et beaucoup de ses propriétés sont modifiées (voir Trigonométrie sphérique).
 La forme triangulaire se retrouve dans de nombreux objets, mathématiques ou non, et s'est chargée de symboliques diverses.
 De nombreux caractères typographiques présentent une telle forme.
-Un triangle est complètement déterminé par la donnée de ses trois sommets et il se note en général en juxtaposant les trois lettres (a priori capitales) qui les désignent. L'ordre de ces lettres importe peu même si l'ordre d'énonciation correspond en général à un parcours dans le sens trigonométrique autour du triangle. La longueur d'un côté est classiquement notée avec la lettre minuscule correspondant au sommet opposé.
-Si tous les sommets sont distincts[note 1], chaque angle géométrique peut être identifié par la lettre du sommet correspondant, surmontée d'un accent circonflexe.
+Un triangle est complètement déterminé par la donnée de ses trois sommets et il se note en général en juxtaposant les trois lettres (a priori capitales) qui les désignent. L'ordre de ces lettres importe peu même si l'ordre d'énonciation correspond en général à un parcours dans le sens trigonométrique autour du triangle.
+La longueur d'un côté est classiquement notée avec la lettre minuscule correspondant au sommet opposé.
+Si tous les sommets sont distincts, chaque angle géométrique peut être identifié par la lettre du sommet correspondant, surmontée d'un accent circonflexe.
 Au cas où la figure comprend d'autres segments passant par les sommets, les côtés de l'angle sont précisés par les lettres désignant les deux autres sommets de part et d'autre sous l'accent circonflexe.
 Ces angles peuvent aussi être notés à l'aide de lettres grecques en minuscule et en italique.
 La propriété euclidienne selon laquelle « la ligne droite est le plus court chemin d'un point à un autre » s'illustre par le fait que dans un triangle, la longueur de chaque côté est inférieure ou égale à la somme des longueurs des deux autres côtés :
@@ -151,45 +152,26 @@ où b et c désignent les longueurs des côtés AC et AB, et
 l'angle en A.
 Dans un repère orthonormé où l'on a pris l'origine O en A et l'axe Ox le long de AB, les points A, B et C ont respectivement pour coordonnées 
 et 
-[
 cos
-⁡
 sin
-⁡
-]
-où l'on a noté θ l'angle 
-/
-Le point M est à l'intersection de la bissectrice (d'équation 
+, où l'on a noté θ l'angle 
+. Le point M est à l'intersection de la bissectrice (d'équation 
 sin
-⁡
-−
 cos
-⁡
-=
 et de la droite portant le segment BC (d'équation 
 sin
-⁡
-−
-[
 cos
-⁡
-−
-]
-=
 sin
-⁡
 . En résolvant ce système de deux équations linéaires à deux inconnues on trouve pour l'abscisse de M :
 or 
-=
-/
 cos
-⁡
-d'où le résultat.
+, d'où le résultat.
 Le rayon du cercle inscrit est le quotient de l'aire du triangle par son demi-périmètre.
 Le centre de gravité, le centre du cercle circonscrit et l'orthocentre sont alignés sur une droite appelée droite d'Euler et satisfont la relation vectorielle :
 En outre, les milieux des côtés, les pieds des hauteurs et les milieux des segments reliant l'orthocentre aux sommets sont tous sur un même cercle appelé cercle d'Euler, dont le centre est également sur la droite d'Euler.
 Particularité : soit M un point de la droite d'Euler.
-Les cercles d'Euler des triangles AHM, BHM et CHM se recoupent sur le cercle d'Euler du triangle ABC. Si M est le centre du cercle circonscrit au triangle ABC, alors le point de concours est nommé point de Jérabek.
+Les cercles d'Euler des triangles AHM, BHM et CHM se recoupent sur le cercle d'Euler du triangle ABC.
+Si M est le centre du cercle circonscrit au triangle ABC, alors le point de concours est nommé point de Jérabek.
 Deux triangles sont dits isométriques, superposables ou, anciennement égaux, s'ils ont les mêmes longueurs de côté. Dans ce cas il est possible de faire correspondre les sommets de l'un avec les sommets de l'autre par une isométrie (par exemple une translation, une rotation ou une symétrie) et cette correspondance relie alors des angles de même mesure.
 Ces triangles ont donc aussi la même aire.
 Cette première définition est équivalente à chacune des trois suivantes :
@@ -222,18 +204,19 @@ D'après le théorème d'Alasia, la droite de Brocard est parallèle à l'un des
 Dans un triangle non plat, il existe une unique ellipse tangente à chaque côté en son milieu.
 Le théorème de Thalès relie les longueurs de côtés de deux triangles semblables ayant un sommet commun et les côtés opposés parallèles.
 Le théorème de Napoléon affirme que les centres des triangles équilatéraux formés extérieurement sur les côtés d'un triangle sont eux-mêmes les sommets d'un triangle équilatéral.
-Le « théorème japonais de Carnot » établit que la somme des rayons des cercles inscrit et circonscrit est égale à la somme des distances du  centre du cercle circonscrit aux côtés du triangle.
+Le « théorème japonais de Carnot » établit que la somme des rayons des cercles inscrit et circonscrit est égale à la somme des distances du centre du cercle circonscrit aux côtés du triangle.
 Le théorème de Ménélaüs donne une condition nécessaire et suffisante pour l'alignement de trois points alignés respectivement avec les côtés d'un triangle.
 Le théorème de Morley affirme que les intersections des trissectrices des angles d'un triangle forment un triangle équilatéral.
 Le théorème de Nagel montre que la bissectrice d'un angle d'un triangle est la même que celle de l'angle en ce sommet dont les côtés passent par l'orthocentre et le centre du cercle circonscrit.
 Le théorème de Neuberg établit que les centres de trois carrés obtenus par une construction géométrique particulière sur un triangle sont les milieux des côtés de ce triangle.
 Le théorème de Hamilton stipule que le cercle d'Euler est le même pour les quatre triangles formés par un groupe orthocentrique.
-Le théorème d'Euler en géométrie exprime la distance d entre les centres des cercles inscrit et circonscrit en fonction de leurs rayons respectifs r et R par d2=R(R-2r). Il en découle que le rayon du cercle inscrit est au moins deux fois plus petit que celui du cercle circonscrit (inégalité d'Euler).
+Le théorème d'Euler en géométrie exprime la distance d entre les centres des cercles inscrit et circonscrit en fonction de leurs rayons respectifs r et R par d2=R(R-2r).
+Il en découle que le rayon du cercle inscrit est au moins deux fois plus petit que celui du cercle circonscrit (inégalité d'Euler).
 Le théorème de Ceva donne une condition nécessaire et suffisante pour que trois droites (appelées céviennes) passant respectivement par les trois sommets d'un triangle soient parallèles ou concourantes.
 Le théorème de Gergonne donne alors une relation entre les longueurs des céviennes et les longueurs des segments qui relient leur point d'intersection aux sommets.
 Le théorème de Stewart relie la longueur d'une cévienne aux longueurs des côtés des deux triangles qu'elle forme.
 Le théorème de Terquem montre que le cercle pédal, circonscrit au triangle pédal formé par les trois pieds de céviennes concourantes, coupe les côtés du triangle en trois points qui sont également les pieds de céviennes concourantes.
-Le  théorème de Routh donne le quotient des surfaces entre l'aire du triangle formé par trois céviennes, et celle d'un triangle donné.
+Le théorème de Routh donne le quotient des surfaces entre l'aire du triangle formé par trois céviennes, et celle d'un triangle donné.
 Le théorème des six cercles montre qu'une suite de cercles successivement tangents extérieurement et tangents intérieurement à deux côtés d'un triangle (les côtés variant par permutation circulaire) est 6-périodique.
 La réciproque du théorème des trois cercles de Miquel montre que trois cercles passant respectivement par les sommets d'un triangle et sécants le long des côtés correspondants sont concourants en un point appelé point de Miquel.
 Un triangle étant un polygone à trois côtés, certaines propriétés se généralisent pour un plus grand nombre de côtés, comme l'inégalité triangulaire ou la somme des angles (pour un polygone non croisé), mais l'aire et les angles ne dépendent plus seulement des longueurs des côtés. Il y a aussi moins de résultats valables en toute généralité sur les droites ou points remarquables.
@@ -249,6 +232,7 @@ Le problème R51 constitue, dans l'histoire mondiale des mathématiques, le prem
 Si quelqu'un te dit : un triangle de 10 khet sur son mryt et de 4 khet sur sa base.
 Quelle est sa superficie ? Calcule la moitié de 4 qui est 2 pour en faire un rectangle.
 Tu fais en sorte de multiplier 10 par 2. Ceci est sa superficie. »
-Le terme mryt signifie probablement hauteur, ou côté. Mais la formule utilisée pour le calcul de l'aire fait pencher l'interprétation en faveur de la première solution. Le scribe prenait la moitié de la base du triangle et calculait l'aire du rectangle formé par ce côté et la hauteur, soit
+Le terme mryt signifie probablement hauteur, ou côté. Mais la formule utilisée pour le calcul de l'aire fait pencher l'interprétation en faveur de la première solution.
+Le scribe prenait la moitié de la base du triangle et calculait l'aire du rectangle formé par ce côté et la hauteur, soit
 équivalente à la formule générale utilisée de nos jours :
 Euclide, dans le livre I de ses Éléments, vers -300, énonce la propriété sur la somme des angles du triangle et les trois cas d'égalité des triangles (voir ci-dessus le paragraphe sur les triangles isométriques).

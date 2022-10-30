@@ -26,9 +26,11 @@ Pour les articles homonymes, voir Statistique (homonymie).
 Pour un article sur une statistique consultez l'article Statistique (indicateur)
 modifier - modifier le code - modifier Wikidata
 La statistique est la discipline qui étudie des phénomènes à travers la collecte de données, leur traitement, leur analyse, l'interprétation des résultats et leur présentation afin de rendre ces données compréhensibles par tous. C'est à la fois une branche des mathématiques appliquées, une méthode et un ensemble de techniques.
-Remarquons que la statistique est parfois notée « la Statistique » (avec une majuscule), ce qui permet de différencier ses applications mathématiques avec une statistique (avec une minuscule). Le pluriel est également souvent utilisé pour la désigner : « les statistiques », cela permet de montrer la diversité de cette science[réf. nécessaire].
-La statistique est un domaine des mathématiques et de plus en plus, elle fait partie de ce que l'on appelle aujourd'hui la science des données (en anglais : Data Science). L'analyse applique des lois mathématiques plus générales (ensembles, groupes, inclusion, exclusion).  Elle possède une composante théorique ainsi qu'une composante appliquée. La composante théorique s'appuie sur la théorie des probabilités et forme avec cette dernière, l'analyse de phénomènes aléatoires.
-La statistique appliquée est utilisée dans presque tous les domaines de l'activité humaine : ingénierie, management, économie, biologie, informatique, la physique (fondamentaux de la physique quantique, par exemple). La statistique utilise des règles et des méthodes sur la collecte des données, pour que celles-ci puissent être correctement interprétées, souvent comme composante d'une aide à la décision.
+Remarquons que la statistique est parfois notée « la Statistique » (avec une majuscule), ce qui permet de différencier ses applications mathématiques avec une statistique (avec une minuscule).
+Le pluriel est également souvent utilisé pour la désigner : « les statistiques », cela permet de montrer la diversité de cette science[réf. nécessaire].
+La statistique est un domaine des mathématiques et de plus en plus, elle fait partie de ce que l'on appelle aujourd'hui la science des données (en anglais : Data Science). L'analyse applique des lois mathématiques plus générales (ensembles, groupes, inclusion, exclusion). Elle possède une composante théorique ainsi qu'une composante appliquée. La composante théorique s'appuie sur la théorie des probabilités et forme avec cette dernière, l'analyse de phénomènes aléatoires.
+La statistique appliquée est utilisée dans presque tous les domaines de l'activité humaine : ingénierie, management, économie, biologie, informatique, la physique (fondamentaux de la physique quantique, par exemple).
+La statistique utilise des règles et des méthodes sur la collecte des données, pour que celles-ci puissent être correctement interprétées, souvent comme composante d'une aide à la décision.
 Le statisticien a pour profession la mise au point d'outils statistiques, dans le secteur privé ou le secteur public, et leur exploitation généralement dans un domaine d'expertise.
 D'usage généralisé en français vers 1785, dérivé de l’italien statista (« homme d’État, statiste »), emprunté à l'allemand Statistik, forgé ou repris, vers 1749, par l'économiste Gottfried Achenwall : la statistique représentant pour lui l'ensemble des connaissances que doit posséder un homme d’État. C'est son ouvrage Aperçu sur la gestion étatique des empires et républiques européens les plus distingués à l'usage des cours universitaires (Abriss der neuesten Staatswissenschaft der vornehmsten Europäischen Reiche und Republiken zum Gebrauch in seinen Akademischen Vorlefungen) paru en 1749 qui conféra son rayonnement à la notion.
 Bien que le nom de statistique soit relativement récent – on attribue en général l'origine du nom au XVIIIe siècle, de l'allemand Staatskunde (connaissance ou science de l'État) – cette activité semble exister dès la naissance des premières structures sociales. D'ailleurs, les premiers textes écrits retrouvés sont des recensements du bétail, des informations sur son cours et des contrats divers.
@@ -77,18 +79,20 @@ Les problèmes portant sur des statistiques multidimensionnelles nécessitent l'
 Indépendamment du caractère, élémentaire ou non, du problème il s'agit de réductions statistiques de données connues dans lesquelles l'introduction des probabilités améliorerait difficilement l'information obtenue.
 Il est raisonnable de regrouper ces différentes notions :
 Un changement radical se produit lorsque les données ne sont plus considérées comme une information complète à décrypter selon les règles de l'algèbre mais comme une information partielle sur une population plus importante, généralement considérée comme une population infinie.
-Pour induire des informations sur la population inconnue il faut introduire la notion de loi de probabilité. Les données connues constituent dans ce cas une réalisation d'un échantillon, ensemble de variables aléatoires supposées indépendantes (voir Loi de probabilité à plusieurs variables). La théorie des probabilités permet alors, entre autres opérations :
+Pour induire des informations sur la population inconnue il faut introduire la notion de loi de probabilité. Les données connues constituent dans ce cas une réalisation d'un échantillon, ensemble de variables aléatoires supposées indépendantes (voir Loi de probabilité à plusieurs variables).
+La théorie des probabilités permet alors, entre autres opérations :
 L'enquête statistique est toujours précédée d'une phase où sont déterminés les différents caractères à étudier.
 L'étape suivante consiste à choisir la population à étudier.
 Il se pose alors le problème de l'échantillonnage : choix de la population à sonder (au sens large : cela peut être un sondage d'opinion en interrogeant des humains, ou bien le ramassage de roches pour déterminer la nature d'un sol en géologie), la taille de la population et sa représentativité.
 Que ce soit pour un recueil total (recensement) ou partiel (sondage), des protocoles sont à mettre en place pour éviter les erreurs de mesures qu'elles soient accidentelles ou répétitives (biais).
 Le pré traitement des données est extrêmement important, en effet, une transformation des données initiales (un passage au logarithme, par exemple), peuvent considérablement faciliter les traitements statistiques suivants.
-Le résultat de l'enquête statistique est une série de données quantitatives (tailles, salaires) ou de données qualitatives (langues parlées, marques préférées). Pour pouvoir les exploiter, il va être nécessaire d'en faire un classement et un résumé visuel ou numérique.
+Le résultat de l'enquête statistique est une série de données quantitatives (tailles, salaires) ou de données qualitatives (langues parlées, marques préférées).
+Pour pouvoir les exploiter, il va être nécessaire d'en faire un classement et un résumé visuel ou numérique.
 Il sera parfois nécessaire d'opérer une compression de données. C'est le travail de la statistique descriptive.
 Il sera différent selon que l'étude porte sur une seule ou sur plusieurs variables.
 Le regroupement des données, le calcul des effectifs, la construction de graphiques permettent un premier résumé visuel du caractère statistique étudié. Dans le cas d'un caractère quantitatif continu, l'histogramme en est la représentation graphique la plus courante.
 Les valeurs numériques d'un caractère statistique se répartissent dans 
-il est nécessaire de définir leurs positions.
+, il est nécessaire de définir leurs positions.
 En statistiques, on est en général en présence d'un grand nombre de valeurs.
 Or, si l'intégralité de ces valeurs forme l'information, il n'est pas aisé de manipuler plusieurs centaines voire milliers de données, ni d'en tirer des conclusions.
 Il faut donc calculer quelques valeurs qui vont permettre d'analyser les données : c'est le rôle des réductions statistiques.
@@ -113,9 +117,8 @@ Ce type de modélisation s'appelle aussi modélisation empirique.
 Compléter une modélisation statistique par des équations physiques (souvent intégrées dans les pré traitements des données) est toujours positif.
 Un modèle est avant tout un moyen de relier des variables à expliquer 
 à des variables explicatives 
-par une relation fonctionnelle :
+, par une relation fonctionnelle :
 Les modèles statistiques peuvent être regroupés en grandes familles (suivant la forme de la fonction 
-:
 Les modèles bayésiens (du nom de Bayes) peuvent être utilisés dans les trois catégories.
 Cette branche des mathématiques, très liée aux probabilités, est indispensable pour valider les hypothèses ou les modèles élaborés dans la statistique inférentielle.
 La théorie mathématiques des probabilités formalise les phénomènes aléatoires.
@@ -124,5 +127,6 @@ Par exemple, pour une partie de dés à six faces :
 Une fois la règle établie, elle peut être utilisée en statistique inférentielle.
 Les statistiques sont utilisées dans la plupart des sciences sociales.
 Elles présentent une méthodologie commune avec toutefois certaines spécificités selon la complexité de l'objet d'étude.
-L'analyse géométrique des données (analyse factorielle, classification ascendante hiérarchique) est très souvent utilisée par les sociologues quantitativistes. Ces méthodes permettent de dresser des profils synthétiques prenant en compte un ensemble de variables quantitatives (revenu, âge, etc.) et/ou qualitatives (sexe, catégorie socio-professionnelle, etc.). Il est par exemple possible de déterminer des sociostyles.
+L'analyse géométrique des données (analyse factorielle, classification ascendante hiérarchique) est très souvent utilisée par les sociologues quantitativistes.
+Ces méthodes permettent de dresser des profils synthétiques prenant en compte un ensemble de variables quantitatives (revenu, âge, etc.) et/ou qualitatives (sexe, catégorie socio-professionnelle, etc.). Il est par exemple possible de déterminer des sociostyles.
 Sur les autres projets Wikimedia :

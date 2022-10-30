@@ -23,7 +23,8 @@ Sommaire
 déplacer vers la barre latérale
 masquer
 Pour les articles homonymes, voir Orbite (homonymie).
-En mécanique céleste et en mécanique spatiale, une orbite (/ɔʁ.bit/) est la courbe fermée représentant la trajectoire que dessine, dans l'espace, un objet céleste sous l'effet de la gravitation et de forces d'inertie. Une telle orbite est dite périodique.
+En mécanique céleste et en mécanique spatiale, une orbite (/ɔʁ.bit/) est la courbe fermée représentant la trajectoire que dessine, dans l'espace, un objet céleste sous l'effet de la gravitation et de forces d'inertie.
+Une telle orbite est dite périodique.
 Dans le Système solaire, la Terre, les autres planètes, les astéroïdes et les comètes sont en orbite autour du Soleil.
 De même, des planètes possèdent des satellites naturels en orbite autour d'elles.
 Des objets artificiels, comme les satellites et les sondes spatiales sont en orbite autour de la Terre ou d'autres corps du système solaire.
@@ -40,7 +41,8 @@ Considéré comme compatible avec la philosophie d'Aristote, le géocentrisme de
 On doit à Copernic (1473-1543) qui dans son ouvrage majeur De revolutionibus Orbium Coelestium publié à sa mort en 1543 remet en cause le dogme géocentrique et proposant un système héliocentrique, dans lequel les planètes et la Terre se déplacent selon des orbites circulaires, parcourues à vitesses constantes, la Lune étant le seul astre tournant autour de la Terre.
 Bien qu'imparfaite, cette vision s'avère très féconde : les mouvements des planètes sont plus simples à décrire dans un référentiel héliocentrique. L'ensemble des irrégularités de mouvements telles que les rétrogradations s'explique uniquement par le mouvement de la Terre sur son orbite, plus précisément en termes modernes par l'effet du passage du référentiel héliocentrique au référentiel géocentrique.
 Le système de Copernic permet également de supposer que les étoiles de la « sphère des fixes » sont à une distance bien plus grande de la Terre (et du Soleil) que l'on le supposait jusqu'alors, pour expliquer l'absence d'effet observé alors (parallaxe) du mouvement de la Terre sur la position des étoiles.
-Il est à noter qu'initialement le système de Copernic, qui sur la pratique astronomique consistait à échanger les positions de la Terre et du Soleil, ne suscita pas une opposition de principe de l’Église, jusqu'à ce que celle-ci s'aperçut que ce modèle remettait en cause la philosophie d'Aristote. Kepler (1571-1630) perfectionnera ce modèle, grâce à l'analyse soigneuse des observations précises de son maître Tycho Brahe (1541-1601), notamment concernant le mouvement de la planète Mars.
+Il est à noter qu'initialement le système de Copernic, qui sur la pratique astronomique consistait à échanger les positions de la Terre et du Soleil, ne suscita pas une opposition de principe de l’Église, jusqu'à ce que celle-ci s'aperçut que ce modèle remettait en cause la philosophie d'Aristote.
+Kepler (1571-1630) perfectionnera ce modèle, grâce à l'analyse soigneuse des observations précises de son maître Tycho Brahe (1541-1601), notamment concernant le mouvement de la planète Mars.
 Il publie ses trois célèbres lois (Cf. Lois de Kepler) en 1609, 1611, 1618 :
 Une orbite képlérienne est l'orbite d'un corps assimilable à un point — c'est-à-dire dont la distribution des masses possède une symétrie sphérique — et soumis au champ de gravitation créé par une masse également assimilable à un point, ce dernier étant pris comme origine du référentiel.
 Autrement dit, c'est l'orbite d'un corps en interaction gravitationnelle avec un seul autre corps, chaque corps étant assimilé à un point,.
@@ -63,59 +65,30 @@ l'anomalie excentrique et
 l'anomalie moyenne.
 Le rayon 
 de l'ellipse (mesuré depuis un foyer) est donné par :
-=
-−
 cos
-⁡
-=
-−
-+
 cos
-⁡
 Les relations suivantes existent entre les anomalies :
-=
-−
 sin
-⁡
 cos
-⁡
-=
 cos
-⁡
-−
-−
 cos
-⁡
 ou encore
 tan
-⁡
-=
-+
-−
 tan
-⁡
 Une application fréquente consiste à trouver 
 à partir de 
-Il suffit alors d'itérer l'expression :
-+
-=
-−
+. Il suffit alors d'itérer l'expression :
 cos
-⁡
-−
 sin
-⁡
-−
 cos
-⁡
 Si on utilise une valeur initiale 
-=
-la convergence est garantie, et est toujours très rapide (dix chiffres significatifs en quatre itérations).
+, la convergence est garantie, et est toujours très rapide (dix chiffres significatifs en quatre itérations).
 La trace au sol d'un satellite artificiel est la projection au sol de sa trajectoire sur son orbite selon une verticale qui passe par le centre du corps céleste autour duquel il tourne.
 Sa forme détermine les portions de surface balayées par les instruments du satellite et les créneaux de visibilité du satellite par les stations terrestres.
 Le dessin de la trace résulte à la fois du déplacement du satellite sur son orbite et de la rotation de la Terre.
 Les orbites des satellites artificiels peuvent être classifiées selon différents critères :
-Quand l'orbite est quasiment circulaire elle est appelée orbite basse (LEO, de l'anglais Low Earth Orbit) si son altitude est inférieure à 1 500 km, orbite moyenne (MEO, de Medium Earth Orbit) si elle est comprise entre 1 500 et 20 000 km, et orbite haute au-delà. L'orbite haute la plus courante, car permettant au satellite de rester en permanence au-dessus de la même région de la Terre est située à une altitude de 36 000 km et est appelé orbite géostationnaire (ou GEO de l'anglais Geostationnary Earth Orbit). Elle nécessite que l'inclinaison orbitale soit de 0°. Une orbite à cette altitude avec une inclinaison orbital nulle ou non est une orbite géosynchrone.
+Quand l'orbite est quasiment circulaire elle est appelée orbite basse (LEO, de l'anglais Low Earth Orbit) si son altitude est inférieure à 1 500 km, orbite moyenne (MEO, de Medium Earth Orbit) si elle est comprise entre 1 500 et 20 000 km, et orbite haute au-delà. L'orbite haute la plus courante, car permettant au satellite de rester en permanence au-dessus de la même région de la Terre est située à une altitude de 36 000 km et est appelé orbite géostationnaire (ou GEO de l'anglais Geostationnary Earth Orbit).
+Elle nécessite que l'inclinaison orbitale soit de 0°. Une orbite à cette altitude avec une inclinaison orbital nulle ou non est une orbite géosynchrone.
 La plupart des satellites placés sur une orbite circulaire autour de la Terre se trouvent soit sur une orbite basse (satellite d'observation de la Terre, satellite de reconnaissance) soit sur une orbite moyenne à 20 000 km (satellite de navigation) soit sur une orbite géostationnaire (satellite de télécommunications, satellite météorologique).
 Parmi les orbites hautes elliptiques (ou HEO de l'anglais High Earth Orbit) on trouve des orbites répondant à des objectifs très précis comme l'orbite de Molnia permettant une meilleure visibilité depuis les latitudes hautes que l'orbite géostationnaire ou l'orbite toundra qui en est une variante. L'orbite de transfert (ou GTO de l'anglais Geostationnary Transfer Orbit) est une orbite transitoire dont l'apogée se situe à 36 000 km et qui est utilisée par les satellites qui doivent se placer sur une orbite géostationnaire.
 L'orbite autour d'un point de Lagrange (zone de l'espace ou l'influence gravitationnelle de 2 corps célestes s'équilibre) est une orbite de halo (ou orbite de Lissajous par allusion à sa forme qui ressemble à une courbe de Lissajous) et est notée L1LO (L1 Lissajous Orbit) ou L2LO, L1 et L2 étant les deux points de Lagrange du système Terre-Soleil utilisés notamment par des satellites d'observation astronomique ou d'étude du Soleil.
@@ -128,13 +101,9 @@ Un engin spatial peut être placé sur une orbite d'attente (généralement une 
 Une orbite de dérive est une orbite transitoire parcourue par les satellites pour atteindre de manière passive leur position finale en orbite géostationnaire.
 Enfin en fin de vie, le satellite est placée sur une orbite cimetière (ou orbite de rebut) pour éviter de se retrouver sur la trajectoire des satellites actifs.
 Le substantif féminin « orbite » est un emprunt au latin orbita, désignant la trace d'une roue,.
-Initialement, le terme orbite est un terme utilisé en mathématiques pour désigner l'ensemble des points parcourus par une trajectoire, c'est-à-dire par une courbe paramétrée. La différence entre "orbite" et "trajectoire" consiste dans le fait que la trajectoire exprime l'évolution du point tandis que l'orbite est un concept "statique". Ainsi pour une trajectoire 
-↦
-l'orbite est l'ensemble 
-{
-|
-∈
-}
+Initialement, le terme orbite est un terme utilisé en mathématiques pour désigner l'ensemble des points parcourus par une trajectoire, c'est-à-dire par une courbe paramétrée. La différence entre "orbite" et "trajectoire" consiste dans le fait que la trajectoire exprime l'évolution du point tandis que l'orbite est un concept "statique".
+Ainsi pour une trajectoire 
+, l'orbite est l'ensemble 
 Une orbite peut donc avoir n'importe quelle forme selon la dynamique du système étudié, mais avec le temps l'usage du terme s'est vu réservé aux orbites fermées en astronomie et astronautique.
 « Platon […] pose alors ce problème aux mathématiciens : quels sont les mouvements circulaires et uniformes et parfaitement réguliers qu'il convient de prendre pour hypothèses, afin que l'on puisse sauver les apparences que les astres errants présentent ? »
 — Simplicius, Commentaires sur le traité Du ciel d'Aristote, II, 12, 488 et 493.

@@ -34,7 +34,8 @@ Cette définition simple suffit à certaines applications concrètes.
 Elle permet par exemple au jardinier de tracer ses lignes de semis : en tendant une corde entre deux piquets, il matérialise une ligne « tirée au cordeau ». Une autre image habituelle est celle du fil à plomb. C'est-à-dire, dans les deux cas, un fil tendu dont on néglige l'épaisseur.
 Différentes limitations de cette définition ont conduit les mathématiciens à lui en préférer d'autres.
 Par exemple, si on assimile la Terre à une sphère, le chemin le plus court entre deux points n'est plus une ligne droite, mais un arc de cercle.
-Cependant, à l'échelle d'un être humain, ce cercle est si grand qu'une ligne droite en est une bonne approximation. La notion de « chemin le plus court » est étudiée sous le nom de géodésique.
+Cependant, à l'échelle d'un être humain, ce cercle est si grand qu'une ligne droite en est une bonne approximation.
+La notion de « chemin le plus court » est étudiée sous le nom de géodésique.
 Dans ses Éléments, Euclide définit les objets relevant de la géométrie dite euclidienne (point, droite, plan, angle) et leur affecte un certain nombre de postulats. À l'aide de ces éléments de base, il construit, par des démonstrations rigoureuses, l'ensemble des autres propriétés.
 Pour Euclide :
 Il part d'une droite finie qu'il définit comme un segment.
@@ -93,36 +94,15 @@ Dans ce contexte, on parle en général de géodésique pour éviter une confusi
 Si l'espace vectoriel est muni d'une base, ou l'espace affine d'un repère, la droite peut être caractérisée par des équations.
 Une droite affine est l'ensemble des points 
 de coordonnées 
-;
 tels que 
-+
-+
-=
-où 
-;
-≠
-;
-Un vecteur directeur de la droite est le vecteur de coordonnées 
-−
-;
-L'équation précédente est appelée équation cartésienne de la droite.
+, où 
+. Un vecteur directeur de la droite est le vecteur de coordonnées 
+. L'équation précédente est appelée équation cartésienne de la droite.
 Dans cette famille de droites, on rencontre
 La lettre m représente la pente de la droite.
 En dimension n, la droite passant par 
-;
-;
-…
-;
 et de vecteur 
-;
-;
-…
-;
 est l'ensemble des points 
-;
-;
-…
-;
 pour lesquels il existe un scalaire k tel que
 Ce système d'équations s'appelle un système d'équations paramétrées de la droite.
 Cas particulier de l'espace (dimension 3), en :

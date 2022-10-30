@@ -29,7 +29,7 @@ Languages
 Velocity and speed
 Acceleration
 Frames of reference
-Classical mechanics[note 1] is a physical theory describing the motion of macroscopic objects, from projectiles to parts of machinery, and astronomical objects, such as spacecraft, planets, stars, and galaxies.
+Classical mechanics is a physical theory describing the motion of macroscopic objects, from projectiles to parts of machinery, and astronomical objects, such as spacecraft, planets, stars, and galaxies.
 For objects governed by classical mechanics, if the present state is known, it is possible to predict how it will move in the future (determinism), and how it has moved in the past (reversibility).
 The earliest development of classical mechanics is often referred to as Newtonian mechanics.
 It consists of the physical concepts based on foundational works of Sir Isaac Newton, and the mathematical methods invented by Gottfried Wilhelm Leibniz, Joseph-Louis Lagrange, Leonhard Euler, and other contemporaries, in the 17th century to describe the motion of bodies under the influence of a system of forces.
@@ -42,43 +42,61 @@ To describe velocities that are not small compared to the speed of light, specia
 In cases where objects become extremely massive, general relativity becomes applicable.
 However, a number of modern sources do include relativistic mechanics in classical physics, which in their view represents classical mechanics in its most developed and accurate form.
 The following introduces the basic concepts of classical mechanics.
-For simplicity, it often models real-world objects as point particles (objects with negligible size). The motion of a point particle is characterized by a small number of parameters: its position, mass, and the forces applied to it.
+For simplicity, it often models real-world objects as point particles (objects with negligible size).
+The motion of a point particle is characterized by a small number of parameters: its position, mass, and the forces applied to it.
 Each of these parameters is discussed in turn.
-In reality, the kind of objects that classical mechanics can describe always have a non-zero size. (The physics of very small particles, such as the electron, is more accurately described by quantum mechanics.) Objects with non-zero size have more complicated behavior than hypothetical point particles, because of the additional degrees of freedom, e.g., a baseball can spin while it is moving.
+In reality, the kind of objects that classical mechanics can describe always have a non-zero size.
+(The physics of very small particles, such as the electron, is more accurately described by quantum mechanics.)
+Objects with non-zero size have more complicated behavior than hypothetical point particles, because of the additional degrees of freedom, e.g., a baseball can spin while it is moving.
 However, the results for point particles can be used to study such objects by treating them as composite objects, made of a large number of collectively acting point particles.
 The center of mass of a composite object behaves like a point particle.
 Classical mechanics uses common sense notions of how matter and forces exist and interact.
 It assumes that matter and energy have definite, knowable attributes such as location in space and speed.
 Non-relativistic mechanics also assumes that forces act instantaneously (see also Action at a distance).
-The position of a point particle is defined in relation to a coordinate system centered on an arbitrary fixed reference point in space called the origin O. A simple coordinate system might describe the position of a particle P with a vector notated by an arrow labeled r that points from the origin O to point P. In general, the point particle does not need to be stationary relative to O.  In cases where P is moving relative to O, r is defined as a function of t, time.
-In pre-Einstein relativity (known as Galilean relativity), time is considered an absolute, i.e., the time interval that is observed to elapse between any given pair of events is the same for all observers. In addition to relying on absolute time, classical mechanics assumes Euclidean geometry for the structure of space.
+The position of a point particle is defined in relation to a coordinate system centered on an arbitrary fixed reference point in space called the origin O.
+A simple coordinate system might describe the position of a particle P with a vector notated by an arrow labeled r that points from the origin O to point P.
+In general, the point particle does not need to be stationary relative to O.
+In cases where P is moving relative to O, r is defined as a function of t, time.
+In pre-Einstein relativity (known as Galilean relativity), time is considered an absolute, i.e., the time interval that is observed to elapse between any given pair of events is the same for all observers.
+In addition to relying on absolute time, classical mechanics assumes Euclidean geometry for the structure of space.
 The velocity, or the rate of change of displacement with time, is defined as the derivative of the position with respect to time:
 In classical mechanics, velocities are directly additive and subtractive.
-For example, if one car travels east at 60 km/h and passes another car traveling in the same direction at 50 km/h, the slower car perceives the faster car as traveling east at 60 − 50 = 10 km/h. However, from the perspective of the faster car, the slower car is moving 10 km/h to the west, often denoted as −10 km/h where the sign implies opposite direction.
+For example, if one car travels east at 60 km/h and passes another car traveling in the same direction at 50 km/h, the slower car perceives the faster car as traveling east at 60 − 50 = 10 km/h.
+However, from the perspective of the faster car, the slower car is moving 10 km/h to the west, often denoted as −10 km/h where the sign implies opposite direction.
 Velocities are directly additive as vector quantities; they must be dealt with using vector analysis.
 Mathematically, if the velocity of the first object in the previous discussion is denoted by the vector u = ud and the velocity of the second object by the vector v = ve, where u is the speed of the first object, v is the speed of the second object, and d and e are unit vectors in the directions of motion of each object respectively, then the velocity of the first object as seen by the second object is:
 Similarly, the first object sees the velocity of the second object as:
 When both objects are moving in the same direction, this equation can be simplified to:
 Or, by ignoring direction, the difference can be given in terms of speed only:
 The acceleration, or rate of change of velocity, is the derivative of the velocity with respect to time (the second derivative of the position with respect to time):
-Acceleration represents the velocity's change over time.  Velocity can change in either magnitude or direction, or both.
+Acceleration represents the velocity's change over time.
+Velocity can change in either magnitude or direction, or both.
 Occasionally, a decrease in the magnitude of velocity "v" is referred to as deceleration, but generally any change in the velocity over time, including deceleration, is simply referred to as acceleration.
 While the position, velocity and acceleration of a particle can be described with respect to any observer in any state of motion, classical mechanics assumes the existence of a special family of reference frames in which the mechanical laws of nature take a comparatively simple form.
-These special reference frames are called inertial frames.  An inertial frame is an idealized frame of reference within which an object has no external force acting upon it.  Because there is no external force acting upon it, the object has a constant velocity; that is, it is either at rest or moving uniformly in a straight line.
+These special reference frames are called inertial frames.
+An inertial frame is an idealized frame of reference within which an object has no external force acting upon it.
+Because there is no external force acting upon it, the object has a constant velocity; that is, it is either at rest or moving uniformly in a straight line.
 A key concept of inertial frames is the method for identifying them.
 For practical purposes, reference frames that do not accelerate with respect to distant stars (an extremely distant point) are regarded as good approximations to inertial frames.
 Non-inertial reference frames accelerate in relation to an existing inertial frame.
-They form the basis for Einstein's relativity.  Due to the relative motion, particles in the non-inertial frame appear to move in ways not explained by forces from existing fields in the reference frame.
+They form the basis for Einstein's relativity.
+Due to the relative motion, particles in the non-inertial frame appear to move in ways not explained by forces from existing fields in the reference frame.
 Hence, it appears that there are other forces that enter the equations of motion solely as a result of the relative acceleration.
 These forces are referred to as fictitious forces, inertia forces, or pseudo-forces.
-Consider two reference frames S and S'. For observers in each of the reference frames an event has space-time coordinates of (x,y,z,t) in frame S and (x',y',z',t') in frame S'. Assuming time is measured the same in all reference frames, and if we require x = x' when t = 0, then the relation between the space-time coordinates of the same event observed from the reference frames S' and S, which are moving at a relative velocity of u in the x direction is:
-This set of formulas defines a group transformation known as the Galilean transformation (informally, the Galilean transform). This group is a limiting case of the Poincaré group used in special relativity.
+Consider two reference frames S and S'.
+For observers in each of the reference frames an event has space-time coordinates of (x,y,z,t) in frame S and (x',y',z',t') in frame S'.
+Assuming time is measured the same in all reference frames, and if we require x = x' when t = 0, then the relation between the space-time coordinates of the same event observed from the reference frames S' and S, which are moving at a relative velocity of u in the x direction is:
+This set of formulas defines a group transformation known as the Galilean transformation (informally, the Galilean transform).
+This group is a limiting case of the Poincaré group used in special relativity.
 The limiting case applies when the velocity u is very small compared to c, the speed of light.
 The transformations have the following consequences:
-For some problems, it is convenient to use rotating coordinates (reference frames). Thereby one can either keep a mapping to a convenient inertial frame, or introduce additionally a fictitious centrifugal force and Coriolis force.
-A force in physics is any action that causes an object's velocity to change; that is, to accelerate.  A force originates from within a field, such as an electro-static field (caused by static electrical charges), electro-magnetic field (caused by moving charges), or gravitational field (caused by mass), among others.
+For some problems, it is convenient to use rotating coordinates (reference frames).
+Thereby one can either keep a mapping to a convenient inertial frame, or introduce additionally a fictitious centrifugal force and Coriolis force.
+A force in physics is any action that causes an object's velocity to change; that is, to accelerate.
+A force originates from within a field, such as an electro-static field (caused by static electrical charges), electro-magnetic field (caused by moving charges), or gravitational field (caused by mass), among others.
 Newton was the first to mathematically express the relationship between force and momentum.
-Some physicists interpret Newton's second law of motion as a definition of force and mass, while others consider it a fundamental postulate, a law of nature. Either interpretation has the same mathematical consequences, historically known as "Newton's Second Law":
+Some physicists interpret Newton's second law of motion as a definition of force and mass, while others consider it a fundamental postulate, a law of nature.
+Either interpretation has the same mathematical consequences, historically known as "Newton's Second Law":
 The quantity mv is called the (canonical) momentum.
 The net force on a particle is thus equal to the rate of change of the momentum of the particle with time.
 Since the definition of acceleration is a = dv/dt, the second law can be written in the simplified and more familiar form:
@@ -93,9 +111,10 @@ This means that the velocity of this particle decays exponentially to zero as ti
 In this case, an equivalent viewpoint is that the kinetic energy of the particle is absorbed by friction (which converts it to heat energy in accordance with the conservation of energy), and the particle is slowing down.
 This expression can be further integrated to obtain the position r of the particle as a function of time.
 Important forces include the gravitational force and the Lorentz force for electromagnetism.
-In addition, Newton's third law can sometimes be used to deduce the forces acting on a particle: if it is known that particle A exerts a force F on another particle B, it follows that B must exert an equal and opposite reaction force, −F, on A. The strong form of Newton's third law requires that F and −F act along the line connecting A and B, while the weak form does not.
-Illustrations of the weak form of Newton's third law are often found for magnetic forces.[clarification needed]
-If a constant force F is applied to a particle that makes a displacement Δr,[note 2] the work done by the force is defined as the scalar product of the force and displacement vectors:
+In addition, Newton's third law can sometimes be used to deduce the forces acting on a particle: if it is known that particle A exerts a force F on another particle B, it follows that B must exert an equal and opposite reaction force, −F, on A.
+The strong form of Newton's third law requires that F and −F act along the line connecting A and B, while the weak form does not.
+Illustrations of the weak form of Newton's third law are often found for magnetic forces.
+If a constant force F is applied to a particle that makes a displacement Δr, the work done by the force is defined as the scalar product of the force and displacement vectors:
 More generally, if the force varies as a function of position as the particle moves from r1 to r2 along a path C, the work done on the particle is given by the line integral
 If the work done in moving the particle from r1 to r2 is the same no matter what path is taken, the force is said to be conservative.
 Gravity is a conservative force, as is the force due to an idealized spring, as given by Hooke's law.
@@ -137,7 +156,8 @@ If v is very small compared to c, v2/c2 is approximately zero, and so
 Thus the Newtonian equation p = mv is an approximation of the relativistic equation for bodies moving with low speeds compared to the speed of light.
 For example, the relativistic cyclotron frequency of a cyclotron, gyrotron, or high voltage magnetron is given by
 where fc is the classical frequency of an electron (or other charged particle) with kinetic energy T and (rest) mass m0 circling in a magnetic field.
-The (rest) mass of an electron is 511 keV. So the frequency correction is 1% for a magnetic vacuum tube with a 5.11 kV direct current accelerating voltage.
+The (rest) mass of an electron is 511 keV.
+So the frequency correction is 1% for a magnetic vacuum tube with a 5.11 kV direct current accelerating voltage.
 The ray approximation of classical mechanics breaks down when the de Broglie wavelength is not much smaller than other dimensions of the system.
 For non-relativistic particles, this wavelength is
 where h is Planck's constant and p is the momentum.
@@ -153,12 +173,14 @@ Some Greek philosophers of antiquity, among them Aristotle, founder of Aristotel
 While to a modern reader, many of these preserved ideas come forth as eminently reasonable, there is a conspicuous lack of both mathematical theory and controlled experiment, as we know it.
 These later became decisive factors in forming modern science, and their early application came to be known as classical mechanics.
 In his Elementa super demonstrationem ponderum, medieval mathematician Jordanus de Nemore introduced the concept of "positional gravity" and the use of component forces.
-The first published causal explanation of the motions of planets was Johannes Kepler's Astronomia nova, published in 1609. He concluded, based on Tycho Brahe's observations on the orbit of Mars, that the planet's orbits were ellipses.
+The first published causal explanation of the motions of planets was Johannes Kepler's Astronomia nova, published in 1609.
+He concluded, based on Tycho Brahe's observations on the orbit of Mars, that the planet's orbits were ellipses.
 This break with ancient thought was happening around the same time that Galileo was proposing abstract mathematical laws for the motion of objects.
 He may (or may not) have performed the famous experiment of dropping two cannonballs of different weights from the tower of Pisa, showing that they both hit the ground at the same time.
 The reality of that particular experiment is disputed, but he did carry out quantitative experiments by rolling balls on an inclined plane.
 His theory of accelerated motion was derived from the results of such experiments and forms a cornerstone of classical mechanics.
-In 1673 Christiaan Huygens described in his Horologium Oscillatorium the first two laws of motion. The work is also the first modern treatise in which a physical problem (the accelerated motion of a falling body) is idealized by a set of parameters then analyzed mathematically and constitutes one of the seminal works of applied mathematics.
+In 1673 Christiaan Huygens described in his Horologium Oscillatorium the first two laws of motion.
+The work is also the first modern treatise in which a physical problem (the accelerated motion of a falling body) is idealized by a set of parameters then analyzed mathematically and constitutes one of the seminal works of applied mathematics.
 Newton founded his principles of natural philosophy on three proposed laws of motion: the law of inertia, his second law of acceleration (mentioned above), and the law of action and reaction; and hence laid the foundations for classical mechanics.
 Both Newton's second and third laws were given the proper scientific and mathematical treatment in Newton's Philosophiæ Naturalis Principia Mathematica.
 Here they are distinguished from earlier attempts at explaining similar phenomena, which were either incomplete, incorrect, or given little accurate mathematical expression.
@@ -186,7 +208,8 @@ As experiments reached the atomic level, classical mechanics failed to explain, 
 The effort at resolving these problems led to the development of quantum mechanics.
 Since the end of the 20th century, classical mechanics in physics has no longer been an independent theory.
 Instead, classical mechanics is now considered an approximate theory to the more general quantum mechanics.
-Emphasis has shifted to understanding the fundamental forces of nature as in the Standard model and its more modern extensions into a unified theory of everything. Classical mechanics is a theory useful for the study of the motion of non-quantum mechanical, low-energy particles in weak gravitational fields.
+Emphasis has shifted to understanding the fundamental forces of nature as in the Standard model and its more modern extensions into a unified theory of everything.
+Classical mechanics is a theory useful for the study of the motion of non-quantum mechanical, low-energy particles in weak gravitational fields.
 Also, it has been extended into the complex domain where complex classical mechanics exhibits behaviors very similar to quantum mechanics.
 Classical mechanics was traditionally divided into three main branches:
 Another division is based on the choice of mathematical formalism:

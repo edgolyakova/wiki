@@ -65,35 +65,30 @@ La première trace incontestable de la présentation des nombres premiers remont
 Il est possible que les connaissances présentées soient antérieures.
 L'esprit ludique et l'émulation ont amené des mathématiciens à définir des seuils de gigantisme pour les nombres premiers[réf. nécessaire], exprimés en nombre de chiffres en base dix.
 Parmi ces records, battus ou à battre, on notera en particulier :
-En 2021, plus de mille méga-nombres premiers étaient connus. Le premier à être découvert fut, en 1999, le nombre de Mersenne 26 972 593 − 1 avec ses 2 098 960 chiffres,, grâce aux efforts du projet collaboratif de calcul distribué Great Internet Mersenne Prime Search (GIMPS).
+En 2021, plus de mille méga-nombres premiers étaient connus.
+Le premier à être découvert fut, en 1999, le nombre de Mersenne 26 972 593 − 1 avec ses 2 098 960 chiffres,, grâce aux efforts du projet collaboratif de calcul distribué Great Internet Mersenne Prime Search (GIMPS).
 L'Electronic Frontier Foundation offre des prix de calcul coopératif pour encourager les internautes à contribuer à la résolution de problèmes scientifiques par le calcul distribué. Le GIMPS a ainsi reçu 100 000 dollars pour sa découverte en 2008 du premier nombre premier d'au moins dix millions de chiffres décimaux. L'EFF offre encore 150 000 et 250 000 dollars respectivement pour la découverte du premier nombre premier de cent millions et un milliard de chiffres décimaux.
 Le record du plus grand nombre premier connu a presque toujours été trouvé parmi les nombres de Mersenne, comme le dernier en date, M82589933 = 282 589 933 – 1, un nombre découvert le 7 décembre 2018, ayant 24 862 048 chiffres décimaux.
 Découvrir un nombre premier plus grand que tous ceux déjà connus n'implique pas de connaître tous les nombres premiers intermédiaires.
 Plus généralement, la recherche de tous les nombres premiers inférieurs à un nombre donné (premier ou non) constitue un défi mathématique spécifique.
 Notes :
 (*)   π(s) est la quantité totale de nombres premiers situés sous le seuil s (c'est-à-dire dans l'intervalle d'entiers 
-[
-[
-]
-]
-.
 La connaissance de π(s) par un calcul algorithmique n'implique pas nécessairement que chacun des nombres premiers soit immédiatement identifiable.
 La décomposition en facteurs permet au contraire d'identifier les nombres premiers individuellement, mais elle est impraticable pour des nombres supérieurs à 1040 ; au-delà de cette valeur, on dispose de tests de primalité rapides.
 La notion de nombre premier est liée à l'étude de la structure multiplicative de l'anneau des entiers relatifs.
 Le théorème fondamental de l'arithmétique, basé sur le lemme d'Euclide, élucide cette structure en assurant que tout entier strictement positif se factorise en un produit de nombres premiers, de manière unique à l'ordre des facteurs près. Ce théorème permet de déterminer des notions de pgcd, ppcm, et de nombres premiers entre eux, qui sont utiles pour la résolution de certaines équations diophantiennes, notamment la caractérisation des triplets pythagoriciens.
 D'autres problèmes naturels sont envisagés, comme la détermination de la proportion d'entiers premiers à un entier fixé. L'introduction de structures algébriques plus avancées permet de résoudre ce problème rapidement dans le cadre de l'arithmétique modulaire.
 De nombreux théorèmes classiques de nature arithmétique peuvent être énoncés, comme le petit théorème de Fermat, ou le théorème de Wilson ; ou des théorèmes de nature plus algébrique comme le théorème des restes chinois.
-Le théorème des restes chinois est un premier résultat dans l'étude des groupes abéliens finis. Il met en évidence que la structure de ces groupes est en partie liée à la décomposition en produit de facteurs premiers de leurs cardinaux.
+Le théorème des restes chinois est un premier résultat dans l'étude des groupes abéliens finis.
+Il met en évidence que la structure de ces groupes est en partie liée à la décomposition en produit de facteurs premiers de leurs cardinaux.
 Les choses sont plus compliquées pour les groupes non abéliens, cependant, l'étude se base à nouveau sur la décomposition en facteurs premiers de leurs cardinaux, à travers la théorie de Sylow.
 Les nombres premiers interviennent aussi dans les structures topologiques.
 Le corps des nombres rationnels admet une structure topologique habituelle, qui donne par complétion le corps des nombres réels.
 Pour chaque nombre premier p, une autre structure topologique peut être construite, à partir de la norme suivante : si 
-=
 est un nombre rationnel non nul sous forme irréductible et que 
 et 
 sont les plus grandes puissances de p divisant a et b, la norme p-adique de x est 
-−
-En complétant le corps des rationnels suivant cette norme, on obtient le corps des nombres p-adiques, introduit par Kurt Hensel au début du XXe siècle.
+. En complétant le corps des rationnels suivant cette norme, on obtient le corps des nombres p-adiques, introduit par Kurt Hensel au début du XXe siècle.
 Le théorème d'Ostrowski assure que ces normes p-adiques et la norme habituelle sont les seules sur le corps des nombres rationnels, à équivalence près.
 Il existe des types remarquables de nombres premiers, définis par des contraintes particulières.
 Les quelques cas ci-dessous sont parmi les plus connus.
@@ -101,18 +96,16 @@ On appelle parfois nombre premier « de Pythagore » tout nombre premier de la
 Par exemple, le nombre premier 5 est de Pythagore.
 Un nombre premier impair est de Pythagore si et seulement s'il est somme de deux carrés.
 Les nombres premiers de la forme :
-=
-−
 où p est alors nécessairement aussi premier, sont appelés nombres premiers de Mersenne.
 Les grands nombres premiers sont souvent recherchés sous cette forme car il existe un test efficace, le test de primalité de Lucas-Lehmer, pour déterminer si un tel nombre est premier ou non.
 Entre 2008 et 2012, le plus grand nombre premier connu était M43 112 609 = 243 112 609 – 1, qui comporte 12 978 189 chiffres en écriture décimale.
-Il s'agit (chronologiquement) du 45e nombre premier de Mersenne connu et sa découverte a été annoncée le 23 août 2008 par le GIMPS. Un 46e nombre premier de Mersenne, 237 156 667 – 1, inférieur au précédent, a été découvert deux semaines plus tard ; le 12 avril 2009 était découvert, par le même projet GIMPS, un 47e nombre premier de Mersenne, 242 643 801 – 1, lui aussi inférieur au premier cité.
+Il s'agit (chronologiquement) du 45e nombre premier de Mersenne connu et sa découverte a été annoncée le 23 août 2008 par le GIMPS.
+Un 46e nombre premier de Mersenne, 237 156 667 – 1, inférieur au précédent, a été découvert deux semaines plus tard ; le 12 avril 2009 était découvert, par le même projet GIMPS, un 47e nombre premier de Mersenne, 242 643 801 – 1, lui aussi inférieur au premier cité.
 Ce record a été battu (toujours par le GIMPS) par la preuve de la primalité de M57 885 161 = 257 885 161 – 1 (en janvier 2013) puis à nouveau, le 7 janvier 2016, par celle de M74 207 281, le 3 janvier 2018, par celle de M77 232 917, et enfin, le 7 décembre 2018, par celle de M82 589 933.
 Les nombres de la forme :
-=
-+
 sont appelés les nombres de Fermat.
-Fermat avait conjecturé que tous ces nombres étaient premiers. Cependant, les seuls nombres de Fermat premiers connus sont
+Fermat avait conjecturé que tous ces nombres étaient premiers.
+Cependant, les seuls nombres de Fermat premiers connus sont
 Le nombre de Fermat F5 est seulement semi-premier.
 Il est divisible par 641.
 Il s'agit du premier contre-exemple à cette conjecture de Fermat, découvert par Euler en 1732. Tous les autres nombres de Fermat calculés depuis sont composés, au point que l'objectif s'est transformé en la recherche effrénée d'un autre nombre de Fermat premier.
@@ -128,15 +121,9 @@ Seuls deux nombres premiers brésiliens sont connus pour être brésiliens dans 
 On conjecture qu'il existe une infinité de nombres premiers brésiliens, mais, alors que la série des inverses des nombres premiers est divergente, la série des inverses des nombres premiers brésiliens est convergente vers un nombre, appelé « constante des nombres premiers brésiliens », légèrement supérieure à 0,33 et qui est étudiée dans la séquence  A306759.
 Tout nombre premier de Mersenne supérieur ou égal à 7 est brésilien par définition.
 Par exemple, 
-=
-−
-=
 31
-=
 11111
 Par contre, tout nombre de Fermat 
-=
-+
 premier est non brésilien.
 Les plus petits nombres des couples de nombres premiers jumeaux qui sont brésiliens sont plutôt rares (ils figurent dans la suite  A306849), et plus généralement, les nombres premiers brésiliens sont relativement rares ; ainsi, sur les premiers 1012 entiers naturels, il existe 37 607 912 018 nombres premiers dont seulement 88 285 sont des premiers brésiliens.
 Les premiers algorithmes pour décider si un nombre est premier (appelés tests de primalité) consistent à essayer de le diviser par tous les nombres qui n'excèdent pas sa racine carrée : s'il est divisible par l'un d'entre eux, il est composé, et sinon, il est premier.
@@ -154,7 +141,8 @@ L'algorithme AKS mis au point en 2002 permet de déterminer (avec certitude) si 
 De nombreuses formules ont été cherchées pour générer les nombres premiers.
 Le plus haut niveau d'exigence serait de trouver une formule qui à un entier n associe le n-ième nombre premier.
 De manière un peu plus souple, on peut se contenter d'exiger une fonction f qui à tout entier n associe un nombre premier et telle que chaque valeur prise ne le soit qu'une fois.
-Enfin, on souhaite que la fonction soit calculable en pratique (ce qui n'est pas le cas de la formule de Mills). Par exemple, le théorème de Wilson assure que p est un nombre premier si et seulement si (p -1)! ≡ -1 mod p.
+Enfin, on souhaite que la fonction soit calculable en pratique (ce qui n'est pas le cas de la formule de Mills).
+Par exemple, le théorème de Wilson assure que p est un nombre premier si et seulement si (p -1)! ≡ -1 mod p.
 Il s'ensuit que la fonction f(n) = 2 + [((n - 1)!) mod n] vaut
 n si n est un nombre premier et vaut 2 sinon.
 Cependant, le calcul de la factorielle (même modulo 
@@ -165,8 +153,6 @@ Ceci a conduit au résultat (négatif) suivant : un polynôme (à une ou plusie
 La recherche de polynômes vérifiant une propriété plus faible s'est développée à partir de la notion d'ensemble diophantien de nombres entiers ; de tels ensembles peuvent être caractérisés comme les ensembles de valeurs strictement positives prises par un polynôme (à plusieurs variables) dont les coefficients et les variables sont des nombres entiers.
 Un travail mené dans les années 1960 et 1970, notamment par Putnam, Davis, Robinson et Matiiassevich permet de montrer que l'ensemble des nombres premiers est diophantien, conduisant à l'existence de polynômes à coefficients et variables entières dont toutes les valeurs positives sont les nombres premiers. L'écriture de divers polynômes explicites a ensuite été possible, avec différents nombres de variables, et divers degrés. Notamment, Jones, Sato, Wada et Wiens ont déterminé en 1976 un tel polynôme, de degré 25 à 26 variables.
 De même que pour les formules à factorielles, ce polynôme est inutilisable en fait, car il ne donne pratiquement que des valeurs négatives quand on fait varier les 26 variables de 0 à 
-+
-∞
 La notion d'ensemble diophantien s'est plus généralement développée à partir de l’étude et de la résolution du dixième problème de Hilbert sur les équations diophantiennes, Matiiassevitch ayant montré que tous les ensembles récursivement énumérables sont diophantiens.
 Euclide a démontré dans ses Éléments (proposition 20 du Livre IX) que les nombres premiers sont en plus grande quantité que toute quantité proposée de nombres premiers.
 Autrement dit, il existe une infinité de nombres premiers.
@@ -177,12 +163,8 @@ Dans la formule précédente, le terme de gauche est la somme de la série harmo
 Par conséquent, le produit de droite doit contenir une infinité de facteurs.
 Furstenberg fournit une preuve utilisant une argumentation topologique.
 Le premier résultat sur le comportement des nombres premiers à l’infini est dû à Euler :
-Théorème de raréfaction d’Euler (1737) — La série des inverses des nombres premiers est divergente : 
-∑
+Théorème de raréfaction d’Euler  — La série des inverses des nombres premiers est divergente : 
 premier
-=
-+
-∞
 Comme la série des inverses de tous les entiers est également divergente, cela indique intuitivement que, si les nombres premiers se raréfient à l’infini, ils ne se raréfient pas très vite.
 Par ailleurs, le résultat sur l'infinité des nombres premiers amène à se demander combien il y a de nombres premiers jusqu’à un nombre donné et à étudier la fonction correspondante.
 Pour cela, on désigne, pour tout nombre premier 
@@ -190,17 +172,14 @@ son rang dans la suite croissante des nombres premiers, comme indiqué dans le t
 Pour 
 une variable réelle, 
 est définie comme le nombre de nombres premiers 
-≤
 Cette fonction réelle à valeurs entières est appelée fonction de compte des nombres premiers. C’est une fonction en escalier, constante entre deux nombres premiers successifs : 
 est égal à 
 étant le plus grand nombre premier 
-≤
 Restreinte au domaine de définition 
-la fonction 
+, la fonction 
 a une fonction réciproque, généralement notée 
-qui représente le n-ième nombre premier, par exemple 
+, qui représente le n-ième nombre premier, par exemple 
 16
-=
 53
 La fonction 
 est croissante et tend vers l’infini. C’est une conséquence triviale du théorème de l’infinité des nombres premiers (voir section précédente).
@@ -209,90 +188,62 @@ est obtenu par Legendre :
 Théorème de raréfaction de Legendre — Le rapport 
 tend vers zéro quand 
 tend vers l’infini.
-Vers la fin du XVIIIe siècle, Legendre (1797) et Gauss (1792) conjecturent que la fonction de compte des nombres premiers 
+Vers la fin du XVIIIe siècle, Legendre et Gauss conjecturent que la fonction de compte des nombres premiers 
 est équivalente à la fonction 
 ln
-⁡
 quand 
 tend vers l'infini.
 Dit autrement, la proportion de nombres premiers parmi les nombres inférieurs à 
 c’est-à-dire 
 tend vers 0 à la vitesse de 
 ln
-⁡
 On peut apprécier la pertinence de cette conjecture en examinant le tableau des valeurs de 
 et de 
 ln
-⁡
 pour les valeurs de 
 égales aux premières puissances entières de 10 :
 Il faudra tout le XIXe siècle pour que la conjecture soit démontrée (voir section suivante).
-Une première avancée vers la démonstration de la conjecture de Legendre-Gauss  est obtenue par Tchebychev à partir de 1848 :
+Une première avancée vers la démonstration de la conjecture de Legendre-Gauss est obtenue par Tchebychev à partir de 1848 :
 Théorème de Tchebychev — Il existe deux constantes C et D telles qu'on ait l'encadrement, pour x assez grand :
 la conjecture de Legendre-Gauss consistant à affirmer la validité de l’énoncé pour n’importe quel 
-<
 et n’importe quel 
->
 1.
 Il démontre également le théorème suivant sur la raréfaction des nombres premiers :
 Comme conséquence des inégalités ci-dessus, Tchebychev peut aussi démontrer le postulat de Bertrand selon lequel dans tout intervalle d'entiers naturels, entre un entier et son double existe au moins un nombre premier.
 Une nouvelle avancée est due à Riemann dans un article célèbre en 1859 : il étend le domaine de définition de la fonction 
 au plan complexe privé du nombre 
-=
 ; il formule sa célèbre hypothèse, selon laquelle les zéros de 
 situés dans la bande 
-<
 Re
-⁡
-<
 ont pour partie réelle 
-;
 son approche constitue une impulsion décisive au développement de la théorie analytique des nombres, source de nombreuses avancées en théorie des nombres.
 À la fin du siècle, la conjecture de Legendre et Gauss est démontrée indépendamment par Jacques Hadamard et Charles-Jean de La Vallée Poussin, et porte depuis lors le nom de théorème des nombres premiers.
 La démonstration s’appuie sur l’observation qu’il suffit de s’assurer que la fonction 
 ne s'annule pas dans le demi-plan de partie réelle 
-≥
 et de trouver un domaine qui englobe ce demi-plan dans lequel c’est le cas.
 Théorème des nombres premiers (Hadamard et de La Vallée Poussin, 1896) — Quand 
-∞
-∼
 ln
-⁡
 Les démonstrations utilisent des outils puissants d'analyse complexe pour démontrer un énoncé d'arithmétique et d'analyse réelle.
 Une stratégie pour ces démonstrations est l'étude de la fonction zêta de Riemann sur un domaine du plan complexe plus grand qu'un simple voisinage de z=1 : il est nécessaire de la contrôler, c'est-à-dire de majorer son module, au voisinage de la droite verticale des nombres de partie réelle égale à 1. La puissance des outils d'analyse complexe utilisés pour résoudre le théorème des nombres premiers conduit à un développement important d'une branche entière des mathématiques, la théorie analytique des nombres, dans laquelle l'étude de la fonction zêta de Riemann devient un thème central.
 En particulier l'hypothèse de Riemann, encore non démontrée, sur la localisation de ses zéros, aurait des conséquences fortes sur le comportement de la fonction de compte des nombres premiers.
 Sur la base des résultats de Riemann (article de 1859), on peut déduire l'estimation :
 Théorème (Helge von Koch, 1901) — Sous l’hypothèse de Riemann, on a : 
-=
 li
-⁡
-+
-/
 ln
-⁡
 où 
-=
-∫
 ln
-⁡
 (Riemann note cette fonction 
 et où 
-=
 signifie qu’il existe une constante 
->
 telle que 
-|
-|
-≤
 pour tout 
 assez grand.
 Les résultats sur la fonction de compte des nombres premiers permettent d'obtenir des résultats sur le n-ième nombre premier.
 Par exemple, comme conséquences directes des théorèmes de Tchebychev, Ishikawa établit en 1934 des propriétés de la fonction n-ième nombre premier, désignée par 
-:
 Ou encore, d'après un résultat de Felgner de 1990 :
 Des démonstrations élémentaires du théorème des nombres premiers sont trouvées.
 Par élémentaires, il faut entendre qu’elles ne recourent pas à l'analyse complexe. C’est le cas notamment d’Erdős et de Selberg.
-En 1838, en reprenant l’étude d’Euler, au moyen d'un outil appelé caractère de Dirichlet, et en utilisant à la place de la fonction zêta de Riemann des fonctions analogues appelées fonction L de Dirichlet, Dirichlet est capable d'adapter la démonstration au cas des nombres premiers dans des progressions arithmétiques : si a et b sont premiers entre eux, alors il existe une infinité de nombres premiers de la forme aq+b. Utilisant les techniques de Hadamard, La Vallée Poussin  démontre ensuite  une version quantitative du théorème;  les nombres premiers sont équirépartis entre les différentes progressions arithmétiques de raison a (c'est-à-dire avec a fixé, et b variant parmi les divers restes inversibles dans la division euclidienne par a), : le nombre de nombres premiers inférieurs ou égaux à x, dans la suite aq +b, est donc équivalent à x/(ln(x)φ(a)), où φ est l'indicatrice d'Euler.
+En 1838, en reprenant l’étude d’Euler, au moyen d'un outil appelé caractère de Dirichlet, et en utilisant à la place de la fonction zêta de Riemann des fonctions analogues appelées fonction L de Dirichlet, Dirichlet est capable d'adapter la démonstration au cas des nombres premiers dans des progressions arithmétiques : si a et b sont premiers entre eux, alors il existe une infinité de nombres premiers de la forme aq+b. Utilisant les techniques de Hadamard, La Vallée Poussin démontre ensuite une version quantitative du théorème; les nombres premiers sont équirépartis entre les différentes progressions arithmétiques de raison a (c'est-à-dire avec a fixé, et b variant parmi les divers restes inversibles dans la division euclidienne par a), : le nombre de nombres premiers inférieurs ou égaux à x, dans la suite aq +b, est donc équivalent à x/(ln(x)φ(a)), où φ est l'indicatrice d'Euler.
 Bien que cela montre qu'il y a, par exemple, « autant » de nombres premiers de la forme 3n +1 que de la forme 3n+2, les seconds semblent expérimentalement moins nombreux ; c'est le biais de Tchevychev, dont une démonstration rigoureuse dans tous les cas n'est pas encore connu en 2020.
 Le théorème de Green-Tao, démontré en 2004 par Ben Joseph Green et Terence Tao, généralise notamment le théorème de Dirichlet en assurant que pour tout entier k, il existe une infinité de suites de k nombres premiers en progression arithmétique, c'est-à-dire de la forme :
 Le théorème de Green-Tao est en fait bien plus fort que cet énoncé seul : par exemple, il établit qu'une telle progression arithmétique existe, avec des entiers tous plus petits que :
@@ -300,7 +251,8 @@ Le théorème de Green-Tao est en fait bien plus fort que cet énoncé seul : p
 strictement positif, pour tout x suffisamment grand, si P est un ensemble de nombres premiers inférieurs à x contenant au moins 
 éléments, alors P contient au moins une progression arithmétique de nombres premiers comptant k termes.
 De nombreux résultats et conjectures sur la répartition des nombres premiers sont contenus dans la conjecture générale suivante.
-Soit f1,...,fk des polynômes non constants, irréductibles et vérifiant la propriété que pour tout nombre premier p il y ait au moins un entier n parmi 0, ..., p – 1 tel que p ne divise pas le produit des fi(n). On note 
+Soit f1,...,fk des polynômes non constants, irréductibles et vérifiant la propriété que pour tout nombre premier p il y ait au moins un entier n parmi 0, ..., p – 1 tel que p ne divise pas le produit des fi(n).
+On note 
 le complémentaire à p du nombre de tels entiers.
 Un tel ensemble de polynômes est dit admissible ; on cherche à connaître la proportion d'entiers en lesquels les polynômes prennent simultanément des valeurs premières, et se limiter à des ensembles de polynômes admissibles permet d'éviter des cas triviaux comme f1(t)=t, et f2(t)=t+1. Il est alors conjecturé que le nombre d'entiers n plus petits qu'un réel x tels que les valeurs f1(n),...,fk(n) sont simultanément premières, est, pour x assez grand, de l'ordre de :
 Le théorème des nombres premiers correspond au cas k = 1 et ft = t, le théorème de Dirichlet à k = 1 et ft = at + b, et pour k = 2, f1(t) = t et f2(t) = t + 2, on obtient une version quantitative (et donc plus générale) de la conjecture des nombres premiers jumeaux.
@@ -312,7 +264,8 @@ Cela changea rapidement dans les années 1970, quand de nouveaux systèmes de cr
 Jusque dans les années 1970, les systèmes de chiffrement connus étaient basés sur le principe de la cryptographie symétrique, où une même clé (secrète) est utilisée pour chiffrer et déchiffrer un message.
 En 1978, Ronald Rivest, Adi Shamir et Leonard Adleman décrivent le premier système public de cryptographie asymétrique (nommé d'après leurs initiales RSA), basé sur les propriétés des nombres premiers et de la factorisation.
 Dans un tel système, deux clés sont utilisées : l'une sert à chiffrer, l'autre à déchiffrer.
-La clé permettant de chiffrer est accompagnée d'un grand nombre entier, le produit de deux grands nombres premiers gardés secrets (de l'ordre de 200 chiffres). Pour calculer la clé de déchiffrement, la seule méthode connue nécessite de connaître les deux facteurs premiers.
+La clé permettant de chiffrer est accompagnée d'un grand nombre entier, le produit de deux grands nombres premiers gardés secrets (de l'ordre de 200 chiffres).
+Pour calculer la clé de déchiffrement, la seule méthode connue nécessite de connaître les deux facteurs premiers.
 La sécurité du système est basée sur le fait qu'il est facile de trouver deux grands nombres premiers (en utilisant des tests de primalité) et de les multiplier entre eux, mais qu'il serait difficile pour un attaquant de retrouver ces deux nombres.
 Ce système permet également de créer des signatures numériques, et a révolutionné le monde de la cryptographie.
 La notion de nombre premier s'est vue généralisée au cours du XIXe siècle dans d'autres structures algébriques que l'anneau des entiers relatifs.

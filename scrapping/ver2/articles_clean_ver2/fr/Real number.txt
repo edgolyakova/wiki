@@ -45,14 +45,14 @@ Ne doit pas être confondu avec Nombre pseudo-réel, Nombre surréel, Nombre sup
 Certaines informations figurant dans cet article ou cette section devraient être mieux reliées aux sources mentionnées dans les sections « Bibliographie », « Sources » ou « Liens externes » (juin 2009).
 Vous pouvez améliorer la vérifiabilité en associant ces informations à des références à l'aide d'appels de notes.
 En mathématiques, un nombre réel est un nombre qui peut être représenté par une partie entière et une liste finie ou infinie de décimales.
-Cette définition s'applique donc aux nombres rationnels, dont les décimales se répètent de façon périodique à partir d'un certain rang[note 1], mais aussi à d'autres nombres dits irrationnels, tels que la racine carrée de 2, π et e.
+Cette définition s'applique donc aux nombres rationnels, dont les décimales se répètent de façon périodique à partir d'un certain rang, mais aussi à d'autres nombres dits irrationnels, tels que la racine carrée de 2, π et e.
 La notion de nombre réel émerge progressivement de la manipulation des rapports de grandeurs géométriques autres que les rapports d'entiers naturels depuis leur prise en compte par Eudoxe de Cnide au IVe siècle av. J.-C. Elle s'insère aussi dans l'approximation des solutions de problèmes algébriques et donne même lieu, au milieu du XIXe siècle, à la mise en évidence de nombres transcendants.
 Mais la définition des nombres réels n'est formalisée que quelques décennies plus tard avec les constructions de Dedekind d'une part et de Cantor et Méray d'autre part.
 L'ensemble des nombres réels, noté ℝ, est alors un corps totalement ordonné, c'est-à-dire qu'il est muni des quatre opérations arithmétiques satisfaisant les mêmes règles que celles sur les fractions et ces opérations sont compatibles avec la relation d'ordre.
 Mais il satisfait en plus la propriété de la borne supérieure qui fonde l'analyse réelle.
 Enfin, cet ensemble est caractérisé par Hilbert comme plus grand corps archimédien.
 Dans la droite réelle achevée les valeurs infinies ne satisfont plus les règles opératoires de corps, l'extension au corps des nombres complexes rend impossible la relation d'ordre total compatible, tandis que l'analyse non standard adjoint des nombres infiniment petits qui invalident le caractère archimédien.
-L'adjectif « réel » est utilisé pour qualifier des nombres dès le XVIIe siècle[H 1], mais il n'est explicitement défini par opposition aux nombres imaginaires qu'à la fin du XIXe siècle Il a aussi été opposé à « nombre formel » dans certains traités de théologie ou de philosophie de la même époque[H 2].
+L'adjectif « réel » est utilisé pour qualifier des nombres dès le XVIIe siècle, mais il n'est explicitement défini par opposition aux nombres imaginaires qu'à la fin du XIXe siècle Il a aussi été opposé à « nombre formel » dans certains traités de théologie ou de philosophie de la même époque.
 Les nombres réels sont utilisés pour représenter n'importe quelle mesure physique telle que : le prix d'un produit, la durée entre deux événements, l'altitude (positive ou négative) d'un site géographique, la masse d'un atome ou la distance de la galaxie la plus proche.
 Ces mesures dépendent du choix d'une unité de mesure, et le résultat s'exprime comme le produit d'un nombre réel par une unité. Les nombres réels sont utilisés tous les jours, par exemple en économie, en informatique, en mathématique, en physique ou en ingénierie.
 Le plus souvent, seuls certains sous-ensembles de réels sont utilisés :
@@ -76,14 +76,16 @@ En effet les nombres réels sont intéressants pour la structure et les proprié
 Ces propriétés sont mal reflétées par la définition « développement décimal infini » et des problèmes théoriques apparaissent :
 Cependant, une fois établie la structure de l'ensemble des nombres réels, la notation par développement décimal permet des calculs effectifs, en gardant à l'esprit que ce n'est pas tant les décimales exactes d'un nombre qui comptent, que la position du nombre vis-à-vis des autres réels.
 Depuis l'Antiquité la représentation d'une grandeur mesurable — par exemple une longueur ou une durée — a répondu à un besoin.
-La première réponse fut la construction des fractions (quotient de deux entiers positifs). Cette solution, mise en place très tôt chez les Sumériens et les Égyptiens, est finalement performante.
+La première réponse fut la construction des fractions (quotient de deux entiers positifs).
+Cette solution, mise en place très tôt chez les Sumériens et les Égyptiens, est finalement performante.
 Elle permet d'approcher une longueur quelconque avec toute la précision souhaitée.
 La première formalisation construite en système que l'on connaisse est le fruit du travail d'Euclide au IIIe siècle av. J.-C. Sa construction, inscrite dans ses Éléments, apporte deux grandes idées d'un apport majeur dans l'histoire des mathématiques.
 Supposons une longueur donnée choisie comme unité. Un raisonnement géométrique, certainement déjà connu des babyloniens, montre que si A est un carré de côté l'unité et B un carré de côté égal à la diagonale d de A, alors l'aire de B est double de celle de A, autrement dit : d2 = 2.
 Probablement au Ve siècle av. J.-C., des mathématiciens grecs démontrent que les longueurs de la diagonale du carré et de son côté sont incommensurables : il n'existe pas de segment, aussi petit soit-il, qui permette de « mesurer » exactement ces deux grandeurs.
 Nous disons aujourd'hui que ce rapport de longueur, qui est la racine carrée de 2, est irrationnel, c'est-à-dire qu'il n'est pas égal à une fraction : si c'était une fraction m/n, en divisant la diagonale du carré en m parties égales et son côté en n parties égales on obtiendrait bien des segments tous de même longueurs.
 Ceci met en évidence que les fractions ne peuvent suffire pour représenter les grandeurs mesurables.
-Il existe une démonstration arithmétique simple de ce résultat, qui repose sur un argument de parité. Au IVe siècle av. J.-C., Aristote y fait allusion dans un de ses écrits. On la trouve plus détaillée dans le livre X des Éléments d'Euclide.
+Il existe une démonstration arithmétique simple de ce résultat, qui repose sur un argument de parité. Au IVe siècle av. J.-C., Aristote y fait allusion dans un de ses écrits.
+On la trouve plus détaillée dans le livre X des Éléments d'Euclide.
 Si les fractions permettent effectivement d'exprimer toute longueur avec la précision souhaitée, il faut néanmoins comprendre que les opérations et particulièrement la division deviennent complexes si le système de numération n'est pas adapté. Le problème est décrit par l'article fraction égyptienne qui propose quelques exemples concrets.
 Il faut attendre le Ve siècle pour voir l'école indienne découvrir le concept du zéro et développer un système de numération décimal et positionnel.
 Un deuxième problème apparaît alors.
@@ -116,8 +118,6 @@ Newton a poussé tellement loin les conséquences de ces évidences, que seules 
 Les preuves se fondaient toujours in fine sur une intuition.
 Explicitons alors pourquoi la démonstration du théorème des bornes impose une compréhension profonde de la nature topologique des nombres réels.
 Pour cela considérons la fonction f sur les rationnels de l'intervalle 
-[
-]
 dans ℚ, où ℚ désigne l'ensemble des nombres rationnels, définie par :
 Si l'existence des nombres négatifs apparaît très tôt dans l'histoire (mathématiques indiennes), il faut attendre 1770 pour qu'ils obtiennent grâce à Euler un vrai statut de nombre et perdent leur caractère d'artifice de calcul.
 Mais il faut attendre encore un siècle pour voir l'ensemble des réels associé à l'ensemble des points d'une droite orientée, appelée droite réelle.
@@ -130,17 +130,17 @@ Dans son cours d'analyse à l'École polytechnique, Augustin Louis Cauchy propos
 Une séquence de nombres réels indexée par les entiers naturels (appelée suite) converge vers une limite (nécessairement unique) x lorsque la distance |x-xn| devient aussi petite que souhaitée pour n suffisamment grand.
 Il énonce un critère qui porte aujourd'hui son nom, le critère de Cauchy : il faut et il suffit que les distances |xn-xm| soient aussi petites que souhaitées pour n et m suffisamment grands.
 Par l'énoncé de ce critère, Cauchy affirme la complétude du corps des nombres réels, propriété sur laquelle peut être fondée sa définition.
-Cette approche est formalisée par Méray[H 3] en 1869 puis par Cantor en 1872. Cette idée, particulièrement adaptée à l'analyse, trouve des prolongements dans les méthodes de complétion.
-Une seconde construction est publiée par Richard Dedekind[H 4] en 1872. Elle découle de l'étude de la relation d'ordre sur les fractions.
+Cette approche est formalisée par Méray en 1869 puis par Cantor en 1872. Cette idée, particulièrement adaptée à l'analyse, trouve des prolongements dans les méthodes de complétion.
+Une seconde construction est publiée par Richard Dedekind en 1872. Elle découle de l'étude de la relation d'ordre sur les fractions.
 Une coupure de Dedekind est un ensemble A de rationnels, tel que tout rationnel de A est inférieur à tout rationnel du complémentaire de A. Un réel est alors représenté par une coupure de Dedekind.
 Par exemple, la racine carrée de 2 est représentée par l'ensemble des rationnels négatifs et des rationnels positifs de carrés inférieurs à 2. Il existe des variantes de la définition de coupure selon les auteurs.
 Une troisième construction s'appuie sur la méthode des segments emboîtés. Un emboîtement est une suite décroissante d'intervalles fermés de nombres rationnels dont la longueur tend vers 0. Un nombre réel est alors défini comme une classe d'emboîtements modulo une relation d'équivalence.
 Selon Mainzer (de), « la vérification des propriétés de corps ordonné est relativement pénible », ce qui explique pourquoi cette approche apparaît moins avantageuse que les deux précédentes.
 Il existe aussi une autre méthode à partir des développements décimaux, cependant l'addition puis la multiplication ne sont pas des opérations simples à définir.
-En 1899, David Hilbert[H 5] donne la première définition axiomatique du corps des nombres réels.
+En 1899, David Hilbert donne la première définition axiomatique du corps des nombres réels.
 Les méthodes précédentes construisent toutes le « même » ensemble, celui des nombres réels.
 Le XIXe siècle montre que cette nouvelle structure, l'ensemble des nombres réels, ses opérations et sa relation d'ordre, non seulement remplit ses promesses mais va au-delà.
-La notion invoquée par cet article  est trop technique ou pas assez détaillée.Il serait bien de la préciser au moyen d’un lien wiki ou d’une note.
+La notion invoquée par cet article est trop technique ou pas assez détaillée.Il serait bien de la préciser au moyen d’un lien wiki ou d’une note.
 Pour plus de renseignements, consultez Aide:Wikification et Aide:Note.
 L'évolution des concepts de nombre réel et de continuité est tout aussi philosophique que mathématique.
 Que les nombres réels forment une entité continue veut dire qu'il n'y a pas de « saut » ou de « bande interdite ». Intuitivement, c'est tout comme la perception humaine de l'espace ou de l'écoulement du temps.
@@ -148,7 +148,8 @@ Certains philosophes conçoivent qu'il en est d'ailleurs exactement de même pou
 Ce concept est résumé par la devise du mathématicien et philosophe Leibniz : natura non facit saltus, « la nature ne fait pas de sauts ».
 L'histoire de la continuité débute en Grèce antique.
 Au Ve siècle av. J.-C., les atomistes ne croient pas seulement que la nature est faite de « sauts », mais aussi qu'il existe des particules de base non divisibles, les atomes.
-Les synéchistes quant à eux clament que tout est connecté, continu. Démocrite est un tenant d'une nature faite d'atomes intercalés de vide, tandis que Eudoxe le contredit, faisant de ses travaux certains des plus anciens précurseurs de l'analyse.
+Les synéchistes quant à eux clament que tout est connecté, continu.
+Démocrite est un tenant d'une nature faite d'atomes intercalés de vide, tandis que Eudoxe le contredit, faisant de ses travaux certains des plus anciens précurseurs de l'analyse.
 Ceux-ci évoluent plus tard en ce que l'on connaît sous le nom de géométrie euclidienne.
 Encore au XVIIe siècle, des mathématiciens énonçaient qu'une fonction continue est en fait constituée de lignes droites infiniment petites, c'est-à-dire infinitésimales. C'est ainsi que le concept d'infiniment petit, vu dans l'optique atomiste, peut promouvoir cette façon de concevoir la nature.
 La question d'infini est donc centrale à la compréhension de la continuité et des nombres réels.
@@ -180,7 +181,8 @@ Elle traite des propriétés essentielles et élémentaires pour un travail anal
 La propriété suivante peut se déduire du fait que ℝ est archimédien.
 Les autres propriétés sont des conséquences de la propriété de la borne supérieure.
 Il existe un ensemble de fonctions particulièrement intéressantes, les polynômes.
-Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits. L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b). Cette propriété dépend du corps sur lequel on construit ces polynômes.
+Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits. L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b).
+Cette propriété dépend du corps sur lequel on construit ces polynômes.
 Par exemple sur le corps des rationnels, quel que soit n entier supérieur ou égal à 2, il existe des polynômes de degré n irréductibles, c'est-à-dire que l'on ne peut pas les exprimer sous forme de produit de polynômes de degrés plus petits.
 Pour les nombres réels, on démontre que le plus grand degré d'un polynôme irréductible est égal à deux.
 En d'autres termes, si le polynôme ne se décompose pas, c'est qu'il est de la forme ax2 + bx + c. Les corps qui n'ont comme polynômes irréductibles que les polynômes de degré 1 sont dits algébriquement clos.
@@ -204,35 +206,26 @@ dans [0, 1] qui n'est pas dans l'ensemble image de la suite.
 Pour cela, définissons par récurrence deux suites 
 telles que :
 Initialisons nos deux suites en posant :
-Il est évident que la propriété (1) est vraie si n est égal à 0.
+Il est évident que la propriété est vraie si n est égal à 0.
 Définissons alors nos suites pour le rang n + 1.
 L'intervalle 
-[
-+
-+
-]
 étant inclus dans l'intervalle 
-[
-]
-il ne peut contenir d'élément de la suite 
+, il ne peut contenir d'élément de la suite 
 d'ordre strictement inférieur à n, par hypothèse de récurrence.
 Par construction, il ne peut pas non plus contenir 
-et la propriété (1) est vérifiée.
+et la propriété est vérifiée.
 Les deux suites 
 étant adjacentes 
-−
-=
-/
 , leur limite commune 
 appartient, pour tout n, à l'intervalle 
-[
-]
-donc est différente des n premières valeurs de la suite 
-Comme n est quelconque, la proposition est démontrée.
+, donc est différente des n premières valeurs de la suite 
+. Comme n est quelconque, la proposition est démontrée.
 Le cardinal de l'ensemble des nombres réels est appelé la puissance du continu et parfois noté c. Il est aussi noté 2ℵ₀ car ℝ est en fait équipotent à l'ensemble des parties de ℕ — ce qui, par un autre théorème de Cantor, fournit une preuve plus précise de sa non-dénombrabilité :
 Cantor s'est posé la question de l'existence d'un cardinal strictement compris entre ℵ₀ et c. Son hypothèse, appelée hypothèse du continu, est qu'un tel cardinal n'existe pas.
 La question des cardinaux a été englobée par Cantor dans une théorie plus vaste, la théorie des ensembles, qui sert maintenant de fondement à la majeure partie des mathématiques.
 Il a fallu attendre la deuxième moitié du XXe siècle pour trouver la réponse à la question de l'hypothèse du continu : elle est indécidable dans la théorie des ensembles usuelle (ZFC). Cela signifie qu'il est impossible de démontrer aussi bien l'existence que la non-existence d'un tel cardinal si l'on ne modifie pas la base axiomatique utilisée.
-L'ensemble des réels muni de l'addition usuelle et de la multiplication par des rationnels est un espace vectoriel sur ℚ (ensemble des rationnels). En 1905, lors de la recherche de solutions non continues à l'équation fonctionnelle de Cauchy, Georg Hamel exhibe une base de ℝ considéré comme espace vectoriel sur 
-L'existence d'une telle base est assurée si l'on suppose l'axiome du choix. Une base de Hamel de ℝ est non dénombrable.
+L'ensemble des réels muni de l'addition usuelle et de la multiplication par des rationnels est un espace vectoriel sur ℚ (ensemble des rationnels).
+En 1905, lors de la recherche de solutions non continues à l'équation fonctionnelle de Cauchy, Georg Hamel exhibe une base de ℝ considéré comme espace vectoriel sur 
+. L'existence d'une telle base est assurée si l'on suppose l'axiome du choix.
+Une base de Hamel de ℝ est non dénombrable.
 Sur les autres projets Wikimedia :

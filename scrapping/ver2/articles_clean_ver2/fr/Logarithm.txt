@@ -23,7 +23,8 @@ déplacer vers la barre latérale
 masquer
 Pour l’article ayant un titre homophone, voir Loga-Rythme.
 En mathématiques, le logarithme de base b d'un nombre réel strictement positif est la puissance à laquelle il faut élever la base b pour obtenir ce nombre.
-Dans le cas le plus simple, le logarithme compte le nombre d'occurrences du même facteur dans une multiplication répétée : par exemple, comme 1000 = 10×10×10 = 103, le logarithme en base 10 de 1000 est 3. Le logarithme de x en base b est noté logb(x). Ainsi log10(1000) = 3.
+Dans le cas le plus simple, le logarithme compte le nombre d'occurrences du même facteur dans une multiplication répétée : par exemple, comme 1000 = 10×10×10 = 103, le logarithme en base 10 de 1000 est 3. Le logarithme de x en base b est noté logb(x).
+Ainsi log10 = 3.
 John Napier a développé les logarithmes au début du XVIIe siècle.
 Pendant trois siècles, la table de logarithmes et la règle à calcul ont servi pour le calcul numérique, jusqu'à leur remplacement, à la fin du XXe siècle, par des calculatrices.
 Trois logarithmes sont remarquables :
@@ -32,44 +33,35 @@ Les logarithmes sont fréquents dans les formules utilisées en sciences, mesure
 Ils décrivent les intervalles musicaux ou certains modèles de psychophysique.
 Tout logarithme transforme
 Vers la fin du XVIe siècle, le développement de l'astronomie et de la navigation d'une part et les calculs bancaires d'intérêts composés d'autre part, poussent les mathématiciens à chercher des méthodes de simplification de calculs et en particulier le remplacement des multiplications par des sommes.
-Utilisant les tables trigonométriques, les mathématiciens Paul Wittich et Christophe Clavius (dans son traité de Astrolabio) établissent des  correspondances entre produit ou quotient d'une part et somme, différence et division par deux d'autre part, pour des nombres de 0 à 1 à l'aide de relations trigonométriques, méthode dite de prostaphérèse.
+Utilisant les tables trigonométriques, les mathématiciens Paul Wittich et Christophe Clavius (dans son traité de Astrolabio) établissent des correspondances entre produit ou quotient d'une part et somme, différence et division par deux d'autre part, pour des nombres de 0 à 1 à l'aide de relations trigonométriques, méthode dite de prostaphérèse.
 Quelques années plus tard Simon Stévin, intendant général de l'armée hollandaise, met au point des tables de calculs d'intérêts composés. Jost Bürgi poursuit ce travail et publie en 1620, dans son Aritmetische und geometrische Progress-tabulen, une table de correspondance entre n et 1,0001n. À une somme dans la première colonne correspond ainsi un produit dans la seconde colonne.
 En 1614, John Napier (ou Neper) publie son traité Mirifici Logarithmorum Canonis Descriptio.
 Il ne songe pas qu’il est en train de créer de nouvelles fonctions, mais seulement des tables de correspondance (logos = rapport, relation, arithmeticos = nombre) entre deux séries de valeurs telles qu'à un produit dans une colonne correspond une somme dans une autre.
-La notation Log comme abréviation de logarithme apparaît en 1616 dans une traduction anglaise de l'œuvre de Neper. En 1619, paraît son œuvre posthume Mirifici Logarithmorum Canonis Constructio, où il explique comment construire une table de logarithmes.
-Le mathématicien anglais Henry Briggs poursuit ce travail et publie en 1624 ses tables de logarithmes décimaux (Arithmetica logarithmica) à 14 chiffres des nombres compris entre 1 et 20 000 et entre 90 000 et 100 000. Il indique les méthodes d’emploi des tables pour calculer des sinus ou les angles à partir de leur tangente… La même année, Johannes Kepler publie Chilias logarithmorum construites en utilisant un procédé géométrique. Ezechiel de Decker et Adriaan Vlacq complètent la table de Briggs en 1627
+La notation Log comme abréviation de logarithme apparaît en 1616 dans une traduction anglaise de l'œuvre de Neper.
+En 1619, paraît son œuvre posthume Mirifici Logarithmorum Canonis Constructio, où il explique comment construire une table de logarithmes.
+Le mathématicien anglais Henry Briggs poursuit ce travail et publie en 1624 ses tables de logarithmes décimaux (Arithmetica logarithmica) à 14 chiffres des nombres compris entre 1 et 20 000 et entre 90 000 et 100 000. Il indique les méthodes d’emploi des tables pour calculer des sinus ou les angles à partir de leur tangente… La même année, Johannes Kepler publie Chilias logarithmorum construites en utilisant un procédé géométrique.
+Ezechiel de Decker et Adriaan Vlacq complètent la table de Briggs en 1627
 En 1647, Grégoire de Saint-Vincent, travaillant sur la quadrature de l’hyperbole, définit la fonction primitive de la fonction 
-↦
 s’annulant en 1. Huygens remarquera en 1661 que cette fonction se trouve être une fonction logarithme particulière : le logarithme naturel.
 La correspondance entre les fonctions exponentielle et logarithme n’apparaît qu'après le travail de Leibniz sur la notion de fonction, en 1697.
 Dans cette section, nous donnons des propriétés d'une fonction logarithme, quelle que soit sa base b.
 Les fonctions logarithme sont par définition les morphismes continus non constamment nuls de 
-+
-∗
-×
 vers 
-+
 Pour tout réel b strictement positif et différent de 1, le logarithme de base b : logb est la fonction continue définie sur 
-+
-∗
 vérifiant l'équation fonctionnelle :
 et
 Cette définition permet de déduire rapidement les propriétés suivantes
 Comme tout réel strictement positif x est la limite d'une suite dont le terme général est de la forme brn, où (rn) est une suite de rationnels convergeant vers un réel 
-on détermine logb(x) comme étant la limite de rn.
+, on détermine logb(x) comme étant la limite de rn.
 Deux fonctions logarithmes ne diffèrent que d’une constante multiplicative : pour tous réels strictement positifs a et b différents de 1 et pour tout réel x > 0,
 Toutes les fonctions logarithmes peuvent donc s’exprimer à l’aide d’une seule, par exemple la fonction logarithme népérien : pour tout réel strictement positif b différent de 1 et pour tout réel x > 0,
 La fonction logb est dérivable sur 
-+
-∗
 de dérivée :
 Donc la fonction logb est strictement monotone, croissante quand b est supérieur à 1, décroissante dans le cas contraire.
 La fonction 
 log
-+
-∗
 est la bijection réciproque de la fonction exponentielle de base b, parfois appelée antilogarithme de base b :
-Autrement dit, les deux façons possibles de combiner (ou  composer) les logarithmes et l’élévation à des puissances redonnent le nombre original :
+Autrement dit, les deux façons possibles de combiner (ou composer) les logarithmes et l’élévation à des puissances redonnent le nombre original :
 Les fonctions réciproques sont étroitement liées aux fonctions originales.
 Leurs graphes, qui se correspondent lorsqu’on échange les coordonnées x et y (ou par réflexion par rapport à la diagonale x = y), sont montrés à droite dans le cas où b est un réel strictement supérieur à 1 : un point (u, t = bu) sur le graphe (rouge) de la fonction antilogarithme x ↦ bx fournit un point (t, u = logb(t)) sur le graphe (bleu) du logarithme et vice versa.
 Comme b > 1, la fonction logb est croissante et quand x tend vers +∞, logb(x) tend vers +∞, tandis que lorsque x approche zéro, logb(x) tend vers –∞. Dans le cas où le réel b est strictement compris entre 0 et 1, la fonction logb est décroissante et ces limites sont interverties.
@@ -77,40 +69,27 @@ En matière de calcul, l'antilog ramène des logarithmes aux valeurs.
 Soit à évaluer une formule F combinant multiplications, divisions et exponentiations, et soit f la formule définissant le logarithme de F en combinant sommes, différences et produits des (logarithmes) des données.
 La valeur de F peut s'obtenir comme l'antilog de la valeur de f, ce qui conclut le calcul.
 On peut ainsi remplacer l'évaluation 
-=
-×
-×
-/
 par
 Le logarithme népérien, ou logarithme naturel, est la fonction logarithme dont la dérivée est la fonction inverse définie de 
-+
-∗
 dans 
-: 
-↦
 Une valeur approchée est :
 C’est le logarithme le plus pratique dans les calculs numériques manuels, il est noté log ou log10. La norme ISO 80000-2 indique que log10 devrait être noté lg, mais cette notation est rarement utilisée.
 On le retrouve dans la création des échelles logarithmiques, les repères semi-logarithmiques ou log-log, dans la règle à calcul, dans le calcul du pH, dans l’unité du décibel.
 Il précise à quelle puissance il faut élever 10 pour retrouver le nombre de départ : l'image d'un nombre par log est l'entier relatif auquel il faut élever 10 pour obtenir l'antécédent.
 Par exemple :
-La valeur du logarithme d’autres nombres que des puissances de 10 demande un calcul approché. Le calcul de log(2) par exemple peut se faire à la main, en remarquant que 210 ≈ 1000 donc 10 log10(2) ≈ 3 donc log10(2) ≈ 0,3.
+La valeur du logarithme d’autres nombres que des puissances de 10 demande un calcul approché. Le calcul de log par exemple peut se faire à la main, en remarquant que 210 ≈ 1000 donc 10 log10 ≈ 3 donc log10 ≈ 0,3.
 Pour tout réel strictement positif b différent de 1 et pour tout réel x > 0,
 La norme ISO 80 000 recommande de noter lb le logarithme en base 2.
 Le logarithme binaire, d'usage spécialisé dans le calcul des intervalles musicaux à partir d'un rapport de fréquences, pour obtenir des octaves, des demi-tons ou des cents, a trouvé beaucoup plus d'application en informatique.
 Les ordinateurs travaillant en système binaire, le calcul d'un logarithme en base 2 se fait par l'algorithme le plus précis et le plus efficace.
 Un nombre x codé en virgule flottante binaire se décompose en une mantisse m, comprise entre 1 (inclus) et 2 (exclu) et un exposant p, indiquant la puissance de 2 qui multiplie la mantisse pour obtenir le nombre. L'exposant est la partie entière du logarithme binaire, tandis que le logarithme binaire de la mantisse est compris entre 0 (inclus) et 1 (exclu).
-Ce qui ramène le calcul à celui du logarithme binaire d'un nombre entre 1 (inclus) et 2 (exclu). Si on multiplie ce nombre par lui-même, et que le résultat dépasse 2, c'est que le nombre est supérieur à √2: le chiffre suivant, après la virgule, est un 1, dans le cas contraire, c'est un 0. On continue par itération jusqu'à la précision souhaitée.
+Ce qui ramène le calcul à celui du logarithme binaire d'un nombre entre 1 (inclus) et 2 (exclu).
+Si on multiplie ce nombre par lui-même, et que le résultat dépasse 2, c'est que le nombre est supérieur à √2: le chiffre suivant, après la virgule, est un 1, dans le cas contraire, c'est un 0. On continue par itération jusqu'à la précision souhaitée.
 Les deux logarithmes précédents se déduisent de celui-ci par :
-Le cologarithme d'un nombre est l'opposé du logarithme de ce nombre et le logarithme de son inverse :  
+Le cologarithme d'un nombre est l'opposé du logarithme de ce nombre et le logarithme de son inverse : 
 colog
-⁡
-=
-−
 log
-⁡
-=
 log
-⁡
 Le logarithme complexe est la fonction réciproque de l'exponentielle complexe et généralise ainsi la notion de logarithme aux nombres complexes.
 Le logarithme discret généralise les logarithmes aux groupes cycliques et a des applications en cryptographie à clé publique.
 Sur les autres projets Wikimedia :

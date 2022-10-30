@@ -48,7 +48,8 @@ Certains attribuent à Fermat la paternité du calcul différentiel.
 Le calcul intégral étudie les méthodes permettant de trouver l'intégrale d'une fonction.
 Elle peut être définie comme la limite de la somme de termes qui correspondent chacun à la surface d'une fine bandelette sous-tendue par le graphe de la fonction.
 Ainsi définie, l'intégration donne un moyen effectif de calculer l'aire sous une courbe ainsi que la surface et le volume de solides comme la sphère ou le cône.
-Pour rendre concrètes ces notions, on considère dans le plan (xOy) un rectangle de côtés x et y dont deux points opposés sont O et M(x,y). Sa surface est égale à xy et dépend des coordonnées x et y du point M. En suivant une démarche intuitive, on convient de noter par dx une très petite variation de la variable x. Lorsqu'on fait subir au point M un déplacement très faible, la surface va changer et on peut écrire que S + dS = (x + dx)×(y + dy) = xy + x dy + y dx + dx dy,
+Pour rendre concrètes ces notions, on considère dans le plan (xOy) un rectangle de côtés x et y dont deux points opposés sont O et M(x,y).
+Sa surface est égale à xy et dépend des coordonnées x et y du point M. En suivant une démarche intuitive, on convient de noter par dx une très petite variation de la variable x. Lorsqu'on fait subir au point M un déplacement très faible, la surface va changer et on peut écrire que S + dS = (x + dx)×(y + dy) = xy + x dy + y dx + dx dy,
 et on en déduit facilement que dS = x dy + y dx + dx dy.
 Une simple application numérique où x et y seraient des mètres et dx et dy des centimètres illustre que dx dy est négligeable par rapport aux autres grandeurs.
 On peut donner un statut mathématique précis aux notations dx et dy (qui sont des formes différentielles), et à la quantité dx dy qui est alors du second ordre.

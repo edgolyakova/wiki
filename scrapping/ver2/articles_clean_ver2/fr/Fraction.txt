@@ -38,8 +38,6 @@ La fraction 56/8 est équivalente au nombre 7 car 7 × 8 = 56, donc le quotient 
 Un nombre que l'on peut représenter par des fractions de nombres entiers est appelé nombre rationnel. L'ensemble des rationnels est noté ℚ.
 Il existe une définition plus générale et plus abstraite des fractions.
 Si 
-+
-⋅
 est un anneau intègre, on peut créer le corps des fractions de A. Ses éléments se notent (par analogie aux fractions d'entiers relatifs) 
 et possèdent les mêmes propriétés opératoires (somme, produit, simplification…) que les fractions de ℚ.
 Une fraction est une division non effectuée entre deux nombres entiers relatifs n et d ≠ 0. Elle est représentée comme suit :
@@ -54,8 +52,7 @@ Cette définition présente plusieurs inconvénients.
 Chacun convient que 3⁄4 est une fraction, et que 6⁄8 est une autre fraction, qui désigne cependant le même nombre rationnel. L'égalité du rationnel que désigne la fraction ne saute pas toujours aux yeux, comme pour 57 ÷ 437 et 3 ÷ 23. La définition limite aussi au cas où numérateur et dénominateur sont des entiers.
 Mais on emploie couramment la même notation avec des nombres réels, comme π⁄2 ou √3⁄2 ; ces expressions obéissent aux mêmes règles de combinaison et de simplification que les fractions.
 En France, les autorités de l'enseignement définissent ainsi la fraction : « si a et b désignent deux entiers (a ∈ 
-b ∈ 
-⋆
+, b ∈ 
 , la fraction a/b est l'écriture d'un être mathématique appelé rationnel, mais n'est pas un être mathématique ; l'écriture a s'appelle « numérateur », l'écriture b « dénominateur » ; la barre, horizontale ou oblique, s'appelle un « trait de fraction » et équivaut à un signe de division ».
 Cette définition soulève aussi quelques difficultés pédagogiques.
 Si la fraction était une simple écriture, on ne pourrait en faire un des termes d'une opération sur des nombres.
@@ -76,7 +73,7 @@ Le but ici est de visualiser une fraction n/d.
 La fraction peut être représentée par un dessin.
 Bien souvent une forme géométrique que l'on divise en plusieurs parties.
 Le dénominateur d indique le nombre de parties égales à découper dans la forme géométrique et le numérateur n indique le nombre de parties égales utilisées.
-Par exemple, pour représenter la fraction  3⁄4, le dénominateur étant 4, on divise le rectangle en 4 parties égales, puis, le numérateur étant 3, on colore seulement trois des quatre parties.
+Par exemple, pour représenter la fraction 3⁄4, le dénominateur étant 4, on divise le rectangle en 4 parties égales, puis, le numérateur étant 3, on colore seulement trois des quatre parties.
 Cette fraction sera équivalente au quotient entier de n par d, (qui représentera le nombre d'unités) suivi d'une fraction constituée par le reste de la division pour numérateur et d pour dénominateur.
 Par exemple, pour la fraction 7/3, la division entière donne 2, il reste 1.
 Le quotient est 2 donc 2 unités, le reste 1 donc la fraction est équivalente à 2 1⁄3. Il est impossible de représenter ce genre de fraction par un unique rectangle, on présente donc deux rectangles pleins suivi d'un rectangle plein seulement au tiers :
@@ -94,14 +91,14 @@ Pour effectuer certaines opérations entre fractions, tous les dénominateurs de
 Pour ce faire, il faut remplacer chaque fraction par une fraction équivalente, en s'arrangeant pour que tous les dénominateurs soient identiques.
 On cherche, en général, à ce que ce dénominateur soit le plus petit possible, en prenant le plus petit nombre qui soit divisible par chaque dénominateur.
 Ce nombre s'appelle le PPCM (plus petit commun multiple) des dénominateurs. L'opération s'appelle réduire au même dénominateur.
-Exemple pour réduire au même dénominateur les fractions 3/4, 1/6, 5/9 et 14/15, on cherche le plus petit multiple commun de 4, 6, 9, 15  qui est 2 × 2 × 3 × 3 × 5, et on a :
+Exemple pour réduire au même dénominateur les fractions 3/4, 1/6, 5/9 et 14/15, on cherche le plus petit multiple commun de 4, 6, 9, 15 qui est 2 × 2 × 3 × 3 × 5, et on a :
 Remarque : on peut aussi utiliser l'écriture décimale.
-Comme 1/4 = 0,25 et 2/5 = 0,4 et que l'on sait que 0,25 < 0,4 on a  1/4 < 2/5.
+Comme 1/4 = 0,25 et 2/5 = 0,4 et que l'on sait que 0,25 < 0,4 on a 1/4 < 2/5.
 Un nombre décimal peut s'écrire comme une fraction qui a pour dénominateur une puissance de 10.
 12,345 est l'écriture abrégée de 
 12345
 1000
-La virgule marque l'extention de la numération positionnelle vers les puissances négatives de la base 10.
+. La virgule marque l'extention de la numération positionnelle vers les puissances négatives de la base 10.
 Toute fraction possède un développement décimal fini ou infini périodique qui s'obtient en posant la division de n par d.
 Inversement, tout nombre décimal ou possédant un développement décimal périodique peut s'écrire sous forme de fraction.
 Il suffit de prendre comme numérateur le nombre décimal privé de sa virgule et comme dénominateur 10n où n est le nombre de chiffres après la virgule :
@@ -128,24 +125,21 @@ Dans la valeur 0,36981981..., la période 981 est constituée de 3 chiffres donc
 Finalement on obtient 0,36981981... = 36945/99900 = 821/2220.
 Exemple 2 : 
 24545...
-=
 1245
-−
 12
 990
-=
 137
-/
 110
 Dans l'enseignement français depuis la fin du XIXe siècle, la fraction est définie comme le quotient de deux nombres entiers sans contrainte sur la taille du numérateur et du dénominateur, mais cela n'a pas toujours été le cas, ni au XVIe siècle, ni dans le monde anglo-saxon.
 Au XVIe siècle, la fraction était appelée nombre rompu et correspondait à une fraction de l'unité comme 1/2, 2/3, 3/4, 5/9 ....
-L'encyclopédie de Diderot et d'Alembert définissait  la fraction comme une division indiquée et distinguait
-Par exemple, 25/9 s'écrivait plutôt  sous forme mixte en 2 7⁄9. Une telle écriture a l'avantage de pouvoir résumer assez facilement le résultat d'une division euclidienne puisque dans la division de 25 par 9 le quotient est bien 2 et le reste 7.
+L'encyclopédie de Diderot et d'Alembert définissait la fraction comme une division indiquée et distinguait
+Par exemple, 25/9 s'écrivait plutôt sous forme mixte en 2 7⁄9. Une telle écriture a l'avantage de pouvoir résumer assez facilement le résultat d'une division euclidienne puisque dans la division de 25 par 9 le quotient est bien 2 et le reste 7.
 On trouve cette distinction également en Belgique à la fin du XIXe siècle avec les termes de
 Dans les pays anglo-saxons, cette distinction entre une fraction de l'unité et un quotient supérieur à 1 persiste avec les termes de
 Au Québec, on continue à utiliser la forme a b⁄c que l'on nomme nombre fractionnaire.
 Cette différence de vocabulaire est due, selon Poisard et Barton, à la place prépondérante, dans le système français, du système décimal à tel point que la maitrise des fractions succède à celle des nombres décimaux dans l'enseignement français alors que c'est l'inverse par exemple en Nouvelle-Zélande.
-Ainsi, alors que les Français utilisent volontiers les nombres à virgule, les Anglo-saxons préfèrent souvent exprimer les parties non entières par des fractions — sans doute en raison de la différence culturelle (songer par exemple à la popularité du système métrique et du système impérial dans les deux cultures). Par exemple, ils diront d'une feuille au format Executive mesure 10 ¹⁄₂ × 7¼ pouces, et non pas 10,5 × 7,25 pouces.
+Ainsi, alors que les Français utilisent volontiers les nombres à virgule, les Anglo-saxons préfèrent souvent exprimer les parties non entières par des fractions — sans doute en raison de la différence culturelle (songer par exemple à la popularité du système métrique et du système impérial dans les deux cultures).
+Par exemple, ils diront d'une feuille au format Executive mesure 10 ¹⁄₂ × 7¼ pouces, et non pas 10,5 × 7,25 pouces.
 Il suffit d'additionner ou de soustraire le numérateur de chaque fraction et de conserver le dénominateur commun.
 Exemple d'une somme :
 Exemple d'une différence :
@@ -156,18 +150,10 @@ Par exemple,
 Voici une explication basée sur une compréhension intuitive des fractions.
 On peut comprendre quatre cinquièmes comme quatre fois un cinquième (voir les représentations graphiques ci-dessus) soit 
 comme 
-×
-Ainsi multiplier 
+. Ainsi multiplier 
 par 
 revient à effectuer 
-×
-×
-=
-×
-×
 Mais multiplier par un cinquième revient à diviser par 5, c'est-à-dire à multiplier le dénominateur par 5 (les parts sont 5 fois plus petites), soit : 
-×
-×
 La division est l'opération inverse de la multiplication.
 De façon algorithmique, lorsqu'on divise par une fraction, on remplace la division par la multiplication tout en inversant la fraction qui suit.
 Par exemple :
