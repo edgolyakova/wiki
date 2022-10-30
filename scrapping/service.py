@@ -139,3 +139,8 @@ def get_files_in_folder(path_from_scrapping):
 def get_filename(filepath):
     return filepath.split('/')[-1]
 
+
+def get_num_sentences_in_file(filepath):
+    with open(filepath, 'r') as f:
+        lines = f.readlines()
+    return len(lines)
