@@ -69,7 +69,8 @@ Elle équivaut à un miroir primaire de 10 m de diamètre, sans en avoir le poi
 Des techniques dites d’optique active permettent de jouer sur les vérins pour optimiser le profil de la surface réfléchissante totale.
 De son côté, le Very Large Telescope (VLT) de l'European Southern Observatory (ESO), est composé de quatre télescopes, possédant chacun un miroir de 8,20 m. Il est situé au Chili, au sommet du Cerro Paranal, à 2 600 m d'altitude.
 Il a été équipé en 2002 du système d'optique adaptative NAOS lui permettant d'être deux fois plus précis que le télescope spatial Hubble.
-Il est aussi possible aujourd'hui d'utiliser dans le domaine optique les principes de l'interférométrie pour améliorer la résolution. C'est le principe utilisé par les deux Keck et plus encore par le VLT, dont les quatre miroirs, distants au maximum de 130 m, ont la même résolution théorique qu'un seul miroir de 130 m de diamètre.
+Il est aussi possible aujourd'hui d'utiliser dans le domaine optique les principes de l'interférométrie pour améliorer la résolution.
+C'est le principe utilisé par les deux Keck et plus encore par le VLT, dont les quatre miroirs, distants au maximum de 130 m, ont la même résolution théorique qu'un seul miroir de 130 m de diamètre.
 La sensibilité n'est cependant pas améliorée et la technique de l'interférométrie reste utilisée dans des cas très particuliers.
 Les instruments d'observation astronomique sont généralement constitués de deux systèmes optiques complémentaires : l'objectif et l'oculaire.
 Dans un télescope l'objectif est un miroir concave, le plus souvent parabolique. À la différence des glaces utilisées dans la vie courante, la face réfléchissante est située en avant, de sorte que la lumière ne traverse pas le verre qui sert uniquement de support à une pellicule métallique (le plus souvent en aluminium, mais d'autres métaux peuvent être utilisés, comme l'argent, plus facile à appliquer mais plus fragile, ou l'or, par exemple pour ses propriétés réflectives dans l'infrarouge) de quelques centièmes de micromètres.
@@ -87,7 +88,8 @@ La monture est la partie mobile qui supporte et permet d'orienter l'instrument.
 Il existe deux types de monture.
 Le fonctionnement de la monture équatoriale est calqué sur le système de coordonnées éponyme : la mise en rotation du télescope autour d'un axe fixe permet de sélectionner l'ascension droite à pointer, et un axe perpendiculaire en rotation autour de cet axe d'ascension droite permet de sélectionner la déclinaison.
 Cette monture est rendue pratique en raison de son aptitude naturelle à compenser la rotation de la sphère céleste : le seul pivotement à vitesse constante de l'instrument autour d'un axe parallèle à l'axe de rotation de la Terre (c'est-à-dire l'axe d'ascension droite) lui permet de suivre un astre durant tout son passage dans le ciel.
-De ce fait, les grands télescopes historiques des observatoires modernes (le télescope du mont Palomar constitue l'un des exemples les plus emblématiques) ont longtemps été montés sur une monture équatoriale. L'une des limites de ce type de monture réside dans sa difficulté de mise en œuvre pour les télescopes lourds ; quelques astuces techniques ont toutefois vu le jour pour pallier les difficultés liées à l'équilibrage du système, mais cela n'a pas suffi à stopper la généralisation des montures azimutales (voir section suivante).
+De ce fait, les grands télescopes historiques des observatoires modernes (le télescope du mont Palomar constitue l'un des exemples les plus emblématiques) ont longtemps été montés sur une monture équatoriale.
+L'une des limites de ce type de monture réside dans sa difficulté de mise en œuvre pour les télescopes lourds ; quelques astuces techniques ont toutefois vu le jour pour pallier les difficultés liées à l'équilibrage du système, mais cela n'a pas suffi à stopper la généralisation des montures azimutales (voir section suivante).
 Ce type de monture est toujours très prisé des astronomes amateurs, pour les raisons expliquées précédemment.
 Du fait de leur vocation universelle et parfois leur caractère nomade, les montures équatoriales sont dotées d'un dispositif de réglage en inclinaison de l'axe d'ascension droite pour s'adapter à la latitude du lieu.
 Les plus perfectionnées sont dotées d'un viseur polaire, sorte de petite lunette réticulée logée dans l'axe d'ascension droite, ainsi que de réglages fins en azimut et en hauteur, qui permettent d'effectuer une « mise en station » sur l'étoile polaire ou l'équivalent austral (souvent la constellation de l'Octant).
@@ -162,7 +164,9 @@ Par exemple, un télescope de 200 mm (P = 0,6"), pourra discerner sur la Lune (
 La clarté augmente avec le diamètre de l'objectif, elle est théoriquement proportionnelle à la surface de la section du télescope, diminuée de l'obstruction du miroir secondaire.
 On peut calculer un facteur approximatif en divisant le carré du diamètre de l'objectif à celui de la pupille (environ 6 mm dans le noir).
 Par exemple, si un télescope a un diamètre de 114 mm, il collectera 361 fois plus de lumière que l'œil (1142/62). Toutefois, la luminosité des images dépend aussi du grossissement, sauf pour les étoiles qui fournissent toujours une image ponctuelle.
-Les astres diffus, tels que les nébuleuses ou les galaxies, doivent donc être observés avec des oculaires adaptés au rapport f/D pour pouvoir appliquer de faibles grossissements. L'œil humain n'est plus guère utilisé comme « capteur » direct. L'ancienne plaque photographique est remplacée par des capteurs électroniques dont le rendement réel dépasse les 50% pour les modèles les plus performants.
+Les astres diffus, tels que les nébuleuses ou les galaxies, doivent donc être observés avec des oculaires adaptés au rapport f/D pour pouvoir appliquer de faibles grossissements.
+L'œil humain n'est plus guère utilisé comme « capteur » direct.
+L'ancienne plaque photographique est remplacée par des capteurs électroniques dont le rendement réel dépasse les 50% pour les modèles les plus performants.
 Pour définir la clarté, il faut distinguer le cas d’un instrument dont l’objectif donne directement une image réelle qui se forme sur un capteur (cas d’un instrument objectif) et le cas d’un instrument qui donne, par l’intermédiaire de son objectif puis d’un oculaire, une image virtuelle destinée à être vue par l’œil de l’observateur (cas d’un instrument subjectif).
 Pour un instrument fournissant une image réelle, la clarté C est définie par
 où
@@ -191,9 +195,12 @@ Un télescope utilise une formule optique qui, par la forme et la disposition de
 On distingue deux types de télescopes : le télescope réflecteur et le télescope catadioptrique.
 Le premier emploie exclusivement des miroirs pour collecter et focaliser la lumière sur l'oculaire (comme ceux de type Newton), alors que le second type se voit adjoindre une lentille mince, la lame correctrice, disposée à l'avant du tube pour accroître le champ visuel (utilisé notamment par la formule Schmidt-Cassegrain).
 Ce type de télescope a été mis au point par Isaac Newton.
-Il utilise un miroir primaire parabolique et un miroir secondaire plan. C'est le montage le plus ancien, il est utilisé actuellement dans beaucoup de constructions d'amateurs en raison de son coût modique. D'une manière plus générale, c'est le miroir secondaire plan, incliné à 45°, qui caractérise le montage Newton (qui peut être décliné sur d'autres types de télescope) ; il permet de renvoyer l'image focale à 90° de l'axe optique près de l'ouverture du tube, ce qui rend la position d'observation plus confortable.
+Il utilise un miroir primaire parabolique et un miroir secondaire plan.
+C'est le montage le plus ancien, il est utilisé actuellement dans beaucoup de constructions d'amateurs en raison de son coût modique.
+D'une manière plus générale, c'est le miroir secondaire plan, incliné à 45°, qui caractérise le montage Newton (qui peut être décliné sur d'autres types de télescope) ; il permet de renvoyer l'image focale à 90° de l'axe optique près de l'ouverture du tube, ce qui rend la position d'observation plus confortable.
 Les miroirs paraboliques génèrent une aberration optique, dite de coma ; elle déforme les étoiles en bord de champ, ce qui réduit le champ utile.
-Il a été proposé au XVIIe siècle par le prêtre et physicien français Laurent Cassegrain. C'est le prototype des systèmes à deux miroirs concave/convexe.
+Il a été proposé au XVIIe siècle par le prêtre et physicien français Laurent Cassegrain.
+C'est le prototype des systèmes à deux miroirs concave/convexe.
 Il est composé d'un miroir primaire concave parabolique et d'un miroir secondaire convexe hyperbolique.
 Dans le montage Cassegrain, contrairement au montage Newton, le miroir primaire est percé en son centre et l'observateur se place derrière celui-ci.
 Le Cassegrain présente à ouverture identique la même coma que le Newton, ce qui limitera en théorie le champ de netteté. Néanmoins ce type de télescope sera peu ouvert (F/15-F/30) et en pratique cela ne constituera pas une limitation.
@@ -222,7 +229,8 @@ La disponibilité commerciale des capteurs CCD élargit considérablement ses po
 Une variante très particulière est le télescope à miroir liquide : la rotation d'une cuve de mercure déforme, à cause de la force centrifuge, l'interface liquide-air en une paraboloïde idéale pour un coût relativement réduit.
 Il ne permet naturellement qu'une observation au zénith.
 Ce type de télescope a été imaginé dès 1850 par Ernesto Capocci, et mis en pratique par Henry Key en 1872. Un instrument de ce type avec un miroir de 6 m de diamètre a été mis en route en 2005.
-Les grands télescopes actuels bénéficient de systèmes d'optique adaptative (OA) pour corriger la turbulence de l'atmosphère. C'est cette turbulence qui, à l'œil nu, provoque le scintillement des étoiles ; or, les télescopes amplifient chaque clignotement.
+Les grands télescopes actuels bénéficient de systèmes d'optique adaptative (OA) pour corriger la turbulence de l'atmosphère.
+C'est cette turbulence qui, à l'œil nu, provoque le scintillement des étoiles ; or, les télescopes amplifient chaque clignotement.
 Un système d'OA standard braque un faisceau laser à 90 km dans la haute atmosphère sur la fine couche d'atomes de sodium - laissés par le passage des météorites -, ce qui les fait briller.
 En observant l'étoile artificielle ainsi créée, le système détermine l'instabilité de l'air et ajuste en conséquence les instruments optiques du télescope plus de mille fois par seconde.
 Distinction est faite en français entre le télescope (construit sur des principes de réflexion) et la lunette astronomique (construite sur des principes de réfraction), au contraire de l'anglais (où l'on parle respectivement de reflecting telescope et de refracting telescope).
@@ -230,7 +238,8 @@ Celle-ci n'est donc pas à proprement parler considérée comme un type de téle
 Télescope dont le fonctionnement se base sur la diffraction de la lumière autour d'une obstruction circulaire pour former une image plus loin sur l'axe optique.
 Les systèmes destinés à l'observation céleste dans des domaines de longueur d'onde autres que le spectre visible sont souvent appelés « télescopes » bien qu'ils ne reposent pas nécessairement sur un système optique similaire au principe du télescope.
 On parle ainsi, par exemple, de radiotélescopes pour les instruments observant le domaine des ondes radio et de télescopes Cherenkov pour ceux observant le domaine des rayons gamma de très hautes énergies.
-Pour certains d'entre eux, le signal observé est fortement voire complètement atténué sur Terre du fait de l'absorption dans ces longueurs d'onde par l'atmosphère terrestre. C'est par exemple le cas des télescopes à rayons X ou à infrarouge.
+Pour certains d'entre eux, le signal observé est fortement voire complètement atténué sur Terre du fait de l'absorption dans ces longueurs d'onde par l'atmosphère terrestre.
+C'est par exemple le cas des télescopes à rayons X ou à infrarouge.
 Ces instruments sont alors embarqués à bord de satellites.
 On parle également de télescope pour désigner des instruments destinés à l'observation de particules autres que les photons, par exemple les télescopes à neutrinos.
 Aide pour choisir un télescope

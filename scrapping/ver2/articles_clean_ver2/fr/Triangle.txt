@@ -55,7 +55,8 @@ Le développement de ces techniques constitue d'ailleurs une branche des mathém
 Hors de la géométrie euclidienne, les côtés d'un triangle sont remplacés par des arcs géodésiques et beaucoup de ses propriétés sont modifiées (voir Trigonométrie sphérique).
 La forme triangulaire se retrouve dans de nombreux objets, mathématiques ou non, et s'est chargée de symboliques diverses.
 De nombreux caractères typographiques présentent une telle forme.
-Un triangle est complètement déterminé par la donnée de ses trois sommets et il se note en général en juxtaposant les trois lettres (a priori capitales) qui les désignent. L'ordre de ces lettres importe peu même si l'ordre d'énonciation correspond en général à un parcours dans le sens trigonométrique autour du triangle.
+Un triangle est complètement déterminé par la donnée de ses trois sommets et il se note en général en juxtaposant les trois lettres (a priori capitales) qui les désignent.
+L'ordre de ces lettres importe peu même si l'ordre d'énonciation correspond en général à un parcours dans le sens trigonométrique autour du triangle.
 La longueur d'un côté est classiquement notée avec la lettre minuscule correspondant au sommet opposé.
 Si tous les sommets sont distincts, chaque angle géométrique peut être identifié par la lettre du sommet correspondant, surmontée d'un accent circonflexe.
 Au cas où la figure comprend d'autres segments passant par les sommets, les côtés de l'angle sont précisés par les lettres désignant les deux autres sommets de part et d'autre sous l'accent circonflexe.
@@ -86,13 +87,16 @@ Ses trois angles ont alors la même mesure qui vaut donc 60° et il admet trois 
 Un triangle qui n'est ni isocèle (ce qui exclut également le cas équilatéral) ni plat est dit scalène (du grec σκαληνός (skalenos) : boiteux, inégal, déséquilibré, oblique…). Un triangle scalène peut aussi être rectangle.
 L'adjectif « scalène » n'est pas synonyme de l'adjectif « quelconque ». Un triangle quelconque est un triangle qui peut posséder ou non des propriétés des triangles particuliers.
 Ainsi un triangle quelconque peut être isocèle ou équilatéral, ou même scalène.
-Par contre un triangle scalène ne peut être ni équilatéral ni isocèle. L'adjectif « quelconque » est employé pour insister sur le fait qu'on ne sait rien de plus à propos d'un triangle.
+Par contre un triangle scalène ne peut être ni équilatéral ni isocèle.
+L'adjectif « quelconque » est employé pour insister sur le fait qu'on ne sait rien de plus à propos d'un triangle.
 Dès lors qu'on sait qu'un triangle possède une ou des propriété(s) particulière(s) il ne peut plus être considéré comme quelconque.
 Triangle isocèle.
 Triangle équilatéral.
 Triangle scalène.
 Un triangle rectangle est un triangle ayant un angle droit, c'est-à-dire de mesure 90°. Il satisfait alors le théorème de Pythagore.
-Comme la somme des angles d'un triangle vaut 180°, il ne peut y avoir plus d'un angle obtus (supérieur à l'angle droit). S'il y en a un, le triangle est obtusangle ou ambligone. S'il n'y en a pas, il est acutangle ou oxygone (il a alors trois angles aigus).
+Comme la somme des angles d'un triangle vaut 180°, il ne peut y avoir plus d'un angle obtus (supérieur à l'angle droit).
+S'il y en a un, le triangle est obtusangle ou ambligone.
+S'il n'y en a pas, il est acutangle ou oxygone (il a alors trois angles aigus).
 Triangle obtusangle ou ambligone.
 Triangle rectangle.
 Triangle acutangle ou oxygone.
@@ -113,14 +117,17 @@ Les longueurs de côté d'un triangle et les mesures de ses angles satisfont plu
 Il s'agit d'une part, outre la formule de la somme des angles, d'une relation entre l'aire, la mesure d'un angle et la longueur des deux côtés adjacents :
 laquelle permet d'obtenir la formule des sinus :
 d'autre part, du théorème d'Al-Kashi (ou théorème de Carnot[réf. nécessaire] ou encore loi des cosinus) qui généralise le théorème de Pythagore :
-Les relations métriques dans le triangle permettent d'évaluer des distances à partir de mesures angulaires, comme en navigation maritime, en géodésie et en astronomie. C'est selon ce principe qu'a été mesuré le méridien terrestre pour la définition du mètre.
+Les relations métriques dans le triangle permettent d'évaluer des distances à partir de mesures angulaires, comme en navigation maritime, en géodésie et en astronomie.
+C'est selon ce principe qu'a été mesuré le méridien terrestre pour la définition du mètre.
 Dans le plan, le calcul de l'aire d'un domaine peut être évalué en approchant ce domaine par une réunion de triangles disjoints.
 Plus généralement, des surfaces de l'espace peuvent être approchées par une réunion de triangles appelées facettes.
-Cette technique est utilisée en analyse numérique dans la méthode des éléments finis, mais aussi en imagerie numérique. L'analyse vectorielle permet d'ailleurs de calculer rapidement l'orientation d'une telle facette et d'en déduire la réflexion du rayonnement lumineux d'une source ponctuelle dans une direction donnée.
+Cette technique est utilisée en analyse numérique dans la méthode des éléments finis, mais aussi en imagerie numérique.
+L'analyse vectorielle permet d'ailleurs de calculer rapidement l'orientation d'une telle facette et d'en déduire la réflexion du rayonnement lumineux d'une source ponctuelle dans une direction donnée.
 Plusieurs polyèdres (réguliers ou non) ont des faces triangulaires, comme le tétraèdre, l'octaèdre, l'icosaèdre et le grand icosaèdre.
 Les polyèdres dont toutes les faces sont des triangles équilatéraux sont appelés deltaèdres.
 D'autre part, tout polygone peut être découpé en un nombre fini de triangles qui forment alors une triangulation de ce polygone.
-Le nombre minimal de triangles nécessaire à ce découpage est n-2, où n est le nombre de côtés du polygone. L'étude des triangles est fondamentale pour celle des autres polygones, par exemple pour la démonstration du théorème de Pick.
+Le nombre minimal de triangles nécessaire à ce découpage est n-2, où n est le nombre de côtés du polygone.
+L'étude des triangles est fondamentale pour celle des autres polygones, par exemple pour la démonstration du théorème de Pick.
 Si on joint les trois milieux des côtés d'un triangle on obtient quatre triangles semblables au triangle initial, l'aire de chacun des triangles est le quart de celle du triangle initial.
 On appelle triangle médian le triangle central dont les sommets sont les milieux des côtés du triangle initial (c'est donc le triangle cévien du centre de gravité). Ce triangle médian se trouve « inversé » par rapport aux trois autres.
 D'après le théorème des milieux, ce triangle médian a ses côtés parallèles à ceux du triangle initial et des longueurs de côté proportionnelles dans un rapport de 1/2.

@@ -42,7 +42,8 @@ Elle est donc étendue à une famille infinie dénombrable de surfaces planes (A
 On parle alors de σ-additivité (« sigma-additivité »).
 Une unité de longueur (notée 1u.l.) étant préalablement choisie, on définit l'unité d'aire (notée 1u.a.) par 1u.a.=(1u.l.)2. Toutes les surfaces sont mesurées en unités d'aire.
 La figure de base pour le calcul d'une aire est le carré unité, de côté 1u.l. ; il permet de calculer l'aire du rectangle. À l'aide de l'aire du rectangle, il est possible de déterminer l'aire d'un triangle rectangle (vu comme un demi-rectangle) ou d'un parallélogramme, puis celle d'un triangle quelconque et, par suite, d'un polygone quelconque.
-La formule de l'aire d'un disque est plus complexe à démontrer : elle nécessite le passage par une limite de suite. L'idée d'approcher successivement une surface complexe par une suite de surfaces plus simples (en général, des rectangles ou des polygones) est fondamentale.
+La formule de l'aire d'un disque est plus complexe à démontrer : elle nécessite le passage par une limite de suite.
+L'idée d'approcher successivement une surface complexe par une suite de surfaces plus simples (en général, des rectangles ou des polygones) est fondamentale.
 Une surface qui peut être « correctement » approchée par des rectangles, au point qu'on puisse en déduire son aire par un calcul de limite est dite quarrable.
 Dans certains cas, l'analyse vient au secours de la géométrie, lorsque les raisonnements par découpage et recollement ne suffisent plus.
 Certains calculs d'aires nécessitent le recours à des intégrales (notion d' "aire sous la courbe"), qui peuvent parfois être calculées à partir de primitives d'une fonction.
@@ -58,15 +59,18 @@ Ce résultat se généralise au cas où la longueur et la largeur du rectangle s
 Un carré est un rectangle dont la longueur et la largeur sont égales à un même nombre appelé côté du carré. Un carré de côté c possède une aire égale à c × c, ce qui se note c2. Réciproquement, tout nombre de la forme c2 (où c est positif) peut être considéré comme l'aire d'un carré de côté c, ce qui explique que c2 se lit « c au carré » ou « le carré de c ».
 La formule de calcul de l'aire d'un triangle la plus courante est :
 Aire d'un triangle — L'aire d'un triangle est égale à la moitié du produit de sa base par sa hauteur.
-Tout triangle rectangle dont les cathètes (ou petits côtés) mesurent a et b peut être considéré comme la moitié d'un rectangle de dimensions a et b partagé en deux par une de ses diagonales. L'aire de ce triangle rectangle est donc égale à 
+Tout triangle rectangle dont les cathètes (ou petits côtés) mesurent a et b peut être considéré comme la moitié d'un rectangle de dimensions a et b partagé en deux par une de ses diagonales.
+L'aire de ce triangle rectangle est donc égale à 
 Plus généralement, tout triangle de hauteur d'un triangle h et de côté associé b (dans ce cas, le côté est appelé base) est la moitié d'un rectangle de dimensions h et b, ce qui donne la formule classique de calcul d'aire d'un triangle :
-D'autres méthodes permettent de calculer l'aire d'un triangle et, par suite, l'aire d'un polygone quelconque, en utilisant le fait que tout polygone peut être partagé en un nombre fini de triangles. C'est notamment en partageant un polygone régulier en triangles dont un sommet est son centre qu'on obtient les formules usuelles de calcul de l'aire d'un polygone régulier.
+D'autres méthodes permettent de calculer l'aire d'un triangle et, par suite, l'aire d'un polygone quelconque, en utilisant le fait que tout polygone peut être partagé en un nombre fini de triangles.
+C'est notamment en partageant un polygone régulier en triangles dont un sommet est son centre qu'on obtient les formules usuelles de calcul de l'aire d'un polygone régulier.
 En accolant au triangle rectangle gris un autre triangle isométrique suivant l'hypoténuse, on obtient un rectangle.
 Un triangle vu comme un demi-rectangle.
 Un polygone partagé en triangles.
 Théorème — L'aire d'un disque de rayon R est égale à π × R 2.
 On se convainc de ce résultat par un partage du disque en un nombre arbitrairement grand de triangles.
-En considérant n points A1, A2… An régulièrement espacés sur un cercle de centre O et de rayon R, on obtient un polygone régulier à n côtés constitué de n triangles isocèles de même aire OA1A2, OA2A3, etc. L'aire du polygone régulier est donc n fois celle de l'un de ces triangles.
+En considérant n points A1, A2… An régulièrement espacés sur un cercle de centre O et de rayon R, on obtient un polygone régulier à n côtés constitué de n triangles isocèles de même aire OA1A2, OA2A3, etc.
+L'aire du polygone régulier est donc n fois celle de l'un de ces triangles.
 Si la hauteur de chacun de ses triangles est hn, l'aire de chaque triangle est 1/2hn × A1A2. En multipliant par n, l'aire du polygone égale donc la moitié de la hauteur hn multipliée par le périmètre du polygone.
 Lorsque le nombre n de points tend vers l'infini,
 la hauteur hn tend vers R, et le périmètre du polygone vers celui du cercle, soit 2πR, ce qui donne bien le résultat annoncé.
@@ -102,7 +106,8 @@ De manière générale, le polygone à n sommets ayant la plus grande surface, �
 L'isopérimétrie ne se limite pas à ces questions.
 On recherche aussi une zone d'aire la plus vaste possible pour un périmètre donné, avec des géométries différentes.
 Par exemple, dans le cas d'un demi-plan, la réponse est le demi-disque.
-Ce concept donne naissance à une famille de théorèmes, dit isopérimétriques, à des majorations dites inégalités isopérimétriques, ainsi qu'à un rapport, appelé quotient isopérimétrique. L'inégalité isopérimétrique indique qu'une surface de périmètre p et d'aire a vérifie la majoration suivante :
+Ce concept donne naissance à une famille de théorèmes, dit isopérimétriques, à des majorations dites inégalités isopérimétriques, ainsi qu'à un rapport, appelé quotient isopérimétrique.
+L'inégalité isopérimétrique indique qu'une surface de périmètre p et d'aire a vérifie la majoration suivante :
 Le terme de gauche, est appelé quotient isopérimétrique, il est égal à 1 si, et seulement si la surface est un disque.
 Si l'origine de cette question date d'au moins 2 900 ans, ce n'est qu'en 1895, à l'aide de méthodes dérivées du théorème de Minkowski que la question est définitivement résolue sous sa forme antique.
 Ces méthodes permettent de démontrer le théorème isopérimétrique et de le généraliser à des dimensions supérieures dans le cas d'une géométrie euclidienne.
@@ -139,7 +144,8 @@ En Égypte,, le calcul s'effectuait à partir du diamètre D :
 Le raisonnement consistait probablement à inscrire un octogone et un cercle dans un carré,. La figure ci-contre illustre ce raisonnement : si le carré a pour côté le diamètre D du disque, l'octogone construit sur le tiers du côté du carré possède une aire de
 L'aire du disque est considérée comme légèrement supérieure à celle de l'octogone, soit
 Al-Khwârizmî, dans son Abrégé du calcul par la restauration et la comparaison, analyse et résout les équations du second degré par des considérations géométriques sur des aires de carrés, poursuivant en cela la tradition de l'algèbre géométrique remontant à l'Antiquité.
-La superficie d'un espace au sol ou d'une surface physique plane ou gauche est sa mesure physique exprimée avec une unité de mesure. L'unité correspondante du Système international est le mètre carré ou l'un de ses multiples ou sous-multiples, comme les ares ou hectares.
+La superficie d'un espace au sol ou d'une surface physique plane ou gauche est sa mesure physique exprimée avec une unité de mesure.
+L'unité correspondante du Système international est le mètre carré ou l'un de ses multiples ou sous-multiples, comme les ares ou hectares.
 Cette mesure est parfois désignée par le terme « surface » lui-même, qui partage la même étymologie.
 Les calculs de superficie liés à la notion de rendement agricole et à l'imposition fiscale ont motivé la notion d'aire en géométrie.
 La modélisation d'un terrain par une surface géométrique simple permet une évaluation efficace de sa superficie.

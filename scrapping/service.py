@@ -36,13 +36,13 @@ replace_pairs = (
     # remove (en)|(en-GB)|(en-US) mark before the quoted resources
     (r'\(en(?:\)|-GB\)|-US\))', ''),
     # check lines containing multiple sentences and break them into different lines
-    (r'(?<=[a-z][a-z"»』」\)])\. (?=[A-Z«"『「][\w ])', '.\n'),
+    (r'(?<=[a-z][a-z"»』」\)])\. (?=[A-Z«"『「][\w \'])', '.\n'),
     # break lines if sentence ends with an abbreviation
-    (r'(?<=[A-Z][A-Z])\. (?=[A-Z«"『「][\w ])', '.\n'),
+    (r'(?<=[A-Z][A-Z])\. (?=[A-Z«"『「][\w \'])', '.\n'),
     # break lines abbreviation and quotaion
-    (r'(?<=[A-Z][A-Z]["»』」\)]) (?=[A-Z«"『「][\w ])', '\n'),
+    (r'(?<=[A-Z][A-Z]["»』」\)]) (?=[A-Z«"『「][\w \'])', '\n'),
     # break a quoted sentence into different lines
-    (r'(?<=[a-z]\.[»』」"]) (?=[A-Z«"『「][\w ])', '\n'),
+    (r'(?<=[a-z]\.[»』」"]) (?=[A-Z«"『「][\w \'])', '\n'),
     # remove a broken parenthesis: if a string ends with (
     (r'\($', ''),
     # remove a broken parenthesis: if a string starts with )

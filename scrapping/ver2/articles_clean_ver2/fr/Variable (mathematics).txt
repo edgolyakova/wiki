@@ -21,7 +21,8 @@ On peut alors utiliser une variable pour marquer un rôle dans un prédicat, une
 Il peut s'agir d'une simple valeur, ou d'un objet mathématique tel qu'un vecteur, une matrice ou même une fonction.
 Dans un polynôme, une fraction rationnelle ou une série formelle, la variable est remplacée par une indéterminée notée X.
 Il est d'usage d'utiliser un certain type de symbole pour l'objet que l'on souhaite représenter, par exemple les lettres de i à n pour les indices, les lettres de la fin de l'alphabet pour les vecteurs, ou bien ε pour un réel strictement positif ayant pour but de tendre vers 0.
-Pour calculer la longueur et la largeur d'une citerne dont on connait le volume, la hauteur et la différence entre la longueur et largeur, on peut décrire la méthode de calcul (l'algorithme sur les nombres et les opérations sur eux) sur un exemple, puis reproduire plusieurs exemples pour décrire complètement la méthode. C'est la méthode adoptée pendant l'Antiquité par les mathématiques babyloniennes.
+Pour calculer la longueur et la largeur d'une citerne dont on connait le volume, la hauteur et la différence entre la longueur et largeur, on peut décrire la méthode de calcul (l'algorithme sur les nombres et les opérations sur eux) sur un exemple, puis reproduire plusieurs exemples pour décrire complètement la méthode.
+C'est la méthode adoptée pendant l'Antiquité par les mathématiques babyloniennes.
 À la place des données et des résultats, qui changent dans chaque exemple, on peut décider de remplacer des valeurs fictives — appelées variables — par des symboles.
 Une variable est donc une entité syntaxique qui apparaît dans une expression et que l'on peut remplacer par une valeur, par exemple par un nombre.
 Dans l'exemple proposé par les mathématiques babyloniennes, si V est le volume, h est la hauteur, et d est la différence entre la longueur L et la largeur l, on a

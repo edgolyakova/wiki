@@ -24,14 +24,16 @@ masquer
 Pour les articles homonymes, voir Droite.
 En géométrie, la droite désigne un objet géométrique formé de points alignés. Elle est illimitée des deux côtés, et sans épaisseur.
 Dans la pratique, elle est représentée sur une feuille par une ligne droite ayant bien entendu des limites — celles de la feuille — et une épaisseur —celle du crayon.
-Pour les Anciens, la droite était un concept « allant de soi », si « évident » que l'on négligeait de préciser de quoi l'on parlait. L'un des premiers à formaliser la notion de droite fut le Grec Euclide dans ses Éléments.
+Pour les Anciens, la droite était un concept « allant de soi », si « évident » que l'on négligeait de préciser de quoi l'on parlait.
+L'un des premiers à formaliser la notion de droite fut le Grec Euclide dans ses Éléments.
 Avec le développement du calcul algébrique et du calcul vectoriel, d'autres définitions vinrent s'ajouter.
 Mais c'est la naissance des géométries non euclidiennes qui a conduit à la découverte de nouveaux types de « droites » et, par là-même, nous a forcés à éclaircir et approfondir ce concept.
 « La ligne droite est le plus court chemin pour aller d'un point à un autre ». On définit ainsi le segment de droite limité par ces deux points.
 Ensuite on dit que trois points sont alignés si et seulement si l'un de ces trois points appartient au segment déterminé par les deux autres.
 Et enfin on appelle droite définie par deux points A et B l'ensemble des points alignés avec A et B, y compris ces points A et B.
 Cette définition simple suffit à certaines applications concrètes.
-Elle permet par exemple au jardinier de tracer ses lignes de semis : en tendant une corde entre deux piquets, il matérialise une ligne « tirée au cordeau ». Une autre image habituelle est celle du fil à plomb. C'est-à-dire, dans les deux cas, un fil tendu dont on néglige l'épaisseur.
+Elle permet par exemple au jardinier de tracer ses lignes de semis : en tendant une corde entre deux piquets, il matérialise une ligne « tirée au cordeau ». Une autre image habituelle est celle du fil à plomb.
+C'est-à-dire, dans les deux cas, un fil tendu dont on néglige l'épaisseur.
 Différentes limitations de cette définition ont conduit les mathématiciens à lui en préférer d'autres.
 Par exemple, si on assimile la Terre à une sphère, le chemin le plus court entre deux points n'est plus une ligne droite, mais un arc de cercle.
 Cependant, à l'échelle d'un être humain, ce cercle est si grand qu'une ligne droite en est une bonne approximation.
@@ -63,7 +65,8 @@ un vecteur non nul, la droite affine passant par A et de vecteur directeur
 est l'ensemble des points M pour lesquels il existe un scalaire k tel que
 Si A et B sont deux points distincts, la droite (AB), passant par A et B, est l'ensemble des barycentres des points A et B.
 La notion de droite est alors largement généralisée.
-En algèbre linéaire, l'espace vectoriel est un ensemble qui n'a plus nécessairement de lien avec la géométrie. L'espace vectoriel peut être une extension de corps comme dans le cadre de la théorie de Galois, l'ensemble des nombres rationnels dans le corps des réels possède les propriétés géométriques d'une droite.
+En algèbre linéaire, l'espace vectoriel est un ensemble qui n'a plus nécessairement de lien avec la géométrie.
+L'espace vectoriel peut être une extension de corps comme dans le cadre de la théorie de Galois, l'ensemble des nombres rationnels dans le corps des réels possède les propriétés géométriques d'une droite.
 Par ailleurs, on peut étendre la notion aux ensembles finis, comme pour les codes linéaires utilisés dans la théorie de l'information, ou en arithmétique.
 Une droite est alors elle aussi un ensemble fini de points.
 En analyse, et particulièrement en analyse fonctionnelle une droite est un ensemble de fonctions.
@@ -79,7 +82,8 @@ Une telle formalisation existe, on parle par exemple d'axiomes de Hilbert.
 La réponse à la question que pose le cinquième postulat est donc de l'ordre de la logique.
 La base axiomatique d'Euclide constituée des quatre premiers postulats est trop faible pour garantir le cinquième.
 Si l'approche de Hilbert permet de résoudre cette question, elle est peu opérationnelle pour bâtir la théorie de la géométrie euclidienne.
-On utilise en général la Peano pour construire l'ensemble des entiers naturels puis les différentes structures algébriques utilisées. L'intérêt des travaux de Hilbert sur cette question est donc surtout de l'ordre de la logique et peu géométrique.
+On utilise en général la Peano pour construire l'ensemble des entiers naturels puis les différentes structures algébriques utilisées.
+L'intérêt des travaux de Hilbert sur cette question est donc surtout de l'ordre de la logique et peu géométrique.
 Bien avant de comprendre la dimension logique de la problématique, dans le courant du XIXe sont nées d'autres géométries dans lesquelles la droite n'avait plus les mêmes propriétés que dans la géométrie euclidienne : les géométries non euclidiennes.
 En géométrie projective, des droites parallèles se coupent en un point impropre et par deux points ne passe qu'une seule droite.
 En géométrie hyperbolique, par un point donné, non situé sur une droite donnée, il passe au moins deux droites qui ne coupent pas la droite donnée.

@@ -48,7 +48,8 @@ ln
 .10
 Or l'approximation affine du logarithme naturel en 1 permet d'approcher ln(1 − 10−7) par −10−7 avec une précision de l'ordre de 10−14, soit 7 chiffres significatifs.
 Les tables de valeurs obtenues par Napier offrent donc à la lecture les mêmes premières décimales que celles du logarithme naturel et en particulier, son logarithme vaut 107 entre les sinus de 21°35' et de 21°36, où l'on retrouve les premières décimales de 1⁄e (à savoir 3678…). Mais ce nombre n'est pas mis en évidence par Napier.
-En 1624, Henry Briggs, correspondant avec Napier, modifie les paramètres de construction des tables de logarithmes. D'abord il fixe à 0 le logarithme de 1, ce qui revient à choisir un rayon unitaire.
+En 1624, Henry Briggs, correspondant avec Napier, modifie les paramètres de construction des tables de logarithmes.
+D'abord il fixe à 0 le logarithme de 1, ce qui revient à choisir un rayon unitaire.
 Ses tables transforment alors les produits en sommes, ce qui s'écrit en formulation moderne : log(ab) = log(a) + log(b).
 Ensuite, il fixe à 1 le logarithme de 10, ce qui fait qu'une multiplication par 10 d'un nombre se traduit par un ajout d'une unité à son logarithme.
 Briggs obtient ainsi une table de valeurs du logarithme décimal, fondé sur le système de numération en base 10, mais la notion de fonction n'a pas encore émergé à l'époque.
@@ -64,7 +65,8 @@ Ecrivant l'équivalence
 ln
 , ce nombre vérifie ln(e) = 1. La fonction exponentielle admettant une décomposition en série entière, Euler obtient le développement de e comme série des inverses des factorielles des entiers naturels.
 Selon Hervé Lehning, il aurait eu « l'intuition absolument géniale d'écrire l'exponentielle de base a quelconque comme un polynôme de l'exposant » :
-Il va exprimer tous les coefficients en fonction de B. Voici comment. D'abord, en posant x=0, il obtient A=1. Puis, il calcule :
+Il va exprimer tous les coefficients en fonction de B. Voici comment.
+D'abord, en posant x=0, il obtient A=1. Puis, il calcule :
 16
 mais puisque a2x= (ax)2, il pose également
 donc,

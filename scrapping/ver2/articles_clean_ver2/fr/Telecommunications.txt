@@ -64,7 +64,8 @@ Le téléphone classique fut inventé indépendamment par Alexander Bell et Elis
 Le domaine des télécommunications est un lieu de convergence et d'interaction entre différentes technologies et disciplines scientifiques.
 Les mathématiques et plus particulièrement les mathématiques appliquées sont à la base du développement des théories du traitement du signal (modernisation des télécommunications), de la cryptologie (sécurisation des échanges), de la théorie de l'information et du numérique.
 La physique a permis grâce au développement des mathématiques d'édifier la théorie de l'électromagnétisme.
-Sont apparus alors les premiers postes à galène, puis les tubes à vides, les semi-conducteurs et l'opto-électronique, qui sont à la base de l'électronique. L'électromagnétisme, en particulier l'étude des phénomènes de propagation, permet de modéliser la propagation des ondes à travers un canal, qu'il soit filaire (coaxial, fibre optique…) ou sans fil (propagation hertzienne).
+Sont apparus alors les premiers postes à galène, puis les tubes à vides, les semi-conducteurs et l'opto-électronique, qui sont à la base de l'électronique.
+L'électromagnétisme, en particulier l'étude des phénomènes de propagation, permet de modéliser la propagation des ondes à travers un canal, qu'il soit filaire (coaxial, fibre optique…) ou sans fil (propagation hertzienne).
 De même, l'invention du laser par les physiciens a ouvert la voie aux communications par fibres optiques modernes (prix Nobel de physique 2008).
 La chimie, par le biais de l'affinement des processus chimiques, a permis de réduire le poids et d'allonger l'autonomie des batteries, autorisant l'emploi d'appareils portables de télécommunications.
 L'informatique fondamentale et appliquée quant à elle a révolutionné le monde de la communication à distance par le développement des langages de programmation et des programmes informatiques (génie logiciel) associés à la microélectronique.
@@ -75,9 +76,12 @@ Quand plusieurs liaisons sont interconnectées entre plusieurs utilisateurs, on 
 La transmission s'effectue par différents médias selon les systèmes.
 Historiquement le fil téléphonique fut le premier support de télécommunication et permit le développement du télégraphe et du téléphone.
 Il est toujours le média principal pour le raccordement aux réseaux téléphoniques et aux réseaux informatiques (téléphone, fax, minitel, internet…), sous forme de paire(s) torsadée(s).
-Le câble coaxial était le média du haut débit avant l'apparition des fibres optiques, il est toujours utilisé dans les réseaux industriels en raison de sa robustesse face aux perturbations. C'est aussi le support de prédilection pour les raccordements en radiofréquence à l'intérieur d'un équipement, parfois remplacé par le guide d'ondes pour les transmissions de micro-ondes de forte puissance.
-La fibre optique, qui raccorde progressivement les abonnés en ville, est aussi le média des câbles sous-marins modernes. C'est un fil en verre ou en plastique très fin qui a la propriété de conduire la lumière.
-La radiocommunication, qui peut être définie comme toute communication par l'intermédiaire de l'espace hertzien, a révolutionné les télécommunications au début du XXe siècle. C'est le média de la radiodiffusion de programmes, des services de communications en radiotéléphonie, des réseaux de téléphonie mobile, du Wi-Fi, des loisirs radio comme le radioamateurisme, des liaisons par satellite de télécommunications ou par faisceau hertzien, aussi bien que des simples télécommandes domestiques.
+Le câble coaxial était le média du haut débit avant l'apparition des fibres optiques, il est toujours utilisé dans les réseaux industriels en raison de sa robustesse face aux perturbations.
+C'est aussi le support de prédilection pour les raccordements en radiofréquence à l'intérieur d'un équipement, parfois remplacé par le guide d'ondes pour les transmissions de micro-ondes de forte puissance.
+La fibre optique, qui raccorde progressivement les abonnés en ville, est aussi le média des câbles sous-marins modernes.
+C'est un fil en verre ou en plastique très fin qui a la propriété de conduire la lumière.
+La radiocommunication, qui peut être définie comme toute communication par l'intermédiaire de l'espace hertzien, a révolutionné les télécommunications au début du XXe siècle.
+C'est le média de la radiodiffusion de programmes, des services de communications en radiotéléphonie, des réseaux de téléphonie mobile, du Wi-Fi, des loisirs radio comme le radioamateurisme, des liaisons par satellite de télécommunications ou par faisceau hertzien, aussi bien que des simples télécommandes domestiques.
 La radioélectricité étudie la transmission hertzienne, la propagation des ondes, les interfaces avec l'émetteur et le récepteur par l'intermédiaire des antennes.
 Les liaisons optiques dans l'espace, donc non guidées par fibres, sont utilisées en communications par satellites, ainsi que dans des applications aussi simples que les télécommandes audio-vidéo.
 Enfin, certains milieux ne peuvent être traversés que par des ondes acoustiques, c'est le cas des communications dans les mines, ou entre plongeurs, qui s’effectue par ondes ultra-sonores.
@@ -85,7 +89,8 @@ Quel que soit le média de transmission, un émetteur convertit l’information 
 Inversement, un récepteur convertit le signal transmis en information utilisable.
 La technique de ces fonctions d’interface est donc très dépendante du média, de la fréquence d’utilisation, et surtout de la puissance nécessaire pour compenser les pertes de propagation.
 Ainsi, la transmission sur une ligne Ethernet par exemple n’utilise que quelques circuits intégrés et du câble de faible section, alors qu’une liaison vers une sonde planétaire demande des émetteurs de forte puissance et des antennes de plusieurs dizaines de mètres.
-Dans un canal de transmission hertzien, le signal porté par l'onde radioélectrique est atténué par l'affaiblissement de propagation, les absorptions atmosphériques et les précipitations, et dégradé par les diffractions et réflexions. L'équation des télécommunications inclut tous ces facteurs et détermine la puissance et les antennes nécessaires.
+Dans un canal de transmission hertzien, le signal porté par l'onde radioélectrique est atténué par l'affaiblissement de propagation, les absorptions atmosphériques et les précipitations, et dégradé par les diffractions et réflexions.
+L'équation des télécommunications inclut tous ces facteurs et détermine la puissance et les antennes nécessaires.
 L'antenne radioélectrique convertit les signaux électriques en onde radioélectrique à l'émission, et inversement en réception.
 De nombreux types d'antennes ont été développés, selon la fréquence d'utilisation, le gain nécessaire et l'application, depuis les antennes miniatures intégrées aux téléphones mobiles, jusqu'aux paraboles géantes de radioastronomie.
 Dans les applications bidirectionnelles, comme la radiotéléphonie, les deux fonctions peuvent être combinées dans un émetteur-récepteur.
@@ -117,11 +122,14 @@ Il est utilisé à titre privé, pour garder le contact avec ses proches ou à t
 La téléphonie qui repose sur le réseau téléphonique permet également des services plus avancés tels que la messagerie vocale, la conférence téléphonique ou les services vocaux.
 La ligne téléphonique sert aussi de solution d'accès à Internet, d'abord avec un modem en bas débit, puis en haut débit grâce à l'ADSL.
 La radiotéléphonie, c’est-à-dire la communication à distance sans fil, a d'abord été appliquée aux communications maritimes pour en accroître la sécurité, puis militaires dès la première guerre mondiale, avant de devenir un média populaire avec la TSF.
-La radiotéléphonie est encore le moyen principal de communication du contrôle aérien, des liaisons maritimes par la radio maritime et des liaisons de sécurité (police, secours). C'est aussi l'activité principale du radioamateurisme.
-La radiodiffusion est la distribution de programmes à partir d'un émetteur vers des auditeurs équipés d'un récepteur. D'abord en modulation d'amplitude en basse fréquence (GO) et moyenne fréquence (PO), puis en modulation de fréquence en VHF, elle évolue vers la radio numérique, diffusée par satellite ou en VHF terrestre.
+La radiotéléphonie est encore le moyen principal de communication du contrôle aérien, des liaisons maritimes par la radio maritime et des liaisons de sécurité (police, secours).
+C'est aussi l'activité principale du radioamateurisme.
+La radiodiffusion est la distribution de programmes à partir d'un émetteur vers des auditeurs équipés d'un récepteur.
+D'abord en modulation d'amplitude en basse fréquence (GO) et moyenne fréquence (PO), puis en modulation de fréquence en VHF, elle évolue vers la radio numérique, diffusée par satellite ou en VHF terrestre.
 La téléphonie mobile offre la possibilité de téléphoner sans connexion filaire soit par une solution terrestre basée sur des zones de couverture hertzienne d'antennes-relais, soit par satellite.
 Le développement de ce moyen de communication est un phénomène de société remarquable de la fin du XXe siècle.
-Le geste de téléphoner dans la rue devient banal, au point d'inquiéter sur ses risques sanitaires et de créer un langage particulier, le langage SMS. L'accès à Internet et aux chaînes de télévision est déjà facile sur les dernières générations de téléphones (smartphones).
+Le geste de téléphoner dans la rue devient banal, au point d'inquiéter sur ses risques sanitaires et de créer un langage particulier, le langage SMS.
+L'accès à Internet et aux chaînes de télévision est déjà facile sur les dernières générations de téléphones (smartphones).
 La transmission d’images fixes par ligne téléphonique remonte au bélinographe, et est toujours utilisée sous le nom abrégé de fax, comme échange de pages photocopiées, documents commerciaux ou technique.
 Le radiofacsimilé qui permet de transmettre des images par radio est utilisé surtout pour la diffusion de cartes météo, soit directement depuis les satellites d'observation, soit retransmises vers les navires ou les terrains d'aviation.
 Après le téléphone et la radio, la télévision est présente dans tous les foyers.
@@ -140,7 +148,8 @@ Le signal radioélectrique peut contenir d'autres informations, comme des param�
 Les télécommunications représentent un secteur d'activité économique significatif.
 Les télécommunications sont un élément crucial de la société moderne.
 En 2006, l’industrie des télécommunications représentait un revenu de 1 200 milliards de dollars, soit 3 % du revenu mondial.
-Plus précisément en France, le secteur des télécoms représente le quart de la croissance entre 2000 et 2008, 300 000 emplois en 2010 et plus de six milliards d'euros d'investissements annuels par les opérateurs, notamment pour le développement des réseaux fixes et mobiles. C'est le premier secteur d'investissement privé dans les infrastructures d'après une analyse de Arthur D. Little pour la Fédération française des télécoms sur la base de données Insee.
+Plus précisément en France, le secteur des télécoms représente le quart de la croissance entre 2000 et 2008, 300 000 emplois en 2010 et plus de six milliards d'euros d'investissements annuels par les opérateurs, notamment pour le développement des réseaux fixes et mobiles.
+C'est le premier secteur d'investissement privé dans les infrastructures d'après une analyse de Arthur D. Little pour la Fédération française des télécoms sur la base de données Insee.
 À l’échelle microéconomique, les entreprises utilisent les télécommunications pour construire leur activité, comme les ventes en ligne, ou améliorer leur efficacité, comme les magasins traditionnels.
 Dans le monde entier, des services à domicile peuvent être obtenus sur simple appel téléphonique, des livraisons de pizzas au dépannage.
 Dans les communautés les plus pauvres, le téléphone mobile sert aussi bien au Bangladesh qu’en Côte d'Ivoire pour négocier les ventes agricoles au meilleur prix du marché.
@@ -159,7 +168,8 @@ Les industriels des télécommunications conçoivent et produisent des équipeme
 Ils participent aussi à la normalisation en proposant de nouvelles solutions aux organismes de standardisation.
 Les constructeurs peuvent être des entreprises multinationales issues de plusieurs fusions-acquisitions comme Aastra, Alcatel-Lucent, Nokia-Siemens ou des start-up comme Fortinet.
 Ils sont d'Amérique du Nord : Cisco, 3Com (maintenant HP), d'Europe : Ericsson, Nokia et de Chine (ROC ou RPC) : Huawei, ZTE, D-Link.
-Certains constructeurs se focalisent sur une technologie comme Extreme Networks sur l'Ethernet. D'autres, comme Cisco, essayent de couvrir la plupart des technologies, tous les marchés (particulier, entreprise, opérateur de télécommunications), tous les services (support, installation, architecture, etc.).
+Certains constructeurs se focalisent sur une technologie comme Extreme Networks sur l'Ethernet.
+D'autres, comme Cisco, essayent de couvrir la plupart des technologies, tous les marchés (particulier, entreprise, opérateur de télécommunications), tous les services (support, installation, architecture, etc.).
 Un opérateur de télécommunications est une entreprise qui commercialise des services en utilisant des infrastructures de télécommunications.
 Ce peut être une entreprise indépendante qui possède ses réseaux, ou une filiale d'un constructeur, qui loue une capacité sur un réseau pour vendre des abonnements et des connexions individuelles, ou encore une entreprise publique propriétaire du réseau, comme les opérateurs historiques européens.
 En 2011, les plus grands opérateurs mondiaux de télécommunications par nombre d'abonnés étaient :

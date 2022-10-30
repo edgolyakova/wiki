@@ -119,7 +119,8 @@ L'image de l'inverse 1/z de z est l'image de M par l'inversion par rapport au ce
 Le complexe conjugué du nombre complexe z = a + ib est a − ib.
 Il est noté z ou z*.
 Le conjugué d'un complexe a donc même partie réelle que le complexe de départ mais une partie imaginaire opposée. Le complexe conjugué d'un complexe non nul a même module que le complexe de départ mais un argument opposé.
-Le conjugué d'une somme, d'une différence, d'un produit ou d'un quotient est respectivement la somme, la différence, le produit ou le quotient des conjugués. Le conjugué du conjugué d'un complexe est le complexe de départ. L'application de conjugaison est donc un automorphisme involutif.
+Le conjugué d'une somme, d'une différence, d'un produit ou d'un quotient est respectivement la somme, la différence, le produit ou le quotient des conjugués. Le conjugué du conjugué d'un complexe est le complexe de départ.
+L'application de conjugaison est donc un automorphisme involutif.
 Si M est le point d'affixe z, l'image du complexe z est le symétrique de M par rapport à l'axe des abscisses.
 Partie réelle, partie imaginaire et module d'un complexe peuvent se définir à l'aide du complexe et de son conjugué :
 Le module d'un nombre complexe s'interprète, dans le plan complexe comme la distance séparant l'image de ce complexe de l'origine du repère.
@@ -135,7 +136,8 @@ Il n'est donc pas possible de munir le corps des complexes d'une relation d'ordr
 On peut cependant munir le corps des complexes d'un ordre partiel compatible avec la somme et le produit en posant :a + ib < a' + i b' si et seulement si a < a' et b = b' .On peut également munir l'ensemble des complexes, considéré comme un espace vectoriel sur ℝ, d'une relation d'ordre total, compatible avec l'addition, ainsi qu’avec la multiplication par des réels positifs, grâce à l'ordre lexicographique :a + ib < a' + i b' si et seulement si a < a' ou a = a' et b < b' .
 La forme polaire d'un complexe permet de mettre en évidence le fait qu'un nombre complexe non nul possède exactement n racines nièmes, de même module égal à n√r et d'argument θ + 2kπ/n.
 Pour tout entier naturel n, l'ensemble des racines nièmes de l'unité Un est un groupe multiplicatif isomorphe au groupe additif ℤ/nℤ des congruences modulo n.
-On peut démontrer que tout polynôme à coefficients complexes possède au moins une racine complexe. C'est le théorème fondamental de l'algèbre.
+On peut démontrer que tout polynôme à coefficients complexes possède au moins une racine complexe.
+C'est le théorème fondamental de l'algèbre.
 Cette propriété fait du corps des complexes un corps algébriquement clos.
 Un polynôme à coefficients complexes est donc entièrement factorisable en produit de polynômes de degré 1 et possède donc un nombre de racines (comptées avec leur ordre de multiplicité) égal au degré du polynôme.
 La formule d'Euler cosθ + i sinθ = eiθ qui se démontre à l'aide de limite de suites, ou d'équation différentielle permet de justifier la notation exponentielle des nombres complexes.
@@ -144,7 +146,8 @@ exp
 exp
 cos
 sin
-en conservant les propriétés algébriques de l'exponentielle. L'exponentielle complexe est un morphisme du groupe additif (ℂ,+) dans le groupe multiplicatif (ℂ*,×), ℂ* ensemble des nombres complexes non nuls.
+en conservant les propriétés algébriques de l'exponentielle.
+L'exponentielle complexe est un morphisme du groupe additif (ℂ,+) dans le groupe multiplicatif (ℂ*,×), ℂ* ensemble des nombres complexes non nuls.
 Cependant la fonction logarithme ne peut pas se prolonger en une fonction complexe en gardant ses propriétés. Dans l'histoire des nombres complexes, cette découverte a fait l'objet de nombreux échanges de lettres entre mathématiciens tels Jean Bernoulli, Gottfried Wilhelm Leibniz et Leonhard Euler.
 On peut le définir de manière multivaluée en posant
 ln
@@ -218,7 +221,8 @@ En électromagnétisme toujours, mais dans un contexte différent, on peut écri
 Pur artifice de calcul, on peut associer l'un ou l'autre de ces champs à la partie « imaginaire » du champ complexe obtenu : cela simplifie grandement les opérations.
 Un autre exemple en électromagnétisme est le courant alternatif : puisque le voltage d'un tel circuit oscille, il peut être représenté comme un nombre complexe via la formule d'Euler :
 Afin d'obtenir une quantité mesurable, on prend la partie réelle :
-On emploie également les complexes pour l'analyse de Fourier, très utilisée dans de nombreux domaines, comme le traitement du signal. L'idée sous-jacente à l'introduction des séries de Fourier est de pouvoir obtenir une fonction admettant T pour période, par exemple continue, comme somme de fonctions sinusoïdales :
+On emploie également les complexes pour l'analyse de Fourier, très utilisée dans de nombreux domaines, comme le traitement du signal.
+L'idée sous-jacente à l'introduction des séries de Fourier est de pouvoir obtenir une fonction admettant T pour période, par exemple continue, comme somme de fonctions sinusoïdales :
 avec les coefficients cn(f), appelés coefficients de Fourier de f, définis par la formule :
 En mécanique des fluides (hydro/aérodynamique), on fait apparaître des potentiels et des vitesses complexes.
 En effet, pour un écoulement à deux dimensions, on peut décomposer la vitesse du fluide en Vx et Vy. Or, on montre que :
@@ -238,7 +242,8 @@ diverge et tend vers l'infini sont nommés les pôles de
 . Il s'avère qu'un pôle qui est d'un point de vue mathématique une singularité, possède un sens physique et représente une fréquence de résonance du système.
 De plus, l'étude de l'analyticité (en analyse complexe, il s'agit de l'holomorphicité) de la fonction de structure permet de connaitre des relations de causalité et savoir si un phénomène dépend d'excitations extérieures ou intrinsèques.
 Il est possible également de définir une autre fonction de structure complexe 
-, où t est un temps complexe. L'analyticité de 
+, où t est un temps complexe.
+L'analyticité de 
 permet cette fois-ci d’analyser les propriétés de stabilité d'un système physique et les conditions de retour à un état d'équilibre.
 L'efficience et le pouvoir prédictif physique des fonctions de structure fait dire à Marc Lachièze-Rey que l'usage des nombres complexes dépasse le simple artifice de calcul et donne aux nombres complexes un degré de "réalité" physique comparable à celui des nombres réels.
 Les nombres complexes sont omniprésents et indispensables à la mécanique quantique.
@@ -262,7 +267,8 @@ Cette hypothèse repose sur l'idée que le temps, près de l'origine, est un tem
 Le pari de Hawking et Hartle est que ce temps imaginaire permet de décrire la fonction d'onde correcte de l'univers et sa véritable physique aux alentours du Big Bang, donnée par la somme des intégrales de chemin calculées dans cette métrique où elles sont convergentes (tandis qu'elles sont divergentes et inexploitables en métrique lorentzienne).
 Cette fonction d'onde décrit la région de l'espace-temps du Big Bang comme une superposition quantique d'espaces sans singularité semblables à une surface sphérique à 4 dimensions, où — comme la surface d'une sphère normale — la courbure est partout finie et varie continument, et où on peut évoluer sans rencontrer de « bords »,.
 Contrairement à la rotation de Wick qui n'est qu'une astuce de calcul, si l'hypothèse de Hartle-Hawking est correcte elle signifie que la nature physique du temps change à l'approche du Big Bang et devient une dimension semblable à une dimension d'espace.
-La première apparition d'une racine carrée de nombre négatif conçue comme une quantité impossible mais manipulable se trouve dans l’œuvre de Cardan en 1545. Mais c'est Raphaël Bombelli qui étudie ces quantités sophistiquées de manière rigoureuse en 1572 dans son Algebra, ce qui en fait selon Flament le créateur indiscutable des nombres complexes. C'est également Bombelli qui les utilise pour la résolution de l'équation de degré 3.
+La première apparition d'une racine carrée de nombre négatif conçue comme une quantité impossible mais manipulable se trouve dans l’œuvre de Cardan en 1545. Mais c'est Raphaël Bombelli qui étudie ces quantités sophistiquées de manière rigoureuse en 1572 dans son Algebra, ce qui en fait selon Flament le créateur indiscutable des nombres complexes.
+C'est également Bombelli qui les utilise pour la résolution de l'équation de degré 3.
 Les nombres complexes interviennent dans l’œuvre d'Albert Girard quand il tente de démontrer que toute équation de degré n possède n racines vers 1629. Ils sont appelés sophistiqués, impossibles ou inexplicables jusqu'à René Descartes qui les qualifie de quantités imaginaires en 1637. Ce qualificatif va leur rester jusqu'en 1831 où Gauss les appelle pour la première fois complexes.
 Pour de nombreux mathématiciens du XVIIe siècle, écrire des quantités imaginaires, c'est s'autoriser l'utilisation des racines carrées de nombres négatifs, mais peu à peu se dégage une écriture normalisée sous la forme 
 . Les mathématiciens tentent d'appliquer à ces nouvelles quantités les fonctions qu'ils connaissaient pour les quantités réelles en utilisant un principe de permanence.
@@ -273,7 +279,8 @@ Ainsi, dès 1748, Euler écrit sa formule
 Mais la fonction logarithme complexe résiste longtemps à Jean Bernoulli et Gottfried Wilhelm Leibniz ; c'est Leonhard Euler qui les départage en 1749, en démontrant qu'elle prend une infinité de valeurs en un complexe donné.
 C'est à Euler également que l'on doit la notation i pour √-1 en 1777. Mais c'est surtout Carl Friedrich Gauss qui en popularise l'usage.
 Le qualificatif d'« unité imaginaire » lui a été attribué par Gauss qui la qualifie ensuite d'« unité latérale », tandis que Jean-Robert Argand lui préfère le terme d'« unité moyenne » et William Rowan Hamilton celui d'« unité secondaire ».
-L'association entre complexes et vecteurs ou points du plan est l’œuvre de nombreux mathématiciens dont Caspar Wessel, Argand et Gauss à la fin du XVIIIe siècle et dans la première moitié du XIXe siècle. L'interprétation d'un complexe comme couple de réels muni d'une multiplication spéciale est l’œuvre d'Hamilton en 1833. L'interprétation d'un complexe comme reste modulo X2 + 1 d'un polynôme à coefficient réel est l’œuvre d'Augustin Louis Cauchy en 1847. C'est également à Cauchy que l'on doit le développement de la théorie des fonctions de la variable complexe.
+L'association entre complexes et vecteurs ou points du plan est l’œuvre de nombreux mathématiciens dont Caspar Wessel, Argand et Gauss à la fin du XVIIIe siècle et dans la première moitié du XIXe siècle.
+L'interprétation d'un complexe comme couple de réels muni d'une multiplication spéciale est l’œuvre d'Hamilton en 1833. L'interprétation d'un complexe comme reste modulo X2 + 1 d'un polynôme à coefficient réel est l’œuvre d'Augustin Louis Cauchy en 1847. C'est également à Cauchy que l'on doit le développement de la théorie des fonctions de la variable complexe.
 L'utilisation en physique apparait dès le début du XIXe siècle dans l’œuvre d'Augustin Fresnel dans son mémoire sur les lois de réflexion.
 En électricité, Arthur Edwin Kennelly, dès 1893, montre comment on peut facilement généraliser la loi d'Ohm au courant alternatif grâce aux complexes.
 Dans le livre Les Désarrois de l'élève Törless par Robert Musil et dans le film réalisé par Volker Schlöndorff , Törless exprime devant le conseil de discipline de l'école sa difficulté à saisir le concept.

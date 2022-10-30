@@ -35,7 +35,8 @@ Les objets de section circulaire sont intéressants pour principalement plusieur
 Certains objets répondent à plusieurs de ces éléments.
 Par exemple, le fait qu'un canon soit cylindrique :
 Si un objet a une surface courbe, elle peut être localement approchée par un cercle.
-Ainsi, si l'on connaît les propriétés du cercle, on connaît les propriétés locales de l'objet. C'est ce qui a donné les notions de cercle osculateur, de rayon de courbure et d'harmonique sphérique.
+Ainsi, si l'on connaît les propriétés du cercle, on connaît les propriétés locales de l'objet.
+C'est ce qui a donné les notions de cercle osculateur, de rayon de courbure et d'harmonique sphérique.
 Si l'on dispose des objets ou des personnes en cercle, on sait que l'on peut les atteindre avec le même effort depuis le centre, mais aussi que l'on peut les voir de la même manière, ce qui peut faciliter la surveillance.
 On peut aussi les désigner en faisant appel à un seul paramètre, la direction ; c'est par exemple l'intérêt des cadrans à aiguille.
 Cela donne aussi les notions de coordonnées cylindriques et sphériques.
@@ -60,7 +61,8 @@ Sans perte de généralité, l'origine du repère est le centre du cercle et l'a
 Il s'agit alors de résoudre un système de la forme :
 donc de chercher les solutions x de
 Trois cas se présentent, selon que la distance entre le centre du cercle et la droite est plus grande que le rayon, égale, ou plus petite :
-Le cercle est une ellipse dont les foyers sont confondus au centre du cercle ; la longueur du grand axe est égale à la longueur du petit axe. C'est une conique dont l'excentricité e vaut 0. Elle peut être obtenue par l'intersection d'un plan avec un cône de révolution lorsque le plan est perpendiculaire à l'axe de révolution du cône (on parle parfois de « section droite » du cône).
+Le cercle est une ellipse dont les foyers sont confondus au centre du cercle ; la longueur du grand axe est égale à la longueur du petit axe.
+C'est une conique dont l'excentricité e vaut 0. Elle peut être obtenue par l'intersection d'un plan avec un cône de révolution lorsque le plan est perpendiculaire à l'axe de révolution du cône (on parle parfois de « section droite » du cône).
 En dessin industriel, un cercle est le plus souvent représenté avec son axe horizontal et son axe vertical (en traits d'axe : trait fin composé de tirets longs et courts), ou bien simplement avec son centre matérialisé par une croix droite « + » en traits fins.
 Une forme de révolution, pleine ou creuse (cylindre, cône, sphère) et vue selon l'axe de révolution est représentée par un cercle.
 La longueur d'un arc de rayon r sous-tendu par un angle au centre α, exprimé en radians, est égale à αr. Ainsi, pour un angle de 2π (un tour complet), la longueur du cercle vaut 2πr.

@@ -59,14 +59,16 @@ Il existe cependant plusieurs dénominations anciennes pour des nombres « rond
 d’Alembert, Le Blond, L’Encyclopédie, 1re éd., t. Tome 12, 1751 (lire sur Wikisource), p. 941-943
 L'Encyclopédie donne le principe, auquel la numération du grec ancien doit être ajoutée.
 Les mêmes principes s'appliquent aux polyèdres, où il suffit de remplacer le suffixe -gone par le suffixe -èdre.
-Un polygone est dit croisé si au moins deux de ses côtés sont sécants, c'est-à-dire si au moins deux de ses côtés non consécutifs se coupent. C'est le cas du pentagone ABCDE ci-contre.
+Un polygone est dit croisé si au moins deux de ses côtés sont sécants, c'est-à-dire si au moins deux de ses côtés non consécutifs se coupent.
+C'est le cas du pentagone ABCDE ci-contre.
 Un polygone est dit simple si deux côtés non consécutifs ne se rencontrent pas et deux côtés consécutifs n'ont en commun que l'un de leurs sommets.
 Un polygone simple est toujours non croisé.
 Il forme alors une courbe de Jordan, qui délimite une partie bornée du plan, appelée son intérieur.
 On appelle aire d'un polygone simple l'aire de son intérieur.
 Un polygone simple est dit non convexe si son intérieur n'est pas convexe, autrement dit si l'une de ses diagonales n'est pas entièrement dans son intérieur.
 Par exemple, le pentagone simple ACDBE ci-contre est non convexe car les diagonales [B, C] et [C, E] ne sont pas dans l'intérieur du polygone.
-Le segment ouvert ]B, C[ est même complètement à l'extérieur. L'existence d'une telle « bouche » est une propriété générale des polygones simples non convexes.
+Le segment ouvert ]B, C[ est même complètement à l'extérieur.
+L'existence d'une telle « bouche » est une propriété générale des polygones simples non convexes.
 Un polygone est dit convexe s'il est simple et si son intérieur est convexe.
 Ainsi, l'hexagone MNOPQR ci-contre est convexe.
 Les symétries d'un polygone d'ordre n sont les isométries du plan euclidien qui permutent à la fois ses n sommets et ses n côtés. Une telle application affine fixe nécessairement l'isobarycentre G des sommets donc ne peut être que de deux types :

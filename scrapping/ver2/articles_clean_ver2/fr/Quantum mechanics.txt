@@ -114,10 +114,12 @@ Le travail de Dirac avait été précédé quelques années auparavant par celui
 Les physiciens lui ont préféré celui de Dirac et c'est donc essentiellement l'ouvrage de Dirac qui a laissé une postérité. Dans la préface d'une ré-édition de son livre, Von Neumann mentionne l'ouvrage de Dirac et le décrit comme « une représentation de la mécanique quantique qui peut à peine être surpassée en termes de brièveté et d'élégance », mais ajoute tout de même dans le paragraphe suivant que sa méthode « ne satisfait en aucune façon les exigences de la rigueur mathématique ».
 Historiquement, la théorie a d'abord permis de décrire correctement les structures électroniques des atomes et des molécules, ainsi que leurs interactions avec un champ électromagnétique.
 Elle explique aussi le comportement de la matière condensée, dont :
-La mécanique quantique a aussi résolu le paradoxe de Gibbs : en physique statistique classique, des particules identiques sont considérées comme discernables, et l'entropie n'est alors pas une grandeur extensive. L'accord entre la théorie et l'expérience fut rétabli en tenant compte du fait que des particules identiques sont indiscernables en mécanique quantique.
+La mécanique quantique a aussi résolu le paradoxe de Gibbs : en physique statistique classique, des particules identiques sont considérées comme discernables, et l'entropie n'est alors pas une grandeur extensive.
+L'accord entre la théorie et l'expérience fut rétabli en tenant compte du fait que des particules identiques sont indiscernables en mécanique quantique.
 La théorie quantique des champs, généralisation relativiste de la mécanique quantique, permet quant à elle de décrire les phénomènes où le nombre total de particules n'est pas conservé : radioactivité, fission nucléaire (c'est-à-dire la désintégration du noyau atomique) et fusion nucléaire.
 Paul Dirac dégage les propriétés essentiellement quantiques des phénomènes physiques et les exprime à travers quelques postulats et concepts qui sont à la base de la mécanique quantique.
-Elles sont présentées ici d'une façon moins formelle, plus propice à une compréhension générale. L'article détaillé présente leur formulation de façon plus rigoureuse mais aussi plus abstraite.
+Elles sont présentées ici d'une façon moins formelle, plus propice à une compréhension générale.
+L'article détaillé présente leur formulation de façon plus rigoureuse mais aussi plus abstraite.
 En substance, un état quantique est ce qui quantifie ce que l'on peut savoir d'un système quantique.
 Il permet de calculer les probabilités et les valeurs moyennes mesurées des observables (position, quantité de mouvement, etc.). Les états quantiques sont décrits mathématiquement par vecteur d'état dans un espace de Hilbert, représenté par une notation dédiée introduite par Dirac, dite notation bra-ket.
 Un état quantique s'écrit alors sous la forme 
@@ -239,7 +241,8 @@ Une autre façon de dire cela est de dire qu'une expérience menée dans un espa
 est indiscernable d'une expérience identique menée dans un espace d'états 
 . On peut donc appliquer les résultats précédents en prenant t (ou -t) pour 
 Le facteur 
-est ici réintroduit pour satisfaire aux contraintes dimensionnelles ignorées jusqu'alors. L'expression détaillée de l'observable 
+est ici réintroduit pour satisfaire aux contraintes dimensionnelles ignorées jusqu'alors.
+L'expression détaillée de l'observable 
 , appelé hamiltonien par analogie avec la mécanique classique, est le plus souvent obtenue à l'aide du principe de correspondance.
 Cette formulation de l'équation de Schrödinger est assez différente de la formulation historique, et à ce titre elle est parfois appelée équation de Schrödinger généralisée et dépendante du temps.
 Comme pour l'équation de Schrödinger, mais cette fois par application du principe selon lequel les lois de la physique sont invariantes dans l'espace, on introduit l'observable du moment linéaire (aussi appelée impulsion) et ses trois composantes spatiales :
@@ -279,7 +282,8 @@ Comme le système est dans un état inconnu, mais avec la distribution de probab
 , l'espérance mathématique devient :
 Cette expression est en quelque sorte une double espérance mathématique, prenant en compte à la fois les probabilités quantiques et classiques.
 Les termes 
-sont en effet des espérances mathématiques, pour des distributions de probabilité associées au principe de superposition et à la règle de Born. L'expression 
+sont en effet des espérances mathématiques, pour des distributions de probabilité associées au principe de superposition et à la règle de Born.
+L'expression 
 est quant à elle une espérance mathématique associée à une distribution de probabilité traduisant une ignorance vis-à-vis de l'état réel du système, c'est-à-dire une distribution de probabilité classique.
 L'espérance mathématique peut alors s'écrire :
 L'expression 
@@ -313,7 +317,8 @@ On lui doit par exemple en grande partie l'impénétrabilité des corps .
 À l'inverse, les bosons ont tendance à se regrouper les uns avec les autres, car leurs amplitudes de probabilités interfèrent constructivement quand ils sont dans le même état.
 Ceci est la cause de nombreux phénomènes, comme l'émission stimulée, à la base du fonctionnement des lasers.
 Des considérations comparables aux calculs effectués plus haut permettent de comprendre qu'un nombre pair de fermions se comportent comme des bosons.
-Ceci est la cause de phénomènes comme la supraconductivité, où les électrons forment des paires de Cooper. C'est aussi ce qui explique les différences de comportement entre les différents isotopes de l'hélium : dans un atome d'hélium 4 (4He), chaque particule est présente en double (deux électrons, deux protons et deux neutrons, formant des paires de Cooper), ce qui fait de cet atome un boson.
+Ceci est la cause de phénomènes comme la supraconductivité, où les électrons forment des paires de Cooper.
+C'est aussi ce qui explique les différences de comportement entre les différents isotopes de l'hélium : dans un atome d'hélium 4 (4He), chaque particule est présente en double (deux électrons, deux protons et deux neutrons, formant des paires de Cooper), ce qui fait de cet atome un boson.
 Ce qui n'est pas le cas dans l'atome d'hélium 3 (3He), qui n'a qu'un neutron, ce qui fait de cet atome un fermion ; qui peut s'associer à un autre atome d'hélium 3 pour former un boson d'une paire de Cooper.
 Le caractère bosonique ou fermionique des particules est lié à leur spin, par ce qu'on appelle le théorème spin-statistique.
 Parmi les systèmes que l'on peut résoudre analytiquement en mécanique quantique, l'un d'entre eux a une importance particulière tant sur le plan historique que théorique.
@@ -338,7 +343,8 @@ Ensuite, un raisonnement par récurrence permet de montrer le caractère quantif
 Ces quanta sont l'analogue mécanique des photons, et à ce titre ils sont parfois appelés phonons.
 Cette introduction d'opérateurs de création et d'annihilation est une technique assez emblématique de la physique quantique.
 On la retrouve par exemple dans la théorie du moment cinétique quantique ou en théorie quantique des champs.
-L'effet tunnel désigne la propriété que possède un objet quantique de franchir une barrière de potentiel même si son énergie est inférieure à l'énergie minimale requise pour franchir cette barrière. C'est un effet purement quantique, qui ne peut pas s'expliquer par la mécanique classique.
+L'effet tunnel désigne la propriété que possède un objet quantique de franchir une barrière de potentiel même si son énergie est inférieure à l'énergie minimale requise pour franchir cette barrière.
+C'est un effet purement quantique, qui ne peut pas s'expliquer par la mécanique classique.
 Pour une telle particule, la fonction d'onde, dont le carré du module représente la densité de probabilité de présence, ne s'annule pas au niveau de la barrière, mais s'atténue à l'intérieur de la barrière, pratiquement exponentiellement pour une barrière assez large.
 Si, à la sortie de la barrière de potentiel, la particule possède une probabilité de présence non nulle, elle peut traverser cette barrière.
 Cette probabilité dépend des états accessibles de part et d'autre de la barrière ainsi que de l'extension spatiale de la barrière.
@@ -378,8 +384,10 @@ Autrement dit, dès lors que
 et 
 sont associés aux observables liées à la mesure du spin selon les axes 
 et 
-, alors les règles de trigonométries apparaissent, mais avec une signification probabiliste. C'est là un résultat typique de la mécanique quantique.
-Le spin de l'électron joue un rôle très important en mécanique quantique, d'une part parce que c'est un phénomène qui n'a pas d'équivalent classique, et d'autre part parce que c'est l'un des systèmes quantiques les plus simples dans la mesure où il n'a que deux états (ou plus précisément, que son espace vectoriel est de dimension deux). À ce titre il est souvent utilisé comme modèle d'étude pour des systèmes plus complexes, même lorsque le phénomène physique sous-jacent est complètement différent. L'exemple emblématique est le modèle d'Ising.
+, alors les règles de trigonométries apparaissent, mais avec une signification probabiliste.
+C'est là un résultat typique de la mécanique quantique.
+Le spin de l'électron joue un rôle très important en mécanique quantique, d'une part parce que c'est un phénomène qui n'a pas d'équivalent classique, et d'autre part parce que c'est l'un des systèmes quantiques les plus simples dans la mesure où il n'a que deux états (ou plus précisément, que son espace vectoriel est de dimension deux). À ce titre il est souvent utilisé comme modèle d'étude pour des systèmes plus complexes, même lorsque le phénomène physique sous-jacent est complètement différent.
+L'exemple emblématique est le modèle d'Ising.
 Richard Feynman, dans sa thèse en 1942, introduit la notion d'intégrale de chemin afin de présenter une nouvelle formulation de la mécanique quantique.
 Ces résultats ne seront publiés qu'en 1948 en raison de la seconde guerre mondiale. À terme, le but de cette approche serait de formuler une théorie de l'électrodynamique quantique en développant la quantification par intégrale de chemin.
 Si de nos jours on retient le formalisme Hamiltonien de la mécanique quantique pour traiter des problèmes classiques (au sens non relativiste), il s'avère que la formulation de Feynman est largement prédominante pour traiter les problèmes relativistes notamment en théorie quantique des champs, l'avantage provenant du fait que cette approche est non perturbative.
@@ -391,7 +399,8 @@ La théorie quantique des champs permet d'interpréter toutes les équations qua
 L'équation de Dirac incorpore naturellement l'invariance de Lorentz avec la mécanique quantique, ainsi que l'interaction avec le champ électromagnétique mais qui est traité encore de façon classique (on parle d'approximation semi-classique).
 Elle constitue la mécanique quantique relativiste.
 Mais du fait précisément de cette interaction entre les particules et le champ, il est alors nécessaire, afin d'obtenir une description cohérente de l'ensemble, d'appliquer la procédure de quantification également au champ électromagnétique.
-Le résultat de cette procédure est l'électrodynamique quantique dans laquelle l'unité entre champ et particule est encore plus transparente puisque désormais la matière elle aussi est décrite par un champ. L'électrodynamique quantique est un exemple particulier de théorie quantique des champs.
+Le résultat de cette procédure est l'électrodynamique quantique dans laquelle l'unité entre champ et particule est encore plus transparente puisque désormais la matière elle aussi est décrite par un champ.
+L'électrodynamique quantique est un exemple particulier de théorie quantique des champs.
 D'autres théories quantique des champs ont été développées par la suite au fur et à mesure que les autres interactions fondamentales ont été découvertes (théorie électrofaible, puis chromodynamique quantique).
 Les relations d'incertitude de Heisenberg traduisent l'impossibilité de préparer un état quantique correspondant à des valeurs précises de certains couples de grandeurs conjuguées.
 Ceci est lié au fait que les opérateurs quantiques associés à ces grandeurs classiques « ne commutent pas ».

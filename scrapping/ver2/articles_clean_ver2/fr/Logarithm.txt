@@ -82,7 +82,8 @@ Pour tout réel strictement positif b différent de 1 et pour tout réel x > 0,
 La norme ISO 80 000 recommande de noter lb le logarithme en base 2.
 Le logarithme binaire, d'usage spécialisé dans le calcul des intervalles musicaux à partir d'un rapport de fréquences, pour obtenir des octaves, des demi-tons ou des cents, a trouvé beaucoup plus d'application en informatique.
 Les ordinateurs travaillant en système binaire, le calcul d'un logarithme en base 2 se fait par l'algorithme le plus précis et le plus efficace.
-Un nombre x codé en virgule flottante binaire se décompose en une mantisse m, comprise entre 1 (inclus) et 2 (exclu) et un exposant p, indiquant la puissance de 2 qui multiplie la mantisse pour obtenir le nombre. L'exposant est la partie entière du logarithme binaire, tandis que le logarithme binaire de la mantisse est compris entre 0 (inclus) et 1 (exclu).
+Un nombre x codé en virgule flottante binaire se décompose en une mantisse m, comprise entre 1 (inclus) et 2 (exclu) et un exposant p, indiquant la puissance de 2 qui multiplie la mantisse pour obtenir le nombre.
+L'exposant est la partie entière du logarithme binaire, tandis que le logarithme binaire de la mantisse est compris entre 0 (inclus) et 1 (exclu).
 Ce qui ramène le calcul à celui du logarithme binaire d'un nombre entre 1 (inclus) et 2 (exclu).
 Si on multiplie ce nombre par lui-même, et que le résultat dépasse 2, c'est que le nombre est supérieur à √2: le chiffre suivant, après la virgule, est un 1, dans le cas contraire, c'est un 0. On continue par itération jusqu'à la précision souhaitée.
 Les deux logarithmes précédents se déduisent de celui-ci par :

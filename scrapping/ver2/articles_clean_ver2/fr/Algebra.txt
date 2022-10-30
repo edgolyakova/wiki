@@ -23,7 +23,8 @@ masquer
 Pour les articles homonymes, voir « Algèbre (homonymie)  » et notamment la structure d'algèbre sur un anneau ou sur un corps.
 L'algèbre (de l’arabe الجبر, al-jabr) est une branche des mathématiques qui permet d'exprimer les propriétés des opérations et le traitement des équations et aboutit à l'étude des structures algébriques.
 Selon l’époque et le niveau d’études considérés, elle peut être décrite comme :
-Le domaine d'application de l'algèbre s'étend des problèmes arithmétiques, qui traitent de nombres, à ceux d'origine géométrique tels que la géométrie analytique de Descartes ou les nombres complexes. L'algèbre occupe ainsi une place charnière entre l'arithmétique et la géométrie permettant d'étendre et d'unifier le domaine numérique.
+Le domaine d'application de l'algèbre s'étend des problèmes arithmétiques, qui traitent de nombres, à ceux d'origine géométrique tels que la géométrie analytique de Descartes ou les nombres complexes.
+L'algèbre occupe ainsi une place charnière entre l'arithmétique et la géométrie permettant d'étendre et d'unifier le domaine numérique.
 Le mot « algèbre » est dérivé du titre d’un ouvrage rédigé vers 825, Kitāb al-mukhtaṣar fī ḥisāb al-jabr wa-l-muqābala (« Abrégé du calcul par la restauration et la comparaison »), du mathématicien d'origine persane Al-Khwarizmi.
 Ce livre avait des objectifs pratiques : le calcul d’héritage, l'arpentage, les échanges commerciaux, etc., et s'inscrivait dans l'époque d'essor des sciences et techniques islamiques.
 Le mot arabe al-jabr (الجبر) signifie « réduction d'une fracture », « réunion (des morceaux) », « reconstruction », « connexion », « restauration », reboutement.
@@ -50,7 +51,9 @@ Par exemple : « quel est le carré qui combiné avec dix de ses racines, donn
 10
 39
 , en notant « x » la racine inconnue du carré. Des symboles spéciaux sont créés pour désigner carré, cube, racine carrée, racine cubique : la notion d'exposant numérique, même simplement entier, n'émerge pas encore.
-La légende attribue parfois à Léonard de Pise dit Fibonacci l'importation des chiffres dits arabes qu'il aurait découverts lors d'un voyage en Afrique. C'est oublier que Gerbert d'Aurillac, qui les avait étudiés à Cordoue, avait entrepris de les imposer à la chrétienté une fois devenu pape de l'an Mil sous le nom de Sylvestre II. C'est cependant le livre de Fibonacci Liber abaci , qui définira la fameuse suite de Fibonacci et contribuera à populariser l'usage des chiffres arabes et du système décimal en Europe.
+La légende attribue parfois à Léonard de Pise dit Fibonacci l'importation des chiffres dits arabes qu'il aurait découverts lors d'un voyage en Afrique.
+C'est oublier que Gerbert d'Aurillac, qui les avait étudiés à Cordoue, avait entrepris de les imposer à la chrétienté une fois devenu pape de l'an Mil sous le nom de Sylvestre II.
+C'est cependant le livre de Fibonacci Liber abaci , qui définira la fameuse suite de Fibonacci et contribuera à populariser l'usage des chiffres arabes et du système décimal en Europe.
 Le pape Gerbert d'Aurillac avait ramené d'Espagne vers l'an 1000 le zéro, invention indienne que les mathématiciens Al-Khwarizmi et Abu Kamil avaient eux-mêmes fait connaître dans tout l'Empire, et aussi à Cordoue.
 Cette numération de position complète bien le calcul algébrique, d'abord au moyen des algorithmes (terme dérivant de « Al-Khwarizmi », mais procédé déjà utilisé dans l'algorithme d'Euclide), qui remplacent peu à peu l'usage de l'abaque.
 Les mathématiciens italiens du XVIe siècle (del Ferro, Tartaglia et Cardan) résolvent l'équation du 3e degré (ou équation cubique).
@@ -71,10 +74,13 @@ Théorème — Le corps
 des nombres complexes muni de l'addition et de la multiplication est algébriquement clos.
 Le XIXe siècle s'intéresse désormais à la calculabilité des racines, et en particulier à la possibilité de les exprimer par des formules générales à base de radicaux.
 Les échecs concernant les équations de degré 5 amènent le mathématicien Abel (après Vandermonde, Lagrange et Gauss) à approfondir les transformations sur l'ensemble des racines d'une équation. Évariste Galois (1811 - 1832), dans un mémoire fulgurant, étudie le groupe des permutations des racines d'une équation polynomiale et aboutit à l'impossibilité de la résolution par radicaux pour les équations de degré supérieur ou égal à 5.
-Dès lors, on s'est mis à calculer sur des objets qui ne sont plus forcément des nombres. L'algèbre moderne entame un parcours fécond : Boole crée l'algèbre qui porte son nom, Hamilton invente les quaternions, et les mathématiciens anglais Cayley, Hamilton et Sylvester étudient les structures de matrices. L'algèbre linéaire, longtemps restreinte à la résolution de systèmes d'équations linéaires à 2 ou 3 inconnues, prend son essor avec le théorème de Cayley-Hamilton (« Toute matrice carrée à coefficients dans 
+Dès lors, on s'est mis à calculer sur des objets qui ne sont plus forcément des nombres.
+L'algèbre moderne entame un parcours fécond : Boole crée l'algèbre qui porte son nom, Hamilton invente les quaternions, et les mathématiciens anglais Cayley, Hamilton et Sylvester étudient les structures de matrices.
+L'algèbre linéaire, longtemps restreinte à la résolution de systèmes d'équations linéaires à 2 ou 3 inconnues, prend son essor avec le théorème de Cayley-Hamilton (« Toute matrice carrée à coefficients dans 
 ou 
 annule son polynôme caractéristique »). S'ensuivent les transformations par changement de base, la diagonalisation et la trigonalisation des matrices, et les méthodes de calcul qui nourriront, au XXe siècle, la programmation des ordinateurs.
-Dedekind définit les idéaux (déjà présents plus qu'en germe dans la notion de nombre complexe idéal introduite par Kummer), qui permettront de généraliser et de reformuler les grands théorèmes d'arithmétique. L'algèbre linéaire se généralise en algèbre multilinéaire et algèbre tensorielle.
+Dedekind définit les idéaux (déjà présents plus qu'en germe dans la notion de nombre complexe idéal introduite par Kummer), qui permettront de généraliser et de reformuler les grands théorèmes d'arithmétique.
+L'algèbre linéaire se généralise en algèbre multilinéaire et algèbre tensorielle.
 Au début du XXe siècle, sous l'impulsion de l'Allemand Hilbert et du Français Poincaré, les mathématiciens s'interrogent sur les fondements des mathématiques : logique et axiomatisation occupent le devant de la scène.
 Peano axiomatise l'arithmétique, puis les espaces vectoriels.
 La structure d'espace vectoriel et la structure d'algèbre sont approfondies par Artin en 1925, avec des corps de base autres que 

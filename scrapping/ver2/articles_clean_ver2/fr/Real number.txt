@@ -62,7 +62,8 @@ Deux sont particulièrement étudiés par les mathématiciens : les nombres rat
 La physique utilise les nombres réels dans l'expression des mesures pour deux raisons essentielles :
 En revanche, le physicien ne peut réaliser des mesures de précision infinie.
 La représentation numérique du résultat d'un calcul peut être approchée aussi précisément qu'il le souhaite par un nombre décimal.
-Dans l'état actuel de la physique, il est même théoriquement impossible[réf. nécessaire] de réaliser des mesures de précision infinie. C'est pourquoi, aussi bien pour des besoins expérimentaux que théoriques, si le physicien calcule les mesures dans ℝ, il exprime les résultats numériques sous forme de nombres décimaux.
+Dans l'état actuel de la physique, il est même théoriquement impossible[réf. nécessaire] de réaliser des mesures de précision infinie.
+C'est pourquoi, aussi bien pour des besoins expérimentaux que théoriques, si le physicien calcule les mesures dans ℝ, il exprime les résultats numériques sous forme de nombres décimaux.
 Ainsi le physicien utilise les propriétés des nombres réels qui permettent de donner un sens aux mesures qu'il réalise et offrent des théorèmes puissants pour démontrer ses théories.
 Pour les valeurs numériques, il se contente des nombres décimaux.
 Quand il mesure la distance que parcourt un point matériel sur un cercle complet, il utilise la valeur 
@@ -93,7 +94,8 @@ Toutes les fractions possèdent un développement décimal dans la mesure où ce
 La question se pose alors de savoir quel sens donner à un objet caractérisé par une suite de décimales non périodique.
 Par exemple, le nombre à développement décimal infini qui s'exprime comme
 Dans la deuxième moitié du XVIIe siècle, on assiste à un extraordinaire épanouissement des mathématiques dans le domaine du calcul des séries et des suites.
-Nicolaus Mercator, les Bernoulli, James Gregory, Gottfried Wilhelm Leibniz, et d'autres travaillent sur des séries qui semblent converger mais dont la limite n'est pas rationnelle. C'est le cas par exemple :
+Nicolaus Mercator, les Bernoulli, James Gregory, Gottfried Wilhelm Leibniz, et d'autres travaillent sur des séries qui semblent converger mais dont la limite n'est pas rationnelle.
+C'est le cas par exemple :
 Pire, Liouville en 1844, prouve l'existence de nombres transcendants c'est-à-dire non racine d'un polynôme à coefficients entiers.
 Il ne suffit donc pas de compléter les rationnels en y ajoutant les nombres algébriques pour obtenir l'ensemble de tous les nombres.
 Isaac Newton.
@@ -105,7 +107,8 @@ Une des raisons de cette renommée est la résolution d'une vieille question, à
 Or le calcul infinitésimal ne peut se démontrer rigoureusement dans l'ensemble des nombres rationnels.
 Si les calculs sont justes, ils sont exprimés dans un langage d'une grande complexité et les preuves procèdent plus de l'intuition géométrique que d'une explicitation rigoureuse au sens de notre époque.
 L'impossibilité de la construction de l'analyse dans l'ensemble des fractions réside dans le fait que cette branche des mathématiques se fonde sur l'analyse des infiniment petits.
-Or, on peut comparer les nombres rationnels à une infinité de petits grains de sable (de taille infiniment petite) sur la droite réelle laissant infiniment plus de trous que de matière. L'analyse ne peut se contenter d'un tel support.
+Or, on peut comparer les nombres rationnels à une infinité de petits grains de sable (de taille infiniment petite) sur la droite réelle laissant infiniment plus de trous que de matière.
+L'analyse ne peut se contenter d'un tel support.
 Elle demande pour support un espace complet.
 Le mot est ici utilisé dans un double sens, le sens intuitif qui signifie que les petits trous en nombre infini doivent être bouchés et le sens que les mathématiciens donnent aujourd'hui plus abstrait mais rigoureusement formalisé.
 Cette notion est tellement importante qu'elle deviendra à l'aube du XXe siècle une large branche des mathématiques appelée topologie.
@@ -151,9 +154,11 @@ Au Ve siècle av. J.-C., les atomistes ne croient pas seulement que la nature 
 Les synéchistes quant à eux clament que tout est connecté, continu.
 Démocrite est un tenant d'une nature faite d'atomes intercalés de vide, tandis que Eudoxe le contredit, faisant de ses travaux certains des plus anciens précurseurs de l'analyse.
 Ceux-ci évoluent plus tard en ce que l'on connaît sous le nom de géométrie euclidienne.
-Encore au XVIIe siècle, des mathématiciens énonçaient qu'une fonction continue est en fait constituée de lignes droites infiniment petites, c'est-à-dire infinitésimales. C'est ainsi que le concept d'infiniment petit, vu dans l'optique atomiste, peut promouvoir cette façon de concevoir la nature.
+Encore au XVIIe siècle, des mathématiciens énonçaient qu'une fonction continue est en fait constituée de lignes droites infiniment petites, c'est-à-dire infinitésimales.
+C'est ainsi que le concept d'infiniment petit, vu dans l'optique atomiste, peut promouvoir cette façon de concevoir la nature.
 La question d'infini est donc centrale à la compréhension de la continuité et des nombres réels.
-Les paradoxes de Zénon illustrent la contre-intuitivité de la notion d'infini. L'un des plus connus est celui de la flèche, dans lequel on imagine une flèche en vol. À chaque instant, la flèche se trouve à une position précise et si l'instant est trop court, alors la flèche n'a pas le temps de se déplacer et reste au repos pendant cet instant.
+Les paradoxes de Zénon illustrent la contre-intuitivité de la notion d'infini.
+L'un des plus connus est celui de la flèche, dans lequel on imagine une flèche en vol. À chaque instant, la flèche se trouve à une position précise et si l'instant est trop court, alors la flèche n'a pas le temps de se déplacer et reste au repos pendant cet instant.
 Les instants suivants, elle reste immobile pour la même raison.
 La flèche est toujours immobile et ne peut pas se déplacer : le mouvement est impossible.
 Pour résoudre ce paradoxe, il faut additionner ces infiniment petits un nombre infini de fois, par la méthode de la limite, découverte au cours de l'évolution de l'analyse.
@@ -169,11 +174,14 @@ On peut caractériser brièvement l'ensemble des nombres réels, que l'on note e
 Une approche axiomatique consiste à caractériser un concept par une série de définitions.
 Ce point de vue, dont Hilbert est le précurseur dans son formalisme moderne, s'est révélé extrêmement fécond au XXe siècle.
 Des notions comme la topologie, la théorie de la mesure, ou les probabilités se définissent maintenant par une axiomatique.
-Une approche axiomatique suppose une compréhension parfaite de la structure en question et permet une démonstration des théorèmes uniquement à partir de ces définitions. C'est la raison pour laquelle de bonnes définitions peuvent en mathématiques s'avérer si puissantes.
+Une approche axiomatique suppose une compréhension parfaite de la structure en question et permet une démonstration des théorèmes uniquement à partir de ces définitions.
+C'est la raison pour laquelle de bonnes définitions peuvent en mathématiques s'avérer si puissantes.
 Une définition axiomatique de ℝ ne montre néanmoins pas qu'un tel ensemble existe.
 Il apparaît alors nécessaire de construire cette structure (voir l'article Construction des nombres réels).
 On dispose de plusieurs définitions axiomatiques équivalentes :
-La définition 1 est présentée en début de section. L'équivalence entre les définitions 2 et 3 est démontrée dans l'article Construction des nombres réels. L'équivalence entre les définitions 3 et 4 est essentiellement un résultat sur les ensembles ordonnés (voir l'article Topologie de l'ordre).
+La définition 1 est présentée en début de section.
+L'équivalence entre les définitions 2 et 3 est démontrée dans l'article Construction des nombres réels.
+L'équivalence entre les définitions 3 et 4 est essentiellement un résultat sur les ensembles ordonnés (voir l'article Topologie de l'ordre).
 L'unicité est à isomorphisme (unique) près, c'est-à-dire que si K est un corps totalement ordonné vérifiant les mêmes hypothèses, alors il existe un (unique) isomorphisme strictement croissant de K dans ℝ.
 Détaillons la définition 2 :
 Cette section est essentiellement technique.
@@ -181,7 +189,8 @@ Elle traite des propriétés essentielles et élémentaires pour un travail anal
 La propriété suivante peut se déduire du fait que ℝ est archimédien.
 Les autres propriétés sont des conséquences de la propriété de la borne supérieure.
 Il existe un ensemble de fonctions particulièrement intéressantes, les polynômes.
-Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits. L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b).
+Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits.
+L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b).
 Cette propriété dépend du corps sur lequel on construit ces polynômes.
 Par exemple sur le corps des rationnels, quel que soit n entier supérieur ou égal à 2, il existe des polynômes de degré n irréductibles, c'est-à-dire que l'on ne peut pas les exprimer sous forme de produit de polynômes de degrés plus petits.
 Pour les nombres réels, on démontre que le plus grand degré d'un polynôme irréductible est égal à deux.
@@ -195,7 +204,8 @@ Deux approches utilisant deux concepts différents sont possibles.
 L'élégance favorise la base axiomatique la plus faible.
 Au XXe siècle un travail de reformulation générale des mathématiques est entrepris par l'association Bourbaki et se traduit par la rédaction d'un ouvrage appelé Éléments de mathématique.
 Cet ouvrage traite, de manière rigoureuse, d'une vaste partie des mathématiques actuelles.
-Pour cette raison, les Éléments développent et démontrent les propriétés de l'ensemble des réels à partir de la topologie. C'est le choix que nous suivrons ici.
+Pour cette raison, les Éléments développent et démontrent les propriétés de l'ensemble des réels à partir de la topologie.
+C'est le choix que nous suivrons ici.
 Combien y a-t-il de nombres réels ? Une infinité, mais laquelle ? Deux ensembles ont même cardinal (intuitivement : même « nombre d'éléments ») s'ils sont équipotents.
 Par exemple les ensembles ℕ, ℤ, ℚ ou ℚ, bien qu'emboîtés et contenant même chacun plusieurs « copies » du précédent, ont même « taille » : c'est le cardinal des ensembles dénombrables, noté ℵ₀. Georg Cantor a montré qu'il existe des cardinaux infinis strictement plus grands en fournissant, par son argument diagonal, une preuve que ℝ n'est pas dénombrable : voir l'article Argument de la diagonale de Cantor.
 En voici une autre.

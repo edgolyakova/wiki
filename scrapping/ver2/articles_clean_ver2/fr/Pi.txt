@@ -231,7 +231,8 @@ puis à définir les relations de récurrence suivantes :
 et enfin à calculer ces valeurs jusqu’à ce que an et bn soient assez proches.
 On a alors une valeur approchée de π donnée par :
 En utilisant cet algorithme, seules 25 itérations sont nécessaires pour calculer 45 millions de décimales.
-Un algorithme similaire qui quadruple la précision à chaque étape a été trouvé par Jonathan et Peter Borwein. C'est grâce à ces méthodes que, de 1981 à 1999, Yasumasa Kanada et ses associés ont battu le record du nombre de décimales de π à onze reprises (plus de 2×1011 décimales en 1999).
+Un algorithme similaire qui quadruple la précision à chaque étape a été trouvé par Jonathan et Peter Borwein.
+C'est grâce à ces méthodes que, de 1981 à 1999, Yasumasa Kanada et ses associés ont battu le record du nombre de décimales de π à onze reprises (plus de 2×1011 décimales en 1999).
 En 1997, la formule BBP, découverte par Simon Plouffe, a fait de nouveau progresser la connaissance de π. La formule,
 16
 est remarquable car elle permet de calculer n’importe quel chiffre de l’écriture de π en base hexadécimale ou binaire, sans calculer les précédents.

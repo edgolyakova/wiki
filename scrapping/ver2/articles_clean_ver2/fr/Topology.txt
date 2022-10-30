@@ -42,9 +42,11 @@ La notion d'ensemble compact, en germe dès 1900, se développa avec les travaux
 Aucun des vingt-trois problèmes de Hilbert ne portait sur la topologie, encore en germe au début du XXe siècle.
 La conjecture de Poincaré est mise à l’honneur parmi les sept problèmes du prix du millénaire en 2000. Ce problème sera le premier à être démontré complètement par Perelman au début du XXIe siècle à l’aide de la conjecture de géométrisation de Thurston.
 Le concept central en topologie est la notion de limite.
-Prenons l'exemple d'une surface fermée, un disque par exemple. D'un strict point de vue ensembliste, il y a les points qui sont dans le disque et ceux qui ne sont pas dedans.
+Prenons l'exemple d'une surface fermée, un disque par exemple.
+D'un strict point de vue ensembliste, il y a les points qui sont dans le disque et ceux qui ne sont pas dedans.
 Pourtant, ce point de vue n'est pas satisfaisant géométriquement.
-Les points qui sont sur le cercle délimitant le disque ont un statut particulier, ils sont à la limite. D'ailleurs, dans la définition d'un disque, on a un choix à faire : considère-t-on l'ensemble des points dont la distance au centre est inférieure ou égale au rayon ou considère-t-on l'ensemble des points dont la distance au centre est strictement inférieure au rayon ? Dans le premier cas, on dit que le disque est fermé, dans le second cas, on dira que le disque est ouvert.
+Les points qui sont sur le cercle délimitant le disque ont un statut particulier, ils sont à la limite.
+D'ailleurs, dans la définition d'un disque, on a un choix à faire : considère-t-on l'ensemble des points dont la distance au centre est inférieure ou égale au rayon ou considère-t-on l'ensemble des points dont la distance au centre est strictement inférieure au rayon ? Dans le premier cas, on dit que le disque est fermé, dans le second cas, on dira que le disque est ouvert.
 Plus généralement, on dira qu'une surface est fermée lorsqu'elle contient tous ses points limites.
 On dira qu'une surface est ouverte si pour chacun de ses points il existe un disque centré en ce point qui est inclus dans cette surface.
 Cette idée de limite est très visuelle.
@@ -61,6 +63,7 @@ Pour des raisons techniques, il est équivalent et plus simple de définir direc
 La notion de limite n'est pas seulement statique mais aussi dynamique.
 La topologie permet d'appréhender les limites de fonctions ou de suites.
 Regardons la suite des inverses des nombres entiers à partir de 1 : 1/1, 1/2, 1/3, 1/4, … , 1/n, … À la limite, cette suite va tendre vers 0. Cela rejoint plus ou moins le fait que 0 est un point limite de l'ensemble des 1/n.
-Il est important de noter que la plupart des notions de topologie, notamment la continuité sont des conséquences de la notion de limite. C'est le cas notamment de la notion de dérivée qui se conçoit comme limite du taux d’accroissement, de la tangente qui est la limite des cordes.
+Il est important de noter que la plupart des notions de topologie, notamment la continuité sont des conséquences de la notion de limite.
+C'est le cas notamment de la notion de dérivée qui se conçoit comme limite du taux d’accroissement, de la tangente qui est la limite des cordes.
 La topologie est donc une théorie unificatrice : elle explique avec peu d'axiomes initiaux un grand nombre de phénomènes.
 Sur les autres projets Wikimedia :

@@ -44,19 +44,23 @@ Les équations polynomiales sont de la forme P(X) = 0, où P est un polynôme.
 Des méthodes de transformation et de changement de variable permettent de venir à bout des plus simples.
 Les équations linéaires sont de la forme a(x) + b = 0, où a est une application linéaire et b un vecteur.
 On utilise pour les résoudre des techniques algorithmiques ou géométriques, issues de l'algèbre linéaire ou de l'analyse.
-Modifier le domaine de définition de la variable peut changer considérablement la nature de l'équation. L'algèbre étudie également les équations diophantiennes, équations dont les coefficients et les solutions sont des entiers.
+Modifier le domaine de définition de la variable peut changer considérablement la nature de l'équation.
+L'algèbre étudie également les équations diophantiennes, équations dont les coefficients et les solutions sont des entiers.
 Les techniques utilisées sont différentes et essentiellement issues de l'arithmétique.
 Ces équations sont en général difficiles, on cherche souvent uniquement à déterminer l'existence ou l'absence de solution et, si elles existent, leur nombre.
-La géométrie utilise les équations pour décrire et caractériser des figures. L'objectif est encore différent des cas précédents, l'équation est utilisée pour mettre en évidence des propriétés géométriques.
+La géométrie utilise les équations pour décrire et caractériser des figures.
+L'objectif est encore différent des cas précédents, l'équation est utilisée pour mettre en évidence des propriétés géométriques.
 Il existe, dans ce contexte, deux grandes familles d'équations, les cartésiennes et les paramétriques.
 L'analyse étudie des équations du type f(x) = 0, où f est une fonction ayant certaines propriétés comme la continuité, la dérivabilité ou encore le fait d'être contractante.
-Des techniques permettent de construire des suites convergeant vers une solution de l'équation. L'objectif est de pouvoir approcher la solution aussi précisément que possible.
+Des techniques permettent de construire des suites convergeant vers une solution de l'équation.
+L'objectif est de pouvoir approcher la solution aussi précisément que possible.
 Un système dynamique est défini par une équation dont les solutions sont, soit des suites, soit des fonctions d'une ou plusieurs variables.
 Il existe deux questions centrales : l'état initial et le comportement asymptotique.
 Pour chaque état initial admissible, par exemple la valeur de la suite ou de la fonction en zéro, l'équation admet une unique solution.
 Parfois, une petite modification de l'état initial modifie peu la solution.
 Ce n'est pas toujours le cas, cette sensibilité à la condition initiale est l'objet de la première question.
-Le comportement limite ou encore asymptotique d'une solution correspond à la forme de la solution quand la variable tend vers l'infini, ce comportement est l'objet de la deuxième question. S'il ne diverge pas, il peut, soit tendre vers une valeur donnée, soit s'approcher d'un comportement cyclique (une fonction périodique ou une suite parcourant toujours un même ensemble fini de valeurs et dans le même ordre), soit avoir un comportement chaotique, semblant évoluer au gré du hasard, même si la solution est par définition déterministe.
+Le comportement limite ou encore asymptotique d'une solution correspond à la forme de la solution quand la variable tend vers l'infini, ce comportement est l'objet de la deuxième question.
+S'il ne diverge pas, il peut, soit tendre vers une valeur donnée, soit s'approcher d'un comportement cyclique (une fonction périodique ou une suite parcourant toujours un même ensemble fini de valeurs et dans le même ordre), soit avoir un comportement chaotique, semblant évoluer au gré du hasard, même si la solution est par définition déterministe.
 Dans l'exemple, la formulation sous forme d'équation, c'est-à-dire l'égalité , est équivalente à la question posée. Y répondre revient à déterminer l'unique valeur que doit prendre l'inconnue x pour que l'égalité définissant l'équation soit vraie.
 Le maniement de l'inconnue permet de résoudre quelques équations, comme celle présentée ici.
 Cette vision est source d'une autre manière de définir une équation.
@@ -75,20 +79,25 @@ Pour traiter le dernier cas, on considère la fonction g–1(x) qui à x associe
 Une manière globale de résoudre ces trois questions est de faire appel à une lettre a qui représente un nombre quelconque.
 Les trois équations précédentes correspondent à la suivante, si a est égal à 1, –2 ou encore à –1 :
 L'équation ci-contre est dite « équation paramétrée » et la lettre a désigne le « paramètre ». Son usage permet d'étudier les équations par familles.
-Les questions que soulève l'étude d'une équation dépendent de sa nature. À l'image de l'équation précédente, certaines sont définies à l'aide d'une fonction f : ℝ  ℝ, c'est-à-dire de l'ensemble des nombres réels dans lui-même. L'équation s'écrit f(x) = 0 (plus généralement, une équation de la forme g(x)=h(x) sera ramenée à la forme f(x) = 0 en posant f=g-h).
+Les questions que soulève l'étude d'une équation dépendent de sa nature. À l'image de l'équation précédente, certaines sont définies à l'aide d'une fonction f : ℝ  ℝ, c'est-à-dire de l'ensemble des nombres réels dans lui-même.
+L'équation s'écrit f(x) = 0 (plus généralement, une équation de la forme g(x)=h(x) sera ramenée à la forme f(x) = 0 en posant f=g-h).
 On commence parfois l'étude par établir l'existence ou non de solution à l'équation.
 Le nombre de solutions est donnée par l'étude de la fonction f, ce cas est étudié dans le paragraphe sur les zéros d'une fonction.
-Parfois, il est plus simple de commencer par étudier les propriétés de la ou des éventuelles solutions, sans se préoccuper initialement de leur existence. C'est le cas pour le problème isopérimétrique du triangle.
+Parfois, il est plus simple de commencer par étudier les propriétés de la ou des éventuelles solutions, sans se préoccuper initialement de leur existence.
+C'est le cas pour le problème isopérimétrique du triangle.
 La question revient à trouver le triangle de périmètre donné (on prend ici la valeur 3) de plus grande aire possible.
 Si T désigne l'inconnue, ici un triangle de périmètre 3, S(T) la fonction qui à un triangle associe son aire et m la borne supérieure des surfaces des triangles de périmètre 3, la traduction sous forme d'équation du problème s'écrit :
 Dès l'antiquité, les mathématiciens savent que l'unique réponse possible est le triangle équilatéral.
-En revanche, établir l'existence d'une solution est plus technique et fait appel à des outils inconnus jusqu'au XVIIIe siècle. L'existence d'une solution est intimement liée à l'ensemble dans lequel on recherche cette solution.
+En revanche, établir l'existence d'une solution est plus technique et fait appel à des outils inconnus jusqu'au XVIIIe siècle.
+L'existence d'une solution est intimement liée à l'ensemble dans lequel on recherche cette solution.
 Si, dans l'exemple choisi, cet ensemble est étendu à celui des polygones de périmètre 3, l'équation n'admet plus de solution.
 Pour établir ce résultat, on démontre dans un premier temps qu'une éventuelle solution serait nécessairement un polygone régulier.
 Or plus le nombre de côtés d'un polygone régulier de périmètre donné augmente, plus son aire croît ; ce qui montre l'absence de solution, car aucun polygone régulier n'est d'aire maximale.
-La forme d'une solution dépend des besoins. L'équation définissant le nombre d'or φ est : X2 – X – 1 = 0. Pour un architecte, la forme la plus pragmatique est une approximation décimale comme 1,618. En revanche, si l'objectif est d'établir la formule reliant la suite de Fibonacci (un) avec φ :
+La forme d'une solution dépend des besoins.
+L'équation définissant le nombre d'or φ est : X2 – X – 1 = 0. Pour un architecte, la forme la plus pragmatique est une approximation décimale comme 1,618. En revanche, si l'objectif est d'établir la formule reliant la suite de Fibonacci (un) avec φ :
 Une forme exacte comme (1 + √5)/2 est indispensable.
-Comme le nombre d'or est irrationnel, il ne peut y avoir d'expression exacte sans l'aide d'une fonction auxiliaire comme la racine carrée, car les quatre opérations et les nombres entiers n'expriment que des rationnels. L'approximation de solutions fait l'objet de vastes études, qui entrent dans un domaine des mathématiques appelé analyse numérique.
+Comme le nombre d'or est irrationnel, il ne peut y avoir d'expression exacte sans l'aide d'une fonction auxiliaire comme la racine carrée, car les quatre opérations et les nombres entiers n'expriment que des rationnels.
+L'approximation de solutions fait l'objet de vastes études, qui entrent dans un domaine des mathématiques appelé analyse numérique.
 La première théorie des équations ne concerne que les équations polynomiales, c'est-à-dire de la forme P(X) = 0 où P est un polynôme.
 Elle est basée sur des transformations des membres de l'équation en appliquant les cinq opérations « classiques » (addition, multiplication, soustraction, division et extraction de racine) aux coefficients de l'équation comme à son inconnue.
 Si le degré du polynôme est égal à 2 et si les coefficients et les solutions recherchées sont réels, alors ces méthodes permettent de trouver les solutions, encore appelées racine (cf. l'article « Équation du second degré »). L'usage du changement de variable permet d'étendre la famille d'équations qui se résolvent, comme l'illustre l'exemple e2x – (ea + eb)ex + ea+b = 0 en posant X = ex.
@@ -114,7 +123,8 @@ Ce n'est pas l'algorithme le plus efficace : la méthode du pivot de Gauss est 
 Elle revient à isoler les n variables à l'aide d'une suite de substitutions.
 Cette méthode est ancienne ; on en trouve un équivalent dans le chapitre 8 du livre chinois de mathématiques intitulé Les Neuf Chapitres sur l'art mathématique et datant d'avant notre ère.
 Au XIIIe siècle, Qin Jiushao va plus loin et trouve comment résoudre un système linéaire avec des congruences comme coefficients, pour résoudre une question liée à un « programme de répartition de grains ».
-L'approche géométrique de l'équation linéaire offre des informations d'une autre nature. L'image d'une application linéaire a, c'est-à-dire l'ensemble des vecteurs qui admettent un antécédent par f forme un sous-espace vectoriel, comme l'est un plan dans un espace de dimension trois.
+L'approche géométrique de l'équation linéaire offre des informations d'une autre nature.
+L'image d'une application linéaire a, c'est-à-dire l'ensemble des vecteurs qui admettent un antécédent par f forme un sous-espace vectoriel, comme l'est un plan dans un espace de dimension trois.
 Le noyau de a, c'est-à-dire les vecteurs de l'ensemble de départ ayant pour image le vecteur nul, est aussi un sous-espace.
 Ces résultats montrent que l'ensemble des solutions forme un espace affine de direction le noyau de a.
 Le point de vue géométrique permet d'élaborer des algorithmes de résolution qui tiennent compte des spécificités de a. Dans certains cas particuliers, il existe des techniques qui permettent de trouver une solution plus rapidement qu'avec la méthode du pivot de Gauss.
@@ -138,7 +148,8 @@ Ce formalisme permet de déterminer les positions et les propriétés des foyers
 Avec cette approche, on obtient des équations dont l'objectif n'est pas l'expression des solutions au sens du paragraphe précédent.
 Un exemple est donné par un théorème de Thalès indiquant qu'un triangle est rectangle s'il possède un côté égal à un diamètre d'un cercle et un sommet opposé élément du cercle.
 Ce théorème est illustré sur la figure de droite.
-Si le repère est bien choisi, il est orthogonal et l'équation du cercle s'écrit : x2 + y2 = 1, les points A et C de la figure de droite ont pour coordonnées respectives (-1,0) et (1,0). Dire que AB est perpendiculaire à CB revient à dire que les vecteurs associés sont orthogonaux. L'équation du cercle permet de conclure la démonstration, en effet :
+Si le repère est bien choisi, il est orthogonal et l'équation du cercle s'écrit : x2 + y2 = 1, les points A et C de la figure de droite ont pour coordonnées respectives (-1,0) et (1,0). Dire que AB est perpendiculaire à CB revient à dire que les vecteurs associés sont orthogonaux.
+L'équation du cercle permet de conclure la démonstration, en effet :
 L'usage d'une équation permet de faire appel à un nouveau pan des mathématiques pour résoudre des questions de géométrie.
 Le repère cartésien transforme un problème de géométrie en un problème d'analyse, une fois les figures étudiées traduites en équations ; d'où le nom de géométrie analytique.
 Ce point de vue, mis en évidence par Descartes, enrichit et modifie la géométrie telle que la concevaient les mathématiciens de la Grèce antique.
@@ -163,17 +174,20 @@ Si le degré de l'équation augmente, la question devient beaucoup plus complexe
 Même une équation de degré 2 n'est en général pas simple (voir par exemple le théorème des deux carrés de Fermat ou l'équation de Pell-Fermat). À condition d'ajouter d'autres méthodes, comme celle de descente infinie et de nouveaux résultats comme le petit théorème de Fermat, il est possible de résoudre quelques cas particuliers.
 Le cas général de l'équation de degré 2 demande l'usage d'outils plus sophistiqués, comme ceux de la théorie algébrique des nombres.
 Les ensembles de nombres sont enrichis, on utilise les corps finis et les entiers algébriques, qui s'étudient, comme pour l'équation algébrique, à l'aide de la théorie de Galois.
-Si l'équation algébrique de degré 2 est essentiellement résolue par Al-Khwârizmi, un mathématicien arabe du VIIIe siècle, il faut attendre la fin du XIXe siècle pour que David Hilbert vienne à bout de son équivalent diophantien. L'étude de l'équation diophantienne est souvent suffisamment complexe pour se limiter à établir l'existence de solutions et, s'il en existe, à déterminer leur nombre.
+Si l'équation algébrique de degré 2 est essentiellement résolue par Al-Khwârizmi, un mathématicien arabe du VIIIe siècle, il faut attendre la fin du XIXe siècle pour que David Hilbert vienne à bout de son équivalent diophantien.
+L'étude de l'équation diophantienne est souvent suffisamment complexe pour se limiter à établir l'existence de solutions et, s'il en existe, à déterminer leur nombre.
 Un vaste domaine d'application des équations diophantiennes est l'informatique.
 Les outils issus de leurs études permettent de concevoir des codes correcteurs et sont à la base d'algorithmes en cryptologie.
 Il existe des équations diophantiennes qui s'écrivent simplement, mais qui demandent des temps de traitement prohibitifs pour les résoudre, elles sont à la base de codes secrets.
 Par exemple, l'équation n = xy, où n est un entier naturel fixé et où x et y sont les inconnues, n'est pas résoluble en pratique, si n est le produit de deux nombres premiers suffisamment grands.
 Cette équation est à la base du chiffrement RSA.
 Au lieu de se demander quels nombres sont solutions d'une équation donnée, on peut considérer le problème inverse : de quelles équations un nombre donné est-il solution ? Un nombre est dit rationnel s'il est solution d'une équation du premier degré à coefficients entiers.
-Il est dit algébrique s'il est solution d'une équation polynomiale à coefficients entiers. S'il n'est pas algébrique, il est dit transcendant.
+Il est dit algébrique s'il est solution d'une équation polynomiale à coefficients entiers.
+S'il n'est pas algébrique, il est dit transcendant.
 Ainsi, pour un nombre donné, l'objectif est de trouver les éventuelles équations polynomiales dont ce nombre est racine (voir « Polynôme minimal (théorie des corps) »).
 Par exemple pour √2, la question se pose de savoir s'il est possible de construire une équation du premier degré ayant cette valeur pour racine.
-Elle se résout simplement : si une telle équation existe, on en déduit l'expression 2a2 = b2, où a et b sont des nombres entiers. L'analyse de la décomposition en facteurs premiers montre que le terme de droite contient le facteur 2 un nombre pair de fois et celui de gauche un nombre impair.
+Elle se résout simplement : si une telle équation existe, on en déduit l'expression 2a2 = b2, où a et b sont des nombres entiers.
+L'analyse de la décomposition en facteurs premiers montre que le terme de droite contient le facteur 2 un nombre pair de fois et celui de gauche un nombre impair.
 Cette remarque démontre que √2 n'est pas un nombre rationnel.
 En revanche, il est par définition algébrique, car solution de l'équation X2 – 2 = 0.
 La même question pour le nombre π est plus délicate.
@@ -184,7 +198,8 @@ Elle clôt une vieille question, à savoir s'il est possible de construire à la
 Elle est impossible car toute construction de cette nature définit une surface d'aire égale à un nombre algébrique.
 Résoudre une équation diophantienne polynomiale n'est pas toujours possible avec les seuls outils de la théorie algébrique des nombres.
 Avec ce type de méthode, Ernst Kummer parvient à résoudre, au milieu du XIXe siècle, presque tous les cas inférieurs à 100 de la célèbre équation dénommée dernier théorème de Fermat, mais le cas général reste hors de portée.
-La géométrie, et plus précisément la géométrie algébrique, a été nécessaire pour conclure. L'équation du dernier théorème de Fermat s'écrit de la manière suivante : xn + yn = zn.
+La géométrie, et plus précisément la géométrie algébrique, a été nécessaire pour conclure.
+L'équation du dernier théorème de Fermat s'écrit de la manière suivante : xn + yn = zn.
 Quitte à étudier les solutions dans les nombres rationnels, on peut diviser par zn et écrire l'équation qn + rn = 1. Si q et r sont choisis dans l'ensemble des nombres complexes, noté ici ℂ, géométriquement, cette équation correspond à une figure de ℂ2, ou encore à une surface réelle dans un espace de dimension 4. Vue dans l'espace projectif de ℂ2, on obtient une surface réelle, plongée dans un espace compact dont la visualisation n'est pas intuitive.
 Il suffit de connaître les points rationnels de cette surface pour permettre de conclure sur les solutions du théorème de Fermat.
 La topologie offre des éléments de réponse pour cette équation.
@@ -252,7 +267,8 @@ Si (pk, vk) désigne le couple position et vitesse de la comète à la seconde 
 On obtient des suites définies par récurrence, caractéristique d'un système dynamique discret.
 Il est aussi possible de s'y prendre autrement.
 Une relation lie la position de la comète avec sa vitesse instantanée (que l'on appelle dérivée en mathématiques) et son accélération (ou dérivée seconde).
-Résoudre l'équation permet de trouver la trajectoire de notre planète. L'équation prend une forme de la nature suivante, appelée équation différentielle :
+Résoudre l'équation permet de trouver la trajectoire de notre planète.
+L'équation prend une forme de la nature suivante, appelée équation différentielle :
 Enfin, l'objectif peut être de déterminer l'état d'un objet qui ne se traduit non pas par un vecteur d'un espace de dimension finie, mais par une fonction, comme l'état d'une corde vibrante.
 On parle d'équation aux dérivées partielles.
 La lettre x désigne ici une fonction de la variable réelle et f une fonction de n + 1 variables réelles.
@@ -272,9 +288,11 @@ La fonction décrivant sa position dépend de deux paramètres, le temps et une 
 Trois variables sont nécessaires pour décrire une vague, deux décrivent la position d'un point de la surface et la troisième le temps.
 En physique quantique, la relation fondamentale de la dynamique se traduit par une équation d'onde qui nécessite quatre variables, trois pour l'espace et une pour le temps.
 Ce principe fondamental est appelée équation de Schrödinger.
-L'équation équivalente à celle du paragraphe précédent, pour une fonction x de plusieurs variables, porte le nom d'équation aux dérivées partielles. L'équivalent du problème de Cauchy s'exprime de manière plus complexe. la condition initiale est remplacée par les conditions aux limites.
+L'équation équivalente à celle du paragraphe précédent, pour une fonction x de plusieurs variables, porte le nom d'équation aux dérivées partielles.
+L'équivalent du problème de Cauchy s'exprime de manière plus complexe. la condition initiale est remplacée par les conditions aux limites.
 Dans certains cas on recherche comme solution une fonction définie sur Ωx[a, b] où Ω est un ouvert que l'on suppose borné, connexe et dont la frontière ∂Ω est régulière, [a, b] est un intervalle qui représente le temps.
-Les conditions aux limites s'expriment sous forme de deux contraintes. L'une correspond à la valeur ou la limite de la fonction sur ∂Ω×]a, b[. La fonction modélisant les mouvements d'une membrane de tambour est constante à la limite de la membrane, cette contrainte est appelée la condition aux limites de Dirichlet.
+Les conditions aux limites s'expriment sous forme de deux contraintes.
+L'une correspond à la valeur ou la limite de la fonction sur ∂Ω×]a, b[. La fonction modélisant les mouvements d'une membrane de tambour est constante à la limite de la membrane, cette contrainte est appelée la condition aux limites de Dirichlet.
 Les valeurs de la fonction sur Ωx{a} sont appelées la condition initiale ou donnée de Cauchy.
 En météorologie, la prévision numérique du temps consiste à modéliser les mouvements de l'atmosphère terrestre par les équations de Navier-Stokes.
 Une difficulté pratique est de déterminer précisément la donnée de Cauchy : il faudrait mesurer la température, la pression, le taux d'humidité etc en tout point de l'atmosphère.
@@ -310,17 +328,20 @@ Pour évaluer le poids de cette longueur, on utilise une remarque géométrique.
 Soit S une surface d'aire s, l'homothétie de rapport 2 appliquée à S, définit une nouvelle surface d'aire 22s. Si V est une figure géométrique de dimension 3 et de volume v, l'homothétie de rapport 2 définit une figure de volume 23v. L'exposant que l'on applique au rapport de l'homothétie indique la dimension de la figure, ce qui, d'une certaine manière permet une évaluation du poids de la figure, on parle de dimension de Hausdorff ou de dimension fractale.
 Cette technique peut être appliquée à la frontière de l'ensemble de Julia, sa dimension est génériquement différente de un : la frontière est dite fractale.
 La sensibilité à la condition initiale n'est pas l'unique question à résoudre pour élaborer une théorie générale des systèmes dynamiques.
-On souhaite aussi connaître le comportement limite du système, encore appelé comportement asymptotique, c'est-à-dire ce qu'il se passe une fois que l'on a attendu que le système se stabilise. S'il ne diverge pas, on peut classer son comportement en trois catégories, soit le système s'immobilise, soit il tend vers un cycle, soit vers encore autre chose qui, selon certaines définitions, est appelée chaos.
+On souhaite aussi connaître le comportement limite du système, encore appelé comportement asymptotique, c'est-à-dire ce qu'il se passe une fois que l'on a attendu que le système se stabilise.
+S'il ne diverge pas, on peut classer son comportement en trois catégories, soit le système s'immobilise, soit il tend vers un cycle, soit vers encore autre chose qui, selon certaines définitions, est appelée chaos.
 Une fois encore, il est utile de considérer le système dynamique le plus simple possible, pour comprendre au moins qualitativement les mécanismes en jeu.
 Comme précédemment, on utilise une suite récurrente définie par un polynôme du second degré Pr, cette fois-ci réel à valeurs réelles.
-La suite logistique est définie par récurrence : xr,n+1 = r xr,n(1 – xr,n). L'un des charmes de cette suite est que son comportement est relativement indépendant de la condition initiale si elle est choisie entre 0 et 1.
+La suite logistique est définie par récurrence : xr,n+1 = r xr,n(1 – xr,n).
+L'un des charmes de cette suite est que son comportement est relativement indépendant de la condition initiale si elle est choisie entre 0 et 1.
 L'objectif est d'augmenter la valeur de r, initialement nulle et d'étudier ce comportement asymptotique.
 Si une fonction f possède un point fixe pf, de dérivée strictement comprise entre –1 et 1, en valeur absolue, et si la suite définie par xn+1 = f(xn) prend une valeur proche de ce point fixe, elle converge vers pf.
 Ce point est dit attracteur et la zone des valeurs initiales dont les suites convergent vers ce point est appelée bassin d'attraction.
 Pour une suite logistique le bassin d'attraction principal contient toujours ]0, 1[, à un ensemble négligeable près, quelle que soit la valeur de l'attracteur.
 La suite semble être attirée, comme par un aimant vers cet attracteur.
 Si r est compris entre 0 et 3, l'attracteur est un point et la suite converge. À partir de la valeur 3, le polynôme Pr ne possède plus de point fixe, mais le polynôme composé avec lui-même, en possède un, si r est suffisamment petit.
-Le comportement asymptotique de la suite est une oscillation entre les deux points fixes attractifs de Pr2. La valeur 3 de r est appelée une bifurcation. L'attracteur devient un ensemble à deux éléments, illustré sur la figure de droite.
+Le comportement asymptotique de la suite est une oscillation entre les deux points fixes attractifs de Pr2. La valeur 3 de r est appelée une bifurcation.
+L'attracteur devient un ensemble à deux éléments, illustré sur la figure de droite.
 Au point 1 + √6, une nouvelle bifurcation se produit, l'attracteur possède alors 4 points.
 Le cardinal de l'attracteur augmente de plus en plus en fonction de r par des doublements, jusqu'à atteindre une valeur infinie pour r égale à μ, qui se situe aux alentours de 3,57.
 Il devient nécessaire de préciser ce qu'on entend par « attracteur » : ce sera l'intersection des ensembles An où An est l'adhérence des points x k pour k supérieur à n. Dans le cas de la suite logistique et à l'exception d'un ensemble de mesure nulle, l'attracteur est indépendant de la condition initiale.

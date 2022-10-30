@@ -34,9 +34,11 @@ déplacer vers la barre latérale
 masquer
 Traditionnellement, la théorie des nombres est une branche des mathématiques qui s'occupe des propriétés des nombres entiers (qu'ils soient entiers naturels ou entiers relatifs).
 Plus généralement, le champ d'étude de cette théorie concerne une large classe de problèmes qui proviennent naturellement de l'étude des entiers.
-La théorie des nombres occupe une place particulière en mathématiques, à la fois par ses connexions avec de nombreux autres domaines, et par la fascination qu'exercent ses théorèmes et ses problèmes ouverts, dont les énoncés sont souvent faciles à comprendre, même pour les non-mathématiciens. C'est ce qu'exprime la citation suivante, de Jürgen Neukirch :
+La théorie des nombres occupe une place particulière en mathématiques, à la fois par ses connexions avec de nombreux autres domaines, et par la fascination qu'exercent ses théorèmes et ses problèmes ouverts, dont les énoncés sont souvent faciles à comprendre, même pour les non-mathématiciens.
+C'est ce qu'exprime la citation suivante, de Jürgen Neukirch :
 « La théorie des nombres occupe parmi les disciplines mathématiques une position idéalisée analogue à celle qu'occupent les mathématiques elles-mêmes parmi les autres sciences. »
-Le terme « arithmétique » est aussi utilisé pour faire référence à la théorie des nombres. C'est un terme assez ancien, qui n'est plus aussi populaire que par le passé ; pour éviter des confusions, on désignait aussi parfois, jusqu'au début du vingtième siècle, la théorie des nombres par le terme « arithmétique supérieure ». Néanmoins, l'adjectif arithmétique reste assez répandu, en particulier pour désigner des champs mathématiques (géométrie algébrique arithmétique, arithmétique des courbes et surfaces elliptiques, etc.), où la restriction des questions et des solutions aux entiers, ou à certaines de leurs extensions, joue un rôle déterminant.
+Le terme « arithmétique » est aussi utilisé pour faire référence à la théorie des nombres.
+C'est un terme assez ancien, qui n'est plus aussi populaire que par le passé ; pour éviter des confusions, on désignait aussi parfois, jusqu'au début du vingtième siècle, la théorie des nombres par le terme « arithmétique supérieure ». Néanmoins, l'adjectif arithmétique reste assez répandu, en particulier pour désigner des champs mathématiques (géométrie algébrique arithmétique, arithmétique des courbes et surfaces elliptiques, etc.), où la restriction des questions et des solutions aux entiers, ou à certaines de leurs extensions, joue un rôle déterminant.
 Ce sens du terme arithmétique ne doit pas être confondu avec celui utilisé en logique pour l'étude des systèmes formels axiomatisant les entiers, comme dans l'arithmétique de Peano.
 La théorie des nombres est divisée en plusieurs champs d'étude en fonction des méthodes utilisées et des questions traitées.
 Le terme élémentaire désigne généralement une méthode qui n'use pas d'analyse complexe.
@@ -62,10 +64,12 @@ Les fondations de cette branche telle que nous la connaissons, ont été établi
 Les corps sont souvent étudiés comme extensions d'autres corps plus petits: un corps L est dit être une extension d'un corps K si L contient K. La classification des extensions abéliennes a fait l'objet du programme de théorie des corps de classes, initié à la fin du XIXe siècle (en partie par Kronecker et Eisenstein) et réalisé en grande partie en 1900-1950.
 La théorie d'Iwasawa est un exemple de domaine de recherche actif en théorie algébrique des nombres.
 Le programme de Langlands, l'un des principaux programme de recherche actuels à grande échelle en mathématiques, est parfois décrit comme une tentative de généraliser la théorie des corps de classes aux extensions non abéliennes.
-Le problème central de la géométrie diophantienne est de déterminer quand une équation diophantienne a des solutions, et si oui, combien. L'approche adoptée est de considérer les solutions d'une équation comme un objet géométrique.
+Le problème central de la géométrie diophantienne est de déterminer quand une équation diophantienne a des solutions, et si oui, combien.
+L'approche adoptée est de considérer les solutions d'une équation comme un objet géométrique.
 Par exemple, une équation à deux variables définit une courbe dans le plan.
 Plus généralement, une équation, ou un système d'équations, à deux ou plusieurs variables définit une courbe, une surface, etc., dans un espace à n dimensions.
-En géométrie diophantienne, on se demande s'il existe des points rationnels (points dont toutes les coordonnées sont rationnelles) ou des points entiers (points dont toutes les coordonnées sont des entiers) sur la courbe ou la surface. S'il y a de tels points, l'étape suivante consiste à demander combien il y en a et comment ils sont répartis.
+En géométrie diophantienne, on se demande s'il existe des points rationnels (points dont toutes les coordonnées sont rationnelles) ou des points entiers (points dont toutes les coordonnées sont des entiers) sur la courbe ou la surface.
+S'il y a de tels points, l'étape suivante consiste à demander combien il y en a et comment ils sont répartis.
 Une question fondamentale dans cette direction est la suivante : existe-t-il un nombre fini ou infini de points rationnels sur une courbe (ou surface) donnée ? Qu'en est-il des points entiers ?
 Un exemple serait l'équation de Pythagore 
 ; nous voudrions étudier ses solutions rationnelles, c'est-à-dire ses solutions 
@@ -85,7 +89,8 @@ est un nombre algébrique.
 Si 
 ne peut pas être bien approximé, alors certaines équations n'ont pas de solutions entières ou rationnelles.
 De plus, plusieurs concepts s'avèrent cruciaux à la fois en géométrie diophantienne et dans l'étude des approximations diophantiennes.
-Cette question est également d'un intérêt particulier en théorie des nombres transcendants : si un nombre peut être mieux approché que n'importe quel nombre algébrique, alors c'est un nombre transcendant. C'est par cet argument qu'il a été démontré que 
+Cette question est également d'un intérêt particulier en théorie des nombres transcendants : si un nombre peut être mieux approché que n'importe quel nombre algébrique, alors c'est un nombre transcendant.
+C'est par cet argument qu'il a été démontré que 
 et 
 sont transcendants.
 La géométrie diophantienne ne doit pas être confondue avec la géométrie des nombres, qui est une collection de méthodes graphiques pour répondre à certaines questions de la théorie algébrique des nombres.
@@ -123,7 +128,8 @@ Euclide a consacré une partie de ses Éléments aux nombres premiers et à la d
 En particulier, il a donné un algorithme pour calculer le plus grand commun diviseur de deux nombres (Éléments, Prop.
 VII.2) et la première preuve connue de l’existence d'une infinité des nombres premiers (Éléments, Prop.
 IX.20).
-Nous ne savons que très peu de choses sur Diophante d'Alexandrie ; il a probablement vécu au troisième siècle de notre ère, c'est-à-dire environ cinq cents ans après Euclide. L'Arithmetica est une collection de problèmes où la tâche est de trouver des solutions rationnelles à des équations polynomiales, généralement de la forme ou 
+Nous ne savons que très peu de choses sur Diophante d'Alexandrie ; il a probablement vécu au troisième siècle de notre ère, c'est-à-dire environ cinq cents ans après Euclide.
+L'Arithmetica est une collection de problèmes où la tâche est de trouver des solutions rationnelles à des équations polynomiales, généralement de la forme ou 
 ou 
 . Ainsi, de nos jours, on parle d'équations diophantiennes quand on parle d'équations polynomiales dont on doit trouver des solutions rationnelles ou entières.
 Tandis que Diophante s'intéressait surtout aux solutions rationnelles, il émettait des conjectures sur les entiers naturels, comme le fait que tout entier est la somme de quatre carrés.
@@ -135,7 +141,8 @@ pouvaient être résolues par une méthode qu'il a appelée kuṭṭaka ; c'est
 Une procédure générale (la méthode chakravala) pour résoudre l'équation de Pell-Fermat a été trouvée par Jayadeva (cité au XIe siècle, son travail est perdu) ; la première exposition survivante apparaît dans Bīja-gaṇita de Bhāskara II.
 Les mathématiques indiennes sont restées inconnues en Europe jusqu'à la fin du XVIIIe siècle.
 Le travail de Brahmagupta et Bhāskara a été traduit en anglais en 1817 par Henry Colebrooke.
-Au début du IXe siècle, le calife Al-Ma'mūn ordonna la traduction de nombreuses œuvres mathématiques grecques et d'au moins une œuvre sanscrite (le Sindhind, qui pourrait ou non être le Brāhmasphuṭasiddhānta de Brahmagupta). L'œuvre principale de Diophante, l'Arithmetica, a été traduite en arabe par Qusta ibn Luqa (820-912). Selon Roshdi Rashed, Alhazen, contemporain d'Al-Karaji, connaissait ce qui sera plus tard appelé le théorème de Wilson.
+Au début du IXe siècle, le calife Al-Ma'mūn ordonna la traduction de nombreuses œuvres mathématiques grecques et d'au moins une œuvre sanscrite (le Sindhind, qui pourrait ou non être le Brāhmasphuṭasiddhānta de Brahmagupta).
+L'œuvre principale de Diophante, l'Arithmetica, a été traduite en arabe par Qusta ibn Luqa (820-912). Selon Roshdi Rashed, Alhazen, contemporain d'Al-Karaji, connaissait ce qui sera plus tard appelé le théorème de Wilson.
 À part un traité sur les carrés en progression arithmétique par Fibonacci, aucun progrès en théorie des nombres ne fut effectuée en Europe de l'Ouest au Moyen Âge.
 Les choses ont commencé à changer en Europe à la fin de la Renaissance, grâce à une étude renouvelée des œuvres de l'Antiquité grecque.
 Pierre de Fermat (1601-1665) n'a jamais publié ses écrits ; en particulier, son travail sur la théorie des nombres est contenu presque entièrement dans des lettres aux mathématiciens et dans les notes et marges privées.

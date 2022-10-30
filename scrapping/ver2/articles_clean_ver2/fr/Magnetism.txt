@@ -110,7 +110,8 @@ Des trains à sustentation magnétiques utilisant les supraconducteurs sont actu
 Le champ magnétique est une grandeur ayant le caractère d'un champ vectoriel, c'est-à-dire caractérisée par la donnée d'une norme, d’une direction et d’un sens définis en tout point de l'espace, permettant de modéliser et de quantifier les effets magnétiques du courant électrique ou des matériaux magnétiques comme les aimants permanents.
 On peut le mettre en évidence à l'aide d'une aiguille aimantée, qui prend alors une direction déterminée. Le champ magnétique, au point de l'espace qu'occupe l'aiguille, est caractérisé par les propriétés suivantes :
 Il existe deux types de sources externes de champ magnétique :
-L’aimantation est une grandeur vectorielle qui caractérise à l'échelle macroscopique le comportement magnétique d'un échantillon de matière. C'est la somme des moments microscopiques orbitaux et des moments magnétiques de spin des électrons et des atomes.
+L’aimantation est une grandeur vectorielle qui caractérise à l'échelle macroscopique le comportement magnétique d'un échantillon de matière.
+C'est la somme des moments microscopiques orbitaux et des moments magnétiques de spin des électrons et des atomes.
 Elle se mesure en ampères par mètre (A/m ou A m−1), mais on donne parfois 
 qui se mesure en teslas, 
 étant la perméabilité du vide.
@@ -152,7 +153,8 @@ Lorsque le champ n’est plus appliqué, l’aimantation disparaît. Le diamagn�
 Quand on applique un champ magnétique, le flux magnétique passant à travers la surface décrite par la trajectoire fermée de l'électron est modifié. L'électron réagit selon le phénomène classique d'induction, ce qui induit un moment magnétique opposé et proportionnel au champ appliqué. C'est l'origine du diamagnétisme qui est un phénomène présent dans tous les matériaux mais qui peut être masqué par les autres phénomènes (en particulier paramagnétiques) dont l'effet est plus important.
 Cette description a ses limites.
 En effet, on a dû supposer que le rayon de l'orbite de l'électron était constant ; autrement le calcul donnerait une réponse magnétique nulle.
-Ainsi, il n'est pas possible d'ignorer l'aspect quantique de ce phénomène : en 1919, dans sa thèse de doctorat, J. H. van Leeuwen prouva qu'il était impossible d'expliquer le magnétisme uniquement à l'aide de l'électrodynamique de Maxwell et de la mécanique statistique classique. C'est l'essence du théorème de Bohr-van Leeuwen.
+Ainsi, il n'est pas possible d'ignorer l'aspect quantique de ce phénomène : en 1919, dans sa thèse de doctorat, J. H. van Leeuwen prouva qu'il était impossible d'expliquer le magnétisme uniquement à l'aide de l'électrodynamique de Maxwell et de la mécanique statistique classique.
+C'est l'essence du théorème de Bohr-van Leeuwen.
 Remarque : on emploie le terme de diamagnétisme parfait pour désigner le comportement des supraconducteurs qui créent en leur sein des courants induits surfaciques qui s'opposent à toute variation de champ magnétique et maintiennent un champ magnétique interne nul pour les supraconducteurs de type I. Cette propriété est utilisée pour produire la lévitation magnétique avec des supraconducteurs (de type II).
 Le paramagnétisme désigne en magnétisme le comportement d'un milieu matériel qui ne possède pas d'aimantation spontanée mais qui, sous l'effet d'un champ magnétique extérieur, acquiert une aimantation dirigée dans le même sens que ce champ d'excitation.
 Un matériau paramagnétique possède donc une susceptibilité magnétique de valeur positive (contrairement aux matériaux diamagnétiques), en général assez faible.
@@ -171,7 +173,8 @@ Le raisonnement précédent est donc semi-classique, et doit être complété pa
 Les matériaux ferromagnétiques sont des corps qui ont la capacité de s'aimanter sous l'effet d'un champ magnétique extérieur et de garder cette aimantation.
 Ils se distinguent des paramagnétiques qui ne conservent pas leur aimantation à champ nul.
 Il en existe deux sous catégories, à savoir les ferromagnétiques durs (qui sont utilisés pour fabriquer des aimants permanents) et les ferromagnétiques doux.
-Ces matériaux sont communément utilisés dans le monde de l'industrie, ainsi que dans la vie quotidienne. L'usage le plus commun est le « magnet » qui est un aimant permanent (un ferromagnétique dur) que l'on collectionne sur son réfrigérateur.
+Ces matériaux sont communément utilisés dans le monde de l'industrie, ainsi que dans la vie quotidienne.
+L'usage le plus commun est le « magnet » qui est un aimant permanent (un ferromagnétique dur) que l'on collectionne sur son réfrigérateur.
 L'aimantation rémanente est due à un ordre à l'échelle microscopique (défini par l'interaction d'échange d'Heisenberg) et par un ordre à l'échelle du matériau (paroi de Bloch, domaine de Weiss).
 En effet, lorsqu'un matériau est ferromagnétique ou ferrimagnétique, il est divisé en domaines, appelés domaines de Weiss, à l'intérieur desquels l'orientation magnétique est identique.
 Chaque domaine se comporte alors comme un aimant.
@@ -200,7 +203,8 @@ Les matériaux ferromagnétiques doux forment un sous-groupe des matériaux ferr
 La particularité des matériaux ferromagnétiques doux est que l'action de créer ou d’annuler l’aimantation dans le matériau nécessite moins d'énergie que pour les matériaux ferromagnétiques durs.
 Les ferromagnétiques doux sont utilisés dans les transformateurs, les électro-aimants ou dans toute application dans laquelle le matériau travaille à haute fréquence.
 Ils possèdent un champ coercitif très faible avec une très forte susceptibilité. C'est cette forte susceptibilité qui permet d'obtenir une forte induction à partir d'un faible champ extérieur et ainsi être utile dans les électro-aimants ou à la canalisation des lignes de champs.
-Un faible champ coercitif et une forte susceptibilité entrainent l'étroitesse du cycle d'hystérésis. L'aire de ce cycle représente l'énergie dissipée sous forme de chaleur lors d'un parcours complet du cycle, appelée « pertes magnétiques ».
+Un faible champ coercitif et une forte susceptibilité entrainent l'étroitesse du cycle d'hystérésis.
+L'aire de ce cycle représente l'énergie dissipée sous forme de chaleur lors d'un parcours complet du cycle, appelée « pertes magnétiques ».
 Les matériaux magnétiques doux sont utilisés pour réaliser des électroaimants (leur aimantation doit pouvoir facilement être annulée) ou des circuits magnétiques fonctionnant en régime alternatif (machines électriques, transformateurs).
 Les matériaux ferromagnétiques durs forment un sous groupe des matériaux ferromagnétiques.
 Ils possèdent une aimantation naturelle présente en absence de champ magnétique extérieur, ainsi qu'un champ coercitif et une rémanence élevés. Comme pour les autres matériaux ferromagnétiques, les ferromagnétiques durs ont la particularité de s’aimanter fortement en présence d’un champ magnétique extérieur.

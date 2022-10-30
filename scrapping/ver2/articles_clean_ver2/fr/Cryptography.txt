@@ -92,7 +92,8 @@ Les premiers algorithmes utilisés pour le chiffrement d'une information étaien
 Ils consistaient notamment au remplacement de caractères par d'autres.
 La confidentialité de l'algorithme de chiffrement était donc la pierre angulaire de ce système pour éviter un décryptage rapide.
 Exemples d'algorithmes de chiffrement faibles :
-Les algorithmes de chiffrement symétrique se fondent sur une même clé pour chiffrer et déchiffrer un message. L'un des problèmes de cette technique est que la clé, qui doit rester totalement confidentielle, doit être transmise au correspondant de façon sûre.
+Les algorithmes de chiffrement symétrique se fondent sur une même clé pour chiffrer et déchiffrer un message.
+L'un des problèmes de cette technique est que la clé, qui doit rester totalement confidentielle, doit être transmise au correspondant de façon sûre.
 La mise en œuvre peut s'avérer difficile, surtout avec un grand nombre de correspondants car il faut autant de clés que de correspondants.
 Quelques algorithmes de chiffrement symétrique très utilisés :
 Pour résoudre le problème de l'échange de clés, la cryptographie asymétrique a été mise au point dans les années 1970. Elle se base sur le principe de deux clés :
@@ -101,8 +102,10 @@ Ce dernier ne pourra être déchiffré qu'avec la clé privée, qui doit rester 
 Quelques algorithmes de cryptographie asymétrique très utilisés :
 Le principal inconvénient de RSA et des autres algorithmes à clés publiques est leur grande lenteur par rapport aux algorithmes à clés secrètes.
 RSA est par exemple 1000 fois plus lent que DES.
-En pratique, dans le cadre de la confidentialité, on s'en sert pour chiffrer un nombre aléatoire qui sert ensuite de clé secrète pour un algorithme de chiffrement symétrique. C'est le principe qu'utilisent des logiciels comme PGP par exemple.
-La cryptographie asymétrique est également utilisée pour assurer l'authenticité d'un message. L'empreinte du message est chiffrée à l'aide de la clé privée et est jointe au message.
+En pratique, dans le cadre de la confidentialité, on s'en sert pour chiffrer un nombre aléatoire qui sert ensuite de clé secrète pour un algorithme de chiffrement symétrique.
+C'est le principe qu'utilisent des logiciels comme PGP par exemple.
+La cryptographie asymétrique est également utilisée pour assurer l'authenticité d'un message.
+L'empreinte du message est chiffrée à l'aide de la clé privée et est jointe au message.
 Les destinataires déchiffrent ensuite le cryptogramme à l'aide de la clé publique et retrouvent normalement l'empreinte.
 Cela leur assure que l'émetteur est bien l'auteur du message.
 On parle alors de signature ou encore de scellement.

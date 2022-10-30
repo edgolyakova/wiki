@@ -28,10 +28,13 @@ déplacer vers la barre latérale
 masquer
 Pour les articles homonymes, voir Angle (homonymie) et Angles.
 En géométrie, la notion générale d'angle se décline en plusieurs concepts.
-Dans son sens ancien, l'angle est une figure plane, portion de plan délimitée par deux demi-droites. C'est ainsi qu'on parle des angles d'un polygone.
-Cependant, l'usage est maintenant d'employer le terme « secteur angulaire » pour une telle figure. L'angle peut désigner également une portion de l'espace délimitée par deux plans (angle dièdre).
+Dans son sens ancien, l'angle est une figure plane, portion de plan délimitée par deux demi-droites.
+C'est ainsi qu'on parle des angles d'un polygone.
+Cependant, l'usage est maintenant d'employer le terme « secteur angulaire » pour une telle figure.
+L'angle peut désigner également une portion de l'espace délimitée par deux plans (angle dièdre).
 La mesure de tels angles porte couramment mais abusivement le nom d'angle, elle aussi.
-En un sens plus abstrait, l'angle est une classe d'équivalence, c'est-à-dire un ensemble obtenu en assimilant entre eux tous les angles-figures identifiables par isométrie. L'une quelconque des figures identifiées est alors appelée représentant de l'angle.
+En un sens plus abstrait, l'angle est une classe d'équivalence, c'est-à-dire un ensemble obtenu en assimilant entre eux tous les angles-figures identifiables par isométrie.
+L'une quelconque des figures identifiées est alors appelée représentant de l'angle.
 Tous ces représentants ayant même mesure, on peut parler de mesure de l'angle abstrait.
 Il est possible de définir une notion d'angle orienté en géométrie euclidienne du plan, ainsi que d'étendre la notion d'angle au cadre des espaces vectoriels préhilbertiens ou des variétés riemanniennes.
 Il y a plusieurs sortes d'angles : Angle droit, Angle aigu et Angle obtus
@@ -82,7 +85,8 @@ l'angle géométrique associé au couple de demi-droites
 , on a (par symétrie par rapport à la bissectrice) : 
 , c'est-à-dire que cet angle ne dépend que de la paire 
 L'angle saillant et l'angle rentrant associés à une telle paire (voir supra) correspondent donc, avec cette nouvelle terminologie, à un même « angle géométrique », dont le représentant privilégié est l'angle saillant, (de mesure comprise entre 0 et 180°).
-On peut l'interpréter de plusieurs façons : divergence entre deux directions, directions des faces d'un objet (coin), direction visée par rapport au nord (angle donné par une boussole)… L'angle peut aussi s'interpréter comme l'ouverture du secteur angulaire. C'est la mesure de l'inclinaison d'une demi-droite par rapport à l'autre.
+On peut l'interpréter de plusieurs façons : divergence entre deux directions, directions des faces d'un objet (coin), direction visée par rapport au nord (angle donné par une boussole)… L'angle peut aussi s'interpréter comme l'ouverture du secteur angulaire.
+C'est la mesure de l'inclinaison d'une demi-droite par rapport à l'autre.
 Si une translation transforme 
 en 
 et 
@@ -103,7 +107,8 @@ La présentation des angles orientés dans un plan peut se faire de manière int
 La première approche consiste à voir l'angle comme la trace d'une rotation : la rotation qui envoie la demi-droite (Ox) sur la demi-droite (Oy) est en général différente de celle envoyant (Oy) sur (Ox).
 On considère alors comme distincts les angles (Ox, Oy) et (Oy, Ox) en signalant qu'ils ont même mesure mais des sens de parcours différents.
 Une autre approche consiste à confondre l'angle orienté et sa mesure.
-Cette démarche nécessite de définir une orientation préalable du plan pour pouvoir définir le sens dit positif. C'est ce type d'approche que l'on retrouve quand on définit la mesure de l'angle orienté d'un couple de vecteurs unitaires à l'aide de la longueur de l'arc de cercle orienté qu'il détermine sur un cercle unité.
+Cette démarche nécessite de définir une orientation préalable du plan pour pouvoir définir le sens dit positif.
+C'est ce type d'approche que l'on retrouve quand on définit la mesure de l'angle orienté d'un couple de vecteurs unitaires à l'aide de la longueur de l'arc de cercle orienté qu'il détermine sur un cercle unité.
 La dernière approche, plus formalisée consiste à voir un angle orienté comme une classe d'équivalence de couple de demi-droites vectorielles modulo les rotations planes, ou ce qui revient au même, comme des orbites de couples de demi-droites vectorielles par l'action de groupe des isométries positives.
 Par la suite seront présentées les approches par les longueurs d'arcs de cercle et comme classes d'équivalence.
 Par les mêmes techniques que ci-dessus, il revient au même, lorsqu'on parle d'angles, de considérer deux demi-droites de même origine, deux vecteurs non nuls, ou deux vecteurs unitaires.
@@ -170,5 +175,6 @@ On peut aussi considérer la notion voisine d'angle de deux axes, dans laquelle 
 Pour définir l'angle entre deux plans, ou angle dièdre, on considère l'angle que font leurs normales.
 Pour définir l'angle entre un plan et une droite, on considère l'angle α entre la droite et sa projection orthogonale sur le plan, ou encore l'angle complémentaire entre la droite et la normale au plan : on retranche l'angle β entre la droite et la normale au plan de l'angle droit (α = π/2 – β en radians).
 On définit également les angles solides : on prend un point (parfois appelé « point d'observation ») et une surface dans l'espace (la « surface observée »), l'angle solide est la portion de l'espace délimitée par le cône ayant pour sommet le point considéré et s'appuyant sur le contour de la surface.
-On mesure l'angle solide en calculant l'aire de la calotte découpée par le cône sur la sphère de rayon un et de centre le sommet du cône. L'unité de mesure d'angle solide est le stéradian (sr en abrégé), l'espace complet fait 4π sr.
+On mesure l'angle solide en calculant l'aire de la calotte découpée par le cône sur la sphère de rayon un et de centre le sommet du cône.
+L'unité de mesure d'angle solide est le stéradian (sr en abrégé), l'espace complet fait 4π sr.
 Sur les autres projets Wikimedia :
