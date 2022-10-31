@@ -58,10 +58,12 @@ La découverte de l'effet transistor vers 1947, puis la fabrication de circuits 
 L'usage considère les phénomènes impliquant des flux électroniques, comme l'arc électrique et l'effet corona et leurs applications, comme hors du champ de l'électronique.
 La situation de l'électronique au sein de l'électrotechnique — ensemble des applications de l'électricité — est imprécise.
 L'utilisation de semiconducteurs est parfois un critère, d'autres auteurs estiment que l'électrotechnique s'occupe du transfert de la puissance, tandis que l'électronique étudie la transmission, par l'électricité, de l'information.
-Cependant, l'étude de la transmission de l'information est largement indépendante de celle de l'électricité. Ses notions sont purement mathématiques.
+Cependant, l'étude de la transmission de l'information est largement indépendante de celle de l'électricité.
+Ses notions sont purement mathématiques.
 Elle communique avec l'électronique parce que celle-ci sert à convertir ces informations en signaux, mais n'a aucun besoin de connaître les lois physiques qui régissent l'électricité, déterminées dès le XIXe siècle.
 Seules la conception et la fabrication des composants électroniques peuvent mobiliser des resources scientifiques plus récentes.
-Chaque domaine a développé les méthodes et les modèles mathématiques adaptés à son activité. L'électronique et l'électrotechnique sont étroitement mêlées et ne connaissent aucune séparation institutionnelle.
+Chaque domaine a développé les méthodes et les modèles mathématiques adaptés à son activité.
+L'électronique et l'électrotechnique sont étroitement mêlées et ne connaissent aucune séparation institutionnelle.
 Un système électronique se décompose en deux parties :
 Le signal électrique est la tension électrique variable qui transporte l'information.
 La puissance correspondante est indifférente quand il s'agit de traitement du signal ; on la rend aussi faible que possible du moment que sa faiblesse ne compromet pas l'intégrité du signal.
@@ -111,7 +113,8 @@ En 1954, Bell dépose les premiers brevets pour le transistor à jonctions par d
 Bell est alors contraint par les autorités de céder des licences d'exploitation pour ses brevets de transistors.
 Parmi les acquéreurs, une compagnie japonaise qui deviendra Sony.
 Un nouveau venu, Texas Instruments produit le premier transistor au silicium.
-En 1959, Jean Hoerni, de Fairchild Semiconductor, met au point le procédé planar, qui permet la fabrication de plusieurs transistors sur le même substrat et sera ensuite constamment perfectionné. La même année, Bell Labs produit un transistor à effet de champ à grille métal-oxyde, selon l'idée initiale de Lilienfeld ; mais ce procédé ne sera optimisé industriellement que vers 1985.
+En 1959, Jean Hoerni, de Fairchild Semiconductor, met au point le procédé planar, qui permet la fabrication de plusieurs transistors sur le même substrat et sera ensuite constamment perfectionné.
+La même année, Bell Labs produit un transistor à effet de champ à grille métal-oxyde, selon l'idée initiale de Lilienfeld ; mais ce procédé ne sera optimisé industriellement que vers 1985.
 À partir de 1954, le transistor se diffuse dans le grand public avec la radio à transistors  portable qu'a lancée Sony : « le premier récepteur radio à transistor qui sera bientôt vendu en France en grande série fonctionnera plus de 500 heures avec 3 piles de lampe de poche ! » annonce un magazine.
 Le transistor va remplacer le tube dans presque toutes ses applications.
 En 1984, le Répertoire mondial des transistors contient plus de 27 000 références.
@@ -149,14 +152,16 @@ Le signal qui en sort est à la fois analogique et logique.
 Le procédé convertit ensuite dans le domaine numérique l'échantillonnage sur 1 bit à haute fréquence en signal numérique avec le nombre de bits et la fréquence d'échantillonnage requise.
 L'électronique numérique s'intéresse exclusivement à l'information pure, sans transport de puissance.
 Elle traite des signaux échantillonnés et dont l’espace de valeurs est discret.
-Le nombre de valeurs que peut prendre un échantillon est limité. Celles-ci sont codées par des nombres binaires.
+Le nombre de valeurs que peut prendre un échantillon est limité.
+Celles-ci sont codées par des nombres binaires.
 Tout signal numérique peut se réduire à une suite de valeurs binaires, avec seulement deux possibles, 0 ou 1. L’électronique numérique est utilisée en particulier dans les systèmes contenant un microprocesseur ou un microcontrôleur.
 Un ordinateur est constitué en majeure partie par de l’électronique numérique.
 Le traitement numérique du signal remplace de plus en plus le traitement analogique.
 Dans les applications grand public, cette évolution est particulièrement remarquable dans les domaines de l'audiovisuel : téléphonie, télévision, audio, vidéo.
 Les signaux dans les circuits logiques restent des grandeurs continues.
 Dans les circuits logiques, les grandeurs électriques peuvent prendre une infinité de valeurs entre le maximum et le minimum.
-Il faut envisager toutes ces valeurs et le temps de passer de l'une à l'autre pour garantir un niveau qui signifie 1 ou 0 sans ambiguïté. L'intégrité du signal, c'est-à-dire la garantie que le signal électrique correspond au signal logique, est un objectif majeur de l'électronique numérique, d'autant plus difficile à obtenir que la cadence de renouvellement des informations est élevée.
+Il faut envisager toutes ces valeurs et le temps de passer de l'une à l'autre pour garantir un niveau qui signifie 1 ou 0 sans ambiguïté.
+L'intégrité du signal, c'est-à-dire la garantie que le signal électrique correspond au signal logique, est un objectif majeur de l'électronique numérique, d'autant plus difficile à obtenir que la cadence de renouvellement des informations est élevée.
 L’électronique de puissance s'intéresse au contrôle ou à la transformation de quantités significatives d'énergie électrique.
 L’électronique de puissance a comme champ d’application l’électrotechnique domestique et industrielle, où elle remplace les anciennes solutions électromécaniques.
 Les questions de puissance et d'efficacité concernent aussi tous les dispositifs de l'électronique numérique, particulièrement les appareils autonomes, non reliés à une source d'énergie électrique.
@@ -186,7 +191,8 @@ Exemples de microsystèmes :
 La modélisation des propriétés électroniques d'un circuit se base sur les principes fondamentaux de l'électricité et de l'électromagnétisme (loi d'Ohm, théorème de Gauss, loi de Lenz-Faraday), les modèles de fonctionnement des matériaux semi-conducteurs (jonction P-N, effet transistor, effet d'avalanche), les outils mathématiques et statistiques (nombre complexe, transformée de Fourier, transformée en ondelettes, loi de Gauss).
 Les études liées aux signaux de haute fréquence font appel aux méthodes associées à l'analyse de la propagation des ondes (équations de Maxwell).
 L'étude des composants électroniques au niveau atomique intègre les résultats et méthodes associées à la physique quantique.
-La simulation de circuits électroniques par un modèle mathématique est un procédé très répandu et d'un niveau très avancé. Certains logiciels informatiques peuvent intégrer de nombreux paramètres, comme la température ou les champs électromagnétiques.
+La simulation de circuits électroniques par un modèle mathématique est un procédé très répandu et d'un niveau très avancé.
+Certains logiciels informatiques peuvent intégrer de nombreux paramètres, comme la température ou les champs électromagnétiques.
 Le modèle inclut le schéma fonctionnel et le placement des composants, le routage du signal.
 La conception de circuits intégrés complexes comprend des étapes intermédiaires, telles que la synthèse logique ou l'analyse des délais.
 Les composants électroniques programmables (microprocesseur, Circuit logique programmable, DSP) déplacent davantage encore la conception dans le domaine informatique : ils apportent la flexibilité et la baisse des coûts.

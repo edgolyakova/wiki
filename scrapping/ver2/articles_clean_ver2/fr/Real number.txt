@@ -54,7 +54,8 @@ Enfin, cet ensemble est caractérisé par Hilbert comme plus grand corps archim�
 Dans la droite réelle achevée les valeurs infinies ne satisfont plus les règles opératoires de corps, l'extension au corps des nombres complexes rend impossible la relation d'ordre total compatible, tandis que l'analyse non standard adjoint des nombres infiniment petits qui invalident le caractère archimédien.
 L'adjectif « réel » est utilisé pour qualifier des nombres dès le XVIIe siècle, mais il n'est explicitement défini par opposition aux nombres imaginaires qu'à la fin du XIXe siècle Il a aussi été opposé à « nombre formel » dans certains traités de théologie ou de philosophie de la même époque.
 Les nombres réels sont utilisés pour représenter n'importe quelle mesure physique telle que : le prix d'un produit, la durée entre deux événements, l'altitude (positive ou négative) d'un site géographique, la masse d'un atome ou la distance de la galaxie la plus proche.
-Ces mesures dépendent du choix d'une unité de mesure, et le résultat s'exprime comme le produit d'un nombre réel par une unité. Les nombres réels sont utilisés tous les jours, par exemple en économie, en informatique, en mathématique, en physique ou en ingénierie.
+Ces mesures dépendent du choix d'une unité de mesure, et le résultat s'exprime comme le produit d'un nombre réel par une unité.
+Les nombres réels sont utilisés tous les jours, par exemple en économie, en informatique, en mathématique, en physique ou en ingénierie.
 Le plus souvent, seuls certains sous-ensembles de réels sont utilisés :
 Bien que tous ces sous-ensembles des réels soient de cardinal infini, ils sont tous dénombrables et ne représentent donc qu'une infime partie de l'ensemble des réels.
 Ils ont chacun des propriétés propres.
@@ -81,13 +82,16 @@ La première réponse fut la construction des fractions (quotient de deux entier
 Cette solution, mise en place très tôt chez les Sumériens et les Égyptiens, est finalement performante.
 Elle permet d'approcher une longueur quelconque avec toute la précision souhaitée.
 La première formalisation construite en système que l'on connaisse est le fruit du travail d'Euclide au IIIe siècle av. J.-C. Sa construction, inscrite dans ses Éléments, apporte deux grandes idées d'un apport majeur dans l'histoire des mathématiques.
-Supposons une longueur donnée choisie comme unité. Un raisonnement géométrique, certainement déjà connu des babyloniens, montre que si A est un carré de côté l'unité et B un carré de côté égal à la diagonale d de A, alors l'aire de B est double de celle de A, autrement dit : d2 = 2.
+Supposons une longueur donnée choisie comme unité.
+Un raisonnement géométrique, certainement déjà connu des babyloniens, montre que si A est un carré de côté l'unité et B un carré de côté égal à la diagonale d de A, alors l'aire de B est double de celle de A, autrement dit : d2 = 2.
 Probablement au Ve siècle av. J.-C., des mathématiciens grecs démontrent que les longueurs de la diagonale du carré et de son côté sont incommensurables : il n'existe pas de segment, aussi petit soit-il, qui permette de « mesurer » exactement ces deux grandeurs.
 Nous disons aujourd'hui que ce rapport de longueur, qui est la racine carrée de 2, est irrationnel, c'est-à-dire qu'il n'est pas égal à une fraction : si c'était une fraction m/n, en divisant la diagonale du carré en m parties égales et son côté en n parties égales on obtiendrait bien des segments tous de même longueurs.
 Ceci met en évidence que les fractions ne peuvent suffire pour représenter les grandeurs mesurables.
-Il existe une démonstration arithmétique simple de ce résultat, qui repose sur un argument de parité. Au IVe siècle av. J.-C., Aristote y fait allusion dans un de ses écrits.
+Il existe une démonstration arithmétique simple de ce résultat, qui repose sur un argument de parité.
+Au IVe siècle av. J.-C., Aristote y fait allusion dans un de ses écrits.
 On la trouve plus détaillée dans le livre X des Éléments d'Euclide.
-Si les fractions permettent effectivement d'exprimer toute longueur avec la précision souhaitée, il faut néanmoins comprendre que les opérations et particulièrement la division deviennent complexes si le système de numération n'est pas adapté. Le problème est décrit par l'article fraction égyptienne qui propose quelques exemples concrets.
+Si les fractions permettent effectivement d'exprimer toute longueur avec la précision souhaitée, il faut néanmoins comprendre que les opérations et particulièrement la division deviennent complexes si le système de numération n'est pas adapté.
+Le problème est décrit par l'article fraction égyptienne qui propose quelques exemples concrets.
 Il faut attendre le Ve siècle pour voir l'école indienne découvrir le concept du zéro et développer un système de numération décimal et positionnel.
 Un deuxième problème apparaît alors.
 Toutes les fractions possèdent un développement décimal dans la mesure où ce développement est infini et périodique, c'est-à-dire que la suite des décimales ne s'arrête pas mais boucle sur un nombre fini de valeurs.
@@ -189,7 +193,8 @@ Elle traite des propriétés essentielles et élémentaires pour un travail anal
 La propriété suivante peut se déduire du fait que ℝ est archimédien.
 Les autres propriétés sont des conséquences de la propriété de la borne supérieure.
 Il existe un ensemble de fonctions particulièrement intéressantes, les polynômes.
-Un polynôme peut parfois être factorisé. C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits.
+Un polynôme peut parfois être factorisé.
+C'est-à-dire qu'il s'exprime sous la forme de produit de polynômes non constants de degrés plus petits.
 L'idéal étant que l'on puisse factoriser tout polynôme en facteurs de degré 1 (c'est-à-dire sous la forme ax + b).
 Cette propriété dépend du corps sur lequel on construit ces polynômes.
 Par exemple sur le corps des rationnels, quel que soit n entier supérieur ou égal à 2, il existe des polynômes de degré n irréductibles, c'est-à-dire que l'on ne peut pas les exprimer sous forme de produit de polynômes de degrés plus petits.

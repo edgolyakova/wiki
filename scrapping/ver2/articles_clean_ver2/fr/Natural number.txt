@@ -44,7 +44,9 @@ Certains objets ou animaux, tout en étant distincts les uns des autres, peuvent
 Le nombre est en germe dans l'énumération d'une collection, c'est-à-dire le fait de faire défiler tous ses éléments, un à un et sans répétition.
 Il prend consistance dans le constat que deux énumérations simultanées (d'un troupeau vers un enclos et de cailloux dans un sac, par exemple) se terminent soit toujours en même temps, soit toujours en décalage.
 Le nombre est enfin représenté lorsque le sac de cailloux ou le bâton à encoches est utilisé pour indiquer une quantité.
-Cependant, le concept d'entier ne naît véritablement que lorsqu'il est départi de son représentant, c'est-à-dire lorsqu'il ne représente plus ni cailloux, ni encoches, ni vache : il y a là une première abstraction où chaque objet est considéré comme une unité pure et sans qualité. Ce processus mental est connu sous le nom d'abstraction : il est fait abstraction de la qualité de l'objet pour s'intéresser uniquement à la quantité. Une seconde abstraction mène alors à la considération de ces unités comme une collection d'unités.
+Cependant, le concept d'entier ne naît véritablement que lorsqu'il est départi de son représentant, c'est-à-dire lorsqu'il ne représente plus ni cailloux, ni encoches, ni vache : il y a là une première abstraction où chaque objet est considéré comme une unité pure et sans qualité.
+Ce processus mental est connu sous le nom d'abstraction : il est fait abstraction de la qualité de l'objet pour s'intéresser uniquement à la quantité.
+Une seconde abstraction mène alors à la considération de ces unités comme une collection d'unités.
 Euclide donne au Livre VII des Éléments la définition suivante : « L'unité est ce relativement à quoi tout objet est appelé Un. » Cette abstraction lui permet de définir ensuite le nombre (entier naturel) comme « collection d'unités ».
 Frege a songé (dans Les Fondements de l'arithmétique, 1884) à définir les entiers en termes de classe de bijectabilité.
 Cette idée consiste à définir chaque entier n comme le rassemblement de tous les ensembles ayant n éléments.
@@ -52,7 +54,8 @@ Cette très séduisante définition se heurte au paradoxe de Russell si l'on sou
 Ceci car, sauf pour l'entier 0, identifié à l'ensemble contenant uniquement l'ensemble vide, pour tout autre entier n le rassemblement des ensembles ayant n éléments est une classe propre et donc n'est pas un ensemble.
 La définition de Frege conduit donc à une impasse.
 Pour en sortir, les mathématiciens ont cherché à définir un représentant dans chaque classe de bijectabilité, appelé cardinal de chacun des éléments de la classe.
-Cela peut être réalisé par le τ de Hilbert ou par un axiome adéquat garantissant la possibilité du choix d’un tel représentant dans chaque classe de bijectabilité. Un cardinal a est dit fini s’il est différent de a + 1. Les entiers naturels sont définis comme les cardinaux finis.
+Cela peut être réalisé par le τ de Hilbert ou par un axiome adéquat garantissant la possibilité du choix d’un tel représentant dans chaque classe de bijectabilité.
+Un cardinal a est dit fini s’il est différent de a + 1. Les entiers naturels sont définis comme les cardinaux finis.
 Les entiers naturels peuvent être définis comme des ordinaux, c'est-à-dire, par la méthode de von Neumann, comme des ensembles bien ordonnés tous comparables par inclusion.
 Les entiers naturels sont les ordinaux finis, ceux dont l'ordre réciproque est aussi un bon ordre, ou encore les ordinaux successeurs dont tous les minorants sont aussi des ordinaux successeurs.
 La désignation des entiers dans le langage n'est pas la même d'une langue à l'autre, même si elle se fonde en général sur quelques méthodes simples.
@@ -78,7 +81,8 @@ La division euclidienne d'un entier (appelé dividende) par un autre (appelé di
 Le nombre de rangées complètes représente alors le quotient tandis que l'éventuelle rangée incomplète représente le reste, nécessairement strictement inférieur au diviseur.
 Étant donné un entier naturel non nul, l’ensemble de ses multiples est infini mais régulièrement réparti et facile à décrire par une suite arithmétique.
 Par exemple, les multiples de 2 sont les nombres pairs, qui sont alternés avec les nombres impairs parmi tous les entiers.
-Au contraire, l’ensemble des diviseurs d’un entier non nul est toujours fini et sa répartition n’a pas du tout le même genre de régularité. Il contient certes toujours le nombre à diviser et le nombre 1, les éventuels autres diviseurs se situant entre ces deux extrêmes.
+Au contraire, l’ensemble des diviseurs d’un entier non nul est toujours fini et sa répartition n’a pas du tout le même genre de régularité.
+Il contient certes toujours le nombre à diviser et le nombre 1, les éventuels autres diviseurs se situant entre ces deux extrêmes.
 Mais il est en général difficile de lister ces autres diviseurs à partir d’une écriture du nombre dans une base donnée.
 Ce problème est lié en partie à la rareté de critères simples pour déterminer sans calcul si un nombre est divisible par un autre.
 Dans un système de numération positionnelle décimale, plusieurs critères de divisibilité sont connus pour de petits diviseurs (surtout pour 2, 3, 5, 9 et 10), mais en dehors de ces quelques cas, c’est essentiellement la division euclidienne qui permet de répondre à cette question.
@@ -111,7 +115,8 @@ Les opérations d'addition et de multiplication étant associatives, commutative
 Il est ordonné pour la relation d'ordre usuelle induite par l'addition, qui lui donne une structure de bon ordre, c'est-à-dire que toute partie non vide admet un plus petit élément.
 Cette propriété est à la base du raisonnement par récurrence.
 L'ensemble est également muni de la relation de divisibilité qui est un ordre partiel.
-Son cardinal est le plus petit nombre cardinal infini, noté ℵ0 (aleph zéro), définissant ainsi la notion de dénombrabilité. En effet, on dit d'un ensemble quelconque qu'il est dénombrable s'il existe une bijection de cet ensemble dans celui des entiers naturels.
+Son cardinal est le plus petit nombre cardinal infini, noté ℵ0 (aleph zéro), définissant ainsi la notion de dénombrabilité.
+En effet, on dit d'un ensemble quelconque qu'il est dénombrable s'il existe une bijection de cet ensemble dans celui des entiers naturels.
 On se contente parfois d'une injection pour englober aussi les ensembles finis.
 Quelle que soit la façon d'introduire les entiers naturels, ceux-ci ont les mêmes propriétés fondamentales à partir desquelles on développe l'arithmétique.
 Richard Dedekind et Giuseppe Peano en ont proposé indépendamment des axiomatisations qui étaient essentiellement équivalentes.

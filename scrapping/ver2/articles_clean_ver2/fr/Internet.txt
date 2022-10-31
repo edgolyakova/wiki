@@ -64,11 +64,13 @@ En octobre 1962, Licklider fut le premier chef du programme de recherche en info
 Il persuada ses successeurs Ivan Sutherland, Bob Taylor et le chercheur du MIT Lawrence G. Roberts de l'intérêt des réseaux informatiques.
 En 1964, Leonard Kleinrock publia le premier livre sur le sujet.
 En 1965, Roberts testa avec Thomas Merrill la première connexion informatique à longue distance, entre le Massachusetts et la Californie.
-Le résultat montra que des ordinateurs pouvaient travailler ensemble à distance, mais que le mode de communication par commutation de circuit du système téléphonique était inadapté. Le concept de communication par commutation de paquets de Kleinrock s'imposa.
+Le résultat montra que des ordinateurs pouvaient travailler ensemble à distance, mais que le mode de communication par commutation de circuit du système téléphonique était inadapté.
+Le concept de communication par commutation de paquets de Kleinrock s'imposa.
 En 1966, Roberts fut engagé par Taylor à la DARPA pour concevoir ARPANET.
 Il publia les plans en 1967. En présentant ce texte, il découvrit deux autres groupes de chercheurs travaillant indépendamment sur le même sujet : un groupe du National Physical Laboratory (NPL) du Royaume-Uni avec Donald Davies et Roger Scantlebury, et un groupe de la RAND Corporation avec Paul Baran.
 Entre 1962 et 1965, le groupe de la RAND avait étudié la transmission par paquets pour l'armée américaine.
-Son but était de pouvoir maintenir les télécommunications en cas d'attaque (éventuellement nucléaire), ce que permet une transmission par paquets dans un réseau non centralisé. Il s'agissait d'un développement indépendant d'ARPANET : bien que probablement robuste face à une telle attaque, ARPANET n'avait pourtant été conçu que pour faciliter les télécommunications entre chercheurs.
+Son but était de pouvoir maintenir les télécommunications en cas d'attaque (éventuellement nucléaire), ce que permet une transmission par paquets dans un réseau non centralisé.
+Il s'agissait d'un développement indépendant d'ARPANET : bien que probablement robuste face à une telle attaque, ARPANET n'avait pourtant été conçu que pour faciliter les télécommunications entre chercheurs.
 Le rapport de Paul Baran resta purement théorique, et tomba rapidement dans l'oubli.
 Mais le mythe de l'« ARPANET comme dernier rempart à une attaque atomique » trouve là son origine.
 Pendant ce temps, au British National Physical Laboratory, l'équipe de Donald Davies, avait progressé : NPL Network, le premier réseau maillé fondé sur la transmission de datagrammes (packets) était fonctionnel.
@@ -94,7 +96,8 @@ Le protocole NCP d'ARPANET ne permettait pas d'adresser des hôtes hors d'ARPANE
 Kahn décida donc de développer un nouveau protocole, qui devint finalement TCP/IP.
 En parallèle, un projet inspiré par ARPANET était dirigé en France par Louis Pouzin : le projet Cyclades.
 De nombreuses propriétés de TCP/IP ont ainsi été développées, plus tôt, pour Cyclades.
-Pouzin et Kahn indiquent que TCP/IP a été inspiré par le réseau Cyclades français, poussé par la CII et sa distributed system architecture : on commence à parler de calcul distribué. Aux États-Unis, IBM et DEC créent les architectures SNA et DECnet, en profitant de la numérisation du réseau d'AT&T (Réseau téléphonique commuté).
+Pouzin et Kahn indiquent que TCP/IP a été inspiré par le réseau Cyclades français, poussé par la CII et sa distributed system architecture : on commence à parler de calcul distribué.
+Aux États-Unis, IBM et DEC créent les architectures SNA et DECnet, en profitant de la numérisation du réseau d'AT&T (Réseau téléphonique commuté).
 En 1973, Kahn demanda à Vint Cerf (parfois appelé le « père d'Internet ») de travailler avec lui, car Cerf connaissait les détails de mise en œuvre de NCP.
 Le premier document faisant référence à TCP fut écrit en 1973 par Cerf : A Partial Specification of an International Transmission Protocol.
 La première spécification formelle de TCP, rédigée en décembre 1974, fut le RFC 675.

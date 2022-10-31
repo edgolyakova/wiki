@@ -67,7 +67,8 @@ Par exemple l'ensemble qui contient pour seul élément 0 est appelé « single
 Les ensembles qui ont exactement deux éléments sont appelés paires, la paire des éléments 1 et 2, notée {1,2}, ne doit pas être confondue avec le couple (1,2), qui a un ordre déterminé.
 Quand on axiomatise la théorie des ensembles, les paires (et singletons) jouent un rôle particulier, voir l'article Axiome de la paire.
 Par extensionnalité, il n'y a qu'un seul ensemble sans éléments, l'ensemble vide, que l'on note ∅ ou { }.
-Un ensemble peut être défini en compréhension, c’est-à-dire qu'on le définit par une propriété caractéristique parmi les éléments d'un ensemble donné. Ainsi l'ensemble des entiers naturels pairs est clairement défini en compréhension, par la propriété « être pair » parmi les entiers naturels.
+Un ensemble peut être défini en compréhension, c’est-à-dire qu'on le définit par une propriété caractéristique parmi les éléments d'un ensemble donné.
+Ainsi l'ensemble des entiers naturels pairs est clairement défini en compréhension, par la propriété « être pair » parmi les entiers naturels.
 On peut utiliser la notation d'un ensemble en compréhension, par exemple pour l'ensemble des entiers naturels pairs, on écrira (ℕ désignant l'ensemble des entiers naturels) :
 On définira de la même façon (ℤ désignant l'ensemble des entiers relatifs) :
 La formulation générale est :
@@ -92,6 +93,7 @@ Quand il y a un procédé itératif simple pour engendrer les éléments de l'en
 On peut bien sûr utiliser ces notations pour des ensembles ayant « beaucoup » d'éléments, {1, 2, … , 1000} plutôt que d'écrire les mille premiers nombres entiers non nuls, ou encore { 3, 5, … , 21} plutôt que { 3, 5, 7, 9, 11, 13, 15, 17, 19, 21 }.
 Toutes ces notations ne sont pas systématiques, ni universelles, et pour les dernières au moins, pas très rigoureuses.
 On peut encore signaler, la notation, rigoureuse celle-ci, de certains sous-ensembles de la droite réelle, les intervalles.
-Par abus de notation, parfois on ne note pas la variable dans la définition en compréhension, mais seulement la propriété. Ainsi on note un ensemble en plaçant entre accolades la nature, ou une propriété caractéristique, des objets qui lui appartiennent.
+Par abus de notation, parfois on ne note pas la variable dans la définition en compréhension, mais seulement la propriété.
+Ainsi on note un ensemble en plaçant entre accolades la nature, ou une propriété caractéristique, des objets qui lui appartiennent.
 Par exemple la notation {chiens} désigne l’ensemble de tous les chiens ; pour prendre un exemple plus mathématique, on pourrait écrire parfois {pairs} pour l'ensemble des nombres pairs.
 Sur les autres projets Wikimedia :

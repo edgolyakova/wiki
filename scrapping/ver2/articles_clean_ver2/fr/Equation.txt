@@ -138,7 +138,8 @@ Une méthode consiste à partir d'un point quelconque x0 et à suivre la ligne d
 Le sommet de cette parabole est noté x1. À partir du point x1, on suit à nouveau la ligne de plus grande pente, en vert sur les figures.
 Cette technique porte le nom d'algorithme du gradient.
 Si, au lieu de suivre exactement le chemin de plus grande pente, on en choisit un de direction orthogonale aux directions précédentes pour le produit scalaire 〈–ax,y〉, la méthode converge vers la solution en un maximum de n étapes, si n désigne la dimension de E. Elle porte le nom de méthode du gradient conjugué.
-En géométrie euclidienne, il est possible d'associer à chaque point de l'espace un jeu de coordonnées, par exemple à l'aide d'un repère orthonormé. Cette méthode permet de caractériser des figures géométriques à l'aide d'équations.
+En géométrie euclidienne, il est possible d'associer à chaque point de l'espace un jeu de coordonnées, par exemple à l'aide d'un repère orthonormé.
+Cette méthode permet de caractériser des figures géométriques à l'aide d'équations.
 Un plan dans un espace de dimension 3 s'exprime comme l'ensemble des solutions d'une équation du type ax + by + cz + d = 0, où a, b, c et d sont des nombres réels, x, y, z les inconnues qui correspondent aux coordonnées d'un point du plan dans le repère orthonormal.
 Les valeurs a, b et c sont les coordonnées d'un vecteur perpendiculaire au plan défini par l'équation.
 Une droite s'exprime comme l'intersection de deux plans, c'est-à-dire comme les solutions d'une équation linéaire à valeurs dans ℝ2 ou comme les solutions d'un système de deux équations linéaires à valeurs dans ℝ, si ℝ désigne l'ensemble des nombres réels.
@@ -306,7 +307,8 @@ Comme le laisse penser la forme d'une vague, l'expression d'une solution peut s'
 On est loin de disposer d'une théorie générale, les deux paragraphes suivant indiquent le type de difficulté à résoudre pour comprendre les systèmes dynamiques.
 Une des questions qui se pose sur les systèmes dynamiques est la nature de la solution en fonction de sa valeur initiale.
 Si une petite modification de cette valeur change de manière importante le comportement de la solution, même si le système est déterministe, son évolution semblera aléatoire.
-Si "déterministe" signifie que toute évolution du système dépend uniquement de sa valeur initiale, sa connaissance parfaite permet de prévoir parfaitement son futur, ce qui est toujours le cas d'un système dynamique idéalisé. En physique, il est impossible de connaître parfaitement l'état initial du système.
+Si "déterministe" signifie que toute évolution du système dépend uniquement de sa valeur initiale, sa connaissance parfaite permet de prévoir parfaitement son futur, ce qui est toujours le cas d'un système dynamique idéalisé.
+En physique, il est impossible de connaître parfaitement l'état initial du système.
 On le connaît, par exemple avec une précision de 5 décimales, si la sixième décimale finit par modifier l'évolution du système de manière significative, le futur de l'évolution n'est pas connu (il est même indéterminable), mais dépend d'une information inaccessible parce qu'idéalisée. Le futur apparaît alors comme incertain, même si les lois modélisant l'évolution sont "déterministes".
 On voit donc ici les limites de la modélisation.
 Ce phénomène se produit en météorologie, cette science est modélisée par un système dynamique qui, pour permettre une prévision sur le long terme, demande une connaissance précise de l'état initial.

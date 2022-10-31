@@ -268,7 +268,8 @@ Le rayonnement solaire dégrade progressivement le silicium des panneaux solaire
 La tenue mécanique du satellite est assurée par sa structure.
 Celle-ci supporte les principaux sous-ensembles fonctionnels du satellite.
 Elle assure également l'interface mécanique avec le lanceur.
-La structure est dimensionnée pour faire face aux efforts mécaniques subis durant le vol propulsé. Le lancement de la fusée porteuse génère des vibrations importantes en provenance principalement des moteurs et des turbopompes qui sont transmises par le corps de la fusée au satellite et qui s'échelonnent dans des bandes de fréquence comprises entre 0 et 2 000 hertz.
+La structure est dimensionnée pour faire face aux efforts mécaniques subis durant le vol propulsé.
+Le lancement de la fusée porteuse génère des vibrations importantes en provenance principalement des moteurs et des turbopompes qui sont transmises par le corps de la fusée au satellite et qui s'échelonnent dans des bandes de fréquence comprises entre 0 et 2 000 hertz.
 Au décollage, le bruit atteint 150 décibels sous la coiffe qui abrite le satellite.
 Celui-ci subit également des accélérations et décélérations qui peuvent être particulièrement fortes lors de la séparation des étages, lorsque la coiffe est larguée, et au moment de la séparation du lanceur et du satellite du fait de l'usage de charges pyrotechniques.
 Hormis ces chocs ponctuels, l'accélération la plus forte a lieu généralement durant la phase finale du vol propulsé (jusqu’à 4 ou 5 g).
@@ -337,7 +338,8 @@ La définition de la mission est la première étape de la conception d'un satel
 Les exigences de la mission sont définies par le client : caractéristiques de la charge utile, durée de vie, disponibilité/fiabilité, débit des liaisons avec le sol ou encore compatibilité avec des systèmes existants.
 Les contraintes, dans lesquelles le projet doit s'inscrire, sont également précisées : coût, délais de réalisation, capacités du lanceur s'il est choisi par avance (masse admissible, encombrement, niveau de prestation en orbite), etc.
 La phase de spécifications comprend plusieurs étapes codifiées dans la norme européenne ECSS de conception des engins spatiaux : l'étude de faisabilité qui explore les concepts et affine le besoin, la définition préliminaire qui fige l'architecture et enfin la définition détaillée qui précise la méthode de qualification et produit les spécifications détaillées permettant de lancer la fabrication du modèle de vol.
-Les spécifications doivent non seulement porter sur les caractéristiques du satellite mais également sur celles des équipements au sol nécessaires pour assurer le suivi du satellite en poste et recueillir les données ainsi que sur les caractéristiques du lanceur si celui-ci n'est pas imposé. Le coût des installations au sol est loin d'être négligeable : dans le domaine des satellites de télécommunications les coûts en 1997 se répartissaient ainsi : satellites (26 %), lancement (21 %), installations au sol (15 %) et services (38 %) (location de canaux et transfert de données).
+Les spécifications doivent non seulement porter sur les caractéristiques du satellite mais également sur celles des équipements au sol nécessaires pour assurer le suivi du satellite en poste et recueillir les données ainsi que sur les caractéristiques du lanceur si celui-ci n'est pas imposé.
+Le coût des installations au sol est loin d'être négligeable : dans le domaine des satellites de télécommunications les coûts en 1997 se répartissaient ainsi : satellites (26 %), lancement (21 %), installations au sol (15 %) et services (38 %) (location de canaux et transfert de données).
 Dans le cas d'un satellite scientifique, ces étapes sont souvent précédées d'une sélection qui vise à choisir parmi plusieurs propositions, le ou les projets répondant le mieux aux critères et contraintes définis par un comité de sélection : contribution scientifique, coût, faisabilité, risque, etc.
 En termes de planning, la contrainte la plus forte émane généralement de la conception de la charge utile, en particulier pour les satellites scientifiques.
 La démarche est par contre simplifiée lorsque le satellite fait partie d'une série (par exemple Spot).
@@ -375,7 +377,8 @@ Si par suite d'une défaillance partielle du lanceur, la vitesse de satellisatio
 Si la composante verticale de sa vitesse par rapport au sol est nulle au point d'injection ce dernier se confond avec le périgée de l'orbite sinon le périgée se trouve à une altitude inférieure.
 Il subsiste toujours de petits écarts par rapport à l'orbite visée (les dispersions) qui sont corrigées au cours de la mise à poste définitive.
 Avant le largage le lanceur modifie son orientation conformément au besoin du satellite.
-Le lanceur imprime une vitesse de rotation plus ou moins importante au satellite pour lui donner une certaine stabilité. Le satellite se sépare alors du lanceur.
+Le lanceur imprime une vitesse de rotation plus ou moins importante au satellite pour lui donner une certaine stabilité.
+Le satellite se sépare alors du lanceur.
 Le lanceur peut répéter cette opération plusieurs fois s'il s'agit d'un lancement multiple.
 Le satellite libéré met en service ses panneaux solaires en les déployant si nécessaire (manœuvre parfois source de défaillances).
 Il utilise ses senseurs pour définir son orientation dans l'espace et corrige celle-ci à l'aide de ses moteurs d'attitude de manière à pointer ses panneaux solaires et ses instruments dans la bonne direction.
@@ -397,7 +400,8 @@ Ces stations permettent de recevoir les paramètres de fonctionnement, d'envoyer
 Les opérateurs de satellites de télécommunications possèdent leurs propres centres de contrôle pour le suivi de leur(s) satellite(s).
 Ces centres sont parfois construits par le constructeur du satellite dans le cadre de livraisons « clés en main ».
 Le satellite mesure de manière automatique de nombreux paramètres (tension électrique, température, pression dans les réservoirs…) permettant au contrôle au sol de s'assurer de son bon fonctionnement.
-Si la valeur d'une de ces télémesures (mesure à distance) sort des fourchettes définies par avance, le contrôleur est alerté. Après analyse de l'impact et étude des solutions, il envoie, si c'est nécessaire et techniquement possible, des instructions pour ramener le fonctionnement du composant défaillant à la normale ou pallier son dysfonctionnement : à cet effet de nombreux équipements à bord des satellites sont doublés ou triplés pour compenser l'impossibilité d'intervenir sur place pour réparer.
+Si la valeur d'une de ces télémesures (mesure à distance) sort des fourchettes définies par avance, le contrôleur est alerté.
+Après analyse de l'impact et étude des solutions, il envoie, si c'est nécessaire et techniquement possible, des instructions pour ramener le fonctionnement du composant défaillant à la normale ou pallier son dysfonctionnement : à cet effet de nombreux équipements à bord des satellites sont doublés ou triplés pour compenser l'impossibilité d'intervenir sur place pour réparer.
 Certaines pannes sont néanmoins imparables (blocage des mécanismes de déploiement des panneaux, problème sur le moteur d'apogée…). Les organisations qui mettent en œuvre des satellites devant absolument assurer un service continu — satellites de télécommunication, satellites d'observation avec des contraintes commerciales (Spot, Ikonos), satellites militaires (GPS), satellites météo… — disposent généralement d'au moins un satellite de secours déjà en orbite qui est activé et positionné en cas de défaillance de l'engin opérationnel.
 Pour remplir sa mission, le satellite doit suivre une orbite et maintenir son orientation en limitant les écarts à des valeurs inférieures à celles définies pour la mission.
 Le maintien à poste du satellite, souvent piloté depuis le centre de contrôle, consiste à contrôler et corriger les écarts lorsque ceux-ci deviennent trop importants.
@@ -427,7 +431,8 @@ La fin de vie opérationnelle d'un satellite se produit généralement quand la 
 Pour certains satellites scientifiques (télescopes infrarouges) la fin de vie peut être provoquée par l'épuisement des liquides utilisés pour refroidir les instruments d'observation.
 Pour les satellites soumis à des périodes d'obscurité relativement longues l'arrêt peut être provoqué par la défaillance des batteries épuisées par les cycles de charge/décharge.
 Il arrive encore fréquemment que le satellite cesse de fonctionner à la suite de la défaillance d'un composant.
-Les collisions avec des débris produits par l'activité aérospatiale (autres satellites, restes de fusée) ou avec des astéroïdes sont également une source d'arrêt prématuré. Enfin les éruptions solaires peuvent endommager les satellites.
+Les collisions avec des débris produits par l'activité aérospatiale (autres satellites, restes de fusée) ou avec des astéroïdes sont également une source d'arrêt prématuré.
+Enfin les éruptions solaires peuvent endommager les satellites.
 Les régions dans lesquelles évoluent les satellites sont aujourd'hui relativement encombrées par l'accumulation de satellites hors d'usage et de débris spatiaux.
 Le problème est devenu suffisamment préoccupant pour que des règles de bonne conduite émergent progressivement en ce qui concerne les satellites en fin de vie.
 L'IADC (Comité inter agences de coordination des débris spatiaux en anglais Inter-Agency Space Debris Coordination Committee), qui réunit les principales agences spatiales, a ainsi proposé en 2002 des règles concernant les deux zones les plus encombrées de l'espace :

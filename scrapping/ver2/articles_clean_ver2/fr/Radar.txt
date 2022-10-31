@@ -173,7 +173,8 @@ Ce type d'antenne a une bonne résolution selon son axe, mais aucune dans l'axe 
 Il suffit ensuite de faire tourner mécaniquement le guide d'ondes ainsi troué sur 360 degrés pour obtenir un balayage de l'horizon.
 Ce type d'antenne est particulièrement utilisé dans les cas où on ne s'intéresse qu'à ce qui se trouve dans le plan balayé sans nécessiter une très grande précision.
 C'est ce type d'antennes que l'on voit sur les navires, le long des pistes des aéroports et dans les ports et qui ressemblent à de longs haut-parleurs placés horizontalement et en rotation sur un mât. Ils sont très économiques et moins affectés par le vent que d'autres types d'antenne.
-Les antennes à plaque ou planaire (souvent connues sous l'anglicisme de « antenne patch ») sont constituées d'un circuit imprimé double face métallisé. Elles ont l'avantage d'être très peu onéreuses, légères et très flexibles à l'utilisation.
+Les antennes à plaque ou planaire (souvent connues sous l'anglicisme de « antenne patch ») sont constituées d'un circuit imprimé double face métallisé.
+Elles ont l'avantage d'être très peu onéreuses, légères et très flexibles à l'utilisation.
 Pour cela, elles trouvent souvent un usage pour les applications d'imagerie à antenne synthétique où elles peuvent être montées de manière conforme sur la coque d'un avion, d'un drone, ou embarquées sur un satellite.
 Le radar français RAMSES (Radar Aéroporté Multi-Spectral d'Étude des Signatures) utilise par exemple une telle technologie.
 Les résultats démontrés pour les antennes à ouverture restent qualitativement valides pour les antennes patch, c'est-à-dire l'ouverture angulaire diminue quand la dimension de l'antenne augmente et la longueur d'onde diminue.
@@ -207,8 +208,10 @@ En utilisant une antenne sur un porteur (avion ou satellite) en mouvement, on r�
 Cette solution a un intérêt certain pour des radars embarqués sur satellite ou sur avion, car elle permet d'avoir de bonnes performances pour un poids et un encombrement minimes.
 Le coolanol et le PAO (poly alpha olefin) sont les deux principaux réfrigérants utilisés dans les radars aéroportés. La U.S. Navy ayant institué un programme anti-pollution pour réduire les déchets toxiques, le Coolanol est moins en usage depuis quelques années.
 Le PAO est un lubrifiant synthétique composé d'esters de polyol, d'anti-oxydants, d'inhibiteurs de rouille et de triazole un « yellow metal pacifier ».
-Les ondes électromagnétiques sont réfléchies par tout changement significatif des constantes diélectriques ou diamagnétiques du milieu traversé. Cela signifie qu’un objet solide dans l’air ou le vide, ou tout autre changement significatif de la densité atomique entre l’objet et ce qui l’entoure, disperse les ondes radar. C’est particulièrement vrai pour les matériaux conducteurs d’électricité, tels les métaux et la fibre de carbone, ce qui rend les radars très adaptés à la détection d’avions et bateaux.
-La portion de l'onde qui est retournée au radar par une cible est appelée sa réflectivité. La propension de la cible à réfléchir ou disperser ces ondes est appelée sa surface efficace radar.
+Les ondes électromagnétiques sont réfléchies par tout changement significatif des constantes diélectriques ou diamagnétiques du milieu traversé.
+Cela signifie qu’un objet solide dans l’air ou le vide, ou tout autre changement significatif de la densité atomique entre l’objet et ce qui l’entoure, disperse les ondes radar. C’est particulièrement vrai pour les matériaux conducteurs d’électricité, tels les métaux et la fibre de carbone, ce qui rend les radars très adaptés à la détection d’avions et bateaux.
+La portion de l'onde qui est retournée au radar par une cible est appelée sa réflectivité.
+La propension de la cible à réfléchir ou disperser ces ondes est appelée sa surface efficace radar.
 En fait, les ondes radar se dispersent de façons différentes suivant la longueur d'onde utilisée, la forme de la cible et sa composition :
 Les premiers radars utilisaient des longueurs d’onde beaucoup plus importantes que la taille des cibles et recevaient un signal vague, tandis que certains radars modernes utilisent des longueurs d’onde plus courtes (quelques centimètres, voire moins) qui peuvent voir des objets plus petits, comme la pluie ou les insectes.
 Les ondes radio courtes sont réfléchies par les courbes et des angles aigus comme la lumière sur un morceau de verre arrondi.
@@ -268,7 +271,8 @@ Les autres méthodes visent à augmenter le rapport signal sur bruit.
 La méthode CFAR (Constant false alarm rate, parfois appelée AGC pour Automatic Gain Control) repose sur le fait que les échos dus aux parasites sont beaucoup plus nombreux que ceux dus à la cible.
 Le gain du récepteur est automatiquement ajusté afin de maintenir un niveau constant des échos parasites visibles.
 Les cibles ayant un retour plus important que les parasites ressortiront facilement de ces derniers, même si les cibles plus faibles se perdent dans le bruit.
-Par le passé, le CFAR était contrôlé électroniquement et affectait également tout le volume sondé. Maintenant, le CFAR est contrôlé par ordinateur et peut être réglé différemment en chaque zone de l'affichage.
+Par le passé, le CFAR était contrôlé électroniquement et affectait également tout le volume sondé.
+Maintenant, le CFAR est contrôlé par ordinateur et peut être réglé différemment en chaque zone de l'affichage.
 Ainsi, il s'adapte au niveau des échos parasites selon la distance et l'azimut.
 On peut utiliser également des masques de régions connues d'échos parasites permanents (par ex. les montagnes) ou incorporer une carte des environs du radar pour éliminer tous les échos ayant une origine située sous le niveau du sol ou au-dessus d’une certaine hauteur.
 Pour réduire les retours des supports du cornet d'émission sans diminuer la portée, il est nécessaire d’ajuster la période muette entre le moment où l’émetteur envoie une impulsion et le moment où le récepteur est activé, afin de ne pas tenir compte de retours internes à l’antenne.
@@ -326,7 +330,8 @@ L'intensité d'une impulsion subséquente revenant du même volume sondé mais o
 donc :
 Comme on n'obtient que la composante radiale du déplacement, il faut donc le suivre pour savoir l’angle que fait sa véritable direction de déplacement avec le rayon au radar.
 Par la suite, un simple calcul trigonométrique donne la véritable vitesse de la cible.
-Intéressons-nous maintenant à la vitesse maximale qu'on peut mesurer sans ambiguïté. Comme on ne peut déterminer à partir d'un sinus qu'un angle compris entre -
+Intéressons-nous maintenant à la vitesse maximale qu'on peut mesurer sans ambiguïté.
+Comme on ne peut déterminer à partir d'un sinus qu'un angle compris entre -
 et +
 , on ne peut mesurer une vitesse supérieure à :
 C'est ce qu'on appelle la vitesse de Nyquist.

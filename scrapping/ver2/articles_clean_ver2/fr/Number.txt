@@ -74,12 +74,14 @@ Chacune de ces opérations est réalisée selon diverses techniques de calcul.
 Mais contrairement aux opérations directes qui sont définies sans restriction, les opérations réciproques n’aboutissent que sous certaines conditions.
 Ainsi, avant l’utilisation des nombres négatifs, un nombre ne peut être soustrait qu’à un nombre plus grand.
 De même, la notion de divisibilité décrit la réalisabilité d’une division.
-Le processus de division euclidienne a cependant l’avantage de fournir un résultat même sans l’hypothèse de divisibilité. Cette dernière s’exprime alors par l’absence de reste.
+Le processus de division euclidienne a cependant l’avantage de fournir un résultat même sans l’hypothèse de divisibilité.
+Cette dernière s’exprime alors par l’absence de reste.
 À partir du moment où la multiplication apparaît comme une opération purement numérique, sa répétition définit les puissances d’un nombre, dont les opérations réciproques sont appelées racines. D’autres opérations telles que la factorielle sont développées dans le cadre de la combinatoire.
 Dans ce paragraphe, les nombres considérés sont des entiers naturels non nuls.
 Étant donné un nombre, l’ensemble de ses multiples est infini mais régulièrement réparti et facile à décrire par une suite arithmétique.
 Par exemple, les multiples de 2 sont les nombres pairs, qui sont alternés avec les nombres impairs parmi tous les entiers.
-Au contraire, l’ensemble des diviseurs d’un nombre est toujours fini et sa répartition n’a pas du tout le même genre de régularité. Il contient certes toujours le nombre à diviser et le nombre 1, les éventuels autres diviseurs se situant entre ces deux extrêmes.
+Au contraire, l’ensemble des diviseurs d’un nombre est toujours fini et sa répartition n’a pas du tout le même genre de régularité.
+Il contient certes toujours le nombre à diviser et le nombre 1, les éventuels autres diviseurs se situant entre ces deux extrêmes.
 Mais il est en général difficile de lister ces autres diviseurs à partir d’une écriture du nombre dans une base donnée.
 Ce problème est lié en partie à la rareté de critères simples pour déterminer sans calcul si un nombre est divisible par un autre.
 Dans un système de numération positionnelle décimale, plusieurs critères de divisibilité sont connus pour de petits diviseurs (surtout pour 2, 3, 5, 9 et 10), mais en dehors de ces quelques cas, c’est essentiellement la division euclidienne qui permet de répondre à cette question.

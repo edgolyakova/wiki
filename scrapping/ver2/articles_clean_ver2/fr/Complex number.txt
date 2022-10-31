@@ -200,7 +200,8 @@ lim
 (avec usage de la multiplication et de la soustraction complexes) permet d'obtenir une nouvelle notion de fonction dérivable, de variable complexe à valeurs complexes appelée fonction holomorphe.
 Cette notion s'avère plus restrictive que son pendant réel, notamment, toute fonction holomorphe voit sa dérivée être holomorphe, et même, toute fonction holomorphe est analytique, c'est-à-dire admet un développement en série entière en chacun des points de son domaine d'holomorphie.
 En théorie de l'intégration, en utilisant la notion d'intégrale le long d'un chemin, on obtient le théorème intégral de Cauchy, qui assure que l'intégrale d'une fonction holomorphe, sur un domaine vérifiant certaines propriétés topologiques, le long d'un chemin fermé, est nulle.
-Cette propriété cruciale permet d'obtenir la notion de primitive d'une fonction holomorphe, toujours sur un domaine adapté. Certaines de ces conditions topologiques peuvent être abandonnées, grâce à la notion de point singulier, aboutissant au théorème des résidus.
+Cette propriété cruciale permet d'obtenir la notion de primitive d'une fonction holomorphe, toujours sur un domaine adapté.
+Certaines de ces conditions topologiques peuvent être abandonnées, grâce à la notion de point singulier, aboutissant au théorème des résidus.
 La dynamique holomorphe à une variable consiste en l'étude du comportement des itérés d'une fonction holomorphe f définie sur une surface de Riemann.
 On distingue deux types de points sur ces surfaces : ceux où la famille des itérés est normale, en ces points la dynamique est assez simple (bassins d'attractions de cycles de points périodiques), dont l'ensemble est appelé ensemble de Fatou de f, puis ceux où le comportement est chaotique et dont l'ensemble est appelé ensemble de Julia de f.
 Les propriétés de ces itérés sont particulièrement bien connues dans le cadre de la sphère de Riemann : classification complète des composantes connexes de l'ensemble de Fatou selon les propriétés de f, propriétés de l'ensemble de Julia, étude des familles paramétrées  de polynômes…
@@ -233,7 +234,8 @@ On appelle f(z) le potentiel complexe, et sa dérivée par rapport à z, la vite
 Grâce à cette fonction, on obtient directement le module de la vitesse, et sa direction (en prenant la forme trigonométrique).
 Surtout, on peut modéliser simplement un écoulement autour d'un obstacle, d'une manière simple et compacte.
 La fonction ψ doit être constante le long du profil de cet obstacle, ce qui permet une résolution simple de f, grâce à des résultats simples d’analyse complexe.
-Toujours dans l'analyse des phénomènes vibratoires, les propriétés des nombres complexes permettent non seulement de simplifier les calculs, mais aussi de déterminer des caractéristiques physiques d'un système oscillant, voire des propriétés fondamentales comme la causalité. Une fonction de structure est une certaine fonction complexe 
+Toujours dans l'analyse des phénomènes vibratoires, les propriétés des nombres complexes permettent non seulement de simplifier les calculs, mais aussi de déterminer des caractéristiques physiques d'un système oscillant, voire des propriétés fondamentales comme la causalité.
+Une fonction de structure est une certaine fonction complexe 
 où 
 est la fréquence complexifiée, la partie réelle étant la fréquence au sens usuel et la partie imaginaire représentant un facteur d'amortissement du phénomène oscillant.
 Les valeurs complexes de 

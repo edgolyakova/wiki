@@ -112,7 +112,8 @@ Le tableau suivant compare quelques-uns de ces triangles particuliers :
 L'aire d'un triangle est donnée par diverses formules, la première étant fonction de la longueur d'un côté, appelée base, et de la distance du sommet opposé à la droite qui porte ce côté, appelée hauteur.
 Cette formule est dérivée de celle de l'aire d'un parallélogramme et démontrée dans les Éléments d'Euclide.
 D'autres formules font appel à la longueur des côtés (formule de Héron) ou aux coordonnées des sommets dans un repère orthonormé.
-Le périmètre d'un triangle est simplement la somme des trois longueurs de côté. Pour un périmètre p donné, l'aire intérieure du triangle est majorée par celle du triangle équilatéral correspondant :
+Le périmètre d'un triangle est simplement la somme des trois longueurs de côté.
+Pour un périmètre p donné, l'aire intérieure du triangle est majorée par celle du triangle équilatéral correspondant :
 Les longueurs de côté d'un triangle et les mesures de ses angles satisfont plusieurs relations qui permettent de toutes les calculer à partir de certaines d'entre elles.
 Il s'agit d'une part, outre la formule de la somme des angles, d'une relation entre l'aire, la mesure d'un angle et la longueur des deux côtés adjacents :
 laquelle permet d'obtenir la formule des sinus :
@@ -137,12 +138,16 @@ Un triangle est rectangle si et seulement si le centre de son cercle circonscrit
 Pour un triangle acutangle, le centre du cercle circonscrit est à l'intérieur du triangle.
 Pour un triangle obtusangle, ce centre est à l'extérieur.
 Le produit du rayon du cercle circonscrit et de l'aire du triangle est le quart du produit des longueurs de côtés du triangle.
-Une cévienne d'un triangle est un segment de droite partant d'un sommet et joignant son côté opposé. Les médianes, hauteurs et bissectrices sont des céviennes particulières.
-Dans un triangle, une médiane est un segment qui relie un sommet au milieu du côté opposé. Chaque médiane divise un triangle en deux triangles d'aires égales.
-Si le triangle est non plat, les trois médianes sont concourantes en un point appelé centre de gravité. Ce point, souvent noté G et situé aux deux-tiers de chaque médiane en partant du sommet, est à la fois l'isobarycentre des trois sommets et le centre de masse de l'intérieur du triangle.
+Une cévienne d'un triangle est un segment de droite partant d'un sommet et joignant son côté opposé.
+Les médianes, hauteurs et bissectrices sont des céviennes particulières.
+Dans un triangle, une médiane est un segment qui relie un sommet au milieu du côté opposé.
+Chaque médiane divise un triangle en deux triangles d'aires égales.
+Si le triangle est non plat, les trois médianes sont concourantes en un point appelé centre de gravité.
+Ce point, souvent noté G et situé aux deux-tiers de chaque médiane en partant du sommet, est à la fois l'isobarycentre des trois sommets et le centre de masse de l'intérieur du triangle.
 Les trois médianes concourantes divisent le triangle en six triangles de même aire.
 La longueur de la médiane est reliée aux longueurs des autres côtés par le théorème de la médiane ou théorème d'Apollonius.
-Si les trois sommets sont distincts, une hauteur est une droite passant par un sommet et perpendiculaire au côté opposé. Si le triangle est non plat, les trois hauteurs sont concourantes en un point appelé orthocentre, souvent noté H.
+Si les trois sommets sont distincts, une hauteur est une droite passant par un sommet et perpendiculaire au côté opposé.
+Si le triangle est non plat, les trois hauteurs sont concourantes en un point appelé orthocentre, souvent noté H.
 Un triangle est rectangle si et seulement si son orthocentre est l'un des sommets (en lequel se trouve alors l'angle droit).
 Pour un triangle acutangle, l'orthocentre est à l'intérieur du triangle.
 Pour un triangle obtusangle, il est à l'extérieur.
@@ -179,7 +184,8 @@ En outre, les milieux des côtés, les pieds des hauteurs et les milieux des seg
 Particularité : soit M un point de la droite d'Euler.
 Les cercles d'Euler des triangles AHM, BHM et CHM se recoupent sur le cercle d'Euler du triangle ABC.
 Si M est le centre du cercle circonscrit au triangle ABC, alors le point de concours est nommé point de Jérabek.
-Deux triangles sont dits isométriques, superposables ou, anciennement égaux, s'ils ont les mêmes longueurs de côté. Dans ce cas il est possible de faire correspondre les sommets de l'un avec les sommets de l'autre par une isométrie (par exemple une translation, une rotation ou une symétrie) et cette correspondance relie alors des angles de même mesure.
+Deux triangles sont dits isométriques, superposables ou, anciennement égaux, s'ils ont les mêmes longueurs de côté.
+Dans ce cas il est possible de faire correspondre les sommets de l'un avec les sommets de l'autre par une isométrie (par exemple une translation, une rotation ou une symétrie) et cette correspondance relie alors des angles de même mesure.
 Ces triangles ont donc aussi la même aire.
 Cette première définition est équivalente à chacune des trois suivantes :
 Deux triangles ayant les mêmes mesures d'angle sont dits semblables.
@@ -239,7 +245,8 @@ Le problème R51 constitue, dans l'histoire mondiale des mathématiques, le prem
 Si quelqu'un te dit : un triangle de 10 khet sur son mryt et de 4 khet sur sa base.
 Quelle est sa superficie ? Calcule la moitié de 4 qui est 2 pour en faire un rectangle.
 Tu fais en sorte de multiplier 10 par 2. Ceci est sa superficie. »
-Le terme mryt signifie probablement hauteur, ou côté. Mais la formule utilisée pour le calcul de l'aire fait pencher l'interprétation en faveur de la première solution.
+Le terme mryt signifie probablement hauteur, ou côté.
+Mais la formule utilisée pour le calcul de l'aire fait pencher l'interprétation en faveur de la première solution.
 Le scribe prenait la moitié de la base du triangle et calculait l'aire du rectangle formé par ce côté et la hauteur, soit
 équivalente à la formule générale utilisée de nos jours :
 Euclide, dans le livre I de ses Éléments, vers -300, énonce la propriété sur la somme des angles du triangle et les trois cas d'égalité des triangles (voir ci-dessus le paragraphe sur les triangles isométriques).

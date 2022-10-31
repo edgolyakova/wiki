@@ -40,7 +40,8 @@ Bien que le nom de statistique soit relativement récent – on attribue en gén
 D'ailleurs, les premiers textes écrits retrouvés sont des recensements du bétail, des informations sur son cours et des contrats divers.
 On a ainsi tracé des recensements en Chine ou en Égypte, au XVIIIe siècle av. J.-C. Ce système de recueil de données se poursuit jusqu'au XVIIe siècle.
 En Europe, le rôle de collecteur de données est souvent tenu par des guildes marchandes, puis par les intendants de l'État.
-Ce n'est qu'au XVIIIe siècle que l'on voit apparaître le rôle prévisionnel des statistiques, avec la construction des premières tables de mortalité. Antoine Deparcieux écrit en 1746 l'Essai sur les probabilités de la durée de vie humaine.
+Ce n'est qu'au XVIIIe siècle que l'on voit apparaître le rôle prévisionnel des statistiques, avec la construction des premières tables de mortalité.
+Antoine Deparcieux écrit en 1746 l'Essai sur les probabilités de la durée de vie humaine.
 Elles vont d'abord servir aux compagnies d'assurances sur la vie, qui se créent alors.
 La statistique est aussi un appui pour l'histoire prospective ou rétrospective, de la démographie notamment.
 Ainsi en 1842, le Baron de Reiffenberg présentait-il à l'Académie ses calculs rétrospectifs de population chez des peuples gaulois, d'après des données chiffrées laissées par Jules César dans ses Commentaires sur la Guerre des Gaules (De bello Gallico, v.).
@@ -85,7 +86,8 @@ Les problèmes portant sur des statistiques multidimensionnelles nécessitent l'
 Indépendamment du caractère, élémentaire ou non, du problème il s'agit de réductions statistiques de données connues dans lesquelles l'introduction des probabilités améliorerait difficilement l'information obtenue.
 Il est raisonnable de regrouper ces différentes notions :
 Un changement radical se produit lorsque les données ne sont plus considérées comme une information complète à décrypter selon les règles de l'algèbre mais comme une information partielle sur une population plus importante, généralement considérée comme une population infinie.
-Pour induire des informations sur la population inconnue il faut introduire la notion de loi de probabilité. Les données connues constituent dans ce cas une réalisation d'un échantillon, ensemble de variables aléatoires supposées indépendantes (voir Loi de probabilité à plusieurs variables).
+Pour induire des informations sur la population inconnue il faut introduire la notion de loi de probabilité.
+Les données connues constituent dans ce cas une réalisation d'un échantillon, ensemble de variables aléatoires supposées indépendantes (voir Loi de probabilité à plusieurs variables).
 La théorie des probabilités permet alors, entre autres opérations :
 L'enquête statistique est toujours précédée d'une phase où sont déterminés les différents caractères à étudier.
 L'étape suivante consiste à choisir la population à étudier.
@@ -97,7 +99,8 @@ Pour pouvoir les exploiter, il va être nécessaire d'en faire un classement et 
 Il sera parfois nécessaire d'opérer une compression de données.
 C'est le travail de la statistique descriptive.
 Il sera différent selon que l'étude porte sur une seule ou sur plusieurs variables.
-Le regroupement des données, le calcul des effectifs, la construction de graphiques permettent un premier résumé visuel du caractère statistique étudié. Dans le cas d'un caractère quantitatif continu, l'histogramme en est la représentation graphique la plus courante.
+Le regroupement des données, le calcul des effectifs, la construction de graphiques permettent un premier résumé visuel du caractère statistique étudié.
+Dans le cas d'un caractère quantitatif continu, l'histogramme en est la représentation graphique la plus courante.
 Les valeurs numériques d'un caractère statistique se répartissent dans 
 , il est nécessaire de définir leurs positions.
 En statistiques, on est en général en présence d'un grand nombre de valeurs.
@@ -120,7 +123,8 @@ On peut aussi émettre des hypothèses sur la loi générant le phénomène gén
 Les tests d'hypothèses permettent de quantifier la probabilité avec laquelle des variables (connues seulement à partir d'un échantillon) vérifient une propriété donnée.
 Enfin, on peut chercher à modéliser un phénomène a posteriori.
 La modélisation statistique doit être différenciée de la modélisation physique.
-Dans le second cas, des physiciens (c'est aussi vrai pour des chimistes, biologistes, ou tout autre scientifique), cherchent à construire un modèle explicatif d'un phénomène, qui est soutenu par une théorie plus générale décrivant comment les phénomènes ont lieu en exploitant le principe de causalité. Dans le cas de la modélisation statistique, le modèle va être construit à partir des données disponibles, sans aucun a priori sur les mécanismes entrant en jeu.
+Dans le second cas, des physiciens (c'est aussi vrai pour des chimistes, biologistes, ou tout autre scientifique), cherchent à construire un modèle explicatif d'un phénomène, qui est soutenu par une théorie plus générale décrivant comment les phénomènes ont lieu en exploitant le principe de causalité.
+Dans le cas de la modélisation statistique, le modèle va être construit à partir des données disponibles, sans aucun a priori sur les mécanismes entrant en jeu.
 Ce type de modélisation s'appelle aussi modélisation empirique.
 Compléter une modélisation statistique par des équations physiques (souvent intégrées dans les pré traitements des données) est toujours positif.
 Un modèle est avant tout un moyen de relier des variables à expliquer 

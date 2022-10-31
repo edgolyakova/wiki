@@ -117,7 +117,8 @@ Les ordinateurs devinrent assez fiables pour être vendus à des clients payants
 Les moyennes entreprises pouvaient maintenant acheter ce genre de machines.
 Les circuits intégrés permettent de concevoir une informatique plus décentralisée les constructeurs souhaitant concurrencer le géant IBM.
 Le microprocesseur fut inventé en 1969 par Ted Hoff d'Intel pendant le développement d'une calculatrice pour la firme japonaise Busicom.
-Intel commercialisera le 4004 fin 1971. Ted Hoff avait copié l'architecture du PDP-8, le premier mini-ordinateur, et c'est grâce à la technologie de circuits intégrés LSI (large scale integration), qui permettait de mettre quelques milliers de transistors sur une puce qu'il put miniaturiser les fonctions d'un ordinateur en un seul circuit intégré. La fonction première du microprocesseur était de contrôler son environnement.
+Intel commercialisera le 4004 fin 1971. Ted Hoff avait copié l'architecture du PDP-8, le premier mini-ordinateur, et c'est grâce à la technologie de circuits intégrés LSI (large scale integration), qui permettait de mettre quelques milliers de transistors sur une puce qu'il put miniaturiser les fonctions d'un ordinateur en un seul circuit intégré.
+La fonction première du microprocesseur était de contrôler son environnement.
 Il lisait des interrupteurs, les touches d'un clavier et il agissait en exécutant les opérations requises (addition, multiplication, etc.) et en affichant les résultats.
 Le premier ordinateur personnel fut décrit dans le livre d'Edmund Berkeley, Giant brain, or machines that think, en 1949, et sa construction fut décrite dans une série d'articles du magazine Radio-Electronics à partir du numéro d'octobre 1950. En 1972, une société française développe le Micral, premier micro-ordinateur à être basé sur le microprocesseur 8008. Mais l’ordinateur qui créa l'industrie de l'ordinateur personnel est l'Altair 8800, qui fut décrit pour la première fois dans le magazine Radio-Electronics de janvier 1975. Bill Gates, Paul Allen, Steve Wozniak et Steve Jobs (ordre chronologique) firent tous leurs débuts dans la micro-informatique sur ce produit moins de six mois après son introduction.
 Les ordinateurs furent d'abord utilisés pour le calcul (en nombres entiers d'abord, puis flottants).
@@ -140,7 +141,8 @@ Elle gère la plupart des exécutions des instructions dans l'ordinateur.
 Au sein du système, la mémoire peut être décrite comme une suite de cellules numérotées contenant chacune une petite quantité d’informations.
 Cette information peut servir à indiquer à l’ordinateur ce qu’il doit faire (instructions) ou contenir des données à traiter.
 Dans la plupart des architectures, c'est la même mémoire qui est utilisée pour les deux fonctions.
-Dans les calculateurs massivement parallèles, on admet même que des instructions de programmes soient substituées à d’autres en cours d’opération lorsque cela se traduit par une plus grande efficacité. Cette pratique était jadis courante, mais les impératifs de lisibilité du génie logiciel l'ont fait régresser, hormis dans ce cas particulier, depuis plusieurs décennies.
+Dans les calculateurs massivement parallèles, on admet même que des instructions de programmes soient substituées à d’autres en cours d’opération lorsque cela se traduit par une plus grande efficacité.
+Cette pratique était jadis courante, mais les impératifs de lisibilité du génie logiciel l'ont fait régresser, hormis dans ce cas particulier, depuis plusieurs décennies.
 Cette mémoire peut être réécrite autant de fois que nécessaire.
 La taille de chacun des blocs de mémoire ainsi que la technologie utilisée ont varié selon les coûts et les besoins : 8 bits pour les télécommunications, 12 bits pour l’instrumentation (DEC) et 60 bits pour de gros calculateurs scientifiques (Control Data).
 Un consensus a fini par être trouvé autour de l’octet comme unité adressable et d’instructions sur format de 4 ou 8 octets.

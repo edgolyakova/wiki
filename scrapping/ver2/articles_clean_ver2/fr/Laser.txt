@@ -84,10 +84,12 @@ Ces états sont numérotés par ordre croissant d'énergie avec un nombre entier
 est donc l'état d'énergie la plus basse, correspondant à un électron sur l'orbitale la plus proche du noyau.
 Venons-en aux principaux processus d'interaction entre la lumière et la matière, à savoir l'absorption, l'émission stimulée et l'émission spontanée.
 Considérons un ensemble d'atomes à deux niveaux.
-Si on envoie un champ sur un ensemble d'atomes dans l'état « haut », le phénomène privilégié sera l'émission stimulée et le champ sera amplifié. Pour réaliser un amplificateur optique, il faut donc trouver le moyen d'exciter les atomes vers l'état d'énergie supérieure.
+Si on envoie un champ sur un ensemble d'atomes dans l'état « haut », le phénomène privilégié sera l'émission stimulée et le champ sera amplifié.
+Pour réaliser un amplificateur optique, il faut donc trouver le moyen d'exciter les atomes vers l'état d'énergie supérieure.
 De façon plus générale, si certains atomes sont dans l'état fondamental « bas », des photons peuvent être également absorbés, ce qui diminue l'intensité du champ.
 Il n'y aura amplification que si les atomes sont plus nombreux à être dans l'état « haut » (susceptible d'émettre) que dans l'état « bas » (susceptible d'absorber) : il est nécessaire d'avoir une « inversion de population ».
-Cependant, à l'équilibre thermodynamique, l'état le plus bas est toujours le plus peuplé. Au mieux, les populations oscillent entre les deux niveaux (Oscillations de Rabi).
+Cependant, à l'équilibre thermodynamique, l'état le plus bas est toujours le plus peuplé.
+Au mieux, les populations oscillent entre les deux niveaux (Oscillations de Rabi).
 Pour maintenir une inversion de population, il est nécessaire de fournir constamment un apport d'énergie extérieure aux atomes, pour ramener dans l'état supérieur ceux qui sont repassés dans l'état fondamental après l'émission stimulée : c'est le « pompage ». Les sources d'énergie extérieures peuvent être de différents types, par exemple un générateur électrique, ou un autre laser (pompage optique).
 L'amplificateur est donc un ensemble d'atomes ou molécules que l'on fait passer d'un état fondamental ou faiblement excité 
 à un état plus fortement excité 
@@ -156,7 +158,8 @@ où
 désigne la section illuminée par le flux de pompe et 
 désigne l'intensité du flux de pompe, alors :
 et 
-On classe les lasers selon six familles, en fonction de la nature du milieu excité. Par ailleurs, les lasers peuvent être aussi bien continus que fonctionner dans un régime impulsionnel, auquel cas on pourra les qualifier également selon la durée caractéristique de leurs impulsions (lasers continus / lasers picosecondes / lasers femtosecondes).
+On classe les lasers selon six familles, en fonction de la nature du milieu excité.
+Par ailleurs, les lasers peuvent être aussi bien continus que fonctionner dans un régime impulsionnel, auquel cas on pourra les qualifier également selon la durée caractéristique de leurs impulsions (lasers continus / lasers picosecondes / lasers femtosecondes).
 Ces lasers utilisent des milieux solides, tels que des cristaux ou des verres comme milieu d'émission des photons.
 Le cristal ou le verre n'est que la matrice et doit être dopé par un ion qui est le milieu laser.
 Le plus ancien est le laser à rubis dont l'émission provient de l'ion Cr3+. D'autres ions sont très utilisés (la plupart des terres rares : Nd, Yb, Pr, Er, Tm…, le titane et le chrome, entre autres).
@@ -168,7 +171,8 @@ Le milieu amplificateur peut être un barreau dans le cas d'un laser Nd-YAG (don
 Aujourd'hui, le milieu amplificateur le plus utilisé pour générer des impulsions femtosecondes est le saphir dopé titane.
 Il possède deux bandes d'absorption centrées à 488 et 560 nm.
 Il possède un large spectre d'émission centré à 800 nm.
-Au-delà d'une dimension de cristal de qualité optique acceptable[Quoi ?], ces lasers permettent d'obtenir des puissances de l'ordre du kW en continu et du GW en pulsé. Ils sont utilisés pour des applications tant scientifiques qu'industrielles, en particulier pour la soudure, le marquage et la découpe de matériaux.
+Au-delà d'une dimension de cristal de qualité optique acceptable[Quoi ?], ces lasers permettent d'obtenir des puissances de l'ordre du kW en continu et du GW en pulsé.
+Ils sont utilisés pour des applications tant scientifiques qu'industrielles, en particulier pour la soudure, le marquage et la découpe de matériaux.
 Ce type de laser ressemble au laser solide.
 Ici le milieu amplificateur est une fibre optique dopée avec des ions de terres rares.
 La longueur d'onde obtenue dépend de l'ion choisi (Samarium 0,6 µm ; Ytterbium 1,05 µm ; Erbium 1,55 µm ; Thulium 1,94 µm ; Holmium 2,1 µm).
@@ -189,7 +193,8 @@ Il existe aussi une sous-famille des lasers à gaz : les lasers excimers qui é
 Dans la majorité des cas, ils sont composés d'au moins un gaz noble et habituellement d'un gaz halogène.
 Le terme « excimer » vient de l'anglais excited dimer qui signifie une molécule excitée composée de deux atomes identiques (ex. : Xe2). Or certains lasers dits excimères utilisent des exciplexes qui sont des molécules composées de deux atomes différents (par exemple, gaz noble et halogène : ArF, XeCl).
 On devrait donc les nommer lasers exciplexes plutôt que lasers excimères.
-L'excitation électrique du mélange produit ces molécules exciplexes qui n’existent qu'à l'état excité. Après émission du photon, l'exciplexe disparaît car ses atomes se séparent, donc le photon ne peut être réabsorbé par l'excimer non excité, ce qui permet un bon rendement au laser.
+L'excitation électrique du mélange produit ces molécules exciplexes qui n’existent qu'à l'état excité.
+Après émission du photon, l'exciplexe disparaît car ses atomes se séparent, donc le photon ne peut être réabsorbé par l'excimer non excité, ce qui permet un bon rendement au laser.
 Exemple : Lasik
 Enfin, la source de rayonnement des lasers dits « chimiques » est une réaction, le plus souvent exothermique, émettant un rayonnement électromagnétique.
 Exemple : COIL, Laser Miracl

@@ -104,7 +104,8 @@ Considérons l'ensemble A + A = { m + n | m, n ∈ A } constitué de toutes les 
 Ces questions sont caractéristiques de la théorie combinatoire des nombres.
 Son intérêt pour les questions de croissance et de distribution tient en partie au développement de ses liens avec la théorie ergodique, la théorie des groupes finis, la théorie des modèles et d'autres domaines.
 Les ensembles étudiés n'ont pas besoin d'être des ensembles d'entiers, mais plutôt des sous-ensembles de groupes non commutatifs, pour lesquels le symbole de multiplication, et non le symbole d'addition, est traditionnellement utilisé; ils peuvent également être des sous-ensembles d'anneaux.
-Il y a deux questions principales: « pouvons-nous calculer cela ? » et « pouvons-nous le calculer rapidement ? ». N'importe qui peut tester si un nombre est premier ou, si ce n'est pas le cas, obtenir sa décomposition en facteurs premiers ; le faire rapidement devient plus compliqué. Nous connaissons aujourd'hui des algorithmes rapides pour tester la primalité, mais, malgré beaucoup de travail (à la fois théorique et pratique), aucun algorithme n'est vraiment rapide pour cette tâche.
+Il y a deux questions principales: « pouvons-nous calculer cela ? » et « pouvons-nous le calculer rapidement ? ». N'importe qui peut tester si un nombre est premier ou, si ce n'est pas le cas, obtenir sa décomposition en facteurs premiers ; le faire rapidement devient plus compliqué.
+Nous connaissons aujourd'hui des algorithmes rapides pour tester la primalité, mais, malgré beaucoup de travail (à la fois théorique et pratique), aucun algorithme n'est vraiment rapide pour cette tâche.
 La difficulté d'un calcul peut être utile : les protocoles modernes de chiffrement de messages (par exemple, le RSA) dépendent de fonctions connues de tous, mais dont les inverses ne sont connus que d'un petit nombre, et les trouver par ses propres moyens prendrait trop de temps.
 Alors que de nombreux problèmes de calcul en dehors de la théorie des nombres sont connus, la plupart des protocoles de chiffrement actuels sont basés sur la difficulté de quelques problèmes théoriques.
 Il s'avère que certaines choses peuvent ne pas être calculables du tout ; cela peut être prouvé dans certains cas.
@@ -164,7 +165,8 @@ Il a également conjecturé ce qui équivaut aujourd'hui au théorème des nombr
 Il a donné une analyse complète de l'équation 
 . Durant la fin de sa vie, il fut le premier à prouver le dernier théorème de Fermat pour n = 5.
 Dans ses Disquisitiones Arithmeticae , Carl Friedrich Gauss (1777-1855) a démontré la loi de réciprocité quadratique et développé la théorie des formes quadratiques.
-Il a également introduit la notation de congruence et a consacré une section aux tests de primalité. La dernière section des Disquisitiones établit un lien entre les racines de l'unité et la théorie des nombres.
+Il a également introduit la notation de congruence et a consacré une section aux tests de primalité.
+La dernière section des Disquisitiones établit un lien entre les racines de l'unité et la théorie des nombres.
 De cette façon, Gauss a sans doute amorcé le travail d'Évariste Galois et de la théorie algébrique des nombres.
 Commençant au début du XIXe siècle, les développements suivants ont progressivement eu lieu :
 « La mathématique est la reine des sciences et la théorie des nombres est la reine des mathématiques. » Gauss

@@ -61,7 +61,8 @@ Si une série ne respecte pas cette condition, on dit qu'elle diverge grossière
 La série de terme général (1/2)n est convergente et sa somme vaut :
 + 1/2 + 1/4 + 1/8 + 1/16 + ⋯ = 2.
 Il est possible de « visualiser » sa convergence sur la droite réelle : on peut imaginer un segment de longueur 2, que l'on découpe en segments successifs de longueurs 1, 1/2, 1/4, etc.
-Il y a toujours assez de place pour marquer le segment suivant, parce que la longueur restante est constamment égale à la longueur du segment qui vient d'être marqué. Lorsque nous avons marqué 1/2, il reste un morceau de longueur 1/2 non marqué, ainsi nous pouvons encore certainement marquer le prochain 1/4. Cet argument ne peut en aucune façon servir de démonstration que la somme de toutes les longueurs des segments est égale à 2, mais permet de deviner que cette somme va rester inférieure à 2 et donc que la suite des sommes partielles est croissante et majorée.
+Il y a toujours assez de place pour marquer le segment suivant, parce que la longueur restante est constamment égale à la longueur du segment qui vient d'être marqué.
+Lorsque nous avons marqué 1/2, il reste un morceau de longueur 1/2 non marqué, ainsi nous pouvons encore certainement marquer le prochain 1/4. Cet argument ne peut en aucune façon servir de démonstration que la somme de toutes les longueurs des segments est égale à 2, mais permet de deviner que cette somme va rester inférieure à 2 et donc que la suite des sommes partielles est croissante et majorée.
 Cette série est une série géométrique ; on démontre sa convergence en écrivant pour tout entier naturel n, sa somme partielle au rang n qui vaut :
 La suite géométrique 
 de raison 1/2 est convergente et de limite nulle donc

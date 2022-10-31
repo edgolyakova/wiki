@@ -48,7 +48,8 @@ On distingue notamment :
 L’ensemble des couples 
 définit le graphe de la fonction.
 Dans le cas d’une fonction réelle d'une variable réelle, ce graphe est inclus dans le plan 
-et se présente comme une courbe appelée courbe représentative, sur laquelle on peut faire figurer les extrema locaux, certaines tangentes ou demi-tangentes, les asymptotes et mettre en évidence les variations et les zones de convexité ou concavité. Cette représentation permet aussi de visualiser les points d’annulation ou zéros de la fonction, son signe, et éventuellement une majoration ou minoration, sa parité et sa périodicité.
+et se présente comme une courbe appelée courbe représentative, sur laquelle on peut faire figurer les extrema locaux, certaines tangentes ou demi-tangentes, les asymptotes et mettre en évidence les variations et les zones de convexité ou concavité.
+Cette représentation permet aussi de visualiser les points d’annulation ou zéros de la fonction, son signe, et éventuellement une majoration ou minoration, sa parité et sa périodicité.
 Une fonction définie par une liste de valeurs numériques peut être représentée par un nuage de points, une courbe polygonale ou un diagramme en barres.
 Pour une fonction réelle de deux variables, le graphe correspond en général à une surface dans l’espace 
 , sur laquelle on peut faire apparaitre des lignes de niveau, en utilisant éventuellement un code couleur pour mettre en évidence le relief.
@@ -66,7 +67,8 @@ Une même fonction peut d’ailleurs être définie par des formules différente
 Une fonction peut aussi être définie globalement par une équation ou un système d'équations.
 En particulier, on définit une fonction implicite si l’ensemble des solutions d’une équation à deux inconnues x et y peut correspondre au graphe d’une fonction, c’est-à-dire si pour toute valeur de x il existe au plus une solution de la forme 
 . Une fonction peut aussi être définie de proche en proche par une équation différentielle voire une équation aux dérivées partielles, ou par récurrence dans le cas d’une fonction arithmétique.
-On peut encore définir une fonction sur un ensemble dense dans un autre et étendre la définition par continuité. Ce procédé permet notamment de justifier l’existence de la courbe de Peano et d’autres fonctions continues mais nulle part dérivable.
+On peut encore définir une fonction sur un ensemble dense dans un autre et étendre la définition par continuité.
+Ce procédé permet notamment de justifier l’existence de la courbe de Peano et d’autres fonctions continues mais nulle part dérivable.
 Il peut être utilisé aussi pour définir des fonctions sur un corps de nombres p-adiques.
 Tous ces procédés de détermination mathématique s’accompagnent de problèmes de calcul effectif, qui s’étudient dans le cadre de l’analyse numérique.
 L’analyse mathématique s’entend le plus souvent dans l’étude d’une fonction numérique, avec la recherche de son signe et de ses variations, la détermination d’éventuels majorant ou minorant, points fixes et limites, voire le calcul de son intégrale.

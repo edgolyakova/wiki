@@ -75,7 +75,8 @@ En conséquence, la puissance sonore par unité de surface diminue en proportion
 La plupart du temps, l'atténuation par absorption dans le milieu de propagation varie selon la fréquence.
 Dans l'air, en 500 m, l'amplitude d'une onde à 8 000 Hz est dix fois plus affaiblie qu'une onde à basse fréquence.
 On n'en connaît que certaines causes.
-La viscosité de l'air provoque une atténuation proportionnelle au carré de la fréquence ; des échanges thermiques causent un affaiblissement supplémentaire, proportionnel à la fréquence et variable selon la composition de l'air, notamment selon son humidité. La mesure montre une atténuation supplémentaire qui n'a pas été intégrée aux modèles théoriques,.
+La viscosité de l'air provoque une atténuation proportionnelle au carré de la fréquence ; des échanges thermiques causent un affaiblissement supplémentaire, proportionnel à la fréquence et variable selon la composition de l'air, notamment selon son humidité.
+La mesure montre une atténuation supplémentaire qui n'a pas été intégrée aux modèles théoriques,.
 L'étude de la propagation dans un endroit donné s'effectue à partir de la pression acoustique, qui exprime la puissance sonore.
 On l’exprime souvent en décibels par rapport à la limite de perception, ou à partir de l'intensité acoustique, qui exprime la quantité et la direction de la puissance qui se transfère par la vibration du milieu.
 On construit ainsi un modèle mathématique du champ acoustique.
@@ -106,7 +107,8 @@ On distingue plusieurs caractères du son :
 Il suffit qu'un de ces caractères varie, les autres restant inchangés, pour qu'on perçoive une différence.
 La répétition d'une forme dans le temps entraîne la notion de rythme.
 Par ailleurs, les êtres humains sont capables de distinguer et de suivre une émission sonore dotée d'une certaine continuité de caractères au milieu d'une quantité d'autres (effet cocktail party).
-La psychoacoustique étudie l'intensité sonore ressentie en présence d'un son physique donné. Cette impression de son fort ou doux (les musiciens disent forte ou piano) dépend principalement de la valeur efficace de la pression acoustique, qui est la petite variation de pression atmosphérique qui définit le son.
+La psychoacoustique étudie l'intensité sonore ressentie en présence d'un son physique donné.
+Cette impression de son fort ou doux (les musiciens disent forte ou piano) dépend principalement de la valeur efficace de la pression acoustique, qui est la petite variation de pression atmosphérique qui définit le son.
 On peut utiliser deux grandeurs, liées entre elles, pour exprimer le niveau sonore : l'intensité acoustique, en watts par mètre carré, ou la pression acoustique, en pascals (newton par mètre carré, N m−2). On mesure la pression acoustique en un point avec un sonomètre ; l'intensité acoustique, qui inclut la direction de propagation de l'onde, est moins directement reliée à la perception.
 Moins accessible à la mesure, elle sert pour les calculs d'acoustique.
 Cependant, on utilise rarement ces unités physiques dans la communication courante :
@@ -120,7 +122,8 @@ L'intensité acoustique est une puissance par mètre carré, donc multiplier l'i
 La puissance acoustique est proportionnelle au carré de la pression : multiplier la pression acoustique par 10, c'est multiplier la puissance par 100, donc augmenter le niveau de 20 dB, et multiplier la pression acoustique par 100, c'est multiplier la puissance par dix mille, et ajouter 40 dB au niveau.
 Le niveau de pression acoustique ne donne qu'une première idée de la sonie ou bruyance (sensation sonore perçue).
 La sensibilité de l'oreille varie selon la fréquence du son ; l'oreille est plus sensible aux fréquences moyennes.
-Pour se rapprocher de cette sensibilité, le signal électrique qui représente la pression acoustique peut être filtré. De nombreuses lois et règlements imposent un filtre à pondération « A ». On parle alors de décibel pondéré A (dB A).
+Pour se rapprocher de cette sensibilité, le signal électrique qui représente la pression acoustique peut être filtré.
+De nombreuses lois et règlements imposent un filtre à pondération « A ». On parle alors de décibel pondéré A (dB A).
 Le volume d'un son, c'est-à-dire la sensation sonore, dépend de la puissance transmise aux oreilles des auditeurs.
 Pour l'évaluer, on utilise un microphone qui transforme la pression acoustique en un signal électrique que l'on mesure.
 La grandeur qui reflète le niveau sonore est la valeur efficace de la pression acoustique ou de la tension électrique qui la représente, qui est la valeur continue qui produit la même puissance que le signal.
@@ -148,7 +151,8 @@ Définir un signal dans l'espace fréquentiel, c'est dire quel est son spectre, 
 Le spectre d'un signal représente les fréquences des différentes sinusoïdes ou « sons purs » qui, si on les ajoutait, le reconstitueraient.
 Ces composantes d'un son complexe sont appelés partiels.
 Lorsque ces fréquences sont des multiples d'une même fréquence, appelée fondamentale, les autres sont des harmoniques.
-Si les fréquences présentes sont parfaitement connues, on n'a aucune idée de la valeur de la pression acoustique à un moment donné. Le spectre présente chaque valeur sous forme d'une « raie » dont la hauteur ou la couleur varie avec son amplitude.
+Si les fréquences présentes sont parfaitement connues, on n'a aucune idée de la valeur de la pression acoustique à un moment donné.
+Le spectre présente chaque valeur sous forme d'une « raie » dont la hauteur ou la couleur varie avec son amplitude.
 Le spectre d'un son pur présente une seule raie.
 Dans ces études, on fait comme si le signal était commencé depuis toujours et continuait à l'infini.
 Mais les signaux sonores réels commencent et finissent, et on s'intéresse en pratique à la fois aux fréquences qu'il contient et au moment où on peut les détecter.
