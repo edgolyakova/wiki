@@ -4,6 +4,7 @@ import string
 import csv
 import re
 import pickle
+import math
 from unicodedata import normalize
 from numpy import array, argmax
 from keras.preprocessing.text import Tokenizer
@@ -61,7 +62,7 @@ def clean_dataset(InputFile, OutputFile):
       line = [word for word in line if word.isalpha()]
       # store as string
       clean_pair.append(' '.join(line))
-  cleaned.append(clean_pair)
+    cleaned.append(clean_pair)
   pickle.dump(array(cleaned), open(OutputFile, 'wb'))
   print("* "*5 + "Saved Clean Dataset" + " *"*5)
   return OutputFile
@@ -70,7 +71,11 @@ def clean_dataset(InputFile, OutputFile):
 def split_train_test(InputFile, TrainFile, TestFile):
   # load dataset
   dataset = pickle.load(open(InputFile, 'rb'))
-  train, test = dataset[0:1], dataset[0:]
+  # Calculate length of dataset
+  n = len(dataset)
+  # Calculate the partition index for 20% for test and 80% for training
+  ind = math.floor(n * 0.8)
+  train, test = dataset[:ind], dataset[ind:]
   # save to file
   pickle.dump(train, open(TrainFile, 'wb'))
   pickle.dump(test, open(TestFile, 'wb'))
