@@ -13,6 +13,7 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense, Input, TimeDistributed, Activation, RepeatVector, Embedding, Dropout
 from nltk.translate.bleu_score import corpus_bleu
 
+
 # Preprocess dataset
 def convert_comma_csv_to_tab_format(InputFile, OutputFile):
   InputFile = InputFile
@@ -63,6 +64,8 @@ def clean_dataset(InputFile, OutputFile):
       # store as string
       clean_pair.append(' '.join(line))
     cleaned.append(clean_pair)
+  print(cleaned)
+  print(cleaned[-1])
   pickle.dump(array(cleaned), open(OutputFile, 'wb'))
   print("* "*5 + "Saved Clean Dataset" + " *"*5)
   return OutputFile
