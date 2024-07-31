@@ -12,15 +12,6 @@ This corpus was later used to create several annotation types:
   
 The annotated corpora were then used to fine-tune [OPUS-mt](https://huggingface.co/Helsinki-NLP/opus-mt-en-mt) (T5-like) models.
 
-Find more details in the report.
-
-
-
-# Repository structure
-- Word alignment between source and target sentence (corresponding notebooks for French and for Chinese)
-- PoS tagging (corresponding notebooks for French and for Chinese)
-- Finetuning and evaluating with BLEU (for French and for Chinese)
-
 
 # Results
 
